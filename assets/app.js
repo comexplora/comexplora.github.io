@@ -1438,7 +1438,7 @@ document.addEventListener('submit', async e => {
   try {
     const fd = new FormData(); fd.append('fields[email]', email); fd.append('ml-submit', '1'); fd.append('anticsrf', 'true');
     await fetch(nl.formAction, { method: 'POST', body: fd, mode: 'no-cors' });
-    form.reset(); msg.textContent = '¡Listo! Revisá tu correo para confirmar la suscripción.';
+    form.reset(); msg.textContent = '¡Listo! Te mandamos un correo para confirmar la suscripción: tocá el botón que trae. Si no lo ves en unos minutos, revisá Spam o Promociones.';
     window.gtag?.('event', 'sign_up', { method: 'newsletter' });
   } catch (err) {
     msg.textContent = 'No se pudo enviar. Probá de nuevo en unos minutos.';
