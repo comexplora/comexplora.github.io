@@ -11,6 +11,7 @@ El workflow `.github/workflows/update-news.yml` corre a las 06:30, 10:30, 14:30,
    - Una fuente caída no frena a las demás; el resumen de cada corrida (qué fuentes respondieron y cuántas notas nuevas hubo) aparece en la página de la ejecución en Actions y en `data/sources-status.json`.
    - Deduplica por enlace original. Las notas que cuentan el mismo hecho con otro título se agrupan (`group_auto`): queda la más completa y las demás pasan a «También publicaron esta noticia» (fuentes con `alsoIn: true`); sus direcciones viejas redirigen a la que quedó (`mergedIds`).
    - Descarta notas fuera de tema aunque usen palabras del rubro: lista `EXCLUDE` (aranceles médicos o notariales, accidentes, cruceros, promociones de consumo…). Se aplica también a lo que ya estaba guardado.
+   - No publica notas de medios bloqueados (`BLOCKED_DOMAINS`: órganos de propaganda de partes en un conflicto armado y medios estatales sancionados por la UE, como saba.ye, RT o HispanTV). Si el medio bloqueado figura solo como «+N medios», se quita de la lista; si es el principal, se retira la nota.
    - Google Noticias no trae resumen: el bot resuelve el enlace del medio (hasta `MAX_GN_RESOLVE` por corrida) y toma la descripción y la imagen que la página publica para compartir. Si no puede, la nota se muestra solo con el titular y un aviso (nunca con texto de relleno).
    - Limpia firmas al inicio de los resúmenes («Por Redacción … @…»).
    - Detecta países, categorías y si la nota menciona a Argentina.

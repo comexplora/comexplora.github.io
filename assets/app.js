@@ -94,6 +94,8 @@ const COUNTRY_REGIONS = {
   'Bangladés':['Asia'], 'Pakistán':['Asia'], 'Sri Lanka':['Asia'],
   'Israel':['Medio Oriente'], 'Catar':['Medio Oriente'], 'Omán':['Medio Oriente'], 'Egipto':['Medio Oriente','África'],
   'Marruecos':['África'], 'Sudáfrica':['África'], 'Angola':['África'], 'Nigeria':['África'], 'Kenia':['África'], 'Costa de Marfil':['África'],
+  'Cuba':['Latinoamérica'], 'Estonia':['Europa'], 'Letonia':['Europa'], 'Lituania':['Europa'], 'Finlandia':['Europa'], 'Suecia':['Europa'],
+  'Dinamarca':['Europa'], 'Irlanda':['Europa'], 'Suiza':['Europa'], 'Austria':['Europa'],
   'Global':['Global']
 };
 const TOPIC_REGIONS = { 'Latinoamérica':'Latinoamérica', 'Mercosur':'Mercosur', 'Europa':'Europa', 'Asia':'Asia', 'China':'Asia', 'Oceanía':'Oceanía', 'Estados Unidos':'Norteamérica', 'Argentina':'Argentina' };
@@ -109,7 +111,9 @@ const COORDS = {
   'Bélgica':[4.5,50.6],'Grecia':[22,39],'Noruega':[9,61],'Portugal':[-8,39.5],'Rusia':[60,57],'Ucrania':[31,49],'Turquía':[35,39],
   'Corea del Sur':[128,36],'Indonesia':[118,-2],'Malasia':[102,4],'Filipinas':[122,12],'Tailandia':[101,15],'Taiwán':[121,24],
   'Bangladés':[90,24],'Pakistán':[70,30],'Sri Lanka':[81,7.8],'Israel':[35,31],'Catar':[51,25],'Omán':[57,21],'Egipto':[30,27],'Marruecos':[-6,32],
-  'Sudáfrica':[25,-29],'Angola':[18,-12],'Nigeria':[8,9],'Kenia':[38,0],'Costa de Marfil':[-5.5,7.5]
+  'Sudáfrica':[25,-29],'Angola':[18,-12],'Nigeria':[8,9],'Kenia':[38,0],'Costa de Marfil':[-5.5,7.5],
+  'Cuba':[-79,21.5],'Estonia':[25,58.7],'Letonia':[24.6,56.9],'Lituania':[23.9,55.2],'Finlandia':[26,62],'Suecia':[16,62],
+  'Dinamarca':[10,56],'Irlanda':[-8,53.2],'Suiza':[8.2,46.8],'Austria':[14.5,47.5]
 };
 
 const KINDS = { noticia:'Noticia', analisis:'Análisis', datos:'Datos', opinion:'Opinión de terceros' };

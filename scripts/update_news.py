@@ -78,15 +78,21 @@ RELEVANCE = ['comercio exterior', 'comercio internacional', 'comex', 'trade', 'e
 COUNTRIES = {
     'Argentina': [r'argentin', r'\barca\b', r'\bafip\b', r'\bindec\b', r'buenos aires', r'rosario', r'casa rosada', r'milei', r'caputo',
                   r'\bsanta fe\b(?! de bogota)', r'mendoza', r'neuquen', r'vaca muerta', r'tucuman', r'chubut', r'jujuy', r'entre rios',
-                  r'bahia blanca', r'\bsenasa\b', r'\bbcra\b', r'ciara-cec', r'\babeceb\b'],
-    'Brasil': [r'brasil', r'brazil', r'brasilen', r'brazilian', r'lula\b', r'itamaraty'],
+                  r'bahia blanca', r'\bsenasa\b', r'\bbcra\b', r'ciara-cec', r'\babeceb\b',
+                  r'\bchaco\b(?! (paraguayo|boreal|boliviano))', r'\bzdero\b', r'correntin', r'provincia de corrientes', r'misiones (argentina|provincia)',
+                  r'provincia de (salta|misiones|la rioja|san juan|catamarca|formosa)', r'catamarca', r'santiago del estero', r'\bla pampa\b',
+                  r'tierra del fuego', r'provincia de cordoba', r'cordoba,? argentina', r'gobierno de cordoba', r'llaryora', r'mar del plata', r'quequen', r'\bzarate\b', r'san nicolas de los arroyos'],
+    'Brasil': [r'brasil', r'brazil', r'brasilen', r'brazilian', r'lula\b', r'itamaraty', r'paranagua', r'puerto de santos', r'\bitajai',
+               r'sao paulo', r'rio grande do sul', r'\bmdic\b', r'bolsonaro'],
     'Uruguay': [r'uruguay', r'montevideo', r'nueva palmira'], 'Paraguay': [r'paraguay', r'asuncion del paraguay'],
     'Chile': [r'\bchile', r'bio ?bio', r'valparaiso', r'iquique', r'antofagasta', r'talcahuano', r'mejillones', r'\barica\b',
-              r'punta arenas', r'puerto montt', r'coquimbo', r'\bcsav\b', r'\bsitrans\b', r'puerto (de )?san antonio', r'puerto (de )?coronel', r'gran concepcion', r'\bsubtel\b'],
+              r'punta arenas', r'puerto montt', r'coquimbo', r'\bcsav\b', r'\bsitrans\b', r'puerto (de )?san antonio', r'puerto (de )?coronel', r'gran concepcion', r'\bsubtel\b',
+              r'terminal pacifico sur', r'san vicente terminal', r'puerto angamos', r'lirquen'],
     'Bolivia': [r'bolivia', r'santa cruz de la sierra', r'tarija', r'cochabamba'],
     'Perú': [r'\bperu', r'chancay', r'\bcallao'], 'Colombia': [r'colombia', r'ecopetrol'], 'México': [r'mexic'], 'Panamá': [r'panama'],
     'Ecuador': [r'ecuador', r'guayaquil'], 'Venezuela': [r'venezuel'], 'Guatemala': [r'guatemal'], 'Costa Rica': [r'costa rica'],
-    'República Dominicana': [r'dominican', r'santo domingo', r'dr-cafta'],
+    'República Dominicana': [r'dominican', r'santo domingo', r'dr-cafta', r'abinader', r'danilo medina', r'abel martinez', r'\bcaucedo\b'],
+    'Cuba': [r'\bcuba\b', r'\bcuban', r'la habana', r'\bmariel\b'],
     'Estados Unidos': [r'estados unidos', r'eeuu', r'ee\.uu', r'united states', r'\bu\.s\.', r'washington', r'trump', r'\bustr\b', r'casa blanca', r'white house'],
     'Canadá': [r'canad'], 'China': [r'\bchina\b', r'chinese', r'chino', r'beijing', r'pekin', r'shanghai'],
     'Japón': [r'japon', r'japan'], 'India': [r'\bindia\b', r'indian'], 'Corea del Sur': [r'corea del sur', r'south korea', r'surcorean'],
@@ -94,11 +100,16 @@ COUNTRIES = {
     'Filipinas': [r'filipinas', r'philippin'], 'Tailandia': [r'tailandia', r'thailand'], 'Taiwán': [r'taiwan'],
     'Bangladés': [r'banglad'], 'Pakistán': [r'pakistan'], 'Sri Lanka': [r'sri lanka'],
     'Unión Europea': [r'union europea', r'european union', r'\bue\b', r'\beu\b', r'comision europea', r'european commission', r'bruselas', r'brussels'],
-    'Alemania': [r'alemania', r'german'], 'España': [r'espana', r'\bspain'], 'Francia': [r'francia', r'\bfrance', r'french'],
+    'Alemania': [r'alemania', r'german'], 'España': [r'espana', r'\bspain', r'galicia', r'gallega', r'baleares', r'canarias', r'andaluc', r'catalu', r'\bmadrid\b',
+                r'barcelona', r'algeciras', r'\bbilbao\b', r'valenciaport', r'puerto de valencia', r'\bvigo\b', r'tarragona'], 'Francia': [r'francia', r'\bfrance', r'french'],
     'Italia': [r'italia', r'\bital', r'trieste', r'genova'], 'Reino Unido': [r'reino unido', r'united kingdom', r'\buk\b', r'britan'],
     'Países Bajos': [r'paises bajos', r'holand', r'netherlands', r'rotterdam', r'amsterdam'], 'Bélgica': [r'belgica', r'belgium', r'amberes', r'antwerp'],
     'Grecia': [r'grecia', r'greece', r'\bel pireo\b', r'piraeus', r'heraklion'], 'Noruega': [r'noruega', r'norway'], 'Polonia': [r'polonia', r'poland'],
     'Portugal': [r'portugal', r'lisboa'],
+    'Estonia': [r'estonia', r'tallin'], 'Letonia': [r'letonia', r'latvia', r'\briga\b'], 'Lituania': [r'lituania', r'lithuania', r'klaipeda'],
+    'Finlandia': [r'finlandia', r'finland'], 'Suecia': [r'suecia', r'sweden', r'swedish', r'gotemburgo', r'gothenburg'],
+    'Dinamarca': [r'dinamarca', r'denmark', r'copenhague'], 'Irlanda': [r'irlanda', r'ireland'], 'Suiza': [r'\bsuiza\b', r'switzerland', r'\bswiss\b'],
+    'Austria': [r'\baustria\b'],
     'Rusia': [r'rusia', r'russia'], 'Ucrania': [r'ucrania', r'ukrain'], 'Turquía': [r'turquia', r'turkey', r'turkiye'],
     'Arabia Saudita': [r'arabia saudita', r'saudi'], 'Emiratos Árabes Unidos': [r'emiratos', r'\buae\b', r'dubai'],
     'Irán': [r'\biran'], 'Irak': [r'\birak', r'\biraq'], 'Israel': [r'israel'], 'Catar': [r'\bcatar\b', r'\bqatar'], 'Omán': [r'\boman\b'],
@@ -108,9 +119,10 @@ COUNTRIES = {
     'Nueva Zelanda': [r'nueva zelanda', r'new zealand'],
 }
 LATAM = {'Argentina', 'Brasil', 'Uruguay', 'Paraguay', 'Chile', 'Bolivia', 'Perú', 'Colombia', 'México', 'Panamá',
-         'Ecuador', 'Venezuela', 'Guatemala', 'Costa Rica', 'República Dominicana'}
+         'Ecuador', 'Venezuela', 'Guatemala', 'Costa Rica', 'República Dominicana', 'Cuba'}
 EUROPE = {'Unión Europea', 'Alemania', 'España', 'Francia', 'Italia', 'Reino Unido', 'Rusia', 'Ucrania', 'Turquía',
-          'Países Bajos', 'Bélgica', 'Grecia', 'Noruega', 'Polonia', 'Portugal'}
+          'Países Bajos', 'Bélgica', 'Grecia', 'Noruega', 'Polonia', 'Portugal', 'Estonia', 'Letonia', 'Lituania',
+          'Finlandia', 'Suecia', 'Dinamarca', 'Irlanda', 'Suiza', 'Austria'}
 ASIA = {'China', 'Japón', 'India', 'Corea del Sur', 'Vietnam', 'Indonesia', 'Singapur', 'Malasia', 'Filipinas', 'Tailandia',
         'Taiwán', 'Bangladés', 'Pakistán', 'Sri Lanka'}
 OCEANIA = {'Australia', 'Nueva Zelanda'}
@@ -175,7 +187,28 @@ EXCLUDE = [
     r'galardon', r'recibe (un |el )?(premio|reconocimiento)',
     # Obras y servicios sin efecto en el comercio de mercaderías.
     r'locomotoras? para (el|la) (metro|linea)', r'turbina eolica', r'\bferr(y|ies) electric', r'redes [56]g\b', r'\b[56]g y [56]g\b', r'artesan',
+    # Ofertas de productos de consumo ("envío gratis y sin aduanas"), concursos, fiestas y curiosidades (11/10).
+    r'envio gratis.{0,80}(llega|por \d|euros|dolares)', r'\bchollo', r'precio minimo historico', r'\bcupon(es)? de descuento',
+    r'concurso de (pintura|dibujo|fotografia|cuentos?|poesia)', r'pintura infantil', r'eleccion de la (reina|embajadora|soberana)',
+    r'\breina (nacional|provincial) de', r'reconocid[oa] por (el )?programa', r'tazas? comestible',
 ]
+
+# Medios que no se publican aunque su nota hable de comercio: órganos de propaganda de partes en un conflicto armado
+# y medios estatales sancionados por la UE. Se descartan al ingresar y se retiran del archivo (también como "+N medios").
+BLOCKED_DOMAINS = ['saba.ye', 'almasirah.net', 'almasirah.net.ye', 'rt.com', 'sputniknews.com', 'sputniknews.lat', 'mundo.sputniknews.com',
+                   'hispantv.com', 'presstv.ir', 'irna.ir', 'tasnimnews.com', 'farsnews.ir', 'kcna.kp']
+
+
+def blocked(name: str = '', url: str = '') -> bool:
+    """True si el medio (nombre o dirección) está en BLOCKED_DOMAINS."""
+    host = re.sub(r'^https?://', '', (url or '').lower()).split('/')[0].split(':')[0]
+    name = re.sub(r'^https?://', '', (name or '').lower().strip()).split('/')[0]
+    for d in BLOCKED_DOMAINS:
+        for h in (host, name):
+            if h and (h == d or h.endswith('.' + d)):
+                return True
+    return False
+
 
 # Etiquetas propias detectadas en el texto (las categorías de los feeds traían ruido: "inter", "ig", "Titulares"…)
 TAG_RULES = [
@@ -892,7 +925,7 @@ def main():
                 if src.get('aggregator') and not strong(p['title']):
                     skipped += 1
                     continue
-                if excluded(p['title'] + ' ' + p['desc']):
+                if excluded(p['title'] + ' ' + p['desc']) or blocked(p['origin'], p['url']):
                     skipped += 1
                     continue
                 if added >= max_new:  # las repetidas con otro título se agrupan después (group_auto)
@@ -994,6 +1027,15 @@ def main():
             continue
         feed = it.get('feed') or (it.get('sources') or [{}])[0].get('name', '')
         via_aggregator = feed in aggregators or 'vía Google Noticias' in (it.get('sources') or [{}])[0].get('type', '')
+        srcs = it.get('sources') or []
+        if any(blocked(x.get('name', ''), x.get('url', '')) for x in srcs):
+            kept = [x for x in srcs if not blocked(x.get('name', ''), x.get('url', ''))]
+            if kept and not kept[0].get('alsoIn'):
+                it['sources'] = kept
+            else:  # el medio bloqueado era el principal: se retira la nota
+                excluded_n += 1
+                del by_url[key]
+                continue
         if feed in disabled or (via_aggregator and not strong(it.get('title', ''))) \
                 or excluded(it.get('title', '') + ' ' + it.get('summary', '')):
             excluded_n += 1
