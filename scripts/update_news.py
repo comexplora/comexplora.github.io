@@ -37,7 +37,7 @@ NEWS = DATA / 'news.json'
 STATUS = DATA / 'sources-status.json'
 TZ = timezone(timedelta(hours=-3))
 NOW = datetime.now(timezone.utc)
-UA = 'Mozilla/5.0 (compatible; PulsoComexBot/1.1; +https://pulsocomex.com.ar)'
+UA = 'Mozilla/5.0 (compatible; PulsoComexBot/1.1; +https://pulso-comex.github.io/)'
 
 MAX_AGE_DAYS = 21          # al ingresar, ignorar notas más viejas que esto
 ARCHIVE_DAYS = 365         # las notas automáticas se conservan un año
