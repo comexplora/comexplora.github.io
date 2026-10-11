@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "pulso-comex",
-  "updatedAt": "2026-10-11T21:42:23Z",
+  "updatedAt": "2026-10-11T22:09:06Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -142,7 +142,7 @@
       "obsDate": "2026-10-09",
       "change": "-0,2% vs. día hábil anterior",
       "trend": "down",
-      "checkedAt": "2026-10-11T21:42:59Z",
+      "checkedAt": "2026-10-11T22:09:20Z",
       "history": [
         [
           "2026-08-31",
@@ -267,7 +267,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-11T21:42:59Z"
+      "lastAttempt": "2026-10-11T22:09:20Z"
     },
     {
       "id": "soja",
@@ -284,7 +284,7 @@
         "date": "2026-10-08",
         "ars": 560000.0
       },
-      "checkedAt": "2026-10-11T21:43:00Z",
+      "checkedAt": "2026-10-11T22:09:21Z",
       "_prev": {
         "date": "2026-10-07",
         "ars": 560000.0
@@ -313,7 +313,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-11T21:43:00Z"
+      "lastAttempt": "2026-10-11T22:09:21Z"
     },
     {
       "id": "brent",
@@ -326,7 +326,7 @@
       "obsDate": "2026-10-06",
       "change": "-0,1% vs. día anterior",
       "trend": "down",
-      "checkedAt": "2026-10-11T21:43:03Z",
+      "checkedAt": "2026-10-11T22:09:24Z",
       "history": [
         [
           "2026-08-25",
@@ -451,7 +451,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-10-11T21:43:03Z"
+      "lastAttempt": "2026-10-11T22:09:24Z"
     },
     {
       "id": "maiz",
@@ -468,7 +468,7 @@
         "date": "2026-10-08",
         "ars": 293500.0
       },
-      "checkedAt": "2026-10-11T21:43:03Z",
+      "checkedAt": "2026-10-11T22:09:24Z",
       "_prev": {
         "date": "2026-10-07",
         "ars": 294800.0
@@ -497,7 +497,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-11T21:43:03Z"
+      "lastAttempt": "2026-10-11T22:09:24Z"
     },
     {
       "id": "trigo",
@@ -514,7 +514,7 @@
         "date": "2026-10-08",
         "ars": 342700.0
       },
-      "checkedAt": "2026-10-11T21:43:03Z",
+      "checkedAt": "2026-10-11T22:09:24Z",
       "_prev": {
         "date": "2026-10-07",
         "ars": 342300.0
@@ -543,7 +543,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-11T21:43:03Z"
+      "lastAttempt": "2026-10-11T22:09:24Z"
     }
   ],
   "items": [
@@ -557,10 +557,11 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Puertos"
+        "Puertos",
+        "Latinoamérica"
       ],
       "countries": [
-        "Global"
+        "Brasil"
       ],
       "tags": [
         "Puertos"
@@ -592,10 +593,11 @@
       "keyData": [],
       "topics": [
         "Transporte marítimo",
-        "Puertos"
+        "Puertos",
+        "Latinoamérica"
       ],
       "countries": [
-        "Global"
+        "Chile"
       ],
       "tags": [
         "Contenedores"
@@ -630,6 +632,7 @@
       "keyData": [],
       "topics": [
         "Aranceles",
+        "Impuestos",
         "Estados Unidos"
       ],
       "countries": [
@@ -667,17 +670,21 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Importaciones",
         "Aranceles",
+        "Latinoamérica",
         "Estados Unidos"
       ],
       "countries": [
+        "República Dominicana",
         "Estados Unidos"
       ],
       "tags": [
+        "Agro",
         "Aranceles",
         "Estados Unidos"
       ],
-      "visual": "customs",
+      "visual": "agro",
       "impact": 1,
       "affectsArgentina": false,
       "kind": "noticia",
@@ -705,11 +712,13 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Importaciones",
         "Aranceles",
-        "Regulaciones"
+        "Regulaciones",
+        "Latinoamérica"
       ],
       "countries": [
-        "Global"
+        "República Dominicana"
       ],
       "tags": [
         "Aranceles"
@@ -731,43 +740,6 @@
       ],
       "gnTried": "2026-10-11T21:42:23Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNYkRlZjF5QkMxYkVLNUJVTFVMN0tPVzhBWHBtUmEzSGxBVnBORUlDV0ktMWFKMDh3Vl9NWlduaVZwZENka3NxOXJranhJTFUxcEk1eTRmWThLOVQya0kycnIwS3RpdktOdzFhdVBDZXpNNmhzb1hXWWFYbGlicEh0UWNZeV92WWRXSkhQRDlUdlRiYnpuWm4xTVliWnlwMm5IN0dMQ2Y2NHE0NFVucldQX2tJd1o1THlmRGV0SzNELXhNR0pMdEJnSXk0cGZSTjdhSlFkOUJfUGd3UGMtZVJ2cA?oc=5"
-    },
-    {
-      "id": "exportaciones-agroindustriales-record-argentino-en-2026",
-      "datetime": "2026-10-11T19:06:20Z",
-      "date": "2026-10-11",
-      "firstSeen": "2026-10-11T21:42:23Z",
-      "title": "Exportaciones agroindustriales: récord argentino en 2026",
-      "summary": "Argentina exportó 88,9 millones de toneladas de granos y subproductos hasta septiembre de 2026, un récord impulsado por el maíz y las harinas.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Agro"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Ruralnet",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://ruralnet.com.ar/exportaciones-agroindustriales-record-2026-3/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-11T21:42:23Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE85Uk1yWXlsWDFadTFKNUJEaFpmTU9PZjItWU5DaFNWLTZyUFJEbnFzLUFOY0RnNDRhQnd1ZVlPemwzWEFVa0lQbEFLeF9sUkh0S25aN1o5UUJVaDluSGMzbzlzaW5qWThNY19Wbmh3TDVpOV96elBURQ?oc=5"
     },
     {
       "id": "corea-del-sur-completa-su-primera-travesia-comercial-de-ida-y-vuelta-a-europa-po",
@@ -816,13 +788,18 @@
       "topics": [
         "Argentina",
         "Exportaciones",
-        "Latinoamérica"
+        "Latinoamérica",
+        "Estados Unidos"
       ],
       "countries": [
         "Argentina",
-        "Chile"
+        "Brasil",
+        "Chile",
+        "Estados Unidos"
       ],
-      "tags": [],
+      "tags": [
+        "Estados Unidos"
+      ],
       "visual": "customs",
       "impact": 1,
       "affectsArgentina": true,
@@ -879,6 +856,82 @@
       ],
       "gnTried": "2026-10-11T21:42:23Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOcWRncDdKLUZEMnB4SkhLUE5KYjM0RkV1R3o4WEI1R0xsYkp1VjVwQjFpMUNLcG93RjRlVmU5S1dROWlhWnVxY3lzMEdPWnU2bElPOVh3UFN2dWdEVHBjQzg5eUJUa2FBSzVUUEpyaVo0aVZ4Mi02UTVuUjZlQVdrc2gyZElfWmNYeUxRcDIxLUV3S0d3R2NUTHNCUkNlWDhrMHpDQ0d3U0UzOUNrMXpYZDIxeUdQanNPOTNXdTNrTE9YMGVRSGpCV3BZUVhHVzNaajE1ZUpFbTFTcmltSTJtZjBhZlNkZ0dfTl9hS1YtREFFTHAwTllTUUxPeGhZNEZGdWZGd2tSb1MwaWI00gGMAkFVX3lxTE5xZGdwN0otRkQycHhKSEtQTkpiMzRGRXVHejhYQjVHTGxiSnVWNXBCMWkxQ0twb3dGNGVWZTlLV1E5aWFadXFjeXMwR09adTZsSU85WHdQU3Z1Z0RUcGNDODl5QlRrYUFLNVRQSnJpWjRpVngyLTZRNW5SNmVBV2tzaDJkSV9aY1h5TFFwMjEtRXdLR3dHY1RMc0JSQ2VYOGswekNDR3dTRTM5Q2sxelhkMjF5R1Bqc085M1d1M2tMT1gwZVFIakJXcFlRWEdXM1pqMTVlSkVtMVNyaW1JMm1mMGFmU2RnR19OX2FLVi1EQUVMcDBOWVNRTE94aFk0RkZ1ZkZ3a1JvUzBpYjQ?oc=5"
+    },
+    {
+      "id": "los-republicanos-enfrentan-el-descontento-en-las-urnas-de-quienes-perdieron-sus",
+      "datetime": "2026-10-11T18:13:04Z",
+      "date": "2026-10-11",
+      "firstSeen": "2026-10-11T22:09:06Z",
+      "title": "Los republicanos enfrentan el descontento en las urnas de quienes perdieron sus empleos por los aranceles de Trump",
+      "summary": "Solo tres de cada diez estadounidenses aprueban la gestión de Trump en las negociaciones comerciales. En varios estados, empresas han cerrado o achicado sus plantillas de trabajadores y miles se quedaron sin empleo.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Telemundo",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.telemundo.com/noticias/noticias-telemundo/elecciones-estados-unidos-2026/los-republicanos-enfrentan-el-descontento-en-las-urnas-de-quienes-perd-rcna602768",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-11T22:09:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQRW1zbHFsYjdjajZTN00wTzBpekJhU1dudnRCWnhhcEtUTFJhTkZWYTlnelpnbmNjbWRRM3h1cEdjZGJiZWptMEdyWWF1RFp0VVQ4U3MxUWZJZnVTZnhsWnZzMHVMMllEM0hwVWdMcU5iUTZDLVkyZFBlRlJCZlZ3NG1xcENMaUVfR3dGMjdEY3J6d1RsVkR1Z2ZmOU5nUGg3Vk5HYlpVall3T2Fpc3NZbzRNM1VUT3BLQ0Z0eEFGeUhqTmZMbFpQZ2xORnBZdkZwb0VWZk8wangycTg1Zk53M0NmMjlXdjlVSFBweDFPaUxzWEhnZndsNWh3?oc=5"
+    },
+    {
+      "id": "trump-mantiene-los-aranceles-pese-al-rechazo-de-los-votantes-estadounidenses-ant",
+      "datetime": "2026-10-11T18:00:19Z",
+      "date": "2026-10-11",
+      "firstSeen": "2026-10-11T22:09:06Z",
+      "title": "Trump mantiene los aranceles pese al rechazo de los votantes estadounidenses antes de las midterm",
+      "summary": "Una encuesta apunta a que se trata de una apuesta arriesgada a menos de un mes de las elecciones legislativas de mitad de mandato. La mayoría de los adultos estadounidenses desaprueba sus políticas comerciales y más del 64% considera que se ha excedido con sus últimos aranceles",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "La Razón",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.larazon.es/internacional/trump-mantiene-aranceles-pese-rechazo-votantes-estadounidenses-antes-midterm_202610116acbceb3b79b18452fc22b92.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-11T22:09:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQakNWcUwtdlI0ZnotXzRhOGZXZVNCeFFuTEkweFk2bHNBd2g2eU1oMnU1anlidzU1TlR1SmpHalZpYnVjWnVKYW11aUM1UVY2M3JzY21rRWdVQ3FUZmI3cUJJLV9IbnQwWjVGd0RQUl82ZjJBMVE5LVlheTgxMm1OS2VXRklPX3BuQWhHY3VFdFA3ckpBMmlPZU96clc5ZEVHLU5Ub0R4NjluUWY4bVRibW1wX1UtcjR6YUZLbktwVGEwOUFjMDNfWHktMWV2N3g4U3N1MlYwYWNsS19hTXF3ZGVOVXk1QdIB-gFBVV95cUxPTGtQOTRLTUZxTmttRjVHOGkwQUFibkpBTEVDeVJTVzJfMHFzcGpzSWx2WlhmZDVLZUt3T2lyZWc5VjhZbTlzR1UwYWlWMVFqRHNLNHgwa0JITElRTlktbGRvcEtMdkdULXdIY3p2Y1RmYTFUemNrQmEzbVI1eFlVajdMVDJCOElKUndrUFZYUVJmN0YtdEdrdGxKVzVvRjg5LUYwd2pEb0MxTFlJbmtmanhzUDdCeHVfQ2lJSjE1WVNNcnhzNFQ4VTBUMkxaVWh4WWZOakJ5UnJWV3NaR0duNThnczZOZF9QVGtJTWVZdjhhTlpyY29uUG1n?oc=5"
     },
     {
       "id": "argentina-controla-apenas-el-15-de-las-mareas-mientras-crecen-las-exportaciones",
@@ -1024,39 +1077,6 @@
       "gnUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTHo4MGRILVc2Ukl5TldabldOanRsbW5GNTI3VWFfamVUZXVuUnRZc2Q0V0piWTVWejM3aG1FT3dqamRwU2ZIckRMZlQ5YjBBZjNSdXdKOGV1blpWZVVhU0hVbThkNG5CODR5U1ItcFl4c2JKTGdkLTBpYnI1ckYwRTZfNk43LV9E?oc=5"
     },
     {
-      "id": "iti-es-reconocido-por-programa-huellachile-por-gestion-en-medicion-de-emisiones",
-      "datetime": "2026-10-11T16:00:20Z",
-      "date": "2026-10-11",
-      "firstSeen": "2026-10-11T17:41:23Z",
-      "title": "ITI es reconocido por Programa HuellaChile por gestión en medición de emisiones",
-      "summary": "Iquique Terminal Internacional (ITI) fue distinguido por el Programa HuellaChile del Ministerio del Medio Ambiente con…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Puertos",
-        "Latinoamérica"
-      ],
-      "countries": [
-        "Chile"
-      ],
-      "tags": [],
-      "visual": "port",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/iti-es-reconocido-por-programa-huellachile-por-gestion-en-medicion-de-emisiones/",
-          "primary": true,
-          "author": "Luis Alonso"
-        }
-      ]
-    },
-    {
       "id": "peru-cambia-las-reglas-para-importar-derivados-bovinos-de-argentina-que-exige-ah",
       "datetime": "2026-10-11T15:22:43Z",
       "date": "2026-10-11",
@@ -1092,41 +1112,6 @@
       ],
       "gnTried": "2026-10-11T17:41:23Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQamVYXzNGdDYzYzEzNUQyMm5oRFNNaXREbXlSVmhSYVV2ajVQYlRvSXlQRThxdklnX2hKRVB6UmFwVW1TazJJRVhJZkVaMFNFb0hiMk1fdk8tS05sWFVFdFZRbFo0UF91SW9sNkt6M0lCUFhGbFZ0cWJxU3ppS25rLUpiRDc2UlptblZyUjlscTlMS1NhX2FUTHRhZnRpSHRhSzlhTlJrMWxVemNfcGpMWURqazhSN1dkWmh2bQ?oc=5"
-    },
-    {
-      "id": "puerto-valparaiso-y-museo-baburizza-realizaran-nuevo-concurso-de-pintura-infanti",
-      "datetime": "2026-10-11T15:16:43Z",
-      "date": "2026-10-11",
-      "firstSeen": "2026-10-11T17:41:23Z",
-      "title": "Puerto Valparaíso y Museo Baburizza realizarán nuevo concurso de pintura infantil “Los colores del Puerto”",
-      "summary": "Por PortalPortuario Social El Museo de Bellas Artes de Valparaíso y Empresa Portuaria Valparaíso (EPV) llevarán a cabo la séptima edición…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Puertos",
-        "Latinoamérica"
-      ],
-      "countries": [
-        "Chile"
-      ],
-      "tags": [
-        "Puertos"
-      ],
-      "visual": "port",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/puerto-valparaiso-y-museo-baburizza-realizaran-nuevo-concurso-de-pintura-infantil-los-colores-del-puerto/",
-          "primary": true,
-          "author": "Luis Alonso"
-        }
-      ]
     },
     {
       "id": "fuerte-salto-exportador-del-vino-en-septiembre-30-en-promedio-y-una-categoria-tr",
@@ -1349,50 +1334,24 @@
           "url": "https://gaceta.es/iberosfera/el-milagro-milei-argentina-preve-superar-los-100-000-millones-en-exportaciones-y-aspira-a-duplicarlas-en-una-decada-20261011-1203/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "El Liberal",
+          "type": "También publicó esta noticia",
+          "url": "https://www.elliberal.com.ar/nota/94516/2026/10/exportaciones-argentinas--el-pais-apunta-a-superar-los-us100000-millones-y-ganar-mercados",
+          "alsoIn": true,
+          "title": "Exportaciones argentinas: el país apunta a superar los US$100.000 millones y ganar mercados"
         }
       ],
       "gnTried": "2026-10-11T13:41:30Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOQzYwN2hLa251eFNNbjJUS1VJb3E0UmtBWk9CZEFzUmxwY003a2pkZ18yRlJNenRnZHJGd2VxZ0JNcDRKVmRBNHM2NUF6ZzhmRVVfMkRBT3NGN0pxQUg2ODFSTkNLb3J1OS1nVkNDX242NDYxcTdEZFpmQy1RZ2VMX1hIaUY3UFFaMlN5ZXZsTE90SkdKd2xJQUpfb1FLaUZVNnI4eDh6SXRWQkJPdEJBdnVpeS0zWU9JQUVjUFlhdU4tVnZFb2pZaEFCOUVJOEZWdWlMRHkzZW5KOERLUUppeUF1bjN6dVhvc2tuNFItbDHSAfYBQVVfeXFMTUMtNlFpSkU0UG5MVElacnE0eHZvQ1NGTHdFNjdnWE9idjFxV2Nqb09yWVBzaTNWNXgxWmdhc2x5WjdQVzR4NzVDMU5jNGRJbDRKM0ZfT3phVnZ4YkMtLWs4bUFOaGRteWF5dGxPUHAzMDBIdDVQdEg3c25kOWFhOVJPUGJUdEhMdXBBYVgyRXBmT0h0WERWVTB2WW1iS3VUQmNUMDAzaC11aVFsTzZYQ2ZZU19TSURhbkhFc2kydG04aUFRdmNUOHR1ajMwMUpuSTl4Rzg5VlRubk5ENDVkSDRFandLcUZoUWtVcVNNUnF5SkR3elhn?oc=5"
-    },
-    {
-      "id": "asi-es-el-acuerdo-comercial-entre-alcanzo-china-y-la-ue",
-      "datetime": "2026-10-11T09:00:00Z",
-      "date": "2026-10-11",
-      "firstSeen": "2026-10-11T09:42:47Z",
-      "title": "Así es el acuerdo comercial entre alcanzó China y la UE",
-      "summary": "China y la Unión Europea han alcanzado un entendimiento comercial que incluye un acuerdo específico sobre el intercambio",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Tratados y acuerdos",
-        "China",
-        "Asia",
-        "Europa"
+      "gnUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOQzYwN2hLa251eFNNbjJUS1VJb3E0UmtBWk9CZEFzUmxwY003a2pkZ18yRlJNenRnZHJGd2VxZ0JNcDRKVmRBNHM2NUF6ZzhmRVVfMkRBT3NGN0pxQUg2ODFSTkNLb3J1OS1nVkNDX242NDYxcTdEZFpmQy1RZ2VMX1hIaUY3UFFaMlN5ZXZsTE90SkdKd2xJQUpfb1FLaUZVNnI4eDh6SXRWQkJPdEJBdnVpeS0zWU9JQUVjUFlhdU4tVnZFb2pZaEFCOUVJOEZWdWlMRHkzZW5KOERLUUppeUF1bjN6dVhvc2tuNFItbDHSAfYBQVVfeXFMTUMtNlFpSkU0UG5MVElacnE0eHZvQ1NGTHdFNjdnWE9idjFxV2Nqb09yWVBzaTNWNXgxWmdhc2x5WjdQVzR4NzVDMU5jNGRJbDRKM0ZfT3phVnZ4YkMtLWs4bUFOaGRteWF5dGxPUHAzMDBIdDVQdEg3c25kOWFhOVJPUGJUdEhMdXBBYVgyRXBmT0h0WERWVTB2WW1iS3VUQmNUMDAzaC11aVFsTzZYQ2ZZU19TSURhbkhFc2kydG04aUFRdmNUOHR1ajMwMUpuSTl4Rzg5VlRubk5ENDVkSDRFandLcUZoUWtVcVNNUnF5SkR3elhn?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTlVDMXllNzhQaU1sUW1fWFlXakxhbnhncXh3RXdRdHBVMTEweGZDZERGNUhNZG9DVGhZQWtsTlc5elpmOWNlS0VpZUxYakotR1BtWGstVGFIZDRtdUp5azRJakxESlZUTGRVYnF4eEhSY2k4SUhRNVVUZkRsXzRBcEw5dzhDUWNiTWt4aTA0LTF5REN1UXJPUURNOWlrUUpGY2lYYkFHUjRiV254T2pIbG56RXNHWW1FaUh4NEVkcVZzbVg2WkdyVERRZTlDTjRCWWVOSXdVZUNma2Vs0gHcAUFVX3lxTFBOVUMxeWU3OFBpTWxRbV9YWVdqTGFueGdxeHdFd1F0cFUxMTB4ZkNkREY1SE1kb0NUaFlBa2xOVzl6WmY5Y2VLRWllTFhqSi1HUG1Yay1UYUhkNG11SnlrNElqTERKVlRMZFVicXh4SFJjaThJSFE1VVRmRGxfNEFwTDl3OENRY2JNa3hpMDQtMXlEQ3VRck9RRE05aWtRSkZjaVhiQUdSNGJXbnhPakhsbnpFc0dZbUVpSHg0RWRxVnNtWDZaR3JURFFlOUNONEJZZU5Jd1VlQ2ZrZWw",
+        "https://www.elliberal.com.ar/nota/94516/2026/10/exportaciones-argentinas--el-pais-apunta-a-superar-los-us100000-millones-y-ganar-mercados"
       ],
-      "countries": [
-        "China",
-        "Unión Europea"
-      ],
-      "tags": [
-        "China"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
-      "sources": [
-        {
-          "name": "Business People España",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://business-people.es/actualidad/asi-es-el-acuerdo-comercial-entre-alcanzo-china-y-la-union-europea/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-11T09:42:47Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcnFKOVBRaS1FbkFrWVhraGw2VzFsUzJESTNSVnFGLVZhMER6bkxQVEhyWDYyZ2lhVzEyQ1BiaGs3OWNGWU1UdFMyenhkNVNnUVRCVUJvWWNlSWlVb2x0QlZNYVoxQUNVcDBxWXk0S2lzNDQ3R3lPa0FtOVllbzlYWnI5Yzl1UUVQRWRGQW5JbVo4dUZJSlN3c0JqMnV3VGVRNTRVcnM0Nmk?oc=5"
+      "mergedIds": [
+        "exportaciones-argentinas-el-pais-apunta-a-superar-los-us-100-000-millones-y-gana"
+      ]
     },
     {
       "id": "el-alza-del-8-en-los-fletes-maritimos-amenaza-con-encarecer-la-cesta-de-la-compr",
@@ -1405,10 +1364,11 @@
       "keyData": [],
       "topics": [
         "Logística",
-        "Transporte marítimo"
+        "Transporte marítimo",
+        "Europa"
       ],
       "countries": [
-        "Global"
+        "España"
       ],
       "tags": [
         "Fletes"
@@ -1505,55 +1465,6 @@
       ]
     },
     {
-      "id": "las-fuerzas-armadas-reiteran-su-advertencia-a-las-companias-navieras-y-a-los-via",
-      "datetime": "2026-10-11T07:52:45Z",
-      "date": "2026-10-11",
-      "firstSeen": "2026-10-11T09:42:47Z",
-      "title": "Las fuerzas armadas reiteran su advertencia a las compañías navieras y a los viajeros sobre los peligros de utilizar los aeropuertos saudítas",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Transporte marítimo",
-        "Puertos"
-      ],
-      "countries": [
-        "Arabia Saudita"
-      ],
-      "tags": [],
-      "visual": "plane",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Logística y fletes",
-      "sources": [
-        {
-          "name": "www.saba.ye",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.saba.ye/es/news3807306.htm",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "saba.ye",
-          "type": "También publicó esta noticia",
-          "url": "https://saba.ye/es/news3807306.htm",
-          "alsoIn": true,
-          "title": "Las fuerzas armadas reiteran su advertencia a las compañías navieras y a los viajeros sobre los peligros de utilizar los aeropuertos saudítas"
-        }
-      ],
-      "gnTried": "2026-10-11T09:42:47Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9pTXpWNzYzQm5RWGh6T3BNVE5NanVXVmk0OGN5VkZMRk1SMzlSRlNzUUJjdmRDUk9qVFFzUEtNYmV5dlUwSmpSQmw1cVU4NE0?oc=5",
-      "aliasUrls": [
-        "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBFdXFMNUQ2bkVEc05VU2ZvMTk1WWZkbG5wR0VsUldQSzBEckdHRDAtYThIX2NuQkdIQzdtemJjZGg3dEtMMy1RWVlB",
-        "https://saba.ye/es/news3807306.htm"
-      ],
-      "mergedIds": [
-        "las-fuerzas-armadas-reiteran-su-advertencia-a-las-companias-navieras-y-a-los-2"
-      ]
-    },
-    {
       "id": "el-atraso-cambiario-no-es-un-mito-es-un-ancla-con-cambio-de-contexto-exportador",
       "datetime": "2026-10-11T06:33:00Z",
       "date": "2026-10-11",
@@ -1586,40 +1497,6 @@
       ],
       "gnTried": "2026-10-11T09:42:47Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQanBQMGNKaHVxTUV0bnhkcHc2NGM3dEFXS0ZZc3FxWTYtTG81SnVGZTAtamVydVlMY05kcnVPRF80UVkzZTROVUQyTnpVV2ZVc2psVzFSRkNtaVFtckZWM1JNczJDNmNBX0VRenBuT3dTckZlTkVvejc1STBJelZVN2pqQVZ3M2xBWE5hanR3MHlESFBMWHVkeHlLeWhnV0tKVnFJcVlhNXZnYjQtMTFLR0Q1c3RDVklrMWxoUXFmSm_SAdsBQVVfeXFMUDZNWlRJWFpYZ21fWmI1ek9MT2JlS1dXWUxSV05oVE83RS1BcU41bHVSaEkxN0hXWjVGUTRqTGJrTUVIc2xSSFhYd0g4QWhfWlA2QlZRSmd2OVBQeUVHcEtTLXk0ZG5OWkFQeXM1NEM1UVR6amN5UUpTaEpqLW42ejM1LVhrdFNUbDZhS013dE5XSWVKSElHVTBBRmYteXljdWdZR1F0Z2Foc1hzWDFBUk9QUXQ5Q2hPOXF0eF9OWUNUd3hxWkJQcTJKUWh5UGxYTzZ1blBmMlExRFY4?oc=5"
-    },
-    {
-      "id": "las-importaciones-de-smartphones-crecieron-746",
-      "datetime": "2026-10-11T06:07:50Z",
-      "date": "2026-10-11",
-      "firstSeen": "2026-10-11T09:42:47Z",
-      "title": "Las importaciones de smartphones crecieron 746%",
-      "summary": "La industria electrónica atraviesa uno de sus peores momentos de los últimos años y los celulares son uno de los casos más claros del impacto de la apertura comercial.Según un informe de la consultora Analytica, los equipos de informática, televisión y comunicaciones cayeron 25,7% mensual en julio, acumularon una...",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Importaciones"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
-      "sources": [
-        {
-          "name": "Diario El Día de La Plata",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.eldia.com/economia-dominical/las-importaciones-de-smartphones-crecieron-746-economia-dominical_1791698870",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-11T09:42:47Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUTJvSUVsd1BaWVlFYWUyNm9tVXZtX3J4V1hFYi1COFdoUEt1SmpySGNOVkxPZ0ljNnF2QzF1V0ozMXlyRjRaZTBYRHB3XzZlend5Rmhjbmcwd1BGZU9RYmdiVEVvSklHZjFLR29pWUNiVTUwRFhvaEt3YnA4MlppbWV4TU1MYUduY25wa3pQYlA1YlpVRVJzeVZSR1ROU1FPRl9rUUFRd1hHTE14MmxST3ZVZnkzaHN3?oc=5"
     },
     {
       "id": "la-ia-impulsa-el-comercio-mundial-pese-a-los-aranceles-y-la-guerra",
@@ -1823,10 +1700,11 @@
       "keyData": [],
       "topics": [
         "Tratados y acuerdos",
-        "Mercosur"
+        "Mercosur",
+        "Europa"
       ],
       "countries": [
-        "Global"
+        "España"
       ],
       "tags": [
         "Mercosur",
@@ -1973,40 +1851,6 @@
       ]
     },
     {
-      "id": "envio-gratis-y-sin-aduanas-el-forerunner-265-de-garmin-llega-en-menos-de-6-dias",
-      "datetime": "2026-10-10T23:10:00Z",
-      "date": "2026-10-10",
-      "firstSeen": "2026-10-11T00:49:31Z",
-      "title": "Envío gratis y sin aduanas: el Forerunner 265 de Garmin llega en menos de 6 días por 216 euros",
-      "summary": "El Garmin Forerunner 265 tiene pantalla AMOLED de 1,3 pulgadas y GPS multibanda, con envío gratis en menos de 6 días por 216 euros en AliExpress.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Aduanas"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
-      "sources": [
-        {
-          "name": "Hardware Premium",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.hardwarepremium.com/noticias/67452/garmin-forerunner-265-aliexpress-216-euros-gps-multibanda/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-11T00:49:31Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVXM5S2NkSXBMSGFONU1YNklZcXRsalhRWndVZHRON1N1Rk1xTFJNOWg3VFRPMFBXNVpQOUZnZjZFeWtZY1VyaHdzaG0xRktzeTRMX0FtVkp3UHV1U0hWQ3A0aWpKaVV6LVRWWEZucnpZSHFhQ01Zbzc0SUp1bFo1ZktMeUlZRGQxZjhWZHNQeHpqdDJoU2h5OEx2TWxhMHExSHQzQWVQeU0?oc=5"
-    },
-    {
       "id": "importar-en-guatemala-los-costos-logisticos-que-pueden-elevar-el-precio-de-una-o",
       "datetime": "2026-10-10T22:23:14Z",
       "date": "2026-10-10",
@@ -2098,10 +1942,11 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Puertos"
+        "Puertos",
+        "Europa"
       ],
       "countries": [
-        "Global"
+        "Estonia"
       ],
       "tags": [
         "Puertos"
@@ -2159,43 +2004,6 @@
       ],
       "gnTried": "2026-10-11T00:49:31Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPakpuTWxaZms3UUtlYnlmQkhYRzkzRTBhY0tSVl9lLWZ6U2l0VkRkY3NrVjRHQ2h2RmliLUFYX0ZYUkV2Wl9BUnJNYUxpUV9lbkZKcmE2NmxiZE1iY0hIM2ZEWlR3Yk5vWmMtSG5fbW1TVm5kRkpxSVJtTnRVVW56Z1pxWDlKVnVBT2NFcVd5cDJzQjZ3V3JGWWxHSzRBa0tHc2ZOWkNtaVh2SzlLNUprRllBSlhSZmI4NDZrTFBDclphYTAzZmNBZkVB?oc=5"
-    },
-    {
-      "id": "es-asesor-en-comercio-exterior-y-creo-una-taza-de-cafe-comestible",
-      "datetime": "2026-10-10T21:35:00Z",
-      "date": "2026-10-10",
-      "firstSeen": "2026-10-11T00:49:31Z",
-      "title": "Es asesor en comercio exterior y creó una taza de café comestible",
-      "summary": "Las tazas comestibles de Ecotaza buscan llegar a cafeterías de todo el país. Enterate cómo funcionan, cuánto cuestan y cómo planean escalar",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "globe",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Comercio exterior Argentina",
-      "sources": [
-        {
-          "name": "iProfesional",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.iprofesional.com/negocios/465984-es-argentino-y-la-pego-con-tazas-comestibles-para-servir-cafe",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-11T00:49:31Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaU1mZHhYWUxkSV9uOU1pWU9GMnV1M25FcFJ4Q2tybU5LTUR3dHFOWWd1Qi1mZlJFN0phdUg4ZmpsMllvUUUzc0hPWXl1a1J6RHdBV2lnM0pFWG1ra0REVGt2VjF3dVB2SU15S1FmRElNVlRGWkNDa3o4WkZ2Z2IyRG1vNm9CZDNwZDJkQjdEcHREbVVDb1RmSlplcDAzTGVyUi1uNGRHNUNDUVJycjVz0gGvAUFVX3lxTFBpTWZkeFhZTGRJX245TWlZT0YydXUzbkVwUnhDa3JtTktNRHd0cU5ZZ3VCLWZmUkU3SmF1SDhmamwyWW9RRTNzSE9ZeXVrUnpEd0FXaWczSkVYbWtrRERUa3ZWMXd1UHZJTXlLUWZESU1WVEZaQ0NrejhaRnZnYjJEbW82b0JkM3BkMmRCN0RwdERtVUNvVGZKWmVwMDNMZXJSLW40ZEc1Q0NRUnJyNXM?oc=5",
-      "aliasUrls": [
-        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMV94TW1tZWRndWF4Zl84ZkJlME5oV2hHSEhnTERUSThTcDlHZXFhcTUxUVNkdFA1RWJlem5QWmtTMEJ6Rk85ME9qeXg3UGJXbVlrcGxWcVljcDI1OGtXdndiZHZKaDBiWHFFY3I1cGkzQTcwVDlIWHFycW1WV3hZZl9PYnFzRGM5NENCZGw3cDhnTUVjQ0tTQzJLWXRwMlVfTHR5VjRMQ3Vnd9IBrwFBVV95cUxQaU1mZHhYWUxkSV9uOU1pWU9GMnV1M25FcFJ4Q2tybU5LTUR3dHFOWWd1Qi1mZlJFN0phdUg4ZmpsMllvUUUzc0hPWXl1a1J6RHdBV2lnM0pFWG1ra0REVGt2VjF3dVB2SU15S1FmRElNVlRGWkNDa3o4WkZ2Z2IyRG1vNm9CZDNwZDJkQjdEcHREbVVDb1RmSlplcDAzTGVyUi1uNGRHNUNDUVJycjVz"
-      ]
     },
     {
       "id": "mexico-busca-acuerdo-con-eu-para-reducir-aranceles-a-vehiculos-antonio-garza",
@@ -2291,10 +2099,11 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Aduanas"
+        "Aduanas",
+        "Latinoamérica"
       ],
       "countries": [
-        "Global"
+        "Cuba"
       ],
       "tags": [],
       "visual": "customs",
@@ -2526,9 +2335,11 @@
       "keyData": [],
       "topics": [
         "Exportaciones",
+        "Latinoamérica",
         "Estados Unidos"
       ],
       "countries": [
+        "Cuba",
         "Estados Unidos"
       ],
       "tags": [
@@ -2783,16 +2594,18 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Exportaciones",
         "Europa"
       ],
       "countries": [
+        "Argentina",
         "Italia"
       ],
       "tags": [],
       "visual": "customs",
       "impact": 1,
-      "affectsArgentina": false,
+      "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
       "feed": "Google Noticias · Comercio exterior Argentina",
@@ -2834,6 +2647,7 @@
       "topics": [
         "Argentina",
         "Exportaciones",
+        "Aduanas",
         "Logística"
       ],
       "countries": [
@@ -2841,7 +2655,7 @@
       ],
       "tags": [],
       "visual": "customs",
-      "impact": 1,
+      "impact": 2,
       "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
@@ -2913,48 +2727,6 @@
       ]
     },
     {
-      "id": "la-ue-y-china-acercan-posturas-sobre-los-aranceles-a-los-coches-hibridos-pekin-r",
-      "datetime": "2026-10-10T15:11:53Z",
-      "date": "2026-10-10",
-      "firstSeen": "2026-10-10T17:39:53Z",
-      "title": "La UE y China acercan posturas sobre los aranceles a los coches híbridos: Pekín recortaría un 50% de sus exportaciones",
-      "summary": "Bruselas y Pekín acercan posiciones sobre los híbridos chinos y las tierras raras: prevén recortar más de la mitad de las exportaciones en cuatro años.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones",
-        "Aranceles",
-        "China",
-        "Asia",
-        "Europa"
-      ],
-      "countries": [
-        "China",
-        "Unión Europea"
-      ],
-      "tags": [
-        "Aranceles",
-        "China"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
-      "sources": [
-        {
-          "name": "Merca2.es",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.merca2.es/2026/10/10/aranceles-coches-hibridos-ue-china-2470982/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-10T17:39:53Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPT0NrbUpWdHZYTXZ4cHVlN2Z5dm5QbGtxRmJnZ0QzajJ3LW5fMkJLZWN2dl9kMy1DeVlMQXlTY1p0alJYODFQSjQzNk5TWXBUQUF4VW1TMjY5TDB0TU5BeHNERDRvX1lNdktUVXJFR3QzcHh4Rnp1Um5veE4tWFN0YlFB?oc=5"
-    },
-    {
       "id": "suecia-kalmar-y-puerto-de-halmstad-firman-contrato-de-servicios-kalmar-complete",
       "datetime": "2026-10-10T15:00:49Z",
       "date": "2026-10-10",
@@ -2964,10 +2736,11 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Puertos"
+        "Puertos",
+        "Europa"
       ],
       "countries": [
-        "Global"
+        "Suecia"
       ],
       "tags": [
         "Puertos"
@@ -3027,48 +2800,6 @@
       ],
       "gnTried": "2026-10-10T17:39:53Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ2V1ZGtreEwtUk9ZRXF5dEJVdkg2OC05ZWFLcHdrclBGcnBjX2R6cC1ucW5hMUNrdHA0aThxbXZlQ1dVM0FOQUdRa1hlX3MyX1EzeHoyMHBZTWJ4VWJySHRFLW5QOTJlbXNQdFNxTzJjdW9MZ0dDS0JDS0NiZ1ltMEVKOTBJdEJmY0VhOFM5Zkw2M3piclY5VXI5VUJTQkdlV0hlTERLVE4yT2FmaHpSQ1pYU0lsVlnSAdIBQVVfeXFMT3BLTFNNY2pTNmRqZzRZUXdNbWlsU0pXdFNJUmhIb1BDcGUzVnRzQ19DZkhIUHNLMV9pTlQwQWM5eXN4WHNtdU5YMURBRnJGX0FtTEVJQlJpTkQ3RFN0VDhTZmlNbGkzSk9RTjJOeENvSXFtbGZjZmdIbWJRMUVwdFVTaGwzYnl6SXhEYVVHMWM0dkhZbURZTXhiVldtR092dk9yX2NaMW5iSFdacGc5VURPVXEwbXJqbVA2cGRmRkxGWHhkZlUzYkROUFplU0VvczZB?oc=5"
-    },
-    {
-      "id": "bruselas-cierra-la-via-de-los-hibridos-chinos-byd-mg-y-omoda-ya-no-esquivaran-lo",
-      "datetime": "2026-10-10T14:46:53Z",
-      "date": "2026-10-10",
-      "firstSeen": "2026-10-10T17:39:53Z",
-      "title": "Bruselas cierra la vía de los híbridos chinos: BYD, MG y Omoda ya no esquivarán los aranceles de la UE",
-      "summary": "La UE y China pactan recortar a la mitad las exportaciones de híbridos chinos y cierran la vía con la que BYD, MG y Omoda esquivaban los aranceles.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones",
-        "Aranceles",
-        "China",
-        "Asia",
-        "Europa"
-      ],
-      "countries": [
-        "China",
-        "Unión Europea"
-      ],
-      "tags": [
-        "Aranceles",
-        "China"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
-      "sources": [
-        {
-          "name": "Merca2.es",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.merca2.es/2026/10/10/aranceles-hibridos-chinos-byd-mg-2470992/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-10T17:39:53Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE56enR4VzBoVGs2RDlmNzhxZGM5MTNJaS1tTHRuTTF1SWthc0M5b0RHOEVrb0VMZ2cxVnlRMU5hTnlxb2lLeFJDVnVuTENfUW1fM3JCUXlMZ1VBaFo4MGc2cnowYkNOOU85dXdCdUk4a0duaXhFc3owX3k0eW45N00?oc=5"
     },
     {
       "id": "autos-chinos-en-argentina-una-medida-que-hace-ruido-en-las-importaciones-de-2027",
@@ -3516,15 +3247,16 @@
       "keyData": [],
       "topics": [
         "Importaciones",
-        "Regulaciones"
+        "Regulaciones",
+        "Latinoamérica"
       ],
       "countries": [
-        "Argentina"
+        "Cuba"
       ],
       "tags": [],
       "visual": "customs",
-      "impact": 2,
-      "affectsArgentina": true,
+      "impact": 1,
+      "affectsArgentina": false,
       "kind": "noticia",
       "label": "Automática",
       "feed": "Google Noticias · Comercio exterior Argentina",
@@ -3829,10 +3561,11 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Puertos"
+        "Puertos",
+        "Europa"
       ],
       "countries": [
-        "Global"
+        "España"
       ],
       "tags": [],
       "visual": "port",
@@ -3955,6 +3688,7 @@
         "Europa"
       ],
       "countries": [
+        "España",
         "Francia",
         "Italia"
       ],
@@ -4160,10 +3894,11 @@
       "keyData": [],
       "topics": [
         "Transporte marítimo",
-        "Puertos"
+        "Puertos",
+        "Europa"
       ],
       "countries": [
-        "Global"
+        "Dinamarca"
       ],
       "tags": [
         "Puertos"
@@ -4473,47 +4208,6 @@
       ]
     },
     {
-      "id": "la-union-europea-acordo-limitar-a-la-mitad-las-importaciones-de-autos-hibridos-c",
-      "datetime": "2026-10-09T22:13:00Z",
-      "date": "2026-10-09",
-      "firstSeen": "2026-10-11T00:49:31Z",
-      "title": "La Unión Europea acordó limitar a la mitad las importaciones de autos híbridos chinos",
-      "summary": "El bloque busca reducir el ingreso de los vehículos chinos y forma parte de una negociación más amplia para corregir el desequilibrio comercial",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Importaciones",
-        "Tratados y acuerdos",
-        "China",
-        "Asia",
-        "Europa"
-      ],
-      "countries": [
-        "China",
-        "Unión Europea"
-      ],
-      "tags": [
-        "Autos"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
-      "sources": [
-        {
-          "name": "iProfesional",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.iprofesional.com/autos/466332-la-union-europea-acordo-limitar-a-la-mitad-las-importaciones-de-autos-hibridos-chinos",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-11T00:49:31Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOHRCTzM1SEYxSDF4OEtCZlFma1BZMEgzMjJFYkRyWnNnd1puMkdXbF9CZnBNVDRSWUlHT2lpdTR6cTFSTFJqTTFHVklaMlJpTU01eC1fNEo3UFZpaDRfbnJmX25JUTNIaUV5SU9IZ01kcmc1SDdpYURoOTFIakExMy1LUXhuc2pCVElfd3YzRW1IYUNmTVd4ajA3U18tWlNEMDlNdFExWnZBNWg3UTYxcDB5VXZWekYzUGRJT2JqcEhCV3p3bGJRY3IwRdIBywFBVV95cUxNOHRCTzM1SEYxSDF4OEtCZlFma1BZMEgzMjJFYkRyWnNnd1puMkdXbF9CZnBNVDRSWUlHT2lpdTR6cTFSTFJqTTFHVklaMlJpTU01eC1fNEo3UFZpaDRfbnJmX25JUTNIaUV5SU9IZ01kcmc1SDdpYURoOTFIakExMy1LUXhuc2pCVElfd3YzRW1IYUNmTVd4ajA3U18tWlNEMDlNdFExWnZBNWg3UTYxcDB5VXZWekYzUGRJT2JqcEhCV3p3bGJRY3IwRQ?oc=5"
-    },
-    {
       "id": "con-foco-en-las-exportaciones-karina-milei-se-reunio-con-la-embajadora-de-israel",
       "datetime": "2026-10-09T22:12:35Z",
       "date": "2026-10-09",
@@ -4603,40 +4297,6 @@
         "argentina-impulsa-exportaciones-de-carne-bovina-a-israel",
         "karina-milei-redobla-su-apuesta-por-el-campo-y-busca-ampliar-las-exportaciones-d"
       ]
-    },
-    {
-      "id": "benito-fernandez-paso-por-radio-hoy-y-compartio-su-mirada-sobre-la-eleccion-de-l",
-      "datetime": "2026-10-09T22:06:08Z",
-      "date": "2026-10-09",
-      "firstSeen": "2026-10-11T13:41:30Z",
-      "title": "Benito Fernández pasó por Radio HOY y compartió su mirada sobre la elección de la Embajadora del Surubí, moda y el impacto de las importaciones en la industria nacional",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Importaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
-      "sources": [
-        {
-          "name": "ReconquistaHOY",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.reconquistahoy.com/92220-benito-fernandez-paso-por-radio-hoy-y-compartio-su-mirada-sobre-la-eleccion-de-la-embajadora-del-surubi-moda-y-el-impacto-de-las-importaciones-en-la-industria-nacional",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-11T13:41:30Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMirAJBVV95cUxQVDF1TF9LSzVmZThrbmF0REJ4RXJuZWtVZHVWTjFBX1JCeXhuMU5neW1BSVhES1Q0aUd5RjZmRFhqaUNXQU80eXotWFVROU45eE5UQ3Bqazdxa2J6LUkwNllkQWFLeEpVY0pReDJ6VWU1cTBocjh4bUxPcGZ4S0RUa0dvMWpXbHBxdEtya2FEOVhTNTNsOXdRSUxXS2lLUDFkNWZ4Y1NONTh0NEpXOHJtSVk1cmQwdUROSDlQVVRiZTFnRHhiQk9hd2hkVmFtdjZTUUxhSVZLMGhfd0ZHNDViMVVaX25OSG1ZM2NUVEphWk9VNVJKU2d4SDZqVy1fNzVTMC1WYXNHbWpJbjZnaHVlZFltcUM1NVJGM1BVUEczaURZenpMTWR0V2trTnA?oc=5"
     },
     {
       "id": "trump-afirma-que-rusia-suministrara-300-000-toneladas-de-diesel-a-mercados-inter",
@@ -5199,48 +4859,6 @@
       ]
     },
     {
-      "id": "acuerdo-comercial-la-ue-pacta-con-china-reducir-su-exportacion-de-coches-hibrido",
-      "datetime": "2026-10-09T17:56:00Z",
-      "date": "2026-10-09",
-      "firstSeen": "2026-10-10T13:41:05Z",
-      "title": "acuerdo comercial: La UE pacta con China reducir su exportación de coches híbridos",
-      "summary": "Pekín reducirá aranceles al aceite de oliva y el calzado europeo y aumentará la venta de productos sanitarios en Europa",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones",
-        "Aranceles",
-        "Tratados y acuerdos",
-        "China",
-        "Asia"
-      ],
-      "countries": [
-        "China",
-        "Unión Europea"
-      ],
-      "tags": [
-        "Aranceles",
-        "China"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
-      "sources": [
-        {
-          "name": "La Región",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.laregion.es/lri/empresas/ue-pacta-china-reducir-exportacion-hibridos_1_20261009-4446230.html",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-10T13:41:05Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeVNMaXByQzVteExCMWt3TnNURjFLVXN6SldjeFRhd2tMSTNwNmhadXcxVFd4Um9ZQXhvcEZDNEJDQ1V6RlVsd2hTLUJac2Z3SUpfVXctYmc4QTZDeWEyUlhVNXBzMVpGWk1FME9SS1FiT2xkLUpNZnJCQVF4RHdxZEFEY0ZZY2JFZ2NRMzE4ejAwX1VzX1o3WmNUM2JFSzZpMERFYU5aTQ?oc=5"
-    },
-    {
       "id": "demanda-global-del-sector-portacontenedores-crece-un-3-8-y-el-trafico-transpacif",
       "datetime": "2026-10-09T17:10:18Z",
       "date": "2026-10-09",
@@ -5378,60 +4996,6 @@
       ],
       "mergedIds": [
         "futuros-de-aceite-de-palma-de-malasia-caen-tras-no-eximir-aranceles"
-      ]
-    },
-    {
-      "id": "la-ue-y-china-logran-acuerdo-comercial-provisional-dice-enviado-europeo",
-      "datetime": "2026-10-09T16:43:05Z",
-      "date": "2026-10-09",
-      "firstSeen": "2026-10-10T13:41:05Z",
-      "title": "La UE y China logran acuerdo comercial provisional, dice enviado europeo",
-      "summary": "HONG KONG (AP) — Los principales enviados comerciales de China y la Unión Europea acordaron el viernes un amplio acuerdo inicial tras dos días de conversaciones destinadas a calmar las crecientes tensiones por los desequilibrios comerciales, manifestó el comisario de Comercio de la UE el viernes.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Tratados y acuerdos",
-        "China",
-        "Asia",
-        "Europa"
-      ],
-      "countries": [
-        "China",
-        "Unión Europea"
-      ],
-      "tags": [
-        "China"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
-      "sources": [
-        {
-          "name": "América TeVé",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.americateve.com/la-ue-y-china-logran-acuerdo-comercial-provisional-dice-enviado-europeo-n5464071",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "Diario La Calle",
-          "type": "También publicó esta noticia",
-          "url": "https://lacalle.com.ve/la-ue-y-china-logran-acuerdo-comercial-provisional-dice-enviado-europeo/",
-          "alsoIn": true,
-          "title": "La UE y China logran acuerdo comercial provisional, dice enviado europeo"
-        }
-      ],
-      "gnTried": "2026-10-10T13:41:05Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObzNxZEhlYzM0bVpYRnJUVUZCZXl2T1hvVnptbndYdVRHVTVoVmpNVm5DcEF5Ty0zU09vY0ZyYWE1b2R0Z3FBc0t4RmVxbTl4NF93ZzVKaE1na2w1ejd1bnRiSzFGcEhOcm9vX19KdzhwZnJlVThnc1VKNDIteXprUjEwajNWcmwtejlmV181YjFkRnRWZWtvRDRuSUtESElwcC1LVG5IQTQyVjdmclJFUHdR0gGyAUFVX3lxTE5vM3FkSGVjMzRtWlhGclRVRkJleXZPWG9Wem1ud1h1VEdVNWhWak1WbkNwQXlPLTNTT29jRnJhYTVvZHRncUFzS3hGZXFtOXg0X3dnNUpoTWdrbDV6N3VudGJLMUZwSE5yb29fX0p3OHBmcmVVOGdzVUo0Mi15emtSMTBqM1ZybC16OWZXXzViMWRGdFZla29ENG5JS0RISXBwLUtUbkhBNDJWN2ZyUkVQd1E?oc=5",
-      "aliasUrls": [
-        "https://lacalle.com.ve/la-ue-y-china-logran-acuerdo-comercial-provisional-dice-enviado-europeo",
-        "https://news.google.com/rss/articles/CBMimwFBVV95cUxONWtrSTBETkU0a3B5dzNudXdCeFdWblRzMjhZRjJ6UHdSbHZKd3hZNUhNMkpsQ1M5eGZLSjNfVnh4TVZ0LW1hUWthemhaMm9aQUtQN0pvYndPcHJfYnBiSmppLXJBRWdoaWxGQnZubTZ4N1JxeGpLOVdSX3RKNkV6d0tEZzlwbzlmYV83Z3pqaFotbktmU2NnaUhNNA"
-      ],
-      "mergedIds": [
-        "la-ue-y-china-logran-acuerdo-comercial-provisional-dice-enviado-europeo-2"
       ]
     },
     {
@@ -6207,10 +5771,11 @@
       "topics": [
         "Logística",
         "Transporte marítimo",
-        "Puertos"
+        "Puertos",
+        "Europa"
       ],
       "countries": [
-        "Global"
+        "Suiza"
       ],
       "tags": [
         "Puertos"
@@ -6924,18 +6489,19 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Aduanas",
         "Aranceles"
       ],
       "countries": [
-        "Global"
+        "Argentina"
       ],
       "tags": [
         "Aranceles"
       ],
       "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": false,
+      "impact": 2,
+      "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
       "feed": "Google Noticias · Mercosur",
@@ -7071,10 +6637,11 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Logística"
+        "Logística",
+        "Europa"
       ],
       "countries": [
-        "Global"
+        "España"
       ],
       "tags": [],
       "visual": "globe",
@@ -7815,10 +7382,11 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Puertos"
+        "Puertos",
+        "Europa"
       ],
       "countries": [
-        "Global"
+        "España"
       ],
       "tags": [
         "Puertos"
@@ -8182,10 +7750,11 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Puertos"
+        "Puertos",
+        "Europa"
       ],
       "countries": [
-        "Global"
+        "Dinamarca"
       ],
       "tags": [
         "Puertos"
@@ -10668,17 +10237,18 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Puertos"
       ],
       "countries": [
-        "Global"
+        "Argentina"
       ],
       "tags": [
         "Puertos"
       ],
       "visual": "port",
       "impact": 1,
-      "affectsArgentina": false,
+      "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
       "feed": "PortalPortuario",
@@ -12307,10 +11877,11 @@
       "topics": [
         "Importaciones",
         "Aranceles",
-        "Regulaciones"
+        "Regulaciones",
+        "Latinoamérica"
       ],
       "countries": [
-        "Global"
+        "República Dominicana"
       ],
       "tags": [
         "Aranceles"
@@ -12511,10 +12082,12 @@
       "keyData": [],
       "topics": [
         "Tratados y acuerdos",
-        "Latinoamérica"
+        "Latinoamérica",
+        "Europa"
       ],
       "countries": [
-        "Panamá"
+        "Panamá",
+        "Austria"
       ],
       "tags": [],
       "visual": "treaty",
@@ -12771,10 +12344,11 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Puertos"
+        "Puertos",
+        "Europa"
       ],
       "countries": [
-        "Global"
+        "Suecia"
       ],
       "tags": [
         "Puertos"
@@ -16816,6 +16390,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Aduanas"
       ],
       "countries": [
@@ -17501,6 +17076,7 @@
       ],
       "countries": [
         "México",
+        "Cuba",
         "Estados Unidos",
         "Unión Europea"
       ],
@@ -18763,6 +18339,7 @@
       ],
       "countries": [
         "Unión Europea",
+        "España",
         "Países Bajos"
       ],
       "tags": [],
@@ -18830,10 +18407,11 @@
       "keyData": [],
       "topics": [
         "Importaciones",
-        "Aranceles"
+        "Aranceles",
+        "Latinoamérica"
       ],
       "countries": [
-        "Global"
+        "Cuba"
       ],
       "tags": [
         "Aranceles"
@@ -19406,10 +18984,11 @@
       "keyData": [],
       "topics": [
         "Importaciones",
-        "Aranceles"
+        "Aranceles",
+        "Latinoamérica"
       ],
       "countries": [
-        "Global"
+        "Cuba"
       ],
       "tags": [
         "Aranceles"
@@ -19754,10 +19333,11 @@
       "topics": [
         "Importaciones",
         "Aduanas",
-        "Regulaciones"
+        "Regulaciones",
+        "Latinoamérica"
       ],
       "countries": [
-        "Global"
+        "Cuba"
       ],
       "tags": [],
       "visual": "customs",
@@ -20165,10 +19745,11 @@
       "topics": [
         "Importaciones",
         "Aduanas",
-        "Aranceles"
+        "Aranceles",
+        "Latinoamérica"
       ],
       "countries": [
-        "Global"
+        "Cuba"
       ],
       "tags": [
         "Aranceles"
@@ -20416,10 +19997,12 @@
       "topics": [
         "Argentina",
         "Exportaciones",
+        "Latinoamérica",
         "Mercosur"
       ],
       "countries": [
-        "Argentina"
+        "Argentina",
+        "Brasil"
       ],
       "tags": [
         "Mercosur"
@@ -20672,10 +20255,11 @@
       "keyData": [],
       "topics": [
         "Importaciones",
-        "Aranceles"
+        "Aranceles",
+        "Latinoamérica"
       ],
       "countries": [
-        "Global"
+        "Cuba"
       ],
       "tags": [
         "Aranceles"
@@ -21455,9 +21039,11 @@
       "keyData": [],
       "topics": [
         "Transporte marítimo",
+        "Latinoamérica",
         "Estados Unidos"
       ],
       "countries": [
+        "Cuba",
         "Estados Unidos"
       ],
       "tags": [
@@ -23783,6 +23369,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Exportaciones",
         "Puertos"
       ],
@@ -24896,10 +24483,11 @@
       "topics": [
         "Transporte marítimo",
         "Puertos",
-        "Tecnología COMEX"
+        "Tecnología COMEX",
+        "Europa"
       ],
       "countries": [
-        "Global"
+        "España"
       ],
       "tags": [
         "Contenedores",
@@ -26005,11 +25593,13 @@
       "topics": [
         "Argentina",
         "Exportaciones",
-        "Latinoamérica"
+        "Latinoamérica",
+        "Europa"
       ],
       "countries": [
         "Argentina",
-        "Chile"
+        "Chile",
+        "España"
       ],
       "tags": [
         "Energía"
@@ -26530,11 +26120,13 @@
       "topics": [
         "Tratados y acuerdos",
         "Latinoamérica",
-        "Mercosur"
+        "Mercosur",
+        "Europa"
       ],
       "countries": [
         "Brasil",
-        "Paraguay"
+        "Paraguay",
+        "Suiza"
       ],
       "tags": [
         "Mercosur"
@@ -28468,10 +28060,11 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Transporte aéreo"
+        "Transporte aéreo",
+        "Europa"
       ],
       "countries": [
-        "Global"
+        "España"
       ],
       "tags": [],
       "visual": "plane",
@@ -29466,10 +29059,11 @@
       "topics": [
         "Logística",
         "Transporte marítimo",
-        "Tecnología COMEX"
+        "Tecnología COMEX",
+        "Europa"
       ],
       "countries": [
-        "Global"
+        "España"
       ],
       "tags": [],
       "visual": "container",
@@ -30640,10 +30234,11 @@
       "keyData": [],
       "topics": [
         "Geopolítica y comercio",
-        "Economía internacional"
+        "Economía internacional",
+        "Europa"
       ],
       "countries": [
-        "Global"
+        "Suiza"
       ],
       "tags": [
         "OMC"
@@ -31858,10 +31453,12 @@
       "topics": [
         "Economía internacional",
         "Asia",
+        "Europa",
         "Oceanía"
       ],
       "countries": [
         "India",
+        "Irlanda",
         "Australia"
       ],
       "tags": [
@@ -32667,7 +32264,7 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-10-11T21:42:23Z",
+    "ranAt": "2026-10-11T22:09:06Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
@@ -32692,16 +32289,16 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 3,
+        "added": 0,
         "updated": 0,
-        "skipped": 8
+        "skipped": 9
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
         "items": 39,
-        "added": 3,
+        "added": 1,
         "updated": 0,
         "skipped": 16
       },
@@ -32709,46 +32306,46 @@
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 55,
-        "added": 1,
+        "items": 57,
+        "added": 0,
         "updated": 0,
-        "skipped": 44
+        "skipped": 47
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 52,
-        "added": 4,
+        "items": 54,
+        "added": 0,
         "updated": 0,
-        "skipped": 22
+        "skipped": 23
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 40,
+        "items": 41,
         "added": 0,
         "updated": 0,
-        "skipped": 27
+        "skipped": 28
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
         "url": "https://news.google.com/rss/search?q=(aranceles+OR+%22guerra+comercial%22+OR+%22acuerdo+comercial%22)+when:1d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 41,
-        "added": 4,
+        "items": 40,
+        "added": 2,
         "updated": 0,
-        "skipped": 24
+        "skipped": 22
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 56,
-        "added": 2,
+        "items": 55,
+        "added": 0,
         "updated": 0,
-        "skipped": 46
+        "skipped": 45
       }
     ],
     "curatedDuplicates": [
@@ -32781,38 +32378,64 @@
         "title": "La agroindustria argentina alcanzó un récord de exportaciones en los primeros nueve meses de 2026",
         "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQM3ZWTm5iNWY1VFR0aWw4M2cwT05wdjhYNlVFX0JlSGpTOVQ4NGpjNlNGV0VvVVF5MjgtaXhIaTBXdllYdlRzMlJMeTE3NHlSbU9tSTRhY1lPd2lBYUt5aWxocnFqbUViY29odmdfclZPSXJkWm91T1U2NnRyOHJuYjFLYlBadF9UMmVKbmJFMHJjTTBBWGFzLW5SODlPQUF6NGZBMU1BSElpY09zV21KeU1DWkdEM014NWhoal9jZWNtZ05hZVI1dVBoRU1uYVFNQ2xGRlVtY3dobC1DTnYtN19MZzR5THdHQkE5RXZaa2FqQVBYWnBFZmZ1QmRiQThUT0FqMWozUm5SVTJtTUV1REUxN294TkZDUm9lYS1NamYtSzNMQ2Z2MQ?oc=5",
         "curated": "bcr-exportaciones-granos-subproductos-enero-septiembre-2026-88-9-mt"
+      },
+      {
+        "title": "Exportaciones agroindustriales: récord argentino en 2026",
+        "url": "https://ruralnet.com.ar/exportaciones-agroindustriales-record-2026-3/",
+        "curated": "bcr-exportaciones-granos-subproductos-enero-septiembre-2026-88-9-mt"
+      },
+      {
+        "title": "Así es el acuerdo comercial entre alcanzó China y la UE",
+        "url": "https://business-people.es/actualidad/asi-es-el-acuerdo-comercial-entre-alcanzo-china-y-la-union-europea/",
+        "curated": "ue-china-entendimiento-hibridos-aranceles-tierras-raras-octubre-2026"
+      },
+      {
+        "title": "Las importaciones de smartphones crecieron 746%",
+        "url": "https://www.eldia.com/economia-dominical/las-importaciones-de-smartphones-crecieron-746-economia-dominical_1791698870",
+        "curated": "importaciones-celulares-746-analytica-produccion-electronica"
+      },
+      {
+        "title": "La UE y China acercan posturas sobre los aranceles a los coches híbridos: Pekín recortaría un 50% de sus exportaciones",
+        "url": "https://www.merca2.es/2026/10/10/aranceles-coches-hibridos-ue-china-2470982/",
+        "curated": "ue-china-entendimiento-hibridos-aranceles-tierras-raras-octubre-2026"
+      },
+      {
+        "title": "Bruselas cierra la vía de los híbridos chinos: BYD, MG y Omoda ya no esquivarán los aranceles de la UE",
+        "url": "https://www.merca2.es/2026/10/10/aranceles-hibridos-chinos-byd-mg-2470992/",
+        "curated": "ue-china-entendimiento-hibridos-aranceles-tierras-raras-octubre-2026"
+      },
+      {
+        "title": "La Unión Europea acordó limitar a la mitad las importaciones de autos híbridos chinos",
+        "url": "https://www.iprofesional.com/autos/466332-la-union-europea-acordo-limitar-a-la-mitad-las-importaciones-de-autos-hibridos-chinos",
+        "curated": "ue-china-entendimiento-hibridos-aranceles-tierras-raras-octubre-2026"
+      },
+      {
+        "title": "acuerdo comercial: La UE pacta con China reducir su exportación de coches híbridos",
+        "url": "https://www.laregion.es/lri/empresas/ue-pacta-china-reducir-exportacion-hibridos_1_20261009-4446230.html",
+        "curated": "ue-china-entendimiento-hibridos-aranceles-tierras-raras-octubre-2026"
+      },
+      {
+        "title": "La UE y China logran acuerdo comercial provisional, dice enviado europeo",
+        "url": "https://www.americateve.com/la-ue-y-china-logran-acuerdo-comercial-provisional-dice-enviado-europeo-n5464071",
+        "curated": "ue-china-entendimiento-hibridos-aranceles-tierras-raras-octubre-2026"
       }
     ],
-    "excluded": 0,
+    "excluded": 6,
     "grouped": [
       {
-        "main": "la-carne-argentina-llega-a-la-sial-paris-en-un-momento-clave-para-el-futuro-de-l",
+        "main": "el-milagro-milei-argentina-preve-superar-los-100-000-millones-en-exportaciones-y",
         "merged": [
-          "la-carne-argentina-llega-a-la-sial-paris-en-un-momento-clave-para-el-futuro--3",
-          "la-carne-argentina-llega-a-la-sial-paris-en-un-momento-clave-para-el-futuro--2"
-        ]
-      },
-      {
-        "main": "santa-fe-despliega-en-buenos-aires-su-potencial-logistico-para-multiplicar-e-2",
-        "merged": [
-          "santa-fe-despliega-en-buenos-aires-su-potencial-logistico-para-multiplicar-expor",
-          "santa-fe-despliega-en-buenos-aires-su-potencial-logistico"
-        ]
-      },
-      {
-        "main": "no-necesitamos-a-canada-trump-dice-que-firmara-un-nuevo-acuerdo-comercial-con-me",
-        "merged": [
-          "acuerdo-comercial-con-mexico-sin-canada-lo-que-dijo-trump"
+          "exportaciones-argentinas-el-pais-apunta-a-superar-los-us-100-000-millones-y-gana"
         ]
       }
     ],
     "googleNews": {
-      "pending": 14,
-      "resolved": 14,
-      "withSummary": 12,
+      "pending": 3,
+      "resolved": 3,
+      "withSummary": 3,
       "withPhoto": 0,
       "failed": 0,
-      "duplicates": 1
+      "duplicates": 0
     }
   },
   "stories": [
