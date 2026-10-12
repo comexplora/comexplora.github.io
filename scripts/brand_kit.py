@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Kit de marca de Comexplora: genera los logos en SVG (texto vectorizado) y sus versiones PNG.
+"""Kit de marca ANTERIOR de Comexplora (logo «Brújula»). Reemplazado el 12/10/2026 por el logo del globo
+con flecha, cuyos archivos maestros están en img/brand/. «apply» queda bloqueado para no pisar el logo nuevo
+(se puede forzar con «apply <variante> --forzar»).
+
+Genera los logos en SVG (texto vectorizado) y sus versiones PNG.
 
 Uso:
   python3 scripts/brand_kit.py preview          → hoja con las propuestas en build/brand-preview/
@@ -317,6 +321,9 @@ if __name__ == '__main__':
     if len(sys.argv) >= 2 and sys.argv[1] == 'preview':
         preview()
     elif len(sys.argv) >= 3 and sys.argv[1] == 'apply':
+        if '--forzar' not in sys.argv:
+            sys.exit('El logo vigente es el del globo con flecha (img/brand/). «apply» volvería al logo anterior; '
+                     'agregá --forzar si de verdad querés hacerlo.')
         apply(sys.argv[2])
     else:
         print(__doc__)

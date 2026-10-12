@@ -198,6 +198,7 @@ def meta_block(*, title, desc, url, image, image_alt, og_type='website', robots=
         '<meta name="author" content="Comexplora">',
         '<meta name="application-name" content="Comexplora">',
         '<meta name="referrer" content="strict-origin-when-cross-origin">',
+        f'<link rel="icon" href="{base}favicon.ico" sizes="32x32">',
         f'<link rel="icon" href="{base}favicon.svg" type="image/svg+xml">',
         f'<link rel="apple-touch-icon" href="{base}apple-touch-icon.png">',
         f'<link rel="alternate" type="application/rss+xml" title="Comexplora · Noticias" href="{base}feed.xml">',

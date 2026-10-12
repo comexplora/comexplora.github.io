@@ -22,7 +22,7 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = Path(__file__).resolve().parents[1]
 FONTS = Path(__file__).resolve().parent / 'fonts'
 OUT = ROOT / 'img' / 'og'
-VERSION = '3'          # cambiarlo fuerza a regenerar todas las imágenes (por ejemplo, tras un rediseño)
+VERSION = '4'          # cambiarlo fuerza a regenerar todas las imágenes (por ejemplo, tras un rediseño)
 MAX_AGE_DAYS = 180     # notas más viejas vuelven a la foto de archivo y su imagen se borra
 W, H = 1200, 630
 PAD = 72
@@ -77,7 +77,7 @@ def clip(draw, text, fnt, width):
     return text.rstrip(' ,;:') + '…'
 
 
-LOGO_PNG = ROOT / 'img' / 'brand' / 'logo-negativo-og.png'   # logo en negativo (blanco + turquesa), fondo transparente
+LOGO_PNG = ROOT / 'img' / 'brand' / 'logo-negativo-og.png'   # logo compacto en negativo (globo y flecha + «Comexplora»), fondo transparente
 
 
 def logo(im, x, y, h):
@@ -85,7 +85,7 @@ def logo(im, x, y, h):
     try:
         lg = Image.open(LOGO_PNG).convert('RGBA')
     except OSError:
-        ImageDraw.Draw(im).text((x, y), 'comexplora', font=font('IBMPlexSans-SemiBold.ttf', round(h * 0.6)), fill=WHITE)
+        ImageDraw.Draw(im).text((x, y), 'Comexplora', font=font('IBMPlexSans-SemiBold.ttf', round(h * 0.6)), fill=WHITE)
         return
     lg = lg.resize((round(lg.width * h / lg.height), h), Image.LANCZOS)
     im.paste(lg, (x, y), lg)
