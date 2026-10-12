@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Ingesta RSS/Atom de Pulso Comex (sin dependencias externas).
+"""Ingesta RSS/Atom de Comexplora (sin dependencias externas).
 
 Qué hace en cada ejecución:
 - Lee las fuentes habilitadas en sources.json (una fuente caída no frena a las demás).
@@ -37,7 +37,7 @@ NEWS = DATA / 'news.json'
 STATUS = DATA / 'sources-status.json'
 TZ = timezone(timedelta(hours=-3))
 NOW = datetime.now(timezone.utc)
-UA = 'Mozilla/5.0 (compatible; PulsoComexBot/1.1; +https://pulso-comex.github.io/)'
+UA = 'Mozilla/5.0 (compatible; ComexploraBot/1.1; +https://pulso-comex.github.io/)'
 
 MAX_AGE_DAYS = 21          # al ingresar, ignorar notas más viejas que esto
 ARCHIVE_DAYS = 365         # las notas automáticas se conservan un año
@@ -1086,7 +1086,7 @@ def main():
 
     before = json.dumps(items, ensure_ascii=False, sort_keys=True)
     after = json.dumps(kept, ensure_ascii=False, sort_keys=True)
-    store.update({'schemaVersion': '2.1', 'feedId': 'pulso-comex', 'timezone': 'America/Argentina/Buenos_Aires', 'items': kept})
+    store.update({'schemaVersion': '2.1', 'feedId': 'comexplora', 'timezone': 'America/Argentina/Buenos_Aires', 'items': kept})
     if before != after or not store.get('updatedAt'):
         store['updatedAt'] = iso(NOW)
     store['ingestion'] = {'ranAt': iso(NOW), 'sources': report, 'curatedDuplicates': suppressed,

@@ -1,10 +1,10 @@
-# Pulso Comex
+# Comexplora
 
 Portal estático de noticias de comercio exterior, publicado en GitHub Pages y actualizado solo con GitHub Actions.
 
 ## Cómo se actualiza
 
-El workflow `.github/workflows/update-news.yml` corre a las 06:30, 10:30, 14:30, 18:30 y 22:30 (hora argentina), cada vez que se suben cambios a `main` y a mano desde **Actions → Actualizar y publicar Pulso Comex → Run workflow**. En cada corrida:
+El workflow `.github/workflows/update-news.yml` corre a las 06:30, 10:30, 14:30, 18:30 y 22:30 (hora argentina), cada vez que se suben cambios a `main` y a mano desde **Actions → Actualizar y publicar Comexplora → Run workflow**. En cada corrida:
 
 0. `node tests/calc.test.js` prueba las calculadoras. Si una prueba falla, no se publica nada (mejor el sitio de ayer que una cuenta tributaria equivocada).
 1. `scripts/update_news.py` lee las fuentes de `sources.json` y guarda las notas en `data/news.json`.

@@ -20,7 +20,7 @@ const at = p => new URL(String(p).replace(/^\//, ''), BASE).href;
    Cuando al menos una fuente remota responde, el encabezado pasa de "ACTUALIZADO" a "EN VIVO".
    ===================================================================== */
 const CONFIG = {
-  siteName: 'Pulso Comex',
+  siteName: 'Comexplora',
   canonicalBase: FILE_MODE ? '' : BASE.replace(/\/$/, ''),   // dirección real del sitio, detectada sola (github.io o dominio propio)
   prettyUrls: !FILE_MODE,   // con doble clic (file://) las notas se abren dentro de index.html
   indexAutomatic: false,     // notas automáticas (solo enlazan a otro medio): noindex. Debe coincidir con build_pages.py
@@ -1067,7 +1067,7 @@ function renderArticle(it){
       ${it.primary.author ? `<div><dt>Autor</dt><dd>${esc(it.primary.author)}</dd></div>` : ''}
       <div><dt>${isAuto(it) ? 'Publicada por la fuente' : 'Fecha'}</dt><dd><time itemprop="datePublished" datetime="${esc(it.datetime || it.date)}">${esc(cap(fmtDay.format(itemDate(it))))}</time></dd></div>
       <div><dt>Hora</dt><dd>${esc(timeLabel(it))}</dd></div>
-      ${isAuto(it) && it.firstSeen ? `<div><dt>Captada por Pulso Comex</dt><dd><time datetime="${esc(it.firstSeen)}">${esc(shortDate(new Date(it.firstSeen)))} ${esc(fmtTime.format(new Date(it.firstSeen)))} h</time></dd></div>` : ''}
+      ${isAuto(it) && it.firstSeen ? `<div><dt>Captada por Comexplora</dt><dd><time datetime="${esc(it.firstSeen)}">${esc(shortDate(new Date(it.firstSeen)))} ${esc(fmtTime.format(new Date(it.firstSeen)))} h</time></dd></div>` : ''}
       ${it.updated ? `<div><dt>Actualizada</dt><dd><time itemprop="dateModified" datetime="${esc(it.updated)}">${esc(shortDate(new Date(it.updated)))} ${esc(fmtTime.format(new Date(it.updated)))} h</time></dd></div>` : ''}
       <div><dt>Países</dt><dd>${esc(it.countries.join(', '))}</dd></div>
       <div><dt>Impacto</dt><dd>${impactMeter(it)}</dd></div>
@@ -1100,7 +1100,7 @@ function renderArticle(it){
     </div>
     <section class="srcs" aria-labelledby="h-srcs"><h2 class="panel-h" id="h-srcs">Fuentes consultadas</h2><ol>${it.sources.filter(s => !s.alsoIn).map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.name)}</a>${s.author ? `, ${esc(s.author)}` : ''} <span class="t">· ${esc(s.type || 'Fuente')}${s.primary ? ' · fuente principal' : ''}</span></li>`).join('')}</ol></section>
     <div class="tags-block"><span class="note">Etiquetas</span><div class="tagrow" style="margin-top:6px">${[...it.tags.map(x => `<button type="button" data-tag="${esc(x)}">#${esc(x)}</button>`), ...it.topics.map(x => `<button type="button" data-topic="${esc(x)}">${esc(x)}</button>`), ...it.countries.filter(c=>c!=='Global').map(c => `<button type="button" data-country="${esc(c)}">${esc(c)}</button>`)].join('')}</div></div>
-    <p class="disclaimer">${it.kind === 'analisis' ? 'Este contenido resume un <b>análisis de terceros</b>: las interpretaciones pertenecen a la fuente citada, no a la redacción. ' : ''}${isAuto(it) ? 'Título y extracto tomados del feed público de la fuente, sin edición.' : 'Resumen elaborado por la redacción de Pulso Comex.'} Para el texto completo y oficial, consultá el artículo original. Las fotos de archivo son ilustrativas y no corresponden al hecho. ¿Encontraste un error? Escribinos desde <a href="#contacto">Contacto</a>.</p>
+    <p class="disclaimer">${it.kind === 'analisis' ? 'Este contenido resume un <b>análisis de terceros</b>: las interpretaciones pertenecen a la fuente citada, no a la redacción. ' : ''}${isAuto(it) ? 'Título y extracto tomados del feed público de la fuente, sin edición.' : 'Resumen elaborado por la redacción de Comexplora.'} Para el texto completo y oficial, consultá el artículo original. Las fotos de archivo son ilustrativas y no corresponden al hecho. ¿Encontraste un error? Escribinos desde <a href="#contacto">Contacto</a>.</p>
     ${newsletterBox('band')}
     ${related.length ? `<section class="related" aria-labelledby="h-rel"><h2 id="h-rel">También puede interesarte</h2><div class="cards ${related.length === 4 ? 'two' : ''}">${related.map(card).join('')}</div></section>` : ''}
   </article>`;
@@ -1303,7 +1303,7 @@ function renderFuentes(){
   $('#main').innerHTML = `<article class="article doc">
     <a class="btn sm" href="#inicio">${I.back}Volver a Noticias</a>
     <h1>Fuentes</h1>
-    <p class="lede">Pulso Comex prioriza organismos oficiales, aduanas, organizaciones internacionales y medios especializados. Toda nota enlaza a su fuente original.</p>
+    <p class="lede">Comexplora prioriza organismos oficiales, aduanas, organizaciones internacionales y medios especializados. Toda nota enlaza a su fuente original.</p>
     <h2>Fuentes que se consultan automáticamente</h2>
     <p class="note">Un proceso lee estas fuentes cinco veces por día. Sus notas se publican como «Automática», sin revisión de la redacción; los agregadores sirven para descubrir noticias y cada nota enlaza al medio que la publicó.</p>
     <div id="ingest" aria-live="polite"><p class="note">Cargando el estado de las fuentes…</p></div>
@@ -1314,7 +1314,7 @@ function renderFuentes(){
     <p class="note" style="margin-top:16px">El directorio enlaza a los sitios institucionales. Una fuente figura en una nota solo cuando la información proviene efectivamente de ella.</p>
   </article>`;
   loadIngest();
-  setSEO({ title:`Fuentes · ${CONFIG.siteName}`, desc:'Fuentes oficiales, organismos internacionales y medios especializados que usa Pulso Comex.', crumbs:[['Noticias','#inicio'],['Fuentes']] });
+  setSEO({ title:`Fuentes · ${CONFIG.siteName}`, desc:'Fuentes oficiales, organismos internacionales y medios especializados que usa Comexplora.', crumbs:[['Noticias','#inicio'],['Fuentes']] });
 }
 const fmtDateTime = iso => { const d = new Date(iso); return isNaN(d) ? '—' : `${shortDate(d)} ${fmtTime.format(d)} h`; };
 async function loadIngest(){
@@ -1345,15 +1345,15 @@ const PAGES = {
   privacidad: ['Política de privacidad', `<p>Esta sección no utiliza cuentas de usuario ni recopila datos personales. Las noticias guardadas, las preferencias y el contador de lecturas se almacenan solo en tu navegador y podés borrarlos limpiando los datos del sitio.</p><p>Al seguir un enlace a una fuente externa, rige la política de privacidad de ese sitio.</p>`],
   terminos: ['Términos y condiciones', `
     <h2>Carácter del contenido</h2>
-    <p>El contenido de Pulso Comex es informativo y no constituye asesoramiento legal, aduanero, tributario ni financiero. Las calculadoras dan estimaciones orientativas. Antes de operar, verificá la normativa vigente en la fuente oficial y consultá con un despachante de aduana o un profesional.</p>
+    <p>El contenido de Comexplora es informativo y no constituye asesoramiento legal, aduanero, tributario ni financiero. Las calculadoras dan estimaciones orientativas. Antes de operar, verificá la normativa vigente en la fuente oficial y consultá con un despachante de aduana o un profesional.</p>
     <h2>Fuentes y derechos de terceros</h2>
     <p>Las notas de la redacción son resúmenes de elaboración propia: los datos, cifras y declaraciones pertenecen a las fuentes citadas, que se identifican y enlazan en cada nota. Las notas marcadas como «Automática» reproducen el título y, cuando existe, el extracto que la propia fuente publica en su canal de difusión (RSS), siempre con su nombre y el enlace al artículo original, como establece el artículo 28 de la Ley 11.723 para las noticias de interés general.</p>
     <p>Las imágenes son fotos de archivo de uso libre (Unsplash) o de dominio público (Wikimedia Commons), con crédito a su autor, o ilustraciones y gráficos propios del sitio. Las fotos de archivo son ilustrativas y no corresponden al hecho de la noticia. Los nombres y marcas de los medios y organismos citados pertenecen a sus titulares.</p>
     <h2>Pedidos de corrección o retiro</h2>
     <p>Si sos titular de derechos sobre algún contenido, o una nota te menciona y considerás que contiene un error, escribinos${SITECFG.contactEmail ? ` a <a href="mailto:${esc(SITECFG.contactEmail)}">${esc(SITECFG.contactEmail)}</a>` : ''} con el enlace a la nota. Revisamos cada pedido y, cuando corresponde, corregimos o retiramos el contenido.</p>
-    <h2>Uso del contenido de Pulso Comex</h2>
-    <p>Podés compartir los enlaces a las notas libremente. Para reproducir los textos, gráficos o herramientas propias del sitio, citá a Pulso Comex con un enlace a la nota.</p>`],
-  acerca: ['Sobre Pulso Comex', `<p>Pulso Comex es un portal de noticias, datos y análisis sobre comercio exterior, pensado para importadores, exportadores, despachantes de aduana, operadores logísticos y portuarios, estudiantes y docentes.</p>
+    <h2>Uso del contenido de Comexplora</h2>
+    <p>Podés compartir los enlaces a las notas libremente. Para reproducir los textos, gráficos o herramientas propias del sitio, citá a Comexplora con un enlace a la nota.</p>`],
+  acerca: ['Sobre Comexplora', `<p>Comexplora es un portal de noticias, datos y análisis sobre comercio exterior, pensado para importadores, exportadores, despachantes de aduana, operadores logísticos y portuarios, estudiantes y docentes.</p>
     <h2>Criterios editoriales</h2><ul><li>Cada nota de la redacción se verifica contra su fuente original y la enlaza.</li><li>Los resúmenes son redacción propia; las cifras y declaraciones pertenecen a las fuentes.</li><li>Se distingue entre <b>noticias</b>, <b>análisis de terceros</b>, <b>datos</b> y <b>opinión</b>.</li><li>El bloque «Impacto en Argentina» solo aparece cuando la información disponible lo sustenta.</li><li>No se publican noticias sin título, fecha y fuente con enlace.</li></ul>
     <h2>Cómo se actualiza</h2><p>La página lee un feed normalizado que puede alimentarse con APIs, RSS, una base de datos o webhooks, y lo vuelve a consultar cada ${CONFIG.refreshMinutes} minutos sin recargar. Un proceso automático consulta las fuentes varias veces por día; el encabezado muestra la hora de la última actualización. Las notas marcadas como «Automática» provienen directamente del feed de la fuente y no tienen revisión editorial.</p>`]
 };
@@ -1367,7 +1367,7 @@ const hasNewsletter = !!(nl.formAction || nl.url);
 const mailLink = mail ? `<a href="mailto:${esc(mail)}">${esc(mail)}</a>` : '';
 
 PAGES.acerca = ['Quiénes somos', `
-  <p>Pulso Comex es un portal de noticias, datos y herramientas sobre comercio exterior, con foco en Argentina y Latinoamérica. Está pensado para importadores, exportadores, despachantes de aduana, operadores logísticos, estudiantes y docentes que necesitan seguir, en un solo lugar, lo que pasa con aranceles, aduanas, acuerdos comerciales y logística.</p>
+  <p>Comexplora es un portal de noticias, datos y herramientas sobre comercio exterior, con foco en Argentina y Latinoamérica. Está pensado para importadores, exportadores, despachantes de aduana, operadores logísticos, estudiantes y docentes que necesitan seguir, en un solo lugar, lo que pasa con aranceles, aduanas, acuerdos comerciales y logística.</p>
   ${resp.nombre ? `<h2>Quién está detrás</h2>
     <div class="person"><p><b>${esc(resp.nombre)}</b>${resp.rol ? ` · ${esc(resp.rol)}` : ''}</p>
     ${resp.descripcion ? `<p>${esc(resp.descripcion)}</p>` : ''}
@@ -1395,12 +1395,12 @@ PAGES.contacto = ['Contacto', `
   ${mail ? `<p>Escribinos a <b>${mailLink}</b> <button class="btn sm" type="button" data-copy="${esc(mail)}">Copiar correo</button></p>
     <p>Respondemos consultas sobre:</p>
     <ul><li>Correcciones o aclaraciones sobre una nota (indicá el enlace).</li><li>Sugerencias de fuentes o temas.</li><li>Publicidad, patrocinios y propuestas comerciales.</li></ul>
-    <p class="note">Pulso Comex no brinda asesoramiento aduanero ni tributario personalizado. Para operar, consultá con un despachante de aduana.</p>`
+    <p class="note">Comexplora no brinda asesoramiento aduanero ni tributario personalizado. Para operar, consultá con un despachante de aduana.</p>`
     : '<p>Muy pronto vas a encontrar acá un correo de contacto.</p>'}
   ${SITECFG.redes?.length ? `<h2>Redes</h2><p style="display:flex;gap:14px;flex-wrap:wrap">${SITECFG.redes.map(r => `<a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${esc(r.nombre)}</a>`).join('')}</p>` : ''}`];
 
 PAGES.privacidad = ['Política de privacidad', `
-  <p>Pulso Comex no requiere registrarse ni crear una cuenta para leer el sitio.</p>
+  <p>Comexplora no requiere registrarse ni crear una cuenta para leer el sitio.</p>
   <h2>Datos que se guardan en tu navegador</h2>
   <p>Las noticias guardadas, tus preferencias (tema, tamaño de texto, temas favoritos) y el contador de lecturas se guardan solo en tu navegador. No se envían a ningún servidor y podés borrarlos limpiando los datos del sitio.</p>
   ${SITECFG.googleAnalyticsId ? `<h2>Estadísticas de visitas</h2><p>Usamos Google Analytics para saber cuántas personas visitan el sitio y qué secciones leen. Google recibe datos técnicos de la visita (páginas vistas, tipo de dispositivo, ubicación aproximada) y usa cookies para eso. No usamos esa información para identificarte personalmente. Podés bloquearla con la configuración de tu navegador o con el <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">complemento de inhabilitación de Google Analytics</a>.</p>` : ''}
@@ -1417,7 +1417,7 @@ PAGES.privacidad = ['Política de privacidad', `
    ===================================================================== */
 function newsletterBox(where = 'aside'){
   if (!hasNewsletter) return '';
-  const title = 'Newsletter de Pulso Comex';
+  const title = 'Newsletter de Comexplora';
   const txt = 'Lo más importante del comercio exterior, en tu correo. Gratis, y te das de baja cuando quieras.';
   const body = nl.formAction
     ? `<form class="nl-form" novalidate><label class="sr" for="nl-${where}">Tu correo</label>
@@ -1448,7 +1448,7 @@ document.addEventListener('submit', async e => {
 /* =====================================================================
    CALCULADORAS DE IMPORTACIÓN Y EXPORTACIÓN
    ===================================================================== */
-// Las fórmulas viven en assets/calc-core.js (PulsoCalc) y las alícuotas, topes y fuentes en data/calc-rules.json
+// Las fórmulas viven en assets/calc-core.js (ComexCalc) y las alícuotas, topes y fuentes en data/calc-rules.json
 // (SITE_DATA.calcRules). Acá solo se arma la página. Pruebas: node tests/calc.test.js
 const CALC_RULES = SITE_DATA.calcRules || null;
 const CALC_DEFAULTS = { inco: 'FOB', precio: '10.000', origen: '', flete: '1.200', seguro: '60', tc: '', origin: 'extra', mercoExcluded: false, acuerdoTeExento: false,
@@ -1462,7 +1462,7 @@ const fmtUSD = n => 'USD ' + new Intl.NumberFormat('es-AR', { minimumFractionDig
 const fmtARS = n => '$ ' + new Intl.NumberFormat('es-AR', { maximumFractionDigits: 0 }).format(n);
 const fmtPct = n => new Intl.NumberFormat('es-AR', { maximumFractionDigits: 2 }).format(n) + ' %';
 const fmtYMD = s => String(s || '').split('-').reverse().join('/');
-const calcReady = () => !!(window.PulsoCalc && CALC_RULES);
+const calcReady = () => !!(window.ComexCalc && CALC_RULES);
 
 const INCOTERM_INFO = {
   EXW: { label: 'EXW · en fábrica', hint: 'El precio no incluye llevar la mercadería al puerto ni cargarla: sumá esos gastos en origen, el flete y el seguro.' },
@@ -1521,7 +1521,7 @@ const EXP_NOT_INCLUDED = [
 function renderCalculadora(){
   const f = calcField(calc, 'calc'), s = calcSelect(calc, 'calc'), c = calcCheck(calc, 'calc');
   const R = CALC_RULES?.import;
-  const inc = INCOTERM_INFO[calc.inco] || INCOTERM_INFO.FOB, k = window.PulsoCalc?.INCOTERMS?.[calc.inco] || { flete: true, seguro: true };
+  const inc = INCOTERM_INFO[calc.inco] || INCOTERM_INFO.FOB, k = window.ComexCalc?.INCOTERMS?.[calc.inco] || { flete: true, seguro: true };
   const diLocked = calc.origin === 'mercosur' && !calc.mercoExcluded;
   const part = calc.situacion === 'particular';
   $('#main').innerHTML = `<article class="article doc calc">
@@ -1582,14 +1582,14 @@ function renderCalculadora(){
 }
 function updateCalc(){
   const out = $('#calcOut'); if (!out || !calcReady()) return;
-  const r = PulsoCalc.computeImport(calc, CALC_RULES);
+  const r = ComexCalc.computeImport(calc, CALC_RULES);
   showFieldErrors('calc', r.errors);
   if (!r.ok){ out.innerHTML = `<h2>Resultado</h2>${errorList('calc', r.errors, IMP_LABELS)}<p class="note">El resultado aparece cuando todos los datos obligatorios son válidos: no se completan con valores supuestos.</p>`; return; }
   const ars = n => r.tc ? `<td class="ars">${fmtARS(n * r.tc)}</td>` : '';
   const row = (label, n, note = '', cls = '', tag = '') => `<tr class="${cls}"><th scope="row">${label}${tag}${note ? `<small>${note}</small>` : ''}</th><td>${fmtUSD(n)}</td>${ars(n)}</tr>`;
   const tag = rec => rec ? ' <span class="tag rec">Recuperable</span>' : ' <span class="tag cost">Costo</span>';
   const grp = t => `<tr class="grp"><th scope="rowgroup" colspan="${r.tc ? 3 : 2}">${t}</th></tr>`;
-  const sitLabel = PulsoCalc.SITUACIONES[r.sit] + (r.sit === 'particular' ? '' : r.destino === 'uso' ? ' · bien de uso' : ' · reventa o insumo');
+  const sitLabel = ComexCalc.SITUACIONES[r.sit] + (r.sit === 'particular' ? '' : r.destino === 'uso' ? ' · bien de uso' : ' · reventa o insumo');
   const teNote = r.teExemptWhy || (r.te.capped ? `3 % del CIF = ${fmtUSD(r.te.raw)}; se aplica el tope de ${fmtUSD(r.te.cap)} del tramo` : `3 % del valor CIF (tope del tramo: ${fmtUSD(r.te.cap)})`);
   out.innerHTML = `<h2>Resultado</h2>
     <p class="note">Calculado para: <b>${esc(sitLabel)}</b>.</p>
@@ -1606,8 +1606,8 @@ function updateCalc(){
       ${row(`Precio de compra (${esc(r.inco)})`, r.precio)}
       ${r.origen ? row('Gastos hasta el embarque', r.origen) : ''}
       ${r.fob != null && r.origen ? row('Valor FOB', r.fob, 'Precio + gastos hasta el embarque', 'sub') : ''}
-      ${PulsoCalc.INCOTERMS[r.inco].flete ? row('Flete internacional', r.flete) : ''}
-      ${PulsoCalc.INCOTERMS[r.inco].seguro ? row('Seguro', r.seguro) : ''}
+      ${ComexCalc.INCOTERMS[r.inco].flete ? row('Flete internacional', r.flete) : ''}
+      ${ComexCalc.INCOTERMS[r.inco].seguro ? row('Seguro', r.seguro) : ''}
       ${row('Valor CIF', r.cif, 'Base del derecho y de la tasa de estadística', 'sub')}
       ${grp('Tributos aduaneros')}
       ${row(`Derecho de importación (${fmtPct(r.di)})`, r.diAmount, r.origin === 'mercosur' && !calc.mercoExcluded ? 'Preferencia Mercosur con certificado de origen' : '', '', tag(false))}
@@ -1685,7 +1685,7 @@ function renderExportacion(){
 }
 function updateExp(){
   const out = $('#expOut'); if (!out || !calcReady()) return;
-  const r = PulsoCalc.computeExport(expo, CALC_RULES);
+  const r = ComexCalc.computeExport(expo, CALC_RULES);
   showFieldErrors('exp', r.errors);
   if (!r.ok){ out.innerHTML = `<h2>Resultado</h2>${errorList('exp', r.errors, EXP_LABELS)}<p class="note">El resultado aparece cuando todos los datos obligatorios son válidos.</p>`; return; }
   const ars = n => r.tc ? `<td class="ars">${fmtARS(n * r.tc)}</td>` : '';

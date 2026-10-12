@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Genera el sitio estático de Pulso Comex a partir de templates/page.html y data/news.json.
+"""Genera el sitio estático de Comexplora a partir de templates/page.html y data/news.json.
 
 Salidas:
 - index.html                 portada (con las últimas notas embebidas como respaldo)
@@ -55,13 +55,13 @@ def detect_site() -> str:
 
 
 SITE = detect_site().rstrip('/')
-SITE_NAME = 'Pulso Comex'
+SITE_NAME = 'Comexplora'
 TZ = timezone(timedelta(hours=-3))
 NOW = datetime.now(timezone.utc)
 INDEX_AUTOMATIC = False   # las notas automáticas (solo enlazan a otro medio) no se indexan en buscadores
 LATEST_MAX = 400          # notas incluidas en data/latest.json
 INLINE_MAX = 40           # notas embebidas en la portada como respaldo
-HOME_TITLE = 'Pulso Comex · Noticias de Comercio Exterior'
+HOME_TITLE = 'Comexplora · Noticias de Comercio Exterior'
 HOME_DESC = ('Portal de noticias de comercio exterior: aranceles, aduanas, acuerdos comerciales, logística, puertos e '
              'indicadores, con foco en Argentina y el Mercosur. Cada nota enlaza a su fuente original.')
 OG_DEFAULT = f'{SITE}/og-default.png'
@@ -195,16 +195,16 @@ def meta_block(*, title, desc, url, image, image_alt, og_type='website', robots=
         f'<title>{esc(title)}</title>',
         f'<meta name="description" content="{esc(desc)}">',
         f'<meta name="robots" content="{robots}">',
-        '<meta name="author" content="Pulso Comex">',
-        '<meta name="application-name" content="Pulso Comex">',
+        '<meta name="author" content="Comexplora">',
+        '<meta name="application-name" content="Comexplora">',
         '<meta name="referrer" content="strict-origin-when-cross-origin">',
         f'<link rel="icon" href="{base}favicon.svg" type="image/svg+xml">',
         f'<link rel="apple-touch-icon" href="{base}apple-touch-icon.png">',
-        f'<link rel="alternate" type="application/rss+xml" title="Pulso Comex · Noticias" href="{base}feed.xml">',
+        f'<link rel="alternate" type="application/rss+xml" title="Comexplora · Noticias" href="{base}feed.xml">',
         '<meta name="theme-color" content="#0B2545">',
         f'<link rel="canonical" id="canonical" href="{esc(url)}">',
         f'<meta property="og:type" content="{og_type}">',
-        '<meta property="og:site_name" content="Pulso Comex">',
+        '<meta property="og:site_name" content="Comexplora">',
         f'<meta property="og:title" content="{esc(title)}">',
         f'<meta property="og:description" content="{esc(desc)}">',
         '<meta property="og:locale" content="es_AR">',
@@ -414,7 +414,7 @@ def tool_body(key, news, items, sitedata, base):
     mail = SITECFG.get('contactEmail')
     mail_html = f'<a href="mailto:{esc(mail)}">{esc(mail)}</a>' if mail else ''
     if key == 'acerca':
-        return ('<p>Pulso Comex es un portal de noticias, datos y herramientas sobre comercio exterior, con foco en Argentina y Latinoamérica.</p>'
+        return ('<p>Comexplora es un portal de noticias, datos y herramientas sobre comercio exterior, con foco en Argentina y Latinoamérica.</p>'
                 '<h2>Criterios editoriales</h2><ul>'
                 '<li>Toda nota identifica su fuente y enlaza al original; no se publican noticias sin título, fecha y fuente.</li>'
                 '<li>Las notas de la redacción se verifican contra la fuente original. Las marcadas como «Automática» provienen del feed de la fuente y no tienen revisión editorial.</li>'
@@ -510,11 +510,11 @@ TOOLS = {
     'calculadora': ('Calculadora de costo de importación', 'Calculá el valor CIF, los derechos de importación, la tasa de estadística, el IVA y las percepciones para importar en la Argentina.'),
     'exportacion': ('Calculadora de exportación', 'Calculá los derechos de exportación, los reintegros y los gastos de una exportación desde la Argentina, y cuánto te queda a partir del valor FOB.'),
     'guias': ('Guías de comercio exterior', 'Guías prácticas: cómo calcular el costo de importar, qué es el valor CIF y el FOB, Incoterms 2020 y posición arancelaria NCM.'),
-    'fuentes': ('Fuentes de información', 'Organismos oficiales, aduanas, organizaciones internacionales y medios especializados que usa Pulso Comex.'),
-    'acerca': ('Quiénes somos', 'Pulso Comex es un portal de noticias, datos y análisis sobre comercio exterior, con foco en Argentina y Latinoamérica.'),
-    'contacto': ('Contacto', 'Cómo comunicarte con Pulso Comex para sugerencias, correcciones o propuestas.'),
-    'privacidad': ('Política de privacidad', 'Cómo trata Pulso Comex los datos de quienes visitan el sitio.'),
-    'terminos': ('Términos y condiciones', 'Condiciones de uso del contenido de Pulso Comex.'),
+    'fuentes': ('Fuentes de información', 'Organismos oficiales, aduanas, organizaciones internacionales y medios especializados que usa Comexplora.'),
+    'acerca': ('Quiénes somos', 'Comexplora es un portal de noticias, datos y análisis sobre comercio exterior, con foco en Argentina y Latinoamérica.'),
+    'contacto': ('Contacto', 'Cómo comunicarte con Comexplora para sugerencias, correcciones o propuestas.'),
+    'privacidad': ('Política de privacidad', 'Cómo trata Comexplora los datos de quienes visitan el sitio.'),
+    'terminos': ('Términos y condiciones', 'Condiciones de uso del contenido de Comexplora.'),
 }
 TOOLS_INDEXED = {'datos', 'agenda', 'glosario', 'calculadora', 'exportacion', 'guias', 'fuentes', 'acerca'}
 
@@ -666,7 +666,7 @@ def main():
     # Feed embebido: primero las curadas recientes (así la portada arma su jerarquía antes de leer latest.json).
     inline = sorted(curated[:INLINE_MAX // 2] + [i for i in items if is_auto(i)][:INLINE_MAX // 2], key=item_dt, reverse=True)
     home = render(template, meta=meta_block(title=HOME_TITLE, desc=HOME_DESC, url=f'{SITE}/', image=OG_DEFAULT,
-                                            image_alt='Pulso Comex · Noticias de Comercio Exterior', ld=org_ld, image_size=(1200, 630)),
+                                            image_alt='Comexplora · Noticias de Comercio Exterior', ld=org_ld, image_size=(1200, 630)),
                   prerender=lambda inner: home_prerender(items), feed=feed_payload(news, inline), bank=bank, version=version,
                   sitedata=sitedata)
     # La portada lleva el CSS y el JS embebidos: así funciona sola, incluso abierta con doble clic

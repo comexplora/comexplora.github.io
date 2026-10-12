@@ -1,4 +1,4 @@
-/* Pulso Comex · núcleo de cálculo de las calculadoras de importación y exportación.
+/* Comexplora · núcleo de cálculo de las calculadoras de importación y exportación.
    Funciones puras, sin acceso al DOM: las usan assets/app.js (en el navegador) y tests/calc.test.js (Node).
    Las alícuotas, topes, fechas y fuentes vienen de data/calc-rules.json (no están escritas acá).
    Premisas del modelo (también se muestran en la página):
@@ -11,7 +11,7 @@
 (function (root, factory) {
   const api = factory();
   if (typeof module === 'object' && module.exports) module.exports = api;
-  else root.PulsoCalc = api;
+  else root.ComexCalc = api;
 })(typeof self !== 'undefined' ? self : this, function () {
   'use strict';
 

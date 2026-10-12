@@ -23,7 +23,7 @@ SIZES = {'1600': 1600, '800': 800}
 
 def download(url: str) -> bytes:
     # Wikimedia pide un User-Agent que identifique al sitio y un contacto.
-    req = Request(url, headers={'User-Agent': 'PulsoComexBot/1.2 (https://pulso-comex.github.io; pulso.comex26@gmail.com)'})
+    req = Request(url, headers={'User-Agent': 'ComexploraBot/1.2 (https://pulso-comex.github.io; pulso.comex26@gmail.com)'})
     with urlopen(req, timeout=30) as r:
         return r.read(40_000_000)
 

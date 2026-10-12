@@ -1,4 +1,4 @@
-name: Actualizar y publicar Pulso Comex
+name: Actualizar y publicar Comexplora
 
 on:
   workflow_dispatch:
@@ -15,7 +15,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: pulso-comex
+  group: comexplora
   cancel-in-progress: false
 
 jobs:
@@ -50,7 +50,7 @@ jobs:
 
       - name: Guardar cambios en el repositorio
         run: |
-          git config user.name 'Pulso Comex Bot'
+          git config user.name 'Comexplora Bot'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -A .
           if git diff --cached --quiet; then

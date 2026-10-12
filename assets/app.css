@@ -78,7 +78,7 @@ svg.i{width:18px;height:18px;flex:none;stroke:currentColor;fill:none;stroke-widt
 @keyframes pulse{50%{box-shadow:0 0 0 6px rgba(61,214,140,0)}}
 .mast-top{display:flex;align-items:center;gap:16px;padding-block:12px}
 .brand{display:flex;align-items:center;gap:11px;text-decoration:none;min-width:0;color:inherit}
-.brand-logo{display:block;height:48px;width:auto;flex:none;color:var(--on-navy,#fff)}
+.brand-logo{display:block;height:46px;width:auto;flex:none;color:var(--on-navy,#fff)}
 .mast-tools{margin-left:auto;display:flex;align-items:center;gap:8px}
 .msearch{display:flex;align-items:center;gap:8px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:var(--r);padding:0 10px;height:40px;width:300px;transition:border-color .15s,background .15s}
 .msearch:focus-within{border-color:var(--accent);background:rgba(255,255,255,.12)}
@@ -552,7 +552,7 @@ footer p{margin:0 0 10px}
   #menuBtn,#searchJump{display:inline-flex}
   .theme-label{display:none}
   .mast-top{padding-block:9px;gap:10px}
-  .brand-logo{height:42px}
+  .brand-logo{height:38px}
   .mast.search-open .mast-search-row{display:block;padding-bottom:10px}
   .mast-search-row .msearch{display:flex;width:100%}
   .nav{display:none}
@@ -607,7 +607,7 @@ footer p{margin:0 0 10px}
   .breaking a{white-space:normal;flex-basis:100%}
 }
 @media (max-width:480px){
-  .brand-logo{height:36px}
+  .brand-logo{height:31px}
   .mast-tools{gap:6px}
   #prefsBtn{display:none}
   .nav .nav-prefs{display:block}

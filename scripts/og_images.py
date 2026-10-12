@@ -2,7 +2,7 @@
 """Imágenes para redes (Open Graph, 1200×630) de las notas curadas.
 
 Cada nota curada recibe una tarjeta con la marca, la categoría, el título y su dato clave, para que
-al compartirla en WhatsApp, LinkedIn o X se vea profesional y se reconozca Pulso Comex.
+al compartirla en WhatsApp, LinkedIn o X se vea profesional y se reconozca Comexplora.
 Las automáticas (que solo enlazan a otro medio) siguen usando la foto de archivo.
 
 - Salida: img/og/<id>.png y img/og/manifest.json (huella de cada imagen: solo se regenera si cambió la nota).
@@ -22,7 +22,7 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = Path(__file__).resolve().parents[1]
 FONTS = Path(__file__).resolve().parent / 'fonts'
 OUT = ROOT / 'img' / 'og'
-VERSION = '2'          # cambiarlo fuerza a regenerar todas las imágenes (por ejemplo, tras un rediseño)
+VERSION = '3'          # cambiarlo fuerza a regenerar todas las imágenes (por ejemplo, tras un rediseño)
 MAX_AGE_DAYS = 180     # notas más viejas vuelven a la foto de archivo y su imagen se borra
 W, H = 1200, 630
 PAD = 72
@@ -85,7 +85,7 @@ def logo(im, x, y, h):
     try:
         lg = Image.open(LOGO_PNG).convert('RGBA')
     except OSError:
-        ImageDraw.Draw(im).text((x, y), 'PULSO COMEX', font=font('IBMPlexSans-SemiBold.ttf', round(h * 0.6)), fill=WHITE)
+        ImageDraw.Draw(im).text((x, y), 'comexplora', font=font('IBMPlexSans-SemiBold.ttf', round(h * 0.6)), fill=WHITE)
         return
     lg = lg.resize((round(lg.width * h / lg.height), h), Image.LANCZOS)
     im.paste(lg, (x, y), lg)
