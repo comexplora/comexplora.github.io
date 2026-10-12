@@ -51,7 +51,7 @@ def detect_site() -> str:
         owner, name = repo.split('/', 1)
         owner = owner.lower()
         return f'https://{owner}.github.io' if name.lower() == f'{owner}.github.io' else f'https://{owner}.github.io/{name}'
-    return 'https://pulso-comex.github.io'
+    return 'https://comexplora.github.io'
 
 
 SITE = detect_site().rstrip('/')

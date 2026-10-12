@@ -27,7 +27,7 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 NEWS = ROOT / 'data' / 'news.json'
-UA = 'Mozilla/5.0 (compatible; ComexploraBot/1.1; +https://pulso-comex.github.io)'
+UA = 'Mozilla/5.0 (compatible; ComexploraBot/1.1; +https://comexplora.github.io)'
 MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic']
 
 BCRA_URL = 'https://api.bcra.gob.ar/estadisticas/v4.0/monetarias/5?limit=40'

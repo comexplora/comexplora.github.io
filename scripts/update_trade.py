@@ -23,7 +23,7 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'data' / 'trade.json'
-UA = 'Mozilla/5.0 (compatible; ComexploraBot/1.1; +https://pulso-comex.github.io)'
+UA = 'Mozilla/5.0 (compatible; ComexploraBot/1.1; +https://comexplora.github.io)'
 API = 'https://apis.datos.gob.ar/series/api/series/?ids={}&last=1&metadata=full'
 SOURCE_PAGE = 'https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-2-40'
 DATASETS = {   # serie conocida de cada conjunto → su archivo CSV
