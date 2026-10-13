@@ -862,6 +862,20 @@ def resolve_gnews(by_url: dict) -> dict:
     return stats
 
 
+def put_keep_curated(index: dict, key: str, it: dict) -> None:
+    """Guarda la nota en el índice por URL. Si la clave ya está ocupada, gana la nota curada:
+    una automática con la misma URL principal que una curada nunca la reemplaza."""
+    prev = index.get(key)
+    if prev is None:
+        index[key] = it
+        return
+    prev_cur, it_cur = prev.get('label') != 'Automática', it.get('label') != 'Automática'
+    if it_cur and not prev_cur:
+        index[key] = it
+    elif it_cur and prev_cur and prev.get('id') != it.get('id'):
+        index['curada:' + it.get('id', '')] = it  # dos curadas con la misma fuente principal: se conservan las dos
+
+
 def main():
     sources = load_json(ROOT / 'sources.json', [])
     store = load_json(NEWS, {})
@@ -874,10 +888,8 @@ def main():
         if not it.get('title'):
             continue
         key = canonical_url(primary_url(it)) or it.get('id')
-        if key in by_url:  # limpia duplicados heredados de versiones anteriores
-            continue
-        by_url[key] = it
-        ids.add(it.get('id'))
+        put_keep_curated(by_url, key, it)  # limpia duplicados heredados; una curada nunca se pierde
+    ids = {it.get('id') for it in by_url.values()}
     # Enlaces de notas fusionadas en otra (agrupamiento) o de Google Noticias ya resueltos: apuntan a la nota que quedó.
     alias = {}
     for k, it in by_url.items():
@@ -1068,7 +1080,9 @@ def main():
     # Notas automáticas que cuentan el mismo hecho: una sola, con "También en".
     values = list(by_url.values())
     groups = group_auto(values)
-    by_url = {(canonical_url(primary_url(it)) or it.get('id')): it for it in values}
+    by_url = {}
+    for it in values:
+        put_keep_curated(by_url, canonical_url(primary_url(it)) or it.get('id'), it)
 
     # Archivo: notas automáticas hasta un año y con tope; las curadas no se borran.
     cutoff = NOW - timedelta(days=ARCHIVE_DAYS)
