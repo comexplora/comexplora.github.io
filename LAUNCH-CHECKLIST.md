@@ -12,11 +12,22 @@
 
 ## 2. Dominio
 
-- [ ] Comprar `comexplora.com` y, si está libre, `comexplora.com.ar` (NIC Argentina). Al conectar el dominio, cambiá `CNAME`, `SITE` en `scripts/build_pages.py`, `canonicalBase` en `assets/app.js` y `robots.txt`.
-- [ ] Verificar el dominio en GitHub (Settings de tu cuenta → Pages) antes de apuntar el DNS.
-- [ ] Configurar el DNS según las instrucciones de GitHub Pages y cargar el dominio en Settings → Pages → Custom domain.
-- [ ] Activar «Enforce HTTPS».
-- [ ] Mientras no tengas dominio, borrá el archivo `CNAME` y el sitio queda en `https://<usuario>.github.io/<repositorio>/`. Las fotos y la navegación funcionan igual; los enlaces para compartir y el sitemap apuntan al dominio definitivo.
+Hoy el sitio está en https://comexplora.github.io (repositorio `comexplora/comexplora.github.io`). La dirección se detecta sola: `scripts/build_pages.py` la toma del archivo `CNAME` si existe y, si no, del nombre del repositorio. Canónicas, sitemaps, RSS, `robots.txt` y Open Graph se regeneran con esa dirección; no hace falta tocar código.
+
+- [ ] Comprar `comexplora.com` y, si está libre, `comexplora.com.ar` (NIC Argentina).
+- [ ] Verificar el dominio en GitHub (Settings de tu cuenta → Pages → Add a domain) antes de apuntar el DNS.
+- [ ] Configurar el DNS según las instrucciones de GitHub Pages (registros A/AAAA del dominio raíz y CNAME de `www` hacia `comexplora.github.io`).
+- [ ] Crear en la raíz del repositorio el archivo `CNAME` con una sola línea: `comexplora.com`. Cargar el mismo dominio en Settings → Pages → Custom domain y activar «Enforce HTTPS».
+- [ ] Disparar el workflow a mano (Actions → «Actualizar y publicar Comexplora» → Run workflow) para regenerar todas las páginas con la dirección nueva. GitHub redirige solo comexplora.github.io al dominio propio.
+- [ ] Actualizar las tareas programadas (curaduría y control semanal) con la dirección nueva.
+
+### Dirección vieja (pulso-comex.github.io)
+
+Desde el 12/10/2026 la dirección vieja no abre. Para que los enlaces viejos lleguen al sitio nuevo y nadie más tome el nombre `pulso-comex` en GitHub:
+
+- [ ] Crear una organización gratuita `pulso-comex` en GitHub y, dentro, un repositorio público `pulso-comex.github.io`.
+- [ ] Subirle los dos archivos de la carpeta de redirección (`index.html` y `404.html`): llevan cada dirección vieja a la misma página en comexplora.github.io.
+- [ ] Settings → Pages → Source: «Deploy from a branch», rama `main`, carpeta raíz.
 
 ## 3. Datos propios
 
