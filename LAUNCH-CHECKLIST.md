@@ -21,14 +21,6 @@ Hoy el sitio está en https://comexplora.github.io (repositorio `comexplora/come
 - [ ] Disparar el workflow a mano (Actions → «Actualizar y publicar Comexplora» → Run workflow) para regenerar todas las páginas con la dirección nueva. GitHub redirige solo comexplora.github.io al dominio propio.
 - [ ] Actualizar las tareas programadas (curaduría y control semanal) con la dirección nueva.
 
-### Dirección vieja (pulso-comex.github.io)
-
-Desde el 12/10/2026 la dirección vieja no abre. Para que los enlaces viejos lleguen al sitio nuevo y nadie más tome el nombre `pulso-comex` en GitHub:
-
-- [ ] Crear una organización gratuita `pulso-comex` en GitHub y, dentro, un repositorio público `pulso-comex.github.io`.
-- [ ] Subirle los dos archivos de la carpeta de redirección (`index.html` y `404.html`): llevan cada dirección vieja a la misma página en comexplora.github.io.
-- [ ] Settings → Pages → Source: «Deploy from a branch», rama `main`, carpeta raíz.
-
 ## 3. Datos propios
 
 - [ ] Crear un correo con el dominio propio (por ejemplo `contacto@comexplora.com`) y cargarlo en `site.json` → `contactEmail`.
