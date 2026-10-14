@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-10-14T17:58:05Z",
+  "updatedAt": "2026-10-14T21:57:06Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -134,20 +134,16 @@
     {
       "id": "tc-mayorista",
       "label": "Tipo de cambio mayorista ARS/USD",
-      "value": "$ 1.515,85",
-      "period": "Com. A 3500 · 13 oct 2026",
+      "value": "$ 1.514,57",
+      "period": "Com. A 3500 · 14 oct 2026",
       "source": "BCRA",
       "url": "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp",
       "group": "Mercados",
-      "obsDate": "2026-10-13",
-      "change": "0,0% vs. día hábil anterior",
-      "trend": "flat",
-      "checkedAt": "2026-10-14T17:58:48Z",
+      "obsDate": "2026-10-14",
+      "change": "-0,1% vs. día hábil anterior",
+      "trend": "down",
+      "checkedAt": "2026-10-14T21:57:31Z",
       "history": [
-        [
-          "2026-09-01",
-          1512.7304
-        ],
         [
           "2026-09-02",
           1511.6306
@@ -263,11 +259,15 @@
         [
           "2026-10-13",
           1515.8543
+        ],
+        [
+          "2026-10-14",
+          1514.5655
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-14T17:58:48Z"
+      "lastAttempt": "2026-10-14T21:57:31Z"
     },
     {
       "id": "soja",
@@ -284,7 +284,7 @@
         "date": "2026-10-13",
         "ars": 560000.0
       },
-      "checkedAt": "2026-10-14T17:58:49Z",
+      "checkedAt": "2026-10-14T21:57:32Z",
       "_prev": {
         "date": "2026-10-09",
         "ars": 560000.0
@@ -321,7 +321,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-14T17:58:49Z"
+      "lastAttempt": "2026-10-14T21:57:32Z"
     },
     {
       "id": "brent",
@@ -334,7 +334,7 @@
       "obsDate": "2026-10-06",
       "change": "-0,1% vs. día anterior",
       "trend": "down",
-      "checkedAt": "2026-10-14T17:58:52Z",
+      "checkedAt": "2026-10-14T21:57:35Z",
       "history": [
         [
           "2026-08-25",
@@ -459,7 +459,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-10-14T17:58:52Z"
+      "lastAttempt": "2026-10-14T21:57:35Z"
     },
     {
       "id": "maiz",
@@ -476,7 +476,7 @@
         "date": "2026-10-13",
         "ars": 287500.0
       },
-      "checkedAt": "2026-10-14T17:58:52Z",
+      "checkedAt": "2026-10-14T21:57:35Z",
       "_prev": {
         "date": "2026-10-09",
         "ars": 292500.0
@@ -513,7 +513,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-14T17:58:52Z"
+      "lastAttempt": "2026-10-14T21:57:35Z"
     },
     {
       "id": "trigo",
@@ -530,7 +530,7 @@
         "date": "2026-10-13",
         "ars": 345805.0
       },
-      "checkedAt": "2026-10-14T17:58:52Z",
+      "checkedAt": "2026-10-14T21:57:35Z",
       "_prev": {
         "date": "2026-10-09",
         "ars": 342000.0
@@ -567,10 +567,672 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-14T17:58:52Z"
+      "lastAttempt": "2026-10-14T21:57:35Z"
     }
   ],
   "items": [
+    {
+      "id": "argentina-y-estados-unidos-avanzan-con-el-acuerdo-comercial-y-preparan-su-envio",
+      "datetime": "2026-10-14T21:09:00Z",
+      "date": "2026-10-14",
+      "firstSeen": "2026-10-14T21:57:06Z",
+      "title": "Argentina y Estados Unidos avanzan con el acuerdo comercial y preparan su envío al Congreso",
+      "summary": "Pablo Quirno anunció la firma de un protocolo adicional junto al representante comercial estadounidense, Jamieson Greer. El documento permitirá iniciar el trámite legislativo del entendimiento, que incluye compromisos arancelarios y se vincula con proyectos de financiamiento e infraestructura.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Tratados y acuerdos",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Argentina",
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Estados Unidos"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "A24.com",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.a24.com/politica/argentina-y-estados-unidos-avanzan-el-acuerdo-comercial-y-preparan-su-envio-al-congreso-n1606429",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-14T21:57:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVmY0OHVGSGw0cEdXengwdmhfbzd5REl2NGdYRElpYVhHZ3NNVV9NSlFVdUlCTkJlQy1oa2laSzVUV2h1QWtZSnI3aEJkNEJlZWM0aHZUT25YV05zcnBiT2pLVEZYRVMzNXRuRWM0eUdxU0xlZmFzRFpodjZhZHgtZnhkaEhZNkx0T3hsVVk2NzI3cXY3UEZKZEl0dEdhd2xsYnhMcEo0cHFVSUYtN2ZaWmhQQmVMeVhEZGNUU2VKQ1lzMGfSAcgBQVVfeXFMTW9iM2lwMUxKaWFvMmgzYjB5aXZrVDk4dkJXbnVoby1Mbl91T1dPUG5BQmhGdjJUUHVybl9uTm5XNWpIOU9CVE1mWVMtOGtQVWZ3SmlwYmFtR09SYnFaa0tWNC02dlpkVkNFWGFlT2FncTd5Y2RWSkFSRGhCcmQtbzZfeWJCWU1ueWdJbmN6czNqMzdWekN5VHdzazlnYzEtR1pRUTRhd0RpMnlIeFN6blQtMC1HckhMZXdUX094XzdBSHRZR0NJSks?oc=5"
+    },
+    {
+      "id": "congresistas-de-eu-buscan-imponer-aranceles-al-aguacate-mexicano-cna",
+      "datetime": "2026-10-14T20:49:30Z",
+      "date": "2026-10-14",
+      "firstSeen": "2026-10-14T21:57:06Z",
+      "title": "Congresistas de EU buscan imponer aranceles al aguacate mexicano: CNA",
+      "summary": "El CNA alerta sobre medidas proteccionistas de EU que podrían afectar el comercio agroalimentario. Descubre los detalles.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Latinoamérica",
+        "Europa"
+      ],
+      "countries": [
+        "México",
+        "Unión Europea"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Milenio",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.milenio.com/negocios/congresistas-eu-buscan-aranceles-aguacate-riesgo-t-mec",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-14T21:57:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQYmtHdlhkdjdxXzdzeWM4UW9jb05wTzIwQ1NGLUd1VWlzUEdFOXZyN3NBcDNQRnMtOHN0V2ZiVm9EUFRPREZhcXlUY3FQWHpzUXRqUXJmbFl3ZlVfMnliMTBQelB6bDAtSHlld3ZRbkJpa00tUGwyaUJBOUZRdURFMjFGN3JrbktlUG1QTkJIUS3SAZABQVVfeXFMTTRSMnpweW14WWRmZmNudDFYQ0duRW8zczJpMEcwYnJpT2E2ejJxbHJfUm14OWNua1l0RDF4NEZhLThudTR5MkN4dFRsb1ktcVlrTmQzS1V2MFVYd0FYTXpGSGI2RzB4Wnh0VDk3VnhEYWk3RS1aX2dERHA4RzAxR295bGg3a2t2c0RuWXJReFct?oc=5"
+    },
+    {
+      "id": "record-de-exportaciones-el-impacto-economico-de-los-envios-mendocinos-al-mundo",
+      "datetime": "2026-10-14T20:46:00Z",
+      "date": "2026-10-14",
+      "firstSeen": "2026-10-14T21:57:06Z",
+      "title": "Récord de exportaciones: el impacto económico de los envíos mendocinos al mundo",
+      "summary": "Mendoza lidera el repunte del comercio exterior argentino impulsada por la agroindustria y la economa del conocimiento.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "Ciudadano News",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://ciudadano.news/economia/record-de-exportaciones-el-impacto-economico-de-los-envios-mendocinos-al-mundo-n122952",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-14T21:57:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPX2dYNWZueDZpTUI5MllpWWFKVVRyQjlLbTJydDFfOHlrUnJpeWJfaGtJa1Q1eHRTNTh6aGtnbWxPcWswTkNwTHoyN2R5azRaeWdDNTl5dUZsbk11NTJaTzlLZ2w2QTNnaUpxQzBIemdDZEhVTkVOdTMwV2U2WVA4VnlvY2pzaUJKSFlpLUplXzlOOG5fWnBSc1RMUjlpLWl2aUVad2ZyY1JuUUxDYk9Idnl3VHRnalJCSFUwaWcwb9IBvwFBVV95cUxPX2dYNWZueDZpTUI5MllpWWFKVVRyQjlLbTJydDFfOHlrUnJpeWJfaGtJa1Q1eHRTNTh6aGtnbWxPcWswTkNwTHoyN2R5azRaeWdDNTl5dUZsbk11NTJaTzlLZ2w2QTNnaUpxQzBIemdDZEhVTkVOdTMwV2U2WVA4VnlvY2pzaUJKSFlpLUplXzlOOG5fWnBSc1RMUjlpLWl2aUVad2ZyY1JuUUxDYk9Idnl3VHRnalJCSFUwaWcwbw?oc=5"
+    },
+    {
+      "id": "gerente-general-de-epi-remarca-importancia-de-politica-logistica-regional-para-e",
+      "datetime": "2026-10-14T20:45:25Z",
+      "date": "2026-10-14",
+      "firstSeen": "2026-10-14T21:57:06Z",
+      "title": "Gerente general de EPI remarca importancia de Política Logística Regional para enfrentar crimen organizado",
+      "summary": "El gerente general de la Empresa Portuaria Iquique (EPI), Rubén Castro Hurtado, destacó la importancia que…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Chile"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/gerente-general-de-epi-remarca-importancia-de-politica-logistica-regional-para-enfrentar-crimen-organizado/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "quirno-anuncio-un-nuevo-paso-en-el-acuerdo-con-estados-unidos-y-destaco-benefici",
+      "datetime": "2026-10-14T20:37:59Z",
+      "date": "2026-10-14",
+      "firstSeen": "2026-10-14T21:57:06Z",
+      "title": "Quirno anunció un nuevo paso en el acuerdo con Estados Unidos y destacó beneficios para las exportaciones",
+      "summary": "El ministro de Relaciones Exteriores se reunió con el representante comercial estadounidense, Jamieson Greer, y firmó un protocolo adicional al acuerdo suscripto en febrero. El Gobierno destacó la ampliación de la cuota de carne, el crecimiento de las exportaciones y nuevas herramientas de financiamiento.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Tratados y acuerdos",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "La Voz del Interior",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.lavoz.com.ar/politica/quirno-anuncio-nuevo-paso-acuerdo-estados-unidos-destaco-beneficios-exportaciones_0_XZs35hciWT.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-14T21:57:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYzRqVG1YTEF1M29veGZ4M0xmVkRWQ3RHTjlGRGY1WWgxM2U4OVRUNkRHSEpwc3MyQjhJN1hReGpsamN6cE1CUFUteHZpNlpPVGdJR2p6MThMVWQyMk1aLUJmZERVM1Y4dnM3QmFsWEppUWJwYTVQaEEwaDFUY1UtM0NBYkxfM3VsWHMtalhkaWhEeFFVWHlGZXRkSVhnbGNxb3JZTlNlMDZlNHlQY3p4aldETEt1VWQyVVhwSWJjdnJsa1BkaUpVSzE1cm5ldw?oc=5"
+    },
+    {
+      "id": "puertos-de-la-guaira-y-carabobo-se-integran-a-plataformas-operativas-de-tres-nav",
+      "datetime": "2026-10-14T20:32:29Z",
+      "date": "2026-10-14",
+      "firstSeen": "2026-10-14T21:57:06Z",
+      "title": "Puertos de La Guaira y Carabobo se integran a plataformas operativas de tres navieras internacionales",
+      "summary": "El Ministerio de Transporte informó que tanto el Puerto La Guiara como Puerto Cabello actualmente están «en el mapa operativo de tres de las navieras más influyentes del comercio marítimo",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Banca y Negocios",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.bancaynegocios.com/puertos-de-la-guaira-y-carabobo-se-integran-a-plataformas-operativas-de-tres-navieras-internacionales/",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Globovisión",
+          "type": "También publicó esta noticia",
+          "url": "https://www.globovision.com/economia/63133/puertos-venezolanos-se-integran-a-plataformas-operativas-de-navieras-internacionales",
+          "alsoIn": true,
+          "title": "Puertos venezolanos se integran a plataformas operativas de navieras internacionales"
+        },
+        {
+          "name": "El Cooperante",
+          "type": "También publicó esta noticia",
+          "url": "https://elcooperante.com/puertos-de-la-guaira-y-puerto-cabello-se-incorporan-a-las-plataformas-de-tres-grandes-navieras-internacionales/",
+          "alsoIn": true,
+          "title": "Puertos de La Guaira y Puerto Cabello se incorporan a las plataformas de tres grandes navieras internacionales"
+        }
+      ],
+      "gnTried": "2026-10-14T21:57:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNDhYQkhlcTBFcjNfYjVCei1CZHRUaUtxLWRPamw1ODZkejkxZkRqMkZFUm5GMWt6TXNzWXkzSHpaV3JUNWZUb2huMDlUdXFiNFRxZm9pcndKTTJfUWF3ck84R1YtaWVxMHZkMDlLUWlqMHlnSi1IWGhtNGNaRzBCNUpJeVM2MGZBQkk0emp3SjBjTzh0N3FMbzFfUGlFWERwaWhyOExKSnlwMmZGQUFfMElyR28zUlN1TjZQaFdibDFtaXdHQ3FsRUtWZzd4QQ?oc=5",
+      "aliasUrls": [
+        "https://elcooperante.com/puertos-de-la-guaira-y-puerto-cabello-se-incorporan-a-las-plataformas-de-tres-grandes-navieras-internacionales",
+        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdWJoaGZZSVRtYS13Q1Y2M0xzcW12bEh2SS10Y1FScjdzLUJXT3h5WVRmcE81SVlHRGUxRmVBbjFWLXR6cjF4aDFYUEJ6Z2xERExyMEdMbVFNUC0yajBWeWV1a2ZWYlE2X2RDbzhXX2ZFcUc5MFZBYVFhTkdJLWVGcDRLejRJblhOSkJrSnFtcFM0aU5YTGdRVWkzOElPWFFOZmp1OUp2SFpqSkhoOWxkbHFBMm1Cb1dHeWZDbTNxc1g0VjhFVkFEaTJYeDZvVGh3aUE",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxQM3R2eUlfNUVHZEFZSjBtWVp5UFhSQlotZHo1aDN2YTdZV2xFTkFveWR3VXFXd3VPUEgyMHM0cUFwdEdnUV92SkFic3p3RWFTbTZTQmJCNERBaWNJc1hrNnpIR19aUV9LVjlYd0ZKY0dfMENRVUY2Njg2cWdLdUNDeGZNSVhwSDgwbERtekUwakxJaE53R3JTUi1oZkZUQXU2UmNQdjV1Wk1lUFRnbjVBX1R1dHMwNG1LOXVSQy1Kcm55R25iRXc",
+        "https://www.globovision.com/economia/63133/puertos-venezolanos-se-integran-a-plataformas-operativas-de-navieras-internacionales"
+      ],
+      "mergedIds": [
+        "puertos-venezolanos-se-integran-a-plataformas-operativas-de-navieras-internacion",
+        "puertos-de-la-guaira-y-puerto-cabello-se-incorporan-a-las-plataformas-de-tres-gr"
+      ]
+    },
+    {
+      "id": "argentina-formalizan-investigacion-contra-terminales-y-servicios-s-a-por-presunt",
+      "datetime": "2026-10-14T20:30:23Z",
+      "date": "2026-10-14",
+      "firstSeen": "2026-10-14T21:57:06Z",
+      "title": "Argentina: Formalizan investigación contra Terminales y Servicios S.A. por presuntas irregularidades en manejo de carbonato de sodio",
+      "summary": "La Sede Fiscal Descentralizada San Nicolás formalizó una investigación penal contra la empresa de logística portuaria…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Logística",
+        "Puertos"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/argentina-formalizan-investigacion-contra-terminales-y-servicios-s-a-por-presuntas-irregularidades-en-manejo-de-carbonato-de-sodio/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "colsa-impulsa-publicacion-diaria-de-inspecciones-sag-en-san-antonio",
+      "datetime": "2026-10-14T20:20:17Z",
+      "date": "2026-10-14",
+      "firstSeen": "2026-10-14T21:57:06Z",
+      "title": "Colsa impulsa publicación diaria de inspecciones SAG en San Antonio",
+      "summary": "La Mesa de Almacenistas de la Comunidad Logística de San Antonio (Colsa) impulsó un acuerdo que…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/colsa-impulsa-publicacion-diaria-de-inspecciones-sag-en-san-antonio/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "la-argentina-y-ee-uu-firmaron-un-protocolo-para-avanzar-con-el-acuerdo-comercial",
+      "datetime": "2026-10-14T20:07:45Z",
+      "date": "2026-10-14",
+      "firstSeen": "2026-10-14T21:57:06Z",
+      "title": "La Argentina y EE.UU. firmaron un protocolo para avanzar con el acuerdo comercial y enviarlo al Congreso",
+      "summary": "El canciller, Pablo Quirno, anunció un convenio con el representante comercial estadounidense, Jamieson Greer. El Gobierno destacó que el entendimiento consolida la previsibilidad para las exportaciones locales.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Tratados y acuerdos",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Argentina",
+        "Estados Unidos"
+      ],
+      "tags": [],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "TN",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://tn.com.ar/economia/2026/10/14/la-argentina-y-eeuu-firmaron-un-protocolo-para-avanzar-con-el-acuerdo-comercial-y-enviarlo-al-congreso/",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "La Nación",
+          "type": "También publicó esta noticia",
+          "url": "https://www.lanacion.com.ar/politica/en-washington-quirno-firmo-un-protocolo-adicional-para-acelerar-la-aprobacion-del-acuerdo-comercial-nid14102026/",
+          "alsoIn": true,
+          "title": "En Washington, Quirno firmó un protocolo adicional para acelerar la aprobación del acuerdo comercial con EE.UU. en el Congreso"
+        },
+        {
+          "name": "Diario Crónica",
+          "type": "También publicó esta noticia",
+          "url": "https://www.diariocronica.com.ar/noticias/2026/10/14/172224-argentina-y-estados-unidos-firmaron-un-protocolo-para-enviar-el-acuerdo-comercial-al-congreso",
+          "alsoIn": true,
+          "title": "Argentina y Estados Unidos firmaron un protocolo para enviar el acuerdo comercial al Congreso"
+        },
+        {
+          "name": "Canal26",
+          "type": "También publicó esta noticia",
+          "url": "https://www.canal26.com/economia/2026/10/14/argentina-y-estados-unidos-avanzan-con-el-acuerdo-comercial-los-detalles-del-protocolo-firmado-por-quirno/",
+          "alsoIn": true,
+          "title": "Argentina y Estados Unidos avanzan con el acuerdo comercial: los detalles del protocolo firmado por Quirno"
+        }
+      ],
+      "gnTried": "2026-10-14T21:57:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMWRZd1hEbmMydUVpbHZLdUtEc3ItVUEtNkhwS3BPUXZjOHNHLUVFSjZ3OFM3blA4X3lxOWdwS0hzT0Y0X0VXV2JzZG5iQkRfak1lQWZCMjZsWnFfOFRWUnhUU3d3bkNQUkxZejhsYi1iRVRaN08xMjlQUUNBSDVzSjJuY2hwSm5STWxXMUJfN3MteGpZa0UxY1duRXRUSWF2Yzc2ZGdsanlIeTFlWWVCNXR6NnloMS1RYlJyUjBZVnRubkw5SC1CVmFRMjYxbTl1bWphTmJxZ23SAewBQVVfeXFMUFQxX1FjRmg5emZ2SS1wYzhRLW9GYThkSEFtUzk0Q2pyTm03anc0ZmY3UDBvRWJHeEVsMnlyNEJKcnY5VEhQbk1qenNpSTNxOVYzcUdwR1czYjgxa3VhUlBCZVhzakN6a2xVUDFSYS10R1pnVHJPTTRIdzNGejN3NHlwVFM4bHpBbHA3OTJaQTdpSG1oX0lCbEdCRXVxNTdsU0FwNXl2aVlETFg2VGFfVE9peFd0QVBpemp4RXpSb294NmVEb1lDdHRKYW9YSFZjeFlCSHItREN3VTFPZzQ2WDZSNlh4Z2Z2eDkwMl8?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdHd6d1FqamlHc0J6aEhWMnRWWnM5SnlBUVY0QjdTV09kdC1LeDVpR2tCRnAzV1FWWFhpRUozR09qa01SWGFWT0hTb3hYZmZrSElqQ2RqRlBXQm1ZY25RMmZPX0JxYXV5c01kejFobXpQbDFBR3R5Nm1Gek5iczRwWG5TSEZFOUFDUmhwaUZfRUI0OGY5eENRT21UOTdNV0g4SFlLNl9lNmMzTmtzQTAwOWFHdHhRanU4VDR6QnpUYzRfUkFTOEdJaWppSkRBT0lubFBqZzkzNG9YMmdNTTdjS2ZBRQ",
+        "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNYWQ4UDl5NnluZ3l1ejVWcU84UVBHNVB3anBYREhVX2g0Y2Z2cFZXMTVnZmpxdTRyRXNiNEI4S2prRFhFYUpoV3VvTVRxbHpfdGpTbnJxbmZ1UHVaczQyUEcyM2xCVUdQdXJ5d043aGlyMVIwUjVBbm5ua1NSLTNhaU9Sd0sxdDlwSXk4elhxemhHdHVLZGl6NTVvemtBX3RWay14dEdzZm4yUmR1eHZhazY2bWstX21Qd19kMlIta3NVRWR6dkNmYWpQZ3FXOGg0QUVJU0x0MnlUQ2RRRWl3SmJZWC0",
+        "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQaG5MLV9zSlBfVEdITUxYM1ZMT2JoZDA5Nzdyb1F1UG9MTzZjMjVSWWo0d0NTTHhWNXBnWHBiZU1tUFI1cVJ4ZU10Z2JIRW5rM1dvbFM3UGJjbTlqeU5SN0wyRmJPaHlBS25kSUQwSUlfNDlIa3RLQXZCSUFmWEt6WGxPbkRSZUJEaElZcm5TZTk0M0tWbEhtTUdPRkpEX1RsQUl0cGZ2c3RPdHFVbS1kODc1TV84TGpMdm5DVlI3a2dMaFFuOEM2Q1R6LWhSVjF1ZnhfWkM2cnZRWXFWR01yeDBnMmxocHVI0gHuAUFVX3lxTE1LTWpGc3JFYTNTdzFnVlp4TEZxbXd0TUgycXRIZUVTUExGZnJhMTZOMU5OM29ibVktV2lWNG1ma2J6RkpkU3dCbHJlMGNrMkRkUkxQUnFIWGplc010bS1PZ1cyZzhwLTNncDdSNk41UVE1ODJacDRWbzhPUHJleUg5WWNRenp6X1d2MVJvNWJrbHNiMm9LOURfSUo2d0FoY3dJT09FckhOM2R2b2RtQjduQzNDRHJvbUhjQkpjOWpsNm9VeTRlUVRqWXpOZkwtM2c2Z3NhT3hKU1pwSFMtSUF2VGFYOWNfRWlRLW9RaXc",
+        "https://www.canal26.com/economia/2026/10/14/argentina-y-estados-unidos-avanzan-con-el-acuerdo-comercial-los-detalles-del-protocolo-firmado-por-quirno",
+        "https://www.diariocronica.com.ar/noticias/2026/10/14/172224-argentina-y-estados-unidos-firmaron-un-protocolo-para-enviar-el-acuerdo-comercial-al-congreso",
+        "https://www.lanacion.com.ar/politica/en-washington-quirno-firmo-un-protocolo-adicional-para-acelerar-la-aprobacion-del-acuerdo-comercial-nid14102026"
+      ],
+      "mergedIds": [
+        "en-washington-quirno-firmo-un-protocolo-adicional-para-acelerar-la-aprobacion-de",
+        "argentina-y-estados-unidos-firmaron-un-protocolo-para-enviar-el-acuerdo-comercia",
+        "argentina-y-estados-unidos-avanzan-con-el-acuerdo-comercial-los-detalles-del-pro"
+      ]
+    },
+    {
+      "id": "colombia-suspenden-cobro-por-carga-en-buenaventura",
+      "datetime": "2026-10-14T20:00:11Z",
+      "date": "2026-10-14",
+      "firstSeen": "2026-10-14T21:57:06Z",
+      "title": "Colombia: Suspenden cobro por carga en Buenaventura",
+      "summary": "La gobernadora del Valle del Cauca, Dilian Francisca Toro, confirmó la suspensión del Decreto 0338 de 2026…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Regulaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Colombia"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/colombia-suspenden-cobro-por-carga-en-buenaventura/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "el-salvador-vmt-preve-que-revisiones-a-camiones-impacten-los-fletes",
+      "datetime": "2026-10-14T19:42:49Z",
+      "date": "2026-10-14",
+      "firstSeen": "2026-10-14T21:57:06Z",
+      "title": "El Salvador: VMT prevé que revisiones a camiones impacten los fletes",
+      "summary": "El viceministro de Transporte sostuvo que las inspecciones al transporte pesado buscan prevenir siniestros, aunque reconoció que las reparaciones requeridas pueden trasladarse parcialmente a las tarifas de carga en el país",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Infobae",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.infobae.com/el-salvador/2026/10/14/el-salvador-vmt-preve-que-revisiones-a-camiones-impacten-los-fletes/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-14T21:57:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb1l0NFdqVFpPbXotTE5IcUcxSmZLSHpCUzNLcjE3SnNjdU9qeVVrelJoZ1ljeXlZLWt2Tmh5Sm9WNU9ZUUctMF9iSXFNcGc0NldJcy1PSFhTcExHb2JHcXhmd2NWNDdDWmEwdV9kZldDQkR4ZFl6ZHZrd1JxR0VkdENJRTVjeXhnSGdYbl9qRW9zS0U2M25qUzZPVjFYTUdLcHZ4cXpSWWYteWdXMWtiRkhubVpjQdIB0AFBVV95cUxQNXotMTZ6Z0xXb0RzRmVnamphWDVmbjllZjFGWkZ6ZjBpX1RDNEVoMG1ab0lKQmhvQ0ZQbFpwNVNtZVlLYkRzSkhNQ2tHclhBSEN3OU0xLUloY21RTENQRF95em02aHQ5LW1faTBxY0drSGd3SzNOVl93UW1TSDY3enBrdnZYQTdZanFNV190Tnk5SmdWZ0JtRndHWjAwSUc3bWNCdXoxbEVHR1BCQXJ1LUFnWWJ2OXRKbWgtVlpnTnlHODRFMmtDWHhETjE0OU5v?oc=5"
+    },
+    {
+      "id": "fiscalia-acusa-a-siete-personas-por-corrupcion-administracion-desleal-y-delitos",
+      "datetime": "2026-10-14T19:30:42Z",
+      "date": "2026-10-14",
+      "firstSeen": "2026-10-14T21:57:06Z",
+      "title": "Fiscalía acusa a siete personas por corrupción, administración desleal y delitos tributarios en caso Puerto Coronel",
+      "summary": "La Fiscalía del Bio Bio acusó a siete personas por corrupción, administración desleal y delitos tributarios…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Chile"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/fiscalia-acusa-a-siete-personas-por-corrupcion-administracion-desleal-y-delitos-tributarios-en-caso-puerto-coronel/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "nuevas-reglas-de-mercosur-para-el-comercio-electronico-y-la-proteccion-de-los-co",
+      "datetime": "2026-10-14T19:02:31Z",
+      "date": "2026-10-14",
+      "firstSeen": "2026-10-14T21:57:06Z",
+      "title": "Nuevas reglas de MERCOSUR para el comercio electrónico y la protección de los consumidores",
+      "summary": "El 10 de septiembre de 2026, el órgano ejecutivo del Mercado Común del Sur (“MERCOSUR”) aprobó la Resolución Nº 31/26 (la “Resolución”), que establece",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Mercosur"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Allende & Brea",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://allende.com/tmt/nuevas-reglas-de-mercosur-para-el-comercio-electronico-y-la-proteccion-de-los-consumidores-10-14-2026/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-14T21:57:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONXd0ZHIxb240Z0FZS0xLanRKaXo2X3VjUmxPbUdIeGJFTEFySFZzSFItTFg5TV9KV1J1Q3FadWU2U2pLa09seW03OEpNdFR2NVN2a3RHeFpybzVVSG04RTdvYmx2V1ZPR2tOeXMxbFhlWHY1bW03by14LVJDY1hEaWtZc2dXaXB6U0ctcVBzY0FoOTEzZ1NXUE9DUVlqS0xPOHBzWVdPZ3JEVTlvUWxZQTJabWkyc2M3VDg1MDAtUVFhVlZU?oc=5"
+    },
+    {
+      "id": "infraestructura-y-conectividad-el-desafio-de-integrar-la-logistica-entre-argenti",
+      "datetime": "2026-10-14T19:01:00Z",
+      "date": "2026-10-14",
+      "firstSeen": "2026-10-14T21:57:06Z",
+      "title": "Infraestructura y conectividad: el desafío de integrar la logística entre Argentina y Brasil",
+      "summary": "En un nuevo encuentro de “Conversatorios e Insights Sectoriales” organizado por CAMBRAS, especialistas de ambos países analizaron los cuellos de botella del transporte, la necesidad de modernizar las fronteras y las oportunidades que abre el acuerdo entre el Mercosur y la Unión Europea",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Logística",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Ambito",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.ambito.com/energia/infraestructura-y-conectividad-el-desafio-integrar-la-logistica-argentina-y-brasil-n6333651",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-14T21:57:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdkFpd1I4NGJvb2VMa0RpNjh4TWxZcUNFTmQ5TWJvay1zbUM4N0RiUy00YW96M3R5R2xmNFpLdTA2QWRxNGxBU1FpcmV1b3o0cjZtVnY3dFJlMzlqQXl5ZTdaRHFNZF84OGVCRTdIeDI2MlRzdXEyOFg2dXd3S3lPTDAyZ2RUaGxPUkczMGtyRXAyNFFjTzNoZ081M0hvZHB4R210MFZMbTNsRjVwVWhIak9DNlpiOW9jaE45Z3Q2NNIBxAFBVV95cUxQanlRNGVQaks3R3JZdWdiX0VpZEpnbmVCR0MwS1F2RUk5OWlWd1QydmVrOHBXSUhTUTFJVnZxTURIVV9GRXYteEN1SUFjcml4VkFLMXE0LUNuZUxTMEJWdmZoU2dqdTg5cm1xaGxhdFYtbnZSampkc0NmUHpjaXg4TEFMQktabzJGc1Nvb3hNQlVmYk5iQndKUW40M2JJUWc0bldPZ0thVzhZVkZ2Ty1lT0cxd2dhZVRpdFNya1dHN0Z3bGxm?oc=5"
+    },
+    {
+      "id": "port-houston-celebra-fin-de-obras-propias-en-proyecto-de-ampliacion-de-canal-de",
+      "datetime": "2026-10-14T19:00:09Z",
+      "date": "2026-10-14",
+      "firstSeen": "2026-10-14T21:57:06Z",
+      "title": "Port Houston celebra fin de obras propias en proyecto de ampliación de Canal de Navegación",
+      "summary": "Port Houston invitó a funcionarios electos federales, estatales y locales, así como a socios de la…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/port-houston-celebra-fin-de-obras-propias-en-proyecto-de-ampliacion-de-canal-de-navegacion/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "uruguay-titulares-de-turismo-y-anp-visitan-avances-en-obras-de-puerto-de-colonia",
+      "datetime": "2026-10-14T18:30:14Z",
+      "date": "2026-10-14",
+      "firstSeen": "2026-10-14T21:57:06Z",
+      "title": "Uruguay: Titulares de Turismo y ANP visitan avances en obras de Puerto de Colonia",
+      "summary": "El ministro de Turismo de Uruguay, Pablo Menoni, y el presidente de la Administración Nacional de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Uruguay"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/uruguay-titulares-de-turismo-y-anp-visitan-avances-en-obras-de-puerto-de-colonia/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "gremios-remarcan-necesidad-de-asegurar-capacidad-portuaria-ante-nuevos-cuestiona",
+      "datetime": "2026-10-14T18:00:16Z",
+      "date": "2026-10-14",
+      "firstSeen": "2026-10-14T21:57:06Z",
+      "title": "Gremios remarcan necesidad de asegurar capacidad portuaria ante nuevos cuestionamientos a proyecto Puerto Exterior de San Antonio",
+      "summary": "Representantes del sector marítimo y de comercio remarcaron la necesidad de asegurar la capacidad portuaria para…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/gremios-remarcan-necesidad-de-asegurar-capacidad-portuaria-ante-nuevos-cuestionamientos-a-proyecto-puerto-exterior-de-san-antonio/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
     {
       "id": "comenzo-en-lujan-claves-para-exportar-una-nueva-capacitacion-en-comercio-exterio",
       "datetime": "2026-10-14T17:36:23Z",
@@ -615,6 +1277,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Importaciones",
         "Aranceles",
         "Transporte marítimo",
         "Estados Unidos"
@@ -653,6 +1316,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Importaciones",
         "Exportaciones",
         "Aranceles",
         "Transporte marítimo",
@@ -729,6 +1393,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Tratados y acuerdos",
         "Transporte aéreo",
         "Latinoamérica"
       ],
@@ -842,6 +1507,40 @@
           "author": "cmeza"
         }
       ]
+    },
+    {
+      "id": "comercio-exterior-y-la-asjdi-recibieron-a-una-delegacion-academica-de-barranquil",
+      "datetime": "2026-10-14T15:56:00Z",
+      "date": "2026-10-14",
+      "firstSeen": "2026-10-14T21:57:06Z",
+      "title": "Comercio Exterior y la ASJDI recibieron a una delegación académica de Barranquilla",
+      "summary": "El encuentro buscó consolidar vínculos institucionales y abrir nuevas instancias de cooperación entre San Juan y Colombia.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "Diario de Cuyo",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.diariodecuyo.com.ar/san-juan/comercio-exterior-y-la-asjdi-recibieron-una-delegacion-academica-barranquilla-n6585821",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-14T21:57:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeW5veks0WXlvNm44NWhrZlU5aEVlTHBrSF92QVdGNGs2S2JMalBmRTcwQWJiUm0yenJDc21sSzBOa3pLWS05RlY5N2pRRlNldTktYWhMZlljTXJNWHE3YzJLanZZNmhpRTVZNWFBcU1uakRHakMtd1o0Ql9pM0JXb0lpYy0zZThpZ3ZJVk9GZ0pjVVVpN25VdkZjRmNEY2YwVzkwUnhaUS1jUGRiX2hjYXV3LXNlUUd6akRfUURwUnhVZXBLMUE?oc=5"
     },
     {
       "id": "brasil-porto-piaui-e-investe-piaui-buscan-referencias-de-gestion-en-portos-do-pa",
@@ -958,13 +1657,15 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
+        "Exportaciones",
         "Logística"
       ],
       "countries": [
         "Argentina"
       ],
       "tags": [],
-      "visual": "globe",
+      "visual": "agro",
       "impact": 1,
       "affectsArgentina": true,
       "kind": "noticia",
@@ -981,6 +1682,40 @@
       ],
       "gnTried": "2026-10-14T17:58:05Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZWhKVXp6TjQwdzd3V0lNSW1vbVhRTGxWSGFaODBWdVJaRXZOU1dvdmZGZHpnaGs2QVROUUowOExJOXBiakRxUlk1UmFKR2tXSjlOdDVCSHpnd09faGZiWHRrRU5mWl9tRDFMWlNlaWhmaDVjdUNIN0hmcEpWSkx1S1dHTmVvQjNjQlJidUplYTQzZ2M1MnhKa2EwTm81eTZLbXd2T2pNZEpLQ3BuTnB2S0dqSmw1NmY0eGtHR1g2X3JvTlU5LXVzazM0ZjlETEVPTnE5UWhR?oc=5"
+    },
+    {
+      "id": "las-economias-regionales-exportaron-us-43-509-millones-en-8-meses-pero-9-activid",
+      "datetime": "2026-10-14T15:04:35Z",
+      "date": "2026-10-14",
+      "firstSeen": "2026-10-14T21:57:06Z",
+      "title": "Las economías regionales exportaron US$ 43.509 millones en 8 meses, pero 9 actividades siguen en rojo",
+      "summary": "Semáforo de Economías Regionales: nueva producción en verde. Durante agosto de 2026, el Semáforo de Economías Regionales registró 5 actividades en verde, 5 en amarillo y 9 en rojo. En comparación con el relevamiento del mes anterior, se observó una mejora de la actividad papera y obtuvo su pasaje de amarillo a verde...",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "Agrositio",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.agrositio.com.ar/noticia/248830-semaforo-de-economias-regionales-nueva-produccion-en-verde.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-14T21:57:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTDZEZE9JTE0tdnZFUjVqMmQzeUp4UjQ5QXd4OW1POUU0RmFJQ0VVSTFWcWwxeXF4TWcxb09EVXNwbERwdHlwVE1lYjlZcjVvYWFXTmNsNzFraWNmMTJXQUFUalNHM2tqVV9Ud082SUV2YVdVTlZMcGs4MkN4WjdwMnFDUnA0WWNpU3MtV2hVbUxrN3ZWbFBKXzdjQkkwdW5CT0ZrTFFPTDV6STA?oc=5"
     },
     {
       "id": "portacontenedores-se-hunde-cerca-del-estrecho-de-ormuz-tras-ser-alcanzado-por-un",
@@ -1070,13 +1805,15 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Logística"
+        "Importaciones",
+        "Logística",
+        "Tecnología COMEX"
       ],
       "countries": [
         "Argentina"
       ],
       "tags": [],
-      "visual": "globe",
+      "visual": "customs",
       "impact": 1,
       "affectsArgentina": true,
       "kind": "noticia",
@@ -1093,43 +1830,6 @@
       ],
       "gnTried": "2026-10-14T17:58:05Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeTl2bnBIQTB4c1dHMmpuc3YwTlpyRVQ2RzI1NEpwcmtJSGNyMjRqbWQ0dWxjXzhDakhjN0w1SV96ZG9HSUlCOFlhSl91TjM0cUxOaHdrc0NaWnduZ1pzZFRuZGpyQVpPSjJ0M1BhQkhNUHFuRGVmVHRfOVBwQ0dNbzA0dWZ5anNWY3hxakxBTGJHZWdPUndhd05LX3ZCTVFON1d2ZVNhNkZwdDN5V3ljeDhGQdIBzgFBVV95cUxQWjNVY2FvTUduanBIdnBjMDdEMThBeGx5bEhjelNZMFA0QVdrX1hxM2Y1Z09hWUJfWTdjMGsxczRvY2JQc2wzWG45NHNHd19hV2dITEc2LXUxOTA5dTNhal9VcWNXOEJnMzN1aElMUjdqRjYyT2lsRnRXQzlFY2N3Zkt1aTFhdDAxZi1SSkF5MUxZakdGRDAzRk1ZcjBmTWJXOG94cmxWQ3JINUVBU2FORVpHcWNzekNTUFZWQ25rN2Uwb2hvel9feHpmN2tPQQ?oc=5"
-    },
-    {
-      "id": "cuanto-petroleo-exporta-la-argentina-el-nuevo-tablero-para-seguir-los-envios",
-      "datetime": "2026-10-14T13:50:33Z",
-      "date": "2026-10-14",
-      "firstSeen": "2026-10-14T17:58:05Z",
-      "title": "Cuánto petróleo exporta la Argentina: el nuevo tablero para seguir los envíos",
-      "summary": "La plataforma oficial también permite consultar las importaciones y exportaciones de gas. Los datos se publican con 48 horas de demora.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Energía"
-      ],
-      "visual": "tanker",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Patagonia Press",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.patagonia.press/vaca-muerta/2026/10/14/cuanto-petroleo-exporta-la-argentina-el-nuevo-tablero-para-seguir-los-envios-24476.html",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-14T17:58:05Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOOTNwRmRUdm1xbkdua3UyQndhVFhLVEo3LWdjdWZ1Qmw4bEp0aXA1VklXanl2ZEpxaTk2NWNaN2ZscjZRV3ZFYVdEcVliZVZfNGRSaUVfanV1OS1fS0d5ZkxxQy02SWdIa1pKeC1GMG1jQTE4T21nVmU2a3lPTllBNS1uX3NTWWFNTDEtTmh1UjZ3VXhXRVEyMUs3NFdQaUhWVVd2dU54TWNUOThSOXE1WG9pb29RN1RhSHNRZnRJdlpLN3p0Z1d5NzRzWUVjTkhlZ3JiLQ?oc=5"
     },
     {
       "id": "el-record-en-los-fletes-de-los-petroleros-presiona-a-las-refinerias-asiaticas-se",
@@ -1584,6 +2284,56 @@
       ],
       "gnTried": "2026-10-14T14:00:44Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYmx5OXdYYXZ4RUxNS2JHb1dhVlZTX053bFpYZGpWWWd2SHRHUXZYa3k0N0lLSWtUNEZVWmF0TDBWOUQ3MjItSU5pRFpnSFk5Y3RrRUMzZVp3bU9xYzdienNpNHZTVHBfSVdrWjZMLVJpa3FtNUpSc052NjVyUm5TM3lJaExjOTFFdTdVSGVJenQ5cnYxSFVvMHJleTFHckROejFWRXRyMXd3QjFEeDcwekJNSWdDWjROSnA1eTI3LVBQZm55Yk50VXZGLWhCUkE3?oc=5"
+    },
+    {
+      "id": "petroleo-y-gas-el-gobierno-lanzo-tableros-para-seguir-las-exportaciones-dia-a-di",
+      "datetime": "2026-10-14T11:35:47Z",
+      "date": "2026-10-14",
+      "firstSeen": "2026-10-14T21:57:06Z",
+      "title": "Petróleo y gas: el Gobierno lanzó tableros para seguir las exportaciones día a día",
+      "summary": "La plataforma de la Secretaría de Energía muestra volúmenes acumulados, promedios de 30 jornadas y despachos por punto de salida, un insumo clave para planificar operaciones de embarque",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Energía"
+      ],
+      "visual": "tanker",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "Infobae",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.infobae.com/movant/2026/10/14/petroleo-y-gas-el-gobierno-lanzo-tableros-para-seguir-las-exportaciones-dia-a-dia/",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Patagonia Press",
+          "type": "También publicó esta noticia",
+          "url": "https://www.patagonia.press/vaca-muerta/2026/10/14/cuanto-petroleo-exporta-la-argentina-el-nuevo-tablero-para-seguir-los-envios-24476.html",
+          "alsoIn": true,
+          "title": "Cuánto petróleo exporta la Argentina: el nuevo tablero para seguir los envíos"
+        }
+      ],
+      "gnTried": "2026-10-14T21:57:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSm96eW4tLTg5cS1oRU1kYzExMkd0U2tXbWZWd05fSkxtbHhaSlhQS1ltT0g2Vl9jODJNR0kxaU9ld0pXWlpLUzdWc2xTQTctakkwWlJZdW8wa25ESk9yZE5GZHRSOFRFOWw3ZUY0dVhZY2Rkbk1seS00WmNkdWoxRHlqVHpKTFhWZkxvMjctaVpGT1FBOC12YzdTWFl0NnBBOVpGQWE2V2JvYnZQRi15LTdoYnp4c191d3pzTFFMajVvZ9IB3AFBVV95cUxNbThrYUtqV3J0RHZyTFM4TjJiV3Y4dUg1aW9KaVFNYXhRckN3WUxFbUFWNVdnLVMyVGItUXpQRHRuTWdScXZIeVNwS2ZzcDk3RkxxR1NUczlseWcwZ01rZkxoemJBWTljRFJPMkppRlAyX2xZbmFRVTQxWXVHLXdLRmpDNC0za21jdy1wYXN5RWQyVEpCMWZZVmxpQ0FTclk4eHBJRTJ0VkhxODFZQjBmYkVZSHcxOXJYUUdzRW80MUlNVlZXanZRLXJFWFdEQnR6Y05PWC12czEtcl9O?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOOTNwRmRUdm1xbkdua3UyQndhVFhLVEo3LWdjdWZ1Qmw4bEp0aXA1VklXanl2ZEpxaTk2NWNaN2ZscjZRV3ZFYVdEcVliZVZfNGRSaUVfanV1OS1fS0d5ZkxxQy02SWdIa1pKeC1GMG1jQTE4T21nVmU2a3lPTllBNS1uX3NTWWFNTDEtTmh1UjZ3VXhXRVEyMUs3NFdQaUhWVVd2dU54TWNUOThSOXE1WG9pb29RN1RhSHNRZnRJdlpLN3p0Z1d5NzRzWUVjTkhlZ3JiLQ",
+        "https://www.patagonia.press/vaca-muerta/2026/10/14/cuanto-petroleo-exporta-la-argentina-el-nuevo-tablero-para-seguir-los-envios-24476.html"
+      ],
+      "mergedIds": [
+        "cuanto-petroleo-exporta-la-argentina-el-nuevo-tablero-para-seguir-los-envios"
+      ]
     },
     {
       "id": "empresa-con-sede-en-kezad-logra-hito-respecto-de-huella-de-carbono-verificada",
@@ -2100,16 +2850,26 @@
           "url": "https://www.canal12misiones.com/noticias-de-misiones/economia/sial-paris-2026-misiones-busca-fortalecer-sus-exportaciones",
           "alsoIn": true,
           "title": "Sial París 2026: Misiones busca fortalecer sus exportaciones ante las nuevas reglas europeas"
+        },
+        {
+          "name": "Agrositio",
+          "type": "También publicó esta noticia",
+          "url": "https://www.agrositio.com.ar/noticia/248833-sial-paris-2026-los-exportadores-argentinos-llegan-con-grandes-expectativas-ante-las-nuevas-reglas-del-mercado-europeo.html",
+          "alsoIn": true,
+          "title": "SIAL París 2026: los exportadores argentinos llegan con grandes expectativas ante las nuevas reglas del mercado europeo"
         }
       ],
       "gnTried": "2026-10-14T09:59:32Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNNTVabWIzNy1PTk9iMzhGWC1Bd1FaYnB1dlRnNTNhUVBrNF9YWldVTWlTQWdjcHRDRGxQY215R1c1bUFmNV9jZnN3MDFKWGQtQ1dZUE4weDZaQkYtOXpmV1FNQkdlU053Vi1vamFDZjBBaTFoVC1kd3J1V2xmcUxGQ1N1bzVNVzIxVF9mdVNfVUxjQ01nZ3cxZjVBdkJDNFlIT1VSakQwQTIxWHh5d2I1bXE4WGRZa2ZnTXZBQUo3aGhWb0R2bldkUDZwR3FGVkxYa0YxVHNBYjFlamV4cHFNcXU3RQ?oc=5",
       "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOVFNnMXZwZ3R4aksxOWkyc2VZVEYwT0ZzeU80eXN4TUdKNnhVNktkU1hFcDJTYTFJX2hRQXZ5M3RKWnVLaGFxZWlYY0EtTl9pQndIZ0ZqOXR5R3hFaWIyUWZKM1hvYS1BMnZFalY5RURqVHQzSFgtalQwWUY5RkFXRnItTUQzNzlWd0UyM3Z0ZnhSVmkzVGMxY0REczNLZGp2SnNBanJrUUJmRDl0ZTl0dFk1ZkNhQkQ5MU0zazdyTFZibmg4bmpqVEJTMm1Yd2syTll5TmhpZ1NWeXp5S05iTVhzODNoNGdHZ1JHeFQ2U0lGdEdhak12amZWNA",
         "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYlhGVXYtMHZWUmlxeWxKTzJSbXUwRGx5VGQ4QWJobE5Hb0ZadzFBQmVRU3JsSlM1NVhIMFNwU3JMUW5nSHZMTjhpVnU2cGhKRkhlYVk3WWxmVHRXTGFjVUR2elB3TFhMY0ROSTB5c0FMa0ZyTDVWRExmb0xuRnZOdk5aMzlsNlRKbFhxZVFSVnhweVFkYk5ibnNBWVRRNUNPX280SjlSWXdkeDJsSExUdnJTYjFtajJhME9FWXRB",
+        "https://www.agrositio.com.ar/noticia/248833-sial-paris-2026-los-exportadores-argentinos-llegan-con-grandes-expectativas-ante-las-nuevas-reglas-del-mercado-europeo.html",
         "https://www.canal12misiones.com/noticias-de-misiones/economia/sial-paris-2026-misiones-busca-fortalecer-sus-exportaciones"
       ],
       "mergedIds": [
-        "sial-paris-2026-misiones-busca-fortalecer-sus-exportaciones-ante-las-nuevas-regl"
+        "sial-paris-2026-misiones-busca-fortalecer-sus-exportaciones-ante-las-nuevas-regl",
+        "sial-paris-2026-los-exportadores-argentinos-llegan-con-grandes-expectativas--2"
       ]
     },
     {
@@ -3227,56 +3987,6 @@
       ]
     },
     {
-      "id": "gobierno-inaugura-plataforma-con-datos-de-exportaciones-de-petroleo-y-gas",
-      "datetime": "2026-10-13T21:08:00Z",
-      "date": "2026-10-13",
-      "firstSeen": "2026-10-14T17:58:05Z",
-      "title": "Gobierno inaugura plataforma con datos de exportaciones de petróleo y gas",
-      "summary": "Energía publicó nuevos tableros diarios de exportación en medio de un superávit récord e impulsado por récords de envíos de crudo en Vaca Muerta",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Energía"
-      ],
-      "visual": "tanker",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Comercio exterior Argentina",
-      "sources": [
-        {
-          "name": "iProfesional",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.iprofesional.com/energia/466497-inauguran-plataforma-publica-con-datos-diarios-de-exportaciones-de-petroleo-y-gas",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "Diario Neuquino",
-          "type": "También publicó esta noticia",
-          "url": "https://diarioneuquino.com.ar/argentina-lanzo-un-tablero-para-consultar-las-exportaciones-de-petroleo-y-gas-con-datos-actualizados-diariamente/",
-          "alsoIn": true,
-          "title": "Argentina lanzó un tablero para consultar las exportaciones de petróleo y gas con datos actualizados diariamente"
-        }
-      ],
-      "gnTried": "2026-10-14T17:58:05Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQR1NEN0ZpTG9MRllqSHBlWnZMcGdXQlZ1RlRDVkpJeWVJaEJxbjJEVkxLLUdDOWRwVXpBbXZNTkxHZTZyT29tYm5DNTZKQ0lDM1p6bjI2anJxbEs4MU5vbnhaSkJYbGJiS1pTYnNhWEI5azhCd2lVdlpmeGlIaHFUVXVIdmZ0VFNDLVA1VUk1VnhQZF9XSHptak9hY0g5bFA3UGFtaU1uMmZSM1llQzNlNzgzTW1ndzM5bW5BMy1vMkpycWo3STRWQtIByAFBVV95cUxQR1NEN0ZpTG9MRllqSHBlWnZMcGdXQlZ1RlRDVkpJeWVJaEJxbjJEVkxLLUdDOWRwVXpBbXZNTkxHZTZyT29tYm5DNTZKQ0lDM1p6bjI2anJxbEs4MU5vbnhaSkJYbGJiS1pTYnNhWEI5azhCd2lVdlpmeGlIaHFUVXVIdmZ0VFNDLVA1VUk1VnhQZF9XSHptak9hY0g5bFA3UGFtaU1uMmZSM1llQzNlNzgzTW1ndzM5bW5BMy1vMkpycWo3STRWQg?oc=5",
-      "aliasUrls": [
-        "https://diarioneuquino.com.ar/argentina-lanzo-un-tablero-para-consultar-las-exportaciones-de-petroleo-y-gas-con-datos-actualizados-diariamente",
-        "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNjE4dEtqYlhOVmlCbFNRSGhyU0tJUmw1aVd6Ym5kakt3OHg4ZDRzOTFqSzFsTTdLYV9PZ3ZINmhQekZTNmFLcVpJOGcwSjdrTzNoemlaNVpBV1pYXzlwYjRtek1yRWpuTy1WRFRkSzd4MUZmdnNiSmt0X0hfVGZEZGJhanB1VjdwWjFMVmprVTJqNkZzbjB5Q2s2RjlhTEVNd2JSeWhTT2FWSjMwbGRiQk9QV2pEN3g3UDhpTHNXUmxCSXhzMW1mNkFjOWVmSUM2bjJaSE9YamRfSDQ"
-      ],
-      "mergedIds": [
-        "argentina-lanzo-un-tablero-para-consultar-las-exportaciones-de-petroleo-y-gas-co"
-      ]
-    },
-    {
       "id": "carne-porcina-las-importaciones-ya-igualaron-todo-2025",
       "datetime": "2026-10-13T21:00:00Z",
       "date": "2026-10-13",
@@ -4221,40 +4931,6 @@
           "author": "Gabriel"
         }
       ]
-    },
-    {
-      "id": "aduana-va-contra-productos-ilegales-en-mercado-libre-y-redes-sociales",
-      "datetime": "2026-10-13T14:13:00Z",
-      "date": "2026-10-13",
-      "firstSeen": "2026-10-14T17:58:05Z",
-      "title": "Aduana va contra productos ilegales en Mercado Libre y redes sociales",
-      "summary": "El organismo trabaja con Meta para dar de baja publicaciones de mercadería de contrabando y busca sumar a Mercado Libre. Además, prepara un plan de modernización con inteligencia artificial financiado por el BID.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Aduanas"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 2,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
-      "sources": [
-        {
-          "name": "Diario Mendoza",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.diariomendoza.com.ar/sociedad/aduana-va-productos-ilegales-mercado-libre-redes-sociales-n181421",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-14T17:58:05Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMkJ4OW1DdTdOdC1oa3NSSnVKdER0cVREc3lEeVN3WGMwUHZuTlBEVHloVzJ6VHNabi1HMHpQX3ZlM0tkR0hKMU85Z2dMU0pmOThBNm51My1maHFhR1V2Y2wtRVpkTFg1dFpmb0xQZUxXa1BDVWlrbDVoRmIwU3Jud1pmVmJpcGNpdDAzSnZYWkZGVkE1UU9EUUZBa29YdERfdVFJTnBJMFRRYTjSAbABQVVfeXFMTTJnZjZOSUh4ZVV3UlliaGc1d2drZlR2T3Nacnl4MjdZZXdGLTlQdHFKeDZwdlJja3ZXcE5DdWc2ZDRoMjV6VS00Yl9KaFBpQXFuMWs5d3ZuU1NjZDVkaENjbXgyLWRUM0hqN0JLekV4RjlhX1RCdW1SNkhwX3JjWnQySlpzMTRTZ2lJeDFOSmZtcnZLMnNkeW5hM21FNXRaNHA2UEEzSkFoYnpCaWk5QUI?oc=5"
     },
     {
       "id": "inteligencia-artificial-y-gestion-aduanera-espana-participo-en-un-foro-internaci",
@@ -40531,7 +41207,7 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-10-14T17:58:05Z",
+    "ranAt": "2026-10-14T21:57:06Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
@@ -40556,9 +41232,9 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 5,
+        "added": 8,
         "updated": 0,
-        "skipped": 6
+        "skipped": 7
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
@@ -40567,16 +41243,16 @@
         "items": 61,
         "added": 4,
         "updated": 0,
-        "skipped": 41
+        "skipped": 42
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 50,
-        "added": 2,
+        "items": 49,
+        "added": 0,
         "updated": 0,
-        "skipped": 40
+        "skipped": 41
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
@@ -40591,28 +41267,28 @@
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 50,
-        "added": 3,
+        "items": 48,
+        "added": 2,
         "updated": 0,
-        "skipped": 23
+        "skipped": 21
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
         "url": "https://news.google.com/rss/search?q=(aranceles+OR+%22guerra+comercial%22+OR+%22acuerdo+comercial%22)+when:1d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 70,
+        "items": 64,
         "added": 4,
         "updated": 0,
-        "skipped": 51
+        "skipped": 44
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 93,
+        "items": 100,
         "added": 4,
         "updated": 0,
-        "skipped": 62
+        "skipped": 69
       }
     ],
     "curatedDuplicates": [
@@ -40632,78 +41308,50 @@
         "curated": "energia-tableros-diarios-exportaciones-petroleo-gas-crudo-septiembre-2-01-millones-m3"
       },
       {
-        "title": "Vaca Muerta y la minería impulsan el comercio exterior argentino",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNd09wdjZnSVNPeWNsTVI4bVA5YUZiY3dHODZjamhuZ2tIT2trdHVraUR0Q2hqMHpIb2ZrRGQ1UEtLOU5XOG13TXlndURwOW5RVkFLcThidThacGcxRFZFazdzTmY3NGhsREZwMVlCbXpBSXZGbWR5ajFDLWFWSmxFcWZhMkRmM2RVVkRkNWliQUswWVBwZlhVZTNSM0NQRDNtRzIwalFmTlY5UQ?oc=5",
+        "title": "Gobierno inaugura plataforma con datos de exportaciones de petróleo y gas",
+        "url": "https://www.iprofesional.com/energia/466497-inauguran-plataforma-publica-con-datos-diarios-de-exportaciones-de-petroleo-y-gas",
         "curated": "energia-tableros-diarios-exportaciones-petroleo-gas-crudo-septiembre-2-01-millones-m3"
       },
       {
-        "title": "Vaca Muerta y minería: claves del crecimiento del comercio exterior argentino",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOVotT0Y1OHFzVGFBRnloRWg2MUtFU3ByaVl3X0xtUkx4d2dhd2xNVEl4RjFnNk04M3dUUDNoRS1TNzNrNkpQV1NmM0ZSakRPUnozWFFxaExtNFIyVUFQLXpSOHN2MUEzM2Z4UzEwSnZVdjNUQU16dDAtV18tTEpiLTFkVk9Vb3FyeEFxQW43Wnk2bGI3VnQyNWRrZGR2eXFQb1dDekxFaUFGeHl1NEdIUGNB?oc=5",
-        "curated": "energia-tableros-diarios-exportaciones-petroleo-gas-crudo-septiembre-2-01-millones-m3"
-      },
-      {
-        "title": "Récord petrolero en Argentina: las exportaciones llegaron a 421.000 barriles diarios durante septiembre",
-        "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOYTgyTlRqMW1IaThMaUM3TjNsd1dtM25PZnMzQnR0UHFhSW9SWWlHR2s1dkJuSXVyUFpQTEVWbWpNWlpSNWJRWUJwM2hueGlSTWNiUmtaRXU2Wl9DckFWbXg3VjdnUXpfbUowVG5vM2xHM0E0aF9JZVprR1MyQm55WGRqRlNuQTdYUkdPbmlmcHRFUUhaLUdaUGFSOFc2dDB6S1hFYmltOUR2LUhhdTVRN1B2UDRrOEYxdEpMVm9nOTR3a29YSjFxUVJ2cUFKc0JBWUFYVmdHbFAtVDl5Z3RJVTZZQTdoVnJDTkNDU0d4VmNEeHFEajBhOXBBRnVQMWJwMEE?oc=5",
-        "curated": "energia-tableros-diarios-exportaciones-petroleo-gas-crudo-septiembre-2-01-millones-m3"
-      },
-      {
-        "title": "Petróleo y gas: el Gobierno lanzó tableros para seguir las exportaciones día a día",
-        "url": "https://www.infobae.com/movant/2026/10/14/petroleo-y-gas-el-gobierno-lanzo-tableros-para-seguir-las-exportaciones-dia-a-dia/",
-        "curated": "energia-tableros-diarios-exportaciones-petroleo-gas-crudo-septiembre-2-01-millones-m3"
+        "title": "Aduana va contra productos ilegales en Mercado Libre y redes sociales",
+        "url": "https://www.diariomendoza.com.ar/sociedad/aduana-va-productos-ilegales-mercado-libre-redes-sociales-n181421",
+        "curated": "aduana-plataformas-comercio-electronico-contrabando-plataforma-integrada-bid"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "carga-aerea-en-mexico-crece-4-5-de-enero-a-agosto-de-2026",
-        "merged": [
-          "carga-aerea-crece-pero-los-embarcadores-evitan-amarrarse-a-contratos-largos"
-        ]
-      },
-      {
-        "main": "lubetkin-advirtio-que-no-es-facil-abandonar-el-mercosur-y-dijo-que-brasil-pierde",
-        "merged": [
-          "lubetkin-advierte-a-flavio-bolsonaro-que-abandonar-el-mercosur-es-complicado"
-        ]
-      },
-      {
-        "main": "brasil-noruega-prepara-cuotas-de-carne-bovina-del-mercosur-pero-las-restriccione",
-        "merged": [
-          "acuerdo-mercosur-union-europea-impulsa-exportaciones-brasilenas"
-        ]
-      },
-      {
-        "main": "portacontenedores-se-hunde-cerca-del-estrecho-de-ormuz-tras-ser-alcanzado-por-un",
-        "merged": [
-          "buques-con-bandera-de-singapur-son-danados-por-proyectiles-durante-transito-por",
-          "un-portacontenedores-y-un-petrolero-alcanzados-por-proyectiles-en-el-estrecho-de",
-          "singapur-confirmo-que-un-portacontenedores-fue-atacado-y-se-hundio-cerca-del-est",
-          "singapur-confirma-hundimiento-de-portacontenedores-tras-ataque-en-el-estrecho-de"
-        ]
-      },
-      {
-        "main": "gobierno-inaugura-plataforma-con-datos-de-exportaciones-de-petroleo-y-gas",
-        "merged": [
-          "argentina-lanzo-un-tablero-para-consultar-las-exportaciones-de-petroleo-y-gas-co"
-        ]
-      },
-      {
-        "main": "marcelo-ebrard-destaca-que-mexico-paga-menos-aranceles-que-otros-paises-a-eeuu-y",
-        "merged": [
-          "marcelo-ebrard-destaca-resiliencia-de-mexico-ante-aranceles-de-eu"
-        ]
-      },
-      {
         "main": "sial-paris-2026-los-exportadores-argentinos-llegan-con-grandes-expectativas-ante",
         "merged": [
-          "sial-paris-2026-misiones-busca-fortalecer-sus-exportaciones-ante-las-nuevas-regl"
+          "sial-paris-2026-los-exportadores-argentinos-llegan-con-grandes-expectativas--2"
+        ]
+      },
+      {
+        "main": "petroleo-y-gas-el-gobierno-lanzo-tableros-para-seguir-las-exportaciones-dia-a-di",
+        "merged": [
+          "cuanto-petroleo-exporta-la-argentina-el-nuevo-tablero-para-seguir-los-envios"
+        ]
+      },
+      {
+        "main": "la-argentina-y-ee-uu-firmaron-un-protocolo-para-avanzar-con-el-acuerdo-comercial",
+        "merged": [
+          "en-washington-quirno-firmo-un-protocolo-adicional-para-acelerar-la-aprobacion-de",
+          "argentina-y-estados-unidos-firmaron-un-protocolo-para-enviar-el-acuerdo-comercia",
+          "argentina-y-estados-unidos-avanzan-con-el-acuerdo-comercial-los-detalles-del-pro"
+        ]
+      },
+      {
+        "main": "puertos-de-la-guaira-y-carabobo-se-integran-a-plataformas-operativas-de-tres-nav",
+        "merged": [
+          "puertos-venezolanos-se-integran-a-plataformas-operativas-de-navieras-internacion",
+          "puertos-de-la-guaira-y-puerto-cabello-se-incorporan-a-las-plataformas-de-tres-gr"
         ]
       }
     ],
     "googleNews": {
-      "pending": 21,
-      "resolved": 21,
-      "withSummary": 17,
+      "pending": 18,
+      "resolved": 18,
+      "withSummary": 16,
       "withPhoto": 0,
       "failed": 0,
       "duplicates": 0
