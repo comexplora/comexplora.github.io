@@ -263,7 +263,7 @@ def prerender_article(it, img, img_alt, source_img):
       <img src="{esc(img)}" alt="{esc(img_alt)}" width="1200" height="675"{' referrerpolicy="no-referrer"' if source_img else ''}>
       <p class="pre-meta">{credit}</p>
       {explainer_html(it)}
-      {''.join(f'<p>{esc(x)}</p>' for x in body)}
+      {''.join(f'<h2>{esc(x[3:].strip())}</h2>' if x.startswith('## ') else f'<p>{esc(x)}</p>' for x in body)}
       <p><a href="{esc(p.get('url'))}" rel="noopener noreferrer">Leer el original en {esc(p.get('name'))}</a></p>
     </article>
 '''

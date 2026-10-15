@@ -71,6 +71,7 @@ Campos opcionales de una nota curada:
 
 - `"deadlines": [{ "date": "2026-11-02", "label": "Qué pasa ese día", "url": "fuente de la fecha (opcional)" }]`: fechas que aparecen en **Próximas fechas** (portada), en la nota y en la **Agenda** (`#agenda`). Usá `"date": "2026-11"` si la fuente solo informa el mes.
 - `"story": "ormuz"`: agrupa la nota en un **tema en desarrollo**. Los temas se definen en la lista `"stories"` de la raíz de `data/news.json` (`id`, `title`, `desc` y `match`, expresiones para sumar notas automáticas del mismo tema en la página `#hilo-<id>`). Un tema aparece en la portada cuando tiene al menos dos notas.
+- `"body"` (obligatorio, no opcional): lista de párrafos. Las notas de la redacción apuntan a 3–5 minutos de lectura (unas 650–1.000 palabras en el cuerpo). Un elemento que empieza con `"## "` se muestra como subtítulo (por ejemplo `"## Qué cambia para los operadores"`); el primer elemento siempre es un párrafo.
 - `"absorbs": ["id-de-nota-automática"]`: notas automáticas que repiten esta nota; el bot las retira y no las vuelve a agregar.
 - `"explainer"`: el bloque **COMEX explicado** que encabeza la nota: `{ "what": "Qué pasó", "why": "Por qué importa", "who": "A quién afecta", "products": ["…"], "next": "Qué puede pasar ahora", "nextSource": { "name", "url" } }`. `next` solo se completa si una fuente lo dice (plazos, entradas en vigor, proyecciones atribuidas); nunca con predicciones propias.
 

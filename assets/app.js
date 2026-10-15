@@ -1045,10 +1045,15 @@ function explainerBlock(it, gl){
     </dl>
   </section>`;
 }
+// Un párrafo del cuerpo que empieza con «## » es un subtítulo (notas largas de la redacción).
+const SUBHEAD_RX = /^##\s+/;
 function renderArticle(it){
   const used = new Set(), gl = txt => it.label === 'Automática' ? esc(txt) : gloss(esc(txt), used);
   const dls = deadlineList([it]);
-  const words = (it.title + ' ' + it.summary + ' ' + it.body.join(' ')).split(/\s+/).length;
+  // Tiempo de lectura: todo lo que se lee en la nota (cuerpo, COMEX explicado, datos clave e impacto para Argentina).
+  const x = it.explainer || {}, ai = it.argentinaImpact || {};
+  const words = [it.title, it.summary, it.body.join(' '), x.what, x.why, x.who, (x.products || []).join(' '), x.next,
+    it.keyData.flat().join(' '), ai.change, ai.who].filter(Boolean).join(' ').split(/\s+/).length;
   const mins = Math.max(1, Math.round(words / 200));
   const saved = store.get('comex.saved', []).includes(it.id);
   const related = state.items.filter(o => o.id !== it.id)
@@ -1079,7 +1084,7 @@ function renderArticle(it){
     ${isAuto(it) ? `<p class="prov auto"><b>Nota automática.</b> El título y el extracto provienen del feed de ${esc(it.primary.name)}; no pasó por la revisión de la redacción. Verificá los datos en el artículo original.</p>` : `<p class="prov"><b>Nota de la redacción.</b> Resumen propio, verificado contra las fuentes que se enlazan al pie; las cifras y declaraciones pertenecen a esas fuentes.</p>`}
     ${explainerBlock(it, gl)}
     ${impactBlock(it)}
-    <div class="prose" itemprop="articleBody">${it.body.length ? it.body.map(p => `<p>${gl(p)}</p>`).join('') : it.summary ? `<p>${gl(it.summary)}</p>` : `<p class="note no-sum">Esta nota llegó por un agregador sin resumen: solo mostramos el titular. El texto completo está en ${esc(it.primary.name)}.</p>`}</div>
+    <div class="prose" itemprop="articleBody">${it.body.length ? it.body.map(p => SUBHEAD_RX.test(p) ? `<h2 class="art-sub">${esc(p.replace(SUBHEAD_RX, ''))}</h2>` : `<p>${gl(p)}</p>`).join('') : it.summary ? `<p>${gl(it.summary)}</p>` : `<p class="note no-sum">Esta nota llegó por un agregador sin resumen: solo mostramos el titular. El texto completo está en ${esc(it.primary.name)}.</p>`}</div>
     ${it.also.length ? `<section class="srcs also-in" aria-labelledby="h-also"><h2 class="panel-h" id="h-also">También publicaron esta noticia</h2><ul>${it.also.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.name)}</a>${s.title ? ` <span class="t">· ${esc(s.title)}</span>` : ''}</li>`).join('')}</ul></section>` : ''}
     ${it.keyData.length ? `<section class="keydata" aria-labelledby="h-key"><h2 class="panel-h" id="h-key">Datos clave</h2><table>${it.keyData.map(([k,v]) => `<tr><td>${gl(k)}</td><td>${gl(v)}</td></tr>`).join('')}</table></section>` : ''}
     ${dls.length ? `<section class="keydata dl-box" aria-labelledby="h-dl"><h2 class="panel-h" id="h-dl">Fechas clave</h2>${deadlineListHtml(dls, { link:false })}<a class="foot-link" href="#agenda">Ver la agenda completa →</a></section>` : ''}
