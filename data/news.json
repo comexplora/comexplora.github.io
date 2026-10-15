@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-10-15T09:59:51Z",
+  "updatedAt": "2026-10-15T14:06:27Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -267,27 +267,27 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-15T10:00:30Z",
+      "lastAttempt": "2026-10-15T14:07:35Z",
       "lastError": "HTTP Error 500: Internal Server Error"
     },
     {
       "id": "soja",
       "label": "Soja · precio pizarra Rosario",
-      "value": "$ 560.000/t",
-      "period": "Rosario · 13 oct 2026 · US$ 372,46/t",
+      "value": "$ 557.000/t",
+      "period": "Rosario · 14 oct 2026 · US$ 370,35/t",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "group": "Mercados",
-      "obsDate": "2026-10-13",
-      "change": "0,0% vs. pizarra anterior",
-      "trend": "flat",
+      "obsDate": "2026-10-14",
+      "change": "-0,5% vs. pizarra anterior",
+      "trend": "down",
       "_last": {
-        "date": "2026-10-13",
-        "ars": 560000.0
+        "date": "2026-10-14",
+        "ars": 557000.0
       },
-      "checkedAt": "2026-10-15T10:00:31Z",
+      "checkedAt": "2026-10-15T14:07:36Z",
       "_prev": {
-        "date": "2026-10-09",
+        "date": "2026-10-13",
         "ars": 560000.0
       },
       "history": [
@@ -318,11 +318,15 @@
         [
           "2026-10-13",
           560000.0
+        ],
+        [
+          "2026-10-14",
+          557000.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-15T10:00:31Z"
+      "lastAttempt": "2026-10-15T14:07:36Z"
     },
     {
       "id": "brent",
@@ -335,7 +339,7 @@
       "obsDate": "2026-10-06",
       "change": "-0,1% vs. día anterior",
       "trend": "down",
-      "checkedAt": "2026-10-15T10:00:34Z",
+      "checkedAt": "2026-10-15T14:07:39Z",
       "history": [
         [
           "2026-08-25",
@@ -460,27 +464,27 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-10-15T10:00:34Z"
+      "lastAttempt": "2026-10-15T14:07:39Z"
     },
     {
       "id": "maiz",
       "label": "Maíz · precio pizarra Rosario",
-      "value": "$ 287.500/t",
+      "value": "$ 286.000/t",
       "group": "Mercados",
-      "period": "Rosario · 13 oct 2026 · US$ 191,22/t",
-      "obsDate": "2026-10-13",
-      "change": "-1,7% vs. pizarra anterior",
+      "period": "Rosario · 14 oct 2026 · US$ 190,16/t",
+      "obsDate": "2026-10-14",
+      "change": "-0,5% vs. pizarra anterior",
       "trend": "down",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
+        "date": "2026-10-14",
+        "ars": 286000.0
+      },
+      "checkedAt": "2026-10-15T14:07:39Z",
+      "_prev": {
         "date": "2026-10-13",
         "ars": 287500.0
-      },
-      "checkedAt": "2026-10-15T10:00:34Z",
-      "_prev": {
-        "date": "2026-10-09",
-        "ars": 292500.0
       },
       "history": [
         [
@@ -510,31 +514,35 @@
         [
           "2026-10-13",
           287500.0
+        ],
+        [
+          "2026-10-14",
+          286000.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-15T10:00:34Z"
+      "lastAttempt": "2026-10-15T14:07:39Z"
     },
     {
       "id": "trigo",
       "label": "Trigo · precio pizarra Rosario",
-      "value": "$ 345.805/t",
+      "value": "$ 346.000/t",
       "group": "Mercados",
-      "period": "Rosario · 13 oct 2026 · US$ 230,00/t",
-      "obsDate": "2026-10-13",
-      "change": "+1,1% vs. pizarra anterior",
+      "period": "Rosario · 14 oct 2026 · US$ 230,05/t",
+      "obsDate": "2026-10-14",
+      "change": "+0,1% vs. pizarra anterior",
       "trend": "up",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
+        "date": "2026-10-14",
+        "ars": 346000.0
+      },
+      "checkedAt": "2026-10-15T14:07:39Z",
+      "_prev": {
         "date": "2026-10-13",
         "ars": 345805.0
-      },
-      "checkedAt": "2026-10-15T10:00:34Z",
-      "_prev": {
-        "date": "2026-10-09",
-        "ars": 342000.0
       },
       "history": [
         [
@@ -564,316 +572,745 @@
         [
           "2026-10-13",
           345805.0
+        ],
+        [
+          "2026-10-14",
+          346000.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-15T10:00:34Z"
+      "lastAttempt": "2026-10-15T14:07:39Z"
     }
   ],
   "items": [
     {
-      "id": "argentina-eeuu-protocolo-adicional-arti-quirno-greer-congreso",
-      "date": "2026-10-14",
-      "datetime": "2026-10-14T17:10:13-03:00",
+      "id": "una-mina-hunde-un-portacontenedores-en-el-estrecho-de-ormuz-20-buques-atacados-e",
+      "datetime": "2026-10-15T14:04:55Z",
+      "date": "2026-10-15",
+      "firstSeen": "2026-10-15T14:06:27Z",
+      "title": "Una mina hunde un portacontenedores en el Estrecho de Ormuz: 20 buques atacados este mes",
+      "summary": "El GFS Pride se hunde por una mina en Ormuz y sus 21 tripulantes son rescatados. Más de 20 buques han sido atacados este mes en la vía clave del crudo.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Contenedores"
+      ],
+      "visual": "tanker",
+      "impact": 1,
+      "affectsArgentina": false,
       "kind": "noticia",
-      "title": "Argentina y EE.UU. firmaron un protocolo adicional al acuerdo comercial para enviarlo al Congreso",
-      "summary": "El canciller Pablo Quirno y el representante comercial Jamieson Greer firmaron en Washington un protocolo que complementa el Acuerdo sobre Comercio e Inversiones Recíprocos de febrero. Según el Gobierno, permitirá mandar el tratado al Congreso, cuya aprobación hace falta para la parte arancelaria.",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "www.moncloa.com",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.moncloa.com/2026/10/15/portacontenedores-hundido-estrecho-ormuz-3448999/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-15T14:06:27Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUy03RXVsWlVfbHZhTm1kbW1IOVBBdTZlV2hPeVlfLVJobDJ4RVc3WFh1RjZLTnk0dWpDZTV0NjBsRXZlNEpVTWhFRlplUUhFVk5pNm1HbzRGdm9pQTR3bWprSktRdWNGRkNtUnMwU1VkTXZJWDFLVEVZRHZQSkplYUNUWm5QdkhjYXU3Yw?oc=5"
+    },
+    {
+      "id": "en-medio-de-la-discusion-por-la-emergencia-el-gobierno-actualizo-un-los-arancele",
+      "datetime": "2026-10-15T13:20:00Z",
+      "date": "2026-10-15",
+      "firstSeen": "2026-10-15T14:06:27Z",
+      "title": "En medio de la discusión por la emergencia, el Gobierno actualizó un los aranceles de Discapacidad",
+      "summary": "La medida rige para octubre y alcanza a todas las modalidades del Nomenclador de Prestaciones Básicas. La actualización se conoce mientras el Congreso busca debatir la continuidad de la emergencia en discapacidad y el financiamiento del sistema",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Rosario3",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.rosario3.com/informaciongeneral/en-medio-de-la-discusion-por-la-emergencia-el-gobierno-actualizo-un-los-aranceles-de-discapacidad-20261015-0026.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-15T14:06:27Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPU0RoTzNzZ0x1RlJPRGlIaVBnQ1FIOHdtajZ6Wm5jZTNXYko4Q29xMndfZ3pkakptNjI4ZVkyaXdNb0NyME5xaEVJaFhoN0xwSVhOTGp0aXhoLWtPSzI1TFp1VkhWWlhRY3RldDdJVThqY0NsVEtTbU9zRTJ5clRTRW5XM1hmeUFWUE9OdGZRYUFnYU9NeUZEeGdZM0g1RXlyOVYxUkdGN2RBUlFuMGJHTHBDbndjdUg4a3V6NlJaMnphVGRDcEhRekE2NlYzaFFqZnpYTEtRek5YbTE0SlpJVzB0VThXMjN0UVZZQ2VnVnJLd9IB8gFBVV95cUxPU0RoTzNzZ0x1RlJPRGlIaVBnQ1FIOHdtajZ6Wm5jZTNXYko4Q29xMndfZ3pkakptNjI4ZVkyaXdNb0NyME5xaEVJaFhoN0xwSVhOTGp0aXhoLWtPSzI1TFp1VkhWWlhRY3RldDdJVThqY0NsVEtTbU9zRTJ5clRTRW5XM1hmeUFWUE9OdGZRYUFnYU9NeUZEeGdZM0g1RXlyOVYxUkdGN2RBUlFuMGJHTHBDbndjdUg4a3V6NlJaMnphVGRDcEhRekE2NlYzaFFqZnpYTEtRek5YbTE0SlpJVzB0VThXMjN0UVZZQ2VnVnJLdw?oc=5"
+    },
+    {
+      "id": "valenciaport-se-suma-a-comunidad-para-resiliencia-del-agua-y-economia-azul-eit-w",
+      "datetime": "2026-10-15T13:00:36Z",
+      "date": "2026-10-15",
+      "firstSeen": "2026-10-15T14:06:27Z",
+      "title": "Valenciaport se suma a comunidad para resiliencia del agua y economía azul EIT Water",
+      "summary": "La Fundación Valenciaport anunció oficialmente su incorporación como Strategic Member de EIT Water, la nueva Comunidad…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Europa"
+      ],
+      "countries": [
+        "España"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/valenciaport-se-suma-a-comunidad-para-resiliencia-del-agua-y-economia-azul-eit-water/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "eeuu-impondra-nuevos-aranceles-y-limitara-la-importacion-de-productos-espanoles",
+      "datetime": "2026-10-15T12:46:03Z",
+      "date": "2026-10-15",
+      "firstSeen": "2026-10-15T14:06:27Z",
+      "title": "EEUU impondrá nuevos aranceles y limitará la importación de productos españoles",
+      "summary": "La FMC ofrecerá a nuestro país la posibilidad de réplica ante esta solicitud. Igualmente, ha demandado a las empresas americanas que opinen sobre los posibles impactos que supondrían estas a ...",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones",
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Logística Profesional",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.logisticaprofesional.com/texto-diario/mostrar/6053039/eeuu-impondra-nuevos-aranceles-limitara-importacion-productos-espanoles",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-15T14:06:27Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOVRYVXZZczRqYlhkNGYxSG9XN0pVa2RhUVFMSWVmVE5pNWhtbHFSaG1HSkdKTmdrY1dSYjQ2SVJZdVExdEk5ck02b1RrZjV1NEhoX2VwMEtPQWw0dXpKSFJDeVpoVVhfYW1YOHRha0Z1cTF2aFNwSFREa3hHdW16ZWVBcmpvOWZHS2oxREUwUktzQzlRaXlzOHF1clRyTDl1b2lJNzVTZ2o2TlBYN2U3TmRfNlVVNE1XT0hjVzVRQnBDMDRJcjFINmN6Ti1vMVg0VGNn?oc=5"
+    },
+    {
+      "id": "michel-y-marclay-se-reunieron-con-el-embajador-de-la-india-para-mejorar-el-acces",
+      "datetime": "2026-10-15T12:45:29Z",
+      "date": "2026-10-15",
+      "firstSeen": "2026-10-15T14:06:27Z",
+      "title": "Michel y Marclay se reunieron con el embajador de la India para mejorar el acceso de las exportaciones entrerrianas",
+      "summary": "Los diputados nacionales del peronismo Guillermo Michel y Marianela Marclay, mantuvieron este miércoles un encuentro con el embajador de la India en A...",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Asia"
+      ],
+      "countries": [
+        "India"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "El Día de Gualeguaychú",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.eldiaonline.com/michel-y-marclay-se-reunieron-con-el-embajador-de-la-india-para-mejorar-el-acceso-de-las-exportaciones-entrerrianas",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-15T14:06:27Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVjRjcG5vc041OFVZOEg5cWN4aWhBU2VUczdKNDBQT194cDBDZ280T1V2MWthS09VbExzb0dsQnhfNVV1OWZmTHJqa1NwbElocE5YNHNKT3ZPR0NFV0pmMHR5aWpFVG13c3FaYWVFRFhRanQ1Y0JwTWpuYkk5R1VBQU5MSVFkV3RWUDZ5Qk01NHAwbUJpZXdpUjYwbk1fdEVrWllOcGJUTEp4MVdSRVNTT1B5UVcwazJPa21JbzZwc3lEaUZWYm5DQ2ZWbFJaSUxIVjJsNlQ3WHUwdWc?oc=5"
+    },
+    {
+      "id": "novillo-mercosur-brasil-alcanza-un-precio-record-y-argentina-enfrenta-nuevos-des",
+      "datetime": "2026-10-15T12:42:43Z",
+      "date": "2026-10-15",
+      "firstSeen": "2026-10-15T14:06:27Z",
+      "title": "Novillo Mercosur: Brasil alcanza un precio récord y Argentina enfrenta nuevos desafíos",
+      "summary": "El novillo brasileo super los US$ 5 por kilo y la Argentina cotiza a US$ 5,45. Las restricciones de China y la menor faena reconfiguran el negocio.",
+      "body": [],
+      "keyData": [],
       "topics": [
         "Argentina",
-        "Estados Unidos",
+        "Latinoamérica",
+        "Mercosur"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "AgroLatam",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.agrolatam.com/argentina/actualidad/novillo-mercosur-brasil-alcanza-un-precio-record-y-argentina-enfrenta-nuevos-desafios/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-15T14:06:27Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdTJTdXc1V3dZdmNKY0ZIV1BuM3g5SF9OZGk4RlpYaTNRQUtDVV9qVW5FNkV0NzhoRGc0M1F3OW12d1JJU0x6RHNTWDA0WkNMUnh6VG5sTngzTG5IWmpDWmtGU0VjVE10d1Z4dzNIRlNDV1YzSGtXOVQtZGwzQnhiVWNIbmEyRzVFd2dQR0RmeHI4d1N4TXktM3N3UzhFelhWQUFLbzZ5bk91Y3Y1RmtXTmZFaWdRM3Iyei1ZMk5YLU9sWExYRF9SOHN6Y1BmZw?oc=5"
+    },
+    {
+      "id": "los-fletes-maritimos-se-disparan-conflictos-alteran-el-comercio-mundial-de-grano",
+      "datetime": "2026-10-15T12:42:43Z",
+      "date": "2026-10-15",
+      "firstSeen": "2026-10-15T14:06:27Z",
+      "title": "Los fletes marítimos se disparan: conflictos alteran el comercio mundial de granos en 2026",
+      "summary": "El costo de transportar granos sube mientras guerras y restricciones de navegacin desvan cargas y reconfiguran las rutas del comercio agrcola mundial.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Transporte marítimo",
+        "Geopolítica y comercio",
+        "Economía internacional"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes",
+        "Agro"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "AgroLatam",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.agrolatam.com/mercados-latam/fletes-maritimos-granos-conflictos-geopoliticos-comercio-mundial-2026/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-15T14:06:27Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMDlrOTlCaThoU2FkVWsyRFZ0SkZIMGEtZ094SVZldWJDUlRiam5pWXg0VFRLVEdEbGhuSC1qUVVUOHFLNGk0dzh0V3JaVUFzMVV5aWxNQXpPTzFXWjFCTDdWZHRMcjVDdHJRNGZyQ0hJUE5MS2tvR2F4eFdTelJYcDluQ290bTRkT2JGNmh5elQ5OXpTckQ2TlVQTWxMYlU4Y3Q3OFdudGRzWmhPbm5Zaw?oc=5"
+    },
+    {
+      "id": "salud-oficializo-un-incremento-del-1-90-por-ciento-en-los-aranceles-para-prestac",
+      "datetime": "2026-10-15T12:40:49Z",
+      "date": "2026-10-15",
+      "firstSeen": "2026-10-15T14:06:27Z",
+      "title": "Salud oficializó un incremento del 1,90 por ciento en los aranceles para prestaciones por discapacidad",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "nexosdigital.com.ar",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://nexosdigital.com.ar/2026/10/15/salud-oficializo-un-incremento-del-190-por-ciento-en-los-aranceles-para-prestaciones-por-discapacidad/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-15T14:06:27Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQV3V3X3RaOGpCSmZ3cjNNVU9OcktLU3poTjV5b3hrN1R4T2NuN3lYd0lEcGxEdkdIQU8zcWlQNXhVSU9na1FfZWpZS0E2aTBWOFhVSnJiYlBsSG53b0ZjNGJaaVh5blg4WjVCNW54MXMzNTJjWkVfZzctdGR0M2NQNnVnZm1hLTU2ZHphUFVFZXQzR3BIT2dadTFIaV9aZHZMTl9KclRRUWtZSWo1bk1hTkFUMnU3Z1hZaG9KQmhVNFdPTWRkTGFBb3pqRGJhVHN4dmlXZXRDajU?oc=5"
+    },
+    {
+      "id": "la-corte-de-ee-uu-obligo-a-cambiar-el-acuerdo-comercial-con-argentina-que-se-mod",
+      "datetime": "2026-10-15T12:33:17Z",
+      "date": "2026-10-15",
+      "firstSeen": "2026-10-15T14:06:27Z",
+      "title": "La Corte de EE.UU. obligó a cambiar el acuerdo comercial con Argentina: qué se modificó",
+      "summary": "Se firmó un nuevo protocolo que adapta el acuerdo al esquema arancelario vigente en Estados Unidos. Ahora el Gobierno podrá enviarlo al Congreso para su ratificación.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
         "Tratados y acuerdos",
-        "Aranceles",
-        "Exportaciones"
+        "Estados Unidos"
       ],
       "countries": [
         "Argentina",
         "Estados Unidos"
       ],
-      "tags": [
-        "ARTI",
-        "Acuerdo Argentina–EE.UU.",
-        "USTR",
-        "Quirno",
-        "Greer",
-        "Carne vacuna",
-        "Congreso"
-      ],
-      "visual": "treaty",
-      "impact": 3,
+      "tags": [],
+      "visual": "court",
+      "impact": 1,
       "affectsArgentina": true,
-      "argentinaNote": "El tramo arancelario del acuerdo con EE.UU., que incluye la eliminación de aranceles para 1.675 productos argentinos y la ampliación de la cuota de carne vacuna, necesita la aprobación del Congreso; el protocolo firmado busca destrabar ese paso.",
-      "argentinaImpact": {
-        "change": "Con el protocolo adicional, el Gobierno prevé enviar al Congreso el Acuerdo sobre Comercio e Inversiones Recíprocos (ARTI) firmado en febrero; EE.UU. reafirmó el trato de Nación Más Favorecida para los productos argentinos, según el canciller.",
-        "who": "Exportadores argentinos al mercado estadounidense, en especial frigoríficos de carne vacuna, e importadores de productos de EE.UU.",
-        "sectors": [
-          "Carne vacuna",
-          "Agroindustria",
-          "Industria"
-        ],
-        "flows": {
-          "importaciones": true,
-          "exportaciones": true,
-          "logistica": false,
-          "aranceles": true
-        }
-      },
-      "body": [
-        "El canciller Pablo Quirno y el representante comercial de Estados Unidos (USTR), Jamieson Greer, firmaron el 14 de octubre en Washington un protocolo adicional al Acuerdo sobre Comercio e Inversiones Recíprocos (ARTI), el tratado bilateral que ambos países suscribieron en febrero. La firma se hizo durante la visita del presidente Javier Milei a la capital estadounidense, informaron Infobae y La Nación.",
-        "Según Quirno, el protocolo permitirá enviar el ARTI al Congreso para su aprobación y da más previsibilidad a las exportaciones argentinas hacia EE.UU. El canciller agregó que Washington reafirma el trato arancelario de Nación Más Favorecida para los productos argentinos y reconoce que el país cumplió sus compromisos. Ambos medios aclaran que todavía no se conoce el texto formal del protocolo ni si fija un plazo para que lo traten las dos cámaras.",
-        "El acuerdo tiene un capítulo no arancelario, cuya implementación avanza, y otro arancelario, que requiere la sanción del Congreso: según Infobae, es una exigencia del gobierno de Donald Trump para dar mayor seguridad jurídica, y la debilidad legislativa del oficialismo impidió cumplir los plazos previstos. La Nación recordó que el acuerdo de febrero eliminó los aranceles estadounidenses para 1.675 productos argentinos, con exportaciones potenciales de USD 1.013 millones, y que en la reconfiguración arancelaria de julio Argentina quedó en el escalón más bajo, con un recargo adicional de 10%.",
-        "Entre los beneficios que destacó el Gobierno, Infobae menciona que la cuota de carne vacuna argentina en EE.UU. pasa de 20.000 a 100.000 toneladas y que las exportaciones del país a ese mercado sumaron USD 6.570 millones entre enero y agosto, un 35% más que un año antes. La Nación agregó que en Nueva York se presentó un paquete de financiamiento de unos USD 7.000 millones del Export-Import Bank (EXIM), con instrumentos adicionales de la DFC, para obras de infraestructura que agilicen exportaciones de minerales críticos, materias primas y energía."
-      ],
-      "keyData": [
-        [
-          "Firma del protocolo",
-          "14 oct 2026, Washington"
-        ],
-        [
-          "Firmantes",
-          "Pablo Quirno (Cancillería) y Jamieson Greer (USTR)"
-        ],
-        [
-          "Acuerdo original (ARTI)",
-          "Firmado en febrero de 2026"
-        ],
-        [
-          "Productos con arancel cero en EE.UU.",
-          "1.675 (exportaciones potenciales por USD 1.013 M)"
-        ],
-        [
-          "Cuota de carne vacuna",
-          "De 20.000 a 100.000 toneladas"
-        ],
-        [
-          "Exportaciones a EE.UU. ene–ago 2026",
-          "USD 6.570 M (+35% i.a.)"
-        ]
-      ],
-      "explainer": {
-        "what": "Argentina y EE.UU. firmaron un protocolo adicional al acuerdo comercial de febrero que, según el Gobierno, permite enviarlo al Congreso.",
-        "why": "La parte arancelaria del acuerdo, que elimina aranceles para 1.675 productos argentinos y amplía la cuota de carne a 100.000 toneladas, necesita aprobación legislativa para quedar firme.",
-        "who": "Exportadores argentinos a EE.UU., en especial de carne vacuna, e importadores de productos estadounidenses.",
-        "products": [
-          "Carne vacuna",
-          "Minerales críticos",
-          "Energía"
-        ],
-        "next": "El Gobierno enviará el acuerdo al Congreso para su aprobación; no se informó si el protocolo fija un plazo para su tratamiento.",
-        "nextSource": {
-          "name": "La Nación",
-          "url": "https://www.lanacion.com.ar/politica/en-washington-quirno-firmo-un-protocolo-adicional-para-acelerar-la-aprobacion-del-acuerdo-comercial-nid14102026/"
-        }
-      },
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
       "sources": [
         {
-          "name": "Infobae",
-          "type": "Medio de comunicación",
-          "url": "https://www.infobae.com/economia/2026/10/14/argentina-firmo-con-eeuu-un-protocolo-adicional-para-fortalecer-el-acuerdo-bilateral-sobre-comercio-e-inversiones-reciprocas/",
-          "primary": true
-        },
-        {
-          "name": "La Nación",
-          "type": "Medio de comunicación",
-          "url": "https://www.lanacion.com.ar/politica/en-washington-quirno-firmo-un-protocolo-adicional-para-acelerar-la-aprobacion-del-acuerdo-comercial-nid14102026/"
+          "name": "El Cronista",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.cronista.com/economia-politica/la-corte-de-eeuu-obligo-a-cambiar-el-acuerdo-comercial-con-argentina-que-se-modifico/",
+          "primary": true,
+          "author": ""
         }
       ],
-      "absorbs": [
-        "quirno-anuncio-un-nuevo-paso-en-el-acuerdo-con-estados-unidos-y-destaco-benefici",
-        "la-argentina-y-ee-uu-firmaron-un-protocolo-para-avanzar-con-el-acuerdo-comercial",
-        "argentina-y-ee-uu-modifican-acuerdo-comercial-para-facilitar-su-ratificacion-en",
-        "productos-mas-baratos-que-contempla-el-acuerdo-comercial-con-estados-unidos"
-      ]
+      "gnTried": "2026-10-15T14:06:27Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNLVlaSVd1TjJHWUxFN2luUzQ3dUQtdnFpRjl2RHotY1ZldXdEN2FMd0pDSnQzdHNLOHYxT2pxZV9JaWJOcG5EV0EwU1R4VGxfeEhsNW0tVDgyVkpDNFRXb3pUTzAzWG8yMHVMWFBrYnByYm1rb01qVjFVRGp0eVItZ1pYUXNTNVJMVm9FM0ZEaG1MeXZQYVpUclp0c25PVlIyTVVUNTJ0aDRCT1NGaXBCamVZS0liUmsxenZBV2J1RWh3RmNCWVhR0gHiAUFVX3lxTE1SV0tORzc3VHdmV3lzNzNwTmtveDV0NklfQUk1eVVyOGhfRDVXMkJfZlBReUJBS0tLaVVXRFg1azRmZENhLVpVbFI4RmZuMDFjT2lKeDB3RkM5Y19sMjZHcTFsMXRJTVhsRkpGYzViYWtGM0pGZUg4b1B6ZTJ0bzFpcFQ0Y01pZmsyTVNUNldab2RZR0pYdDhiWDk3XzZEaDdQejZ0alF3MDN3MzROaDZUYkNVd2UtUUZPUzFUOUhKd2RHaWprTFdicFdGLVYwNW94RmFubE52MnBEYWRWdlcwaUE?oc=5"
     },
     {
-      "id": "ormuz-se-hunde-portacontenedores-gfs-pride-singapur",
-      "date": "2026-10-14",
-      "datetime": "2026-10-14T11:44:55-03:00",
-      "kind": "noticia",
-      "title": "Ormuz: se hundió el portacontenedores GFS Pride, con bandera de Singapur, tras ser alcanzado por un proyectil",
-      "summary": "La autoridad marítima de Singapur confirmó el hundimiento; los 21 tripulantes fueron evacuados. Otro portacontenedores del mismo país, el GFS Giselle, sufrió daños en el casco, en una jornada con cuatro ataques informados en el estrecho.",
+      "id": "nyk-desarrolla-nuevo-concepto-de-centro-de-datos-flotante-en-alta-mar-con-base-e",
+      "datetime": "2026-10-15T12:30:03Z",
+      "date": "2026-10-15",
+      "firstSeen": "2026-10-15T14:06:27Z",
+      "title": "NYK desarrolla nuevo concepto de centro de datos flotante en alta mar con base en puerto",
+      "summary": "El consorcio integrado por Nippon Yusen Kabushiki Kaisha (NYK), NTT Facilities, Eurus Energy Holdings Corporation y…",
+      "body": [],
+      "keyData": [],
       "topics": [
-        "Geopolítica y comercio",
-        "Transporte marítimo",
-        "Logística",
-        "Asia"
+        "Puertos"
       ],
       "countries": [
-        "Irán",
-        "Singapur",
         "Global"
       ],
       "tags": [
-        "Estrecho de Ormuz",
-        "Portacontenedores",
-        "Seguridad marítima",
-        "UKMTO",
-        "MPA Singapur"
+        "Puertos"
       ],
-      "visual": "container",
-      "impact": 3,
+      "visual": "port",
+      "impact": 1,
       "affectsArgentina": false,
-      "story": "ormuz",
-      "body": [
-        "El portacontenedores GFS Pride, con bandera de Singapur, se hundió en el estrecho de Ormuz después de que un proyectil le provocara daños y un incendio a bordo, confirmó la Autoridad Marítima y Portuaria de Singapur (MPA). Sus 21 tripulantes fueron evacuados sin heridos, según gCaptain y Seatrade Maritime News. Otro buque registrado en Singapur, el GFS Giselle, fue alcanzado y sufrió daños en el casco, pero llegó por sus propios medios a un fondeadero seguro con sus 22 tripulantes a salvo.",
-        "El centro británico de operaciones marítimas UKMTO informó cuatro ataques distintos el 13 de octubre: tres contra portacontenedores y uno contra un buque tanque, todos con proyectiles de origen no identificado. gCaptain aclara que no está claro si esos reportes corresponden a los dos buques de Singapur. Las versiones sobre la causa difieren: la Guardia Revolucionaria iraní afirmó que un portacontenedores chocó con una mina al sur del estrecho y se hundió por el incendio, mientras que la MPA atribuye el hundimiento del GFS Pride a un proyectil.",
-        "Para gCaptain, es el segundo hundimiento confirmado de un gran buque oceánico en el conflicto, después del Safeen Prestige. Singapur condenó los ataques como injustificados y contrarios al derecho internacional. El 11 de octubre ya habían sido alcanzados al menos seis buques, y la lista de la Organización Marítima Internacional (OMI) registra más de 100 incidentes de seguridad marítima confirmados desde el inicio del conflicto, con al menos 24 marinos muertos.",
-        "El tránsito por el estrecho sigue muy por debajo de los niveles previos a la guerra, cuando pasaban entre 130 y 140 buques por día, según gCaptain. El Comando Central de EE.UU. sostuvo que sus fuerzas y socios regionales controlan el paso y que el día anterior ayudaron a mover más de 19 millones de barriles de crudo, mientras que el Centro Conjunto de Información Marítima (JMIC) mantiene en severo el nivel de amenaza."
-      ],
-      "keyData": [
-        [
-          "Buque hundido",
-          "GFS Pride (bandera de Singapur), 21 tripulantes evacuados"
-        ],
-        [
-          "Buque dañado",
-          "GFS Giselle (Singapur), 22 tripulantes a salvo"
-        ],
-        [
-          "Ataques informados por UKMTO el 13 oct",
-          "4 (3 portacontenedores y 1 buque tanque)"
-        ],
-        [
-          "Incidentes desde el inicio del conflicto (OMI)",
-          "Más de 100, con al menos 24 marinos muertos"
-        ],
-        [
-          "Tránsito previo a la guerra",
-          "130 a 140 buques por día"
-        ],
-        [
-          "Nivel de amenaza (JMIC)",
-          "Severo"
-        ]
-      ],
-      "explainer": {
-        "what": "El portacontenedores GFS Pride, con bandera de Singapur, se hundió en el estrecho de Ormuz tras ser alcanzado por un proyectil, y otro buque del mismo país sufrió daños.",
-        "why": "Los ataques ya alcanzan a portacontenedores, no solo a buques tanque, en un paso por el que antes de la guerra transitaban entre 130 y 140 buques por día; eso presiona sobre la seguridad de la navegación comercial en la región.",
-        "who": "Navieras, cargadores y aseguradores con tráfico hacia y desde los puertos del golfo Pérsico.",
-        "products": [
-          "Carga en contenedores",
-          "Petróleo crudo"
-        ],
-        "next": "El Centro Conjunto de Información Marítima (JMIC) mantiene en severo el nivel de amenaza para el estrecho.",
-        "nextSource": {
-          "name": "gCaptain",
-          "url": "https://gcaptain.com/containership-sinks-as-hormuz-attacks-spiral-out-of-control/"
-        }
-      },
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
       "sources": [
         {
-          "name": "gCaptain",
-          "type": "Medio especializado",
-          "url": "https://gcaptain.com/containership-sinks-as-hormuz-attacks-spiral-out-of-control/",
-          "author": "Mike Schuler",
-          "primary": true
-        },
-        {
-          "name": "Seatrade Maritime News",
-          "type": "Medio especializado",
-          "url": "https://www.seatrade-maritime.com/security/iran-claims-mine-sank-container-ship-amid-fresh-hormuz-attacks",
-          "author": "Gary Howard"
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/nyk-desarrolla-nuevo-concepto-de-centro-de-datos-flotante-en-alta-mar-con-base-en-puerto/",
+          "primary": true,
+          "author": "cmeza"
         }
-      ],
-      "absorbs": [
-        "singapur-confirma-el-hundimiento-de-un-portacontenedores-y-danos-en-otro-en-ormu",
-        "portacontenedores-se-hunde-cerca-del-estrecho-de-ormuz-tras-ser-alcanzado-por-un",
-        "el-regimen-de-iran-afirmo-que-un-portacontenedores-se-hundio-en-ormuz-tras-c-2"
       ]
     },
     {
-      "id": "fmc-eeuu-propone-tasa-200000-dolares-buques-espanoles-restricciones-importaciones",
-      "date": "2026-10-14",
-      "datetime": "2026-10-14T12:40:55-03:00",
-      "kind": "noticia",
-      "title": "EE.UU. propone cobrar USD 200.000 por viaje a los buques con bandera española y restringir importaciones de España",
-      "summary": "La Comisión Marítima Federal (FMC) concluyó que España negó el acceso a sus puertos a buques con bandera estadounidense y abrió a consulta pública una tasa por viaje y limitaciones a perfumería, cosméticos, aceites y grasas, cerámica, artículos de piedra, azúcar y confitería.",
+      "id": "integracion-portuaria-con-redes-navieras-internacionales",
+      "datetime": "2026-10-15T12:24:07Z",
+      "date": "2026-10-15",
+      "firstSeen": "2026-10-15T14:06:27Z",
+      "title": "Integración portuaria con redes navieras internacionales",
+      "summary": "",
+      "body": [],
+      "keyData": [],
       "topics": [
-        "Estados Unidos",
-        "Europa",
         "Transporte marítimo",
-        "Regulaciones",
-        "Geopolítica y comercio"
+        "Puertos"
       ],
       "countries": [
-        "Estados Unidos",
-        "España"
+        "Global"
       ],
-      "tags": [
-        "FMC",
-        "Comisión Marítima Federal",
-        "Tasas portuarias",
-        "Aceite de oliva",
-        "Algeciras"
-      ],
+      "tags": [],
       "visual": "ship",
-      "impact": 2,
+      "impact": 1,
       "affectsArgentina": false,
-      "body": [
-        "La Comisión Marítima Federal de Estados Unidos (FMC) propuso cobrar una tasa de USD 200.000 por viaje a todos los buques con bandera española que operen en el comercio marítimo estadounidense, sin importar la carga, informaron Infobae y Herqles el 14 de octubre. El organismo planteó además restricciones a las importaciones españolas de perfumería y cosmética, aceites y grasas, cerámica, artículos de piedra, azúcar y confitería.",
-        "Según la FMC, su investigación encontró pruebas concluyentes de que España negó el acceso a sus puertos a buques con bandera de EE.UU. El caso se abrió en diciembre de 2024, después de que, en noviembre de ese año, al menos tres buques estadounidenses no fueran admitidos en el puerto de Algeciras; algunos estaban vinculados al Programa de Seguridad Marítima de la Administración Marítima de EE.UU. (MARAD), según Herqles, que relaciona las negativas españolas con cargamentos destinados a Israel.",
-        "Las dos medidas son, por ahora, propuestas: la FMC abrió un período de comentarios públicos y ofrecerá a España una instancia para ser escuchada antes de decidir. Ninguno de los dos medios informa una fecha de cierre de la consulta ni detalla qué productos concretos quedarían alcanzados, cuántos buques o viajes se verían afectados, ni si las restricciones serían prohibiciones, cupos u otras condiciones.",
-        "Ambos medios señalan que la inclusión de los aceites y grasas pone en riesgo potencial al aceite de oliva español, aunque la FMC no lo mencionó en forma específica."
-      ],
-      "keyData": [
-        [
-          "Organismo",
-          "Comisión Marítima Federal de EE.UU. (FMC)"
-        ],
-        [
-          "Tasa propuesta",
-          "USD 200.000 por viaje"
-        ],
-        [
-          "Alcance",
-          "Todos los buques con bandera española en el comercio marítimo con EE.UU."
-        ],
-        [
-          "Importaciones en la mira",
-          "Perfumería y cosmética, aceites y grasas, cerámica, artículos de piedra, azúcar y confitería"
-        ],
-        [
-          "Inicio de la investigación",
-          "Diciembre de 2024"
-        ],
-        [
-          "Estado",
-          "Propuesta en consulta pública"
-        ]
-      ],
-      "explainer": {
-        "what": "La Comisión Marítima Federal de EE.UU. propuso cobrar USD 200.000 por viaje a los buques con bandera española y restringir algunas importaciones de España.",
-        "why": "Es una represalia por la negativa de España a recibir buques con bandera estadounidense en sus puertos; de aplicarse, alcanzaría cada viaje de esos buques a EE.UU. y a varios rubros de exportación españoles.",
-        "who": "Navieras con buques de bandera española que operan con EE.UU. y exportadores españoles de los rubros mencionados.",
-        "products": [
-          "Perfumería y cosmética",
-          "Aceites y grasas",
-          "Cerámica",
-          "Artículos de piedra",
-          "Azúcar y confitería"
-        ],
-        "next": "La FMC abrió un período de comentarios públicos y dará a España la oportunidad de ser escuchada antes de tomar una decisión.",
-        "nextSource": {
-          "name": "Infobae",
-          "url": "https://www.infobae.com/espana/2026/10/14/estados-unidos-propone-un-arancel-de-200000-dolares-por-cada-buque-con-bandera-espana-y-adelanta-restricciones-a-productos/"
-        }
-      },
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
       "sources": [
         {
-          "name": "Infobae",
-          "type": "Medio de comunicación",
-          "url": "https://www.infobae.com/espana/2026/10/14/estados-unidos-propone-un-arancel-de-200000-dolares-por-cada-buque-con-bandera-espana-y-adelanta-restricciones-a-productos/",
-          "primary": true
-        },
-        {
-          "name": "Herqles",
-          "type": "Medio de comunicación · España",
-          "url": "https://herqles.com/2026/10/14/eeuu-propone-tasa-buques-espanoles/"
+          "name": "La iguana TV",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.laiguana.tv/articulos/1612731-integracion-portuaria-puertos-navieras-internacionales/",
+          "primary": true,
+          "author": ""
         }
       ],
-      "absorbs": [
-        "ee-uu-anuncia-que-impondra-aranceles-de-200-000-dolares-a-cada-buque-espanol-que",
-        "estados-unidos-plantea-imponer-aranceles-a-buques-espanoles"
+      "gnTried": "2026-10-15T14:06:27Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVWhONjFhS2RZUGladTAxc21NbnFHdHQ0LXdKV3l1SU5VOEVvX2RsZ0ZaM3VXMTdyTnFjSUIxamNEblNGUzhXMmh2MFl2cTNJS0hvTzJhR3JWcWs1LXo5S1FmODRLZkJsaTFKRXN5ejk2RUVHXzQ5aDQ5WC1QUXdhWHR5SEw3U0ZPdnBmMHZRZVVEelFfZXRFQm02QXVzUQ?oc=5"
+    },
+    {
+      "id": "deforestacion-cuota-mercosur-negocios-y-precios-temas-candentes-en-la-sial-de-pa",
+      "datetime": "2026-10-15T12:22:00Z",
+      "date": "2026-10-15",
+      "firstSeen": "2026-10-15T14:06:27Z",
+      "title": "Deforestación, cuota Mercosur, negocios y precios: temas candentes en la SIAL de París",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Mercosur"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Agroverdad",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://agroverdad.com.ar/2026/10/deforestacion-cuota-mercosur-negocios-y-precios-temas-candentes-en-la-sial-de-paris",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-15T14:06:27Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSmtYYThsTzM5dnlQZFBkSzFzMTM0Z3dDVUdoRlhuYWVqLXd4S21nQ0xkSzdFQWhnTmNuOXdFX0lCR3N2b0Y1cTN2a2VwUkJ3VnRHTFB3bGNKU21SeEgwcWM1WUN3RDRnTk1CbkxyazU0X1RCUW5JaVYzbkFvTFZVWjJFRExvdVR3V0cwekdPMWNVVmpwWjhxZTZfZGxYamdFV29lVDdsTTZYSFh5S04xbzdBcXBpOTB5?oc=5"
+    },
+    {
+      "id": "puertos-de-talcahuano-y-sindicato-de-trabajadores-suscriben-acuerdo-hasta-2029",
+      "datetime": "2026-10-15T12:00:55Z",
+      "date": "2026-10-15",
+      "firstSeen": "2026-10-15T14:06:27Z",
+      "title": "Puertos de Talcahuano y Sindicato de Trabajadores suscriben acuerdo hasta 2029",
+      "summary": "Puertos de Talcahuano cerró con el Sindicato de Trabajadoras y Trabajadores el proceso iniciado en julio…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Chile"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/puertos-de-talcahuano-y-sindicato-de-trabajadores-suscriben-acuerdo-hasta-2029/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "suncruise-situa-en-melilla-la-cooperacion-entre-puertos-navieras-y-destinos-como",
+      "datetime": "2026-10-15T11:57:43Z",
+      "date": "2026-10-15",
+      "firstSeen": "2026-10-15T14:06:27Z",
+      "title": "Suncruise sitúa en Melilla la cooperación entre puertos, navieras y destinos como eje del futuro del turismo marítimo sostenible",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Tribuna de Andalucía",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.tribunadeandalucia.es/turismo/40786/suncruise-situa-en-melilla-la-cooperacion-entre-puertos-navieras-y-destinos-como-eje-del-futuro-del-turismo-maritimo-sostenible/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-15T14:06:27Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOaWVPYUYyUDcwQlRnT2VaY1dqYzNRR2pPMEhnMk1DQW5WMzJBVjJZei1YcGJrLUZTTkF1ZU9BZ3ZzLWFHNU14cWF0VHhkODU3T2xjTmhNWE1UaktyYmZRNkNPMmlPNVZsVlJVVFRzdWZiaFB4TWNtTEVFbEk5NjRRRjZUcVNySU9fbVBlSjhpYV9JWHcxdHdwNjBxaGRWSDdQeU93Sk5ISlVoal9qVURxWlBma0ZJSmhuVm1TTHJQR3lsR2JLdkpKanFqajNUQUJVWEkzMGc5a1ZnbTlqTW5hWkw1R09paVZKcHBXbnh3U2lUV3hsM3pBSU8zQkdtUmY4Y2ZZMmlQcw?oc=5"
+    },
+    {
+      "id": "india-importara-5-6-millones-de-toneladas-de-aceite-de-soja-y-abre-oportunidades",
+      "datetime": "2026-10-15T11:52:08Z",
+      "date": "2026-10-15",
+      "firstSeen": "2026-10-15T14:06:27Z",
+      "title": "India importará 5,6 millones de toneladas de aceite de soja y abre oportunidades para Sudamérica",
+      "summary": "La menor cosecha de soja en India impulsar las compras externas de aceite, con Argentina y Brasil en una posicin estratgica para abastecer ese mercado.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones",
+        "Asia"
+      ],
+      "countries": [
+        "India"
+      ],
+      "tags": [
+        "Soja"
+      ],
+      "visual": "agro",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "AgroLatam",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.agrolatam.com/mercados-latam/india-importaciones-aceite-soja-argentina-brasil-2026-2027/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-15T14:06:27Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMlM0aEhZVjV0amZGY0JBM2RkNXI5RE03ekQ4bE9WWHhyTEk5Snc0b0xZODhyV0RYLVAxdFNRNkh2SFMyVm9oQmVPQkxCYW1VRzRPa1JKdFBKSHBpaEh1WFZTa2JsLVc5bVlQUUVwNVhHWnFoTktqSGtSNHAzZF9fN3cyT19CRnFtZHRiWWV3aEdNMDhINDlqaDB6bnlfbFRZWVE?oc=5"
+    },
+    {
+      "id": "para-2027-habra-menos-produccion-mundial-y-menos-exportaciones-de-carne",
+      "datetime": "2026-10-15T11:09:39Z",
+      "date": "2026-10-15",
+      "firstSeen": "2026-10-15T14:06:27Z",
+      "title": "Para 2027 habrá menos producción mundial y menos exportaciones de carne",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Carne"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Valor Carne",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.valorcarne.com.ar/para-2027-habra-menos-produccion-mundial-y-menos-exportaciones-de-carne/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-15T14:06:27Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOd1Vka2gzSHMxU3JOTTdGX0d5UXdhVV9jQnNOS2l4cWRTNGpVVGZFTnlucndwOTA2aUNjc3I2a2lmWXFiYW1hM1k1ZFBMdDhSTDEtVFJyWnhYTUhuQ3MyUXJtX0lXTTRLUE9HczdZQzI3bzVMYjBYaWFTclVlb2NpYVROQmwzU3NJQXlWTlhYaDBDbTNYRHQzNzNkSW9yeWJhbzhQbg?oc=5"
+    },
+    {
+      "id": "china-comercio-exterior-alcanza-tasa-de-crecimiento-general-mas-alto-de-los-ulti",
+      "datetime": "2026-10-15T11:00:25Z",
+      "date": "2026-10-15",
+      "firstSeen": "2026-10-15T14:06:27Z",
+      "title": "China: Comercio exterior alcanza tasa de crecimiento general más alto de los últimos cinco años",
+      "summary": "El comercio exterior de China mantuvo un buen ritmo en los tres trimestres de 2026, con…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "China"
+      ],
+      "tags": [
+        "China"
+      ],
+      "visual": "chart",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/china-comercio-exterior-alcanza-tasa-de-crecimiento-general-mas-alto-de-los-ultimos-cinco-anos/",
+          "primary": true,
+          "author": "cmeza"
+        }
+      ]
+    },
+    {
+      "id": "argentina-ya-exporta-mas-de-420-000-barriles-de-petroleo-por-dia-vaca-muerta-cam",
+      "datetime": "2026-10-15T10:47:00Z",
+      "date": "2026-10-15",
+      "firstSeen": "2026-10-15T14:06:27Z",
+      "title": "Argentina ya exporta más de 420.000 barriles de petróleo por día: Vaca Muerta cambia la escala del negocio",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Energía"
+      ],
+      "visual": "tanker",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Neuquén News",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://neuquennews.com.ar/contenido/29099/argentina-ya-exporta-mas-de-420000-barriles-de-petroleo-por-dia-vaca-muerta-camb",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-15T14:06:27Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTDNMOVg2T0t6blNQVDdYd1gzQ2dCTzJrcFNIemRFX25CRFRVY0ZNc2QtTWxBZEFscGRhZmxlb3JpVnA5S283ZkVjS1REOGczdmEtX21fcGduZnpNbDV5S3E4c3JpWHdjVmlNTmRfQWNEZWE4Yk1CY0JHQms0c1o4SmdCZnlSd2hzUlFlTjhBWU1NS3lwOHpVVTFsV0pRVlJPUnZ5M0NIWUduMTZWS2c0eFhLdFQ1empXNjcyaUJhNXI?oc=5"
+    },
+    {
+      "id": "la-norma-antideforestacion-de-la-ue-y-la-cuota-ue-mercosur-amenazan-al-sector-ca",
+      "datetime": "2026-10-15T10:43:58Z",
+      "date": "2026-10-15",
+      "firstSeen": "2026-10-15T14:06:27Z",
+      "title": "La norma antideforestación de la UE y la cuota UE-Mercosur amenazan al sector cárnico español",
+      "summary": "La cuota UE-Mercosur y el reglamento antideforestación presionan a la ganadería española en plena feria de París.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Unión Europea"
+      ],
+      "tags": [
+        "Mercosur",
+        "UE-Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "MONCLOA.COM",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.moncloa.com/2026/10/15/cuota-ue-mercosur-norma-antideforestacion-3448876/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-15T14:06:27Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTTlzZnc3R0lVX2tDNmRFekxjR2dSUUctTEY0bXFLV2F0MmtVZUlnMHhYMmFXTzNUdE83Q1JENVNpOS0wcC1FWGFRRTFKbHFjV0J2RF9jOU9kd05IUVNQaW83aHZKS0t3SWFNVzBVSjNxU1J6TVQyREhxNlpHVFN2T3E0YkxwOVZFQXBIcW5B?oc=5"
+    },
+    {
+      "id": "jorge-metz-todo-buque-que-abastezca-a-sea-lion-tendra-problemas",
+      "datetime": "2026-10-15T10:00:36Z",
+      "date": "2026-10-15",
+      "firstSeen": "2026-10-15T14:06:27Z",
+      "title": "Jorge Metz: “Todo buque que abastezca a Sea Lion tendrá problemas”",
+      "summary": "Jorge Metz, exsubsecretario de Puertos y Vías Navegables de Argentina (2015-2018), aseguró que cualquier buque…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Transporte marítimo",
+        "Puertos"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/jorge-metz-todo-buque-que-abastezca-a-sea-lion-tendra-problemas/",
+          "primary": true,
+          "author": "Gabriel"
+        }
       ]
     },
     {
@@ -932,7 +1369,7 @@
         "Argentina"
       ],
       "tags": [],
-      "visual": "customs",
+      "visual": "agro",
       "impact": 1,
       "affectsArgentina": true,
       "kind": "noticia",
@@ -1013,10 +1450,24 @@
           "url": "https://www.elentrerios.com/actualidad/nacion-dispuso-un-aumento-en-los-aranceles-del-sistema-de-prestaciones-basicas-para-personas-con-discapacidad.htm",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Flipr.news",
+          "type": "También publicó esta noticia",
+          "url": "https://flipr.com.ar/nacionales/politica/informediario/salud-oficializo-un-aumento-en-los-aranceles-de-las-prestaciones-por-discapacidad-de-cuanto-es/",
+          "alsoIn": true,
+          "title": "Salud oficializó un aumento en los aranceles de las prestaciones por discapacidad: ¿de cuánto es?"
         }
       ],
       "gnTried": "2026-10-15T09:59:51Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQeC1LT1dBUGhLQ25WVGhTVzkwRWN5R1hic1F4Wk8weGVBRzI5eW5oMmxNZkxlN2E0VkVJdjRfYVJCdWkyU2M3cFlINWJQSi1RVV9rMmF4d2FEd1NVSzhMOVU1Mk9vWXB4QXl1bkk3czF6NzhpdklraTI3YU9HanpGUkdkOHZGRklDSmhlc2Zza2VmWVVweDBnN2o0aEhaSHdKdlk0WkkzdFRaTDEyZUZlZ3dhWEc3MGRHTmVYOU1fVGdDbXRHQW1ISXN5UFlHazQ4dWYwQkFoTmZoc3U4UGpOMW53UFhtNnM?oc=5"
+      "gnUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQeC1LT1dBUGhLQ25WVGhTVzkwRWN5R1hic1F4Wk8weGVBRzI5eW5oMmxNZkxlN2E0VkVJdjRfYVJCdWkyU2M3cFlINWJQSi1RVV9rMmF4d2FEd1NVSzhMOVU1Mk9vWXB4QXl1bkk3czF6NzhpdklraTI3YU9HanpGUkdkOHZGRklDSmhlc2Zza2VmWVVweDBnN2o0aEhaSHdKdlk0WkkzdFRaTDEyZUZlZ3dhWEc3MGRHTmVYOU1fVGdDbXRHQW1ISXN5UFlHazQ4dWYwQkFoTmZoc3U4UGpOMW53UFhtNnM?oc=5",
+      "aliasUrls": [
+        "https://flipr.com.ar/nacionales/politica/informediario/salud-oficializo-un-aumento-en-los-aranceles-de-las-prestaciones-por-discapacidad-de-cuanto-es",
+        "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPeEdpNTdqTEp6OXF3MmFRajh4dE1ZY2lrU2U3T1dGdWl4V25qTGJBRlRTRlJjOXk4eU5TbVhmTlRscFJHUDg0dWpKdkhFTV9vTWxPWTNESlZMMGFtaEhjTlBBRGFTVlhPVXdEanFYcDRaQkVVc3FXMFRuMmg1ckJFUl84OXIxc1RJdU9tek51OXg2M2w0eFA4R3VPSm9UM1ZkSTlrRVRPbElCbjRoMGh2SzQ0QU4xRGhoU29makZlNmFIS24wZ0tWNVBYREtkQy1LSWpBREpwX0VRdXV0RjJxTk5aOGk"
+      ],
+      "mergedIds": [
+        "salud-oficializo-un-aumento-en-los-aranceles-de-las-prestaciones-por-discapacida"
+      ]
     },
     {
       "id": "se-presento-la-plataforma-hub-logistico-santafesino-2",
@@ -1099,7 +1550,8 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Logística"
+        "Logística",
+        "Transporte marítimo"
       ],
       "countries": [
         "Global"
@@ -1124,43 +1576,6 @@
       ],
       "gnTried": "2026-10-15T09:59:51Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRW1UaW1Rb05zNFN2SFJ4akNRZ0M0RTFYaXYtbmdpYTlJV0dYM2doYXNYVUhPSXRDRDFIclJZYmV4MWM4aWRpS0RwbXFldUtMNTRFdjdmdTJnS09LaFQ5a3RfX0ZjU2NNb0pwcUUybWgxSjZERTZ4d1d5dlU1ZGk4Y0xqR0pZRnBmRU81bXhMZ2lVS3lrdDUxeWgteEtDQUNLdnZ1UQ?oc=5"
-    },
-    {
-      "id": "argentina-y-ee-uu-modifican-acuerdo-comercial-para-facilitar-su-ratificacion-en",
-      "datetime": "2026-10-15T07:16:05Z",
-      "date": "2026-10-15",
-      "firstSeen": "2026-10-15T09:59:51Z",
-      "title": "Argentina y EE.UU. modifican acuerdo comercial para facilitar su ratificación en el Congreso",
-      "summary": "Argentina y EE.UU. modificaron el acuerdo comercial firmado en febrero para facilitar su ratificación en el Congreso argentino. Los cambios eliminan referencias a los aranceles recíprocos afectados por un fallo de la Corte Suprema estadounidense.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Tratados y acuerdos",
-        "Estados Unidos"
-      ],
-      "countries": [
-        "Argentina",
-        "Estados Unidos"
-      ],
-      "tags": [],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
-      "sources": [
-        {
-          "name": "Bloomberg Línea",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/argentina-y-eeuu-modifican-acuerdo-comercial-para-facilitar-su-ratificacion-en-el-congreso/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-15T09:59:51Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNNEdnbkxEUmxLUk5XT2NjQUxXRHNaR3MxN0JMU0VKNWQxRHhjLXVKSW1wSU1zMFhIcVdqXzQ4d3ZWT2RrMmMtOHYzTWFqR0VGcFZEbUxEMjhGOTZReG9JYXhFb0FkcVNyU3U3T09ZekV5XzFsWGxINzl6MXJQTlc3S2hkUGwzOWVZUXNoRmN3ZHVibTU5MHM5VXZkdWp3TWsxdncyb3hIaUhEMHdXSDRNNUVHOWRXbHc1OUNvcF93X3dvVDh1X2dLbDNGMWV0dlk0d3E5WnFhNDQ4ZmpCU2hJ0gHzAUFVX3lxTE1QNnF0WE0zOWw1VTJvNG1VNVBXUWlNeWE4ZVpyX0FHeHUtOUlQN2Q1NUdQdXNDMzhLN3FHSHp3WHBrSThOcTk4bThtM0VBMEkxa2lPN0J6Zjk0amlSNXRZb0NPYnd2M0dBQ1ZNRU9oZG9sbVp5Q1ZqVlZKZVdIYWQzZVpQQVZJTFZYdjRuelV5U0RpbUxFTW1vZldUVVFpT01kaDlhZnFocmhjWEktU2pQbXJaS3dUU2hHVHQ3clV6bWRnbkVwcFV0a21KbHV0Y0QtTlhHX2prdVptUUxkQTBzZVA4dDlMZ0FDazJ3YWxhclJGcw?oc=5"
     },
     {
       "id": "puerto-de-ashdod-asume-presidencia-del-comite-de-innovacion-de-iaports",
@@ -1206,6 +1621,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Exportaciones",
         "Tratados y acuerdos",
         "Mercosur",
         "Europa"
@@ -1217,7 +1633,7 @@
         "Mercosur",
         "UE-Mercosur"
       ],
-      "visual": "treaty",
+      "visual": "customs",
       "impact": 1,
       "affectsArgentina": true,
       "kind": "noticia",
@@ -1388,9 +1804,10 @@
       "keyData": [],
       "topics": [
         "Argentina",
+        "Exportaciones",
         "Tratados y acuerdos",
-        "Mercosur",
-        "Europa"
+        "Regulaciones",
+        "Mercosur"
       ],
       "countries": [
         "Argentina",
@@ -1401,8 +1818,8 @@
         "Mercosur",
         "Carne"
       ],
-      "visual": "treaty",
-      "impact": 1,
+      "visual": "customs",
+      "impact": 2,
       "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
@@ -1674,47 +2091,6 @@
       ],
       "gnTried": "2026-10-15T01:56:33Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNFVQZ0RJdnVnek1uOXp0Z3VGdnB0QTViVVBleGtSOWhuM25ESzYxMktyUzhnMWxneXlmcGVFdjBxc0pmd0JVbFJFd0I2QTdyWEFqX2Y2VW5EU09uVWxZNGRseEJnVkptWjBoWWhiV052Q3ZoMDF1YV8xcXZOX2JFTkNrYXRITXo3WG16enJiU2s4S3RWVTU1ZG5vMFRDVFBTV0lQTzRFRVdOOUlBS3NyX1Q3NkhwbUlsRy1jRGZxMkZ6M3pWX25XcHFBRUQ2emlnYWNfOS1hQ00?oc=5"
-    },
-    {
-      "id": "brasil-exportaciones-a-la-union-europea-crecen-un-30-7-tras-el-inicio-de-la-apli",
-      "datetime": "2026-10-15T00:07:43Z",
-      "date": "2026-10-14",
-      "firstSeen": "2026-10-15T01:56:33Z",
-      "title": "Brasil: Exportaciones a la Unión Europea crecen un 30,7 % tras el inicio de la aplicación del acuerdo con el Mercosur",
-      "summary": "Las exportaciones brasileñas hacia la Unión Europea aumentaron un 30,7 % entre mayo y septiembre de 2026, en comparación con el mismo período del año | Noticias del MERCOSUR: política, economía y actualidad regional del Prensa Mercosur.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones",
-        "Tratados y acuerdos",
-        "Latinoamérica",
-        "Mercosur",
-        "Europa"
-      ],
-      "countries": [
-        "Brasil",
-        "Unión Europea"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Prensa Mercosur",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://prensamercosur.org/2026/10/14/brasil-exportaciones-a-la-union-europea-crecen-un-307-tras-el-inicio-de-la-aplicacion-del-acuerdo-con-el-mercosur/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-15T01:56:33Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxORG1yczBPSjY4NXU3WTBWUkNaOFY3SWFmS056YXIzZ3Q3Q2RNM2E0TVNHNWhUS0RTWG1wMFAyaDIwSDYtZTdJVVJVVWEzM09hcFJHOXRrbHktWVJIb2xIZ2ZvTGpCZ0RwNkRWOVdCSHFlX3hYRDhGSmplY1VMeTFkQ29taFZJbVJNbzFiY3FpaWhuR0JhbU9kTi1JdFIyUUs5YkJyWHhOLXBqRmhhWm5YWk9obGpZMHBWUVFNZHJNOGRiTFB1bUhEY00zTDk5dEJhOHBiOWtuZlc3Unc3cmFLN2pxbDJQWms?oc=5"
     },
     {
       "id": "portugal-la-proteccion-internacional-de-marcas-agroalimentarias-gana-importancia",
@@ -1996,14 +2372,19 @@
         "Tratados y acuerdos",
         "Latinoamérica",
         "Mercosur",
-        "Europa"
+        "China",
+        "Asia"
       ],
       "countries": [
         "Brasil",
+        "China",
+        "India",
+        "Corea del Sur",
         "Unión Europea"
       ],
       "tags": [
-        "Mercosur"
+        "Mercosur",
+        "China"
       ],
       "visual": "treaty",
       "impact": 1,
@@ -2022,44 +2403,6 @@
       ],
       "gnTried": "2026-10-15T09:59:51Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPS0VqQVkwbExFZWZfWXBOcWQ2WDZQOHd4dXEtTWJOLVJzVUVkc0ZiRHJaVjhUSnMxbVJZM29iLWtNOUxhd3BONDdjNndNUDh2QVUyZThISTdUQnR3Mm9GOGROV1B6X2REV1lnUy1DTDhWTmZqMFFpZHdPLUY0VWh1QUNCWXJvUXlSOGMwa2lONWdKcTEzNDJVdnNYd09iT1BFWENJRzQ1dFMwaDBtQWlMY3V0dHhhdWxmWDJ3Mzc1Rk5TRE1hOUlyaVh1WmlHWTJxaDZjbU9oOA?oc=5"
-    },
-    {
-      "id": "productos-mas-baratos-que-contempla-el-acuerdo-comercial-con-estados-unidos",
-      "datetime": "2026-10-14T22:48:41Z",
-      "date": "2026-10-14",
-      "firstSeen": "2026-10-15T01:56:33Z",
-      "title": "¿Productos más baratos? Qué contempla el acuerdo comercial con Estados Unidos",
-      "summary": "El canciller Pablo Quirno firmó un protocolo con Estados Unidos que permitirá enviar el acuerdo comercial al Congreso. Incluye beneficios para las exportaciones e inversiones estratégicas.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones",
-        "Tratados y acuerdos",
-        "Estados Unidos"
-      ],
-      "countries": [
-        "Estados Unidos"
-      ],
-      "tags": [
-        "Estados Unidos"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
-      "sources": [
-        {
-          "name": "Diario Huarpe",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.diariohuarpe.com/nota/argentina-y-eeuu-firmaron-un-protocolo-para-avanzar-con-el-acuerdo-comercial-2026101420370",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-15T01:56:33Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUXpUclYyRmpaZjNpdnZnVVY4a0tuSERlT0FsSlp6OTlRaHkwSmVxTTJGazE3XzRrOG9LYm9Qd05nRTFCQUM3NDV6QXNhZjZuYlJ6SlZVVERoVjktUFVOU3FkeVNwOWpBcXhuMjBIRXZxSDVfM3o2N3hORV9LTGQyWXN3VDdHQ2JEOEV1N3dLM0hxcWxaQmIyNVN5LUM2ZXFjVEJNNmEwdXhfaURoLV83dmVSLXV3c2VsYzdRU3lBZF9EUQ?oc=5"
     },
     {
       "id": "amenaza-arancelaria-de-trump-ayuda-a-ee-uu-a-acumular-cantidad-record-de-cobre",
@@ -2137,77 +2480,6 @@
       ],
       "gnTried": "2026-10-15T09:59:51Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPOGRPbGt4MUM0RDctZy1nNjJ2OVVDUnpmOGgtUENPM21CdUFGNGVELVEybkFETzhESy13eHMzTkRQOHZGQzk5dkd1WURRdGJSeFZqcUEwLTdlaUhoUk1IMTZoODFpYVN5ZHEyTDlxb3JkcEpQMHAyS3Y1clI1cjBiOTU1WUwtUWtqX3NCOHQzM2Z2QW1wd2NNZ1RSUG0yLWIxdkRoWEJXNFJXcF9yYXkxRlZMcHlhdVUwMXdBSG40cERpNVVIMllKNFA0WGpUR3BmMUV3MjhxdUlvcEVUNmfSAd4BQVVfeXFMTzhkT2xreDFDNEQ3LWctZzYydjlVQ1J6ZjhoLVBDTzNtQnVBRjRlRC1RMm5BRE84REstd3hzM05EUDh2RkM5OXZHdVlEUXRiUnhWanFBMC03ZWlIaFJNSDE2aDgxaWFTeWRxMkw5cW9yZHBKUDBwMkt2NXJSNXIwYjk1NVlMLVFral9zQjh0MzNmdkFtcHdjTWdUUlBtMi1iMXZEaFhCVzRSV3BfcmF5MUZWTHB5YXVVMDF3QUhuNHBEaTVVSDJZSjRQNFhqVEdwZjFFdzI4cXVJb3BFVDZn?oc=5"
-    },
-    {
-      "id": "estados-unidos-plantea-imponer-aranceles-a-buques-espanoles",
-      "datetime": "2026-10-14T22:00:42Z",
-      "date": "2026-10-14",
-      "firstSeen": "2026-10-15T01:56:33Z",
-      "title": "Estados Unidos plantea imponer aranceles a buques españoles",
-      "summary": "La Comisión Marítima Federal de Estados Unidos propuso imponer una tasa de 200.000…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Aranceles",
-        "Transporte marítimo",
-        "Estados Unidos"
-      ],
-      "countries": [
-        "Estados Unidos"
-      ],
-      "tags": [
-        "Aranceles",
-        "Estados Unidos"
-      ],
-      "visual": "ship",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/estados-unidos-plantea-imponer-aranceles-a-buques-espanoles/",
-          "primary": true,
-          "author": "Periodista 4"
-        },
-        {
-          "name": "Diariocrítico.com",
-          "type": "También publicó esta noticia",
-          "url": "https://www.diariocritico.com/internacional/estados-unidos-aranceles-200000-dolares-todos-buques-espanoles",
-          "alsoIn": true,
-          "title": "Estados Unidos quiere poner aranceles de 200.000 dólares a todos los buques españoles"
-        },
-        {
-          "name": "La Razón",
-          "type": "También publicó esta noticia",
-          "url": "https://www.larazon.es/espana/propone-aranceles-200000-dolares-viaje-buques-espanoles-sanciones-exportaciones_202610146acfa89bb79b18452fc47475.html",
-          "alsoIn": true,
-          "title": "EE UU propone aranceles de 200.000 dólares por viaje a los buques españoles y sanciones a las exportaciones"
-        },
-        {
-          "name": "Business Insider España",
-          "type": "También publicó esta noticia",
-          "url": "https://www.businessinsider.es/economia/eeuu-propone-tasa-200000-dolares-barcos-espanoles-aranceles-exportaciones_7048961_0.html",
-          "alsoIn": true,
-          "title": "EEUU propone una tasa de 200.000 dólares a los barcos españoles y aranceles a las exportaciones"
-        }
-      ],
-      "aliasUrls": [
-        "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNdlN4ak1rM0dfdkd2QWdJOXAxcEtFaExTZHdlLUJ2dW0xXzk1MVV5Q040ZWJEcElqbGNCMmgtam12U09rNEhBd2lwckJUaFo4MUR5WnVOVzNlbWQ1Y0tzdlVXbDlfWk5hT3VmTW5ocXhsa190ZWZncUFGUDF4T2F3c0I4bjE1ZkdBYTc1a1ZYOUJMRWlnNEpIWE1BRkdBRGlaYUdyUUdrYUQ1V1NyNHF3b2NpUThQYlZrWjZBbEVScUZFZmVtS1ZVMlBhc3g4bzNVMG9LSDZ4dHhMYUJEa2ROU9IB9AFBVV95cUxPRVpSUVdQSDNXTVNjcEhzWUxLT2tQWHZsOGxkSHlrSk01R283bU80VTRUNjBkLUpXMUFoRFd5TDc4d21wQlk5eGVPODM1NnVhaVlPdUE3a19YOGlLYTV1Zk9RaThuVF9xQ0xUUmtENlR3bmFZdXRuN0xuRGo5N0lNY3ZGWVNPaG51NDdaTzk0ZzY3UVhISEpRZUNDTzRwanVYTDVZZVA0bENZZjJGTVpBeG84SjNPU3pzX2lVeXktdURVX0R5ckdoYzFVbzFuY1NqRlB0TDRQTVAxc1NjN2tjejZicW41cndtcno1clBYcGhGakg2",
-        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTkxobks2RnhEcWFuQm1uWDFVT2FYWl81eU1NSjJ1X0FrekhSZFhIVlFodGgtQmN1MGlyUVF2R2tUTkhjcDdRLXk0bFBaSXZRakNxeURrTHBfTzJfR3Z5bTExU256MHpzQWNtbHFxd2ljSVFaYVBNZHVaVVFmb256YzVFbnBwV2d2cTBNSkRJeTlqSkl4R05EQ0lrM1FNbW9HOWdCd2xyZG1OZw",
-        "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMnZZdjJqRUp0enhTNmgzUGozeXZrRkhRVGF0XzI0R0tLYlAzMzRwZnJheHljUjRQeHBpRVlzZDFOSjdXU0I4TXNzUHRwQzAzeWhnRFliTmZXY0xxSFdCWm91RnNKUk1LZGk3NUI4azNfWktkTW5YUElDd1FTRXlQZ2QxREIxRFdjUjhMRmM0Q0V2RTk3QlpUZ0ZfcmpNV3MyTjZiUDNSdjQzcFpMdk1tNmxSd1lKXzJhSy1iWEViUDRDZVlxRVhV0gHMAUFVX3lxTE1qN2JuWENVeUx0ZldsNUVuaDRJRTZkMWpvMjN0VHhseU1tY3REaFViU01BRklfUC1WZ2R0dkNoYmlVNTRad0xZckZ2bWhQZkk3dm9CbUZ3bUFzdHdZcDF2WE03ZDRlTnROQUhGZFF4OG45RVhFZWZrek9wVWJJMWg1dElqTWl0MS1fTTRMUnBzTkNmY1VXRGhTS2dhMVdkbzVSTGdGUklpNE50V0RyT1NXRHhIWnVWSzM5NTliS052dDlpZjRUWFYydzNzMQ",
-        "https://www.businessinsider.es/economia/eeuu-propone-tasa-200000-dolares-barcos-espanoles-aranceles-exportaciones_7048961_0.html",
-        "https://www.diariocritico.com/internacional/estados-unidos-aranceles-200000-dolares-todos-buques-espanoles",
-        "https://www.larazon.es/espana/propone-aranceles-200000-dolares-viaje-buques-espanoles-sanciones-exportaciones_202610146acfa89bb79b18452fc47475.html"
-      ],
-      "mergedIds": [
-        "estados-unidos-quiere-poner-aranceles-de-200-000-dolares-a-todos-los-buques-espa",
-        "ee-uu-propone-aranceles-de-200-000-dolares-por-viaje-a-los-buques-espanoles-y-sa",
-        "eeuu-propone-una-tasa-de-200-000-dolares-a-los-barcos-espanoles-y-aranceles-a-la"
-      ]
     },
     {
       "id": "congresistas-de-eu-buscan-imponer-aranceles-al-aguacate-mexicano-cna",
@@ -2360,45 +2632,6 @@
       ]
     },
     {
-      "id": "quirno-anuncio-un-nuevo-paso-en-el-acuerdo-con-estados-unidos-y-destaco-benefici",
-      "datetime": "2026-10-14T20:37:59Z",
-      "date": "2026-10-14",
-      "firstSeen": "2026-10-14T21:57:06Z",
-      "title": "Quirno anunció un nuevo paso en el acuerdo con Estados Unidos y destacó beneficios para las exportaciones",
-      "summary": "El ministro de Relaciones Exteriores se reunió con el representante comercial estadounidense, Jamieson Greer, y firmó un protocolo adicional al acuerdo suscripto en febrero. El Gobierno destacó la ampliación de la cuota de carne, el crecimiento de las exportaciones y nuevas herramientas de financiamiento.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones",
-        "Tratados y acuerdos",
-        "Estados Unidos"
-      ],
-      "countries": [
-        "Estados Unidos"
-      ],
-      "tags": [
-        "Carne",
-        "Estados Unidos"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "La Voz del Interior",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.lavoz.com.ar/politica/quirno-anuncio-nuevo-paso-acuerdo-estados-unidos-destaco-beneficios-exportaciones_0_XZs35hciWT.html",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-14T21:57:06Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYzRqVG1YTEF1M29veGZ4M0xmVkRWQ3RHTjlGRGY1WWgxM2U4OVRUNkRHSEpwc3MyQjhJN1hReGpsamN6cE1CUFUteHZpNlpPVGdJR2p6MThMVWQyMk1aLUJmZERVM1Y4dnM3QmFsWEppUWJwYTVQaEEwaDFUY1UtM0NBYkxfM3VsWHMtalhkaWhEeFFVWHlGZXRkSVhnbGNxb3JZTlNlMDZlNHlQY3p4aldETEt1VWQyVVhwSWJjdnJsa1BkaUpVSzE1cm5ldw?oc=5"
-    },
-    {
       "id": "puertos-de-la-guaira-y-carabobo-se-integran-a-plataformas-operativas-de-tres-nav",
       "datetime": "2026-10-14T20:32:29Z",
       "date": "2026-10-14",
@@ -2537,125 +2770,116 @@
       ]
     },
     {
-      "id": "la-argentina-y-ee-uu-firmaron-un-protocolo-para-avanzar-con-el-acuerdo-comercial",
-      "datetime": "2026-10-14T20:07:45Z",
+      "id": "argentina-eeuu-protocolo-adicional-arti-quirno-greer-congreso",
       "date": "2026-10-14",
-      "firstSeen": "2026-10-14T21:57:06Z",
-      "title": "La Argentina y EE.UU. firmaron un protocolo para avanzar con el acuerdo comercial y enviarlo al Congreso",
-      "summary": "El canciller, Pablo Quirno, anunció un convenio con el representante comercial estadounidense, Jamieson Greer. El Gobierno destacó que el entendimiento consolida la previsibilidad para las exportaciones locales.",
-      "body": [],
-      "keyData": [],
+      "datetime": "2026-10-14T17:10:13-03:00",
+      "kind": "noticia",
+      "title": "Argentina y EE.UU. firmaron un protocolo adicional al acuerdo comercial para enviarlo al Congreso",
+      "summary": "El canciller Pablo Quirno y el representante comercial Jamieson Greer firmaron en Washington un protocolo que complementa el Acuerdo sobre Comercio e Inversiones Recíprocos de febrero. Según el Gobierno, permitirá mandar el tratado al Congreso, cuya aprobación hace falta para la parte arancelaria.",
       "topics": [
         "Argentina",
-        "Exportaciones",
+        "Estados Unidos",
         "Tratados y acuerdos",
-        "Estados Unidos"
+        "Aranceles",
+        "Exportaciones"
       ],
       "countries": [
         "Argentina",
         "Estados Unidos"
       ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
+      "tags": [
+        "ARTI",
+        "Acuerdo Argentina–EE.UU.",
+        "USTR",
+        "Quirno",
+        "Greer",
+        "Carne vacuna",
+        "Congreso"
+      ],
+      "visual": "treaty",
+      "impact": 3,
       "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "argentinaNote": "El tramo arancelario del acuerdo con EE.UU., que incluye la eliminación de aranceles para 1.675 productos argentinos y la ampliación de la cuota de carne vacuna, necesita la aprobación del Congreso; el protocolo firmado busca destrabar ese paso.",
+      "argentinaImpact": {
+        "change": "Con el protocolo adicional, el Gobierno prevé enviar al Congreso el Acuerdo sobre Comercio e Inversiones Recíprocos (ARTI) firmado en febrero; EE.UU. reafirmó el trato de Nación Más Favorecida para los productos argentinos, según el canciller.",
+        "who": "Exportadores argentinos al mercado estadounidense, en especial frigoríficos de carne vacuna, e importadores de productos de EE.UU.",
+        "sectors": [
+          "Carne vacuna",
+          "Agroindustria",
+          "Industria"
+        ],
+        "flows": {
+          "importaciones": true,
+          "exportaciones": true,
+          "logistica": false,
+          "aranceles": true
+        }
+      },
+      "body": [
+        "El canciller Pablo Quirno y el representante comercial de Estados Unidos (USTR), Jamieson Greer, firmaron el 14 de octubre en Washington un protocolo adicional al Acuerdo sobre Comercio e Inversiones Recíprocos (ARTI), el tratado bilateral que ambos países suscribieron en febrero. La firma se hizo durante la visita del presidente Javier Milei a la capital estadounidense, informaron Infobae y La Nación.",
+        "Según Quirno, el protocolo permitirá enviar el ARTI al Congreso para su aprobación y da más previsibilidad a las exportaciones argentinas hacia EE.UU. El canciller agregó que Washington reafirma el trato arancelario de Nación Más Favorecida para los productos argentinos y reconoce que el país cumplió sus compromisos. Ambos medios aclaran que todavía no se conoce el texto formal del protocolo ni si fija un plazo para que lo traten las dos cámaras.",
+        "El acuerdo tiene un capítulo no arancelario, cuya implementación avanza, y otro arancelario, que requiere la sanción del Congreso: según Infobae, es una exigencia del gobierno de Donald Trump para dar mayor seguridad jurídica, y la debilidad legislativa del oficialismo impidió cumplir los plazos previstos. La Nación recordó que el acuerdo de febrero eliminó los aranceles estadounidenses para 1.675 productos argentinos, con exportaciones potenciales de USD 1.013 millones, y que en la reconfiguración arancelaria de julio Argentina quedó en el escalón más bajo, con un recargo adicional de 10%.",
+        "Entre los beneficios que destacó el Gobierno, Infobae menciona que la cuota de carne vacuna argentina en EE.UU. pasa de 20.000 a 100.000 toneladas y que las exportaciones del país a ese mercado sumaron USD 6.570 millones entre enero y agosto, un 35% más que un año antes. La Nación agregó que en Nueva York se presentó un paquete de financiamiento de unos USD 7.000 millones del Export-Import Bank (EXIM), con instrumentos adicionales de la DFC, para obras de infraestructura que agilicen exportaciones de minerales críticos, materias primas y energía."
+      ],
+      "keyData": [
+        [
+          "Firma del protocolo",
+          "14 oct 2026, Washington"
+        ],
+        [
+          "Firmantes",
+          "Pablo Quirno (Cancillería) y Jamieson Greer (USTR)"
+        ],
+        [
+          "Acuerdo original (ARTI)",
+          "Firmado en febrero de 2026"
+        ],
+        [
+          "Productos con arancel cero en EE.UU.",
+          "1.675 (exportaciones potenciales por USD 1.013 M)"
+        ],
+        [
+          "Cuota de carne vacuna",
+          "De 20.000 a 100.000 toneladas"
+        ],
+        [
+          "Exportaciones a EE.UU. ene–ago 2026",
+          "USD 6.570 M (+35% i.a.)"
+        ]
+      ],
+      "explainer": {
+        "what": "Argentina y EE.UU. firmaron un protocolo adicional al acuerdo comercial de febrero que, según el Gobierno, permite enviarlo al Congreso.",
+        "why": "La parte arancelaria del acuerdo, que elimina aranceles para 1.675 productos argentinos y amplía la cuota de carne a 100.000 toneladas, necesita aprobación legislativa para quedar firme.",
+        "who": "Exportadores argentinos a EE.UU., en especial de carne vacuna, e importadores de productos estadounidenses.",
+        "products": [
+          "Carne vacuna",
+          "Minerales críticos",
+          "Energía"
+        ],
+        "next": "El Gobierno enviará el acuerdo al Congreso para su aprobación; no se informó si el protocolo fija un plazo para su tratamiento.",
+        "nextSource": {
+          "name": "La Nación",
+          "url": "https://www.lanacion.com.ar/politica/en-washington-quirno-firmo-un-protocolo-adicional-para-acelerar-la-aprobacion-del-acuerdo-comercial-nid14102026/"
+        }
+      },
       "sources": [
         {
-          "name": "TN",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://tn.com.ar/economia/2026/10/14/la-argentina-y-eeuu-firmaron-un-protocolo-para-avanzar-con-el-acuerdo-comercial-y-enviarlo-al-congreso/",
-          "primary": true,
-          "author": ""
+          "name": "Infobae",
+          "type": "Medio de comunicación",
+          "url": "https://www.infobae.com/economia/2026/10/14/argentina-firmo-con-eeuu-un-protocolo-adicional-para-fortalecer-el-acuerdo-bilateral-sobre-comercio-e-inversiones-reciprocas/",
+          "primary": true
         },
         {
           "name": "La Nación",
-          "type": "También publicó esta noticia",
-          "url": "https://www.lanacion.com.ar/politica/en-washington-quirno-firmo-un-protocolo-adicional-para-acelerar-la-aprobacion-del-acuerdo-comercial-nid14102026/",
-          "alsoIn": true,
-          "title": "En Washington, Quirno firmó un protocolo adicional para acelerar la aprobación del acuerdo comercial con EE.UU. en el Congreso"
-        },
-        {
-          "name": "Diario Crónica",
-          "type": "También publicó esta noticia",
-          "url": "https://www.diariocronica.com.ar/noticias/2026/10/14/172224-argentina-y-estados-unidos-firmaron-un-protocolo-para-enviar-el-acuerdo-comercial-al-congreso",
-          "alsoIn": true,
-          "title": "Argentina y Estados Unidos firmaron un protocolo para enviar el acuerdo comercial al Congreso"
-        },
-        {
-          "name": "Canal26",
-          "type": "También publicó esta noticia",
-          "url": "https://www.canal26.com/economia/2026/10/14/argentina-y-estados-unidos-avanzan-con-el-acuerdo-comercial-los-detalles-del-protocolo-firmado-por-quirno/",
-          "alsoIn": true,
-          "title": "Argentina y Estados Unidos avanzan con el acuerdo comercial: los detalles del protocolo firmado por Quirno"
-        },
-        {
-          "name": "A24.com",
-          "type": "También publicó esta noticia",
-          "url": "https://www.a24.com/politica/argentina-y-estados-unidos-avanzan-el-acuerdo-comercial-y-preparan-su-envio-al-congreso-n1606429",
-          "alsoIn": true,
-          "title": "Argentina y Estados Unidos avanzan con el acuerdo comercial y preparan su envío al Congreso"
-        },
-        {
-          "name": "MisionesOnline",
-          "type": "También publicó esta noticia",
-          "url": "https://misionesonline.net/2026/10/14/argentina-y-estados-protocolo-acuerdo-comercial/",
-          "alsoIn": true,
-          "title": "El Gobierno avanza con el acuerdo comercial con EE.UU."
-        },
-        {
-          "name": "El Liberal",
-          "type": "También publicó esta noticia",
-          "url": "https://www.elliberal.com.ar/nota/94818/2026/10/acuerdo-comercial-argentina-estados-unidos--firmaron-un-protocolo-clave-y-el-texto-va-al-congreso",
-          "alsoIn": true,
-          "title": "Acuerdo comercial Argentina-Estados Unidos: firmaron un protocolo clave y el texto va al Congreso"
-        },
-        {
-          "name": "radio master lujan",
-          "type": "También publicó esta noticia",
-          "url": "https://radiomasterlujan.com.ar/la-argentina-y-estados-unidos-firmaron-un-protocolo-para-enviar-el-acuerdo-comercial-al-congreso/",
-          "alsoIn": true,
-          "title": "La Argentina y Estados Unidos firmaron un protocolo para enviar el acuerdo comercial al Congreso"
-        },
-        {
-          "name": "El Intransigente",
-          "type": "También publicó esta noticia",
-          "url": "https://elintransigente.com/2026/10/15/argentina-protocolo-acuerdo-comercial/",
-          "alsoIn": true,
-          "title": "Argentina y Estados Unidos ponen en marcha el acuerdo comercial y lo enviarán al Congreso"
+          "type": "Medio de comunicación",
+          "url": "https://www.lanacion.com.ar/politica/en-washington-quirno-firmo-un-protocolo-adicional-para-acelerar-la-aprobacion-del-acuerdo-comercial-nid14102026/"
         }
       ],
-      "gnTried": "2026-10-14T21:57:06Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMWRZd1hEbmMydUVpbHZLdUtEc3ItVUEtNkhwS3BPUXZjOHNHLUVFSjZ3OFM3blA4X3lxOWdwS0hzT0Y0X0VXV2JzZG5iQkRfak1lQWZCMjZsWnFfOFRWUnhUU3d3bkNQUkxZejhsYi1iRVRaN08xMjlQUUNBSDVzSjJuY2hwSm5STWxXMUJfN3MteGpZa0UxY1duRXRUSWF2Yzc2ZGdsanlIeTFlWWVCNXR6NnloMS1RYlJyUjBZVnRubkw5SC1CVmFRMjYxbTl1bWphTmJxZ23SAewBQVVfeXFMUFQxX1FjRmg5emZ2SS1wYzhRLW9GYThkSEFtUzk0Q2pyTm03anc0ZmY3UDBvRWJHeEVsMnlyNEJKcnY5VEhQbk1qenNpSTNxOVYzcUdwR1czYjgxa3VhUlBCZVhzakN6a2xVUDFSYS10R1pnVHJPTTRIdzNGejN3NHlwVFM4bHpBbHA3OTJaQTdpSG1oX0lCbEdCRXVxNTdsU0FwNXl2aVlETFg2VGFfVE9peFd0QVBpemp4RXpSb294NmVEb1lDdHRKYW9YSFZjeFlCSHItREN3VTFPZzQ2WDZSNlh4Z2Z2eDkwMl8?oc=5",
-      "aliasUrls": [
-        "https://elintransigente.com/2026/10/15/argentina-protocolo-acuerdo-comercial",
-        "https://misionesonline.net/2026/10/14/argentina-y-estados-protocolo-acuerdo-comercial",
-        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNNndZZlUzVWtaSWYzTzlEREdHMXhUdHhCRzNsTFYxS0N4cHVZbldocW9vMzdVN1JsUTF3Sm5jSW15ci00MVJMU3Y0UHZMVy1yeVdTZmE0T2pKNWNRTG9BcTloaW4wTERyRzZhOXdCYkJOQ2h5Y2NKZzR1MUNxX2VfV2pENHBPQkVrT3FlNkFXN3dhVmtJaDVMeHpFTmVHUEY5TC1GOWtxcmE3UmhxSDhhY0w4aDBzalJVTXh5UzhWVldvSFNKTk5EdXUyTS1qcTNRbXpmQlo3RUNkODV1d2fSAecBQVVfeXFMUGg5SHVwVUNPRUYwLXBrZVdxNEhkTVZRWXE2VHVod0J2aUNrcXFFdDVqMkt3TGtmaUpGbGgyWVNjSnFLY2ZmNWRDS25mcncwVTVhd2lpSVVnd0VSMFZzWVZwS05zS0VXQmNRR2JxdFpaWlJuQ2U3UFBkNzkzWk5CUzJjNWdiMFltNUVTU0gxSzByMU5GSTMtWmJwc0xRdHlzMFBPaGl6UDZ6N3k3Nk41Qm5MaXpHcVlZVl9aOXl2dzhSTnhZUTJMVWdsLVM1alN0S1JZV3MxaVdXRTQybWhYMHV2RlZRVkxJ",
-        "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdHd6d1FqamlHc0J6aEhWMnRWWnM5SnlBUVY0QjdTV09kdC1LeDVpR2tCRnAzV1FWWFhpRUozR09qa01SWGFWT0hTb3hYZmZrSElqQ2RqRlBXQm1ZY25RMmZPX0JxYXV5c01kejFobXpQbDFBR3R5Nm1Gek5iczRwWG5TSEZFOUFDUmhwaUZfRUI0OGY5eENRT21UOTdNV0g4SFlLNl9lNmMzTmtzQTAwOWFHdHhRanU4VDR6QnpUYzRfUkFTOEdJaWppSkRBT0lubFBqZzkzNG9YMmdNTTdjS2ZBRQ",
-        "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNYWQ4UDl5NnluZ3l1ejVWcU84UVBHNVB3anBYREhVX2g0Y2Z2cFZXMTVnZmpxdTRyRXNiNEI4S2prRFhFYUpoV3VvTVRxbHpfdGpTbnJxbmZ1UHVaczQyUEcyM2xCVUdQdXJ5d043aGlyMVIwUjVBbm5ua1NSLTNhaU9Sd0sxdDlwSXk4elhxemhHdHVLZGl6NTVvemtBX3RWay14dEdzZm4yUmR1eHZhazY2bWstX21Qd19kMlIta3NVRWR6dkNmYWpQZ3FXOGg0QUVJU0x0MnlUQ2RRRWl3SmJZWC0",
-        "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQaG5MLV9zSlBfVEdITUxYM1ZMT2JoZDA5Nzdyb1F1UG9MTzZjMjVSWWo0d0NTTHhWNXBnWHBiZU1tUFI1cVJ4ZU10Z2JIRW5rM1dvbFM3UGJjbTlqeU5SN0wyRmJPaHlBS25kSUQwSUlfNDlIa3RLQXZCSUFmWEt6WGxPbkRSZUJEaElZcm5TZTk0M0tWbEhtTUdPRkpEX1RsQUl0cGZ2c3RPdHFVbS1kODc1TV84TGpMdm5DVlI3a2dMaFFuOEM2Q1R6LWhSVjF1ZnhfWkM2cnZRWXFWR01yeDBnMmxocHVI0gHuAUFVX3lxTE1LTWpGc3JFYTNTdzFnVlp4TEZxbXd0TUgycXRIZUVTUExGZnJhMTZOMU5OM29ibVktV2lWNG1ma2J6RkpkU3dCbHJlMGNrMkRkUkxQUnFIWGplc010bS1PZ1cyZzhwLTNncDdSNk41UVE1ODJacDRWbzhPUHJleUg5WWNRenp6X1d2MVJvNWJrbHNiMm9LOURfSUo2d0FoY3dJT09FckhOM2R2b2RtQjduQzNDRHJvbUhjQkpjOWpsNm9VeTRlUVRqWXpOZkwtM2c2Z3NhT3hKU1pwSFMtSUF2VGFYOWNfRWlRLW9RaXc",
-        "https://news.google.com/rss/articles/CBMigwFBVV95cUxPXy1OUnJPRnFRR1pCZWFEdk9vUmgzN2xsSG50Y0dnR2stOXpFQWxDVlAxX3FBR19XTi1JQ1AzNndjSW9kQjdQbTZkQ0VaWnlfd245bElKaVFWeDhNWk83ak1XNy0xZ2VVWVhiekNfdU1vSmthdWxpY1JZT2t4eGFZN25JSQ",
-        "https://news.google.com/rss/articles/CBMijwFBVV95cUxQM05iLTZkVVVlMzVsTTQ5dWx0VjBHTGtqNWloM293a21uTW11VkRLSG1MTGhtT0Zja3Y2QTlxRGV6SlRCd1pvVGxTXzRYZG5VOVlxU25PMFE2VWNUTjFCeHZHdEtHNWk2VktQdmNOcU5GZ29yZlV3QnFNSWk4SEVOLU1yQTlFVXdaZWpmZFlqNA",
-        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVmY0OHVGSGw0cEdXengwdmhfbzd5REl2NGdYRElpYVhHZ3NNVV9NSlFVdUlCTkJlQy1oa2laSzVUV2h1QWtZSnI3aEJkNEJlZWM0aHZUT25YV05zcnBiT2pLVEZYRVMzNXRuRWM0eUdxU0xlZmFzRFpodjZhZHgtZnhkaEhZNkx0T3hsVVk2NzI3cXY3UEZKZEl0dEdhd2xsYnhMcEo0cHFVSUYtN2ZaWmhQQmVMeVhEZGNUU2VKQ1lzMGfSAcgBQVVfeXFMTW9iM2lwMUxKaWFvMmgzYjB5aXZrVDk4dkJXbnVoby1Mbl91T1dPUG5BQmhGdjJUUHVybl9uTm5XNWpIOU9CVE1mWVMtOGtQVWZ3SmlwYmFtR09SYnFaa0tWNC02dlpkVkNFWGFlT2FncTd5Y2RWSkFSRGhCcmQtbzZfeWJCWU1ueWdJbmN6czNqMzdWekN5VHdzazlnYzEtR1pRUTRhd0RpMnlIeFN6blQtMC1HckhMZXdUX094XzdBSHRZR0NJSks",
-        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQVGU3enh2Sk5GRUJzOFVQTWRSQ1dBVHNRMTRXTldrWlp5MlI1NlRsZmtxSDZiVW16UUREcDJfb0ppMU9ScmJkdzNuZmdGNFhFeENOZHpDc2d2MmxFN3ZrbUgyUW5VOHhWeDdQR2h3Mk5yeU9ZTVp3Szk0aTEzMjcwUHF6dm9ub2N3Mms2VTVOSE13bU1ja01ISlRkRS16VTJoZWpwYzVFRmQ3V3NmZEJxVVk5dDJBbjVTejNiUUtSZVdSTm50VTJReQ",
-        "https://radiomasterlujan.com.ar/la-argentina-y-estados-unidos-firmaron-un-protocolo-para-enviar-el-acuerdo-comercial-al-congreso",
-        "https://www.a24.com/politica/argentina-y-estados-unidos-avanzan-el-acuerdo-comercial-y-preparan-su-envio-al-congreso-n1606429",
-        "https://www.canal26.com/economia/2026/10/14/argentina-y-estados-unidos-avanzan-con-el-acuerdo-comercial-los-detalles-del-protocolo-firmado-por-quirno",
-        "https://www.diariocronica.com.ar/noticias/2026/10/14/172224-argentina-y-estados-unidos-firmaron-un-protocolo-para-enviar-el-acuerdo-comercial-al-congreso",
-        "https://www.elliberal.com.ar/nota/94818/2026/10/acuerdo-comercial-argentina-estados-unidos--firmaron-un-protocolo-clave-y-el-texto-va-al-congreso",
-        "https://www.lanacion.com.ar/politica/en-washington-quirno-firmo-un-protocolo-adicional-para-acelerar-la-aprobacion-del-acuerdo-comercial-nid14102026"
-      ],
-      "mergedIds": [
-        "en-washington-quirno-firmo-un-protocolo-adicional-para-acelerar-la-aprobacion-de",
-        "argentina-y-estados-unidos-firmaron-un-protocolo-para-enviar-el-acuerdo-comercia",
-        "argentina-y-estados-unidos-avanzan-con-el-acuerdo-comercial-los-detalles-del-pro",
-        "argentina-y-estados-unidos-avanzan-con-el-acuerdo-comercial-y-preparan-su-envio",
-        "el-gobierno-avanza-con-el-acuerdo-comercial-con-ee-uu",
-        "acuerdo-comercial-argentina-estados-unidos-firmaron-un-protocolo-clave-y-el-text",
-        "la-argentina-y-estados-unidos-firmaron-un-protocolo-para-enviar-el-acuerdo-comer",
-        "argentina-y-estados-unidos-ponen-en-marcha-el-acuerdo-comercial-y-lo-enviaran-al"
+      "absorbs": [
+        "quirno-anuncio-un-nuevo-paso-en-el-acuerdo-con-estados-unidos-y-destaco-benefici",
+        "la-argentina-y-ee-uu-firmaron-un-protocolo-para-avanzar-con-el-acuerdo-comercial",
+        "argentina-y-ee-uu-modifican-acuerdo-comercial-para-facilitar-su-ratificacion-en",
+        "productos-mas-baratos-que-contempla-el-acuerdo-comercial-con-estados-unidos"
       ]
     },
     {
@@ -2992,82 +3216,6 @@
       "gnUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOTDYxSVNmZnptZGZiUkhKS1BBQWVsUmY3OFpaZjdZSVhfVDcxYVFDV1lCY3lDT3RfYlU3NVVuN2Q2SERLRG93MEJZYnpvVE5KTGZkekZQd1d0dmZMblJiTU15UnEtWndJY0FrX1BQUE4zaDlESnhyNm1CRmx4RGw1M0ZoODZFdVctU3dEcDYzRGlySVJwc2wtSUc2U0lxX0Z2cUI0am8yVHNDWllYb3ZsUXJ6ZlVwaHZ3WmpMWERtbUZVY1V2NFlpWU5HNlVfTzEta1AyaGdBb0FGdw?oc=5"
     },
     {
-      "id": "ee-uu-anuncia-que-impondra-aranceles-de-200-000-dolares-a-cada-buque-espanol-que",
-      "datetime": "2026-10-14T17:18:28Z",
-      "date": "2026-10-14",
-      "firstSeen": "2026-10-14T17:58:05Z",
-      "title": "EE.UU. anuncia que impondrá aranceles de 200.000 dólares a cada buque español que llegue al país",
-      "summary": "La Comisin Martica Federal plantearestringir tambin las importaciones de perfumera, cosmtica y aceites provenientes de Espaa",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Importaciones",
-        "Aranceles",
-        "Transporte marítimo",
-        "Estados Unidos"
-      ],
-      "countries": [
-        "Estados Unidos"
-      ],
-      "tags": [
-        "Aranceles"
-      ],
-      "visual": "ship",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
-      "sources": [
-        {
-          "name": "La Voz de Galicia",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.lavozdegalicia.es/noticia/economia/2026/10/14/eeuu-anuncia-impondra-aranceles-200000-dolares-buque-espanol-llegue-pais/00031791991840882614410.htm",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-14T17:58:05Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOV0l3S3B1MEUtcUJfOEV0SzBhMkxMOUV5YWhKQ2x0TGJFa0hxWWE2dER0YzEwV24zNGhzT0d4V3pLb19SOWhxaVpxX3U1cy1MbFpZa1FPd0NsOUlMSmF6QmZ3YkNIN0V5cEdHSmdGUmRwYVp6Wm43Y3p1clBGb2FsaWdwRjQtWi00Y3N0NkV4NTFhTWN4V2dvZmJnMFI0RmVvM2hkaV9MSTNWMkZ2UDdFTkRxaENDQ3FYYlZyNXdrbWk2LUYtREdWUnlBaDB4Um1pN2FRWmlVRUs3cmNTdHdpOVlWMTQ0REhWclpwdTVQa9IBiwJBVV95cUxOYlRmUmV6NW94YzczSFhDWW9CYVR6aHNBOXMxbWxxYlJrMFhuYWctSldwWm83czRhbUJjbDI3UFFDcVBNR3p4STFJRHVEWUZSbFlFeVNRNWQ5RU9oV0VONWZDTHNfT0lGQjE0ME1jUkw1UndYaDlWVjdGRTFrRlA2MnA0U3N0RWtYYXVGaHNrOGU3dmoxWUEwZ0RNSHNkRHJVRW1XMjFuaTZqYzF4aWVGRmN3bEtwejZ6b3hIN25IOU91VWRudWkzRVhKU05kaW5UQkJ3NEFVNjdET09VUUxNX245eG5PMDF2LXJJSzJjM3hLTkpJZk5WNHJIZFE5NEdTY3VVX092eEZNaWM?oc=5"
-    },
-    {
-      "id": "singapur-confirma-el-hundimiento-de-un-portacontenedores-y-danos-en-otro-en-ormu",
-      "datetime": "2026-10-14T16:39:44Z",
-      "date": "2026-10-14",
-      "firstSeen": "2026-10-14T17:58:05Z",
-      "title": "Singapur confirma el hundimiento de un portacontenedores y daños en otro en Ormuz",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Transporte marítimo",
-        "Asia"
-      ],
-      "countries": [
-        "Singapur"
-      ],
-      "tags": [
-        "Contenedores"
-      ],
-      "visual": "tanker",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Logística y fletes",
-      "sources": [
-        {
-          "name": "Infobae",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.infobae.com/america/agencias/2026/10/14/singapur-confirma-el-hundimiento-de-un-portacontenedores-y-danos-en-otro-en-ormuz/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-14T17:58:05Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdzhyb294Y0xwVmI4WTc0UERFMzE0ZUVzUnJPMWQ0RUFqTGdJZmZ4bEc3c0JsaWVTUXZKU2FVc1JMRy1FdmJBbUpsV3VtM2dJNFhjZGYwQUxZaEkxUXN0bm5vZ2dqLXo0YmEwNkJUdW9KdEZUbmpuNDdhMnRSaVRORUpxZWRfSjY2T1BRM3dzUEg4UVhGVGdzTTdCRDhlQXdxMkJWQ0h4LXRwNjAtcG5yRUFKLUdHZWNNTjhmSFk3eXFpYlI2bDhiemc3clQycnfSAeoBQVVfeXFMTjA2WXhhYmdHRGlMRTRaRDdrTjhIZDBHX2ltbm5SR0ZOaWxjbUxkalJaRXg3N1gxbDk3Q2J5MjA2Vm1URllJV1htanZlTVFiVmwtaGxLQkd4UlZEczBzXzZTSVpJWXBjYVNSbDF4WXJVaHR6TXRFTlBNZjY0SVFwOEpqMk5aYW9aMDg1eW44czdhNG1jQWFBOFhBamRJZ2JoaV9QWks5Skg5am1qSnY3MUVmY0preGJ3QUJTNVFXMlh2Z3BGV0pHT3JWSTlra3pqWE1mX3pXTmROYzBBNGh0TmxtbEotakl5RkZn?oc=5"
-    },
-    {
       "id": "carga-aerea-en-mexico-crece-4-5-de-enero-a-agosto-de-2026",
       "datetime": "2026-10-14T16:35:26Z",
       "date": "2026-10-14",
@@ -3186,6 +3334,101 @@
       ],
       "gnTried": "2026-10-14T21:57:06Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeW5veks0WXlvNm44NWhrZlU5aEVlTHBrSF92QVdGNGs2S2JMalBmRTcwQWJiUm0yenJDc21sSzBOa3pLWS05RlY5N2pRRlNldTktYWhMZlljTXJNWHE3YzJLanZZNmhpRTVZNWFBcU1uakRHakMtd1o0Ql9pM0JXb0lpYy0zZThpZ3ZJVk9GZ0pjVVVpN25VdkZjRmNEY2YwVzkwUnhaUS1jUGRiX2hjYXV3LXNlUUd6akRfUURwUnhVZXBLMUE?oc=5"
+    },
+    {
+      "id": "fmc-eeuu-propone-tasa-200000-dolares-buques-espanoles-restricciones-importaciones",
+      "date": "2026-10-14",
+      "datetime": "2026-10-14T12:40:55-03:00",
+      "kind": "noticia",
+      "title": "EE.UU. propone cobrar USD 200.000 por viaje a los buques con bandera española y restringir importaciones de España",
+      "summary": "La Comisión Marítima Federal (FMC) concluyó que España negó el acceso a sus puertos a buques con bandera estadounidense y abrió a consulta pública una tasa por viaje y limitaciones a perfumería, cosméticos, aceites y grasas, cerámica, artículos de piedra, azúcar y confitería.",
+      "topics": [
+        "Estados Unidos",
+        "Europa",
+        "Transporte marítimo",
+        "Regulaciones",
+        "Geopolítica y comercio"
+      ],
+      "countries": [
+        "Estados Unidos",
+        "España"
+      ],
+      "tags": [
+        "FMC",
+        "Comisión Marítima Federal",
+        "Tasas portuarias",
+        "Aceite de oliva",
+        "Algeciras"
+      ],
+      "visual": "ship",
+      "impact": 2,
+      "affectsArgentina": false,
+      "body": [
+        "La Comisión Marítima Federal de Estados Unidos (FMC) propuso cobrar una tasa de USD 200.000 por viaje a todos los buques con bandera española que operen en el comercio marítimo estadounidense, sin importar la carga, informaron Infobae y Herqles el 14 de octubre. El organismo planteó además restricciones a las importaciones españolas de perfumería y cosmética, aceites y grasas, cerámica, artículos de piedra, azúcar y confitería.",
+        "Según la FMC, su investigación encontró pruebas concluyentes de que España negó el acceso a sus puertos a buques con bandera de EE.UU. El caso se abrió en diciembre de 2024, después de que, en noviembre de ese año, al menos tres buques estadounidenses no fueran admitidos en el puerto de Algeciras; algunos estaban vinculados al Programa de Seguridad Marítima de la Administración Marítima de EE.UU. (MARAD), según Herqles, que relaciona las negativas españolas con cargamentos destinados a Israel.",
+        "Las dos medidas son, por ahora, propuestas: la FMC abrió un período de comentarios públicos y ofrecerá a España una instancia para ser escuchada antes de decidir. Ninguno de los dos medios informa una fecha de cierre de la consulta ni detalla qué productos concretos quedarían alcanzados, cuántos buques o viajes se verían afectados, ni si las restricciones serían prohibiciones, cupos u otras condiciones.",
+        "Ambos medios señalan que la inclusión de los aceites y grasas pone en riesgo potencial al aceite de oliva español, aunque la FMC no lo mencionó en forma específica."
+      ],
+      "keyData": [
+        [
+          "Organismo",
+          "Comisión Marítima Federal de EE.UU. (FMC)"
+        ],
+        [
+          "Tasa propuesta",
+          "USD 200.000 por viaje"
+        ],
+        [
+          "Alcance",
+          "Todos los buques con bandera española en el comercio marítimo con EE.UU."
+        ],
+        [
+          "Importaciones en la mira",
+          "Perfumería y cosmética, aceites y grasas, cerámica, artículos de piedra, azúcar y confitería"
+        ],
+        [
+          "Inicio de la investigación",
+          "Diciembre de 2024"
+        ],
+        [
+          "Estado",
+          "Propuesta en consulta pública"
+        ]
+      ],
+      "explainer": {
+        "what": "La Comisión Marítima Federal de EE.UU. propuso cobrar USD 200.000 por viaje a los buques con bandera española y restringir algunas importaciones de España.",
+        "why": "Es una represalia por la negativa de España a recibir buques con bandera estadounidense en sus puertos; de aplicarse, alcanzaría cada viaje de esos buques a EE.UU. y a varios rubros de exportación españoles.",
+        "who": "Navieras con buques de bandera española que operan con EE.UU. y exportadores españoles de los rubros mencionados.",
+        "products": [
+          "Perfumería y cosmética",
+          "Aceites y grasas",
+          "Cerámica",
+          "Artículos de piedra",
+          "Azúcar y confitería"
+        ],
+        "next": "La FMC abrió un período de comentarios públicos y dará a España la oportunidad de ser escuchada antes de tomar una decisión.",
+        "nextSource": {
+          "name": "Infobae",
+          "url": "https://www.infobae.com/espana/2026/10/14/estados-unidos-propone-un-arancel-de-200000-dolares-por-cada-buque-con-bandera-espana-y-adelanta-restricciones-a-productos/"
+        }
+      },
+      "sources": [
+        {
+          "name": "Infobae",
+          "type": "Medio de comunicación",
+          "url": "https://www.infobae.com/espana/2026/10/14/estados-unidos-propone-un-arancel-de-200000-dolares-por-cada-buque-con-bandera-espana-y-adelanta-restricciones-a-productos/",
+          "primary": true
+        },
+        {
+          "name": "Herqles",
+          "type": "Medio de comunicación · España",
+          "url": "https://herqles.com/2026/10/14/eeuu-propone-tasa-buques-espanoles/"
+        }
+      ],
+      "absorbs": [
+        "ee-uu-anuncia-que-impondra-aranceles-de-200-000-dolares-a-cada-buque-espanol-que",
+        "estados-unidos-plantea-imponer-aranceles-a-buques-espanoles"
+      ]
     },
     {
       "id": "brasil-porto-piaui-e-investe-piaui-buscan-referencias-de-gestion-en-portos-do-pa",
@@ -3399,81 +3642,99 @@
       "gnUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTDZEZE9JTE0tdnZFUjVqMmQzeUp4UjQ5QXd4OW1POUU0RmFJQ0VVSTFWcWwxeXF4TWcxb09EVXNwbERwdHlwVE1lYjlZcjVvYWFXTmNsNzFraWNmMTJXQUFUalNHM2tqVV9Ud082SUV2YVdVTlZMcGs4MkN4WjdwMnFDUnA0WWNpU3MtV2hVbUxrN3ZWbFBKXzdjQkkwdW5CT0ZrTFFPTDV6STA?oc=5"
     },
     {
-      "id": "portacontenedores-se-hunde-cerca-del-estrecho-de-ormuz-tras-ser-alcanzado-por-un",
-      "datetime": "2026-10-14T15:00:23Z",
+      "id": "ormuz-se-hunde-portacontenedores-gfs-pride-singapur",
       "date": "2026-10-14",
-      "firstSeen": "2026-10-14T17:58:05Z",
-      "title": "Portacontenedores se hunde cerca del estrecho de Ormuz tras ser alcanzado por un proyectil",
-      "summary": "El portacontenedores GFS Pride, con bandera de Singapur y capacidad para movilizar 2.824 TEU, se…",
-      "body": [],
-      "keyData": [],
+      "datetime": "2026-10-14T11:44:55-03:00",
+      "kind": "noticia",
+      "title": "Ormuz: se hundió el portacontenedores GFS Pride, con bandera de Singapur, tras ser alcanzado por un proyectil",
+      "summary": "La autoridad marítima de Singapur confirmó el hundimiento; los 21 tripulantes fueron evacuados. Otro portacontenedores del mismo país, el GFS Giselle, sufrió daños en el casco, en una jornada con cuatro ataques informados en el estrecho.",
       "topics": [
+        "Geopolítica y comercio",
         "Transporte marítimo",
+        "Logística",
         "Asia"
       ],
       "countries": [
-        "Singapur"
+        "Irán",
+        "Singapur",
+        "Global"
       ],
       "tags": [
-        "Contenedores"
+        "Estrecho de Ormuz",
+        "Portacontenedores",
+        "Seguridad marítima",
+        "UKMTO",
+        "MPA Singapur"
       ],
-      "visual": "tanker",
-      "impact": 1,
+      "visual": "container",
+      "impact": 3,
       "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
+      "story": "ormuz",
+      "body": [
+        "El portacontenedores GFS Pride, con bandera de Singapur, se hundió en el estrecho de Ormuz después de que un proyectil le provocara daños y un incendio a bordo, confirmó la Autoridad Marítima y Portuaria de Singapur (MPA). Sus 21 tripulantes fueron evacuados sin heridos, según gCaptain y Seatrade Maritime News. Otro buque registrado en Singapur, el GFS Giselle, fue alcanzado y sufrió daños en el casco, pero llegó por sus propios medios a un fondeadero seguro con sus 22 tripulantes a salvo.",
+        "El centro británico de operaciones marítimas UKMTO informó cuatro ataques distintos el 13 de octubre: tres contra portacontenedores y uno contra un buque tanque, todos con proyectiles de origen no identificado. gCaptain aclara que no está claro si esos reportes corresponden a los dos buques de Singapur. Las versiones sobre la causa difieren: la Guardia Revolucionaria iraní afirmó que un portacontenedores chocó con una mina al sur del estrecho y se hundió por el incendio, mientras que la MPA atribuye el hundimiento del GFS Pride a un proyectil.",
+        "Para gCaptain, es el segundo hundimiento confirmado de un gran buque oceánico en el conflicto, después del Safeen Prestige. Singapur condenó los ataques como injustificados y contrarios al derecho internacional. El 11 de octubre ya habían sido alcanzados al menos seis buques, y la lista de la Organización Marítima Internacional (OMI) registra más de 100 incidentes de seguridad marítima confirmados desde el inicio del conflicto, con al menos 24 marinos muertos.",
+        "El tránsito por el estrecho sigue muy por debajo de los niveles previos a la guerra, cuando pasaban entre 130 y 140 buques por día, según gCaptain. El Comando Central de EE.UU. sostuvo que sus fuerzas y socios regionales controlan el paso y que el día anterior ayudaron a mover más de 19 millones de barriles de crudo, mientras que el Centro Conjunto de Información Marítima (JMIC) mantiene en severo el nivel de amenaza."
+      ],
+      "keyData": [
+        [
+          "Buque hundido",
+          "GFS Pride (bandera de Singapur), 21 tripulantes evacuados"
+        ],
+        [
+          "Buque dañado",
+          "GFS Giselle (Singapur), 22 tripulantes a salvo"
+        ],
+        [
+          "Ataques informados por UKMTO el 13 oct",
+          "4 (3 portacontenedores y 1 buque tanque)"
+        ],
+        [
+          "Incidentes desde el inicio del conflicto (OMI)",
+          "Más de 100, con al menos 24 marinos muertos"
+        ],
+        [
+          "Tránsito previo a la guerra",
+          "130 a 140 buques por día"
+        ],
+        [
+          "Nivel de amenaza (JMIC)",
+          "Severo"
+        ]
+      ],
+      "explainer": {
+        "what": "El portacontenedores GFS Pride, con bandera de Singapur, se hundió en el estrecho de Ormuz tras ser alcanzado por un proyectil, y otro buque del mismo país sufrió daños.",
+        "why": "Los ataques ya alcanzan a portacontenedores, no solo a buques tanque, en un paso por el que antes de la guerra transitaban entre 130 y 140 buques por día; eso presiona sobre la seguridad de la navegación comercial en la región.",
+        "who": "Navieras, cargadores y aseguradores con tráfico hacia y desde los puertos del golfo Pérsico.",
+        "products": [
+          "Carga en contenedores",
+          "Petróleo crudo"
+        ],
+        "next": "El Centro Conjunto de Información Marítima (JMIC) mantiene en severo el nivel de amenaza para el estrecho.",
+        "nextSource": {
+          "name": "gCaptain",
+          "url": "https://gcaptain.com/containership-sinks-as-hormuz-attacks-spiral-out-of-control/"
+        }
+      },
       "sources": [
         {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/portacontenedores-se-hunde-cerca-del-estrecho-de-ormuz-tras-ser-alcanzado-por-un-proyectil/",
-          "primary": true,
-          "author": "Luis Alonso"
+          "name": "gCaptain",
+          "type": "Medio especializado",
+          "url": "https://gcaptain.com/containership-sinks-as-hormuz-attacks-spiral-out-of-control/",
+          "author": "Mike Schuler",
+          "primary": true
         },
         {
-          "name": "PortalPortuario",
-          "type": "También publicó esta noticia",
-          "url": "https://portalportuario.cl/buques-con-bandera-de-singapur-son-danados-por-proyectiles-durante-transito-por-el-estrecho-de-ormuz/",
-          "alsoIn": true,
-          "title": "Buques con bandera de Singapur son dañados por proyectiles durante tránsito por el estrecho de Ormuz"
-        },
-        {
-          "name": "MarketScreener España",
-          "type": "También publicó esta noticia",
-          "url": "https://es.marketscreener.com/noticias/un-portacontenedores-y-un-petrolero-alcanzados-por-proyectiles-en-el-estrecho-de-ormuz-seg-n-la-ag-ce785dd2d988f42d",
-          "alsoIn": true,
-          "title": "Un portacontenedores y un petrolero, alcanzados por proyectiles en el estrecho de Ormuz, según la agencia de Operaciones de Comercio Marítimo de Reino Unido"
-        },
-        {
-          "name": "Infobae",
-          "type": "También publicó esta noticia",
-          "url": "https://www.infobae.com/america/mundo/2026/10/14/singapur-confirmo-que-un-portacontenedores-fue-atacado-y-se-hundio-cerca-del-estrecho-de-ormuz/",
-          "alsoIn": true,
-          "title": "Singapur confirmó que un portacontenedores fue atacado y se hundió cerca del estrecho de Ormuz"
-        },
-        {
-          "name": "Radio Agricultura",
-          "type": "También publicó esta noticia",
-          "url": "https://www.radioagricultura.cl/noticias/internacional/singapur-confirma-hundimiento-de-portacontenedores-tras-ataque-en-el-estrecho-de-ormuz_20261014/",
-          "alsoIn": true,
-          "title": "Singapur confirma hundimiento de portacontenedores tras ataque en el estrecho de Ormuz"
+          "name": "Seatrade Maritime News",
+          "type": "Medio especializado",
+          "url": "https://www.seatrade-maritime.com/security/iran-claims-mine-sank-container-ship-amid-fresh-hormuz-attacks",
+          "author": "Gary Howard"
         }
       ],
-      "aliasUrls": [
-        "https://es.marketscreener.com/noticias/un-portacontenedores-y-un-petrolero-alcanzados-por-proyectiles-en-el-estrecho-de-ormuz-seg-n-la-ag-ce785dd2d988f42d",
-        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNcDdmNWR3OG85Mkk3eG5ibkk4cERBLW9QU3NGYlk1ZlVpYW9xRUo5Z3ZiQi1xcHR0ZVdfS2xjekxTN3dOamR4Q0V1OTFVczBqUlk3d29oNE4wZVRDRHVndUdMdVNlNUxUQVVmbnJCamhZUUpfX1BsZW5zTFRTN252djQwdE53RnAwTnZnWTFoeTlONHVhOEx6QVpzSGkySXVpLWVIZVMwcmdObGtFdHVsNThob0ZGWU41N1dWRDBXN0xIWEJvQ1N3SE1LbmpUbDBVUzFlQ21nLTdXQkVR0gH3AUFVX3lxTE5jVldpN3k2MURXaTVCX080SFM0UHY4UlNvNmY2T3ZWLTUybnF4Rk5vbVpISElhMUNpSWNHbWNkZnBtaXNTVjBpSlVOOEdHWTFibm4yLWJNZ25PSE5rS2RxRlVKMnF2dHk2Q3EydjZLWWtvTnItUjBDeEw4YWpfUWtBdkRIR2pDMFE3TDM0Z2U3NXZkbkJpSUJBMVAyWXJVTHVtbmRoVjlPQmpTMmVFTGJqa3VHbFU0TV9TeUxuVnNDRjRpWjFPQXIwTHBXY2ZSVVNQTmU5QVhOd1MzaURSSDBCXzVrY1hyaF94c3JVOW5ISzQ4ZTlGVDQ",
-        "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOaGF5ZWdXWmd0aVVxdGlCbnEzVlRaazlVVlBlVzV0Ukh6bUxfRUpqZXZCX08xM3RCTFdPOC1Ia0ltS2c1WHFKMl9FTk9QMy1Ia2JFRzNOU0UyZGR4eW00akU4SjVsXzFnNmxzNHNwMnhhSElWTTB0eW5oNm5YNTY1STAyaHJLbWFGMl9YbW8xS25aZHZlTWRNSkdEd3M1LXBiM0tEN2Jqbks3aDlDcjRDby00ODc5TG5uNklQV3VHNFRNZGd0VnVNRW1lS3BBY2lUZ1c5cTdLRHltNnkyY2xmLWVPaFBYZw",
-        "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOU0RaVm5paXl1OW16bmxCd0xTZnZ2QV95aE1IbmFmMkNlNnRGU0pIUTNudzBrOTBJS2VQMDBSeF9Idk9US21YM3JHMTU1QjJfa2I3MzdaNVo0MkhUWGdKbjBaTE9NN0hORWhRRUlfSkxBekdCRHpXLTJ5Zjk3UEE3UnQycWFIVnptMzRJYWxrZ1ZLM3dOdVNRekRhWFZLSnpnQjNfb3Q1TF9oTlM1TVlhNlIzVjU4QnhrTmk2YkVrTVI0M0JoV2stcmUzdGxHMXhzRXhBcGhZcS1WcjlLYjN1cWlfWnhHa21fZ1E",
-        "https://portalportuario.cl/buques-con-bandera-de-singapur-son-danados-por-proyectiles-durante-transito-por-el-estrecho-de-ormuz",
-        "https://www.infobae.com/america/mundo/2026/10/14/singapur-confirmo-que-un-portacontenedores-fue-atacado-y-se-hundio-cerca-del-estrecho-de-ormuz",
-        "https://www.radioagricultura.cl/noticias/internacional/singapur-confirma-hundimiento-de-portacontenedores-tras-ataque-en-el-estrecho-de-ormuz_20261014"
-      ],
-      "mergedIds": [
-        "buques-con-bandera-de-singapur-son-danados-por-proyectiles-durante-transito-por",
-        "un-portacontenedores-y-un-petrolero-alcanzados-por-proyectiles-en-el-estrecho-de",
-        "singapur-confirmo-que-un-portacontenedores-fue-atacado-y-se-hundio-cerca-del-est",
-        "singapur-confirma-hundimiento-de-portacontenedores-tras-ataque-en-el-estrecho-de"
+      "absorbs": [
+        "singapur-confirma-el-hundimiento-de-un-portacontenedores-y-danos-en-otro-en-ormu",
+        "portacontenedores-se-hunde-cerca-del-estrecho-de-ormuz-tras-ser-alcanzado-por-un",
+        "el-regimen-de-iran-afirmo-que-un-portacontenedores-se-hundio-en-ormuz-tras-c-2"
       ]
     },
     {
@@ -3510,7 +3771,10 @@
         }
       ],
       "gnTried": "2026-10-14T17:58:05Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeTl2bnBIQTB4c1dHMmpuc3YwTlpyRVQ2RzI1NEpwcmtJSGNyMjRqbWQ0dWxjXzhDakhjN0w1SV96ZG9HSUlCOFlhSl91TjM0cUxOaHdrc0NaWnduZ1pzZFRuZGpyQVpPSjJ0M1BhQkhNUHFuRGVmVHRfOVBwQ0dNbzA0dWZ5anNWY3hxakxBTGJHZWdPUndhd05LX3ZCTVFON1d2ZVNhNkZwdDN5V3ljeDhGQdIBzgFBVV95cUxQWjNVY2FvTUduanBIdnBjMDdEMThBeGx5bEhjelNZMFA0QVdrX1hxM2Y1Z09hWUJfWTdjMGsxczRvY2JQc2wzWG45NHNHd19hV2dITEc2LXUxOTA5dTNhal9VcWNXOEJnMzN1aElMUjdqRjYyT2lsRnRXQzlFY2N3Zkt1aTFhdDAxZi1SSkF5MUxZakdGRDAzRk1ZcjBmTWJXOG94cmxWQ3JINUVBU2FORVpHcWNzekNTUFZWQ25rN2Uwb2hvel9feHpmN2tPQQ?oc=5"
+      "gnUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeTl2bnBIQTB4c1dHMmpuc3YwTlpyRVQ2RzI1NEpwcmtJSGNyMjRqbWQ0dWxjXzhDakhjN0w1SV96ZG9HSUlCOFlhSl91TjM0cUxOaHdrc0NaWnduZ1pzZFRuZGpyQVpPSjJ0M1BhQkhNUHFuRGVmVHRfOVBwQ0dNbzA0dWZ5anNWY3hxakxBTGJHZWdPUndhd05LX3ZCTVFON1d2ZVNhNkZwdDN5V3ljeDhGQdIBzgFBVV95cUxQWjNVY2FvTUduanBIdnBjMDdEMThBeGx5bEhjelNZMFA0QVdrX1hxM2Y1Z09hWUJfWTdjMGsxczRvY2JQc2wzWG45NHNHd19hV2dITEc2LXUxOTA5dTNhal9VcWNXOEJnMzN1aElMUjdqRjYyT2lsRnRXQzlFY2N3Zkt1aTFhdDAxZi1SSkF5MUxZakdGRDAzRk1ZcjBmTWJXOG94cmxWQ3JINUVBU2FORVpHcWNzekNTUFZWQ25rN2Uwb2hvel9feHpmN2tPQQ?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMizgFBVV95cUxQWjNVY2FvTUduanBIdnBjMDdEMThBeGx5bEhjelNZMFA0QVdrX1hxM2Y1Z09hWUJfWTdjMGsxczRvY2JQc2wzWG45NHNHd19hV2dITEc2LXUxOTA5dTNhal9VcWNXOEJnMzN1aElMUjdqRjYyT2lsRnRXQzlFY2N3Zkt1aTFhdDAxZi1SSkF5MUxZakdGRDAzRk1ZcjBmTWJXOG94cmxWQ3JINUVBU2FORVpHcWNzekNTUFZWQ25rN2Uwb2hvel9feHpmN2tPQdIBzgFBVV95cUxQWjNVY2FvTUduanBIdnBjMDdEMThBeGx5bEhjelNZMFA0QVdrX1hxM2Y1Z09hWUJfWTdjMGsxczRvY2JQc2wzWG45NHNHd19hV2dITEc2LXUxOTA5dTNhal9VcWNXOEJnMzN1aElMUjdqRjYyT2lsRnRXQzlFY2N3Zkt1aTFhdDAxZi1SSkF5MUxZakdGRDAzRk1ZcjBmTWJXOG94cmxWQ3JINUVBU2FORVpHcWNzekNTUFZWQ25rN2Uwb2hvel9feHpmN2tPQQ"
+      ]
     },
     {
       "id": "el-record-en-los-fletes-de-los-petroleros-presiona-a-las-refinerias-asiaticas-se",
@@ -3761,106 +4025,6 @@
           "primary": true,
           "author": "Luis Alonso"
         }
-      ]
-    },
-    {
-      "id": "el-regimen-de-iran-afirmo-que-un-portacontenedores-se-hundio-en-ormuz-tras-c-2",
-      "datetime": "2026-10-14T12:49:20Z",
-      "date": "2026-10-14",
-      "firstSeen": "2026-10-14T14:00:44Z",
-      "title": "El régimen de Irán afirmó que un portacontenedores se hundió en Ormuz tras chocar con una mina",
-      "summary": "Según la Guardia Revolucionaria, el buque se hundió “en aguas del sur del estrecho debido a la intensidad del incendio”",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Transporte marítimo"
-      ],
-      "countries": [
-        "Irán"
-      ],
-      "tags": [
-        "Contenedores"
-      ],
-      "visual": "tanker",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Logística y fletes",
-      "sources": [
-        {
-          "name": "Infobae",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.infobae.com/america/mundo/2026/10/14/el-regimen-de-iran-afirmo-que-un-portacontenedores-se-hundio-en-ormuz-tras-chocar-con-una-mina/",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "Flipr.news",
-          "type": "También publicó esta noticia",
-          "url": "https://flipr.com.ar/nacionales/ultimo-momento/infobae/el-regimen-de-iran-afirmo-que-un-portacontenedores-se-hundio-en-ormuz-tras-chocar-con-una-mina/",
-          "alsoIn": true,
-          "title": "El régimen de Irán afirmó que un portacontenedores se hundió en Ormuz tras chocar con una mina"
-        },
-        {
-          "name": "Infobae",
-          "type": "También publicó esta noticia",
-          "url": "https://www.infobae.com/america/agencias/2026/10/14/iran-afirma-que-un-portacontenedores-se-hundio-en-ormuz-tras-chocar-con-una-mina/",
-          "alsoIn": true,
-          "title": "Irán afirma que un portacontenedores se hundió en Ormuz tras chocar con una mina"
-        },
-        {
-          "name": "Comex Online",
-          "type": "También publicó esta noticia",
-          "url": "https://comexonline.com.ar/noticias/val/63736/un-portacontenedores-se-incendio-y-hundio-tras-recibir-el-impacto-de-un-proyectil-en-el-estrecho-de-ormuz.html",
-          "alsoIn": true,
-          "title": "Un portacontenedores se incendió y hundió tras recibir el impacto de un proyectil en el estrecho de Ormuz"
-        },
-        {
-          "name": "Vietnam.vn",
-          "type": "También publicó esta noticia",
-          "url": "https://www.vietnam.vn/es/tau-container-chim-do-trung-thuy-loi-o-eo-bien-hormuz",
-          "alsoIn": true,
-          "title": "Un buque portacontenedores se hunde tras chocar con una mina en el estrecho de Ormuz."
-        },
-        {
-          "name": "Vietnam.vn",
-          "type": "También publicó esta noticia",
-          "url": "https://www.vietnam.vn/es/iran-lan-dau-xac-nhan-tau-container-chim-do-trung-thuy-loi",
-          "alsoIn": true,
-          "title": "Irán ha confirmado por primera vez que el buque portacontenedores se hundió tras chocar con una mina."
-        },
-        {
-          "name": "El Periódico",
-          "type": "También publicó esta noticia",
-          "url": "https://www.elperiodico.com/es/videos/internacional/portacontenedores-hunde-estrecho-ormuz-plena/135358867.shtml",
-          "alsoIn": true,
-          "title": "Un portacontenedores se hunde en el estrecho de Ormuz en plena escalada de ataques a buques de carga"
-        }
-      ],
-      "gnTried": "2026-10-14T14:00:44Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNEY2bTVDdE93eUtZYlJxZVI0S3pxUHhDTEtpS1BzcFpyc0U2bnhLcENyZFdCZDNzaG01YWJkaDJjQ0dDeW5COGhxZm91eWsxMDZfeXk2Z2JRZHdZUVNsd3NXTkg0SHZpWHVlYTZuaHZRRE9IbUVhcWpURmZWX0ZyTXFOWmtXUEdXdVBSOFJmY3NDbkxFcnJmNllNdkRaRVYwdWJLdERVSUY1cEs5ZHJzLXg0azkwOTB1UGlOUW1vOFRtRXB1WTNMTkM1WG1uTVV0aW4zWDJNZThWR1lU0gH3AUFVX3lxTE9nci03RnRqZjNJYnJXT0pETmpnME5FVF9lX1BQU3lkcjdXcVJOZWJYTjlLQ2hJbF9POU45LXRfejYwd0tTell2LVZ2c3NMbTRZSy1vdUs5SkVQdXlpWEUwZzBQMXdaYXlJZktLdUl5Wi03aWpzWk44bF9OUUZYNUhqYUVIWmhsdGRPYjl5U2lxY2gzeFhxZkFDZ015SWpXcEJIeG52TVRubnJ4VWxPWnpKRGs5YWxvR2tzZGVVOU1haUstU1VPZVlSWTZkREhEa3kwWi14eUN6S2dTRE94UG1TT0Z5NU5rdzV0RWI2U1c5SWJiYmhhckU?oc=5",
-      "aliasUrls": [
-        "https://comexonline.com.ar/noticias/val/63736/un-portacontenedores-se-incendio-y-hundio-tras-recibir-el-impacto-de-un-proyectil-en-el-estrecho-de-ormuz.html",
-        "https://flipr.com.ar/nacionales/ultimo-momento/infobae/el-regimen-de-iran-afirmo-que-un-portacontenedores-se-hundio-en-ormuz-tras-chocar-con-una-mina",
-        "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPalZ1d0laV3lhUGJnRW8xYTVjZTNoVlpyaDR3QlZ3VURPc1dzWktnOGU2bjZraldlMlpKZm9vb2tGdGx5MkVIbEFkLTdTenV0bm5ZM09nQlAtYnkwandKWU56LUxOT1dvV3JwS2dLWG02c05ydUwwNzN3UVFGaEZXRnk5cVZVVHFqUW5qdC1fRkpWSmplWHNDQ0llWV9ubFFnSlhpTTViVlZNTHRLYkU5eVJJa3ZLVkxvMUItaU1JT0poZUUybktUU29EUzBrZDFubjI1N0c0dmZGV0NqVUl2OVdGOGM",
-        "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNOXJFcUkwekJ5eGNEOXZyTHQ1aFZ1d1hhRDJ4SzZSdE5QOFhFNTRoeWY1VGtGcTJCNFJyVEgxdnlQTEVtdFV1eWtNR05OdXlyQmlLalZVZEY0cTRoRXhabm1uVmprZE5lV2tDaHdlOWVob19RN3JET1gwRGw5Nldya0JuV1hrcGUzanlUUVlOMlFobzRhZFg5LTdlYWtQcXpIcHJVb3hIRUZrOEFPNmZsbHkxbUlSd0VlX1BLMDJLY2dhZ0hGaWNKRVd2NHhUMGhrRHV2TWtkZFNqWmhUYWgxZU9JanB0TUZEWEVHNQ",
-        "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbTVicUxKanJHRi1OOXZER0FYOFFkbWdYNVdXQ0tKNlJrUDI0WTBZWkUxOXpzOU5OWHlnSGF5NGRTTkpMR3BOZW55ZWNRbXBfbmdTOEpSUDVSaktxd3ExV1B5TnhTODFFSzEtTktOZWl1amU4N2ZfVFFHakRab0dhSVlDLV81QQ",
-        "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMnZsYS15azdqR3ZCT21VZkZCanZHbXdRaWU5elZPcm9lQ09Qc1Y2TmZaT1d0dHAxS3B4M0hxN3JPV0hpTFRKTHZRdWpVVjh6UklmaTk2eUZCYmQwS3RqdDRzREhtU2FLOUNpU3V3blY5UlA3SkU4TjhvNDFlSkVkTmU5LWx1a1Q1a09SWA",
-        "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWWVDc2JZX0M3dVl6ak1ObWZHbmM5UGdSeE1WaG4ySG1xR1VDM1hCOUxjRllCLWd4a1RBWktwOUtacVlHOElYRlNrOEFkRnVZeVpXdTN5ZWFGaThaNENjQ0doNnVWSEYzU0F6al92N1dBV3k0UV94WHJCTW5lVlN4LV9yaHVpQWhxUTBvSndZMDNWY2J2M3YyY09EeGd0dHIzNVl3TkdNVHluaGNxSTFXVnRB0gGyAUFVX3lxTE5aOGR5UlFNQW16RWRienp5bFJualRwS2dmaS0wLVVaTjhYS05Jc1pwRXVuZEc5dDZ2d0FFTk1WcDFieVdpbllUblVwVENRaGlXYzZFdmN6VEtIVWZpakUxNHB1RWZKUUFMWURHZlo5WUhYYWpDeHZMUW5LbmVEYlk3VlVzUzNiSW9LVzNGMndjbDluQVpLbUdVS29aN0o3bERqd0wzaElWYzNyV2I2ZFBqaGc",
-        "https://news.google.com/rss/articles/CBMizgFBVV95cUxPLW8yUi1NSGxJMHk5SE0xSUZCYXR5QV8yQV9HQ0pMdjhzOTRTYVBQTEZzRGNTci1hUVE0ZTJkWlUweUxTeGN6bFo4ZFl3TFk0YmphXzVCU2ZFVlc4X2RfUkpXRlE3d2JsLV9OSWxhX21xREpBSkUwT09KS1l5UXpSLVZmZE9wOXB4MzRlWTdlcEsyNWZkb3FjWllVa0JFZHdyS2xzLWl0N1BTN1dobGp0MzJwY3B3RnFBNjVWd21adjBIWko0MnF4VS1XMTBId9IB6AFBVV95cUxONEhuMW1FZkxhcXY2U0NHNzAtc1hMR2QyWHZLR2IyRWtfSDBfQzg5UFRlVnpvZE8yeGhUTkNPSkRNdVFndXZPeFY1bU1JWVQwVHlOdG1xNXZXSm94TVRLR2J4VzJESUJEdkxiTHhQdzZFSnNaNkpvY2Vuc0dwcTFIenFOT1ZIcllvMHdSUFdhVndyQ21UcjB2SFhpWDRRYkZSUzdtOG9EVWpCNzR1bzNYRDBQZXRJSndTVk54OEwtTUc5ZDBXRlBfOUd3dXh3U2RSYTByZ0tOTFlOc0hCMFlqRlFOcTFEM2pw",
-        "https://www.elperiodico.com/es/videos/internacional/portacontenedores-hunde-estrecho-ormuz-plena/135358867.shtml",
-        "https://www.infobae.com/america/agencias/2026/10/14/iran-afirma-que-un-portacontenedores-se-hundio-en-ormuz-tras-chocar-con-una-mina",
-        "https://www.vietnam.vn/es/iran-lan-dau-xac-nhan-tau-container-chim-do-trung-thuy-loi",
-        "https://www.vietnam.vn/es/tau-container-chim-do-trung-thuy-loi-o-eo-bien-hormuz"
-      ],
-      "mergedIds": [
-        "el-regimen-de-iran-afirmo-que-un-portacontenedores-se-hundio-en-ormuz-tras-choca",
-        "iran-afirma-que-un-portacontenedores-se-hundio-en-ormuz-tras-chocar-con-una-mina",
-        "un-portacontenedores-se-incendio-y-hundio-tras-recibir-el-impacto-de-un-proyecti",
-        "un-buque-portacontenedores-se-hunde-tras-chocar-con-una-mina-en-el-estrecho-de-o",
-        "iran-ha-confirmado-por-primera-vez-que-el-buque-portacontenedores-se-hundio-tras",
-        "un-portacontenedores-se-hunde-en-el-estrecho-de-ormuz-en-plena-escalada-de-ataqu"
       ]
     },
     {
@@ -4491,15 +4655,24 @@
           "url": "https://www.agrositio.com.ar/noticia/248833-sial-paris-2026-los-exportadores-argentinos-llegan-con-grandes-expectativas-ante-las-nuevas-reglas-del-mercado-europeo.html",
           "alsoIn": true,
           "title": "SIAL París 2026: los exportadores argentinos llegan con grandes expectativas ante las nuevas reglas del mercado europeo"
+        },
+        {
+          "name": "Noticias AgroPecuarias",
+          "type": "También publicó esta noticia",
+          "url": "https://www.noticiasagropecuarias.com/2026/10/15/sial-paris-2026-los-exportadores-argentinos-llegan-con-grandes-expectativas-ante-las-nuevas-reglas-del-mercado-europeo/",
+          "alsoIn": true,
+          "title": "SIAL París 2026: los exportadores argentinos llegan con grandes expectativas ante las nuevas reglas del mercado europeo"
         }
       ],
       "gnTried": "2026-10-14T09:59:32Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNNTVabWIzNy1PTk9iMzhGWC1Bd1FaYnB1dlRnNTNhUVBrNF9YWldVTWlTQWdjcHRDRGxQY215R1c1bUFmNV9jZnN3MDFKWGQtQ1dZUE4weDZaQkYtOXpmV1FNQkdlU053Vi1vamFDZjBBaTFoVC1kd3J1V2xmcUxGQ1N1bzVNVzIxVF9mdVNfVUxjQ01nZ3cxZjVBdkJDNFlIT1VSakQwQTIxWHh5d2I1bXE4WGRZa2ZnTXZBQUo3aGhWb0R2bldkUDZwR3FGVkxYa0YxVHNBYjFlamV4cHFNcXU3RQ?oc=5",
       "aliasUrls": [
         "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOVFNnMXZwZ3R4aksxOWkyc2VZVEYwT0ZzeU80eXN4TUdKNnhVNktkU1hFcDJTYTFJX2hRQXZ5M3RKWnVLaGFxZWlYY0EtTl9pQndIZ0ZqOXR5R3hFaWIyUWZKM1hvYS1BMnZFalY5RURqVHQzSFgtalQwWUY5RkFXRnItTUQzNzlWd0UyM3Z0ZnhSVmkzVGMxY0REczNLZGp2SnNBanJrUUJmRDl0ZTl0dFk1ZkNhQkQ5MU0zazdyTFZibmg4bmpqVEJTMm1Yd2syTll5TmhpZ1NWeXp5S05iTVhzODNoNGdHZ1JHeFQ2U0lGdEdhak12amZWNA",
+        "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNRXVjVUV6SmNJbzRsVVhncXhiWlNuLUhxLXJrbHlMeUpzR3ozVTF4S1Zsd09waTdqWi1md3Fjamh6UmE1clNHV0ZacjJuZEFmSUdqUXVYZkxSRHhFQjZNREhGUDJ0cmJFeUV6ODFndnBTc2lxcWdkb18zTDlJYnRlc25CeUl4OXBtRFBYS2pGZUh0el9lVy1jbWw1UEZzS00wWXdkZ2c4ejUzbi1qZUU2alc4Y0tvbVNoM1ZIVXdIZE1rVS10TG53ajRuN2xneEl4ZjFUcS02YW5vSGFyTzU5RjJ5S0c1dTJMbHpYSTBvUEVHR2FveFVzclhyRk0",
         "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYlhGVXYtMHZWUmlxeWxKTzJSbXUwRGx5VGQ4QWJobE5Hb0ZadzFBQmVRU3JsSlM1NVhIMFNwU3JMUW5nSHZMTjhpVnU2cGhKRkhlYVk3WWxmVHRXTGFjVUR2elB3TFhMY0ROSTB5c0FMa0ZyTDVWRExmb0xuRnZOdk5aMzlsNlRKbFhxZVFSVnhweVFkYk5ibnNBWVRRNUNPX280SjlSWXdkeDJsSExUdnJTYjFtajJhME9FWXRB",
         "https://www.agrositio.com.ar/noticia/248833-sial-paris-2026-los-exportadores-argentinos-llegan-con-grandes-expectativas-ante-las-nuevas-reglas-del-mercado-europeo.html",
-        "https://www.canal12misiones.com/noticias-de-misiones/economia/sial-paris-2026-misiones-busca-fortalecer-sus-exportaciones"
+        "https://www.canal12misiones.com/noticias-de-misiones/economia/sial-paris-2026-misiones-busca-fortalecer-sus-exportaciones",
+        "https://www.noticiasagropecuarias.com/2026/10/15/sial-paris-2026-los-exportadores-argentinos-llegan-con-grandes-expectativas-ante-las-nuevas-reglas-del-mercado-europeo"
       ],
       "mergedIds": [
         "sial-paris-2026-misiones-busca-fortalecer-sus-exportaciones-ante-las-nuevas-regl",
@@ -4516,11 +4689,13 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Importaciones",
         "Exportaciones",
-        "Economía internacional"
+        "Economía internacional",
+        "Latinoamérica"
       ],
       "countries": [
-        "Argentina"
+        "Paraguay"
       ],
       "tags": [],
       "visual": "customs",
@@ -5670,6 +5845,42 @@
       ]
     },
     {
+      "id": "gobierno-inaugura-plataforma-con-datos-de-exportaciones-de-petroleo-y-gas",
+      "datetime": "2026-10-13T21:08:00Z",
+      "date": "2026-10-13",
+      "firstSeen": "2026-10-15T14:06:27Z",
+      "title": "Gobierno inaugura plataforma con datos de exportaciones de petróleo y gas",
+      "summary": "Energía publicó nuevos tableros diarios de exportación en medio de un superávit récord e impulsado por récords de envíos de crudo en Vaca Muerta",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Energía"
+      ],
+      "visual": "tanker",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "iProfesional",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.iprofesional.com/energia/466497-inauguran-plataforma-publica-con-datos-diarios-de-exportaciones-de-petroleo-y-gas",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-15T14:06:27Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQR1NEN0ZpTG9MRllqSHBlWnZMcGdXQlZ1RlRDVkpJeWVJaEJxbjJEVkxLLUdDOWRwVXpBbXZNTkxHZTZyT29tYm5DNTZKQ0lDM1p6bjI2anJxbEs4MU5vbnhaSkJYbGJiS1pTYnNhWEI5azhCd2lVdlpmeGlIaHFUVXVIdmZ0VFNDLVA1VUk1VnhQZF9XSHptak9hY0g5bFA3UGFtaU1uMmZSM1llQzNlNzgzTW1ndzM5bW5BMy1vMkpycWo3STRWQtIByAFBVV95cUxQR1NEN0ZpTG9MRllqSHBlWnZMcGdXQlZ1RlRDVkpJeWVJaEJxbjJEVkxLLUdDOWRwVXpBbXZNTkxHZTZyT29tYm5DNTZKQ0lDM1p6bjI2anJxbEs4MU5vbnhaSkJYbGJiS1pTYnNhWEI5azhCd2lVdlpmeGlIaHFUVXVIdmZ0VFNDLVA1VUk1VnhQZF9XSHptak9hY0g5bFA3UGFtaU1uMmZSM1llQzNlNzgzTW1ndzM5bW5BMy1vMkpycWo3STRWQg?oc=5"
+    },
+    {
       "id": "carne-porcina-las-importaciones-ya-igualaron-todo-2025",
       "datetime": "2026-10-13T21:00:00Z",
       "date": "2026-10-13",
@@ -5988,6 +6199,40 @@
       ],
       "gnTried": "2026-10-13T21:54:49Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWFRkOUlQV3JxLWQ4amRndXNzOGNnbndqV2JrVjEyeERqYnJtRHNpLVVBTjcxNy1aSVB0ZWZRUTNaWU1vQzV0NDBqVmR4RE5LNHVOR2F3blZYS09jNl94LUstZjN4RnNVdlR0M3NpRmd4WDM5eTRlaVpLa1V0RXlNSFVTVVg1X180b2R3NU9nQ0FLamtGd21DOTFtNGZ0el96cHB6SE03QnFPZERMOEdUdktwNjdWcEVxX2lVUll5dGtFMkZzMlE1ZDk2bWpHaENmT1HSAewBQVVfeXFMUFd1RWRobktSbDFLYWZ5bXRsamxsb21vUWVfWHl1clUzVXVXa0NobWtoUmg5ZjlCa3Jjc2JIYTBqa3AxMnlFVE95YlN6TDBkeGIyWHFlaFh3SFRvQ1RXLVFvX2M1bnlTeDQ2WWd4MG4zNFRqbElrdm5lcWlzZmdIbVBPRzhQNGFKZDFQWGNtOThfdEMzY3RWdXNwN2FLZHlBYnE4a2ZZOUtlSFo1RnpwY0VtSF9VVl9GN2JBVHhkel80aVBucC1pWTI1dFc3Qm1XWjNGR3FMOC1xT2RDUHgxcXdQeE1naHFMc3RWR2U?oc=5"
+    },
+    {
+      "id": "semana-comex-2026-agradecimientos-fotos-y-material",
+      "datetime": "2026-10-13T17:49:03Z",
+      "date": "2026-10-13",
+      "firstSeen": "2026-10-15T14:06:27Z",
+      "title": "SEMANA COMEX 2026 – AGRADECIMIENTOS, FOTOS Y MATERIAL",
+      "summary": "A todos SIMPLEMENTE GRACIAS!!!!. Acaba de finalizar la 14º Semana Comex y gracias a todos, nuevamente fue un éxito!. Queremos agradecer muy especialmente a: Los sponsors privados que hicieron posible que esta edición sea posible. A los speakers que participaron en cada uno de los 25 paneles que tuvimos en estos 3…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "Cámara de Comercio Exterior de Santa Fe",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://comercioexterior.org.ar/semana-comex-2026-agradecimientos-fotos-y-material/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-15T14:06:27Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQy04N3JZelZrQUxYRlg2bDZXZ1FSQXM4M1JLTWxEYXRmdE9PblRLUE1rNGNhSm5TbXdfYTRoc295Ujh3eEJ6emV2TFdQaEUyZjFoYzBBMzE0UzFIR2JQQmVGcUxmczRUX29pQnhNc0pjb2RRY2dLR3JYV3NCV21OVDJxZEx0MXFranln?oc=5"
     },
     {
       "id": "argentina-celebra-los-primeros-resultados-del-pacto-ue-mercosur",
@@ -6509,42 +6754,6 @@
       ]
     },
     {
-      "id": "emirates-skycargo-aumento-sus-frecuencias-de-carga-aerea-en-argentina",
-      "datetime": "2026-10-13T14:54:00Z",
-      "date": "2026-10-13",
-      "firstSeen": "2026-10-15T01:56:33Z",
-      "title": "Emirates SkyCargo aumentó sus frecuencias de carga aérea en Argentina",
-      "summary": "Las exportaciones locales aumentaron un 57% durante la primera mitad del año fiscal.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Transporte aéreo"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "plane",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Comercio exterior Argentina",
-      "sources": [
-        {
-          "name": "Somos Pymes",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.somospymes.com.ar/comercio-exterior/emirates-skycargo-aumento-sus-frecuencias-carga-aerea-argentina-n5404605",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-15T01:56:33Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNQnJnb1lhb0xIU2VmNTVJdW5wWm1CV1dJbGlySUFZX0dsclJ4cmd4UzhrbGZBTXpwUFYwSUxDbGo4alN0SjVmWGZFbXlyQUhSVUk1dnpWY0I1emZKaHRWeE9MZzZzNlZBTkp4anhRQzNGSEZtUl9HV1B6c2NmR2hXUGVLZ2FUZm90OExGeVFjRWFJWDNkNmJzaFVPaV9OUmxLeE96NzB5d3ZveEhReDZWbzBRV0R0a05LcnlhZ2VleURJUdIBwgFBVV95cUxNQnJnb1lhb0xIU2VmNTVJdW5wWm1CV1dJbGlySUFZX0dsclJ4cmd4UzhrbGZBTXpwUFYwSUxDbGo4alN0SjVmWGZFbXlyQUhSVUk1dnpWY0I1emZKaHRWeE9MZzZzNlZBTkp4anhRQzNGSEZtUl9HV1B6c2NmR2hXUGVLZ2FUZm90OExGeVFjRWFJWDNkNmJzaFVPaV9OUmxLeE96NzB5d3ZveEhReDZWbzBRV0R0a05LcnlhZ2VleURJUQ?oc=5"
-    },
-    {
       "id": "epi-y-zofri-s-a-sellan-alianza-para-integracion-logistica-en-iquique",
       "datetime": "2026-10-13T14:45:20Z",
       "date": "2026-10-13",
@@ -6649,6 +6858,43 @@
           "primary": true,
           "author": "Gabriel"
         }
+      ]
+    },
+    {
+      "id": "aduana-va-contra-productos-ilegales-en-mercado-libre-y-redes-sociales",
+      "datetime": "2026-10-13T14:13:00Z",
+      "date": "2026-10-13",
+      "firstSeen": "2026-10-15T14:06:27Z",
+      "title": "Aduana va contra productos ilegales en Mercado Libre y redes sociales",
+      "summary": "El organismo trabaja con Meta para dar de baja publicaciones de mercadería de contrabando y busca sumar a Mercado Libre. Además, prepara un plan de modernización con inteligencia artificial financiado por el BID.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aduanas"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 2,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "Diario Mendoza",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.diariomendoza.com.ar/sociedad/aduana-va-productos-ilegales-mercado-libre-redes-sociales-n181421",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-15T14:06:27Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMmdmNk5JSHhlVXdSWWJoZzV3Z2tmVHZPc1pyeXgyN1lld0YtOVB0cUp4NnB2UmNrdldwTkN1ZzZkNGgyNXpVLTRiX0poUGlBcW4xazl3dm5TU2NkNWRoQ2NteDItZFQzSGo3Qkt6RXhGOWFfVEJ1bVI2SHBfcmNadDJKWnMxNFNnaUl4MU5KZm1ydksyc2R5bmEzbUU1dFo0cDZQQTNKQWhiekJpaTlBQtIBsAFBVV95cUxNMmdmNk5JSHhlVXdSWWJoZzV3Z2tmVHZPc1pyeXgyN1lld0YtOVB0cUp4NnB2UmNrdldwTkN1ZzZkNGgyNXpVLTRiX0poUGlBcW4xazl3dm5TU2NkNWRoQ2NteDItZFQzSGo3Qkt6RXhGOWFfVEJ1bVI2SHBfcmNadDJKWnMxNFNnaUl4MU5KZm1ydksyc2R5bmEzbUU1dFo0cDZQQTNKQWhiekJpaTlBQg?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMkJ4OW1DdTdOdC1oa3NSSnVKdER0cVREc3lEeVN3WGMwUHZuTlBEVHloVzJ6VHNabi1HMHpQX3ZlM0tkR0hKMU85Z2dMU0pmOThBNm51My1maHFhR1V2Y2wtRVpkTFg1dFpmb0xQZUxXa1BDVWlrbDVoRmIwU3Jud1pmVmJpcGNpdDAzSnZYWkZGVkE1UU9EUUZBa29YdERfdVFJTnBJMFRRYTjSAbABQVVfeXFMTTJnZjZOSUh4ZVV3UlliaGc1d2drZlR2T3Nacnl4MjdZZXdGLTlQdHFKeDZwdlJja3ZXcE5DdWc2ZDRoMjV6VS00Yl9KaFBpQXFuMWs5d3ZuU1NjZDVkaENjbXgyLWRUM0hqN0JLekV4RjlhX1RCdW1SNkhwX3JjWnQySlpzMTRTZ2lJeDFOSmZtcnZLMnNkeW5hM21FNXRaNHA2UEEzSkFoYnpCaWk5QUI"
       ]
     },
     {
@@ -7234,16 +7480,36 @@
           "url": "https://www.bnamericas.com/es/noticias/acuerdo-mercosurunion-europea-impulsa-exportaciones-brasilenas",
           "alsoIn": true,
           "title": "Acuerdo Mercosur–Unión Europea impulsa exportaciones brasileñas"
+        },
+        {
+          "name": "Prensa Mercosur",
+          "type": "También publicó esta noticia",
+          "url": "https://prensamercosur.org/2026/10/14/brasil-exportaciones-a-la-union-europea-crecen-un-307-tras-el-inicio-de-la-aplicacion-del-acuerdo-con-el-mercosur/",
+          "alsoIn": true,
+          "title": "Brasil: Exportaciones a la Unión Europea crecen un 30,7 % tras el inicio de la aplicación del acuerdo con el Mercosur"
+        },
+        {
+          "name": "ANSA Latina",
+          "type": "También publicó esta noticia",
+          "url": "https://www.ansalatina.com/americalatina/noticia/latinoamerica/2026/10/14/mercosur-ue-las-exportaciones-brasilenas-crecen-el-30-desde-mayo_b3a4a5af-d927-4bd5-88a0-6c8e70db507d.html",
+          "alsoIn": true,
+          "title": "Mercosur-UE, las exportaciones brasileñas crecen el 30% desde mayo"
         }
       ],
       "gnTried": "2026-10-13T13:50:51Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQOEVQSWxvZ1FEc3A2cHQ1TWhEbGwzMVRiSlE1T0VnZWprLWFMalZ6VWpmYU1XTXRRbzRzT1BDU0VQampWYVV3eHlVMy1nTm1GenlYVVE3cXhrLTlJTWREQkJkZGRYd0hSUlhWTnF1VzlJTVFSRnBIWEtRZk4wVDM4VExIY3pzMnl5b3k1b1B6d0tLaE8tWUFOU3UtX1ZSakFlM0YyMmJtR254aXNxZWI2ZlpwTkJCcEY1V19sVXdXb19vNmVLc0k5YUVyWTY5NWgyTFJNTGJiREZ4eVdCdDEzWkFzc24wUUtXS1A4ZFpvbkVDNUdubmdhSkZUZE5vQUY2bGQxSV9pWnhpMDlaVXc?oc=5",
       "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi5wFBVV95cUxORG1yczBPSjY4NXU3WTBWUkNaOFY3SWFmS056YXIzZ3Q3Q2RNM2E0TVNHNWhUS0RTWG1wMFAyaDIwSDYtZTdJVVJVVWEzM09hcFJHOXRrbHktWVJIb2xIZ2ZvTGpCZ0RwNkRWOVdCSHFlX3hYRDhGSmplY1VMeTFkQ29taFZJbVJNbzFiY3FpaWhuR0JhbU9kTi1JdFIyUUs5YkJyWHhOLXBqRmhhWm5YWk9obGpZMHBWUVFNZHJNOGRiTFB1bUhEY00zTDk5dEJhOHBiOWtuZlc3Unc3cmFLN2pxbDJQWms",
+        "https://news.google.com/rss/articles/CBMikgJBVV95cUxOa3phNngzbXFzRjl5bXRUdTdCemhKTjhwTHBHNllfelJkczhtbkt2QzhYVFdzb3F0R1k1TnYxQ05xNFVlbnI0OHZObjczWjZkWmFOVWRLdWhWNFNMTUhia0JSSUdLZXVSdHZlNXNGWkYtOXQzb09UaW51OGJvMWFWSnB0Q2daaE9VM1lwV2RLdzcyNFNTci1XT1Q3SGY5QTF6NEJ6NlVOUEctbUFPWUpPUjZKY3haWHpDV29xNURfN3NHTGNBM3R5R1N2RjJYMGdkcURCLXBMcXdhZldkMzhETFpkenkwNHJUSFQ5NC1zSE5vNDdGb3FxNGs4V3Z1eGFCWlZNUXlBYTV6YWpzeGdwSjFn0gGSAkFVX3lxTE5remE2eDNtcXNGOXltdFR1N0J6aEpOOHBMcEc2WV96UmRzOG1uS3ZDOFhUV3NvcXRHWTVOdjFDTnE0VWVucjQ4dk5uNzNaNmRaYU5VZEt1aFY0U0xNSGJrQlJJR0tldVJ0dmU1c0ZaRi05dDNvT1RpbnU4Ym8xYVZKcHRDZ1poT1UzWXBXZEt3NzI0U1NyLVdPVDdIZjlBMXo0Qno2VU5QRy1tQU9ZSk9SNkpjeFpYekNXb3E1RF83c0dMY0EzdHlHU3ZGMlgwZ2RxREItcExxd2FmV2QzOERMWmR6eTA0clRIVDk0LXNITm80N0ZvcXE0azhXdnV4YUJaVk1ReUFhNXphanN4Z3BKMWc",
         "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMnF0RG54ZEVhMGNEdVFnaEdLZVR1Z2hpMS1KMGhKak5ELXptQ0hvbzduNkNreVk5RDhmSC1raWJlemVWLVhiajNUS0FpWV9heUpyQjdkMlZKQTdXckoyRUpwS3RkbXpCak0zdHVncjRUalBRU3FsRXppY0swOWZhVzlQNmhhV2prOE40Um16YmpLOGxURG9WSnZpY1NpUGRwZXNN",
+        "https://prensamercosur.org/2026/10/14/brasil-exportaciones-a-la-union-europea-crecen-un-307-tras-el-inicio-de-la-aplicacion-del-acuerdo-con-el-mercosur",
+        "https://www.ansalatina.com/americalatina/noticia/latinoamerica/2026/10/14/mercosur-ue-las-exportaciones-brasilenas-crecen-el-30-desde-mayo_b3a4a5af-d927-4bd5-88a0-6c8e70db507d.html",
         "https://www.bnamericas.com/es/noticias/acuerdo-mercosurunion-europea-impulsa-exportaciones-brasilenas"
       ],
       "mergedIds": [
-        "acuerdo-mercosur-union-europea-impulsa-exportaciones-brasilenas"
+        "acuerdo-mercosur-union-europea-impulsa-exportaciones-brasilenas",
+        "brasil-exportaciones-a-la-union-europea-crecen-un-30-7-tras-el-inicio-de-la-apli",
+        "mercosur-ue-las-exportaciones-brasilenas-crecen-el-30-desde-mayo"
       ]
     },
     {
@@ -42928,7 +43194,7 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-10-15T09:59:51Z",
+    "ranAt": "2026-10-15T14:06:27Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
@@ -42953,15 +43219,15 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 6,
+        "added": 5,
         "updated": 0,
-        "skipped": 6
+        "skipped": 5
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 59,
+        "items": 58,
         "added": 4,
         "updated": 0,
         "skipped": 34
@@ -42970,8 +43236,8 @@
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 46,
-        "added": 0,
+        "items": 47,
+        "added": 3,
         "updated": 0,
         "skipped": 37
       },
@@ -42979,10 +43245,10 @@
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 66,
+        "items": 72,
         "added": 4,
         "updated": 0,
-        "skipped": 35
+        "skipped": 40
       },
       {
         "source": "Google Noticias · Mercosur",
@@ -42991,16 +43257,16 @@
         "items": 46,
         "added": 4,
         "updated": 0,
-        "skipped": 17
+        "skipped": 22
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
         "url": "https://news.google.com/rss/search?q=(aranceles+OR+%22guerra+comercial%22+OR+%22acuerdo+comercial%22)+when:1d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 76,
+        "items": 100,
         "added": 4,
         "updated": 0,
-        "skipped": 50
+        "skipped": 74
       },
       {
         "source": "Google Noticias · Logística y fletes",
@@ -43009,7 +43275,7 @@
         "items": 100,
         "added": 4,
         "updated": 0,
-        "skipped": 65
+        "skipped": 69
       }
     ],
     "curatedDuplicates": [
@@ -43029,59 +43295,100 @@
         "curated": "energia-tableros-diarios-exportaciones-petroleo-gas-crudo-septiembre-2-01-millones-m3"
       },
       {
-        "title": "Gobierno inaugura plataforma con datos de exportaciones de petróleo y gas",
-        "url": "https://www.iprofesional.com/energia/466497-inauguran-plataforma-publica-con-datos-diarios-de-exportaciones-de-petroleo-y-gas",
+        "title": "Vaca Muerta y la minería impulsan el comercio exterior argentino",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNd09wdjZnSVNPeWNsTVI4bVA5YUZiY3dHODZjamhuZ2tIT2trdHVraUR0Q2hqMHpIb2ZrRGQ1UEtLOU5XOG13TXlndURwOW5RVkFLcThidThacGcxRFZFazdzTmY3NGhsREZwMVlCbXpBSXZGbWR5ajFDLWFWSmxFcWZhMkRmM2RVVkRkNWliQUswWVBwZlhVZTNSM0NQRDNtRzIwalFmTlY5UQ?oc=5",
         "curated": "energia-tableros-diarios-exportaciones-petroleo-gas-crudo-septiembre-2-01-millones-m3"
       },
       {
-        "title": "Aduana va contra productos ilegales en Mercado Libre y redes sociales",
-        "url": "https://www.diariomendoza.com.ar/sociedad/aduana-va-productos-ilegales-mercado-libre-redes-sociales-n181421",
-        "curated": "aduana-plataformas-comercio-electronico-contrabando-plataforma-integrada-bid"
+        "title": "Vaca Muerta y minería: claves del crecimiento del comercio exterior argentino",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOVotT0Y1OHFzVGFBRnloRWg2MUtFU3ByaVl3X0xtUkx4d2dhd2xNVEl4RjFnNk04M3dUUDNoRS1TNzNrNkpQV1NmM0ZSakRPUnozWFFxaExtNFIyVUFQLXpSOHN2MUEzM2Z4UzEwSnZVdjNUQU16dDAtV18tTEpiLTFkVk9Vb3FyeEFxQW43Wnk2bGI3VnQyNWRrZGR2eXFQb1dDekxFaUFGeHl1NEdIUGNB?oc=5",
+        "curated": "energia-tableros-diarios-exportaciones-petroleo-gas-crudo-septiembre-2-01-millones-m3"
+      },
+      {
+        "title": "Argentina y Estados Unidos modifican su acuerdo comercial para facilitar la aprobación en el Congreso",
+        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPeEhNNFhiNjlnc3ZpVFZDZDh1aGRtMHBlRjVkOFNEVWZBNVFCZDNfWV9qRkw4Yzh2RFZnOXJPYnRvUWVaYTV0bHpjRmhhLV9QRkpHbDZEN183ckZ0aHRLNE5zQmRpeUVwS2wyQ1VvVHBUdy1wcHdxdkZxbVFaVUlOc3R0OWJzcmdQRWQ0alc0ZE1fUjFXb1pHdm1GdjFjRnhnTTJnazFSQXlHLW9xd3FPVGtJb29ZNi0wLTBvQjd0VnFjdXloNnJqQW00UTdWeHVBOHFZbGRhYzRoSVRVa0E?oc=5",
+        "curated": "argentina-eeuu-protocolo-adicional-arti-quirno-greer-congreso"
+      },
+      {
+        "title": "Argentina y EE.UU. modifican acuerdo comercial para facilitar su ratificación en el Congreso",
+        "url": "https://www.bloomberglinea.com/latinoamerica/argentina/argentina-y-eeuu-modifican-acuerdo-comercial-para-facilitar-su-ratificacion-en-el-congreso/",
+        "curated": "argentina-eeuu-protocolo-adicional-arti-quirno-greer-congreso"
+      },
+      {
+        "title": "¿Productos más baratos? Qué contempla el acuerdo comercial con Estados Unidos",
+        "url": "https://www.diariohuarpe.com/nota/argentina-y-eeuu-firmaron-un-protocolo-para-avanzar-con-el-acuerdo-comercial-2026101420370",
+        "curated": "argentina-eeuu-protocolo-adicional-arti-quirno-greer-congreso"
+      },
+      {
+        "title": "Estados Unidos plantea imponer aranceles a buques españoles",
+        "url": "https://portalportuario.cl/estados-unidos-plantea-imponer-aranceles-a-buques-espanoles/",
+        "curated": "fmc-eeuu-propone-tasa-200000-dolares-buques-espanoles-restricciones-importaciones"
+      },
+      {
+        "title": "Quirno anunció un nuevo paso en el acuerdo con Estados Unidos y destacó beneficios para las exportaciones",
+        "url": "https://www.lavoz.com.ar/politica/quirno-anuncio-nuevo-paso-acuerdo-estados-unidos-destaco-beneficios-exportaciones_0_XZs35hciWT.html",
+        "curated": "argentina-eeuu-protocolo-adicional-arti-quirno-greer-congreso"
+      },
+      {
+        "title": "La Argentina y EE.UU. firmaron un protocolo para avanzar con el acuerdo comercial y enviarlo al Congreso",
+        "url": "https://tn.com.ar/economia/2026/10/14/la-argentina-y-eeuu-firmaron-un-protocolo-para-avanzar-con-el-acuerdo-comercial-y-enviarlo-al-congreso/",
+        "curated": "argentina-eeuu-protocolo-adicional-arti-quirno-greer-congreso"
+      },
+      {
+        "title": "EE.UU. anuncia que impondrá aranceles de 200.000 dólares a cada buque español que llegue al país",
+        "url": "https://www.lavozdegalicia.es/noticia/economia/2026/10/14/eeuu-anuncia-impondra-aranceles-200000-dolares-buque-espanol-llegue-pais/00031791991840882614410.htm",
+        "curated": "fmc-eeuu-propone-tasa-200000-dolares-buques-espanoles-restricciones-importaciones"
+      },
+      {
+        "title": "Singapur confirma el hundimiento de un portacontenedores y daños en otro en Ormuz",
+        "url": "https://www.infobae.com/america/agencias/2026/10/14/singapur-confirma-el-hundimiento-de-un-portacontenedores-y-danos-en-otro-en-ormuz/",
+        "curated": "ormuz-se-hunde-portacontenedores-gfs-pride-singapur"
+      },
+      {
+        "title": "Portacontenedores se hunde cerca del estrecho de Ormuz tras ser alcanzado por un proyectil",
+        "url": "https://portalportuario.cl/portacontenedores-se-hunde-cerca-del-estrecho-de-ormuz-tras-ser-alcanzado-por-un-proyectil/",
+        "curated": "ormuz-se-hunde-portacontenedores-gfs-pride-singapur"
+      },
+      {
+        "title": "El régimen de Irán afirmó que un portacontenedores se hundió en Ormuz tras chocar con una mina",
+        "url": "https://www.infobae.com/america/mundo/2026/10/14/el-regimen-de-iran-afirmo-que-un-portacontenedores-se-hundio-en-ormuz-tras-chocar-con-una-mina/",
+        "curated": "ormuz-se-hunde-portacontenedores-gfs-pride-singapur"
+      },
+      {
+        "title": "Emirates SkyCargo aumentó sus frecuencias de carga aérea en Argentina",
+        "url": "https://www.somospymes.com.ar/comercio-exterior/emirates-skycargo-aumento-sus-frecuencias-carga-aerea-argentina-n5404605",
+        "curated": "emirates-skycargo-exportaciones-argentina-57-tres-cargueros-semanales"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "mas-exportaciones-y-un-giro-en-la-balanza-el-comercio-exterior-cerro-con-sup-2",
+        "main": "brasil-noruega-prepara-cuotas-de-carne-bovina-del-mercosur-pero-las-restriccione",
         "merged": [
-          "mas-exportaciones-y-un-giro-en-la-balanza-el-comercio-exterior-cerro-con-superav"
+          "brasil-exportaciones-a-la-union-europea-crecen-un-30-7-tras-el-inicio-de-la-apli",
+          "mercosur-ue-las-exportaciones-brasilenas-crecen-el-30-desde-mayo"
         ]
       },
       {
-        "main": "el-regimen-de-iran-afirmo-que-un-portacontenedores-se-hundio-en-ormuz-tras-c-2",
+        "main": "sial-paris-2026-los-exportadores-argentinos-llegan-con-grandes-expectativas-ante",
         "merged": [
-          "un-buque-portacontenedores-se-hunde-tras-chocar-con-una-mina-en-el-estrecho-de-o",
-          "iran-ha-confirmado-por-primera-vez-que-el-buque-portacontenedores-se-hundio-tras",
-          "un-portacontenedores-se-hunde-en-el-estrecho-de-ormuz-en-plena-escalada-de-ataqu"
+          "sial-paris-2026-los-exportadores-argentinos-llegan-con-grandes-expectativas--2"
         ]
       },
       {
-        "main": "estados-unidos-plantea-imponer-aranceles-a-buques-espanoles",
+        "main": "nacion-dispuso-un-aumento-en-los-aranceles-del-sistema-de-prestaciones-basicas-p",
         "merged": [
-          "ee-uu-propone-aranceles-de-200-000-dolares-por-viaje-a-los-buques-espanoles-y-sa",
-          "eeuu-propone-una-tasa-de-200-000-dolares-a-los-barcos-espanoles-y-aranceles-a-la"
-        ]
-      },
-      {
-        "main": "nuevas-reglas-de-mercosur-para-el-comercio-electronico-y-la-proteccion-de-los-co",
-        "merged": [
-          "nuevas-reglas-de-mercosur-para-el-comercio-electronico-y-la-proteccion-de-lo-2"
-        ]
-      },
-      {
-        "main": "la-argentina-y-ee-uu-firmaron-un-protocolo-para-avanzar-con-el-acuerdo-comercial",
-        "merged": [
-          "argentina-y-estados-unidos-ponen-en-marcha-el-acuerdo-comercial-y-lo-enviaran-al"
+          "salud-oficializo-un-aumento-en-los-aranceles-de-las-prestaciones-por-discapacida"
         ]
       }
     ],
     "googleNews": {
-      "pending": 21,
-      "resolved": 20,
-      "withSummary": 16,
+      "pending": 23,
+      "resolved": 23,
+      "withSummary": 14,
       "withPhoto": 0,
-      "failed": 1,
-      "duplicates": 1
+      "failed": 0,
+      "duplicates": 2
     }
   },
   "stories": [
