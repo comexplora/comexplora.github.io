@@ -467,6 +467,13 @@ BYLINE = re.compile(r'^(Por\s+[^@\n]{2,60}?\s+@\w+\s*|Por\s+Redacci[oó]n\s*[|:�
 # Pie que agregan los feeds de WordPress: «La entrada <título> se publicó primero en <medio>.»
 WP_FOOTER = re.compile(r'\s*(?:\[(?:…|\.\.\.)\]\s*)?(?:La entrada .+? se public[oó] primero en|The post .+? appeared first on) .+?\.?\s*$', re.S)
 GENERIC_SUMMARY = re.compile(r'^Nota publicada por .*Abrí el artículo original', re.I)
+# Descripciones genéricas del sitio del medio (eslóganes que algunas páginas ponen en todas sus notas):
+# no resumen nada, así que no se muestran.
+SITE_SLOGAN = re.compile(
+    r'^(?:Mantenete informad|Mantente informad|Manténgase informad|Enterate de|Entérate de|Informate|Infórmate|Suscrib'
+    r'|Encontr[aá] (?:las|toda)|Toda la informaci[oó]n|Todas las noticias|[UÚ]ltimas noticias'
+    r'|Noticias (?:del [aá]mbito|de [uú]ltimo momento|de hoy|actualizadas)|El diario (?:l[ií]der|de)|Portal de noticias'
+    r'|Le[eé] las [uú]ltimas|Sitio oficial|P[aá]gina oficial|Bienvenid)', re.I)
 
 
 def clean_summary(s: str) -> str:
@@ -475,7 +482,7 @@ def clean_summary(s: str) -> str:
     if cut != s:
         s = cut.rstrip(' ,;:') + ('' if cut.endswith(('.', '…', '!', '?')) else '…') if cut else ''
     s = re.sub(r'\s*\[(?:…|\.\.\.)\]\s*$', '…', s)   # «[…]» final de WordPress → «…»
-    return '' if GENERIC_SUMMARY.match(s) or len(s) < 40 else s
+    return '' if GENERIC_SUMMARY.match(s) or SITE_SLOGAN.match(s) or len(s) < 40 else s
 
 
 # ---------------------------------------------------------------- nombres de medios y títulos en mayúsculas
@@ -1107,6 +1114,14 @@ def main():
     disabled = {s['name'] for s in sources if not s.get('enabled', True)}
     excluded_n = 0
     aggregators = {s['name'] for s in sources if s.get('aggregator')}
+    # Un mismo «resumen» en notas con títulos distintos es la descripción genérica del sitio, no un extracto.
+    shared = {}
+    for it in by_url.values():
+        if it.get('label') == 'Automática' and it.get('summary'):
+            shared.setdefault(norm(it['summary'])[:120], set()).add(norm(it.get('title', '')))
+    for it in by_url.values():
+        if it.get('label') == 'Automática' and it.get('summary') and len(shared.get(norm(it['summary'])[:120], ())) > 1:
+            it['summary'] = ''
     for key in list(by_url):
         it = by_url[key]
         if it.get('label') != 'Automática':

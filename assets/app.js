@@ -255,6 +255,8 @@ const adapters = {
 
 // Resumen genérico de versiones anteriores del bot (notas de Google Noticias sin descripción): no se muestra.
 const GENERIC_SUM = /^Nota publicada por .*Abrí el artículo original/i;
+// Eslóganes del sitio del medio que algunas páginas usan como descripción de todas sus notas.
+const SITE_SLOGAN = /^(?:Mantenete informad|Mantente informad|Manténgase informad|Enterate de|Entérate de|Informate|Infórmate|Suscrib|Encontr[aá] (?:las|toda)|Toda la informaci[oó]n|Todas las noticias|[UÚ]ltimas noticias|Noticias (?:del [aá]mbito|de [uú]ltimo momento|de hoy|actualizadas)|El diario (?:l[ií]der|de)|Portal de noticias|Le[eé] las [uú]ltimas|Sitio oficial|P[aá]gina oficial|Bienvenid)/i;
 // Pies y firmas que agregan algunos feeds («La entrada … se publicó primero en …», «Por Nombre @medio»).
 const WP_FOOTER = /\s*(?:\[(?:…|\.\.\.)\]\s*)?(?:La entrada .+? se public[oó] primero en|The post .+? appeared first on) .+?\.?\s*$/s;
 const BYLINE_RX = /^(?:Por\s+[^@\n]{2,60}?\s+@\w+\s*|Por\s+Redacci[oó]n\s*[|:–-]?\s*)/i;
@@ -263,7 +265,7 @@ function cleanSummary(t){
   const cut = s.replace(WP_FOOTER, '').trim();
   if (cut !== s) s = cut ? cut.replace(/[\s,;:]+$/, '') + (/[.…!?]$/.test(cut) ? '' : '…') : '';
   s = s.replace(/\s*\[(?:…|\.\.\.)\]\s*$/, '…');
-  return GENERIC_SUM.test(s) || s.length < 40 ? '' : s;
+  return GENERIC_SUM.test(s) || SITE_SLOGAN.test(s) || s.length < 40 ? '' : s;
 }
 const sumP = (it, cls = '', txt = it.summary) => txt ? `<p${cls ? ` class="${cls}"` : ''}>${hl(txt)}</p>` : '';
 const alsoChip = it => it.also && it.also.length ? `<span class="dot"></span><span class="also" title="${esc('También en: ' + it.also.map(s => s.name).join(', '))}">+${it.also.length} ${it.also.length === 1 ? 'medio' : 'medios'}</span>` : '';
@@ -566,7 +568,8 @@ const metaLine = (it, { ago = false } = {}) => `<div class="meta">${srcStamp(it)
 const category = it => it.topics.find(t => t !== 'Argentina') || it.topics[0] || 'Comercio exterior';
 const eyebrow = it => `<span class="eyebrow">${esc(category(it))}</span>`;
 const kindBadge = (it, always = false) => (always || it.kind !== 'noticia') ? `<span class="kind ${esc(it.kind)}">${esc(KINDS[it.kind])}</span>` : '';
-const originBadge = it => isAuto(it) ? '<span class="kind auto" title="Título y extracto tomados del feed de la fuente, sin revisión de la redacción">Automática</span>' : '';
+const originBadge = it => isAuto(it) ? `<span class="kind auto" title="Titular publicado por ${esc(it.primary.name)}: se abre el artículo original">Enlace al medio</span>` : '';
+const extMark = it => isAuto(it) ? `<span class="ext-mark" aria-label=" (abre ${esc(it.primary.name)} en otra pestaña)">${I.ext}</span>` : '';
 const newBadge = it => state.newIds.has(it.id) ? '<span class="new">Nueva</span>' : '';
 const argFlag = it => it.affectsArgentina ? '<span class="flag-ar">Impacto en Argentina</span>' : '';
 const IMPACT_TXT = { 1:'Impacto bajo', 2:'Impacto medio', 3:'Impacto alto' };
@@ -602,7 +605,13 @@ function prettifyLinks(){
 function articleHref(it){
   return CONFIG.prettyUrls ? `${sitePath()}/noticias/${encodeURIComponent(it.id)}/` : `#${it.id}`;
 }
+// Las notas automáticas son titulares de otros medios: no tienen página propia y llevan al artículo original.
+function hrefTo(it){
+  return isAuto(it) ? `href="${esc(it.primary.url)}" target="_blank" rel="noopener noreferrer"` : `href="${esc(articleHref(it))}"`;
+}
 function goArticle(id){
+  const it = state.items.find(x => x.id === id);
+  if (it && isAuto(it)){ window.open(it.primary.url, '_blank', 'noopener'); return; }
   if (CONFIG.prettyUrls){
     const target = `${sitePath()}/noticias/${encodeURIComponent(id)}/`;
     if (location.pathname === target && !location.hash) return route();
@@ -614,9 +623,9 @@ function goArticle(id){
 
 function card(it){
   return `<article class="card">
-    <a href="${esc(articleHref(it))}" class="art" tabindex="-1" aria-hidden="true">${media(it, 640)}</a>
+    <a ${hrefTo(it)} class="art" tabindex="-1" aria-hidden="true">${media(it, 640)}</a>
     ${headRow(it)}
-    <h3><a href="${esc(articleHref(it))}">${hl(it.title)}</a></h3>
+    <h3><a ${hrefTo(it)}>${hl(it.title)}${extMark(it)}</a></h3>
     ${sumP(it)}
     ${metaLine(it, { ago: true })}
   </article>`;
@@ -624,10 +633,10 @@ function card(it){
 function listItem(it){
   const d = dayDiff(it);
   return `<li class="li">
-    <a href="${esc(articleHref(it))}" class="art" tabindex="-1" aria-hidden="true">${media(it, 360, { caption:false })}</a>
+    <a ${hrefTo(it)} class="art" tabindex="-1" aria-hidden="true">${media(it, 360, { caption:false })}</a>
     <div style="min-width:0">
       <div class="eyebrow-row"><span class="when${d<=1?' fresh':''}" data-rel="${esc(it.id)}">${esc(relTime(it))}${it.datetime ? ' · ' + esc(timeLabel(it)) : ''}</span>${eyebrow(it)}${kindBadge(it)}${originBadge(it)}${newBadge(it)}${argFlag(it)}</div>
-      <h3><a href="${esc(articleHref(it))}">${hl(it.title)}</a></h3>
+      <h3><a ${hrefTo(it)}>${hl(it.title)}${extMark(it)}</a></h3>
       ${sumP(it)}
       <div class="bottom">${metaLine(it)}${tagRow(it)}</div>
     </div>
@@ -725,7 +734,7 @@ function deadlineRow(d, { link = true } = {}){
   const soon = !d.past && !d.monthOnly && d.days <= 7;
   return `<li class="dl-row${soon ? ' soon' : ''}${d.past ? ' past' : ''}">${dateBadge(d)}<div class="dl-body">
     <p class="dl-label">${esc(d.label)}</p>
-    <span class="dl-meta"><span class="sr">${esc(dateLong(d))}. </span><b>${esc(whenText(d))}</b>${link ? ` · <a href="${esc(articleHref(d.it))}">Ver la nota</a>` : ''}${d.url ? ` · <a href="${esc(d.url)}" target="_blank" rel="noopener noreferrer">Fuente de la fecha</a>` : ''}</span>
+    <span class="dl-meta"><span class="sr">${esc(dateLong(d))}. </span><b>${esc(whenText(d))}</b>${link ? ` · <a ${hrefTo(d.it)}>Ver la nota</a>` : ''}${d.url ? ` · <a href="${esc(d.url)}" target="_blank" rel="noopener noreferrer">Fuente de la fecha</a>` : ''}</span>
   </div></li>`;
 }
 const deadlineListHtml = (list, opts) => `<ul class="dl-list">${list.map(d => deadlineRow(d, opts)).join('')}</ul>`;
@@ -755,7 +764,7 @@ function storyBox(it){
     <span class="eyebrow">Tema en desarrollo</span>
     <h2 class="panel-h" id="h-story">${esc(s.title)}</h2>
     <ol class="timeline">${list.map(o => `<li${o.id === it.id ? ' class="cur" aria-current="true"' : ''}><time datetime="${esc(o.datetime || o.date)}">${esc(shortDate(itemDate(o)))}</time>${o.id === it.id
-      ? `<span>${esc(o.title)} <em>· esta nota</em></span>` : `<a href="${esc(articleHref(o))}">${esc(o.title)}</a>`}</li>`).join('')}</ol>
+      ? `<span>${esc(o.title)} <em>· esta nota</em></span>` : `<a ${hrefTo(o)}>${esc(o.title)}</a>`}</li>`).join('')}</ol>
     <a class="foot-link" href="${esc(storyHref(s))}">Ver el tema completo →</a>
   </section>`;
 }
@@ -792,7 +801,7 @@ function renderHome(){
   const argNow = byDate(curated.filter(i => !used.has(i.id) && i.affectsArgentina && i.argentinaImpact?.change && dayDiff(i) <= 10)).slice(0, 3);
   if (argNow.length < 2) argNow.length = 0;
   argNow.forEach(i => used.add(i.id));
-  const featured = [...rankedCur, ...byScore(curated), ...ranked.filter(i => isAuto(i) && i.summary)]
+  const featured = [...rankedCur, ...byScore(curated)]
     .filter((i, n, a) => !used.has(i.id) && a.indexOf(i) === n).slice(0, 6);
   featured.forEach(i => used.add(i.id));
   const perSource = new Map();
@@ -812,10 +821,10 @@ function renderHome(){
   $('#main').innerHTML = `
   <section class="sec top" aria-labelledby="h-hero">
     <article class="hero">
-      <a href="${esc(articleHref(hero))}" class="art" tabindex="-1" aria-hidden="true">${media(hero, 1100, { eager:true })}</a>
+      <a ${hrefTo(hero)} class="art" tabindex="-1" aria-hidden="true">${media(hero, 1100, { eager:true })}</a>
       <div class="hero-body">
         <div class="eyebrow-row"><span class="eyebrow">Noticia principal · ${esc(category(hero))}</span>${kindBadge(hero)}${argFlag(hero)}</div>
-        <h2 id="h-hero"><a href="${esc(articleHref(hero))}">${esc(hero.title)}</a></h2>
+        <h2 id="h-hero"><a ${hrefTo(hero)}>${esc(hero.title)}</a></h2>
         ${hero.summary ? `<p class="sum">${esc(hero.summary)}</p>` : ''}
         <dl class="facts">
           <div><dt>Fecha</dt><dd>${esc(shortDate(itemDate(hero)))}${hero.datetime ? ' · ' + esc(timeLabel(hero)) : ''}</dd></div>
@@ -824,7 +833,7 @@ function renderHome(){
           <div><dt>Impacto</dt><dd>${impactMeter(hero)}</dd></div>
         </dl>
         <div class="hero-actions">
-          <a class="btn primary" href="${esc(articleHref(hero))}">Leer la noticia</a>
+          <a class="btn primary" ${hrefTo(hero)}>${isAuto(hero) ? 'Leer en ' + esc(hero.primary.name) : 'Leer la noticia'}</a>
           <span class="note" data-rel="${esc(hero.id)}">${esc(relTime(hero))}</span>
           <span class="note">· Relevancia ${sc.total}/11</span>
         </div>
@@ -832,7 +841,7 @@ function renderHome(){
     </article>
     <section class="wire" aria-labelledby="h-wire">
       <h2 id="h-wire">Al minuto <span class="note" style="letter-spacing:0;text-transform:none">${esc(state.updatedAt ? 'Feed ' + agoText(new Date(state.updatedAt)) : '')}</span></h2>
-      <ol>${wire.map(it => `<li><time datetime="${esc(it.datetime || it.date)}">${esc(it.datetime ? fmtTime.format(new Date(it.datetime)) : fmtDM.format(itemDate(it)).replace('.', ''))}</time><div><a href="${esc(articleHref(it))}">${esc(it.title)}</a><span class="s">${esc(it.primary.name)} · ${esc(category(it))}</span></div></li>`).join('')}</ol>
+      <ol>${wire.map(it => `<li><time datetime="${esc(it.datetime || it.date)}">${esc(it.datetime ? fmtTime.format(new Date(it.datetime)) : fmtDM.format(itemDate(it)).replace('.', ''))}</time><div><a ${hrefTo(it)}>${esc(it.title)}</a><span class="s">${esc(it.primary.name)} · ${esc(category(it))}</span></div></li>`).join('')}</ol>
       <a class="all" href="#ultimas">Todas las últimas noticias ↓</a>
     </section>
   </section>
@@ -843,7 +852,7 @@ function renderHome(){
       const chips = [['importaciones','Importación'],['exportaciones','Exportación'],['logistica','Logística'],['aranceles','Aranceles']].filter(([k]) => fl[k]);
       return `<article class="argnow-card">
         <div class="eyebrow-row">${eyebrow(it)}<span class="note" data-rel="${esc(it.id)}">${esc(relTime(it))}</span></div>
-        <h3><a href="${esc(articleHref(it))}">${esc(it.title)}</a></h3>
+        <h3><a ${hrefTo(it)}>${esc(it.title)}</a></h3>
         <p class="chg"><span class="k">Qué cambia</span>${esc(ai.change)}</p>
         ${ai.who ? `<p class="who"><span class="k">A quién afecta</span>${esc(ai.who)}</p>` : ''}
         ${chips.length ? `<div class="flows mini" aria-label="Áreas alcanzadas">${chips.map(([, l]) => `<span class="on">${l}</span>`).join('')}</div>` : ''}
@@ -877,7 +886,7 @@ function renderHome(){
       <span class="eyebrow">${plural(list.length, 'nota')} · última ${esc(agoText(itemDate(list[0])))}</span>
       <h3><a href="${esc(storyHref(s))}">${esc(s.title)}</a></h3>
       <p>${esc(s.desc)}</p>
-      <ol>${list.slice(0, 2).map(o => `<li><time datetime="${esc(o.datetime || o.date)}">${esc(fmtDM.format(itemDate(o)).replace('.', ''))}</time><a href="${esc(articleHref(o))}">${esc(o.title)}</a></li>`).join('')}</ol>
+      <ol>${list.slice(0, 2).map(o => `<li><time datetime="${esc(o.datetime || o.date)}">${esc(fmtDM.format(itemDate(o)).replace('.', ''))}</time><a ${hrefTo(o)}>${esc(o.title)}</a></li>`).join('')}</ol>
       <a class="foot-link" href="${esc(storyHref(s))}">Seguir el tema →</a>
     </article>`).join('')}</div>
   </section>` : ''}
@@ -888,7 +897,7 @@ function renderHome(){
       ${arInd.length ? `<div class="ar-kpis">${arInd.map(d => indicatorCard(d)).join('')}</div>` : ''}
       <div class="ar-rows">${arItems.map(it => `<div class="ar-row">
         <div style="min-width:0"><div class="eyebrow-row">${eyebrow(it)}${isIntl(it) && it.affectsArgentina ? '<span class="flag-ar">Internacional con impacto local</span>' : ''}</div>
-        <h3><a href="${esc(articleHref(it))}">${esc(it.title)}</a></h3>${(it.argentinaNote || it.summary) ? `<p>${esc(it.argentinaNote || it.summary)}</p>` : ''}</div>
+        <h3><a ${hrefTo(it)}>${esc(it.title)}</a></h3>${(it.argentinaNote || it.summary) ? `<p>${esc(it.argentinaNote || it.summary)}</p>` : ''}</div>
         <span class="note" data-rel="${esc(it.id)}">${esc(relTime(it))}</span>
       </div>`).join('')}</div>
     </div>
@@ -897,9 +906,9 @@ function renderHome(){
   <section class="sec split" aria-label="Ranking y cobertura">
     <div>
       <div class="sec-h"><h2>Lo más importante</h2><p>Ranking con criterios explícitos</p></div>
-      <ol class="ranked">${ranked.slice(0,5).map((it,i) => { const s = score(it); return `<li>
+      <ol class="ranked">${(curated.length >= 5 ? byScore(curated) : ranked).slice(0,5).map((it,i) => { const s = score(it); return `<li>
         <span class="rk">${i+1}</span>
-        <div style="min-width:0">${eyebrow(it)}<h3><a href="${esc(articleHref(it))}">${esc(it.title)}</a></h3>
+        <div style="min-width:0">${eyebrow(it)}<h3><a ${hrefTo(it)}>${esc(it.title)}</a></h3>
           <div class="score" aria-label="Desglose de relevancia"><span>Actualidad ${s.actualidad}/3</span><span>Impacto ${s.impacto}/3</span><span>Alcance ${s.alcance}/3</span><span>Argentina ${s.argentina}/2</span></div></div>
         <div class="score-total">${s.total}<small>de 11</small></div>
       </li>`; }).join('')}</ol>
@@ -912,7 +921,7 @@ function renderHome(){
   </section>
 
   <section class="sec" aria-labelledby="h-last" id="ultimas" tabindex="-1">
-    <div class="sec-h"><h2 id="h-last">Últimas noticias</h2><p>Orden cronológico, de la más reciente a la más antigua · ${plural(items.length,'noticia')}</p></div>
+    <div class="sec-h"><h2 id="h-last">Últimas noticias</h2><p>De la más reciente a la más antigua · ${plural(items.length,'noticia')} · las marcadas «Enlace al medio» abren el artículo original</p></div>
     ${chronoList(latest)}
     ${state.listCount < items.length ? `<div class="more"><button class="btn" type="button" id="loadMore">Cargar más noticias (${items.length - state.listCount})</button></div>` : '<p class="note" style="text-align:center;margin-top:18px">Llegaste al final del archivo.</p>'}
   </section>`;
@@ -943,8 +952,8 @@ function renderSection(){
   } else {
     const lead = byScore(list)[0], rest = list.filter(i => i !== lead);
     $('#main').innerHTML = sectionHeader(s, list.length, `<a class="btn sm" href="${filterHash({ section: s.slug, date:'7' })}">Últimos 7 días</a>`) + `
-      <article class="hero" style="margin-bottom:30px"><a href="${esc(articleHref(lead))}" class="art" tabindex="-1" aria-hidden="true">${media(lead, 1100, { eager:true })}</a>
-        <div class="hero-body">${headRow(lead)}<h2><a href="${esc(articleHref(lead))}">${esc(lead.title)}</a></h2>${lead.summary ? `<p class="sum">${esc(lead.summary)}</p>` : ''}${metaLine(lead, { ago:true })}</div></article>
+      <article class="hero" style="margin-bottom:30px"><a ${hrefTo(lead)} class="art" tabindex="-1" aria-hidden="true">${media(lead, 1100, { eager:true })}</a>
+        <div class="hero-body">${headRow(lead)}<h2><a ${hrefTo(lead)}>${esc(lead.title)}</a></h2>${lead.summary ? `<p class="sum">${esc(lead.summary)}</p>` : ''}${metaLine(lead, { ago:true })}</div></article>
       ${rest.length ? `<div class="sec-h"><h2>Más en ${esc(s.title)}</h2><p>Orden cronológico</p></div>${chronoList(rest.slice(0, state.listCount * 3))}${rest.length > state.listCount * 3 ? `<div class="more"><button class="btn" type="button" id="loadMore">Cargar más (${rest.length - state.listCount * 3})</button></div>` : ''}` : ''}`;
   }
   const g = groupOf(s.slug);
@@ -1049,6 +1058,16 @@ function explainerBlock(it, gl){
 // Un párrafo del cuerpo que empieza con «## » es un subtítulo (notas largas de la redacción).
 const SUBHEAD_RX = /^##\s+/;
 function renderArticle(it){
+  if (isAuto(it)){
+    // Titular de otro medio (dirección vieja o enlace compartido): se lleva al lector al artículo original.
+    $('#main').innerHTML = `<article class="article doc"><a class="btn sm" href="#inicio">${I.back}Volver a Noticias</a>
+      <h1>${esc(it.title)}</h1>
+      <p class="lede">Esta noticia la publicó <b>${esc(it.primary.name)}</b>. Comexplora no tiene una nota propia sobre ella: te llevamos al artículo original.</p>
+      <p><a class="btn primary" href="${esc(it.primary.url)}" rel="noopener noreferrer">${I.ext}Ir a ${esc(it.primary.name)}</a></p></article>`;
+    setSEO({ title:`${it.title} · ${CONFIG.siteName}`, desc: it.title, noindex:true, crumbs:[['Noticias','#inicio'],[it.title]] });
+    setTimeout(() => location.replace(it.primary.url), 1200);
+    return;
+  }
   const used = new Set(), gl = txt => it.label === 'Automática' ? esc(txt) : gloss(esc(txt), used);
   const dls = deadlineList([it]);
   // Tiempo de lectura: todo lo que se lee en la nota (cuerpo, COMEX explicado, datos clave e impacto para Argentina).
@@ -1058,7 +1077,7 @@ function renderArticle(it){
   const mins = Math.max(1, Math.round(words / 200));
   const auto = isAuto(it);
   const saved = store.get('comex.saved', []).includes(it.id);
-  const related = state.items.filter(o => o.id !== it.id)
+  const related = state.items.filter(o => o.id !== it.id && !isAuto(o))
     .map(o => ({ o, s: o.topics.filter(t => it.topics.includes(t)).length * 2 + o.countries.filter(c => it.countries.includes(c) && c !== 'Global').length + o.tags.filter(t => it.tags.includes(t)).length * 3 + (Math.abs(dayDiff(o) - dayDiff(it)) <= 7 ? 1 : 0) }))
     .filter(x => x.s > 1).sort((a,b) => b.s - a.s || itemDate(b.o) - itemDate(a.o)).slice(0,4).map(x => x.o);
   const url = shareUrl(it), t = encodeURIComponent(it.title), u = encodeURIComponent(url);
@@ -1153,7 +1172,7 @@ function renderStory(s){
       <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap"><span class="rcount"><b>${list.length}</b> ${list.length === 1 ? 'nota' : 'notas'}</span><span class="note">Última nota ${esc(agoText(itemDate(list[0])))}</span></div></div>
     ${dls.length ? `<section class="sec" aria-labelledby="h-sdl"><div class="sec-h"><h2 id="h-sdl">Próximas fechas del tema</h2></div>${deadlineListHtml(dls)}</section>` : ''}
     <section class="sec" aria-labelledby="h-snotes"><div class="sec-h"><h2 id="h-snotes">Cronología</h2><p>De la más reciente a la más antigua</p></div>${chronoList(list)}</section>
-    ${more.length ? `<section class="sec" aria-labelledby="h-smore"><div class="sec-h"><h2 id="h-smore">Más cobertura del tema</h2><p>Notas automáticas de las fuentes, sin revisión editorial</p></div>${chronoList(more)}</section>` : ''}`;
+    ${more.length ? `<section class="sec" aria-labelledby="h-smore"><div class="sec-h"><h2 id="h-smore">Más cobertura del tema</h2><p>Titulares de otros medios: cada uno abre el artículo original</p></div>${chronoList(more)}</section>` : ''}`;
   setSEO({ title:`${s.title} · ${CONFIG.siteName}`, desc: s.desc, crumbs:[['Noticias','#inicio'],[s.title]] });
 }
 function renderGlosario(){
@@ -1313,7 +1332,7 @@ function renderFuentes(){
     <h1>Fuentes</h1>
     <p class="lede">Comexplora prioriza organismos oficiales, aduanas, organizaciones internacionales y medios especializados. Toda nota enlaza a su fuente original.</p>
     <h2>Fuentes que se consultan automáticamente</h2>
-    <p class="note">Un proceso lee estas fuentes cinco veces por día. Sus notas se publican como «Automática», sin revisión de la redacción; los agregadores sirven para descubrir noticias y cada nota enlaza al medio que la publicó.</p>
+    <p class="note">Un proceso lee estas fuentes cinco veces por día. Sus titulares se muestran marcados como «Enlace al medio» y llevan directamente al artículo original; no son notas de la redacción.</p>
     <div id="ingest" aria-live="polite"><p class="note">Cargando el estado de las fuentes…</p></div>
     <h2>Fuentes citadas en el archivo</h2>
     <ul class="srcdir" style="grid-template-columns:repeat(auto-fill,minmax(min(240px,100%),1fr));display:grid">${usedList.map(([n, o]) => `<li><button class="btn sm" type="button" data-source="${esc(n)}" style="width:100%;justify-content:space-between;white-space:normal;text-align:left;gap:10px;min-width:0"><span style="min-width:0;overflow-wrap:anywhere">${esc(n)}</span><span class="mono">${o.n}</span></button><span>${esc(o.type || '')}</span></li>`).join('')}</ul>
@@ -1355,7 +1374,7 @@ const PAGES = {
     <h2>Carácter del contenido</h2>
     <p>El contenido de Comexplora es informativo y no constituye asesoramiento legal, aduanero, tributario ni financiero. Las calculadoras dan estimaciones orientativas. Antes de operar, verificá la normativa vigente en la fuente oficial y consultá con un despachante de aduana o un profesional.</p>
     <h2>Fuentes y derechos de terceros</h2>
-    <p>Las notas de la redacción son resúmenes de elaboración propia: los datos, cifras y declaraciones pertenecen a las fuentes citadas, que se identifican y enlazan en cada nota. Las notas marcadas como «Automática» reproducen el título y, cuando existe, el extracto que la propia fuente publica en su canal de difusión (RSS), siempre con su nombre y el enlace al artículo original, como establece el artículo 28 de la Ley 11.723 para las noticias de interés general.</p>
+    <p>Las notas de la redacción son resúmenes de elaboración propia: los datos, cifras y declaraciones pertenecen a las fuentes citadas, que se identifican y enlazan en cada nota. Los titulares marcados como «Enlace al medio» reproducen el título y, cuando existe, el extracto que la propia fuente publica en su canal de difusión (RSS), siempre con su nombre, y llevan directamente al artículo original, como establece el artículo 28 de la Ley 11.723 para las noticias de interés general.</p>
     <p>Las imágenes son fotos de archivo de uso libre (Unsplash) o de dominio público (Wikimedia Commons), con crédito a su autor, o ilustraciones y gráficos propios del sitio. Las fotos de archivo son ilustrativas y no corresponden al hecho de la noticia. Los nombres y marcas de los medios y organismos citados pertenecen a sus titulares.</p>
     <h2>Pedidos de corrección o retiro</h2>
     <p>Si sos titular de derechos sobre algún contenido, o una nota te menciona y considerás que contiene un error, escribinos${SITECFG.contactEmail ? ` a <a href="mailto:${esc(SITECFG.contactEmail)}">${esc(SITECFG.contactEmail)}</a>` : ''} con el enlace a la nota. Revisamos cada pedido y, cuando corresponde, corregimos o retiramos el contenido.</p>
@@ -1363,7 +1382,7 @@ const PAGES = {
     <p>Podés compartir los enlaces a las notas libremente. Para reproducir los textos, gráficos o herramientas propias del sitio, citá a Comexplora con un enlace a la nota.</p>`],
   acerca: ['Sobre Comexplora', `<p>Comexplora es un portal de noticias, datos y análisis sobre comercio exterior, pensado para importadores, exportadores, despachantes de aduana, operadores logísticos y portuarios, estudiantes y docentes.</p>
     <h2>Criterios editoriales</h2><ul><li>Cada nota de la redacción se verifica contra su fuente original y la enlaza.</li><li>Los resúmenes son redacción propia; las cifras y declaraciones pertenecen a las fuentes.</li><li>Se distingue entre <b>noticias</b>, <b>análisis de terceros</b>, <b>datos</b> y <b>opinión</b>.</li><li>El bloque «Impacto en Argentina» solo aparece cuando la información disponible lo sustenta.</li><li>No se publican noticias sin título, fecha y fuente con enlace.</li></ul>
-    <h2>Cómo se actualiza</h2><p>La página lee un feed normalizado que puede alimentarse con APIs, RSS, una base de datos o webhooks, y lo vuelve a consultar cada ${CONFIG.refreshMinutes} minutos sin recargar. Un proceso automático consulta las fuentes varias veces por día; el encabezado muestra la hora de la última actualización. Las notas marcadas como «Automática» provienen directamente del feed de la fuente y no tienen revisión editorial.</p>`]
+    <h2>Cómo se actualiza</h2><p>La página lee un feed normalizado que puede alimentarse con APIs, RSS, una base de datos o webhooks, y lo vuelve a consultar cada ${CONFIG.refreshMinutes} minutos sin recargar. Un proceso automático consulta las fuentes varias veces por día; el encabezado muestra la hora de la última actualización. Los titulares marcados como «Enlace al medio» provienen del feed de la fuente, no tienen revisión editorial y abren el artículo original.</p>`]
 };
 /* =====================================================================
    PÁGINAS EDITABLES DESDE site.json (contacto, quiénes somos, privacidad)
@@ -1389,7 +1408,7 @@ PAGES.acerca = ['Quiénes somos', `
   <h2>Criterios editoriales</h2>
   <ul>
     <li>Toda nota identifica su fuente y enlaza al artículo original. No se publican noticias sin título, fecha y fuente.</li>
-    <li>Las notas marcadas como «Automática» provienen directamente del feed de la fuente y no tienen revisión editorial; los títulos se respetan tal como los publica cada medio.</li>
+    <li>Los titulares marcados como «Enlace al medio» provienen del feed de la fuente, no tienen revisión editorial y abren el artículo original; los títulos se respetan tal como los publica cada medio.</li>
     <li>Las notas de la redacción se verifican contra la fuente original y se enlazan a ella; cuando la información sale de una norma o de un dato oficial, se enlaza el documento oficial.</li>
     <li>Se distingue entre noticias, análisis de terceros, datos y opinión.</li>
     <li>Las calculadoras dan estimaciones orientativas: cada una cita las normas que usa y la fecha en que se revisaron.</li>
@@ -1821,18 +1840,18 @@ function renderAside(){
     <a class="foot-link" href="#datos">Ver todos los indicadores →</a></section>`);
   const nextDates = upcomingDeadlines().slice(0, 4);
   if (view !== 'home' && view !== 'agenda' && nextDates.length) boxes.push(`<section class="box"><h2>Próximas fechas <small>agenda</small></h2>
-    <ol class="mini">${nextDates.map(d => `<li><a href="${esc(articleHref(d.it))}">${esc(d.label)}</a><span class="sub">${esc(d.monthOnly ? cap(fmtMonthYear.format(new Date(d.start))) : fmtDLshort.format(new Date(d.start)).replace('.', ''))} · ${esc(whenText(d))}</span></li>`).join('')}</ol>
+    <ol class="mini">${nextDates.map(d => `<li><a ${hrefTo(d.it)}>${esc(d.label)}</a><span class="sub">${esc(d.monthOnly ? cap(fmtMonthYear.format(new Date(d.start))) : fmtDLshort.format(new Date(d.start)).replace('.', ''))} · ${esc(whenText(d))}</span></li>`).join('')}</ol>
     <a class="foot-link" href="#agenda">Ver la agenda →</a></section>`);
   if (view !== 'home') boxes.push(`<section class="box"><h2>Más recientes <small>${items.length} en archivo</small></h2>
-    <ol class="mini">${items.slice(0,5).map(it => `<li><a href="${esc(articleHref(it))}">${esc(it.title)}</a><span class="sub" data-rel="${esc(it.id)}">${esc(relTime(it))}</span></li>`).join('')}</ol></section>`);
+    <ol class="mini">${items.slice(0,5).map(it => `<li><a ${hrefTo(it)}>${esc(it.title)}</a><span class="sub" data-rel="${esc(it.id)}">${esc(relTime(it))}</span></li>`).join('')}</ol></section>`);
   boxes.push(`<section class="box"><h2>Temas en tendencia <small>últimos 14 días</small></h2>
     <div class="trend">${trends.map((t,i) => `<button type="button" class="${i<3?'hot':''}" data-${t.type}="${esc(t.label)}">${t.type==='tag'?'#':''}${esc(t.label)}<span class="n">${t.n}</span></button>`).join('')}</div>
     <p class="note" style="margin-top:10px">Según la frecuencia en las noticias recientes y tus lecturas en este navegador.</p></section>`);
   // «Más leídas» y «Guardadas» solo aparecen cuando tienen algo que mostrar (sin cajas vacías).
   if (mostRead.length >= 2) boxes.push(`<section class="box"><h2>Tus más leídas <small>en este navegador</small></h2>
-    <ol class="mini num">${mostRead.map(([it,n]) => `<li><span><a href="${esc(articleHref(it))}">${esc(it.title)}</a><span class="sub">${plural(n,'lectura')}</span></span></li>`).join('')}</ol></section>`);
+    <ol class="mini num">${mostRead.map(([it,n]) => `<li><span><a ${hrefTo(it)}>${esc(it.title)}</a><span class="sub">${plural(n,'lectura')}</span></span></li>`).join('')}</ol></section>`);
   if (saved.length) boxes.push(`<section class="box"><h2>Guardadas <small>${saved.length}</small></h2>
-    <ol class="mini">${saved.slice(0,5).map(it => `<li><a href="${esc(articleHref(it))}">${esc(it.title)}</a></li>`).join('')}</ol><a class="foot-link" href="#guardadas">Ver todas →</a></section>`);
+    <ol class="mini">${saved.slice(0,5).map(it => `<li><a ${hrefTo(it)}>${esc(it.title)}</a></li>`).join('')}</ol><a class="foot-link" href="#guardadas">Ver todas →</a></section>`);
   if (view === 'home' || view === 'article') boxes.push(`<section class="box"><h2>Fuentes confiables</h2>
     <ul class="srcdir">${SOURCE_DIRECTORY.flatMap(g => g.items).filter(([n]) => /INDEC|ARCA|OMC|OMA|IATA|Mercosur|Comisión Europea/.test(n)).map(([n,u]) => `<li><a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(n)}</a></li>`).join('')}</ul>
     <a class="foot-link" href="#fuentes">Directorio completo →</a></section>`);
@@ -1899,7 +1918,7 @@ function renderBreaking(){
   const el = $('#breaking');
   if (!b){ el.hidden = true; return; }
   el.hidden = false;
-  el.innerHTML = `<div class="wrap"><span class="breaking-tag"><i aria-hidden="true"></i>Última hora</span><span class="breaking-time">${esc(b.datetime ? fmtTime.format(new Date(b.datetime)) + ' h' : fmtDM.format(itemDate(b)).replace('.',''))}</span><a href="${esc(articleHref(b))}">${esc(b.title)}</a><span class="bsrc">${esc(b.primary.name)} · <span data-rel="${esc(b.id)}">${esc(relTime(b))}</span></span></div>`;
+  el.innerHTML = `<div class="wrap"><span class="breaking-tag"><i aria-hidden="true"></i>Última hora</span><span class="breaking-time">${esc(b.datetime ? fmtTime.format(new Date(b.datetime)) + ' h' : fmtDM.format(itemDate(b)).replace('.',''))}</span><a ${hrefTo(b)}>${esc(b.title)}</a><span class="bsrc">${esc(b.primary.name)} · <span data-rel="${esc(b.id)}">${esc(relTime(b))}</span></span></div>`;
 }
 function renderCrumbs(crumbs){
   const parts = ['<a href="#inicio">Inicio</a>'];

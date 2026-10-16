@@ -354,16 +354,23 @@ def home_prerender(items, base=''):
     def lead_item(i):
         summary = f'<p>{esc(i["summary"])}</p>' if i.get('summary') else ''
         return (f'<article><small>{esc(category(i))} · {fmt_day(item_dt(i))}</small>'
-                f'<h3><a href="{base}noticias/{esc(i["id"])}/">{esc(i["title"])}</a></h3>{summary}'
+                f'<h3><a {item_link(i, base)}>{esc(i["title"])}</a></h3>{summary}'
                 f'<small>Fuente: {esc(primary(i).get("name"))}</small></article>')
     lead = ''.join(lead_item(i) for i in curated)
     return (f'    <div class="pre-home">\n      <h2>Noticias verificadas por la redacción</h2>\n      <div class="pre-lead">{lead}</div>\n'
             f'      <h2>Otras noticias de comercio exterior</h2>\n      {headline_list(auto, base, 20)}\n    </div>\n')
 
 
+def item_link(i, base):
+    """Las notas de la redacción tienen página propia; los titulares automáticos llevan al artículo original."""
+    if is_auto(i):
+        return f'href="{esc(primary(i).get("url"))}" rel="noopener noreferrer"'
+    return f'href="{base}noticias/{esc(i["id"])}/"'
+
+
 def headline_list(lst, base, n=30):
     return '<ul class="pre-list">' + ''.join(
-        f'<li><a href="{base}noticias/{esc(i["id"])}/">{esc(i["title"])}</a><small>{esc(primary(i).get("name"))} · {fmt_day(item_dt(i))}</small></li>'
+        f'<li><a {item_link(i, base)}>{esc(i["title"])}</a><small>{esc(primary(i).get("name"))} · {fmt_day(item_dt(i))}</small></li>'
         for i in lst[:n]) + '</ul>'
 
 
@@ -420,7 +427,7 @@ def tool_body(key, news, items, sitedata, base):
         return ('<p>Comexplora es un portal de noticias, datos y herramientas sobre comercio exterior, con foco en Argentina y Latinoamérica.</p>'
                 '<h2>Criterios editoriales</h2><ul>'
                 '<li>Toda nota identifica su fuente y enlaza al original; no se publican noticias sin título, fecha y fuente.</li>'
-                '<li>Las notas de la redacción se verifican contra la fuente original. Las marcadas como «Automática» provienen del feed de la fuente y no tienen revisión editorial.</li>'
+                '<li>Las notas de la redacción se verifican contra la fuente original. Los titulares marcados como «Enlace al medio» provienen del feed de la fuente, no tienen revisión editorial y abren el artículo original.</li>'
                 '<li>Las calculadoras dan estimaciones orientativas y citan las normas que usan, con su fecha de revisión.</li>'
                 '<li>Para pedir una corrección, escribinos con el enlace a la nota' + (f' a {mail_html}' if mail else '') + '.</li></ul>')
     if key == 'contacto':
@@ -690,6 +697,24 @@ def main():
     for it in items:
         ids.add(it['id'])
         url = f'{SITE}/noticias/{it["id"]}/'
+        if is_auto(it):
+            # Titular de otro medio: sin página propia. La dirección (enlaces viejos o compartidos) lleva al original.
+            src = primary(it).get('url') or f'{SITE}/'
+            stub_ids = [it['id']] + [x for x in (it.get('mergedIds') or [])
+                                     if x and x not in ids and '/' not in x and not x.startswith('.')]
+            ids.update(stub_ids)
+            for sid in stub_ids:
+                d = out_dir / sid
+                d.mkdir(parents=True, exist_ok=True)
+                (d / 'index.html').write_text(
+                    f'<!doctype html><html lang="es"><head><meta charset="utf-8"><title>{esc(it["title"])} · {SITE_NAME}</title>'
+                    f'<meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,follow">'
+                    f'<meta http-equiv="refresh" content="0; url={esc(src)}"></head>'
+                    f'<body style="font-family:system-ui,sans-serif;max-width:640px;margin:40px auto;padding:0 16px;line-height:1.5">'
+                    f'<p>Esta noticia la publicó {esc(primary(it).get("name") or "otro medio")}.</p>'
+                    f'<p><a href="{esc(src)}">Ir al artículo original: {esc(it["title"])}</a></p>'
+                    f'<p><a href="../../">Volver a {SITE_NAME}</a></p></body></html>\n', encoding='utf-8')
+            continue
         img, img_alt, source_img = photo_for(it, bank)
         share_img, share_alt, share_size = img, img_alt, None
         if it['id'] in og_map:   # tarjeta propia para redes (título + dato clave + marca)
@@ -768,7 +793,7 @@ def main():
            f'<language>es-ar</language><lastBuildDate>{email.utils.format_datetime(NOW)}</lastBuildDate>',
            f'<atom:link href="{SITE}/feed.xml" rel="self" type="application/rss+xml"/>']
     for it in items[:50]:
-        u = f'{SITE}/noticias/{it["id"]}/'
+        u = esc(primary(it).get('url')) if is_auto(it) else f'{SITE}/noticias/{it["id"]}/'
         rss.append(f'<item><title>{esc(it["title"])}</title><link>{u}</link><guid isPermaLink="true">{u}</guid>'
                    f'<pubDate>{email.utils.format_datetime(item_dt(it))}</pubDate><source url="{esc(primary(it).get("url"))}">{esc(primary(it).get("name"))}</source>'
                    f'<description>{esc(it.get("summary") or ("Nota de " + (primary(it).get("name") or SITE_NAME)))}</description></item>')

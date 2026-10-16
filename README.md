@@ -22,6 +22,8 @@ El workflow `.github/workflows/update-news.yml` corre a las 06:30, 10:30, 14:30,
 3. `scripts/build_pages.py` genera `index.html`, una página liviana por nota en `/noticias/<id>/` (con su propio título, descripción e imagen para redes), una página por sección (`/seccion/<slug>/`), por tema en desarrollo (`/tema/<id>/`) y por guía (`/guias/<slug>/`), las herramientas (`/datos/`, `/agenda/`, `/glosario/`, `/calculadora-importacion/`, `/calculadora-exportacion/`, `/guias/`…), `data/latest.json`, `sitemap.xml`, `news-sitemap.xml` y `feed.xml`. Borra las páginas que ya no corresponden.
 4. Guarda los cambios en el repositorio y publica el sitio. Si mientras corría alguien publicó otro cambio (por ejemplo, la curaduría), gana el cambio publicado: se descarta lo del bot en esa corrida, se regeneran las páginas sobre lo publicado y las noticias nuevas entran en la corrida siguiente.
 
+Las notas automáticas no tienen página propia: en el sitio aparecen como titulares marcados «Enlace al medio» que abren el artículo original en otra pestaña, y su dirección `/noticias/<id>/` (enlaces viejos o compartidos) es una página mínima que redirige al medio. Solo las notas de la redacción tienen página de lectura. El bot descarta como resumen los eslóganes del sitio del medio (`SITE_SLOGAN`) y los textos repetidos en notas con títulos distintos.
+
 La página, además, vuelve a consultar `data/latest.json` cada 10 minutos y suma las notas nuevas sin recargar.
 
 ## Dónde editar
