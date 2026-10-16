@@ -145,19 +145,41 @@ TOPIC_RULES = [
     ('Tecnología COMEX', [r'digitaliz', r'blockchain', r'inteligencia artificial', r'\bia\b', r'software']),
 ]
 VISUAL_RULES = [
+    # Productos concretos primero: la foto tiene que mostrar de qué trata la nota.
+    ('wine', [r'\bvinos?\b', r'vitivin', r'\bbodegas?\b', r'\bmosto', r'\bwines?\b']),
+    ('sheep', [r'cordero', r'\bovin', r'\blana\b', r'\blamb\b', r'\bsheep']),
+    ('livestock', [r'carnes? (vacuna|bovina|argentina)', r'\bcarnes\b', r'bovin', r'ganad(o|eria)', r'frigorif', r'\bbeef\b', r'feedlot', r'aftosa', r'novillo']),
+    ('auto', [r'\bautos?\b', r'automo(tr|vil)', r'vehiculo', r'autopartes', r'\badefa\b', r'\bhibridos\b', r'\bpick-?ups?\b', r'\bcars?\b']),
+    ('textile', [r'textil', r'indumentaria', r'\bropa\b', r'algodon']),
+    ('fruit', [r'\bfrutas?\b', r'fruticol', r'\blimon', r'arandano', r'\bmanzanas?\b', r'citric', r'cerezas']),
+    ('parcel', [r'courier', r'comercio electronico', r'e-?commerce', r'puerta a puerta', r'\btemu\b', r'\bshein\b', r'pequenos envios']),
+    ('tech', [r'celulares', r'smartphone', r'\belectronica\b', r'semiconductor', r'\bchips?\b']),
     ('plane', [r'carga aerea', r'air cargo', r'aereo', r'airline', r'\biata\b', r'aeropuerto']),
-    ('tanker', [r'petrol', r'\boil\b', r'crudo', r'tanker', r'\bgnl\b', r'\blng\b', r'ormuz']),
+    ('tanker', [r'ormuz', r'tanker', r'(petrol|crudo)[^.]{0,60}flete', r'flete[^.]{0,60}(petrol|crudo)', r'petroleros?\b', r'buques? (tanque|cisterna)', r'metanero', r'\bgnl\b', r'\blng\b']),
+    ('energy', [r'vaca muerta', r'petrol', r'crudo', r'\boil\b', r'hidrocarbur', r'yacimiento']),
     ('steel', [r'acero', r'steel', r'aluminio', r'aluminium', r'aluminum']),
     ('court', [r'tribunal', r'court', r'corte', r'justicia', r'fallo']),
+    ('mining', [r'miner', r'\blitio', r'lithium', r'\bcobre\b', r'copper', r'\bmining\b']),
+    ('agro', [r'\bsoja', r'soybean', r'oleaginos']),
+    ('grain', [r'\btrigo', r'\bmaiz\b', r'cereal', r'cebada', r'\bsorgo', r'\bwheat', r'\bcorn\b', r'granos']),
+    ('agro', [r'cosecha', r'agroexport', r'\bagro\b']),
+    ('truck', [r'camion', r'transporte (terrestre|carretero|por carretera)', r'transportistas?\b', r'\btrucks?\b']),
     ('port', [r'puerto', r'\bport\b', r'terminal']),
     ('container', [r'contenedor', r'container', r'\bteu\b', r'\bfeu\b']),
     ('ship', [r'maritim', r'shipping', r'buque', r'vessel', r'naviera', r'flete']),
-    ('mining', [r'miner', r'\blitio', r'lithium', r'\bcobre\b', r'copper', r'\bmining\b']),
-    ('agro', [r'\bsoja', r'soybean', r'\btrigo', r'\bmaiz\b', r'granos', r'cereal', r'cosecha', r'agroexport', r'\bagro\b', r'oleaginos']),
     ('customs', [r'aduan', r'customs', r'arancel', r'tariff', r'import(?!an)', r'export']),
     ('treaty', [r'acuerdo', r'tratado', r'agreement', r'mercosur', r'\bomc\b', r'\bwto\b']),
     ('chart', [r'balanza', r'estadistic', r'statistic', r'indice', r'index', r'crecimiento', r'growth']),
 ]
+
+
+def visual_for(title: str, text: str) -> str:
+    """Categoría de la foto de archivo: manda el título (de qué trata la nota); si no alcanza, el resumen."""
+    for t in (norm(title), norm(text)):
+        v = next((v for v, pats in VISUAL_RULES if any_match(t, pats)), None)
+        if v:
+            return v
+    return 'globe'
 
 
 # Imágenes que no son fotos de la nota: logos, imágenes por defecto, íconos.
@@ -613,7 +635,7 @@ def classify(text: str, source: dict):
         clean = ['Economía internacional']
     if not countries:
         countries = list(source.get('countries') or ['Global'])
-    visual = next((v for v, pats in VISUAL_RULES if any_match(t, pats)), 'globe')
+    visual = visual_for(text.split('\n', 1)[0], text)
     affects = 'Argentina' in countries or 'mercosur' in t
     impact = 2 if affects and any(x in clean for x in ('Aranceles', 'Regulaciones', 'Aduanas', 'Impuestos')) else 1
     return clean[:5], countries[:5], visual, affects, impact
@@ -1167,7 +1189,7 @@ def main():
         it.update({'topics': topics, 'countries': countries, 'impact': impact,
                    'affectsArgentina': affects or bool(it.get('mergedIds') and it.get('affectsArgentina'))})
         it['tags'] = make_tags(' '.join([it.get('title', ''), it.get('summary', '')]), {})
-        it['visual'] = next((v for v, pats in VISUAL_RULES if any_match(norm(it.get('title', '') + ' ' + it.get('summary', '')), pats)), 'globe')
+        it['visual'] = visual_for(it.get('title', ''), it.get('title', '') + ' ' + it.get('summary', ''))
 
     # Google Noticias: enlace del medio, descripción e imagen de la página original.
     gn = resolve_gnews(by_url)

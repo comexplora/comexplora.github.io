@@ -279,7 +279,7 @@ function normalize(raw){
     id: raw.id || slug(raw.title).slice(0,80), date: raw.date, datetime: raw.datetime || null, updated: raw.updated || null, firstSeen: raw.firstSeen || null,
     title: raw.title, summary: raw.label === 'Automática' ? cleanSummary(raw.summary) : (raw.summary || ''), body: raw.label === 'Automática' ? (raw.body || []).map(cleanSummary).filter(Boolean) : (raw.body || []), keyData: raw.keyData || [],
     topics: (raw.topics || []).filter(t => TOPICS.includes(t)), countries: raw.countries || [], tags: raw.tags || [],
-    visual: raw.visual || 'globe', impact: Math.min(3, Math.max(1, raw.impact || 1)), kind, label,
+    visual: raw.visual || 'globe', stock: raw.stock || '', impact: Math.min(3, Math.max(1, raw.impact || 1)), kind, label,
     breaking: !!raw.breaking, affectsArgentina: !!raw.affectsArgentina, argentinaNote: raw.argentinaNote || '', argentinaImpact: raw.argentinaImpact || null,
     photo: raw.photo || null, sources: raw.sources, primary, also: (raw.sources || []).filter(s => s.alsoIn && s.url),
     deadlines: Array.isArray(raw.deadlines) ? raw.deadlines : [], story: raw.story || '',
@@ -463,7 +463,9 @@ const PHOTOS = {
     for (const [k, list] of Object.entries(bank)) if (Array.isArray(list) && list.length) PHOTOS[k] = list;
   } catch (e) { console.warn('Banco de fotos no disponible', e); }
 })();
-const stockFor = it => { const bank = PHOTOS[it.visual] || PHOTOS.globe; return bank[hash(it.id) % bank.length]; };
+// "stock" (id de una foto del banco) fija la foto de una nota; si no, se elige una de su categoría ("visual").
+const stockById = id => { for (const l of Object.values(PHOTOS)) { const p = l.find(x => x.id === id); if (p) return p; } return null; };
+const stockFor = it => { const fixed = it.stock && stockById(it.stock); if (fixed) return fixed; const bank = PHOTOS[it.visual] || PHOTOS.globe; return bank[hash(it.id) % bank.length]; };
 function photoFor(it){
   if (CONFIG.useSourceImages && it.photo?.src) return { ...it.photo, source: true };
   return stockFor(it);
