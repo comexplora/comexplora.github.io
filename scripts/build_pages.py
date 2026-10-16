@@ -23,7 +23,7 @@ import json
 import os
 import re
 import shutil
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import sys
@@ -252,12 +252,14 @@ def explainer_html(it):
 
 def prerender_article(it, img, img_alt, source_img):
     p = primary(it)
-    body = it.get('body') or ([it['summary']] if it.get('summary') else [])
+    auto = is_auto(it)
+    body = it.get('body') or ([] if auto else ([it['summary']] if it.get('summary') else []))
+    lede = it.get('summary') if not (auto and it.get('body')) else ''
     credit = f'Imagen: {esc(p.get("name"))}' if source_img else 'Foto de archivo ilustrativa'
     return f'''    <article class="pre-article">
       <p class="pre-meta"><a href="../../">Noticias</a> · {esc(category(it))} · <time datetime="{esc(it.get('datetime') or it.get('date'))}">{fmt_day(item_dt(it))}</time></p>
       <h1>{esc(it['title'])}</h1>
-      {f'<p class="lede">{esc(it["summary"])}</p>' if it.get('summary') else ''}
+      {f'<p class="lede">{esc(lede)}</p>' if lede else ''}
       <p class="pre-meta">Fuente: <a href="{esc(p.get('url'))}" rel="noopener noreferrer">{esc(p.get('name'))}</a></p>
       <p class="pre-meta">{'Nota automática: título y extracto del feed de la fuente, sin revisión de la redacción.' if is_auto(it) else 'Nota de la redacción, verificada contra las fuentes enlazadas.'}</p>
       <img src="{esc(img)}" alt="{esc(img_alt)}" width="1200" height="675"{' referrerpolicy="no-referrer"' if source_img else ''}>
@@ -640,12 +642,6 @@ def main():
     meses_l = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']
     hoy = NOW.astimezone(TZ)
     STATUS['today'] = f'{dias[hoy.weekday()]}, {hoy.day} de {meses_l[hoy.month - 1]} de {hoy.year}'
-    week = sum(1 for i in items if item_dt(i) >= NOW - timedelta(days=7))
-    STATUS['count'] = (f'<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4z"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>'
-                       f'<b>{min(len(items), LATEST_MAX)}</b>&nbsp;noticias · <b>{week}</b>&nbsp;en 7 días')
-    today_n = sum(1 for i in items if item_dt(i).astimezone(TZ).date() == hoy.date())
-    if today_n:
-        STATUS['count'] += f' · <b>{today_n}</b>&nbsp;hoy'
     og_map = {}
     if og_images:
         try:
@@ -656,6 +652,12 @@ def main():
     # Feed para la página: todas las curadas + las automáticas más recientes, con tope.
     curated = [i for i in items if not is_auto(i)]
     latest = sorted(curated + [i for i in items if is_auto(i)][:max(0, LATEST_MAX - len(curated))], key=item_dt, reverse=True)
+    # Conteo del encabezado: mismas notas y misma regla que la página (data/latest.json, días de calendario).
+    ddiff = lambda i: (hoy.date() - (date.fromisoformat(i['date'][:10]) if i.get('date') else item_dt(i).astimezone(TZ).date())).days
+    week = sum(1 for i in latest if ddiff(i) <= 7)
+    today_n = sum(1 for i in latest if ddiff(i) == 0)
+    STATUS['count'] = (f'<svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v14H4z"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>'
+                       f'<b>{len(latest)}</b>&nbsp;noticias · <b>{week}</b>&nbsp;en 7 días' + (f' · <b>{today_n}</b>&nbsp;hoy' if today_n else ''))
     (ROOT / 'data' / 'latest.json').write_text(json.dumps(feed_payload(news, latest), ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
 
     # Portada

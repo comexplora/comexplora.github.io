@@ -53,6 +53,7 @@ CURATED_MIN_SHARED = 4     # sin cifra en común, hacen falta al menos 4 palabra
 
 # Agrupamiento de automáticas que cuentan el mismo hecho (ver group_auto). Calibrado con el archivo de octubre de 2026.
 GROUP_WINDOW_HOURS = 60    # solo se agrupan notas publicadas con menos de 60 h de diferencia
+GROUP_SAME_TITLE_DAYS = 10  # el mismo título publicado por otro medio días después también se une
 GROUP_MIN_SIM = 0.55       # parecido mínimo de títulos (palabras raras pesan más; sobre el título más corto)
 GROUP_MIN_SHARED = 3       # palabras significativas compartidas como mínimo
 GROUP_RARE_IDF = 3.0       # una palabra es "rara" si aparece en pocas notas del archivo (idf ≥ esto)
@@ -464,7 +465,7 @@ USE_SOURCE_IMAGES_DEFAULT = False
 # ---------------------------------------------------------------- limpieza de textos
 BYLINE = re.compile(r'^(Por\s+[^@\n]{2,60}?\s+@\w+\s*|Por\s+Redacci[oó]n\s*[|:–-]?\s*)', re.I)
 # Pie que agregan los feeds de WordPress: «La entrada <título> se publicó primero en <medio>.»
-WP_FOOTER = re.compile(r'\s*(?:\[(?:…|\.\.\.)\]\s*)?La entrada .+? se public[oó] primero en .+?\.?\s*$', re.S)
+WP_FOOTER = re.compile(r'\s*(?:\[(?:…|\.\.\.)\]\s*)?(?:La entrada .+? se public[oó] primero en|The post .+? appeared first on) .+?\.?\s*$', re.S)
 GENERIC_SUMMARY = re.compile(r'^Nota publicada por .*Abrí el artículo original', re.I)
 
 
@@ -473,7 +474,72 @@ def clean_summary(s: str) -> str:
     cut = WP_FOOTER.sub('', s).strip()
     if cut != s:
         s = cut.rstrip(' ,;:') + ('' if cut.endswith(('.', '…', '!', '?')) else '…') if cut else ''
+    s = re.sub(r'\s*\[(?:…|\.\.\.)\]\s*$', '…', s)   # «[…]» final de WordPress → «…»
     return '' if GENERIC_SUMMARY.match(s) or len(s) < 40 else s
+
+
+# ---------------------------------------------------------------- nombres de medios y títulos en mayúsculas
+# Google Noticias a veces informa el medio como dominio («www.abc.com.py»): se muestra con su nombre.
+OUTLET_NAMES = {
+    'abc.com.py': 'ABC Color', 'latribuna.com.py': 'La Tribuna', 'moncloa.com': 'Moncloa.com',
+    'diariopinion.com.ar': 'Diario Opinión', 'noticiasdebariloche.com.ar': 'Noticias de Bariloche',
+    'logistica360chile.cl': 'Logística 360 Chile', 'soy-chile.cl': 'Soy Chile', 'zonazero.cl': 'Zona Zero',
+    'revistaeyn.com': 'Revista E&N', 'diariodelpuerto.com': 'Diario del Puerto', 'metrolibre.com': 'Metro Libre',
+    'frequencynews.ca': 'Frequency News', 'elmiercolesdigital.com.ar': 'El Miércoles Digital',
+    'clarin.com': 'Clarín', 'infobae.com': 'Infobae', 'lmneuquen.com': 'LM Neuquén', 'radionacional.com.ar': 'Radio Nacional',
+    'euronews.com': 'Euronews', 'rtve.es': 'RTVE', 'lacapital.com.ar': 'La Capital', 'larepublica.co': 'La República',
+    'portafolio.co': 'Portafolio', 'lne.es': 'La Nueva España', 'vanguardia.com.mx': 'Vanguardia MX',
+    'econojournal.com.ar': 'EconoJournal', 'mercado.com.ar': 'Revista Mercado', 'soychile.cl': 'Soy Chile',
+    'merca2.es': 'Merca2', 'motor.es': 'Motor.es', 'cadenadesuministro.es': 'Cadena de Suministro', 'gub.uy': 'Gobierno de Uruguay',
+    'argentina.gob.ar': 'Argentina.gob.ar', 'revistachacra.com.ar': 'Revista Chacra', 'diariojujuy.com.ar': 'Diario Jujuy',
+    'canal26.com': 'Canal 26', 'elheraldo.com.ar': 'El Heraldo', 'economis.com.ar': 'Economis', 'dolarhoy.com': 'DolarHoy',
+    'lacamara.pe': 'La Cámara (CCL)', 'dataportuaria.com': 'Data Portuaria', 'ace-cargadores.com': 'Asociación de Cargadores de España',
+    'korea.net': 'Korea.net', 'diaadia.com.pa': 'Día a Día', '7dias.com.do': '7 Días', 'negocios.com': 'Negocios.com',
+}
+OUTLET_ALIASES = {'investing.com méxico - finanzas, bolsa y forex': 'Investing.com México'}
+DOMAIN_RX = re.compile(r'^(?:https?://)?(?:www\.)?([a-z0-9-]+(?:\.[a-z0-9-]+)+)/?$', re.I)
+
+
+def outlet_name(name: str, url: str = '') -> str:
+    n = (name or '').strip()
+    n = OUTLET_ALIASES.get(n.lower(), n)
+    m = DOMAIN_RX.match(n)
+    if not m:
+        return n
+    dom = m.group(1).lower()
+    return OUTLET_NAMES.get(dom, dom)
+
+
+# Siglas y nombres propios que deben quedar en mayúsculas o con inicial mayúscula al bajar un título en mayúsculas.
+CAPS_KEEP = {'arca', 'afip', 'indec', 'bcra', 'senasa', 'omc', 'oma', 'ue', 'eeuu', 'ee.uu.', 'eua', 'fob', 'cif', 'iva',
+             'pbi', 'pyme', 'pymes', 'rigi', 'vucea', 'sim', 'ata', 'cda', 'ipcva', 'ypf', 'usd', 'oea', 'tmec', 't-mec', 'bid'}
+CAPS_PROPER = {'mercosur': 'Mercosur', 'aduana': 'Aduana', 'posadas': 'Posadas', 'comex': 'COMEX', 'sial': 'SIAL'}
+
+
+def fix_caps(title: str) -> str:
+    """Un título TODO EN MAYÚSCULAS pasa a mayúscula inicial, conservando siglas, países y nombres conocidos."""
+    letters = [c for c in title if c.isalpha()]
+    if len(letters) < 12 or sum(c.isupper() for c in letters) / len(letters) < 0.9:
+        return title
+    proper = {}
+    for country in COUNTRIES:
+        for x in country.split():
+            if x[:1].isupper():
+                proper[x.lower()] = x
+    out = []
+    for i, w in enumerate(re.split(r'(\s+)', title.lower())):
+        core = w.strip('¿?¡!:;,.«»"()')
+        if core in CAPS_KEEP:
+            w = w.replace(core, core.upper())
+        elif core in CAPS_PROPER:
+            w = w.replace(core, CAPS_PROPER[core])
+        elif core in proper:
+            w = w.replace(core, proper[core])
+        out.append(w)
+    s = ''.join(out)
+    # Mayúscula al inicio y después de «:», «¿», «¡», «?» o «.»
+    s = re.sub(r'(^|[:.?!]\s+|[¿¡])([a-záéíóúñ])', lambda m: m.group(1) + m.group(2).upper(), s)
+    return s
 
 
 def excluded(text: str) -> bool:
@@ -756,14 +822,21 @@ def group_auto(items: list) -> list:
             return 'raras'
         return ''
 
+    def same_title(a, b) -> bool:
+        if (when[id(b)] - when[id(a)]).total_seconds() > GROUP_SAME_TITLE_DAYS * 86400:
+            return False
+        ta, tb = docs[id(a)], docs[id(b)]
+        return len(ta) >= 4 and (ta == tb or (len(ta & tb) >= 5 and sim_title(ta, tb) >= 0.9))
+
     # Grupos sin encadenar: una nota entra a un grupo solo si coincide con un tercio o más de sus miembros
     # (evita que A≈B y B≈C terminen uniendo A con C cuando hablan de cosas distintas).
     groups_tmp = []
     for i, b in enumerate(auto):
         best, best_hits = None, 0
         for g in groups_tmp:
-            if (when[id(b)] - when[id(g[0])]).total_seconds() > GROUP_WINDOW_HOURS * 3600:
-                continue
+            if (when[id(b)] - when[id(g[0])]).total_seconds() > GROUP_WINDOW_HOURS * 3600 and \
+                    not any(same_title(a, b) for a in g):
+                continue  # fuera de la ventana solo se une el mismo título (otro medio que la levanta días después)
             hits = sum(1 for a in g if same_event(a, b))
             if hits and hits * 3 >= len(g) and hits > best_hits:
                 best, best_hits = g, hits
@@ -951,8 +1024,8 @@ def main():
 
             first_seen = parse_date((old or {}).get('firstSeen')) or NOW
             pub = p['pub'] or parse_date((old or {}).get('datetime')) or first_seen
-            if pub > NOW + timedelta(hours=1):
-                pub = NOW
+            if pub > first_seen:
+                pub = first_seen  # algunos feeds informan una hora posterior a la captura (zona horaria mal declarada)
             topics, countries, visual, affects, impact = classify(text, src)
 
             if old:
@@ -965,7 +1038,8 @@ def main():
                     n += 1
                 ids.add(item_id)
 
-            source_name = p['origin'] or name
+            source_name = outlet_name(p['origin'] or name, p['url'])
+            title_txt = fix_caps(p['title'])
             photo = (old or {}).get('photo')
             if not src.get('use_source_images', USE_SOURCE_IMAGES_DEFAULT):
                 photo = None
@@ -986,7 +1060,7 @@ def main():
                 'datetime': iso(pub),
                 'date': pub.astimezone(TZ).date().isoformat(),
                 'firstSeen': iso(first_seen),
-                'title': trim(p['title'], 180),
+                'title': trim(title_txt, 180),
                 'summary': summary,
                 'body': [trim(desc, 900)] if len(desc) > 320 else [],
                 'keyData': [],
@@ -1054,6 +1128,12 @@ def main():
             del by_url[key]
             continue
         it['summary'] = clean_summary(it.get('summary', ''))
+        it['title'] = fix_caps(it.get('title', ''))
+        for x in it.get('sources') or []:
+            x['name'] = outlet_name(x.get('name', ''), x.get('url', ''))
+        pub, seen = parse_date(it.get('datetime') or ''), parse_date(it.get('firstSeen') or '')
+        if pub and seen and pub > seen:
+            it['datetime'], it['date'] = iso(seen), seen.astimezone(TZ).date().isoformat()
         if it.get('body'):
             it['body'] = [b for b in (clean_summary(x) for x in it['body']) if b]
         dup = curated.match(it.get('id', ''), primary_url(it), it.get('title', ''),

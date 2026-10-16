@@ -256,12 +256,13 @@ const adapters = {
 // Resumen genérico de versiones anteriores del bot (notas de Google Noticias sin descripción): no se muestra.
 const GENERIC_SUM = /^Nota publicada por .*Abrí el artículo original/i;
 // Pies y firmas que agregan algunos feeds («La entrada … se publicó primero en …», «Por Nombre @medio»).
-const WP_FOOTER = /\s*(?:\[(?:…|\.\.\.)\]\s*)?La entrada .+? se public[oó] primero en .+?\.?\s*$/s;
+const WP_FOOTER = /\s*(?:\[(?:…|\.\.\.)\]\s*)?(?:La entrada .+? se public[oó] primero en|The post .+? appeared first on) .+?\.?\s*$/s;
 const BYLINE_RX = /^(?:Por\s+[^@\n]{2,60}?\s+@\w+\s*|Por\s+Redacci[oó]n\s*[|:–-]?\s*)/i;
 function cleanSummary(t){
   let s = String(t || '').trim().replace(BYLINE_RX, '').trim();
   const cut = s.replace(WP_FOOTER, '').trim();
   if (cut !== s) s = cut ? cut.replace(/[\s,;:]+$/, '') + (/[.…!?]$/.test(cut) ? '' : '…') : '';
+  s = s.replace(/\s*\[(?:…|\.\.\.)\]\s*$/, '…');
   return GENERIC_SUM.test(s) || s.length < 40 ? '' : s;
 }
 const sumP = (it, cls = '', txt = it.summary) => txt ? `<p${cls ? ` class="${cls}"` : ''}>${hl(txt)}</p>` : '';
@@ -274,7 +275,7 @@ function normalize(raw){
   const kind = KINDS[raw.kind] ? raw.kind : (norm(label) === 'analisis' ? 'analisis' : 'noticia');
   return {
     id: raw.id || slug(raw.title).slice(0,80), date: raw.date, datetime: raw.datetime || null, updated: raw.updated || null, firstSeen: raw.firstSeen || null,
-    title: raw.title, summary: raw.label === 'Automática' ? cleanSummary(raw.summary) : (raw.summary || ''), body: raw.body || [], keyData: raw.keyData || [],
+    title: raw.title, summary: raw.label === 'Automática' ? cleanSummary(raw.summary) : (raw.summary || ''), body: raw.label === 'Automática' ? (raw.body || []).map(cleanSummary).filter(Boolean) : (raw.body || []), keyData: raw.keyData || [],
     topics: (raw.topics || []).filter(t => TOPICS.includes(t)), countries: raw.countries || [], tags: raw.tags || [],
     visual: raw.visual || 'globe', impact: Math.min(3, Math.max(1, raw.impact || 1)), kind, label,
     breaking: !!raw.breaking, affectsArgentina: !!raw.affectsArgentina, argentinaNote: raw.argentinaNote || '', argentinaImpact: raw.argentinaImpact || null,
@@ -1055,6 +1056,7 @@ function renderArticle(it){
   const words = [it.title, it.summary, it.body.join(' '), x.what, x.why, x.who, (x.products || []).join(' '), x.next,
     it.keyData.flat().join(' '), ai.change, ai.who].filter(Boolean).join(' ').split(/\s+/).length;
   const mins = Math.max(1, Math.round(words / 200));
+  const auto = isAuto(it);
   const saved = store.get('comex.saved', []).includes(it.id);
   const related = state.items.filter(o => o.id !== it.id)
     .map(o => ({ o, s: o.topics.filter(t => it.topics.includes(t)).length * 2 + o.countries.filter(c => it.countries.includes(c) && c !== 'Global').length + o.tags.filter(t => it.tags.includes(t)).length * 3 + (Math.abs(dayDiff(o) - dayDiff(it)) <= 7 ? 1 : 0) }))
@@ -1065,7 +1067,7 @@ function renderArticle(it){
     <div class="article-top"><a class="btn sm" href="#inicio">${I.back}Volver a Noticias</a>${eyebrow(it)}${kindBadge(it, true)}${originBadge(it)}${newBadge(it)}${argFlag(it)}
       <div class="textsize" role="group" aria-label="Tamaño del texto">${[['1','A','Texto normal'],['1.12','A','Texto grande'],['1.25','A','Texto muy grande']].map(([v,l,a]) => `<button type="button" data-size="${v}" aria-label="${a}" aria-pressed="${prefs.size===v}">${l}</button>`).join('')}</div></div>
     <h1 itemprop="headline">${esc(it.title)}</h1>
-    ${it.summary ? `<p class="lede" itemprop="description">${esc(it.summary)}</p>` : ''}
+    ${it.summary && !(auto && it.body.length) ? `<p class="lede" itemprop="description">${esc(it.summary)}</p>` : ''}
     <div class="srcbar">
       <a class="src-main" href="${esc(it.primary.url)}" target="_blank" rel="noopener noreferrer"><span class="k">Fuente</span><b>${esc(it.primary.name)} ${I.ext}</b><span class="note">${esc(it.primary.type || '')}</span></a>
       <dl class="srcbar-dl">
@@ -1076,7 +1078,7 @@ function renderArticle(it){
       ${it.updated ? `<div><dt>Actualizada</dt><dd><time itemprop="dateModified" datetime="${esc(it.updated)}">${esc(shortDate(new Date(it.updated)))} ${esc(fmtTime.format(new Date(it.updated)))} h</time></dd></div>` : ''}
       <div><dt>Países</dt><dd>${esc(it.countries.join(', '))}</dd></div>
       <div><dt>Impacto</dt><dd>${impactMeter(it)}</dd></div>
-      <div><dt>Lectura</dt><dd>${mins} min</dd></div>
+      ${auto ? `<div><dt>Texto</dt><dd>Extracto del medio</dd></div>` : `<div><dt>Lectura</dt><dd>${mins} min</dd></div>`}
       </dl>
     </div>
     <div class="art article-media">${media(it, 1200, { eager:true })}</div>
@@ -1084,7 +1086,8 @@ function renderArticle(it){
     ${isAuto(it) ? `<p class="prov auto"><b>Nota automática.</b> El título y el extracto provienen del feed de ${esc(it.primary.name)}; no pasó por la revisión de la redacción. Verificá los datos en el artículo original.</p>` : `<p class="prov"><b>Nota de la redacción.</b> Resumen propio, verificado contra las fuentes que se enlazan al pie; las cifras y declaraciones pertenecen a esas fuentes.</p>`}
     ${explainerBlock(it, gl)}
     ${impactBlock(it)}
-    <div class="prose" itemprop="articleBody">${it.body.length ? it.body.map(p => SUBHEAD_RX.test(p) ? `<h2 class="art-sub">${esc(p.replace(SUBHEAD_RX, ''))}</h2>` : `<p>${gl(p)}</p>`).join('') : it.summary ? `<p>${gl(it.summary)}</p>` : `<p class="note no-sum">Esta nota llegó por un agregador sin resumen: solo mostramos el titular. El texto completo está en ${esc(it.primary.name)}.</p>`}</div>
+    ${auto ? `<div class="prose auto-prose" itemprop="articleBody">${it.body.length ? it.body.map(p => `<p>${gl(p)}</p>`).join('') : ''}${it.summary || it.body.length ? `<p class="note more-src">Este es el extracto que publica ${esc(it.primary.name)}. La nota completa está en el sitio del medio.</p>` : `<p class="note no-sum">Esta nota llegó por un agregador sin resumen: solo mostramos el titular. El texto completo está en ${esc(it.primary.name)}.</p>`}</div>`
+    : `<div class="prose" itemprop="articleBody">${it.body.length ? it.body.map(p => SUBHEAD_RX.test(p) ? `<h2 class="art-sub">${esc(p.replace(SUBHEAD_RX, ''))}</h2>` : `<p>${gl(p)}</p>`).join('') : it.summary ? `<p>${gl(it.summary)}</p>` : ''}</div>`}
     ${it.also.length ? `<section class="srcs also-in" aria-labelledby="h-also"><h2 class="panel-h" id="h-also">También publicaron esta noticia</h2><ul>${it.also.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.name)}</a>${s.title ? ` <span class="t">· ${esc(s.title)}</span>` : ''}</li>`).join('')}</ul></section>` : ''}
     ${it.keyData.length ? `<section class="keydata" aria-labelledby="h-key"><h2 class="panel-h" id="h-key">Datos clave</h2><table>${it.keyData.map(([k,v]) => `<tr><td>${gl(k)}</td><td>${gl(v)}</td></tr>`).join('')}</table></section>` : ''}
     ${dls.length ? `<section class="keydata dl-box" aria-labelledby="h-dl"><h2 class="panel-h" id="h-dl">Fechas clave</h2>${deadlineListHtml(dls, { link:false })}<a class="foot-link" href="#agenda">Ver la agenda completa →</a></section>` : ''}
