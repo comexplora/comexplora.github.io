@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-10-19T17:55:25Z",
+  "updatedAt": "2026-10-19T21:56:07Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -134,20 +134,16 @@
     {
       "id": "tc-mayorista",
       "label": "Tipo de cambio mayorista ARS/USD",
-      "value": "$ 1.514,57",
-      "period": "Com. A 3500 · 16 oct 2026",
+      "value": "$ 1.523,35",
+      "period": "Com. A 3500 · 19 oct 2026",
       "source": "BCRA",
       "url": "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp",
       "group": "Mercados",
-      "obsDate": "2026-10-16",
-      "change": "0,0% vs. día hábil anterior",
-      "trend": "flat",
-      "checkedAt": "2026-10-19T17:56:27Z",
+      "obsDate": "2026-10-19",
+      "change": "+0,6% vs. día hábil anterior",
+      "trend": "up",
+      "checkedAt": "2026-10-19T21:56:58Z",
       "history": [
-        [
-          "2026-09-04",
-          1507.3745
-        ],
         [
           "2026-09-07",
           1511.154
@@ -263,11 +259,15 @@
         [
           "2026-10-16",
           1514.5655
+        ],
+        [
+          "2026-10-19",
+          1523.3466
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-19T17:56:27Z"
+      "lastAttempt": "2026-10-19T21:56:58Z"
     },
     {
       "id": "soja",
@@ -284,7 +284,7 @@
         "date": "2026-10-16",
         "ars": 552000.0
       },
-      "checkedAt": "2026-10-19T17:56:28Z",
+      "checkedAt": "2026-10-19T21:56:59Z",
       "_prev": {
         "date": "2026-10-15",
         "ars": 560000.0
@@ -333,7 +333,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-19T17:56:28Z"
+      "lastAttempt": "2026-10-19T21:56:59Z"
     },
     {
       "id": "brent",
@@ -346,7 +346,7 @@
       "obsDate": "2026-10-14",
       "change": "+0,6% vs. día anterior",
       "trend": "up",
-      "checkedAt": "2026-10-19T17:56:31Z",
+      "checkedAt": "2026-10-19T21:57:01Z",
       "history": [
         [
           "2026-09-03",
@@ -471,7 +471,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-10-19T17:56:31Z"
+      "lastAttempt": "2026-10-19T21:57:01Z"
     },
     {
       "id": "maiz",
@@ -488,7 +488,7 @@
         "date": "2026-10-16",
         "ars": 285000.0
       },
-      "checkedAt": "2026-10-19T17:56:31Z",
+      "checkedAt": "2026-10-19T21:57:01Z",
       "_prev": {
         "date": "2026-10-15",
         "ars": 286500.0
@@ -537,7 +537,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-19T17:56:31Z"
+      "lastAttempt": "2026-10-19T21:57:01Z"
     },
     {
       "id": "trigo",
@@ -554,7 +554,7 @@
         "date": "2026-10-16",
         "ars": 353000.0
       },
-      "checkedAt": "2026-10-19T17:56:31Z",
+      "checkedAt": "2026-10-19T21:57:01Z",
       "_prev": {
         "date": "2026-10-15",
         "ars": 350450.0
@@ -603,10 +603,801 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-19T17:56:31Z"
+      "lastAttempt": "2026-10-19T21:57:01Z"
     }
   ],
   "items": [
+    {
+      "id": "autovia-del-mercosur-inicia-la-cuarta-etapa-de-obras-en-la-rotonda-de-rn-12-y-rp",
+      "datetime": "2026-10-19T21:53:00Z",
+      "date": "2026-10-19",
+      "firstSeen": "2026-10-19T21:56:07Z",
+      "title": "Autovía del Mercosur inicia la cuarta etapa de obras en la rotonda de RN 12 y RP 6",
+      "summary": "A partir de las 19:00 horas de hoy, lunes 19 de octubre, se implementarán nuevos desvíos de tránsito en la zona de la rotonda de acceso a Zárate. Autovía del Mercosur informa que este lunes 19 de octubre, a partir de las 19:00 horas, comenzará la cuarta etapa de los trabajos de mejora de la calzada en la intersección…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Mercosur"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "DIAUNO",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://diauno.ar/autovia-del-mercosur-inicia-la-cuarta-etapa-de-obras-en-la-rotonda-de-rn-12-y-rp-6/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-19T21:56:07Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQLWxQZTZkRW1RWFFtb2cxNy15R3FMY2FCV21oenJOZk1HLWxOUUEzR3E3QXNENGJiRjdqWkhvU1lrUVZNbG9rVGFnaFFlZUdYQXhTajZ6b0lBMng2am83NVNTNWUxUEJRbFNSc2l4dC1OMDB4MW5Jc2l3d2VGWWZkSHRKdW9wOThGRnpsUDR2RXNzY0htMHh6Mlk0RzlmdzB0XzVn?oc=5"
+    },
+    {
+      "id": "dp-world-en-lirquen-busca-consolidarse-como-alternativa-logistica-estrategica-pa",
+      "datetime": "2026-10-19T21:50:06Z",
+      "date": "2026-10-19",
+      "firstSeen": "2026-10-19T21:56:07Z",
+      "title": "DP World en Lirquén busca consolidarse como alternativa logística estratégica para Vaca Muerta",
+      "summary": "DP World en Lirquén, en la Región del Bio Bio, está buscando consolidarse como una alternativa…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Logística",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Chile"
+      ],
+      "tags": [
+        "Energía"
+      ],
+      "visual": "energy",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/dp-world-en-lirquen-busca-consolidarse-como-alternativa-logistica-estrategica-para-vaca-muerta/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "sin-cambios-hubieramos-volado-por-los-aires-milei-celebro-el-record-exportador-y",
+      "datetime": "2026-10-19T21:48:00Z",
+      "date": "2026-10-19",
+      "firstSeen": "2026-10-19T21:56:07Z",
+      "title": "\"Sin cambios, hubiéramos volado por los aires\": Milei celebró el récord exportador y defendió el RIGI",
+      "summary": "El presidente defendi su plan econmico en Neuqun. Destac exportaciones por ms de USD 10.000 millones, el avance de Vaca Muerta y el impacto del RIGI.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "BAE Negocios",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.baenegocios.com/energia/milei-celebro-las-exportaciones-record-y-aseguro-sin-cambios-hubieramos-volado-por-los-aires/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-19T21:56:07Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSXBxUW40QmlWZFNoS1FLbHJMZXQ5TDAtZTRxc1U4bndySVhtbVRBbmpKZ3VicDFKLXgwQzhjZWdRS3ZQUkp3UFhacFhlRFZFaFVnR2ktR0w2TjZoM25zSlRUaDVkaWYtbzNNVUF4WnhRRWhzLWhnRExPb2ZCQUNVT0RNN2I2dGhldkJzRjlQaXp1OC1lMEVWZzJ2MGtadFFrSEhXWW9wWVNEbkZWdC1tQlhnSllRam5Dc3c3dnQ5N0FZRGpqU3BYdA?oc=5"
+    },
+    {
+      "id": "flavio-bolsonaro-defendio-regularizar-tierras-en-la-amazonia-y-conserva-el-apoyo",
+      "datetime": "2026-10-19T21:34:52Z",
+      "date": "2026-10-19",
+      "firstSeen": "2026-10-19T21:56:07Z",
+      "title": "Flávio Bolsonaro defendió regularizar tierras en la Amazonía y conserva el apoyo del agro pese a los aranceles de Trump",
+      "summary": "El candidato ultraderechista, que lidera el voto rural por identidad política y por agravios con el Gobierno de Lula, busca ampliar esa base a seis días del balotaje, con las encuestas en empate técnico",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Latinoamérica",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Brasil",
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Agro",
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "agro",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Infobae",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.infobae.com/america/america-latina/2026/10/19/flavio-bolsonaro-defendio-regularizar-tierras-en-la-amazonia-y-conserva-el-apoyo-del-agro-pese-a-los-aranceles-de-trump/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-19T21:56:07Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiigJBVV95cUxObVV6cENKSkFGWUsyaTluVER1WXVtWXViWXMyQm5aYzdPYTA2cV9FR0pZeG9OLXlFWkM2MHV6aDdSbmtMQ044aEM2ZUZRQWRiZFZNOWN6ZFZRYjRfQlVRNmx2dUstdjJUdzVtT2huem1Ock5WNDA1YlhUN2dwc0drUHA1Y1NsOThReTlkOGxEUkZYVlMwUWlUTUFGMnVHRGl2YmpPVGZYVVR4RnZFYy1iN2pMRDRFdEtGV0EtT0ZhaDVaV0Z6SkhteXBiZzI5OUNmaURqdURvN3JmZ2h6STRqVjN5akJMWjlpYVJOakNIdm5YVExhMXlZcEdXYmRGeC1RcDdxc0s1b0Nod9IBpAJBVV95cUxOemQ3MTdZc2RTdTVHdHJENVRFYnBOTFZKUUJDZHg2STRRMk5USzhaNXQxRUFfa3BPQnEwTG43NWFYRzBKRWc0ZVVOZ3ZjX1hpd3R4NFlmUkY1Vkp1ZTdFZEdvZnV6Z3dna1VVVDNTQ21sZU0zczE2ZGdzYmRYQm1hVi0xcEp4NWEyc24zbUJUV0JXdkRDT3VsczgtdFZmTEF2SllyZnBWdEJiU3hOLUtkQTlZNFdpZWt3VFdnYV9aTENKSTNSQ2ViWmNYVF9wZlVLcGZFSU43c0M0MzJrd1h4bzgxZ3d5MDJnY2h5MU5WMjZ0c0V0VGVISzlOdFRCYWtBYmRjM0hRaURzNWt1STlObXlfWTNwbExaYUpXMGpMV3BNR0pv?oc=5"
+    },
+    {
+      "id": "puerto-de-montreal-y-grupo-adani-fortalecen-los-lazos-entre-india-y-canada-y-ren",
+      "datetime": "2026-10-19T21:30:28Z",
+      "date": "2026-10-19",
+      "firstSeen": "2026-10-19T21:56:07Z",
+      "title": "Puerto de Montreal y Grupo Adani fortalecen los lazos entre India y Canadá y renuevan acuerdo de colaboración",
+      "summary": "En el marco de la misión comercial de Canadá a la India, la Autoridad Portuaria de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Puertos",
+        "Asia"
+      ],
+      "countries": [
+        "Canadá",
+        "India"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/puerto-de-montreal-y-grupo-adani-fortalecen-los-lazos-entre-india-y-canada-y-renuevan-acuerdo-de-colaboracion/",
+          "primary": true,
+          "author": "cmeza"
+        }
+      ]
+    },
+    {
+      "id": "nuevo-record-de-las-exportaciones-argentinas-al-superar-los-usd-10-000-millones",
+      "datetime": "2026-10-19T21:27:24Z",
+      "date": "2026-10-19",
+      "firstSeen": "2026-10-19T21:56:07Z",
+      "title": "Nuevo récord de las exportaciones argentinas al superar los USD 10.000 millones",
+      "summary": "La balanza comercial en septiembre alcanzó un superávit de USD 2.976 millones, con combustibles y energía como el rubro de mayor crecimiento exportador y una reducción interanual de las compras externas.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Los Primeros TV",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.losprimeros.tv/economia/nuevo-record-de-las-exportaciones-argentinas-al-superar-los-usd-10-000-millones_a6ad68a1ae22ee8014a7e7cb5",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Radio Mitre",
+          "type": "También publicó esta noticia",
+          "url": "https://radiomitre.cienradios.com/politica/javier-milei-celebro-el-superavit-comercial-de-septiembre-y-sostuvo-el-rumbo-economico-del-gobierno-batimos-el-record-de-exportaciones/",
+          "alsoIn": true,
+          "title": "Javier Milei celebró el superávit comercial de septiembre y sostuvo el rumbo económico del Gobierno: “Batimos el récord de exportaciones”"
+        }
+      ],
+      "gnTried": "2026-10-19T21:56:07Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdDFwMXZmLXR1MFRLNWt6NVlpbllVOGJRaE1uRUY5RzlTTVkySThjYnVjTlBSd3FLbzFlejZCWWJQRlE0SWo0N1hPSVQtVzYwelI1Z19CX3I0SldTejBoaXNzbHdyOGdXMGpfcXVpUUU1ZW56QWxPVU1qcTlQeUhxOWhLWEFBSndRTklZYXJrM3RqLW04b09SM00yQms5ZzNSMEdQOW5MckNqVmg1ZjRTc3hMNXY1d1cyMjd6S3hWclZnQjFSWlVSQ3hoQzhtdjZ6dkE5ZkhVTXM?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMiigJBVV95cUxQSXZQWFcwX0JVZE94UlFDc2JLN09KMkJYN081M2lSRnhNdXM2WVNtZGUzVGEwM2Y0VkpwclJZOFYyRmtHUGlJTWotWjFOT1liRVhST3h3QWlHTHBPUk1KM25XeXhSbm1LUllGLTFPeDdxX1MzbVV2dVNudmFwSThxTnRTRWgzX0RxQm1DUzMzQkliMjlxRDZnLUZFUTBpendISFJWUm1oT1RCZHc5NkQzaVY4eWxVb2pjeTB1NXVQTG50ckdpT3NmMDlvTE5uczVSbElCQVlVY2hvTnBCUjRaZ2lBV25XdlJtcUVKc3R1Z3p3SENIU0pzanIxV0pxX3dQMExycldGY1A2QQ",
+        "https://radiomitre.cienradios.com/politica/javier-milei-celebro-el-superavit-comercial-de-septiembre-y-sostuvo-el-rumbo-economico-del-gobierno-batimos-el-record-de-exportaciones"
+      ],
+      "mergedIds": [
+        "javier-milei-celebro-el-superavit-comercial-de-septiembre-y-sostuvo-el-rumbo-eco"
+      ]
+    },
+    {
+      "id": "en-neuquen-milei-destaco-el-crecimiento-de-las-exportaciones-de-petroleo-y-lo-ad",
+      "datetime": "2026-10-19T21:24:00Z",
+      "date": "2026-10-19",
+      "firstSeen": "2026-10-19T21:56:07Z",
+      "title": "En Neuquén, Milei destacó el crecimiento de las exportaciones de petróleo y lo adjudicó a las desregulaciones del Gobierno",
+      "summary": "Durante su participación en la Expo Argentina Oil & Gas (AOG) Patagonia, el Presidente proyectó un superávit comercial cercano a los US$30.000 millones para este año; aseguró que el Gobierno tiene cubiertos los próximos vencimientos de deuda y vinculó el rumbo económico con las elecciones 2027",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Energía"
+      ],
+      "visual": "energy",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "La Nación",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.lanacion.com.ar/politica/en-neuquen-milei-destaco-el-crecimiento-de-las-exportaciones-de-petroleo-y-lo-adjudico-a-las-nid19102026/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-19T21:56:07Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPOTdLNUxmWFEzOENxQWU0NUN6dm5IQU93QnpIYjNpc1ZxSUE5b2I5R1RaelE2WER5aFFlMXRpNWtWZjZuY0NBZnd3X2JYMDAyNDc5MC1qOFY1VHRqek1CMmc1ckFSYzRSSUFpY2FtYTVUNUlka21OYmV1amg2Vy1QbHB0M2c0V3VsSjAya2NaZFluTWNnR2dZcjV0RVdBdmxBaWdWT0E1bVpubmpvQktaMlZvZmlzdGNXb0VxQTlYaXIyNjZIZlNZSlpPSXM4NzdpMFZrQjNpMzBUQQ?oc=5"
+    },
+    {
+      "id": "bate-records-el-comercio-exterior-porla-aceleracion-de-las-exportaciones",
+      "datetime": "2026-10-19T21:16:56Z",
+      "date": "2026-10-19",
+      "firstSeen": "2026-10-19T21:56:07Z",
+      "title": "Bate récords el comercio exterior porla aceleración de las exportaciones",
+      "summary": "Septiembre cerró con un superávit comercial de 2.976 millones de dólares; el acumulado es récord",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "La Prensa Digital",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.laprensa.com.ar/Bate-records-el-comercio-exterior-porla-aceleracion-de-las-exportaciones-577026.note.aspx",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-19T21:56:07Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSFpFUlBTT1VuWlhseU5vWlJKTUNSYlU3dDVMaWg5TDFDdG9VOE5RVElzeXNNTTR2QWUzcmxYNEhHVGZnQWwwSTYyZ09zU25wVU1ZOFU0azZDZXllMGVmRnNwVTRTUXVxYXNFdm9CM1d1VzNnVFlTNmVUZFgwdGFMZVZuUGdtbjJkMjR2UDFfQUNIa1lUQ01DQncxc0ZCU0w4UXFyejNrNUpLVmdkVFdIbXZNLXJwTE1q?oc=5"
+    },
+    {
+      "id": "las-exportaciones-superaron-los-u-s-10-000-millones-por-primera-vez-y-la-energia",
+      "datetime": "2026-10-19T21:15:38Z",
+      "date": "2026-10-19",
+      "firstSeen": "2026-10-19T21:56:07Z",
+      "title": "Las exportaciones superaron los U$S 10.000 millones por primera vez y la energía impulsó el superávit comercial",
+      "summary": "La Argentina registró un saldo comercial positivo de U$S 2.976 millones en septiembre, más del triple que en el mismo mes de 2025. Las ventas al exterior crecieron 23,5% interanual, mientras que las importaciones cayeron 1,8%. En los primeros nueve meses, el superávit acumulado alcanzó los U$S 21.198 millones. Las…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "RoadShow",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.roadshow.com.ar/las-exportaciones-superaron-los-us-10-000-millones-por-primera-vez-y-la-energia-impulso-el-superavit-comercial/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-19T21:56:07Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZk04YzlhdWY5U0FwRUF1aEFZQVljWElSamNOeVVFdEd5X0xRR0RyTEswSkZRbWtCdzFBN0UwV1pJMC1SdVNIUE9DUXJ0enpLM3lCNW5QbExmMFpLRFdoWFI3RVFvSGdJZWgwT1ZCWHJXT1pyam1MU25FWFVjd1ZhRnp4THdkRTd2TDZ5TmNwcjhxXzlLWHZxaVJmUThYMzdDbkhuM3EzU0M1UGk4enc0SWgzZ19tdjJCR2taNjFXN2h5TjJTNi1mNEZtVVFWZHVBdkttcHB3?oc=5"
+    },
+    {
+      "id": "la-balanza-comercial-de-septiembre-registro-un-superavit-de-2-976-millones-de-do",
+      "datetime": "2026-10-19T20:46:52Z",
+      "date": "2026-10-19",
+      "firstSeen": "2026-10-19T21:56:07Z",
+      "title": "La balanza comercial de septiembre registró un superávit de 2.976 millones de dólares",
+      "summary": "Noticias del cuarto diario más antiguo de Argentina, desde Tandil. Información confiable, objetiva y fehaciente, las 24 horas, todos los días.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Economía internacional"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "chart",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "El Eco",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.eleco.com.ar/economia/la-balanza-comercial-de-septiembre-registro-un-superavit-de-2976-millones-de-dolares",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "RedBoing",
+          "type": "También publicó esta noticia",
+          "url": "https://www.redboing.com/la-balanza-comercial-argentina-registro-un-superavit-de-casi-us3-000-millones-en-septiembre/",
+          "alsoIn": true,
+          "title": "La balanza comercial argentina registró un superávit de casi US$3.000 millones en septiembre"
+        },
+        {
+          "name": "qpasó",
+          "type": "También publicó esta noticia",
+          "url": "https://qpaso.ar/noticias/perfil/noticias/economia/la-balanza-comercial-marco-un-superavit-de-us-2976-millones-en-septiembre-y-encadeno-34-meses-en-positivo-a40.phtml",
+          "alsoIn": true,
+          "title": "La balanza comercial marcó un superávit de US$ 2.976 millones en septiembre, el segundo mes más alto de 2026"
+        },
+        {
+          "name": "LA17",
+          "type": "También publicó esta noticia",
+          "url": "https://lu17.com/contenido/153851/la-balanza-comercial-de-argentina-logro-un-superavit-de-us-2-976-millones-en-septiembre",
+          "alsoIn": true,
+          "title": "La Balanza Comercial de Argentina logró un superávit de US$ 2.976 millones en septiembre"
+        }
+      ],
+      "gnTried": "2026-10-19T21:56:07Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRnJlMUMxM2ZUM1A2ZkZVVDdsYk9uT3B4Sk1ObzdVSzU1X1MwLWRnLXF1TmVhR0JqSDZXbjczcWUwblNodUxNZFRYN1lKTTMwT1M4c1NpRzBDRHJlSm5mU3V3V1ZsenVaRVNIX1N2aERVV2tzUUZKZmRBenIwcU4xOFBFTFZkVGhvSUFDcnAzQUVHZ1JUR1dZcUxILTBfV21hTE0wNWNteEVNcUpWakpPMld0eXdqUURvZ1E?oc=5",
+      "aliasUrls": [
+        "https://lu17.com/contenido/153851/la-balanza-comercial-de-argentina-logro-un-superavit-de-us-2-976-millones-en-septiembre",
+        "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQSzBuc3ZINEZMMk8xR2dveEwtVjYySVJwc1g3ZGd5Qng3UUJIekhmOHdTMHpRcTF2dkJZRWExOE9faVRhU1BDbEV6aFZrMVBwNzZfb0JhRl9tZHNoQXNjWi1sQUNRZk05dGRBSWladjdNUFBjUTk4a3ljU3YySWhiZlluZ0NiWXRPTllEMWR3NWdUT1U3ejJXUkxEU2FZSWhsNnZhMmFhcGpxOHg4RHR5Sno2bE9yVTV1RkRWU0tkcW5BRGhWOHR1UWVqNnM0aEZrbXB1UVMyR2l2aVBtMkY5a3lFQjRPRS1JN1Bac3pnN1d2TUU1M0EtVG9R",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMU1YOWJ1Z0dDczU1YnpGVzdTdmdOcW52d2Qxb1lxQjlDZFR0RVEyc1RKRUt2UTB1R24xRDZNYm1BMkN6a2ZHUlpoTFRndHNNMXk1SEFCRzVMc0N5bVdVNnBLUEl0cXF5c2tuYVFGS0QwUmY2MmRTemRvUXRfdmRaMlhTSzVWVjJXaldpZ3FvVk84UFgyTVJJOHBUVk91cXZNbkluSllGWEhXTTdaUDJrSEFZWl9JSGZI",
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVEdBdVhZY1lJQmdrVmI5Ny1sWlZ6bDRZS19JUVotTlRCYjZNREhCbXZyalVHcjNLbE9HUkY1Sk1YQ2g3LTVudl9oZjBibjhlNW5mNDlfcmtlRGIwZzRCMmVieW1YaldnOVlFaVJuajE5RlV6OHNNZkgyYzFNTXhPVzVUZmlFZUtXS012NG1CLWd2eVFaT1Bpam9kYjZLTzJXUDFqY1lUVG9KLVJLNnExYU8wOElyOHlpY2NYaFZR",
+        "https://qpaso.ar/noticias/perfil/noticias/economia/la-balanza-comercial-marco-un-superavit-de-us-2976-millones-en-septiembre-y-encadeno-34-meses-en-positivo-a40.phtml",
+        "https://www.redboing.com/la-balanza-comercial-argentina-registro-un-superavit-de-casi-us3-000-millones-en-septiembre"
+      ],
+      "mergedIds": [
+        "la-balanza-comercial-argentina-registro-un-superavit-de-casi-us-3-000-millones-e",
+        "la-balanza-comercial-marco-un-superavit-de-us-2-976-millones-en-septiembre-el-se",
+        "la-balanza-comercial-de-argentina-logro-un-superavit-de-us-2-976-millones-en-sep"
+      ]
+    },
+    {
+      "id": "tierra-del-fuego-analiza-oportunidades-productivas-y-exportadoras-ante-el-acuerd",
+      "datetime": "2026-10-19T20:46:36Z",
+      "date": "2026-10-19",
+      "firstSeen": "2026-10-19T21:56:07Z",
+      "title": "Tierra del Fuego analiza oportunidades productivas y exportadoras ante el Acuerdo Mercosur–Unión Europea",
+      "summary": "El encuentro contó con la participación del ministro de Producción y Ambiente, Francisco Devita, y de la secretaria de Desarrollo Productivo y PyME, Carolina ...",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Tratados y acuerdos",
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Argentina",
+        "Unión Europea"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Notitdf",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.notitdf.com/tierra-del-fuego-analiza-oportunidades-productivas-y-exportadoras-ante-el-acuerdo-mercosur-union-europea/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-19T21:56:07Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRVpwcl8ySTlPSmU1SVhCWnctQVNXb1RCNUNSSDJocFJvdE5kZ0RIVlBOVXJ5UHI4Z182UnB5b3RSVkQ5aXdvQVpWSGEtWjVpVHJydkFBRG9aVFJ1LVd0UXF4Y0k1QjNjcWpHV3JXZ3hGeXJ1OUpmX0N1UW1aWE9iaUZldVhURVNrVGxCcTZtaGpOVUJ1Wm1kNGp3bk5tc2NZUmUzaEZZZmlsc0lvLVZhMUdMLXVGUGFXTkg2X01jOGVoRGZhWTlDbw?oc=5"
+    },
+    {
+      "id": "record-de-exportaciones-la-argentina-supero-los-us-10-000-millones-en-septiembre",
+      "datetime": "2026-10-19T20:46:03Z",
+      "date": "2026-10-19",
+      "firstSeen": "2026-10-19T21:56:07Z",
+      "title": "Récord de exportaciones: la Argentina superó los US$10.000 millones en septiembre",
+      "summary": "Las ventas al exterior alcanzaron US$10.036 millones y dejaron un superávit comercial de US$2976 millones. La energía encabezó el crecimiento, mientras las importaciones retrocedieron en cantidades y mostraron señales de d...",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Identidad Correntina",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.identidadcorrentina.com.ar/noticia/43622_rcord-de-exportaciones-la-argentina-super-los-us10000-millones-en-septiembre.htm",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-19T21:56:07Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQ1V1c1Zodng4Q0pQVmtUbzA3dmdpNlUyMzQxSTZnaDVhUFhBNllZUldkOWFFUFhkR29XZ0pDWF9PeDE1dDBJdmgyX1lSVnZNZlRUZ0lGV096bFFGZnJrQ1FnWVJyWDR1cnZjTmtZYjF6ckdNY3lSanQwNE9veUNtR1lYY0VEMmhlNWtjVjFNeUlkSmROZ1dsdXlPZVBwWVJlWVZMVTJ2RmY4bXFTZzVpWVVnaDZkOTRNTlpDTUFTMUtkdG1TUy1aWkk2TDFBQQ?oc=5"
+    },
+    {
+      "id": "mexico-espera-la-respuesta-de-ee-uu-para-una-reduccion-de-aranceles-antes-de-fin",
+      "datetime": "2026-10-19T20:40:16Z",
+      "date": "2026-10-19",
+      "firstSeen": "2026-10-19T21:56:07Z",
+      "title": "México espera la respuesta de EE.UU. para una reducción de aranceles antes de fin de año",
+      "summary": "México espera respuesta de EE.UU. sobre reducción de aranceles al acero, aluminio y autos antes de 2026, tras presentar argumentos técnicos. El país busca condiciones más favorables en el comercio automotriz y siderúrgico, mientras continúan las negociaciones bilaterales.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Latinoamérica",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "México",
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Clarín",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.clarin.com/estados-unidos/mexico-espera-la-respuesta-de-ee-uu-para-una-reduccion-de-aranceles-antes-de-fin-de-ano_0_3GFEA872dJ.html",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Segundo a Segundo",
+          "type": "También publicó esta noticia",
+          "url": "https://segundoasegundo.com/esperan-respuesta-de-eu-sobre-aranceles-antes-de-fin-de-ano/",
+          "alsoIn": true,
+          "title": "Esperan respuesta de EU sobre aranceles antes de fin de año"
+        },
+        {
+          "name": "Fortuna y Poder",
+          "type": "También publicó esta noticia",
+          "url": "https://fortunaypoder.com/economia/mexico-espera-respuesta-de-eu-sobre-aranceles-al-acero-y-autos-antes-de-terminar-el-ano-ebrard/",
+          "alsoIn": true,
+          "title": "México espera respuesta de EU sobre aranceles al acero y autos antes de terminar el año: Ebrard"
+        }
+      ],
+      "gnTried": "2026-10-19T21:56:07Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVnpMSktxVnRpOEoyelRORzZYQ2sxY0VOT0ZjenpOLU5NMW9NeW4xa3FEM1NWcnN5V3FmbnE5RXdkWkVfcnhuMWdmQlh4THdremRneFhReFYtLUR4ajg3NF9lRFdWamdVQkpyRnhyZTFVcC1SVThYRTFGQjVsUTRPY0VHYkxDbmZobW8wNUxtQ3dlbE9WaFMwTHpFOWpFYzRaekxpNEEzcm5nNFpXbGM3TmFjYndQTklFc3JFemV0OWotT3pLajdxV0FPbEFYZm1CQ2I5MVhnaWZwem8?oc=5",
+      "aliasUrls": [
+        "https://fortunaypoder.com/economia/mexico-espera-respuesta-de-eu-sobre-aranceles-al-acero-y-autos-antes-de-terminar-el-ano-ebrard",
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcnlTOFdTc3NwU3o4UzRCSlJXdnVRV3AzbXU1NUQ3MTFGRkJpbHdYVUdFYTlBTF9OUFlDVm55ZmpQWm5NNnRqbWNqZzFNQnJBUXU1ZWpEdklqOTJ2Q2lKUjFYX2hPS1JGSjVNdV9VQzQwck5rMkpyU3Q0cG9YVVFremtCSWhvcllDRkFfRWlEWjVqQQ",
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOX2d6aU1MaFNJWktYTUFGYUh3d3d4OHM3ZDF3aW1kV3R6Szl3UG9nU2J5S1BySENFVk1XMnl3WkhaaEtGR3Jxc185dW5xYTN1VGVuOFlGLU1pcEdqVk1mLWFETkp0Y0RRQVJtTTlYeWJSVkJ1SW92blRwdEhFT1VNQWpEREVMTm9OME5Yb3lyWkVkSzhTdTNZMHVUNkY0VVBNOXN2eVZ6UkV2bUhCek55d3V2cV9YV19OMEpuTlVqS1FsZUQ3TW5WVQ",
+        "https://segundoasegundo.com/esperan-respuesta-de-eu-sobre-aranceles-antes-de-fin-de-ano"
+      ],
+      "mergedIds": [
+        "esperan-respuesta-de-eu-sobre-aranceles-antes-de-fin-de-ano",
+        "mexico-espera-respuesta-de-eu-sobre-aranceles-al-acero-y-autos-antes-de-terminar"
+      ]
+    },
+    {
+      "id": "seatrade-suma-220-contenedores-reefer-a-sus-operaciones-maritimas",
+      "datetime": "2026-10-19T20:30:46Z",
+      "date": "2026-10-19",
+      "firstSeen": "2026-10-19T21:56:07Z",
+      "title": "Seatrade suma 220 contenedores reefer a sus operaciones marítimas",
+      "summary": "Seatrade, empresa de transporte marítimo internacional con enfoque en la refrigerada especializada, sumó 220 contenedores reefer.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "container",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/seatrade-suma-220-contenedores-reefer-a-sus-operaciones-maritimas/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "peru-continua-trabajo-para-actualizar-plan-maestro-de-puerto-del-callao",
+      "datetime": "2026-10-19T20:00:55Z",
+      "date": "2026-10-19",
+      "firstSeen": "2026-10-19T21:56:07Z",
+      "title": "Perú: Continúa trabajo para actualizar plan maestro de Puerto del Callao",
+      "summary": "El Ministerio de Transportes y Comunicaciones (MTC) de Perú, a través de la Autoridad Portuaria Nacional…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Perú"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/peru-continua-trabajo-para-actualizar-plan-maestro-de-puerto-del-callao/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "el-pan-sube-a-bs-1-00-en-la-sede-y-se-espera-un-oleaje-de-aumentos-en-todo-el-pa",
+      "datetime": "2026-10-19T19:38:58Z",
+      "date": "2026-10-19",
+      "firstSeen": "2026-10-19T21:56:07Z",
+      "title": "El Pan sube a Bs 1.00 en la sede y se espera un oleaje de aumentos en todo el país || El sector espera conocer el precio de la harina importada.",
+      "summary": "Sucre, 19 de octubre (ANV).- La representante de los panificadores independientes, Elizabeth Galarza, informó que el sector se reunirá a las 16:00 con el Ministerio de Desarrollo Productivo para conocer el precio de la harina.… | Noticias del MERCOSUR: política, economía y actualidad regional del Prensa Mercosur.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Prensa Mercosur",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://prensamercosur.org/2026/10/19/el-pan-sube-a-bs-1-00-en-la-sede-y-se-espera-un-oleaje-de-aumentos-en-todo-el-pais-el-sector-espera-conocer-el-precio-de-la-harina-importada/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-19T21:56:07Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNS0J2eEtBejhBVlZTNjdoeFdjb1NYMDBROVI3OUx2eXQyR2o2bUVoclRXb0QwMWpObVZvMk16WFEyNl8yc0VUZTVEODRkN0RQN0pFaFVmbmhMYzk2MnBIdUptWmp4azA3a2k0VVlNUUVsUlU3ODBkUGJlY1p2ZElkdUgwMDZmalNqYjdhTE5CSHZQT3lzSkFGbE5Tdi1RMnB2ZU9kQkxqX0ZyeVhWWVo4V2NPRFQ5d0VqaHZXVTR4YV8xbkJONXZsSGd3OUZid1h2NGJIVkRuTmpYNHotdjVLSWRhUDluUTRVVnRjMHNyMDN2Tmk1SGk5QmNhWlRtZGk3dGdlODlkQm1WZjQ?oc=5"
+    },
+    {
+      "id": "la-ue-negocia-mas-cultivos-proteicos-para-reducir-las-importaciones-de-soja",
+      "datetime": "2026-10-19T19:37:37Z",
+      "date": "2026-10-19",
+      "firstSeen": "2026-10-19T21:56:07Z",
+      "title": "La UE negocia más cultivos proteicos para reducir las importaciones de soja",
+      "summary": "El Consejo aprobó una posición parcial para impulsar cultivos proteicos, pero debe acordar su financiación.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones",
+        "Europa"
+      ],
+      "countries": [
+        "Unión Europea"
+      ],
+      "tags": [
+        "Soja"
+      ],
+      "visual": "agro",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "NewsDigitales",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.newsdigitales.com/nota/347870/la-ue-negocia-mas-cultivos-proteicos-para-reducir-las-importaciones-de-soja/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-19T21:56:07Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPODVOdEYzQUFYZXFJbTRGVl9LbFNxYzRIRDgzdUI2X3Bqb1JUdUJMUFFFUEVLWnBHQTdPdm5fTXljYWstejNxYzV0VkxnT1BuVFN1NUFubkpxTUFtX0JjUVVObHlSam5UeXNzVGZsVFFsMEVIS2tuT1AtVDAtLUFBWG9hTVU0T1FOU1FrX3Y3MEVqWk8yUXd2N2tzdlNVc252RG50SmppR1otcGpmSUJ4bEZfdVAtMFlpMWc?oc=5"
+    },
+    {
+      "id": "aduana-nacional-de-bolivia-habilita-tramites-digitales-para-importar-combustible",
+      "datetime": "2026-10-19T19:30:03Z",
+      "date": "2026-10-19",
+      "firstSeen": "2026-10-19T21:56:07Z",
+      "title": "Aduana Nacional de Bolivia habilita trámites digitales para importar combustibles",
+      "summary": "La Aduana Nacional de Bolivia (AN) habilitó nuevos trámites digitales en la Ventanilla Única de Comercio Exterior…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones",
+        "Aduanas",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Bolivia"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/aduana-nacional-de-bolivia-habilita-tramites-digitales-para-importar-combustibles/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "uruguay-saturacion-de-vehiculos-descargados-en-puerto-de-montevideo-obliga-a-ocu",
+      "datetime": "2026-10-19T18:30:00Z",
+      "date": "2026-10-19",
+      "firstSeen": "2026-10-19T21:56:07Z",
+      "title": "Uruguay: Saturación de vehículos descargados en Puerto de Montevideo obliga a ocupar antiguo recinto ferroviario",
+      "summary": "El Puerto de Montevideo está enfrentando una saturación en la cantidad de vehículos que se han descargado en el recinto…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Uruguay"
+      ],
+      "tags": [
+        "Autos",
+        "Puertos"
+      ],
+      "visual": "auto",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/uruguay-saturacion-de-vehiculos-descargados-en-puerto-de-montevideo-obliga-a-ocupar-antiguo-recinto-ferroviario/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "mexico-movimiento-de-carga-contenerizada-en-puerto-de-manzanillo-aumenta-9-5-has",
+      "datetime": "2026-10-19T18:00:36Z",
+      "date": "2026-10-19",
+      "firstSeen": "2026-10-19T21:56:07Z",
+      "title": "México: Movimiento de carga contenerizada en Puerto de Manzanillo aumenta 9,5% hasta septiembre",
+      "summary": "La carga de contenedores movilizada en el Puerto de Manzanillo aumentó 9,5% anual, entre enero y…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "México"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/mexico-movimiento-de-carga-contenerizada-en-puerto-de-manzanillo-aumenta-95-hasta-septiembre/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
     {
       "id": "el-presidente-pidio-preparar-a-sudafrica-ante-una-posible-exclusion-del-acuerdo",
       "datetime": "2026-10-19T17:53:21Z",
@@ -617,6 +1408,8 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Exportaciones",
+        "Aranceles",
         "Tratados y acuerdos",
         "Estados Unidos"
       ],
@@ -625,6 +1418,7 @@
         "Sudáfrica"
       ],
       "tags": [
+        "Aranceles",
         "Estados Unidos"
       ],
       "visual": "treaty",
@@ -702,6 +1496,7 @@
         "Estados Unidos"
       ],
       "tags": [
+        "Agro",
         "Aranceles",
         "Estados Unidos"
       ],
@@ -806,7 +1601,8 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Logística"
+        "Logística",
+        "Transporte marítimo"
       ],
       "countries": [
         "Global"
@@ -833,6 +1629,57 @@
       "gnUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWjZEV1ZQUTJKRl93d3I3MEtSTEN3aHhfWGtRTkxIX0NGeXJ1WmdpbVkzaUMwVkhkX3pPd0xaRW9IWGhWc3FFYldOQ1cyR28wc0w1LVEwczJRbHZWTS0zcWNBVjZrM3poTnVfWmkxd1pCMkctaVhLR3lVekJwRVVHcG80dVdpRWdWZlp2eTRmRzR3SXRpajZpNGpjUms2WnZ4Z1FwOGVzb0VyWkw4anhEaktpbVV5ZXVieE1Sbg?oc=5"
     },
     {
+      "id": "cameintram-realizara-el-tercer-foro-de-transporte-maritimo-y-puertos-sustent-2",
+      "datetime": "2026-10-19T16:56:55Z",
+      "date": "2026-10-19",
+      "firstSeen": "2026-10-19T21:56:07Z",
+      "title": "CAMEINTRAM realizará el Tercer Foro de Transporte Marítimo y Puertos Sustentables en La Paz",
+      "summary": "Jesús Utrilla | NV Noticias La sustentabilidad ya no es concebida como un costo para la producción de las empresas, sino uno de los principios y condiciones principales de acceso a los mercados. En México, la modernización portuaria de Altamira, Progreso, Lázaro Cárdenas, Salina Cruz, Veracruz y Manzanillo, junto con…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "NVnoticias",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://nvnoticias.mx/index.php/2026/10/19/cameintram-realizara-el-tercer-foro-de-transporte-maritimo-y-puertos-sustentables-en-la-paz/",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "howl.link",
+          "type": "También publicó esta noticia",
+          "url": "https://t.co/vpFuYVxj0N",
+          "alsoIn": true,
+          "title": "CAMEINTRAM realizará el Tercer Foro de Transporte Marítimo y Puertos Sustentables en La Paz"
+        }
+      ],
+      "gnTried": "2026-10-19T21:56:07Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZG5rQzJMZkZGMmJCRGpWU3F6MjMxVHcxRUxzeTVQM2d2QjlwZV9IMlVQNV9tYkFVMGpmX25MWkZJeklvLXNEV2lDMmVhdnFRanN5aXVid1dNTlFxMmtQU2VnQ0JOSlNUWmEyT1lqalkxSTNoV0ZMQ2h2aE5OSldlUnNnSkZ0V1c5dWNEWmxNaUVzSGo5VFI1ZU9aMkdLQ3BQZjhzVkdWLWNYWmt2c1IzdjdoZU1PeTQ5R2hZdWpmb09lSFlMNThGdVo1X3FfeUd2?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5kNG13SXViZWM2cUFfd2J3bURwNU5fbnJRMXpMbDFrcFV5SUx6TFdJR0F6TlJVNE03c0Rv",
+        "https://t.co/vpFuYVxj0N"
+      ],
+      "mergedIds": [
+        "cameintram-realizara-el-tercer-foro-de-transporte-maritimo-y-puertos-sustentable"
+      ]
+    },
+    {
       "id": "exportaciones-pymes-mayor-valor-en-13-anos-con-un-alza-del-23-2",
       "datetime": "2026-10-19T16:46:00Z",
       "date": "2026-10-19",
@@ -842,6 +1689,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Exportaciones"
       ],
       "countries": [
@@ -1055,12 +1903,15 @@
       "keyData": [],
       "topics": [
         "Argentina",
-        "Importaciones"
+        "Importaciones",
+        "Tecnología COMEX"
       ],
       "countries": [
         "Argentina"
       ],
-      "tags": [],
+      "tags": [
+        "Minería"
+      ],
       "visual": "customs",
       "impact": 1,
       "affectsArgentina": true,
@@ -1226,12 +2077,15 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Exportaciones"
       ],
       "countries": [
         "Argentina"
       ],
-      "tags": [],
+      "tags": [
+        "Energía"
+      ],
       "visual": "customs",
       "impact": 1,
       "affectsArgentina": true,
@@ -1489,11 +2343,13 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Tratados y acuerdos",
         "Mercosur",
         "Europa"
       ],
       "countries": [
+        "Argentina",
         "Unión Europea"
       ],
       "tags": [
@@ -1937,6 +2793,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Importaciones"
       ],
       "countries": [
@@ -2281,10 +3138,24 @@
           "url": "https://a21.com.mx/aerolineas/2026/10/19/moderniza-mas-air-su-plataforma-digital-para-optimizar-servicios-de-carga-aerea/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Periódico Digital Centroamericano y del Caribe",
+          "type": "También publicó esta noticia",
+          "url": "https://newsinamerica.com/pdcc/boletin/2026/moderniza-mas-air-su-plataforma-digital-para-optimizar-servicios-de-carga-aerea/",
+          "alsoIn": true,
+          "title": "Moderniza Mas Air su plataforma digital para optimizar servicios de carga aérea"
         }
       ],
       "gnTried": "2026-10-19T14:08:27Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVzZBN2p2a1V0NVptWHNmSEFGZW9Ea2dfUWRfVk9kMlgwOVBRSFZ3RFg0WGp4OXc5UzdzWGtobWZISjkyZEhHVHVycjZGdi14Q0ZIOXhpRUJpUHFsS3pTajY1Rm1hd0ZDdXFHeFh0LUdFR1JsWVkwZjhhVkdWRUpyRnJyZllnazdLTlctR1lKMXlBVjZjMTJLWi02cVlqbElrTDZPRWQweUdsNmRYakQ4VGJ5eTYwS3VJZzBfcUd3?oc=5"
+      "gnUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVzZBN2p2a1V0NVptWHNmSEFGZW9Ea2dfUWRfVk9kMlgwOVBRSFZ3RFg0WGp4OXc5UzdzWGtobWZISjkyZEhHVHVycjZGdi14Q0ZIOXhpRUJpUHFsS3pTajY1Rm1hd0ZDdXFHeFh0LUdFR1JsWVkwZjhhVkdWRUpyRnJyZllnazdLTlctR1lKMXlBVjZjMTJLWi02cVlqbElrTDZPRWQweUdsNmRYakQ4VGJ5eTYwS3VJZzBfcUd3?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTDVPVW1BWWxWTXpVOFZnczFTX3l2OWk3ZlVVSG9zLUd4bm8yUmNjM1FtRGszbG5RWGtTRVVuU3RkdWxmVVFJeXY3LThVNXNOelhYTVlubnJlQzd4VXpOU0xnTnlZUE96Vm5MbzJXRnZ2dEtKdXB2SzB2bDd5NmV3VnZQVmkzSkdiWVNqYTRPclJwYm1uMWtVWWU2YXdIOW85RmpuZFJhSEFqMTZIZFlDMDAtai1XUC1vbk1JcDVQNU9vZw",
+        "https://newsinamerica.com/pdcc/boletin/2026/moderniza-mas-air-su-plataforma-digital-para-optimizar-servicios-de-carga-aerea"
+      ],
+      "mergedIds": [
+        "moderniza-mas-air-su-plataforma-digital-para-optimizar-servicios-de-carga-ae-2"
+      ]
     },
     {
       "id": "la-economia-de-china-se-acelero-en-el-trimestre-de-julio-a-septiembre-por-export",
@@ -2634,6 +3505,42 @@
       ],
       "gnTried": "2026-10-19T17:55:25Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPY0NEdEVZcDhQbDBWNEdFM3lWTDVrZjZLX1NCYW5WTmduX252OTdTYmlWMG1wdUY0ZFlRblpQMDRQNjB5OEdibEpac1B4RU5uZlM4SFJ2U1VHb1dYZ0Y2N0hQa0Jib2Rxa3NDWTNJTVFuU2d2c2dGMnJ3ZFZuaGs3VVJ4bw?oc=5"
+    },
+    {
+      "id": "la-flota-mundial-de-portacontenedores-acelera-y-supera-los-34-millones-de-teu",
+      "datetime": "2026-10-19T04:00:08Z",
+      "date": "2026-10-19",
+      "firstSeen": "2026-10-19T21:56:07Z",
+      "title": "La flota mundial de portacontenedores acelera y supera los 34 millones de TEU",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Contenedores"
+      ],
+      "visual": "container",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Levante-EMV",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.levante-emv.com/economia/2026/10/19/flota-mundial-portacontenedores-acelera-supera-135293817.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-19T21:56:07Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPc09DQWZJdG9HaW9sQUNaakk1Xy1QczFXU0RyYzVzdWZHUW91UWt0VE1qUlVCR0habEZsX012blYxVHFpR0FsSGlUNzJxZHZ6QmJKNTIxNDJrTmFRcnNRZ3BjZmdwaGt0eFF1ZWZkN3JWLUFFaW41M3FCYTNTUmZHd0V2SU0tYjFwN0pVS3BDcXlpcWlqa3VJQktfOC1EWHBKaTl0UEx6cFZxQlExNVHSAbMBQVVfeXFMTTJTb2R0UzNoYWVqLVc4eFp2VlRZOXozR2ZFWVpncUdJM3RXZW1odlQyakx5OW5rQkNFYWJRT3FBempGVlFRUDJZV3ZBS1FPVHVsOUplSWxxUDdMYmtkVFZtQTk5dUZmbzBPMmNtM2xYU21tM0Vrb1ZLX3E4eUFUaXJkQ1RIaVdhOThZTFJ0R2xOQUhLWEkyVUNVLUl3U3MzSUV3M2doalVudldLV0ZLNy03U1U?oc=5"
     },
     {
       "id": "cuando-chile-bajo-el-arancel-la-aduana-empezo-a-mirar-el-valor",
@@ -56456,14 +57363,14 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-10-19T17:55:25Z",
+    "ranAt": "2026-10-19T21:56:07Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
         "url": "https://www.wto.org/library/rss/latest_news_s.xml",
         "ok": true,
         "items": 8,
-        "added": 1,
+        "added": 0,
         "updated": 0,
         "skipped": 0
       },
@@ -56481,63 +57388,63 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 5,
-        "updated": 1,
-        "skipped": 6
+        "added": 7,
+        "updated": 0,
+        "skipped": 7
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 50,
+        "items": 49,
         "added": 4,
         "updated": 0,
-        "skipped": 37
+        "skipped": 36
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 55,
+        "items": 51,
         "added": 4,
         "updated": 0,
-        "skipped": 42
+        "skipped": 37
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 49,
+        "items": 76,
         "added": 4,
         "updated": 0,
-        "skipped": 23
+        "skipped": 52
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 49,
-        "added": 1,
+        "items": 48,
+        "added": 3,
         "updated": 0,
-        "skipped": 40
+        "skipped": 36
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
         "url": "https://news.google.com/rss/search?q=(aranceles+OR+%22guerra+comercial%22+OR+%22acuerdo+comercial%22)+when:1d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 69,
+        "items": 79,
         "added": 4,
         "updated": 0,
-        "skipped": 50
+        "skipped": 60
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 45,
+        "items": 48,
         "added": 4,
         "updated": 0,
-        "skipped": 21
+        "skipped": 26
       }
     ],
     "curatedDuplicates": [
@@ -56557,11 +57464,6 @@
         "curated": "hapag-lloyd-espirito-santo-express-incendio-atlantico-sur-santos"
       },
       {
-        "title": "Salvador Mazza: el bloqueo de la frontera paraliza las exportaciones e importaciones con Bolivia",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTW9lcFpabkIwYWhvdFhUc1M2QTV2T3NiMUFDRFV2SUF6QTFyYzR1VlF1WS1Cczh6blRKOTdXakRJNnBVckdtWFFHdmw3d1lYT21MN3E5RG9uTy1IQzluTW1pcTk3TDB3UEFsVkNsRmNKRGU3OVJhRUE1b0Z1NXNZdk9tWTVmU2ZSUHZsNU1jQ0VnTVROVlAzalpIUHRqMzJZY3pUSGxFeERvSFhJOGJpQlNZZ0ZGNW1zb0Z2dE16dVF3UdIBugFBVV95cUxPbU5FTTVUMmIyZkYtc1hjZ2szWFhtRzZEeThMa2xhUjFYZ3hBMlFHa0VDYmdldW9KdkljOVpuYlZsbWhWOWNTWFFTSjJGZjFRMHdUcU5sb19YVXk5ZWVHVkV3WHROMG5BUVZ3VG9EeWtVaXE5RWNxRVktQTZIUlVpV2MyeFRxYXRrWXY5N3g5UEEtcno2MndaeXdPZkRSaHdUVnVkeGROUWFZNlQxbTFFSHVvSXBLYWEwMnc?oc=5",
-        "curated": "bagayeros-bloqueo-puente-salvador-mazza-yacuiba-rg-5910-arca"
-      },
-      {
         "title": "Navieras reportan incendio a bordo de portacontenedores en ruta desde Singapur a Santos",
         "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPenF5TFh3LXdVTGhob21iMzNac2MybVd0c1hwWmhtMWQxYVlsRjZ4QXBMY1FwSG0zZzVRU3NFVHk2RDNOYTUyUVJocmhnZUNDcmxZbVMzSm1yQ2FTaV9lYU5XOU11Q0syWmdQOWlqRHVDQUhYeEhNRXhkdi1lY2RmNWl0SDVnVEhvR2RyVlFnZjIxT3ZQVFdjQzI3RXQzVWdZNXVxUTdjTkprd0JGOTBDZmZMNU5Hdw?oc=5",
         "curated": "hapag-lloyd-espirito-santo-express-incendio-atlantico-sur-santos"
@@ -56570,22 +57472,43 @@
     "excluded": 0,
     "grouped": [
       {
-        "main": "tarifas-de-flete-maritimo-intraasiatico-registran-caida-de-3-en-ultima-semana",
+        "main": "moderniza-mas-air-su-plataforma-digital-para-optimizar-servicios-de-carga-aerea",
         "merged": [
-          "tarifas-de-flete-maritimo-intraasiatico-registran-caida-de-3-en-la-ultima-semana"
+          "moderniza-mas-air-su-plataforma-digital-para-optimizar-servicios-de-carga-ae-2"
         ]
       },
       {
-        "main": "las-exportaciones-vitivinicolas-argentinas-crecieron-24-en-septiembre-segun-agri",
+        "main": "cameintram-realizara-el-tercer-foro-de-transporte-maritimo-y-puertos-sustent-2",
         "merged": [
-          "las-exportaciones-vitivinicolas-argentinas-crecieron-un-24-en-septiembre-impulsa"
+          "cameintram-realizara-el-tercer-foro-de-transporte-maritimo-y-puertos-sustentable"
+        ]
+      },
+      {
+        "main": "la-balanza-comercial-de-septiembre-registro-un-superavit-de-2-976-millones-de-do",
+        "merged": [
+          "la-balanza-comercial-argentina-registro-un-superavit-de-casi-us-3-000-millones-e",
+          "la-balanza-comercial-marco-un-superavit-de-us-2-976-millones-en-septiembre-el-se",
+          "la-balanza-comercial-de-argentina-logro-un-superavit-de-us-2-976-millones-en-sep"
+        ]
+      },
+      {
+        "main": "mexico-espera-la-respuesta-de-ee-uu-para-una-reduccion-de-aranceles-antes-de-fin",
+        "merged": [
+          "esperan-respuesta-de-eu-sobre-aranceles-antes-de-fin-de-ano",
+          "mexico-espera-respuesta-de-eu-sobre-aranceles-al-acero-y-autos-antes-de-terminar"
+        ]
+      },
+      {
+        "main": "nuevo-record-de-las-exportaciones-argentinas-al-superar-los-usd-10-000-millones",
+        "merged": [
+          "javier-milei-celebro-el-superavit-comercial-de-septiembre-y-sostuvo-el-rumbo-eco"
         ]
       }
     ],
     "googleNews": {
-      "pending": 21,
-      "resolved": 21,
-      "withSummary": 17,
+      "pending": 23,
+      "resolved": 23,
+      "withSummary": 20,
       "withPhoto": 0,
       "failed": 0,
       "duplicates": 0
