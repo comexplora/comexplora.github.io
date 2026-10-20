@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-10-20T09:59:10Z",
+  "updatedAt": "2026-10-20T14:05:35Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -142,7 +142,7 @@
       "obsDate": "2026-10-19",
       "change": "+0,6% vs. día hábil anterior",
       "trend": "up",
-      "checkedAt": "2026-10-20T02:00:15Z",
+      "checkedAt": "2026-10-20T14:06:54Z",
       "history": [
         [
           "2026-09-07",
@@ -267,28 +267,27 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-20T09:59:49Z",
-      "lastError": "HTTP Error 500: Internal Server Error"
+      "lastAttempt": "2026-10-20T14:06:54Z"
     },
     {
       "id": "soja",
       "label": "Soja · precio pizarra Rosario",
       "value": "$ 552.000/t",
-      "period": "Rosario · 16 oct 2026 · US$ 365,81/t",
+      "period": "Rosario · 19 oct 2026 · US$ 364,24/t",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "group": "Mercados",
-      "obsDate": "2026-10-16",
-      "change": "-1,4% vs. pizarra anterior",
-      "trend": "down",
+      "obsDate": "2026-10-19",
+      "change": "0,0% vs. pizarra anterior",
+      "trend": "flat",
       "_last": {
-        "date": "2026-10-16",
+        "date": "2026-10-19",
         "ars": 552000.0
       },
-      "checkedAt": "2026-10-20T09:59:49Z",
+      "checkedAt": "2026-10-20T14:06:55Z",
       "_prev": {
-        "date": "2026-10-15",
-        "ars": 560000.0
+        "date": "2026-10-16",
+        "ars": 552000.0
       },
       "history": [
         [
@@ -330,11 +329,15 @@
         [
           "2026-10-16",
           552000.0
+        ],
+        [
+          "2026-10-19",
+          552000.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-20T09:59:49Z"
+      "lastAttempt": "2026-10-20T14:06:55Z"
     },
     {
       "id": "brent",
@@ -347,7 +350,7 @@
       "obsDate": "2026-10-14",
       "change": "+0,6% vs. día anterior",
       "trend": "up",
-      "checkedAt": "2026-10-20T09:59:52Z",
+      "checkedAt": "2026-10-20T14:06:57Z",
       "history": [
         [
           "2026-09-03",
@@ -472,27 +475,27 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-10-20T09:59:52Z"
+      "lastAttempt": "2026-10-20T14:06:57Z"
     },
     {
       "id": "maiz",
       "label": "Maíz · precio pizarra Rosario",
-      "value": "$ 285.000/t",
+      "value": "$ 281.800/t",
       "group": "Mercados",
-      "period": "Rosario · 16 oct 2026 · US$ 188,87/t",
-      "obsDate": "2026-10-16",
-      "change": "-0,5% vs. pizarra anterior",
+      "period": "Rosario · 19 oct 2026 · US$ 185,95/t",
+      "obsDate": "2026-10-19",
+      "change": "-1,1% vs. pizarra anterior",
       "trend": "down",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
+        "date": "2026-10-19",
+        "ars": 281800.0
+      },
+      "checkedAt": "2026-10-20T14:06:57Z",
+      "_prev": {
         "date": "2026-10-16",
         "ars": 285000.0
-      },
-      "checkedAt": "2026-10-20T09:59:52Z",
-      "_prev": {
-        "date": "2026-10-15",
-        "ars": 286500.0
       },
       "history": [
         [
@@ -534,31 +537,35 @@
         [
           "2026-10-16",
           285000.0
+        ],
+        [
+          "2026-10-19",
+          281800.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-20T09:59:52Z"
+      "lastAttempt": "2026-10-20T14:06:57Z"
     },
     {
       "id": "trigo",
       "label": "Trigo · precio pizarra Rosario",
-      "value": "$ 353.000/t",
+      "value": "$ 354.600/t",
       "group": "Mercados",
-      "period": "Rosario · 16 oct 2026 · US$ 233,93/t",
-      "obsDate": "2026-10-16",
-      "change": "+0,7% vs. pizarra anterior",
+      "period": "Rosario · 19 oct 2026 · US$ 233,98/t",
+      "obsDate": "2026-10-19",
+      "change": "+0,5% vs. pizarra anterior",
       "trend": "up",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
+        "date": "2026-10-19",
+        "ars": 354600.0
+      },
+      "checkedAt": "2026-10-20T14:06:57Z",
+      "_prev": {
         "date": "2026-10-16",
         "ars": 353000.0
-      },
-      "checkedAt": "2026-10-20T09:59:52Z",
-      "_prev": {
-        "date": "2026-10-15",
-        "ars": 350450.0
       },
       "history": [
         [
@@ -600,448 +607,923 @@
         [
           "2026-10-16",
           353000.0
+        ],
+        [
+          "2026-10-19",
+          354600.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-20T09:59:52Z"
+      "lastAttempt": "2026-10-20T14:06:57Z"
     }
   ],
   "items": [
     {
-      "id": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976",
-      "date": "2026-10-19",
-      "datetime": "2026-10-19T16:30:23-03:00",
-      "kind": "noticia",
-      "title": "Las exportaciones superan por primera vez los USD 10.000 millones en un mes y septiembre cierra con superávit de USD 2.976 millones",
-      "summary": "Según el INDEC, las ventas externas sumaron USD 10.036 millones (+23,5%), empujadas por combustibles y energía (+89,1%), y las importaciones cayeron 1,8%, a USD 7.060 millones. Hubo déficit con China (USD 831 millones) y con Brasil (USD 169 millones).",
+      "id": "ad-ports-group-informa-avances-en-reduccion-de-emisiones-en-2025",
+      "datetime": "2026-10-20T14:00:34Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "AD Ports Group informa avances en reducción de emisiones en 2025",
+      "summary": "AD Ports Group anunció la publicación de su Informe de Sostenibilidad 2025, en el que destaca…",
+      "body": [],
+      "keyData": [],
       "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Importaciones",
-        "China"
+        "Puertos"
       ],
       "countries": [
-        "Argentina",
-        "China",
-        "Brasil",
-        "Estados Unidos",
-        "Chile"
+        "Global"
       ],
-      "tags": [
-        "INDEC",
-        "Balanza comercial",
-        "ICA",
-        "Vaca Muerta",
-        "Pymes"
-      ],
-      "visual": "chart",
-      "impact": 3,
-      "affectsArgentina": true,
-      "argentinaNote": "Es el dato oficial del comercio de bienes de septiembre: muestra el peso creciente de la energía en las exportaciones y la caída en cantidades de las importaciones, sobre todo de bienes de capital y vehículos.",
-      "body": [
-        "El INDEC informó el lunes 19 de octubre que las exportaciones argentinas de bienes sumaron USD 10.036 millones en septiembre, 23,5% más que un año antes, y superaron por primera vez los USD 10.000 millones en un solo mes. Las importaciones fueron de USD 7.060 millones, 1,8% menos que en septiembre de 2025, y el saldo comercial quedó en USD 2.976 millones, USD 2.039 millones por encima del de igual mes del año pasado. Es el 34.º mes consecutivo con superávit y, según A24 y C5N, el segundo más alto de 2026, después del de mayo.",
-        "El intercambio total llegó a USD 17.095 millones, con una suba interanual de 11,6%: las exportaciones representaron el 58,7% y las importaciones, el 41,3%. En la serie sin estacionalidad, las ventas externas crecieron 8,6% frente a agosto y las compras, 0,2%. Antes del dato, la mediana del sondeo de Reuters esperaba un superávit de USD 1.800 millones, con proyecciones que iban de USD 1.420 a 2.140 millones, según GBM.",
-        "## Precios, cantidades y rubros",
-        "La suba de las exportaciones se explicó por las dos variables: los precios promedio aumentaron 16,4% interanual y las cantidades, 6,1%. En las importaciones pasó lo contrario: los precios subieron 10,4%, pero los volúmenes cayeron 11,2%. Según los índices del INDEC que reproduce Infobae, los términos del intercambio mejoraron 5,4%, es decir, los precios de lo que el país vende subieron más que los de lo que compra.",
-        "Los cuatro grandes rubros de exportación crecieron. Combustibles y energía tuvo el mayor salto: USD 1.781 millones, 89,1% más que un año atrás, con precios 33,4% más altos y cantidades 39,8% mayores; según Bloomberg Línea, es la mayor variación mensual registrada para el rubro. Las manufacturas de origen agropecuario (MOA) sumaron USD 3.495 millones (+16,8%); las de origen industrial (MOI), USD 2.534 millones (+17,5%), y los productos primarios, USD 2.225 millones (+9,2%), con precios 13,9% más altos y cantidades 3,4% menores.",
-        "Dentro de la energía, las ventas de petróleo crudo llegaron a USD 1.127 millones (+86,4%), según Revista Container. El capítulo de combustibles minerales dejó un saldo positivo de USD 1.441 millones en el mes, contra USD 692 millones en septiembre de 2025, y en lo que va del año acumula USD 8.000 millones, 77,6% más que en igual período del año pasado.",
-        "## Importaciones: más insumos, menos bienes de capital",
-        "Por usos económicos, los bienes intermedios —el principal rubro, con el 35,7% del total— subieron 11,9%, hasta USD 2.521 millones, aunque con cantidades 3,2% menores. Los bienes de capital cayeron 10,4%, a USD 1.413 millones, con volúmenes 16,6% más bajos; las piezas y accesorios para bienes de capital bajaron 3,5%; los bienes de consumo, 2,5%, y los vehículos de pasajeros, 27,2%, hasta USD 450 millones. Los combustibles y lubricantes importados aumentaron 3,5% en valor por una suba de precios de 34,1%, con cantidades 29,4% menores.",
-        "El complejo automotor siguió en rojo, aunque con un déficit menor: USD 450 millones en septiembre, frente a USD 817 millones un año antes, con exportaciones de USD 910 millones (+3,6%) e importaciones de USD 1.360 millones (−19,8%). En los nueve meses, el saldo negativo del sector suma USD 4.761 millones, contra USD 6.767 millones en enero–septiembre de 2025.",
-        "## China y Brasil, con saldo negativo",
-        "China fue el principal socio del mes: la Argentina le vendió USD 986 millones (−23,8%) y le compró USD 1.817 millones (sin variación), con un déficit de USD 831 millones. Con Brasil, las exportaciones fueron de USD 1.206 millones (+2,7%) y las importaciones de USD 1.375 millones (−19,2%), con un saldo negativo de USD 169 millones. Hubo superávit, en cambio, con Estados Unidos (USD 379 millones, con ventas por USD 1.011 millones, +38,9%) y con Chile (unos USD 640 millones, con exportaciones por USD 750 millones, +65,7%). Según A24, el comercio con la Unión Europea dejó un déficit de USD 64 millones.",
-        "## Nueve meses y el dato de las pymes",
-        "En enero–septiembre, las exportaciones acumularon USD 77.267 millones (+21,6%) y las importaciones USD 56.069 millones (−2,5%), con un superávit de USD 21.198 millones, frente a USD 6.046 millones en igual período de 2025. Brasil fue el primer destino (USD 9.789 millones), seguido por Estados Unidos (USD 7.708 millones) y China (USD 7.146 millones); entre los proveedores, China encabezó con USD 13.047 millones y Brasil siguió con USD 12.005 millones.",
-        "El mismo día, el ministro de Economía, Luis Caputo, difundió que las exportaciones de pymes llegaron a USD 8.330 millones en los nueve meses, 23,2% más que un año antes y el mayor valor desde 2013, según Ámbito e ImpulsoBaires. Exportaron 7.061 pymes, 7,3% más que en el mismo período de 2023. Las MOA de las pymes crecieron 32,7%, las MOI 22,8% y los productos primarios 21,2%, mientras que combustibles y lubricantes cayeron 31,1%. Entre los productos con mayores aumentos figuran derivados de la soja, miel, semillas de girasol, pescado congelado, crustáceos, cebollas, ajos, puerros y cítricos. Esos medios no precisan la fuente estadística de los datos.",
-        "## Las lecturas de los analistas",
-        "Las interpretaciones difieren según el foco. La consultora Equilibra advirtió, en un informe citado por Infobae, que los récords son en términos nominales y que, a dólares constantes, las ventas externas están en niveles similares a los de mediados de 2022 y 18% por debajo del pico de marzo de 2012. Santiago Casas, de EcoAnalytics, sostuvo que las importaciones reflejan una demanda interna débil y recordó que en septiembre de 2025 hubo compras adelantadas ante expectativas de devaluación; Claudio Caprarulo, de Analytica, consideró la caída de las importaciones como una mala señal para el nivel de actividad."
-      ],
-      "keyData": [
-        [
-          "Exportaciones de septiembre",
-          "USD 10.036 M (+23,5% i.a.)"
-        ],
-        [
-          "Importaciones de septiembre",
-          "USD 7.060 M (−1,8% i.a.)"
-        ],
-        [
-          "Saldo comercial",
-          "USD 2.976 M (34 meses seguidos con superávit)"
-        ],
-        [
-          "Combustibles y energía",
-          "USD 1.781 M (+89,1% i.a.)"
-        ],
-        [
-          "Déficit con China",
-          "USD 831 M"
-        ],
-        [
-          "Saldo enero–septiembre",
-          "USD 21.198 M"
-        ],
-        [
-          "Exportaciones pymes enero–septiembre",
-          "USD 8.330 M (+23,2% i.a.)"
-        ]
-      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
       "sources": [
         {
-          "name": "Infobae",
-          "type": "Medio de comunicación",
-          "url": "https://www.infobae.com/economia/2026/10/19/con-exportaciones-en-niveles-record-la-balanza-comercial-marco-un-superavit-de-usd-2976-millones-en-septiembre/",
-          "primary": true
-        },
-        {
-          "name": "Los Andes",
-          "type": "Medio de comunicación",
-          "url": "https://www.losandes.com.ar/economia/argentina-logro-una-balanza-comercial-casi-us3000-millones-septiembre-pese-al-deficit-china-n6010902"
-        },
-        {
-          "name": "Revista Container",
-          "type": "Medio especializado",
-          "url": "https://www.revistacontainer.com.ar/nota/la-energia-impulsa-las-exportaciones-el-superavit-de-septiembre"
-        },
-        {
-          "name": "Bloomberg Línea",
-          "type": "Medio de comunicación",
-          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/record-historico-en-argentina-las-exportaciones-superaron-por-primera-vez-los-us10000-millones-en-un-mes/"
-        },
-        {
-          "name": "Conclusión",
-          "type": "Medio de comunicación",
-          "url": "https://www.conclusion.com.ar/politica/economia/las-exportaciones-crecieron-un-23-interanual-y-la-balanza-comercial-registro-un-superavit-de-casi-us-3-000-millones/10/2026/"
-        },
-        {
-          "name": "C5N",
-          "type": "Medio de comunicación",
-          "url": "https://www.c5n.com/economia/indec-el-superavit-comercial-septiembre-fue-casi-us3000-millones-el-segundo-maximo-2026-n252012"
-        },
-        {
-          "name": "A24",
-          "type": "Medio de comunicación",
-          "url": "https://www.a24.com/economia/el-superavit-comercial-rozo-los-us-3000-millones-septiembre-y-fue-el-segundo-mas-alto-2026-n1607939"
-        },
-        {
-          "name": "Ámbito",
-          "type": "Medio de comunicación",
-          "url": "https://www.ambito.com/economia/las-exportaciones-las-pymes-alcanzaron-su-mayor-valor-13-anos-n6335392"
-        },
-        {
-          "name": "ImpulsoBaires",
-          "type": "Medio de comunicación",
-          "url": "https://www.impulsobaires.com.ar/nota/326372/las-pymes-volvieron-a-ganar-peso-en-el-comercio-exterior-y-hay-un-dato-para-mirar/"
-        },
-        {
-          "name": "GBM",
-          "type": "Medio especializado",
-          "url": "https://gbm.com/media/noticia/sector-energetico-ayuda-a-impulsar-balanza-comercial-argentina-de-septiembre/"
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/ad-ports-group-informa-avances-en-reduccion-de-emisiones-en-2025/",
+          "primary": true,
+          "author": "Diego Hermosilla"
         }
-      ],
-      "argentinaImpact": {
-        "change": "Las exportaciones de septiembre superaron por primera vez los USD 10.000 millones y el superávit fue de USD 2.976 millones; las importaciones cayeron 11,2% en cantidades.",
-        "who": "Exportadores de energía, agroindustria e industria; importadores de insumos, bienes de capital y vehículos.",
-        "sectors": [
-          "Energía",
-          "Agroindustria",
-          "Automotriz",
-          "Bienes de capital"
-        ],
-        "flows": {
-          "importaciones": true,
-          "exportaciones": true,
-          "logistica": false,
-          "aranceles": false
-        }
-      },
-      "explainer": {
-        "what": "El INDEC informó que en septiembre las exportaciones sumaron USD 10.036 millones, el primer mes por encima de USD 10.000 millones, y que el superávit comercial fue de USD 2.976 millones.",
-        "why": "El salto de combustibles y energía (+89,1%) empuja el ingreso de divisas, mientras las importaciones caen en cantidades (−11,2%) y en bienes de capital (−10,4%), un dato que los analistas leen como señal de demanda interna débil.",
-        "who": "Exportadores de energía, agroindustria e industria; importadores de insumos, bienes de capital y vehículos; y quienes siguen la oferta de divisas.",
-        "products": [
-          "Petróleo crudo",
-          "Combustibles",
-          "Manufacturas de origen agropecuario",
-          "Manufacturas de origen industrial",
-          "Bienes de capital",
-          "Vehículos de pasajeros"
-        ]
-      },
-      "absorbs": [
-        "nuevo-record-de-las-exportaciones-argentinas-al-superar-los-usd-10-000-millones",
-        "bate-records-el-comercio-exterior-porla-aceleracion-de-las-exportaciones",
-        "las-exportaciones-superaron-los-u-s-10-000-millones-por-primera-vez-y-la-energia",
-        "la-balanza-comercial-de-septiembre-registro-un-superavit-de-2-976-millones-de-do",
-        "record-de-exportaciones-la-argentina-supero-los-us-10-000-millones-en-septiembre",
-        "exportaciones-pymes-mayor-valor-en-13-anos-con-un-alza-del-23-2",
-        "argentina-logro-una-balanza-comercial-de-casi-us-3-000-millones-en-septiembre-pe"
       ]
     },
     {
-      "id": "rigi-tgs-dos-proyectos-ngl-tratayen-bahia-blanca-3200-millones",
-      "date": "2026-10-19",
-      "datetime": "2026-10-19T11:03:00-03:00",
+      "id": "dia-del-practico-argentino-130-anos-de-una-profesion-esencial-para-la-seguridad",
+      "datetime": "2026-10-20T13:54:09Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "Día del Práctico Argentino: 130 años de una profesión esencial para la seguridad de la navegación y el comercio exterior",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": true,
       "kind": "noticia",
-      "title": "El RIGI aprueba dos proyectos de TGS por más de USD 3.200 millones para procesar y exportar líquidos de Vaca Muerta desde Bahía Blanca",
-      "summary": "El Comité Evaluador admitió una planta de separación de líquidos del gas en Tratayén y un ducto de 577 km con planta fraccionadora en Bahía Blanca. Según Caputo, operarían desde 2030 con exportaciones por unos USD 1.100 millones anuales.",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "Comex Online",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://comexonline.com.ar/noticias/val/63756/dia-del-practico-argentino-130-anos-de-una-profesion-esencial-para-la-seguridad-de-la-navegacion-y-el-comercio-exterior.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-20T14:05:35Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNTTVuYjN3Y2VaaEZ4T1hJemJEaWNLQko5SVh5Q0xsVW1Qbk9LV05KRGFheElER3czQndBRVpBci0wOGJZWHpwbXJBdmlDSkx5bnM1RDlBeThKdWpZWW5zRDc1ZW5XSXdaWnJJWUMyYmNONEEybXFTaGlMRllIU3VBamFtSUJZVjhoMlI5ellyY09mY3YwM2RSNUxJSVJjaWFFR0pFOURvR1BVTVZiSlk5aVc3aVdGQUo0dWVFTWpuT09NWEJ0ZTR4d19ZeGtMV0I1NEFCYjdTRVNMUFlGeXE3YS1va29Rc1RQSlN1T3BsajJpM2pORUdWVVRja0xTdU0?oc=5"
+    },
+    {
+      "id": "trump-anuncia-posible-acuerdo-comercial-con-mexico-que-pasara-con-los-aranceles",
+      "datetime": "2026-10-20T13:47:08Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "Trump anuncia posible acuerdo comercial con México: ¿qué pasará con los aranceles?",
+      "summary": "El presidente de Estados Unidos, Donald Trump, aseguró que su gobierno está cerca de alcanzar un acuerdo comercial con México",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "México",
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Líder Empresarial",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.liderempresarial.com/trump-anuncia-posible-acuerdo-comercial-con-mexico-que-pasara-con-los-aranceles/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-20T14:05:35Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVGZKQjh0MW83bjlIM2UzV3VGanhGbUtnMTZWUlBzVURMdFZFdnE4anVNM3JJZEp6YV9lNjVEUmtqb1JHUnMtMFFBNDFlMW4wU1FlUGpUeDdIWFJoZVRyUUpiSUdZcHMySVNMQ2N0cXhMMHJKa1RrM29xZ1hMc24ybS11SXY4ZXh2QkdVdHZsUVdDRkJUeWtXYnE1VTh2VE5qcUdac3I2SThaTEItRFJXdHkzMA?oc=5"
+    },
+    {
+      "id": "federico-dominguez-destaco-que-argentina-atraviesa-el-mayor-boom-exportador-desd",
+      "datetime": "2026-10-20T13:45:30Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "Federico Domínguez destacó que Argentina atraviesa «el mayor boom exportador desde fines del siglo XIX",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Radio Nacional",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://cdn.radionacional.com.ar/dominguez-destaco-que-argentina-atraviesa-el-mayor-boom-exportador-desde-fines-del-siglo-xix/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-20T14:05:35Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUmJUUUptdHRzVFdtNjhhV1hFZTBLMWJzcmF2MzRRZGo4M1Ezc05XRGIxYXJGTkNtT1ZzMDEyWDA3czhDY1RBMy14VU5SVWhvajVGNTNWeEZFOEZHSE1VdmRHNHJ1aHVCUDhGeW1ldkx6Yko0SmJORGV3R0s3SXhHMjFDUHV0ZUV4Rm8zVFBkcnZ2R3VDVTRoODFuOWstUWtEWS16UUVxaGQ3RmZZVU1MbENYdTZTdGFCVmNFcTBUeG9SZ2FL?oc=5"
+    },
+    {
+      "id": "el-economista-christian-buteler-advirtio-que-el-record-de-exportaciones-no-alcan",
+      "datetime": "2026-10-20T13:39:53Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "El economista Christian Buteler advirtió que el récord de exportaciones no alcanza para reactivar la economía argentina",
+      "summary": "El economista y consultor financiero Christian Buteler analizó en Fénix el superávit comercial y advirtió que la mejora de las exportaciones no se refleja en la industria, la construcción ni el consumo interno.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Fenix951",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.fenix951.com.ar/noticia.php?id=357352",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-20T14:05:35Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1FVjlxQUJBT1VINGNwdlJVUUV6bnh2dEpGVW1Lb0VxbDNhX2JfZkRLaVlXSEx0bThsdFpMUm1uNzdRWFFqZEJXNnFHOTV3Rkt5elliSkFmTDhuZGFXZUE?oc=5"
+    },
+    {
+      "id": "hito-historico-en-el-comercio-exterior-las-exportaciones-argentinas-superaron-lo",
+      "datetime": "2026-10-20T13:27:18Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "Hito histórico en el comercio exterior: las exportaciones argentinas superaron los US$ 10.000 millones en un solo mes",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "Diario 3",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.diario3.com.ar/hito-historico-en-el-comercio-exterior-las-exportaciones-argentinas-superaron-los-us-10-000-millones-en-un-solo-mes/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-20T14:05:35Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQT0NOOExucVNGM3laekZQamxZNWdObEN5Wm5IZUwxNDNOWUhFRDFUMUpzSHJRQnpGMm04NDZzOWpheXV1OG50MWloNXFvQ0FCTTFpUDd2Uk9JNzVsYVR5R2NsOEJ5c2Fqd2g4SEFYVGtSRU02c0VhREljb1RydjZkVzlzMVdhZHFPRkNKY2trRGlwcmRlbGgwbWpod3RpMGNsVmZkQVBLbldPQ0VnWThJbWdodjZydXZaWF9yNGxlbW5MaE5OeUozNVdKY01PYzE4Z2c0cGdkVFlmb1U?oc=5"
+    },
+    {
+      "id": "el-hombre-de-los-aranceles-finalmente-encontro-aranceles-que-no-le-gustan",
+      "datetime": "2026-10-20T13:21:00Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "\"El hombre de los aranceles\" finalmente encontró aranceles que no le gustan",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "CNN en Español",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://cnnespanol.cnn.com/2026/10/20/economia/trump-aranceles-rusia-trax",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-20T14:05:35Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBRanU4dzgwVjQ0Y2twdEtfN0tzM1h1LUdKNVA3NkZ1TG1TR3lDSVRUY25SRXBsSFdlcF9RZzQtUXEwZGlZV1dxZndHMEJBYXRTUlppNDFZc1FLTkx1aVRFQ1NMWnNWRHBJUGcwclk2akxyVHZqbnJJQm5Yamdsdw?oc=5"
+    },
+    {
+      "id": "chile-exporta-casi-tres-veces-mas-que-argentina-por-habitante-que-lugar-ocupa-sa",
+      "datetime": "2026-10-20T13:14:00Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "Chile exporta casi tres veces más que Argentina por habitante: qué lugar ocupa San Juan dentro del país",
+      "summary": "Un informe basado en datos oficiales muestra fuertes diferencias entre las provincias argentinas y los principales países exportadores. Mientras algunas jurisdicciones superan los U$S 10.000 por habitante, otras no llegan a los U$S 1.000.",
+      "body": [],
+      "keyData": [],
       "topics": [
         "Argentina",
         "Exportaciones",
-        "Empresas"
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Chile"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Tiempo de San Juan",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.tiempodesanjuan.com/economia/chile-exporta-casi-tres-veces-mas-que-argentina-por-habitante-que-lugar-ocupa-san-juan-dentro-del-pais_1792502096",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-20T14:05:35Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNeThyTWxaRk96dEs1R21KMlBVYUEyZVIySV9YR3VHaVVZZnBxZ1R3NHg3aGN2emdTZm1BYnNGZ3Brdy12dEVQU0xiR0I5cEVzQXBLYW9KRVZId0FpZXJzZThFalVsUU9xVzdXZXQwb1lJTGNIVTJLRXdCRDVRSDI1VkpsVHpqUHlBWjd2X1FTbFNBRlI3cTNpbGJ5dTN3VVl2QUJqaDlLOWctZ2NUcENVTlIxMGNOMnI0Uy0zbUJaUEQ2cEVCSlVLOW84WVZic1ZFLXN5UFU4eDF0RmRGT1BxVWxmZHRVNExHY1E?oc=5"
+    },
+    {
+      "id": "la-omc-reune-esta-semana-al-comite-de-facilitacion-del-comercio",
+      "datetime": "2026-10-20T13:10:44Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "La OMC reúne esta semana al Comité de Facilitación del Comercio",
+      "summary": "La Organización Mundial del Comercio (OMC) reúne esta semana al Comité de Facilitación del Comercio, del 20 al 22 de octubre, para continuar los trabajos vinculados con la aplicación del acuerdo multilateral. La reunión figura en el calendario de la Base de Datos del Acuerdo sobre Facilitación del Comercio. La agenda…",
+      "body": [
+        "La Organización Mundial del Comercio (OMC) reúne esta semana al Comité de Facilitación del Comercio, del 20 al 22 de octubre, para continuar los trabajos vinculados con la aplicación del acuerdo multilateral. La reunión figura en el calendario de la Base de Datos del Acuerdo sobre Facilitación del Comercio. La agenda detallada no está disponible…"
+      ],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Economía internacional"
       ],
       "countries": [
         "Argentina"
       ],
       "tags": [
-        "RIGI",
-        "Vaca Muerta",
-        "TGS",
-        "NGL",
-        "Bahía Blanca",
-        "Gas"
+        "OMC"
       ],
-      "visual": "energy",
-      "impact": 2,
+      "visual": "treaty",
+      "impact": 1,
       "affectsArgentina": true,
-      "argentinaNote": "Suma infraestructura para exportar propano, butano y gasolina natural de Vaca Muerta por Bahía Blanca desde 2030, según la proyección oficial.",
-      "body": [
-        "El Comité Evaluador del Régimen de Incentivo para Grandes Inversiones (RIGI) aprobó el ingreso de dos proyectos de Transportadora de Gas del Sur (TGS) que suman más de USD 3.200 millones, según anunció el lunes 19 de octubre el ministro de Economía, Luis Caputo. Las obras apuntan a separar, transportar y fraccionar los líquidos que trae el gas de Vaca Muerta —propano, butano y gasolina natural— para venderlos al exterior desde Bahía Blanca.",
-        "De acuerdo con la proyección oficial difundida por Caputo, las plantas empezarían a operar en 2030 y desde entonces generarían exportaciones por unos USD 1.100 millones por año. El ministro calificó las iniciativas como claves para el desarrollo de Vaca Muerta y estimó 19.000 puestos de trabajo durante la construcción. El anuncio coincidió con la publicación del dato oficial de comercio exterior de septiembre, en el que las exportaciones de combustibles y energía crecieron 89,1% interanual.",
-        "## Qué incluye cada proyecto",
-        "El primero es una planta en Tratayén, en Neuquén, para separar del gas natural los líquidos (NGL, por su sigla en inglés) que llegan desde los yacimientos. El segundo combina un ducto de 577 kilómetros que llevará esos líquidos hasta Bahía Blanca, en la provincia de Buenos Aires, con una planta fraccionadora que los dividirá en productos comercializables, más tanques de almacenamiento e infraestructura para exportarlos. Cuando TGS presentó la iniciativa, en marzo, también incluyó un gasoducto de segregación de unos 100 kilómetros y obras en una terminal marítima, según Bloomberg Línea y Forbes Argentina. De acuerdo con El Cronista, la obra se extiende sobre cuatro provincias.",
-        "## El cuello de botella que buscan destrabar",
-        "El gas de Vaca Muerta trae componentes líquidos que deben separarse antes de inyectarlo en los gasoductos. A medida que crece la producción, también crece el volumen de esos líquidos, pero la infraestructura para separarlos, transportarlos y procesarlos es mucho más limitada que la capacidad de transporte de gas, según explica El Cronista. Sin esa ampliación, el crecimiento de la cuenca podría quedar limitado.",
-        "Marcelo Mindlin, presidente de Pampa Energía —una de las empresas que controlan TGS—, definió la obra como una inversión clave para resolver algunos de esos cuellos de botella. La compañía sostiene que se trata de la primera planta de procesamiento de líquidos que se construye en el país en más de 25 años.",
-        "## De marzo a hoy: cómo cambiaron los números",
-        "TGS presentó el proyecto en marzo de 2026, durante la Argentina Week de Nueva York, como una inversión de unos USD 3.000 millones, con 45 meses de ejecución y exportaciones que su CEO, Oscar Sardi, estimó entonces en USD 1.200 millones anuales. En junio, el directorio tomó la decisión final de inversión y aprobó acuerdos con YPF, Pluspetrol y Chevron que cubren más del 80% de la capacidad, mientras seguía negociando con otros productores. Así, el monto aprobado ahora es mayor que el de marzo y la proyección de exportaciones, algo menor: el Gobierno habla de USD 1.100 millones por año.",
-        "La estimación de 19.000 puestos coincide con la que había dado la empresa en marzo: unos 4.000 empleos directos y 15.000 indirectos durante la obra. Según ArgenPorts, se trata de trabajos de construcción y no de puestos permanentes de operación.",
-        "## Un RIGI cada vez más energético",
-        "Infobae contabilizó junto con estos dos proyectos el de Pluspetrol en el área Bajo del Choique–La Invernada, en el norte de Neuquén, que el Comité Evaluador había aprobado a comienzos de octubre y que la empresa anunció en París: entre los tres, la inversión supera los USD 15.400 millones. El plan de Pluspetrol prevé más de 620 pozos horizontales y, en su segunda etapa, más de 100.000 barriles diarios de petróleo y 12 millones de metros cúbicos diarios de gas; la compañía estima exportaciones por hasta USD 2.200 millones por año, mientras que Infobae menciona unos USD 2.300 millones. Antes de ese caso, el mayor proyecto petrolero del régimen era el de Tecpetrol en Los Toldos II Este, por unos USD 6.400 millones, según El Cronista.",
-        "## Lo que todavía no se sabe",
-        "Las fuentes consultadas no detallan los montos de cada uno de los dos proyectos de TGS por separado, la capacidad de procesamiento que tendrá la planta de Tratayén ni los volúmenes anuales de propano, butano y gasolina natural que se exportarán. Tampoco precisan los destinos previstos para esas ventas ni la terminal portuaria de Bahía Blanca desde la que saldrán los embarques."
-      ],
-      "keyData": [
-        [
-          "Inversión aprobada",
-          "Más de USD 3.200 millones (dos proyectos)"
-        ],
-        [
-          "Exportaciones estimadas",
-          "Unos USD 1.100 millones por año desde 2030 (Gobierno)"
-        ],
-        [
-          "Ducto",
-          "577 km, de Tratayén a Bahía Blanca"
-        ],
-        [
-          "Productos",
-          "Propano, butano y gasolina natural"
-        ],
-        [
-          "Empleo en obra",
-          "19.000 puestos (estimación oficial)"
-        ],
-        [
-          "Capacidad comprometida",
-          "Más del 80% (YPF, Pluspetrol y Chevron)"
-        ],
-        [
-          "Inicio de operación",
-          "2030"
-        ]
-      ],
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Aduana News",
       "sources": [
         {
-          "name": "Bloomberg Línea",
-          "type": "Medio de comunicación",
-          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/planta-multimillonaria-de-ngl-de-tgs-entra-al-rigi-cuanto-exportara-desde-2030/",
-          "primary": true
-        },
-        {
-          "name": "El Cronista",
-          "type": "Medio de comunicación",
-          "url": "https://www.cronista.com/negocios/tgs-consiguio-el-rigi-para-dos-proyectos-que-buscan-destrabar-un-cuello-de-botella-millonario-en-vaca-muerta/"
-        },
-        {
-          "name": "Forbes Argentina",
-          "type": "Medio de comunicación",
-          "url": "https://www.forbesargentina.com/money/rigi-aprobaron-dos-proyectos-tgs-mas-us-3200-millones-n100627"
-        },
-        {
-          "name": "ArgenPorts",
-          "type": "Medio especializado",
-          "url": "https://argenports.com/nota/vaca-muerta-el-megaproyecto-de-tgs-por-mas-de-us-3-200-millones-obtuvo-el-aval-del-rigi/"
-        },
-        {
-          "name": "Infobae",
-          "type": "Medio de comunicación",
-          "url": "https://www.infobae.com/economia/2026/10/19/el-gobierno-aprobo-un-proyecto-rigi-de-mas-de-usd-12200-millones-para-producir-petroleo-y-gas-en-vaca-muerta/"
-        },
-        {
-          "name": "Bloomberg Línea (Pluspetrol)",
-          "type": "Medio de comunicación",
-          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/pluspetrol-recibe-luz-verde-del-rigi-para-invertir-us12400-millones-en-vaca-muerta/"
-        },
-        {
-          "name": "El Cronista (Pluspetrol)",
-          "type": "Medio de comunicación",
-          "url": "https://www.cronista.com/negocios/luz-verde-para-el-rigi-de-pluspetrol-en-neuquen-us-12400-millones-para-oil-gas/"
+          "name": "Aduana News",
+          "type": "Medio especializado · Argentina",
+          "url": "https://aduananews.com/la-omc-reune-esta-semana-al-comite-de-facilitacion-del-comercio/?utm_source=rss&utm_medium=rss&utm_campaign=la-omc-reune-esta-semana-al-comite-de-facilitacion-del-comercio",
+          "primary": true,
+          "author": "Aduana News"
         }
-      ],
-      "argentinaImpact": {
-        "change": "TGS ingresa al RIGI con dos proyectos por más de USD 3.200 millones para separar, transportar y exportar líquidos del gas de Vaca Muerta desde Bahía Blanca.",
-        "who": "Productores de gas de Vaca Muerta, proveedores de obra y la logística portuaria de Bahía Blanca.",
-        "sectors": [
-          "Energía",
-          "Petroquímica",
-          "Logística portuaria"
-        ],
-        "flows": {
-          "importaciones": false,
-          "exportaciones": true,
-          "logistica": true,
-          "aranceles": false
-        }
-      },
-      "explainer": {
-        "what": "El Comité Evaluador del RIGI aprobó dos proyectos de TGS por más de USD 3.200 millones para separar los líquidos del gas de Vaca Muerta en Tratayén y llevarlos por un ducto de 577 km a una planta fraccionadora en Bahía Blanca.",
-        "why": "Apunta a destrabar un cuello de botella que limita el crecimiento de Vaca Muerta y, según el Gobierno, generaría exportaciones por unos USD 1.100 millones por año desde 2030.",
-        "who": "Productores de gas de Vaca Muerta, proveedores y contratistas de obra, y la actividad portuaria de Bahía Blanca.",
-        "products": [
-          "Propano",
-          "Butano",
-          "Gasolina natural",
-          "Gas natural"
-        ],
-        "next": "Según la proyección oficial, las plantas empezarían a operar en 2030.",
-        "nextSource": {
-          "name": "Bloomberg Línea",
-          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/planta-multimillonaria-de-ngl-de-tgs-entra-al-rigi-cuanto-exportara-desde-2030/"
-        }
-      },
-      "absorbs": [
-        "planta-multimillonaria-de-ngl-de-tgs-entra-al-rigi-cuanto-exportara-desde-2030",
-        "dos-proyectos-millonarios-del-rigi-apuntan-a-impulsar-las-exportaciones-de-gas-a"
       ]
     },
     {
-      "id": "suez-capacidad-portacontenedores-supera-50-niveles-previos-mar-rojo-bimco",
-      "date": "2026-10-19",
-      "kind": "noticia",
-      "title": "El paso de portacontenedores por Suez supera por primera vez la mitad de los niveles previos a la crisis del mar Rojo",
-      "summary": "Según BIMCO, con datos de Clarksons, por el canal pasaron en promedio 753.000 TEU semanales en las dos primeras semanas de octubre, contra 1.457.000 en igual período de 2023. Drewry advierte que el regreso acelerado es el mayor riesgo para la recuperación de los fletes.",
+      "id": "40-estudiantes-del-liceo-ceia-b-32-inician-formacion-tecnica-con-programa-crece",
+      "datetime": "2026-10-20T13:05:57Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "40 estudiantes del Liceo CEIA B-32 inician formación técnica con programa Crece con tu Puerto de ATI",
+      "summary": "Por PortalPortuario Social “Es muy bueno ser parte de este curso, darle la oportunidad a tantas mujeres para entrar al…",
+      "body": [],
+      "keyData": [],
       "topics": [
-        "Transporte marítimo",
-        "Logística",
-        "Geopolítica y comercio",
-        "Asia",
-        "Europa"
+        "Puertos"
       ],
       "countries": [
-        "Egipto",
-        "Yemen",
         "Global"
       ],
       "tags": [
-        "Canal de Suez",
-        "Mar Rojo",
-        "BIMCO",
-        "Drewry",
-        "Linerlytica",
-        "Contenedores"
+        "Puertos"
       ],
-      "visual": "container",
-      "impact": 2,
+      "visual": "port",
+      "impact": 1,
       "affectsArgentina": false,
-      "story": "fletes-contenedores",
-      "body": [
-        "La capacidad de los portacontenedores que cruzan el canal de Suez promedió 753.000 TEU por semana en las dos primeras semanas de octubre, contra 1.457.000 TEU en igual período de 2023, según el análisis semanal de BIMCO firmado por su jefe de análisis, Niels Rasmussen, con datos de Clarksons Research. Es la primera vez desde que comenzaron los ataques de los hutíes en el mar Rojo que el tránsito supera la mitad de los niveles previos a la crisis.",
-        "A comienzos de octubre, el canal concentró el 36% de la capacidad de portacontenedores que se mueve por Suez o por el cabo de Buena Esperanza. Entre 2024 y mediados de 2026 esa proporción había promediado 8%, y antes de los ataques rondaba el 80%, según los datos difundidos por SWZ Maritime y Container News.",
-        "## Cómo se llegó hasta acá",
-        "En noviembre de 2023, los hutíes anunciaron que atacarían buques vinculados con Israel en el mar Rojo y después ampliaron los blancos a otras embarcaciones. Desde diciembre de ese año, las líneas de contenedores empezaron a desviar sus servicios por el sur de África. En la última semana de 2023, la capacidad semanal por Suez cayó a 330.000 TEU, y entre principios de febrero de 2024 y mediados de 2026 promedió 141.000 TEU, cerca del 11% de lo registrado en las mismas semanas de 2023.",
-        "El regreso empezó el 6 de julio de 2026, cuando la alianza Gemini (Maersk y Hapag-Lloyd) anunció que su servicio AE15/SE3 entre Asia y el Mediterráneo volvería al canal. Desde entonces, Gemini sumó otros cinco servicios, y también anunciaron cambios de ruta Ocean Alliance, Premier Alliance y MSC: BIMCO contabiliza modificaciones en 16 servicios desde principios de julio. Según Sourcing Journal, la Premier Alliance (ONE, HMM y Yang Ming) incorpora su servicio FE1 entre Asia y el norte de Europa, el primero que esa alianza devuelve al mar Rojo desde el inicio de los ataques.",
-        "## Los números del regreso",
-        "La consultora Linerlytica contó en promedio 29,5 buques de más de 4.000 TEU por semana entre el 31 de agosto y el 27 de septiembre, 45 en la semana del 5 al 11 de octubre y unos 47 previstos para la siguiente, y espera que pronto se superen los 50 tránsitos semanales. Según sus cálculos, más de 140 portacontenedores, con más de 2 millones de TEU de capacidad, dejaron la ruta del cabo desde mayo. La Autoridad del Canal de Suez informó, por su parte, que entre julio y septiembre pasaron 166 portacontenedores medianos y grandes, frente a 16 un año antes.",
-        "La recuperación empezó por el tráfico hacia el sur. En el tercer trimestre, la capacidad que cruzaba hacia el norte equivalía al 75% de la que iba hacia el sur, proporción que subió al 81% a comienzos de octubre, de acuerdo con BIMCO.",
-        "## Qué implica para la capacidad y los fletes",
-        "Los desvíos por el cabo alargan los viajes y, según BIMCO, habían elevado alrededor de 10% la demanda mundial de buques portacontenedores; Rasmussen señala que ese efecto se está reduciendo con rapidez. Al mismo tiempo, el regreso coincidió con más congestión en puertos asiáticos, por lo que el impacto total sobre la oferta y la demanda de bodegas todavía no está claro.",
-        "Drewry considera que el retorno más rápido de lo previsto es el mayor riesgo para la recuperación de las tarifas de las navieras, porque los tránsitos más cortos equivalen a sumar capacidad en Asia–norte de Europa, una ruta en la que los fletes acumulaban 13 semanas de bajas, según Sourcing Journal. La consultora estimó en septiembre que pasar por Suez ahorra alrededor de USD 1 millón por viaje redondo a un buque de 24.000 TEU, antes de primas de riesgo de guerra y descuentos del canal; con una prima de 0,3% sobre un casco de USD 225 millones, el costo adicional sería de USD 1,35 millones y la ventaja volvería a la ruta del cabo.",
-        "## Los riesgos que siguen abiertos",
-        "El regreso no implica que el mar Rojo sea seguro. Simon Heaney, de Drewry, sostuvo a fines de septiembre que las navieras parecen estar haciendo pruebas controladas con planes de contingencia por el cabo, más que mostrando confianza, y que los hutíes reforzaron su posición sobre la costa yemení del mar Rojo. Lars Jensen, de Vespucci Maritime, señaló que el flujo actual depende por completo de decisiones de Irán y de los hutíes.",
-        "En cuanto a los plazos, Linerlytica prevé un regreso pleno a Suez durante el primer trimestre de 2027, mientras que Drewry proyecta un retorno escalonado que llegaría al 80% de los niveles previos a los desvíos hacia febrero. Ambas consultoras esperan que, en una primera etapa, el regreso se concentre en los viajes de retorno, mientras las navieras ponen a prueba la ruta."
-      ],
-      "keyData": [
-        [
-          "Capacidad semanal por Suez (1–14 de octubre)",
-          "753.000 TEU"
-        ],
-        [
-          "Mismo período de 2023",
-          "1.457.000 TEU"
-        ],
-        [
-          "Participación de Suez frente al cabo",
-          "36% (8% en 2024–mediados de 2026; cerca de 80% antes de la crisis)"
-        ],
-        [
-          "Servicios que anunciaron el regreso",
-          "16 desde principios de julio"
-        ],
-        [
-          "Efecto de los desvíos en la demanda de buques",
-          "Cerca de +10% (BIMCO)"
-        ],
-        [
-          "Regreso pleno estimado",
-          "Primer trimestre de 2027 (Linerlytica)"
-        ]
-      ],
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
       "sources": [
         {
-          "name": "SWZ Maritime",
-          "type": "Medio especializado",
-          "url": "https://swzmaritime.nl/news/2026/10/19/suez-canal-container-traffic-passes-50-recovery-mark/",
-          "primary": true
-        },
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/40-estudiantes-del-liceo-ceia-b-32-inician-formacion-tecnica-con-programa-crece-con-tu-puerto-de-ati/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "kenia-puerto-de-lamu-recibe-nuevo-buque-con-carga-pesada-para-refineria-de-dango",
+      "datetime": "2026-10-20T13:00:12Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "Kenia: Puerto de Lamu recibe nuevo buque con carga pesada para refinería de Dangote",
+      "summary": "El Puerto de Lamu, en Kenia, dio la bienvenida al MV Great Glory, un barco que…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos"
+      ],
+      "countries": [
+        "Kenia"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
         {
-          "name": "BIMCO",
-          "type": "Organismo del sector",
-          "url": "https://www.bimco.org/news-insights/market-analysis/shipping-number-of-the-week/2026/1014-snow/"
-        },
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/kenia-puerto-de-lamu-recibe-nuevo-buque-con-carga-pesada-para-refineria-de-dangote/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "la-trastienda-logistica-de-los-alimentos-que-llegan-al-supermercado",
+      "datetime": "2026-10-20T12:59:40Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "La trastienda logística de los alimentos que llegan al supermercado",
+      "summary": "Nicolás Gómez, responsable de logística en una empresa argentina de producción de alimentos de consumo masivo, repasa cómo coordinar proveedores, importaciones y distribución en una operación federal",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
         {
-          "name": "Container News",
-          "type": "Medio especializado",
-          "url": "https://container-news.com/suez-canal-container-ship-transits-exceed-half-of-pre-crisis-levels/"
-        },
-        {
-          "name": "Riviera Maritime Media",
-          "type": "Medio especializado",
-          "url": "https://www.rivieramm.com/news-content-hub/suez-canal-box-ship-transits-recover-as-analysts-suggest-full-return-in-early-2027-90264"
-        },
-        {
-          "name": "Sourcing Journal (vía Yahoo Finance)",
-          "type": "Medio especializado",
-          "url": "https://finance.yahoo.com/energy/articles/container-shipping-red-sea-comeback-173517117.html"
+          "name": "Infobae",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.infobae.com/movant/2026/10/20/la-trastienda-logistica-de-los-alimentos-que-llegan-al-supermercado/",
+          "primary": true,
+          "author": ""
         }
       ],
-      "explainer": {
-        "what": "La capacidad de portacontenedores que cruza el canal de Suez promedió 753.000 TEU semanales en las dos primeras semanas de octubre y superó por primera vez la mitad de los niveles de 2023, según BIMCO.",
-        "why": "Los desvíos por el cabo de Buena Esperanza habían elevado cerca de 10% la demanda de buques; su reversión libera capacidad y, según Drewry, es el mayor riesgo para la recuperación de los fletes.",
-        "who": "Navieras, forwarders y cargadores con tráfico entre Asia, Europa y el Mediterráneo, y aseguradoras de riesgo de guerra.",
-        "products": [
-          "Carga en contenedores"
-        ],
-        "next": "Linerlytica prevé un regreso pleno a Suez durante el primer trimestre de 2027; Drewry proyecta llegar al 80% de los niveles previos a los desvíos hacia febrero.",
-        "nextSource": {
-          "name": "Riviera Maritime Media",
-          "url": "https://www.rivieramm.com/news-content-hub/suez-canal-box-ship-transits-recover-as-analysts-suggest-full-return-in-early-2027-90264"
+      "gnTried": "2026-10-20T14:05:35Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdWVvRlplMmhTZ0I4ZHloOTUzOWlGM3o0QnQxVUhQM2t1SW9CTlJYeVI5bmc1ckw1LU5ISHJSeTdfd3RucnR0cXNqU3JFT0RKMTk2cHVmdHkyZG5US0ZpYk05WDBIWUwyZ0tITU9wX29mVlQyQjJ4WkVOaGFFcG1ETTNWSG92by1QeUZQTXFMMHpyd28zYmFoWHpyX2wzb1BQbHg0TUNBdXZ3dndEQ1d0cHVVODBCV3RBeUJsdGotRnNtM1VTTUxzNUFB0gHKAUFVX3lxTFB1ZW9GWmUyaFNnQjhkeWg5NTM5aUYzejRCdDFVSFAza3VJb0JOUlh5UjluZzVyTDUtTkhIclJ5N193dG5ydHRxc2pTckVPREoxOTZwdWZ0eTJkblRLRmliTTlYMEhZTDJnS0hNT3Bfb2ZWVDJCMnhaRU5oYUVwbURNM1ZIb3ZvLVB5RlBNcUwwenJ3bzNiYWhYenJfbDNvUFBseDRNQ0F1dnd2d0RDV3RwdVU4MEJXdEF5Qmx0ai1Gc20zVVNNTHM1QUE?oc=5"
+    },
+    {
+      "id": "un-sofa-una-cocina-y-un-closet-detienen-a-cuatro-falsos-fletes-sorprendidos-roba",
+      "datetime": "2026-10-20T12:58:51Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "Un sofá, una cocina y un closet: detienen a cuatro falsos fletes sorprendidos robando en Ovalle",
+      "summary": "Cuatro sujetos que aseguraron estar realizando un flete fueron hallados intentando sustraer diversos muebles desde una vivienda en Ovalle, ...",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "BioBioChile",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.biobiochile.cl/noticias/nacional/region-de-coquimbo/2026/10/20/un-sofa-una-cocina-y-un-closet-detienen-a-cuatro-falsos-fletes-sorprendidos-robando-en-ovalle.shtml",
+          "primary": true,
+          "author": ""
         }
-      },
-      "absorbs": [
-        "capacidad-de-transporte-de-contenedores-de-canal-de-suez-supera-por-primera-vez"
+      ],
+      "gnTried": "2026-10-20T14:05:35Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNTEtvS09pS21ZczZrV3BUYzlIMWEwOFJjcGY4eVNiU3NlR0l3UzJjNFpTLTcxWDVycTRobHRRYWNIUjZEQThaZkxBV3U0VkV1QlRGTUNhSnNIVWhZbHhvanBSZWRsd3piRFoxSFZyNGRDc3FTME4zUW4yX1p1RHlYM3RuQ1pmUlBINGpqek9VTzVnLUtWQnVCMHJiZ2Q4OHVZRkZZTi05Qkc5ZV9id1NrUjhDbDlRNVl3THRQQmZhdVhJSXhLVzhlcVRBSTRUTF9McF9kYlFtUDdZOW5KM3pxSHI3NUVtMTF0OU5raUg2WTAydTlKUy1lakR5Z0NZZGowLW8yUw?oc=5"
+    },
+    {
+      "id": "fancesa-transporte-pesado-acepta-flete-de-bs-27-5-a-santa-cruz-y-bs-20-a-cochaba",
+      "datetime": "2026-10-20T12:42:06Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "Fancesa: Transporte pesado acepta flete de Bs 27,5 a Santa Cruz y Bs 20 a Cochabamba",
+      "summary": "El transporte pesado chuquisaqueño y la administración de Fancesa alcanzaron un acuerdo preliminar para fijar los costos de traslado de cemento hacia dos de los mercados más importantes del país. Este martes, desde las 9:00 avanzarán en las rutas a la La Paz, Oruro, Potosí y Tarija",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Bolivia"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Correo del Sur",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://correodelsur.com/local/20261020/fancesa-transporte-pesado-acepta-flete-de-bs-27-5-a-santa-cruz-y-bs-20-a-cochabamba.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-20T14:05:35Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMjRuSVFaU1BjclRtRC1TZlNjVFluWW1QaVJmbXBCNkFQc2VfUmlkSmtIX0lVNTdwVFloMHg1ekt0N2dXZkdZNmJEZElnNTFqVDlzMEM2VHZHa09wcXAyNmxHLVgxd0tuOTQwZGJqXzk3Zjd0SmFRYjJNOWlzRjVaUW5KeUFJTjVLUnR3a2hoZGJSODhkdzAxakRFMWFrQzZrczMyNENCbVZ0RHFjUVFIYWw4X1MyamV5OEFUS3NBOW90Q0gxLWhv?oc=5"
+    },
+    {
+      "id": "el-noa-realizara-su-primer-foro-federal-argentino-ue-mercosur-para-impulsar-una",
+      "datetime": "2026-10-20T12:39:42Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "El NOA realizará su primer Foro Federal Argentino UE-Mercosur para impulsar una agenda de desarrollo e integración regional",
+      "summary": "El encuentro tendrá lugar el 22 de octubre en Salta y reunirá a autoridades gubernamentales, representantes diplomáticos, empresarios y organizaciones de la sociedad civil para construir una hoja de ruta que conecte las oportunidades del acuerdo entre la Unión Europea y el Mercosur con las capacidades productivas de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Argentina",
+        "Unión Europea"
+      ],
+      "tags": [
+        "Mercosur",
+        "UE-Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Gobierno de la Provincia de Salta, Argentina",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.salta.gob.ar/prensa/noticias/el-noa-realizara-su-primer-foro-federal-argentino-ue-mercosur-para-impulsar-una-agenda-de-desarrollo-e-integracion-regional-110582",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Todo Salta Noticias",
+          "type": "También publicó esta noticia",
+          "url": "https://todosalta.com/contenido/91734/el-noa-realizara-su-primer-foro-federal-argentino-ue-mercosur",
+          "alsoIn": true,
+          "title": "El NOA realizará su primer Foro Federal Argentino UE-Mercosur"
+        }
+      ],
+      "gnTried": "2026-10-20T14:05:35Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNaWcydENKbXN2WU1CNFM4eV81eHRleDV3VFBFaU1rdDByZk94LTBISFJJeDA1TmpTTHV2eWhxcnFaVWlHdXoxekptenNZX3dpczY0MzRUYXYteHJLaFdoUWhIYTE2VUw3TFJNQkNzYzNjeHBqeXlLbTlxeURKOWdybExoXy1sU0ZvTWdldUFnY18weVFlQmg1SnVjby0wUXdoOUJMdl9BMm5lTWlXcWxvbnNCRkhLaE9IUXRhWjZ1REdhTHFVUXV2SjFCa1luSjN3TjlNaWkzejFFX2diM09xZFdOVHFxeFRtTEZ6RXgteVhKdWVlRWFYd2VsWll4RjRo?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUzBTdEljdjFWZ0xzVEZaNkEzZ1NKMi0xdGFkamsyWm4yRXhQZUZMYU5Jb19zTmt3bUdtS2Q2MFZ3a01GX19zSGxfc3hia1hDZklPLUI1bmM4OWtfcWdBc25PaHVXMGpIYkp5bVYxdng2RUpUMHMxSG1EcW9aMmVCbldsVnVhZV9IV2x1aW1pcW1Gcm9QSTBwSnRBSTVEZnlu",
+        "https://todosalta.com/contenido/91734/el-noa-realizara-su-primer-foro-federal-argentino-ue-mercosur"
+      ],
+      "mergedIds": [
+        "el-noa-realizara-su-primer-foro-federal-argentino-ue-mercosur"
       ]
+    },
+    {
+      "id": "mas-mercados-y-mejores-condiciones-logisticas-el-reto-empresarial-del-oriente-an",
+      "datetime": "2026-10-20T12:36:43Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "Más mercados y mejores condiciones logísticas, el reto empresarial del Oriente Antioqueño",
+      "summary": "Fortalecer las exportaciones, diversificar los mercados de destino y mejorar las condiciones logísticas son algunos de los desafíos que enfrenta el empresariado del Oriente Antioqueño para ampliar su presencia internacional. Estos temas centraron el Encuentro… | Noticias del MERCOSUR: política, economía y actualidad…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Prensa Mercosur",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://prensamercosur.org/2026/10/20/mas-mercados-y-mejores-condiciones-logisticas-el-reto-empresarial-del-oriente-antioqueno/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-20T14:05:35Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcEJtNkhCYVhwaHg5WnVzV0dIUnZNMlRtZVkzMlFHNUw0Q09vVTQwUlFRV2lnMTJndFhmUGxqZjdDc0RheVNiU2dhMXZ1RmxhZko1eEtaTmRNazdGbTVfWmhqVmc4ZzFTN1FLZDdNYm9wMXd1ckhrX2o0WDljelNyemhSUDZXbEw0a1k0YkpHaFUzZ1NrTGh5bTg1TkZLV2VxNTcwWUhCenkzUi1SUU8zekJ3cnkxc0k2bkEweXRFU1g1VTRycmc?oc=5"
+    },
+    {
+      "id": "peru-puerto-de-paracas-desembarca-primeros-contenedores-de-one-para-nueva-tempor",
+      "datetime": "2026-10-20T12:30:21Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "Perú: Puerto de Paracas desembarca primeros contenedores de ONE para nueva temporada agroexportadora",
+      "summary": "El Puerto de Paracas desembarcó los primeros 475 contenedores de Ocean Network Express (ONE) destinados a…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Transporte marítimo",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Perú"
+      ],
+      "tags": [
+        "Agro",
+        "Puertos"
+      ],
+      "visual": "agro",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/peru-puerto-de-paracas-desembarca-primeros-contenedores-de-one-para-nueva-temporada-agroexportadora/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "el-complejo-manisero-argentino-exportaciones-innovacion-y-sostenibilidad",
+      "datetime": "2026-10-20T12:11:47Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "El complejo manisero argentino: exportaciones, innovación y sostenibilidad",
+      "summary": "Según indica la Bolsa de Cereales de Córdoba, con Córdoba como epicentro productivo, Argentina se consolida entre los principales actores del mercado mundial del maní y ocupa el segundo lugar entre los exportadores. Con un aporte de USD 1.100 millones por campaña, la cadena se distingue por aplicar un modelo de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Agrositio",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.agrositio.com.ar/noticia/248919-el-complejo-manisero-argentino-exportaciones-innovacion-y-sostenibilidad.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-20T14:05:35Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYUo1QThpMHRjS05RUUpWcWU1S0NScmdSanl6eHlIU0F2Z3VPZFJQTnRxNlJlT3p5NnkwLUw2VUNmbC1pRlZRYUYwNlFHVVg3MnBId0tUSkk3bFdBZ3FOTjVPVmg4OU5ZOEgxTjRHUUU4aVdQZnVPaTdtZGZmUG5RYkFwSXloWHNkREdHUEVsZGRyUG5HTWZQVDVlaTViRzNnRV9ncVlZYXRidjVlemNISG1OOWV2cWlNRjRad2ZR?oc=5"
+    },
+    {
+      "id": "argentina-logro-un-record-de-exportaciones-pero-la-inversion-productiva-todavia",
+      "datetime": "2026-10-20T11:58:29Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "Argentina logró un récord de exportaciones, pero la inversión productiva todavía no despega",
+      "summary": "Las exportaciones argentinas marcaron un récord en septiembre, impulsadas por la energía, el campo y la minería, mientras el país acumula un fuerte superávit comercial. Pero detrás de esos números aparece una señal de alerta: cae la importación de máquinas, equipos y repuestos necesarios para sostener la producción…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "SOL 91.5",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.sol915.com.ar/argentina-logro-un-record-de-exportaciones-pero-la-inversion-productiva-todavia-no-despega/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-20T14:05:35Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPT1NUSVhwNy1uSmphTkJXWDJ3X1I1eW0tbWJTY1BiWlhEdHlkZE1qdlBWcEcxS2s1aTRVYWRZMjJsajFoUmI5eHBQS1NTSVUwMnVzNFlhbmZzVnFSTXhad0hQMnZLQlFZVkoxejJPVE1qcWxVS2FxbFNCa3djM3RwV295ekN0OTItWG9CYXI0RVJuUVFnT2dSWnFMYURNa0lRZzRqaG1qd0FwYnNmcEt3dkZuQUNJM256?oc=5"
+    },
+    {
+      "id": "newcastle-influenza-aviar-y-mercosur-quien-es-quien-en-las-dos-mesas-redondas-qu",
+      "datetime": "2026-10-20T11:41:53Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "Newcastle, influenza aviar y Mercosur: quién es quién en las dos mesas redondas que AECA-WPSA reúne mañana en Madrid",
+      "summary": "Dos mesas redondas el 21 de octubre en Madrid: influenza aviar y Newcastle en la primera, acuerdo con Mercosur en la segunda. Precisamente los dos frentes que más incomodan al sector español ahora mis",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "España"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "NeXus Avicultura",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://nexusavicultura.com/newcastle-influenza-aviar-y-mercosur-quien-es-quien-en-las-dos-mesas-redondas-que-aeca-wpsa-reune-manana-en-madrid/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-20T14:05:35Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNd0ZiQTlPSGE3LWloSG5qNllITFp5anBkV0dUVE9XcVpoV0J5UzNPdkxQU1d0TU1NbXE1d040SWFOVjFWdlh6OWtVZGU3aFFCUzgyNW4xRVNBYWxtb2FlNXhadXNFcFA2c2lodlhPUjdmaHFSZW43c0FsMGdOUkhWaGVUVGlmc3dQOXVMU0ZKeUZEVjBqMzNkSEdSS0k3a1p1VlNXWllTUzd3SWk4ZXExalFxTmlmNXVGRmhxWWwxUUM2djVxTFZMRUhlTjBrSjVHZjFKTURUVkoycnM?oc=5"
+    },
+    {
+      "id": "importaciones-puerta-a-puerta-que-compran-los-argentinos-y-como-impacta-en-el-em",
+      "datetime": "2026-10-20T11:25:00Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "Importaciones puerta a puerta: qué compran los argentinos y cómo impacta en el empleo y la inustria",
+      "summary": "El avance de la importación por plataformas comienza a transformar el consumo argentino mientras las fábricas nacionales pierden producción y empleos formales.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Importaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "parcel",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Sitio Andino",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.sitioandino.com.ar/economia/importaciones-puerta-puerta-que-compran-los-argentinos-y-como-impacta-el-empleo-y-la-inustria-n5732180",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-20T14:05:35Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRGl5Y3Vld0FhdlhjRGg4ZDBBdV92NTFIMmNFSGw1ZV9yUkk5WWl4S3Q3VXRXcDBTY2ZBaVlwaUZVTDdNNElDbTNJLUNDbks0WUN4MGFzMUpYSkdIc2tsNkxjUzYxV2FoV28zVDhmUDVoQmhOaVFXMXdrZ0RZQll1ZlUwXy10RXFVVW5MWXI0bzMtYXppM0NuVkpYZmtUSWNFeDFqSGhOMmJZMExxYTB2bWdiTll1RVk3aEJ2YWpxU3FyemRDSHpwRHZ4ODNhb2tvSWNFNUZwUGU0d9IB3wFBVV95cUxOdHU0ODVVeVRiX2lMTTFzTW5uVDhfYmN0RUJkSHcwLURQQmp4cUdUbEViSERFR3ROdGNsaC01S0UtblJCWkZNM0JVdmVVM05ya2Qwb0VzdDZoVlBrbnkzZFd4cWNBMWcwSjJ2ZjQ2Vmw2NGwxc1JrNjZoUkI0Y2t6VEJoazlqbVJTcUxoSFRLVkQ5bWVNcDVaWVVXWWVWR2p5SDdqbXBBWlVRNkVDT1J4ZWJRRnJCdDFmcXZSOUhtYUJUbi15MHJfdS1KYk1MZFB2ZGxQaW4tTGtxZHltYnVZ?oc=5"
+    },
+    {
+      "id": "las-exportaciones-de-energia-crecieron-89-en-septiembre-y-explicaron-mas-de-la-m",
+      "datetime": "2026-10-20T11:04:45Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "Las exportaciones de energía crecieron 89% en septiembre y explicaron más de la mitad del superávit comercial",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "La 4x4 Radio",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://la4x4radio.com.ar/las-exportaciones-de-energia-crecieron-89-en-septiembre-y-explicaron-mas-de-la-mitad-del-superavit-comercial/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-20T14:05:35Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMDJtQUxwVmQxX0dxTFU4NEFpTG9DMlZHaVFPVGNxd1JXLVJHUjVfeU5WMExhdVNrRmE1Y2ZMYmxrd2lhTDdCa3lTdkNVUGVLZXNXN0lYeU1Nc0Nzb1ZNbFpqZVZrZmpwQ3h3SURva184ZlhmaXMxeHk2R3VGd2t0emw2Vk93Umd2bDBmVF9jUVM3MlhRNWhEdFNHRk41bzdHeWNwOFloYUNLTHJCSzBBdkpaTkpwdHRYMVlQbThtZEZORW1PZHZDVTMxa2pYdEww?oc=5"
+    },
+    {
+      "id": "stockholm-norvik-port-inaugura-nueva-instalacion-de-carga-a-granel",
+      "datetime": "2026-10-20T11:00:34Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "Stockholm Norvik Port inaugura nueva instalación de carga a granel",
+      "summary": "Ports of Stockholm inauguró una nueva instalación portuaria en Stockholm Norvik Port que permitirá el transporte…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/stockholm-norvik-port-inaugura-nueva-instalacion-de-carga-a-granel/",
+          "primary": true,
+          "author": "cmeza"
+        }
+      ]
+    },
+    {
+      "id": "freightos-limited-crgo-anadira-capacidad-de-carga-aerea-de-mas-con-reservas-y-pa",
+      "datetime": "2026-10-20T11:00:00Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "Freightos Limited (CRGO) añadirá capacidad de carga aérea de mas con reservas y pagos en tiempo real",
+      "summary": "Freightos anunció una próxima integración para incorporar a su plataforma la capacidad de carga aérea de fuselaje ancho de mas, lo que permitirá eBooking en tiempo real y Freightos Pay integrado para transitarios en Estados Unidos y México.Detalles claveContexto del analista de IAEsto amplía el imp…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Transporte aéreo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "plane",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "TradingView",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://es.tradingview.com/news/tradingview:1f79457e59fbf:0/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-20T14:05:35Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kVm5rUEpaVWRXV202dFRMT25ac0VXbW5MejBuYWJZS1EyNUZNOXpISDFsQXM3d1ZLNnY0T1VJVVNKMWhfMVgxWUpvdGd1U2VqQ1g4MzJPRzVyMUJvSkxGY2FKUlhDNkhLS0dySg?oc=5"
+    },
+    {
+      "id": "boom-de-vaca-muerta-argentina-suma-mas-divisas-gracias-a-las-exportaciones-energ",
+      "datetime": "2026-10-20T10:00:15Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "Boom de Vaca Muerta: Argentina suma más divisas gracias a las exportaciones energéticas",
+      "summary": "El 50% del superávit de la balanza comercial en septiembre lo explicó el sector energético. El petróleo, el bien que más dólares aportó.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Energía"
+      ],
+      "visual": "energy",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "NewsDigitales",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.newsdigitales.com/nota/347893/boom-de-vaca-muerta-argentina-suma-mas-divisas-gracias-a-las-exportaciones-energeticas/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-20T14:05:35Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNM3NNcnNSU0hMRWJlUk84OWpKVl9NT0t3VnV6QzIxNGh3WWVscTN5dk1fY1NQZFB3UnZjOEg2X2NUa2NOdVY2SmZkZ1B5S0ZhaFM1U01SSmU5dzJJVGtXaU5qTXFoUm8wOWhESTEtVWFBYlZkdnZxWGlyZGJlZnVpSlkyOVFfbEt6d0xDQkR2TTM5a0MtOEJpVEdlczdtdlNNa1YwY204LWxVMkdaRGNGU1F6NGVxY2xjNmZkSXNnY1pHdjh1VXhVaQ?oc=5"
     },
     {
       "id": "rusia-puerto-comercial-de-vladivostok-ve-aumento-del-15-en-manejo-de-contenedore",
@@ -1133,10 +1615,11 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Transporte marítimo"
+        "Transporte marítimo",
+        "Asia"
       ],
       "countries": [
-        "Global"
+        "India"
       ],
       "tags": [
         "Contenedores"
@@ -1154,10 +1637,24 @@
           "url": "https://www.cadenadesuministro.es/transporte-maritimo/hmm-encarga-construccion-ocho-nuevos-portacontenedores-13000-teus_1519089_102.html",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Naucher",
+          "type": "También publicó esta noticia",
+          "url": "https://www.naucher.com/hmm-encarga-ocho-nuevos-portacontenedores-de-13-000-teus-preparados-para-propulsarse-por-gnl/",
+          "alsoIn": true,
+          "title": "HMM encarga ocho nuevos portacontenedores de 13.000 TEUS, preparados para propulsarse por GNL"
         }
       ],
       "gnTried": "2026-10-20T09:59:10Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNlZOcjdaa3NQRVNVYm5LVHdINHF0cVluT2hKMEdINmF5WWpwWllsVFlXcFVJeVF5Qko0ZWEwZGxiNTZad2JWeF9NS3Z0VjlXZXNPVUF6Z19Ob3BneVg0QUZkcVh0ZDJ4SmxLTld5bXcyellIUllweldWUjc0eHVKTjc4TDBQU3FQOEVKeGx2VmhUTHR4eTZUdXRNanB1SUNRLXFrc3VWNFEzUGduUTV1RlRZMTcwWm5EdmZwc1llNjBiRHh2TEU4TUN1UTlwTXFrQkE?oc=5"
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNlZOcjdaa3NQRVNVYm5LVHdINHF0cVluT2hKMEdINmF5WWpwWllsVFlXcFVJeVF5Qko0ZWEwZGxiNTZad2JWeF9NS3Z0VjlXZXNPVUF6Z19Ob3BneVg0QUZkcVh0ZDJ4SmxLTld5bXcyellIUllweldWUjc0eHVKTjc4TDBQU3FQOEVKeGx2VmhUTHR4eTZUdXRNanB1SUNRLXFrc3VWNFEzUGduUTV1RlRZMTcwWm5EdmZwc1llNjBiRHh2TEU4TUN1UTlwTXFrQkE?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRUVRbEliMTA5dTFoOXNTcG1kWmJQV09yYjhDVS1kUWUxWWVsbVE3WXJwRkttYV9vSWVybzZWSW9ieVNSajlmRUo1VVhqbTMyVk00ckNHcGJUMFRwUDVFcl9QT3hPU19iNWpldzV3Y1MydzNZdHN1OVlzbEtHTl9TOG1UeUZ4OXpjbDZ3UlZ3cTlrMHpKb2lFMTg0dW5NbUlBb084WkdXSlFTNFRlTWI2OGFLYjlKSHBJ",
+        "https://www.naucher.com/hmm-encarga-ocho-nuevos-portacontenedores-de-13-000-teus-preparados-para-propulsarse-por-gnl"
+      ],
+      "mergedIds": [
+        "hmm-encarga-ocho-nuevos-portacontenedores-de-13-000-teus-preparados-para-propuls"
+      ]
     },
     {
       "id": "las-importaciones-se-derrumban-mientras-el-gobierno-celebra-exportaciones-record",
@@ -1169,6 +1666,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Importaciones",
         "Exportaciones"
       ],
@@ -1236,13 +1734,13 @@
           "title": "Euroseas Ltd. anuncia un nuevo contrato de fletamento por tiempo para el portacontenedores feeder M/V EM Corfu y la venta de su buque gemelo M/V Evridiki G"
         }
       ],
+      "mergedIds": [
+        "euroseas-ltd-anuncia-un-nuevo-contrato-de-fletamento-por-tiempo-para-el-portacon"
+      ],
       "aliasUrls": [
         "https://dataportuaria.com/es/internacional/naviera/euroseas-ltd-anuncia-un-nuevo-contrato-de-fletamento-por-tiempo-para-el-portacontenedores-feeder-m-v-em-corfu-y-la-venta-de-su-buque-gemelo-m-v-evridiki-g-1de57c",
         "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdUwtaHNDaTNQQ0ZHYzh0U0NZT0U3X3JkbFA1YUFoNUVNQ202b2xDT0NGd2FReUxfRmdmRkZpSDNMSmhmRUhVN2VibXNiV05jemtyM3VVYUV4aGdvOXdfNldURHhTOVBMMDlSSm5BWUwxUHl2UHBoYXJzeC02emZrZmpXa2RUcjFJWTluaU1IbkV1OTVWLUM3LTJvdXc5S01R",
         "https://news.google.com/rss/articles/CBMitwJBVV95cUxQd0ZkcEpSTWRIQXlSTEJKaW5YNFRtaHlTMktVc2FVOGluOHNyc0NMcnh2QkhxN3VCdVdJY19KdUlIMGlHSFBVZVVnSTJ4eHlsdmFNNXJiTWUyY2FRcDNjSkNTa1lCczV4NTVXek5HZVJXa3RIcUMtQVRvWG80d2hrVDFlSUd1R2hPNHNNSXk2NUdoaVdyaDFRWEgwT29jdWVBSExiVmo0WFJkelJ4cDBLN1FVVm9jbW5JTDlLLW83MkVvRFk3LUw2blgtLW5TRHRFTHhPZ19CRThsSl9nbnVmdzZ2Z2JQdEl6WVFTSlNCUGNZYVVfRnFTMXZzT3ZCMzRmMk0zRS1YMWtsWUhPeDFKT0MyV3k0ZmlWNC1TVG9CUDYyLWZZcE5SVDE4dGxaMHpJeHVPX29DTQ"
-      ],
-      "mergedIds": [
-        "euroseas-ltd-anuncia-un-nuevo-contrato-de-fletamento-por-tiempo-para-el-portacon"
       ]
     },
     {
@@ -1290,14 +1788,20 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Importaciones",
+        "Aranceles",
         "Tratados y acuerdos",
+        "Estados Unidos",
         "Asia"
       ],
       "countries": [
+        "Estados Unidos",
         "India"
       ],
       "tags": [
-        "Energía"
+        "Energía",
+        "Aranceles",
+        "Estados Unidos"
       ],
       "visual": "energy",
       "impact": 1,
@@ -1312,10 +1816,24 @@
           "url": "https://es.marketscreener.com/noticias/rubio-inicia-su-visita-a-india-con-un-acuerdo-comercial-y-el-petr-leo-ruso-en-la-agenda-ce785cdbd089f620",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Infobae",
+          "type": "También publicó esta noticia",
+          "url": "https://www.infobae.com/america/mundo/2026/10/20/marco-rubio-afirmo-en-mumbai-que-eeuu-e-india-estan-cerca-de-cerrar-un-acuerdo-comercial-que-pasara-con-el-petroleo/",
+          "alsoIn": true,
+          "title": "Marco Rubio afirmó en Mumbai que EEUU e India están cerca de cerrar un acuerdo comercial: qué pasará con el petróleo"
         }
       ],
       "gnTried": "2026-10-20T09:59:10Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZFB5SldMMUZ2aDNRRm9xX1dteHJXeVhwblFCMXlJcHdFQk9UTGN2Qlc3VXlvdDhTN08yaW52Y2hMNDdkdDVqTUxsVDJBUV9iX2dONmRWQk5fRXFPeDFBN2RLSzlyUnJWeGI0TUtTUmlObDhmS0F1SVFVdTFBVkwzOWtrUW5oMGhiQW1WX2lMUE1iT21ZYm52NGh4Ynp2MUF5N2FBWnRGU0gxSml2b3duMzNzYTkzV3lHZTNENjdiOVJqaUMtY3pmSGFvbldpNUgxQlpyUE1uYXVwaXM?oc=5"
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZFB5SldMMUZ2aDNRRm9xX1dteHJXeVhwblFCMXlJcHdFQk9UTGN2Qlc3VXlvdDhTN08yaW52Y2hMNDdkdDVqTUxsVDJBUV9iX2dONmRWQk5fRXFPeDFBN2RLSzlyUnJWeGI0TUtTUmlObDhmS0F1SVFVdTFBVkwzOWtrUW5oMGhiQW1WX2lMUE1iT21ZYm52NGh4Ynp2MUF5N2FBWnRGU0gxSml2b3duMzNzYTkzV3lHZTNENjdiOVJqaUMtY3pmSGFvbldpNUgxQlpyUE1uYXVwaXM?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNcFd0MnBMdU1KdVFaaDZ2eGVwTUQ0dW8ybVZpS244OEZ6aHJTSzU2bFAtbUdLVlBGRldZNFNnQnlsTTZQaWpZX3F1TXhpU2dJMmtDczBKd0tIaUNLeG5IcWc4emxOV0JzR0UxeGVUcWprOXZYSG14TkRwYzRhd19SYUItXy1kYTEyRXo1QlM2VTRzcGVTQXl6dDVBTnJwRzRzRjlyem1rZnhaTm1RSGx2NXNmNkFaMnk0SmdKY01SWk5fNEppaHJSSVpwMHBDTHpyZGpaSFpYLTRoVlU2a3kxUEJrYXg4UFppRE83QUZtNTl6ak4wZ1czWdIBkwJBVV95cUxOQjFIQ2M0MTBGb1NUeDhGd1pQdWZFb2VRbmxROVd4TWNMdnpvVkxfOW9qUmVZQXdLQmtlNi1hS3Q2VzJqRHNZZHRrZ3BOWTljT1lDQ3NMc1BqcV9BbzZQS0pnSTR0SWpHS2tHeXhhSjBSemlQYUhrbkthYU50Y2Z2aWNKUnBOc19JLVZfMnFuTU1lTUQ5NkdKLTMzOFp1YWlRWnV4VDN6TXdTUXRqZlZtSGR3QUYyRnRLbHJDMmVockZsSUhRSkFROXlRTXlMdzR1M0FTZXFfazBRbldDTk5FWVVqWHZsb2V6TEdCNWZZM0Y5NjByeEtiQmo2bnJoTkFHZXRaMWhQN1BoLUYwQzdxM3hyMA",
+        "https://www.infobae.com/america/mundo/2026/10/20/marco-rubio-afirmo-en-mumbai-que-eeuu-e-india-estan-cerca-de-cerrar-un-acuerdo-comercial-que-pasara-con-el-petroleo"
+      ],
+      "mergedIds": [
+        "marco-rubio-afirmo-en-mumbai-que-eeuu-e-india-estan-cerca-de-cerrar-un-acuerdo-c"
+      ]
     },
     {
       "id": "exportaciones-surcoreanas-de-automoviles-caen-5-5",
@@ -2107,51 +2625,6 @@
       ]
     },
     {
-      "id": "argentina-logro-una-balanza-comercial-de-casi-us-3-000-millones-en-septiembre-pe",
-      "datetime": "2026-10-19T22:13:00Z",
-      "date": "2026-10-19",
-      "firstSeen": "2026-10-20T01:59:31Z",
-      "title": "Argentina logró una balanza comercial de casi US$3.000 millones en septiembre, pese al déficit con China",
-      "summary": "Las ventas al exterior alcanzaron un récord, creciendo 23,5% interanual, y las importaciones bajaron 1,8%. El intercambio total alcanzó los US$17.095 millones, con resultados dispares en los vínculos comerciales con China, Brasil, Estados Unidos y Chile.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Importaciones",
-        "Economía internacional",
-        "Latinoamérica",
-        "Estados Unidos"
-      ],
-      "countries": [
-        "Argentina",
-        "Brasil",
-        "Chile",
-        "Estados Unidos",
-        "China"
-      ],
-      "tags": [
-        "Estados Unidos",
-        "China"
-      ],
-      "visual": "chart",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Los Andes",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.losandes.com.ar/economia/argentina-logro-una-balanza-comercial-casi-us3000-millones-septiembre-pese-al-deficit-china-n6010902",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-20T01:59:31Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbzJPOFlfa1UwMzJEVFFqc19xWm1uemo0bzRGMFFqMUhBYTMzOWxiY1Rwd2NpTkdDZ0JwTDh2RGUtNGlESjlEU3o0d0VNOHR1WWJzdFBYS21TN18xMWV3RHVCaDZpTW50UExxNTNYNmc1SWhWOHd1b3ZtZHlTb2NES09nekw1WVJQZ25hRDNJV1ZiV2RLQVVmZkF1eFdmLUY4Y3cxNXdsOEJWM3U5Rk82ekNvMENvU0tadERHMUgyb2lyd2MzaTJzelRSSzRDNktxRVFV?oc=5"
-    },
-    {
       "id": "rdeco-que-incentivos-reclama-la-industria-para-competir-con-las-importaciones",
       "datetime": "2026-10-19T22:09:05Z",
       "date": "2026-10-19",
@@ -2381,6 +2854,13 @@
           "url": "https://www.noticiasnet.com.ar/noticias/2026/10/19/229967-milei-celebro-los-numeros-del-comercio-exterior-de-su-gestion-en-el-viejo-modelo-hubieramos-volado-por-los-aires",
           "alsoIn": true,
           "title": "Milei celebró los números del comercio exterior de su gestión: “En el viejo modelo hubiéramos volado por los aires”"
+        },
+        {
+          "name": "El Marplatense",
+          "type": "También publicó esta noticia",
+          "url": "https://www.elmarplatense.com/milei-defendio-el-rigi-en-neuquen-celebro-las-exportaciones-y-lanzo-criticas-a-la-oposicion",
+          "alsoIn": true,
+          "title": "Milei defendió el RIGI en Neuquén, celebró las exportaciones y lanzó críticas a la oposición"
         }
       ],
       "gnTried": "2026-10-19T21:56:07Z",
@@ -2388,12 +2868,15 @@
       "aliasUrls": [
         "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWlZ4dGt2ZldENVoybWkwZEctMFRaWUc2NTBMSm5aUlVPbnk4Z2lMcnJ2WDRiN1M4cGJuMlctNlVhUTBaRjNIdHpPQjN1a2Jya2kyYXZLVUFOV2FFRjA0d0tJcXhnQnFxN3Uxekw1OUdjWnNXWjRRbGZscmRfOHpzRlJ6Qzl1Q21nMmQ1bUFEZ285eVBGME9Gd3Q5XzVwSlJXcWREWjNQbEZ2eDhlczkySXJDWHBBS0NRRlFpdGtOMEQ2TEZNNFFCdFg5QnB4NGxJZ2fSAdIBQVVfeXFMTVpWeHRrdmZXRDVaMm1pMGRHLTBUWllHNjUwTEpuWlJVT255OGdpTHJydlg0YjdTOHBibjJXLTZVYVEwWkYzSHR6T0IzdWticmtpMmF2S1VBTldhRUYwNHdLSXF4Z0JxcTd1MXpMNTlHY1pzV1o0UWxmbHJkXzh6c0ZSekM5dUNtZzJkNW1BRGdvOXlQRjBPRnd0OV81cEpSV3FkRFozUGxGdng4ZXM5MklyQ1hwQUtDUUZRaXRrTjBENkxGTTRRQnRYOUJweDRsSWdn",
         "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOYy02c2swTS1HUmtObGtpZUJJS0ZhWlp2bFhiS3ZTc3ZuQnlSYjJBck5aQTlsOXo2OHR6OVJrNl9HS1BtN2x1VkZKRENYdjFrVWlYY1ZYaUtPX0FObVVmb2o1bzlzZGFzUXpvMnpubnl3MXZZeWVudUdYbk56M3MwY0ZTaFRqQzlpU1BZWFJXeXpyOU9jdlBFcEF2MFBUcW5BSjhuRDdkMFJwZHU3dXdTZTU1Tkp6ekppTVV1cHg1VW5XUmd0RW1Ed1VxTXRlX2JEZXRMbjlGNWxiR1F6c3lnTW1zUVd4aFlFajJEbUxseXJYajBrLWgxcndiQ0k3SGs",
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRVZXQWFSdjI5Q0FYQ0ZaOS1WMUdRM0o4eW10eFJleDJuRHFGR0wzbkdBNVhCbmJ4UTlnSHQ5ZldTMC10VDBUeWszQ25US3dMaWlmaVNobkZmTzJzZnVSTGpOVng1Z3VCaFQ2U1JjZHpWUkREalNmNTJMVGRBNlp1ZnpfRzJaTkU2NTBiS0ZFRmRiaFlZcENTTy1zblo2dmJvNmpHRnhtRHY1OVI1VFpYSVI1YS1EM3ptdlkwTk5n",
         "https://www.elliberal.com.ar/nota/95362/2026/10/milei-defendio-el-rumbo-economico-y-destaco-el-record-de-exportaciones-argentinas",
+        "https://www.elmarplatense.com/milei-defendio-el-rigi-en-neuquen-celebro-las-exportaciones-y-lanzo-criticas-a-la-oposicion",
         "https://www.noticiasnet.com.ar/noticias/2026/10/19/229967-milei-celebro-los-numeros-del-comercio-exterior-de-su-gestion-en-el-viejo-modelo-hubieramos-volado-por-los-aires"
       ],
       "mergedIds": [
         "milei-defendio-el-rumbo-economico-y-destaco-el-record-de-exportaciones-argentina",
-        "milei-celebro-los-numeros-del-comercio-exterior-de-su-gestion-en-el-viejo-modelo"
+        "milei-celebro-los-numeros-del-comercio-exterior-de-su-gestion-en-el-viejo-modelo",
+        "milei-defendio-el-rigi-en-neuquen-celebro-las-exportaciones-y-lanzo-criticas-a-l"
       ]
     },
     {
@@ -2475,106 +2958,6 @@
       ]
     },
     {
-      "id": "nuevo-record-de-las-exportaciones-argentinas-al-superar-los-usd-10-000-millones",
-      "datetime": "2026-10-19T21:27:24Z",
-      "date": "2026-10-19",
-      "firstSeen": "2026-10-19T21:56:07Z",
-      "title": "Nuevo récord de las exportaciones argentinas al superar los USD 10.000 millones",
-      "summary": "La balanza comercial en septiembre alcanzó un superávit de USD 2.976 millones, con combustibles y energía como el rubro de mayor crecimiento exportador y una reducción interanual de las compras externas.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Economía internacional"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Los Primeros TV",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.losprimeros.tv/economia/nuevo-record-de-las-exportaciones-argentinas-al-superar-los-usd-10-000-millones_a6ad68a1ae22ee8014a7e7cb5",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "Radio Mitre",
-          "type": "También publicó esta noticia",
-          "url": "https://radiomitre.cienradios.com/politica/javier-milei-celebro-el-superavit-comercial-de-septiembre-y-sostuvo-el-rumbo-economico-del-gobierno-batimos-el-record-de-exportaciones/",
-          "alsoIn": true,
-          "title": "Javier Milei celebró el superávit comercial de septiembre y sostuvo el rumbo económico del Gobierno: “Batimos el récord de exportaciones”"
-        },
-        {
-          "name": "Diario Mendoza",
-          "type": "También publicó esta noticia",
-          "url": "https://www.diariomendoza.com.ar/economia/argentina-logro-superavit-comercial-record-exportaciones-superaron-usd-10000-millones-n182242",
-          "alsoIn": true,
-          "title": "Argentina logró un superávit comercial récord: las exportaciones superaron los USD 10.000 millones"
-        },
-        {
-          "name": "Diario de Cuyo",
-          "type": "También publicó esta noticia",
-          "url": "https://www.diariodecuyo.com.ar/economia/las-exportaciones-argentinas-superaron-los-10000-millones-dolares-septiembre-y-marcaron-un-record-historico-n6586309",
-          "alsoIn": true,
-          "title": "Las exportaciones argentinas superaron los 10.000 millones de dólares en septiembre y marcaron un récord histórico"
-        },
-        {
-          "name": "Plaza Web",
-          "type": "También publicó esta noticia",
-          "url": "https://plazaweb.com.ar/las-exportaciones-superaron-los-us10-000-millones-en-septiembre-y-marcaron-un-record/",
-          "alsoIn": true,
-          "title": "Las exportaciones superaron los US$10.000 millones en septiembre y marcaron un récord"
-        },
-        {
-          "name": "El Intransigente",
-          "type": "También publicó esta noticia",
-          "url": "https://elintransigente.com/2026/10/19/exportaciones-argentina-record-septiembre-superavit-comercial-ventas-externas/",
-          "alsoIn": true,
-          "title": "Récord histórico: las exportaciones superaron los USD 10.000 millones en septiembre"
-        },
-        {
-          "name": "El Chorrillero",
-          "type": "También publicó esta noticia",
-          "url": "https://elchorrillero.com/nota/2026/10/19/670234-record-historico-en-argentina-las-exportaciones-superaron-por-primera-vez-los-us10-000-millones-en-un-mes/amp/",
-          "alsoIn": true,
-          "title": "Récord histórico en Argentina: las exportaciones superaron por primera vez los US$10.000 millones en un mes"
-        }
-      ],
-      "gnTried": "2026-10-19T21:56:07Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdDFwMXZmLXR1MFRLNWt6NVlpbllVOGJRaE1uRUY5RzlTTVkySThjYnVjTlBSd3FLbzFlejZCWWJQRlE0SWo0N1hPSVQtVzYwelI1Z19CX3I0SldTejBoaXNzbHdyOGdXMGpfcXVpUUU1ZW56QWxPVU1qcTlQeUhxOWhLWEFBSndRTklZYXJrM3RqLW04b09SM00yQms5ZzNSMEdQOW5MckNqVmg1ZjRTc3hMNXY1d1cyMjd6S3hWclZnQjFSWlVSQ3hoQzhtdjZ6dkE5ZkhVTXM?oc=5",
-      "aliasUrls": [
-        "https://elchorrillero.com/nota/2026/10/19/670234-record-historico-en-argentina-las-exportaciones-superaron-por-primera-vez-los-us10-000-millones-en-un-mes/amp",
-        "https://elintransigente.com/2026/10/19/exportaciones-argentina-record-septiembre-superavit-comercial-ventas-externas",
-        "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZno2QXg5V0U4clpsSVNaU1hEMm1LTnVKNHNhU1VCU0ZHWEJubUJPdFFrM0JWakNoSnJrYnN4NWhVMDdiU2xYNEFoZ29WVjZWX0FiUXZMbm5WZXdUYjhfZ05TZ2ZwbXpzWHJYbkMtcS1TOUR2amd5SjIwU00yeW5ObDMtR21KUkgySWtiTkpmdlZndk8yQVZoOTFLOEhWVUJLeDBlOVFnejBsaGd3dl9BSXZTNVhhU2FIVjlxR1RvVzdXS09CTjAtdDVRTFc4bEFQ0gHWAUFVX3lxTE83UUdpa1NVTXZBSW1mU19QSHE3bkgxSUxGVVhOLW9FZ3lWQnlUd2ZQU29kZGRzejhIWEloaUlDR0liTzlMcFlZOUNpWm1GMWdCRlFabDNTUDBUWnFUQmNfZ2owNktrdHNISEFNdExUczYxZ1dCaFB0Qy1BOHNzQ19PMzVmN09nd01wajU1aDktQUo4TmZxR0FCajZnTjJaQ2FNWWZEZlctWF9Od1NrbkVZT2tvY2dUdkVZQ2dTT3FrU05TSWlwcmhHOGNUaktsMjlYRGFremc",
-        "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQSk1rNjllT2Z5NVJQT2d4VjJxVTFWSWhva1pUa0tIR0RRcHdjUWRSVFU5ZXA1VEl0WWU2SGZJV1ZPQVBIWG9DLVZSb2FMeXZoa1VVa1pVcTYtXy1rN19kcGViVTNwN29XSlBBS2pmNEhBbFNELVdKZXBmTkg5blJrT2RoMHFYTFR2ZzVZS201ZkY3Yi1zYnhiekVhVjhVaGpQSXQtcVc5LWtBY3VOQlNjOXVHNW5yaXJtNlNWeTM3NHFRb1JTVUtma2dPTVBpQzZvOGZNZ2gwbl9GU2xoM1dSUjVYZWxKUzRtajBzV1BzRlDSAfABQVVfeXFMUEpNazY5ZU9meTVSUE9neFYycVUxVklob2taVGtLSEdEUXB3Y1FkUlRVOWVwNVRJdFllNkhmSVdWT0FQSFhvQy1WUm9hTHl2aGtVVWtaVXE2LV8tazdfZHBlYlUzcDdvV0pQQUtqZjRIQWxTRC1XSmVwZk5IOW5Sa09kaDBxWExUdmc1WUttNWZGN2Itc2J4YnpFYVY4VWhqUEl0LXFXOS1rQWN1TkJTYzl1RzVucmlybTZTVnkzNzRxUW9SU1VLZmtnT01QaUM2bzhmTWdoMG5fRlNsaDNXUlI1WGVsSlM0bWowc1dQc0ZQ",
-        "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQSHhDbEUzSVktOWJuWmF1Y0hCc0dUTmV2bEcwOHBXUDhFNEwzODRiUWtLU2kzR0pDYl9EZW9zTFZZMU94bUQ2ZEN4RnhWT0pnQ0cza2l6NkZJdjA5Wm1pSzBTYkkzRDhzWHNuMkdQalJRSEhrelhpeFBQWW81WFZVbS1xUk9Uc051bk5IdGtGN3pQRlFYUVNVNDhVUmwyMkRNRmJfY25KOEc1VlFTYW8zQnM4Z3FnS1ZEZ3k1QWlkMzdoYUxCWFE0Z3FvUVR4bWJLd2I2bXhXSEtfM1hOdkNFZEZ6VzFfMVNmYXJadExPR3dMZnc",
-        "https://news.google.com/rss/articles/CBMiigJBVV95cUxQSXZQWFcwX0JVZE94UlFDc2JLN09KMkJYN081M2lSRnhNdXM2WVNtZGUzVGEwM2Y0VkpwclJZOFYyRmtHUGlJTWotWjFOT1liRVhST3h3QWlHTHBPUk1KM25XeXhSbm1LUllGLTFPeDdxX1MzbVV2dVNudmFwSThxTnRTRWgzX0RxQm1DUzMzQkliMjlxRDZnLUZFUTBpendISFJWUm1oT1RCZHc5NkQzaVY4eWxVb2pjeTB1NXVQTG50ckdpT3NmMDlvTE5uczVSbElCQVlVY2hvTnBCUjRaZ2lBV25XdlJtcUVKc3R1Z3p3SENIU0pzanIxV0pxX3dQMExycldGY1A2QQ",
-        "https://news.google.com/rss/articles/CBMirgFBVV95cUxNbUh2MzFWU05qMU9JWGc5OTg0M01WVHg5OVZ4TENMUHhYNzBmQXIyMm96VXpJcHVoOWVzTk9KTnVBWDRIeUZ6elg2VHVkZzJ5X01hMTBSTUViN3gxMTdzcHdvaVVzdU91QlE0RkY3XzNmcE10dWFNY3VjclQ4WXVRUm4tTVVDYW0yTWZFdFJ2NGI1VE1fUnhTdnF6RGc0Z0ZQOUxmUkZOWjZILWU1Y0E",
-        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTEJ4SnVqX3pUaEl4aVQtTXBOQ2U3OTkzaEpiaDJNQlFPZWxEVkRKaHh5YWFkVFpWS1ZDTWl6V0pQWmFnZDRsaXBZNkRNeFVBWkl6UXJpbjFqblBnLW16aTlYZktQcGVDTG1pYkJFV3dhVUFnTlo5bTRIVU1lVW83M29Qelp3NlZnQU51MHZXYWczRlFEcjhVSDZuMS1QVEVyODJVSWs4YnJqaXBhYmFNV3JJdy14NVhY",
-        "https://plazaweb.com.ar/las-exportaciones-superaron-los-us10-000-millones-en-septiembre-y-marcaron-un-record",
-        "https://radiomitre.cienradios.com/politica/javier-milei-celebro-el-superavit-comercial-de-septiembre-y-sostuvo-el-rumbo-economico-del-gobierno-batimos-el-record-de-exportaciones",
-        "https://www.diariodecuyo.com.ar/economia/las-exportaciones-argentinas-superaron-los-10000-millones-dolares-septiembre-y-marcaron-un-record-historico-n6586309",
-        "https://www.diariomendoza.com.ar/economia/argentina-logro-superavit-comercial-record-exportaciones-superaron-usd-10000-millones-n182242"
-      ],
-      "mergedIds": [
-        "javier-milei-celebro-el-superavit-comercial-de-septiembre-y-sostuvo-el-rumbo-eco",
-        "argentina-logro-un-superavit-comercial-record-las-exportaciones-superaron-los-us",
-        "las-exportaciones-argentinas-superaron-los-10-000-millones-de-dolares-en-septiem",
-        "las-exportaciones-superaron-los-us-10-000-millones-en-septiembre-y-marcaron-un-r",
-        "record-historico-las-exportaciones-superaron-los-usd-10-000-millones-en-septiemb",
-        "record-historico-en-argentina-las-exportaciones-superaron-por-primera-vez-los-us"
-      ]
-    },
-    {
       "id": "en-neuquen-milei-destaco-el-crecimiento-de-las-exportaciones-de-petroleo-y-lo-ad",
       "datetime": "2026-10-19T21:24:00Z",
       "date": "2026-10-19",
@@ -2623,198 +3006,6 @@
       ],
       "mergedIds": [
         "milei-destaco-el-alza-de-las-exportaciones-de-petroleo"
-      ]
-    },
-    {
-      "id": "bate-records-el-comercio-exterior-porla-aceleracion-de-las-exportaciones",
-      "datetime": "2026-10-19T21:16:56Z",
-      "date": "2026-10-19",
-      "firstSeen": "2026-10-19T21:56:07Z",
-      "title": "Bate récords el comercio exterior porla aceleración de las exportaciones",
-      "summary": "Septiembre cerró con un superávit comercial de 2.976 millones de dólares; el acumulado es récord",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Comercio exterior Argentina",
-      "sources": [
-        {
-          "name": "La Prensa Digital",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.laprensa.com.ar/Bate-records-el-comercio-exterior-porla-aceleracion-de-las-exportaciones-577026.note.aspx",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-19T21:56:07Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSFpFUlBTT1VuWlhseU5vWlJKTUNSYlU3dDVMaWg5TDFDdG9VOE5RVElzeXNNTTR2QWUzcmxYNEhHVGZnQWwwSTYyZ09zU25wVU1ZOFU0azZDZXllMGVmRnNwVTRTUXVxYXNFdm9CM1d1VzNnVFlTNmVUZFgwdGFMZVZuUGdtbjJkMjR2UDFfQUNIa1lUQ01DQncxc0ZCU0w4UXFyejNrNUpLVmdkVFdIbXZNLXJwTE1q?oc=5"
-    },
-    {
-      "id": "las-exportaciones-superaron-los-u-s-10-000-millones-por-primera-vez-y-la-energia",
-      "datetime": "2026-10-19T21:15:38Z",
-      "date": "2026-10-19",
-      "firstSeen": "2026-10-19T21:56:07Z",
-      "title": "Las exportaciones superaron los U$S 10.000 millones por primera vez y la energía impulsó el superávit comercial",
-      "summary": "La Argentina registró un saldo comercial positivo de U$S 2.976 millones en septiembre, más del triple que en el mismo mes de 2025. Las ventas al exterior crecieron 23,5% interanual, mientras que las importaciones cayeron 1,8%. En los primeros nueve meses, el superávit acumulado alcanzó los U$S 21.198 millones. Las…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Importaciones",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Comercio exterior Argentina",
-      "sources": [
-        {
-          "name": "RoadShow",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.roadshow.com.ar/las-exportaciones-superaron-los-us-10-000-millones-por-primera-vez-y-la-energia-impulso-el-superavit-comercial/",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "TN",
-          "type": "También publicó esta noticia",
-          "url": "https://tn.com.ar/economia/2026/10/19/las-exportaciones-de-energia-crecieron-89-en-septiembre-y-explicaron-mas-de-la-mitad-del-superavit-comercial/",
-          "alsoIn": true,
-          "title": "Las exportaciones de energía crecieron 89% en septiembre y explicaron más de la mitad del superávit comercial"
-        },
-        {
-          "name": "noticiero9.com.ar",
-          "type": "También publicó esta noticia",
-          "url": "https://www.noticiero9.com.ar/34058-las-exportaciones-de-energia-crecieron-89-y-sostuvieron-el-superavit-comercial",
-          "alsoIn": true,
-          "title": "Las exportaciones de energía crecieron 89% y sostuvieron el superávit comercial"
-        },
-        {
-          "name": "La Banda Diario",
-          "type": "También publicó esta noticia",
-          "url": "https://labandadiario.com/las-exportaciones-de-energia-crecieron-89-en-septiembre-y-explicaron-mas-de-la-mitad-del-superavit-comercial/",
-          "alsoIn": true,
-          "title": "Las exportaciones de energía crecieron 89% en septiembre y explicaron más de la mitad del superávit comercial"
-        },
-        {
-          "name": "ANSA Latina",
-          "type": "También publicó esta noticia",
-          "url": "https://www.ansalatina.com/americalatina/noticia/latinoamerica/2026/10/20/record-de-exportaciones-en-septiembre-en-argentina-impulsadas-por-la-energia_9e1355c5-6923-469b-a3de-7ea9e09c5a1e.html",
-          "alsoIn": true,
-          "title": "Récord de exportaciones en septiembre en Argentina, impulsadas por la energía"
-        }
-      ],
-      "gnTried": "2026-10-19T21:56:07Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPZk04YzlhdWY5U0FwRUF1aEFZQVljWElSamNOeVVFdEd5X0xRR0RyTEswSkZRbWtCdzFBN0UwV1pJMC1SdVNIUE9DUXJ0enpLM3lCNW5QbExmMFpLRFdoWFI3RVFvSGdJZWgwT1ZCWHJXT1pyam1MU25FWFVjd1ZhRnp4THdkRTd2TDZ5TmNwcjhxXzlLWHZxaVJmUThYMzdDbkhuM3EzU0M1UGk4enc0SWgzZ19tdjJCR2taNjFXN2h5TjJTNi1mNEZtVVFWZHVBdkttcHB3?oc=5",
-      "aliasUrls": [
-        "https://labandadiario.com/las-exportaciones-de-energia-crecieron-89-en-septiembre-y-explicaron-mas-de-la-mitad-del-superavit-comercial",
-        "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORnlyXzNuYVppc2NIbmRWSzJ6ZlRKZE9wTmZEYW1SS3Z6MWpqUnByQWFMc050VmNsQmkwVnM3XzNsNWpIT20zWHNkRHN5X2tXYnJDc0l2MUJOaEdPemphR2tyejVoQUkzOE1ibHVKSks2WHZtYkR1NXJIVGN4SkhYZ1VjYzZwNzNHTjNEWHUtMlp2NV82RnA5d0prUWNLSFo3RTFXSTQ3ejdXeE8tb2NYcHB1RWhhYmotUEVtbDNUcHZlNl9MS013VWNLQ2pEWWdh",
-        "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNRjBRN3o2Zm9KUUhadDJrT3RGSElLUmxKY0ZsZV9qMEEwYjhnZjgzTHZFZ1VneEhGVWNwaGpFWEhoN3ZibUhuMGRIQ0F0aEVNUUMtUVUwUHg3WU5TZnowUEVSTzBIUU92TFd2R0dzSHM5ZVl3MTFoQmkyR0FnbmFjX2NTQ29OeGIxVlktZlVQbGFuT1NVam1ISlktdWtndkJUWlB3NjJfWlkwWUF2VndNWFNFdVA1WFNkUGpDY3hEVzNKYnVraVdXQ2JNNHpfTEZ6MXIwVHhBNHdjcnM5eHR6M9IB9AFBVV95cUxPVllDM3cwWHB1S0VuQ2R6QkVIU2hHQTdubU5kWjVmYTBrZnJWWXgyeUd6SmxYazJLdTU1U1lZeng3em9zRTczYTdPdHZYVEtrV19mNkpJdnlTVVY4dlQwRVVSaVR2TU5EOFdOVjNRNG14dTNNTklXajJhSzA3Y1lzM2l2OHVEYmNhVmpSYUYyeUVfTDdjUzR4WHl2RTJlejlkQ01INld2UE9fRGU4X0hneGtybmZZQ1JzWkhZNmRBTWxmanJBUXlCbVVmSFFBalJVUk1mMHFTUjhPdUsxbm5WV2Y2VVJ2a1ZmUnJjRk5IUi1jT0Vu",
-        "https://news.google.com/rss/articles/CBMiogJBVV95cUxORlNyQjR4LUlXazlWbXctWVA4ckNyWDQxclhkUnZja3gzNVRMNVRWbnF4VWxKMHotVl9mV0tlQU1JMFdONHdSNGp3YzBva01Yb2xnQmhlZWdKNTN2RHctckJMX1F2S2NBZFhJOUV6d3ItNkhsMk0zTEZLLTBNQmlRckNZdnlIVndzcEVzMC1sdjJUQWtvVTBKNzh4aHZHUC11Sk1ZRm9LSkJYWG42VXJ2SWNKU1VHMm5HUmk2UnNmaVI1M2FjdFpnMEdGZHZadXpRbHFpWHlxcmhEeVBYeWZPVXdDQ1U4THIyaVJDWm1NdzB0dlRmWjZGWlhnSkFtajJ6T1J4ZkRnOHBXMFhnZkM1UXVnbW00OVRleDk4ZkdldEFTUdIBogJBVV95cUxORlNyQjR4LUlXazlWbXctWVA4ckNyWDQxclhkUnZja3gzNVRMNVRWbnF4VWxKMHotVl9mV0tlQU1JMFdONHdSNGp3YzBva01Yb2xnQmhlZWdKNTN2RHctckJMX1F2S2NBZFhJOUV6d3ItNkhsMk0zTEZLLTBNQmlRckNZdnlIVndzcEVzMC1sdjJUQWtvVTBKNzh4aHZHUC11Sk1ZRm9LSkJYWG42VXJ2SWNKU1VHMm5HUmk2UnNmaVI1M2FjdFpnMEdGZHZadXpRbHFpWHlxcmhEeVBYeWZPVXdDQ1U4THIyaVJDWm1NdzB0dlRmWjZGWlhnSkFtajJ6T1J4ZkRnOHBXMFhnZkM1UXVnbW00OVRleDk4ZkdldEFTUQ",
-        "https://news.google.com/rss/articles/CBMitAFBVV95cUxPLU0zQTVwcjAyQ1k2QmJrejJLbXlNU1lxVC03S0MycFNzaFNycDVjLTd3cjVNR1RzUUlwWFcyeDhnVWJYNHU1cl83NXhwcERiNEVNVzN5X1YtcTNSN290cVA2enJ5azg1WmFYdkExZkpSS2k2WEoyN1ZTdHdBTFJPSVB2eWFtR21IMHRCNFBodE53YmV3U0l5WTBseGpZdGJkOW01TjJuYXVVd0ZvUUk4bUQ4cTA",
-        "https://tn.com.ar/economia/2026/10/19/las-exportaciones-de-energia-crecieron-89-en-septiembre-y-explicaron-mas-de-la-mitad-del-superavit-comercial",
-        "https://www.ansalatina.com/americalatina/noticia/latinoamerica/2026/10/20/record-de-exportaciones-en-septiembre-en-argentina-impulsadas-por-la-energia_9e1355c5-6923-469b-a3de-7ea9e09c5a1e.html",
-        "https://www.noticiero9.com.ar/34058-las-exportaciones-de-energia-crecieron-89-y-sostuvieron-el-superavit-comercial"
-      ],
-      "mergedIds": [
-        "las-exportaciones-de-energia-crecieron-89-en-septiembre-y-explicaron-mas-de-la-m",
-        "las-exportaciones-de-energia-crecieron-89-y-sostuvieron-el-superavit-comercial",
-        "record-de-exportaciones-en-septiembre-en-argentina-impulsadas-por-la-energia"
-      ]
-    },
-    {
-      "id": "la-balanza-comercial-de-septiembre-registro-un-superavit-de-2-976-millones-de-do",
-      "datetime": "2026-10-19T20:46:52Z",
-      "date": "2026-10-19",
-      "firstSeen": "2026-10-19T21:56:07Z",
-      "title": "La balanza comercial de septiembre registró un superávit de 2.976 millones de dólares",
-      "summary": "Noticias del cuarto diario más antiguo de Argentina, desde Tandil. Información confiable, objetiva y fehaciente, las 24 horas, todos los días.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Economía internacional"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "chart",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Comercio exterior Argentina",
-      "sources": [
-        {
-          "name": "El Eco",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.eleco.com.ar/economia/la-balanza-comercial-de-septiembre-registro-un-superavit-de-2976-millones-de-dolares",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "RedBoing",
-          "type": "También publicó esta noticia",
-          "url": "https://www.redboing.com/la-balanza-comercial-argentina-registro-un-superavit-de-casi-us3-000-millones-en-septiembre/",
-          "alsoIn": true,
-          "title": "La balanza comercial argentina registró un superávit de casi US$3.000 millones en septiembre"
-        },
-        {
-          "name": "qpasó",
-          "type": "También publicó esta noticia",
-          "url": "https://qpaso.ar/noticias/perfil/noticias/economia/la-balanza-comercial-marco-un-superavit-de-us-2976-millones-en-septiembre-y-encadeno-34-meses-en-positivo-a40.phtml",
-          "alsoIn": true,
-          "title": "La balanza comercial marcó un superávit de US$ 2.976 millones en septiembre, el segundo mes más alto de 2026"
-        },
-        {
-          "name": "LA17",
-          "type": "También publicó esta noticia",
-          "url": "https://lu17.com/contenido/153851/la-balanza-comercial-de-argentina-logro-un-superavit-de-us-2-976-millones-en-septiembre",
-          "alsoIn": true,
-          "title": "La Balanza Comercial de Argentina logró un superávit de US$ 2.976 millones en septiembre"
-        },
-        {
-          "name": "Economis",
-          "type": "También publicó esta noticia",
-          "url": "https://economis.com.ar/balanza-comercial-argentina-superavit-de-us-2-976-millones/",
-          "alsoIn": true,
-          "title": "La balanza comercial argentina registró un superávit de US$ 2.976 millones en septiembre"
-        }
-      ],
-      "gnTried": "2026-10-19T21:56:07Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRnJlMUMxM2ZUM1A2ZkZVVDdsYk9uT3B4Sk1ObzdVSzU1X1MwLWRnLXF1TmVhR0JqSDZXbjczcWUwblNodUxNZFRYN1lKTTMwT1M4c1NpRzBDRHJlSm5mU3V3V1ZsenVaRVNIX1N2aERVV2tzUUZKZmRBenIwcU4xOFBFTFZkVGhvSUFDcnAzQUVHZ1JUR1dZcUxILTBfV21hTE0wNWNteEVNcUpWakpPMld0eXdqUURvZ1E?oc=5",
-      "aliasUrls": [
-        "https://economis.com.ar/balanza-comercial-argentina-superavit-de-us-2-976-millones",
-        "https://lu17.com/contenido/153851/la-balanza-comercial-de-argentina-logro-un-superavit-de-us-2-976-millones-en-septiembre",
-        "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQSzBuc3ZINEZMMk8xR2dveEwtVjYySVJwc1g3ZGd5Qng3UUJIekhmOHdTMHpRcTF2dkJZRWExOE9faVRhU1BDbEV6aFZrMVBwNzZfb0JhRl9tZHNoQXNjWi1sQUNRZk05dGRBSWladjdNUFBjUTk4a3ljU3YySWhiZlluZ0NiWXRPTllEMWR3NWdUT1U3ejJXUkxEU2FZSWhsNnZhMmFhcGpxOHg4RHR5Sno2bE9yVTV1RkRWU0tkcW5BRGhWOHR1UWVqNnM0aEZrbXB1UVMyR2l2aVBtMkY5a3lFQjRPRS1JN1Bac3pnN1d2TUU1M0EtVG9R",
-        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPR3dHQmVVOGtwWTNvVUxjcjdhQ2VJbXVCdzFHYTAtenhxd2RHSTUwYWJ1ZV9kUXplcThzcWpMQkNJMFNwaWoxV1V1WXRrNHRHOGVUVUVYY1NNMzVQNVZ6TnoxSllZYWsxZWZ5OXFnZHdCTkNkZy1MOTJsY0F3R2VzcjJYZktzTHQ1TDFB",
-        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMU1YOWJ1Z0dDczU1YnpGVzdTdmdOcW52d2Qxb1lxQjlDZFR0RVEyc1RKRUt2UTB1R24xRDZNYm1BMkN6a2ZHUlpoTFRndHNNMXk1SEFCRzVMc0N5bVdVNnBLUEl0cXF5c2tuYVFGS0QwUmY2MmRTemRvUXRfdmRaMlhTSzVWVjJXaldpZ3FvVk84UFgyTVJJOHBUVk91cXZNbkluSllGWEhXTTdaUDJrSEFZWl9JSGZI",
-        "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVEdBdVhZY1lJQmdrVmI5Ny1sWlZ6bDRZS19JUVotTlRCYjZNREhCbXZyalVHcjNLbE9HUkY1Sk1YQ2g3LTVudl9oZjBibjhlNW5mNDlfcmtlRGIwZzRCMmVieW1YaldnOVlFaVJuajE5RlV6OHNNZkgyYzFNTXhPVzVUZmlFZUtXS012NG1CLWd2eVFaT1Bpam9kYjZLTzJXUDFqY1lUVG9KLVJLNnExYU8wOElyOHlpY2NYaFZR",
-        "https://qpaso.ar/noticias/perfil/noticias/economia/la-balanza-comercial-marco-un-superavit-de-us-2976-millones-en-septiembre-y-encadeno-34-meses-en-positivo-a40.phtml",
-        "https://www.redboing.com/la-balanza-comercial-argentina-registro-un-superavit-de-casi-us3-000-millones-en-septiembre"
-      ],
-      "mergedIds": [
-        "la-balanza-comercial-argentina-registro-un-superavit-de-casi-us-3-000-millones-e",
-        "la-balanza-comercial-marco-un-superavit-de-us-2-976-millones-en-septiembre-el-se",
-        "la-balanza-comercial-de-argentina-logro-un-superavit-de-us-2-976-millones-en-sep",
-        "la-balanza-comercial-argentina-registro-un-superavit-de-us-2-976-millones-en-sep"
       ]
     },
     {
@@ -2870,66 +3061,6 @@
       ],
       "mergedIds": [
         "tierra-del-fuego-busca-oportunidades-con-el-acuerdo-mercosur-ue"
-      ]
-    },
-    {
-      "id": "record-de-exportaciones-la-argentina-supero-los-us-10-000-millones-en-septiembre",
-      "datetime": "2026-10-19T20:46:03Z",
-      "date": "2026-10-19",
-      "firstSeen": "2026-10-19T21:56:07Z",
-      "title": "Récord de exportaciones: la Argentina superó los US$10.000 millones en septiembre",
-      "summary": "Las ventas al exterior alcanzaron US$10.036 millones y dejaron un superávit comercial de US$2976 millones. La energía encabezó el crecimiento, mientras las importaciones retrocedieron en cantidades y mostraron señales de d...",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Importaciones",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Identidad Correntina",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.identidadcorrentina.com.ar/noticia/43622_rcord-de-exportaciones-la-argentina-super-los-us10000-millones-en-septiembre.htm",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "Telefe Noticias",
-          "type": "También publicó esta noticia",
-          "url": "https://noticias.mitelefe.com/economia/exportaciones-record-la-argentina-supero-por-primera-vez-los-us-10-000-millones-mensuales-pid2569992",
-          "alsoIn": true,
-          "title": "Exportaciones récord: la Argentina superó por primera vez los US$10.000 millones mensuales"
-        },
-        {
-          "name": "Prensa Libre Online",
-          "type": "También publicó esta noticia",
-          "url": "https://prensalibreonline.com.ar/economia/record-de-exportaciones-argentina-supero-los-us-10000-millones",
-          "alsoIn": true,
-          "title": "Récord de exportaciones: Argentina superó los US$ 10.000 millones en septiembre"
-        }
-      ],
-      "gnTried": "2026-10-19T21:56:07Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQ1V1c1Zodng4Q0pQVmtUbzA3dmdpNlUyMzQxSTZnaDVhUFhBNllZUldkOWFFUFhkR29XZ0pDWF9PeDE1dDBJdmgyX1lSVnZNZlRUZ0lGV096bFFGZnJrQ1FnWVJyWDR1cnZjTmtZYjF6ckdNY3lSanQwNE9veUNtR1lYY0VEMmhlNWtjVjFNeUlkSmROZ1dsdXlPZVBwWVJlWVZMVTJ2RmY4bXFTZzVpWVVnaDZkOTRNTlpDTUFTMUtkdG1TUy1aWkk2TDFBQQ?oc=5",
-      "aliasUrls": [
-        "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPei1mcnVnRWlNUU9JaDhSVWo3SnpiYnMyTTA0eVZYMldxamt0SHpmOG5taC0zaWh6LXVWay1DLWNxaXM1QnJxd09wWUlQQ2U5b1BSQ2VSTFNsYXFPZER4azJIUHZhYmxzZ0d6ZkNac2tRZnEtc01EY1NMenBzVVZFNDRTUWdCNC1SbjdqSTR0S0NINW02QXFRYlVMajFsM3loZXloME5JdWJTVWxuVmdUZVpfMkY4RmhUQU53ZG1ZS3lJYUYyZVVqMnM2UkJlenJZR2JVZ3R3",
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYW1ORzZRYWpkWlJoazVKQkplRzRKTlZxek1CVFVId29jN3BKbjVjYnlmYkZnS2lpYUlDMlBhTkg4eTBBUGJMcFhTSVd2MjNNNUZGakVRSHFaZHJHT3VTRHNndF9DemZaTWlSNkdYaVVpdzh0dWpUaTY1MWNDbW4wcWJ4dHA1MkNZMHpiT3VBVWlLcFpLLTJpZkhXWlFEcjVSN2xhdTI0TQ",
-        "https://noticias.mitelefe.com/economia/exportaciones-record-la-argentina-supero-por-primera-vez-los-us-10-000-millones-mensuales-pid2569992",
-        "https://prensalibreonline.com.ar/economia/record-de-exportaciones-argentina-supero-los-us-10000-millones"
-      ],
-      "mergedIds": [
-        "exportaciones-record-la-argentina-supero-por-primera-vez-los-us-10-000-millones",
-        "record-de-exportaciones-argentina-supero-los-us-10-000-millones-en-septiembre"
       ]
     },
     {
@@ -3178,6 +3309,177 @@
       ],
       "gnTried": "2026-10-19T21:56:07Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPODVOdEYzQUFYZXFJbTRGVl9LbFNxYzRIRDgzdUI2X3Bqb1JUdUJMUFFFUEVLWnBHQTdPdm5fTXljYWstejNxYzV0VkxnT1BuVFN1NUFubkpxTUFtX0JjUVVObHlSam5UeXNzVGZsVFFsMEVIS2tuT1AtVDAtLUFBWG9hTVU0T1FOU1FrX3Y3MEVqWk8yUXd2N2tzdlNVc252RG50SmppR1otcGpmSUJ4bEZfdVAtMFlpMWc?oc=5"
+    },
+    {
+      "id": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976",
+      "date": "2026-10-19",
+      "datetime": "2026-10-19T16:30:23-03:00",
+      "kind": "noticia",
+      "title": "Las exportaciones superan por primera vez los USD 10.000 millones en un mes y septiembre cierra con superávit de USD 2.976 millones",
+      "summary": "Según el INDEC, las ventas externas sumaron USD 10.036 millones (+23,5%), empujadas por combustibles y energía (+89,1%), y las importaciones cayeron 1,8%, a USD 7.060 millones. Hubo déficit con China (USD 831 millones) y con Brasil (USD 169 millones).",
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Importaciones",
+        "China"
+      ],
+      "countries": [
+        "Argentina",
+        "China",
+        "Brasil",
+        "Estados Unidos",
+        "Chile"
+      ],
+      "tags": [
+        "INDEC",
+        "Balanza comercial",
+        "ICA",
+        "Vaca Muerta",
+        "Pymes"
+      ],
+      "visual": "chart",
+      "impact": 3,
+      "affectsArgentina": true,
+      "argentinaNote": "Es el dato oficial del comercio de bienes de septiembre: muestra el peso creciente de la energía en las exportaciones y la caída en cantidades de las importaciones, sobre todo de bienes de capital y vehículos.",
+      "body": [
+        "El INDEC informó el lunes 19 de octubre que las exportaciones argentinas de bienes sumaron USD 10.036 millones en septiembre, 23,5% más que un año antes, y superaron por primera vez los USD 10.000 millones en un solo mes. Las importaciones fueron de USD 7.060 millones, 1,8% menos que en septiembre de 2025, y el saldo comercial quedó en USD 2.976 millones, USD 2.039 millones por encima del de igual mes del año pasado. Es el 34.º mes consecutivo con superávit y, según A24 y C5N, el segundo más alto de 2026, después del de mayo.",
+        "El intercambio total llegó a USD 17.095 millones, con una suba interanual de 11,6%: las exportaciones representaron el 58,7% y las importaciones, el 41,3%. En la serie sin estacionalidad, las ventas externas crecieron 8,6% frente a agosto y las compras, 0,2%. Antes del dato, la mediana del sondeo de Reuters esperaba un superávit de USD 1.800 millones, con proyecciones que iban de USD 1.420 a 2.140 millones, según GBM.",
+        "## Precios, cantidades y rubros",
+        "La suba de las exportaciones se explicó por las dos variables: los precios promedio aumentaron 16,4% interanual y las cantidades, 6,1%. En las importaciones pasó lo contrario: los precios subieron 10,4%, pero los volúmenes cayeron 11,2%. Según los índices del INDEC que reproduce Infobae, los términos del intercambio mejoraron 5,4%, es decir, los precios de lo que el país vende subieron más que los de lo que compra.",
+        "Los cuatro grandes rubros de exportación crecieron. Combustibles y energía tuvo el mayor salto: USD 1.781 millones, 89,1% más que un año atrás, con precios 33,4% más altos y cantidades 39,8% mayores; según Bloomberg Línea, es la mayor variación mensual registrada para el rubro. Las manufacturas de origen agropecuario (MOA) sumaron USD 3.495 millones (+16,8%); las de origen industrial (MOI), USD 2.534 millones (+17,5%), y los productos primarios, USD 2.225 millones (+9,2%), con precios 13,9% más altos y cantidades 3,4% menores.",
+        "Dentro de la energía, las ventas de petróleo crudo llegaron a USD 1.127 millones (+86,4%), según Revista Container. El capítulo de combustibles minerales dejó un saldo positivo de USD 1.441 millones en el mes, contra USD 692 millones en septiembre de 2025, y en lo que va del año acumula USD 8.000 millones, 77,6% más que en igual período del año pasado.",
+        "## Importaciones: más insumos, menos bienes de capital",
+        "Por usos económicos, los bienes intermedios —el principal rubro, con el 35,7% del total— subieron 11,9%, hasta USD 2.521 millones, aunque con cantidades 3,2% menores. Los bienes de capital cayeron 10,4%, a USD 1.413 millones, con volúmenes 16,6% más bajos; las piezas y accesorios para bienes de capital bajaron 3,5%; los bienes de consumo, 2,5%, y los vehículos de pasajeros, 27,2%, hasta USD 450 millones. Los combustibles y lubricantes importados aumentaron 3,5% en valor por una suba de precios de 34,1%, con cantidades 29,4% menores.",
+        "El complejo automotor siguió en rojo, aunque con un déficit menor: USD 450 millones en septiembre, frente a USD 817 millones un año antes, con exportaciones de USD 910 millones (+3,6%) e importaciones de USD 1.360 millones (−19,8%). En los nueve meses, el saldo negativo del sector suma USD 4.761 millones, contra USD 6.767 millones en enero–septiembre de 2025.",
+        "## China y Brasil, con saldo negativo",
+        "China fue el principal socio del mes: la Argentina le vendió USD 986 millones (−23,8%) y le compró USD 1.817 millones (sin variación), con un déficit de USD 831 millones. Con Brasil, las exportaciones fueron de USD 1.206 millones (+2,7%) y las importaciones de USD 1.375 millones (−19,2%), con un saldo negativo de USD 169 millones. Hubo superávit, en cambio, con Estados Unidos (USD 379 millones, con ventas por USD 1.011 millones, +38,9%) y con Chile (unos USD 640 millones, con exportaciones por USD 750 millones, +65,7%). Según A24, el comercio con la Unión Europea dejó un déficit de USD 64 millones.",
+        "## Nueve meses y el dato de las pymes",
+        "En enero–septiembre, las exportaciones acumularon USD 77.267 millones (+21,6%) y las importaciones USD 56.069 millones (−2,5%), con un superávit de USD 21.198 millones, frente a USD 6.046 millones en igual período de 2025. Brasil fue el primer destino (USD 9.789 millones), seguido por Estados Unidos (USD 7.708 millones) y China (USD 7.146 millones); entre los proveedores, China encabezó con USD 13.047 millones y Brasil siguió con USD 12.005 millones.",
+        "El mismo día, el ministro de Economía, Luis Caputo, difundió que las exportaciones de pymes llegaron a USD 8.330 millones en los nueve meses, 23,2% más que un año antes y el mayor valor desde 2013, según Ámbito e ImpulsoBaires. Exportaron 7.061 pymes, 7,3% más que en el mismo período de 2023. Las MOA de las pymes crecieron 32,7%, las MOI 22,8% y los productos primarios 21,2%, mientras que combustibles y lubricantes cayeron 31,1%. Entre los productos con mayores aumentos figuran derivados de la soja, miel, semillas de girasol, pescado congelado, crustáceos, cebollas, ajos, puerros y cítricos. Esos medios no precisan la fuente estadística de los datos.",
+        "## Las lecturas de los analistas",
+        "Las interpretaciones difieren según el foco. La consultora Equilibra advirtió, en un informe citado por Infobae, que los récords son en términos nominales y que, a dólares constantes, las ventas externas están en niveles similares a los de mediados de 2022 y 18% por debajo del pico de marzo de 2012. Santiago Casas, de EcoAnalytics, sostuvo que las importaciones reflejan una demanda interna débil y recordó que en septiembre de 2025 hubo compras adelantadas ante expectativas de devaluación; Claudio Caprarulo, de Analytica, consideró la caída de las importaciones como una mala señal para el nivel de actividad."
+      ],
+      "keyData": [
+        [
+          "Exportaciones de septiembre",
+          "USD 10.036 M (+23,5% i.a.)"
+        ],
+        [
+          "Importaciones de septiembre",
+          "USD 7.060 M (−1,8% i.a.)"
+        ],
+        [
+          "Saldo comercial",
+          "USD 2.976 M (34 meses seguidos con superávit)"
+        ],
+        [
+          "Combustibles y energía",
+          "USD 1.781 M (+89,1% i.a.)"
+        ],
+        [
+          "Déficit con China",
+          "USD 831 M"
+        ],
+        [
+          "Saldo enero–septiembre",
+          "USD 21.198 M"
+        ],
+        [
+          "Exportaciones pymes enero–septiembre",
+          "USD 8.330 M (+23,2% i.a.)"
+        ]
+      ],
+      "sources": [
+        {
+          "name": "Infobae",
+          "type": "Medio de comunicación",
+          "url": "https://www.infobae.com/economia/2026/10/19/con-exportaciones-en-niveles-record-la-balanza-comercial-marco-un-superavit-de-usd-2976-millones-en-septiembre/",
+          "primary": true
+        },
+        {
+          "name": "Los Andes",
+          "type": "Medio de comunicación",
+          "url": "https://www.losandes.com.ar/economia/argentina-logro-una-balanza-comercial-casi-us3000-millones-septiembre-pese-al-deficit-china-n6010902"
+        },
+        {
+          "name": "Revista Container",
+          "type": "Medio especializado",
+          "url": "https://www.revistacontainer.com.ar/nota/la-energia-impulsa-las-exportaciones-el-superavit-de-septiembre"
+        },
+        {
+          "name": "Bloomberg Línea",
+          "type": "Medio de comunicación",
+          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/record-historico-en-argentina-las-exportaciones-superaron-por-primera-vez-los-us10000-millones-en-un-mes/"
+        },
+        {
+          "name": "Conclusión",
+          "type": "Medio de comunicación",
+          "url": "https://www.conclusion.com.ar/politica/economia/las-exportaciones-crecieron-un-23-interanual-y-la-balanza-comercial-registro-un-superavit-de-casi-us-3-000-millones/10/2026/"
+        },
+        {
+          "name": "C5N",
+          "type": "Medio de comunicación",
+          "url": "https://www.c5n.com/economia/indec-el-superavit-comercial-septiembre-fue-casi-us3000-millones-el-segundo-maximo-2026-n252012"
+        },
+        {
+          "name": "A24",
+          "type": "Medio de comunicación",
+          "url": "https://www.a24.com/economia/el-superavit-comercial-rozo-los-us-3000-millones-septiembre-y-fue-el-segundo-mas-alto-2026-n1607939"
+        },
+        {
+          "name": "Ámbito",
+          "type": "Medio de comunicación",
+          "url": "https://www.ambito.com/economia/las-exportaciones-las-pymes-alcanzaron-su-mayor-valor-13-anos-n6335392"
+        },
+        {
+          "name": "ImpulsoBaires",
+          "type": "Medio de comunicación",
+          "url": "https://www.impulsobaires.com.ar/nota/326372/las-pymes-volvieron-a-ganar-peso-en-el-comercio-exterior-y-hay-un-dato-para-mirar/"
+        },
+        {
+          "name": "GBM",
+          "type": "Medio especializado",
+          "url": "https://gbm.com/media/noticia/sector-energetico-ayuda-a-impulsar-balanza-comercial-argentina-de-septiembre/"
+        }
+      ],
+      "argentinaImpact": {
+        "change": "Las exportaciones de septiembre superaron por primera vez los USD 10.000 millones y el superávit fue de USD 2.976 millones; las importaciones cayeron 11,2% en cantidades.",
+        "who": "Exportadores de energía, agroindustria e industria; importadores de insumos, bienes de capital y vehículos.",
+        "sectors": [
+          "Energía",
+          "Agroindustria",
+          "Automotriz",
+          "Bienes de capital"
+        ],
+        "flows": {
+          "importaciones": true,
+          "exportaciones": true,
+          "logistica": false,
+          "aranceles": false
+        }
+      },
+      "explainer": {
+        "what": "El INDEC informó que en septiembre las exportaciones sumaron USD 10.036 millones, el primer mes por encima de USD 10.000 millones, y que el superávit comercial fue de USD 2.976 millones.",
+        "why": "El salto de combustibles y energía (+89,1%) empuja el ingreso de divisas, mientras las importaciones caen en cantidades (−11,2%) y en bienes de capital (−10,4%), un dato que los analistas leen como señal de demanda interna débil.",
+        "who": "Exportadores de energía, agroindustria e industria; importadores de insumos, bienes de capital y vehículos; y quienes siguen la oferta de divisas.",
+        "products": [
+          "Petróleo crudo",
+          "Combustibles",
+          "Manufacturas de origen agropecuario",
+          "Manufacturas de origen industrial",
+          "Bienes de capital",
+          "Vehículos de pasajeros"
+        ]
+      },
+      "absorbs": [
+        "nuevo-record-de-las-exportaciones-argentinas-al-superar-los-usd-10-000-millones",
+        "bate-records-el-comercio-exterior-porla-aceleracion-de-las-exportaciones",
+        "las-exportaciones-superaron-los-u-s-10-000-millones-por-primera-vez-y-la-energia",
+        "la-balanza-comercial-de-septiembre-registro-un-superavit-de-2-976-millones-de-do",
+        "record-de-exportaciones-la-argentina-supero-los-us-10-000-millones-en-septiembre",
+        "exportaciones-pymes-mayor-valor-en-13-anos-con-un-alza-del-23-2",
+        "argentina-logro-una-balanza-comercial-de-casi-us-3-000-millones-en-septiembre-pe"
+      ]
     },
     {
       "id": "aduana-nacional-de-bolivia-habilita-tramites-digitales-para-importar-combustible",
@@ -3602,41 +3904,6 @@
       ]
     },
     {
-      "id": "exportaciones-pymes-mayor-valor-en-13-anos-con-un-alza-del-23-2",
-      "datetime": "2026-10-19T16:46:00Z",
-      "date": "2026-10-19",
-      "firstSeen": "2026-10-19T17:55:25Z",
-      "title": "Exportaciones Pymes: Mayor Valor en 13 Años con un Alza del 23,2%",
-      "summary": "Las exportaciones de las pymes argentinas alcanzaron los u$s8.330 millones en los primeros nueve meses del año, marcando su mayor valor desde 2013 tras un incremento del 23,2%. El Ministro de Economía, Luis Caputo, celebró el desempeño, destacando la participación de 7.061 empresas.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Rosario Finanzas",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://rosariofinanzas.ar/noticias/exportaciones-pymes-mayor-valor-en-13-anos-con-un-alza-del-23-2",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-19T17:55:25Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTUJfOXBLeXVjUmpXdndoMF9faDhlNjBiLUExN1hrVVBaRk9oMkR0N2l6dDJHR25BcWtIQzEzRC1Nc093WDI5M0tOXzg1cVNnWHpubnR2NjRHaHE2VE5rdm0tRHU3Vy1nN0lWa3pjcGhGalViZmZ0Ykx1MFZSWlYxTDd6RnhHdG5JU1Jrb2NJMTUxT2JxUUtZRlBPY1VvX3Y3?oc=5"
-    },
-    {
       "id": "gran-noticia-para-el-girasol-argentino-proyectan-que-seguira-firme-la-importacio",
       "datetime": "2026-10-19T16:04:49Z",
       "date": "2026-10-19",
@@ -3817,38 +4084,6 @@
       "gnUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNb3ZtM3d5VGV3WUFQa3VrVjUxc0pudW9OdTVfLW9aNHJYNGlzRGJDSEQ2YWNiWXRfZ0F5Q0tXVDlGalg5NTNodllPeUFxd3lBRWtDQkI1LWtuTWsycWN5b2VkVDB0WWVaOEtXWjk5UnE5UFg5azd6ZVZSamY5TzVDZGprQ3lXS0pFTTBNRWdfS1hndE9IXzRTZ1BVOGlxT0VONFRBbVNvdnJtM0xvVGRPRnhRakhXUnp2RlRsQ3JVTGtvc1lLekU2bVpMZHM3cl9hemNn?oc=5"
     },
     {
-      "id": "capacidad-de-transporte-de-contenedores-de-canal-de-suez-supera-por-primera-vez",
-      "datetime": "2026-10-19T15:00:01Z",
-      "date": "2026-10-19",
-      "firstSeen": "2026-10-19T17:55:25Z",
-      "title": "Capacidad de transporte de contenedores de Canal de Suez supera por primera vez 50% de niveles previos a crisis del Mar Rojo",
-      "summary": "La capacidad de transporte de contenedores que transita por el Canal de Suez superó por primera vez la mitad de…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Transporte marítimo"
-      ],
-      "countries": [
-        "Egipto"
-      ],
-      "tags": [],
-      "visual": "container",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/capacidad-de-transporte-de-contenedores-de-canal-de-suez-supera-por-primera-vez-50-de-niveles-previos-a-crisis-del-mar-rojo/",
-          "primary": true,
-          "author": "Diego Hermosilla"
-        }
-      ]
-    },
-    {
       "id": "vaca-muerta-tiene-desarrollado-apenas-el-5-de-su-potencial-y-advierten-que-2030",
       "datetime": "2026-10-19T14:39:52Z",
       "date": "2026-10-19",
@@ -3954,80 +4189,6 @@
       ]
     },
     {
-      "id": "planta-multimillonaria-de-ngl-de-tgs-entra-al-rigi-cuanto-exportara-desde-2030",
-      "datetime": "2026-10-19T14:14:38Z",
-      "date": "2026-10-19",
-      "firstSeen": "2026-10-19T17:55:25Z",
-      "title": "Planta multimillonaria de NGL de TGS entra al RIGI: cuánto exportará desde 2030",
-      "summary": "El Comité Evaluador aprobó dos proyectos de la transportista de gas para separar, transportar y exportar líquidos desde Tratayén hasta Bahía Blanca, con un ducto de 577 kilómetros. Qué exportaciones proyecta el Gobierno",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Energía"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Bloomberg Línea",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/planta-multimillonaria-de-ngl-de-tgs-entra-al-rigi-cuanto-exportara-desde-2030/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-19T17:55:25Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPSHZaX3FKTFJYbDNhQUVUaVVOaEtyQ1BadzQ3b1ZQSEtDT1FSenhHa3E5QzRwSUZRSTFVMXR6QUt5TFZncWR3WFdTd2lmYnNZcU9EdmY4cVpXY0Q5UGpyVmpwV2NraTUxN1ZKRTlPQTdON09Cam91VXhFMXRsOExOMEU0TUNtQVJmOHJ1MzFiNVd4UGI0cnE0WnY4UEtXLWw4WmdPVlpIWHFQTGExZ3pqNE1BMFhncFFmOFBwaHRRV0Rjd1RoRUkydmxRR0g4ZEk3SXBPOU55cnVKellOdEVxN1pSRdIB4wFBVV95cUxPSHZaX3FKTFJYbDNhQUVUaVVOaEtyQ1BadzQ3b1ZQSEtDT1FSenhHa3E5QzRwSUZRSTFVMXR6QUt5TFZncWR3WFdTd2lmYnNZcU9EdmY4cVpXY0Q5UGpyVmpwV2NraTUxN1ZKRTlPQTdON09Cam91VXhFMXRsOExOMEU0TUNtQVJmOHJ1MzFiNVd4UGI0cnE0WnY4UEtXLWw4WmdPVlpIWHFQTGExZ3pqNE1BMFhncFFmOFBwaHRRV0Rjd1RoRUkydmxRR0g4ZEk3SXBPOU55cnVKellOdEVxN1pSRQ?oc=5"
-    },
-    {
-      "id": "dos-proyectos-millonarios-del-rigi-apuntan-a-impulsar-las-exportaciones-de-gas-a",
-      "datetime": "2026-10-19T14:12:33Z",
-      "date": "2026-10-19",
-      "firstSeen": "2026-10-19T17:55:25Z",
-      "title": "Dos proyectos millonarios del RIGI apuntan a impulsar las exportaciones de gas argentino",
-      "summary": "El Gobierno nacional aprobó dos iniciativas de Transportadora de Gas del Sur (TGS) por más de US$ 3.200 millones.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Energía"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "MinutoYA",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.minutoya.com.ar/2026/10/19/dos-proyectos-millonarios-del-rigi-apuntan-a-impulsar-las-exportaciones-de-gas-argentino",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-19T17:55:25Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNaEJPejVxbFktNWxETFJWcHVXQVNWc0xRcHlJY2FDYXI1enhuQ1EwaHE5eWxic1ZiQkdRTDdtQ0V3ZHA5RVdfT2UwaV9DaF8wYnVuRUxYU00yTk9zS0dkcHVNWUdtQVJ2VzBDLVhYT1pxU3dHTllxRUliMklkUDB3RnlwM0huUVFFbURfM20td2lDYnNjSjhPQTlndm9KWTgxbEhqcGpVclI0aTRQenI3RmVsMlhjcFJRV0E3OFJOQy1yTG5KX3c?oc=5"
-    },
-    {
       "id": "las-exportaciones-vitivinicolas-argentinas-crecieron-24-en-septiembre-segun-agri",
       "datetime": "2026-10-19T14:11:55Z",
       "date": "2026-10-19",
@@ -4074,6 +4235,153 @@
       ],
       "mergedIds": [
         "las-exportaciones-vitivinicolas-argentinas-crecieron-un-24-en-septiembre-impulsa"
+      ]
+    },
+    {
+      "id": "rigi-tgs-dos-proyectos-ngl-tratayen-bahia-blanca-3200-millones",
+      "date": "2026-10-19",
+      "datetime": "2026-10-19T11:03:00-03:00",
+      "kind": "noticia",
+      "title": "El RIGI aprueba dos proyectos de TGS por más de USD 3.200 millones para procesar y exportar líquidos de Vaca Muerta desde Bahía Blanca",
+      "summary": "El Comité Evaluador admitió una planta de separación de líquidos del gas en Tratayén y un ducto de 577 km con planta fraccionadora en Bahía Blanca. Según Caputo, operarían desde 2030 con exportaciones por unos USD 1.100 millones anuales.",
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Empresas"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "RIGI",
+        "Vaca Muerta",
+        "TGS",
+        "NGL",
+        "Bahía Blanca",
+        "Gas"
+      ],
+      "visual": "energy",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "Suma infraestructura para exportar propano, butano y gasolina natural de Vaca Muerta por Bahía Blanca desde 2030, según la proyección oficial.",
+      "body": [
+        "El Comité Evaluador del Régimen de Incentivo para Grandes Inversiones (RIGI) aprobó el ingreso de dos proyectos de Transportadora de Gas del Sur (TGS) que suman más de USD 3.200 millones, según anunció el lunes 19 de octubre el ministro de Economía, Luis Caputo. Las obras apuntan a separar, transportar y fraccionar los líquidos que trae el gas de Vaca Muerta —propano, butano y gasolina natural— para venderlos al exterior desde Bahía Blanca.",
+        "De acuerdo con la proyección oficial difundida por Caputo, las plantas empezarían a operar en 2030 y desde entonces generarían exportaciones por unos USD 1.100 millones por año. El ministro calificó las iniciativas como claves para el desarrollo de Vaca Muerta y estimó 19.000 puestos de trabajo durante la construcción. El anuncio coincidió con la publicación del dato oficial de comercio exterior de septiembre, en el que las exportaciones de combustibles y energía crecieron 89,1% interanual.",
+        "## Qué incluye cada proyecto",
+        "El primero es una planta en Tratayén, en Neuquén, para separar del gas natural los líquidos (NGL, por su sigla en inglés) que llegan desde los yacimientos. El segundo combina un ducto de 577 kilómetros que llevará esos líquidos hasta Bahía Blanca, en la provincia de Buenos Aires, con una planta fraccionadora que los dividirá en productos comercializables, más tanques de almacenamiento e infraestructura para exportarlos. Cuando TGS presentó la iniciativa, en marzo, también incluyó un gasoducto de segregación de unos 100 kilómetros y obras en una terminal marítima, según Bloomberg Línea y Forbes Argentina. De acuerdo con El Cronista, la obra se extiende sobre cuatro provincias.",
+        "## El cuello de botella que buscan destrabar",
+        "El gas de Vaca Muerta trae componentes líquidos que deben separarse antes de inyectarlo en los gasoductos. A medida que crece la producción, también crece el volumen de esos líquidos, pero la infraestructura para separarlos, transportarlos y procesarlos es mucho más limitada que la capacidad de transporte de gas, según explica El Cronista. Sin esa ampliación, el crecimiento de la cuenca podría quedar limitado.",
+        "Marcelo Mindlin, presidente de Pampa Energía —una de las empresas que controlan TGS—, definió la obra como una inversión clave para resolver algunos de esos cuellos de botella. La compañía sostiene que se trata de la primera planta de procesamiento de líquidos que se construye en el país en más de 25 años.",
+        "## De marzo a hoy: cómo cambiaron los números",
+        "TGS presentó el proyecto en marzo de 2026, durante la Argentina Week de Nueva York, como una inversión de unos USD 3.000 millones, con 45 meses de ejecución y exportaciones que su CEO, Oscar Sardi, estimó entonces en USD 1.200 millones anuales. En junio, el directorio tomó la decisión final de inversión y aprobó acuerdos con YPF, Pluspetrol y Chevron que cubren más del 80% de la capacidad, mientras seguía negociando con otros productores. Así, el monto aprobado ahora es mayor que el de marzo y la proyección de exportaciones, algo menor: el Gobierno habla de USD 1.100 millones por año.",
+        "La estimación de 19.000 puestos coincide con la que había dado la empresa en marzo: unos 4.000 empleos directos y 15.000 indirectos durante la obra. Según ArgenPorts, se trata de trabajos de construcción y no de puestos permanentes de operación.",
+        "## Un RIGI cada vez más energético",
+        "Infobae contabilizó junto con estos dos proyectos el de Pluspetrol en el área Bajo del Choique–La Invernada, en el norte de Neuquén, que el Comité Evaluador había aprobado a comienzos de octubre y que la empresa anunció en París: entre los tres, la inversión supera los USD 15.400 millones. El plan de Pluspetrol prevé más de 620 pozos horizontales y, en su segunda etapa, más de 100.000 barriles diarios de petróleo y 12 millones de metros cúbicos diarios de gas; la compañía estima exportaciones por hasta USD 2.200 millones por año, mientras que Infobae menciona unos USD 2.300 millones. Antes de ese caso, el mayor proyecto petrolero del régimen era el de Tecpetrol en Los Toldos II Este, por unos USD 6.400 millones, según El Cronista.",
+        "## Lo que todavía no se sabe",
+        "Las fuentes consultadas no detallan los montos de cada uno de los dos proyectos de TGS por separado, la capacidad de procesamiento que tendrá la planta de Tratayén ni los volúmenes anuales de propano, butano y gasolina natural que se exportarán. Tampoco precisan los destinos previstos para esas ventas ni la terminal portuaria de Bahía Blanca desde la que saldrán los embarques."
+      ],
+      "keyData": [
+        [
+          "Inversión aprobada",
+          "Más de USD 3.200 millones (dos proyectos)"
+        ],
+        [
+          "Exportaciones estimadas",
+          "Unos USD 1.100 millones por año desde 2030 (Gobierno)"
+        ],
+        [
+          "Ducto",
+          "577 km, de Tratayén a Bahía Blanca"
+        ],
+        [
+          "Productos",
+          "Propano, butano y gasolina natural"
+        ],
+        [
+          "Empleo en obra",
+          "19.000 puestos (estimación oficial)"
+        ],
+        [
+          "Capacidad comprometida",
+          "Más del 80% (YPF, Pluspetrol y Chevron)"
+        ],
+        [
+          "Inicio de operación",
+          "2030"
+        ]
+      ],
+      "sources": [
+        {
+          "name": "Bloomberg Línea",
+          "type": "Medio de comunicación",
+          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/planta-multimillonaria-de-ngl-de-tgs-entra-al-rigi-cuanto-exportara-desde-2030/",
+          "primary": true
+        },
+        {
+          "name": "El Cronista",
+          "type": "Medio de comunicación",
+          "url": "https://www.cronista.com/negocios/tgs-consiguio-el-rigi-para-dos-proyectos-que-buscan-destrabar-un-cuello-de-botella-millonario-en-vaca-muerta/"
+        },
+        {
+          "name": "Forbes Argentina",
+          "type": "Medio de comunicación",
+          "url": "https://www.forbesargentina.com/money/rigi-aprobaron-dos-proyectos-tgs-mas-us-3200-millones-n100627"
+        },
+        {
+          "name": "ArgenPorts",
+          "type": "Medio especializado",
+          "url": "https://argenports.com/nota/vaca-muerta-el-megaproyecto-de-tgs-por-mas-de-us-3-200-millones-obtuvo-el-aval-del-rigi/"
+        },
+        {
+          "name": "Infobae",
+          "type": "Medio de comunicación",
+          "url": "https://www.infobae.com/economia/2026/10/19/el-gobierno-aprobo-un-proyecto-rigi-de-mas-de-usd-12200-millones-para-producir-petroleo-y-gas-en-vaca-muerta/"
+        },
+        {
+          "name": "Bloomberg Línea (Pluspetrol)",
+          "type": "Medio de comunicación",
+          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/pluspetrol-recibe-luz-verde-del-rigi-para-invertir-us12400-millones-en-vaca-muerta/"
+        },
+        {
+          "name": "El Cronista (Pluspetrol)",
+          "type": "Medio de comunicación",
+          "url": "https://www.cronista.com/negocios/luz-verde-para-el-rigi-de-pluspetrol-en-neuquen-us-12400-millones-para-oil-gas/"
+        }
+      ],
+      "argentinaImpact": {
+        "change": "TGS ingresa al RIGI con dos proyectos por más de USD 3.200 millones para separar, transportar y exportar líquidos del gas de Vaca Muerta desde Bahía Blanca.",
+        "who": "Productores de gas de Vaca Muerta, proveedores de obra y la logística portuaria de Bahía Blanca.",
+        "sectors": [
+          "Energía",
+          "Petroquímica",
+          "Logística portuaria"
+        ],
+        "flows": {
+          "importaciones": false,
+          "exportaciones": true,
+          "logistica": true,
+          "aranceles": false
+        }
+      },
+      "explainer": {
+        "what": "El Comité Evaluador del RIGI aprobó dos proyectos de TGS por más de USD 3.200 millones para separar los líquidos del gas de Vaca Muerta en Tratayén y llevarlos por un ducto de 577 km a una planta fraccionadora en Bahía Blanca.",
+        "why": "Apunta a destrabar un cuello de botella que limita el crecimiento de Vaca Muerta y, según el Gobierno, generaría exportaciones por unos USD 1.100 millones por año desde 2030.",
+        "who": "Productores de gas de Vaca Muerta, proveedores y contratistas de obra, y la actividad portuaria de Bahía Blanca.",
+        "products": [
+          "Propano",
+          "Butano",
+          "Gasolina natural",
+          "Gas natural"
+        ],
+        "next": "Según la proyección oficial, las plantas empezarían a operar en 2030.",
+        "nextSource": {
+          "name": "Bloomberg Línea",
+          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/planta-multimillonaria-de-ngl-de-tgs-entra-al-rigi-cuanto-exportara-desde-2030/"
+        }
+      },
+      "absorbs": [
+        "planta-multimillonaria-de-ngl-de-tgs-entra-al-rigi-cuanto-exportara-desde-2030",
+        "dos-proyectos-millonarios-del-rigi-apuntan-a-impulsar-las-exportaciones-de-gas-a"
       ]
     },
     {
@@ -4960,44 +5268,6 @@
       "gnUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNYjJmWWxtQzBaOFgwX0pRWUFieFE2UUVsNmxqQnJuNHkyQlpLOFM3S1hvYVZ4VWFRSDNnc1RyMUJKN19ESFBsYmJuNTdXTUNTTmY5SnpuLWVFQkNkQUxzaEp5aTR2dTNNeGc0allhckJTc2xmRWdVd0t6eUtabU01ZXV4VXcxN25tUGVud21mN0JILXo3T3IyVmVka2tiN0c4akRpR3RTTjBmR1BuTTBMazFaZktjcHk4N1RuZlk0SUpDYUs0Smdtc1QwRjlkSjh2d3pmbXZxajdPVF9zVE83eTc3bFJQeGF1ckZmaE9fUDZ1bm8xVXBMMFBMdw?oc=5"
     },
     {
-      "id": "eeuu-amenaza-con-frenar-la-importacion-de-aceite-espanol-ha-creado-condiciones-d",
-      "datetime": "2026-10-19T07:23:49Z",
-      "date": "2026-10-19",
-      "firstSeen": "2026-10-19T14:08:27Z",
-      "title": "EEUU amenaza con frenar la importación de aceite español: \"Ha creado condiciones de transporte marítimo desfavorable\"",
-      "summary": "La Comisión Marítima Federal de EEUU propone restringir la importación de productos españoles como aceites, azúcares o confitería.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Importaciones",
-        "Transporte marítimo",
-        "Estados Unidos"
-      ],
-      "countries": [
-        "Estados Unidos"
-      ],
-      "tags": [
-        "Estados Unidos"
-      ],
-      "visual": "ship",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Logística y fletes",
-      "sources": [
-        {
-          "name": "eComercio Agrario",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://ecomercioagrario.com/eeuu-amenaza-con-frenar-la-importacion-de-aceite-espanol-ha-creado-condiciones-de-transporte-maritimo-desfavorable/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-19T14:08:27Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOZmk1U1RSdnNuZm00d1VoUUtDSXNTSVRNT2Nsald5OWF3N20tb0Z1ajFLeV9aY21jUW5BWm0tZ0RxeHNKVTY3OGx0N1FCZVZ5c1d3Vng3STBiSlh6UlJ4c3lXX3djRG91M2JlNGJPSGdGN2RNeGxoTGt6VHFMMjY5UDZibTBJcExkM0U5VkMtQ29HWnBPUkxGQkVta3V5VzBqZ000Sk01ckkycVp4Xy1USllLWFBkcFhuQTU5ZTJPNnFyNkVTUl9vNGdwVWs2ai1jdUlXOXZhLWl3TWt3?oc=5"
-    },
-    {
       "id": "evento-30-de-octubre-xii-jornada-de-derecho-aduanero-en-la-uba",
       "datetime": "2026-10-19T07:01:00Z",
       "date": "2026-10-19",
@@ -5621,6 +5891,123 @@
       "gnUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWlIyVVp0WkloeFk2c3UtSlVoTHdNY0stYjMwbVdkWjQ0eDlmTnlxTk9sSEJxSEhGYnRTRGlTVmZoamNJbFlJVEhOLWI5VkJ0R1A0QnEwQlpSWnNRMDJLRFlzMGtLdnVBcnpiY09IMWNKZkJSdTJiOE4zV19OMV9FUTVPdGdOYU15Rll6QzR4M3hVRlVYcVJLZWEwLWdRNXVzSzlGUlN1YnVpMXJGdmZmX290a0JGSUgzVm9uQjMyQm0zRE9qOE42d3g4NTNHaE9jbUE?oc=5"
     },
     {
+      "id": "suez-capacidad-portacontenedores-supera-50-niveles-previos-mar-rojo-bimco",
+      "date": "2026-10-19",
+      "kind": "noticia",
+      "title": "El paso de portacontenedores por Suez supera por primera vez la mitad de los niveles previos a la crisis del mar Rojo",
+      "summary": "Según BIMCO, con datos de Clarksons, por el canal pasaron en promedio 753.000 TEU semanales en las dos primeras semanas de octubre, contra 1.457.000 en igual período de 2023. Drewry advierte que el regreso acelerado es el mayor riesgo para la recuperación de los fletes.",
+      "topics": [
+        "Transporte marítimo",
+        "Logística",
+        "Geopolítica y comercio",
+        "Asia",
+        "Europa"
+      ],
+      "countries": [
+        "Egipto",
+        "Yemen",
+        "Global"
+      ],
+      "tags": [
+        "Canal de Suez",
+        "Mar Rojo",
+        "BIMCO",
+        "Drewry",
+        "Linerlytica",
+        "Contenedores"
+      ],
+      "visual": "container",
+      "impact": 2,
+      "affectsArgentina": false,
+      "story": "fletes-contenedores",
+      "body": [
+        "La capacidad de los portacontenedores que cruzan el canal de Suez promedió 753.000 TEU por semana en las dos primeras semanas de octubre, contra 1.457.000 TEU en igual período de 2023, según el análisis semanal de BIMCO firmado por su jefe de análisis, Niels Rasmussen, con datos de Clarksons Research. Es la primera vez desde que comenzaron los ataques de los hutíes en el mar Rojo que el tránsito supera la mitad de los niveles previos a la crisis.",
+        "A comienzos de octubre, el canal concentró el 36% de la capacidad de portacontenedores que se mueve por Suez o por el cabo de Buena Esperanza. Entre 2024 y mediados de 2026 esa proporción había promediado 8%, y antes de los ataques rondaba el 80%, según los datos difundidos por SWZ Maritime y Container News.",
+        "## Cómo se llegó hasta acá",
+        "En noviembre de 2023, los hutíes anunciaron que atacarían buques vinculados con Israel en el mar Rojo y después ampliaron los blancos a otras embarcaciones. Desde diciembre de ese año, las líneas de contenedores empezaron a desviar sus servicios por el sur de África. En la última semana de 2023, la capacidad semanal por Suez cayó a 330.000 TEU, y entre principios de febrero de 2024 y mediados de 2026 promedió 141.000 TEU, cerca del 11% de lo registrado en las mismas semanas de 2023.",
+        "El regreso empezó el 6 de julio de 2026, cuando la alianza Gemini (Maersk y Hapag-Lloyd) anunció que su servicio AE15/SE3 entre Asia y el Mediterráneo volvería al canal. Desde entonces, Gemini sumó otros cinco servicios, y también anunciaron cambios de ruta Ocean Alliance, Premier Alliance y MSC: BIMCO contabiliza modificaciones en 16 servicios desde principios de julio. Según Sourcing Journal, la Premier Alliance (ONE, HMM y Yang Ming) incorpora su servicio FE1 entre Asia y el norte de Europa, el primero que esa alianza devuelve al mar Rojo desde el inicio de los ataques.",
+        "## Los números del regreso",
+        "La consultora Linerlytica contó en promedio 29,5 buques de más de 4.000 TEU por semana entre el 31 de agosto y el 27 de septiembre, 45 en la semana del 5 al 11 de octubre y unos 47 previstos para la siguiente, y espera que pronto se superen los 50 tránsitos semanales. Según sus cálculos, más de 140 portacontenedores, con más de 2 millones de TEU de capacidad, dejaron la ruta del cabo desde mayo. La Autoridad del Canal de Suez informó, por su parte, que entre julio y septiembre pasaron 166 portacontenedores medianos y grandes, frente a 16 un año antes.",
+        "La recuperación empezó por el tráfico hacia el sur. En el tercer trimestre, la capacidad que cruzaba hacia el norte equivalía al 75% de la que iba hacia el sur, proporción que subió al 81% a comienzos de octubre, de acuerdo con BIMCO.",
+        "## Qué implica para la capacidad y los fletes",
+        "Los desvíos por el cabo alargan los viajes y, según BIMCO, habían elevado alrededor de 10% la demanda mundial de buques portacontenedores; Rasmussen señala que ese efecto se está reduciendo con rapidez. Al mismo tiempo, el regreso coincidió con más congestión en puertos asiáticos, por lo que el impacto total sobre la oferta y la demanda de bodegas todavía no está claro.",
+        "Drewry considera que el retorno más rápido de lo previsto es el mayor riesgo para la recuperación de las tarifas de las navieras, porque los tránsitos más cortos equivalen a sumar capacidad en Asia–norte de Europa, una ruta en la que los fletes acumulaban 13 semanas de bajas, según Sourcing Journal. La consultora estimó en septiembre que pasar por Suez ahorra alrededor de USD 1 millón por viaje redondo a un buque de 24.000 TEU, antes de primas de riesgo de guerra y descuentos del canal; con una prima de 0,3% sobre un casco de USD 225 millones, el costo adicional sería de USD 1,35 millones y la ventaja volvería a la ruta del cabo.",
+        "## Los riesgos que siguen abiertos",
+        "El regreso no implica que el mar Rojo sea seguro. Simon Heaney, de Drewry, sostuvo a fines de septiembre que las navieras parecen estar haciendo pruebas controladas con planes de contingencia por el cabo, más que mostrando confianza, y que los hutíes reforzaron su posición sobre la costa yemení del mar Rojo. Lars Jensen, de Vespucci Maritime, señaló que el flujo actual depende por completo de decisiones de Irán y de los hutíes.",
+        "En cuanto a los plazos, Linerlytica prevé un regreso pleno a Suez durante el primer trimestre de 2027, mientras que Drewry proyecta un retorno escalonado que llegaría al 80% de los niveles previos a los desvíos hacia febrero. Ambas consultoras esperan que, en una primera etapa, el regreso se concentre en los viajes de retorno, mientras las navieras ponen a prueba la ruta."
+      ],
+      "keyData": [
+        [
+          "Capacidad semanal por Suez (1–14 de octubre)",
+          "753.000 TEU"
+        ],
+        [
+          "Mismo período de 2023",
+          "1.457.000 TEU"
+        ],
+        [
+          "Participación de Suez frente al cabo",
+          "36% (8% en 2024–mediados de 2026; cerca de 80% antes de la crisis)"
+        ],
+        [
+          "Servicios que anunciaron el regreso",
+          "16 desde principios de julio"
+        ],
+        [
+          "Efecto de los desvíos en la demanda de buques",
+          "Cerca de +10% (BIMCO)"
+        ],
+        [
+          "Regreso pleno estimado",
+          "Primer trimestre de 2027 (Linerlytica)"
+        ]
+      ],
+      "sources": [
+        {
+          "name": "SWZ Maritime",
+          "type": "Medio especializado",
+          "url": "https://swzmaritime.nl/news/2026/10/19/suez-canal-container-traffic-passes-50-recovery-mark/",
+          "primary": true
+        },
+        {
+          "name": "BIMCO",
+          "type": "Organismo del sector",
+          "url": "https://www.bimco.org/news-insights/market-analysis/shipping-number-of-the-week/2026/1014-snow/"
+        },
+        {
+          "name": "Container News",
+          "type": "Medio especializado",
+          "url": "https://container-news.com/suez-canal-container-ship-transits-exceed-half-of-pre-crisis-levels/"
+        },
+        {
+          "name": "Riviera Maritime Media",
+          "type": "Medio especializado",
+          "url": "https://www.rivieramm.com/news-content-hub/suez-canal-box-ship-transits-recover-as-analysts-suggest-full-return-in-early-2027-90264"
+        },
+        {
+          "name": "Sourcing Journal (vía Yahoo Finance)",
+          "type": "Medio especializado",
+          "url": "https://finance.yahoo.com/energy/articles/container-shipping-red-sea-comeback-173517117.html"
+        }
+      ],
+      "explainer": {
+        "what": "La capacidad de portacontenedores que cruza el canal de Suez promedió 753.000 TEU semanales en las dos primeras semanas de octubre y superó por primera vez la mitad de los niveles de 2023, según BIMCO.",
+        "why": "Los desvíos por el cabo de Buena Esperanza habían elevado cerca de 10% la demanda de buques; su reversión libera capacidad y, según Drewry, es el mayor riesgo para la recuperación de los fletes.",
+        "who": "Navieras, forwarders y cargadores con tráfico entre Asia, Europa y el Mediterráneo, y aseguradoras de riesgo de guerra.",
+        "products": [
+          "Carga en contenedores"
+        ],
+        "next": "Linerlytica prevé un regreso pleno a Suez durante el primer trimestre de 2027; Drewry proyecta llegar al 80% de los niveles previos a los desvíos hacia febrero.",
+        "nextSource": {
+          "name": "Riviera Maritime Media",
+          "url": "https://www.rivieramm.com/news-content-hub/suez-canal-box-ship-transits-recover-as-analysts-suggest-full-return-in-early-2027-90264"
+        }
+      },
+      "absorbs": [
+        "capacidad-de-transporte-de-contenedores-de-canal-de-suez-supera-por-primera-vez"
+      ]
+    },
+    {
       "id": "cepal-arancel-promedio-eeuu-america-latina-argentina-8-6-brasil-16-6",
       "date": "2026-10-19",
       "kind": "noticia",
@@ -5888,6 +6275,45 @@
       "absorbs": [
         "comerciantes-bolivianos-enojados-por-las-restricciones-de-la-aduana-argentina-ha"
       ]
+    },
+    {
+      "id": "la-uja-analiza-el-impacto-del-acuerdo-ue-mercosur-en-un-congreso-pionero",
+      "datetime": "2026-10-19T00:42:24Z",
+      "date": "2026-10-18",
+      "firstSeen": "2026-10-20T14:05:35Z",
+      "title": "La UJA analiza el impacto del acuerdo UE-Mercosur en un congreso pionero",
+      "summary": "Expertos de España, Italia, Argentina, Brasil y Uruguay abordan sus efectos socioeconómicos y ambientales los días 6 y 7 de mayo",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Unión Europea"
+      ],
+      "tags": [
+        "Mercosur",
+        "UE-Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Extra Jaén",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://extrajaen.com/universidad/la-uja-analiza-el-impacto-del-acuerdo-ue-mercosur-en-un-congreso-pionero",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-20T14:05:35Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORlNnWXhRZlk0WVdBMERRZGx2VVIyWVF3OVdkVHBtTzBfcmV3bnY5LThRYTdHV2o2WGhTSDl2UXBseFV0MjNrSGxwanNfR1Y3NGlobVVWazZHOUJ4OTl5NGE1V1hhSXVSX0U2VDVUUHFRbTRhTF9RUFBoX2U3bXJidXZEdXd3SGFGTF9MbjRHYTV2cDVUQmJNbmt2bFJSLUItNGpYTV9wTGptQQ?oc=5"
     },
     {
       "id": "con-un-63-de-la-carga-movida-por-ruta-la-fractura-logistica-condiciona-el-comerc",
@@ -6882,10 +7308,24 @@
           "url": "https://www.marca.com/mx/actualidad/dinero/2026/10/18/precio-dolar-hoy-domingo-18-octubre-2026-peso-sigue-baja-trump-presume-aranceles.html",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "MARCA",
+          "type": "También publicó esta noticia",
+          "url": "https://www.marca.com/mx/actualidad/dinero/2026/10/20/precio-dolar-hoy-martes-20-octubre-2026-peso-cede-dolar-pese-posible-acuerdo-comercial-trump-sheinbaum.html",
+          "alsoIn": true,
+          "title": "Precio del dólar HOY martes 20 de octubre 2026: Peso cede ante el dólar pese a posible acuerdo comercial entre Trump y Sheinbaum"
         }
       ],
       "gnTried": "2026-10-18T13:52:14Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWHhxeGhtUUFrRlVObGFKNGlMX3dZUTQ4aU41NGZBN1hCcXRFZDd4cTdyM2JwbEZ0U2xNRnF0Uld0NDNwTVJORXJzRzlQZ0hCd216ZGhvS2x5M2ZscXVoaDR2ajh5a3hwQ1p2ckNoTmRCdHNmbUdZRnBqTWhneXVkNG9XM3NnbVBtaUlTenRLbnpFMXNOOHlnQzNfUEdVeHR3d1MtZmJOem9BZFVESXZUaXFwbWp3cXFFRXVacmlOWXNBSURIWkMxczE0U1hhUWIxbEJOaTBn0gHWAUFVX3lxTE9NQXZQRUJHRU90d2tVM0lCNzZxM3g0bW9NTlc3UXI3aU5NTWN6elItdzc3dU1LbWl6eGp5MGZLZWpGTGJ1U1pRcmVNQ2MxZ1lfa0oxUzFSWmxUN0hEckxDRHJJcnlRa3k4OHUyOW55bUdPTUlvRzB2bC1BUDFCOWxHalpjX1dZZ0NTZ2pmTm1IcHBzWXBIdDhEd1p3dUg3YnQyOVFRTVppLTJBVG4yb19EODJBYWJ0Y1FDaDQ1Ni1PR3FxMjJFLW9IR1ZaRmpoTW5fU0gwTkE?oc=5"
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWHhxeGhtUUFrRlVObGFKNGlMX3dZUTQ4aU41NGZBN1hCcXRFZDd4cTdyM2JwbEZ0U2xNRnF0Uld0NDNwTVJORXJzRzlQZ0hCd216ZGhvS2x5M2ZscXVoaDR2ajh5a3hwQ1p2ckNoTmRCdHNmbUdZRnBqTWhneXVkNG9XM3NnbVBtaUlTenRLbnpFMXNOOHlnQzNfUEdVeHR3d1MtZmJOem9BZFVESXZUaXFwbWp3cXFFRXVacmlOWXNBSURIWkMxczE0U1hhUWIxbEJOaTBn0gHWAUFVX3lxTE9NQXZQRUJHRU90d2tVM0lCNzZxM3g0bW9NTlc3UXI3aU5NTWN6elItdzc3dU1LbWl6eGp5MGZLZWpGTGJ1U1pRcmVNQ2MxZ1lfa0oxUzFSWmxUN0hEckxDRHJJcnlRa3k4OHUyOW55bUdPTUlvRzB2bC1BUDFCOWxHalpjX1dZZ0NTZ2pmTm1IcHBzWXBIdDhEd1p3dUg3YnQyOVFRTVppLTJBVG4yb19EODJBYWJ0Y1FDaDQ1Ni1PR3FxMjJFLW9IR1ZaRmpoTW5fU0gwTkE?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi8wFBVV95cUxON2I3WUdXbHd6Rmlaa0JuazhFcVdCQUdVRlZKMG5NOC1QRmVvaFd4Yk4wand3dDB5UG55UW05Q25HdVkwWUNhMjlsTUdlN3BZaVRyRU9ERnBueU43WTNxRHlVS1JYTzhiZjRBclJGU21BUEQzRERqTkliVFQ0c05Uc2VHejdLSE9HeGU3eGY1Zmh0QmFFOGNONG5iMEpxUk1xakdxMjhNb0lyWGdzVWhKZ29iVTFlMTN2TFp5UzhBZ2dNNWlzbzI5UFQ3UE5VZVZyVkRWRWRyZU0xakRkTnFDVmtDdUplbm5WWlItNGdDb1kzTkHSAfMBQVVfeXFMUG92RlJmakhRZV9QTWhfUHdLbWliTG1paHB1NTFlQ2MtZ0F4NW0zVE5iUFFBSE9QejBTWUNCSmRoVHkxUFRtTkNsVmtSOUpKX1ZlNGczaHhhaHdFTTRMbDBhVXRacDdfTERXVFNWdUNMSGFUQXA4ZFlMSnBzZTE3RHZxSW5XdFNBVVdUZDZBZGdmaGVtLTg4UlFCamZUTlJlQkp2WmtQSmlBbHFDVHlJQTA5Wmw1RkF5NXk5U0RPclRzNkhEUGNtS0F6WHlfU2Nwc1NFRmF5TV9FM0FraDVOdGpjdVNzbGdPdTdINGFJQTZ3bU9B",
+        "https://www.marca.com/mx/actualidad/dinero/2026/10/20/precio-dolar-hoy-martes-20-octubre-2026-peso-cede-dolar-pese-posible-acuerdo-comercial-trump-sheinbaum.html"
+      ],
+      "mergedIds": [
+        "precio-del-dolar-hoy-martes-20-de-octubre-2026-peso-cede-ante-el-dolar-pese-a-po"
+      ]
     },
     {
       "id": "la-economia-del-conocimiento-exporta-dolares-record-sin-rutas-ni-puertos",
@@ -11410,39 +11850,6 @@
       ]
     },
     {
-      "id": "record-de-exportaciones-impulsa-mayor-superavit-comercial-de-la-historia-de-chil",
-      "datetime": "2026-10-16T15:03:16Z",
-      "date": "2026-10-16",
-      "firstSeen": "2026-10-16T17:55:08Z",
-      "title": "Récord de exportaciones impulsa mayor superávit comercial de la historia de Chile",
-      "summary": "La Subsecretaría de Relaciones Económicas Internacionales (Subrei) publicó el avance de su Informe Mensual de Comercio…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones",
-        "Latinoamérica"
-      ],
-      "countries": [
-        "Chile"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/record-de-exportaciones-impulsa-mayor-superavit-comercial-de-la-historia-de-chile/",
-          "primary": true,
-          "author": "Diego Hermosilla"
-        }
-      ]
-    },
-    {
       "id": "levantaran-restricciones-para-operaciones-de-desconsolidado-de-carga-en-puerto-d",
       "datetime": "2026-10-16T15:00:09Z",
       "date": "2026-10-16",
@@ -12073,46 +12480,6 @@
       ],
       "gnTried": "2026-10-16T14:03:50Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVW1XWE1yNTlpWGNFVG9ib1hNUTFjWGRsejB1SUhsMjREMHYzNEs2ZDdsNUdFelkySEtUV2VBUnFQM2VRY2xCTUROZHZPNEJLUVhhd2dXVThDTFc1WmZISFo0WEpnSjZLQnlrakxHd3c3QkRSQVJ5dGRoa3gyOGRUR1lRbWZudlJoaEdiUWNiZE9uejduWWZqOVRCYmNheWpwOGJNRFdETGJPaXNLWUdmYktyQ2tucGlOT3k1SER1dENTbUE?oc=5"
-    },
-    {
-      "id": "el-noa-realizara-su-primer-foro-federal-argentino-ue-mercosur",
-      "datetime": "2026-10-16T12:39:00Z",
-      "date": "2026-10-16",
-      "firstSeen": "2026-10-16T14:03:50Z",
-      "title": "El NOA realizará su primer Foro Federal Argentino UE-Mercosur",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Mercosur",
-        "Europa"
-      ],
-      "countries": [
-        "Argentina",
-        "Unión Europea"
-      ],
-      "tags": [
-        "Mercosur",
-        "UE-Mercosur"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Todo Salta Noticias",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://todosalta.com/contenido/91734/el-noa-realizara-su-primer-foro-federal-argentino-ue-mercosur",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-16T14:03:50Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUzBTdEljdjFWZ0xzVEZaNkEzZ1NKMi0xdGFkamsyWm4yRXhQZUZMYU5Jb19zTmt3bUdtS2Q2MFZ3a01GX19zSGxfc3hia1hDZklPLUI1bmM4OWtfcWdBc25PaHVXMGpIYkp5bVYxdng2RUpUMHMxSG1EcW9aMmVCbldsVnVhZV9IV2x1aW1pcW1Gcm9QSTBwSnRBSTVEZnlu?oc=5"
     },
     {
       "id": "nuevas-subidas-de-las-navieras-encarecen-el-abastecimiento-de-ibiza-cuanto-aumen",
@@ -13487,95 +13854,6 @@
       ],
       "gnTried": "2026-10-16T01:57:20Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVkVLMlNmUmZUaE85Tkh4cHNSTk1RYlF1N1FUTHhjRWlyeE9nR3V6Q2c0RERRNkJOaWxyclZTcndCRHVBZlVERV83OWFnamJQU3RWWGlyenBjalRKSTdsdV93c1pTWENYV1ZIUFl1aEZXb0d3WGVVVm91X2hrdlcxLVRFU1h6a1lMcTFaQVlaV250YnNUd2xFV19rOWYtNTNwUFhURTl6R1FkM0RrNDItcWJUMTF4b0VEa1h3bG1uWDZ1Q3V2V21ESm5tMkdKdnRfUEtpeWNEN3hscDJ0eXc?oc=5"
-    },
-    {
-      "id": "ypf-proyecta-exportaciones-por-us-55-000-millones-en-2031-con-el-impulso-de-vaca",
-      "datetime": "2026-10-15T22:02:10Z",
-      "date": "2026-10-15",
-      "firstSeen": "2026-10-16T14:03:50Z",
-      "title": "YPF proyecta exportaciones por US$ 55.000 millones en 2031 con el impulso de Vaca Muerta y el RIGI",
-      "summary": "La conducción de YPF, encabezada por su presidente y CEO Horacio Marín, ratificó una ambiciosa proyección de crecimiento al prever que las exporta",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Energía"
-      ],
-      "visual": "energy",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Política y Medios",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://politicaymedios.com.ar/nota/24587/ypf-proyecta-exportaciones-por-us-55-000-millones-en-2031-con-el-impulso-de-vaca-muerta-y-el-rigi/",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "InfoEnergía",
-          "type": "También publicó esta noticia",
-          "url": "https://infoenergia.info/nota-principal-2/horacio-marin-proyecta-usd-55-000-millones-en-exportaciones-y-prepara-un-salto-historico-para-vaca-muerta",
-          "alsoIn": true,
-          "title": "Horacio Marín proyecta US$ 55.000 millones en exportaciones y prepara un salto histórico para Vaca Muerta"
-        },
-        {
-          "name": "InfoEnergía",
-          "type": "También publicó esta noticia",
-          "url": "https://infoenergia.info/nota-principal/horacio-marin-proyecta-usd-55-000-millones-en-exportaciones-y-prepara-un-salto-historico-para-vaca-muerta",
-          "alsoIn": true,
-          "title": "Horacio Marín proyecta US$ 55.000 millones en exportaciones y prepara un salto histórico para Vaca Muerta"
-        },
-        {
-          "name": "Neuquén al instante",
-          "type": "También publicó esta noticia",
-          "url": "https://www.neuquenalinstante.com.ar/noticias/2026/10/16/145052-horacio-marin-proyecta-us-55000-millones-en-exportaciones-y-prepara-un-salto-historico-para-vaca-muerta",
-          "alsoIn": true,
-          "title": "Horacio Marín proyecta US$ 55.000 millones en exportaciones y prepara un salto histórico para Vaca Muerta"
-        },
-        {
-          "name": "Rosario Finanzas",
-          "type": "También publicó esta noticia",
-          "url": "https://rosariofinanzas.ar/noticias/vaca-muerta-impulsa-exportaciones-de-petroleo-a-asia-y-marca-un-hito-historico",
-          "alsoIn": true,
-          "title": "Vaca Muerta impulsa exportaciones de petróleo a Asia y marca un hito histórico"
-        },
-        {
-          "name": "ZapalaYa",
-          "type": "También publicó esta noticia",
-          "url": "https://zapalaya.com.ar/vaca-muerta/vaca-muerta-establece-un-record-en-exportaciones-de-petroleo-hacia-asia",
-          "alsoIn": true,
-          "title": "Vaca Muerta establece un récord en exportaciones de petróleo hacia Asia"
-        }
-      ],
-      "gnTried": "2026-10-16T14:03:50Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVDAtVXhQcXlod1pBWHF1ZC1jWk9lLVFTNndnUW5sMV9qTVBwWWZtQmR6UzU1UFBaSXUtci1KaVVUbnRqaVZycTNVdzFkN0UzNmtHdUtkMGFIdW1xU08yb1ZKVGpUUEljQXZ3MGJnYl8zX2hqTXBreFJNTUljcXZlT1dLMlJTMG5BWDF4ZW5aWHdqeHF6bjJUY0lFT2pHOU5DcE1namhiNXBFQjJXeXZhdlRaakZMV0RQRU1vQldLUjFwZ2JHU3lxZUhHd0w2c2hYUk9ldDVTaw?oc=5",
-      "aliasUrls": [
-        "https://infoenergia.info/nota-principal-2/horacio-marin-proyecta-usd-55-000-millones-en-exportaciones-y-prepara-un-salto-historico-para-vaca-muerta",
-        "https://infoenergia.info/nota-principal/horacio-marin-proyecta-usd-55-000-millones-en-exportaciones-y-prepara-un-salto-historico-para-vaca-muerta",
-        "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNanFvcmFxUC1PdE1UN0lBbWFqbm9wV0pYajFBRDJmajZtN2JTYVVlMTBZMXcwYXJHQVFJUkxTM0FMaTRDcElEZ2p1dVlCYW5xT1RsWUVLVXBaRTNuRmhiQVRNSFZEZi03b21icDgxYm5PVE1GSzhacXBKd0l6aTMtUm5SRFBwT1J5OEtueGh5a25BdEUwQ0Q1OTRXbGdzRjNOVGxPemRqcmFEUFZnLVNvcXFwODl6a1ZqY3NvSmMwVXZKUnJHOVBaMGp4T2REdXdZMFAwU1JHX1A0d1dRcFd3azVYYXprSF9ORmpBQ0tPT3pLeUpDV3p1aFB1NNIBgAJBVV95cUxNTG8ySmV3U0FnN0JJbVV1ZTlPQVpubHV0TS1UdUltMXp2ZUN6cExhaXpiOGRpVUExcTVQZ2RLbVd6akdBeUZkMHpISjZ5eXZpcGtNUjA0WHlnQnpXM1ZYVGdUVDlsMHJyaDFvNU94S090Ykc2NUZCd09rTFc2cTNOb0FKMVFZOFRRcjZkemU3RElaU0V3VzJFV3U3elZRSUZrNlpDX1ZBaG5CODVBQ0RnNEsyd1B4UW41eWZjem1jRDFtY2Q4amxiNlN5X3plUlJ5dGRSSUNGaUJwWGI2b3Y0ZHZQNXo5ckdreUN0YVpaeXY4VmJGYkdFeU0xUW55Wkk3",
-        "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSC00SlUtajM4NHdfZklBb0owSHRrMGdvM2g1S19MTWJTZERNVVdzdTVSbHhKX1RHd1oxYUFIb0xBUnc2U01NZXAwUmtfa0tSaGlzRnB0azFPdEZEMmRxWFJqMzFHb1YzMTJpckpMTnlwQ0hsSXNITEdjX1RvajRaUUNBbERVdmdlWE44QWpnZV9jVjhSN2FlVloyQmlaTFdGakMxRUthNHN6YjJFTHctallqRFlBTDV0VDY0YmlzNFVrczR4R2VFcUdLUnlCMVRBUHh2MS1iZHd2VkdDa1FyTdIB4wFBVV95cUxQWW1hY3ZaeDAtc09GUWJLZnFIV2lEcXF3U3VEcENKQ3NHRmM4WHFmOXlZaUpEU1VwMEY2N1JTc0cwNHhBSXpFbzJoSGdjQkJOY3hYOUFob0tsYUE4SS13Y3M3S25nTlp0Z0VVWXI1RmpFR2ZTbGxGX0pCU0RjTmxqLXU5MnFIOFFqTHVXRzFOOUw5NjB4bFp4WTM3NkVyeEZ2djY4MUVxSHRwNmdyLVlsNWdfVWNzaGFwT1ZQNFpzdkc2cUNYS3JaZDlJXzJYeGxmLUN5TFIxOHdRNWctNFE5b1U2SQ",
-        "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQWW1hY3ZaeDAtc09GUWJLZnFIV2lEcXF3U3VEcENKQ3NHRmM4WHFmOXlZaUpEU1VwMEY2N1JTc0cwNHhBSXpFbzJoSGdjQkJOY3hYOUFob0tsYUE4SS13Y3M3S25nTlp0Z0VVWXI1RmpFR2ZTbGxGX0pCU0RjTmxqLXU5MnFIOFFqTHVXRzFOOUw5NjB4bFp4WTM3NkVyeEZ2djY4MUVxSHRwNmdyLVlsNWdfVWNzaGFwT1ZQNFpzdkc2cUNYS3JaZDlJXzJYeGxmLUN5TFIxOHdRNWctNFE5b1U2SdIB4wFBVV95cUxQWW1hY3ZaeDAtc09GUWJLZnFIV2lEcXF3U3VEcENKQ3NHRmM4WHFmOXlZaUpEU1VwMEY2N1JTc0cwNHhBSXpFbzJoSGdjQkJOY3hYOUFob0tsYUE4SS13Y3M3S25nTlp0Z0VVWXI1RmpFR2ZTbGxGX0pCU0RjTmxqLXU5MnFIOFFqTHVXRzFOOUw5NjB4bFp4WTM3NkVyeEZ2djY4MUVxSHRwNmdyLVlsNWdfVWNzaGFwT1ZQNFpzdkc2cUNYS3JaZDlJXzJYeGxmLUN5TFIxOHdRNWctNFE5b1U2SQ",
-        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNXdBSDRfWWpBOEhOZ0d0clhGNEEyclhoWVQzSFR5bi1aajhJbXpqdE5tblIteHZGLWhUaUFfTDRDejlmZE1JSVhvZkxOeXZLNU9FN3NLSlV3S0hGbF9DNTZ3Sm9TZk9CYVNLMjVTaHBtc1V2Y20zbmpIZURsaWRCdVNtTFEydnFxaEx5WVZkZHJPS0owa0gwOEVOUkFGMEJfTW5fbjcwNUVzZk0",
-        "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQWV2TUpFcDFURVE2ZXFZUWpTUEh0NlhhNUJ0MVJOLUxKMWFOY3Z6VmtzU2hGeGNFaEd3a1EyS3BZVlNfYmVaanJ3RnNPX3Zja2VqWGdwQURGQzBOUUxxTnI2U1dlLTg3X01OQnQtd3NkOHVpd0dQcGktUHlCRTgxckFLeFdzb002c1h4WTFNMld6T0ZMYnkzaDhtQ0FkbU1Qa0FuLTV1VDB3MERzbk5kcHJQTkE",
-        "https://rosariofinanzas.ar/noticias/vaca-muerta-impulsa-exportaciones-de-petroleo-a-asia-y-marca-un-hito-historico",
-        "https://www.neuquenalinstante.com.ar/noticias/2026/10/16/145052-horacio-marin-proyecta-us-55000-millones-en-exportaciones-y-prepara-un-salto-historico-para-vaca-muerta",
-        "https://zapalaya.com.ar/vaca-muerta/vaca-muerta-establece-un-record-en-exportaciones-de-petroleo-hacia-asia"
-      ],
-      "mergedIds": [
-        "horacio-marin-proyecta-us-55-000-millones-en-exportaciones-y-prepara-un-salto-hi",
-        "vaca-muerta-impulsa-exportaciones-de-petroleo-a-asia-y-marca-un-hito-historico",
-        "vaca-muerta-establece-un-record-en-exportaciones-de-petroleo-hacia-asia"
-      ]
     },
     {
       "id": "construccion-de-puente-de-la-bioceanica-entre-paraguay-y-brasil-continua-con-tra",
@@ -59324,7 +59602,7 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-10-20T09:59:10Z",
+    "ranAt": "2026-10-20T14:05:35Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
@@ -59340,7 +59618,7 @@
         "url": "https://www.aduananews.com/feed/",
         "ok": true,
         "items": 12,
-        "added": 0,
+        "added": 1,
         "updated": 0,
         "skipped": 2
       },
@@ -59349,18 +59627,18 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 7,
-        "updated": 1,
-        "skipped": 4
+        "added": 5,
+        "updated": 0,
+        "skipped": 5
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 49,
+        "items": 52,
         "added": 4,
         "updated": 0,
-        "skipped": 34
+        "skipped": 33
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
@@ -59369,7 +59647,7 @@
         "items": 52,
         "added": 4,
         "updated": 0,
-        "skipped": 34
+        "skipped": 32
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
@@ -59378,14 +59656,14 @@
         "items": 100,
         "added": 4,
         "updated": 0,
-        "skipped": 78
+        "skipped": 76
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 47,
-        "added": 2,
+        "items": 50,
+        "added": 4,
         "updated": 0,
         "skipped": 35
       },
@@ -59396,113 +59674,145 @@
         "items": 100,
         "added": 4,
         "updated": 0,
-        "skipped": 83
+        "skipped": 84
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 60,
+        "items": 71,
         "added": 4,
         "updated": 0,
-        "skipped": 33
+        "skipped": 39
       }
     ],
     "curatedDuplicates": [
+      {
+        "title": "La Argentina registró un superávit comercial de USD 2.976 millones, con exportaciones en alza",
+        "url": "https://aduananews.com/la-argentina-registro-un-superavit-comercial-de-usd-2-976-millones-con-exportaciones-en-alza/?utm_source=rss&utm_medium=rss&utm_campaign=la-argentina-registro-un-superavit-comercial-de-usd-2-976-millones-con-exportaciones-en-alza",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
       {
         "title": "Las exportaciones argentinas crecerían un 19% en 2026, según la CEPAL",
         "url": "https://aduananews.com/las-exportaciones-argentinas-crecerian-un-19-en-2026-segun-la-cepal/?utm_source=rss&utm_medium=rss&utm_campaign=las-exportaciones-argentinas-crecerian-un-19-en-2026-segun-la-cepal",
         "curated": "cepal-perspectivas-comercio-2026-exportaciones-region-20-argentina-19"
       },
       {
-        "title": "La OMC eleva del 1,9% al 3,9% su previsión de crecimiento del comercio mundial",
-        "url": "https://aduananews.com/la-omc-eleva-del-19-al-39-su-prevision-de-crecimiento-del-comercio-mundial-para-2026/?utm_source=rss&utm_medium=rss&utm_campaign=la-omc-eleva-del-19-al-39-su-prevision-de-crecimiento-del-comercio-mundial-para-2026",
-        "curated": "omc-eleva-prevision-comercio-mercancias-2026-3-9"
+        "title": "La Argentina registró un superávit comercial de USD 2.976 millones, con exportaciones en alza",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNemsxU3AwYWtGOTliOGIzdHRGNlRQX1p0c1dNaUhOaEo4UGpUVHRWY29Ib0xRN01EamVlTEVaSjFaYzAyRjNjaVE3eGRjRHFxbzA4QU5HRUhaN2pNZVA3YTFnRGpjdl9VcTZ5Wk12XzdSa3BJVjN5ZndaNjVVWktkekluSUxQR2dKNTNsLUsteEtnS3hjcEliNm9uTmg2Zmx2MlRSOVpvNWtzVHdfNXpTMW9RX1hJSUE?oc=5",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "Argentina logra un récord de US$10.000 millones en exportaciones por petróleo",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcDFDb1N4djFsUXJVUWZDcURuR3dWZTJWU3c5eU9vR0NSYk9xd25FZUVCU25xTGktaThaODV5SFJ1TGZSd29YRmdaRjNoblFOLWM4U0xscHVJYktPQVhjNkQweXNKY0dEa2ZBdEl5U0d3RmtoY1dIUTBoZ0dYeldUcGlmbVU4NkdaOWRFc295VVMzUTg0Y2FnWDVIc0lsYWpISjVOZnlsMWlLTkFLVkpDVQ?oc=5",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
       },
       {
         "title": "EURATEX, ABIT y FITA crean un diálogo textil entre la Unión Europea y Mercosur para impulsar el comercio y la…",
         "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOZnVCZDR5TnJwX2JsNjJNcUhmRWhRWlFyTjRfYmVNVW9ZX3hVTmJ4dC15ZFBqdDBCV1YyRDZEMllmd0o5ckFOUG9URlNXZ3FwNlJTdUQ1QWh4ZnhRR2pJcWh2aV9qd1Z2U2hqd0ZGendWY3REUGd0WFQ5a1hJOG1leWJ1ZjRjS1VXc0dwNHVDZ1o3eUkwNHBTQTU5Y0JlY0JuOU5EY1lPUzlwRUQxZ20tNUR4T3NlTDlWcjVWaWF2V0J6d1pZOElMRHAtWHVfbUVuZnNCQkZNTGQzMnF6dUs2UzJKQ0RwaXFnazhIcTdrZllIdw?oc=5",
         "curated": "euratex-abit-fita-dialogo-textil-confeccion-ue-mercosur-fortaleza"
+      },
+      {
+        "title": "Argentina logró una balanza comercial de casi US$3.000 millones en septiembre, pese al déficit con China",
+        "url": "https://www.losandes.com.ar/economia/argentina-logro-una-balanza-comercial-casi-us3000-millones-septiembre-pese-al-deficit-china-n6010902",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "Nuevo récord de las exportaciones argentinas al superar los USD 10.000 millones",
+        "url": "https://www.losprimeros.tv/economia/nuevo-record-de-las-exportaciones-argentinas-al-superar-los-usd-10-000-millones_a6ad68a1ae22ee8014a7e7cb5",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "Bate récords el comercio exterior porla aceleración de las exportaciones",
+        "url": "https://www.laprensa.com.ar/Bate-records-el-comercio-exterior-porla-aceleracion-de-las-exportaciones-577026.note.aspx",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "Las exportaciones superaron los U$S 10.000 millones por primera vez y la energía impulsó el superávit comercial",
+        "url": "https://www.roadshow.com.ar/las-exportaciones-superaron-los-us-10-000-millones-por-primera-vez-y-la-energia-impulso-el-superavit-comercial/",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "La balanza comercial de septiembre registró un superávit de 2.976 millones de dólares",
+        "url": "https://www.eleco.com.ar/economia/la-balanza-comercial-de-septiembre-registro-un-superavit-de-2976-millones-de-dolares",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "Récord de exportaciones: la Argentina superó los US$10.000 millones en septiembre",
+        "url": "https://www.identidadcorrentina.com.ar/noticia/43622_rcord-de-exportaciones-la-argentina-super-los-us10000-millones-en-septiembre.htm",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "Exportaciones Pymes: Mayor Valor en 13 Años con un Alza del 23,2%",
+        "url": "https://rosariofinanzas.ar/noticias/exportaciones-pymes-mayor-valor-en-13-anos-con-un-alza-del-23-2",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "Capacidad de transporte de contenedores de Canal de Suez supera por primera vez 50% de niveles previos a crisis del Mar…",
+        "url": "https://portalportuario.cl/capacidad-de-transporte-de-contenedores-de-canal-de-suez-supera-por-primera-vez-50-de-niveles-previos-a-crisis-del-mar-rojo/",
+        "curated": "suez-capacidad-portacontenedores-supera-50-niveles-previos-mar-rojo-bimco"
+      },
+      {
+        "title": "Dos proyectos millonarios del RIGI apuntan a impulsar las exportaciones de gas argentino",
+        "url": "https://www.minutoya.com.ar/2026/10/19/dos-proyectos-millonarios-del-rigi-apuntan-a-impulsar-las-exportaciones-de-gas-argentino",
+        "curated": "rigi-tgs-dos-proyectos-ngl-tratayen-bahia-blanca-3200-millones"
+      },
+      {
+        "title": "EEUU amenaza con frenar la importación de aceite español: \"Ha creado condiciones de transporte marítimo desfavorable\"",
+        "url": "https://ecomercioagrario.com/eeuu-amenaza-con-frenar-la-importacion-de-aceite-espanol-ha-creado-condiciones-de-transporte-maritimo-desfavorable/",
+        "curated": "fmc-eeuu-propone-tasa-200000-dolares-buques-espanoles-restricciones-importaciones"
+      },
+      {
+        "title": "Récord de exportaciones impulsa mayor superávit comercial de la historia de Chile",
+        "url": "https://portalportuario.cl/record-de-exportaciones-impulsa-mayor-superavit-comercial-de-la-historia-de-chile/",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "YPF proyecta exportaciones por US$ 55.000 millones en 2031 con el impulso de Vaca Muerta y el RIGI",
+        "url": "https://politicaymedios.com.ar/nota/24587/ypf-proyecta-exportaciones-por-us-55-000-millones-en-2031-con-el-impulso-de-vaca-muerta-y-el-rigi/",
+        "curated": "rigi-tgs-dos-proyectos-ngl-tratayen-bahia-blanca-3200-millones"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "euroseas-concreta-nuevo-contrato-de-flete-para-portacontenedores-feeder",
+        "main": "el-noa-realizara-su-primer-foro-federal-argentino-ue-mercosur-para-impulsar-una",
         "merged": [
-          "euroseas-ltd-anuncia-un-nuevo-contrato-de-fletamento-por-tiempo-para-el-portacon"
+          "el-noa-realizara-su-primer-foro-federal-argentino-ue-mercosur"
         ]
       },
       {
-        "main": "trump-no-condiciona-acuerdo-comercial-a-narcopoliticos-csp",
+        "main": "precio-del-dolar-hoy-domingo-18-de-octubre-2026-peso-sigue-a-la-baja-y-trump-pre",
         "merged": [
-          "donald-trump-y-mexico-el-acuerdo-comercial-que-promete-eliminar-el-deficit-bilat",
-          "anuncia-trump-acuerdo-comercial-con-mexico"
-        ]
-      },
-      {
-        "main": "record-de-exportaciones-la-argentina-supero-los-us-10-000-millones-en-septiembre",
-        "merged": [
-          "record-de-exportaciones-argentina-supero-los-us-10-000-millones-en-septiembre"
-        ]
-      },
-      {
-        "main": "tierra-del-fuego-analiza-oportunidades-productivas-y-exportadoras-ante-el-acuerd",
-        "merged": [
-          "tierra-del-fuego-busca-oportunidades-con-el-acuerdo-mercosur-ue"
-        ]
-      },
-      {
-        "main": "la-balanza-comercial-de-septiembre-registro-un-superavit-de-2-976-millones-de-do",
-        "merged": [
-          "la-balanza-comercial-argentina-registro-un-superavit-de-us-2-976-millones-en-sep"
-        ]
-      },
-      {
-        "main": "las-exportaciones-superaron-los-u-s-10-000-millones-por-primera-vez-y-la-energia",
-        "merged": [
-          "las-exportaciones-de-energia-crecieron-89-en-septiembre-y-explicaron-mas-de-la-m",
-          "record-de-exportaciones-en-septiembre-en-argentina-impulsadas-por-la-energia"
-        ]
-      },
-      {
-        "main": "en-neuquen-milei-destaco-el-crecimiento-de-las-exportaciones-de-petroleo-y-lo-ad",
-        "merged": [
-          "milei-destaco-el-alza-de-las-exportaciones-de-petroleo"
-        ]
-      },
-      {
-        "main": "nuevo-record-de-las-exportaciones-argentinas-al-superar-los-usd-10-000-millones",
-        "merged": [
-          "record-historico-en-argentina-las-exportaciones-superaron-por-primera-vez-los-us"
+          "precio-del-dolar-hoy-martes-20-de-octubre-2026-peso-cede-ante-el-dolar-pese-a-po"
         ]
       },
       {
         "main": "sin-cambios-hubieramos-volado-por-los-aires-milei-celebro-el-record-exportador-y",
         "merged": [
-          "milei-celebro-los-numeros-del-comercio-exterior-de-su-gestion-en-el-viejo-modelo"
+          "milei-defendio-el-rigi-en-neuquen-celebro-las-exportaciones-y-lanzo-criticas-a-l"
         ]
       },
       {
-        "main": "lopez-anadon-inauguro-la-aog-patagonia-2026-argentina-es-un-proyecto-neto-de-exp",
+        "main": "rubio-inicia-su-visita-a-india-con-un-acuerdo-comercial-y-el-petroleo-ruso-en-la",
         "merged": [
-          "argentina-oil-gas-2026-ernesto-lopez-anadon-proyecto-exportaciones-energeticas-d"
+          "marco-rubio-afirmo-en-mumbai-que-eeuu-e-india-estan-cerca-de-cerrar-un-acuerdo-c"
         ]
       },
       {
-        "main": "las-exportaciones-energeticas-aportan-mas-de-la-mitad-del-superavit-comercial-de",
+        "main": "hmm-encarga-la-construccion-de-ocho-nuevos-portacontenedores-de-13-000-teus",
         "merged": [
-          "las-exportaciones-energeticas-aportan-mas-de-la-mitad-del-superavit-comercia-2"
+          "hmm-encarga-ocho-nuevos-portacontenedores-de-13-000-teus-preparados-para-propuls"
         ]
       }
     ],
     "googleNews": {
-      "pending": 23,
-      "resolved": 22,
-      "withSummary": 11,
+      "pending": 24,
+      "resolved": 24,
+      "withSummary": 18,
       "withPhoto": 0,
-      "failed": 1,
-      "duplicates": 1
+      "failed": 0,
+      "duplicates": 0
     }
   },
   "stories": [
