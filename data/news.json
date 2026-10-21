@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-10-21T17:56:42Z",
+  "updatedAt": "2026-10-21T21:59:16Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -134,20 +134,16 @@
     {
       "id": "tc-mayorista",
       "label": "Tipo de cambio mayorista ARS/USD",
-      "value": "$ 1.524,84",
-      "period": "Com. A 3500 · 20 oct 2026",
+      "value": "$ 1.526,67",
+      "period": "Com. A 3500 · 21 oct 2026",
       "source": "BCRA",
       "url": "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp",
       "group": "Mercados",
-      "obsDate": "2026-10-20",
+      "obsDate": "2026-10-21",
       "change": "+0,1% vs. día hábil anterior",
       "trend": "up",
-      "checkedAt": "2026-10-21T17:57:22Z",
+      "checkedAt": "2026-10-21T22:00:01Z",
       "history": [
-        [
-          "2026-09-08",
-          1510.1049
-        ],
         [
           "2026-09-09",
           1515.1105
@@ -263,11 +259,15 @@
         [
           "2026-10-20",
           1524.8401
+        ],
+        [
+          "2026-10-21",
+          1526.6664
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-21T17:57:22Z"
+      "lastAttempt": "2026-10-21T22:00:01Z"
     },
     {
       "id": "soja",
@@ -284,7 +284,7 @@
         "date": "2026-10-20",
         "ars": 550000.0
       },
-      "checkedAt": "2026-10-21T17:57:22Z",
+      "checkedAt": "2026-10-21T22:00:01Z",
       "_prev": {
         "date": "2026-10-19",
         "ars": 552000.0
@@ -341,7 +341,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-21T17:57:22Z"
+      "lastAttempt": "2026-10-21T22:00:01Z"
     },
     {
       "id": "brent",
@@ -479,7 +479,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-10-21T17:57:25Z",
+      "lastAttempt": "2026-10-21T22:00:05Z",
       "lastError": "serie vacía"
     },
     {
@@ -497,7 +497,7 @@
         "date": "2026-10-20",
         "ars": 279000.0
       },
-      "checkedAt": "2026-10-21T17:57:25Z",
+      "checkedAt": "2026-10-21T22:00:05Z",
       "_prev": {
         "date": "2026-10-19",
         "ars": 281800.0
@@ -554,7 +554,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-21T17:57:25Z"
+      "lastAttempt": "2026-10-21T22:00:05Z"
     },
     {
       "id": "trigo",
@@ -571,7 +571,7 @@
         "date": "2026-10-20",
         "ars": 344100.0
       },
-      "checkedAt": "2026-10-21T17:57:25Z",
+      "checkedAt": "2026-10-21T22:00:05Z",
       "_prev": {
         "date": "2026-10-19",
         "ars": 354600.0
@@ -628,10 +628,668 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-21T17:57:25Z"
+      "lastAttempt": "2026-10-21T22:00:05Z"
     }
   ],
   "items": [
+    {
+      "id": "canada-condiciona-acuerdo-comercial-con-eeuu-negociaremos-cuando-washington-actu",
+      "datetime": "2026-10-21T21:44:20Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T21:59:16Z",
+      "title": "Canadá condiciona acuerdo comercial con EEUU: “Negociaremos cuando Washington actúe de buena fe”",
+      "summary": "El primer ministro de Canadá, Mark Carney, afirmó este miércoles 21 de octubre que su gobierno mantiene abierta la posibilidad de alcanzar un nuevo acuerdo comercial con Estados Unidos, aunque advirtió que las negociaciones solamente podrán reanudarse cuando Washington demuestre una disposición genuina a encontrar…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Estados Unidos",
+        "Canadá"
+      ],
+      "tags": [
+        "Estados Unidos"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "El Periodista",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.elperiodista.cl/2026/10/canada-condiciona-acuerdo-comercial-con-eeuu-negociaremos-cuando-washington-actue-de-buena-fe/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T21:59:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVjRhblRBVTAxRXp0WFJ2TkJYZVZkS1l1MUhhTHFKa29seFB0RGtWM2t5dkpZT0s3dTB1Q1dCTzF0Rm1QNTd0NXY1b2FNMGJnZTZXcWx1WVUwODB4UWtJNEVnWmI5V0NCSXViMGpRVDdsbkFvNXJBalhkTUw4WFdSZUxNRmpnNHJ3eWk1dElKRV9OUzBZdlJpcjU0U2ZVVmNwS3RkYS1MeWU0RkY5SFVlaXJ3WFB4YTV3T1RqZXU2N3VyUTZndG5lYjhB?oc=5"
+    },
+    {
+      "id": "mincomercio-espera-firmar-acuerdo-con-ee-uu-para-suspender-aranceles-antes-de-fi",
+      "datetime": "2026-10-21T21:33:09Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T21:59:16Z",
+      "title": "MinComercio espera firmar acuerdo con EE.UU. para suspender aranceles antes de finalizar el año",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Tratados y acuerdos",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Zona Cero",
+          "type": "Medio · vía Google Noticias",
+          "url": "http://zonacero.com/generales/mincomercio-espera-firmar-acuerdo-con-eeuu-para-suspender-aranceles-antes-de-finalizar-el",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T21:59:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLUwyQmNyMk5TOS1rMTF5UW5HWHF5ZnRmZ1h4NlFCckVJZllITkxoYmpJWVNud1hqXzEtUTJ2clEwV1pkb1FCdmR1Zm9tLURaSmx6ajdBYzdGRlVlZmFfQ3dqV0hqNlI4dEQ5cXZueEpkX0ZXYmljSS1OV3Mwd1ZDbl9IZTI3c1NaSnJmVU9MdkhybGM3SnBMdTRBZnFPendBVkQ0OTdYdTA4bUZYeHphSE1XQUVjbk1yUDlqcw?oc=5"
+    },
+    {
+      "id": "grupo-mexico-descarta-ofertar-por-operadora-ferroviaria-argentina",
+      "datetime": "2026-10-21T21:30:36Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T21:59:16Z",
+      "title": "Grupo México descarta ofertar por operadora ferroviaria argentina",
+      "summary": "El conglomerado Grupo México retiró su interés en ofertar por la empresa estatal argentina Belgrano…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "México"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/grupo-mexico-descarta-ofertar-por-operadora-ferroviaria-argentina/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "gobierno-adle-espera-acuerdo-sobre-aranceles-con-estados-unidos-en-diciembre-est",
+      "datetime": "2026-10-21T21:10:40Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T21:59:16Z",
+      "title": "Gobierno ADLE espera acuerdo sobre aranceles con Estados Unidos en diciembre: “estamos avanzando a buen ritmo”",
+      "summary": "El ministro de Comercio, Mauricio Gómez, aseguró que en este momento “los negociadores están sentados a la mesa, revisando artículo por artículo y analizando qué es lo más conveniente para ambos países”.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Tratados y acuerdos",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "elheraldo.co",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.elheraldo.co/economia/2026/10/21/gobierno-adle-espera-acuerdo-sobre-aranceles-con-estados-unidos-en-diciembre-estamos-avanzando-a-buen-ritmo/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T21:59:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNSklPX3hTemltWjFKbWJDbk5QVzBVdGtmTWhqblNIVEF3UERub0g4T0VqVXFfSGxTY091VmlYUXhhazJva29LT1FIRm40RnNQT0VrNEc1eXNKeTNSR0syX0M0UzltV0JRT2pseGhzV21jdHVOSzlJWmM2clE3aGlPdnoxXzE1SDVZY3dfcFlPTGctVUpuRGloZGYzSHhvamRuZnpJMkc4ZnF4SzEwVGd0ZEF4ZFNWWFNxZWdJU0NrVnpYMW9QMEpEUDlDUHBicTl5N2FvVWtZMTcyVGpHYjBrdWt3TGRSYVJG?oc=5"
+    },
+    {
+      "id": "one-observa-que-capacidad-de-terminales-de-america-latina-se-ha-visto-limitada-p",
+      "datetime": "2026-10-21T20:55:52Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T21:59:16Z",
+      "title": "ONE observa que capacidad de terminales de América Latina se ha visto “limitada” por efectos externos",
+      "summary": "Ocean Network Express (ONE) ha detectado que la capacidad de los puertos de América Latina se…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/one-observa-que-capacidad-de-terminales-de-america-latina-se-ha-visto-limitada-por-efectos-externos/",
+          "primary": true,
+          "author": "admin"
+        }
+      ]
+    },
+    {
+      "id": "sna-alerta-que-aranceles-de-ee-uu-provocaran-perdidas-por-usd-800-millones-al-ag",
+      "datetime": "2026-10-21T20:37:17Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T21:59:16Z",
+      "title": "SNA alerta que aranceles de EE.UU. provocarán pérdidas por USD 800 millones al agro",
+      "summary": "Ante esta situación, desde la SNA instaron a diversificar las exportaciones a India, el Sudeste Asiático, Medio Oriente, el norte de África y el interior de China.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Agro",
+        "Aranceles"
+      ],
+      "visual": "agro",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "El Dínamo",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.eldinamo.cl/economia/negocios-economia/2026/10/21/sna-alerta-que-aranceles-de-ee-uu-provocaran-perdidas-por-usd-800-millones-al-agro/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T21:59:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNeXFteXVFNTEtblBRNHhFSGxDUThnWXlINkRKUnowdl9yRWpvR00wM1N2WG5hUmhTbjI5QlpLZjFpR3BEc1VlcF9jY3VNRTBoaDgzaGZNd2pna3NXMG1jWnlxM0VYdERfN3ptcmtsY3RyaHF0dmZTdzA2cDFKU1BRS0JXNXVfNUhRRHNkUDRLVzlBeGk2aDFfR1M4cUM2U0RuVXQtS3Jkdl96OFZzcENuZ2JoZGtiTzNNZ0VyZTc0RGtBMkNVUnZoSnluOEFFMGVzQzZjNmNvVXpQLS13YUE?oc=5"
+    },
+    {
+      "id": "el-mapa-mundial-de-los-granos-esta-cambiando-y-redefine-el-negocio-de-las-export",
+      "datetime": "2026-10-21T20:12:09Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T21:59:16Z",
+      "title": "El mapa mundial de los granos está cambiando y redefine el negocio de las exportaciones",
+      "summary": "Conflictos, restricciones martimas y mayores fletes estn cambiando las rutas de los granos, con efectos sobre exportadores y mercados alimentarios.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Agro"
+      ],
+      "visual": "grain",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "AgroLatam",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.agrolatam.com/actualidad-latam/comercio-mundial-granos-nuevas-rutas-riesgos-logisticos/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T21:59:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSTBTd1VSRkczbEV6cEFWMV9WRUxoaWlFc0x1dmFlOFJJd25nYjN0VnI3M1EyaVp6cklMTHh5d2NjWXdKYjZRYUkxek9PQnMtR3Zyd1BzLWM0Nl9OTHEzd2tFOXBPVlowMTk2Z3ZKQ0FCWVRHdTNhcjRPdGFpN25KaktjYlZsNlFkMU5TbDRIOVBmWEtfMERnaHJaMHJrME9N?oc=5"
+    },
+    {
+      "id": "el-petroleo-vuelve-a-fluir-exportaciones-de-medio-oriente-superan-niveles-previo",
+      "datetime": "2026-10-21T20:10:29Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T21:59:16Z",
+      "title": "El petróleo vuelve a fluir: exportaciones de Medio Oriente superan niveles previos a la guerra",
+      "summary": "Los envíos diarios desde los productores del Golfo ya promedian 24,6 millones de barriles, por encima de los 23,3 millones que se registraban antes…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Energía"
+      ],
+      "visual": "energy",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Prensa Libre Online",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://prensalibreonline.com.ar/economia/el-petroleo-vuelve-a-fluir-exportaciones-de-medio-oriente-superan-niveles",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T21:59:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSTJJZURSdm5JOWlRZTI1WDBycDAzR0lnRV9jYks5Y0V2d2trVURCR05uME9LMlVhbW80TmhNWDFZWnd3LTk1czFYQmxGOE5scEtuZHNpN2FEZDgyQVBYYXFPMVc2NFFUY2ZBMG9YMFNSNmx6bENOcGhDbDEyZG9vdGlUVFlCMkkxazRDdVp1cDhxT3hyd2RTeUFoNm45akxKbzM4SWZEV3Bad1d1b3R0VzNoZUxFQQ?oc=5"
+    },
+    {
+      "id": "airbus-augura-un-alza-del-46-en-la-carga-aerea-hasta-2045-y-una-flota-global-de",
+      "datetime": "2026-10-21T20:04:38Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T21:59:16Z",
+      "title": "Airbus augura un alza del 46% en la carga aérea hasta 2045 y una flota global de 3.460 aviones",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte aéreo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "plane",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Demócrata",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.democrata.es/economia/airbus-augura-un-alza-del-46-en-la-carga-aerea-hasta-2045-y-una-flota-global-de-3-460-aviones/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T21:59:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ2hhMWs5Rkd1YjJ0YTVubjg4bl9XZXFaRlVNVDR6UWRFTGl0Ri1KelVaQk1EczBnZDFaSDR3V3lWblNsT0ZrZHp1QVMxS0JiRVBUNWREWFh4TUx6RGkxSUdSVEF2ZzdEcmk3bDhOUEx6YWRkVEp0MlViZzdwQnRmZGU5dlBNMlVFUnB1b1lvOVpYMDlrYWV2ZDJ1MHcwQVhLOHJTbkJGeWIxekdqNmMyaHBFWWd1WFhZeF9OQk9BdGl0U3NRa1ZF0gHMAUFVX3lxTE5VRGRHRXEzLTdFbVNCckpMM0kwWDFlcGFpa050UkdhZU5xdTB0bDNRVzNzRzBPQkozYWVEZ2xETXVXQWRWYUd5d0Z0ckVSa3g4U1pHYTN4cy1zaTBwcWpMNU1WdjlMbjZJSFBkQnlZeGwyZUZycFl3NzhYek9veDhnRkdRUjNXRFZPR2Q0UkFsXzlrR3FpeFR6QkRkcVNxazFnb3NzRFUtWmtfcWlBRlZDekFxUTg2eDc3T0JKMU9KQUt6RnFMVkgxTHBYMA?oc=5"
+    },
+    {
+      "id": "colombia-invias-presenta-ante-el-senado-estrategia-para-recuperar-corredores-via",
+      "datetime": "2026-10-21T20:00:48Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T21:59:16Z",
+      "title": "Colombia: Invías presenta ante el Senado estrategia para recuperar corredores viales",
+      "summary": "El director general del Instituto Nacional de Vías (Invías) de Colombia, Juan Camilo Ostos Romero, acompañó…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Colombia"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/colombia-invias-presenta-ante-el-senado-estrategia-para-recuperar-corredores-viales/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "montevideo-sera-sede-de-un-balance-del-acuerdo-mercosur-union-europea-a-seis-mes",
+      "datetime": "2026-10-21T19:48:35Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T21:59:16Z",
+      "title": "Montevideo será sede de un balance del acuerdo Mercosur–Unión Europea a seis meses de su aplicación",
+      "summary": "MONTEVIDEO (Uypress) – La Fundación Friedrich Naumann para la Libertad, la Delegación de la Unión Europea en Uruguay y la Cámara de Comercio e Industria Uruguayo-Alemana (AHK Uruguay) convocan a un encuentro para analizar los primeros seis meses de aplicación del acuerdo comercial entre el Mercosur y la Unión Europea.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Uruguay",
+        "Unión Europea"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "uy press",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.uypress.net/Actualidad/Montevideo-sera-sede-de-un-balance-del-acuerdo-Mercosur-Union-Europea-a-seis-meses-de-su-aplicacion-uc157210",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T21:59:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZHp1OXRhcnluei1uWnB0cWU3QmppQ0pjVmw1UEVtNnhMWW9ORDZaTHRIaUsyZFliSzFQQVhDekViN3JRLUQ4eXhHRnpROGFNZFJkXzl5czlxRkYxenJVQXcyV0lhSXpYQzk3c3hyVkNpVXFYc2I2cF9uUGpKSHMtWVN1NEFmaUlBdUw0VHBFVmNzSDF2dm5SNFFMM18xeXRwS2FPVjBCUU5uemoyOXY5WmVIZTZfdERIXzVJNUNDRC1tcC1xXy0ydEt1RGpXclkwbThvTkFuel9SS2M?oc=5"
+    },
+    {
+      "id": "mineria-y-regalias-cuanto-reciben-catamarca-jujuy-y-salta-por-sus-exportaciones",
+      "datetime": "2026-10-21T19:43:00Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T21:59:16Z",
+      "title": "Minería y regalías: cuánto reciben Catamarca, Jujuy y Salta por sus exportaciones",
+      "summary": "El auge del litio y otros minerales impulsa las exportaciones del norte, pero su contribución directa a los presupuestos provinciales sigue siendo marginal.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Minería"
+      ],
+      "visual": "mining",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Sitio Andino",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.sitioandino.com.ar/economia/mineria-y-regalias-cuanto-reciben-catamarca-jujuy-y-salta-sus-exportaciones-n5732286",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T21:59:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNN2hDWnZ1djFXZEdxazgyNWJoRTl6TEJjcFFDTE93SjFWZVRyZHp6cGk2NlY1dmVYZld1Z1ZxRVdkVG1oVlBDUE5Ha1NsNUstbUJjMEptMHpBWk5MRHI1RXJINkc5dzZhNWhVNUphNHowb0ZERG9VVGN2bXVsaUcxVEtDbmRWU2Y4cnpiOGZIZnFiMkRXeGFoRVZhbjNObDhKcVc5OWZ1S0dLX0FEZ3JoaUszZmdNejEwT1E1N0FfMEo3d9IBxwFBVV95cUxQWFh2cHV1VFZVRDNhbFVVUENEZV94LU5rcHdmU1dXd2ZIclBVYU5ubGpMY2FkWjZpSFRyQThwa2xGTlVGUjR4Y0syWk9TV21SeTlVQ3oxRnNPVTdfM1hCcnBNaG9XWTlNSy1MUFg0azhLc3J1bXc3c3ZlNC1ERndYUllpeTJCbmU2cFc5R0x6SUlIbXVncUpFRmZwQWxkaGpZWjllcTIydlA1Tzl0Q0pWSVRWVEFaeUk0ZHBQU0JYcXdXNEkySC1z?oc=5"
+    },
+    {
+      "id": "inacoop-analizo-los-desafios-del-cooperativismo-frente-al-acuerdo-mercosur-ue",
+      "datetime": "2026-10-21T19:15:14Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T21:59:16Z",
+      "title": "Inacoop analizó los desafíos del cooperativismo frente al acuerdo Mercosur-UE",
+      "summary": "La titular del instituto reclamó políticas públicas de apoyo técnico y financiero para fortalecer la competitividad del sector.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Unión Europea"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Diario La R",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://grupormultimedio.com/inacoop-analizo-los-desafios-del-cooperativismo-frente-al-acuerdo-mercosur-ue-id209426/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T21:59:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMEdJR0dLb0VlRS01cTh5ZXhzMEZuM3hpZGk3Q29xTWNTY2lYX0JPb2ZxazdsM2RaZEduQ1NKQVo2cUtFNXpXeGFhOC1FY1ZxSjE3QXhBZzVoZV9xSng2UGxhSmpEbjB2bU1DOFVNOEh4MU0zUWoyWThBZjFmUHhLUFZ5cnBHTVI1T0lfWkxfdjBrLVNXN3pERW82UkRCSzFIbWhLbS1aY21EMURaU3pGOUI5YlF0LXM?oc=5"
+    },
+    {
+      "id": "argentina-podria-alcanzar-un-record-historico-de-exportaciones-los-sectores-que",
+      "datetime": "2026-10-21T19:11:00Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T21:59:16Z",
+      "title": "Argentina podría alcanzar un récord histórico de exportaciones: los sectores que impulsan el crecimiento",
+      "summary": "La competitividad empresarial y los ingresos familiares siguen marcando fuertes contrastes.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Minuto Neuquén",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.minutoneuquen.com/nacionales/2026/10/21/argentina-podria-alcanzar-un-record-historico-de-exportaciones-los-sectores-que-impulsan-el-crecimie-412808.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T21:59:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPUE5YMlEyZFZhekFKYVJCdTFYdFhQQWlJMmdqUWxtaGZzd21PemZ3NnZGbzh4cEUwNVZpNm9IY3FkakZYc2FESHJMRHY1VlQtWXE1YVFpUWxtZGlIdThMYWxicFFZb2laNHl0Z2JsdWNZbmUwSnJLdkpRd28yM29UU2pRN0MtT0RXWFpMRHR1U1MzaGxxNk9aTTIxdF9TWk5yZ0c5anpuZFZLUTUtYTdWVXVyU2JtRy0zY2RzWTFic2hYbmtENkZUZndwTXQ0dXV6RV9vRVJocDhhVGlPeW5zUldHVEswanB6d1ZxRkhPb0Y2MDlBWFlF?oc=5"
+    },
+    {
+      "id": "garantizan-pago-de-6-mil-500-pesos-por-tonelada-a-maiceros-gobierno-absorbera-lo",
+      "datetime": "2026-10-21T18:46:32Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T21:59:16Z",
+      "title": "​Garantizan pago de 6 mil 500 pesos por tonelada a maiceros; gobierno absorberá los fletes",
+      "summary": "Puebla apoyará a productores con un precio de garantía de hasta 6 mil 500 pesos por tonelada de maíz y cubrirá el costo del flete.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "La Jornada de Oriente - Puebla",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.lajornadadeoriente.com.mx/puebla/puebla-precio-garantia-maiz-6500-pesos-tonelada/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T21:59:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcUZtS2w5V0IxM3hrT1lmcVlWU0p4bGtfYUNtWDU3ZTQ1VFY0dFNwNWNHVG9vTFE1MFFDYi1MVWczb3VMbUl5YzhUcFJybXpwMm9keXFsVEdkWVRRcW1MZ0FCSHJnNnlCc3d6TVZ3R1ZHN3NUbnFOZnFaX1FLaTFLUkNSRjZraklqNU9rbWFzVzNoT0ItLWVOQQ?oc=5"
+    },
+    {
+      "id": "ee-uu-sanciona-a-un-bufete-con-sede-en-grecia-y-panama-por-sus-vinculos-con-rede",
+      "datetime": "2026-10-21T18:40:58Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T21:59:16Z",
+      "title": "EE. UU. sanciona a un bufete con sede en Grecia y Panamá por sus vínculos con redes navieras iraníes",
+      "summary": "El Tesoro de EE. UU. sancionó a Karnakis & Karnakis por presunto apoyo legal a redes navieras iraníes, mientras FinCEN emitió una citación a un banco griego y solicitó información a otras seis entidades europeas.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Geopolítica y comercio",
+        "Latinoamérica",
+        "Europa"
+      ],
+      "countries": [
+        "Panamá",
+        "Grecia",
+        "Irán"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "DiarioBitcoin",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.diariobitcoin.com/regulacion/ee-uu-sanciona-a-un-bufete-con-sede-en-grecia-y-panama-por-sus-vinculos-con-redes-navieras-iranies/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T21:59:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNUlZSFdhWnNWLW9ZclBET1ZXd21zT1JhYUNuR3ZWeEs3a1FQMC1lWFcxSVRNb1E0NlByVHZoSkRxbV9OMWpid1VrWjItcTZrQ1VPb0VRQ1BnTTZhNHoxejN6MnoyZjlBTWtwdmNObTFQLTYzOW9PenNkMkVSWkhfaUI5bl9wbDctTjRUa1JiVHhpZWQzbDZTXzJtdGlXWlZabF9mdWNWU2hfTkJMdTQ4UElsdFNHeUszUzFOaUdNVWkza3hJdWZiazdDd0c3TGdZVFpoOFVxOA?oc=5"
+    },
+    {
+      "id": "port-de-barcelona-presenta-en-china-su-alianza-estrategica-con-puerto-de-shangha",
+      "datetime": "2026-10-21T18:30:49Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T21:59:16Z",
+      "title": "Port de Barcelona presenta en China su alianza estratégica con Puerto de Shanghai",
+      "summary": "El Port de Barcelona reforzó en Shanghái su alianza estratégica con el principal puerto chino y…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "China",
+        "Asia",
+        "Europa"
+      ],
+      "countries": [
+        "China",
+        "España"
+      ],
+      "tags": [
+        "Puertos",
+        "China"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/port-de-barcelona-presenta-en-china-su-alianza-estrategica-con-puerto-de-shanghai/",
+          "primary": true,
+          "author": "cmeza"
+        }
+      ]
+    },
+    {
+      "id": "brasil-puerto-de-sao-francisco-do-sul-concluye-dragado-de-mantenimiento-en-darse",
+      "datetime": "2026-10-21T18:00:26Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T21:59:16Z",
+      "title": "Brasil: Puerto de São Francisco do Sul concluye dragado de mantenimiento en dársena",
+      "summary": "La dársena del Puerto de São Francisco do Sul pasó por una nueva etapa de mantenimiento.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Brasil"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/brasil-puerto-de-sao-francisco-do-sul-concluye-dragado-de-mantenimiento-en-darsena/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
     {
       "id": "los-vinos-del-valle-de-napa-sufren-los-aranceles-de-trump",
       "datetime": "2026-10-21T17:50:22Z",
@@ -642,6 +1300,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Exportaciones",
         "Aranceles",
         "Estados Unidos"
       ],
@@ -717,6 +1376,74 @@
         "basedOn": "https://portalportuario.cl/rusia-ataca-buques-de-carga-y-centros-logisticos-en-ucrania",
         "words": 137
       }
+    },
+    {
+      "id": "ya-esta-disponible-la-version-digital-de-la-revista-comercio-exterior-n-912",
+      "datetime": "2026-10-21T17:09:31Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T21:59:16Z",
+      "title": "Ya está disponible la versión digital de la Revista Comercio Exterior Nº 912",
+      "summary": "El Centro Despachantes de Aduana (CDA) informa a sus asociados que ya se encuentra disponible la edición Nº 912 de la Revista Comercio Exterior en su formato digital.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Centro Despachantes de Aduana (CDA)",
+          "type": "Medio · vía Google Noticias",
+          "url": "http://www.cda.org.ar/detalle_noticia.php?id=42815",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T21:59:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5yWjQ3NGE1UEdOeGlUZ3dld1dlajBETDFPUEVqUFhXV0RVVWltS3BzSnExWWd4NnNxWkg2SklRTXZESm15R3E0Y2NGU2FyUEpNVG8za3ZEOEc4c1dlLTVV?oc=5"
+    },
+    {
+      "id": "el-futuro-de-la-logistica-la-industria-y-el-comercio-exterior-se-debatiran-en-la",
+      "datetime": "2026-10-21T17:08:41Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T21:59:16Z",
+      "title": "El futuro de la logística, la industria y el comercio exterior se debatirán en la UDE",
+      "summary": "Argentina atraviesa una etapa que encuentra a la economía en un escenario complejo y en la que la industria y la producción no logran encontar el camino de salida. Sobre los mismos hechos y datos…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "flipr.news",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://flipr.com.ar/nacionales/gremios/serindustria/el-futuro-de-la-logistica-la-industria-y-el-comercio-exterior-se-debatiran-en-la-ude/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T21:59:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdDhkM3pvMXFONVM2UXhrZ25HMlU3RWJkQWFSNWRJSHYwaTR0NDhHQVlJenM1UTVsVUNyVXhtRndOakRXc2VfUjdxRHQxa1E5Y0ZCbkpleXNUQTJyUlZoeVdVenlYdzFKZ1pjUXI4RHlqTDdEeExFQnBvdnhkZFJFRE5ZX0Z1YWxCMnlubHJTU1NmR184Zk4wdEhIOFkyLTRZTF9zNEQ3MzNfdldqX1dPU2l2QTVzWlAtUTNyTDV5cExycWxubG14bHV5YmdadGtPRTdOdw?oc=5"
     },
     {
       "id": "empresa-que-desecho-operar-t2-de-valparaiso-compra-red-de-puertos-en-reino-unido",
@@ -954,6 +1681,9 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Exportaciones",
+        "Aranceles",
+        "Tratados y acuerdos",
         "Mercosur",
         "Europa"
       ],
@@ -961,10 +1691,11 @@
         "Unión Europea"
       ],
       "tags": [
-        "Mercosur"
+        "Mercosur",
+        "Aranceles"
       ],
       "visual": "treaty",
-      "impact": 1,
+      "impact": 2,
       "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
@@ -976,10 +1707,24 @@
           "url": "https://www.gub.uy/presidencia/comunicacion/noticias/sanchez-cooperativismo-debe-integrar-agenda-mercosur-ue",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "El Debate - Uruguay",
+          "type": "También publicó esta noticia",
+          "url": "https://www.debate.com.uy/politica/sanchez-el-cooperativismo-debe-integrar-la-agenda-mercosur-ue-afirma-el-gobierno-uruguayo-20261021-0027.html",
+          "alsoIn": true,
+          "title": "Sánchez: El cooperativismo debe integrar la agenda Mercosur-UE, afirma el gobierno uruguayo"
         }
       ],
       "gnTried": "2026-10-21T17:56:42Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUHdBUFRhOUJ2azZ1Mmh5Vmw5aEsxenN6SVNFVFk0NjhaTl9ha2IzeE41QmRidWRfZGkwVlljV3VEME5JZXJITk44OTBYdWJWWE5yVTFDdFBYUzRQclZYMUd2TFR0UHRFUTJrME43NEVRQlBzX0ozMy1aQXpKcWYxXy1Uam9BYmxYSGw2RmJvVG5BWDRmdjBOa2xMS1JDa05IcHNpZkpHNWxneDRw?oc=5"
+      "gnUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUHdBUFRhOUJ2azZ1Mmh5Vmw5aEsxenN6SVNFVFk0NjhaTl9ha2IzeE41QmRidWRfZGkwVlljV3VEME5JZXJITk44OTBYdWJWWE5yVTFDdFBYUzRQclZYMUd2TFR0UHRFUTJrME43NEVRQlBzX0ozMy1aQXpKcWYxXy1Uam9BYmxYSGw2RmJvVG5BWDRmdjBOa2xMS1JDa05IcHNpZkpHNWxneDRw?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdm1nQ2xLNkRKNDdhcVFuTWpWaTlkZVZSdnBfQ2ZXVGk5ZHpSRjlWUW05TmlpeVJHbHZpekhVbDRkNk9UakxubktDME1uMzNnSW9OdkJsZmw1ckRFZUtGbUwtd21KMlJleWJpa08zUmdkdzQ4c1RYZUdIRWNUNE1FTjIzRW50czNvYTAyYklDN3lOWDFsajRHY1lSYXdISmhEQUFiUFd6ZjQ3OFdzZlpHYndkWlJBcUY0WDhuMUJvN1dPRGl0RDE5TzNBNUFRRVh2b3UxNHVlSFVOZDQ",
+        "https://www.debate.com.uy/politica/sanchez-el-cooperativismo-debe-integrar-la-agenda-mercosur-ue-afirma-el-gobierno-uruguayo-20261021-0027.html"
+      ],
+      "mergedIds": [
+        "sanchez-el-cooperativismo-debe-integrar-la-agenda-mercosur-ue-afirma-el-gobierno"
+      ]
     },
     {
       "id": "destacan-el-interes-de-inversores-europeos-en-paraguay-como-plataforma-productiv",
@@ -1246,49 +1991,6 @@
       }
     },
     {
-      "id": "otan-movilizara-equipos-de-control-al-mar-negro-tras-ataques-contra-buques-comer",
-      "datetime": "2026-10-21T14:30:59Z",
-      "date": "2026-10-21",
-      "firstSeen": "2026-10-21T17:56:42Z",
-      "title": "OTAN movilizará equipos de control al mar Negro tras ataques contra buques comerciales",
-      "summary": "La Organización del Tratado del Atlántico Norte (OTAN) enviará más aviones de patrulla marítima, sistemas…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Tratados y acuerdos",
-        "Transporte marítimo"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [],
-      "visual": "ship",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/otan-movilizara-equipos-de-control-al-mar-negro-tras-ataques-contra-buques-comerciales/",
-          "primary": true,
-          "author": "Luis Alonso"
-        }
-      ],
-      "digest": {
-        "lead": "La OTAN enviará al mar Negro más aviones de patrulla marítima, radares y drones tras una serie de ataques con aparatos no tripulados contra buques comerciales, informó PortalPortuario con datos de Reuters.",
-        "body": [
-          "La decisión llegó después de un debate del Consejo del Atlántico Norte en Bruselas. Según el portavoz militar, coronel Martin L. O'Donnell, también se desplegarán agentes de inteligencia y equipos de análisis forense de explosivos.",
-          "La semana anterior desaparecieron siete marineros tras ataques con drones contra dos quimiqueros cerca de la costa rumana, y en los últimos 10 días al menos otros cinco buques fueron alcanzados cerca de Rumania y Bulgaria, con al menos 23 marineros muertos o desaparecidos. La alianza no atribuyó oficialmente los ataques; los analistas consideran casi seguro que fue Rusia, que no admite responsabilidad. La portavoz de la OTAN, Allison Hart, señaló que la organización ya reforzó su postura en el flanco oriental."
-        ],
-        "at": "2026-10-21T16:00:29-03:00",
-        "basedOn": "https://portalportuario.cl/otan-movilizara-equipos-de-control-al-mar-negro-tras-ataques-contra-buques-comerciales/",
-        "words": 149
-      }
-    },
-    {
       "id": "argentina-exportara-gnl-en-2027-y-apunta-a-elevar-ventas-de-cobre",
       "datetime": "2026-10-21T14:27:01Z",
       "date": "2026-10-21",
@@ -1362,7 +2064,10 @@
         }
       ],
       "gnTried": "2026-10-21T17:56:42Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOHJvc251Y0plNTAzbF9CSDYwQXh2NHctT0trRVdLNGhKVzhYM2FFMEJqaHo1VXo1WWV5WlNXVUM5bmNTQThWcGItMG1OY2FhbWtETmdxb2JNdjI1b2t6eV8tS3VYUUV2cmFSZUoyUzVFUlpxc2NmWnJkXzdyMURsZENYWkpmSnctbm96YXRJY0lFMl9qTE9GbWRnRzd1OWRNZWNUZXdGcDRQdWgwdXRHMG41QmloT2Jib3g4cmJrdGU2Undm?oc=5"
+      "gnUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOHJvc251Y0plNTAzbF9CSDYwQXh2NHctT0trRVdLNGhKVzhYM2FFMEJqaHo1VXo1WWV5WlNXVUM5bmNTQThWcGItMG1OY2FhbWtETmdxb2JNdjI1b2t6eV8tS3VYUUV2cmFSZUoyUzVFUlpxc2NmWnJkXzdyMURsZENYWkpmSnctbm96YXRJY0lFMl9qTE9GbWRnRzd1OWRNZWNUZXdGcDRQdWgwdXRHMG41QmloT2Jib3g4cmJrdGU2Undm?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOHBtUmV0ZWNlTlJSNXJ3RUgtdVVDT2N1NUVkTWpRSWZRa3hjWjRRN0Rab2N6ZkZjNG1pRFRqb29LR0RNbWZGZkhUbWluTFlsOWZXRzNFcHQ1cmh3bldtV2FGX2RtaEtHZlcwTFBjVzY3ZzM4Z0RFcloyQnhvVWVCQlhTcTYtejhRRWIybGVQTW5pZFU5NnJPOHg4NEowZTFQWnQ4WF8xQVRnOWVjSVVjMnFCeGxOd3BMaFkzV2tENWk3MEJl"
+      ]
     },
     {
       "id": "rusia-enviara-su-primer-buque-cargado-con-diesel-hacia-estados-unidos-tras-acuer",
@@ -1638,6 +2343,55 @@
       }
     },
     {
+      "id": "impulsan-el-desarrollo-del-comercio-exterior-y-la-logistica-internacional-en-2",
+      "datetime": "2026-10-21T12:40:42Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T21:59:16Z",
+      "title": "Impulsan el desarrollo del comercio exterior y la logística internacional en la provincia",
+      "summary": "Tuvo lugar en Gualeguaychú una jornada que reunió a especialistas y referentes del sector; para analizar los desafíos del comercio internacional, las oportunidades de exportación y el desarrollo logístico de la región.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "APFDigital",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.apfdigital.com.ar/noticias/2026/10/21/475696-impulsan-el-desarrollo-del-comercio-exterior-y-la-logistica-internacional-en-la-provincia",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "La voz 90.1",
+          "type": "También publicó esta noticia",
+          "url": "https://www.lavoz901.com/noticias/impulsan-el-desarrollo-del-comercio-exterior-y-la-logstica-internacional-en-la-provincia.htm",
+          "alsoIn": true,
+          "title": "Impulsan el desarrollo del comercio exterior y la logística internacional en la provincia"
+        }
+      ],
+      "gnTried": "2026-10-21T21:59:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSkdOSkg2dmNDd0hQNkM4WDBJb21UbV9NMlh2M3NYSzJnOVIzbFBUMTd2N2Q2MW1VUHJwcFhvM1p4d0RhVW5fZ2pRbFBxekFzS3dNWGhtMEJwVnpobkJGNlptbHRYUl9McjZhRkpPellmTFJ1Y1JsdS1lbW5OaGQtVFFSLVRMZWQ1ZEFWX2cybldPVDZjOVk2bUE4UVloaWdjOV84TXNCRjNQcFNaVkdPS1YyaDNQaXpzbk5ieUJKb2luNGZISnBTUXdfQjZYcXRRdVlMRnJQRlBmNkNNQTYw0gHkAUFVX3lxTE4zTUhmM09fMFFfcEZnM09PM05rS2cweF82QS1UdXdRTV82bzIteVp0SmlmQUIxNmJwMldDSjNsTFFjMFZEYmprZmpXLUJod2ItRDQ3TnRnTXZuOWVlSmxTQy0zZU5vUXpOMEl5R3M4Yk5zdFc0OUtGYjlfMm9ja2VmVC16bXpfV0ZlUVpfRENlcVIySDhBczhLaUh6X0NZcWs2X21adktRM241bEQ0X3loTy1wNkRpLURlcHUzOWJFZllhdUw5dnRSa3Z6eWt0aWtSNWYtbXF5endTZHVrbFdIdU50Qg?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxPak12bV9oWnFScWRGemx3ZXRJcFgwQUxyZHhsRlY0aHlZUHl3VlFmSGZkVEEzMlF3WGw4cVJMWGx6ZF8zT0dhRWgyY3dYLWFnSk1RWjBzTEp6RDh4WVdRVnBnT0JveWpqTmg5VElmbWFOdWMtdUJMMmRhaHpKZ0hER0pKM0xqMGRoTzR3a0dzb3FTdjdBWnFPSFh6YjkzLU5oN2lyYWhOdEhTTkRWQWdaQTBhZ3BGVm1IcS1TU2xB0gG-AUFVX3lxTE9qTXZtX2hacVJxZEZ6bHdldElwWDBBTHJkeGxGVjRoeVlQeXdWUWZIZmRUQTMyUXdYbDhxUkxYbHpkXzNPR2FFaDJjd1gtYWdKTVFaMHNMSnpEOHhZV1FWcGdPQm95ampOaDlUSWZtYU51Yy11QkwyZGFoekpnSERHSkozTGowZGhPNHdrR3NvcVN2N0FacU9IWHpiOTMtTmg3aXJhaE50SFNORFZBZ1pBMGFncEZWbUhxLVNTbEE",
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVkEzS2tmNVFmcGFRUGJUYVBXWkEwS3pqM19ZOTJKdnNUOHdvMmhwUkJWWEVXZi1uSG1BVVhFVUhsNngtYm9TTk5aLUYzMzE3eklMb1p4RVBicjkxZ0JiR0JKLTNhVjRLNWtMUlh5UGtIbF9vZ0diYzhvQmprNFdGZzhwZC1fMzlrSHFhSEZrOGR4TzNMcnl2aEhESTVjd2NoakhfUjhYVHJqbDZBWHZjdnV1T1NQVGNieDBuQUkzMFc3MkN40gG-AUFVX3lxTE9qTXZtX2hacVJxZEZ6bHdldElwWDBBTHJkeGxGVjRoeVlQeXdWUWZIZmRUQTMyUXdYbDhxUkxYbHpkXzNPR2FFaDJjd1gtYWdKTVFaMHNMSnpEOHhZV1FWcGdPQm95ampOaDlUSWZtYU51Yy11QkwyZGFoekpnSERHSkozTGowZGhPNHdrR3NvcVN2N0FacU9IWHpiOTMtTmg3aXJhaE50SFNORFZBZ1pBMGFncEZWbUhxLVNTbEE",
+        "https://www.lavoz901.com/noticias/impulsan-el-desarrollo-del-comercio-exterior-y-la-logstica-internacional-en-la-provincia.htm"
+      ],
+      "mergedIds": [
+        "impulsan-el-desarrollo-del-comercio-exterior-y-la-logistica-internacional-en-la"
+      ]
+    },
+    {
       "id": "la-ocde-analiza-los-nuevos-desafios-del-control-aduanero-ante-las-exigencias-de",
       "datetime": "2026-10-21T12:38:40Z",
       "date": "2026-10-21",
@@ -1679,44 +2433,6 @@
         "at": "2026-10-21T16:00:29-03:00",
         "basedOn": "https://aduananews.com/la-ocde-analiza-los-nuevos-desafios-del-control-aduanero-ante-las-exigencias-de-trazabilidad/",
         "words": 187
-      }
-    },
-    {
-      "id": "las-exportaciones-de-america-latina-y-el-caribe-creceran-20-en-2026",
-      "datetime": "2026-10-21T12:31:18Z",
-      "date": "2026-10-21",
-      "firstSeen": "2026-10-21T14:04:16Z",
-      "title": "Las exportaciones de América Latina y el Caribe crecerán 20% en 2026",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Data Portuaria",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://dataportuaria.com/es/argentina/actualidad/las-exportaciones-de-america-latina-y-el-caribe-creceran-20-en-2026",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-21T14:04:16Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbDFVRElUYllJQVBfaFdhbGV3ZlNpckl2NndZOVotSnA2aGdxODk4OHBOR3FVSEJZWXZYSkxaeGNZSWtnZTBJNmt5NnBOY1RTQW1mblJ0RV9pMVNNMWkyNFBHbm83UUpTb1FQVkt5NmVOR3dQQzRJWi1JMXBqSzEzNTQ4OFMzMmpOTnlZQmhUZXlkTjQ3ZHItTlZ2NjNfMnRvUGVHTExxY1pxV3pvZWRPQW9tNWQ1aF9r?oc=5",
-      "digestSkip": {
-        "at": "2026-10-21T16:00:29-03:00",
-        "reason": "repite una nota de la redacción (proyección de la Cepal de exportaciones regionales)"
       }
     },
     {
@@ -2736,6 +3452,157 @@
         "at": "2026-10-21T18:59:00-03:00",
         "reason": "repite el mismo hecho que la nota de mejorinformado.com (Marín en la AOG Patagonia: exportaciones por US$ 58.000 millones)"
       }
+    },
+    {
+      "id": "mar-negro-otan-refuerza-vigilancia-ataques-buques-ucrania-granos-28-menos",
+      "date": "2026-10-21",
+      "kind": "noticia",
+      "story": "agroexportacion",
+      "title": "Mar Negro: la OTAN refuerza la vigilancia tras los ataques a buques y Ucrania lleva exportado 28% menos de granos que hace un año",
+      "summary": "El Consejo del Atlántico Norte aprobó enviar aviones de patrulla, radares, drones y equipos forenses tras ataques con drones a mercantes frente a Rumania y Bulgaria. Ucrania exportó 5,99 millones de toneladas de granos en la campaña 2026/27, contra 8,29 millones un año antes, y la Bolsa de Rosario vincula la crisis con la fuerte demanda de trigo argentino.",
+      "topics": [
+        "Geopolítica y comercio",
+        "Transporte marítimo",
+        "Europa",
+        "Exportaciones",
+        "Argentina"
+      ],
+      "countries": [
+        "Ucrania",
+        "Rusia",
+        "Rumania",
+        "Bulgaria",
+        "Argentina",
+        "Indonesia",
+        "Brasil"
+      ],
+      "tags": [
+        "Mar Negro",
+        "OTAN",
+        "Trigo",
+        "Maíz",
+        "Granos",
+        "Seguros marítimos",
+        "Danubio",
+        "BCR"
+      ],
+      "visual": "ship",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "La caída de los embarques de trigo de Rusia y Ucrania empuja a los importadores hacia otros orígenes: según la Bolsa de Comercio de Rosario, el line up de trigo argentino al 15 de octubre más que duplicaba el promedio para la fecha, con Indonesia como principal destino.",
+      "argentinaImpact": {
+        "change": "Con el mar Negro bajo ataque, los compradores de trigo buscan otros proveedores y la Argentina recibe más demanda: 588.100 toneladas en line up al 15 de octubre, más del doble del promedio.",
+        "who": "Exportadores de granos y acopiadores, terminales portuarias del Gran Rosario y productores de trigo y maíz.",
+        "sectors": [
+          "Trigo",
+          "Maíz",
+          "Agroexportación",
+          "Transporte marítimo"
+        ],
+        "flows": {
+          "importaciones": false,
+          "exportaciones": true,
+          "logistica": true,
+          "aranceles": false
+        }
+      },
+      "body": [
+        "La OTAN decidió el martes 20 de octubre reforzar la vigilancia en el mar Negro con más aviones de patrulla marítima, sistemas de radar, drones, personal de inteligencia y equipos especializados en analizar explosivos, después de una serie de ataques con drones contra buques mercantes frente a las costas de Rumania y Bulgaria. La medida salió de una reunión del Consejo del Atlántico Norte en Bruselas y la anunció el coronel estadounidense Martin O'Donnell, vocero del comando militar aliado en Europa (SHAPE), según informaron Stars and Stripes y Maritime Executive.",
+        "Detrás de la decisión militar hay un problema comercial concreto: la principal salida de granos de Ucrania funciona cada vez peor. Con datos operativos del Servicio Estatal de Aduanas ucraniano relevados por UkrAgroConsult, el país exportó 5,986 millones de toneladas de cereales y legumbres desde el inicio de la campaña 2026/27 hasta el 19 de octubre, contra 8,286 millones en el mismo tramo del ciclo anterior. Son unas 2,3 millones de toneladas menos, una baja cercana al 28%.",
+        "## Qué decidió la OTAN",
+        "De acuerdo con Stars and Stripes, la prioridad de los aliados es mejorar el conocimiento de lo que pasa en el mar con más sensores y más intercambio de datos. La vocera de la alianza, Allison Hart, explicó que se reforzarán la vigilancia, el reconocimiento y las investigaciones forenses de los ataques. El mismo medio aclaró que no se anunció una misión para escoltar buques ni para interceptar amenazas más allá del esquema de defensa colectiva que ya existe.",
+        "Maritime Executive agregó que el refuerzo se aprobó después de la presión de Bulgaria y Rumania, y que los aliados ya habían analizado las actividades híbridas de Rusia en una reunión en Bucarest el 15 y el 16 de octubre. Bulgaria informó que desplegó sistemas propios de drones y que aviones de vigilancia P-8 Poseidon de la Armada de Estados Unidos ya patrullan la zona; según Splash247, especialistas aliados ayudarán a investigar el ataque al carguero Chelsea 3.",
+        "## Los ataques y lo que no se sabe",
+        "Las fuentes no coinciden en el conteo. Maritime Executive habla de siete buques comerciales atacados en los días previos a la decisión, con al menos 23 marinos muertos y varios barcos hundidos. Splash247 contabiliza cuatro mercantes atacados en el último mes dentro de la zona económica exclusiva búlgara, dos de ellos hundidos, más dos quimiqueros alcanzados la semana pasada en aguas de Rumania. Entre los casos identificados están el Chelsea 3, de bandera maltesa, atacado el 13 de octubre frente a Bulgaria (sus 15 tripulantes fueron rescatados), y el quimiquero Yara J, de bandera de Comoras, que se incendió cerca del canal de Sulina, en la desembocadura del Danubio.",
+        "La OTAN no atribuyó formalmente los ataques y Rusia niega su responsabilidad en los episodios frente a Rumania y Bulgaria. El ministro de Defensa rumano, Radu Miruta, dijo que los drones serían probablemente del modelo Geran-4, de fabricación rusa, y su país registra en lo que va del año 35 incursiones de drones no autorizados, contra nueve en todo 2025. En paralelo, el Ministerio de Defensa ruso afirmó haber atacado tres buques de carga en el puerto ucraniano de Reni, sobre el Danubio, y otros dos que se dirigían a Odesa, con el argumento de que tenían uso militar, según recogió Splash247.",
+        "## Granos que no salen",
+        "El detalle de la aduana ucraniana muestra dónde está el golpe. Las ventas externas de trigo suman 3,377 millones de toneladas, contra 5,819 millones un año antes (alrededor de 42% menos), y las de cebada, 473.000 toneladas frente a 1,026 millones. El maíz es la excepción: 2,065 millones de toneladas, 62,5% más que en la campaña anterior. En lo que va de octubre, hasta el día 19, salieron apenas 765.000 toneladas de cereales y legumbres.",
+        "Los ataques también encarecen el transporte. A comienzos de octubre, UkrAgroConsult citó al corredor de fletes Konstantin Sobol, fundador de Marelis Navigation, quien señaló que la prima de seguro para navegar el mar Negro pasó de 0,1% a 0,5% del valor del buque en dos semanas. Para un barco de 5.000 toneladas de porte valuado en USD 1,5 millones, eso equivale a USD 7.500 por viaje, alrededor de USD 1,5 por tonelada de carga. Según Sobol, cerca del 90% de la flota en tránsito evitaba esa prima navegando dentro de las 12 millas de aguas territoriales rumanas y búlgaras, justamente la zona donde ahora se registran ataques.",
+        "## Qué significa para la Argentina",
+        "En su informe del 15 de octubre, la Bolsa de Comercio de Rosario (BCR) describió una escalada muy fuerte del conflicto y calculó que en septiembre las exportaciones conjuntas de trigo de Rusia y Ucrania quedaron 80% por debajo del promedio de ese mes, que suele ser el de mayor movimiento porque entra el trigo nuevo. Según la entidad, los importadores buscan otros orígenes y eso explica la fuerte demanda que recibe la Argentina. La BCR también señaló que Rusia está embarcando por el Báltico más de lo esperado y que Ucrania sigue dependiendo del Danubio.",
+        "Los números locales acompañan: al 15 de octubre el line up de trigo marcaba 588.100 toneladas, más del doble del promedio para la fecha, con Indonesia a la cabeza (252.700 toneladas, 43% del total) por delante de Brasil (206.500 toneladas). El programa exportador de trigo 2025/26 superaba el 90% de lo proyectado, con un remanente de 1,8 millones de toneladas que sería el segundo más alto en al menos veinte campañas. La BCR advirtió además que el precio del trigo en Chicago depende sobre todo de las noticias del mar Negro y que el maíz ucraniano, cuya cosecha avanzaba 13% al 13 de octubre, competirá con el trigo por la capacidad de exportación de ese país."
+      ],
+      "keyData": [
+        [
+          "Exportaciones de granos de Ucrania 2026/27 (al 19/10)",
+          "5,986 millones de t (8,286 millones un año antes)"
+        ],
+        [
+          "Trigo ucraniano exportado",
+          "3,377 millones de t (−42% aprox.)"
+        ],
+        [
+          "Maíz ucraniano exportado",
+          "2,065 millones de t (+62,5%)"
+        ],
+        [
+          "Trigo de Rusia y Ucrania en septiembre",
+          "80% por debajo del promedio del mes (BCR)"
+        ],
+        [
+          "Line up de trigo argentino (15/10)",
+          "588.100 t, más del doble del promedio"
+        ],
+        [
+          "Indonesia en el line up",
+          "252.700 t (43%)"
+        ],
+        [
+          "Prima de seguro en el mar Negro",
+          "de 0,1% a 0,5% del valor del buque"
+        ]
+      ],
+      "explainer": {
+        "what": "La OTAN aprobó el 20 de octubre enviar más aviones de patrulla, radares, drones y equipos forenses al mar Negro tras ataques con drones a buques mercantes frente a Rumania y Bulgaria.",
+        "why": "Los ataques complican la salida de granos de Ucrania, que lleva exportadas 5,986 millones de toneladas en la campaña contra 8,286 millones un año antes, y encarecen los seguros; según la BCR, eso desvía demanda de trigo hacia la Argentina.",
+        "who": "Exportadores de trigo y maíz, terminales del Gran Rosario, navieras y aseguradoras, e importadores de trigo de Asia y Brasil.",
+        "products": [
+          "Trigo",
+          "Maíz",
+          "Cebada"
+        ],
+        "next": "Los aliados irán desplegando aviones de patrulla marítima, radares y equipos de análisis de explosivos, y especialistas de la OTAN ayudarán a investigar el ataque al Chelsea 3.",
+        "nextSource": {
+          "name": "Splash247",
+          "url": "https://splash247.com/nato-boosts-black-sea-surveillance-amid-attacks-on-shipping/"
+        }
+      },
+      "sources": [
+        {
+          "name": "Stars and Stripes",
+          "type": "Medio de comunicación",
+          "url": "https://www.stripes.com/theaters/europe/2026-10-20/nato-reinforcements-black-sea-shipping-23210458.html",
+          "primary": true
+        },
+        {
+          "name": "Maritime Executive",
+          "type": "Medio especializado",
+          "url": "https://maritime-executive.com/article/nato-to-support-increased-black-sea-surveillance"
+        },
+        {
+          "name": "Splash247",
+          "type": "Medio especializado",
+          "url": "https://splash247.com/nato-boosts-black-sea-surveillance-amid-attacks-on-shipping/"
+        },
+        {
+          "name": "UkrAgroConsult (datos del Servicio Estatal de Aduanas de Ucrania)",
+          "type": "Consultora especializada",
+          "url": "https://ukragroconsult.com/news/ukrayina-eksportuvala-majzhe-6-mln-tonn-zernovyh-iz-pochatku-2026-27-mr/"
+        },
+        {
+          "name": "UkrAgroConsult – seguros en el mar Negro",
+          "type": "Consultora especializada",
+          "url": "https://ukragroconsult.com/en/news/black-sea-vessel-insurance-costs-rise-fivefold-after-attacks-in-romania-and-bulgarias-exclusive-economic-zones/"
+        },
+        {
+          "name": "Bolsa de Comercio de Rosario – Informativo semanal",
+          "type": "Entidad del sector",
+          "url": "https://www.bcr.com.ar/es/mercados/investigacion-y-desarrollo/informativo-semanal/noticias-informativo-semanal/el-agro-1"
+        }
+      ],
+      "absorbs": [
+        "otan-movilizara-equipos-de-control-al-mar-negro-tras-ataques-contra-buques-comer"
+      ]
     },
     {
       "id": "rhenus-integra-servicios-en-unico-centro-logistico-en-interporto-padova",
@@ -4185,43 +5052,6 @@
       ]
     },
     {
-      "id": "impulsan-el-desarrollo-del-comercio-exterior-y-la-logistica-internacional-en-la",
-      "datetime": "2026-10-20T18:50:02Z",
-      "date": "2026-10-20",
-      "firstSeen": "2026-10-20T21:57:17Z",
-      "title": "Impulsan el desarrollo del comercio exterior y la logística internacional en la provincia",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Logística"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "globe",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Comercio exterior Argentina",
-      "sources": [
-        {
-          "name": "La voz 90.1",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.lavoz901.com/noticias/impulsan-el-desarrollo-del-comercio-exterior-y-la-logstica-internacional-en-la-provincia.htm",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-20T21:57:17Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVkEzS2tmNVFmcGFRUGJUYVBXWkEwS3pqM19ZOTJKdnNUOHdvMmhwUkJWWEVXZi1uSG1BVVhFVUhsNngtYm9TTk5aLUYzMzE3eklMb1p4RVBicjkxZ0JiR0JKLTNhVjRLNWtMUlh5UGtIbF9vZ0diYzhvQmprNFdGZzhwZC1fMzlrSHFhSEZrOGR4TzNMcnl2aEhESTVjd2NoakhfUjhYVHJqbDZBWHZjdnV1T1NQVGNieDBuQUkzMFc3MkN40gG-AUFVX3lxTE9qTXZtX2hacVJxZEZ6bHdldElwWDBBTHJkeGxGVjRoeVlQeXdWUWZIZmRUQTMyUXdYbDhxUkxYbHpkXzNPR2FFaDJjd1gtYWdKTVFaMHNMSnpEOHhZV1FWcGdPQm95ampOaDlUSWZtYU51Yy11QkwyZGFoekpnSERHSkozTGowZGhPNHdrR3NvcVN2N0FacU9IWHpiOTMtTmg3aXJhaE50SFNORFZBZ1pBMGFncEZWbUhxLVNTbEE?oc=5",
-      "aliasUrls": [
-        "https://news.google.com/rss/articles/CBMivgFBVV95cUxPak12bV9oWnFScWRGemx3ZXRJcFgwQUxyZHhsRlY0aHlZUHl3VlFmSGZkVEEzMlF3WGw4cVJMWGx6ZF8zT0dhRWgyY3dYLWFnSk1RWjBzTEp6RDh4WVdRVnBnT0JveWpqTmg5VElmbWFOdWMtdUJMMmRhaHpKZ0hER0pKM0xqMGRoTzR3a0dzb3FTdjdBWnFPSFh6YjkzLU5oN2lyYWhOdEhTTkRWQWdaQTBhZ3BGVm1IcS1TU2xB0gG-AUFVX3lxTE9qTXZtX2hacVJxZEZ6bHdldElwWDBBTHJkeGxGVjRoeVlQeXdWUWZIZmRUQTMyUXdYbDhxUkxYbHpkXzNPR2FFaDJjd1gtYWdKTVFaMHNMSnpEOHhZV1FWcGdPQm95ampOaDlUSWZtYU51Yy11QkwyZGFoekpnSERHSkozTGowZGhPNHdrR3NvcVN2N0FacU9IWHpiOTMtTmg3aXJhaE50SFNORFZBZ1pBMGFncEZWbUhxLVNTbEE"
-      ]
-    },
-    {
       "id": "colsa-firma-segundo-acuerdo-de-produccion-limpia",
       "datetime": "2026-10-20T18:44:31Z",
       "date": "2026-10-20",
@@ -4636,157 +5466,6 @@
       ],
       "gnTried": "2026-10-20T17:56:40Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcVMzQUc0M21RUTk0MGt2eS1YOV83ZzNKZmx0b1Y4MGlOSnRBdVZuelhTd3lvcFVtOE5oNktLWG1kMzdGOW5ndmduR3FXSW95Z1JUTkhpbzVrNTZDdTdMSkpnb0NsSmxndjJfVExsYXZxSHc1UGxDNnZEQ3ZhVk5ubEVVVS1wZkZwVEt4ZU9KS3FQTG9wSnQ3T3FxOVEzYUdoQmJmbDdjQ2IwQQ?oc=5"
-    },
-    {
-      "id": "mar-negro-otan-refuerza-vigilancia-ataques-buques-ucrania-granos-28-menos",
-      "date": "2026-10-21",
-      "kind": "noticia",
-      "story": "agroexportacion",
-      "title": "Mar Negro: la OTAN refuerza la vigilancia tras los ataques a buques y Ucrania lleva exportado 28% menos de granos que hace un año",
-      "summary": "El Consejo del Atlántico Norte aprobó enviar aviones de patrulla, radares, drones y equipos forenses tras ataques con drones a mercantes frente a Rumania y Bulgaria. Ucrania exportó 5,99 millones de toneladas de granos en la campaña 2026/27, contra 8,29 millones un año antes, y la Bolsa de Rosario vincula la crisis con la fuerte demanda de trigo argentino.",
-      "topics": [
-        "Geopolítica y comercio",
-        "Transporte marítimo",
-        "Europa",
-        "Exportaciones",
-        "Argentina"
-      ],
-      "countries": [
-        "Ucrania",
-        "Rusia",
-        "Rumania",
-        "Bulgaria",
-        "Argentina",
-        "Indonesia",
-        "Brasil"
-      ],
-      "tags": [
-        "Mar Negro",
-        "OTAN",
-        "Trigo",
-        "Maíz",
-        "Granos",
-        "Seguros marítimos",
-        "Danubio",
-        "BCR"
-      ],
-      "visual": "ship",
-      "impact": 2,
-      "affectsArgentina": true,
-      "argentinaNote": "La caída de los embarques de trigo de Rusia y Ucrania empuja a los importadores hacia otros orígenes: según la Bolsa de Comercio de Rosario, el line up de trigo argentino al 15 de octubre más que duplicaba el promedio para la fecha, con Indonesia como principal destino.",
-      "argentinaImpact": {
-        "change": "Con el mar Negro bajo ataque, los compradores de trigo buscan otros proveedores y la Argentina recibe más demanda: 588.100 toneladas en line up al 15 de octubre, más del doble del promedio.",
-        "who": "Exportadores de granos y acopiadores, terminales portuarias del Gran Rosario y productores de trigo y maíz.",
-        "sectors": [
-          "Trigo",
-          "Maíz",
-          "Agroexportación",
-          "Transporte marítimo"
-        ],
-        "flows": {
-          "importaciones": false,
-          "exportaciones": true,
-          "logistica": true,
-          "aranceles": false
-        }
-      },
-      "body": [
-        "La OTAN decidió el martes 20 de octubre reforzar la vigilancia en el mar Negro con más aviones de patrulla marítima, sistemas de radar, drones, personal de inteligencia y equipos especializados en analizar explosivos, después de una serie de ataques con drones contra buques mercantes frente a las costas de Rumania y Bulgaria. La medida salió de una reunión del Consejo del Atlántico Norte en Bruselas y la anunció el coronel estadounidense Martin O'Donnell, vocero del comando militar aliado en Europa (SHAPE), según informaron Stars and Stripes y Maritime Executive.",
-        "Detrás de la decisión militar hay un problema comercial concreto: la principal salida de granos de Ucrania funciona cada vez peor. Con datos operativos del Servicio Estatal de Aduanas ucraniano relevados por UkrAgroConsult, el país exportó 5,986 millones de toneladas de cereales y legumbres desde el inicio de la campaña 2026/27 hasta el 19 de octubre, contra 8,286 millones en el mismo tramo del ciclo anterior. Son unas 2,3 millones de toneladas menos, una baja cercana al 28%.",
-        "## Qué decidió la OTAN",
-        "De acuerdo con Stars and Stripes, la prioridad de los aliados es mejorar el conocimiento de lo que pasa en el mar con más sensores y más intercambio de datos. La vocera de la alianza, Allison Hart, explicó que se reforzarán la vigilancia, el reconocimiento y las investigaciones forenses de los ataques. El mismo medio aclaró que no se anunció una misión para escoltar buques ni para interceptar amenazas más allá del esquema de defensa colectiva que ya existe.",
-        "Maritime Executive agregó que el refuerzo se aprobó después de la presión de Bulgaria y Rumania, y que los aliados ya habían analizado las actividades híbridas de Rusia en una reunión en Bucarest el 15 y el 16 de octubre. Bulgaria informó que desplegó sistemas propios de drones y que aviones de vigilancia P-8 Poseidon de la Armada de Estados Unidos ya patrullan la zona; según Splash247, especialistas aliados ayudarán a investigar el ataque al carguero Chelsea 3.",
-        "## Los ataques y lo que no se sabe",
-        "Las fuentes no coinciden en el conteo. Maritime Executive habla de siete buques comerciales atacados en los días previos a la decisión, con al menos 23 marinos muertos y varios barcos hundidos. Splash247 contabiliza cuatro mercantes atacados en el último mes dentro de la zona económica exclusiva búlgara, dos de ellos hundidos, más dos quimiqueros alcanzados la semana pasada en aguas de Rumania. Entre los casos identificados están el Chelsea 3, de bandera maltesa, atacado el 13 de octubre frente a Bulgaria (sus 15 tripulantes fueron rescatados), y el quimiquero Yara J, de bandera de Comoras, que se incendió cerca del canal de Sulina, en la desembocadura del Danubio.",
-        "La OTAN no atribuyó formalmente los ataques y Rusia niega su responsabilidad en los episodios frente a Rumania y Bulgaria. El ministro de Defensa rumano, Radu Miruta, dijo que los drones serían probablemente del modelo Geran-4, de fabricación rusa, y su país registra en lo que va del año 35 incursiones de drones no autorizados, contra nueve en todo 2025. En paralelo, el Ministerio de Defensa ruso afirmó haber atacado tres buques de carga en el puerto ucraniano de Reni, sobre el Danubio, y otros dos que se dirigían a Odesa, con el argumento de que tenían uso militar, según recogió Splash247.",
-        "## Granos que no salen",
-        "El detalle de la aduana ucraniana muestra dónde está el golpe. Las ventas externas de trigo suman 3,377 millones de toneladas, contra 5,819 millones un año antes (alrededor de 42% menos), y las de cebada, 473.000 toneladas frente a 1,026 millones. El maíz es la excepción: 2,065 millones de toneladas, 62,5% más que en la campaña anterior. En lo que va de octubre, hasta el día 19, salieron apenas 765.000 toneladas de cereales y legumbres.",
-        "Los ataques también encarecen el transporte. A comienzos de octubre, UkrAgroConsult citó al corredor de fletes Konstantin Sobol, fundador de Marelis Navigation, quien señaló que la prima de seguro para navegar el mar Negro pasó de 0,1% a 0,5% del valor del buque en dos semanas. Para un barco de 5.000 toneladas de porte valuado en USD 1,5 millones, eso equivale a USD 7.500 por viaje, alrededor de USD 1,5 por tonelada de carga. Según Sobol, cerca del 90% de la flota en tránsito evitaba esa prima navegando dentro de las 12 millas de aguas territoriales rumanas y búlgaras, justamente la zona donde ahora se registran ataques.",
-        "## Qué significa para la Argentina",
-        "En su informe del 15 de octubre, la Bolsa de Comercio de Rosario (BCR) describió una escalada muy fuerte del conflicto y calculó que en septiembre las exportaciones conjuntas de trigo de Rusia y Ucrania quedaron 80% por debajo del promedio de ese mes, que suele ser el de mayor movimiento porque entra el trigo nuevo. Según la entidad, los importadores buscan otros orígenes y eso explica la fuerte demanda que recibe la Argentina. La BCR también señaló que Rusia está embarcando por el Báltico más de lo esperado y que Ucrania sigue dependiendo del Danubio.",
-        "Los números locales acompañan: al 15 de octubre el line up de trigo marcaba 588.100 toneladas, más del doble del promedio para la fecha, con Indonesia a la cabeza (252.700 toneladas, 43% del total) por delante de Brasil (206.500 toneladas). El programa exportador de trigo 2025/26 superaba el 90% de lo proyectado, con un remanente de 1,8 millones de toneladas que sería el segundo más alto en al menos veinte campañas. La BCR advirtió además que el precio del trigo en Chicago depende sobre todo de las noticias del mar Negro y que el maíz ucraniano, cuya cosecha avanzaba 13% al 13 de octubre, competirá con el trigo por la capacidad de exportación de ese país."
-      ],
-      "keyData": [
-        [
-          "Exportaciones de granos de Ucrania 2026/27 (al 19/10)",
-          "5,986 millones de t (8,286 millones un año antes)"
-        ],
-        [
-          "Trigo ucraniano exportado",
-          "3,377 millones de t (−42% aprox.)"
-        ],
-        [
-          "Maíz ucraniano exportado",
-          "2,065 millones de t (+62,5%)"
-        ],
-        [
-          "Trigo de Rusia y Ucrania en septiembre",
-          "80% por debajo del promedio del mes (BCR)"
-        ],
-        [
-          "Line up de trigo argentino (15/10)",
-          "588.100 t, más del doble del promedio"
-        ],
-        [
-          "Indonesia en el line up",
-          "252.700 t (43%)"
-        ],
-        [
-          "Prima de seguro en el mar Negro",
-          "de 0,1% a 0,5% del valor del buque"
-        ]
-      ],
-      "explainer": {
-        "what": "La OTAN aprobó el 20 de octubre enviar más aviones de patrulla, radares, drones y equipos forenses al mar Negro tras ataques con drones a buques mercantes frente a Rumania y Bulgaria.",
-        "why": "Los ataques complican la salida de granos de Ucrania, que lleva exportadas 5,986 millones de toneladas en la campaña contra 8,286 millones un año antes, y encarecen los seguros; según la BCR, eso desvía demanda de trigo hacia la Argentina.",
-        "who": "Exportadores de trigo y maíz, terminales del Gran Rosario, navieras y aseguradoras, e importadores de trigo de Asia y Brasil.",
-        "products": [
-          "Trigo",
-          "Maíz",
-          "Cebada"
-        ],
-        "next": "Los aliados irán desplegando aviones de patrulla marítima, radares y equipos de análisis de explosivos, y especialistas de la OTAN ayudarán a investigar el ataque al Chelsea 3.",
-        "nextSource": {
-          "name": "Splash247",
-          "url": "https://splash247.com/nato-boosts-black-sea-surveillance-amid-attacks-on-shipping/"
-        }
-      },
-      "sources": [
-        {
-          "name": "Stars and Stripes",
-          "type": "Medio de comunicación",
-          "url": "https://www.stripes.com/theaters/europe/2026-10-20/nato-reinforcements-black-sea-shipping-23210458.html",
-          "primary": true
-        },
-        {
-          "name": "Maritime Executive",
-          "type": "Medio especializado",
-          "url": "https://maritime-executive.com/article/nato-to-support-increased-black-sea-surveillance"
-        },
-        {
-          "name": "Splash247",
-          "type": "Medio especializado",
-          "url": "https://splash247.com/nato-boosts-black-sea-surveillance-amid-attacks-on-shipping/"
-        },
-        {
-          "name": "UkrAgroConsult (datos del Servicio Estatal de Aduanas de Ucrania)",
-          "type": "Consultora especializada",
-          "url": "https://ukragroconsult.com/news/ukrayina-eksportuvala-majzhe-6-mln-tonn-zernovyh-iz-pochatku-2026-27-mr/"
-        },
-        {
-          "name": "UkrAgroConsult – seguros en el mar Negro",
-          "type": "Consultora especializada",
-          "url": "https://ukragroconsult.com/en/news/black-sea-vessel-insurance-costs-rise-fivefold-after-attacks-in-romania-and-bulgarias-exclusive-economic-zones/"
-        },
-        {
-          "name": "Bolsa de Comercio de Rosario – Informativo semanal",
-          "type": "Entidad del sector",
-          "url": "https://www.bcr.com.ar/es/mercados/investigacion-y-desarrollo/informativo-semanal/noticias-informativo-semanal/el-agro-1"
-        }
-      ],
-      "absorbs": [
-        "otan-movilizara-equipos-de-control-al-mar-negro-tras-ataques-contra-buques-comer"
-      ]
     },
     {
       "id": "newcastle-santa-catarina-mexico-suspende-pollo-brasil-china-regionaliza",
@@ -6594,54 +7273,6 @@
       "gnUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kVm5rUEpaVWRXV202dFRMT25ac0VXbW5MejBuYWJZS1EyNUZNOXpISDFsQXM3d1ZLNnY0T1VJVVNKMWhfMVgxWUpvdGd1U2VqQ1g4MzJPRzVyMUJvSkxGY2FKUlhDNkhLS0dySg?oc=5"
     },
     {
-      "id": "las-pymes-volvieron-a-ganar-peso-en-el-comercio-exterior-y-hay-un-dato-para-mira",
-      "datetime": "2026-10-20T10:25:37Z",
-      "date": "2026-10-20",
-      "firstSeen": "2026-10-21T17:56:42Z",
-      "title": "Las pymes volvieron a ganar peso en el comercio exterior y hay un dato para mirar",
-      "summary": "Las exportaciones de pymes argentinas crecieron 23,2% y alcanzaron US$ 8.330 millones, el nivel más alto registrado desde 2013.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "globe",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Comercio exterior Argentina",
-      "sources": [
-        {
-          "name": "ImpulsoBaires",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.impulsobaires.com.ar/nota/326372/las-pymes-volvieron-a-ganar-peso-en-el-comercio-exterior-y-hay-un-dato-para-mirar/",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "flipr.news",
-          "type": "También publicó esta noticia",
-          "url": "https://flipr.com.ar/buenos-aires/impulsobaires/las-pymes-volvieron-a-ganar-peso-en-el-comercio-exterior-y-hay-un-dato-para-mirar/",
-          "alsoIn": true,
-          "title": "Las pymes volvieron a ganar peso en el comercio exterior y hay un dato para mirar"
-        }
-      ],
-      "gnTried": "2026-10-21T17:56:42Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYmh5TlVJemRQenQyQzYyMUQ3Vnd2VG5SU3hQUG9fOWxLSmpySGZCeVM0bklLTEFDVmR4cjRncDRsVFpsN0o3MHZwVkZDQUhROHlnemhJRE9zNE9BUUFRR3pLa1UwVUJEQVRZbnZUYmE1S0xBZWtPYWRDTFRSU3NfdnlXUVpnZmlSUXJrMjJaUjhUTWVmMnZPU1EzWFgzZWpvUldhRXhNajhnc0JuX1JqSWNEVTdfb3JMSGI0alVhN0JFd2g5eFE?oc=5",
-      "aliasUrls": [
-        "https://flipr.com.ar/buenos-aires/impulsobaires/las-pymes-volvieron-a-ganar-peso-en-el-comercio-exterior-y-hay-un-dato-para-mirar",
-        "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMW5ta0tjYlY0R0J4eHJEcl9wbllLYkZ1ckFGVEtsa3VRUmNIamxMWGdTNUJRVUlDeFJlVVlwb2c1MklrV1JWSlBHdi1DNHluU0VVa3ZTc0g4SUxCOEJUQXB5WGZGNy1USjBNT1FDUnN1NG8tdGFFb29HbHdteEhEbUlUT1lnd2hBaE9nUmk5d284ZHMzWmhGSTRmbHVEeDNjZGtxQnZRYzVoUkVtV1NBUEFkUU5KLXBwZEFCRVcwXzhYN2FEWTE5XzVn"
-      ],
-      "mergedIds": [
-        "las-pymes-volvieron-a-ganar-peso-en-el-comercio-exterior-y-hay-un-dato-para--2"
-      ]
-    },
-    {
       "id": "boom-de-vaca-muerta-argentina-suma-mas-divisas-gracias-a-las-exportaciones-energ",
       "datetime": "2026-10-20T10:00:15Z",
       "date": "2026-10-20",
@@ -8425,19 +9056,30 @@
           "url": "https://eltribunodejujuy.com/informacion-general/2026-10-20-18-36-0-el-noa-debatira-las-oportunidades-del-acuerdo-ue-mercosur",
           "alsoIn": true,
           "title": "El NOA debatirá las oportunidades del acuerdo UE-Mercosur"
+        },
+        {
+          "name": "Ambito",
+          "type": "También publicó esta noticia",
+          "url": "https://www.ambito.com/uruguay/el-gobierno-busca-incorporar-al-cooperativismo-las-oportunidades-comerciales-del-acuerdo-mercosur-ue-n6336378",
+          "alsoIn": true,
+          "title": "El gobierno busca incorporar al cooperativismo en las oportunidades comerciales del acuerdo Mercosur-UE"
         }
       ],
       "gnTried": "2026-10-19T21:56:07Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRVpwcl8ySTlPSmU1SVhCWnctQVNXb1RCNUNSSDJocFJvdE5kZ0RIVlBOVXJ5UHI4Z182UnB5b3RSVkQ5aXdvQVpWSGEtWjVpVHJydkFBRG9aVFJ1LVd0UXF4Y0k1QjNjcWpHV3JXZ3hGeXJ1OUpmX0N1UW1aWE9iaUZldVhURVNrVGxCcTZtaGpOVUJ1Wm1kNGp3bk5tc2NZUmUzaEZZZmlsc0lvLVZhMUdMLXVGUGFXTkg2X01jOGVoRGZhWTlDbw?oc=5",
       "aliasUrls": [
         "https://eltribunodejujuy.com/informacion-general/2026-10-20-18-36-0-el-noa-debatira-las-oportunidades-del-acuerdo-ue-mercosur",
+        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQR1FrZjV1OTJsRXVFZXFpdUVpN0VTLXhkOEVPbl9rYzZrMzlaVERQMzdENkhScFNDSFF3V3pIT0FjQk9FZGdZVklpY0hCYTlCOE9KWGFyaDNJaEdDY2JUTWNiVnNPbkdjQnMtNWFXRjZ4SnNTS25wZXJJeHltV1dXTnltTk9ISFdyYWxneW9EUXZILWQ0UWs5ZUZmanZaTVZtV3h1RkxoTmlnejBJUTZDTWR6cXBKeThLMDJ4bDJoMThSXzVCcUlJblhtMEItWVJRY0NMdlVaONIB3AFBVV95cUxPZEhRaXZjWXlpanozaTdkNElmSUlNcmJUbnVEdWdTTk15eTIxU2E1YXE4Y2dHdGU4MVVGTjNQb1AwQUpyRWQzd3QtdHlra0ZSQ3hURURCUzNDQ3hMWUF6U25LT2NOSjBqQkZkMG5Vc0tLNTNSNEpWR3VkSzdVVTBZYlh6WU1PblhqTGtWVEdkMW4wczRvTUNiXzB3VnJSVWs3TVNYMXVEYnl6bUY4RVdHTXVsb1RLTVhILUJ2TWpGNGVrQ2JyZ2g1WU1hR0RlUUhuSDNLSTc4dUN2MThE",
         "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaXQ3SGVoNkw2NGQ1eVo3b1lYOW9wRnBIWDNYV2NBa29TQmIyelRENEJIaVpBdTIyMUcyR1pNTHpDcjVEVmtLNWZGdFhNaHRTTHloQzRrS3JGUjVsemxmenEteGF6SHNrdE5TSUFyNzhOSlJNQ2lRZWtBZXYtRWxzM2thWFF2cXJXUDFwOURuOV96eTFFVXFhWndSM3FsMURwRTd5b0tEVkNZNlk",
         "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNEcwWkFoN3ZEZk54ZkY3TGJkVHZMbU5XUkljbDI1RXNLUUVrUjBhRWtpT2owNmx1dEx4VFVKRDFJMnlJZFZKc3YtT21PalFGb2c3dnJvazRzLWZWTEd1VUlvZ2xrbE9HT0dwTkxHN3NCNWMtNlpmTU5KbnRJU21PWERsLTltSkNkU05QX1FzYVhfRkZwR3hjS3VWU2FZVzh4SHJJWUFvN3FRRFc4b1hUbjBOX2hRZnlKbUNRcmdKN09YODTSAcgBQVVfeXFMUDl6Y0tFVy1DSlBqcS1kRXV2TUhzN0NZZEZFbXVoSnJKYmQ0VkY4a25EeUtKMjhXUDFnU05ZZHFDXzVLSmNrV1REaUVCVXdUTExOajJ6cUVDXzRwbExyQWlCMXJCMmdqdC1fOG1TMWotNzdFenRXRFphVWJlN0dwdEZ6R1U2bzhKMGczNDR4ekxrNkYxb192YjFpVlBpQWs3Ti1ZZTVqbXQ3UTc0Z1lvaGYtWVlDVUVGaFVHLU5DeGFvZHhtQjdoZk4",
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOXpjS0VXLUNKUGpxLWRFdXZNSHM3Q1lkRkVtdWhKckpiZDRWRjhrbkR5S0oyOFdQMWdTTllkcUNfNUtKY2tXVERpRUJVd1RMTE5qMnpxRUNfNHBsTHJBaUIxckIyZ2p0LV84bVMxai03N0V6dFdEWmFVYmU3R3B0RnpHVTZvOEowZzM0NHh6TGs2RjFvX3ZiMWlWUGlBazdOLVllNWptdDdRNzRnWW9oZi1ZWUNVRUZoVUctTkN4YW9keG1CN2hmTtIByAFBVV95cUxQOXpjS0VXLUNKUGpxLWRFdXZNSHM3Q1lkRkVtdWhKckpiZDRWRjhrbkR5S0oyOFdQMWdTTllkcUNfNUtKY2tXVERpRUJVd1RMTE5qMnpxRUNfNHBsTHJBaUIxckIyZ2p0LV84bVMxai03N0V6dFdEWmFVYmU3R3B0RnpHVTZvOEowZzM0NHh6TGs2RjFvX3ZiMWlWUGlBazdOLVllNWptdDdRNzRnWW9oZi1ZWUNVRUZoVUctTkN4YW9keG1CN2hmTg",
+        "https://www.ambito.com/uruguay/el-gobierno-busca-incorporar-al-cooperativismo-las-oportunidades-comerciales-del-acuerdo-mercosur-ue-n6336378",
         "https://www.ushuaianoticias.com/2026/10/20/tierra-del-fuego-busca-oportunidades-con-el-acuerdo-mercosur-ue"
       ],
       "mergedIds": [
         "tierra-del-fuego-busca-oportunidades-con-el-acuerdo-mercosur-ue",
-        "el-noa-debatira-las-oportunidades-del-acuerdo-ue-mercosur"
+        "el-noa-debatira-las-oportunidades-del-acuerdo-ue-mercosur",
+        "el-gobierno-busca-incorporar-al-cooperativismo-en-las-oportunidades-comerciales"
       ]
     },
     {
@@ -65529,14 +66171,14 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-10-21T17:56:42Z",
+    "ranAt": "2026-10-21T21:59:16Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
         "url": "https://www.wto.org/library/rss/latest_news_s.xml",
         "ok": true,
         "items": 8,
-        "added": 1,
+        "added": 0,
         "updated": 0,
         "skipped": 0
       },
@@ -65546,7 +66188,7 @@
         "ok": true,
         "items": 12,
         "added": 0,
-        "updated": 1,
+        "updated": 0,
         "skipped": 2
       },
       {
@@ -65554,18 +66196,18 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 8,
+        "added": 5,
         "updated": 0,
-        "skipped": 2
+        "skipped": 9
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
         "items": 46,
-        "added": 2,
+        "added": 4,
         "updated": 0,
-        "skipped": 30
+        "skipped": 27
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
@@ -65574,7 +66216,7 @@
         "items": 30,
         "added": 0,
         "updated": 0,
-        "skipped": 25
+        "skipped": 24
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
@@ -65583,16 +66225,16 @@
         "items": 100,
         "added": 4,
         "updated": 0,
-        "skipped": 73
+        "skipped": 72
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 48,
+        "items": 52,
         "added": 4,
         "updated": 0,
-        "skipped": 31
+        "skipped": 34
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
@@ -65601,16 +66243,16 @@
         "items": 100,
         "added": 4,
         "updated": 0,
-        "skipped": 82
+        "skipped": 81
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 76,
+        "items": 75,
         "added": 4,
         "updated": 0,
-        "skipped": 45
+        "skipped": 42
       }
     ],
     "curatedDuplicates": [
@@ -65630,76 +66272,6 @@
         "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
       },
       {
-        "title": "Argentina lleva 34 meses consecutivos de superávit comercial: “Las exportaciones superaron los USD 10.000 millones por…",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQLTFKQW9lTWNVR2JLeFNVNTJodjkzLVVrc0NrWS1hYnJLME9DeTZsY3pvZHRNa0xsM0M5czhpcEx0R25qRTJyY0N5TGNoS3ZCbVJfYmJWcW9iRHRQb0xXbGNyenJISllJU25OZWRESlk4cTRoT1BOcVFBQWNUWktQMlROaWxQd1JJZzRwMHU2RlNYMEdDMFZKU1dsRVhoNXpsdUh2NmphVk96WWNqMW40bkFsUTdmaUw3TjhQQ0E1dDBKcmlNSkFuaS1wUUZjUjk4WVoyaVhUMjREdzVXcGNQX0d3d2dLcDNJQVRUak1CV2xtOGhDakRr?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
-        "title": "Argentina lleva 34 meses consecutivos de superávit comercial: “Las exportaciones superaron los USD 10.000 mill...",
-        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxORjNwV0dRUTdUajVRbXU5RURJc2EwZ1otOUVsd0NYMURtLVlUd25UbDlfSE9ERVFEWjJzLS00TGVBaTVaMUdSSm0zSHdTMmV2OGFKWXM2Sk1pcXBzUmZBZi1aMUVmQlc2N2lxWTZyZVNtWUtRMHZ1WEdKUFF0MEI5akZDdnRvUDNkWXRmaGVkY1NZZ3oyYjhSU0VXeEVJWjUtZkRZUVdCT3hXd0tfZUkzRFpQNjh2Q3RzaENmbXFPbG5DbzRkeTJIVEIwNWZENmZJbzBIa1ZjdTFnN1k5TkQydWN1MWZRX0JFSTlBRGhjSFZ2b3haQThYNTIwc21SVDdsWGVF0gGIAkFVX3lxTE9mbmd6dllCX0VXQUJXb0tNUFNnMllxRnk1dlViMTRCcmVGT3hoX0dFUTd4Qnh4Qzc4UFZ5OVFSQ0FYMy1La01iSDF3cEdZT0xkSS01dlpmODdiUVlINUxRLWItWkZCRUVkVFhYb3hDQ1doWDZ3dWV6Yl85Wjl5YTd2Qi1UR3VoZDhQTjRfS2dqMTd1dm1jb2hNNmluV0VlWWxjNmtWSUVXV3M0ekUzTEFQMnBiTk5tZldUTWNHbmZadThRU3JTdXM3ajIzRDF0R3Bhdlk4QnFKRFhYdm0zdmFpbjU2eFF1RmlqSlVkd2JwVzVzakJidnhkTlAwLVI5SkFrOGpJdE5BUw?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
-        "title": "Superávit récord: balanza comercial de septiembre suma US$2976 millones",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUmo2cldPRHlBX1dwN2Fza2hfbDJpLUQ1bTZ4VjZjMEF0SDZfNkR6Z3A4cmNiTVQwY21rWHdvTDlIdW1iWGxSQVpva1RYdVlBNzJlQVBCOHZRVThVODlKTU40RUdSZVJYYkZRT0VGeEdMSTNCdGxudWxydHVydURza3hPU3dwaG1ERV9hUW1VbFpiQ3R6YWlyeDRwSng0QTg?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
-        "title": "Hito histórico en el comercio exterior: las exportaciones argentinas superaron los US$ 10.000 millones en un solo mes",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQT0NOOExucVNGM3laekZQamxZNWdObEN5Wm5IZUwxNDNOWUhFRDFUMUpzSHJRQnpGMm04NDZzOWpheXV1OG50MWloNXFvQ0FCTTFpUDd2Uk9JNzVsYVR5R2NsOEJ5c2Fqd2g4SEFYVGtSRU02c0VhREljb1RydjZkVzlzMVdhZHFPRkNKY2trRGlwcmRlbGgwbWpod3RpMGNsVmZkQVBLbldPQ0VnWThJbWdodjZydXZaWF9yNGxlbW5MaE5OeUozNVdKY01PYzE4Z2c0cGdkVFlmb1U?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
-        "title": "Récord histórico de exportaciones: Argentina superó por primera vez los USD 10.000 millones en un mes",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOejNCdmhKUENRSncxd2J4bmNiRWtjcGE1TU5nRl9XU3pveGttTUUxdV9vMmktVjJjS3pPeWl3V3VPajQxQUtaUmNVMXBFQTFFMEpKbnNyUTR6dk05RVFkZWQtaC0wbHlKMl93dnQ4WDBSeGJVMzhiUWhSTTd4LU1hN1JZVzhYZ2t1NjBWXzJxdUdKZXRUM0twdk85TkcyWWN1VVV5OFRCbE9PUGd1VUxRbDdZYUg2SmxOWE5GYjIyQ3k0NVNpZXh0dUlwbXByemM4SmdHSmhMZXNjTGI5Z3c?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
-        "title": "La Argentina registró un superávit comercial de USD 2.976 millones, con exportaciones en alza",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNemsxU3AwYWtGOTliOGIzdHRGNlRQX1p0c1dNaUhOaEo4UGpUVHRWY29Ib0xRN01EamVlTEVaSjFaYzAyRjNjaVE3eGRjRHFxbzA4QU5HRUhaN2pNZVA3YTFnRGpjdl9VcTZ5Wk12XzdSa3BJVjN5ZndaNjVVWktkekluSUxQR2dKNTNsLUsteEtnS3hjcEliNm9uTmg2Zmx2MlRSOVpvNWtzVHdfNXpTMW9RX1hJSUE?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
-        "title": "La balanza comercial argentina registró un superávit de US$ 2.976 millones en septiembre",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPR3dHQmVVOGtwWTNvVUxjcjdhQ2VJbXVCdzFHYTAtenhxd2RHSTUwYWJ1ZV9kUXplcThzcWpMQkNJMFNwaWoxV1V1WXRrNHRHOGVUVUVYY1NNMzVQNVZ6TnoxSllZYWsxZWZ5OXFnZHdCTkNkZy1MOTJsY0F3R2VzcjJYZktzTHQ1TDFB?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
-        "title": "Récord de exportaciones y un aporte histórico del sector energético",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUHZHaDB6MHNGczFuZE9maWw2a0NZdEwyUmRLaUY4OWJzT3pHQVFxUHlpOTVJWlJ1Z1hMZm9WR1ozWFU3M0Q5c3dKeHNlZ2d5N1pLMVMxRGpMVUdvQ3dfY0U1MG1ydEpvV01vcDdia08xcHJNaUhoeE1TMmx4M2pZT19SODA4MHRPTER1dWdDdW1mQ0VDdUhxY3doemlZZmJ1bEdkZNIBpAFBVV95cUxNUHZHaDB6MHNGczFuZE9maWw2a0NZdEwyUmRLaUY4OWJzT3pHQVFxUHlpOTVJWlJ1Z1hMZm9WR1ozWFU3M0Q5c3dKeHNlZ2d5N1pLMVMxRGpMVUdvQ3dfY0U1MG1ydEpvV01vcDdia08xcHJNaUhoeE1TMmx4M2pZT19SODA4MHRPTER1dWdDdW1mQ0VDdUhxY3doemlZZmJ1bEdkZA?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
-        "title": "Las exportaciones argentinas superaron por primera vez los USD 10.000 millones mensuales",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdDQ5MHVRYm82OVVjVEU3LUM1QS04dmQ2TDZMaFBXWE1JUzdzQnJTVFVfSVdKaUxLMzBpX1pZYldkSFI2dnAzT0phTFlaSlkwTjBlMDJOaEsxdmRYMDFpa2FPcGtvcVpZQU9wVWd6NnJ4Qk5XRXV4Y3AwXzJoSC14X2xtekNPTjZsQzJoeE10VmlIN1RXTldyaEpub1AyMGdWaF81ZXFQeWVVc3lDVnAzQmp4d1N2cFpMbmIyRUM0ZF9tQVc4Q09wMDVn?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
-        "title": "Argentina logró una balanza comercial de casi US$3.000 millones en septiembre, pese al déficit con China",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbzJPOFlfa1UwMzJEVFFqc19xWm1uemo0bzRGMFFqMUhBYTMzOWxiY1Rwd2NpTkdDZ0JwTDh2RGUtNGlESjlEU3o0d0VNOHR1WWJzdFBYS21TN18xMWV3RHVCaDZpTW50UExxNTNYNmc1SWhWOHd1b3ZtZHlTb2NES09nekw1WVJQZ25hRDNJV1ZiV2RLQVVmZkF1eFdmLUY4Y3cxNXdsOEJWM3U5Rk82ekNvMENvU0tadERHMUgyb2lyd2MzaTJzelRSSzRDNktxRVFV?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
-        "title": "La balanza comercial argentina registró un superávit de casi US$3.000 millones en septiembre",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMU1YOWJ1Z0dDczU1YnpGVzdTdmdOcW52d2Qxb1lxQjlDZFR0RVEyc1RKRUt2UTB1R24xRDZNYm1BMkN6a2ZHUlpoTFRndHNNMXk1SEFCRzVMc0N5bVdVNnBLUEl0cXF5c2tuYVFGS0QwUmY2MmRTemRvUXRfdmRaMlhTSzVWVjJXaldpZ3FvVk84UFgyTVJJOHBUVk91cXZNbkluSllGWEhXTTdaUDJrSEFZWl9JSGZI?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
-        "title": "Bate récords el comercio exterior porla aceleración de las exportaciones",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSFpFUlBTT1VuWlhseU5vWlJKTUNSYlU3dDVMaWg5TDFDdG9VOE5RVElzeXNNTTR2QWUzcmxYNEhHVGZnQWwwSTYyZ09zU25wVU1ZOFU0azZDZXllMGVmRnNwVTRTUXVxYXNFdm9CM1d1VzNnVFlTNmVUZFgwdGFMZVZuUGdtbjJkMjR2UDFfQUNIa1lUQ01DQncxc0ZCU0w4UXFyejNrNUpLVmdkVFdIbXZNLXJwTE1q?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
-        "title": "Exportaciones récord y compras en baja: el superávit comercial rozó los USD 3.000 millones",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZ3A3SlgwaDV4WllSdVNBeThTNGVMVTZDay13X0kxc1NHMmYzMVJWbi1tUGJZaTh4YnZtRkNnM0ZPNTRqeUV4RXJNRTZCbEFUWDk1amFETDN2cHJRSU4tdjdxemwzd3R3bkpGa25DbXhsYmtHMWhRU1pRNEU0QWVjdGEybEtzcDAzZU02UW1EWDUxVjdaV2p6NVA3MnZydXE4TEExY0lSRFlpczU0ZVF1eUE1RW5KQXFhWVN5RDZHNm9mS3piUXBF0gHAAUFVX3lxTE11WDJkLWlGWE0wYmxGbXFwTWZrTVpDWnNxMDFDUDVTem9RLXV6MUd4RjdSVVhvRVYtUzJkVHV0ZTFwbGpJemVERVc2Y0dNWUltN2FQN0czcVVWeEYxRWJ5aFZQZ2Z1MUtDYWJnRjJxRjhPODhRRmdtbjBxMHlwU1NIZDlVTFlfbHdRZWdDVy1rYk9DQjloNU8xSURvYS1BMWk2OWYyTlJyaGpTVVgzWFNIX21GbDNFU0taTXZYd3lNMg?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
-        "title": "Las exportaciones argentinas marcaron un récord en septiembre y el superávit comercial llegó a US$ 2.976 millones",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNY1lRSkVJaGw3RTZURWVvZzdHQnZCQXNhMU5FZ0VaS3ZENXdGMVdJYnRFZWIzeVFoSkFQZ0hNYlc4UU5DV0ZYT3pTQWpPXzhTWDhZeERyM1dEODFnUUlIX0NILTlqTlhwZHhnbThzbGdWNkhLMnFwSHE2UzBEU2ljdjlJMlN0LW93Q2hESkEzQ1NoSHo1cERvWlRlVTlpVVBfSm80RVpNcTBFSzJOLUNpWFRyckdzWHdFWlJyd2FabTFHVWJvYzEzY080SVpYczJ6enZ5YUFpV0tOMkQtMEhiMtIB5gFBVV95cUxQRUVkVk9pMWxIOHVrcDVBcHF1N21HQUZhamhrZWMxMWxvajAxek9Ed1pkRXcwUU5GcWg3Z3N2Wllwc1JMOEs1NjhXeXZ1RlZfNlNUR2tRRkhvOVdoX1NlTldKNkduWDQ1ZUlQUXBNLVhyckV1LVFkMkxBWDN4MnpIY1VXY1BVTzJkMnpjSkd3LUJyeUtPYUphTzFoWFhFY1l0bVBMZVZzbnFNeU5KazlRdy1oV3I5SEhPN2F0Qkh6UDltLXhpTVl3U1VVVUNvdmo2QXJHNTcwaFN1QWx5dHRNaVdBcUloUQ?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
         "title": "Exportaciones en alza e importaciones en baja: el superávit creció 217%",
         "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQm5sdnBQX0U1TS1KQ0plTlRGX1plNzJVSkUyV0ZCT1gzMXVYb2I0WHlqVVRNb0psX2hVQlpxeXR3MkliYjZfVkFyRFU1R19PSFlZei0xUkN5dl94aGFNOEtBUVE5N3VMYXdHMUtaOVN1cVE1UUxXTW10bzhGSTRJWGZ4SGRzSFg5VGlLUXNLWk5uUGxoWlBpdHFWV0NPM0RT?oc=5",
         "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
@@ -65707,6 +66279,11 @@
       {
         "title": "La Argentina registró un superávit comercial de USD 2.976 millones, con exportaciones en alza",
         "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNemsxU3AwYWtGOTliOGIzdHRGNlRQX1p0c1dNaUhOaEo4UGpUVHRWY29Ib0xRN01EamVlTEVaSjFaYzAyRjNjaVE3eGRjRHFxbzA4QU5HRUhaN2pNZVA3YTFnRGpjdl9VcTZ5Wk12XzdSa3BJVjN5ZndaNjVVWktkekluSUxQR2dKNTNsLUsteEtnS3hjcEliNm9uTmg2Zmx2MlRSOVpvNWtzVHdfNXpTMW9RX1hJSUE?oc=5",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "Exportaciones récord: la Argentina superó por primera vez los US$10.000 millones mensuales",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPei1mcnVnRWlNUU9JaDhSVWo3SnpiYnMyTTA0eVZYMldxamt0SHpmOG5taC0zaWh6LXVWay1DLWNxaXM1QnJxd09wWUlQQ2U5b1BSQ2VSTFNsYXFPZER4azJIUHZhYmxzZ0d6ZkNac2tRZnEtc01EY1NMenBzVVZFNDRTUWdCNC1SbjdqSTR0S0NINW02QXFRYlVMajFsM3loZXloME5JdWJTVWxuVmdUZVpfMkY4RmhUQU53ZG1ZS3lJYUYyZVVqMnM2UkJlenJZR2JVZ3R3?oc=5",
         "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
       },
       {
@@ -65725,69 +66302,55 @@
         "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
       },
       {
-        "title": "La Balanza Comercial de Argentina logró un superávit de US$ 2.976 millones en septiembre",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVEdBdVhZY1lJQmdrVmI5Ny1sWlZ6bDRZS19JUVotTlRCYjZNREhCbXZyalVHcjNLbE9HUkY1Sk1YQ2g3LTVudl9oZjBibjhlNW5mNDlfcmtlRGIwZzRCMmVieW1YaldnOVlFaVJuajE5RlV6OHNNZkgyYzFNTXhPVzVUZmlFZUtXS012NG1CLWd2eVFaT1Bpam9kYjZLTzJXUDFqY1lUVG9KLVJLNnExYU8wOElyOHlpY2NYaFZR?oc=5",
+        "title": "Sorgo: Argentina se posiciona para convertirse en el tercer exportador mundial en la campaña 2026/27",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVGNxejdUZ3hrNUppS3VCcGpWTEtXQ0VhLWJNZllnTlg4cjdSVm84RGVPVkdKUkVhVGU2akxMNVBiSVZlRThRZEItbFMwbTBLWVF1XzVqcThTWU1pZHFTcjFqMm9EWlA2MVBoTmhhamlYM3Z1VUpESW9GeFVWZnRhZlA5U1AzSjB6ZDF5NzllVjlpZWZvQTdVN1ZqR3lsVlVCZDAzcmxPNU9pM2cyNjFFVFpSck04QzI5OEhOeVNUUDFUb2loQlZLRG1ZVXEtYjQ?oc=5",
+        "curated": "sorgo-exportaciones-argentina-1-7-millones-toneladas-china-az-group-2026-27"
+      },
+      {
+        "title": "OTAN movilizará equipos de control al mar Negro tras ataques contra buques comerciales",
+        "url": "https://portalportuario.cl/otan-movilizara-equipos-de-control-al-mar-negro-tras-ataques-contra-buques-comerciales/",
+        "curated": "mar-negro-otan-refuerza-vigilancia-ataques-buques-ucrania-granos-28-menos"
+      },
+      {
+        "title": "Las exportaciones de América Latina y el Caribe crecerán 20% en 2026",
+        "url": "https://dataportuaria.com/es/argentina/actualidad/las-exportaciones-de-america-latina-y-el-caribe-creceran-20-en-2026",
+        "curated": "cepal-perspectivas-comercio-2026-exportaciones-region-20-argentina-19"
+      },
+      {
+        "title": "Las pymes volvieron a ganar peso en el comercio exterior y hay un dato para mirar",
+        "url": "https://www.impulsobaires.com.ar/nota/326372/las-pymes-volvieron-a-ganar-peso-en-el-comercio-exterior-y-hay-un-dato-para-mirar/",
         "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "tecnologia-y-aranceles-crecimiento-del-comercio-mundial-se-acelera",
+        "main": "tierra-del-fuego-analiza-oportunidades-productivas-y-exportadoras-ante-el-acuerd",
         "merged": [
-          "la-tecnologia-se-impone-a-los-aranceles-el-comercio-mundial-acelera-y-la-globali"
+          "el-noa-debatira-las-oportunidades-del-acuerdo-ue-mercosur",
+          "el-gobierno-busca-incorporar-al-cooperativismo-en-las-oportunidades-comerciales"
         ]
       },
       {
-        "main": "las-pymes-volvieron-a-ganar-peso-en-el-comercio-exterior-y-hay-un-dato-para-mira",
+        "main": "impulsan-el-desarrollo-del-comercio-exterior-y-la-logistica-internacional-en-2",
         "merged": [
-          "las-pymes-volvieron-a-ganar-peso-en-el-comercio-exterior-y-hay-un-dato-para--2"
+          "impulsan-el-desarrollo-del-comercio-exterior-y-la-logistica-internacional-en-la"
         ]
       },
       {
-        "main": "argentina-logro-un-record-de-exportaciones-pero-la-inversion-productiva-todavia",
+        "main": "sanchez-el-cooperativismo-debe-integrar-la-agenda-mercosur-ue",
         "merged": [
-          "audio-la-paradoja-argentina-exportaciones-record-y-una-economia-que-no-despega"
-        ]
-      },
-      {
-        "main": "el-noa-realizara-su-primer-foro-federal-argentino-ue-mercosur-para-impulsar-una",
-        "merged": [
-          "la-rioja-participa-del-primer-foro-federal-argentino-ue-mercosur"
-        ]
-      },
-      {
-        "main": "administracion-trump-enfrenta-demanda-por-aranceles-del-50-a-productos-canadiens",
-        "merged": [
-          "gellert-global-group-demanda-a-trump-por-aranceles-a-productos-lacteos-canadiens"
-        ]
-      },
-      {
-        "main": "soyeros-denuncian-alza-del-140-en-fletes-para-retirar-urea",
-        "merged": [
-          "anapo-denuncia-alza-del-140-en-el-flete-de-urea"
-        ]
-      },
-      {
-        "main": "importador-de-alimentos-de-nueva-jersey-presenta-demanda-contra-aranceles-de-tru",
-        "merged": [
-          "importador-de-alimentos-demanda-a-trump-por-aranceles-contra-canada-en-nuevo-ret"
-        ]
-      },
-      {
-        "main": "transporte-maritimo-de-diesel-ruso-vuelve-a-sus-destinos-habituales-tras-levanta",
-        "merged": [
-          "diesel-ruso-regresa-a-turquia-y-brasil-tras-levantamiento-a-prohibicion-de-expor"
+          "sanchez-el-cooperativismo-debe-integrar-la-agenda-mercosur-ue-afirma-el-gobierno"
         ]
       }
     ],
     "googleNews": {
-      "pending": 18,
-      "resolved": 18,
-      "withSummary": 13,
+      "pending": 20,
+      "resolved": 20,
+      "withSummary": 16,
       "withPhoto": 0,
       "failed": 0,
-      "duplicates": 0
+      "duplicates": 1
     }
   },
   "stories": [
