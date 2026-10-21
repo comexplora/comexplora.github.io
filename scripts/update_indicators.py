@@ -38,10 +38,22 @@ FRED_CSV = 'https://fred.stlouisfed.org/graph/fredgraph.csv?id=DCOILBRENTEU'
 FRED_PAGE = 'https://fred.stlouisfed.org/series/DCOILBRENTEU'
 
 
-def fetch(url: str, accept: str = '*/*') -> str:
+def fetch(url: str, accept: str = '*/*', tries: int = 3) -> str:
+    """Descarga con reintentos ante errores transitorios del servidor (5xx, 429, cortes de red)."""
+    import time
+    from urllib.error import HTTPError, URLError
     req = Request(url, headers={'User-Agent': UA, 'Accept': accept, 'Accept-Language': 'es-AR,es;q=0.9,en;q=0.6'})
-    with urlopen(req, timeout=30) as r:
-        return r.read(3_000_000).decode('utf-8', 'ignore')
+    for n in range(tries):
+        try:
+            with urlopen(req, timeout=30) as r:
+                return r.read(3_000_000).decode('utf-8', 'ignore')
+        except HTTPError as e:
+            if n == tries - 1 or not (e.code >= 500 or e.code == 429):
+                raise
+        except (URLError, TimeoutError):
+            if n == tries - 1:
+                raise
+        time.sleep(5 * (n + 1))
 
 
 # ---------------------------------------------------------------- formato es-AR
