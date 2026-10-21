@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-10-21T02:01:12Z",
+  "updatedAt": "2026-10-21T10:01:19Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -267,7 +267,8 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-21T02:02:34Z"
+      "lastAttempt": "2026-10-21T10:01:54Z",
+      "lastError": "HTTP Error 500: Internal Server Error"
     },
     {
       "id": "soja",
@@ -284,7 +285,7 @@
         "date": "2026-10-19",
         "ars": 552000.0
       },
-      "checkedAt": "2026-10-21T02:02:34Z",
+      "checkedAt": "2026-10-21T10:01:54Z",
       "_prev": {
         "date": "2026-10-16",
         "ars": 552000.0
@@ -337,7 +338,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-21T02:02:34Z"
+      "lastAttempt": "2026-10-21T10:01:54Z"
     },
     {
       "id": "brent",
@@ -350,7 +351,7 @@
       "obsDate": "2026-10-14",
       "change": "+0,6% vs. día anterior",
       "trend": "up",
-      "checkedAt": "2026-10-21T02:02:37Z",
+      "checkedAt": "2026-10-21T10:01:57Z",
       "history": [
         [
           "2026-09-03",
@@ -475,7 +476,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-10-21T02:02:37Z"
+      "lastAttempt": "2026-10-21T10:01:57Z"
     },
     {
       "id": "maiz",
@@ -492,7 +493,7 @@
         "date": "2026-10-19",
         "ars": 281800.0
       },
-      "checkedAt": "2026-10-21T02:02:37Z",
+      "checkedAt": "2026-10-21T10:01:57Z",
       "_prev": {
         "date": "2026-10-16",
         "ars": 285000.0
@@ -545,7 +546,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-21T02:02:37Z"
+      "lastAttempt": "2026-10-21T10:01:57Z"
     },
     {
       "id": "trigo",
@@ -562,7 +563,7 @@
         "date": "2026-10-19",
         "ars": 354600.0
       },
-      "checkedAt": "2026-10-21T02:02:37Z",
+      "checkedAt": "2026-10-21T10:01:57Z",
       "_prev": {
         "date": "2026-10-16",
         "ars": 353000.0
@@ -615,10 +616,561 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-21T02:02:37Z"
+      "lastAttempt": "2026-10-21T10:01:57Z"
     }
   ],
   "items": [
+    {
+      "id": "islandia-verkis-disena-nueva-iluminacion-para-zona-de-contenedores-de-puerto-de",
+      "datetime": "2026-10-21T10:00:02Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T10:01:19Z",
+      "title": "Islandia: Verkís diseña nueva iluminación para zona de contenedores de Puerto de Grundartangi",
+      "summary": "Verkís se encargó del proyecto de diseño de iluminación y eléctrico para la renovación del alumbrado…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/islandia-verkis-disena-nueva-iluminacion-para-zona-de-contenedores-de-puerto-de-grundartangi/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "la-argentina-de-milei-exporta-como-nunca-y-la-economia-logra-un-superavit-comerc",
+      "datetime": "2026-10-21T09:50:19Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T10:01:19Z",
+      "title": "La Argentina de Milei exporta como nunca y la economía logra un superávit comercial histórico gracias al petróleo y la minería",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Minería",
+        "Energía"
+      ],
+      "visual": "energy",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "El Economista",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.eleconomista.es/economia/noticias/14022491/10/26/la-argentina-de-milei-exporta-como-nunca-y-la-economia-logra-un-superavit-comercial-historico-gracias-al-petroleo-y-la-mineria.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T10:01:19Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQQXBkY3R3V0lJRlBqRmg4WFVYMG1DWUVhdUYyejU2eDFDejE3UU1EUUVCa05SdFVlUXk4SG9ZdHFfbUROajFKemk5NG5TdkxlWFpJQlREYU82ck00Z1VmSnlHaDE4N2ttbEZidmVvU1Y5bFItd2VxQTZiZzdmMEZyR3JiYnRHc25qaXp6Tk9SLVUzX1NYLUVXazY0MGJ3SklWOXl1TGdDMnpTcjFINnc1MkpGVEhWMUp5R0txc1U2OWItZ3lFcFNKQ0lOY3FYamR6Q2lmaEladGo4VERuNExRU3N4aHFTRjJhckNXb3hkRDBsbjMyWDhwVV9yWHRnSHVJN1lpLUczMlVOcm9leUNKaTVqR203RGJIN1YzTQ?oc=5"
+    },
+    {
+      "id": "barajas-entra-en-crisis-y-afronta-el-reto-de-redefinir-su-lugar-en-la-carga-aere",
+      "datetime": "2026-10-21T09:37:41Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T10:01:19Z",
+      "title": "Barajas entra en crisis y afronta el reto de redefinir su lugar en la carga aérea",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte aéreo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "plane",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Asociación de Cargadores de España",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.ace-cargadores.com/2026/10/21/barajas-entra-en-crisis-y-afronta-el-reto-de-redefinir-su-lugar-en-la-carga-aerea/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T10:01:19Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORV8tMm5ycGc5b2FGdkZ0a2xyRndMRndBRkJJVjZUT0FGV2JMTnR4aFRFZWQ4NGhldVlvU090b3Nkb21vRnFzdmxhSDZxVjAxQldVVE1zU3U4eUZHMXhHSEs4Mm1FMzVpdGRiWXhtQU55bFpiTm1Pam5HaVYwV1pua0FRaGJvTW9pb0pDY0dXOUF3VHBieXBqSkFFVzg2UEJSTTFjUHl2YkItOUFWQjQtOUJkR3Znb0pITElyNHRZRzZ6Zw?oc=5"
+    },
+    {
+      "id": "goldman-sachs-preve-que-los-fletes-de-crudo-suban-a-20-dolares-por-barril",
+      "datetime": "2026-10-21T08:59:00Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T10:01:19Z",
+      "title": "Goldman Sachs prevé que los fletes de crudo suban a 20 dólares por barril",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "tanker",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Investing.com España",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://es.investing.com/news/stock-market-news/goldman-sachs-preve-que-los-fletes-de-crudo-suban-a-20-dolares-por-barril-93CH-3882730",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Investing.com México",
+          "type": "También publicó esta noticia",
+          "url": "https://mx.investing.com/news/stock-market-news/goldman-sachs-ve-fletes-de-crudo-dispararse-a-20-por-barril-93CH-3806755",
+          "alsoIn": true,
+          "title": "Goldman Sachs ve fletes de crudo dispararse a $20 por barril"
+        }
+      ],
+      "gnTried": "2026-10-21T10:01:19Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTFhQVXNGXzNuVjZCaTU1UTlIYU5UaWtvbUIwT2pHS2tOemh6MFhyQ1VEemp0ajI1Q3VReGlBWGtxM2dVbFdZd0I2elNHVEZ1MlJNOWJaOElaek9RTGJfeU5BVzRyYzdNN0dWTHdWMHpzYlVBMWlWOV9GY19RaFBmSDdaaTJ4WG9sU1Y3YkJwT0tVVjZXTDgwbTVnSFB0Rkp5SUdtUVphcjhHLUxEcE4tLXlTeTF2Q0FWUU4yQzh5TVhHVVB4enA4SGNqSkJLQXM?oc=5",
+      "aliasUrls": [
+        "https://mx.investing.com/news/stock-market-news/goldman-sachs-ve-fletes-de-crudo-dispararse-a-20-por-barril-93CH-3806755",
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTXpRYld4N0g4ZGN1bEpmZ2ZmdHk2NG1YRnFSdm5zZi1YNlp2TzRkcTRsb3lKQW1FWlh4anhqZXRaVjhMLVRlcFdURHB5WHRscUxlejJ0QTllekNsUUlyZW1xVEo0Q0tHdFpzaTlmMUJsa1hneVhPbVRxUHZ3LWlwWHlHcWZPUlpwUDRWbGhWNEhOQUVHM2dySmpXdlpyZVNqNU1tNFEwTmM2X2RQWDVmUGR1UHhFZ1UyZDNlYQ"
+      ],
+      "mergedIds": [
+        "goldman-sachs-ve-fletes-de-crudo-dispararse-a-20-por-barril"
+      ]
+    },
+    {
+      "id": "china-amaga-con-oponerse-a-los-aranceles-sobre-tecnologias-limpias-en-la-cop31",
+      "datetime": "2026-10-21T08:08:13Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T10:01:19Z",
+      "title": "China amaga con oponerse a los aranceles sobre tecnologías limpias en la COP31",
+      "summary": "PEKÍN, 21 oct (Reuters) - China quiere que la cumbre de la COP31, que se celebrará el próximo mes en Turquía, se centre en lo que denomina ‌el nuevo problema para la acción climática mundial: los aranceles contra su tecnología limpia.ª ‌reunión de la COP, que comenzará en Antalya el próximo mes, debería abordar…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "China"
+      ],
+      "tags": [
+        "Aranceles",
+        "China"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Yahoo",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://es.finance.yahoo.com/noticias/china-amaga-oponerse-aranceles-tecnolog%C3%ADas-080813544.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T10:01:19Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVHlIMjRBTlJ5UHprbW5hbGtlVFBkcjlKejdubkEwLWNMbExDUWRiVkxTOUpLTTJoWGdzNUxORjdrSjItRGtLbXBtc2FNczNvU2tKeUJfZHEwZHdzT3o2LU9yYXU2czNGck95T3owOUxuN1pWZU9UMWNya18yMEp4cGQ1eldaenQ0cEpJMmY3OVdNTmp2cGpYZUpMWFl5bktiN3c?oc=5"
+    },
+    {
+      "id": "polestar-refuerza-su-estrategia-en-europa-y-esquiva-aranceles-con-el-suv-polesta",
+      "datetime": "2026-10-21T07:53:46Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T10:01:19Z",
+      "title": "Polestar refuerza su estrategia en Europa y esquiva aranceles con el SUV Polestar 4",
+      "summary": "Polestar, marca eléctrica de Geely, refuerza su estrategia en Europa ante el auge del VE. Su CEO Michael Lohscheller apuesta por ampliar la gama y producir en regiones que eviten aranceles a los coches eléctricos chinos, con el SUV Polestar 4 como clave.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Foro3D",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://foro3d.com/2026/octubre/polestar-refuerza-su-estrategia-en-europa-y-esquiva-aranceles-con-el-s.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T10:01:19Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa3FLTDhDLXVHeXRuZGNyMjVIQm9WeG90S3BNdmNSWDhKQUctdUY0Yi1EWE9LOGRJRE9KSTROdmNQSXJGMjJMMUxmTHFOVFBjVnlXSTFvcEZWVVNkVmZ2cDhXR05lVUhIc3VsaFdMSTU3YlA1Z0hzQ3ZUR2xEUFhfVklnOTkzUzRTY2VVenNBYTN4S2NEbm1acXdOY1F2SlBsb3FrUDR5ODdQQzg?oc=5"
+    },
+    {
+      "id": "carga-aerea-el-desafio-de-convertir-datos-en-decisiones-operativas",
+      "datetime": "2026-10-21T07:50:00Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T10:01:19Z",
+      "title": "Carga aérea: el desafío de convertir datos en decisiones operativas",
+      "summary": "CargoMART Strategic Hub reúne 12 módulos con datos de mercado, indicadores operacionales y recomendaciones de inteligencia artificial. La herramienta busca conectar las políticas de compra definidas por las empresas con las decisiones de reserva que ejecutan sus equipos locales.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte aéreo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "plane",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Agenda Logística",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.agendalogistica.cl/carga-aerea-inteligencia-artificial-logistica/carga-aerea-el-desafio-de-convertir-datos-en-decisiones-operativas/2198884",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T10:01:19Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOdUJub3lQd3F0bHZOYWJaUlJ6SlJVemtFM29jeENOMkR6TmdCYkhiSHBDODhhZDEtSklNQjlURUxaU1dXb2hmUFJRVjlRYVFpcWxLajF2NFFmNVpGRmE4aGRzYThfT0dtUXRfRWhzTy1XRG9NazBlQlNiZ3pLeWNQck5rbjI1UkNLTzhZd1FPYjg5N21XbDJqYlR2cEpHOEZEcUh4RHREaHNvcDlIdFR3dVFOdzhvX2ZvTlp2TmMzd2dtWGRYandtdFpPMUw5aEdVVnQ0NjdTbFh2OXJ2cHR3OUpSd2k0QQ?oc=5"
+    },
+    {
+      "id": "aranceles-a-los-coches-electricos-chinos-el-reino-unido-estudia-alinearse-con-la",
+      "datetime": "2026-10-21T07:21:02Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T10:01:19Z",
+      "title": "Aranceles a los coches eléctricos chinos: el Reino Unido estudia alinearse con la UE y presiona a BYD",
+      "summary": "El Reino Unido sopesa alinear sus aranceles a los coches eléctricos chinos con la UE para evitar las reglas 'Made in Europe' y no perder a BYD.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "China",
+        "Asia",
+        "Europa"
+      ],
+      "countries": [
+        "China",
+        "Unión Europea",
+        "Reino Unido"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Merca2",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.merca2.es/2026/10/21/aranceles-coches-electricos-chinos-reino-unido-2-2478039/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T10:01:19Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTWxCdGpsd1h1SnhnNHpqak51alhlbmN6bXk4M0luWFdwdU9nUXVPZlhJYjg3bDNCdVNSZE4xRDNZYWlwQWFGWkFUWDhNc01pbEJfem9tOWVxcEQwbzVEZnJRQ083NnNSUnBuaHdRbVZtV2JqNENpUHN4a1pVeUlLVmp5MXNNcktCVWdBLVlpSGFYWjky?oc=5"
+    },
+    {
+      "id": "datos-clave-getinge-b-mantiene-las-perspectivas-para-2026-reembolsos-aranceles-y",
+      "datetime": "2026-10-21T07:00:00Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T10:01:19Z",
+      "title": "Datos clave: Getinge B mantiene las perspectivas para 2026; reembolsos/aranceles y divisas; Cardiohelp II",
+      "summary": "Este es un resumen generado por IA. Puede contener imprecisiones. Considere verificar la información importante con la fuente.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "TradingView",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://es.tradingview.com/news/tradingview:91bb3252a5657:0/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T10:01:19Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1vaFlGSnVMOU9OZXk5YW5qaWkyTmYyZkVvT1BuWVFaT2o4eGduMDM2RERiVVlSbUpXa09SQlFLRG9JRTRtdHppTFE2ajgzMlV3UWY1c0tJTVFQLWlyVmJSSktsVHRRLUtoNm5GUw?oc=5"
+    },
+    {
+      "id": "transporte-maritimo-de-diesel-ruso-vuelve-a-sus-destinos-habituales-tras-levanta",
+      "datetime": "2026-10-21T06:00:35Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T10:01:19Z",
+      "title": "Transporte marítimo de diésel ruso vuelve a sus destinos habituales tras levantamiento de prohibición de exportación",
+      "summary": "Los cargamentos marítimos de diésel ruso están volviendo a sus principales clientes anteriores…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/transporte-maritimo-de-diesel-ruso-vuelve-a-sus-destinos-habituales-tras-levantamiento-de-prohibicion-de-exportacion/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "gremios-agropecuarios-espanoles-convocan-a-una-movilizacion-en-que-rechazan-el-a",
+      "datetime": "2026-10-21T05:31:31Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T10:01:19Z",
+      "title": "Gremios agropecuarios españoles convocan a una movilización en que rechazan el acuerdo con el Mercosur.",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Mercosur"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Mercosur",
+        "Agro"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Todo El Campo",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://todoelcampo.com.uy/archives/51206",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T10:01:19Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE92MFp5WURmU3oxWDRVQlFlTzdGMldVUjlEaVEyazN0cXg5ZDU0VjZvODV1Yk9sMURQRUJXSGVZQjJZaUlnSkstZi1DOVViN1Q2NjZv?oc=5"
+    },
+    {
+      "id": "presidente-de-angola-destaca-modernizacion-de-puerto-de-namibe-durante-discurso",
+      "datetime": "2026-10-21T05:00:17Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T10:01:19Z",
+      "title": "Presidente de Angola destaca modernización de Puerto de Namibe durante discurso sobre el Estado de la Nación",
+      "summary": "El Presidente de Angola, João Lourenço, destacó la modernización del Puerto de Namibe durante su discurso…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos"
+      ],
+      "countries": [
+        "Angola"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/presidente-de-angola-destaca-modernizacion-de-puerto-de-namibe-durante-discurso-sobre-el-estado-de-la-nacion/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "vaca-muerta-entre-el-salto-exportador-y-el-interes-internacional-que-dejo-el-dia",
+      "datetime": "2026-10-21T03:30:00Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T10:01:19Z",
+      "title": "Vaca Muerta, entre el salto exportador y el interés internacional: qué dejó el día 2 de la AOG Patagonia 2026",
+      "summary": "Con récords de producción a la vista, las expectativas exportadoras al alza y la visita diplomática de Estados Unidas, la industria hidrocarburífera vivió una intensa segunda jornada en el espacio Duam.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Energía"
+      ],
+      "visual": "energy",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Diario Río Negro",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.rionegro.com.ar/politica/vaca-muerta-entre-el-salto-exportador-y-el-interes-internacional-que-dejo-el-dia-2-de-la-aog-patagonia-2026/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T10:01:19Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNMGdWNmFPbUo0ekxlc1pwbjJVYkVBUGNvZnk4cGdwUC1iekNFNl9iN09mRGJzeC1jZ1FRSDBBRlpqNE9QTVFySVNwREFJcUJtR3J1NHVxUG1XZ0o2QTI4b2d1cWxGcVdqQVhfWUtObkNRMWlZT1ZHbmxPYkRKNDRXVG1vQ0F4ZXNPSG5waTZXZ2JvTnhVY1h2NGpLYjcxZkppTUV2SjJJS2c0SFJ1ek5ONnBFT1JGNUhSTGtlV2tEU0YxWGNEUEtmMWNCLVg2WlJDWVRYeUozcnFDQjJ6SXfSAeYBQVVfeXFMUENQc0c2RWY3eUg3eVNvTVIyaDB0Sk5fd2xGQ0Rrdk9ueGFLRWRzTkZlT2YtTHBRSW1QLTY4M09rWFlPMERZWnZHZ2ljSlpXZkdzQzNlTzEzZVYyM2J6RjZhdnY1ekpuOGFkOG15RlBfLTVPY0IxN1N1RFd4SlRWX2pvNk0wcTVxSUFieWFPelRVSEVIY2pEN21pN1NoM0VoUkRDd1ZETEU2WGtobHVwdTVseXI0Q0U2aHFlSGFWUFoyeWVXZk5mQjUyQ1lTdVdDeTVKM3pJaVRTYU90RUt2NUxXWElfVFE?oc=5"
+    },
+    {
+      "id": "rhenus-integra-servicios-en-unico-centro-logistico-en-interporto-padova",
+      "datetime": "2026-10-21T02:59:19Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-21T10:01:19Z",
+      "title": "Rhenus integra servicios en único centro logístico en Interporto Padova",
+      "summary": "Rhenus refuerza su presencia en la zona de Padua, porque a partir del primer trimestre de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/rhenus-integra-servicios-en-unico-centro-logistico-en-interporto-padova/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "canada-puerto-de-sept-iles-nombra-nuevo-presidente-y-director-ejecutivo",
+      "datetime": "2026-10-21T02:30:50Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-21T10:01:19Z",
+      "title": "Canadá: Puerto de Sept-Îles nombra nuevo presidente y director ejecutivo",
+      "summary": "La Autoridad Portuaria de Sept-Îles anunció el nombramiento de Joël Chouinard como presidente y director general…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos"
+      ],
+      "countries": [
+        "Canadá"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/canada-puerto-de-sept-iles-nombra-nuevo-presidente-y-director-ejecutivo/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
     {
       "id": "estados-unidos-e-india-tienen-previsto-finalizar-pronto-un-acuerdo-comercial-bil",
       "datetime": "2026-10-21T01:59:59Z",
@@ -701,15 +1253,23 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Aranceles",
         "Tratados y acuerdos",
+        "Latinoamérica",
+        "Estados Unidos",
         "Europa"
       ],
       "countries": [
+        "México",
+        "Estados Unidos",
         "Unión Europea"
       ],
       "tags": [
         "Acero",
-        "Aluminio"
+        "Aluminio",
+        "Autos",
+        "Aranceles",
+        "Estados Unidos"
       ],
       "visual": "steel",
       "impact": 1,
@@ -741,10 +1301,12 @@
       "topics": [
         "Importaciones",
         "Aranceles",
+        "Impuestos",
         "Estados Unidos"
       ],
       "countries": [
-        "Estados Unidos"
+        "Estados Unidos",
+        "Canadá"
       ],
       "tags": [
         "Aranceles",
@@ -778,10 +1340,13 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Aranceles"
+        "Aranceles",
+        "Latinoamérica",
+        "Estados Unidos"
       ],
       "countries": [
-        "Global"
+        "México",
+        "Estados Unidos"
       ],
       "tags": [
         "Aranceles"
@@ -840,6 +1405,47 @@
       ]
     },
     {
+      "id": "colombia-y-renault-sofasa-fabricaran-un-vehiculo-nuevo-que-seria-exportado-a-arg",
+      "datetime": "2026-10-21T00:15:35Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-21T10:01:19Z",
+      "title": "Colombia y Renault-Sofasa fabricarán un vehículo nuevo que sería exportado a Argentina, México, Ecuador y otros países: se invertirán más de USD100 millones",
+      "summary": "“Colombia quiere competir por proyectos que generen valor a largo plazo”, dijo el ministro de Comercio, Industria y Turismo, Mauricio Gómez Amín",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Colombia",
+        "México",
+        "Ecuador"
+      ],
+      "tags": [
+        "Autos"
+      ],
+      "visual": "auto",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Infobae",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.infobae.com/colombia/2026/10/20/colombia-y-renault-sofasa-fabricaran-un-vehiculo-nuevo-que-seria-exportado-a-argentina-mexico-ecuador-y-otros-paises-se-invertiran-mas-de-usd100-millones/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T10:01:19Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOQzZXQ2RfOXRTOFZabG0zSzBKUUUxcjQtVFAtcWpJQS1SbnNLS09ReDRpV3Z0Tm5RcTRiZEFvUXZldEVfMkhVNlF2TTJvMXhnVVMzWFhxbzhERkk2ZVJxS3o4TThQTUhjTnNCTkZSYmk0b0dfenFlMW1veVNyRDRwRDhWZDN4bkhuVnFxM2NqaC1jRmJhRzZJNU8xTWJsZWtrdUxKVmF0TVhYSmNJUGJ2V2NhTzhya2NVQU9pRmdxR2lzcDlBU0UyUURqTVgtM0RVc25FZUFrZXBickozMU5DdjlKdTdmTnMyX3VyNlhIcTc5bU1xeXVLelJWQk5vUFpXaURqZkYyWUdreHFiSFJWZ3UtVlFkb3NIemVMRy0zeFFBZHdy0gG_AkFVX3lxTE5SSWRaaWpHRkJQRHY5UzUtUEdQQWxaZ3BORjdBVUdCWklsa1M3YTlsX3p6SGF3bGo3SmVDd09udUhCNmlaRGlvR0w1RjFSTDhpNDdfZnVUZTVTLXFlUHhoUS1kbXIwZEFfanJEdGE1V216RGd3RUtlUW40VElXRG9FNWtiTnFGOEI3U1VlSTFXVWVWWEtDZHdTX1M5ekp0RW5VU2lOM0h0MlB2azVsQ21kTEFKcjk2eXdnMXZJVnVCcVdOMnlYYTdsaGgxT0U1RVF3Z2xxZzhBRUFKTTd3alFZR2hvcEtBN3FRRndfTEd4elFYbE9RVlFWaHIwTXdYYVhMelpqOW1aM0U3OV8xbUd4aUdVb0tQOENZWVlNdFBBcDhXQUFuWUZ5cU0waV9HemtyZ2llZ0xCUkozblhtcm8?oc=5"
+    },
+    {
       "id": "ee-uu-anuncia-millonaria-inversion-en-philaport-para-respaldar-expansion",
       "datetime": "2026-10-21T00:00:59Z",
       "date": "2026-10-20",
@@ -872,6 +1478,41 @@
       ]
     },
     {
+      "id": "horacio-marin-anticipo-mas-inversiones-de-ypf-y-un-salto-exportador-para-argenti",
+      "datetime": "2026-10-21T00:00:18Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-21T10:01:19Z",
+      "title": "Horacio Marín anticipó más inversiones de YPF y un salto exportador para Argentina",
+      "summary": "El presidente y CEO de YPF confirmó inversiones operadas por US$ 9.000 millones para 2026 y anticipó nuevos desembolsos para el próximo año. Además, detalló los avances del oleoducto Vaca Muerta Oil Sur y del proyecto de GNL, claves para ampliar las exportaciones energéticas argentinas.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "mejorinformado.com",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.mejorinformado.com/energia/horacio-marin-anticipo-inversiones-ypf-salto-exportador-argentina_1792540486",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T10:01:19Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPanVHdkFoaFVsb3M3dkgyUVJQNDFwRVM4YUh3YjRtdTVLNEFkYjhYVVlyVTQtTVJPb3FJYnFOZGpkSlJFcjNQcTBZNlVIdFd6WldtcXVkQTU4N1NPdmVNT1JYdGNDdTg1NVVOYlV3T2t0ODh4VldfVEtveXpnS25Welg3cEFZQmxORWhBaERWTlRuejBFcGZONzV6OEpLdXBkM3RIRTU0WkVwUXkxd2xQaFhtNjk3d9IBtgFBVV95cUxPanVHdkFoaFVsb3M3dkgyUVJQNDFwRVM4YUh3YjRtdTVLNEFkYjhYVVlyVTQtTVJPb3FJYnFOZGpkSlJFcjNQcTBZNlVIdFd6WldtcXVkQTU4N1NPdmVNT1JYdGNDdTg1NVVOYlV3T2t0ODh4VldfVEtveXpnS25Welg3cEFZQmxORWhBaERWTlRuejBFcGZONzV6OEpLdXBkM3RIRTU0WkVwUXkxd2xQaFhtNjk3dw?oc=5"
+    },
+    {
       "id": "rubio-busca-ampliar-las-compras-de-crudo-venezolano-de-india-en-medio-del-alza-d",
       "datetime": "2026-10-20T23:06:53Z",
       "date": "2026-10-20",
@@ -882,13 +1523,19 @@
       "keyData": [],
       "topics": [
         "Logística",
+        "Latinoamérica",
+        "Estados Unidos",
         "Asia"
       ],
       "countries": [
+        "Venezuela",
+        "Estados Unidos",
         "India"
       ],
       "tags": [
-        "Fletes"
+        "Fletes",
+        "Energía",
+        "Estados Unidos"
       ],
       "visual": "tanker",
       "impact": 1,
@@ -1023,12 +1670,15 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Exportaciones"
       ],
       "countries": [
         "Argentina"
       ],
-      "tags": [],
+      "tags": [
+        "Carne"
+      ],
       "visual": "customs",
       "impact": 1,
       "affectsArgentina": true,
@@ -1396,13 +2046,16 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Argentina"
+        "Argentina",
+        "Estados Unidos"
       ],
       "countries": [
-        "Argentina"
+        "Argentina",
+        "Estados Unidos"
       ],
       "tags": [
-        "Energía"
+        "Energía",
+        "Estados Unidos"
       ],
       "visual": "energy",
       "impact": 1,
@@ -2430,14 +3083,21 @@
       "keyData": [],
       "topics": [
         "Transporte marítimo",
+        "Puertos",
         "China",
-        "Asia"
+        "Asia",
+        "Europa"
       ],
       "countries": [
-        "China"
+        "China",
+        "Malasia",
+        "España",
+        "Egipto",
+        "Marruecos"
       ],
       "tags": [
         "Contenedores",
+        "Puertos",
         "China"
       ],
       "visual": "container",
@@ -3960,6 +4620,41 @@
       ],
       "gnTried": "2026-10-20T14:05:35Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kVm5rUEpaVWRXV202dFRMT25ac0VXbW5MejBuYWJZS1EyNUZNOXpISDFsQXM3d1ZLNnY0T1VJVVNKMWhfMVgxWUpvdGd1U2VqQ1g4MzJPRzVyMUJvSkxGY2FKUlhDNkhLS0dySg?oc=5"
+    },
+    {
+      "id": "las-pymes-volvieron-a-ganar-peso-en-el-comercio-exterior-y-hay-un-dato-para-mira",
+      "datetime": "2026-10-20T10:25:37Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-21T10:01:19Z",
+      "title": "Las pymes volvieron a ganar peso en el comercio exterior y hay un dato para mirar",
+      "summary": "Las exportaciones de pymes argentinas crecieron 23,2% y alcanzaron US$ 8.330 millones, el nivel más alto registrado desde 2013.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "ImpulsoBaires",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.impulsobaires.com.ar/nota/326372/las-pymes-volvieron-a-ganar-peso-en-el-comercio-exterior-y-hay-un-dato-para-mirar/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T10:01:19Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYmh5TlVJemRQenQyQzYyMUQ3Vnd2VG5SU3hQUG9fOWxLSmpySGZCeVM0bklLTEFDVmR4cjRncDRsVFpsN0o3MHZwVkZDQUhROHlnemhJRE9zNE9BUUFRR3pLa1UwVUJEQVRZbnZUYmE1S0xBZWtPYWRDTFRSU3NfdnlXUVpnZmlSUXJrMjJaUjhUTWVmMnZPU1EzWFgzZWpvUldhRXhNajhnc0JuX1JqSWNEVTdfb3JMSGI0alVhN0JFd2g5eFE?oc=5"
     },
     {
       "id": "boom-de-vaca-muerta-argentina-suma-mas-divisas-gracias-a-las-exportaciones-energ",
@@ -7530,6 +8225,7 @@
       "keyData": [],
       "topics": [
         "Argentina",
+        "Importaciones",
         "Exportaciones"
       ],
       "countries": [
@@ -11057,13 +11753,22 @@
           "url": "https://zapalaya.com.ar/vaca-muerta/vaca-muerta-se-posiciona-en-asia-se-anticipa-un-aumento-significativo-en-las-exportaciones",
           "alsoIn": true,
           "title": "Vaca Muerta se posiciona en Asia: se anticipa un aumento significativo en las exportaciones"
+        },
+        {
+          "name": "Neuquén News",
+          "type": "También publicó esta noticia",
+          "url": "https://neuquennews.com.ar/contenido/29099/argentina-ya-exporta-mas-de-420000-barriles-de-petroleo-por-dia-vaca-muerta-camb",
+          "alsoIn": true,
+          "title": "Argentina ya exporta más de 420.000 barriles de petróleo por día: Vaca Muerta cambia la escala del negocio"
         }
       ],
       "gnTried": "2026-10-17T21:49:57Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTDNkUmdpUzR0V09HMUlIVHFnaXJHdmZNSW4tM3o1YmNJdElwZlVCdENvTnhvVEROSHBVVkhiUm1qbjN5Y3F5NWR6UV9qSzZIREh0d2dqdndQZVFXbC05dVk5WUFZSXRHUEpOT0EyOU5sRUowSjJNRndTZ0tqQzBZWkxlakVnZ1RSbFdBSWtTeWNpdGNLMXBmTGlOdk9vNm9GeTFtMjdoWkE5SjFxY1dzWkg0UWRERkRmX3dwbHlTaklONG5zZEFkajA5M1RKOVNKVVFR?oc=5",
       "aliasUrls": [
+        "https://neuquennews.com.ar/contenido/29099/argentina-ya-exporta-mas-de-420000-barriles-de-petroleo-por-dia-vaca-muerta-camb",
         "https://news.google.com/rss/articles/CBMiswFBVV95cUxNc1dfdmo5UnRDRWF3VlFSa2JEZ3RFaVR4Tk1vb014M1Fwb1dvdXRzQnRWWC1pSWhKYlljaUVCbS1CTkdfNzRzSzJRbHVvYThKZkJnZ3pxcjl6T0tsWXpwRzQyZUZld0o1Tl9TWFpPWnRiaklxVjI2SnAybjRyclRsdTNkNUdwNDNtLW9sWENsWFhZNTBIbUx1cXdzek05NWtjRFdNeVpPcXBQWDdTaWktOFV0WQ",
         "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeUJYWkV1R0ZaeW9EcnZYcmc1LTgtZ1VFdXI4cTBRbE1jQ2RhVGF3cW1BV2plbzhjR2x4bk5nWWZtQmVkdDE3WWl3VHR0bFlRV3p5WERlR0hsS0dvaloydjJEUG1RM00wV21RdmI3bGE4dHdFd3BsV3lIeWFEUWVfSXJfYURCNDFCR2podXJCMVR5T3NyWFRnMGhMdWZhS0hiWkdGR3NCZ3puVDI3eVNxaHdfeE8",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTDNMOVg2T0t6blNQVDdYd1gzQ2dCTzJrcFNIemRFX25CRFRVY0ZNc2QtTWxBZEFscGRhZmxlb3JpVnA5S283ZkVjS1REOGczdmEtX21fcGduZnpNbDV5S3E4c3JpWHdjVmlNTmRfQWNEZWE4Yk1CY0JHQms0c1o4SmdCZnlSd2hzUlFlTjhBWU1NS3lwOHpVVTFsV0pRVlJPUnZ5M0NIWUduMTZWS2c0eFhLdFQ1empXNjcyaUJhNXI",
         "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeEJyS2lJVHlURkQtT1huY2tvQkM5aEx4U3NJWGtkWU1Ka3l3MDVUTjdYR1BXdEo3RnV3MnprcjF5Zjl6c0Y2Z0J6OU1kZWMwTGtLRjdLdVR4OWFtbFJBT1JGNTRFaDNFbWVndFVIeWx1dF9ObXZfREJCRzM0Sk5YZG9BbU5aRGJiRG4zSDFPcnV6dHpyWk5xZkplR1AzQ2l6dC0yOUp5MmxCbzlZb09EbmVob1VVMmt2Y0dXX0tKV2lJZE92",
         "https://www.clarin.com/economia/vaca-muerta-abre-paso-asia-prepara-salto-historico-exportaciones_0_YsrBPALoQU.html",
         "https://zapalaya.com.ar/vaca-muerta/vaca-muerta-se-posiciona-en-asia-se-anticipa-un-aumento-significativo-en-las-exportaciones",
@@ -11072,7 +11777,8 @@
       "mergedIds": [
         "vaca-muerta-se-prepara-para-aumentar-las-exportaciones-de-gas-licuado-a-india",
         "vaca-muerta-se-abre-paso-en-asia-y-prepara-un-salto-historico-de-sus-exportacion",
-        "vaca-muerta-se-posiciona-en-asia-se-anticipa-un-aumento-significativo-en-las-exp"
+        "vaca-muerta-se-posiciona-en-asia-se-anticipa-un-aumento-significativo-en-las-exp",
+        "argentina-ya-exporta-mas-de-420-000-barriles-de-petroleo-por-dia-vaca-muerta-cam"
       ]
     },
     {
@@ -18802,43 +19508,6 @@
           "author": "cmeza"
         }
       ]
-    },
-    {
-      "id": "argentina-ya-exporta-mas-de-420-000-barriles-de-petroleo-por-dia-vaca-muerta-cam",
-      "datetime": "2026-10-15T10:47:00Z",
-      "date": "2026-10-15",
-      "firstSeen": "2026-10-15T14:06:27Z",
-      "title": "Argentina ya exporta más de 420.000 barriles de petróleo por día: Vaca Muerta cambia la escala del negocio",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Energía"
-      ],
-      "visual": "energy",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Neuquén News",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://neuquennews.com.ar/contenido/29099/argentina-ya-exporta-mas-de-420000-barriles-de-petroleo-por-dia-vaca-muerta-camb",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-15T14:06:27Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTDNMOVg2T0t6blNQVDdYd1gzQ2dCTzJrcFNIemRFX25CRFRVY0ZNc2QtTWxBZEFscGRhZmxlb3JpVnA5S283ZkVjS1REOGczdmEtX21fcGduZnpNbDV5S3E4c3JpWHdjVmlNTmRfQWNEZWE4Yk1CY0JHQms0c1o4SmdCZnlSd2hzUlFlTjhBWU1NS3lwOHpVVTFsV0pRVlJPUnZ5M0NIWUduMTZWS2c0eFhLdFQ1empXNjcyaUJhNXI?oc=5"
     },
     {
       "id": "la-norma-antideforestacion-de-la-ue-y-la-cuota-ue-mercosur-amenazan-al-sector-ca",
@@ -37421,62 +38090,6 @@
       "gnUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOYWZwUUNiWS01YVhENkg5d09qclhlTWx6WGdmTEJxU3p0d0hnWTBPNS1ndXBuUHdPWm15NURwSXV3UXdjOGx4XzZWUWVsME5od2ctVDJ6Q2xMVU1mMGNyMmx1ZHRoTWpvV0tKRmJRZjJndHA4cnpPMWwtWEJfQmpwNUJLZVlPSnVVZHFHbWNRcS1faFo5UFZULTdBdHU2Wk9ZNFVxczRWam42YnhfOG1ZZWJCSi1YUF9xRk1pZ0Fn?oc=5"
     },
     {
-      "id": "mas-de-250-empresas-se-reuniran-en-ronda-de-negocios-mercosur-ue-con-participaci",
-      "datetime": "2026-10-08T19:00:00Z",
-      "date": "2026-10-08",
-      "firstSeen": "2026-10-08T21:43:00Z",
-      "title": "Más de 250 empresas se reunirán en ronda de negocios Mercosur-UE con participación paraguaya",
-      "summary": "La cuarta edicin del encuentro se realizar el 29 de octubre en Resistencia, Argentina, con empresas de distintos sectores productivos y de servicios. La convocatoria est abierta a firmas paraguayas interesadas en nuevos mercados, proveedores, compradores e inversores.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Latinoamérica",
-        "Mercosur",
-        "Europa"
-      ],
-      "countries": [
-        "Argentina",
-        "Paraguay",
-        "Unión Europea"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "El Nacional - El diario de los lectores influyentes",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://elnacional.com.py/economia/mas-250-empresas-reuniran-ronda-negocios-mercosur-ue-participacion-paraguaya-n113272",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "El Independiente -Py",
-          "type": "También publicó esta noticia",
-          "url": "https://independiente.com.py/empresas-paraguayas-buscaran-nuevos-socios-y-mercados-en-ronda-mercosur-ue/",
-          "alsoIn": true,
-          "title": "Empresas paraguayas buscarán nuevos socios y mercados en ronda Mercosur-UE"
-        }
-      ],
-      "gnTried": "2026-10-08T21:43:00Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOamRCN0lpMEppRElaZUxQS3BKaXZwV1ZEeWI0eGZFbHlhcGduNjQySjhpYXowY3N0UFFaSXcxYU5GaEU4LWlYeHM4VDU4a3VUZWJ4dkRmMkY0UGdkc3lwcnp3VUllTm5lc0dUbVlqMzlwWHdmT253STdQLU95YmRkWEtCci1nQkR0clVScFc2dGxVcXVZd28xb205OGtVZUxPMWRuVk0zS1otM0NwendYTHdfeHhjdGM0TVhMT0JpNy3SAcABQVVfeXFMTmpkQjdJaTBKaURJWmVMUEtwSml2cFdWRHliNHhmRWx5YXBnbjY0Mko4aWF6MGNzdFBRWkl3MWFORmhFOC1pWHhzOFQ1OGt1VGVieHZEZjJGNFBnZHN5cHJ6d1VJZU5uZXNHVG1ZajM5cFh3Zk9ud0k3UC1PeWJkZFhLQnItZ0JEdHJVUnBXNnRsVXF1WXdvMW9tOThrVWVMTzFkblZNM0taLTNDcHp3WEx3X3h4Y3RjNE1YTE9CaTct?oc=5",
-      "aliasUrls": [
-        "https://independiente.com.py/empresas-paraguayas-buscaran-nuevos-socios-y-mercados-en-ronda-mercosur-ue",
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWXpGeXhTME1BUGU5N3VEdHhRWEhua0ZpN3c1eFVhaEJWYXFOVjR3U1Z6Z0otS0NxNDUxVy1OWlhuNHJaNm1YV19ZNDlnQ05YSVFDcmItcGVENmxURXhhM1pzZkM4RS1UaS03bHVVVXZmd1NzejU2WkFuWk9TWXF2dkNYcnE1M2pEd05BXzFNNldJT1p1eHMwN0dHa3BWOXlKRk5OUVF5TQ",
-        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVjVZOGswX082R0g5RmxxV1ZmWTlQcU10dWJ2QjhLSjhsd3A1N0lzQ2pGZFRpd2VuY3FWWV94V1hjVTRzdWFscERZZ0hRZlhqd1MzTXRvQ2pUcVloVnJ4UmFUM1ZQUHhZLTRBWUNpRmFQQkhRaldFamhLWWlQQXQ0NVhxOFluREZzSVRaTnQ4RUpBbEV6bThHN0MtcjFkSFBWdjdMWjhXaVlDcFZPYklMNVdRYmNMZ3c1WTBr0gHAAUFVX3lxTE5qZEI3SWkwSmlESVplTFBLcEppdnBXVkR5YjR4ZkVseWFwZ242NDJKOGlhejBjc3RQUVpJdzFhTkZoRTgtaVh4czhUNThrdVRlYnh2RGYyRjRQZ2RzeXByendVSWVObmVzR1RtWWozOXBYd2ZPbndJN1AtT3liZGRYS0JyLWdCRHRyVVJwVzZ0bFVxdVl3bzFvbTk4a1VlTE8xZG5WTTNLWi0zQ3B6d1hMd194eGN0YzRNWExPQmk3LQ"
-      ],
-      "mergedIds": [
-        "empresas-paraguayas-buscaran-nuevos-socios-y-mercados-en-ronda-mercosur-ue"
-      ]
-    },
-    {
       "id": "exportaciones-inversion-y-desinflacion-las-claves-de-la-economia-argentina-hacia",
       "datetime": "2026-10-08T18:59:34Z",
       "date": "2026-10-08",
@@ -43206,17 +43819,38 @@
           "url": "https://www.ccres.org.ar/site/2026/10/ronda-de-negocios-2026-mercosur-union-europea/",
           "alsoIn": true,
           "title": "RONDA DE NEGOCIOS 2026 MERCOSUR + UNION EUROPEA"
+        },
+        {
+          "name": "El Nacional - El diario de los lectores influyentes",
+          "type": "También publicó esta noticia",
+          "url": "https://elnacional.com.py/economia/mas-250-empresas-reuniran-ronda-negocios-mercosur-ue-participacion-paraguaya-n113272",
+          "alsoIn": true,
+          "title": "Más de 250 empresas se reunirán en ronda de negocios Mercosur-UE con participación paraguaya"
+        },
+        {
+          "name": "El Independiente -Py",
+          "type": "También publicó esta noticia",
+          "url": "https://independiente.com.py/empresas-paraguayas-buscaran-nuevos-socios-y-mercados-en-ronda-mercosur-ue/",
+          "alsoIn": true,
+          "title": "Más de 250 empresas se reunirán en ronda de negocios Mercosur-UE con participación paraguaya"
         }
       ],
       "gnTried": "2026-10-07T17:43:55Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUWZZa2E2eE5iWE5tTGR5b1N1S3d0ZmRvb0IteFpLVkFURy1QM2hIbm90YmVDOWd5Skl0NkJFeGpPekV1TGFYd09FRDVlOEZndW10TGp2aTZKY2xZWWNSdDMzUXBrMHpQWDBRNk5KMkxFM2ctVTZZZFQxQjgzdGMzRy1mTHZNRE1HU3BSOU5ib1FudDNtTkI2c1ZUdnVvRjh1Q0lV0gGjAUFVX3lxTE9RZllrYTZ4TmJYTm1MZHlvU3VLd3RmZG9vQi14WktWQVRHLVAzaEhub3RiZUM5Z3lKSXQ2QkV4ak96RXVMYVh3T0VENWU4Rmd1bXRManZpNkpjbFlZY1J0MzNRcGswelBYMFE2TkoyTEUzZy1VNllkVDFCODN0YzNHLWZMdk1ETUdTcFI5TmJvUW50M21OQjZzVlR2dW9GOHVDSVU?oc=5",
       "aliasUrls": [
+        "https://elnacional.com.py/economia/mas-250-empresas-reuniran-ronda-negocios-mercosur-ue-participacion-paraguaya-n113272",
+        "https://independiente.com.py/empresas-paraguayas-buscaran-nuevos-socios-y-mercados-en-ronda-mercosur-ue",
         "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcWRBSU5JZVlCSkFzdkt6X01ReE9ZdjY3YUIyaHRwVGk5cG4wM3A5eUI1NzFySWVJcHcxcURHQmRyWEhZOXEwdXJKX0VLLWhhdnZFU1kxTGFXNkVUNnBpb2RBd0ZTcEg3a0x0Z0ZLN0dObDY4TVZRZDI5bmJ1Z2h3d2cwSTNqeEdCWEI2eA",
         "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRUp3TDJ0M3VXMG1XVnBVM2gxbHloRU0xOW1qOTZfT0FBNG1ETlA5emFVYk81dkwyNjU3YmFDVmhJUTJGd1ktTElQQ0EtMjlKbDk3QUpOUGh3RW9pQnhrVmJjbmxsdzNGdEhZQmozUDc3M3ZJRk1FeXp6bHF2TFdabFN0eW9FRjdJTGV4R3ZWXzJqN3hzZFHSAaMBQVVfeXFMT1FmWWthNnhOYlhObUxkeW9TdUt3dGZkb29CLXhaS1ZBVEctUDNoSG5vdGJlQzlneUpJdDZCRXhqT3pFdUxhWHdPRUQ1ZThGZ3VtdExqdmk2SmNsWVljUnQzM1FwazB6UFgwUTZOSjJMRTNnLVU2WWRUMUI4M3RjM0ctZkx2TURNR1NwUjlOYm9RbnQzbU5CNnNWVHZ1b0Y4dUNJVQ",
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWXpGeXhTME1BUGU5N3VEdHhRWEhua0ZpN3c1eFVhaEJWYXFOVjR3U1Z6Z0otS0NxNDUxVy1OWlhuNHJaNm1YV19ZNDlnQ05YSVFDcmItcGVENmxURXhhM1pzZkM4RS1UaS03bHVVVXZmd1NzejU2WkFuWk9TWXF2dkNYcnE1M2pEd05BXzFNNldJT1p1eHMwN0dHa3BWOXlKRk5OUVF5TQ",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVjVZOGswX082R0g5RmxxV1ZmWTlQcU10dWJ2QjhLSjhsd3A1N0lzQ2pGZFRpd2VuY3FWWV94V1hjVTRzdWFscERZZ0hRZlhqd1MzTXRvQ2pUcVloVnJ4UmFUM1ZQUHhZLTRBWUNpRmFQQkhRaldFamhLWWlQQXQ0NVhxOFluREZzSVRaTnQ4RUpBbEV6bThHN0MtcjFkSFBWdjdMWjhXaVlDcFZPYklMNVdRYmNMZ3c1WTBr0gHAAUFVX3lxTE5qZEI3SWkwSmlESVplTFBLcEppdnBXVkR5YjR4ZkVseWFwZ242NDJKOGlhejBjc3RQUVpJdzFhTkZoRTgtaVh4czhUNThrdVRlYnh2RGYyRjRQZ2RzeXByendVSWVObmVzR1RtWWozOXBYd2ZPbndJN1AtT3liZGRYS0JyLWdCRHRyVVJwVzZ0bFVxdVl3bzFvbTk4a1VlTE8xZG5WTTNLWi0zQ3B6d1hMd194eGN0YzRNWExPQmk3LQ",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOamRCN0lpMEppRElaZUxQS3BKaXZwV1ZEeWI0eGZFbHlhcGduNjQySjhpYXowY3N0UFFaSXcxYU5GaEU4LWlYeHM4VDU4a3VUZWJ4dkRmMkY0UGdkc3lwcnp3VUllTm5lc0dUbVlqMzlwWHdmT253STdQLU95YmRkWEtCci1nQkR0clVScFc2dGxVcXVZd28xb205OGtVZUxPMWRuVk0zS1otM0NwendYTHdfeHhjdGM0TVhMT0JpNy3SAcABQVVfeXFMTmpkQjdJaTBKaURJWmVMUEtwSml2cFdWRHliNHhmRWx5YXBnbjY0Mko4aWF6MGNzdFBRWkl3MWFORmhFOC1pWHhzOFQ1OGt1VGVieHZEZjJGNFBnZHN5cHJ6d1VJZU5uZXNHVG1ZajM5cFh3Zk9ud0k3UC1PeWJkZFhLQnItZ0JEdHJVUnBXNnRsVXF1WXdvMW9tOThrVWVMTzFkblZNM0taLTNDcHp3WEx3X3h4Y3RjNE1YTE9CaTct",
         "https://www.ccres.org.ar/site/2026/10/ronda-de-negocios-2026-mercosur-union-europea"
       ],
       "mergedIds": [
-        "ronda-de-negocios-2026-mercosur-union-europea"
+        "ronda-de-negocios-2026-mercosur-union-europea",
+        "mas-de-250-empresas-se-reuniran-en-ronda-de-negocios-mercosur-ue-con-participaci",
+        "empresas-paraguayas-buscaran-nuevos-socios-y-mercados-en-ronda-mercosur-ue"
       ]
     },
     {
@@ -51873,7 +52507,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-10-20T09:59:10Z"
+      "gnTried": "2026-10-21T10:01:19Z"
     },
     {
       "id": "portcastello-presenta-estrategia-para-albergar-hub-industrial-de-energia-eolica",
@@ -62242,7 +62876,7 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-10-21T02:01:12Z",
+    "ranAt": "2026-10-21T10:01:19Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
@@ -62269,14 +62903,14 @@
         "items": 15,
         "added": 5,
         "updated": 0,
-        "skipped": 6
+        "skipped": 7
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 48,
-        "added": 3,
+        "items": 47,
+        "added": 1,
         "updated": 0,
         "skipped": 29
       },
@@ -62284,10 +62918,10 @@
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 56,
+        "items": 59,
         "added": 0,
         "updated": 0,
-        "skipped": 44
+        "skipped": 46
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
@@ -62296,16 +62930,16 @@
         "items": 100,
         "added": 4,
         "updated": 0,
-        "skipped": 72
+        "skipped": 70
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 45,
+        "items": 25,
         "added": 1,
         "updated": 0,
-        "skipped": 27
+        "skipped": 10
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
@@ -62314,16 +62948,16 @@
         "items": 100,
         "added": 4,
         "updated": 0,
-        "skipped": 83
+        "skipped": 88
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 87,
+        "items": 79,
         "added": 4,
         "updated": 0,
-        "skipped": 51
+        "skipped": 46
       }
     ],
     "curatedDuplicates": [
@@ -62398,11 +63032,6 @@
         "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
       },
       {
-        "title": "Demoras de hasta 30 días en el puerto de Santos extreman la presión a la logística argentina",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNbVRtNks3TVVpV3RLUVlxZzYxanJGbjNSLWpFX0RPVkQ0aWhhOGdxSklzUG82ZWpEYVlvMTVQbnpnTDZJMjBiMGw4RDZseGpjSnFNcFBFY0E4N2ItcnZXMThEa0lJazczcXdJQW5tZ0hyWUJxLUs4bGc3M0djU2l1S0RCdkduWGhxQVZPdU1Mbkk1OWNZbXYyVndoWnc2eTh6blhhaF9vZ1hEeV9KaUVycTdKci12UFltOVRQNlUtQ25UM0pkZ0c2eGpGa0k0S1d6M2hOc01TRnpwUzhpQWtsMVJleVhTRDFk?oc=5",
-        "curated": "santos-demoras-atraque-fertilizantes-30-dias-antaq-logistica-argentina"
-      },
-      {
         "title": "Las exportaciones argentinas marcaron un récord en septiembre y el superávit comercial llegó a US$ 2.976 millones",
         "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNY1lRSkVJaGw3RTZURWVvZzdHQnZCQXNhMU5FZ0VaS3ZENXdGMVdJYnRFZWIzeVFoSkFQZ0hNYlc4UU5DV0ZYT3pTQWpPXzhTWDhZeERyM1dEODFnUUlIX0NILTlqTlhwZHhnbThzbGdWNkhLMnFwSHE2UzBEU2ljdjlJMlN0LW93Q2hESkEzQ1NoSHo1cERvWlRlVTlpVVBfSm80RVpNcTBFSzJOLUNpWFRyckdzWHdFWlJyd2FabTFHVWJvYzEzY080SVpYczJ6enZ5YUFpV0tOMkQtMEhiMtIB5gFBVV95cUxQRUVkVk9pMWxIOHVrcDVBcHF1N21HQUZhamhrZWMxMWxvajAxek9Ed1pkRXcwUU5GcWg3Z3N2Wllwc1JMOEs1NjhXeXZ1RlZfNlNUR2tRRkhvOVdoX1NlTldKNkduWDQ1ZUlQUXBNLVhyckV1LVFkMkxBWDN4MnpIY1VXY1BVTzJkMnpjSkd3LUJyeUtPYUphTzFoWFhFY1l0bVBMZVZzbnFNeU5KazlRdy1oV3I5SEhPN2F0Qkh6UDltLXhpTVl3U1VVVUNvdmo2QXJHNTcwaFN1QWx5dHRNaVdBcUloUQ?oc=5",
         "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
@@ -62463,52 +63092,38 @@
         "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
       },
       {
-        "title": "Las exportaciones argentinas marcaron un récord en septiembre y el superávit comercial llegó a US$ 2.976 millones",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNY1lRSkVJaGw3RTZURWVvZzdHQnZCQXNhMU5FZ0VaS3ZENXdGMVdJYnRFZWIzeVFoSkFQZ0hNYlc4UU5DV0ZYT3pTQWpPXzhTWDhZeERyM1dEODFnUUlIX0NILTlqTlhwZHhnbThzbGdWNkhLMnFwSHE2UzBEU2ljdjlJMlN0LW93Q2hESkEzQ1NoSHo1cERvWlRlVTlpVVBfSm80RVpNcTBFSzJOLUNpWFRyckdzWHdFWlJyd2FabTFHVWJvYzEzY080SVpYczJ6enZ5YUFpV0tOMkQtMEhiMtIB5gFBVV95cUxQRUVkVk9pMWxIOHVrcDVBcHF1N21HQUZhamhrZWMxMWxvajAxek9Ed1pkRXcwUU5GcWg3Z3N2Wllwc1JMOEs1NjhXeXZ1RlZfNlNUR2tRRkhvOVdoX1NlTldKNkduWDQ1ZUlQUXBNLVhyckV1LVFkMkxBWDN4MnpIY1VXY1BVTzJkMnpjSkd3LUJyeUtPYUphTzFoWFhFY1l0bVBMZVZzbnFNeU5KazlRdy1oV3I5SEhPN2F0Qkh6UDltLXhpTVl3U1VVVUNvdmo2QXJHNTcwaFN1QWx5dHRNaVdBcUloUQ?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
-        "title": "Argentina lleva 34 meses consecutivos de superávit comercial: “Las exportaciones superaron los USD 10.000 millones por…",
-        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOdEhHWHVCX1M3bGtBVElwU055aTl5bzlEbjQ4SktvRDBYbTFXbWtPSURXbTlXYmFNR0Q0b2xScmtrOTJ5MXNZMXIzc1RXaWZYb0h0RG01MmY4RmJXT2dMTko0aTNDQTlQaTRGT2tqeWdEdEIyQzdZYUVENGlZZFo5TmliX3VxVm0zMnBYdWVQVm9nd2lCRURNOGRoNGNZNi1HMGFaM1VLdEhyZzd0dlNNN2p3WEtDUlhaMl9nbFZ0R1ZQQXozZ29ZWko4bmhMRmkyc29ubllBRjRZZEg3STFsQ0E2Y0hrY0VVYnFzRlBsZWQyVWJ3SmxV?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
-        "title": "Argentina lleva 34 meses consecutivos de superávit comercial: “Las exportaciones superaron los USD 10.000 millones por…",
-        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNeC1zV21pZmpaWVk4bnZnRUtzTTQyYnB5OW5jdi04YThTMmVGWnJqVjE2SzgzbC1zcHJiSlA0SUhUNlNVLXNwYWF1ZDVsazJvdGJqYzBEM1Z0WWRRdEpCU3FBVlZUWnhxa2ItS0pSaFpnaEY0YmVyWGRjU2NQRHVSbjFTd3VKTHU3VUk1YXdTUEFGY2xKRUM2bkJQaWRzZnpILV9DMXR4eGpNVkVxX0R2V3lBQ1ZNdlNSeVM2eFYzY2JjZ2ZOamxsUURrZWVjZWF0MnBnUXRjdU9KaTZKcGxOUHJ4NkNJYUtST0E0V3BZdWxiNkxrTjlnYlF0U2NYMjczYU53WGI0WQ?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
         "title": "EURATEX, ABIT y FITA crean un diálogo textil entre la Unión Europea y Mercosur para impulsar el comercio y la…",
         "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOZnVCZDR5TnJwX2JsNjJNcUhmRWhRWlFyTjRfYmVNVW9ZX3hVTmJ4dC15ZFBqdDBCV1YyRDZEMllmd0o5ckFOUG9URlNXZ3FwNlJTdUQ1QWh4ZnhRR2pJcWh2aV9qd1Z2U2hqd0ZGendWY3REUGd0WFQ5a1hJOG1leWJ1ZjRjS1VXc0dwNHVDZ1o3eUkwNHBTQTU5Y0JlY0JuOU5EY1lPUzlwRUQxZ20tNUR4T3NlTDlWcjVWaWF2V0J6d1pZOElMRHAtWHVfbUVuZnNCQkZNTGQzMnF6dUs2UzJKQ0RwaXFnazhIcTdrZllIdw?oc=5",
         "curated": "euratex-abit-fita-dialogo-textil-confeccion-ue-mercosur-fortaleza"
-      },
-      {
-        "title": "Las pymes volvieron a ganar peso en el comercio exterior y hay un dato para mirar",
-        "url": "https://www.impulsobaires.com.ar/nota/326372/las-pymes-volvieron-a-ganar-peso-en-el-comercio-exterior-y-hay-un-dato-para-mirar/",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "tierra-del-fuego-analiza-oportunidades-productivas-y-exportadoras-ante-el-acuerd",
+        "main": "ronda-de-negocios-mercosur-ue-se-realizara-en-el-chaco-argentino",
         "merged": [
-          "el-noa-debatira-las-oportunidades-del-acuerdo-ue-mercosur"
+          "mas-de-250-empresas-se-reuniran-en-ronda-de-negocios-mercosur-ue-con-participaci"
         ]
       },
       {
-        "main": "gualeguaychu-fue-sede-de-un-encuentro-sobre-comercio-exterior-y-desarrollo-logis",
+        "main": "vaca-muerta-mira-hacia-india-el-negocio-del-gas-licuado-podria-generar-exportaci",
         "merged": [
-          "desde-gualeguaychu-impulsan-el-desarrollo-del-comercio-exterior-y-la-logistica"
+          "argentina-ya-exporta-mas-de-420-000-barriles-de-petroleo-por-dia-vaca-muerta-cam"
+        ]
+      },
+      {
+        "main": "goldman-sachs-preve-que-los-fletes-de-crudo-suban-a-20-dolares-por-barril",
+        "merged": [
+          "goldman-sachs-ve-fletes-de-crudo-dispararse-a-20-por-barril"
         ]
       }
     ],
     "googleNews": {
-      "pending": 16,
-      "resolved": 16,
-      "withSummary": 13,
+      "pending": 15,
+      "resolved": 14,
+      "withSummary": 9,
       "withPhoto": 0,
-      "failed": 0,
+      "failed": 1,
       "duplicates": 0
     }
   },
