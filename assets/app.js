@@ -1840,32 +1840,67 @@ function renderAside(){
   const saved = store.get('comex.saved', []).map(id => items.find(i => i.id === id)).filter(Boolean);
   const trends = topTrends(12);
   const tc = t => items.filter(i => i.topics.includes(t)).length;
-  const boxes = [];
-  if (hasNewsletter && view !== 'calculadora') boxes.push(newsletterBox('aside'));
-  if (view !== 'home') boxes.push(`<section class="box"><h2>Indicadores <small>últimos datos</small></h2>
+  const boxes = [], prio = [];
+  const put = (html, p) => { if (html){ boxes.push(html); prio.push(p); } };
+  if (hasNewsletter && view !== 'calculadora') put(newsletterBox('aside'), 7);
+  if (view !== 'home') put(`<section class="box"><h2>Indicadores <small>últimos datos</small></h2>
     <div class="ind-mini">${state.indicators.filter(d => d.value).slice(0,6).map(d => `<a href="${esc(d.url)}" target="_blank" rel="noopener noreferrer"><span class="l">${esc(d.label)}</span><span class="v">${esc(d.value)}</span><span class="p">${esc(d.period)} · ${esc(d.source)}</span><span class="c ${d.trend==='up'?'up':d.trend==='down'?'down':'flat'}">${d.trend==='up'?'▲':d.trend==='down'?'▼':''} ${esc(d.change)}</span></a>`).join('')}</div>
-    <a class="foot-link" href="#datos">Ver todos los indicadores →</a></section>`);
+    <a class="foot-link" href="#datos">Ver todos los indicadores →</a></section>`, 9);
   const nextDates = upcomingDeadlines().slice(0, 4);
-  if (view !== 'home' && view !== 'agenda' && nextDates.length) boxes.push(`<section class="box"><h2>Próximas fechas <small>agenda</small></h2>
+  if (view !== 'home' && view !== 'agenda' && nextDates.length) put(`<section class="box"><h2>Próximas fechas <small>agenda</small></h2>
     <ol class="mini">${nextDates.map(d => `<li><a ${hrefTo(d.it)}>${esc(d.label)}</a><span class="sub">${esc(d.monthOnly ? cap(fmtMonthYear.format(new Date(d.start))) : fmtDLshort.format(new Date(d.start)).replace('.', ''))} · ${esc(whenText(d))}</span></li>`).join('')}</ol>
-    <a class="foot-link" href="#agenda">Ver la agenda →</a></section>`);
-  if (view !== 'home') boxes.push(`<section class="box"><h2>Más recientes <small>${items.length} en archivo</small></h2>
-    <ol class="mini">${items.slice(0,5).map(it => `<li><a ${hrefTo(it)}>${esc(it.title)}</a><span class="sub" data-rel="${esc(it.id)}">${esc(relTime(it))}</span></li>`).join('')}</ol></section>`);
-  boxes.push(`<section class="box"><h2>Temas en tendencia <small>últimos 14 días</small></h2>
+    <a class="foot-link" href="#agenda">Ver la agenda →</a></section>`, 8);
+  if (view !== 'home') put(`<section class="box"><h2>Más recientes <small>${items.length} en archivo</small></h2>
+    <ol class="mini">${items.slice(0,5).map(it => `<li><a ${hrefTo(it)}>${esc(it.title)}</a><span class="sub" data-rel="${esc(it.id)}">${esc(relTime(it))}</span></li>`).join('')}</ol></section>`, 6);
+  put(`<section class="box"><h2>Temas en tendencia <small>últimos 14 días</small></h2>
     <div class="trend">${trends.map((t,i) => `<button type="button" class="${i<3?'hot':''}" data-${t.type}="${esc(t.label)}">${t.type==='tag'?'#':''}${esc(t.label)}<span class="n">${t.n}</span></button>`).join('')}</div>
-    <p class="note" style="margin-top:10px">Según la frecuencia en las noticias recientes y tus lecturas en este navegador.</p></section>`);
+    <p class="note" style="margin-top:10px">Según la frecuencia en las noticias recientes y tus lecturas en este navegador.</p></section>`, 5);
   // «Más leídas» y «Guardadas» solo aparecen cuando tienen algo que mostrar (sin cajas vacías).
-  if (mostRead.length >= 2) boxes.push(`<section class="box"><h2>Tus más leídas <small>en este navegador</small></h2>
-    <ol class="mini num">${mostRead.map(([it,n]) => `<li><span><a ${hrefTo(it)}>${esc(it.title)}</a><span class="sub">${plural(n,'lectura')}</span></span></li>`).join('')}</ol></section>`);
-  if (saved.length) boxes.push(`<section class="box"><h2>Guardadas <small>${saved.length}</small></h2>
-    <ol class="mini">${saved.slice(0,5).map(it => `<li><a ${hrefTo(it)}>${esc(it.title)}</a></li>`).join('')}</ol><a class="foot-link" href="#guardadas">Ver todas →</a></section>`);
-  if (view === 'home' || view === 'article') boxes.push(`<section class="box"><h2>Fuentes confiables</h2>
+  if (mostRead.length >= 2) put(`<section class="box"><h2>Tus más leídas <small>en este navegador</small></h2>
+    <ol class="mini num">${mostRead.map(([it,n]) => `<li><span><a ${hrefTo(it)}>${esc(it.title)}</a><span class="sub">${plural(n,'lectura')}</span></span></li>`).join('')}</ol></section>`, 4);
+  if (saved.length) put(`<section class="box"><h2>Guardadas <small>${saved.length}</small></h2>
+    <ol class="mini">${saved.slice(0,5).map(it => `<li><a ${hrefTo(it)}>${esc(it.title)}</a></li>`).join('')}</ol><a class="foot-link" href="#guardadas">Ver todas →</a></section>`, 4);
+  if (view === 'home' || view === 'article') put(`<section class="box"><h2>Fuentes confiables</h2>
     <ul class="srcdir">${SOURCE_DIRECTORY.flatMap(g => g.items).filter(([n]) => /INDEC|ARCA|OMC|OMA|IATA|Mercosur|Comisión Europea/.test(n)).map(([n,u]) => `<li><a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(n)}</a></li>`).join('')}</ul>
-    <a class="foot-link" href="#fuentes">Directorio completo →</a></section>`);
-  boxes.push(`<section class="box"><h2>Accesos rápidos</h2>
-    <div class="quick">${TOPICS.map(t => `<button type="button" data-topic="${esc(t)}"><span>${esc(t)}</span><span class="n">${tc(t)}</span></button>`).join('')}</div></section>`);
-  $('#aside').innerHTML = boxes.join('');
+    <a class="foot-link" href="#fuentes">Directorio completo →</a></section>`, 3);
+  put(`<section class="box"><h2>Accesos rápidos</h2>
+    <div class="quick">${TOPICS.map(t => `<button type="button" data-topic="${esc(t)}"><span>${esc(t)}</span><span class="n">${tc(t)}</span></button>`).join('')}</div></section>`, 2);
+  const aside = $('#aside');
+  aside.innerHTML = boxes.join('');
+  [...aside.children].forEach((b, i) => { b.dataset.p = prio[i] ?? 1; });
+  fitAside();
 }
+
+/* La columna lateral nunca es más alta que la de noticias: en pantallas de dos columnas se ocultan
+   las cajas menos importantes (prioridad data-p más baja) hasta que entra, así no queda un hueco
+   vacío debajo de las noticias. Si la columna de noticias es más larga, el panel acompaña la lectura
+   (sticky) y, si es más alto que la ventana, se fija por abajo. */
+function fitAside(){
+  const aside = $('#aside'), main = $('#main');
+  if (!aside || !main) return;
+  const boxes = [...aside.children];
+  boxes.forEach(b => { b.hidden = false; });
+  const twoCols = getComputedStyle(aside.parentElement).gridTemplateColumns.trim().split(/\s+/).length > 1;
+  aside.classList.toggle('fit', twoCols);
+  if (!twoCols){ aside.style.top = ''; return; }
+  const contentH = el => { const kids = [...el.children].filter(c => !c.hidden && c.offsetParent !== null); if (!kids.length) return 0;
+    const top = el.getBoundingClientRect().top; return Math.max(...kids.map(c => c.getBoundingClientRect().bottom)) - top; };
+  const mainH = contentH(main);
+  const order = boxes.map((b, i) => [b, +b.dataset.p || 1, i]).sort((a, b) => a[1] - b[1] || b[2] - a[2]);
+  let shown = boxes.length;
+  for (const [b] of order){
+    if (shown <= 1 || contentH(aside) <= mainH + 2) break;
+    b.hidden = true; shown--;
+  }
+  const chips = $('#chipsBar'), chipsH = chips && getComputedStyle(chips).display !== 'none' && getComputedStyle(chips).position === 'sticky' ? chips.offsetHeight : 0;
+  const offset = mastH() + chipsH + 16, h = aside.offsetHeight;
+  aside.style.top = Math.min(offset, innerHeight - h - 16) + 'px';
+}
+let fitAsideT;
+const fitAsideSoon = () => { clearTimeout(fitAsideT); fitAsideT = setTimeout(fitAside, 60); };
+if ('ResizeObserver' in window) new ResizeObserver(fitAsideSoon).observe($('#main'));
+addEventListener('resize', fitAsideSoon);
+
 
 /* =====================================================================
    13. ESTRUCTURA FIJA (encabezado, navegación, ticker, última hora, pie)

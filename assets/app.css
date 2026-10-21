@@ -374,6 +374,9 @@ a.ind-card:hover{background:var(--surface-2)}
 
 /* ===== aside ===== */
 aside{min-width:0;display:flex;flex-direction:column;gap:22px}
+/* dos columnas: el panel mide lo que su contenido y acompaña el scroll (fitAside en app.js calcula top) */
+aside.fit{align-self:start;position:sticky;top:16px}
+aside .box[hidden]{display:none}
 .box{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px}
 .box h2{font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin:0 0 12px;display:flex;justify-content:space-between;gap:8px;align-items:baseline}
 .box h2 small{font-weight:500;letter-spacing:0;text-transform:none;color:var(--muted);font-size:11.5px}
