@@ -273,6 +273,8 @@ function normalize(raw){
   const primary = (raw.sources || []).find(s => s.primary) || (raw.sources || [])[0];
   // Verificabilidad: sin título, fecha o fuente con enlace, la noticia no se publica.
   if (!raw.title || !raw.date || !primary?.url || !primary?.name) return null;
+  // Titulares automáticos sin resumen propio: no se muestran (las notas «Resumen» ya traen el texto de Comexplora).
+  if (raw.label === 'Automática') return null;
   const label = raw.label || '';
   const kind = KINDS[raw.kind] ? raw.kind : (norm(label) === 'analisis' ? 'analisis' : 'noticia');
   return {
@@ -353,6 +355,9 @@ const byDate = list => [...list].sort((a,b) => itemDate(b) - itemDate(a));
 const isBreaking = it => it.breaking && dayDiff(it) <= CONFIG.breakingWindowDays;
 const isIntl = it => it.countries.some(c => c !== 'Argentina');
 const isAuto = it => it.label === 'Automática';
+// Nota de otro medio con resumen propio de Comexplora: se lee en el sitio; no va a Destacadas.
+const isDigest = it => it.label === 'Resumen';
+const isSecondary = it => isAuto(it) || isDigest(it);
 
 function regionsOf(it){
   const set = new Set();
@@ -570,7 +575,7 @@ const metaLine = (it, { ago = false } = {}) => `<div class="meta">${srcStamp(it)
 const category = it => it.topics.find(t => t !== 'Argentina') || it.topics[0] || 'Comercio exterior';
 const eyebrow = it => `<span class="eyebrow">${esc(category(it))}</span>`;
 const kindBadge = (it, always = false) => (always || it.kind !== 'noticia') ? `<span class="kind ${esc(it.kind)}">${esc(KINDS[it.kind])}</span>` : '';
-const originBadge = it => isAuto(it) ? `<span class="kind auto" title="Titular publicado por ${esc(it.primary.name)}: se abre el artículo original">Enlace al medio</span>` : '';
+const originBadge = it => isDigest(it) ? `<span class="kind dig" title="Resumen de Comexplora de una nota publicada por ${esc(it.primary.name)}">Resumen</span>` : '';
 const extMark = it => isAuto(it) ? `<span class="ext-mark" aria-label=" (abre ${esc(it.primary.name)} en otra pestaña)">${I.ext}</span>` : '';
 const newBadge = it => state.newIds.has(it.id) ? '<span class="new">Nueva</span>' : '';
 const argFlag = it => it.affectsArgentina ? '<span class="flag-ar">Impacto en Argentina</span>' : '';
@@ -753,7 +758,7 @@ function storyCoverage(s, own){
   // Notas automáticas recientes sobre el mismo tema (sin revisión editorial): se listan aparte.
   if (!s.match.length || !own.length) return [];
   const from = Math.min(...own.map(i => +itemDate(i))) - 3 * DAY_MS;
-  return byDate(state.items.filter(i => i.label === 'Automática' && !i.story && +itemDate(i) >= from
+  return byDate(state.items.filter(i => isDigest(i) && !i.story && +itemDate(i) >= from
     && s.match.some(r => r.test(norm(i.title + ' ' + i.summary)))));
 }
 const activeStories = () => state.stories.map(s => ({ s, list: storyItems(s.id) }))
@@ -796,7 +801,7 @@ function renderHome(){
   const ranked = byScore(items);
   // Jerarquía editorial: las notas curadas (verificadas y redactadas por el sitio) van al frente;
   // las automáticas alimentan «Al minuto» y «Últimas noticias».
-  const curated = items.filter(i => !isAuto(i));
+  const curated = items.filter(i => !isSecondary(i));
   const rankedCur = byScore(curated.filter(i => dayDiff(i) <= 10));
   const hero = rankedCur[0] || ranked[0];
   const used = new Set([hero.id]);
@@ -809,7 +814,7 @@ function renderHome(){
   const perSource = new Map();
   const wire = items.filter(i => i.id !== hero.id && (perSource.set(i.primary.name, (perSource.get(i.primary.name) || 0) + 1).get(i.primary.name) <= 2)).slice(0, 6);
   const arItems = [...byDate(curated.filter(i => i.affectsArgentina && !used.has(i.id))),
-    ...items.filter(i => isAuto(i) && i.topics.includes('Argentina') && i.summary)].slice(0, 4);
+    ...items.filter(i => isDigest(i) && i.topics.includes('Argentina') && i.summary)].slice(0, 4);
   const arInd = ['arg-expo','arg-impo','arg-saldo'].map(id => state.indicators.find(d => d.id === id)).filter(Boolean);
   const PRIO = ['tc-mayorista','soja','brent','wci','arg-saldo','arg-expo','maiz','iata'];
   const mainInd = [...PRIO.map(id => state.indicators.find(d => d.id === id)), ...state.indicators]
@@ -1079,7 +1084,7 @@ function renderArticle(it){
   const mins = Math.max(1, Math.round(words / 200));
   const auto = isAuto(it);
   const saved = store.get('comex.saved', []).includes(it.id);
-  const related = state.items.filter(o => o.id !== it.id && !isAuto(o))
+  const related = state.items.filter(o => o.id !== it.id && !isSecondary(o))
     .map(o => ({ o, s: o.topics.filter(t => it.topics.includes(t)).length * 2 + o.countries.filter(c => it.countries.includes(c) && c !== 'Global').length + o.tags.filter(t => it.tags.includes(t)).length * 3 + (Math.abs(dayDiff(o) - dayDiff(it)) <= 7 ? 1 : 0) }))
     .filter(x => x.s > 1).sort((a,b) => b.s - a.s || itemDate(b.o) - itemDate(a.o)).slice(0,4).map(x => x.o);
   const url = shareUrl(it), t = encodeURIComponent(it.title), u = encodeURIComponent(url);
@@ -1093,9 +1098,9 @@ function renderArticle(it){
       <a class="src-main" href="${esc(it.primary.url)}" target="_blank" rel="noopener noreferrer"><span class="k">Fuente</span><b>${esc(it.primary.name)} ${I.ext}</b><span class="note">${esc(it.primary.type || '')}</span></a>
       <dl class="srcbar-dl">
       ${it.primary.author ? `<div><dt>Autor</dt><dd>${esc(it.primary.author)}</dd></div>` : ''}
-      <div><dt>${isAuto(it) ? 'Publicada por la fuente' : 'Fecha'}</dt><dd><time itemprop="datePublished" datetime="${esc(it.datetime || it.date)}">${esc(cap(fmtDay.format(itemDate(it))))}</time></dd></div>
+      <div><dt>${isSecondary(it) ? 'Publicada por la fuente' : 'Fecha'}</dt><dd><time itemprop="datePublished" datetime="${esc(it.datetime || it.date)}">${esc(cap(fmtDay.format(itemDate(it))))}</time></dd></div>
       <div><dt>Hora</dt><dd>${esc(timeLabel(it))}</dd></div>
-      ${isAuto(it) && it.firstSeen ? `<div><dt>Captada por Comexplora</dt><dd><time datetime="${esc(it.firstSeen)}">${esc(shortDate(new Date(it.firstSeen)))} ${esc(fmtTime.format(new Date(it.firstSeen)))} h</time></dd></div>` : ''}
+      ${isSecondary(it) && it.firstSeen ? `<div><dt>Captada por Comexplora</dt><dd><time datetime="${esc(it.firstSeen)}">${esc(shortDate(new Date(it.firstSeen)))} ${esc(fmtTime.format(new Date(it.firstSeen)))} h</time></dd></div>` : ''}
       ${it.updated ? `<div><dt>Actualizada</dt><dd><time itemprop="dateModified" datetime="${esc(it.updated)}">${esc(shortDate(new Date(it.updated)))} ${esc(fmtTime.format(new Date(it.updated)))} h</time></dd></div>` : ''}
       <div><dt>Países</dt><dd>${esc(it.countries.join(', '))}</dd></div>
       <div><dt>Impacto</dt><dd>${impactMeter(it)}</dd></div>
@@ -1104,7 +1109,7 @@ function renderArticle(it){
     </div>
     <div class="art article-media">${media(it, 1200, { eager:true })}</div>
     <p class="credit" id="photoCredit">${photoCredit(photoFor(it))}</p>
-    ${isAuto(it) ? `<p class="prov auto"><b>Nota automática.</b> El título y el extracto provienen del feed de ${esc(it.primary.name)}; no pasó por la revisión de la redacción. Verificá los datos en el artículo original.</p>` : `<p class="prov"><b>Nota de la redacción.</b> Resumen propio, verificado contra las fuentes que se enlazan al pie; las cifras y declaraciones pertenecen a esas fuentes.</p>`}
+    ${isAuto(it) ? `<p class="prov auto"><b>Nota automática.</b> El título y el extracto provienen del feed de ${esc(it.primary.name)}; no pasó por la revisión de la redacción. Verificá los datos en el artículo original.</p>` : isDigest(it) ? `<p class="prov dig"><b>Resumen de Comexplora.</b> Redacción propia de la nota que publicó ${esc(it.primary.name)}, revisada contra el artículo original; los datos y las declaraciones pertenecen a esa fuente.</p>` : `<p class="prov"><b>Nota de la redacción.</b> Resumen propio, verificado contra las fuentes que se enlazan al pie; las cifras y declaraciones pertenecen a esas fuentes.</p>`}
     ${explainerBlock(it, gl)}
     ${impactBlock(it)}
     ${auto ? `<div class="prose auto-prose" itemprop="articleBody">${it.body.length ? it.body.map(p => `<p>${gl(p)}</p>`).join('') : ''}${it.summary || it.body.length ? `<p class="note more-src">Este es el extracto que publica ${esc(it.primary.name)}. La nota completa está en el sitio del medio.</p>` : `<p class="note no-sum">Esta nota llegó por un agregador sin resumen: solo mostramos el titular. El texto completo está en ${esc(it.primary.name)}.</p>`}</div>`
@@ -1129,7 +1134,7 @@ function renderArticle(it){
     </div>
     <section class="srcs" aria-labelledby="h-srcs"><h2 class="panel-h" id="h-srcs">Fuentes consultadas</h2><ol>${it.sources.filter(s => !s.alsoIn).map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.name)}</a>${s.author ? `, ${esc(s.author)}` : ''} <span class="t">· ${esc(s.type || 'Fuente')}${s.primary ? ' · fuente principal' : ''}</span></li>`).join('')}</ol></section>
     <div class="tags-block"><span class="note">Etiquetas</span><div class="tagrow" style="margin-top:6px">${[...it.tags.map(x => `<button type="button" data-tag="${esc(x)}">#${esc(x)}</button>`), ...it.topics.map(x => `<button type="button" data-topic="${esc(x)}">${esc(x)}</button>`), ...it.countries.filter(c=>c!=='Global').map(c => `<button type="button" data-country="${esc(c)}">${esc(c)}</button>`)].join('')}</div></div>
-    <p class="disclaimer">${it.kind === 'analisis' ? 'Este contenido resume un <b>análisis de terceros</b>: las interpretaciones pertenecen a la fuente citada, no a la redacción. ' : ''}${isAuto(it) ? 'Título y extracto tomados del feed público de la fuente, sin edición.' : 'Resumen elaborado por la redacción de Comexplora.'} Para el texto completo y oficial, consultá el artículo original. Las fotos de archivo son ilustrativas y no corresponden al hecho. ¿Encontraste un error? Escribinos desde <a href="#contacto">Contacto</a>.</p>
+    <p class="disclaimer">${it.kind === 'analisis' ? 'Este contenido resume un <b>análisis de terceros</b>: las interpretaciones pertenecen a la fuente citada, no a la redacción. ' : ''}${isAuto(it) ? 'Título y extracto tomados del feed público de la fuente, sin edición.' : isDigest(it) ? `Resumen elaborado por Comexplora a partir de la nota de ${esc(it.primary.name)}.` : 'Resumen elaborado por la redacción de Comexplora.'} Para el texto completo y oficial, consultá el artículo original. Las fotos de archivo son ilustrativas y no corresponden al hecho. ¿Encontraste un error? Escribinos desde <a href="#contacto">Contacto</a>.</p>
     ${newsletterBox('band')}
     ${related.length ? `<section class="related" aria-labelledby="h-rel"><h2 id="h-rel">También puede interesarte</h2><div class="cards ${related.length === 4 ? 'two' : ''}">${related.map(card).join('')}</div></section>` : ''}
   </article>`;

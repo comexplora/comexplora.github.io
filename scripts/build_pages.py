@@ -187,7 +187,37 @@ def category(it):
 
 
 def is_auto(it):
+    """Titular automático sin resumen propio: no se muestra en el sitio (su dirección vieja lleva al medio)."""
     return it.get('label') == 'Automática'
+
+
+def is_digest(it):
+    """Nota de otro medio con resumen propio de Comexplora: se lee en el sitio, con la fuente enlazada."""
+    return it.get('label') == 'Resumen'
+
+
+def is_secondary(it):
+    """Todo lo que no es una nota larga de la redacción (no va a Destacadas ni lleva imagen propia para redes)."""
+    return is_auto(it) or is_digest(it)
+
+
+def split_items(raw):
+    """Separa lo que se muestra de lo que no. Una automática con "digest" (resumen propio verificado) pasa a
+    mostrarse como nota «Resumen» con su página; una automática sin resumen queda oculta."""
+    shown, hidden = [], []
+    for it in raw:
+        if not is_auto(it):
+            shown.append(it)
+            continue
+        dg = it.get('digest') or {}
+        body = [b for b in dg.get('body') or [] if isinstance(b, str) and b.strip()]
+        if dg.get('lead') and body:
+            x = dict(it)
+            x.update(label='Resumen', summary=dg['lead'], body=body)
+            shown.append(x)
+        else:
+            hidden.append(it)
+    return shown, hidden
 
 
 def meta_block(*, title, desc, url, image, image_alt, og_type='website', robots='index,follow,max-image-preview:large',
@@ -256,13 +286,16 @@ def prerender_article(it, img, img_alt, source_img):
     auto = is_auto(it)
     body = it.get('body') or ([] if auto else ([it['summary']] if it.get('summary') else []))
     lede = it.get('summary') if not (auto and it.get('body')) else ''
+    prov = ('Nota automática: título y extracto del feed de la fuente, sin revisión de la redacción.' if auto else
+            f'Resumen de Comexplora de la nota publicada por {esc(p.get("name"))}: redacción propia; los datos pertenecen a la fuente.' if is_digest(it) else
+            'Nota de la redacción, verificada contra las fuentes enlazadas.')
     credit = f'Imagen: {esc(p.get("name"))}' if source_img else 'Foto de archivo ilustrativa'
     return f'''    <article class="pre-article">
       <p class="pre-meta"><a href="../../">Noticias</a> · {esc(category(it))} · <time datetime="{esc(it.get('datetime') or it.get('date'))}">{fmt_day(item_dt(it))}</time></p>
       <h1>{esc(it['title'])}</h1>
       {f'<p class="lede">{esc(lede)}</p>' if lede else ''}
       <p class="pre-meta">Fuente: <a href="{esc(p.get('url'))}" rel="noopener noreferrer">{esc(p.get('name'))}</a></p>
-      <p class="pre-meta">{'Nota automática: título y extracto del feed de la fuente, sin revisión de la redacción.' if is_auto(it) else 'Nota de la redacción, verificada contra las fuentes enlazadas.'}</p>
+      <p class="pre-meta">{prov}</p>
       <img src="{esc(img)}" alt="{esc(img_alt)}" width="1200" height="675"{' referrerpolicy="no-referrer"' if source_img else ''}>
       <p class="pre-meta">{credit}</p>
       {explainer_html(it)}
@@ -345,10 +378,10 @@ def render(template, *, meta, prerender, feed, bank, version, base='', sitedata=
 def home_prerender(items, base=''):
     """Portada visible sin JavaScript (buscadores y vistas previas): primero las notas curadas, después
     los titulares automáticos, con un máximo de dos por medio para que ninguno acapare la lista."""
-    curated = [i for i in items if not is_auto(i)][:10]
+    curated = [i for i in items if not is_secondary(i)][:10]
     per, auto = {}, []
     for i in items:
-        if is_auto(i):
+        if is_secondary(i):
             n = per[primary(i).get('name')] = per.get(primary(i).get('name'), 0) + 1
             if n <= 2:
                 auto.append(i)
@@ -401,7 +434,7 @@ def tool_body(key, news, items, sitedata, base):
         today = NOW.astimezone(TZ).date().isoformat()
         rows = []
         for it in items:
-            if is_auto(it):
+            if is_secondary(it):
                 continue
             for d in it.get('deadlines') or []:
                 if str(d.get('date', '')) >= today[:len(str(d.get('date', '')))]:
@@ -533,7 +566,7 @@ TOOLS_INDEXED = {'datos', 'agenda', 'glosario', 'calculadora', 'exportacion', 'g
 def build_static_pages(template, news, items, bank, version, sitedata, tax):
     """Genera /seccion/<slug>/, /tema/<id>/ y las herramientas. Devuelve [(ruta, lastmod)] para el sitemap."""
     out, keep = [], set()
-    curated = [i for i in items if not is_auto(i)]
+    curated = [i for i in items if not is_secondary(i)]
     updated = news.get('updatedAt') or NOW.isoformat()
 
     def write(rel, page):
@@ -572,7 +605,7 @@ def build_static_pages(template, news, items, bank, version, sitedata, tax):
             f'{title}: noticias de comercio exterior', sec.get('desc', ''),
             siblings + ('<h2>Últimas noticias</h2>' + headline_list(lst, base) if lst else '<p>Todavía no hay noticias en esta sección.</p>'),
             crumb=trail, base=base)
-        feed_items = (sorted([i for i in lst if not is_auto(i)], key=item_dt, reverse=True) + [i for i in lst if is_auto(i)])[:60]
+        feed_items = (sorted([i for i in lst if not is_secondary(i)], key=item_dt, reverse=True) + [i for i in lst if is_secondary(i)])[:60]
         write(rel, page_for(rel, f'{title} · Noticias de comercio exterior', sec.get('desc', ''), body, feed_items,
                             'index,follow' if indexed else 'noindex,follow', crumbs))
         if indexed:
@@ -640,6 +673,7 @@ def main():
     sitedata = site_data(news)
     tax = Taxonomy.load()
     items = sorted([i for i in news.get('items', []) if i.get('id') and i.get('title')], key=item_dt, reverse=True)
+    items, hidden = split_items(items)  # las automáticas sin resumen propio no se muestran
     version = hashlib.sha1(b''.join((ROOT / f).read_bytes() for f in ('assets/app.js', 'assets/app.css', 'assets/calc-core.js'))).hexdigest()[:10]
     up = parse_date(news.get('updatedAt')) or NOW
     up_local = up.astimezone(TZ)
@@ -653,13 +687,13 @@ def main():
     og_map = {}
     if og_images:
         try:
-            og_map = og_images.build([i for i in items if not is_auto(i)], category, SITE.split('://', 1)[-1])
+            og_map = og_images.build([i for i in items if not is_secondary(i)], category, SITE.split('://', 1)[-1])
         except Exception as e:   # una falla en las imágenes no frena la publicación
             print(f'Aviso: no se pudieron generar las imágenes para redes ({e}).')
 
     # Feed para la página: todas las curadas + las automáticas más recientes, con tope.
-    curated = [i for i in items if not is_auto(i)]
-    latest = sorted(curated + [i for i in items if is_auto(i)][:max(0, LATEST_MAX - len(curated))], key=item_dt, reverse=True)
+    curated = [i for i in items if not is_secondary(i)]
+    latest = sorted(curated + [i for i in items if is_secondary(i)][:max(0, LATEST_MAX - len(curated))], key=item_dt, reverse=True)
     # Conteo del encabezado: mismas notas y misma regla que la página (data/latest.json, días de calendario).
     ddiff = lambda i: (hoy.date() - (date.fromisoformat(i['date'][:10]) if i.get('date') else item_dt(i).astimezone(TZ).date())).days
     week = sum(1 for i in latest if ddiff(i) <= 7)
@@ -675,7 +709,7 @@ def main():
         {'@type': 'WebSite', '@id': f'{SITE}/#web', 'name': SITE_NAME, 'url': f'{SITE}/', 'inLanguage': 'es-AR', 'publisher': {'@id': f'{SITE}/#org'},
          'potentialAction': {'@type': 'SearchAction', 'target': f'{SITE}/#buscar?q={{q}}', 'query-input': 'required name=q'}}]}
     # Feed embebido: primero las curadas recientes (así la portada arma su jerarquía antes de leer latest.json).
-    inline = sorted(curated[:INLINE_MAX // 2] + [i for i in items if is_auto(i)][:INLINE_MAX // 2], key=item_dt, reverse=True)
+    inline = sorted(curated[:INLINE_MAX // 2] + [i for i in items if is_secondary(i)][:INLINE_MAX // 2], key=item_dt, reverse=True)
     home = render(template, meta=meta_block(title=HOME_TITLE, desc=HOME_DESC, url=f'{SITE}/', image=OG_DEFAULT,
                                             image_alt='Comexplora · Noticias de Comercio Exterior', ld=org_ld, image_size=(1200, 630)),
                   prerender=lambda inner: home_prerender(items), feed=feed_payload(news, inline), bank=bank, version=version,
@@ -695,7 +729,9 @@ def main():
     out_dir = ROOT / 'noticias'
     out_dir.mkdir(exist_ok=True)
     ids = set()
-    for it in items:
+    for it in items + hidden:
+        if it['id'] in ids:
+            continue
         ids.add(it['id'])
         url = f'{SITE}/noticias/{it["id"]}/'
         if is_auto(it):

@@ -752,9 +752,10 @@ class CuratedIndex:
 
 # ---------------------------------------------------------------- agrupamiento de automáticas
 def item_score(it: dict) -> tuple:
-    """Cuál nota de un grupo queda como principal: con resumen, con foto, de un medio propio (no agregador), la primera."""
+    """Cuál nota de un grupo queda como principal: con resumen propio de Comexplora, con extracto, con foto,
+    de un medio propio (no agregador), la primera."""
     src = (it.get('sources') or [{}])[0]
-    return (1 if clean_summary(it.get('summary', '')) else 0, 1 if it.get('photo') else 0,
+    return (1 if (it.get('digest') or {}).get('body') else 0, 1 if clean_summary(it.get('summary', '')) else 0, 1 if it.get('photo') else 0,
             0 if 'vía' in src.get('type', '') else 1,
             -(parse_date(it.get('datetime') or it.get('date')) or NOW).timestamp())
 
@@ -1113,7 +1114,7 @@ def main():
             if photo:
                 item['photo'] = photo
             if old:  # conserva lo que agregaron el agrupamiento y la resolución de Google Noticias
-                for k in ('mergedIds', 'aliasUrls', 'gnUrl', 'gnTried'):
+                for k in ('mergedIds', 'aliasUrls', 'gnUrl', 'gnTried', 'digest', 'digestSkip'):  # digest: resumen propio de Comexplora
                     if old.get(k):
                         item[k] = old[k]
                 item['sources'] += [s for s in old.get('sources') or [] if s.get('alsoIn')]
