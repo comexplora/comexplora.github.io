@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-10-21T10:01:19Z",
+  "updatedAt": "2026-10-21T14:04:16Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -142,7 +142,7 @@
       "obsDate": "2026-10-20",
       "change": "+0,1% vs. día hábil anterior",
       "trend": "up",
-      "checkedAt": "2026-10-21T02:02:34Z",
+      "checkedAt": "2026-10-21T14:05:17Z",
       "history": [
         [
           "2026-09-08",
@@ -267,27 +267,26 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-21T10:01:54Z",
-      "lastError": "HTTP Error 500: Internal Server Error"
+      "lastAttempt": "2026-10-21T14:05:17Z"
     },
     {
       "id": "soja",
       "label": "Soja · precio pizarra Rosario",
-      "value": "$ 552.000/t",
-      "period": "Rosario · 19 oct 2026 · US$ 364,24/t",
+      "value": "$ 550.000/t",
+      "period": "Rosario · 20 oct 2026 · US$ 362,80/t",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "group": "Mercados",
-      "obsDate": "2026-10-19",
-      "change": "0,0% vs. pizarra anterior",
-      "trend": "flat",
+      "obsDate": "2026-10-20",
+      "change": "-0,4% vs. pizarra anterior",
+      "trend": "down",
       "_last": {
-        "date": "2026-10-19",
-        "ars": 552000.0
+        "date": "2026-10-20",
+        "ars": 550000.0
       },
-      "checkedAt": "2026-10-21T10:01:54Z",
+      "checkedAt": "2026-10-21T14:05:18Z",
       "_prev": {
-        "date": "2026-10-16",
+        "date": "2026-10-19",
         "ars": 552000.0
       },
       "history": [
@@ -334,11 +333,15 @@
         [
           "2026-10-19",
           552000.0
+        ],
+        [
+          "2026-10-20",
+          550000.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-21T10:01:54Z"
+      "lastAttempt": "2026-10-21T14:05:18Z"
     },
     {
       "id": "brent",
@@ -351,7 +354,7 @@
       "obsDate": "2026-10-14",
       "change": "+0,6% vs. día anterior",
       "trend": "up",
-      "checkedAt": "2026-10-21T10:01:57Z",
+      "checkedAt": "2026-10-21T14:05:22Z",
       "history": [
         [
           "2026-09-03",
@@ -476,27 +479,27 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-10-21T10:01:57Z"
+      "lastAttempt": "2026-10-21T14:05:22Z"
     },
     {
       "id": "maiz",
       "label": "Maíz · precio pizarra Rosario",
-      "value": "$ 281.800/t",
+      "value": "$ 279.000/t",
       "group": "Mercados",
-      "period": "Rosario · 19 oct 2026 · US$ 185,95/t",
-      "obsDate": "2026-10-19",
-      "change": "-1,1% vs. pizarra anterior",
+      "period": "Rosario · 20 oct 2026 · US$ 184,04/t",
+      "obsDate": "2026-10-20",
+      "change": "-1,0% vs. pizarra anterior",
       "trend": "down",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
+        "date": "2026-10-20",
+        "ars": 279000.0
+      },
+      "checkedAt": "2026-10-21T14:05:22Z",
+      "_prev": {
         "date": "2026-10-19",
         "ars": 281800.0
-      },
-      "checkedAt": "2026-10-21T10:01:57Z",
-      "_prev": {
-        "date": "2026-10-16",
-        "ars": 285000.0
       },
       "history": [
         [
@@ -542,31 +545,35 @@
         [
           "2026-10-19",
           281800.0
+        ],
+        [
+          "2026-10-20",
+          279000.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-21T10:01:57Z"
+      "lastAttempt": "2026-10-21T14:05:22Z"
     },
     {
       "id": "trigo",
       "label": "Trigo · precio pizarra Rosario",
-      "value": "$ 354.600/t",
+      "value": "$ 344.100/t",
       "group": "Mercados",
-      "period": "Rosario · 19 oct 2026 · US$ 233,98/t",
-      "obsDate": "2026-10-19",
-      "change": "+0,5% vs. pizarra anterior",
-      "trend": "up",
+      "period": "Rosario · 20 oct 2026 · US$ 226,98/t",
+      "obsDate": "2026-10-20",
+      "change": "-3,0% vs. pizarra anterior",
+      "trend": "down",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
+        "date": "2026-10-20",
+        "ars": 344100.0
+      },
+      "checkedAt": "2026-10-21T14:05:22Z",
+      "_prev": {
         "date": "2026-10-19",
         "ars": 354600.0
-      },
-      "checkedAt": "2026-10-21T10:01:57Z",
-      "_prev": {
-        "date": "2026-10-16",
-        "ars": 353000.0
       },
       "history": [
         [
@@ -612,479 +619,613 @@
         [
           "2026-10-19",
           354600.0
+        ],
+        [
+          "2026-10-20",
+          344100.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-21T10:01:57Z"
+      "lastAttempt": "2026-10-21T14:05:22Z"
     }
   ],
   "items": [
     {
-      "id": "newcastle-santa-catarina-mexico-suspende-pollo-brasil-china-regionaliza",
-      "date": "2026-10-20",
-      "datetime": "2026-10-20T14:34:00-03:00",
-      "kind": "noticia",
-      "title": "Foco de Newcastle en Santa Catarina: México suspende todo el pollo de Brasil y China, Chile y Paraguay cierran solo al estado afectado",
-      "summary": "Brasil confirmó la enfermedad en una granja de unos 6.000 pavos en Nova Itaberaba. México frenó las compras avícolas de todo el país, mientras China, Chile y Paraguay aplicaron restricciones limitadas a Santa Catarina, que concentra cerca del 23% de las exportaciones avícolas brasileñas.",
+      "id": "rusia-enviara-su-primer-buque-cargado-con-diesel-hacia-estados-unidos-tras-acuer",
+      "datetime": "2026-10-21T14:00:30Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T14:04:16Z",
+      "title": "Rusia enviará su primer buque cargado con diésel hacia Estados Unidos tras acuerdo con Trump",
+      "summary": "Rusia enviará su primer buque tanque con diésel hacia Estados Unidos, según declaró el viceprimer…",
+      "body": [],
+      "keyData": [],
       "topics": [
-        "Latinoamérica",
-        "Exportaciones",
-        "Importaciones",
-        "Regulaciones",
-        "China"
+        "Tratados y acuerdos",
+        "Transporte marítimo",
+        "Estados Unidos",
+        "Europa"
       ],
       "countries": [
-        "Brasil",
-        "México",
-        "China",
-        "Chile",
-        "Paraguay",
+        "Estados Unidos",
+        "Rusia"
+      ],
+      "tags": [
+        "Estados Unidos"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/rusia-enviara-su-primer-buque-cargado-con-diesel-hacia-estados-unidos-tras-acuerdo-con-trump/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "vaca-muerta-como-impacta-la-nueva-logistica-petrolera-debido-a-la-escalada-de-te",
+      "datetime": "2026-10-21T13:45:39Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T14:04:16Z",
+      "title": "Vaca Muerta: Cómo impacta la nueva logística petrolera debido a la escalada de tensión en el estrecho de Ormuz",
+      "summary": "En el caso del Medanito, en la jornada del lunes en Puertos Rosales se registraron descuentos de US$ 8,5 por barril contra los contratos futuros (M2 y M3) de",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Logística",
+        "Transporte marítimo"
+      ],
+      "countries": [
         "Argentina"
       ],
       "tags": [
-        "Newcastle",
-        "Sanidad animal",
-        "Carne aviar",
-        "Pollo",
-        "Pavo",
-        "Senasica",
-        "MAPA",
-        "Regionalización"
+        "Energía"
       ],
-      "visual": "livestock",
-      "impact": 2,
+      "visual": "tanker",
+      "impact": 1,
       "affectsArgentina": true,
-      "argentinaNote": "Brasil es el mayor exportador mundial de carne de pollo y competidor directo de la Argentina en mercados como China, México y Chile. Las fuentes consultadas no informan, al cierre de esta nota, medidas del Senasa argentino; en el foco de 2024 en Rio Grande do Sul, la Argentina figuró entre los destinos con certificación suspendida.",
-      "argentinaImpact": {
-        "change": "Un competidor regional pierde temporalmente parte de sus mercados: México cerró a todo Brasil y China, Chile y Paraguay a Santa Catarina.",
-        "who": "Exportadores argentinos de carne aviar, importadores de productos avícolas y material genético de Brasil.",
-        "sectors": [
-          "Avicultura",
-          "Alimentos"
-        ],
-        "flows": {
-          "importaciones": true,
-          "exportaciones": true,
-          "logistica": false,
-          "aranceles": false
-        }
-      },
-      "body": [
-        "El Ministerio de Agricultura y Pecuaria de Brasil (MAPA) confirmó un foco de enfermedad de Newcastle en una granja comercial de pavos de engorde en Nova Itaberaba, en el oeste de Santa Catarina. El diagnóstico salió del Laboratorio Federal de Defensa Agropecuaria de São Paulo el 18 de octubre y el ministerio lo hizo público el lunes 19. En el establecimiento había unas 6.000 aves, que serán sacrificadas; según el gobierno brasileño, ningún animal salió de la propiedad. Las restricciones de los compradores llegaron en menos de 48 horas.",
-        "La reacción más dura fue la de México: la Secretaría de Agricultura y Desarrollo Rural, a través del Senasica, suspendió por tiempo indefinido la importación de carne y despojos de aves, huevo fértil y pollitos de hasta tres días, entre otros productos, desde todo Brasil. China, Chile y Paraguay, en cambio, limitaron sus restricciones a Santa Catarina.",
-        "## Qué se sabe del foco",
-        "Según aviNews, el virus apareció durante la vigilancia activa de la Cidasc, el organismo sanitario catarinense, en aves que no mostraban signos clínicos. El paraguayo ABC Color, citando al MAPA, precisó que 26 aves dieron positivo y que Brasil declaró una emergencia sanitaria por 60 días. La zona de vigilancia abarca 133 granjas en cuatro municipios: Nova Itaberaba, Nova Erechim, Coronel Freitas y Águas Frias. Las autoridades interdictaron la granja, suspendieron el movimiento de aves y aplicaron el plan de contingencia para influenza aviar y Newcastle.",
-        "Hay una diferencia entre las fuentes sobre el tipo de establecimiento. El Senasica mexicano habló de una granja de pollos de engorde, mientras que el MAPA, Metrópoles, CompreRural y aviNews informan que se trata de pavos. El último antecedente en Brasil fue en julio de 2024, en una granja de pollos de Anta Gorda (Rio Grande do Sul); en ese caso, el gobierno suspendió preventivamente la certificación de exportaciones a 44 países, según Metrópoles.",
-        "## Quién cerró y con qué alcance",
-        "México dio de baja en su plataforma las hojas de requisitos zoosanitarios para los productos avícolas brasileños. La medida alcanza a las importaciones comerciales y a lo que traigan los viajeros, e incluye aves de ornato, canoras, rapaces y mascotas. El organismo justificó la decisión en la necesidad de preservar el estatus de país libre de Newcastle de alta gravedad, reconocido desde 2015, y aclaró que reabrirá cuando Brasil presente evidencia de que el brote está controlado.",
-        "China, el principal comprador del pollo brasileño, suspendió solo la carne de aves de Santa Catarina, en un esquema de regionalización negociado con Brasil que el MAPA confirmó el martes 20. Según CompreRural, China recibió cerca del 10% de las exportaciones brasileñas de carne de pollo entre enero y septiembre, unas 420.000 toneladas, y Brasil tiene 61 plantas habilitadas para ese destino. El ministerio sostuvo que su gestión evitó un cierre para todo el territorio.",
-        "Chile restringió los productos de Santa Catarina, con una lista amplia que incluye huevos fértiles y SPF, pollitos de un día y carne fresca de aves. En Paraguay, el Senacsa dictó la Resolución Administrativa 1715, que prohíbe temporalmente el ingreso de aves vivas, huevos fértiles y material genético desde ese estado; el organismo recordó que Paraguay está libre de la enfermedad desde 1997.",
-        "## El peso de Santa Catarina",
-        "Santa Catarina es el segundo exportador brasileño de carne de pollo, detrás de Paraná. Según ABC Color, el estado aporta el 23% de las exportaciones de carne aviar de Brasil y el 60% de su producción de pavo; el 23% coincide con el dato que El Financiero citó para 2026. Safras Consultoria consideró, en un comunicado del 19 de octubre, que el efecto sobre el mercado interno brasileño sería limitado y temporal, con más oferta regional y posibles presiones sobre el precio mayorista de pollo y pavo, y señaló a China como la variable clave.",
-        "Desde la industria, Ricardo Santin, presidente de la Asociación Brasileña de Proteína Animal (ABPA), describió el caso como aislado y pidió protocolos de regionalización con un radio de 10 kilómetros alrededor de la granja, para evitar cierres más amplios. También afirmó que hay existencias suficientes para el fin de año y que la producción se redirigirá a los mercados que sigan abiertos.",
-        "## Qué mirar desde la Argentina",
-        "Brasil es el mayor exportador mundial de carne de pollo, de modo que cualquier cierre de mercados reordena la oferta regional. En México, según especialistas consultados por medios locales, los importadores recurrirían a Estados Unidos mientras dure la suspensión. Las fuentes consultadas no informan, al cierre de esta nota, medidas del Senasa argentino respecto de este foco. En el episodio de 2024, la Argentina figuró, junto con China, la Unión Europea y México, entre los destinos con certificación suspendida, según Bichos de Campo.",
-        "La duración de las restricciones todavía no está definida: CompreRural señala que los plazos y los procedimientos para reanudar los embarques dependen de las negociaciones con cada comprador. Brasil notificó el caso a la Organización Mundial de Sanidad Animal (OMSA), y el MAPA dijo que seguirá en contacto con las autoridades sanitarias de los países compradores y monitoreando los demás mercados."
-      ],
-      "keyData": [
-        [
-          "Aves en la granja afectada",
-          "Unas 6.000 (pavos)"
-        ],
-        [
-          "Granjas bajo vigilancia",
-          "133, en cuatro municipios"
-        ],
-        [
-          "Peso de Santa Catarina",
-          "23% de las exportaciones avícolas de Brasil"
-        ],
-        [
-          "México",
-          "Suspensión de todo Brasil, por tiempo indefinido"
-        ],
-        [
-          "China",
-          "Suspensión solo de Santa Catarina"
-        ],
-        [
-          "Exportaciones a China (ene–sep)",
-          "Unas 420.000 t, cerca del 10%"
-        ],
-        [
-          "Emergencia sanitaria",
-          "60 días"
-        ]
-      ],
-      "explainer": {
-        "what": "Brasil confirmó Newcastle en una granja de unos 6.000 pavos en Santa Catarina y México suspendió las importaciones avícolas de todo Brasil.",
-        "why": "Brasil es el mayor exportador mundial de pollo: China, Chile y Paraguay cerraron solo a Santa Catarina, que aporta el 23% de sus exportaciones avícolas, y eso reordena la oferta en la región.",
-        "who": "Exportadores e importadores de carne aviar, huevos fértiles y material genético; frigoríficos avícolas de la región.",
-        "products": [
-          "Carne de pollo",
-          "Carne de pavo",
-          "Despojos avícolas",
-          "Huevos fértiles",
-          "Pollitos de un día"
-        ],
-        "next": "México reabrirá cuando Brasil entregue evidencia de que el brote está controlado; la duración de las demás restricciones depende de las negociaciones con cada comprador.",
-        "nextSource": {
-          "name": "Maya Comunicación",
-          "url": "https://mayacomunicacion.com.mx/mexico-cierra-pollo-brasil-newcastle/"
-        }
-      },
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
       "sources": [
         {
-          "name": "Metrópoles",
-          "type": "Medio de comunicación",
-          "url": "https://www.metropoles.com/brasil/apos-foco-de-newcastle-china-interrompe-importacao-de-frango-apenas-de-sc",
-          "primary": true
-        },
-        {
-          "name": "CompreRural",
-          "type": "Medio especializado",
-          "url": "https://www.comprerural.com/china-suspende-importacoes-de-frango-de-santa-catarina-apos-foco-de-newcastle-embargo-nacional-e-evitado/"
-        },
-        {
-          "name": "N+ (Senasica)",
-          "type": "Medio de comunicación",
-          "url": "https://www.nmas.com.mx/salud/suspenden-entrada-a-mexico-de-carne-avicola-procedente-de-brasil-por-enfermedad-de-newcastle/"
-        },
-        {
-          "name": "Maya Comunicación",
-          "type": "Medio de comunicación",
-          "url": "https://mayacomunicacion.com.mx/mexico-cierra-pollo-brasil-newcastle/"
-        },
-        {
-          "name": "aviNews",
-          "type": "Medio especializado",
-          "url": "https://avinews.com/brasil-confirma-newcastle-en-una-explotacion-comercial-de-pavos/"
-        },
-        {
-          "name": "ABC Color",
-          "type": "Medio de comunicación",
-          "url": "https://www.abc.com.py/economia/2026/10/20/senacsa-prohibe-importacion-de-aves-y-derivados-desde-santa-catarina-por-enfermedad-de-newcastle/"
-        },
-        {
-          "name": "CompreRural (Safras)",
-          "type": "Medio especializado",
-          "url": "https://comprerural.com/newcastle-em-sc-pode-afetar-exportacoes-de-aves-e-pressionar-precos-alerta-safras/"
-        },
-        {
-          "name": "Boca",
-          "type": "Medio de comunicación",
-          "url": "https://boca.com.br/agronegocio/industria-de-aves-defende-protocolos-apos-casos-de-doenca-em-sc"
-        },
-        {
-          "name": "Bichos de Campo (2024)",
-          "type": "Medio especializado",
-          "url": "https://bichosdecampo.com/brasil-suspende-exportaciones-de-carne-aviar-hacia-china-europa-y-la-argentina-al-detectar-un-brote-de-la-enfermedad-de-newcastle"
+          "name": "EconoJournal",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://econojournal.com.ar/oilgas/vaca-muerta-la-nueva-logistica-petrolera-por-el-estrecho-de-ormuz-encarece-los-fletes-globales-y-fuerza-descuentos-en-los-crudos-sudamericanos-como-el-medanito/",
+          "primary": true,
+          "author": ""
         }
       ],
-      "absorbs": [
-        "mexico-suspendio-las-importaciones-avicolas-de-brasil-por-un-brote-de-newcastle"
-      ]
+      "gnTried": "2026-10-21T14:04:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMioAJBVV95cUxNNklOdS1DMk9rZmV2WndoWkZXZmQxMERxQ09XSnM1V3lGd1JpbW1YbXc4Rzc0ZWh6Y0VSSmV5MDNoanBQMmRwMGRudkRBdGtiTFZqSURZN3JPaVEtY1RMZ2loaGhGWGkxZGNaZ2oyQkpLRGR4Y1FzaXZSaU16eVBwNUZwSnE2R2MwUnEzZGlOek1JUlljUjJlUFhjTXMwRXNEM2hCRnZhUFFUWGdHY0RIYUtDbzZHaGxYNW04SzhkakRWdzRFU19yc0F6eEtiY2VtRFpyTFE2S0pPUWFRUkxseXpoNTd0b0pQVFhjVGhxVnE2eWVncWNBWks1cjR4TW10bm9GaTdxODVvUmNOUDhnRXhQSHJ0N2J0QjBQTENJVWg?oc=5"
     },
     {
-      "id": "diputados-plenario-acuerdo-mercosur-aelc-efta-media-sancion-senado",
-      "date": "2026-10-20",
-      "kind": "noticia",
-      "title": "Mercosur–AELC: Diputados empezó a tratar el acuerdo con Suiza, Noruega, Islandia y Liechtenstein, que ya tiene media sanción",
-      "summary": "Las comisiones de Relaciones Exteriores y del Mercosur escucharon a la Cancillería y a diplomáticos de Noruega y Suiza. El Senado aprobó el tratado por unanimidad en agosto; Brasil ya lo aplica con Islandia y lo hará con Noruega desde el 1 de noviembre.",
+      "id": "una-consultora-especializada-en-comercio-exterior-proyecta-exportaciones-record",
+      "datetime": "2026-10-21T13:44:23Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T14:04:16Z",
+      "title": "Una consultora especializada en comercio exterior proyecta exportaciones récord de hasta USD 106.000 millones para Argentina",
+      "summary": "Mariana Camino, presidenta y CEO de ABECEB, analizó en Infobae en Vivo los factores detrás de la previsión, el impulso de cuatro sectores exportadores y los desafíos que enfrenta la industria ante la apertura económica",
+      "body": [],
+      "keyData": [],
       "topics": [
         "Argentina",
-        "Mercosur",
-        "Europa",
-        "Tratados y acuerdos",
         "Exportaciones"
       ],
       "countries": [
-        "Argentina",
-        "Suiza",
-        "Noruega",
-        "Islandia",
-        "Liechtenstein",
-        "Brasil",
-        "Uruguay",
-        "Paraguay"
+        "Argentina"
       ],
-      "tags": [
-        "AELC",
-        "EFTA",
-        "Congreso",
-        "Diputados",
-        "Ratificación",
-        "Cuotas",
-        "Vino",
-        "Indicaciones geográficas"
-      ],
-      "visual": "treaty",
-      "impact": 2,
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
       "affectsArgentina": true,
-      "argentinaNote": "Cuando entre en vigor, la AELC dará preferencias a más del 97% de las exportaciones del Mercosur, con desgravación inmediata para limones, naranjas, maní, legumbres, biodiésel y pescado, y una cuota suiza de vino con arancel cero. Falta la aprobación de Diputados.",
-      "argentinaImpact": {
-        "change": "El acuerdo con la AELC avanza en el Congreso: tiene media sanción del Senado y empezó su tratamiento en comisiones de Diputados.",
-        "who": "Exportadores de economías regionales, carnes, vino, miel y pesca; importadores de bienes industriales de Suiza y Noruega.",
-        "sectors": [
-          "Economías regionales",
-          "Carnes",
-          "Vino",
-          "Pesca",
-          "Biocombustibles"
-        ],
-        "flows": {
-          "importaciones": true,
-          "exportaciones": true,
-          "logistica": false,
-          "aranceles": true
-        }
-      },
-      "body": [
-        "Las comisiones de Relaciones Exteriores y Culto y del Mercosur de la Cámara de Diputados analizaron el martes 20 de octubre el acuerdo de libre comercio entre el Mercosur y la Asociación Europea de Libre Comercio (AELC, o EFTA por su sigla en inglés), que integran Islandia, Liechtenstein, Noruega y Suiza. El tratado llegó a la Cámara baja con media sanción: el Senado lo aprobó por unanimidad, con 65 votos, en la sesión del 27 de agosto.",
-        "La reunión la condujeron la presidenta de Relaciones Exteriores, Juliana Santillán Juárez Brahim (La Libertad Avanza), y el titular de la comisión del Mercosur, Eduardo Valdés (Unión por la Patria). La crónica no informa una fecha para el dictamen ni para la sesión.",
-        "## Qué se dijo en la reunión",
-        "Por la Cancillería expuso el embajador Fernando Brun, que mencionó que las exportaciones argentinas a la Unión Europea crecieron 21% desde la firma de ese otro acuerdo y una variación de 24% en el comercio con los países de la AELC; Parlamentario no detalla los períodos que se comparan. El embajador de Noruega, Halvor Sætre, recordó que los dos países cumplen 120 años de relaciones diplomáticas, y el encargado de negocios de Suiza, Luca Urech, señaló que su país tiene 34 acuerdos de libre comercio con 44 socios y que el tratado está en proceso de ratificación allí.",
-        "Martina Bietenhader, jefa del Swiss Business Hub en São Paulo, explicó que Suiza otorgó 25 contingentes arancelarios bilaterales para productos agrícolas sensibles. Valdés destacó que la desgravación del Mercosur será gradual y asimétrica, y el diputado Damián Arabia (LLA) celebró el acuerdo por su efecto sobre inversiones y transparencia. La crónica no registra objeciones de los legisladores.",
-        "## Qué contiene el tratado",
-        "El acuerdo se firmó el 16 de septiembre de 2025 en Río de Janeiro, después de negociaciones que empezaron en Buenos Aires en julio de 2017 y sumaron 14 rondas. Además de bienes, abarca servicios, inversiones, compras públicas, propiedad intelectual, reglas de origen, medidas sanitarias y fitosanitarias, obstáculos técnicos y desarrollo sostenible. La AELC tiene unos 15 millones de habitantes de alto poder adquisitivo y, junto con el Mercosur, forma un área de unos 283 millones de personas, según la crónica de Mirador Provincial sobre la sesión del Senado.",
-        "La AELC otorgará preferencias a más del 97% de las exportaciones del Mercosur y eliminará de inmediato los aranceles para los productos industriales. Tendrán desgravación inmediata los limones, las naranjas, el maní, ciertos aceites vegetales, las legumbres, el biodiésel y los productos pesqueros, y habrá mejor acceso para carne bovina y aviar, lácteos y miel. Suiza abrirá una cuota bilateral de 55.000 hectolitros de vino con arancel cero, y el tratado reconoce 108 indicaciones geográficas argentinas, entre ellas Patagonia y Cordero patagónico.",
-        "Del lado del Mercosur, el bloque mantuvo exclusiones y consiguió plazos de hasta 15 años para desgravar los productos industriales sensibles que lleguen desde esos países. Según el estudio Machado Meyer, el acuerdo admite la autocertificación del origen por parte del exportador y permite el tránsito y almacenamiento en terceros países sin perder las preferencias, si se cumplen los requisitos.",
-        "## Cómo van los demás países",
-        "Brasil fue el más rápido: promulgó el tratado el 23 de septiembre, con el Decreto 13.126/26, y lo aplica con Islandia desde el 1 de octubre de 2026; con Noruega empezará el 1 de noviembre. Con Suiza y Liechtenstein, la aplicación depende de que terminen sus procesos internos. El gobierno brasileño estima que el acuerdo puede sumar USD 7.200 millones a su comercio, con base en los flujos de 2024. Uruguay completó la aprobación parlamentaria en junio, y en Paraguay la comisión de Relaciones Exteriores del Senado emitió dictamen favorable el 16 de septiembre.",
-        "En Suiza, según InfoNegocios, el Consejo de los Estados lo aprobó por 35 votos a 7 y el Consejo Nacional por 118 a 66, después de un primer rechazo en junio y de un paquete de apoyo al agro; todavía puede quedar sujeto a un referéndum.",
-        "## Cuándo podría regir para la Argentina",
-        "Según la descripción del tratado difundida en el debate del Senado, el acuerdo entra en vigor el primer día del tercer mes posterior al depósito de las ratificaciones de al menos un país de cada bloque, con Noruega como depositaria y Paraguay como coordinador del Mercosur. Esa regla bilateral es la que explica la aplicación entre Brasil e Islandia. Una nota de Ámbito de junio había indicado, en cambio, que haría falta la ratificación de los cuatro socios del Mercosur. Para la Argentina, el paso pendiente es la aprobación de Diputados."
-      ],
-      "keyData": [
-        [
-          "Preferencias de la AELC",
-          "Más del 97% de las exportaciones del Mercosur"
-        ],
-        [
-          "Senado argentino",
-          "Aprobado por unanimidad (65 votos) el 27/8/2026"
-        ],
-        [
-          "Cuota suiza de vino",
-          "55.000 hl con arancel cero"
-        ],
-        [
-          "Indicaciones geográficas argentinas",
-          "108"
-        ],
-        [
-          "Plazo máximo de desgravación del Mercosur",
-          "Hasta 15 años"
-        ],
-        [
-          "Brasil–Islandia",
-          "Vigente desde el 1/10/2026"
-        ],
-        [
-          "Brasil–Noruega",
-          "Desde el 1/11/2026"
-        ]
-      ],
-      "explainer": {
-        "what": "Las comisiones de Relaciones Exteriores y del Mercosur de Diputados empezaron a analizar el acuerdo Mercosur–AELC, que el Senado aprobó por unanimidad el 27 de agosto.",
-        "why": "La AELC dará preferencias a más del 97% de las exportaciones del Mercosur, con desgravación inmediata para limones, naranjas, maní y biodiésel y una cuota suiza de vino de 55.000 hectolitros.",
-        "who": "Exportadores de economías regionales, carnes, vino, miel y pesca, e importadores de bienes industriales de Suiza y Noruega.",
-        "products": [
-          "Limones",
-          "Naranjas",
-          "Maní",
-          "Legumbres",
-          "Biodiésel",
-          "Productos pesqueros",
-          "Carne bovina",
-          "Carne aviar",
-          "Miel",
-          "Vino"
-        ],
-        "next": "Con media sanción del Senado, el proyecto necesita la aprobación de Diputados; la crónica de la reunión no informa fecha de dictamen ni de sesión.",
-        "nextSource": {
-          "name": "Parlamentario",
-          "url": "https://www.parlamentario.com/2026/10/20/diplomaticos-analizaron-ante-diputados-el-acuerdo-mercosur-y-la-asociacion-europea-de-libre-comercio/"
-        }
-      },
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
       "sources": [
         {
-          "name": "Parlamentario",
-          "type": "Medio especializado",
-          "url": "https://www.parlamentario.com/2026/10/20/diplomaticos-analizaron-ante-diputados-el-acuerdo-mercosur-y-la-asociacion-europea-de-libre-comercio/",
-          "primary": true
-        },
-        {
-          "name": "Mirador Provincial",
-          "type": "Medio de comunicación",
-          "url": "https://www.miradorprovincial.com/2026/08/28/el-senado-aprobo-el-tratado-de-libre-comercio-entre-el-mercosur-y-la-aelc-para-potenciar-las-exportaciones-de-economias-regionales/"
-        },
-        {
-          "name": "Swissinfo (EFE)",
-          "type": "Medio de comunicación",
-          "url": "https://www.swissinfo.ch/spa/avanza-en-el-parlamento-argentino-la-ratificaci%C3%B3n-del-acuerdo-mercosur-efta/91967029"
-        },
-        {
-          "name": "Machado Meyer",
-          "type": "Estudio jurídico",
-          "url": "https://www.machadomeyer.com.br/pt/inteligencia-juridica/publicacoes-ij/comercio-exterior-e-direito-aduaneiro/brasil-promulga-acordo-de-livre-comercio-entre-mercosul-e-efta"
-        },
-        {
-          "name": "InfoNegocios",
-          "type": "Medio de comunicación",
-          "url": "https://infonegocios.com.py/default/efta-mercosur-el-acuerdo-avanza-en-suiza-y-brasil-mientras-paraguay-da-otro-paso-hacia-su-ratificacion"
-        },
-        {
-          "name": "Ámbito",
-          "type": "Medio de comunicación",
-          "url": "https://www.ambito.com/uruguay/ratifico-el-acuerdo-mercosur-efta-y-se-convirtio-el-segundo-pais-hacerlo-n6290093"
+          "name": "Infobae",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.infobae.com/economia/2026/10/21/una-consultora-especializada-en-comercio-exterior-proyecta-exportaciones-record-de-hasta-usd-106000-millones-para-argentina/",
+          "primary": true,
+          "author": ""
         }
       ],
-      "absorbs": [
-        "plenario-analizo-el-acuerdo-entre-el-mercosur-y-la-asociacion-europea-de-libre-c"
+      "gnTried": "2026-10-21T14:04:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPenZNR2dTeUhTYzBlNFljUzhnQkZXQ28tUzkzRG5Dal9fVXBYYzUtbnk4MGs0STVrMVFNcjhKV0pNTXNhYXVKMjFOaWxpTGZUTUhqLVdGVkh5V3BuamRBUTV0YkVWNDhXRjUzQy1iUVlnVThPSDZjLWNuZFNMMlNab3VhbVBORDRBNGhSaURFaWx0VFR1UENxS1hwejVwYzJnZDlwbUIwcTZrbkhYakxFSFoxNklmajlpWExWWWpya2dnNmlJSzRQRlZTVEJLUzN6alBXaGlSTVNzdGdpa2o3bl9aMHFCdkt0QWpRd3dMdHlNOWduRFdpTmZNM0rSAZcCQVVfeXFMTk1HRXNqb09Nd2RiNGJZbFhrTk9iMlRlV2lIVVZRdFpYSVpZbDg5eHNCWTlVRzZ2amR1WlF1V0FKcXhCQnZabFBTUmVlbUpndGtpSVVNN2NtbUZ1YUdmb2Fyb0dESXhkYi1WTVR1TWtrZXpPWGJWakpfZ2NKMTNkYktYQ1k3akdfVHpzRnRzNElxZUNaY2s4aG1Cc3dEbDBGUDVUS1dVY192NjVSSkRPNG1iMmdtZUswVEx0MVA2Sk5iRDZCMklIWEN2QjN4NVdBYkY0eDZoWHMzdndEWWZ3TnJueHd0cVVGUXZiZ252TElycXBFSkhRdjJyZ3N1SjBPQmN3bkc4UE5GQlRxQzIxQzFicWE2UmFj?oc=5"
+    },
+    {
+      "id": "fundacion-valenciaport-impulsa-logistica-digital-con-proyecto-europeo-exito",
+      "datetime": "2026-10-21T13:30:38Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T14:04:16Z",
+      "title": "Fundación Valenciaport impulsa logística digital con proyecto europeo Exito",
+      "summary": "La Fundación Valenciaport comenzó a trabajar en el proyecto europeo Exito (Expanding future-ready transport and logistics…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Europa"
       ],
-      "deadlines": [
+      "countries": [
+        "España"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
         {
-          "date": "2026-11-01",
-          "label": "Brasil empieza a aplicar el acuerdo Mercosur–AELC con Noruega (con Islandia rige desde el 1 de octubre)",
-          "url": "https://www.machadomeyer.com.br/pt/inteligencia-juridica/publicacoes-ij/comercio-exterior-e-direito-aduaneiro/brasil-promulga-acordo-de-livre-comercio-entre-mercosul-e-efta"
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/fundacion-valenciaport-impulsa-logistica-digital-con-proyecto-europeo-exito/",
+          "primary": true,
+          "author": "Diego Hermosilla"
         }
       ]
     },
     {
-      "id": "indec-flete-importaciones-china-458-dolares-tonelada-sube-59-septiembre",
-      "date": "2026-10-20",
-      "kind": "datos",
-      "story": "fletes-contenedores",
-      "title": "Traer mercadería de China cuesta USD 458,7 por tonelada en flete, 59,1% más que hace un año, según el INDEC",
-      "summary": "En septiembre, el flete promedio de las importaciones fue de USD 126,7 por tonelada (+2,9%) y de USD 62,3 por cada USD 1.000 FOB, contra USD 53,7 un año antes. China explica el 40,2% del gasto total en fletes; desde el Mercosur, el costo por tonelada bajó 10,9%.",
+      "id": "dp-world-finaliza-construccion-de-centro-de-formacion-e-innovacion-en-london-gat",
+      "datetime": "2026-10-21T13:00:24Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T14:04:16Z",
+      "title": "DP World finaliza construcción de centro de formación e innovación en London Gateway",
+      "summary": "DP World y Thames Freeport han finalizado The Hive, un nuevo centro de formación, servicios e…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/dp-world-finaliza-construccion-de-centro-de-formacion-e-innovacion-en-london-gateway/",
+          "primary": true,
+          "author": "cmeza"
+        }
+      ]
+    },
+    {
+      "id": "la-ocde-analiza-los-nuevos-desafios-del-control-aduanero-ante-las-exigencias-de",
+      "datetime": "2026-10-21T12:38:40Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T14:04:16Z",
+      "title": "La OCDE analiza los nuevos desafíos del control aduanero ante las exigencias de trazabilidad",
+      "summary": "Mientras crece la relevancia de la información generada a lo largo de las cadenas de suministro, los sistemas fronterizos enfrentan nuevos desafíos para verificar el cumplimiento de las exigencias comerciales, ambientales y sociales. Así lo plantea la Organización para la Cooperación y el Desarrollo Económicos (OCDE)…",
+      "body": [
+        "Mientras crece la relevancia de la información generada a lo largo de las cadenas de suministro, los sistemas fronterizos enfrentan nuevos desafíos para verificar el cumplimiento de las exigencias comerciales, ambientales y sociales. Así lo plantea la Organización para la Cooperación y el Desarrollo Económicos (OCDE) en un documento pulblicado recientemente. Titulado Mejorar las fronteras…"
+      ],
+      "keyData": [],
+      "topics": [
+        "Aduanas"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 2,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Aduana News",
+      "sources": [
+        {
+          "name": "Aduana News",
+          "type": "Medio especializado · Argentina",
+          "url": "https://aduananews.com/la-ocde-analiza-los-nuevos-desafios-del-control-aduanero-ante-las-exigencias-de-trazabilidad/?utm_source=rss&utm_medium=rss&utm_campaign=la-ocde-analiza-los-nuevos-desafios-del-control-aduanero-ante-las-exigencias-de-trazabilidad",
+          "primary": true,
+          "author": "Aduana News"
+        }
+      ]
+    },
+    {
+      "id": "las-exportaciones-de-america-latina-y-el-caribe-creceran-20-en-2026",
+      "datetime": "2026-10-21T12:31:18Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T14:04:16Z",
+      "title": "Las exportaciones de América Latina y el Caribe crecerán 20% en 2026",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Data Portuaria",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://dataportuaria.com/es/argentina/actualidad/las-exportaciones-de-america-latina-y-el-caribe-creceran-20-en-2026",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T14:04:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbDFVRElUYllJQVBfaFdhbGV3ZlNpckl2NndZOVotSnA2aGdxODk4OHBOR3FVSEJZWXZYSkxaeGNZSWtnZTBJNmt5NnBOY1RTQW1mblJ0RV9pMVNNMWkyNFBHbm83UUpTb1FQVkt5NmVOR3dQQzRJWi1JMXBqSzEzNTQ4OFMzMmpOTnlZQmhUZXlkTjQ3ZHItTlZ2NjNfMnRvUGVHTExxY1pxV3pvZWRPQW9tNWQ1aF9r?oc=5"
+    },
+    {
+      "id": "puerto-de-algeciras-supera-hasta-septiembre-76-millones-de-toneladas-movilizadas",
+      "datetime": "2026-10-21T12:30:39Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T14:04:16Z",
+      "title": "Puerto de Algeciras supera hasta septiembre 76 millones de toneladas movilizadas",
+      "summary": "Tras un buen septiembre en graneles líquidos (+12%), sólidos (+11%), suministro de combustible a buques (+38%)…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos",
+        "Europa"
+      ],
+      "countries": [
+        "España"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/puerto-de-algeciras-supera-hasta-septiembre-76-millones-de-toneladas-movilizadas/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "fancesa-transporte-advierte-con-suspender-envios-a-provincias-por-falta-de-acuer",
+      "datetime": "2026-10-21T12:25:21Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T14:04:16Z",
+      "title": "Fancesa: Transporte advierte con suspender envíos a provincias por falta de acuerdo en fletes",
+      "summary": "Luego de haber consensuado la actualización de las tarifas de fletes hacia seis ciudades capitales del país, el transporte pesado advirtió que se verá obligado a rechazar el despacho de cemento de Fancesa hacia más de 20 provincias y ciudades intermedias si no se fijan las tarifas para estas rutas.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Correo del Sur",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://correodelsur.com/local/20261021/fancesa-transporte-advierte-con-suspender-envios-a-provincias-por-falta-de-acuerdo-en-fletes.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T14:04:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQMi1HTldmUjM0NTNpdWc4djV2YjJVMGREcnl2MmZqSHNsNmtlM0VGSWFsNmFQa0ZtRVdvVW0tZ051VEw5T0NGMkxSMWwwbGJkODRLdEVzQkRBazBhYmFlTXVLenZoc2FUbGVRekhKVGhzTFNlSGI1Z0dQWDN0TmhoVFAzOHFWUVVEUkxoQzZMLU10XzhvaFI2NE5UWEZSNWtzZ0VYQ1lGZFgzTktKdDdtejlGMndlWWFMZnFZeXMyZVQ5SDBnZVpKSnZIX245UnB1Sl9N?oc=5"
+    },
+    {
+      "id": "mexico-y-estados-unidos-a-un-paso-de-reducir-aranceles-en-autos-acero-y-aluminio",
+      "datetime": "2026-10-21T12:02:12Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T14:04:16Z",
+      "title": "México y Estados Unidos, a un paso de reducir aranceles en autos, acero y aluminio",
+      "summary": "Las negociaciones avanzan con el objetivo de proteger la economía bilateral y garantizar empleos, sin ceder principios constitucionales ni soberanía.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Latinoamérica",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "México",
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Acero",
+        "Aluminio",
+        "Autos",
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "auto",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Revista GENTE",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.revistagente.com/mx/actualidad/economia/mexico-y-estados-unidos-a-un-paso-de-reducir-aranceles-en-autos-acero-y-aluminio/",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Baja News",
+          "type": "También publicó esta noticia",
+          "url": "https://bajanews.mx/Business/61613/mexico-busca-que-estados-unidos-reduzca-aranceles-al-acero-aluminio-y-autos",
+          "alsoIn": true,
+          "title": "México busca que Estados Unidos reduzca aranceles al acero, aluminio y autos"
+        }
+      ],
+      "gnTried": "2026-10-21T14:04:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWkE3bWtvWU5OLXA1dUI3b19VblNnVk1JT3pERVgwZW84d1M0c2tCVUxsWGl0ZVdTN3UxVUo5NDdTVFpncXY0cnBxTEMzRGJmckgtRW9mZGNURGstdEtQUWJXT3RfMzJ0cE1pQ2xUdVBMTHk5Vk51ZFk4Z1Y2Q3J2Tm9WX0RmVlU4XzBNbzE2TGhKV2hRWE5KQ25VT3hHYW9JQmMyaU50VDVOMHB1WHp4OFZIWlUydHNqRHpCd3ZSMUUwUy1uRHRVMDRKMVBCdw?oc=5",
+      "aliasUrls": [
+        "https://bajanews.mx/Business/61613/mexico-busca-que-estados-unidos-reduzca-aranceles-al-acero-aluminio-y-autos",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxQV05acDNhNFFhT0VCRHh3SEtZZ3ZRWTc2eWEyc2ZCZFBxOUFnV19FX3dVOWNmMXVValcwMTBTNVNqTUhfbkpiZ0RVV0UyZjRITFlQWlR4VTRqck1zaXFHclF6N2VIcHFfWFVWcWJRU0lzTEd3R2RmWjBBMHV1RV9adjV3R3AwMHNWYWM2eERWbGFONjJPWHhLdTFCMl9YYlpwSzJBTm5CZmQySDhMQzNZ"
+      ],
+      "mergedIds": [
+        "mexico-busca-que-estados-unidos-reduzca-aranceles-al-acero-aluminio-y-autos"
+      ]
+    },
+    {
+      "id": "puerto-de-gotemburgo-desarrolla-importantes-inversiones-en-su-terminal-ro-ro",
+      "datetime": "2026-10-21T12:00:02Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T14:04:16Z",
+      "title": "Puerto de Gotemburgo desarrolla importantes inversiones en su terminal Ro-Ro",
+      "summary": "El Puerto de Gotemburgo ha desarrollado una serie de inversiones en su terminal Ro-Ro, entre las…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Europa"
+      ],
+      "countries": [
+        "Suecia"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/puerto-de-gotemburgo-desarrolla-importantes-inversiones-en-su-terminal-ro-ro/",
+          "primary": true,
+          "author": "cmeza"
+        }
+      ]
+    },
+    {
+      "id": "el-record-agroindustrial-argentino-abre-una-nueva-discusion-como-lograr-que-mas",
+      "datetime": "2026-10-21T11:53:00Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T14:04:16Z",
+      "title": "El récord agroindustrial argentino abre una nueva discusión: cómo lograr que más pymes lleguen a exportar",
+      "summary": "El crecimiento de los envíos de productos procesados amplía las oportunidades para las empresas argentinas, pero también exige resolver con mayor planificación la logística, la documentación y la coordinación de cada operación internacional. (NAP) El crecimiento de las exportaciones agroindustriales argentinas está…",
+      "body": [],
+      "keyData": [],
       "topics": [
         "Argentina",
-        "Importaciones",
-        "Logística",
-        "Transporte marítimo",
-        "China"
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Agro"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Noticias AgroPecuarias",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.noticiasagropecuarias.com/2026/10/21/el-record-agroindustrial-argentino-abre-una-nueva-discusion-como-lograr-que-mas-pymes-lleguen-a-exportar/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T14:04:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOQWFDcFctOVNZSU1PelVKaG0wV1NNZXdFQzBUME43RElmZGRkYmpiWDNwLTE1Wl9JMmVJWFhYcU5QQVhvMEl1SmNfQmpva2UzcG1mOWVTWng0c3FtdXZZUS13QjFQVU5TRnpPYUs3UGg0cEtvVTh1RUw4YzA2Vm9VZ0J5dWEycVE0dU44YzB2bi1jMDBCblo3LTNLMjFNX0xwaXRINkxpaWsxWXhRY0paV01QR21JTXY4N2drNjliSUhJNm1Mc21OOUxhQXZiT0lTdGY3QWxlSXE4T1pVZUp2bDBPT0RzOVhLclE?oc=5"
+    },
+    {
+      "id": "ebrard-da-por-superado-el-riesgo-para-el-t-mec-pero-siguen-pendientes-los-arance",
+      "datetime": "2026-10-21T11:49:50Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T14:04:16Z",
+      "title": "Ebrard da por superado el riesgo para el T-MEC, pero siguen pendientes los aranceles de Trump",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Oscar Mario Beteta",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://oscarmariobeteta.com/ebrard-da-por-superado-el-riesgo-para-el-tmec-pero-siguen-pendientes-los-aranceles-de-trump",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T14:04:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOc3VpdEx4ZTNjcjB0SHhJVGtRRWlBU09EZjFUQzJHaXpYbDkzUi14SmtBT1dtc3NzZk94eGZGOWotM2tXdHFZTzZTUkVwQU9seWdVQkxrMUpPWmxuUF9nUmJpaGxZTEhVXzRGOVFGUU1CM1ZlM0ttdTJqZFZoYkhLbHpVZUM4ZkktWkp4VnVTd1ViQ2xUM0hLblhXNEVBckc4X3lpOWViM3Y1dzBTYjJsZ0JYeWJ0dGpVRGo2Tg?oc=5"
+    },
+    {
+      "id": "primeros-resultados-acuerdo-mercosur-ue-espana",
+      "datetime": "2026-10-21T10:41:15Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T14:04:16Z",
+      "title": "Primeros resultados acuerdo Mercosur-UE (España).",
+      "summary": "El Acuerdo UE-MERCOSUR completa seis meses de aplicación provisional dejando un sabor agridulce. España resulta uno de los mayores beneficiados del | Noticias del MERCOSUR: política, economía y actualidad regional del Prensa Mercosur.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Unión Europea",
+        "España"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Prensa Mercosur",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://prensamercosur.org/2026/10/21/primeros-resultados-acuerdo-mercosur-ue-espana/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T14:04:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNXdsNlpQTXU2RnR6eEhzSHlDd3lyWnNuQk9HbVQ0N0NkVDRTN29uM1hzU1UyTUNvc25PUlFIWUJoWEpic0tWSzZuY0QzblE2QmNNVUVYamhCWnU3TUtvakVLNjZPN1BmdHN3ZlNsUm51UFJhcjF2RFRrc2w4Y050dVZpT1BBaVR2MzFQM0VR?oc=5"
+    },
+    {
+      "id": "el-inym-destina-18-1-millones-para-promover-las-exportaciones-de-yerba-mate",
+      "datetime": "2026-10-21T10:20:35Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T14:04:16Z",
+      "title": "El INYM destina $18,1 millones para promover las exportaciones de yerba mate",
+      "summary": "El INYM asignó $18,1 millones a un programa para impulsar las exportaciones de yerba mate argentina mediante misiones comerciales internacionales",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Economis",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://economis.com.ar/el-inym-destina-181-millones-para-promover-las-exportaciones-de-yerba-mate/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T14:04:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPc2xvMFUwZlB3bTlTVUFJc3RmeWlDTVpreV94aW9rZ1lITUVYdW1NMlZlQW9ObWZQMjVyT3BiTGJqSDFXaFVVRGVkTklJaDFZWWFUWmpCMzhpdmFyYlg4Q3ZoMGNoamlxUXdLZm5yX3FIRnBIck9ob3FSb2RfbFEyR0loWEd1RkNTOEZxc211SkpOa29oT1oxak15d3lfUTAx?oc=5"
+    },
+    {
+      "id": "milei-anuncia-en-madrid-que-argentina-exportara-gas-natural-por-primera-vez-en-2",
+      "datetime": "2026-10-21T10:11:45Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T14:04:16Z",
+      "title": "Milei anuncia en Madrid que Argentina exportará gas natural por primera vez en 2027",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Europa"
       ],
       "countries": [
         "Argentina",
-        "China",
-        "Brasil",
-        "Estados Unidos",
-        "Unión Europea"
+        "España"
       ],
       "tags": [
-        "INDEC",
-        "Fletes",
-        "ICA",
-        "Costos logísticos",
-        "Contenedores",
-        "Drewry",
-        "Blank sailings"
+        "Energía"
       ],
-      "visual": "container",
-      "impact": 2,
+      "visual": "customs",
+      "impact": 1,
       "affectsArgentina": true,
-      "argentinaNote": "El dato oficial muestra cuánto pesa el flete en el costo de lo que se importa: desde China ya equivale a USD 101 por cada USD 1.000 de mercadería FOB, y en el promedio general subió USD 8,6 en un año.",
-      "argentinaImpact": {
-        "change": "El flete por tonelada desde China subió 59,1% interanual en septiembre y el costo del flete por cada USD 1.000 FOB importados pasó de USD 53,7 a USD 62,3.",
-        "who": "Importadores, especialmente de insumos y bienes de consumo de Asia; forwarders y despachantes que arman costos de importación.",
-        "sectors": [
-          "Importación de insumos",
-          "Bienes de consumo",
-          "Logística"
-        ],
-        "flows": {
-          "importaciones": true,
-          "exportaciones": false,
-          "logistica": true,
-          "aranceles": false
-        }
-      },
-      "body": [
-        "El costo del flete internacional para traer mercadería de China a la Argentina fue de USD 458,7 por tonelada en septiembre, 59,1% más que un año antes, según el informe de Intercambio Comercial Argentino que el INDEC publicó el 19 de octubre. Por cada USD 1.000 importados desde ese origen a valor FOB, el flete costó USD 101, contra USD 91,3 en septiembre de 2025.",
-        "Para el total de las importaciones, el flete promedio fue de USD 126,7 por tonelada, con una suba de 2,9%, y de USD 62,3 por cada USD 1.000 FOB, USD 8,6 más que un año atrás. El suplemento Movant de Infobae destacó el dato el 20 de octubre.",
-        "## Los números por origen",
-        "El INDEC desagrega el costo para cuatro zonas que explicaron el 77,2% del flete total pagado en el mes (80,1% un año antes). China tiene el flete unitario más alto y el mayor peso: el 40,2% del gasto total en fletes. Le siguen el Mercosur, con el 21,3%; el bloque de Estados Unidos, México y Canadá (USMCA), con el 9%, y la Unión Europea, con el 6,7%.",
-        "Desde la Unión Europea, la tonelada costó USD 188,8 de flete (+19,3%) y USD 28,2 por cada USD 1.000 FOB, contra USD 24 un año antes. Desde el USMCA, USD 99,2 por tonelada (+3,7%) y USD 49,5 por cada USD 1.000 FOB (USD 42,7 en 2025). El Mercosur fue la única zona con baja del flete por tonelada: USD 62,9 (−10,9%), aunque el costo relativo al valor FOB subió de USD 45 a USD 52,3. En todos los orígenes, entonces, el flete pesa más que hace un año en relación con el valor de la mercadería.",
-        "## Por qué importa en el costo de importar",
-        "La suba del flete llega en un mes en el que las importaciones bajaron 1,8%, a USD 7.060 millones, con cantidades 11,2% menores y precios 10,4% más altos. Las compras a China sumaron USD 1.817 millones, sin cambios frente a septiembre de 2025, y en los nueve meses el país asiático fue el primer proveedor, con el 23,3% del total, según Infobae.",
-        "Como referencia del mercado de tarifas spot, el World Container Index de Drewry, que mide los fletes de contenedores en las principales rutas mundiales, cerró el 15 de octubre en USD 4.485 por contenedor de 40 pies, 3% por encima de la semana previa y 166% más que un año antes, cuando estaba en USD 1.687.",
-        "## Lo que viene en el mercado de fletes",
-        "Las navieras siguen ajustando la oferta. Según el Cancelled Sailings Tracker de Drewry, citado por MundoMarítimo, entre el 19 de octubre y el 22 de noviembre se prevén 44 cancelaciones de zarpes, el 6% de los 713 programados en las rutas principales: 44% en Asia–norte de Europa y Mediterráneo, 36% en el transpacífico hacia el este y 20% en el transatlántico.",
-        "La consultora considera incierto que la recuperación de tarifas se sostenga, porque la demanda estacional se debilita y hay más capacidad disponible. Entre los factores a seguir menciona el regreso gradual de servicios al Canal de Suez, la congestión portuaria y el inicio de las negociaciones de contratos para 2027 en Asia–Europa y Mediterráneo."
-      ],
-      "keyData": [
-        [
-          "Flete desde China",
-          "USD 458,7 por tonelada (+59,1% i.a.)"
-        ],
-        [
-          "Flete promedio de importación",
-          "USD 126,7 por tonelada (+2,9%)"
-        ],
-        [
-          "Flete por cada USD 1.000 FOB (total)",
-          "USD 62,3 (USD 53,7 en sep. 2025)"
-        ],
-        [
-          "Flete por cada USD 1.000 FOB (China)",
-          "USD 101 (USD 91,3 en sep. 2025)"
-        ],
-        [
-          "Peso de China en el flete total",
-          "40,2%"
-        ],
-        [
-          "Flete desde el Mercosur",
-          "USD 62,9 por tonelada (−10,9%)"
-        ],
-        [
-          "Cancelaciones de zarpes (19/10–22/11)",
-          "44 de 713 (6%)"
-        ]
-      ],
-      "explainer": {
-        "what": "El INDEC informó que en septiembre el flete de las importaciones desde China llegó a USD 458,7 por tonelada, 59,1% más que un año antes.",
-        "why": "El flete pesa cada vez más en el costo de importar: en promedio pasó de USD 53,7 a USD 62,3 por cada USD 1.000 FOB, y desde China ya equivale a USD 101.",
-        "who": "Importadores de insumos y bienes de consumo, sobre todo de Asia, y forwarders y despachantes que calculan costos de importación.",
-        "products": [
-          "Mercadería en contenedores",
-          "Insumos industriales",
-          "Bienes de consumo"
-        ],
-        "next": "Drewry considera incierto que la recuperación de los fletes se sostenga y prevé 44 cancelaciones de zarpes entre el 19 de octubre y el 22 de noviembre; además empiezan las negociaciones de contratos para 2027 en Asia–Europa.",
-        "nextSource": {
-          "name": "MundoMarítimo",
-          "url": "https://mundomaritimo.cl/noticias/lineas-navieras-preven-44-cancelaciones-de-itinerarios-entre-el-19-de-octubre-y-el-22-de-noviembre"
-        }
-      },
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
       "sources": [
         {
-          "name": "INDEC – Intercambio comercial argentino, septiembre de 2026",
-          "type": "Organismo oficial",
-          "url": "https://www.indec.gob.ar/uploads/informesdeprensa/ica_10_263F42E3F39F.pdf",
-          "primary": true
-        },
-        {
-          "name": "Infobae (Movant)",
-          "type": "Medio de comunicación",
-          "url": "https://www.infobae.com/movant/2026/10/20/los-fletes-desde-asia-subieron-casi-60-y-encarecen-las-importaciones-argentinas/"
-        },
-        {
-          "name": "MundoMarítimo (Drewry)",
-          "type": "Medio especializado",
-          "url": "https://mundomaritimo.cl/noticias/lineas-navieras-preven-44-cancelaciones-de-itinerarios-entre-el-19-de-octubre-y-el-22-de-noviembre"
-        },
-        {
-          "name": "The Daily Cargo News (Drewry WCI)",
-          "type": "Medio especializado",
-          "url": "https://www.thedcn.com.au/news/world-container-index-15-october-2026"
+          "name": "El Economista",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.eleconomista.es/economia/noticias/14022508/10/26/milei-anuncia-en-madrid-que-argentina-exportara-gas-natural-por-primera-vez-en-2027.html",
+          "primary": true,
+          "author": ""
         }
       ],
-      "absorbs": [
-        "los-fletes-desde-asia-subieron-casi-60-y-encarecen-las-importaciones-argentinas"
-      ]
+      "gnTried": "2026-10-21T14:04:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPY1Rqck0zZkYzN3pnVGdGWC05NER1X0xPbXhpMWprMHlBRXdBNmk0VjZVTzBGcVB0Q29CbHAyWm4xandEcHdUWFUxZ09vZnd2azBxeGV2SWp4OC05WUtyZXJ2R2Nic0FfSF9ONFdtdGxhQV9wT01FSnY1VGtPU2FWQ2dtTDRjQW9nTFJQNFJkVUo1REg2R2VkSUFfYnZPbEdrQXlCT1lMc2hWOG5wckhORnRmNFFpRFZ4MjZZakN0Ujd3OFlOeXVsdzBtWWZjMzBsSG1BMUFJWmJFZFdzdXBlcm5GRQ?oc=5"
     },
     {
       "id": "islandia-verkis-disena-nueva-iluminacion-para-zona-de-contenedores-de-puerto-de",
@@ -1120,48 +1261,6 @@
           "author": "Diego Hermosilla"
         }
       ]
-    },
-    {
-      "id": "la-argentina-de-milei-exporta-como-nunca-y-la-economia-logra-un-superavit-comerc",
-      "datetime": "2026-10-21T09:50:19Z",
-      "date": "2026-10-21",
-      "firstSeen": "2026-10-21T10:01:19Z",
-      "title": "La Argentina de Milei exporta como nunca y la economía logra un superávit comercial histórico gracias al petróleo y la minería",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Minería",
-        "Energía"
-      ],
-      "visual": "energy",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "El Economista",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.eleconomista.es/economia/noticias/14022491/10/26/la-argentina-de-milei-exporta-como-nunca-y-la-economia-logra-un-superavit-comercial-historico-gracias-al-petroleo-y-la-mineria.html",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-21T10:01:19Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQQXBkY3R3V0lJRlBqRmg4WFVYMG1DWUVhdUYyejU2eDFDejE3UU1EUUVCa05SdFVlUXk4SG9ZdHFfbUROajFKemk5NG5TdkxlWFpJQlREYU82ck00Z1VmSnlHaDE4N2ttbEZidmVvU1Y5bFItd2VxQTZiZzdmMEZyR3JiYnRHc25qaXp6Tk9SLVUzX1NYLUVXazY0MGJ3SklWOXl1TGdDMnpTcjFINnc1MkpGVEhWMUp5R0txc1U2OWItZ3lFcFNKQ0lOY3FYamR6Q2lmaEladGo4VERuNExRU3N4aHFTRjJhckNXb3hkRDBsbjMyWDhwVV9yWHRnSHVJN1lpLUczMlVOcm9leUNKaTVqR203RGJIN1YzTQ?oc=5",
-      "digestSkip": {
-        "at": "2026-10-21T09:50:00-03:00",
-        "reason": "repite una nota de la redacción (exportaciones récord y superávit de septiembre, INDEC)"
-      }
     },
     {
       "id": "barajas-entra-en-crisis-y-afronta-el-reto-de-redefinir-su-lugar-en-la-carga-aere",
@@ -1259,10 +1358,12 @@
       "topics": [
         "Aranceles",
         "China",
-        "Asia"
+        "Asia",
+        "Europa"
       ],
       "countries": [
-        "China"
+        "China",
+        "Turquía"
       ],
       "tags": [
         "Aranceles",
@@ -1281,10 +1382,24 @@
           "url": "https://es.finance.yahoo.com/noticias/china-amaga-oponerse-aranceles-tecnolog%C3%ADas-080813544.html",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "La República",
+          "type": "También publicó esta noticia",
+          "url": "https://www.larepublica.co/globoeconomia/china-amaga-con-oponerse-a-los-aranceles-sobre-tecnologias-limpias-en-la-cop31-4507627",
+          "alsoIn": true,
+          "title": "China amaga con oponerse a los aranceles sobre tecnologías limpias en la COP31"
         }
       ],
       "gnTried": "2026-10-21T10:01:19Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVHlIMjRBTlJ5UHprbW5hbGtlVFBkcjlKejdubkEwLWNMbExDUWRiVkxTOUpLTTJoWGdzNUxORjdrSjItRGtLbXBtc2FNczNvU2tKeUJfZHEwZHdzT3o2LU9yYXU2czNGck95T3owOUxuN1pWZU9UMWNya18yMEp4cGQ1eldaenQ0cEpJMmY3OVdNTmp2cGpYZUpMWFl5bktiN3c?oc=5"
+      "gnUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVHlIMjRBTlJ5UHprbW5hbGtlVFBkcjlKejdubkEwLWNMbExDUWRiVkxTOUpLTTJoWGdzNUxORjdrSjItRGtLbXBtc2FNczNvU2tKeUJfZHEwZHdzT3o2LU9yYXU2czNGck95T3owOUxuN1pWZU9UMWNya18yMEp4cGQ1eldaenQ0cEpJMmY3OVdNTmp2cGpYZUpMWFl5bktiN3c?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdnFCZWMwR3ZKbUxGd1NqanRwWFBmYlBSTzl0TTVFamd1UGVHOUJIVXk4M3ZueGQtUlc5SzIyWnEtRC1BbVpFb3RyTWw0cUpla01ORUEwS0lKYWRYS0lldXBmY2FoOUFRbExZYW5MVXhxM25XMU5SYlI2eTl4VmlPbzVsUlc1RUhwTG15Z1VGT3JMcmxmT05qRC1PRGxhTUpZbkhOQ0djRkhYVlh6blJya0E3M0NkMGVDY0ptTVdmRzdJcmhmQUHSAcYBQVVfeXFMT0FTUVkyaXNVOXdNdi1hbnJLS29tYUZIbmduZzh4Y2ZoVHozNUExVEF4bVFkcTBub1pNdWNwc0xUYXNSR0ZfR1NicFJVMkw1S095TDdseHBIcnFraTdKQzZ5S1pDMkdUUFpPU3FJSjExSVg2ekZuRWxqM2dCTC1Lc3F4YkRhbkUzalRtQXJaZVNVNU8zSXlzcmJCbzNCd1I0SlRSa3JsZTNIOEQzUFhwYjA0d2VucXZ3aHpITWlEUDVQY3ZVOTFn",
+        "https://www.larepublica.co/globoeconomia/china-amaga-con-oponerse-a-los-aranceles-sobre-tecnologias-limpias-en-la-cop31-4507627"
+      ],
+      "mergedIds": [
+        "china-amaga-con-oponerse-a-los-aranceles-sobre-tecnologias-limpias-en-la-cop-2"
+      ]
     },
     {
       "id": "polestar-refuerza-su-estrategia-en-europa-y-esquiva-aranceles-con-el-suv-polesta",
@@ -1296,10 +1411,12 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Aranceles"
+        "Aranceles",
+        "China",
+        "Asia"
       ],
       "countries": [
-        "Global"
+        "China"
       ],
       "tags": [
         "Aranceles"
@@ -1332,7 +1449,8 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Transporte aéreo"
+        "Transporte aéreo",
+        "Tecnología COMEX"
       ],
       "countries": [
         "Global"
@@ -1407,7 +1525,8 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Aranceles"
+        "Aranceles",
+        "Tecnología COMEX"
       ],
       "countries": [
         "Global"
@@ -1468,6 +1587,9 @@
           "primary": true,
           "author": "Periodista 4"
         }
+      ],
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNcEQyaHJGaWh3bEdtUEJ5aUp5blBVLVFfeVlLUkYzMjRkM0hNZU1vTkl5VFFTQVZMdl91S2dHdnpmSFNRSFA3aHFZUkpxWHVTODRpdWV4bVJlX0JPQWlzX3BoZFVNQWdDcWVVVFhTOXlyclF0U2xrV09yM0wwdnJnZTVjdEREcVllSUpqM0dMZ2I2ZmdTVWI4MXBSemliQnRxRHZaOWhOZGlNSlE5eXI3RFJzQVVPWnFRYjJUSjB2VENkeUlTRlRvVk9oNkpPSmlZQ19jUUVKZVlaNFA3"
       ]
     },
     {
@@ -1541,6 +1663,42 @@
           "author": "Diego Hermosilla"
         }
       ]
+    },
+    {
+      "id": "goldman-senala-que-los-elevados-costes-de-los-fletes-plantean-un-riesgo-al-alza",
+      "datetime": "2026-10-21T04:26:20Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-21T14:04:16Z",
+      "title": "Goldman señala que los elevados costes de los fletes plantean un riesgo al alza para sus previsiones sobre el Brent",
+      "summary": "La tarifa media mundial del transporte marítimo de crudo continúa siendo siete veces superior a la de hace un año y es poco probable que sufra un descenso brusco mientras persista el conflicto en...",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "MarketScreener España",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://es.marketscreener.com/noticias/goldman-se-ala-que-los-elevados-costes-de-los-fletes-plantean-un-riesgo-al-alza-para-sus-previsiones-ce785cd8df8ff225",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T14:04:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOSDJhamkwcTctYndwRVFsOE5zTTdFeWk1Z242UTNVaVlESHJaV3VIMkZEVDIyQ25iUzY0MDBCOHh5bE9LMDQwRUltZXNRZDZIeGFnd3FrZ2kwcXZ4Rkg0N0ZDa1RVMzhOYy1zRzZTV3ZBVHJFNEJ1bWExcW9WNHZ1Ty1ueHBQWmhmay1aSVhMSXp6MDFfc0pUOTc0dmI1TFVObVZQRGZjMVNHb1IyQkZzSUxlZDduNUpnRjZQYWtPUE1La2pITnNJa3FIUDRXUU5MYUtlVkl6SVVoMlhUR3Z2QXJqcGpnZXNGWjFvNA?oc=5"
     },
     {
       "id": "vaca-muerta-entre-el-salto-exportador-y-el-interes-internacional-que-dejo-el-dia",
@@ -1971,7 +2129,9 @@
       "countries": [
         "Argentina"
       ],
-      "tags": [],
+      "tags": [
+        "Energía"
+      ],
       "visual": "customs",
       "impact": 1,
       "affectsArgentina": true,
@@ -2405,47 +2565,6 @@
       "gnUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcm5PMksxcXZyVzRLWmRfc0Q1YXJPbkJtbkdGOXBldDhKZjFMMmVNdVhJUjQ1MUJUaFRoelpaMG4wXzFuUVZ4UGFpQnBIaTJ4YmpDc1hOZlJtZ25XM0xVWFpZVjRmcl9XSkNabTVyYm5QRXpoTWxGVW1RSEhUbUR0MjJtVXh5UU91ME1VZ1pyZXRnNnEyeGVZMmV6NEZfSmVrOEltTWRjcFo?oc=5"
     },
     {
-      "id": "javier-milei-batimos-el-record-de-exportaciones-en-un-mes-superamos-los-us-10-00",
-      "datetime": "2026-10-20T21:03:18Z",
-      "date": "2026-10-20",
-      "firstSeen": "2026-10-20T21:57:17Z",
-      "title": "Javier Milei: “Batimos el récord de exportaciones en un mes, superamos los US$ 10.000 millones”",
-      "summary": "Durante su disertación en el evento de Argentina Oil & Gas, el presidente de la Nación, Javier Milei, afirmó: “Batimos el récord de exportaciones en un mes, superamos los US$ 10.000...",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Energía"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Chequeado",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://chequeado.com/el-explicador/javier-milei-batimos-el-record-de-exportaciones-en-un-mes-superamos-los-us-10-000-millones/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-20T21:57:17Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQemNSSDlraklOZ2t0VE4xdnVzYUxxbmI0RGxWVmFwR1FDbHN6RTZBbnlRVnpQdFo3Z2JRdGFOdHBJeThuMHFpeWt0VTZPU2JxNzVIb2RXTGltbmoxbnVsMjZrazAwVzlUSTRjVjlVak1ITWdOVlBrZGpKV0t1T19aME9XYTdJY1ZYQWhycjhLNHp0ZmxZSUFUUFdxb3lwM190YTF1V2hPbnZYRVZMMFotVVpXUEdJbXNlMTYzRXV6MWVqb01xLVE?oc=5",
-      "digestSkip": {
-        "at": "2026-10-21T09:50:00-03:00",
-        "reason": "repite una nota de la redacción (exportaciones récord de septiembre, INDEC)"
-      }
-    },
-    {
       "id": "puerto-de-valparaiso-se-proyecta-como-punto-clave-para-flujo-de-carga-minera-arg",
       "datetime": "2026-10-20T21:00:40Z",
       "date": "2026-10-20",
@@ -2593,47 +2712,6 @@
       "gnUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbkNyTm5CVFY5WlJHdm1nOUNBcUVodmlYdFRqVDI2c3gteXJGTjI1UlI4SFlNeGFHNks2YWlKS1FYc3pqSHZoRjVSMkpBN0RiLWxTSU92bzJJODJTNm1WTHVsWlI2ZkI0bWJ3SEVlSlVCekloVHhLcFBMZTdCWDRIeVQ2MW0taUY5eXd4NkJERnJMU1NfbTZUSkhaREVGUjdtWDBiQUdZZUhBeVJsX2FhS0k5WU1JOXNJdm80WmJSd1I?oc=5"
     },
     {
-      "id": "brasil-y-estados-unidos-concentraron-las-exportaciones-argentinas-en-septiembre",
-      "datetime": "2026-10-20T19:46:01Z",
-      "date": "2026-10-20",
-      "firstSeen": "2026-10-21T02:01:12Z",
-      "title": "Brasil y Estados Unidos concentraron las exportaciones argentinas en septiembre",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Latinoamérica",
-        "Estados Unidos"
-      ],
-      "countries": [
-        "Argentina",
-        "Brasil",
-        "Estados Unidos"
-      ],
-      "tags": [
-        "Estados Unidos"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Data Portuaria",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://dataportuaria.com/es/argentina/comercio-exterior/brasil-y-estados-unidos-concentraron-las-exportaciones-argentinas-en-septiembre",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-21T02:01:12Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNOUp2RU9yNGl5bDlEallDbko0eFlHLTF4c1BtTllwOGh3UEdZbXRqMkg4SWZHM21lVFRWNG96NkFXMzlhZUpqSUptaFF6X2tkQ1NKeGR6ckpvZERuYWlrN1JZQlZHMlNvR2t2VVJaUmU4ZEFpV18wTFpfUTV1enFXVTBQdDVoc1RSaDlvbXlLcTFSdk5sMWctSVc5SGF3UXlLTzNuMGotYW9nNHJ5WXJiS0p4OHhOeVFNT3U2QUJuSU1YS0pVc0lJMDVYWEFvSEZUMlE?oc=5"
-    },
-    {
       "id": "marin-aseguro-que-argentina-va-a-generar-mas-de-us-58-000-millones-en-exportacio",
       "datetime": "2026-10-20T19:40:09Z",
       "date": "2026-10-20",
@@ -2774,43 +2852,6 @@
       ]
     },
     {
-      "id": "plenario-analizo-el-acuerdo-entre-el-mercosur-y-la-asociacion-europea-de-libre-c",
-      "datetime": "2026-10-20T19:05:47Z",
-      "date": "2026-10-20",
-      "firstSeen": "2026-10-20T21:57:17Z",
-      "title": "Plenario analizó el acuerdo entre el Mercosur y la asociación Europea de libre comercio (aelc)",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Tratados y acuerdos",
-        "Mercosur"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Cámara de Diputados de la Nación",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.hcdn.gob.ar/prensa/noticia/PLENARIO-ANALIZO-EL-ACUERDO-ENTRE-EL-MERCOSUR-Y-LA-ASOCIACION-EUROPEA-DE-LIBRE-COMERCIO-AELC/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-20T21:57:17Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNeTJtRGhuMi1uQ0Q2Mi05TXhDcWxEM3RydnFFRlg5cFJIZkJMclFRb2JfMjI0OGEwcDF2U2NFa0xMTXFqZm9zNEpob3FXVUdrLVc1RGhneWdQMVNhTnEzdzBqeTRQcER4V2s0dlB6bFhPbEFsT1VyemN4UkdfakJQLUx1YTVkcDJEVDN1U3RxTFNYNndobTlkX2dxekVwSTlkdS0yYWVQTzBuWDFKZE5DcnBTNW5aZ0JFb1JWLXhkakJfRXJHOXpPd05CS3k?oc=5"
-    },
-    {
       "id": "este-lugar-es-unico-en-el-mundo-afirman-que-hay-un-creciente-interes-de-compania",
       "datetime": "2026-10-20T19:01:00Z",
       "date": "2026-10-20",
@@ -2877,44 +2918,6 @@
           "author": "Periodista 4"
         }
       ]
-    },
-    {
-      "id": "mexico-suspendio-las-importaciones-avicolas-de-brasil-por-un-brote-de-newcastle",
-      "datetime": "2026-10-20T18:50:34Z",
-      "date": "2026-10-20",
-      "firstSeen": "2026-10-20T21:57:17Z",
-      "title": "México suspendió las importaciones avícolas de Brasil por un brote de Newcastle",
-      "summary": "La restricción alcanza a carne de pollo, huevos fértiles y aves vivas. También impide el ingreso de esos productos en el equipaje de turistas.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Importaciones",
-        "Latinoamérica"
-      ],
-      "countries": [
-        "Brasil",
-        "México"
-      ],
-      "tags": [
-        "Carne"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
-      "sources": [
-        {
-          "name": "Cadena 3 Argentina",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.cadena3.com/noticia/panorama-federal/mexico-suspendio-las-importaciones-avicolas-de-brasil-por-un-brote-de-newcastle_605210",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-20T21:57:17Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZ214NzhBNVAxUUNMNktsVlNxZ2ppT0VrMUxKejRmZ2dTcG16RTMtQ0wzTWJncWtEejhpZFVSekxpa3l1XzI4ZFhtdFEzbC1KVm9wX2pWakhMV2NtS0pxZTltdC1BT3JRYkwtQTBDRUlnU3M1U20xN1hGNnV4a2wza1gweTVGUlY5dXI4bnN3S2RMVUQybm5leVB5dGMwamJfVGhPTlJ0YnNsVGFEc1pPUmZ2dEE2YWZhYm90R1NzUkVEWGpUak1PZzdWSTQ1V3A0MnNPanRn0gHWAUFVX3lxTE1nbXg3OEE1UDFRQ0w2S2xWU3FnamlPRWsxTEp6NGZnZ1NwbXpFMy1DTDNNYmdxa0R6OGlkVVJ6TGlreXVfMjhkWG10UTNsLUpWb3BfalZqSExXY21LSnFlOW10LUFPclFiTC1BMENFSWdTczVTbTE3WEY2dXhrbDNrWDB5NUZSVjl1cjhuc3dLZExVRDJubmV5UHl0YzBqYl9UaE9OUnRic2xUYURzWk9SZnZ0QTZhZmFib3RHU3NSRURYalRqTU9nN1ZJNDVXcDQyc09qdGc?oc=5"
     },
     {
       "id": "impulsan-el-desarrollo-del-comercio-exterior-y-la-logistica-internacional-en-la",
@@ -3342,6 +3345,172 @@
       "gnUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcVMzQUc0M21RUTk0MGt2eS1YOV83ZzNKZmx0b1Y4MGlOSnRBdVZuelhTd3lvcFVtOE5oNktLWG1kMzdGOW5ndmduR3FXSW95Z1JUTkhpbzVrNTZDdTdMSkpnb0NsSmxndjJfVExsYXZxSHc1UGxDNnZEQ3ZhVk5ubEVVVS1wZkZwVEt4ZU9KS3FQTG9wSnQ3T3FxOVEzYUdoQmJmbDdjQ2IwQQ?oc=5"
     },
     {
+      "id": "newcastle-santa-catarina-mexico-suspende-pollo-brasil-china-regionaliza",
+      "date": "2026-10-20",
+      "datetime": "2026-10-20T14:34:00-03:00",
+      "kind": "noticia",
+      "title": "Foco de Newcastle en Santa Catarina: México suspende todo el pollo de Brasil y China, Chile y Paraguay cierran solo al estado afectado",
+      "summary": "Brasil confirmó la enfermedad en una granja de unos 6.000 pavos en Nova Itaberaba. México frenó las compras avícolas de todo el país, mientras China, Chile y Paraguay aplicaron restricciones limitadas a Santa Catarina, que concentra cerca del 23% de las exportaciones avícolas brasileñas.",
+      "topics": [
+        "Latinoamérica",
+        "Exportaciones",
+        "Importaciones",
+        "Regulaciones",
+        "China"
+      ],
+      "countries": [
+        "Brasil",
+        "México",
+        "China",
+        "Chile",
+        "Paraguay",
+        "Argentina"
+      ],
+      "tags": [
+        "Newcastle",
+        "Sanidad animal",
+        "Carne aviar",
+        "Pollo",
+        "Pavo",
+        "Senasica",
+        "MAPA",
+        "Regionalización"
+      ],
+      "visual": "livestock",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "Brasil es el mayor exportador mundial de carne de pollo y competidor directo de la Argentina en mercados como China, México y Chile. Las fuentes consultadas no informan, al cierre de esta nota, medidas del Senasa argentino; en el foco de 2024 en Rio Grande do Sul, la Argentina figuró entre los destinos con certificación suspendida.",
+      "argentinaImpact": {
+        "change": "Un competidor regional pierde temporalmente parte de sus mercados: México cerró a todo Brasil y China, Chile y Paraguay a Santa Catarina.",
+        "who": "Exportadores argentinos de carne aviar, importadores de productos avícolas y material genético de Brasil.",
+        "sectors": [
+          "Avicultura",
+          "Alimentos"
+        ],
+        "flows": {
+          "importaciones": true,
+          "exportaciones": true,
+          "logistica": false,
+          "aranceles": false
+        }
+      },
+      "body": [
+        "El Ministerio de Agricultura y Pecuaria de Brasil (MAPA) confirmó un foco de enfermedad de Newcastle en una granja comercial de pavos de engorde en Nova Itaberaba, en el oeste de Santa Catarina. El diagnóstico salió del Laboratorio Federal de Defensa Agropecuaria de São Paulo el 18 de octubre y el ministerio lo hizo público el lunes 19. En el establecimiento había unas 6.000 aves, que serán sacrificadas; según el gobierno brasileño, ningún animal salió de la propiedad. Las restricciones de los compradores llegaron en menos de 48 horas.",
+        "La reacción más dura fue la de México: la Secretaría de Agricultura y Desarrollo Rural, a través del Senasica, suspendió por tiempo indefinido la importación de carne y despojos de aves, huevo fértil y pollitos de hasta tres días, entre otros productos, desde todo Brasil. China, Chile y Paraguay, en cambio, limitaron sus restricciones a Santa Catarina.",
+        "## Qué se sabe del foco",
+        "Según aviNews, el virus apareció durante la vigilancia activa de la Cidasc, el organismo sanitario catarinense, en aves que no mostraban signos clínicos. El paraguayo ABC Color, citando al MAPA, precisó que 26 aves dieron positivo y que Brasil declaró una emergencia sanitaria por 60 días. La zona de vigilancia abarca 133 granjas en cuatro municipios: Nova Itaberaba, Nova Erechim, Coronel Freitas y Águas Frias. Las autoridades interdictaron la granja, suspendieron el movimiento de aves y aplicaron el plan de contingencia para influenza aviar y Newcastle.",
+        "Hay una diferencia entre las fuentes sobre el tipo de establecimiento. El Senasica mexicano habló de una granja de pollos de engorde, mientras que el MAPA, Metrópoles, CompreRural y aviNews informan que se trata de pavos. El último antecedente en Brasil fue en julio de 2024, en una granja de pollos de Anta Gorda (Rio Grande do Sul); en ese caso, el gobierno suspendió preventivamente la certificación de exportaciones a 44 países, según Metrópoles.",
+        "## Quién cerró y con qué alcance",
+        "México dio de baja en su plataforma las hojas de requisitos zoosanitarios para los productos avícolas brasileños. La medida alcanza a las importaciones comerciales y a lo que traigan los viajeros, e incluye aves de ornato, canoras, rapaces y mascotas. El organismo justificó la decisión en la necesidad de preservar el estatus de país libre de Newcastle de alta gravedad, reconocido desde 2015, y aclaró que reabrirá cuando Brasil presente evidencia de que el brote está controlado.",
+        "China, el principal comprador del pollo brasileño, suspendió solo la carne de aves de Santa Catarina, en un esquema de regionalización negociado con Brasil que el MAPA confirmó el martes 20. Según CompreRural, China recibió cerca del 10% de las exportaciones brasileñas de carne de pollo entre enero y septiembre, unas 420.000 toneladas, y Brasil tiene 61 plantas habilitadas para ese destino. El ministerio sostuvo que su gestión evitó un cierre para todo el territorio.",
+        "Chile restringió los productos de Santa Catarina, con una lista amplia que incluye huevos fértiles y SPF, pollitos de un día y carne fresca de aves. En Paraguay, el Senacsa dictó la Resolución Administrativa 1715, que prohíbe temporalmente el ingreso de aves vivas, huevos fértiles y material genético desde ese estado; el organismo recordó que Paraguay está libre de la enfermedad desde 1997.",
+        "## El peso de Santa Catarina",
+        "Santa Catarina es el segundo exportador brasileño de carne de pollo, detrás de Paraná. Según ABC Color, el estado aporta el 23% de las exportaciones de carne aviar de Brasil y el 60% de su producción de pavo; el 23% coincide con el dato que El Financiero citó para 2026. Safras Consultoria consideró, en un comunicado del 19 de octubre, que el efecto sobre el mercado interno brasileño sería limitado y temporal, con más oferta regional y posibles presiones sobre el precio mayorista de pollo y pavo, y señaló a China como la variable clave.",
+        "Desde la industria, Ricardo Santin, presidente de la Asociación Brasileña de Proteína Animal (ABPA), describió el caso como aislado y pidió protocolos de regionalización con un radio de 10 kilómetros alrededor de la granja, para evitar cierres más amplios. También afirmó que hay existencias suficientes para el fin de año y que la producción se redirigirá a los mercados que sigan abiertos.",
+        "## Qué mirar desde la Argentina",
+        "Brasil es el mayor exportador mundial de carne de pollo, de modo que cualquier cierre de mercados reordena la oferta regional. En México, según especialistas consultados por medios locales, los importadores recurrirían a Estados Unidos mientras dure la suspensión. Las fuentes consultadas no informan, al cierre de esta nota, medidas del Senasa argentino respecto de este foco. En el episodio de 2024, la Argentina figuró, junto con China, la Unión Europea y México, entre los destinos con certificación suspendida, según Bichos de Campo.",
+        "La duración de las restricciones todavía no está definida: CompreRural señala que los plazos y los procedimientos para reanudar los embarques dependen de las negociaciones con cada comprador. Brasil notificó el caso a la Organización Mundial de Sanidad Animal (OMSA), y el MAPA dijo que seguirá en contacto con las autoridades sanitarias de los países compradores y monitoreando los demás mercados."
+      ],
+      "keyData": [
+        [
+          "Aves en la granja afectada",
+          "Unas 6.000 (pavos)"
+        ],
+        [
+          "Granjas bajo vigilancia",
+          "133, en cuatro municipios"
+        ],
+        [
+          "Peso de Santa Catarina",
+          "23% de las exportaciones avícolas de Brasil"
+        ],
+        [
+          "México",
+          "Suspensión de todo Brasil, por tiempo indefinido"
+        ],
+        [
+          "China",
+          "Suspensión solo de Santa Catarina"
+        ],
+        [
+          "Exportaciones a China (ene–sep)",
+          "Unas 420.000 t, cerca del 10%"
+        ],
+        [
+          "Emergencia sanitaria",
+          "60 días"
+        ]
+      ],
+      "explainer": {
+        "what": "Brasil confirmó Newcastle en una granja de unos 6.000 pavos en Santa Catarina y México suspendió las importaciones avícolas de todo Brasil.",
+        "why": "Brasil es el mayor exportador mundial de pollo: China, Chile y Paraguay cerraron solo a Santa Catarina, que aporta el 23% de sus exportaciones avícolas, y eso reordena la oferta en la región.",
+        "who": "Exportadores e importadores de carne aviar, huevos fértiles y material genético; frigoríficos avícolas de la región.",
+        "products": [
+          "Carne de pollo",
+          "Carne de pavo",
+          "Despojos avícolas",
+          "Huevos fértiles",
+          "Pollitos de un día"
+        ],
+        "next": "México reabrirá cuando Brasil entregue evidencia de que el brote está controlado; la duración de las demás restricciones depende de las negociaciones con cada comprador.",
+        "nextSource": {
+          "name": "Maya Comunicación",
+          "url": "https://mayacomunicacion.com.mx/mexico-cierra-pollo-brasil-newcastle/"
+        }
+      },
+      "sources": [
+        {
+          "name": "Metrópoles",
+          "type": "Medio de comunicación",
+          "url": "https://www.metropoles.com/brasil/apos-foco-de-newcastle-china-interrompe-importacao-de-frango-apenas-de-sc",
+          "primary": true
+        },
+        {
+          "name": "CompreRural",
+          "type": "Medio especializado",
+          "url": "https://www.comprerural.com/china-suspende-importacoes-de-frango-de-santa-catarina-apos-foco-de-newcastle-embargo-nacional-e-evitado/"
+        },
+        {
+          "name": "N+ (Senasica)",
+          "type": "Medio de comunicación",
+          "url": "https://www.nmas.com.mx/salud/suspenden-entrada-a-mexico-de-carne-avicola-procedente-de-brasil-por-enfermedad-de-newcastle/"
+        },
+        {
+          "name": "Maya Comunicación",
+          "type": "Medio de comunicación",
+          "url": "https://mayacomunicacion.com.mx/mexico-cierra-pollo-brasil-newcastle/"
+        },
+        {
+          "name": "aviNews",
+          "type": "Medio especializado",
+          "url": "https://avinews.com/brasil-confirma-newcastle-en-una-explotacion-comercial-de-pavos/"
+        },
+        {
+          "name": "ABC Color",
+          "type": "Medio de comunicación",
+          "url": "https://www.abc.com.py/economia/2026/10/20/senacsa-prohibe-importacion-de-aves-y-derivados-desde-santa-catarina-por-enfermedad-de-newcastle/"
+        },
+        {
+          "name": "CompreRural (Safras)",
+          "type": "Medio especializado",
+          "url": "https://comprerural.com/newcastle-em-sc-pode-afetar-exportacoes-de-aves-e-pressionar-precos-alerta-safras/"
+        },
+        {
+          "name": "Boca",
+          "type": "Medio de comunicación",
+          "url": "https://boca.com.br/agronegocio/industria-de-aves-defende-protocolos-apos-casos-de-doenca-em-sc"
+        },
+        {
+          "name": "Bichos de Campo (2024)",
+          "type": "Medio especializado",
+          "url": "https://bichosdecampo.com/brasil-suspende-exportaciones-de-carne-aviar-hacia-china-europa-y-la-argentina-al-detectar-un-brote-de-la-enfermedad-de-newcastle"
+        }
+      ],
+      "absorbs": [
+        "mexico-suspendio-las-importaciones-avicolas-de-brasil-por-un-brote-de-newcastle"
+      ]
+    },
+    {
       "id": "brasil-puertos-de-parana-alcanzan-52-1-millones-de-toneladas-de-carga-manejada-e",
       "datetime": "2026-10-20T17:30:32Z",
       "date": "2026-10-20",
@@ -3450,6 +3619,40 @@
           "author": "admin"
         }
       ]
+    },
+    {
+      "id": "version-7-0-del-manual-de-usuarios-externos-sita-solicitud-de-rehabilitacion-de",
+      "datetime": "2026-10-20T17:04:09Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-21T14:04:16Z",
+      "title": "Versión 7.0 del Manual de Usuarios Externos SITA “Solicitud de Rehabilitación de Exportación”",
+      "summary": "El Centro Despachantes de Aduana (CDA) informa a sus asociados que se encuentra disponible la versión 7.0 del Manual de Usuarios Externos SITA “Solicitud de Rehabilitación de Exportación”.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "CDA - Centro Despachantes de Aduana",
+          "type": "Medio · vía Google Noticias",
+          "url": "http://www.cda.org.ar/detalle_noticia.php?id=42828",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T14:04:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1OFktMk40ZXNCbm1VWV9fU1JQd1phR1ZXalNueGZ5LV9tbkZfRklPeV9MdDZTdDBCRjZ4cGEwSFI0U0ktUjRlOXM1a3ozZXZfaUplenNsV25SbG1VZkhR?oc=5"
     },
     {
       "id": "argentina-concentra-el-21-de-las-exportaciones-mundiales-de-mani",
@@ -3760,41 +3963,6 @@
       "gnUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOGJyMng0cjIwNVZwMDVFSENqa3BOdk1mU29TR2gwRTZTWDBfMGJyTUs5b1lwTl9zU2VZem4xV2txbUNsRkRWY3QxQmhUd3lULWxleFRNbEUwTVRiSzRiV3QzTW1pa3JWNWs2THZJYldMRXNNN0Frcjlzd3MwUGY4YmtTMXJIanZFSlBRUlFRekRGLXRzcWdKd2d0VF9nY2c?oc=5"
     },
     {
-      "id": "exportaciones-argentinas-rompen-record-usd-10-036-millones-en-septiembre",
-      "datetime": "2026-10-20T16:02:18Z",
-      "date": "2026-10-20",
-      "firstSeen": "2026-10-20T17:56:40Z",
-      "title": "Exportaciones argentinas rompen récord: USD 10.036 millones en septiembre",
-      "summary": "En septiembre, Argentina alcanzó un hito histórico al superar los USD 10.000 millones en exportaciones. Este incremento significó un alza interanual del 23,5%.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Mundo Empresarial AR",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://mundoempresarial.ar/exportaciones-argentinas-rompen-record-usd-10-036-millones-en-septiembre/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-20T17:56:40Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVFFfMXcyS1VEYVN3TWt1c3RDa0E3dUlsTEdPenhrcThjUjRpZlFvVUcxT0tyRmVka1pnSnRKT1FqWjV5VTJtaXRYR2dfc25iU1Y5Q0ZJaG14aDROWC10ekVKZDJEUkliZkJNTlZ5UG1SSUdwWjNsbnRLc3N4aWhUR2ZWekNPMDVKN1VsSmwyYjgzZ2VsNlZTdVBKcVlwMWxuV3ZR?oc=5"
-    },
-    {
       "id": "porto-de-paranagua-responde-por-65-do-crescimento-das-exportacoes-brasileiras-de",
       "datetime": "2026-10-20T16:01:14Z",
       "date": "2026-10-20",
@@ -3901,62 +4069,6 @@
       ],
       "gnTried": "2026-10-20T17:56:40Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRk5wZ0xTdkV5OTlmMVRseGpUcXBzUjBxN0EzZVYxVS1PWTlQRGtqZEhuNnFTMV85S2pLTGtnU2RGR1Z3VG5DMmdxbVFxaUhsOTJvT3dGNXJFWVZBMTBKZURxUXg1TVZqdmlRRURrQl9zWVdCNGJ5X3FTUFhWTklrTS1tREp2d0x0dWw4QW9hSk1uelgxemtoeUdVUVF1RFdob3Y2WHNJRHFXUmp4clJsZkZEUzFDZnVlN0HSAb8BQVVfeXFMTjdBU1NINzllYWZKYjdiODFna2NsVGJESmZoTDEtdWlmU1Jmc0p2TTI4aFdlTThILTBCNTliOVdndncxWXpsY3JmbVpXcGZLdFY5cExUSUliNENHRFBxT05xQS04bjhGMGIxOGVVQ2U5ZzR0X2Y0X3hEX2NueFN2aVdEU01jMTJJRTBqOUtPWTgzbTZBZXpSdEJCUjJlaUJrcUh6cHhRb0IxdDYwSlZmMUdrWmFBcnphcjlLMXJlM2s?oc=5"
-    },
-    {
-      "id": "los-fletes-desde-asia-subieron-casi-60-y-encarecen-las-importaciones-argentinas",
-      "datetime": "2026-10-20T15:38:35Z",
-      "date": "2026-10-20",
-      "firstSeen": "2026-10-20T17:56:40Z",
-      "title": "Los fletes desde Asia subieron casi 60% y encarecen las importaciones argentinas",
-      "summary": "Según el INDEC, el costo por tonelada aumentó con fuerza en septiembre y China concentró más del 40% del gasto total en fletes de importación. También hubo subas desde Europa y Norteamérica",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Importaciones",
-        "Logística",
-        "China",
-        "Asia"
-      ],
-      "countries": [
-        "Argentina",
-        "China"
-      ],
-      "tags": [
-        "Fletes",
-        "China"
-      ],
-      "visual": "ship",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Logística y fletes",
-      "sources": [
-        {
-          "name": "Infobae",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.infobae.com/movant/2026/10/20/los-fletes-desde-asia-subieron-casi-60-y-encarecen-las-importaciones-argentinas/",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "eju.tv",
-          "type": "También publicó esta noticia",
-          "url": "https://eju.tv/2026/10/despachantes-de-aduana-advierten-que-fletes-del-transporte-pesado-subieron-hasta-45-y-encarecen-el-comercio-exterior/",
-          "alsoIn": true,
-          "title": "Despachantes de Aduana advierten que fletes del transporte pesado subieron hasta 45% y encarecen el comercio exterior"
-        }
-      ],
-      "gnTried": "2026-10-20T17:56:40Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbE5SZnJfS2J1cU9WNWlpUzNzd29zclF3Tm1KcnNvSlJMd2RWSnFiSks1ODVHMjFkZ3Y1ZWRYWkc1UURaZ19JWGFWcGFucms0czNTT0NGbzVVbFEyMnB3TGMtN24yNG13RTgwNS0xeG1naTlESWJXSHRCLTJRM1h0dngyZVFmQm9wS1VNY2hUSTZYMGpKOUZWdXpiSGdwWU5IQ2xpUW1IVllheWJUQmlEbDBQR3BHV0pCajV6eXBTUdIB2gFBVV95cUxPVlE4aHRINlZTcndPXzZaNFQ0LWJlOWxZUE5LXzRET2ZKT1laYWdqRW8wd1F5VE13bXp3UkpGRlBRZEl5a3ppd1ZHNlBGLWxkd3A1ODdObVhMYTQ1dzJOclJReHlhZXhQZ0xJeTdPNndZYXlFRUtXMVgzRk1ab2xuZVd4Slhjb1ZuRlU0MVNiQTVYa0x5S282ZUNaLU5YVGJtNmxQT2R2Z0VFTWpUTEpOMk9EZWNyWURONHNDcVp4RFZZT3hXQVNJUmJKdWFOdnNldUZjLU9xRVRGUQ?oc=5",
-      "aliasUrls": [
-        "https://eju.tv/2026/10/despachantes-de-aduana-advierten-que-fletes-del-transporte-pesado-subieron-hasta-45-y-encarecen-el-comercio-exterior",
-        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOOHkwUG1TdlQ4XzdlbjdVNWczc0pseFdyQ1plWVd5S0JXd3RGQU5yLWRXcTNTcVoweWJxZXIxWGJ2cmtTMU9JSG9JbDNaRmwwM19rREpKRXFmRUZSLTdaTHZFN0haeWdYTmtEQ1hBcU1EajZQaW5nWFg4OC1lcVdpZC1NWmE4MU55a1lhdS1JeVhBejd6MlBVMWg1ektQNjJVRnNsTlRleDU0aHE1THZBR1NLeTNqYW5XRHFBTHdEU093a3k3WmZyeVp4dWtxOFNCWkRYUXNSMA"
-      ],
-      "mergedIds": [
-        "despachantes-de-aduana-advierten-que-fletes-del-transporte-pesado-subieron-hasta"
-      ]
     },
     {
       "id": "sistema-frontal-obliga-a-cerrar-varios-puertos-y-terminales-chilenos",
@@ -4208,41 +4320,6 @@
       "gnUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1FVjlxQUJBT1VINGNwdlJVUUV6bnh2dEpGVW1Lb0VxbDNhX2JfZkRLaVlXSEx0bThsdFpMUm1uNzdRWFFqZEJXNnFHOTV3Rkt5elliSkFmTDhuZGFXZUE?oc=5"
     },
     {
-      "id": "hito-historico-en-el-comercio-exterior-las-exportaciones-argentinas-superaron-lo",
-      "datetime": "2026-10-20T13:27:18Z",
-      "date": "2026-10-20",
-      "firstSeen": "2026-10-20T14:05:35Z",
-      "title": "Hito histórico en el comercio exterior: las exportaciones argentinas superaron los US$ 10.000 millones en un solo mes",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Comercio exterior Argentina",
-      "sources": [
-        {
-          "name": "Diario 3",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.diario3.com.ar/hito-historico-en-el-comercio-exterior-las-exportaciones-argentinas-superaron-los-us-10-000-millones-en-un-solo-mes/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-20T14:05:35Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQT0NOOExucVNGM3laekZQamxZNWdObEN5Wm5IZUwxNDNOWUhFRDFUMUpzSHJRQnpGMm04NDZzOWpheXV1OG50MWloNXFvQ0FCTTFpUDd2Uk9JNzVsYVR5R2NsOEJ5c2Fqd2g4SEFYVGtSRU02c0VhREljb1RydjZkVzlzMVdhZHFPRkNKY2trRGlwcmRlbGgwbWpod3RpMGNsVmZkQVBLbldPQ0VnWThJbWdodjZydXZaWF9yNGxlbW5MaE5OeUozNVdKY01PYzE4Z2c0cGdkVFlmb1U?oc=5"
-    },
-    {
       "id": "el-hombre-de-los-aranceles-finalmente-encontro-aranceles-que-no-le-gustan",
       "datetime": "2026-10-20T13:21:00Z",
       "date": "2026-10-20",
@@ -4385,6 +4462,40 @@
           "author": "Periodista 4"
         }
       ]
+    },
+    {
+      "id": "las-pymes-volvieron-a-ganar-peso-en-el-comercio-exterior-y-hay-un-dato-para--2",
+      "datetime": "2026-10-20T13:04:41Z",
+      "date": "2026-10-20",
+      "firstSeen": "2026-10-21T14:04:16Z",
+      "title": "Las pymes volvieron a ganar peso en el comercio exterior y hay un dato para mirar",
+      "summary": "Las exportaciones de pymes argentinas crecieron 23,2% y alcanzaron US$ 8.330 millones, el nivel más alto registrado desde 2013.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "flipr.news",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://flipr.com.ar/buenos-aires/impulsobaires/las-pymes-volvieron-a-ganar-peso-en-el-comercio-exterior-y-hay-un-dato-para-mirar/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-21T14:04:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMW5ta0tjYlY0R0J4eHJEcl9wbllLYkZ1ckFGVEtsa3VRUmNIamxMWGdTNUJRVUlDeFJlVVlwb2c1MklrV1JWSlBHdi1DNHluU0VVa3ZTc0g4SUxCOEJUQXB5WGZGNy1USjBNT1FDUnN1NG8tdGFFb29HbHdteEhEbUlUT1lnd2hBaE9nUmk5d284ZHMzWmhGSTRmbHVEeDNjZGtxQnZRYzVoUkVtV1NBUEFkUU5KLXBwZEFCRVcwXzhYN2FEWTE5XzVn?oc=5"
     },
     {
       "id": "kenia-puerto-de-lamu-recibe-nuevo-buque-con-carga-pesada-para-refineria-de-dango",
@@ -4767,10 +4878,24 @@
           "url": "https://www.eldiarionuevodia.com.ar/locales/santa-cruz-supero-los-3-000-millones-de-dolares-en-exportaciones-y-dejo-atras-a-chubut-que-productos-generan-semejante-cifra-6087/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Minuto Neuquén",
+          "type": "También publicó esta noticia",
+          "url": "https://www.minutoneuquen.com/regionales/santa-cruz/2026/10/20/santa-cruz-supero-los-us3000-millones-en-exportaciones-y-quedo-por-encima-de-chubut-412766.html",
+          "alsoIn": true,
+          "title": "Santa Cruz superó los US$3.000 millones en exportaciones y quedó por encima de Chubut"
         }
       ],
       "gnTried": "2026-10-20T17:56:40Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQZnRPSW5faS1CSkhJenZQUGt4a0lBdENHX0VsSDVKNlBJZ2MwbVhld1QxYTQzVl9TbzRZdUVNU1J4dnp3LVRIN016T0JPc1dld19YS0dTUGhtUlFhdG16Xzh0RF80aFZSUHoxOXVOcmZzUUFIRUxtTUREaGIyZG5JRDlxblM2amUwanRjZEV6c0lvRkkzT0daWDhmV1NCRnJuYjNkNndDTndQVjZUV2RtLUNEYnhfYm5UbTRPdmhXdFhUNmZ6VTlVRXlGM1RYRHdiMHRjTkpsN2Z1OFQxdk00aXNBS3RVSW1SMVc0R2pJLXppUUJ5bmNHaDhxMlhhZGVvX0oyMNIBhAJBVV95cUxQZnRPSW5faS1CSkhJenZQUGt4a0lBdENHX0VsSDVKNlBJZ2MwbVhld1QxYTQzVl9TbzRZdUVNU1J4dnp3LVRIN016T0JPc1dld19YS0dTUGhtUlFhdG16Xzh0RF80aFZSUHoxOXVOcmZzUUFIRUxtTUREaGIyZG5JRDlxblM2amUwanRjZEV6c0lvRkkzT0daWDhmV1NCRnJuYjNkNndDTndQVjZUV2RtLUNEYnhfYm5UbTRPdmhXdFhUNmZ6VTlVRXlGM1RYRHdiMHRjTkpsN2Z1OFQxdk00aXNBS3RVSW1SMVc0R2pJLXppUUJ5bmNHaDhxMlhhZGVvX0oyMA?oc=5"
+      "gnUrl": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQZnRPSW5faS1CSkhJenZQUGt4a0lBdENHX0VsSDVKNlBJZ2MwbVhld1QxYTQzVl9TbzRZdUVNU1J4dnp3LVRIN016T0JPc1dld19YS0dTUGhtUlFhdG16Xzh0RF80aFZSUHoxOXVOcmZzUUFIRUxtTUREaGIyZG5JRDlxblM2amUwanRjZEV6c0lvRkkzT0daWDhmV1NCRnJuYjNkNndDTndQVjZUV2RtLUNEYnhfYm5UbTRPdmhXdFhUNmZ6VTlVRXlGM1RYRHdiMHRjTkpsN2Z1OFQxdk00aXNBS3RVSW1SMVc0R2pJLXppUUJ5bmNHaDhxMlhhZGVvX0oyMNIBhAJBVV95cUxQZnRPSW5faS1CSkhJenZQUGt4a0lBdENHX0VsSDVKNlBJZ2MwbVhld1QxYTQzVl9TbzRZdUVNU1J4dnp3LVRIN016T0JPc1dld19YS0dTUGhtUlFhdG16Xzh0RF80aFZSUHoxOXVOcmZzUUFIRUxtTUREaGIyZG5JRDlxblM2amUwanRjZEV6c0lvRkkzT0daWDhmV1NCRnJuYjNkNndDTndQVjZUV2RtLUNEYnhfYm5UbTRPdmhXdFhUNmZ6VTlVRXlGM1RYRHdiMHRjTkpsN2Z1OFQxdk00aXNBS3RVSW1SMVc0R2pJLXppUUJ5bmNHaDhxMlhhZGVvX0oyMA?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNZGNPejNRTmZMU3ZPNDV1QjhfX2h0MHdmRHFXcEk4eEVKWThzVDBRSkctWm5Fbk9nREx3Z2x4TlJjdTNUWXAtYlY0aXlKenBkR3QtZWZ6M1lkOFN5cjBzOGZqZmJMZUw1UWhxR2ZRcE81SDI5Z1VybGFVNU4xVlhOZ2tvaG1yNVFVVmwxdVBZNkxkSmR4QXNMaEl5NThweTZQeEQ0RTQwV2hIQ2s4czl2dUZtazAzYkU5VDRvdWk4UktjUDVrS0dBelI4X3RQNDRXbXExRnI2Ujl6UlFUeVlwT3lFQ2dZbElPLTR5MnE3WQ",
+        "https://www.minutoneuquen.com/regionales/santa-cruz/2026/10/20/santa-cruz-supero-los-us3000-millones-en-exportaciones-y-quedo-por-encima-de-chubut-412766.html"
+      ],
+      "mergedIds": [
+        "santa-cruz-supero-los-us-3-000-millones-en-exportaciones-y-quedo-por-encima-de-c"
+      ]
     },
     {
       "id": "el-complejo-manisero-argentino-exportaciones-innovacion-y-sostenibilidad",
@@ -4886,42 +5011,6 @@
       "gnUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNd0ZiQTlPSGE3LWloSG5qNllITFp5anBkV0dUVE9XcVpoV0J5UzNPdkxQU1d0TU1NbXE1d040SWFOVjFWdlh6OWtVZGU3aFFCUzgyNW4xRVNBYWxtb2FlNXhadXNFcFA2c2lodlhPUjdmaHFSZW43c0FsMGdOUkhWaGVUVGlmc3dQOXVMU0ZKeUZEVjBqMzNkSEdSS0k3a1p1VlNXWllTUzd3SWk4ZXExalFxTmlmNXVGRmhxWWwxUUM2djVxTFZMRUhlTjBrSjVHZjFKTURUVkoycnM?oc=5"
     },
     {
-      "id": "exportaciones-en-alza-e-importaciones-en-baja-el-superavit-crecio-217",
-      "datetime": "2026-10-20T11:27:02Z",
-      "date": "2026-10-20",
-      "firstSeen": "2026-10-20T17:56:40Z",
-      "title": "Exportaciones en alza e importaciones en baja: el superávit creció 217%",
-      "summary": "Argentina registró en septiembre un superávit comercial de 2.976 millones de dólares, con un aumento del 217 % con respecto a igual mes de 2025, gracias un salto en las exportaciones y una contracción de las importaciones, informaron fuentes oficiales. El saldo positivo de septiembre implicó, además, un aumento del…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Importaciones",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Diario La Capital de Mar del Plata",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.lacapitalmdp.com/exportaciones-en-alza-e-importaciones-en-baja-el-superavit-crecio-217/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-20T17:56:40Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQm5sdnBQX0U1TS1KQ0plTlRGX1plNzJVSkUyV0ZCT1gzMXVYb2I0WHlqVVRNb0psX2hVQlpxeXR3MkliYjZfVkFyRFU1R19PSFlZei0xUkN5dl94aGFNOEtBUVE5N3VMYXdHMUtaOVN1cVE1UUxXTW10bzhGSTRJWGZ4SGRzSFg5VGlLUXNLWk5uUGxoWlBpdHFWV0NPM0RT?oc=5"
-    },
-    {
       "id": "importaciones-puerta-a-puerta-que-compran-los-argentinos-y-como-impacta-en-el-em",
       "datetime": "2026-10-20T11:25:00Z",
       "date": "2026-10-20",
@@ -4997,40 +5086,6 @@
       "gnUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPdDMtUk5zTGttQW42bjV1UFhURVRDSTNRSnlGbFF6Wm1DcW55b0xBaE82SGhDVm9hazAycTdVR0xEMURiNzlESEl1NXBsakNCeURJTTRKc2lxQlg4ejRRNW5XdjdpQkNZbWtuNUp3WE85SU1ya0pvUlh3UlFmb1Q3d3l1QlNHM1o1aDR1bzVCUDhjWElxQUE3SXVuT0tXcUdQUURtYXczYlZZNEktV25wV2RVRVZ5RjFHTEFEa1dRc2RiT3NOaHphSUhObmpVMUlJNVJIQkJQdFRoUEVrZ1Y0eW93?oc=5"
     },
     {
-      "id": "las-exportaciones-de-energia-crecieron-89-en-septiembre-y-explicaron-mas-de-la-m",
-      "datetime": "2026-10-20T11:04:45Z",
-      "date": "2026-10-20",
-      "firstSeen": "2026-10-20T14:05:35Z",
-      "title": "Las exportaciones de energía crecieron 89% en septiembre y explicaron más de la mitad del superávit comercial",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
-      "sources": [
-        {
-          "name": "La 4x4 Radio",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://la4x4radio.com.ar/las-exportaciones-de-energia-crecieron-89-en-septiembre-y-explicaron-mas-de-la-mitad-del-superavit-comercial/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-20T14:05:35Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMDJtQUxwVmQxX0dxTFU4NEFpTG9DMlZHaVFPVGNxd1JXLVJHUjVfeU5WMExhdVNrRmE1Y2ZMYmxrd2lhTDdCa3lTdkNVUGVLZXNXN0lYeU1Nc0Nzb1ZNbFpqZVZrZmpwQ3h3SURva184ZlhmaXMxeHk2R3VGd2t0emw2Vk93Umd2bDBmVF9jUVM3MlhRNWhEdFNHRk41bzdHeWNwOFloYUNLTHJCSzBBdkpaTkpwdHRYMVlQbThtZEZORW1PZHZDVTMxa2pYdEww?oc=5"
-    },
-    {
       "id": "stockholm-norvik-port-inaugura-nueva-instalacion-de-carga-a-granel",
       "datetime": "2026-10-20T11:00:34Z",
       "date": "2026-10-20",
@@ -5102,41 +5157,6 @@
       ],
       "gnTried": "2026-10-20T14:05:35Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9kVm5rUEpaVWRXV202dFRMT25ac0VXbW5MejBuYWJZS1EyNUZNOXpISDFsQXM3d1ZLNnY0T1VJVVNKMWhfMVgxWUpvdGd1U2VqQ1g4MzJPRzVyMUJvSkxGY2FKUlhDNkhLS0dySg?oc=5"
-    },
-    {
-      "id": "las-pymes-volvieron-a-ganar-peso-en-el-comercio-exterior-y-hay-un-dato-para-mira",
-      "datetime": "2026-10-20T10:25:37Z",
-      "date": "2026-10-20",
-      "firstSeen": "2026-10-21T10:01:19Z",
-      "title": "Las pymes volvieron a ganar peso en el comercio exterior y hay un dato para mirar",
-      "summary": "Las exportaciones de pymes argentinas crecieron 23,2% y alcanzaron US$ 8.330 millones, el nivel más alto registrado desde 2013.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "globe",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "ImpulsoBaires",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.impulsobaires.com.ar/nota/326372/las-pymes-volvieron-a-ganar-peso-en-el-comercio-exterior-y-hay-un-dato-para-mirar/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-21T10:01:19Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYmh5TlVJemRQenQyQzYyMUQ3Vnd2VG5SU3hQUG9fOWxLSmpySGZCeVM0bklLTEFDVmR4cjRncDRsVFpsN0o3MHZwVkZDQUhROHlnemhJRE9zNE9BUUFRR3pLa1UwVUJEQVRZbnZUYmE1S0xBZWtPYWRDTFRSU3NfdnlXUVpnZmlSUXJrMjJaUjhUTWVmMnZPU1EzWFgzZWpvUldhRXhNajhnc0JuX1JqSWNEVTdfb3JMSGI0alVhN0JFd2g5eFE?oc=5"
     },
     {
       "id": "boom-de-vaca-muerta-argentina-suma-mas-divisas-gracias-a-las-exportaciones-energ",
@@ -5212,49 +5232,6 @@
           "author": "cmeza"
         }
       ]
-    },
-    {
-      "id": "mexico-busca-que-estados-unidos-reduzca-aranceles-al-acero-aluminio-y-autos",
-      "datetime": "2026-10-20T08:20:20Z",
-      "date": "2026-10-20",
-      "firstSeen": "2026-10-20T09:59:10Z",
-      "title": "México busca que Estados Unidos reduzca aranceles al acero, aluminio y autos",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Aranceles",
-        "Latinoamérica",
-        "Estados Unidos"
-      ],
-      "countries": [
-        "México",
-        "Estados Unidos"
-      ],
-      "tags": [
-        "Acero",
-        "Aluminio",
-        "Autos",
-        "Aranceles",
-        "Estados Unidos"
-      ],
-      "visual": "auto",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
-      "sources": [
-        {
-          "name": "Baja News",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://bajanews.mx/Business/61613/mexico-busca-que-estados-unidos-reduzca-aranceles-al-acero-aluminio-y-autos",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-20T09:59:10Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQV05acDNhNFFhT0VCRHh3SEtZZ3ZRWTc2eWEyc2ZCZFBxOUFnV19FX3dVOWNmMXVValcwMTBTNVNqTUhfbkpiZ0RVV0UyZjRITFlQWlR4VTRqck1zaXFHclF6N2VIcHFfWFVWcWJRU0lzTEd3R2RmWjBBMHV1RV9adjV3R3AwMHNWYWM2eERWbGFONjJPWHhLdTFCMl9YYlpwSzJBTm5CZmQySDhMQzNZ?oc=5"
     },
     {
       "id": "hmm-encarga-la-construccion-de-ocho-nuevos-portacontenedores-de-13-000-teus",
@@ -5672,6 +5649,306 @@
       "gnUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWmI2eE1ZWmx5ZXZOZUk2MGg1WE1WYTZGeWVQa1o4eTJSeTNTakJ1enRHTEFlSEVCeTJsZk9vbGNoajJsd0JjdDNFLVgyc0puTkRVZWNSQThid21PQkEyclFxT2hYbi04SEJ3WlJxZzZYWHF6Z25SbXRreEplaWh3bmF2c1h6UEhoTVA0R3lwX21mUUt4RVBxNTlZUU5QU0dSUDlWbGR2OG9DNlU?oc=5"
     },
     {
+      "id": "diputados-plenario-acuerdo-mercosur-aelc-efta-media-sancion-senado",
+      "date": "2026-10-20",
+      "kind": "noticia",
+      "title": "Mercosur–AELC: Diputados empezó a tratar el acuerdo con Suiza, Noruega, Islandia y Liechtenstein, que ya tiene media sanción",
+      "summary": "Las comisiones de Relaciones Exteriores y del Mercosur escucharon a la Cancillería y a diplomáticos de Noruega y Suiza. El Senado aprobó el tratado por unanimidad en agosto; Brasil ya lo aplica con Islandia y lo hará con Noruega desde el 1 de noviembre.",
+      "topics": [
+        "Argentina",
+        "Mercosur",
+        "Europa",
+        "Tratados y acuerdos",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina",
+        "Suiza",
+        "Noruega",
+        "Islandia",
+        "Liechtenstein",
+        "Brasil",
+        "Uruguay",
+        "Paraguay"
+      ],
+      "tags": [
+        "AELC",
+        "EFTA",
+        "Congreso",
+        "Diputados",
+        "Ratificación",
+        "Cuotas",
+        "Vino",
+        "Indicaciones geográficas"
+      ],
+      "visual": "treaty",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "Cuando entre en vigor, la AELC dará preferencias a más del 97% de las exportaciones del Mercosur, con desgravación inmediata para limones, naranjas, maní, legumbres, biodiésel y pescado, y una cuota suiza de vino con arancel cero. Falta la aprobación de Diputados.",
+      "argentinaImpact": {
+        "change": "El acuerdo con la AELC avanza en el Congreso: tiene media sanción del Senado y empezó su tratamiento en comisiones de Diputados.",
+        "who": "Exportadores de economías regionales, carnes, vino, miel y pesca; importadores de bienes industriales de Suiza y Noruega.",
+        "sectors": [
+          "Economías regionales",
+          "Carnes",
+          "Vino",
+          "Pesca",
+          "Biocombustibles"
+        ],
+        "flows": {
+          "importaciones": true,
+          "exportaciones": true,
+          "logistica": false,
+          "aranceles": true
+        }
+      },
+      "body": [
+        "Las comisiones de Relaciones Exteriores y Culto y del Mercosur de la Cámara de Diputados analizaron el martes 20 de octubre el acuerdo de libre comercio entre el Mercosur y la Asociación Europea de Libre Comercio (AELC, o EFTA por su sigla en inglés), que integran Islandia, Liechtenstein, Noruega y Suiza. El tratado llegó a la Cámara baja con media sanción: el Senado lo aprobó por unanimidad, con 65 votos, en la sesión del 27 de agosto.",
+        "La reunión la condujeron la presidenta de Relaciones Exteriores, Juliana Santillán Juárez Brahim (La Libertad Avanza), y el titular de la comisión del Mercosur, Eduardo Valdés (Unión por la Patria). La crónica no informa una fecha para el dictamen ni para la sesión.",
+        "## Qué se dijo en la reunión",
+        "Por la Cancillería expuso el embajador Fernando Brun, que mencionó que las exportaciones argentinas a la Unión Europea crecieron 21% desde la firma de ese otro acuerdo y una variación de 24% en el comercio con los países de la AELC; Parlamentario no detalla los períodos que se comparan. El embajador de Noruega, Halvor Sætre, recordó que los dos países cumplen 120 años de relaciones diplomáticas, y el encargado de negocios de Suiza, Luca Urech, señaló que su país tiene 34 acuerdos de libre comercio con 44 socios y que el tratado está en proceso de ratificación allí.",
+        "Martina Bietenhader, jefa del Swiss Business Hub en São Paulo, explicó que Suiza otorgó 25 contingentes arancelarios bilaterales para productos agrícolas sensibles. Valdés destacó que la desgravación del Mercosur será gradual y asimétrica, y el diputado Damián Arabia (LLA) celebró el acuerdo por su efecto sobre inversiones y transparencia. La crónica no registra objeciones de los legisladores.",
+        "## Qué contiene el tratado",
+        "El acuerdo se firmó el 16 de septiembre de 2025 en Río de Janeiro, después de negociaciones que empezaron en Buenos Aires en julio de 2017 y sumaron 14 rondas. Además de bienes, abarca servicios, inversiones, compras públicas, propiedad intelectual, reglas de origen, medidas sanitarias y fitosanitarias, obstáculos técnicos y desarrollo sostenible. La AELC tiene unos 15 millones de habitantes de alto poder adquisitivo y, junto con el Mercosur, forma un área de unos 283 millones de personas, según la crónica de Mirador Provincial sobre la sesión del Senado.",
+        "La AELC otorgará preferencias a más del 97% de las exportaciones del Mercosur y eliminará de inmediato los aranceles para los productos industriales. Tendrán desgravación inmediata los limones, las naranjas, el maní, ciertos aceites vegetales, las legumbres, el biodiésel y los productos pesqueros, y habrá mejor acceso para carne bovina y aviar, lácteos y miel. Suiza abrirá una cuota bilateral de 55.000 hectolitros de vino con arancel cero, y el tratado reconoce 108 indicaciones geográficas argentinas, entre ellas Patagonia y Cordero patagónico.",
+        "Del lado del Mercosur, el bloque mantuvo exclusiones y consiguió plazos de hasta 15 años para desgravar los productos industriales sensibles que lleguen desde esos países. Según el estudio Machado Meyer, el acuerdo admite la autocertificación del origen por parte del exportador y permite el tránsito y almacenamiento en terceros países sin perder las preferencias, si se cumplen los requisitos.",
+        "## Cómo van los demás países",
+        "Brasil fue el más rápido: promulgó el tratado el 23 de septiembre, con el Decreto 13.126/26, y lo aplica con Islandia desde el 1 de octubre de 2026; con Noruega empezará el 1 de noviembre. Con Suiza y Liechtenstein, la aplicación depende de que terminen sus procesos internos. El gobierno brasileño estima que el acuerdo puede sumar USD 7.200 millones a su comercio, con base en los flujos de 2024. Uruguay completó la aprobación parlamentaria en junio, y en Paraguay la comisión de Relaciones Exteriores del Senado emitió dictamen favorable el 16 de septiembre.",
+        "En Suiza, según InfoNegocios, el Consejo de los Estados lo aprobó por 35 votos a 7 y el Consejo Nacional por 118 a 66, después de un primer rechazo en junio y de un paquete de apoyo al agro; todavía puede quedar sujeto a un referéndum.",
+        "## Cuándo podría regir para la Argentina",
+        "Según la descripción del tratado difundida en el debate del Senado, el acuerdo entra en vigor el primer día del tercer mes posterior al depósito de las ratificaciones de al menos un país de cada bloque, con Noruega como depositaria y Paraguay como coordinador del Mercosur. Esa regla bilateral es la que explica la aplicación entre Brasil e Islandia. Una nota de Ámbito de junio había indicado, en cambio, que haría falta la ratificación de los cuatro socios del Mercosur. Para la Argentina, el paso pendiente es la aprobación de Diputados."
+      ],
+      "keyData": [
+        [
+          "Preferencias de la AELC",
+          "Más del 97% de las exportaciones del Mercosur"
+        ],
+        [
+          "Senado argentino",
+          "Aprobado por unanimidad (65 votos) el 27/8/2026"
+        ],
+        [
+          "Cuota suiza de vino",
+          "55.000 hl con arancel cero"
+        ],
+        [
+          "Indicaciones geográficas argentinas",
+          "108"
+        ],
+        [
+          "Plazo máximo de desgravación del Mercosur",
+          "Hasta 15 años"
+        ],
+        [
+          "Brasil–Islandia",
+          "Vigente desde el 1/10/2026"
+        ],
+        [
+          "Brasil–Noruega",
+          "Desde el 1/11/2026"
+        ]
+      ],
+      "explainer": {
+        "what": "Las comisiones de Relaciones Exteriores y del Mercosur de Diputados empezaron a analizar el acuerdo Mercosur–AELC, que el Senado aprobó por unanimidad el 27 de agosto.",
+        "why": "La AELC dará preferencias a más del 97% de las exportaciones del Mercosur, con desgravación inmediata para limones, naranjas, maní y biodiésel y una cuota suiza de vino de 55.000 hectolitros.",
+        "who": "Exportadores de economías regionales, carnes, vino, miel y pesca, e importadores de bienes industriales de Suiza y Noruega.",
+        "products": [
+          "Limones",
+          "Naranjas",
+          "Maní",
+          "Legumbres",
+          "Biodiésel",
+          "Productos pesqueros",
+          "Carne bovina",
+          "Carne aviar",
+          "Miel",
+          "Vino"
+        ],
+        "next": "Con media sanción del Senado, el proyecto necesita la aprobación de Diputados; la crónica de la reunión no informa fecha de dictamen ni de sesión.",
+        "nextSource": {
+          "name": "Parlamentario",
+          "url": "https://www.parlamentario.com/2026/10/20/diplomaticos-analizaron-ante-diputados-el-acuerdo-mercosur-y-la-asociacion-europea-de-libre-comercio/"
+        }
+      },
+      "sources": [
+        {
+          "name": "Parlamentario",
+          "type": "Medio especializado",
+          "url": "https://www.parlamentario.com/2026/10/20/diplomaticos-analizaron-ante-diputados-el-acuerdo-mercosur-y-la-asociacion-europea-de-libre-comercio/",
+          "primary": true
+        },
+        {
+          "name": "Mirador Provincial",
+          "type": "Medio de comunicación",
+          "url": "https://www.miradorprovincial.com/2026/08/28/el-senado-aprobo-el-tratado-de-libre-comercio-entre-el-mercosur-y-la-aelc-para-potenciar-las-exportaciones-de-economias-regionales/"
+        },
+        {
+          "name": "Swissinfo (EFE)",
+          "type": "Medio de comunicación",
+          "url": "https://www.swissinfo.ch/spa/avanza-en-el-parlamento-argentino-la-ratificaci%C3%B3n-del-acuerdo-mercosur-efta/91967029"
+        },
+        {
+          "name": "Machado Meyer",
+          "type": "Estudio jurídico",
+          "url": "https://www.machadomeyer.com.br/pt/inteligencia-juridica/publicacoes-ij/comercio-exterior-e-direito-aduaneiro/brasil-promulga-acordo-de-livre-comercio-entre-mercosul-e-efta"
+        },
+        {
+          "name": "InfoNegocios",
+          "type": "Medio de comunicación",
+          "url": "https://infonegocios.com.py/default/efta-mercosur-el-acuerdo-avanza-en-suiza-y-brasil-mientras-paraguay-da-otro-paso-hacia-su-ratificacion"
+        },
+        {
+          "name": "Ámbito",
+          "type": "Medio de comunicación",
+          "url": "https://www.ambito.com/uruguay/ratifico-el-acuerdo-mercosur-efta-y-se-convirtio-el-segundo-pais-hacerlo-n6290093"
+        }
+      ],
+      "absorbs": [
+        "plenario-analizo-el-acuerdo-entre-el-mercosur-y-la-asociacion-europea-de-libre-c"
+      ],
+      "deadlines": [
+        {
+          "date": "2026-11-01",
+          "label": "Brasil empieza a aplicar el acuerdo Mercosur–AELC con Noruega (con Islandia rige desde el 1 de octubre)",
+          "url": "https://www.machadomeyer.com.br/pt/inteligencia-juridica/publicacoes-ij/comercio-exterior-e-direito-aduaneiro/brasil-promulga-acordo-de-livre-comercio-entre-mercosul-e-efta"
+        }
+      ]
+    },
+    {
+      "id": "indec-flete-importaciones-china-458-dolares-tonelada-sube-59-septiembre",
+      "date": "2026-10-20",
+      "kind": "datos",
+      "story": "fletes-contenedores",
+      "title": "Traer mercadería de China cuesta USD 458,7 por tonelada en flete, 59,1% más que hace un año, según el INDEC",
+      "summary": "En septiembre, el flete promedio de las importaciones fue de USD 126,7 por tonelada (+2,9%) y de USD 62,3 por cada USD 1.000 FOB, contra USD 53,7 un año antes. China explica el 40,2% del gasto total en fletes; desde el Mercosur, el costo por tonelada bajó 10,9%.",
+      "topics": [
+        "Argentina",
+        "Importaciones",
+        "Logística",
+        "Transporte marítimo",
+        "China"
+      ],
+      "countries": [
+        "Argentina",
+        "China",
+        "Brasil",
+        "Estados Unidos",
+        "Unión Europea"
+      ],
+      "tags": [
+        "INDEC",
+        "Fletes",
+        "ICA",
+        "Costos logísticos",
+        "Contenedores",
+        "Drewry",
+        "Blank sailings"
+      ],
+      "visual": "container",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "El dato oficial muestra cuánto pesa el flete en el costo de lo que se importa: desde China ya equivale a USD 101 por cada USD 1.000 de mercadería FOB, y en el promedio general subió USD 8,6 en un año.",
+      "argentinaImpact": {
+        "change": "El flete por tonelada desde China subió 59,1% interanual en septiembre y el costo del flete por cada USD 1.000 FOB importados pasó de USD 53,7 a USD 62,3.",
+        "who": "Importadores, especialmente de insumos y bienes de consumo de Asia; forwarders y despachantes que arman costos de importación.",
+        "sectors": [
+          "Importación de insumos",
+          "Bienes de consumo",
+          "Logística"
+        ],
+        "flows": {
+          "importaciones": true,
+          "exportaciones": false,
+          "logistica": true,
+          "aranceles": false
+        }
+      },
+      "body": [
+        "El costo del flete internacional para traer mercadería de China a la Argentina fue de USD 458,7 por tonelada en septiembre, 59,1% más que un año antes, según el informe de Intercambio Comercial Argentino que el INDEC publicó el 19 de octubre. Por cada USD 1.000 importados desde ese origen a valor FOB, el flete costó USD 101, contra USD 91,3 en septiembre de 2025.",
+        "Para el total de las importaciones, el flete promedio fue de USD 126,7 por tonelada, con una suba de 2,9%, y de USD 62,3 por cada USD 1.000 FOB, USD 8,6 más que un año atrás. El suplemento Movant de Infobae destacó el dato el 20 de octubre.",
+        "## Los números por origen",
+        "El INDEC desagrega el costo para cuatro zonas que explicaron el 77,2% del flete total pagado en el mes (80,1% un año antes). China tiene el flete unitario más alto y el mayor peso: el 40,2% del gasto total en fletes. Le siguen el Mercosur, con el 21,3%; el bloque de Estados Unidos, México y Canadá (USMCA), con el 9%, y la Unión Europea, con el 6,7%.",
+        "Desde la Unión Europea, la tonelada costó USD 188,8 de flete (+19,3%) y USD 28,2 por cada USD 1.000 FOB, contra USD 24 un año antes. Desde el USMCA, USD 99,2 por tonelada (+3,7%) y USD 49,5 por cada USD 1.000 FOB (USD 42,7 en 2025). El Mercosur fue la única zona con baja del flete por tonelada: USD 62,9 (−10,9%), aunque el costo relativo al valor FOB subió de USD 45 a USD 52,3. En todos los orígenes, entonces, el flete pesa más que hace un año en relación con el valor de la mercadería.",
+        "## Por qué importa en el costo de importar",
+        "La suba del flete llega en un mes en el que las importaciones bajaron 1,8%, a USD 7.060 millones, con cantidades 11,2% menores y precios 10,4% más altos. Las compras a China sumaron USD 1.817 millones, sin cambios frente a septiembre de 2025, y en los nueve meses el país asiático fue el primer proveedor, con el 23,3% del total, según Infobae.",
+        "Como referencia del mercado de tarifas spot, el World Container Index de Drewry, que mide los fletes de contenedores en las principales rutas mundiales, cerró el 15 de octubre en USD 4.485 por contenedor de 40 pies, 3% por encima de la semana previa y 166% más que un año antes, cuando estaba en USD 1.687.",
+        "## Lo que viene en el mercado de fletes",
+        "Las navieras siguen ajustando la oferta. Según el Cancelled Sailings Tracker de Drewry, citado por MundoMarítimo, entre el 19 de octubre y el 22 de noviembre se prevén 44 cancelaciones de zarpes, el 6% de los 713 programados en las rutas principales: 44% en Asia–norte de Europa y Mediterráneo, 36% en el transpacífico hacia el este y 20% en el transatlántico.",
+        "La consultora considera incierto que la recuperación de tarifas se sostenga, porque la demanda estacional se debilita y hay más capacidad disponible. Entre los factores a seguir menciona el regreso gradual de servicios al Canal de Suez, la congestión portuaria y el inicio de las negociaciones de contratos para 2027 en Asia–Europa y Mediterráneo."
+      ],
+      "keyData": [
+        [
+          "Flete desde China",
+          "USD 458,7 por tonelada (+59,1% i.a.)"
+        ],
+        [
+          "Flete promedio de importación",
+          "USD 126,7 por tonelada (+2,9%)"
+        ],
+        [
+          "Flete por cada USD 1.000 FOB (total)",
+          "USD 62,3 (USD 53,7 en sep. 2025)"
+        ],
+        [
+          "Flete por cada USD 1.000 FOB (China)",
+          "USD 101 (USD 91,3 en sep. 2025)"
+        ],
+        [
+          "Peso de China en el flete total",
+          "40,2%"
+        ],
+        [
+          "Flete desde el Mercosur",
+          "USD 62,9 por tonelada (−10,9%)"
+        ],
+        [
+          "Cancelaciones de zarpes (19/10–22/11)",
+          "44 de 713 (6%)"
+        ]
+      ],
+      "explainer": {
+        "what": "El INDEC informó que en septiembre el flete de las importaciones desde China llegó a USD 458,7 por tonelada, 59,1% más que un año antes.",
+        "why": "El flete pesa cada vez más en el costo de importar: en promedio pasó de USD 53,7 a USD 62,3 por cada USD 1.000 FOB, y desde China ya equivale a USD 101.",
+        "who": "Importadores de insumos y bienes de consumo, sobre todo de Asia, y forwarders y despachantes que calculan costos de importación.",
+        "products": [
+          "Mercadería en contenedores",
+          "Insumos industriales",
+          "Bienes de consumo"
+        ],
+        "next": "Drewry considera incierto que la recuperación de los fletes se sostenga y prevé 44 cancelaciones de zarpes entre el 19 de octubre y el 22 de noviembre; además empiezan las negociaciones de contratos para 2027 en Asia–Europa.",
+        "nextSource": {
+          "name": "MundoMarítimo",
+          "url": "https://mundomaritimo.cl/noticias/lineas-navieras-preven-44-cancelaciones-de-itinerarios-entre-el-19-de-octubre-y-el-22-de-noviembre"
+        }
+      },
+      "sources": [
+        {
+          "name": "INDEC – Intercambio comercial argentino, septiembre de 2026",
+          "type": "Organismo oficial",
+          "url": "https://www.indec.gob.ar/uploads/informesdeprensa/ica_10_263F42E3F39F.pdf",
+          "primary": true
+        },
+        {
+          "name": "Infobae (Movant)",
+          "type": "Medio de comunicación",
+          "url": "https://www.infobae.com/movant/2026/10/20/los-fletes-desde-asia-subieron-casi-60-y-encarecen-las-importaciones-argentinas/"
+        },
+        {
+          "name": "MundoMarítimo (Drewry)",
+          "type": "Medio especializado",
+          "url": "https://mundomaritimo.cl/noticias/lineas-navieras-preven-44-cancelaciones-de-itinerarios-entre-el-19-de-octubre-y-el-22-de-noviembre"
+        },
+        {
+          "name": "The Daily Cargo News (Drewry WCI)",
+          "type": "Medio especializado",
+          "url": "https://www.thedcn.com.au/news/world-container-index-15-october-2026"
+        }
+      ],
+      "absorbs": [
+        "los-fletes-desde-asia-subieron-casi-60-y-encarecen-las-importaciones-argentinas"
+      ]
+    },
+    {
       "id": "movimiento-total-en-puerto-de-la-bahia-de-cadiz-supera-4-2-millones-de-toneladas",
       "datetime": "2026-10-20T02:59:08Z",
       "date": "2026-10-19",
@@ -5914,54 +6191,6 @@
       ]
     },
     {
-      "id": "las-exportaciones-energeticas-aportan-mas-de-la-mitad-del-superavit-comercial-de",
-      "datetime": "2026-10-20T01:11:35Z",
-      "date": "2026-10-19",
-      "firstSeen": "2026-10-20T01:59:31Z",
-      "title": "Las exportaciones energéticas aportan más de la mitad del superávit comercial del país",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "DameNoticias",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://damenoticias.com/nota/657147-las-exportaciones-energeticas-aportan-mas-de-la-mitad-del-superavit-comercial-del-pais",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "DameNoticias",
-          "type": "También publicó esta noticia",
-          "url": "https://www.damenoticias.com/nota/657147-las-exportaciones-energeticas-aportan-mas-de-la-mitad-del-superavit-comercial-del-pais",
-          "alsoIn": true,
-          "title": "Las exportaciones energéticas aportan más de la mitad del superávit comercial del país"
-        }
-      ],
-      "gnTried": "2026-10-20T01:59:31Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcUJ5cHdZaGZNMUFFV2NBTXU1aDRXcHBtdTJ2c0ZVRGVDLVdDM090QzVlNm54SFA1UmFzTEV0MEdwandqemtHOHBWS2htNWNQMGpmdEliSWZnVzljYXhBUlcyc2Jpa2dCWWxUVWY5Z1RoOUNjemFLdktnSzd3WFk5RDFteHczRHdQZG1GLXZLR1IzREc0VXZLV2xUeTN5WFl4WWNNTVZtbUxvLTM3bHNlSk9wRTNEMk5MXy1GeE9sejY?oc=5",
-      "aliasUrls": [
-        "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdWVFaHpUTGtCMElRS0RCX3NXTEFZM2xMUDNKaWNBOWQwQlZ4ZWNlOWZJTmtCbE9TMEtUeldjOU40OVowemlMQVdpaWxmLUVFSF9acVRhbndKYW9CeGM0by1iYUhmV2l6dUdaTUh2azBaVk9UcjNncmltczFRVDNoSUtqNXQzRmdtYzhfTlB6QS0xMldoV3pXVnBhSFRwdlpuMlJ4bW90YlFhZ1NCR1JrR08zQWNONkJPdlY1ZjVNaHBMeDQxQmc",
-        "https://www.damenoticias.com/nota/657147-las-exportaciones-energeticas-aportan-mas-de-la-mitad-del-superavit-comercial-del-pais"
-      ],
-      "mergedIds": [
-        "las-exportaciones-energeticas-aportan-mas-de-la-mitad-del-superavit-comercia-2"
-      ]
-    },
-    {
       "id": "lopez-anadon-inauguro-la-aog-patagonia-2026-argentina-es-un-proyecto-neto-de-exp",
       "datetime": "2026-10-20T00:53:33Z",
       "date": "2026-10-19",
@@ -6154,10 +6383,24 @@
           "url": "https://prensamercosur.org/2026/10/19/sector-exportador-pierde-competitividad-y-advierte-una-caida-del-26/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Infocielo",
+          "type": "También publicó esta noticia",
+          "url": "https://www.infocielo.com/politica-y-economia/sector-avicola-advierten-que-argentina-necesita-un-dolar-mas-competitivo-para-impulsar-las-exportaciones",
+          "alsoIn": true,
+          "title": "Sector avícola: advierten que Argentina necesita un dólar más competitivo para impulsar las exportaciones"
         }
       ],
       "gnTried": "2026-10-20T01:59:31Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0ViQU9pMUh0RVY1clk4c051UlBzV040UnFTSTRZRHh3YUhBeU83RXBSVF9LdldDckN1TWNhOVVTdktrcmt3Y1lMV3pfZzF1V01jQzNKZE9BLWIyZlB5ME1mT0NzOTVjc3kyazh0eXhMZzVvN0p5bDA2X1c4b1FXOWRZZ3N2RlE0VkhybWhoUjNSczY1OWFRWEhsdE5ZSWhyMGJhNkMzSUczdw?oc=5"
+      "gnUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR0ViQU9pMUh0RVY1clk4c051UlBzV040UnFTSTRZRHh3YUhBeU83RXBSVF9LdldDckN1TWNhOVVTdktrcmt3Y1lMV3pfZzF1V01jQzNKZE9BLWIyZlB5ME1mT0NzOTVjc3kyazh0eXhMZzVvN0p5bDA2X1c4b1FXOWRZZ3N2RlE0VkhybWhoUjNSczY1OWFRWEhsdE5ZSWhyMGJhNkMzSUczdw?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSlI4cWRtcVBIbzhmbW13OTVhSWFMRE5DcUllVmoxZTE4WW1XMlhmeUQwUHFYbWNtQk9MRUsxUFprZ3h0SjdPTHZmTjRfTGhRanY2NGk4bUNkLVA0MUtlV3M4RjVRWVFsRDRBTl9YeHFVbmhxWTdnbnJIY3pha0FzZVhhdmgtM3A2TEE1Zi13djZGTGVrenRPU3JUcFFkUGthNGdkMW5oOS1IVkd5Z3JsS2hFVEJUdGc2ZkdlZ1lGb2NDMHVBbk5WZGZpdm5WZndoQ0V6U3dQTG9tQWcxUW4weW9GaDU",
+        "https://www.infocielo.com/politica-y-economia/sector-avicola-advierten-que-argentina-necesita-un-dolar-mas-competitivo-para-impulsar-las-exportaciones"
+      ],
+      "mergedIds": [
+        "sector-avicola-advierten-que-argentina-necesita-un-dolar-mas-competitivo-para-im"
+      ]
     },
     {
       "id": "maersk-traspasa-escala-a-puerto-de-colombio-desde-servicio-ae15-al-ae12",
@@ -6229,40 +6472,6 @@
           "author": "Periodista 4"
         }
       ]
-    },
-    {
-      "id": "record-de-exportaciones-y-un-aporte-historico-del-sector-energetico",
-      "datetime": "2026-10-19T22:42:38Z",
-      "date": "2026-10-19",
-      "firstSeen": "2026-10-20T09:59:10Z",
-      "title": "Récord de exportaciones y un aporte histórico del sector energético",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Comercio exterior Argentina",
-      "sources": [
-        {
-          "name": "Vaca Muerta News",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://vacamuertanews.com/actualidad/record-de-exportaciones-y-un-aporte-historico-del-sector-energetico.htm",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-20T09:59:10Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUHZHaDB6MHNGczFuZE9maWw2a0NZdEwyUmRLaUY4OWJzT3pHQVFxUHlpOTVJWlJ1Z1hMZm9WR1ozWFU3M0Q5c3dKeHNlZ2d5N1pLMVMxRGpMVUdvQ3dfY0U1MG1ydEpvV01vcDdia08xcHJNaUhoeE1TMmx4M2pZT19SODA4MHRPTER1dWdDdW1mQ0VDdUhxY3doemlZZmJ1bEdkZNIBpAFBVV95cUxNUHZHaDB6MHNGczFuZE9maWw2a0NZdEwyUmRLaUY4OWJzT3pHQVFxUHlpOTVJWlJ1Z1hMZm9WR1ozWFU3M0Q5c3dKeHNlZ2d5N1pLMVMxRGpMVUdvQ3dfY0U1MG1ydEpvV01vcDdia08xcHJNaUhoeE1TMmx4M2pZT19SODA4MHRPTER1dWdDdW1mQ0VDdUhxY3doemlZZmJ1bEdkZA?oc=5"
     },
     {
       "id": "pakistan-autoridad-portuaria-inaugura-area-de-apoyo-de-atraque-en-puerto-qasim",
@@ -6923,41 +7132,6 @@
       "gnUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNX1A3UUJNZ0w5dnJ3dGphd1h5VEktbGV1dm5MY2V3OXdGYmk4NVZ3YnJsbUtseEI2b29MYUFQYjdPUXd0RlY3bEpQR250WlZ1d3pLRDhkaUhUX1hLTjFHSEJBaEpMa1ZIeEVyN19VWXdSV0JvR3ROUUJwOGlMdDB2bEZ6SGh4aFBpZklScEI5XzAxNU12NU5Od2g1S1d3OUQ1RmMxY2dFM1c2WHdnRVVZYmwydzFybnl5alRXSTlVTmktY2c3RDdfZGFWVDNfNmlkUnM3THRLSWc4VnYzM1E?oc=5"
     },
     {
-      "id": "exportaciones-record-y-compras-en-baja-el-superavit-comercial-rozo-los-usd-3-000",
-      "datetime": "2026-10-19T20:01:00Z",
-      "date": "2026-10-19",
-      "firstSeen": "2026-10-20T21:57:17Z",
-      "title": "Exportaciones récord y compras en baja: el superávit comercial rozó los USD 3.000 millones",
-      "summary": "Las ventas al exterior superaron por primera vez los USD 10.000 millones mensuales. La energa lider el crecimiento, mientras cayeron las importaciones de bienes de capital.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Importaciones",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Comercio exterior Argentina",
-      "sources": [
-        {
-          "name": "BAE Negocios",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.baenegocios.com/economia/exportaciones-en-alza-y-compras-en-baja-el-superavit-comercial-rozo-los-usd-3-000-millones/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-20T21:57:17Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQZ3A3SlgwaDV4WllSdVNBeThTNGVMVTZDay13X0kxc1NHMmYzMVJWbi1tUGJZaTh4YnZtRkNnM0ZPNTRqeUV4RXJNRTZCbEFUWDk1amFETDN2cHJRSU4tdjdxemwzd3R3bkpGa25DbXhsYmtHMWhRU1pRNEU0QWVjdGEybEtzcDAzZU02UW1EWDUxVjdaV2p6NVA3MnZydXE4TEExY0lSRFlpczU0ZVF1eUE1RW5KQXFhWVN5RDZHNm9mS3piUXBF0gHAAUFVX3lxTE11WDJkLWlGWE0wYmxGbXFwTWZrTVpDWnNxMDFDUDVTem9RLXV6MUd4RjdSVVhvRVYtUzJkVHV0ZTFwbGpJemVERVc2Y0dNWUltN2FQN0czcVVWeEYxRWJ5aFZQZ2Z1MUtDYWJnRjJxRjhPODhRRmdtbjBxMHlwU1NIZDlVTFlfbHdRZWdDVy1rYk9DQjloNU8xSURvYS1BMWk2OWYyTlJyaGpTVVgzWFNIX21GbDNFU0taTXZYd3lNMg?oc=5"
-    },
-    {
       "id": "peru-continua-trabajo-para-actualizar-plan-maestro-de-puerto-del-callao",
       "datetime": "2026-10-19T20:00:55Z",
       "date": "2026-10-19",
@@ -7469,10 +7643,24 @@
           "url": "https://www.abc.es/elecciones/campo-brasileno-inclina-bolsonaro-pese-impacto-aranceles-20261019193942-nt.html",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "EFE - Agencia de noticias",
+          "type": "También publicó esta noticia",
+          "url": "https://efe.com/economia/2026-10-21/flavio-bolsonaro-apoyo-sector-agricola-brasil-aranceles-trump/",
+          "alsoIn": true,
+          "title": "Flávio Bolsonaro cosecha el apoyo del sector agrícola de Brasil pese a los aranceles de Trump"
         }
       ],
       "gnTried": "2026-10-19T17:55:25Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWGdXN200N2RSQUdDXzBYMTZHZXZSald5cDhZR2FJeVpqdGtCeXQ4U3pzR21lREV1WkRROUZ0dXVZcTNpQkJCbFgxZ3RybDVVdnZ1RHJDaHZWZ3JqUmE4RXF0elJLNEl4UE1Ob2VWVTFHbTd5d213V09yVjV3QkNzR3U0MU5HNWUzM2ptUzVOeWd4T1YyS25RS0R3ek9ZUkd0dzFOdzd6V1VOal9sNFE?oc=5"
+      "gnUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWGdXN200N2RSQUdDXzBYMTZHZXZSald5cDhZR2FJeVpqdGtCeXQ4U3pzR21lREV1WkRROUZ0dXVZcTNpQkJCbFgxZ3RybDVVdnZ1RHJDaHZWZ3JqUmE4RXF0elJLNEl4UE1Ob2VWVTFHbTd5d213V09yVjV3QkNzR3U0MU5HNWUzM2ptUzVOeWd4T1YyS25RS0R3ek9ZUkd0dzFOdzd6V1VOal9sNFE?oc=5",
+      "aliasUrls": [
+        "https://efe.com/economia/2026-10-21/flavio-bolsonaro-apoyo-sector-agricola-brasil-aranceles-trump",
+        "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbzRYWkU4UG5YbVQwcE40eEVldFVoYndSNDBwamE3NlRFTDR4c0pLR0kwendGTGdlUGdoYTVKZURuYlhKSnJISEoxWGgza0tfOGRsOGtWV09JbnJiempCWExhQnF3TXRTOWFGanMtRVVrS0l3ZlNYUEo5bnRkT3lEWnFTb1N4OWxnU1pYdzhiNjY2M0FJdWw3dTRHQzNzZDA"
+      ],
+      "mergedIds": [
+        "flavio-bolsonaro-cosecha-el-apoyo-del-sector-agricola-de-brasil-pese-a-los-aranc"
+      ]
     },
     {
       "id": "ee-uu-puerto-de-san-diego-y-autoridad-metropolitana-de-subic-bay-celebran-acuerd",
@@ -10320,47 +10508,6 @@
           "author": "Periodista 4"
         }
       ]
-    },
-    {
-      "id": "efta-mercosur-el-acuerdo-avanza-en-suiza-y-brasil-mientras-paraguay-da-otro--2",
-      "datetime": "2026-10-18T21:53:56Z",
-      "date": "2026-10-18",
-      "firstSeen": "2026-10-19T14:08:27Z",
-      "title": "EFTA-Mercosur: el acuerdo avanza en Suiza y Brasil, mientras Paraguay da otro paso hacia su ratificación",
-      "summary": "(Por NL) El acuerdo de libre comercio entre Mercosur y los países de EFTA tuvo avances importantes durante septiembre. Suiza lo aprobó en el Parlamento, Brasil ya tiene fecha de entrada en vigor y Paraguay avanzó con un dictamen favorable en el Senado. Desde la Cámara de Comercio Paraguayo-Suiza esperan que el nuevo…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Tratados y acuerdos",
-        "Latinoamérica",
-        "Mercosur",
-        "Europa"
-      ],
-      "countries": [
-        "Brasil",
-        "Paraguay",
-        "Suiza"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "InfoNegocios Paraguay",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://infonegocios.com.py/default/efta-mercosur-el-acuerdo-avanza-en-suiza-y-brasil-mientras-paraguay-da-otro-paso-hacia-su-ratificacion",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-19T14:08:27Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUWFBTnhvbkl6NDktal85dEtaR3FvWnlOMHZCbFQtOUhSUmJPTlpXbEx2NmU0QjY1S2tuWW5Dd1dFeDZNLXV3Sm90cjUtZHNrSUxyOFVlSWZQSkVoUWxrMG9XMXp3dnpZYlpmdnBJSWVBWW9HWkZRREZ5Yk1jdk96V0tJeE1sMmdnUTRZdEpyYVp5cklVeF9rRG5OWXhCQVZYLTlrX0pFTkNuX3V3UkpfSEpTM0ZuOGZTQmxaVTZ2azdCVWtJaFFhYVRFN3h5TUcwQ0V5RtIB2gFBVV95cUxNMzJ2aTlUV0VIRVdwYndaZWV5aFpzbU1PN1dYUFhQejhxR0lKOXVPVFBqZ2RxWU11VlV5a1BEZzFoLVdNTkZBMmRHdWYxc0dPcFJBa2pKdm9Kd05QRkhEVlZacnVUV2NjbVN5YVJLdzhwcm5XVWp2UF9ZOV9PMURxeGtQV0RyN2JsSG1EUUtRejRhdWIwdUFTX19YWk5hZW9IcEI5anVQOVZEUTBaNmxSR1FzVVVNRXQ5SDFxVmh4bldWODB1TlFRdkFVTE1JRnNmelRQUkQ5YVFkQQ?oc=5"
     },
     {
       "id": "mar-del-plata-sera-sede-de-un-encuentro-nacional-de-despachantes-de-aduana-y-age",
@@ -19501,47 +19648,6 @@
       }
     },
     {
-      "id": "mercosur-actualiza-las-condiciones-para-el-transporte-internacional-de-cargas-qu",
-      "datetime": "2026-10-15T13:20:26Z",
-      "date": "2026-10-15",
-      "firstSeen": "2026-10-16T09:59:08Z",
-      "title": "Mercosur actualiza las condiciones para el transporte internacional de cargas: ¿Qué cambia y qué implica para la logística regional?",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Logística",
-        "Mercosur"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Cámara de Comercio Exterior de Santa Fe",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://comercioexterior.org.ar/mercosur-actualiza-las-condiciones-para-el-transporte-internacional-de-cargas-que-cambia-y-que-implica-para-la-logistica-regional/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-16T09:59:08Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPYzNqOXlJTHJYZWM0dXFPNk9aNkJEZ05RUGVBM21qeUJ4Z19Pa0RmR0VldXdkalJ2OVd3OU04ZHpfTDhtUWZhNUZSWkdaeWVtbWllQU9saGRrWXhPcDF2RlhfUzlqbUliQVFFT2ZJRS1BTzcwN2JfeVdlcnpFdlh3V29YTDZJMUJUVUdfWGk4VWxJLU5jVEdNU24tbUJWcllsRzRTNUJTM3JyRmJUbjNRT3ZQcVN5andCVk9HdVFycnZxbVZPcWJhcVBvT3dYbkFTWkExa2pjeEhHT2IxSTZESF9nZFJVMlBaVDBlcGhkd1NOVTFF?oc=5",
-      "digestSkip": {
-        "at": "2026-10-21T10:30:00-03:00",
-        "reason": "repite una nota de la redacción (Resolución 1787/2026, flota mínima del Mercosur)"
-      }
-    },
-    {
       "id": "en-medio-de-la-discusion-por-la-emergencia-el-gobierno-actualizo-un-los-arancele",
       "datetime": "2026-10-15T13:20:00Z",
       "date": "2026-10-15",
@@ -20885,49 +20991,6 @@
         "at": "2026-10-21T10:30:00-03:00",
         "basedOn": "https://portalportuario.cl/puerto-de-motril-acoge-dos-operativas-de-embarque-para-exportacion-de-transformadores-de-hitachi-energy/",
         "words": 149
-      }
-    },
-    {
-      "id": "despues-de-20-anos-argentina-vuelve-a-exportar-carne-a-japon",
-      "datetime": "2026-10-15T03:58:57Z",
-      "date": "2026-10-15",
-      "firstSeen": "2026-10-15T09:59:51Z",
-      "title": "Después de 20 años, Argentina vuelve a exportar carne a Japón",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Asia"
-      ],
-      "countries": [
-        "Argentina",
-        "Japón"
-      ],
-      "tags": [
-        "Carne"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Medios del Aire",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.mediosdelaire.com.ar/d/noticias/despues-de-20-anos-argentina-vuelve-a-exportar-carne-a-japon-22047/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-15T09:59:51Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMXZZNmZLc2xDZXR1S3FvTk1PVFA0VFRrYng2WU1rVHBZdVVyOEVrdWNTemR3NmkweUJ0NkF5S1BOVmRKMUU2ZV9ad2kwa0tqam1aOWMzYk5iMWVBbEZtQVlIUmlRSXRha3lZY3RRLVZSN2NqWWxReUhGLVU0cE9QRk1iTmFsQzNtbDFreFJaVFNfQm8tNjFiUVJVdnc5UXgyNzRCQnB5cHREeE1na3A5cA?oc=5",
-      "digestSkip": {
-        "at": "2026-10-21T10:30:00-03:00",
-        "reason": "repite una nota de la redacción (apertura de Japón a la carne vacuna)"
       }
     },
     {
@@ -63968,7 +64031,7 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-10-21T10:01:19Z",
+    "ranAt": "2026-10-21T14:04:16Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
@@ -63984,7 +64047,7 @@
         "url": "https://www.aduananews.com/feed/",
         "ok": true,
         "items": 12,
-        "added": 0,
+        "added": 1,
         "updated": 0,
         "skipped": 2
       },
@@ -63995,14 +64058,14 @@
         "items": 15,
         "added": 5,
         "updated": 0,
-        "skipped": 7
+        "skipped": 5
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 47,
-        "added": 1,
+        "items": 49,
+        "added": 4,
         "updated": 0,
         "skipped": 29
       },
@@ -64010,10 +64073,10 @@
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 59,
-        "added": 0,
+        "items": 58,
+        "added": 1,
         "updated": 0,
-        "skipped": 46
+        "skipped": 47
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
@@ -64022,16 +64085,16 @@
         "items": 100,
         "added": 4,
         "updated": 0,
-        "skipped": 70
+        "skipped": 71
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 25,
-        "added": 1,
+        "items": 47,
+        "added": 2,
         "updated": 0,
-        "skipped": 10
+        "skipped": 30
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
@@ -64040,16 +64103,16 @@
         "items": 100,
         "added": 4,
         "updated": 0,
-        "skipped": 88
+        "skipped": 87
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 79,
+        "items": 76,
         "added": 4,
         "updated": 0,
-        "skipped": 46
+        "skipped": 42
       }
     ],
     "curatedDuplicates": [
@@ -64070,7 +64133,7 @@
       },
       {
         "title": "Argentina lleva 34 meses consecutivos de superávit comercial: “Las exportaciones superaron los USD 10.000 millones por…",
-        "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNeC1zV21pZmpaWVk4bnZnRUtzTTQyYnB5OW5jdi04YThTMmVGWnJqVjE2SzgzbC1zcHJiSlA0SUhUNlNVLXNwYWF1ZDVsazJvdGJqYzBEM1Z0WWRRdEpCU3FBVlZUWnhxa2ItS0pSaFpnaEY0YmVyWGRjU2NQRHVSbjFTd3VKTHU3VUk1YXdTUEFGY2xKRUM2bkJQaWRzZnpILV9DMXR4eGpNVkVxX0R2V3lBQ1ZNdlNSeVM2eFYzY2JjZ2ZOamxsUURrZWVjZWF0MnBnUXRjdU9KaTZKcGxOUHJ4NkNJYUtST0E0V3BZdWxiNkxrTjlnYlF0U2NYMjczYU53WGI0WQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQLTFKQW9lTWNVR2JLeFNVNTJodjkzLVVrc0NrWS1hYnJLME9DeTZsY3pvZHRNa0xsM0M5czhpcEx0R25qRTJyY0N5TGNoS3ZCbVJfYmJWcW9iRHRQb0xXbGNyenJISllJU25OZWRESlk4cTRoT1BOcVFBQWNUWktQMlROaWxQd1JJZzRwMHU2RlNYMEdDMFZKU1dsRVhoNXpsdUh2NmphVk96WWNqMW40bkFsUTdmaUw3TjhQQ0E1dDBKcmlNSkFuaS1wUUZjUjk4WVoyaVhUMjREdzVXcGNQX0d3d2dLcDNJQVRUak1CV2xtOGhDakRr?oc=5",
         "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
       },
       {
@@ -64081,46 +64144,6 @@
       {
         "title": "Superávit récord: balanza comercial de septiembre suma US$2976 millones",
         "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUmo2cldPRHlBX1dwN2Fza2hfbDJpLUQ1bTZ4VjZjMEF0SDZfNkR6Z3A4cmNiTVQwY21rWHdvTDlIdW1iWGxSQVpva1RYdVlBNzJlQVBCOHZRVThVODlKTU40RUdSZVJYYkZRT0VGeEdMSTNCdGxudWxydHVydURza3hPU3dwaG1ERV9hUW1VbFpiQ3R6YWlyeDRwSng0QTg?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
-        "title": "Récord histórico de exportaciones: Argentina superó por primera vez los USD 10.000 millones en un mes",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOejNCdmhKUENRSncxd2J4bmNiRWtjcGE1TU5nRl9XU3pveGttTUUxdV9vMmktVjJjS3pPeWl3V3VPajQxQUtaUmNVMXBFQTFFMEpKbnNyUTR6dk05RVFkZWQtaC0wbHlKMl93dnQ4WDBSeGJVMzhiUWhSTTd4LU1hN1JZVzhYZ2t1NjBWXzJxdUdKZXRUM0twdk85TkcyWWN1VVV5OFRCbE9PUGd1VUxRbDdZYUg2SmxOWE5GYjIyQ3k0NVNpZXh0dUlwbXByemM4SmdHSmhMZXNjTGI5Z3c?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
-        "title": "La Argentina registró un superávit comercial de USD 2.976 millones, con exportaciones en alza",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNemsxU3AwYWtGOTliOGIzdHRGNlRQX1p0c1dNaUhOaEo4UGpUVHRWY29Ib0xRN01EamVlTEVaSjFaYzAyRjNjaVE3eGRjRHFxbzA4QU5HRUhaN2pNZVA3YTFnRGpjdl9VcTZ5Wk12XzdSa3BJVjN5ZndaNjVVWktkekluSUxQR2dKNTNsLUsteEtnS3hjcEliNm9uTmg2Zmx2MlRSOVpvNWtzVHdfNXpTMW9RX1hJSUE?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
-        "title": "La balanza comercial argentina registró un superávit de US$ 2.976 millones en septiembre",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPR3dHQmVVOGtwWTNvVUxjcjdhQ2VJbXVCdzFHYTAtenhxd2RHSTUwYWJ1ZV9kUXplcThzcWpMQkNJMFNwaWoxV1V1WXRrNHRHOGVUVUVYY1NNMzVQNVZ6TnoxSllZYWsxZWZ5OXFnZHdCTkNkZy1MOTJsY0F3R2VzcjJYZktzTHQ1TDFB?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
-        "title": "Las exportaciones argentinas superaron por primera vez los USD 10.000 millones mensuales",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdDQ5MHVRYm82OVVjVEU3LUM1QS04dmQ2TDZMaFBXWE1JUzdzQnJTVFVfSVdKaUxLMzBpX1pZYldkSFI2dnAzT0phTFlaSlkwTjBlMDJOaEsxdmRYMDFpa2FPcGtvcVpZQU9wVWd6NnJ4Qk5XRXV4Y3AwXzJoSC14X2xtekNPTjZsQzJoeE10VmlIN1RXTldyaEpub1AyMGdWaF81ZXFQeWVVc3lDVnAzQmp4d1N2cFpMbmIyRUM0ZF9tQVc4Q09wMDVn?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
-        "title": "Las exportaciones superaron los USD 10.000 millones en un solo mes por primera vez en la historia",
-        "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNazZFZkJaT0lUeThJYjdGVVFUWk5oX0lMdXhkLTRPTmoxNmdsdFRxbVdsTDhuLWhRRlQ2ZnVPNy1GUmxGMHNvMXdNRnM1MklzczRDNWNjNVlCMGJ1OS1Oay02eWN3MUVBUGlkSmZOMUFsMXFYVUtZVmV4YXJoUGtFMEZhVmdVajRaTnFGRGN4VGtWMXdmOXdSRGFsYmRaRW01YU84a3gzeDBVTnVWWW1CX2VwN2d0Umcwb1R6ei01M1JYZ2xwVmxpZmgyV0I2YzQtRGlsdHhFSWNOQUZpUE01NFl1WU1oclZkaWMw0gGGAkFVX3lxTE9YOTJxa3U2dTJZSWtIMlVwUUJjMlZwdmNleHBFQWYwTjBpVk81MGZjcldNNXM1azViOUhXSGJZWGxPTjBfSmFxS3A0UWtKUWpPUEtlVmtUWkYxX1JRQzhRSFA0WG1ETGxTSEszNl95N2ZkSjUyWkRsMkcwLWFQVXpWVkVaQk9KYURodnpNbzhDcEZFbEw0RHJFMG1fbHJsMTl6Zm5CWEVjM0lKbEJUVU9kNXhzaG93WDVBUmQ1Z2dTNllzYzRZeUhqMVFpZGxfR0Z6ZE5CbTRtTjVKYXlFc3ZROGE4U2ZZMDAxMVJLUjFuUmlBREdyZm9feS04cmtyVkVnX1c3QUE?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
-        "title": "Argentina logró una balanza comercial de casi US$3.000 millones en septiembre, pese al déficit con China",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbzJPOFlfa1UwMzJEVFFqc19xWm1uemo0bzRGMFFqMUhBYTMzOWxiY1Rwd2NpTkdDZ0JwTDh2RGUtNGlESjlEU3o0d0VNOHR1WWJzdFBYS21TN18xMWV3RHVCaDZpTW50UExxNTNYNmc1SWhWOHd1b3ZtZHlTb2NES09nekw1WVJQZ25hRDNJV1ZiV2RLQVVmZkF1eFdmLUY4Y3cxNXdsOEJWM3U5Rk82ekNvMENvU0tadERHMUgyb2lyd2MzaTJzelRSSzRDNktxRVFV?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
-        "title": "La balanza comercial argentina registró un superávit de casi US$3.000 millones en septiembre",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMU1YOWJ1Z0dDczU1YnpGVzdTdmdOcW52d2Qxb1lxQjlDZFR0RVEyc1RKRUt2UTB1R24xRDZNYm1BMkN6a2ZHUlpoTFRndHNNMXk1SEFCRzVMc0N5bVdVNnBLUEl0cXF5c2tuYVFGS0QwUmY2MmRTemRvUXRfdmRaMlhTSzVWVjJXaldpZ3FvVk84UFgyTVJJOHBUVk91cXZNbkluSllGWEhXTTdaUDJrSEFZWl9JSGZI?oc=5",
-        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
-      },
-      {
-        "title": "Bate récords el comercio exterior porla aceleración de las exportaciones",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSFpFUlBTT1VuWlhseU5vWlJKTUNSYlU3dDVMaWg5TDFDdG9VOE5RVElzeXNNTTR2QWUzcmxYNEhHVGZnQWwwSTYyZ09zU25wVU1ZOFU0azZDZXllMGVmRnNwVTRTUXVxYXNFdm9CM1d1VzNnVFlTNmVUZFgwdGFMZVZuUGdtbjJkMjR2UDFfQUNIa1lUQ01DQncxc0ZCU0w4UXFyejNrNUpLVmdkVFdIbXZNLXJwTE1q?oc=5",
         "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
       },
       {
@@ -64184,39 +64207,151 @@
         "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
       },
       {
+        "title": "Consultora proyecta exportaciones récord para Argentina de hasta USD 106.000 millones",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNejZMUE8wZ0cxanBOQXEtek5EWXZNUWVjdjBpRXBMdVBnWXQzbmZfNjYzc3RoaC1yRUY0ZXdnT05rdk9OOWNzQ0lBa2RscWw0RXF2ZV8wU0FsVExqaUdCZ1Z2LUFVVDR5eldYdGNNYzA2TUNwUjBXeE5EeXNxX0pKSDViWDV3TTZONHprVHNuT2lNcm5uUFdWRlBrY3Z4ZGVFalpWdEFVM05lU01iaVNCM09hc0d0RG1oakE?oc=5",
+        "curated": "sorgo-exportaciones-argentina-1-7-millones-toneladas-china-az-group-2026-27"
+      },
+      {
+        "title": "Sorgo: Argentina se posiciona para convertirse en el tercer exportador mundial en la campaña 2026/27",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOVGNxejdUZ3hrNUppS3VCcGpWTEtXQ0VhLWJNZllnTlg4cjdSVm84RGVPVkdKUkVhVGU2akxMNVBiSVZlRThRZEItbFMwbTBLWVF1XzVqcThTWU1pZHFTcjFqMm9EWlA2MVBoTmhhamlYM3Z1VUpESW9GeFVWZnRhZlA5U1AzSjB6ZDF5NzllVjlpZWZvQTdVN1ZqR3lsVlVCZDAzcmxPNU9pM2cyNjFFVFpSck04QzI5OEhOeVNUUDFUb2loQlZLRG1ZVXEtYjQ?oc=5",
+        "curated": "sorgo-exportaciones-argentina-1-7-millones-toneladas-china-az-group-2026-27"
+      },
+      {
+        "title": "La energía y el giro en la balanza comercial: Argentina pasó de importar u$s 40 millones, a exportar más de u$s 10.000…",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNdHh1M2pZSG93R0NTamZwQV9iTUdzZVlaTVp1SS1GZU1YTkhlekxIb1hzT1ZHXzNBT2JwZThrVVNEcDVrcWpWbUVUMDYyakVLRGtrLU9VX1YwSjEzdmxjamx3OEJacS1Na3dLMmszSy1LRmdsRC1USGpfT3dPQTF6UXk0bnZjYTEwZV9pXy0xZm1JTnFPb0ZLQWg1OXVwMzZES0tySjJydHJPTzlxTkViLTVBMkc4bkIwT0hEOFM0Vk1qeVgzVkhqMDRiaWY2aXZETFo3eWVOSnhubDY0ZDNYMHhNZVVrTENmOU51c2wwNHpuWTg?oc=5",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
         "title": "EURATEX, ABIT y FITA crean un diálogo textil entre la Unión Europea y Mercosur para impulsar el comercio y la…",
         "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOZnVCZDR5TnJwX2JsNjJNcUhmRWhRWlFyTjRfYmVNVW9ZX3hVTmJ4dC15ZFBqdDBCV1YyRDZEMllmd0o5ckFOUG9URlNXZ3FwNlJTdUQ1QWh4ZnhRR2pJcWh2aV9qd1Z2U2hqd0ZGendWY3REUGd0WFQ5a1hJOG1leWJ1ZjRjS1VXc0dwNHVDZ1o3eUkwNHBTQTU5Y0JlY0JuOU5EY1lPUzlwRUQxZ20tNUR4T3NlTDlWcjVWaWF2V0J6d1pZOElMRHAtWHVfbUVuZnNCQkZNTGQzMnF6dUs2UzJKQ0RwaXFnazhIcTdrZllIdw?oc=5",
         "curated": "euratex-abit-fita-dialogo-textil-confeccion-ue-mercosur-fortaleza"
+      },
+      {
+        "title": "La Argentina de Milei exporta como nunca y la economía logra un superávit comercial histórico gracias al petróleo y la…",
+        "url": "https://www.eleconomista.es/economia/noticias/14022491/10/26/la-argentina-de-milei-exporta-como-nunca-y-la-economia-logra-un-superavit-comercial-historico-gracias-al-petroleo-y-la-mineria.html",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "Javier Milei: “Batimos el récord de exportaciones en un mes, superamos los US$ 10.000 millones”",
+        "url": "https://chequeado.com/el-explicador/javier-milei-batimos-el-record-de-exportaciones-en-un-mes-superamos-los-us-10-000-millones/",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "Brasil y Estados Unidos concentraron las exportaciones argentinas en septiembre",
+        "url": "https://dataportuaria.com/es/argentina/comercio-exterior/brasil-y-estados-unidos-concentraron-las-exportaciones-argentinas-en-septiembre",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "Plenario analizó el acuerdo entre el Mercosur y la asociación Europea de libre comercio (aelc)",
+        "url": "https://www.hcdn.gob.ar/prensa/noticia/PLENARIO-ANALIZO-EL-ACUERDO-ENTRE-EL-MERCOSUR-Y-LA-ASOCIACION-EUROPEA-DE-LIBRE-COMERCIO-AELC/",
+        "curated": "diputados-plenario-acuerdo-mercosur-aelc-efta-media-sancion-senado"
+      },
+      {
+        "title": "México suspendió las importaciones avícolas de Brasil por un brote de Newcastle",
+        "url": "https://www.cadena3.com/noticia/panorama-federal/mexico-suspendio-las-importaciones-avicolas-de-brasil-por-un-brote-de-newcastle_605210",
+        "curated": "newcastle-santa-catarina-mexico-suspende-pollo-brasil-china-regionaliza"
+      },
+      {
+        "title": "Exportaciones argentinas rompen récord: USD 10.036 millones en septiembre",
+        "url": "https://mundoempresarial.ar/exportaciones-argentinas-rompen-record-usd-10-036-millones-en-septiembre/",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "Los fletes desde Asia subieron casi 60% y encarecen las importaciones argentinas",
+        "url": "https://www.infobae.com/movant/2026/10/20/los-fletes-desde-asia-subieron-casi-60-y-encarecen-las-importaciones-argentinas/",
+        "curated": "indec-flete-importaciones-china-458-dolares-tonelada-sube-59-septiembre"
+      },
+      {
+        "title": "Hito histórico en el comercio exterior: las exportaciones argentinas superaron los US$ 10.000 millones en un solo mes",
+        "url": "https://www.diario3.com.ar/hito-historico-en-el-comercio-exterior-las-exportaciones-argentinas-superaron-los-us-10-000-millones-en-un-solo-mes/",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "Exportaciones en alza e importaciones en baja: el superávit creció 217%",
+        "url": "https://www.lacapitalmdp.com/exportaciones-en-alza-e-importaciones-en-baja-el-superavit-crecio-217/",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "Las exportaciones de energía crecieron 89% en septiembre y explicaron más de la mitad del superávit comercial",
+        "url": "https://la4x4radio.com.ar/las-exportaciones-de-energia-crecieron-89-en-septiembre-y-explicaron-mas-de-la-mitad-del-superavit-comercial/",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "Las pymes volvieron a ganar peso en el comercio exterior y hay un dato para mirar",
+        "url": "https://www.impulsobaires.com.ar/nota/326372/las-pymes-volvieron-a-ganar-peso-en-el-comercio-exterior-y-hay-un-dato-para-mirar/",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "Las exportaciones energéticas aportan más de la mitad del superávit comercial del país",
+        "url": "https://damenoticias.com/nota/657147-las-exportaciones-energeticas-aportan-mas-de-la-mitad-del-superavit-comercial-del-pais",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "Récord de exportaciones y un aporte histórico del sector energético",
+        "url": "https://vacamuertanews.com/actualidad/record-de-exportaciones-y-un-aporte-historico-del-sector-energetico.htm",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "Exportaciones récord y compras en baja: el superávit comercial rozó los USD 3.000 millones",
+        "url": "https://www.baenegocios.com/economia/exportaciones-en-alza-y-compras-en-baja-el-superavit-comercial-rozo-los-usd-3-000-millones/",
+        "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "EFTA-Mercosur: el acuerdo avanza en Suiza y Brasil, mientras Paraguay da otro paso hacia su ratificación",
+        "url": "https://infonegocios.com.py/default/efta-mercosur-el-acuerdo-avanza-en-suiza-y-brasil-mientras-paraguay-da-otro-paso-hacia-su-ratificacion",
+        "curated": "diputados-plenario-acuerdo-mercosur-aelc-efta-media-sancion-senado"
+      },
+      {
+        "title": "Mercosur actualiza las condiciones para el transporte internacional de cargas: ¿Qué cambia y qué implica para la…",
+        "url": "https://comercioexterior.org.ar/mercosur-actualiza-las-condiciones-para-el-transporte-internacional-de-cargas-que-cambia-y-que-implica-para-la-logistica-regional/",
+        "curated": "resolucion-1787-2026-mercosur-gmc-2-2026-flota-minima-transportistas-carga"
+      },
+      {
+        "title": "Después de 20 años, Argentina vuelve a exportar carne a Japón",
+        "url": "https://www.mediosdelaire.com.ar/d/noticias/despues-de-20-anos-argentina-vuelve-a-exportar-carne-a-japon-22047/",
+        "curated": "japon-abre-mercado-carne-vacuna-argentina"
       }
     ],
-    "excluded": 0,
+    "excluded": 1,
     "grouped": [
       {
-        "main": "ronda-de-negocios-mercosur-ue-se-realizara-en-el-chaco-argentino",
+        "main": "el-campo-brasileno-se-inclina-por-bolsonaro-pese-al-impacto-de-los-aranceles-de",
         "merged": [
-          "mas-de-250-empresas-se-reuniran-en-ronda-de-negocios-mercosur-ue-con-participaci"
+          "flavio-bolsonaro-cosecha-el-apoyo-del-sector-agricola-de-brasil-pese-a-los-aranc"
         ]
       },
       {
-        "main": "vaca-muerta-mira-hacia-india-el-negocio-del-gas-licuado-podria-generar-exportaci",
+        "main": "sector-exportador-pierde-competitividad-y-advierte-una-caida-del-26",
         "merged": [
-          "argentina-ya-exporta-mas-de-420-000-barriles-de-petroleo-por-dia-vaca-muerta-cam"
+          "sector-avicola-advierten-que-argentina-necesita-un-dolar-mas-competitivo-para-im"
         ]
       },
       {
-        "main": "goldman-sachs-preve-que-los-fletes-de-crudo-suban-a-20-dolares-por-barril",
+        "main": "mexico-y-estados-unidos-a-un-paso-de-reducir-aranceles-en-autos-acero-y-aluminio",
         "merged": [
-          "goldman-sachs-ve-fletes-de-crudo-dispararse-a-20-por-barril"
+          "mexico-busca-que-estados-unidos-reduzca-aranceles-al-acero-aluminio-y-autos"
+        ]
+      },
+      {
+        "main": "santa-cruz-supero-los-3-000-millones-de-dolares-en-exportaciones-y-dejo-atras-a",
+        "merged": [
+          "santa-cruz-supero-los-us-3-000-millones-en-exportaciones-y-quedo-por-encima-de-c"
+        ]
+      },
+      {
+        "main": "china-amaga-con-oponerse-a-los-aranceles-sobre-tecnologias-limpias-en-la-cop31",
+        "merged": [
+          "china-amaga-con-oponerse-a-los-aranceles-sobre-tecnologias-limpias-en-la-cop-2"
         ]
       }
     ],
     "googleNews": {
-      "pending": 15,
-      "resolved": 14,
-      "withSummary": 9,
+      "pending": 18,
+      "resolved": 18,
+      "withSummary": 13,
       "withPhoto": 0,
-      "failed": 1,
-      "duplicates": 0
+      "failed": 0,
+      "duplicates": 1
     }
   },
   "stories": [
