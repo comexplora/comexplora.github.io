@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-10-22T17:55:34Z",
+  "updatedAt": "2026-10-22T21:57:48Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -134,20 +134,16 @@
     {
       "id": "tc-mayorista",
       "label": "Tipo de cambio mayorista ARS/USD",
-      "value": "$ 1.526,67",
-      "period": "Com. A 3500 · 21 oct 2026",
+      "value": "$ 1.527,85",
+      "period": "Com. A 3500 · 22 oct 2026",
       "source": "BCRA",
       "url": "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp",
       "group": "Mercados",
-      "obsDate": "2026-10-21",
+      "obsDate": "2026-10-22",
       "change": "+0,1% vs. día hábil anterior",
       "trend": "up",
-      "checkedAt": "2026-10-22T17:56:22Z",
+      "checkedAt": "2026-10-22T21:58:37Z",
       "history": [
-        [
-          "2026-09-09",
-          1515.1105
-        ],
         [
           "2026-09-10",
           1512.9956
@@ -263,11 +259,15 @@
         [
           "2026-10-21",
           1526.6664
+        ],
+        [
+          "2026-10-22",
+          1527.8511
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-22T17:56:22Z"
+      "lastAttempt": "2026-10-22T21:58:37Z"
     },
     {
       "id": "soja",
@@ -284,7 +284,7 @@
         "date": "2026-10-21",
         "ars": 550000.0
       },
-      "checkedAt": "2026-10-22T17:56:22Z",
+      "checkedAt": "2026-10-22T21:58:38Z",
       "_prev": {
         "date": "2026-10-20",
         "ars": 550000.0
@@ -345,7 +345,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-22T17:56:22Z"
+      "lastAttempt": "2026-10-22T21:58:38Z"
     },
     {
       "id": "brent",
@@ -358,7 +358,7 @@
       "obsDate": "2026-10-20",
       "change": "-3,0% vs. día anterior",
       "trend": "down",
-      "checkedAt": "2026-10-22T17:56:25Z",
+      "checkedAt": "2026-10-22T21:58:40Z",
       "history": [
         [
           "2026-09-09",
@@ -483,7 +483,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-10-22T17:56:25Z"
+      "lastAttempt": "2026-10-22T21:58:40Z"
     },
     {
       "id": "maiz",
@@ -500,7 +500,7 @@
         "date": "2026-10-21",
         "ars": 277875.0
       },
-      "checkedAt": "2026-10-22T17:56:25Z",
+      "checkedAt": "2026-10-22T21:58:40Z",
       "_prev": {
         "date": "2026-10-20",
         "ars": 279000.0
@@ -561,7 +561,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-22T17:56:25Z"
+      "lastAttempt": "2026-10-22T21:58:40Z"
     },
     {
       "id": "trigo",
@@ -578,7 +578,7 @@
         "date": "2026-10-21",
         "ars": 329300.0
       },
-      "checkedAt": "2026-10-22T17:56:25Z",
+      "checkedAt": "2026-10-22T21:58:40Z",
       "_prev": {
         "date": "2026-10-20",
         "ars": 344100.0
@@ -639,10 +639,625 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-22T17:56:25Z"
+      "lastAttempt": "2026-10-22T21:58:40Z"
     }
   ],
   "items": [
+    {
+      "id": "ano-extraordinario-brasil-preve-la-mayor-importacion-de-trigo-en-30-anos-y-abre",
+      "datetime": "2026-10-22T21:52:00Z",
+      "date": "2026-10-22",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "“Año extraordinario”: Brasil prevé la mayor importación de trigo en 30 años y abre una oportunidad para la Argentina",
+      "summary": "Según Abitrigo, que agrupa a la industria del vecino país, las compras de 2026/2027 podrían alcanzar o superar los 9 millones de toneladas por la menor oferta interna; el sector privado argentino anticipa excedentes para abastecer parte de esa demanda y posibilidades de aumentar las ventas de harina",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Importaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil"
+      ],
+      "tags": [],
+      "visual": "grain",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "La Nación",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.lanacion.com.ar/economia/campo/ano-extraordinario-brasil-preve-la-mayor-importacion-de-trigo-en-30-anos-y-abre-una-oportunidad-para-nid22102026/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-22T21:57:48Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQODQxWERva1R2WXI3djdlNlNneEhoSjg5VEt1RUF3UExIYlVGVjl4dF9SVktaVjYxY3psSE9fSDNfcm5QRk1BWlU1OWJGNk1NalpoSTdQUXRmckhWVVk5YkFFVl9odWpQNk1PRlJYenhPelZhVUNTb3JxV09fVmxfb1dzNGIwQ1dlaHh3UDNMRGlnaV9ISDBrZGNuLTRBUm1sbFExcGhOX3F1bGxZUEVQdDcxRGZDLTVTcWxUQUV1YU5yZWJCV01FQ0FyNTFpZERqTktUcTU2YjZrcDNIcWExV05ONHkwemRtcmF2Vw?oc=5"
+    },
+    {
+      "id": "adaptarse-de-forma-proactiva-a-los-aranceles-y-adoptar-las-finanzas-verdes",
+      "datetime": "2026-10-22T21:43:47Z",
+      "date": "2026-10-22",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "Adaptarse de forma proactiva a los aranceles y adoptar las finanzas verdes.",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "شبكة تواصل الإخبارية",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://twaslnews1.twaslnews.com/6439855/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-22T21:57:48Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBsVTBCbWF6cjJaNlBJbnM3ZzRlZ2E2bG1NUHp5Q0hyX0Y1b1ZWenlLc2twaHpzMm1uQXJvdzBHUHJReFRIR0EwRi1kX2tzaEVyc1Jr?oc=5"
+    },
+    {
+      "id": "mexico-puerto-de-lazaro-cardenas-moviliza-21-millones-de-toneladas-entre-enero-y",
+      "datetime": "2026-10-22T21:30:52Z",
+      "date": "2026-10-22",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "México: Puerto de Lázaro Cárdenas moviliza 21 millones de toneladas entre enero y septiembre de 2026",
+      "summary": "El Puerto de Lázaro Cárdenas movilizó 21.517.529 toneladas de carga comercial de enero a septiembre de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "México"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/mexico-puerto-de-lazaro-cardenas-moviliza-21-millones-de-toneladas-entre-enero-y-septiembre-de-2026/",
+          "primary": true,
+          "author": "cmeza"
+        }
+      ]
+    },
+    {
+      "id": "ina-confia-en-que-se-llegue-a-un-acuerdo-sobre-aranceles-con-eu",
+      "datetime": "2026-10-22T21:21:42Z",
+      "date": "2026-10-22",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "INA confía en que se llegue a un acuerdo sobre aranceles con EU",
+      "summary": "Representante de la Industria Nacional de Autopartes destacó que mantener la estabilidad regional es crucial para el sector automotriz",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Tratados y acuerdos",
+        "Europa"
+      ],
+      "countries": [
+        "Unión Europea"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Vanguardia MX",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://vanguardia.com.mx/dinero/confian-en-que-se-llegue-a-un-acuerdo-sobre-aranceles-GA24246176",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "estrelladigital.com.mx",
+          "type": "También publicó esta noticia",
+          "url": "https://estrelladigital.com.mx/economia/ina-acuerdo-aranceles-eu-autopartes/",
+          "alsoIn": true,
+          "title": "INA confía en acuerdo sobre aranceles de autopartes con EU"
+        }
+      ],
+      "gnTried": "2026-10-22T21:57:48Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSzdDSEViXzd3VG01dUlYM01vbTdNMEJ6SFJGOHpNR0V4Vkw3MHByWjVIV0RsNFo1Sjd6VFJ2TXZKWWVncl9WbndSRXpibEJqNDduZ0RnMnhIeU42c2dfLU1najV0RFJRMXBjb0NPVXNRWWtKQmx3dm5rdU1ITUxIZm91OU9ab1I4eWxueFVkOV9kcEE4WVpFU1Y1UUsxQQ?oc=5",
+      "aliasUrls": [
+        "https://estrelladigital.com.mx/economia/ina-acuerdo-aranceles-eu-autopartes",
+        "https://news.google.com/rss/articles/CBMiggFBVV95cUxOT2NhR0x2OUc3WEFhajQwT28yUDZaUENRNDY5aWxWZ280OFAyWGltRGFXc2p1UFc0WWE4NkNrUC03bi15VDJFTy1HdllWLWpKeG1TcE84bkpnYjBXbkRlRFpSQi1VelFlSXo0MmFBTnVrVlY5Y2xjQUZOT3BmODNRN3p3"
+      ],
+      "mergedIds": [
+        "ina-confia-en-acuerdo-sobre-aranceles-de-autopartes-con-eu"
+      ]
+    },
+    {
+      "id": "ceo-de-tristar-port-of-guyana-advierte-que-falta-de-dragado-y-de-personal-difcul",
+      "datetime": "2026-10-22T21:17:11Z",
+      "date": "2026-10-22",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "CEO de Tristar Port of Guyana advierte que falta de dragado y de personal difcultan actividad portuaria del país",
+      "summary": "La falta de dragado y de disponibilidad de personas para trabajar en los muelles fueron identificados…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/ceo-de-tristar-port-of-guyana-advierte-que-falta-de-dragado-y-de-personal-difcultan-actividad-portuaria-del-pais/",
+          "primary": true,
+          "author": "admin"
+        }
+      ]
+    },
+    {
+      "id": "colombia-puerto-bahia-se-prepara-para-iniciar-manejo-de-glp",
+      "datetime": "2026-10-22T21:16:05Z",
+      "date": "2026-10-22",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "Colombia: Puerto Bahía se prepara para iniciar manejo de GLP",
+      "summary": "Sociedad Portuaria Puerto Bahía (Puerto Bahía), recinto portuario multimodal situado en Cartagena, Colombia, se está preparando…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Colombia"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/colombia-puerto-bahia-se-prepara-para-iniciar-manejo-de-glp/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "tras-el-brote-de-newcastle-en-brasil-argentina-reforzo-los-controles-sanitarios",
+      "datetime": "2026-10-22T21:03:07Z",
+      "date": "2026-10-22",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "Tras el brote de Newcastle en Brasil, Argentina reforzó los controles sanitarios y restringió importaciones",
+      "summary": "El Senasa suspendió el ingreso de mercancías aviares provenientes de la zona afectada de Santa Catarina, donde se detectó el virus en una granja comercial de pavos. El resto del comercio podrá continuar desde áreas libres de la enfermedad, mientras el organismo pidió fortalecer la bioseguridad en los establecimientos…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Importaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "MisionesOnline",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://misionesonline.net/2026/10/22/newcastle-brasil-argentina-controles/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-22T21:57:48Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdm54bVEwYWZSVGVzOHhQZHRKZVl2VlU4R3ktN2wyVkMwMlM1VHRyeUI4a25aV1VWUjJUWkNWODUzRW9FUi1OUThVdXM1OGxaRDhpUk4xd25VWFlVWTZGTmo0V2NmY2UwLTVBQ3pvZ2RDMVRMa0RnRHgtaDVNaEozQw?oc=5"
+    },
+    {
+      "id": "buque-procedente-de-rusia-arriba-al-puerto-de-iquique-con-carga-para-procesos-mi",
+      "datetime": "2026-10-22T20:30:24Z",
+      "date": "2026-10-22",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "Buque procedente de Rusia arriba al Puerto de Iquique con carga para procesos mineros",
+      "summary": "El buque Oriental Reefer arribó por primera vez al Terminal Molo del Puerto de Iquique procedente de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos",
+        "Latinoamérica",
+        "Europa"
+      ],
+      "countries": [
+        "Chile",
+        "Rusia"
+      ],
+      "tags": [
+        "Minería",
+        "Puertos"
+      ],
+      "visual": "mining",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/buque-procedente-de-rusia-arriba-al-puerto-de-iquique-con-carga-para-procesos-mineros/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "patricia-quiroga-el-courier-dejo-de-ser-el-atajo-de-la-pyme-importadora",
+      "datetime": "2026-10-22T20:00:42Z",
+      "date": "2026-10-22",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "Patricia Quiroga: El courier dejó de ser el atajo de la pyme importadora",
+      "summary": "Patricia Quiroga es socia de Servicios Integrales de Comercio Exterior (SICE) Chile. En 2024 entraron a Chile más de 54…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Chile"
+      ],
+      "tags": [],
+      "visual": "parcel",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/patricia-quiroga-el-courier-dejo-de-ser-el-atajo-de-la-pyme-importadora/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "uruguay-la-10-jornada-de-derecho-aduanero-ya-tiene-programa-definido",
+      "datetime": "2026-10-22T19:54:45Z",
+      "date": "2026-10-22",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "Uruguay: la 10.ª Jornada de Derecho Aduanero ya tiene programa definido",
+      "summary": "La Dirección Nacional de Aduanas (DNA) de Uruguay realizará el próximo 17 de noviembre la 10.ª Jornada de Derecho Aduanero, bajo el título “La Aduana actual frente al control, la facilitación y el régimen infraccional”. La actividad contará con tres paneles dedicados al control aduanero, la facilitación y…",
+      "body": [
+        "La Dirección Nacional de Aduanas (DNA) de Uruguay realizará el próximo 17 de noviembre la 10.ª Jornada de Derecho Aduanero, bajo el título “La Aduana actual frente al control, la facilitación y el régimen infraccional”. La actividad contará con tres paneles dedicados al control aduanero, la facilitación y competitividad del comercio exterior, y el régimen…"
+      ],
+      "keyData": [],
+      "topics": [
+        "Aduanas",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Uruguay"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Aduana News",
+      "sources": [
+        {
+          "name": "Aduana News",
+          "type": "Medio especializado · Argentina",
+          "url": "https://aduananews.com/uruguay-la-10-a-jornada-de-derecho-aduanero-ya-tiene-programa-definido/?utm_source=rss&utm_medium=rss&utm_campaign=uruguay-la-10-a-jornada-de-derecho-aduanero-ya-tiene-programa-definido",
+          "primary": true,
+          "author": "Aduana News"
+        }
+      ]
+    },
+    {
+      "id": "lineas-navieras-preven-44-cancelaciones-de-itinerarios-entre-el-19-de-octubre-y",
+      "datetime": "2026-10-22T19:54:16Z",
+      "date": "2026-10-22",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "Líneas navieras prevén 44 cancelaciones de itinerarios entre el 19 de octubre y el 22 de noviembre",
+      "summary": "Los blank sailings equivalen al 6% de los 713 zarpes programados en medio de la recuperación de las tarifas spot",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Mundo Marítimo",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://mundomaritimo.cl/noticias/lineas-navieras-preven-44-cancelaciones-de-itinerarios-entre-el-19-de-octubre-y-el-22-de-noviembre",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-22T21:57:48Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYnpRUHdQT0pSNllLLTFwd2Jud1Y2R0NuQmZhOGFmSFNTNEstb21oelRvWl9ZTjRMQi1tLU9zQ3puOE9EbUp2OXVDS24zOTJtVm5XM1Z5QzFOeE9MWWc1UGRfcVYyME8zZndXZEZEUDJPcGt6Xy1HSUhEUFNHZVZJSHl2MURWY1F6ZE41bzdQWFFGN0xaWFM1OUh5MGZ5WTFabnlKZTJ6a01tWUUtWFZaWGlLVlQzckxSTlo3Mk5TZVJtX2pZNF9nc25DSHc?oc=5"
+    },
+    {
+      "id": "alerta-avicola-se-detecto-en-brasil-la-enfermedad-de-newcastle-y-senasa-restring",
+      "datetime": "2026-10-22T19:25:06Z",
+      "date": "2026-10-22",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "Alerta avícola: se detectó en Brasil la Enfermedad de Newcastle y Senasa restringió importaciones",
+      "summary": "Tras un brote en una granja comercial de pavos de Santa Catarina, Argentina suspendió los ingresos de mercancías aviares provenientes de la zona afectada. El resto del comercio podrá continuar bajo condiciones sanitarias específicas.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Importaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Infocampo",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.infocampo.com.ar/alerta-avicola-se-detecto-en-brasil-la-enfermedad-de-newcastle-y-senasa-restringio-importaciones/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-22T21:57:48Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdWI2ZlFGcG1YekRXLUFmS3dDanRZTmM0UmljdlJ1OXpMRjZ3c0JrMk9mejZud2tHN3E0Rng1X0tOLUM0UXV2SnVBSjNXSGxNWmJkU3piRFNZWWNSaEQzb1hrd1d0bXY5ald2MFVPZmFSaXJmVE1RbmFsWnFkcTB2VmQ2SmZaMk9lbHNiN2dmTTVNSmpScU84SmNISHZqdWFiVnNiMWVGNG9XUnlkYkVCZm5yUy1JTG1IdjRwWnQ4eXFGUjdK?oc=5"
+    },
+    {
+      "id": "uruguay-empresarias-del-mercosur-impulsan-una-agenda-regional-para-conquistar-me",
+      "datetime": "2026-10-22T18:56:44Z",
+      "date": "2026-10-22",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "Uruguay: Empresarias del MERCOSUR impulsan una agenda regional para conquistar mercados internacionales",
+      "summary": "Montevideo será escenario este viernes 23 de octubre del XIII Encuentro de la Convergencia Empresarial de Mujeres del MERCOSUR (CEMM), una jornada que | Noticias del MERCOSUR: política, economía y actualidad regional del Prensa Mercosur.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Latinoamérica",
+        "Mercosur"
+      ],
+      "countries": [
+        "Uruguay"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Prensa Mercosur",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://prensamercosur.org/2026/10/22/uruguay-empresarias-del-mercosur-impulsan-una-agenda-regional-para-conquistar-mercados-internacionales/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-22T21:57:48Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRWNSdTFkaDRhY2FiZ1J4WkVqSUs3WFV5eHlGRkpYRFlJRVpmUmNPVUFnSTJGaUFNUUJiNTdxRDZvOTlicXhIU2tUUDhsRmpmbFdBVGNyQWstVGZRYk9Xd25ETTdmd2lrOFlsS0NsM2RvekY2UkNXY0FiVE5aandLbC1tNVRQdG45N0RyT0xuY1JQLWFGS0ZpRjRsMktsenVqVWRIUE9YUmVGbkkwQzZXdXNsa1VfMWZrNTd2QkJlaDZudzh2VjZpaENKSnAtN1F4UGxnSGROQTY?oc=5"
+    },
+    {
+      "id": "exportaciones-forestales-de-la-region-del-bio-bio-crecen-7-8-en-agosto-de-2026",
+      "datetime": "2026-10-22T18:30:29Z",
+      "date": "2026-10-22",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "Exportaciones forestales de la Región del Bio Bio crecen 7,8% en agosto de 2026",
+      "summary": "Las exportaciones forestales de la Región del Bio Bio totalizaron 211,1 millones de dólares en agosto…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Chile"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/exportaciones-forestales-de-la-region-del-bio-bio-crecen-78-en-agosto-de-2026/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "el-informe-de-las-exportaciones-agroindustriales",
+      "datetime": "2026-10-22T18:18:08Z",
+      "date": "2026-10-22",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "El Informe de las Exportaciones agroindustriales",
+      "summary": "Argentina acumuló USD 42.304 millones en exportaciones agroindustriales entre enero y septiembre de 2026, un 13,2% más interanual.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Agro"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Ruralnet",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://ruralnet.com.ar/exportaciones-agroindustriales-2026-3/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-22T21:57:48Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBYM3V2NGVIdjN4Qms5U2FGUHl1ZXNFWnRjRkNzaXZVT1pQUFNScXotdWFSSWxzQ2hkc3FCUU1EZWhqSllSMGUtWEphMVhET1F5NXhlYmJFTDZQSDF3UVdPaTMyd3JrVEhCZWNvbHJaVQ?oc=5"
+    },
+    {
+      "id": "horizontes-de-exportacion-y-previsibilidad-el-analisis-clave-sobre-la-ganaderia",
+      "datetime": "2026-10-22T18:08:47Z",
+      "date": "2026-10-22",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "Horizontes de exportación y previsibilidad: el análisis clave sobre la ganadería argentina en la Rural de Río Cuarto",
+      "summary": "En el marco de la Exposición Rural de Río Cuarto, el especialista Dante Cica analiza en profundidad el panorama de la producción cárnica en Argentina, calificando el momento actual como sumamente venturoso y con altas expectativas de crecimiento a mediano…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "livestock",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Sin Libreto Producciones",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://sinlibretoproducciones.com.ar/horizontes-de-exportacion-y-previsibilidad-el-analisis-clave-sobre-la-ganaderia-argentina-en-la-rural-de-rio-cuarto/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-22T21:57:48Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQdjBMLU5UVFc3NG0tLVdCdXFsMzZMc19rQUpMZVlybkJRVUdITkkydUFRUHpvMGluUEFNTnd5LXF1T2Ytd3ltNWZmQ1RlWTlxU3JzY2E3bzdkdVdLbE1UaElaZ3BWbXhNSHZLdEx3c3JkQ3pweVRRZ1BHN0pmMFJLQjlZMFoybFBGVXYwLWotbWdqcW5VVmdwX01tckh6cTR0dVo0YXd5b1dyR2h2WjBpU0Q2R2RYZG9RWjlKTUd4M1ZlaGY0LU9kOFpuTnBCbzlRWjhZQkpSeTRYNmVNUHl4WGo3RXRQcnpXcHc?oc=5"
+    },
+    {
+      "id": "transap-refuerza-su-flota-de-material-rodante-con-30-carros-nuevos",
+      "datetime": "2026-10-22T18:00:26Z",
+      "date": "2026-10-22",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "Transap refuerza su flota de material rodante con 30 carros nuevos",
+      "summary": "La empresa ferroviaria Transap reforzó su flota, luego de incorporar 30 carros nuevos que se destinarán…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/transap-refuerza-su-flota-de-material-rodante-con-30-carros-nuevos/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
     {
       "id": "mexico-defiende-integracion-regional-frente-a-aranceles-de-trump",
       "datetime": "2026-10-22T17:44:10Z",
@@ -659,7 +1274,8 @@
       ],
       "countries": [
         "México",
-        "Estados Unidos"
+        "Estados Unidos",
+        "Canadá"
       ],
       "tags": [
         "Aranceles",
@@ -743,6 +1359,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Exportaciones",
         "Latinoamérica",
         "Mercosur",
         "Estados Unidos"
@@ -872,6 +1489,41 @@
       }
     },
     {
+      "id": "naviera-elcano-reordena-deuda-para-rebajar-costes-financieros-y-se-desprende-del",
+      "datetime": "2026-10-22T17:00:06Z",
+      "date": "2026-10-22",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "Naviera Elcano reordena deuda para rebajar costes financieros y se desprende del último buque de su flota hecho en España",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Europa"
+      ],
+      "countries": [
+        "España"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Faro de Vigo",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.farodevigo.es/economia/2026/10/22/naviera-elcano-reordena-deuda-rebajar-costes-financieros-desprende-gasero-castillo-villalba-135626463.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-22T21:57:48Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxONkRfbVE1U2ZabFBfaG5aWjlFNENrdVZ5bGhSMTNtYVFYX09LU08zclJUcHhCS2hXeHJRWjFMTTAtUGV6Q3draEJ4eTM0dnBqSm5YWkZiS21UZlpQMnNDcS15NGhxaWJkaUU4R016WHhyTHlLUWdydGw3OWdqaFFiWmVSQjFSZnFsNlJDMEdnX1l2RF9udHFMeHVyR0lXT2dBazNCTGtUUTFhSTAySFhBeFdzck1CUDR1Wks0dWlwMmVESnB2R25vU1c3bFNvYmkyOXAzZTEzN2JzQ1V0dVZ3VGx6TUF4cXfSAewBQVVfeXFMTVhXZ1NNNldFalFPSnR1blVMV216aHV6NW9Vdm9RZk03VkstZTVRNVhkcmdvR09UZ0JMek9WdkFCT1NQX0xqY2pXYWRFWlhrY19GZGVUOFFyelNKT3ZSbllJWmlRY2Ita01lVFVvbk9wbFNnT2xjMy1KeXhFdDhxYXdvd25SVE9icFpsVlJscmpLUFdZN1pFd0dOUUlkUjVTSGRwemxaSTR5QlRjdk9oZWVKS0kwYVpWaHZjeXhKeU9GTS1YNGVmSXRad1FPTHBIV2c3NjBkTjR3ZXJ6MEpvZ25Tb0pKbmM1YW50dzM?oc=5"
+    },
+    {
       "id": "zimbabue-y-kenia-piden-estrechar-lazos-comerciales-y-eliminar-aranceles-en-cumbr",
       "datetime": "2026-10-22T16:59:34Z",
       "date": "2026-10-22",
@@ -957,49 +1609,6 @@
       "digestSkip": {
         "at": "2026-10-22T18:54:52-03:00",
         "reason": "no se pudo abrir la fuente (error del sitio)"
-      }
-    },
-    {
-      "id": "estados-unidos-fue-el-segundo-destino-de-las-exportaciones-argentinas-en-septiem",
-      "datetime": "2026-10-22T16:43:05Z",
-      "date": "2026-10-22",
-      "firstSeen": "2026-10-22T17:55:34Z",
-      "title": "Estados Unidos fue el segundo destino de las exportaciones argentinas en septiembre",
-      "summary": "Estados Unidos fue en septiembre el segundo destino de las exportaciones argentinas, detrás de Brasil. Las ventas al mercado estadounidense sumaron US$ 1.011 millones, un 38,9% más que en el mismo mes…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Estados Unidos"
-      ],
-      "countries": [
-        "Argentina",
-        "Estados Unidos"
-      ],
-      "tags": [
-        "Estados Unidos"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "flipr.news",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://flipr.com.ar/nacionales/gremios/serindustria/estados-unidos-fue-el-segundo-destino-de-las-exportaciones-argentinas-en-septiembre/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-22T17:55:34Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbklZQ2J4a2xUNERBYW1LaURSNnpXVUdWVG5UcGItRDNZVndRM3huZ0c4V3UwR2d1bFNCcVh6TnlXZmNNeG83VEwwNW1POXJkSXpDVkxibC01bTVWZ0pLTG9OT3ZfWUVlbzhBSDU2YW82TEszVUltaDdOOUFsMGVvOTVKY0VQWjVWUXU0dGlnczZYc3BZR0RFOFNHSTJDcllQU2JTb0tOMXY3VkdhMEJfc0pIbW5VMk14OU5VUFdnSHl5aHpoMm5zcWlQSEQzRHJZN3Vv?oc=5",
-      "digestSkip": {
-        "at": "2026-10-22T15:53:23-03:00",
-        "reason": "repite una nota de la redacción (destinos de las exportaciones de septiembre según el INDEC)"
       }
     },
     {
@@ -1140,6 +1749,81 @@
       }
     },
     {
+      "id": "bencinas-suben-41-3-y-diesel-91-5-gremios-del-transporte-advierten-riesgos-para",
+      "datetime": "2026-10-22T15:27:10Z",
+      "date": "2026-10-22",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "Bencinas suben $41,3 y diésel $91,5: gremios del transporte advierten riesgos para fletes y buses",
+      "summary": "Noticias de Loncoche, política local, denuncias y actualidad de la Araucanía.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Loncoche Informado",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://loncocheinformado.cl/2026/10/22/bencinas-suben-413-y-diesel-915-gremios-del-transporte-advierten-riesgos-para-fletes-y-buses/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-22T21:57:48Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNOGE3LXI5bzdYd0hSVDhyZ3lUa3pFMU5tSy01UE52S2pHcEs3TktDZWNnaFBGNGtRVC1TT1cwNk50dzAydFVIcV9ZdXJmQ3NMd0hTYllZUE5Mb1RPOHBwSm5mWGt1bUhXaGxKX0ZmTkxHclhGRzkxUERrWjJ1TlYtdVFpMnA4ZlRUeWJhTWl4V3JWdThvVmtVQUQ3LUdnZUFScm9rVE5OUi1DS2N5Q2xBT1BLZHhLMzE0eEVjLUhqTGozeW1JdE5oS3FoV0hUTXI2b01Kczh30gHWAUFVX3lxTE04YTctcjlvN1h3SFJUOHJneVRrekUxTm1LLTVQTnZLakdwSzdOS0NlY2doUEY0a1FULVNPVzA2TnR3MDJ0VUhxX1l1cmZDc0x3SFNiWVlQTkxvVE84cHBKbmZYa3VtSFdobEpfRmZOTEdyWEZHOTFQRGtaMnVOVi11UWkycDhmVFR5YmFNaXhXclZ1OG9Wa1VBRDctR2dlQVJyb2tUTk5SLUNLY3lDbEFPUEtkeEszMTR4RWMtSGpMajN5bUl0TmhLcWhXSFRNcjZvTUpzOHc?oc=5"
+    },
+    {
+      "id": "tras-la-deteccion-de-una-grave-enfermedad-en-brasil-argentina-suspendio-las-impo",
+      "datetime": "2026-10-22T15:00:34Z",
+      "date": "2026-10-22",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "Tras la detección de una grave enfermedad en Brasil, Argentina suspendió las importaciones de carne aviar procedentes de una zona limítrofe",
+      "summary": "El Senasa aplicó la zonificación para garantizar la continuidad del comercio de productos avícolas brasileños. Instan a reforzar la bioseguridad en establecimientos de aves de corral.Cuál es y como se contrae el virus.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Importaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil"
+      ],
+      "tags": [
+        "Carne"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Clarín",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.clarin.com/rural/deteccion-grave-enfermedad-brasil-suspenden-importaciones-carne-aviar-procedentes-zona-limitrofe_0_UOVYglUKez.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-22T21:57:48Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQ3RIRHN1RkJIRUNLX0FFdWdTNW42MVFoci1GYlp4Z3NyQXk1SHJTTlkzUHE4QTRUdlBUd3hnR2V4bFBIQUVqSXBMeGZxQW5CQUx0TWZWZ2QtaTRjUHZDRVlueGhseUo2UUo3X2tCWWppR1ZQZFBvWEE3MllvNTZQcVVwV1FqTjIzc0dGTzV0NTd4Tl90d1pDQWpHQWxLT20tcFpjSDJXVkoxeVJabGxJT1k2SGR1UkFVS0lpWU5ueHJ1N3dZSGRrQUVuNzlFYWJpaXpTVFg0R0ZoRVE?oc=5"
+    },
+    {
       "id": "la-aduana-de-santiago-del-estero-secuestro-mas-de-650-kilos-de-hojas-de-coca-val",
       "datetime": "2026-10-22T14:36:49Z",
       "date": "2026-10-22",
@@ -1256,151 +1940,76 @@
       }
     },
     {
-      "id": "brote-de-newcastle-en-brasil-que-importaciones-restringio-argentina-y-cuales-sig",
-      "datetime": "2026-10-22T13:58:00Z",
+      "id": "las-exportaciones-mineras-y-la-importancia-del-comercio-exterior-para-nuestra-re",
+      "datetime": "2026-10-22T13:46:00Z",
       "date": "2026-10-22",
-      "firstSeen": "2026-10-22T17:55:34Z",
-      "title": "Brote de Newcastle en Brasil: qué importaciones restringió Argentina y cuáles siguen habilitadas",
-      "summary": "",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "Las exportaciones mineras y la importancia del comercio exterior para nuestra región",
+      "summary": "Boratos, litio y cobre consolidan el perfil exportador del NOA y ponen al comercio exterior en el centro de una cadena que moviliza producción, logística, empleo, proveedores e inversiones en toda la región",
       "body": [],
       "keyData": [],
       "topics": [
-        "Argentina",
-        "Importaciones",
-        "Latinoamérica"
+        "Exportaciones"
       ],
       "countries": [
-        "Argentina",
-        "Brasil"
+        "Argentina"
       ],
-      "tags": [],
-      "visual": "customs",
+      "tags": [
+        "Minería"
+      ],
+      "visual": "mining",
       "impact": 1,
       "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "feed": "Google Noticias · Comercio exterior Argentina",
       "sources": [
         {
-          "name": "elonce.com",
+          "name": "Infobae",
           "type": "Medio · vía Google Noticias",
-          "url": "https://www.elonce.com/sociedad/brote-de-newcastle-en-brasil-que-importaciones-restringio-argentina-y-cuales-siguen-habilitadas.htm",
+          "url": "https://www.infobae.com/movant/2026/10/22/las-exportaciones-mineras-y-la-importancia-del-comercio-exterior-para-nuestra-region/",
           "primary": true,
           "author": ""
         }
       ],
-      "gnTried": "2026-10-22T17:55:34Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWXhza1I3WTBIVFktNWlEMXVudzA0VlJCYTVCM3dXTHVHX0pFVGprMXJmVHFDMzNpU3ViVHo0Nkp0NVk5OEhpektWR1NXMm9GMjl1SFprWG1BcjFaNm5WN21qUHBEQzBENVItdTlWc2xxaVhiZE0xLVBsLTZyLWxtMlVadHRyQmtNS2s2Z3hNVXl1dmxyMTh2eUdKQlE4MXZwb3dJejdmaWtSa3dTUmtkV0hqR25qb1ZKYzlSYTljODQ2elg30gHEAUFVX3lxTE5ZeHNrUjdZMEhUWS01aUQxdW53MDRWUkJhNUIzd1dMdUdfSkVUamsxcmZUcUMzM2lTdWJUejQ2SnQ1WTk4SGl6S1ZHU1cyb0YyOXVIWmtYbUFyMVo2blY3bWpQcERDMEQ1Ui11OVZzbHFpWGJkTTEtUGwtNnItbG0yVVp0dHJCa01LazZneE1VeXV2bHIxOHZ5R0pCUTgxdnBvd0l6N2Zpa1Jrd1NSa2RXSGpHbmpvVkpjOVJhOWM4NDZ6WDc?oc=5",
-      "digestSkip": {
-        "at": "2026-10-22T18:54:52-03:00",
-        "reason": "repite una nota de la redacción (Senasa restringe importaciones avícolas de la zona del foco de Newcastle)"
-      }
+      "gnTried": "2026-10-22T21:57:48Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQY2ROd2ZRcG51M1dpODFyVTZ1RFdOVTNWZW4yaFQySHloeXlaU3F1eENOb0lYODIwTXBKWldZendfcDBNZ0xPSWRreEhpd3RSR2Eyd09wVm1RUUtUMHZ6Rm5BSVg4elBCNG0yb2FMa0s3UkxiUzk3MWJXaHp6NnNZS3hGSDNFYnppNDY4VjJxUk1sS2pNeFNUT0hqczBuTDJ1WUs3bDlwdWpDSlVRczE5V1Z2QnhLbTdjU3VOdXJ2SmZwemFhbEHSAeABQVVfeXFMT1BNTjIyQ3lRYTA2Wi14VmVac0VTOGMxd3JRTWFLdncxRkR0OVhqVVRzR252emc4T3FXaEswSVQ0UHFKYTBBSVhMNFRxclRwODd6bGpZeU9yWlVqT013UHJQUXhwZ1FTVV9wM0dBdW5CZzZxMXZ6Y2NNS2l1TUl2OUhfRWdhV296QkQ0RzhlSGZYNFRhTm1kRVVqa2JfQ0VRSFJHdkl5SVMzcWszNmE1TFVBVVZkdXBZRzdaVUZDRGJYQjh0ZUdabFZOeHIxcDljWl9icmdodzFKZi1sOTZMdDM?oc=5"
     },
     {
-      "id": "riesgo-sanitario-la-argentina-suspendio-importaciones-de-productos-aviares-de-un",
-      "datetime": "2026-10-22T13:09:00Z",
+      "id": "port-tarragona-explora-nuevas-oportunidades-en-la-logistica-del-hidrogeno-y-el-a",
+      "datetime": "2026-10-22T13:01:34Z",
       "date": "2026-10-22",
-      "firstSeen": "2026-10-22T14:04:27Z",
-      "title": "Riesgo sanitario: la Argentina suspendió importaciones de productos aviares de una zona de Brasil",
-      "summary": "La medida del Senasa se tomó tras la detección de un brote de la enfermedad de Newcastle en una granja comercial de pavos en Santa Catarina; la restricción alcanza únicamente a las mercancías procedentes del área delimitada por las autoridades brasileñas y el resto de los productos podrá ingresar con certificación…",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "Port Tarragona explora nuevas oportunidades en la logística del hidrógeno y el amoníaco renovable",
+      "summary": "Port Tarragona ha presentado sus líneas de desarrollo vinculadas a la logística de combustibles y materias primas de baja huella de carbono durante las III Jornadas del Amoníaco Renovable... - Actualidad",
       "body": [],
       "keyData": [],
       "topics": [
-        "Argentina",
-        "Importaciones",
-        "Latinoamérica"
+        "Logística",
+        "Puertos",
+        "Europa"
       ],
       "countries": [
-        "Argentina",
-        "Brasil"
+        "España"
       ],
       "tags": [],
-      "visual": "customs",
+      "visual": "port",
       "impact": 1,
-      "affectsArgentina": true,
+      "affectsArgentina": false,
       "kind": "noticia",
       "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "feed": "Google Noticias · Logística y fletes",
       "sources": [
         {
-          "name": "La Nación",
+          "name": "Interempresas Media",
           "type": "Medio · vía Google Noticias",
-          "url": "https://www.lanacion.com.ar/economia/campo/riesgo-sanitario-la-argentina-suspendio-importaciones-de-productos-aviares-de-una-zona-de-brasil-nid22102026/",
+          "url": "https://www.interempresas.net/Puertos-transporte-maritimo/667169-Port-Tarragona-explora-nuevas-oportunidades-logistica-del-hidrogeno-amoniaco-renovable.html",
           "primary": true,
           "author": ""
         }
       ],
-      "gnTried": "2026-10-22T14:04:27Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNSm9EZjN3aG9QQ2ZnYmlxMTlGLTFVUks2U0pPWHRaWkJ6OUJFcm1fQWl6am9LQml1d09ld2RjZlIzbmJrdXp2a0l2cnZIMXN4eXI1bVB6TnRWbGJnbUR2QWw5c2l2REFCNmc4aTQxbWRoNk83dWpjcXk3S2FjdE4zNU5fMGJqSTAyY3M0eDhJWk1DOVBPYUpuckhWMmoySnRLX3J4VDBoQ2l2aVUtdlowdS1uX0ZJY05mdDMwdFVURkhQaHA3dVlqWHdyWDNNTjJGd2RTZF9INk1HZWtGMGlIUF93OTdhNG8?oc=5",
-      "digestSkip": {
-        "at": "2026-10-22T18:54:52-03:00",
-        "reason": "repite una nota de la redacción (Senasa restringe importaciones avícolas de la zona del foco de Newcastle)"
-      }
-    },
-    {
-      "id": "newcastle-en-brasil-senasa-restringio-importaciones-de-una-zona",
-      "datetime": "2026-10-22T13:00:00Z",
-      "date": "2026-10-22",
-      "firstSeen": "2026-10-22T14:04:27Z",
-      "title": "Newcastle en Brasil: SENASA restringió importaciones de una zona",
-      "summary": "Tras un brote en una granja de pavos de Santa Catarina, Argentina suspendió importaciones de la zona delimitada y mantuvo el comercio del resto del país",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Importaciones",
-        "Latinoamérica"
-      ],
-      "countries": [
-        "Argentina",
-        "Brasil"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
-      "sources": [
-        {
-          "name": "Agroempresario",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://agroempresario.com/publicacion/122736/newcastle-en-brasil-senasa-restringio-importaciones-de-una-zona/",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "AgroLatam",
-          "type": "También publicó esta noticia",
-          "url": "https://www.agrolatam.com/argentina/actualidad/newcastle-brasil-argentina-restringe-importaciones-avicolas/",
-          "alsoIn": true,
-          "title": "Newcastle en Brasil: Argentina restringe importaciones y refuerza controles avícolas"
-        },
-        {
-          "name": "Rosario3",
-          "type": "También publicó esta noticia",
-          "url": "https://www.rosario3.com/ecos365/noticias/newcastle-en-brasil-argentina-sube-la-guardia-y-restringe-importaciones-avicolas-20261022-0006.html",
-          "alsoIn": true,
-          "title": "Newcastle en Brasil: Argentina sube la guardia y restringe importaciones avícolas"
-        }
-      ],
-      "gnTried": "2026-10-22T14:04:27Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOV2Fkd0h3QkZ1cUxpbmd5bTFGUVlCVXh6enprTHlSXzI0aUNIcUZfRjd2SUh1R1BtZ0ExczB6MXpMc3BFN1A4TjBZUDlpYXlkekpUdGdKeVhycm9GZXNQVjd4ZFZjLUZsRms1d1VYSEk3V0pxMXAwVUhrTHo0SkswMzQ2NEdDbUpUSDlmdUotNkVGbmJNYmN1V0hvTjAtbi02TS1YUmd5cHJtOWhVMnRV?oc=5",
-      "aliasUrls": [
-        "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcTVBaXNQdnpwcUFaNVpWLThEMHdyaVZVbnFEWG5iOVlraDZuWnJWMEVHM1MyRzI2ZDlCYTd6ZkxoY05ZMHI1QmdOcXp5VnVra0EzWWNFcDAwb2s1UmprRjlPVDh1b2ZoOTc1alFCa21LMEljQl9uZC1VUXN5cTlXN1Ewb05EV1h3V1Z5eHBNS21pMS11UE5xaTc0RVppdWZqTDA4Yk9ISlQ3bjlVMEpsVmxHT0xwTjhoYnVCQldKWDNncWF3b0RYcWFQclVnLU1ISXptb3dUNm0",
-        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMjhMT1JPQ1pVOG5HSEJRRDhMaVBxX3RVbVd4TmVnM1R3eHhXYWhGdF9QQi1zUnJhZDVEV1hvZjZRXzYtTk5RZmo5WWpzeVdNOEdaaU5qM2tuUnhqdDgxc1ZsSWRiNzBCWFBKQlN1Tzl2YkdjUl9LU2k5ZUxDQmxScnJwY1Y5emlMeHB1RVBFdWlEaUs4TUpHQWllZE1TQ2s5VUZjNGE0NlktVzA",
-        "https://www.agrolatam.com/argentina/actualidad/newcastle-brasil-argentina-restringe-importaciones-avicolas",
-        "https://www.rosario3.com/ecos365/noticias/newcastle-en-brasil-argentina-sube-la-guardia-y-restringe-importaciones-avicolas-20261022-0006.html"
-      ],
-      "mergedIds": [
-        "newcastle-en-brasil-argentina-restringe-importaciones-y-refuerza-controles-avico",
-        "newcastle-en-brasil-argentina-sube-la-guardia-y-restringe-importaciones-avicolas"
-      ],
-      "digestSkip": {
-        "at": "2026-10-22T18:54:52-03:00",
-        "reason": "repite una nota de la redacción (Senasa restringe importaciones avícolas de la zona del foco de Newcastle)"
-      }
+      "gnTried": "2026-10-22T21:57:48Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPUFBhdEZMdzZ2d0NwSXQxelRwX2F6QWdsM09IMmdDaklzWlVOV05tTGRuWUdwRFNiTUpobXN5aDF5MDRrZWJtdXVCYXUtdGRBWENmdEFxSnVOZjRpVXAxdXgxeVBCLUhhdlpxQm5kcU9LS19iWWMwN21GdUlZVnBZcERHdDZPRkVIUGJkbk1uNlZ6UlZqXy1OaHNoSWFMQUpvYzA1X0RlUW1zSDh3VGRPbkFfajVURzFha0tuVEkzMk1YRC0tR2tFTkhwV3ZFc1VnLWhweXZBNTJUNEpNcmFvZWZDQ2FoOXJLSS1DMA?oc=5"
     },
     {
       "id": "ignacio-lupion-sobre-el-foro-ue-mercosur-salta-paso-a-ser-una-de-las-provincias",
@@ -1616,6 +2225,13 @@
           "url": "https://rosariofinanzas.ar/noticias/importaciones-via-courier-superan-los-u-s1-000-millones-en-2026",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "iProfesional",
+          "type": "También publicó esta noticia",
+          "url": "https://www.iprofesional.com/impuestos/467222-importaciones-por-courier-en-argentina-ya-superaron-los-960-millones-de-dolares-en-9-meses",
+          "alsoIn": true,
+          "title": "Importaciones por courier en Argentina: ya superaron los u$s960 millones en 9 meses"
         }
       ],
       "gnTried": "2026-10-22T14:04:27Z",
@@ -1623,7 +2239,14 @@
       "digestSkip": {
         "at": "2026-10-22T18:54:52-03:00",
         "reason": "la página solo trae un extracto con enlace a la nota original de Ámbito"
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZ2dwYW9sS2E5Yld3QkJWd1lvNGxpVjJOX1NDMlVWTFNJVUVfZ0FEeWFXODNsM0diMzdfZzRkQlJUREFQMlJhXzlPZXBWYW9lTjFlYVI0ZWhFRnJEX0pSLUFoWEhpMDM3VWlXUUt6T0JQc2htWUp5c25UcDRQcmlSZHo4MG1tanEyX3BEb0ZaN01rSTNwMTJzTC1wbWJhRjZ2Tk1Wc2xXTkMtaXBHSkdqVzhLSzdtTHpVSk1qVnR6dGVsQm9JRFF6b0VFQTNNendCUllUakV3SdIB1wFBVV95cUxOZ2dwYW9sS2E5Yld3QkJWd1lvNGxpVjJOX1NDMlVWTFNJVUVfZ0FEeWFXODNsM0diMzdfZzRkQlJUREFQMlJhXzlPZXBWYW9lTjFlYVI0ZWhFRnJEX0pSLUFoWEhpMDM3VWlXUUt6T0JQc2htWUp5c25UcDRQcmlSZHo4MG1tanEyX3BEb0ZaN01rSTNwMTJzTC1wbWJhRjZ2Tk1Wc2xXTkMtaXBHSkdqVzhLSzdtTHpVSk1qVnR6dGVsQm9JRFF6b0VFQTNNendCUllUakV3SQ",
+        "https://www.iprofesional.com/impuestos/467222-importaciones-por-courier-en-argentina-ya-superaron-los-960-millones-de-dolares-en-9-meses"
+      ],
+      "mergedIds": [
+        "importaciones-por-courier-en-argentina-ya-superaron-los-u-s960-millones-en-9-mes"
+      ]
     },
     {
       "id": "discapacidad-diputados-aprobo-un-proyecto-que-preserva-pensiones-cobertura-de-sa",
@@ -1763,50 +2386,6 @@
       }
     },
     {
-      "id": "mercosur-brasil-regulamenta-cotas-para-exportadores-que-buscam-o-mercado-da-noru",
-      "datetime": "2026-10-22T12:02:22Z",
-      "date": "2026-10-22",
-      "firstSeen": "2026-10-22T17:55:34Z",
-      "title": "MERCOSUR: Brasil regulamenta cotas para exportadores que buscam o mercado da Noruega",
-      "summary": "El acuerdo de libre comercio entre el MERCOSUR y la Asociación Europea de Libre Comercio (EFTA) comienza a traducirse en oportunidades concretas para las | Noticias del MERCOSUR: política, economía y actualidad regional del Prensa Mercosur.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones",
-        "Latinoamérica",
-        "Mercosur",
-        "Europa"
-      ],
-      "countries": [
-        "Brasil",
-        "Noruega"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Prensa Mercosur",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://prensamercosur.org/2026/10/22/mercosur-brasil-regulamenta-cotas-para-exportadores-que-buscam-o-mercado-da-noruega/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-22T17:55:34Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQejl5WmtFbUZySnJ4VkRDdnNIYUxuT2E3cS03R085TmNmY25zMDNMbHdTVjlZTE1LNzk5UW9tZndEX2hzQV94TDR5Y01hSzN1R3d6ZWcwZE9yVEtJaDNrUXI0UzJGZFBBSTNyZjBydjdvTU5vOXZoM1dGMVVTbWVqX1E2dHFQRGp1TEZNZzNNaHFHcndMLTQtejdkendtN0QwVXN2aG5LTXJIa1FZVTY0RXJlX1dFSTB6NVd4UGs3SQ?oc=5",
-      "digestSkip": {
-        "at": "2026-10-22T15:53:23-03:00",
-        "reason": "repite una nota de la redacción (cuotas de Brasil para exportar a Noruega)"
-      }
-    },
-    {
       "id": "brasil-exportaciones-a-la-union-europea-crecen-30-7-tras-el-inicio-de-la-aplicac",
       "datetime": "2026-10-22T11:58:39Z",
       "date": "2026-10-22",
@@ -1867,16 +2446,20 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Tratados y acuerdos",
         "Estados Unidos"
       ],
       "countries": [
+        "Argentina",
         "Estados Unidos"
       ],
-      "tags": [],
+      "tags": [
+        "Estados Unidos"
+      ],
       "visual": "treaty",
       "impact": 1,
-      "affectsArgentina": false,
+      "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
       "feed": "Google Noticias · Aranceles y comercio internacional",
@@ -1984,6 +2567,45 @@
         "basedOn": "https://economis.com.ar/la-paradoja-de-la-yerba-exportaciones-record-pero-el-precio-internacional-en-el-nivel-mas-bajo-en-13-anos/",
         "words": 182
       }
+    },
+    {
+      "id": "brasil-brazil-week-en-toronto-impulsa-las-negociaciones-para-un-acuerdo-comercia",
+      "datetime": "2026-10-22T11:12:36Z",
+      "date": "2026-10-22",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "Brasil: Brazil Week en Toronto impulsa las negociaciones para un acuerdo comercial entre el MERCOSUR y Canadá",
+      "summary": "La delegación brasileña intensificó los contactos con autoridades y empresarios canadienses durante la Brazil Week, celebrada en Toronto, con el objetivo | Noticias del MERCOSUR: política, economía y actualidad regional del Prensa Mercosur.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "Mercosur"
+      ],
+      "countries": [
+        "Brasil",
+        "Canadá"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Prensa Mercosur",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://prensamercosur.org/2026/10/22/brasil-brazil-week-en-toronto-impulsa-las-negociaciones-para-un-acuerdo-comercial-entre-el-mercosur-y-canada/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-22T21:57:48Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOTFZmSTVJNUVyRU1JSVVCRzdNZjlYcXFzaWRFVUZyQi12MHlmUS1MY1VQeFRxbHRYNzlBd3ExeVFMdWpmSVN5NHZoWG02Snc2WklUNldMMFJTUHJ6V1dYejllSUpDTlN1WnBnQ1ZROTdJUWc3akJvcjNNR05Wa2dMNVdiNHZVMDdmeEJ2aWY3UWpsVWQxemZ0THo5Y2RZMENkcDVmWHRmeGlxYVVVVHdFcHdxTXVUQTB2WWR5eW9vV1BkZ2dOX3Zvc0ZNQVlTamtOZDFKZ1hMMHVPVzhpZWREQg?oc=5"
     },
     {
       "id": "la-ayuda-europea-para-el-ets-solo-cubre-un-tercio-de-las-aportaciones-de-las-nav",
@@ -2932,43 +3554,168 @@
       }
     },
     {
-      "id": "cma-cgm-eleva-recargos-para-exportaciones-desde-sudamerica-y-aplica-nuevo-ajuste",
-      "datetime": "2026-10-22T03:33:24Z",
+      "id": "cma-cgm-pss-costa-este-sudamerica-europa-900-dolares-15-noviembre",
       "date": "2026-10-22",
-      "firstSeen": "2026-10-22T14:04:27Z",
-      "title": "CMA CGM eleva recargos para exportaciones desde Sudamérica y aplica nuevo ajuste a embarques desde Chile",
-      "summary": "",
-      "body": [],
-      "keyData": [],
+      "datetime": "2026-10-22T00:33:24-03:00",
+      "kind": "noticia",
+      "title": "CMA CGM sube a USD 900 por contenedor de 40 pies el recargo de temporada alta para exportar desde la Argentina a Europa y Medio Oriente",
+      "summary": "Desde el 15 de noviembre, la naviera cobrará USD 700 por contenedor seco de 20 pies y USD 900 por uno de 40 pies a las cargas que salgan de la Argentina, Brasil, Uruguay y Paraguay hacia Europa, el Mediterráneo, el norte de África y Medio Oriente. El aviso anterior fijaba USD 500 desde el 1 de noviembre; Maersk y Hapag-Lloyd también aplican recargos en noviembre.",
       "topics": [
+        "Transporte marítimo",
+        "Logística",
         "Exportaciones",
-        "Latinoamérica"
+        "Argentina",
+        "Mercosur",
+        "Europa"
       ],
       "countries": [
-        "Chile"
+        "Argentina",
+        "Brasil",
+        "Uruguay",
+        "Paraguay",
+        "Global"
       ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Logística y fletes",
+      "tags": [
+        "Fletes",
+        "Contenedores",
+        "PSS",
+        "Recargo de temporada alta",
+        "CMA CGM",
+        "Maersk",
+        "Hapag-Lloyd"
+      ],
+      "visual": "container",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "Las exportaciones argentinas en contenedor seco hacia Europa, el Mediterráneo y Medio Oriente que embarquen con CMA CGM pagarán el nuevo recargo desde el 15 de noviembre; quedan excluidas las cargas de Rosario al golfo Pérsico.",
+      "argentinaImpact": {
+        "change": "CMA CGM aplicará un recargo de temporada alta de USD 700 (20 pies) y USD 900 (40 pies) por contenedor seco a las exportaciones desde la Argentina hacia Europa, el Mediterráneo, el norte de África y Medio Oriente desde el 15 de noviembre.",
+        "who": "Exportadores argentinos que embarcan carga seca en contenedor hacia Europa y Medio Oriente, agentes de carga y despachantes que cotizan fletes.",
+        "sectors": [],
+        "flows": {
+          "importaciones": false,
+          "exportaciones": true,
+          "logistica": true,
+          "aranceles": false
+        }
+      },
+      "keyData": [
+        [
+          "Nuevo recargo CMA CGM, contenedor de 40 pies",
+          "USD 900 (desde el 15/11)"
+        ],
+        [
+          "Nuevo recargo CMA CGM, contenedor de 20 pies",
+          "USD 700"
+        ],
+        [
+          "Aviso anterior de CMA CGM",
+          "USD 500 por contenedor desde el 1/11"
+        ],
+        [
+          "Aumento frente al aviso anterior",
+          "+40% (20') y +80% (40')"
+        ],
+        [
+          "Excluido",
+          "Rosario → golfo Pérsico"
+        ],
+        [
+          "Maersk, costa este de Sudamérica → Europa",
+          "USD 500 por contenedor desde el 1/11"
+        ],
+        [
+          "Hapag-Lloyd, costa este de Sudamérica → América del Norte y Central",
+          "USD 500 (20') / USD 1.000 (40') desde el 5/11"
+        ]
+      ],
+      "explainer": {
+        "what": "CMA CGM fijó un recargo de temporada alta de USD 700 por contenedor seco de 20 pies y USD 900 por uno de 40 pies para las exportaciones desde la Argentina, Brasil, Uruguay y Paraguay hacia Europa, el Mediterráneo, el norte de África y Medio Oriente desde el 15 de noviembre.",
+        "why": "Supera al aviso anterior de USD 500 por contenedor desde el 1 de noviembre (+40% en 20 pies y +80% en 40 pies) y se suma a recargos de Maersk y Hapag-Lloyd en las rutas que salen de la costa este de Sudamérica.",
+        "who": "Exportadores argentinos de carga seca en contenedor, agentes de carga, despachantes y operadores logísticos.",
+        "products": [
+          "Carga seca en contenedores de 20 y 40 pies"
+        ],
+        "next": "El recargo de CMA CGM rige desde el 15 de noviembre; el de Maersk hacia Europa, desde el 1 de noviembre, y el de Hapag-Lloyd hacia América del Norte y Central, desde el 5 de noviembre por 30 días.",
+        "nextSource": {
+          "name": "MásContainer",
+          "url": "https://mascontainer.com/cma-cgm-eleva-recargos-para-exportaciones-desde-sudamerica-y-aplica-nuevo-ajuste-a-embarques-desde-chile/"
+        }
+      },
+      "body": [
+        "La naviera francesa CMA CGM anunció un recargo de temporada alta (PSS, por sus siglas en inglés) de USD 700 por contenedor seco de 20 pies y USD 900 por contenedor de 40 pies para las exportaciones que salgan de Brasil (salvo el nordeste), la Argentina, Uruguay y Paraguay con destino a Europa, el Mediterráneo, el norte de África y Medio Oriente. El cargo rige desde el 15 de noviembre de 2026, según informaron Container News el 19 de octubre y MásContainer el 22.",
+        "La medida actualiza un aviso que la compañía había publicado a comienzos de octubre: un PSS de USD 500 por contenedor desde el 1 de noviembre para las mismas zonas de origen. Según el cálculo de MásContainer, el nuevo valor implica una suba de 40% para los equipos de 20 pies y de 80% para los de 40 pies. El medio advierte que la naviera no aclara si el nuevo recargo reemplaza al anterior en todas las reservas o si ambos podrían convivir en algunas condiciones contractuales.",
+        "## Qué rutas alcanza",
+        "Los destinos incluidos son el norte de Europa (con el Báltico y Escandinavia), el Mediterráneo oriental y occidental, el Adriático, el mar Negro, el norte de África, Medio Oriente y el mar Rojo. Las dos fuentes coinciden en una excepción que interesa a la Argentina: los embarques desde Rosario hacia el golfo Pérsico quedan fuera del recargo.",
+        "Hay diferencias con el aviso del 1 de noviembre. Aquel, según la publicación de AJOT, alcanzaba a contenedores secos y refrigerados y sumaba como destino África y el océano Índico. El nuevo comunicado, de acuerdo con MásContainer, está dirigido solo a la carga seca y ya no menciona África occidental. Como en todo recargo de este tipo, el monto se agrega al flete base y no reemplaza otros cargos que pueden aplicarse, como los ajustes por combustible, los gastos de terminal en origen y destino o los recargos de seguridad y contingencia.",
+        "## Los recargos de las otras navieras",
+        "CMA CGM no es la única que encarece las salidas de la costa este de Sudamérica en noviembre. Maersk aplicará un PSS de USD 500 por contenedor, seco o refrigerado, a las cargas que partan de la Argentina, Brasil, Uruguay y Paraguay hacia el norte de Europa, Europa central y del este, el Mediterráneo, Escandinavia, el Báltico y el mar Negro, con fecha de cálculo de precio desde el 1 de noviembre, según Container News y DataPortuaria.",
+        "Hacia el norte del continente, Hapag-Lloyd fijó un recargo de USD 500 por contenedor seco de 20 pies y USD 1.000 por uno de 40 pies para las cargas desde la costa este de Sudamérica hacia Estados Unidos, Canadá, México, el Caribe, Centroamérica, la costa oeste de Sudamérica, Colombia, Venezuela y Surinam. Rige desde el 5 de noviembre por 30 días y solo para contratos de largo plazo, según DatamarNews. La propia CMA CGM ya aplicaba desde el 15 de octubre un PSS de USD 1.000 por TEU desde la costa este de Sudamérica hacia la costa oeste del continente, Centroamérica, el Caribe, México, Estados Unidos y Canadá (en Estados Unidos, desde el 28 de octubre), informó PortalPortuario.",
+        "## Qué cambia para los exportadores",
+        "Para un exportador argentino que embarque carga seca en un contenedor de 40 pies con CMA CGM hacia un puerto europeo o del Mediterráneo, el recargo pasará de los USD 500 anunciados para el 1 de noviembre a USD 900 desde el 15 de noviembre, a sumar sobre el flete acordado. En los embarques refrigerados, el nuevo aviso no fija un valor; el de USD 500 del 1 de noviembre los incluía, y el de Maersk también alcanza a esos equipos.",
+        "El movimiento en las rutas de salida se suma al de las importaciones: como informó Comexplora el 5 de octubre, Hapag-Lloyd y CMA CGM aplicaron desde el 15 de octubre un aumento general de USD 1.000 por contenedor en los fletes desde Asia hacia la costa este de Sudamérica. En la referencia global, el World Container Index de Drewry marcó USD 4.485 por contenedor de 40 pies en la medición del 15 de octubre, con una suba de 3%.",
+        "## Lo que todavía no está claro",
+        "Ni Container News ni MásContainer informan si el recargo se aplica a todos los tipos de contrato o solo a algunos, a diferencia de los avisos de Hapag-Lloyd y del PSS de CMA CGM hacia el resto de América, que se limitan a los contratos de largo plazo. Tampoco está claro, según MásContainer, cómo convivirán el aviso del 1 de noviembre y el del 15 en las reservas que crucen ambas fechas. Las fuentes consultadas no traen estimaciones sobre el efecto en las tarifas totales que pagan los exportadores."
+      ],
       "sources": [
         {
-          "name": "MasContainer",
-          "type": "Medio · vía Google Noticias",
+          "name": "MásContainer",
+          "type": "Medio especializado",
           "url": "https://mascontainer.com/cma-cgm-eleva-recargos-para-exportaciones-desde-sudamerica-y-aplica-nuevo-ajuste-a-embarques-desde-chile/",
-          "primary": true,
-          "author": ""
+          "primary": true
+        },
+        {
+          "name": "Container News (CMA CGM)",
+          "type": "Medio especializado",
+          "url": "https://container-news.com/cma-cgm-updates-surcharges-for-china-south-america-and-morocco-shipments/"
+        },
+        {
+          "name": "AJOT (aviso del 1 de noviembre)",
+          "type": "Medio especializado",
+          "url": "https://www.ajot.com/news/cma-cgm-pss-from-south-america-east-coast"
+        },
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado",
+          "url": "https://portalportuario.cl/cma-cgm-impondra-un-recargo-por-temporada-alta-a-envios-originados-en-costa-este-de-sudamerica"
+        },
+        {
+          "name": "Container News (Maersk)",
+          "type": "Medio especializado",
+          "url": "https://container-news.com/maersk-announces-new-pss-from-south-america-to-europe/"
+        },
+        {
+          "name": "DataPortuaria",
+          "type": "Medio especializado",
+          "url": "https://dataportuaria.com/en/internacional/shipping/maersk-implements-usd-500-peak-season-surcharge-on-south-america-europe-routes-0e8cd8"
+        },
+        {
+          "name": "DatamarNews",
+          "type": "Medio especializado",
+          "url": "https://datamarnews.com/noticias/hapag-lloyd-sets-pss-on-east-coast-south-america-shipments-from-nov-5/"
         }
       ],
-      "gnTried": "2026-10-22T14:04:27Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWnhGbWhHZUFmSkV2SjBDV3BSRXVnR2VFMERkVWVjQVZSdG95NHYtVDNXWlZHUHI2X3F0NENVWnJvazdyZlE3QkZiRXlwemV5V0R4WFF5bndRZVE2OEVMWEZUNE1yb3NyaEU4dVlLdzV5LVRBMHZtTHR0VjFIZ1Y5NlpiX1hKR1NEMk5pbWlubkRHVVRoUFBMbFpDUTRXOWpKcjVjRHI5eHozbnBZZXhvRTNjcnpIN2lmWlQxQS1oLUx0U3BBbDZXV3RR?oc=5",
-      "digestSkip": {
-        "at": "2026-10-22T18:54:52-03:00",
-        "reason": "repite una nota de la redacción (recargo de temporada alta de CMA CGM)"
-      }
+      "story": "fletes-contenedores",
+      "deadlines": [
+        {
+          "date": "2026-11-01",
+          "label": "Maersk: rige el recargo de temporada alta de USD 500 por contenedor desde la costa este de Sudamérica hacia Europa y el Mediterráneo",
+          "url": "https://container-news.com/maersk-announces-new-pss-from-south-america-to-europe/"
+        },
+        {
+          "date": "2026-11-05",
+          "label": "Hapag-Lloyd: rige por 30 días el recargo de USD 500 (20') y USD 1.000 (40') desde la costa este de Sudamérica hacia América del Norte, Central y el Caribe",
+          "url": "https://datamarnews.com/noticias/hapag-lloyd-sets-pss-on-east-coast-south-america-shipments-from-nov-5/"
+        },
+        {
+          "date": "2026-11-15",
+          "label": "CMA CGM: rige el recargo de USD 700 (20') y USD 900 (40') para exportaciones de carga seca desde Argentina, Brasil, Uruguay y Paraguay a Europa y Medio Oriente",
+          "url": "https://mascontainer.com/cma-cgm-eleva-recargos-para-exportaciones-desde-sudamerica-y-aplica-nuevo-ajuste-a-embarques-desde-chile/"
+        }
+      ],
+      "absorbs": [
+        "cma-cgm-eleva-recargos-para-exportaciones-desde-sudamerica-y-aplica-nuevo-ajuste"
+      ]
     },
     {
       "id": "la-aduana-de-ezeiza-logro-secuestrar-7-5-kilos-de-extasis-a-pasajera-brasilena",
@@ -3008,6 +3755,174 @@
         "at": "2026-10-22T09:56:00-03:00",
         "reason": "fuera de tema (decomiso de drogas en Ezeiza)"
       }
+    },
+    {
+      "id": "senasa-newcastle-brasil-suspende-importaciones-zona-restriccion-santa-catarina",
+      "date": "2026-10-22",
+      "kind": "noticia",
+      "title": "Newcastle en Brasil: el Senasa suspende solo las importaciones avícolas de la zona del foco y mantiene abierto el resto del comercio",
+      "summary": "La Argentina aplicó el acuerdo de zonificación que firmó con Brasil en 2025: frena las mercancías aviares del área de restricción de Santa Catarina y deja entrar las de zonas libres con certificado del MAPA. En 2024, ante un foco en Rio Grande do Sul, había sido el único país que cerró a todo Brasil.",
+      "topics": [
+        "Argentina",
+        "Importaciones",
+        "Regulaciones",
+        "Latinoamérica",
+        "Mercosur"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil",
+        "México",
+        "Malasia",
+        "Arabia Saudita",
+        "China",
+        "Chile"
+      ],
+      "tags": [
+        "Newcastle",
+        "Senasa",
+        "MAPA",
+        "Sanidad animal",
+        "Carne aviar",
+        "Pollo",
+        "Zonificación",
+        "Regionalización"
+      ],
+      "visual": "livestock",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "Brasil pasó en 2025 a ser el principal proveedor de carne de pollo de la Argentina. Con la zonificación, solo queda frenada la mercadería del área de restricción que fijó Brasil; el resto puede entrar con certificación oficial de origen en zona libre.",
+      "argentinaImpact": {
+        "change": "El Senasa suspendió las importaciones de mercancías aviares procedentes de la zona de restricción del foco de Newcastle en Santa Catarina; las de zonas libres siguen habilitadas con certificado del MAPA.",
+        "who": "Importadores de carne aviar, huevos fértiles y pollitos de un día de Brasil, plantas que procesan materia prima brasileña y granjas avícolas argentinas.",
+        "sectors": [
+          "Avicultura",
+          "Alimentos"
+        ],
+        "flows": {
+          "importaciones": true,
+          "exportaciones": false,
+          "logistica": false,
+          "aranceles": false
+        }
+      },
+      "keyData": [
+        [
+          "Alcance de la suspensión argentina",
+          "Solo la zona de restricción del foco (Santa Catarina)"
+        ],
+        [
+          "Condición para el resto de Brasil",
+          "Certificado oficial del MAPA de origen en zona libre"
+        ],
+        [
+          "Radio previsto en el acuerdo bilateral",
+          "10 km alrededor del foco"
+        ],
+        [
+          "Acuerdo de zonificación",
+          "Firmado el 7 de noviembre de 2025"
+        ],
+        [
+          "Países con restricciones a Brasil",
+          "5 (México y Malasia, a todo el país)"
+        ],
+        [
+          "Granjas bajo monitoreo en Brasil",
+          "Unas 133, en cuatro municipios"
+        ],
+        [
+          "Argentina libre de Newcastle",
+          "Desde 1987"
+        ]
+      ],
+      "explainer": {
+        "what": "El Senasa suspendió las importaciones de mercancías aviares que provengan de la zona de restricción del foco de Newcastle en Santa Catarina, Brasil, y mantuvo habilitado el resto con certificado del MAPA.",
+        "why": "Es la primera aplicación del acuerdo de zonificación firmado con Brasil en noviembre de 2025, que limita las restricciones a un radio de 10 km del foco; en 2024 la Argentina había cerrado la compra a todo Brasil.",
+        "who": "Importadores de productos avícolas y material genético de Brasil, la industria avícola local y los despachantes que gestionan los certificados sanitarios.",
+        "products": [
+          "Carne de pollo y de pavo",
+          "Huevos fértiles",
+          "Pollitos de un día",
+          "Aves vivas",
+          "Huevos y ovoproductos"
+        ],
+        "next": "Según el Ministerio de Agricultura de Brasil, el levantamiento de las suspensiones depende de las exigencias de cada mercado y no hay plazo para la reanudación total.",
+        "nextSource": {
+          "name": "Feed&Food",
+          "url": "https://feedfood.com.br/newcastle-embargos-as-exportacoes-avicolas-chegam-a-cinco-paises/"
+        }
+      },
+      "body": [
+        "El Servicio Nacional de Sanidad y Calidad Agroalimentaria (Senasa) suspendió las importaciones de mercancías avícolas que provengan de la zona de restricción que delimitaron las autoridades sanitarias de Brasil alrededor del foco de enfermedad de Newcastle confirmado en una granja comercial de pavos de engorde en Nova Itaberaba, en el oeste de Santa Catarina. La decisión se conoció el jueves 22 de octubre, después de que el Ministerio de Agricultura y Pecuaria brasileño (MAPA) confirmara el caso y activara su plan de contingencia.",
+        "A diferencia de lo que pasó en 2024, la Argentina no cortó la compra a todo Brasil. Los productos avícolas del resto del país vecino pueden seguir entrando, siempre que viajen con la certificación oficial del MAPA que acredite su origen en una zona libre de la enfermedad. Según el organismo argentino, se aplicó la estrategia de zonificación para preservar la continuidad del comercio.",
+        "## Qué se suspende y qué sigue habilitado",
+        "La restricción alcanza a las mercancías aviares originadas en el área que fijó el MAPA. Las fuentes consultadas no informan el número de la norma del Senasa ni una lista detallada de productos alcanzados. Para los envíos de aves de un día, el esquema prevé que el MAPA certifique una zona o un compartimento libre cuando la mercadería sale de establecimientos que el Senasa autorizó previamente.",
+        "La base de la medida es el acuerdo de reconocimiento mutuo de los sistemas oficiales de zonificación y compartimentación para influenza aviar de alta patogenicidad y enfermedad de Newcastle que firmaron el 7 de noviembre de 2025, en Buenos Aires, el ministro brasileño Carlos Fávaro y el secretario de Agricultura argentino, Sergio Iraeta. Según el MAPA, el acuerdo prevé que, ante un foco de cualquiera de las dos enfermedades, las restricciones comerciales se apliquen dentro de un radio de 10 km del área afectada, y cubre aves vivas, huevos fértiles, pollitos de un día, carne aviar, huevos y ovoproductos. Las fuentes sobre la medida actual no precisan el radio de la zona fijada por Brasil.",
+        "## El antecedente de 2024",
+        "En julio de 2024, un foco de Newcastle en una granja comercial de Anta Gorda, en Rio Grande do Sul, llevó a Brasil a suspender de manera preventiva sus exportaciones avícolas desde el 17 de ese mes. A mediados de agosto de 2024, de los 43 mercados con algún tipo de restricción, la Argentina era el único que mantenía cerrada la compra de carne aviar de todo Brasil; otros diez, entre ellos China, limitaban la medida a Rio Grande do Sul y 32 la reducían a la zona o el radio del foco, según el relevamiento del Ministerio de Agricultura citado por Mercado & Consumo.",
+        "El acuerdo de zonificación llegó después, tras evaluaciones técnicas realizadas entre diciembre de 2024 y marzo de 2025 que, según el MAPA, concluyeron que los sistemas de vigilancia y bioseguridad de ambos países son equivalentes y siguen las pautas de la Organización Mundial de Sanidad Animal. El peso del comercio explica el interés: en 2025 Brasil pasó a ser el principal proveedor de carne de pollo de la Argentina, con exportaciones que crecieron 295% frente a 2024 y sumaron 12.951 toneladas entre enero y julio de ese año.",
+        "## Cómo reaccionaron los demás compradores",
+        "Según la actualización del MAPA del 21 de octubre, recogida por Feed&Food, cinco países restringieron productos avícolas brasileños. México y Malasia aplicaron suspensiones para todo Brasil: México sobre aves vivas, carne y despojos, huevos fértiles, pollitos de hasta tres días y aves de compañía, entre otras categorías, y Malasia sobre carne, productos cárnicos y despojos. Arabia Saudita, China y Chile, en cambio, limitaron las medidas a Santa Catarina. Como informó Comexplora el 20 de octubre, Paraguay también restringió las compras de ese estado.",
+        "Arabia Saudita comunicó su decisión el miércoles 21 y representa cerca del 7,7% de las exportaciones brasileñas de carne de pollo, según datos del sector citados por NC News. En septiembre, China compró 40.900 toneladas de pollo brasileño y Arabia Saudita, 38.300 toneladas, aunque Feed&Food aclara que esos volúmenes incluyen todos los orígenes y no equivalen a lo afectado por los embargos. El MAPA sostiene que los productos con inspección oficial siguen siendo seguros para el consumo.",
+        "## El foco y las recomendaciones para las granjas argentinas",
+        "La granja afectada tenía unos 6.000 pavos, que no se destinaron al consumo, y quedó interdicta. Unas 133 propiedades de cuatro municipios (Nova Itaberaba, Coronel Freitas, Nova Erechim y Águas Frias) están bajo monitoreo. Santa Catarina responde por más del 20% de los embarques avícolas de Brasil, de acuerdo con NC News.",
+        "La Argentina es libre de Newcastle y no registra focos desde 1987. Para conservar ese estatus, el Senasa pidió a los productores reforzar las medidas de la Resolución 1699/2019: revisar las mallas antipájaros, limpiar y desinfectar instalaciones, vehículos y herramientas, reducir el agua estancada que atrae aves silvestres, controlar el ingreso de personas y equipos y usar bien la ropa de protección. También recomendó evaluar la vacunación contra Newcastle según la categoría productiva y a criterio del veterinario responsable; esa vacuna no forma parte del esquema obligatorio. Las sospechas se notifican al Senasa por WhatsApp al 11 5700 5704, por correo a notificaciones@senasa.gob.ar, en sus oficinas o con la aplicación Notificaciones Senasa."
+      ],
+      "sources": [
+        {
+          "name": "Bichos de Campo",
+          "type": "Medio especializado",
+          "url": "https://bichosdecampo.com/sem-problemas-tras-el-brote-de-newcastle-argentina-confirmo-que-mantendra-el-comercio-avicola-con-brasil-pero-por-las-dudas-mando-a-vacunar-en-las-granjas-locales/",
+          "primary": true
+        },
+        {
+          "name": "Ecos365 (Rosario3)",
+          "type": "Medio de comunicación",
+          "url": "https://www.rosario3.com/ecos365/noticias/newcastle-en-brasil-argentina-sube-la-guardia-y-restringe-importaciones-avicolas-20261022-0006.html"
+        },
+        {
+          "name": "Elonce",
+          "type": "Medio de comunicación",
+          "url": "https://www.elonce.com/sociedad/brote-de-newcastle-en-brasil-que-importaciones-restringio-argentina-y-cuales-siguen-habilitadas.htm"
+        },
+        {
+          "name": "Informe Digital",
+          "type": "Medio de comunicación",
+          "url": "https://informedigital.com.ar/argentina-freno-importaciones-aviares-de-una-zona-de-brasil/"
+        },
+        {
+          "name": "Brasil 61 (acuerdo de zonificación, 2025)",
+          "type": "Medio de comunicación",
+          "url": "https://brasil61.com/n/brasil-e-argentina-fortalecem-cooperacao-sanitaria-para-o-comercio-avicola-mapa250015"
+        },
+        {
+          "name": "Mercado & Consumo (foco de 2024)",
+          "type": "Medio especializado",
+          "url": "https://mercadoeconsumo.com.br/15/08/2024/economia/argentina-mantem-embargo-a-frango-de-todo-o-brasil-apos-deteccao-de-newcastle/amp/"
+        },
+        {
+          "name": "Feed&Food",
+          "type": "Medio especializado",
+          "url": "https://feedfood.com.br/newcastle-embargos-as-exportacoes-avicolas-chegam-a-cinco-paises/"
+        },
+        {
+          "name": "NC News",
+          "type": "Medio de comunicación",
+          "url": "https://ncnews.com.br/2026/10/22/arabia-saudita-suspende-compra-de-frango-de-santa-catarina-e-amplia-pressao-sobre-o-agro-brasileiro/"
+        },
+        {
+          "name": "Ministerio de Agricultura y Pecuaria de Brasil",
+          "type": "Organismo oficial",
+          "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/doenca-de-newcastle-atualizacao-sobre-as-restricoes-as-exportacoes"
+        }
+      ],
+      "story": "newcastle-brasil",
+      "absorbs": [
+        "riesgo-sanitario-la-argentina-suspendio-importaciones-de-productos-aviares-de-un",
+        "newcastle-en-brasil-senasa-restringio-importaciones-de-una-zona",
+        "brote-de-newcastle-en-brasil-que-importaciones-restringio-argentina-y-cuales-sig"
+      ]
     },
     {
       "id": "hyundai-glovis-busca-expandir-sus-operaciones-de-logistica-de-vehiculos-en-puert",
@@ -3135,6 +4050,13 @@
           "url": "https://www.infobae.com/colombia/2026/10/22/colombia-busca-eliminar-aranceles-de-ee-uu-antes-de-terminar-el-ano-ministro-de-comercio-espera-llegar-a-un-acuerdo-final-en-las-proximas-semanas/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Rumbo Minero",
+          "type": "También publicó esta noticia",
+          "url": "https://www.rumbominero.com/colombia/colombia-busca-eliminar-aranceles-de-ee-uu-en-diciembre/",
+          "alsoIn": true,
+          "title": "Colombia busca eliminar aranceles de EE. UU. en diciembre"
         }
       ],
       "gnTried": "2026-10-22T02:00:48Z",
@@ -3142,7 +4064,14 @@
       "digestSkip": {
         "at": "2026-10-22T03:30:00-03:00",
         "reason": "repite el mismo hecho que la nota de El Heraldo"
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdERheF9Sal9Rd0lQQUtEQWtjUEJha01Ub0dLdjV0WWJqNEwtajZsa2MxLUxWMEk0Zms0Nm5BMVRPSTdYTmdXZVhETUg0UklkbThuVGhUc3gwU3YxYnF3eDBpNlMyTC1pNGwzYVgzdTNsY1MySTRvWGo2NEY0SzhvOUlGQ1hFdS1zZkZVVVRxMThhcDJqUERwNA",
+        "https://www.rumbominero.com/colombia/colombia-busca-eliminar-aranceles-de-ee-uu-en-diciembre"
+      ],
+      "mergedIds": [
+        "colombia-busca-eliminar-aranceles-de-ee-uu-en-diciembre"
+      ]
     },
     {
       "id": "ee-uu-puerto-de-coos-bay-recibe-204-millones-de-dolares-para-impulsar-terminal-i",
@@ -3187,49 +4116,6 @@
         "at": "2026-10-22T03:30:00-03:00",
         "basedOn": "https://portalportuario.cl/ee-uu-puerto-de-coos-bay-recibe-204-millones-de-dolares-para-impulsar-terminal-intermodal",
         "words": 190
-      }
-    },
-    {
-      "id": "fernanda-avila-participara-de-un-foro-sobre-mineria-y-oportunidades-comerciales",
-      "datetime": "2026-10-22T00:15:00Z",
-      "date": "2026-10-21",
-      "firstSeen": "2026-10-22T02:00:48Z",
-      "title": "Fernanda Ávila participará de un foro sobre minería y oportunidades comerciales entre la UE y el Mercosur",
-      "summary": "El encuentro se desarrollar de 9 a 18 en los salones de UTHGRA, en la ciudad de Salta, y reunir a autoridades gubernamentales, representantes diplomticos, empresarios y organizaciones de la sociedad civil para analizar las oportunidades comerciales y de inversin que ofrece el acuerdo entre ambos bloques.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Tratados y acuerdos",
-        "Mercosur",
-        "Europa"
-      ],
-      "countries": [
-        "Unión Europea"
-      ],
-      "tags": [
-        "Mercosur",
-        "Minería"
-      ],
-      "visual": "mining",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "La Unión Digital",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.launion.digital/politica/fernanda-avila-participara-foro-sobre-mineria-oportunidades-comerciales-ue-mercosur-n244970",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-22T02:00:48Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObm96cHlLcXJUZVdfTUdvWmo2UDFhRnM3bUpzMXVxRElYS3AteWp4eVVwbGtKaG84dkdBeGw0U1AzWDFLUTBWY3U1ZzZSczdicnVubnVNSkVFNTJUWVQyTmFEekdxRU9rRmlaU25TOXZxN3plSDlqdU9HY2RXZ0p5SWNaOURXTWdscXVCTGZjZmZCYWtLVDREV1RFQjhYcFpjblJoNWpBUGJPdVZ0d0hrV2F4Q1hBUTlZdS04YXJHWnF0LTJLMHRj0gHMAUFVX3lxTFBuUzFnajE3dGotcEJmTlZoV0JxUXg1ZE9PZm9Odzh2REllQ2xLVHNaeFBsODIyWnAyRUVDbGw2a19mMTdqTzhWdXNoRWRvYm1YNzF5UmlCWFhwbDJ5NWJLRGNTZE9KWFMxQ2VWTGNvTDNRT3ZUbHMwMGpMWVo0M1pJMHpOYkhxY2hRTnRUck1hYlF0eFJBQ21PSzcxZE11OEtsTjFiaTdiYzBBV0hQdDhWVmZPSHlGeTAyazFuX0FZMmhPN202SGV3N1BVTQ?oc=5",
-      "digestSkip": {
-        "at": "2026-10-22T03:30:00-03:00",
-        "reason": "fuera de tema (aviso de participación en un evento)"
       }
     },
     {
@@ -3379,6 +4265,58 @@
         "basedOn": "https://portalportuario.cl/reino-unido-pd-ports-inaugura-nuevo-centro-logistico-en-teesport",
         "words": 167
       }
+    },
+    {
+      "id": "fernanda-avila-participara-de-un-foro-sobre-mineria-y-oportunidades-comercia-2",
+      "datetime": "2026-10-21T23:23:22Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-22T21:57:48Z",
+      "title": "Fernanda Ávila participará de un foro sobre minería y oportunidades comerciales entre la UE y el Mercosur",
+      "summary": "La diputada nacional por Catamarca, Fernanda Ávila, participará este jueves 22 de octubre del primer Foro Federal Argentino Unión Europea-Mercosur del NOA, donde integrará el panel dedicado a la minería y los minerales críticos como cadenas de valor estratégicas entre la Unión Europea y el noroeste argentino. El…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Unión Europea"
+      ],
+      "tags": [
+        "Mercosur",
+        "Minería"
+      ],
+      "visual": "mining",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Catamarca Radio y Televisión",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://catamarcartv.com/fernanda-avila-participara-de-un-foro-sobre-mineria-y-oportunidades-comerciales-entre-la-ue-y-el-mercosur/",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "La Unión Digital",
+          "type": "También publicó esta noticia",
+          "url": "https://www.launion.digital/politica/fernanda-avila-participara-foro-sobre-mineria-oportunidades-comerciales-ue-mercosur-n244970",
+          "alsoIn": true,
+          "title": "Fernanda Ávila participará de un foro sobre minería y oportunidades comerciales entre la UE y el Mercosur"
+        }
+      ],
+      "gnTried": "2026-10-22T21:57:48Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxON0dOZWxFR1g3UlJpbGRnREtmVHBtTElLUlFmdXdpTjNxM1B6bW11WVJvcTJFU0xhYlFGdS1yN2lILWNBQm1ZYktRMXdydWNjc3F3QXp5ZmxPZkhEMnBPcHJFUVFBUUFabFdLbFp0T29CQWdVY3VJTkt0Wnp2dFlnaUZtc3FLN3EyRlNWVFpTd3NpWmNfNXktNm5rdzlkcUZqX0p6b3dna0pTbjdWT1VONkFhWFQ2UndVaEhTY0k3QlN4OUUzbVRUR2Zxbw?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxObm96cHlLcXJUZVdfTUdvWmo2UDFhRnM3bUpzMXVxRElYS3AteWp4eVVwbGtKaG84dkdBeGw0U1AzWDFLUTBWY3U1ZzZSczdicnVubnVNSkVFNTJUWVQyTmFEekdxRU9rRmlaU25TOXZxN3plSDlqdU9HY2RXZ0p5SWNaOURXTWdscXVCTGZjZmZCYWtLVDREV1RFQjhYcFpjblJoNWpBUGJPdVZ0d0hrV2F4Q1hBUTlZdS04YXJHWnF0LTJLMHRj0gHMAUFVX3lxTFBuUzFnajE3dGotcEJmTlZoV0JxUXg1ZE9PZm9Odzh2REllQ2xLVHNaeFBsODIyWnAyRUVDbGw2a19mMTdqTzhWdXNoRWRvYm1YNzF5UmlCWFhwbDJ5NWJLRGNTZE9KWFMxQ2VWTGNvTDNRT3ZUbHMwMGpMWVo0M1pJMHpOYkhxY2hRTnRUck1hYlF0eFJBQ21PSzcxZE11OEtsTjFiaTdiYzBBV0hQdDhWVmZPSHlGeTAyazFuX0FZMmhPN202SGV3N1BVTQ",
+        "https://www.launion.digital/politica/fernanda-avila-participara-foro-sobre-mineria-oportunidades-comerciales-ue-mercosur-n244970"
+      ],
+      "mergedIds": [
+        "fernanda-avila-participara-de-un-foro-sobre-mineria-y-oportunidades-comerciales"
+      ]
     },
     {
       "id": "la-rioja-participara-del-primer-foro-federal-argentino-ue-mercosur-los-detalles",
@@ -4861,6 +5799,13 @@
           "url": "https://ladiaria.com.uy/trabajo/articulo/2026/10/cooperativas-en-acuerdo-ue-mercosur-redoblar-el-compromiso-para-construir-una-diplomacia-internacional-de-la-economia-social/",
           "alsoIn": true,
           "title": "Cooperativas en acuerdo UE-Mercosur: “Redoblar el compromiso para construir una diplomacia internacional de la economía social”"
+        },
+        {
+          "name": "Gestión Solidaria",
+          "type": "También publicó esta noticia",
+          "url": "https://gestionsolidaria.com/2026/10/22/cooperativas-uruguayas-piden-una-diplomacia-internacional-de-la-economia-social-para-aterrizar-el-acuerdo-ue-mercosur/",
+          "alsoIn": true,
+          "title": "Cooperativas uruguayas piden una “diplomacia internacional de la economía social” para aterrizar el acuerdo UE-Mercosur"
         }
       ],
       "gnTried": "2026-10-21T17:56:42Z",
@@ -4870,11 +5815,14 @@
         "reason": "fuera de tema (aviso de evento)"
       },
       "aliasUrls": [
+        "https://gestionsolidaria.com/2026/10/22/cooperativas-uruguayas-piden-una-diplomacia-internacional-de-la-economia-social-para-aterrizar-el-acuerdo-ue-mercosur",
         "https://ladiaria.com.uy/trabajo/articulo/2026/10/cooperativas-en-acuerdo-ue-mercosur-redoblar-el-compromiso-para-construir-una-diplomacia-internacional-de-la-economia-social",
+        "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOcFRPVWY4OXB1NksxOERNanpaQTFDZjVoWGRnd013bmtEd2tXaWM0QjlQRzEwWWd4SnlpTWtYa0ktMDd5bGRlajZJd1Z4MmVxR0V2YUxXZzRobVpkQ1VqSzFTcjRQZVZoSjh1WWpwVFkwSkNfdTN6TjFjd3g0ZEVxemh4NXBtSXViOTY3RzAxR2ZvcHIzVzlhQkwwV3FNUnAtM01mWjctUnlzN09lVEdnTE1meElBbFRlSDN2WV9FYzZPQWhycTF4R3RFdjRyeEs1NG5aSl9hREQzTFhpU3pIaTdFcXRMN2QxdVpHRHpXWQ",
         "https://news.google.com/rss/articles/CBMihAJBVV95cUxPTWdHLUJGUVNIaWVVZVFSVDRJaTlPLXZYOVJhTE5nbDFGMmNWa05UN09xVm5YSWFfVFV4QTNJU3NvdWVBVUE3Uk8xQWhhdXg4alhCR1VBR2pXWnNieUhVV0VmWnU1Q3hibV9xSnJ4ZWd3bW1iNmtwQ19LbXJNUGxhZ1lud1VxWXp2a1lxWElEeFYtOGxKY090dGdsQTdtbmVXaTRtei1sUUI1Wm0xMmVnX1EwX0hvUGJ4aTlBV3d5M2VJd0x4dDdfUE1TUGdjMjZiLTZDdmN3blRtMmdnWDYzTUFtbjBzV3MwbXFqenlhMEtXcjd4UHFOcTdCOHFTaVEyWUEzUtIBlAJBVV95cUxOZ196VHFtcjQ4cV9qWll0Y1BSWm90WGk5U2tvUjZvQXdDREY2aGNCUXZkdVNtV2c1NXRjS21ldi1Tc0NqZjc2VlZEdi0wOWVnZ2RWSUFRbjFmUlBrNFpDZl9nUnZSQmdJdTQtLXZSWGx2b0FxOW1sc1ZKLWdFaDZNUlY3cHQ0S0haS2llRXdnWl95Zi1HUzRPUUE0bHZpaWt0VTFSRUFYcjM2akRDTVhSWmlfV0Jmc3FnZE1icE03RFhPOXF6eE56S1N3X2ZFbF85UXByN3ViLXNPWmdaQzNoSC1LUWxuX25xaDBvM2EtTVBXdnNvaGY2d1VJdkk1bHNkaXpfN1FrNFM4ajlxdDdxZE1hMUc"
       ],
       "mergedIds": [
-        "cooperativas-en-acuerdo-ue-mercosur-redoblar-el-compromiso-para-construir-una-di"
+        "cooperativas-en-acuerdo-ue-mercosur-redoblar-el-compromiso-para-construir-una-di",
+        "cooperativas-uruguayas-piden-una-diplomacia-internacional-de-la-economia-social"
       ]
     },
     {
@@ -5523,11 +6471,20 @@
           "url": "https://www.argentina.gob.ar/noticias/se-habilita-la-inscripcion-de-establecimientos-citricolas-para-exportacion-en-la-campana",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Data Portuaria",
+          "type": "También publicó esta noticia",
+          "url": "https://dataportuaria.com/es/argentina/comercio-exterior/senasa-habilito-la-inscripcion-al-registro-de-exportadores-citricolas-para-la-campana-2026-2027",
+          "alsoIn": true,
+          "title": "SENASA habilitó la inscripción al registro de exportadores citricolas para la campaña 2026-2027"
         }
       ],
       "gnTried": "2026-10-21T17:56:42Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOHJvc251Y0plNTAzbF9CSDYwQXh2NHctT0trRVdLNGhKVzhYM2FFMEJqaHo1VXo1WWV5WlNXVUM5bmNTQThWcGItMG1OY2FhbWtETmdxb2JNdjI1b2t6eV8tS3VYUUV2cmFSZUoyUzVFUlpxc2NmWnJkXzdyMURsZENYWkpmSnctbm96YXRJY0lFMl9qTE9GbWRnRzd1OWRNZWNUZXdGcDRQdWgwdXRHMG41QmloT2Jib3g4cmJrdGU2Undm?oc=5",
       "aliasUrls": [
+        "https://dataportuaria.com/es/argentina/comercio-exterior/senasa-habilito-la-inscripcion-al-registro-de-exportadores-citricolas-para-la-campana-2026-2027",
+        "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOQXBRTXQxbW1SdFVoVTFmLXZhc1l4V3lRR2NtVDV1OFZ5RGlrUm9mS08wbEtRZnJwMlNKZlJVdkw0cmtRWnhSbGFlMWd4bkU3ZnZueUg4MXVYWElLeWllU2lMQWNYTm5ic2N0RkpKZVZsUnh0Sk9lTG82cVVKNFQ4QlBxR254VWNveGpvcXhnQzdvU202a0V0aG1QYVV3N0xDVV9yNWhpMFA5LXRxdFRLX3paVndrRzIzdGJDZ3pzNnRoMTBkSkpzWDJ2M3dTbUQ0R292WWxLSjFLRm1PbHh5ai1CMUtoVTQ",
         "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOHBtUmV0ZWNlTlJSNXJ3RUgtdVVDT2N1NUVkTWpRSWZRa3hjWjRRN0Rab2N6ZkZjNG1pRFRqb29LR0RNbWZGZkhUbWluTFlsOWZXRzNFcHQ1cmh3bldtV2FGX2RtaEtHZlcwTFBjVzY3ZzM4Z0RFcloyQnhvVWVCQlhTcTYtejhRRWIybGVQTW5pZFU5NnJPOHg4NEowZTFQWnQ4WF8xQVRnOWVjSVVjMnFCeGxOd3BMaFkzV2tENWk3MEJl"
       ],
       "digest": {
@@ -5540,7 +6497,10 @@
         "basedOn": "https://www.argentina.gob.ar/noticias/se-habilita-la-inscripcion-de-establecimientos-citricolas-para-exportacion-en-la-campana",
         "words": 198,
         "flag": "curar"
-      }
+      },
+      "mergedIds": [
+        "senasa-habilito-la-inscripcion-al-registro-de-exportadores-citricolas-para-la-ca"
+      ]
     },
     {
       "id": "rusia-enviara-su-primer-buque-cargado-con-diesel-hacia-estados-unidos-tras-acuer",
@@ -10966,10 +11926,24 @@
           "url": "https://www.agritotal.com/actualidad/la-vitivinicultura-argentina-acelero-sus-exportaciones-en-septiembre-que-productos-lideraron-la-suba-8310/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Agroempresario",
+          "type": "También publicó esta noticia",
+          "url": "https://agroempresario.com/publicacion/122735/las-exportaciones-vitivinicolas-argentinas-crecieron-24-en-septiembre/",
+          "alsoIn": true,
+          "title": "Las exportaciones vitivinícolas argentinas crecieron 24% en septiembre"
         }
       ],
       "gnTried": "2026-10-20T17:56:40Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQVGdGRXc5R0RpZTh5cFRDRjMzRTQ5eGpUSExXeVZBamVncFpmT21TMkFsVG5HLWJRSVBubjZ3c2xJcVRMeFNoT0J4RkNKVHdkQklQdWRrdE5mTU12NnNmWXdFaWVRdXFUMUJpalczNmxtVTZEVlBOVUkyblpWUXRoai1UbFJwWlk0bjlBTGFxcnBPNVhZRWQwV2hmSHd1OFBSVHNWOFpjbmZFTTdaMGZqdm9kXzhiWmpmcHRNTTFGa0RmNXdsYUdscFJwb2RIR1Y0ZFFPUEpTSXlReTDSAdIBQVVfeXFMTUlRZjRSZTJRLVJRYWhBNVlxZDRUQkRHWTRlTnBSWmNBc0d4aE5pQTdfS3JPVzdBZnNkdjZXa25qVGZuSmMzMFlQMl9EeVMyeEdvUzl1NkZKVFAzUFJnNW9DWlVQUDNUT3hjX3BZM05wUHl5UmZ6VVFSVWJVSklwRkp2TjhLYjBTTFAxSE96REFMUUJueFZyU014eGlHSEdrcWpFZGsyVm5zRDZiNDYxaUYyZUJuRnBmZjNpX01IVnlKcVRkMlZ5dkR3Q203N3MtWDd3?oc=5"
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQVGdGRXc5R0RpZTh5cFRDRjMzRTQ5eGpUSExXeVZBamVncFpmT21TMkFsVG5HLWJRSVBubjZ3c2xJcVRMeFNoT0J4RkNKVHdkQklQdWRrdE5mTU12NnNmWXdFaWVRdXFUMUJpalczNmxtVTZEVlBOVUkyblpWUXRoai1UbFJwWlk0bjlBTGFxcnBPNVhZRWQwV2hmSHd1OFBSVHNWOFpjbmZFTTdaMGZqdm9kXzhiWmpmcHRNTTFGa0RmNXdsYUdscFJwb2RIR1Y0ZFFPUEpTSXlReTDSAdIBQVVfeXFMTUlRZjRSZTJRLVJRYWhBNVlxZDRUQkRHWTRlTnBSWmNBc0d4aE5pQTdfS3JPVzdBZnNkdjZXa25qVGZuSmMzMFlQMl9EeVMyeEdvUzl1NkZKVFAzUFJnNW9DWlVQUDNUT3hjX3BZM05wUHl5UmZ6VVFSVWJVSklwRkp2TjhLYjBTTFAxSE96REFMUUJueFZyU014eGlHSEdrcWpFZGsyVm5zRDZiNDYxaUYyZUJuRnBmZjNpX01IVnlKcVRkMlZ5dkR3Q203N3MtWDd3?oc=5",
+      "aliasUrls": [
+        "https://agroempresario.com/publicacion/122735/las-exportaciones-vitivinicolas-argentinas-crecieron-24-en-septiembre",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxPd29GcU5MSGhfYWhNQXlyOTdoWnZrV0VKaGthb3o1eVIwLUJCdG8xa2lCbEpjX0E3NzRZdDlGSmc2endIbkJnSHdweUFyX1RFNGNjRUlSMjdNcW8wNWRubndLRjM1R2dyNWVUaTdMZ25FMDdaUUt2UzZGT0wyRTRMaEpIOWVxTTZkb1ZYbGMycmY5WmdSR2ZZclhVZEJkanBYOGU3THVSY2t1Rk9QQ29MY0g5TW5QT3M"
+      ],
+      "mergedIds": [
+        "las-exportaciones-vitivinicolas-argentinas-crecieron-24-en-septiembre"
+      ]
     },
     {
       "id": "santa-cruz-supero-los-3-000-millones-de-dolares-en-exportaciones-y-dejo-atras-a",
@@ -13273,6 +14247,7 @@
         "https://eltribunodejujuy.com/informacion-general/2026-10-20-18-36-0-el-noa-debatira-las-oportunidades-del-acuerdo-ue-mercosur",
         "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQR1FrZjV1OTJsRXVFZXFpdUVpN0VTLXhkOEVPbl9rYzZrMzlaVERQMzdENkhScFNDSFF3V3pIT0FjQk9FZGdZVklpY0hCYTlCOE9KWGFyaDNJaEdDY2JUTWNiVnNPbkdjQnMtNWFXRjZ4SnNTS25wZXJJeHltV1dXTnltTk9ISFdyYWxneW9EUXZILWQ0UWs5ZUZmanZaTVZtV3h1RkxoTmlnejBJUTZDTWR6cXBKeThLMDJ4bDJoMThSXzVCcUlJblhtMEItWVJRY0NMdlVaONIB3AFBVV95cUxPZEhRaXZjWXlpanozaTdkNElmSUlNcmJUbnVEdWdTTk15eTIxU2E1YXE4Y2dHdGU4MVVGTjNQb1AwQUpyRWQzd3QtdHlra0ZSQ3hURURCUzNDQ3hMWUF6U25LT2NOSjBqQkZkMG5Vc0tLNTNSNEpWR3VkSzdVVTBZYlh6WU1PblhqTGtWVEdkMW4wczRvTUNiXzB3VnJSVWs3TVNYMXVEYnl6bUY4RVdHTXVsb1RLTVhILUJ2TWpGNGVrQ2JyZ2g1WU1hR0RlUUhuSDNLSTc4dUN2MThE",
         "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaXQ3SGVoNkw2NGQ1eVo3b1lYOW9wRnBIWDNYV2NBa29TQmIyelRENEJIaVpBdTIyMUcyR1pNTHpDcjVEVmtLNWZGdFhNaHRTTHloQzRrS3JGUjVsemxmenEteGF6SHNrdE5TSUFyNzhOSlJNQ2lRZWtBZXYtRWxzM2thWFF2cXJXUDFwOURuOV96eTFFVXFhWndSM3FsMURwRTd5b0tEVkNZNlk",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWG1ocUNNVm1CQVVXYkE2VVBITlJVTmxBbm9EcV9HWDNqYUlVc0ZNNmp0R0FkS0RydURhYjUwSTRNWGRHNjZUbzhuOTItNm9kTW5JSktRMmZweWdGMG5BcnFreXo3NC1FNzJNMl85ZnlMaWZESlRGUlJuczZNYWxvZ282aEY0OVc1TTE1d1lXclhBa1plTVowLXRlUlFYaGtHaTRyOVpNSno1clVwT3pj0gHIAUFVX3lxTFA5emNLRVctQ0pQanEtZEV1dk1IczdDWWRGRW11aEpySmJkNFZGOGtuRHlLSjI4V1AxZ1NOWWRxQ181S0pja1dURGlFQlV3VExMTmoyenFFQ180cGxMckFpQjFyQjJnanQtXzhtUzFqLTc3RXp0V0RaYVViZTdHcHRGekdVNm84SjBnMzQ0eHpMazZGMW9fdmIxaVZQaUFrN04tWWU1am10N1E3NGdZb2hmLVlZQ1VFRmhVRy1OQ3hhb2R4bUI3aGZO",
         "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNEcwWkFoN3ZEZk54ZkY3TGJkVHZMbU5XUkljbDI1RXNLUUVrUjBhRWtpT2owNmx1dEx4VFVKRDFJMnlJZFZKc3YtT21PalFGb2c3dnJvazRzLWZWTEd1VUlvZ2xrbE9HT0dwTkxHN3NCNWMtNlpmTU5KbnRJU21PWERsLTltSkNkU05QX1FzYVhfRkZwR3hjS3VWU2FZVzh4SHJJWUFvN3FRRFc4b1hUbjBOX2hRZnlKbUNRcmdKN09YODTSAcgBQVVfeXFMUDl6Y0tFVy1DSlBqcS1kRXV2TUhzN0NZZEZFbXVoSnJKYmQ0VkY4a25EeUtKMjhXUDFnU05ZZHFDXzVLSmNrV1REaUVCVXdUTExOajJ6cUVDXzRwbExyQWlCMXJCMmdqdC1fOG1TMWotNzdFenRXRFphVWJlN0dwdEZ6R1U2bzhKMGczNDR4ekxrNkYxb192YjFpVlBpQWs3Ti1ZZTVqbXQ3UTc0Z1lvaGYtWVlDVUVGaFVHLU5DeGFvZHhtQjdoZk4",
         "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOXpjS0VXLUNKUGpxLWRFdXZNSHM3Q1lkRkVtdWhKckpiZDRWRjhrbkR5S0oyOFdQMWdTTllkcUNfNUtKY2tXVERpRUJVd1RMTE5qMnpxRUNfNHBsTHJBaUIxckIyZ2p0LV84bVMxai03N0V6dFdEWmFVYmU3R3B0RnpHVTZvOEowZzM0NHh6TGs2RjFvX3ZiMWlWUGlBazdOLVllNWptdDdRNzRnWW9oZi1ZWUNVRUZoVUctTkN4YW9keG1CN2hmTtIByAFBVV95cUxQOXpjS0VXLUNKUGpxLWRFdXZNSHM3Q1lkRkVtdWhKckpiZDRWRjhrbkR5S0oyOFdQMWdTTllkcUNfNUtKY2tXVERpRUJVd1RMTE5qMnpxRUNfNHBsTHJBaUIxckIyZ2p0LV84bVMxai03N0V6dFdEWmFVYmU3R3B0RnpHVTZvOEowZzM0NHh6TGs2RjFvX3ZiMWlWUGlBazdOLVllNWptdDdRNzRnWW9oZi1ZWUNVRUZoVUctTkN4YW9keG1CN2hmTg",
         "https://www.ambito.com/uruguay/el-gobierno-busca-incorporar-al-cooperativismo-las-oportunidades-comerciales-del-acuerdo-mercosur-ue-n6336378",
@@ -70324,342 +71299,10 @@
         }
       },
       "updated": "2026-10-21T12:00:00-03:00"
-    },
-    {
-      "id": "senasa-newcastle-brasil-suspende-importaciones-zona-restriccion-santa-catarina",
-      "date": "2026-10-22",
-      "kind": "noticia",
-      "title": "Newcastle en Brasil: el Senasa suspende solo las importaciones avícolas de la zona del foco y mantiene abierto el resto del comercio",
-      "summary": "La Argentina aplicó el acuerdo de zonificación que firmó con Brasil en 2025: frena las mercancías aviares del área de restricción de Santa Catarina y deja entrar las de zonas libres con certificado del MAPA. En 2024, ante un foco en Rio Grande do Sul, había sido el único país que cerró a todo Brasil.",
-      "topics": [
-        "Argentina",
-        "Importaciones",
-        "Regulaciones",
-        "Latinoamérica",
-        "Mercosur"
-      ],
-      "countries": [
-        "Argentina",
-        "Brasil",
-        "México",
-        "Malasia",
-        "Arabia Saudita",
-        "China",
-        "Chile"
-      ],
-      "tags": [
-        "Newcastle",
-        "Senasa",
-        "MAPA",
-        "Sanidad animal",
-        "Carne aviar",
-        "Pollo",
-        "Zonificación",
-        "Regionalización"
-      ],
-      "visual": "livestock",
-      "impact": 2,
-      "affectsArgentina": true,
-      "argentinaNote": "Brasil pasó en 2025 a ser el principal proveedor de carne de pollo de la Argentina. Con la zonificación, solo queda frenada la mercadería del área de restricción que fijó Brasil; el resto puede entrar con certificación oficial de origen en zona libre.",
-      "argentinaImpact": {
-        "change": "El Senasa suspendió las importaciones de mercancías aviares procedentes de la zona de restricción del foco de Newcastle en Santa Catarina; las de zonas libres siguen habilitadas con certificado del MAPA.",
-        "who": "Importadores de carne aviar, huevos fértiles y pollitos de un día de Brasil, plantas que procesan materia prima brasileña y granjas avícolas argentinas.",
-        "sectors": [
-          "Avicultura",
-          "Alimentos"
-        ],
-        "flows": {
-          "importaciones": true,
-          "exportaciones": false,
-          "logistica": false,
-          "aranceles": false
-        }
-      },
-      "keyData": [
-        [
-          "Alcance de la suspensión argentina",
-          "Solo la zona de restricción del foco (Santa Catarina)"
-        ],
-        [
-          "Condición para el resto de Brasil",
-          "Certificado oficial del MAPA de origen en zona libre"
-        ],
-        [
-          "Radio previsto en el acuerdo bilateral",
-          "10 km alrededor del foco"
-        ],
-        [
-          "Acuerdo de zonificación",
-          "Firmado el 7 de noviembre de 2025"
-        ],
-        [
-          "Países con restricciones a Brasil",
-          "5 (México y Malasia, a todo el país)"
-        ],
-        [
-          "Granjas bajo monitoreo en Brasil",
-          "Unas 133, en cuatro municipios"
-        ],
-        [
-          "Argentina libre de Newcastle",
-          "Desde 1987"
-        ]
-      ],
-      "explainer": {
-        "what": "El Senasa suspendió las importaciones de mercancías aviares que provengan de la zona de restricción del foco de Newcastle en Santa Catarina, Brasil, y mantuvo habilitado el resto con certificado del MAPA.",
-        "why": "Es la primera aplicación del acuerdo de zonificación firmado con Brasil en noviembre de 2025, que limita las restricciones a un radio de 10 km del foco; en 2024 la Argentina había cerrado la compra a todo Brasil.",
-        "who": "Importadores de productos avícolas y material genético de Brasil, la industria avícola local y los despachantes que gestionan los certificados sanitarios.",
-        "products": [
-          "Carne de pollo y de pavo",
-          "Huevos fértiles",
-          "Pollitos de un día",
-          "Aves vivas",
-          "Huevos y ovoproductos"
-        ],
-        "next": "Según el Ministerio de Agricultura de Brasil, el levantamiento de las suspensiones depende de las exigencias de cada mercado y no hay plazo para la reanudación total.",
-        "nextSource": {
-          "name": "Feed&Food",
-          "url": "https://feedfood.com.br/newcastle-embargos-as-exportacoes-avicolas-chegam-a-cinco-paises/"
-        }
-      },
-      "body": [
-        "El Servicio Nacional de Sanidad y Calidad Agroalimentaria (Senasa) suspendió las importaciones de mercancías avícolas que provengan de la zona de restricción que delimitaron las autoridades sanitarias de Brasil alrededor del foco de enfermedad de Newcastle confirmado en una granja comercial de pavos de engorde en Nova Itaberaba, en el oeste de Santa Catarina. La decisión se conoció el jueves 22 de octubre, después de que el Ministerio de Agricultura y Pecuaria brasileño (MAPA) confirmara el caso y activara su plan de contingencia.",
-        "A diferencia de lo que pasó en 2024, la Argentina no cortó la compra a todo Brasil. Los productos avícolas del resto del país vecino pueden seguir entrando, siempre que viajen con la certificación oficial del MAPA que acredite su origen en una zona libre de la enfermedad. Según el organismo argentino, se aplicó la estrategia de zonificación para preservar la continuidad del comercio.",
-        "## Qué se suspende y qué sigue habilitado",
-        "La restricción alcanza a las mercancías aviares originadas en el área que fijó el MAPA. Las fuentes consultadas no informan el número de la norma del Senasa ni una lista detallada de productos alcanzados. Para los envíos de aves de un día, el esquema prevé que el MAPA certifique una zona o un compartimento libre cuando la mercadería sale de establecimientos que el Senasa autorizó previamente.",
-        "La base de la medida es el acuerdo de reconocimiento mutuo de los sistemas oficiales de zonificación y compartimentación para influenza aviar de alta patogenicidad y enfermedad de Newcastle que firmaron el 7 de noviembre de 2025, en Buenos Aires, el ministro brasileño Carlos Fávaro y el secretario de Agricultura argentino, Sergio Iraeta. Según el MAPA, el acuerdo prevé que, ante un foco de cualquiera de las dos enfermedades, las restricciones comerciales se apliquen dentro de un radio de 10 km del área afectada, y cubre aves vivas, huevos fértiles, pollitos de un día, carne aviar, huevos y ovoproductos. Las fuentes sobre la medida actual no precisan el radio de la zona fijada por Brasil.",
-        "## El antecedente de 2024",
-        "En julio de 2024, un foco de Newcastle en una granja comercial de Anta Gorda, en Rio Grande do Sul, llevó a Brasil a suspender de manera preventiva sus exportaciones avícolas desde el 17 de ese mes. A mediados de agosto de 2024, de los 43 mercados con algún tipo de restricción, la Argentina era el único que mantenía cerrada la compra de carne aviar de todo Brasil; otros diez, entre ellos China, limitaban la medida a Rio Grande do Sul y 32 la reducían a la zona o el radio del foco, según el relevamiento del Ministerio de Agricultura citado por Mercado & Consumo.",
-        "El acuerdo de zonificación llegó después, tras evaluaciones técnicas realizadas entre diciembre de 2024 y marzo de 2025 que, según el MAPA, concluyeron que los sistemas de vigilancia y bioseguridad de ambos países son equivalentes y siguen las pautas de la Organización Mundial de Sanidad Animal. El peso del comercio explica el interés: en 2025 Brasil pasó a ser el principal proveedor de carne de pollo de la Argentina, con exportaciones que crecieron 295% frente a 2024 y sumaron 12.951 toneladas entre enero y julio de ese año.",
-        "## Cómo reaccionaron los demás compradores",
-        "Según la actualización del MAPA del 21 de octubre, recogida por Feed&Food, cinco países restringieron productos avícolas brasileños. México y Malasia aplicaron suspensiones para todo Brasil: México sobre aves vivas, carne y despojos, huevos fértiles, pollitos de hasta tres días y aves de compañía, entre otras categorías, y Malasia sobre carne, productos cárnicos y despojos. Arabia Saudita, China y Chile, en cambio, limitaron las medidas a Santa Catarina. Como informó Comexplora el 20 de octubre, Paraguay también restringió las compras de ese estado.",
-        "Arabia Saudita comunicó su decisión el miércoles 21 y representa cerca del 7,7% de las exportaciones brasileñas de carne de pollo, según datos del sector citados por NC News. En septiembre, China compró 40.900 toneladas de pollo brasileño y Arabia Saudita, 38.300 toneladas, aunque Feed&Food aclara que esos volúmenes incluyen todos los orígenes y no equivalen a lo afectado por los embargos. El MAPA sostiene que los productos con inspección oficial siguen siendo seguros para el consumo.",
-        "## El foco y las recomendaciones para las granjas argentinas",
-        "La granja afectada tenía unos 6.000 pavos, que no se destinaron al consumo, y quedó interdicta. Unas 133 propiedades de cuatro municipios (Nova Itaberaba, Coronel Freitas, Nova Erechim y Águas Frias) están bajo monitoreo. Santa Catarina responde por más del 20% de los embarques avícolas de Brasil, de acuerdo con NC News.",
-        "La Argentina es libre de Newcastle y no registra focos desde 1987. Para conservar ese estatus, el Senasa pidió a los productores reforzar las medidas de la Resolución 1699/2019: revisar las mallas antipájaros, limpiar y desinfectar instalaciones, vehículos y herramientas, reducir el agua estancada que atrae aves silvestres, controlar el ingreso de personas y equipos y usar bien la ropa de protección. También recomendó evaluar la vacunación contra Newcastle según la categoría productiva y a criterio del veterinario responsable; esa vacuna no forma parte del esquema obligatorio. Las sospechas se notifican al Senasa por WhatsApp al 11 5700 5704, por correo a notificaciones@senasa.gob.ar, en sus oficinas o con la aplicación Notificaciones Senasa."
-      ],
-      "sources": [
-        {
-          "name": "Bichos de Campo",
-          "type": "Medio especializado",
-          "url": "https://bichosdecampo.com/sem-problemas-tras-el-brote-de-newcastle-argentina-confirmo-que-mantendra-el-comercio-avicola-con-brasil-pero-por-las-dudas-mando-a-vacunar-en-las-granjas-locales/",
-          "primary": true
-        },
-        {
-          "name": "Ecos365 (Rosario3)",
-          "type": "Medio de comunicación",
-          "url": "https://www.rosario3.com/ecos365/noticias/newcastle-en-brasil-argentina-sube-la-guardia-y-restringe-importaciones-avicolas-20261022-0006.html"
-        },
-        {
-          "name": "Elonce",
-          "type": "Medio de comunicación",
-          "url": "https://www.elonce.com/sociedad/brote-de-newcastle-en-brasil-que-importaciones-restringio-argentina-y-cuales-siguen-habilitadas.htm"
-        },
-        {
-          "name": "Informe Digital",
-          "type": "Medio de comunicación",
-          "url": "https://informedigital.com.ar/argentina-freno-importaciones-aviares-de-una-zona-de-brasil/"
-        },
-        {
-          "name": "Brasil 61 (acuerdo de zonificación, 2025)",
-          "type": "Medio de comunicación",
-          "url": "https://brasil61.com/n/brasil-e-argentina-fortalecem-cooperacao-sanitaria-para-o-comercio-avicola-mapa250015"
-        },
-        {
-          "name": "Mercado & Consumo (foco de 2024)",
-          "type": "Medio especializado",
-          "url": "https://mercadoeconsumo.com.br/15/08/2024/economia/argentina-mantem-embargo-a-frango-de-todo-o-brasil-apos-deteccao-de-newcastle/amp/"
-        },
-        {
-          "name": "Feed&Food",
-          "type": "Medio especializado",
-          "url": "https://feedfood.com.br/newcastle-embargos-as-exportacoes-avicolas-chegam-a-cinco-paises/"
-        },
-        {
-          "name": "NC News",
-          "type": "Medio de comunicación",
-          "url": "https://ncnews.com.br/2026/10/22/arabia-saudita-suspende-compra-de-frango-de-santa-catarina-e-amplia-pressao-sobre-o-agro-brasileiro/"
-        },
-        {
-          "name": "Ministerio de Agricultura y Pecuaria de Brasil",
-          "type": "Organismo oficial",
-          "url": "https://www.gov.br/agricultura/pt-br/assuntos/noticias/doenca-de-newcastle-atualizacao-sobre-as-restricoes-as-exportacoes"
-        }
-      ],
-      "story": "newcastle-brasil",
-      "absorbs": [
-        "riesgo-sanitario-la-argentina-suspendio-importaciones-de-productos-aviares-de-un",
-        "newcastle-en-brasil-senasa-restringio-importaciones-de-una-zona",
-        "brote-de-newcastle-en-brasil-que-importaciones-restringio-argentina-y-cuales-sig"
-      ]
-    },
-    {
-      "id": "cma-cgm-pss-costa-este-sudamerica-europa-900-dolares-15-noviembre",
-      "date": "2026-10-22",
-      "datetime": "2026-10-22T00:33:24-03:00",
-      "kind": "noticia",
-      "title": "CMA CGM sube a USD 900 por contenedor de 40 pies el recargo de temporada alta para exportar desde la Argentina a Europa y Medio Oriente",
-      "summary": "Desde el 15 de noviembre, la naviera cobrará USD 700 por contenedor seco de 20 pies y USD 900 por uno de 40 pies a las cargas que salgan de la Argentina, Brasil, Uruguay y Paraguay hacia Europa, el Mediterráneo, el norte de África y Medio Oriente. El aviso anterior fijaba USD 500 desde el 1 de noviembre; Maersk y Hapag-Lloyd también aplican recargos en noviembre.",
-      "topics": [
-        "Transporte marítimo",
-        "Logística",
-        "Exportaciones",
-        "Argentina",
-        "Mercosur",
-        "Europa"
-      ],
-      "countries": [
-        "Argentina",
-        "Brasil",
-        "Uruguay",
-        "Paraguay",
-        "Global"
-      ],
-      "tags": [
-        "Fletes",
-        "Contenedores",
-        "PSS",
-        "Recargo de temporada alta",
-        "CMA CGM",
-        "Maersk",
-        "Hapag-Lloyd"
-      ],
-      "visual": "container",
-      "impact": 2,
-      "affectsArgentina": true,
-      "argentinaNote": "Las exportaciones argentinas en contenedor seco hacia Europa, el Mediterráneo y Medio Oriente que embarquen con CMA CGM pagarán el nuevo recargo desde el 15 de noviembre; quedan excluidas las cargas de Rosario al golfo Pérsico.",
-      "argentinaImpact": {
-        "change": "CMA CGM aplicará un recargo de temporada alta de USD 700 (20 pies) y USD 900 (40 pies) por contenedor seco a las exportaciones desde la Argentina hacia Europa, el Mediterráneo, el norte de África y Medio Oriente desde el 15 de noviembre.",
-        "who": "Exportadores argentinos que embarcan carga seca en contenedor hacia Europa y Medio Oriente, agentes de carga y despachantes que cotizan fletes.",
-        "sectors": [],
-        "flows": {
-          "importaciones": false,
-          "exportaciones": true,
-          "logistica": true,
-          "aranceles": false
-        }
-      },
-      "keyData": [
-        [
-          "Nuevo recargo CMA CGM, contenedor de 40 pies",
-          "USD 900 (desde el 15/11)"
-        ],
-        [
-          "Nuevo recargo CMA CGM, contenedor de 20 pies",
-          "USD 700"
-        ],
-        [
-          "Aviso anterior de CMA CGM",
-          "USD 500 por contenedor desde el 1/11"
-        ],
-        [
-          "Aumento frente al aviso anterior",
-          "+40% (20') y +80% (40')"
-        ],
-        [
-          "Excluido",
-          "Rosario → golfo Pérsico"
-        ],
-        [
-          "Maersk, costa este de Sudamérica → Europa",
-          "USD 500 por contenedor desde el 1/11"
-        ],
-        [
-          "Hapag-Lloyd, costa este de Sudamérica → América del Norte y Central",
-          "USD 500 (20') / USD 1.000 (40') desde el 5/11"
-        ]
-      ],
-      "explainer": {
-        "what": "CMA CGM fijó un recargo de temporada alta de USD 700 por contenedor seco de 20 pies y USD 900 por uno de 40 pies para las exportaciones desde la Argentina, Brasil, Uruguay y Paraguay hacia Europa, el Mediterráneo, el norte de África y Medio Oriente desde el 15 de noviembre.",
-        "why": "Supera al aviso anterior de USD 500 por contenedor desde el 1 de noviembre (+40% en 20 pies y +80% en 40 pies) y se suma a recargos de Maersk y Hapag-Lloyd en las rutas que salen de la costa este de Sudamérica.",
-        "who": "Exportadores argentinos de carga seca en contenedor, agentes de carga, despachantes y operadores logísticos.",
-        "products": [
-          "Carga seca en contenedores de 20 y 40 pies"
-        ],
-        "next": "El recargo de CMA CGM rige desde el 15 de noviembre; el de Maersk hacia Europa, desde el 1 de noviembre, y el de Hapag-Lloyd hacia América del Norte y Central, desde el 5 de noviembre por 30 días.",
-        "nextSource": {
-          "name": "MásContainer",
-          "url": "https://mascontainer.com/cma-cgm-eleva-recargos-para-exportaciones-desde-sudamerica-y-aplica-nuevo-ajuste-a-embarques-desde-chile/"
-        }
-      },
-      "body": [
-        "La naviera francesa CMA CGM anunció un recargo de temporada alta (PSS, por sus siglas en inglés) de USD 700 por contenedor seco de 20 pies y USD 900 por contenedor de 40 pies para las exportaciones que salgan de Brasil (salvo el nordeste), la Argentina, Uruguay y Paraguay con destino a Europa, el Mediterráneo, el norte de África y Medio Oriente. El cargo rige desde el 15 de noviembre de 2026, según informaron Container News el 19 de octubre y MásContainer el 22.",
-        "La medida actualiza un aviso que la compañía había publicado a comienzos de octubre: un PSS de USD 500 por contenedor desde el 1 de noviembre para las mismas zonas de origen. Según el cálculo de MásContainer, el nuevo valor implica una suba de 40% para los equipos de 20 pies y de 80% para los de 40 pies. El medio advierte que la naviera no aclara si el nuevo recargo reemplaza al anterior en todas las reservas o si ambos podrían convivir en algunas condiciones contractuales.",
-        "## Qué rutas alcanza",
-        "Los destinos incluidos son el norte de Europa (con el Báltico y Escandinavia), el Mediterráneo oriental y occidental, el Adriático, el mar Negro, el norte de África, Medio Oriente y el mar Rojo. Las dos fuentes coinciden en una excepción que interesa a la Argentina: los embarques desde Rosario hacia el golfo Pérsico quedan fuera del recargo.",
-        "Hay diferencias con el aviso del 1 de noviembre. Aquel, según la publicación de AJOT, alcanzaba a contenedores secos y refrigerados y sumaba como destino África y el océano Índico. El nuevo comunicado, de acuerdo con MásContainer, está dirigido solo a la carga seca y ya no menciona África occidental. Como en todo recargo de este tipo, el monto se agrega al flete base y no reemplaza otros cargos que pueden aplicarse, como los ajustes por combustible, los gastos de terminal en origen y destino o los recargos de seguridad y contingencia.",
-        "## Los recargos de las otras navieras",
-        "CMA CGM no es la única que encarece las salidas de la costa este de Sudamérica en noviembre. Maersk aplicará un PSS de USD 500 por contenedor, seco o refrigerado, a las cargas que partan de la Argentina, Brasil, Uruguay y Paraguay hacia el norte de Europa, Europa central y del este, el Mediterráneo, Escandinavia, el Báltico y el mar Negro, con fecha de cálculo de precio desde el 1 de noviembre, según Container News y DataPortuaria.",
-        "Hacia el norte del continente, Hapag-Lloyd fijó un recargo de USD 500 por contenedor seco de 20 pies y USD 1.000 por uno de 40 pies para las cargas desde la costa este de Sudamérica hacia Estados Unidos, Canadá, México, el Caribe, Centroamérica, la costa oeste de Sudamérica, Colombia, Venezuela y Surinam. Rige desde el 5 de noviembre por 30 días y solo para contratos de largo plazo, según DatamarNews. La propia CMA CGM ya aplicaba desde el 15 de octubre un PSS de USD 1.000 por TEU desde la costa este de Sudamérica hacia la costa oeste del continente, Centroamérica, el Caribe, México, Estados Unidos y Canadá (en Estados Unidos, desde el 28 de octubre), informó PortalPortuario.",
-        "## Qué cambia para los exportadores",
-        "Para un exportador argentino que embarque carga seca en un contenedor de 40 pies con CMA CGM hacia un puerto europeo o del Mediterráneo, el recargo pasará de los USD 500 anunciados para el 1 de noviembre a USD 900 desde el 15 de noviembre, a sumar sobre el flete acordado. En los embarques refrigerados, el nuevo aviso no fija un valor; el de USD 500 del 1 de noviembre los incluía, y el de Maersk también alcanza a esos equipos.",
-        "El movimiento en las rutas de salida se suma al de las importaciones: como informó Comexplora el 5 de octubre, Hapag-Lloyd y CMA CGM aplicaron desde el 15 de octubre un aumento general de USD 1.000 por contenedor en los fletes desde Asia hacia la costa este de Sudamérica. En la referencia global, el World Container Index de Drewry marcó USD 4.485 por contenedor de 40 pies en la medición del 15 de octubre, con una suba de 3%.",
-        "## Lo que todavía no está claro",
-        "Ni Container News ni MásContainer informan si el recargo se aplica a todos los tipos de contrato o solo a algunos, a diferencia de los avisos de Hapag-Lloyd y del PSS de CMA CGM hacia el resto de América, que se limitan a los contratos de largo plazo. Tampoco está claro, según MásContainer, cómo convivirán el aviso del 1 de noviembre y el del 15 en las reservas que crucen ambas fechas. Las fuentes consultadas no traen estimaciones sobre el efecto en las tarifas totales que pagan los exportadores."
-      ],
-      "sources": [
-        {
-          "name": "MásContainer",
-          "type": "Medio especializado",
-          "url": "https://mascontainer.com/cma-cgm-eleva-recargos-para-exportaciones-desde-sudamerica-y-aplica-nuevo-ajuste-a-embarques-desde-chile/",
-          "primary": true
-        },
-        {
-          "name": "Container News (CMA CGM)",
-          "type": "Medio especializado",
-          "url": "https://container-news.com/cma-cgm-updates-surcharges-for-china-south-america-and-morocco-shipments/"
-        },
-        {
-          "name": "AJOT (aviso del 1 de noviembre)",
-          "type": "Medio especializado",
-          "url": "https://www.ajot.com/news/cma-cgm-pss-from-south-america-east-coast"
-        },
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado",
-          "url": "https://portalportuario.cl/cma-cgm-impondra-un-recargo-por-temporada-alta-a-envios-originados-en-costa-este-de-sudamerica"
-        },
-        {
-          "name": "Container News (Maersk)",
-          "type": "Medio especializado",
-          "url": "https://container-news.com/maersk-announces-new-pss-from-south-america-to-europe/"
-        },
-        {
-          "name": "DataPortuaria",
-          "type": "Medio especializado",
-          "url": "https://dataportuaria.com/en/internacional/shipping/maersk-implements-usd-500-peak-season-surcharge-on-south-america-europe-routes-0e8cd8"
-        },
-        {
-          "name": "DatamarNews",
-          "type": "Medio especializado",
-          "url": "https://datamarnews.com/noticias/hapag-lloyd-sets-pss-on-east-coast-south-america-shipments-from-nov-5/"
-        }
-      ],
-      "story": "fletes-contenedores",
-      "deadlines": [
-        {
-          "date": "2026-11-01",
-          "label": "Maersk: rige el recargo de temporada alta de USD 500 por contenedor desde la costa este de Sudamérica hacia Europa y el Mediterráneo",
-          "url": "https://container-news.com/maersk-announces-new-pss-from-south-america-to-europe/"
-        },
-        {
-          "date": "2026-11-05",
-          "label": "Hapag-Lloyd: rige por 30 días el recargo de USD 500 (20') y USD 1.000 (40') desde la costa este de Sudamérica hacia América del Norte, Central y el Caribe",
-          "url": "https://datamarnews.com/noticias/hapag-lloyd-sets-pss-on-east-coast-south-america-shipments-from-nov-5/"
-        },
-        {
-          "date": "2026-11-15",
-          "label": "CMA CGM: rige el recargo de USD 700 (20') y USD 900 (40') para exportaciones de carga seca desde Argentina, Brasil, Uruguay y Paraguay a Europa y Medio Oriente",
-          "url": "https://mascontainer.com/cma-cgm-eleva-recargos-para-exportaciones-desde-sudamerica-y-aplica-nuevo-ajuste-a-embarques-desde-chile/"
-        }
-      ],
-      "absorbs": [
-        "cma-cgm-eleva-recargos-para-exportaciones-desde-sudamerica-y-aplica-nuevo-ajuste"
-      ]
     }
   ],
   "ingestion": {
-    "ranAt": "2026-10-22T17:55:34Z",
+    "ranAt": "2026-10-22T21:57:48Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
@@ -70675,7 +71318,7 @@
         "url": "https://www.aduananews.com/feed/",
         "ok": true,
         "items": 12,
-        "added": 0,
+        "added": 1,
         "updated": 0,
         "skipped": 2
       },
@@ -70684,18 +71327,18 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 3,
+        "added": 7,
         "updated": 0,
-        "skipped": 10
+        "skipped": 6
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 19,
-        "added": 2,
+        "items": 46,
+        "added": 3,
         "updated": 0,
-        "skipped": 12
+        "skipped": 31
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
@@ -70704,16 +71347,16 @@
         "items": 56,
         "added": 4,
         "updated": 0,
-        "skipped": 44
+        "skipped": 41
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 80,
+        "items": 78,
         "added": 4,
         "updated": 0,
-        "skipped": 48
+        "skipped": 47
       },
       {
         "source": "Google Noticias · Mercosur",
@@ -70728,19 +71371,19 @@
         "source": "Google Noticias · Aranceles y comercio internacional",
         "url": "https://news.google.com/rss/search?q=(aranceles+OR+%22guerra+comercial%22+OR+%22acuerdo+comercial%22)+when:1d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 77,
+        "items": 74,
         "added": 4,
         "updated": 0,
-        "skipped": 56
+        "skipped": 52
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 57,
-        "added": 3,
+        "items": 55,
+        "added": 4,
         "updated": 0,
-        "skipped": 19
+        "skipped": 20
       }
     ],
     "curatedDuplicates": [
@@ -70760,9 +71403,24 @@
         "curated": "exportaciones-agroindustriales-septiembre-2026-record-5654-millones-11-millones-toneladas"
       },
       {
-        "title": "Las exportaciones argentinas marcaron un récord en septiembre y el superávit comercial llegó a US$ 2.976 millones",
-        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNY1lRSkVJaGw3RTZURWVvZzdHQnZCQXNhMU5FZ0VaS3ZENXdGMVdJYnRFZWIzeVFoSkFQZ0hNYlc4UU5DV0ZYT3pTQWpPXzhTWDhZeERyM1dEODFnUUlIX0NILTlqTlhwZHhnbThzbGdWNkhLMnFwSHE2UzBEU2ljdjlJMlN0LW93Q2hESkEzQ1NoSHo1cERvWlRlVTlpVVBfSm80RVpNcTBFSzJOLUNpWFRyckdzWHdFWlJyd2FabTFHVWJvYzEzY080SVpYczJ6enZ5YUFpV0tOMkQtMEhiMtIB5gFBVV95cUxQRUVkVk9pMWxIOHVrcDVBcHF1N21HQUZhamhrZWMxMWxvajAxek9Ed1pkRXcwUU5GcWg3Z3N2Wllwc1JMOEs1NjhXeXZ1RlZfNlNUR2tRRkhvOVdoX1NlTldKNkduWDQ1ZUlQUXBNLVhyckV1LVFkMkxBWDN4MnpIY1VXY1BVTzJkMnpjSkd3LUJyeUtPYUphTzFoWFhFY1l0bVBMZVZzbnFNeU5KazlRdy1oV3I5SEhPN2F0Qkh6UDltLXhpTVl3U1VVVUNvdmo2QXJHNTcwaFN1QWx5dHRNaVdBcUloUQ?oc=5",
+        "title": "La agroindustria logró un septiembre récord en exportaciones y facturación",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQYjA2TFFOVnRuaE11dF9QaWV4Q1FxYmFuY1RidkRzSC1wWHktNlBTell2Sjc4LVVPdllrSkNtTDBpaVU3ckkwZ0ZMMzhfMVJCUTB3WDFOWmQwdjIzTWlOVWQ2bXNsUExrV2V0WUFXVUpZYnpsM0xvX2NsdWs4UEpFQTBpeE1NUlh0RFNEaDVFUDdXOF9GZEFtVHBPNk84VWE4OWZTSVhCalFvV3JwVXN0dl9INDAtVHNwMVg2SA?oc=5",
+        "curated": "exportaciones-agroindustriales-septiembre-2026-record-5654-millones-11-millones-toneladas"
+      },
+      {
+        "title": "La energía y el giro en la balanza comercial: Argentina pasó de importar u$s 40 millones, a exportar más de u$s 10.000…",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNdHh1M2pZSG93R0NTamZwQV9iTUdzZVlaTVp1SS1GZU1YTkhlekxIb1hzT1ZHXzNBT2JwZThrVVNEcDVrcWpWbUVUMDYyakVLRGtrLU9VX1YwSjEzdmxjamx3OEJacS1Na3dLMmszSy1LRmdsRC1USGpfT3dPQTF6UXk0bnZjYTEwZV9pXy0xZm1JTnFPb0ZLQWg1OXVwMzZES0tySjJydHJPTzlxTkViLTVBMkc4bkIwT0hEOFM0Vk1qeVgzVkhqMDRiaWY2aXZETFo3eWVOSnhubDY0ZDNYMHhNZVVrTENmOU51c2wwNHpuWTg?oc=5",
         "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "Biodiésel argentino: la UE frena una medida que ponía en jaque las exportaciones",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeWl6eTZ6TGZKbXlsUHlvOWl0UFh6STJ0ZjVOd2ZjWDJvX1hHX3dpdzh5eFQxS3ZEeFUwNEp4OElNdDVtQ1lqaW56TERNWDdaY2lZTlpWcTFqNWJ6emRYUGNObkxFZkJ3UlFOeDVrYndLZ1U2R3d4a2xjOFN4VnlIcHRoMXFrd0xrVUVCa0VSREVhaFRyemY1djJjOWVuOTVzYkZoQ2lSRFY1QQ?oc=5",
+        "curated": "biodiesel-exportaciones-ue-220000-toneladas-2026"
+      },
+      {
+        "title": "La participación de China en las exportaciones de carne vacuna argentina bajó al 50%",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSkV1eGZJa2JUTkhZRWxKSjE1UHViV3J5VzdZa2VaaFQta2RDOWdzYjN3VFZCV3BWRG5zRHBQUjFuNlBSS3J1MVdJYW1lanJTbUVJT2gwNkYxYk9pMzJ0c0tKY0dWd3FKRHVLaERmeC1tRU94VkEtZHN4cTlReUJkbUIzU1dKaC1qLVgwblVNTlFGanVxZVIwb2d3?oc=5",
+        "curated": "exportaciones-agroindustriales-septiembre-2026-record-5654-millones-11-millones-toneladas"
       },
       {
         "title": "Las exportaciones agroindustriales alcanzaron un récord en septiembre",
@@ -70785,77 +71443,91 @@
         "curated": "exportaciones-agroindustriales-septiembre-2026-record-5654-millones-11-millones-toneladas"
       },
       {
-        "title": "Exportaciones agroindustriales récord en septiembre",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVEt5M1oyd092QV8wNE9xb1dvSVJIRFMyNXY4YUs5eDBSRHdCOE9DVHBfbkxOVER1c09Sd3UwYjdCd244R2swdzluN09lTUlmdFJFUDRTZUxrOVZYUlhLYlBTRV9aU21NNXBxVTJZV2s2Sk5TNG1aY2JuWGtMTVlpb1lNV3BqVnAwYkRwOG9n?oc=5",
-        "curated": "exportaciones-agroindustriales-septiembre-2026-record-5654-millones-11-millones-toneladas"
-      },
-      {
-        "title": "Las exportaciones agroindustriales fueron récord en septiembre",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMkY1TzZSMUdZVzJET3ZJazdramYzVWlKd2Y2YnV2ZUpCYzUtN01lMGNjaWhLWWVGZHZjVjZGb3lxem8wUGVWbDN2VnNTRmVZSFIxV0ZKTFpvRnlyUDV5VDNOSV80Q1AwWGxpbWlHWFpvdlhOaE1yZU5uTVk3TGlZc3lBNmVnSWMyaldQbTRxLXVOa0ZSb29aZ0ZGOGNTRU9XQnc?oc=5",
-        "curated": "exportaciones-agroindustriales-septiembre-2026-record-5654-millones-11-millones-toneladas"
-      },
-      {
-        "title": "La cadena agro industrial argentina reafirma su tendencia exportadora",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOb0FzMVFoT2cxYm9tZXR2dmdpVzdpNE85cVYtUGM5YlFhM0dIczFJbURfX1NReThzYlFMVXMySXFHbFpkbEh6cjlicWYwYUdRSExzY0lqRkR5YlNGc1B1N3NMRU1OXzFIdklFUnFkcE02MWdHbURBOUlodUxfczZORUJNVjlRdGNPQ1dTMFlhZnlyTzhJbVVDWHRMUi1hUXVjSnB0dHln?oc=5",
-        "curated": "exportaciones-agroindustriales-septiembre-2026-record-5654-millones-11-millones-toneladas"
-      },
-      {
-        "title": "Récord agroindustrial: las exportaciones crecieron 17% en volumen y alcanzaron USD 5.654 millones en septiembre",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNenlUdnJVYjdYcGhrSHJEVnJkd3piSm95ZGE4Sk9mS2NEeHhlcDctbmFIZDhDTXJxYlNfRjhCSjNRMk1nbVhlNDFPSzZFNTIyaXkxVXVqNVg4Y1pzbmNzZ21uNEg5OXdoc2l6MFFMc053cDhYZEN2LV9qS0RFNWJtWklBNi1NMl96Mkp2QmdFQUx4UUNHTUJucjcweU1yREpITDBOazRtTmg4eFpTTVJmZFgwUVNPMlRKajltbFdrdEZ2WGhISEhYdUVZcjY0SnRuOGJrMmI0ekRvRExlTGdRejFJQllEMDg?oc=5",
-        "curated": "exportaciones-agroindustriales-septiembre-2026-record-5654-millones-11-millones-toneladas"
-      },
-      {
-        "title": "Exportaciones agroindustriales argentinas alcanzan USD 5.654 millones en septiembre",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbjZTMjhPbnRiSXhSTXp3SWRXOHNpS0d3cUJ4TGd0M2FndUo5SldJMEtqNHVvb1gyWEZ2YXpyNEl5cnIwa3RUWHJuTTdTRnBsTzN2TmZSX29NV3RyUnFJc0w0WWlFbU1CS2hyYk00Zl9BZV9IVVJVa1Z2NW8tRW5CTm42SXFpaWk2RlFvcE84bG1BVGoteS1ZTmlVRUF3ZjlB?oc=5",
-        "curated": "exportaciones-agroindustriales-septiembre-2026-record-5654-millones-11-millones-toneladas"
-      },
-      {
-        "title": "Sorgo: Argentina podría exportar 1,7 millones de toneladas en 2026/27",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMmd4REtMTkQ4ZHYyclpnbjl5ckdsMGhGalJ2TGZtNzMyRmU2LXFnX2JSNXhLUUxUUVVXdDhGZjN2TEFIOWxaZ2lrLVlOS1pMbzR1M2Y3WWZaWW1jRG1Vazc3MzkyeFpZZkFHMkZxZU45QnNaWXkxbTZwNVZHQTZHb2F3cXByUzRHT3pIWUxtb3p4QWU4UDRBQWhsb3lVd9IBngFBVV95cUxOMmd4REtMTkQ4ZHYyclpnbjl5ckdsMGhGalJ2TGZtNzMyRmU2LXFnX2JSNXhLUUxUUVVXdDhGZjN2TEFIOWxaZ2lrLVlOS1pMbzR1M2Y3WWZaWW1jRG1Vazc3MzkyeFpZZkFHMkZxZU45QnNaWXkxbTZwNVZHQTZHb2F3cXByUzRHT3pIWUxtb3p4QWU4UDRBQWhsb3lVdw?oc=5",
-        "curated": "sorgo-exportaciones-argentina-1-7-millones-toneladas-china-az-group-2026-27"
-      },
-      {
-        "title": "Rebelde: La agroindustria argentina incrementó sus exportaciones, pero la soja dejó de ser el motor de ese crecimiento",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZHI4cC1VUDhJODZKNFpadGU1V28zNHNWcDI2dXpKWkJneUpzUFRjRE45UG9xUk4zQWU0eDlBd3J3V0FSRExzdl9UdFZsRHNyRGF1WjRkU1hzcEV2RlpBU2R4SzNpQ3FzR3dVWHNmQldGNEdseDJ4dWF2R09GVVEzTUd0djA0djNHZjYxUExjOG1WVUdQR3dZUEdhWEE2X0lXdG9ITTlSNDg5bng5QXNPQ0dvV0RVekdiTWFnQmktZ0lSUmZhamY0dUhSWUoza002MTFJR0dJYkpJa2M?oc=5",
-        "curated": "exportaciones-agroindustriales-septiembre-2026-record-5654-millones-11-millones-toneladas"
-      },
-      {
         "title": "Brasil: nuevas reglas abren a exportadores un mercado noruego con tarifas reducidas desde noviembre",
-        "url": "https://prensamercosur.org/2026/10/22/brasil-nuevas-reglas-abren-a-exportadores-un-mercado-noruego-con-tarifas-reducidas-desde-noviembre/",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMEJPWjAwV195bXdpTkhFV19mb2d0M3ZYcjZkeDlQeFBsMDc1LW9Wb0xReHQzV1p6Uk50VHk5UXd6THZHcXN6a3V3N19VOW1adE9Nem9JdkpwY2JQa3Nfd3Vldm16cFp3dDZZZVBPRGJMRDB6dW1YSTVnWk5MQWlvN2ktNXRjbkFtVnlMUW5lTUtRWjE3T3JCY3ZqRnR0Q29TcXJqdkh5QjI2aXM3NzM1dnJWcjJEY0hqWkkxQ2hrUVFIZ3VFOGJIcnpwTl8yQk04YkE4?oc=5",
         "curated": "brasil-portaria-secex-548-cuotas-noruega-mercosur-aelc-primero-llegado-argentina"
       },
       {
-        "title": "Las exportaciones de septiembre fueron las más altas registradas; un fallo acerca el fin del juicio por YPF",
-        "url": "https://www.lanacion.com.ar/sociedad/las-exportaciones-de-septiembre-fueron-las-mas-altas-registradas-un-fallo-acerca-el-fin-del-juicio-nid20102026/",
+        "title": "Estados Unidos fue el segundo destino de las exportaciones argentinas en septiembre",
+        "url": "https://flipr.com.ar/nacionales/gremios/serindustria/estados-unidos-fue-el-segundo-destino-de-las-exportaciones-argentinas-en-septiembre/",
         "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "Brote de Newcastle en Brasil: qué importaciones restringió Argentina y cuáles siguen habilitadas",
+        "url": "https://www.elonce.com/sociedad/brote-de-newcastle-en-brasil-que-importaciones-restringio-argentina-y-cuales-siguen-habilitadas.htm",
+        "curated": "senasa-newcastle-brasil-suspende-importaciones-zona-restriccion-santa-catarina"
+      },
+      {
+        "title": "Riesgo sanitario: la Argentina suspendió importaciones de productos aviares de una zona de Brasil",
+        "url": "https://www.lanacion.com.ar/economia/campo/riesgo-sanitario-la-argentina-suspendio-importaciones-de-productos-aviares-de-una-zona-de-brasil-nid22102026/",
+        "curated": "senasa-newcastle-brasil-suspende-importaciones-zona-restriccion-santa-catarina"
+      },
+      {
+        "title": "Newcastle en Brasil: SENASA restringió importaciones de una zona",
+        "url": "https://agroempresario.com/publicacion/122736/newcastle-en-brasil-senasa-restringio-importaciones-de-una-zona/",
+        "curated": "senasa-newcastle-brasil-suspende-importaciones-zona-restriccion-santa-catarina"
+      },
+      {
+        "title": "MERCOSUR: Brasil regulamenta cotas para exportadores que buscam o mercado da Noruega",
+        "url": "https://prensamercosur.org/2026/10/22/mercosur-brasil-regulamenta-cotas-para-exportadores-que-buscam-o-mercado-da-noruega/",
+        "curated": "brasil-portaria-secex-548-cuotas-noruega-mercosur-aelc-primero-llegado-argentina"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "presidenta-sheinbaum-niega-nueva-llamada-con-trump-y-aclara-que-mexico-y-eu-aun",
+        "main": "tierra-del-fuego-analiza-oportunidades-productivas-y-exportadoras-ante-el-acuerd",
         "merged": [
-          "trump-freno-acuerdo-comercial-que-estaba-por-alcanzarse-adujo-aumento-del-defici"
+          "el-noa-debatira-las-oportunidades-del-acuerdo-ue-mercosur"
         ]
       },
       {
-        "main": "el-noa-realizara-su-primer-foro-federal-argentino-ue-mercosur-para-impulsar-una",
+        "main": "la-vitivinicultura-argentina-acelero-sus-exportaciones-en-septiembre-que-product",
         "merged": [
-          "salta-fue-sede-del-foro-federal-mercosur-ue-para-el-desarrollo"
+          "las-exportaciones-vitivinicolas-argentinas-crecieron-24-en-septiembre"
         ]
       },
       {
-        "main": "newcastle-en-brasil-senasa-restringio-importaciones-de-una-zona",
+        "main": "se-habilita-la-inscripcion-de-establecimientos-citricolas-para-la-campana-de-exp",
         "merged": [
-          "newcastle-en-brasil-argentina-restringe-importaciones-y-refuerza-controles-avico",
-          "newcastle-en-brasil-argentina-sube-la-guardia-y-restringe-importaciones-avicolas"
+          "senasa-habilito-la-inscripcion-al-registro-de-exportadores-citricolas-para-la-ca"
+        ]
+      },
+      {
+        "main": "encuentro-cooperativas-y-economia-social-y-solidaria-en-el-acuerdo-mercosur-ue",
+        "merged": [
+          "cooperativas-uruguayas-piden-una-diplomacia-internacional-de-la-economia-social"
+        ]
+      },
+      {
+        "main": "fernanda-avila-participara-de-un-foro-sobre-mineria-y-oportunidades-comercia-2",
+        "merged": [
+          "fernanda-avila-participara-de-un-foro-sobre-mineria-y-oportunidades-comerciales"
+        ]
+      },
+      {
+        "main": "colombia-busca-eliminar-aranceles-de-ee-uu-antes-de-terminar-el-ano-ministro-de",
+        "merged": [
+          "colombia-busca-eliminar-aranceles-de-ee-uu-en-diciembre"
+        ]
+      },
+      {
+        "main": "importaciones-via-courier-superan-los-u-s1-000-millones-en-2026",
+        "merged": [
+          "importaciones-por-courier-en-argentina-ya-superaron-los-u-s960-millones-en-9-mes"
+        ]
+      },
+      {
+        "main": "ina-confia-en-que-se-llegue-a-un-acuerdo-sobre-aranceles-con-eu",
+        "merged": [
+          "ina-confia-en-acuerdo-sobre-aranceles-de-autopartes-con-eu"
         ]
       }
     ],
     "googleNews": {
-      "pending": 21,
-      "resolved": 21,
-      "withSummary": 16,
+      "pending": 23,
+      "resolved": 23,
+      "withSummary": 18,
       "withPhoto": 0,
       "failed": 0,
       "duplicates": 0
