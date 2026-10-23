@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-10-23T02:01:40Z",
+  "updatedAt": "2026-10-23T10:00:25Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -267,7 +267,8 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-23T02:03:36Z"
+      "lastAttempt": "2026-10-23T10:01:09Z",
+      "lastError": "HTTP Error 500: Internal Server Error"
     },
     {
       "id": "soja",
@@ -284,7 +285,7 @@
         "date": "2026-10-21",
         "ars": 550000.0
       },
-      "checkedAt": "2026-10-23T02:03:36Z",
+      "checkedAt": "2026-10-23T10:01:26Z",
       "_prev": {
         "date": "2026-10-20",
         "ars": 550000.0
@@ -345,7 +346,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-23T02:03:36Z"
+      "lastAttempt": "2026-10-23T10:01:26Z"
     },
     {
       "id": "brent",
@@ -358,7 +359,7 @@
       "obsDate": "2026-10-20",
       "change": "-3,0% vs. día anterior",
       "trend": "down",
-      "checkedAt": "2026-10-23T02:03:38Z",
+      "checkedAt": "2026-10-23T10:01:29Z",
       "history": [
         [
           "2026-09-09",
@@ -483,7 +484,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-10-23T02:03:38Z"
+      "lastAttempt": "2026-10-23T10:01:29Z"
     },
     {
       "id": "maiz",
@@ -500,7 +501,7 @@
         "date": "2026-10-21",
         "ars": 277875.0
       },
-      "checkedAt": "2026-10-23T02:03:38Z",
+      "checkedAt": "2026-10-23T10:01:29Z",
       "_prev": {
         "date": "2026-10-20",
         "ars": 279000.0
@@ -561,7 +562,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-23T02:03:38Z"
+      "lastAttempt": "2026-10-23T10:01:29Z"
     },
     {
       "id": "trigo",
@@ -578,7 +579,7 @@
         "date": "2026-10-21",
         "ars": 329300.0
       },
-      "checkedAt": "2026-10-23T02:03:38Z",
+      "checkedAt": "2026-10-23T10:01:29Z",
       "_prev": {
         "date": "2026-10-20",
         "ars": 344100.0
@@ -639,10 +640,704 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-23T02:03:38Z"
+      "lastAttempt": "2026-10-23T10:01:29Z"
     }
   ],
   "items": [
+    {
+      "id": "hipg-preve-mayores-oportunidades-economicas-ante-incremento-de-transporte-mariti",
+      "datetime": "2026-10-23T10:00:04Z",
+      "date": "2026-10-23",
+      "firstSeen": "2026-10-23T10:00:25Z",
+      "title": "HIPG prevé mayores oportunidades económicas ante incremento de transporte marítimo de contenedores vía Suez",
+      "summary": "Hambantota International Port Group (HIPG) destacó que una recuperación sostenida del transporte marítimo de contenedores a…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "container",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/hipg-preve-mayores-oportunidades-economicas-ante-incremento-de-transporte-maritimo-de-contenedores-via-suez/",
+          "primary": true,
+          "author": "cmeza"
+        }
+      ]
+    },
+    {
+      "id": "el-mar-al-alza-las-grandes-navieras-alcanzan-su-pico-de-produccion-de-buques-en",
+      "datetime": "2026-10-23T09:09:15Z",
+      "date": "2026-10-23",
+      "firstSeen": "2026-10-23T10:00:25Z",
+      "title": "El mar, al alza: las grandes navieras alcanzan su pico de producción de buques en 14 años",
+      "summary": "No se veía tal expansión desde 2009, impulsados por los planes de adquisición de Maersk y CMA CGM para el desarrollo de su flota. Las entregas están…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Modaes",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.modaes.com/entorno/el-mar-al-alza-las-grandes-navieras-alcanzan-su-pico-de-produccion-de-buques-en-14-anos",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-23T10:00:25Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbFRoTEptZnBINW9MdklueEExeVRZT1Q5eXFuUUV0MHRPNDBSclE5b2dIdmJZMkQ0TTdSekU2ZkxJZjNScWJNbl9ULVpyQ1Z3NEpXX0swOFdqMk5zdWFKTnF4VnBMYUh3RjdkeXJwUXc3R1RSaW02R3d3WVR3cWw0Z1FHbC1tckdSQmFXNmd3UmFLMTd6OFpacTNFZjhQWVVKTW1PZzdRNWo4eF9rNElTa2FkcVhYSzliUmc?oc=5"
+    },
+    {
+      "id": "el-foro-federal-mercosur-ue-region-noa-puso-en-agenda-el-rol-de-las-provincias-e",
+      "datetime": "2026-10-23T08:48:45Z",
+      "date": "2026-10-23",
+      "firstSeen": "2026-10-23T10:00:25Z",
+      "title": "El Foro Federal Mercosur-UE región NOA, puso en agenda el rol de las provincias en el desarrollo productivo",
+      "summary": "El encuentro reunió a autoridades, representantes de la Unión Europea, empresarios y organizaciones para impulsar una agenda de inversiones, comercio exterior y empleo, y una mayor integración internacional.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Unión Europea"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "IN Salta",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://insalta.info/plus/el-foro-federal-mercosur-ue-region-noa-puso-en-agenda-el-rol-de-las-provincias-en-el-desarrollo-productivo",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-23T10:00:25Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQnc3a1VoWmstenVpSUNLb0J4R1VXNFppWnNpV1NTdG1ySmZrWUZXWXBhNHROZmJWNmo4Um95VmctUmVTU19YYXdlZld1akVjd2RPaFk4cXJnTVhtX3hkR0JhRUhWMnVueVhwZ0wwN2tlYXdneTRYV2hsSXRGSXFlMFUwcUxLc011ZWpodjJ4Wl9DTXBSYWlOQjQ3cm1SQ0Q2RTlOanhvaDFzNHM1Z2VqZHpMUnZCSjd3MHF2YWRhbEV3eTRWdjVIeDN2ZU7SAdYBQVVfeXFMT2VkM2hUSjU1ZS1aWGxFeXpmSHI1ZEp5RTVCQzlJUXVjNDdtWHhTUXVOdWpSQXZMYWFmUlJVa29QbWktc2owTElNY0FMbFF2UWJ6d1E2T0x6Z1haelZTbndxajNZNFoyWmhQRExzdFBkNDJlX1dVQUh2WVktTHpvdmg5cE9ZYTJNc0Z5R1JkaktRbGttanUwWFJFUm1jX3hjdnRQeHA2ZW9NSmMyaWk5SHNlLWpUY1M3Z0ViTktrRldVOE1OX3FTemV5RmZIcXhsMTBNWE44QQ?oc=5"
+    },
+    {
+      "id": "sigue-sin-llegar-la-bajada-de-los-fletes",
+      "datetime": "2026-10-23T08:40:41Z",
+      "date": "2026-10-23",
+      "firstSeen": "2026-10-23T10:00:25Z",
+      "title": "Sigue sin llegar la bajada de los fletes",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Asociación de Cargadores de España",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.ace-cargadores.com/2026/10/23/sigue-sin-llegar-la-bajada-de-los-fletes/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-23T10:00:25Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOd2Q5QWVrSlB5STZIbnRYZS05Mno3Q2lReTl1VnpWTnVoaFloZGpMMXowSWlhSm5lb1Y4OGd6eXBSbWV2Z21uN0Z4bEQxaXhwVHRfUTBkSmNwcDdoZlcyMTBRNHdFb0s2THFPODJqLWRoZUdUZXlFWmo0S1lxRlA4bFBrOEFyTjdURnRF?oc=5"
+    },
+    {
+      "id": "la-tutela-administrativa-y-jurisdiccional-efectiva",
+      "datetime": "2026-10-23T08:00:00Z",
+      "date": "2026-10-23",
+      "firstSeen": "2026-10-23T10:00:25Z",
+      "title": "La tutela administrativa y jurisdiccional efectiva",
+      "summary": "1.- Introducción Nos proponemos abordar un tema que consideramos de la mayor importancia, como es el de la Tutela Administrativa y Jurisdiccional Efectivas. Principios rectores de actuación que no sólo están consagrados positivamente en el Derecho Uruguayo como reglas de derecho, además de estar formulados en la…",
+      "body": [
+        "1.- Introducción Nos proponemos abordar un tema que consideramos de la mayor importancia, como es el de la Tutela Administrativa y Jurisdiccional Efectivas. Principios rectores de actuación que no sólo están consagrados positivamente en el Derecho Uruguayo como reglas de derecho, además de estar formulados en la Constitución Nacional (1), sino que son reclamados también…"
+      ],
+      "keyData": [],
+      "topics": [
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Uruguay"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Aduana News",
+      "sources": [
+        {
+          "name": "Aduana News",
+          "type": "Medio especializado · Argentina",
+          "url": "https://aduananews.com/la-tutela-administrativa-y-jurisdiccional-efectiva/?utm_source=rss&utm_medium=rss&utm_campaign=la-tutela-administrativa-y-jurisdiccional-efectiva",
+          "primary": true,
+          "author": "Flavia Figueredo"
+        }
+      ]
+    },
+    {
+      "id": "amoniaco-verde-podria-atraer-grandes-navieras-al-megapuerto-de-corio",
+      "datetime": "2026-10-23T07:47:19Z",
+      "date": "2026-10-23",
+      "firstSeen": "2026-10-23T10:00:25Z",
+      "title": "Amoniaco verde podría atraer grandes navieras al megapuerto de Corío",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Revelación.pe",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://revelacion.pe/2026/10/23/amoniaco-verde-podria-atraer-grandes-navieras-al-megapuerto-de-corio/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-23T10:00:25Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeEV6MDdCTVdBd1Z1eHdVTnROWE01OVlYU2dSTXcwc0Q1SGxOS0ZzZ0VuTzFSWmtiWWs3NzVhNTlmZzZyUFd5enk4Yjl6WjVZRUxJc2VSVTBrSHVxYzFXSkF6emZKVjNGMFpwVEVCaGFMeHFCaE1YWVNEN3dLakpwVlpyc1QtbWo5OHZYZUp4aVZFclZYdkl6aDlBeUwwV1l2dFFxcQ?oc=5"
+    },
+    {
+      "id": "un-triunfo-de-bolsonaro-cambiaria-poco-el-mercosur-porque-itamaraty-poco-se-ha-m",
+      "datetime": "2026-10-23T07:45:52Z",
+      "date": "2026-10-23",
+      "firstSeen": "2026-10-23T10:00:25Z",
+      "title": "Un triunfo de Bolsonaro cambiaría poco el Mercosur porque Itamaraty “poco se ha movido de su línea”",
+      "summary": "El consultor en comercio exterior Gonzalo Oleggini, licenciado en Negocios Internacionales y doctor en Administración, dijo en diálogo con CRÓNICAS que la flexibilización del Mercosur podría avanzar sin reforma; si Uruguay cierra acuerdos por su cuenta, Brasil y Argentina responderían con “un mirar para el costado”…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Latinoamérica",
+        "Mercosur"
+      ],
+      "countries": [
+        "Brasil"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Crónicas Económicas",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.cronicas.com.uy/news-70090-un-triunfo-de-bolsonaro-cambiaria-poco-el-mercosur-porque-itamaraty-poco-se-ha-movido-de-su-linea",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-23T10:00:25Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNR0tsYUFieWZFelpMU05DV0xDSVdjSFNqbnhrZWtvVWJYczNMMFRkcmlTZ1ZYbEdrTU9Ea19jVzJCNnY1ZEplZTBCWVc1TkUyallCMHpyNTRmdHAtMkRRYTQwWThqUy1LUDdjQVpHRHBUN1AtUnEwaXhrTUhrYmpKNUhKS3VmRTJBUFdpZ2JDNGljMXREMDJ2dTlUNlpoQVoybHBOZmRlSTBVNGtfSG9ZcmJZYnNlWkVxSEdDZUhfU2djZzQ2bDcycTBSMmdGQU4xTEE?oc=5"
+    },
+    {
+      "id": "volvo-cars-recorta-2-500-empleos-ante-los-aranceles-y-la-competencia-china",
+      "datetime": "2026-10-23T07:37:50Z",
+      "date": "2026-10-23",
+      "firstSeen": "2026-10-23T10:00:25Z",
+      "title": "Volvo Cars recorta 2.500 empleos ante los aranceles y la competencia china",
+      "summary": "Volvo Cars recortará 2.500 puestos de trabajo tras perder unos 513 millones de euros en el tercer trimestre. El fabricante refuerza sus ajustes ante los aranceles estadounidenses y la competencia china.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "China"
+      ],
+      "tags": [
+        "Aranceles",
+        "China"
+      ],
+      "visual": "auto",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "El Boletín",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.elboletin.com/volvo-cars-recorta-2-500-empleos-ante-los-aranceles-y-la-competencia-china/",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "La Vanguardia",
+          "type": "También publicó esta noticia",
+          "url": "https://www.lavanguardia.com/dinero/20261023/11666210/volvo-empleo-despidos-recorte-china-aranceles.html",
+          "alsoIn": true,
+          "title": "Volvo recortará 2.500 empleos más, el 6% de la plantilla, por la caída de ventas en China y los aranceles"
+        }
+      ],
+      "gnTried": "2026-10-23T10:00:25Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ3NmMEdHazlqWXhQNEVnNUZiVko1OEhIWS1MQ1hUdVZhLV9DVWJXc21yWVdFbnQwSlY4R0tWd0RmQ3IwNGtTQ0VOM2RlNEMzMjNGZGxKclI0N1pWb2stY09FNU1xejlNenlsQm16ZG93VlBJZU5fMUh2MFo1bTdHSmpMVnZRR0NIMjEwWHdJRlZYWnlzWVBlR2FEQUdzZDlRamlr0gGoAUFVX3lxTE5vcHY1Ukt2U3lhY1hsSFBZSnI4eXVuOW1uZkJyVE9jaE9Ta3hESzdLVzVYREItbWlWWF82VTlEZzVLZnNHNkQ0eDNYckx3eUg1LVJBdV9TM0lwWmRDc3VXU3VTV2RnbG9VZURQMWZWUkhTaEFqVzN3a21HSVdSdjl1dFhpTkxqQkpWcTVBZWJWeEVJMjZhM2EtUlR0c2VVV1JLbVc1NU9GUQ?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUHZCQ2pmeDBQRG1GN0xNMmpyeklocXN6RU5yUUVtRHY2X1Z0VlF6bmhUa1FMYTc2ejJ0dHJ1RkJTMW5HUHNVaDFMQXJFMldkQWRTRTQ5WUt0VWpGN0lHVmIwQWpHTFE4dUc3anZTUGN2RkpqcjFLMlRoTnZCV1FPbXJYU0czUm9kUm9GU3VhUnotZVQxSG9xZi1zMlVWLTQ1LThmbXA5NNIBrAFBVV95cUxNbUJJY19KMUlmSmlUdW1WazlHRjRHYkREcVdrWjVyYllHTXFsM1dOSnVpYWNfSkltRFZNNi1rdHdpZmo5cnlZc3I0MzIxY3lvaDI5aGNseDNEQkJBcnIwdURoemZmaExRVmRzVFpCSnlzVTZsZWxXQXRTV3ZZbVBqZlBYdV9nS1pXOFF5ZE1kNVIyUTJWSVgxZkhtU0h1MW1lSTdSeXZGbHJLVVZz",
+        "https://www.lavanguardia.com/dinero/20261023/11666210/volvo-empleo-despidos-recorte-china-aranceles.html"
+      ],
+      "mergedIds": [
+        "volvo-recortara-2-500-empleos-mas-el-6-de-la-plantilla-por-la-caida-de-ventas-en"
+      ]
+    },
+    {
+      "id": "italia-comienza-licitacion-para-obras-de-demolicion-parcial-de-muelle-norte-del",
+      "datetime": "2026-10-23T07:00:34Z",
+      "date": "2026-10-23",
+      "firstSeen": "2026-10-23T10:00:25Z",
+      "title": "Italia: Comienza licitación para obras de demolición parcial de muelle norte del Puerto de Ancona",
+      "summary": "El proceso de licitación para las obras de demolición parcial del muelle norte…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Europa"
+      ],
+      "countries": [
+        "Italia"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/italia-comienza-licitacion-para-obras-de-demolicion-parcial-de-muelle-norte-del-puerto-de-ancona/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "electrolux-registra-perdida-en-q3-por-conflicto-en-medio-oriente-y-aranceles",
+      "datetime": "2026-10-23T06:55:39Z",
+      "date": "2026-10-23",
+      "firstSeen": "2026-10-23T10:00:25Z",
+      "title": "Electrolux registra pérdida en Q3 por conflicto en Medio Oriente y aranceles",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Geopolítica y comercio"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Investing.com México",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://mx.investing.com/news/earnings/electrolux-registra-perdida-en-q3-por-conflicto-en-medio-oriente-y-aranceles-3810837",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-23T10:00:25Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRUJUaGxDZF9uMkN2Nm9VcS16MXNrcUJxMGQ0YzYwRmV1ZURDY3k0N3F4ajBzWFBjMmM0dkJxcE9INWRmT1VOdnU4cHdoNzR0Um5TckQ2VEFWUFAyNEIxc2ZXNjBaZktYeVJidzhCSnQwbnRVY2tzUHBwU1gyV1hlcVJ4SE1uZDNCc25IYzBJdkhIMlZ4QmI1SkE4UE1kN1hTcThJdnpkSE01YklZMEd6V3lGam8yZU0taVoybGR4M00?oc=5"
+    },
+    {
+      "id": "por-que-brasil-pierde-peso-en-la-importacion-argentina-de-autopartes-y-cual-es-e",
+      "datetime": "2026-10-23T06:41:00Z",
+      "date": "2026-10-23",
+      "firstSeen": "2026-10-23T10:00:25Z",
+      "title": "Por qué Brasil pierde peso en la importación argentina de autopartes y cuál es el mercado que no para de crecer",
+      "summary": "En sintonía con la lógica del mercado, Tailandia sube su nivel de exportaciones de partes a Argentina al mismo ritmo que crece la producción local de pickups. Es el segundo país y se mantiene por encima de China.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Importaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil"
+      ],
+      "tags": [],
+      "visual": "auto",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Infobae",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.infobae.com/economia/2026/10/23/por-que-brasil-pierde-peso-en-la-importacion-argentina-de-autopartes-y-cual-es-el-mercado-que-no-para-de-crecer/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-23T10:00:25Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOWXRfOXpmbGhNRFlrN0FPVEZ6dkJDUVZkMU8weG93dDNqV3hOb1B5d0lLbGVaYy1RQU1qbmFTOWowdG5zcHYtWnpTVGRNTnhTMU5oY2RCNU9aTVNHZnY1dldueE9RaXUzbU82ei0wM0V0Nk9YX2YxbFNNX3JDZ3UyLUFVNWlqd0ZMME4zeWNIRzhQMmpTa3Nyb3pWUE9rNGw4RUROblJVbldBYVd6WkNnR3ZyWXZNYUNPMkRmaTBNZmNsQTlkdVI4SHhrcWtWc3FKeS1BbkdhazVTR1FYdEpOMWZrU0RNYklmVmgwWNIBhwJBVV95cUxONV9BUU93NHBFYUlTelJJTGttRG5DbXhTc0hLeF84ZHlnOFo2cFZNbXVCMngwQXlzN2JubGhsZlJlbkNLdEdtVldXc2JYOWFfeDlJVWJpejBfR3F5UXhtY2tkdWZESVdGam9pbUtIRDJCSFc5SWZfaVVTbTIyWHRtMEh1S0Zrb0sxT2JRWktRRVZINjlldXBmaUFrMXFoZTFhdVNjT1BGRjdSVkFZTXR4akRQTVRXWXZ5ZEFOUHNZTXRYano1RUxNX09hd0NOb3A4c0lZRFpERlZkaFg4QVJRRDhvMWZ5bS1BMVRzWDhoaGduZzhoVXUyRlByR2Q3Z3NfYmExT28xZw?oc=5"
+    },
+    {
+      "id": "america-latina-gana-protagonismo-en-el-despliegue-de-capacidad-naviera-a-nivel-g",
+      "datetime": "2026-10-23T06:26:54Z",
+      "date": "2026-10-23",
+      "firstSeen": "2026-10-23T10:00:25Z",
+      "title": "América Latina gana protagonismo en el despliegue de capacidad naviera a nivel global",
+      "summary": "La tendencia coincide con la expansión de la flota mundial y la persistente incertidumbre tarifaria",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Mundo Marítimo",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.mundomaritimo.cl/noticias/america-latina-gana-protagonismo-en-el-despliegue-de-capacidad-naviera-a-nivel-global",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-23T10:00:25Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR2FIVlRhUUlWeVQ5a09CbmMzMWdTRGpHMGFQd2doaFgycGQ0WlBkN3ZkaVk3Q2FXdzhsLXJNb0dYal9ERkpheTRTOTFGYTBpaEZFSW5ic3JlVTZNZllUN0xvSkpET3Z6d2JKM2lTclZDQ0xkb2g5cjY1UXh1cldEcXRqUnRGVXA4NmpuakJlVHVLaUVJUG9ESEZPWGtMSW5zRVlRM3ZTa002SXVmbzdPVFZRQjgxZi1yVGFGaEZiS3U?oc=5"
+    },
+    {
+      "id": "los-aranceles-afectan-las-ganancias-del-sector-automotriz-kia-mexico",
+      "datetime": "2026-10-23T06:18:00Z",
+      "date": "2026-10-23",
+      "firstSeen": "2026-10-23T10:00:25Z",
+      "title": "Los aranceles afectan las ganancias del sector automotriz: KIA México",
+      "summary": "La coreana apuesta por la SUV Seltos para competir en el segmento B, con más tecnología y motorización",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "México"
+      ],
+      "tags": [
+        "Autos",
+        "Aranceles"
+      ],
+      "visual": "auto",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "El Heraldo de México",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://heraldodemexico.com.mx/economia/2026/10/23/los-aranceles-afectan-las-ganancias-del-sector-automotriz-kia-mexico-914616.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-23T10:00:25Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOV2NiYXpkMzI4ZS1Sa2JxU3FLeTk5VVRlNzJuUGxsdm5wdHFXMHBWQTNPMVhNQUEzR3RNWnRyTlMzVXdRS2t2bzZPdWNYRkRPMUtoT281cFVzaEVQZE9iNkt3aHV1alhfdU9MT2dDZVE0TkdYVjJybEdLVGp3blBtMVI4MkJZbkQ4a2lkb1FDT2FRMk9BaTl0VGFNUWc1QzhzQ1pXZ3l5bzZ3U2Y0ZDd3T3p2bi1oem5nZTc1VGgxVWFTWkcwUUlfT1lHYw?oc=5"
+    },
+    {
+      "id": "espana-puertos-de-las-palmas-crece-un-1-86-interanual-en-manipulacion-de-carga-d",
+      "datetime": "2026-10-23T06:00:25Z",
+      "date": "2026-10-23",
+      "firstSeen": "2026-10-23T10:00:25Z",
+      "title": "España: Puertos de Las Palmas crece un 1,86% interanual en manipulación de carga durante periodo enero-septiembre",
+      "summary": "La Autoridad Portuaria de Las Palmas (España) hizo público su balance en manipulación de carga correspondiente…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Europa"
+      ],
+      "countries": [
+        "España"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/espana-puertos-de-las-palmas-crece-un-186-interanual-en-manipulacion-de-carga-durante-periodo-enero-septiembre/",
+          "primary": true,
+          "author": "Gabriel"
+        }
+      ]
+    },
+    {
+      "id": "salta-destaco-el-potencial-productivo-del-noa-para-ampliar-las-exportaciones-hac",
+      "datetime": "2026-10-23T05:19:13Z",
+      "date": "2026-10-23",
+      "firstSeen": "2026-10-23T10:00:25Z",
+      "title": "Salta destacó el potencial productivo del NOA para ampliar las exportaciones hacia la Unión Europea",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Europa"
+      ],
+      "countries": [
+        "Unión Europea"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "elvocerohoy.com",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://elvocerohoy.com/contenido/40771/salta-destaco-el-potencial-productivo-del-noa-para-ampliar-las-exportaciones-hac",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-23T10:00:25Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPS2dacHZlS25IYThXQUZZZHN4Tk0zU1R1TTdzQjBBd0lMM0NIc2Q3cnczTDRFa2duWmdFZHVVdGNrbDF1clRSWC1NZ0VRZVV3eDROdzJETEZTY0J0ejNhMTNEZVJ0V1YwMnBrZXNpelBVT0hRdGFZeXR6bm55dHJJMklDRWtSZjFlTmxHVnVraE81dUxzM0dHMjI5RkpfaFF0cVdBcFE2ZkR6VVFuclpRY1RiaGYweHFOWHJyTw?oc=5"
+    },
+    {
+      "id": "global-ship-lease-anuncia-que-ejercera-opciones-para-construir-dos-portacontened",
+      "datetime": "2026-10-23T05:00:41Z",
+      "date": "2026-10-23",
+      "firstSeen": "2026-10-23T10:00:25Z",
+      "title": "Global Ship Lease anuncia que ejercerá opciones para construir dos portacontenedores",
+      "summary": "Global Ship Lease Inc. (GSL) anunció que, sujeto al cumplimiento de ciertas condiciones precedentes, la compañía…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Contenedores"
+      ],
+      "visual": "container",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/global-ship-lease-anuncia-que-ejercera-opciones-para-construir-dos-portacontenedores/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "foro-de-mercosur-de-mujeres-empresarias-en-uruguay",
+      "datetime": "2026-10-23T04:42:00Z",
+      "date": "2026-10-23",
+      "firstSeen": "2026-10-23T10:00:25Z",
+      "title": "Foro de Mercosur de mujeres empresarias en Uruguay",
+      "summary": "Montevideo, 23 oct (Prensa Latina) El XIII Encuentro de la Convergencia Empresarial de Mujeres del Mercosur (CEMM) tiene lugar hoy aquí con el propósito de fortalecer la participación femenina en el comercio exterior.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Latinoamérica",
+        "Mercosur"
+      ],
+      "countries": [
+        "Uruguay"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Prensa Latina",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.prensa-latina.cu/2026/10/23/foro-de-mercosur-de-mujeres-empresarias-en-uruguay/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-23T10:00:25Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZTRhbmF3SU5OOE9sTnpvSndSRklXVWlHdWozZzVVUmpyQU90OE9mRVJyTWdrblRBTHJTTUl1QUlNZTJJYWVBREJ6dHpYSHQxQ0tTeVV4U0pDRUYtNEtDdG9abDNGX3NObnhOcV9DNVZOV3ZmaTg3T1cyQURNUmpnRGw0dUpmSGdZSFpUa2ZkN2NNbFFPckE?oc=5"
+    },
+    {
+      "id": "espana-guardia-civil-detiene-a-ocho-estibadores-que-cooperaban-para-ingresar-dro",
+      "datetime": "2026-10-23T04:00:53Z",
+      "date": "2026-10-23",
+      "firstSeen": "2026-10-23T10:00:25Z",
+      "title": "España: Guardia Civil detiene a ocho estibadores que cooperaban para ingresar droga desde Puerto de Algeciras",
+      "summary": "La Guardia Civil de España logró la desarticulación de una banda de crimen organizado que introducía…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Europa"
+      ],
+      "countries": [
+        "España"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/espana-guardia-civil-detiene-a-ocho-estibadores-que-cooperaban-para-ingresar-droga-desde-puerto-de-algeciras/",
+          "primary": true,
+          "author": "Gabriel"
+        }
+      ]
+    },
+    {
+      "id": "china-merchants-port-holdings-rescinde-proyecto-de-hub-comercial-y-logistico-en",
+      "datetime": "2026-10-23T02:30:01Z",
+      "date": "2026-10-22",
+      "firstSeen": "2026-10-23T10:00:25Z",
+      "title": "China Merchants Port Holdings rescinde proyecto de hub comercial y logístico en Sri Lanka",
+      "summary": "China Merchants Port Holdings Company Limited acordó dar por terminado el proyecto South Asia Commercial and…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Puertos",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "China",
+        "Sri Lanka"
+      ],
+      "tags": [
+        "China"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/china-merchants-port-holdings-rescinde-proyecto-de-hub-comercial-y-logistico-en-sri-lanka/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
     {
       "id": "kuehne-nagel-eleva-sus-perspectivas-para-2026-gracias-al-impulso-del-sector-tecn",
       "datetime": "2026-10-23T01:30:46Z",
@@ -790,6 +1485,8 @@
         "Global"
       ],
       "tags": [
+        "Acero",
+        "Aluminio",
         "Autos",
         "Aranceles"
       ],
@@ -1192,6 +1889,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Exportaciones"
       ],
       "countries": [
@@ -1504,6 +2202,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Exportaciones"
       ],
       "countries": [
@@ -1523,6 +2222,13 @@
           "url": "https://eleconomista.com.ar/economia/la-paradoja-dolar-aprecio-133-exportaciones-crecieron-235-n99140",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "qpasó",
+          "type": "También publicó esta noticia",
+          "url": "https://qpaso.ar/noticias/el-economista/economia/la-paradoja-dolar-aprecio-133-exportaciones-crecieron-235-n99140",
+          "alsoIn": true,
+          "title": "La paradoja del dÃ³lar: se apreciÃ³ 13,3% y las exportaciones crecieron 23,5%"
         }
       ],
       "gnTried": "2026-10-23T02:01:40Z",
@@ -1536,7 +2242,14 @@
         "at": "2026-10-23T01:15:00-03:00",
         "basedOn": "https://eleconomista.com.ar/economia/la-paradoja-dolar-aprecio-133-exportaciones-crecieron-235-n99140",
         "words": 186
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVDNRYUx3MVVYdEE1UnlndVFPMWJfQ0E1LUtheXZ3ZGVTeVRhTXBrci1HUTZnMGNTa3Z5NEFDQU93VUJhOU14OGVSeUxHYktDMXM2Vy1FRHJpdXRQbUw2MlVkUGZ4c1hlWUFkYUZCT282Q0VCRC0waEFRajhnRWtoclQ3QndlUjZfbF85V2JRV0F6cVNTamx0dzA2cGZ6Q0lLTG9kZnllYnFYU0NwNG9tY29vVQ",
+        "https://qpaso.ar/noticias/el-economista/economia/la-paradoja-dolar-aprecio-133-exportaciones-crecieron-235-n99140"
+      ],
+      "mergedIds": [
+        "la-paradoja-del-da-lar-se-aprecia-13-3-y-las-exportaciones-crecieron-23-5"
+      ]
     },
     {
       "id": "ina-confia-en-que-se-llegue-a-un-acuerdo-sobre-aranceles-con-eu",
@@ -3007,6 +3720,13 @@
           "url": "https://www.iprofesional.com/impuestos/467222-importaciones-por-courier-en-argentina-ya-superaron-los-960-millones-de-dolares-en-9-meses",
           "alsoIn": true,
           "title": "Importaciones por courier en Argentina: ya superaron los u$s960 millones en 9 meses"
+        },
+        {
+          "name": "Infobae",
+          "type": "También publicó esta noticia",
+          "url": "https://www.infobae.com/economia/2026/10/23/boom-de-compras-al-exterior-las-importaciones-via-courier-crecieron-595-en-lo-que-va-del-ano-y-ya-superaron-el-total-de-2025/",
+          "alsoIn": true,
+          "title": "Boom de compras al exterior: las importaciones vía courier crecieron 59,5% en lo que va del año y ya superaron el total de 2025"
         }
       ],
       "gnTried": "2026-10-22T14:04:27Z",
@@ -3017,10 +3737,13 @@
       },
       "aliasUrls": [
         "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZ2dwYW9sS2E5Yld3QkJWd1lvNGxpVjJOX1NDMlVWTFNJVUVfZ0FEeWFXODNsM0diMzdfZzRkQlJUREFQMlJhXzlPZXBWYW9lTjFlYVI0ZWhFRnJEX0pSLUFoWEhpMDM3VWlXUUt6T0JQc2htWUp5c25UcDRQcmlSZHo4MG1tanEyX3BEb0ZaN01rSTNwMTJzTC1wbWJhRjZ2Tk1Wc2xXTkMtaXBHSkdqVzhLSzdtTHpVSk1qVnR6dGVsQm9JRFF6b0VFQTNNendCUllUakV3SdIB1wFBVV95cUxOZ2dwYW9sS2E5Yld3QkJWd1lvNGxpVjJOX1NDMlVWTFNJVUVfZ0FEeWFXODNsM0diMzdfZzRkQlJUREFQMlJhXzlPZXBWYW9lTjFlYVI0ZWhFRnJEX0pSLUFoWEhpMDM3VWlXUUt6T0JQc2htWUp5c25UcDRQcmlSZHo4MG1tanEyX3BEb0ZaN01rSTNwMTJzTC1wbWJhRjZ2Tk1Wc2xXTkMtaXBHSkdqVzhLSzdtTHpVSk1qVnR6dGVsQm9JRFF6b0VFQTNNendCUllUakV3SQ",
+        "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNSndWdTBYWEFqeUNHZGQwN0ZCOVhPUUxvS19LSm12NU13blhHazNrVEsxbzNPa0pfb0NISGhMRzNHVUxQajU0NUlRRnljQl9ENkVwWkZKVmlXVGpkRVNxaVc1VkNBcU8zZGprS1ZvcW5kZzNxd0NaaHFrc1VnTWoyVWdlT2RSMVpNczNRRHNGSEp6eHJZOGhmejcyNnpxMWwwTkEyN24tOVlKR0FIRlpuUW5kSTJNcUNNTnAwZG9hUExVbS1VR3ZhRlI4dW9JaWZRSGs1anFMMXJvMmtRNGJBNnpvWUdkMlRxSlgxQldhdENjVDl3NkhETkJ0SUFiUdIBmAJBVV95cUxNaWwwbnRJSnYzT2FwRE02bTFtNmdjeUlVT0d0bWZ2cEFaY2VBSnNlZkRBcGdGeHp5MTlIejB6VDNHNVB4MVNwajFCOVlzMlJnNU9rUXloRkk1SDhWcTNwUVlFVFExb1ludGJtRUxsMFRPWUtVVmFMVHBIdXFaZkgycHAtaWpLTUJHQmhzcThUX2NGa3NXOVptUUM1eGxycXlEeUVvMzMteWhLbXRyTUFDQ0h2aUdrOGk3cHExS0pXSElmakc0aTVhSnpUSGRfa0pFNzdnNkNLMUt2SFI5UGprRjJWVzdwNjBWVERyMGVNZ0ZndW1HcDhSQVJDaGpDYWtoQlBldENDWlJMTkpYTE10aTU5ajVPa2dQ",
+        "https://www.infobae.com/economia/2026/10/23/boom-de-compras-al-exterior-las-importaciones-via-courier-crecieron-595-en-lo-que-va-del-ano-y-ya-superaron-el-total-de-2025",
         "https://www.iprofesional.com/impuestos/467222-importaciones-por-courier-en-argentina-ya-superaron-los-960-millones-de-dolares-en-9-meses"
       ],
       "mergedIds": [
-        "importaciones-por-courier-en-argentina-ya-superaron-los-u-s960-millones-en-9-mes"
+        "importaciones-por-courier-en-argentina-ya-superaron-los-u-s960-millones-en-9-mes",
+        "boom-de-compras-al-exterior-las-importaciones-via-courier-crecieron-59-5-en-lo-q"
       ]
     },
     {
@@ -5149,6 +5872,13 @@
           "url": "https://www.eldestapeweb.com/informacion-general/rioja-participara-primer-foro-federal-argentino-ue-mercosur-detalles-20261021192418",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Nuevo Diario de Salta",
+          "type": "También publicó esta noticia",
+          "url": "https://nuevodiariodesalta.com.ar/oportunidades-para-salta-en-el-primer-foro-federal-argentino-mercosur-ue/",
+          "alsoIn": true,
+          "title": "Oportunidades para Salta en el primer Foro Federal Argentino Mercosur – UE"
         }
       ],
       "gnTried": "2026-10-22T02:00:48Z",
@@ -5156,7 +5886,14 @@
       "digestSkip": {
         "at": "2026-10-22T03:30:00-03:00",
         "reason": "fuera de tema (aviso de participación en un evento)"
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb2I5Z3puZmtQdElPMjZPRzN5cERGTl9fZGRPVGowdkt0N1hnWGhiQkhBVUd6NmV0bE1la0kxSTVNLURpTDducFA3cGdxY2w0ZzhxdndtaHVtVHh0eXpwejN3YnR5R2h0RmNkU1VHX3pYa2lNU1lUWUJqVFJ3cU9TYnNXN3pwYzFNc3pLXzNSZXJqZ3VNWEFyRmxVUHlSVllTNUVjNHJoLVoza0E",
+        "https://nuevodiariodesalta.com.ar/oportunidades-para-salta-en-el-primer-foro-federal-argentino-mercosur-ue"
+      ],
+      "mergedIds": [
+        "oportunidades-para-salta-en-el-primer-foro-federal-argentino-mercosur-ue"
+      ]
     },
     {
       "id": "puerto-de-montevideo-recibe-al-mayor-buque-ro-ro-de-su-historia",
@@ -5891,12 +6628,12 @@
       }
     },
     {
-      "id": "el-agro-argentino-sumo-casi-us-5-000-millones-en-exportaciones-pero-la-soja-perd",
-      "datetime": "2026-10-21T19:26:55Z",
+      "id": "produccion-talento-y-exportaciones-los-desafios-que-enfrenta-la-expansion-energe",
+      "datetime": "2026-10-21T19:25:34Z",
       "date": "2026-10-21",
-      "firstSeen": "2026-10-23T02:01:40Z",
-      "title": "El agro argentino sumó casi US$ 5.000 millones en exportaciones, pero la soja perdió terreno",
-      "summary": "El agro export US$ 42.304 millones hasta septiembre. Girasol, maz y carne impulsaron el crecimiento, mientras la soja retrocedi.",
+      "firstSeen": "2026-10-23T10:00:25Z",
+      "title": "Producción, talento y exportaciones: los desafíos que enfrenta la expansión energética argentina",
+      "summary": "Durante la segunda jornada de la AOG Patagonia 2026, los máximos referentes de YPF, Chevron, TotalEnergies y Pan American Energy analizaron los desafíos de formación de personal, las oportunidades de exploración y las condiciones para ampliar las exportaciones de gas",
       "body": [],
       "keyData": [],
       "topics": [
@@ -5906,11 +6643,8 @@
       "countries": [
         "Argentina"
       ],
-      "tags": [
-        "Soja",
-        "Agro"
-      ],
-      "visual": "agro",
+      "tags": [],
+      "visual": "customs",
       "impact": 1,
       "affectsArgentina": true,
       "kind": "noticia",
@@ -5918,19 +6652,15 @@
       "feed": "Google Noticias · Exportaciones Argentina",
       "sources": [
         {
-          "name": "AgroLatam",
+          "name": "El Observador Argentina",
           "type": "Medio · vía Google Noticias",
-          "url": "https://www.agrolatam.com/argentina/actualidad/exportaciones-agroindustriales-argentina-septiembre-2026/",
+          "url": "https://www.elobservador.com/argentina/negocios/produccion-talento-y-exportaciones-los-desafios-que-enfrenta-la-expansion-energetica-argentina-n6061206",
           "primary": true,
           "author": ""
         }
       ],
-      "gnTried": "2026-10-23T02:01:40Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYWM0MzdvMS1vVFZoUUN0blhlWV9YZWRFQkE4bjRTeUNBeDVCRHR2VlhDQkhTU2VYamlvMGxJUlM3cFNKdWV3ZXRBVzFsc0Jpc0RmMzZtV09HYnZoYmpMRHN1WVN1cnd3Ym5NWXdKTDNPeE85cEpXOWtCWHhQdGVmWFJ2OHk2S0tleExqV2xhT2IxNWJQanp1OWlhamgySWR1bDZOWk5law?oc=5",
-      "digestSkip": {
-        "at": "2026-10-23T01:15:00-03:00",
-        "reason": "repite una nota de la redacción (exportaciones agroindustriales de septiembre)"
-      }
+      "gnTried": "2026-10-23T10:00:25Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOYlNlN0w2Ri1uUnRHVjBHTGRkWkMzRXItd3NaZm0wOG1nNDkxN29BRVhOY0FmTFhKRW1iQzZYX1dZTEJ5NHB1b19NQkRLek9ZUXMyLTVGNWxOc1gzV1V6MW00cmx3TW91N2xvelNrRXZITjFaaEZDRG1BdXU3OGF5T2ozbkJxLTZ6LUFaRUNINjEteUEwSy1vNEt2RFk4Tk9mbTB4RTRwenJMNkxKUDFrbFIzbWVxTWZiMFo5a015djB1UmZsN0ZFc0Fyb0F2bmVQX2llVGNhLWZGU0xRYmJQbml6OHg0UW8xS2pJ0gHrAUFVX3lxTE5iU2U3TDZGLW5SdEdWMEdMZGRaQzNFci13c1pmbTA4bWc0OTE3b0FFWE5jQWZMWEpFbWJDNlhfV1lMQnk0cHVvX01CREt6T1lRczItNUY1bE5zWDNXVXoxbTRybHdNb3U3bG96U2tFdkhOMVpoRkNEbUF1dTc4YXlPajNuQnEtNnotQVpFQ0g2MS15QTBLLW80S3ZEWThOT2ZtMHhFNHB6ckw2TEpQMWtsUjNtZXFNZmIwWjlrTXl2MHVSZmw3RkVzQXJvQXZuZVBfaWVUY2EtZkZTTFFiYlBuaXo4eDRRbzFLakk?oc=5"
     },
     {
       "id": "argentina-podria-alcanzar-un-record-historico-de-exportaciones-los-sectores-que",
@@ -5970,6 +6700,40 @@
         "at": "2026-10-22T09:56:00-03:00",
         "reason": "no se pudo abrir la fuente (la herramienta de lectura no permitió acceder a la página)"
       }
+    },
+    {
+      "id": "la-cadena-del-mani-combina-exportaciones-record-con-precios-que-frenan-el-ingres",
+      "datetime": "2026-10-21T18:52:07Z",
+      "date": "2026-10-21",
+      "firstSeen": "2026-10-23T10:00:25Z",
+      "title": "La cadena del maní combina exportaciones récord con precios que frenan el ingreso de divisas",
+      "summary": "Los embarques superaron las 900.000 toneladas en 2024/25. Y en promedio, la cadena aporta 1.110 millones de dlares por campaa, adems de transformar residuos en nuevos productos",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Revista Chacra",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.revistachacra.com.ar/actualidad/la-cadena-del-mani-combina-exportaciones-record-con-precios-que-frenan-el-ingreso-de-divisas-6315/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-23T10:00:25Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNRy1lMDZCcVhONzFRb1JuLUlhWjhpUFRadl9NNUR1Z1pwclg5aDFCN3ExVTNFMHZtZE9QUWNHTTdjaUp4TWVaZzBQNzE1dHFfTmhqc0ZMQ1RQT0Z5OXNFZzhCM1BlTDh6QWpNblRENkFyY2ZYaklfT0MxNEJPUVBMNG1VdmZrSC1YOHB4TlA5b1YxTTVMQXl3OGp2TWlmN1MzdUJzVnJqY2dEb2cyV3IxMEhfalZramJmampuQ0ROT2pHRVYtQ1hJaV9lZmhSeVBOTmszenlMMlA4QdIB0gFBVV95cUxPWlJXcXRxMUZTc2JKY3E4MnBoQlZ2SEpYTGNMeUpKdDcyc0NpMHNSSVV3Z1pyMGxnYTl6RVpQaVh3ZlpPUEtQOER5NWxVcTQyQWt6ZEFmZUtNdi0xWi1sdE5iLXFoeUpaX18wN19FMHhCUjU3ZDg5V1RTd05PWC1jQVh2SExRanhBMEhZYnVyVmMtUGxfR2JSd29WWWdRcms0c1NNUzd3el9MU0RDSlBaLVZRcGVjaXY2cEc5QWpmX1RmSXlMZ1V6LXAtZUhMZXkydWc?oc=5"
     },
     {
       "id": "garantizan-pago-de-6-mil-500-pesos-por-tonelada-a-maiceros-gobierno-absorbera-lo",
@@ -13343,46 +14107,6 @@
       "digestSkip": {
         "at": "2026-10-23T01:15:00-03:00",
         "reason": "repite el mismo hecho que la nota de PortalPortuario (pedido de ocho portacontenedores de HMM)"
-      }
-    },
-    {
-      "id": "las-importaciones-se-derrumban-mientras-el-gobierno-celebra-exportaciones-record",
-      "datetime": "2026-10-20T08:00:25Z",
-      "date": "2026-10-20",
-      "firstSeen": "2026-10-20T09:59:10Z",
-      "title": "Las importaciones se derrumban mientras el gobierno celebra exportaciones récord",
-      "summary": "Las dos tendencias consolidan un abultado superávit comercial, que aporta dólares a la economía argentina.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Importaciones",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "NewsDigitales",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.newsdigitales.com/nota/347887/las-importaciones-se-derrumban-mientras-el-gobierno-celebra-exportaciones-record/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-20T09:59:10Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMFdMM2F6ZUVvNHdad2wtRVJBRC1SUGt0amFPa3JZMEE3b3lqaEpkUlpGdF95cGF1NHZ2UXZlRWJIemJ5YXF4M1BtUk9PRHBSSGNlNHBNbldSQURuTkF3ZndGNlJ5RHA0NUtfMVRtVEh1TWd2MzM3Ny0taWVzLUU2MHlRb2JzMHFEZGZqenlscWJ1SmFvS3RDd2NLRzJla0dpczl1S0RQWkRhdFdIVFlXS1FEWGI3QmFqbW9rTk0wV1U?oc=5",
-      "digestSkip": {
-        "at": "2026-10-23T01:15:00-03:00",
-        "reason": "repite una nota de la redacción (intercambio comercial de septiembre del INDEC)"
       }
     },
     {
@@ -62466,7 +63190,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-10-22T10:02:45Z"
+      "gnTried": "2026-10-23T10:00:25Z"
     },
     {
       "id": "portcastello-presenta-estrategia-para-albergar-hub-industrial-de-energia-eolica",
@@ -72949,7 +73673,7 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-10-23T02:01:40Z",
+    "ranAt": "2026-10-23T10:00:25Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
@@ -72965,7 +73689,7 @@
         "url": "https://www.aduananews.com/feed/",
         "ok": true,
         "items": 12,
-        "added": 0,
+        "added": 1,
         "updated": 0,
         "skipped": 2
       },
@@ -72974,16 +73698,16 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 7,
+        "added": 6,
         "updated": 0,
-        "skipped": 4
+        "skipped": 5
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 50,
-        "added": 1,
+        "items": 48,
+        "added": 0,
         "updated": 0,
         "skipped": 36
       },
@@ -72991,46 +73715,46 @@
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 56,
-        "added": 1,
+        "items": 54,
+        "added": 2,
         "updated": 0,
-        "skipped": 45
+        "skipped": 47
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 74,
+        "items": 72,
         "added": 4,
         "updated": 0,
-        "skipped": 43
+        "skipped": 39
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 51,
+        "items": 52,
         "added": 4,
         "updated": 0,
-        "skipped": 24
+        "skipped": 23
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
         "url": "https://news.google.com/rss/search?q=(aranceles+OR+%22guerra+comercial%22+OR+%22acuerdo+comercial%22)+when:1d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 68,
+        "items": 63,
         "added": 4,
         "updated": 0,
-        "skipped": 46
+        "skipped": 41
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 59,
+        "items": 63,
         "added": 4,
         "updated": 0,
-        "skipped": 22
+        "skipped": 31
       }
     ],
     "curatedDuplicates": [
@@ -73065,6 +73789,16 @@
         "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
       },
       {
+        "title": "Tras el brote de Newcastle en Brasil, Argentina reforzó los controles sanitarios y restringió importaciones",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdm54bVEwYWZSVGVzOHhQZHRKZVl2VlU4R3ktN2wyVkMwMlM1VHRyeUI4a25aV1VWUjJUWkNWODUzRW9FUi1OUThVdXM1OGxaRDhpUk4xd25VWFlVWTZGTmo0V2NmY2UwLTVBQ3pvZ2RDMVRMa0RnRHgtaDVNaEozQw?oc=5",
+        "curated": "senasa-newcastle-brasil-suspende-importaciones-zona-restriccion-santa-catarina"
+      },
+      {
+        "title": "Alerta avícola: se detectó en Brasil la Enfermedad de Newcastle y Senasa restringió importaciones",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdWI2ZlFGcG1YekRXLUFmS3dDanRZTmM0UmljdlJ1OXpMRjZ3c0JrMk9mejZud2tHN3E0Rng1X0tOLUM0UXV2SnVBSjNXSGxNWmJkU3piRFNZWWNSaEQzb1hrd1d0bXY5ald2MFVPZmFSaXJmVE1RbmFsWnFkcTB2VmQ2SmZaMk9lbHNiN2dmTTVNSmpScU84SmNISHZqdWFiVnNiMWVGNG9XUnlkYkVCZm5yUy1JTG1IdjRwWnQ4eXFGUjdK?oc=5",
+        "curated": "senasa-newcastle-brasil-suspende-importaciones-zona-restriccion-santa-catarina"
+      },
+      {
         "title": "Newcastle en Brasil: Argentina sube la guardia y restringe importaciones avícolas",
         "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQcTVBaXNQdnpwcUFaNVpWLThEMHdyaVZVbnFEWG5iOVlraDZuWnJWMEVHM1MyRzI2ZDlCYTd6ZkxoY05ZMHI1QmdOcXp5VnVra0EzWWNFcDAwb2s1UmprRjlPVDh1b2ZoOTc1alFCa21LMEljQl9uZC1VUXN5cTlXN1Ewb05EV1h3V1Z5eHBNS21pMS11UE5xaTc0RVppdWZqTDA4Yk9ISlQ3bjlVMEpsVmxHT0xwTjhoYnVCQldKWDNncWF3b0RYcWFQclVnLU1ISXptb3dUNm0?oc=5",
         "curated": "senasa-newcastle-brasil-suspende-importaciones-zona-restriccion-santa-catarina"
@@ -73072,6 +73806,11 @@
       {
         "title": "Newcastle en Brasil: Argentina restringe importaciones y refuerza controles avícolas",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMjhMT1JPQ1pVOG5HSEJRRDhMaVBxX3RVbVd4TmVnM1R3eHhXYWhGdF9QQi1zUnJhZDVEV1hvZjZRXzYtTk5RZmo5WWpzeVdNOEdaaU5qM2tuUnhqdDgxc1ZsSWRiNzBCWFBKQlN1Tzl2YkdjUl9LU2k5ZUxDQmxScnJwY1Y5emlMeHB1RVBFdWlEaUs4TUpHQWllZE1TQ2s5VUZjNGE0NlktVzA?oc=5",
+        "curated": "senasa-newcastle-brasil-suspende-importaciones-zona-restriccion-santa-catarina"
+      },
+      {
+        "title": "Tras la detección de una grave enfermedad en Brasil, Argentina suspendió las importaciones de carne aviar procedentes…",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQ3RIRHN1RkJIRUNLX0FFdWdTNW42MVFoci1GYlp4Z3NyQXk1SHJTTlkzUHE4QTRUdlBUd3hnR2V4bFBIQUVqSXBMeGZxQW5CQUx0TWZWZ2QtaTRjUHZDRVlueGhseUo2UUo3X2tCWWppR1ZQZFBvWEE3MllvNTZQcVVwV1FqTjIzc0dGTzV0NTd4Tl90d1pDQWpHQWxLT20tcFpjSDJXVkoxeVJabGxJT1k2SGR1UkFVS0lpWU5ueHJ1N3dZSGRrQUVuNzlFYWJpaXpTVFg0R0ZoRVE?oc=5",
         "curated": "senasa-newcastle-brasil-suspende-importaciones-zona-restriccion-santa-catarina"
       },
       {
@@ -73100,9 +73839,9 @@
         "curated": "senasa-newcastle-brasil-suspende-importaciones-zona-restriccion-santa-catarina"
       },
       {
-        "title": "México suspendió las importaciones avícolas de Brasil por un brote de Newcastle",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdi1rQ3JNVDJSNDJKc0otTUlMTDNqdzlNcHJfYTI1ZFVtaHIzOUpTWkZtQ0xsVWc1SEdOM1kzSzlCQ0FOaTctQVRQZk1YMld4T3Y5ZVllUE1HcGF3YlVsTFNZOG1vRUR5S1lUejRRZk1rVWc2LUN6cFFJUE9xWHhaamtvaW9MS3FpQnJMalJsejNjUEZRa0Q3X0NYWEY2NjBtWUZxai1ZRVAyOUxIWEtiM1VIb05rOTlwZGtHSml3T0pudmM1RHJwODBrYjMtZ9IB1gFBVV95cUxNZ214NzhBNVAxUUNMNktsVlNxZ2ppT0VrMUxKejRmZ2dTcG16RTMtQ0wzTWJncWtEejhpZFVSekxpa3l1XzI4ZFhtdFEzbC1KVm9wX2pWakhMV2NtS0pxZTltdC1BT3JRYkwtQTBDRUlnU3M1U20xN1hGNnV4a2wza1gweTVGUlY5dXI4bnN3S2RMVUQybm5leVB5dGMwamJfVGhPTlJ0YnNsVGFEc1pPUmZ2dEE2YWZhYm90R1NzUkVEWGpUak1PZzdWSTQ1V3A0MnNPanRn?oc=5",
-        "curated": "newcastle-santa-catarina-mexico-suspende-pollo-brasil-china-regionaliza"
+        "title": "Las exportaciones agroindustriales fueron récord en septiembre crecieron 17% en volumen",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNlpaLU9sSF9kMzZ5RHpqZ0RzZWNGbjNEOUJlYnlybE50bkZndmNJRVZBSF8yMzhQYW9RaFRVNHl3TzlGREVuRFBzcGVKU2s1ajgzbi1MZ1VXRmVWdXJBVU93MzdCelVRczRVazVYUzJRZnRoMy0yTjBMcjIzZk1oQnNvRUM5YXpJUEtIcmtEb0UxNlA0QzNjWVdHSGJqY2RoeGFjV3o2Z2p1ZlhkbWw1Ng?oc=5",
+        "curated": "exportaciones-agroindustriales-septiembre-2026-record-5654-millones-11-millones-toneladas"
       },
       {
         "title": "La participación de China en las exportaciones de carne vacuna argentina bajó al 50%",
@@ -73112,6 +73851,11 @@
       {
         "title": "Exportaciones agroindustriales récord en septiembre",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVEt5M1oyd092QV8wNE9xb1dvSVJIRFMyNXY4YUs5eDBSRHdCOE9DVHBfbkxOVER1c09Sd3UwYjdCd244R2swdzluN09lTUlmdFJFUDRTZUxrOVZYUlhLYlBTRV9aU21NNXBxVTJZV2s2Sk5TNG1aY2JuWGtMTVlpb1lNV3BqVnAwYkRwOG9n?oc=5",
+        "curated": "exportaciones-agroindustriales-septiembre-2026-record-5654-millones-11-millones-toneladas"
+      },
+      {
+        "title": "El Informe de las Exportaciones agroindustriales",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBYM3V2NGVIdjN4Qms5U2FGUHl1ZXNFWnRjRkNzaXZVT1pQUFNScXotdWFSSWxzQ2hkc3FCUU1EZWhqSllSMGUtWEphMVhET1F5NXhlYmJFTDZQSDF3UVdPaTMyd3JrVEhCZWNvbHJaVQ?oc=5",
         "curated": "exportaciones-agroindustriales-septiembre-2026-record-5654-millones-11-millones-toneladas"
       },
       {
@@ -73135,8 +73879,8 @@
         "curated": "exportaciones-agroindustriales-septiembre-2026-record-5654-millones-11-millones-toneladas"
       },
       {
-        "title": "Las exportaciones agroindustriales fueron récord en septiembre",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMkY1TzZSMUdZVzJET3ZJazdramYzVWlKd2Y2YnV2ZUpCYzUtN01lMGNjaWhLWWVGZHZjVjZGb3lxem8wUGVWbDN2VnNTRmVZSFIxV0ZKTFpvRnlyUDV5VDNOSV80Q1AwWGxpbWlHWFpvdlhOaE1yZU5uTVk3TGlZc3lBNmVnSWMyaldQbTRxLXVOa0ZSb29aZ0ZGOGNTRU9XQnc?oc=5",
+        "title": "La cadena agro industrial argentina reafirma su tendencia exportadora",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOeC0wMXR5R2hIWHdjS0l2ZEkyWVBOR3htMmVlWmtNY2ctV19iY0JBa1pfRmMtTkNpU2RJN09nSmotUTVYX251dDhpMGlEeC16OG9kQ2lfejc2X2w5amF0Mk8yTVpkRWNFVTFlOXhheUZKSmpEUktwZHVrdmJCMlRDVmt0a3NtQi1YZndRb1FuRjJ5al9DekY5emxEdmVhejJ6cUp4cFREbG1VUU4wc1d0TEh6TlU2SjN2UmhzdzhLQQ?oc=5",
         "curated": "exportaciones-agroindustriales-septiembre-2026-record-5654-millones-11-millones-toneladas"
       },
       {
@@ -73170,70 +73914,49 @@
         "curated": "exportaciones-agroindustriales-septiembre-2026-record-5654-millones-11-millones-toneladas"
       },
       {
-        "title": "Tras el brote de Newcastle en Brasil, Argentina reforzó los controles sanitarios y restringió importaciones",
-        "url": "https://misionesonline.net/2026/10/22/newcastle-brasil-argentina-controles/",
-        "curated": "senasa-newcastle-brasil-suspende-importaciones-zona-restriccion-santa-catarina"
-      },
-      {
-        "title": "Líneas navieras prevén 44 cancelaciones de itinerarios entre el 19 de octubre y el 22 de noviembre",
-        "url": "https://mundomaritimo.cl/noticias/lineas-navieras-preven-44-cancelaciones-de-itinerarios-entre-el-19-de-octubre-y-el-22-de-noviembre",
-        "curated": "indec-flete-importaciones-china-458-dolares-tonelada-sube-59-septiembre"
-      },
-      {
-        "title": "Alerta avícola: se detectó en Brasil la Enfermedad de Newcastle y Senasa restringió importaciones",
-        "url": "https://www.infocampo.com.ar/alerta-avicola-se-detecto-en-brasil-la-enfermedad-de-newcastle-y-senasa-restringio-importaciones/",
-        "curated": "senasa-newcastle-brasil-suspende-importaciones-zona-restriccion-santa-catarina"
-      },
-      {
-        "title": "El Informe de las Exportaciones agroindustriales",
-        "url": "https://ruralnet.com.ar/exportaciones-agroindustriales-2026-3/",
+        "title": "El agro argentino sumó casi US$ 5.000 millones en exportaciones, pero la soja perdió terreno",
+        "url": "https://www.agrolatam.com/argentina/actualidad/exportaciones-agroindustriales-argentina-septiembre-2026/",
         "curated": "exportaciones-agroindustriales-septiembre-2026-record-5654-millones-11-millones-toneladas"
       },
       {
-        "title": "Tras la detección de una grave enfermedad en Brasil, Argentina suspendió las importaciones de carne aviar procedentes…",
-        "url": "https://www.clarin.com/rural/deteccion-grave-enfermedad-brasil-suspenden-importaciones-carne-aviar-procedentes-zona-limitrofe_0_UOVYglUKez.html",
-        "curated": "senasa-newcastle-brasil-suspende-importaciones-zona-restriccion-santa-catarina"
-      },
-      {
-        "title": "Boom de Vaca Muerta: Argentina suma más divisas gracias a las exportaciones energéticas",
-        "url": "https://www.newsdigitales.com/nota/347893/boom-de-vaca-muerta-argentina-suma-mas-divisas-gracias-a-las-exportaciones-energeticas/",
+        "title": "Las importaciones se derrumban mientras el gobierno celebra exportaciones récord",
+        "url": "https://www.newsdigitales.com/nota/347887/las-importaciones-se-derrumban-mientras-el-gobierno-celebra-exportaciones-record/",
         "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "vaca-muerta-tiene-desarrollado-apenas-el-5-de-su-potencial-y-advierten-que-2030",
+        "main": "la-rioja-participara-del-primer-foro-federal-argentino-ue-mercosur-los-detalles",
         "merged": [
-          "ductos-y-exportaciones-rosen-advierte-sobre-los-nuevos-desafios-de-integridad-qu"
+          "oportunidades-para-salta-en-el-primer-foro-federal-argentino-mercosur-ue"
         ]
       },
       {
-        "main": "sna-alerta-que-aranceles-de-ee-uu-provocaran-perdidas-por-usd-800-millones-al-ag",
+        "main": "la-paradoja-del-dolar-se-aprecio-13-3-y-las-exportaciones-crecieron-23-5",
         "merged": [
-          "nuevos-aranceles-de-ee-uu-generaran-perdidas-por-800-millones-de-dolares-al-sect"
+          "la-paradoja-del-da-lar-se-aprecia-13-3-y-las-exportaciones-crecieron-23-5"
         ]
       },
       {
-        "main": "acuerdo-ue-mercosur-buscan-convertir-las-oportunidades-comerciales-en-empleo-e-i",
+        "main": "importaciones-via-courier-superan-los-u-s1-000-millones-en-2026",
         "merged": [
-          "salta-y-el-noa-ante-el-acuerdo-union-europea-mercosur",
-          "acuerdo-mercosur-union-europea-destacan-que-salta-tiene-una-oportunidad-historic"
+          "boom-de-compras-al-exterior-las-importaciones-via-courier-crecieron-59-5-en-lo-q"
         ]
       },
       {
-        "main": "hanwha-power-obtiene-la-aip-de-abs-para-un-portacontenedores-de-baterias-de-1-70",
+        "main": "volvo-cars-recorta-2-500-empleos-ante-los-aranceles-y-la-competencia-china",
         "merged": [
-          "hanwha-power-recibe-la-aprobacion-preliminar-de-abs-para-el-diseno-de-un-buque-p"
+          "volvo-recortara-2-500-empleos-mas-el-6-de-la-plantilla-por-la-caida-de-ventas-en"
         ]
       }
     ],
     "googleNews": {
-      "pending": 18,
+      "pending": 19,
       "resolved": 18,
       "withSummary": 13,
       "withPhoto": 0,
-      "failed": 0,
+      "failed": 1,
       "duplicates": 0
     }
   },
