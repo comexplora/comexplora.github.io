@@ -21,6 +21,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-24.04
+    outputs:
+      indexnow: ${{ steps.indexnow.outputs.payload }}
     steps:
       - name: Descargar el repositorio
         uses: actions/checkout@v6
@@ -47,6 +49,11 @@ jobs:
 
       - name: Generar páginas, sitemaps y RSS
         run: python scripts/build_pages.py
+
+      - name: Preparar aviso a buscadores (IndexNow)
+        id: indexnow
+        continue-on-error: true
+        run: python scripts/indexnow.py prepare
 
       - name: Guardar cambios en el repositorio
         run: |
@@ -79,7 +86,7 @@ jobs:
           mkdir -p _site
           rsync -a --exclude '.git' --exclude '.github' --exclude '_site' --exclude 'scripts' \
                    --exclude 'templates' --exclude '*.md' --exclude 'sources.json' \
-                   --exclude 'data/sources-status.json' ./ _site/
+                   --exclude 'data/sources-status.json' --exclude 'data/indexnow-state.json' ./ _site/
           touch _site/.nojekyll
 
       - name: Subir el sitio
@@ -97,3 +104,20 @@ jobs:
       - name: Publicar en GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+
+  # Avisa a Bing y a los demás buscadores de IndexNow las páginas nuevas o modificadas, recién publicadas.
+  indexnow:
+    needs: [build, deploy]
+    if: needs.build.outputs.indexnow != ''
+    runs-on: ubuntu-24.04
+    continue-on-error: true
+    steps:
+      - name: Avisar a buscadores
+        env:
+          PAYLOAD: ${{ needs.build.outputs.indexnow }}
+        run: |
+          printf '%s' "$PAYLOAD" > payload.json
+          code=$(curl -sS -o resp.txt -w '%{http_code}' -X POST -H 'Content-Type: application/json; charset=utf-8' \
+                 --data-binary @payload.json https://api.indexnow.org/indexnow)
+          echo "IndexNow respondió $code"; cat resp.txt || true
+          case "$code" in 200|202) ;; *) echo "::warning::IndexNow respondió $code";; esac

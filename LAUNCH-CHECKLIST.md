@@ -24,7 +24,7 @@ Hoy el sitio está en https://comexplora.github.io (repositorio `comexplora/come
 ## 3. Datos propios
 
 - [ ] Crear un correo con el dominio propio (por ejemplo `contacto@comexplora.com`) y cargarlo en `site.json` → `contactEmail`.
-- [ ] Cargar las redes sociales en `CONFIG.social` (`assets/app.js`) cuando existan.
+- [ ] Cargar las redes sociales en `site.json` → `redes` (y el LinkedIn personal en `responsable.linkedin`) cuando existan.
 - [ ] Revisar la Política de privacidad y los Términos (sección `PAGES` en `assets/app.js`).
 
 ## 4. Buscadores
@@ -32,6 +32,8 @@ Hoy el sitio está en https://comexplora.github.io (repositorio `comexplora/come
 - [ ] Google Search Console: verificar el dominio.
 - [ ] Enviar `https://comexplora.com/sitemap.xml` y `https://comexplora.com/news-sitemap.xml` (una vez conectado el dominio).
 - [ ] Inspeccionar la portada y una nota curada; validar el marcado `NewsArticle` con la prueba de resultados enriquecidos.
+- [ ] Bing Webmaster Tools (https://www.bing.com/webmasters): entrar con la cuenta de Google y elegir «Importar desde Google Search Console». Si se prefiere verificar a mano, pegar el código en `site.json` → `bingSiteVerification`. Con dominio propio, repetir con la dirección nueva.
+- [x] IndexNow: ya configurado (archivo de clave en la raíz y aviso automático después de cada publicación). Bing, Yandex, Seznam y Naver reciben las páginas nuevas sin esperar a recorrer el sitio. Con dominio propio funciona igual, sin cambios.
 - [ ] Probar cómo se ve un enlace compartido (por ejemplo, con el inspector de publicaciones de LinkedIn o el depurador de Facebook).
 
 ## Mantenimiento

@@ -928,7 +928,7 @@ function renderHome(){
   </section>
 
   <section class="sec" aria-labelledby="h-last" id="ultimas" tabindex="-1">
-    <div class="sec-h"><h2 id="h-last">Últimas noticias</h2><p>De la más reciente a la más antigua · ${plural(items.length,'noticia')} · las marcadas «Enlace al medio» abren el artículo original</p></div>
+    <div class="sec-h"><h2 id="h-last">Últimas noticias</h2><p>De la más reciente a la más antigua · ${plural(items.length,'noticia')} · los resúmenes de otros medios citan la fuente y enlazan al original</p></div>
     ${chronoList(latest)}
     ${state.listCount < items.length ? `<div class="more"><button class="btn" type="button" id="loadMore">Cargar más noticias (${items.length - state.listCount})</button></div>` : '<p class="note" style="text-align:center;margin-top:18px">Llegaste al final del archivo.</p>'}
   </section>`;
@@ -1187,12 +1187,12 @@ function renderGlosario(){
   $('#main').innerHTML = `<article class="article doc">
     <a class="btn sm" href="#inicio">${I.back}Volver a Noticias</a>
     <h1>Glosario de comercio exterior</h1>
-    <p class="lede">Siglas y términos técnicos que aparecen en las noticias. Dentro de cada nota, la primera vez que aparecen se marcan con un subrayado de puntos: pasá el mouse o tocalos para ver la explicación.</p>
+    <p class="lede">Siglas y términos técnicos que aparecen en las noticias. Dentro de cada nota, la primera vez que aparecen se marcan con un subrayado de puntos: pasá el mouse o tocalos para ver la explicación. Cada término tiene su página con una explicación ampliada, ejemplos y las noticias en las que aparece.</p>
     <div class="gl-tools"><label for="glQ" class="sr">Buscar en el glosario</label><input id="glQ" type="search" placeholder="Buscar un término (por ejemplo, FOB o percepción)" autocomplete="off">
       <nav class="gl-az" aria-label="Índice alfabético">${[...new Set(list.map(g => norm(g.term)[0].toUpperCase()))].map(l => `<a href="#gl-letra-${l}" data-gl-letter="${l}">${l}</a>`).join('')}</nav></div>
     <p class="note" id="glCount" role="status"></p>
     <dl class="gloss-list">${list.map((g, i) => { const l = norm(g.term)[0].toUpperCase(), first = i === 0 || norm(list[i - 1].term)[0].toUpperCase() !== l;
-      return `<div id="gl-${esc(slug(g.term))}"${first ? ` data-letter="${l}"` : ''} data-q="${esc(norm(g.term + ' ' + g.def))}"><dt>${esc(g.term)}</dt><dd>${esc(g.def)}</dd></div>`; }).join('')}</dl>
+      return `<div id="gl-${esc(slug(g.term))}"${first ? ` data-letter="${l}"` : ''} data-q="${esc(norm(g.term + ' ' + g.def))}"><dt>${CONFIG.prettyUrls ? `<a href="${sitePath()}/glosario/${esc(slug(g.term))}/">${esc(g.term)}</a>` : esc(g.term)}</dt><dd>${esc(g.def)}</dd></div>`; }).join('')}</dl>
   </article>`;
   $('#glQ').addEventListener('input', e => {
     const q = norm(e.target.value.trim()); let n = 0;
@@ -1294,7 +1294,7 @@ function tradePanel({ full = true } = {}){
   const ytd = t.summary.ytdLabel || '';
   return `<section class="trade" aria-labelledby="h-trade">
     <div class="sec-h"><h2 id="h-trade">Comercio exterior argentino en datos</h2>${full ? '' : `<a class="more-link" href="#datos">Panel completo →</a>`}</div>
-    <p class="note">Último dato: ${esc(monthLong(t.lastMonth))}. Fuente: <a href="${esc(t.sourceUrl)}" target="_blank" rel="noopener noreferrer">INDEC</a>. Exportaciones FOB e importaciones CIF, en millones de dólares. Variaciones contra el mismo período del año anterior.</p>
+    <p class="note">Último dato: ${esc(monthLong(t.lastMonth))}. Fuente: <a href="${esc(t.sourceUrl)}" target="_blank" rel="noopener noreferrer">INDEC</a>. Exportaciones FOB e importaciones CIF, en millones de dólares. Variaciones contra el mismo período del año anterior.${CONFIG.prettyUrls ? ` <a href="${sitePath()}/datos/intercambio-comercial/">Leer el informe de ${esc(monthLong(t.lastMonth))} →</a>` : ''}</p>
     ${tradeTiles(t)}
     ${tradeChartBlock(t)}
     ${full ? `<div class="tr-grid">
@@ -1339,7 +1339,7 @@ function renderFuentes(){
     <h1>Fuentes</h1>
     <p class="lede">Comexplora prioriza organismos oficiales, aduanas, organizaciones internacionales y medios especializados. Toda nota enlaza a su fuente original.</p>
     <h2>Fuentes que se consultan automáticamente</h2>
-    <p class="note">Un proceso lee estas fuentes cinco veces por día. Sus titulares se muestran marcados como «Enlace al medio» y llevan directamente al artículo original; no son notas de la redacción.</p>
+    <p class="note">Un proceso lee estas fuentes cinco veces por día. Cuando una de sus notas es relevante, se publica un resumen de redacción propia marcado como «Resumen», con el nombre del medio y el enlace al artículo original; las demás no se muestran.</p>
     <div id="ingest" aria-live="polite"><p class="note">Cargando el estado de las fuentes…</p></div>
     <h2>Fuentes citadas en el archivo</h2>
     <ul class="srcdir" style="grid-template-columns:repeat(auto-fill,minmax(min(240px,100%),1fr));display:grid">${usedList.map(([n, o]) => `<li><button class="btn sm" type="button" data-source="${esc(n)}" style="width:100%;justify-content:space-between;white-space:normal;text-align:left;gap:10px;min-width:0"><span style="min-width:0;overflow-wrap:anywhere">${esc(n)}</span><span class="mono">${o.n}</span></button><span>${esc(o.type || '')}</span></li>`).join('')}</ul>
@@ -1381,7 +1381,7 @@ const PAGES = {
     <h2>Carácter del contenido</h2>
     <p>El contenido de Comexplora es informativo y no constituye asesoramiento legal, aduanero, tributario ni financiero. Las calculadoras dan estimaciones orientativas. Antes de operar, verificá la normativa vigente en la fuente oficial y consultá con un despachante de aduana o un profesional.</p>
     <h2>Fuentes y derechos de terceros</h2>
-    <p>Las notas de la redacción son resúmenes de elaboración propia: los datos, cifras y declaraciones pertenecen a las fuentes citadas, que se identifican y enlazan en cada nota. Los titulares marcados como «Enlace al medio» reproducen el título y, cuando existe, el extracto que la propia fuente publica en su canal de difusión (RSS), siempre con su nombre, y llevan directamente al artículo original, como establece el artículo 28 de la Ley 11.723 para las noticias de interés general.</p>
+    <p>Las notas de la redacción son resúmenes de elaboración propia: los datos, cifras y declaraciones pertenecen a las fuentes citadas, que se identifican y enlazan en cada nota. Las notas marcadas como «Resumen» sintetizan con palabras propias, y en mucho menos extensión que el original, una noticia publicada por otro medio: identifican siempre al medio, conservan el título de la noticia y enlazan al artículo completo, como establece el artículo 28 de la Ley 11.723 para las noticias de interés general. No reproducen el texto ni las fotos de la fuente.</p>
     <p>Las imágenes son fotos de archivo de uso libre (Unsplash) o de dominio público (Wikimedia Commons), con crédito a su autor, o ilustraciones y gráficos propios del sitio. Las fotos de archivo son ilustrativas y no corresponden al hecho de la noticia. Los nombres y marcas de los medios y organismos citados pertenecen a sus titulares.</p>
     <h2>Pedidos de corrección o retiro</h2>
     <p>Si sos titular de derechos sobre algún contenido, o una nota te menciona y considerás que contiene un error, escribinos${SITECFG.contactEmail ? ` a <a href="mailto:${esc(SITECFG.contactEmail)}">${esc(SITECFG.contactEmail)}</a>` : ''} con el enlace a la nota. Revisamos cada pedido y, cuando corresponde, corregimos o retiramos el contenido.</p>
@@ -1389,7 +1389,7 @@ const PAGES = {
     <p>Podés compartir los enlaces a las notas libremente. Para reproducir los textos, gráficos o herramientas propias del sitio, citá a Comexplora con un enlace a la nota.</p>`],
   acerca: ['Sobre Comexplora', `<p>Comexplora es un portal de noticias, datos y análisis sobre comercio exterior, pensado para importadores, exportadores, despachantes de aduana, operadores logísticos y portuarios, estudiantes y docentes.</p>
     <h2>Criterios editoriales</h2><ul><li>Cada nota de la redacción se verifica contra su fuente original y la enlaza.</li><li>Los resúmenes son redacción propia; las cifras y declaraciones pertenecen a las fuentes.</li><li>Se distingue entre <b>noticias</b>, <b>análisis de terceros</b>, <b>datos</b> y <b>opinión</b>.</li><li>El bloque «Impacto en Argentina» solo aparece cuando la información disponible lo sustenta.</li><li>No se publican noticias sin título, fecha y fuente con enlace.</li></ul>
-    <h2>Cómo se actualiza</h2><p>La página lee un feed normalizado que puede alimentarse con APIs, RSS, una base de datos o webhooks, y lo vuelve a consultar cada ${CONFIG.refreshMinutes} minutos sin recargar. Un proceso automático consulta las fuentes varias veces por día; el encabezado muestra la hora de la última actualización. Los titulares marcados como «Enlace al medio» provienen del feed de la fuente, no tienen revisión editorial y abren el artículo original.</p>`]
+    <h2>Cómo se actualiza</h2><p>La página lee un feed normalizado que puede alimentarse con APIs, RSS, una base de datos o webhooks, y lo vuelve a consultar cada ${CONFIG.refreshMinutes} minutos sin recargar. Un proceso automático consulta las fuentes varias veces por día; el encabezado muestra la hora de la última actualización. Las notas marcadas como «Resumen» son síntesis propias de noticias de otros medios, con la fuente y el enlace al original.</p>`]
 };
 /* =====================================================================
    PÁGINAS EDITABLES DESDE site.json (contacto, quiénes somos, privacidad)
@@ -1415,7 +1415,7 @@ PAGES.acerca = ['Quiénes somos', `
   <h2>Criterios editoriales</h2>
   <ul>
     <li>Toda nota identifica su fuente y enlaza al artículo original. No se publican noticias sin título, fecha y fuente.</li>
-    <li>Los titulares marcados como «Enlace al medio» provienen del feed de la fuente, no tienen revisión editorial y abren el artículo original; los títulos se respetan tal como los publica cada medio.</li>
+    <li>Las notas marcadas como «Resumen» sintetizan con palabras propias una noticia de otro medio: indican el medio, respetan el título original y enlazan al artículo completo. Las cifras y declaraciones pertenecen a la fuente.</li>
     <li>Las notas de la redacción se verifican contra la fuente original y se enlazan a ella; cuando la información sale de una norma o de un dato oficial, se enlaza el documento oficial.</li>
     <li>Se distingue entre noticias, análisis de terceros, datos y opinión.</li>
     <li>Las calculadoras dan estimaciones orientativas: cada una cita las normas que usa y la fecha en que se revisaron.</li>
@@ -1808,6 +1808,20 @@ function renderGuide(g){
   setSEO({ title:`${g.title} · ${CONFIG.siteName}`, desc: g.desc, type:'article', crumbs:[['Guías','#guias'],[g.title]],
     ld: { '@type':'Article', headline: g.title, description: g.desc, inLanguage:'es-AR', dateModified: g.updated, author: { '@type':'Organization', name: CONFIG.siteName } } });
 }
+// Página con dirección y contenido propios generada por scripts/build_pages.py (SITE_DATA.page): el HTML es el mismo
+// que ven los buscadores sin JavaScript; acá solo se le suman el botón de volver y los metadatos.
+function renderOwnPage(pg){
+  if (!pg) return renderNotFound();
+  $('#main').innerHTML = `<article class="article doc own-page ${esc(pg.kind || '')}">
+    <a class="btn sm" href="${esc(pg.back?.[1] || '#inicio')}">${I.back}${esc(pg.back?.[0] || 'Volver a Noticias')}</a>
+    ${pg.eyebrow ? `<span class="eyebrow" style="display:block;margin-top:18px">${esc(pg.eyebrow)}</span>` : ''}
+    <h1>${esc(pg.h1)}</h1>
+    ${pg.lede ? `<p class="lede">${esc(pg.lede)}</p>` : ''}
+    ${pg.html}
+  </article>`;
+  setSEO({ title: pg.title, desc: pg.desc, url: CONFIG.canonicalBase ? `${CONFIG.canonicalBase}/${pg.canonical || pg.path}/` : undefined,
+    type: pg.ogType || 'website', crumbs: pg.crumbs, ld: pg.ld });
+}
 function renderPage(key){
   const [title, html] = PAGES[key];
   $('#main').innerHTML = `<article class="article doc"><a class="btn sm" href="#inicio">${I.back}Volver a Noticias</a><h1>${esc(title)}</h1><div class="prose">${html}</div></article>`;
@@ -1905,7 +1919,7 @@ addEventListener('resize', fitAsideSoon);
 /* =====================================================================
    13. ESTRUCTURA FIJA (encabezado, navegación, ticker, última hora, pie)
    ===================================================================== */
-const FOOT_FEED = 'Cada mañana la redacción verifica y resume las noticias más relevantes contra su fuente original. Además, cinco veces por día se suman titulares de medios especializados y se actualizan los indicadores de mercado.';
+const FOOT_FEED = 'Todos los días, a la mañana y a la tarde, la redacción publica notas propias verificadas contra sus fuentes originales. Cada pocas horas se suman resúmenes de lo que publican los medios especializados, y cinco veces por día se actualizan los indicadores de mercado.';
 function renderStatus(){
   const now = new Date();
   $('#today').textContent = cap(fmtDay.format(now));
@@ -2014,6 +2028,7 @@ function render(){
   else if (v === 'guide') renderGuide(guideBySlug(state.guideId));
   else if (v === 'agenda') renderAgenda();
   else if (v === 'glosario') renderGlosario();
+  else if (v === 'page') renderOwnPage(SITE_DATA.page);
   else if (v === 'story'){ const st = storyById(state.storyId); st ? renderStory(st) : renderNotFound(); }
   else if (PAGES[v]) renderPage(v);
   else if (v === 'notfound') renderNotFound();
@@ -2052,7 +2067,9 @@ function route(){
   if (!state.loaded){ state.view = 'loading'; return; }
   const m = location.pathname.match(/\/noticias\/([^/]+)\/?(?:index\.html)?$/);
   const rel = location.pathname.slice(sitePath().length).replace(/index\.html$/, '').replace(/^\/+|\/+$/g, '');
-  const staticHash = CONFIG.prettyUrls && !m ? hashFromPretty(rel) : null; 
+  // Páginas generadas con contenido propio (términos del glosario, informes de datos): SITE_DATA.page.
+  const ownPage = CONFIG.prettyUrls && !m && SITE_DATA.page && rel === SITE_DATA.page.path;
+  const staticHash = ownPage ? '__page' : CONFIG.prettyUrls && !m ? hashFromPretty(rel) : null;
   let path, params;
   if (staticHash && location.hash.length > 1 && location.hash !== '#main') {
     // Desde una página con dirección propia, los filtros y búsquedas vuelven a la portada.
@@ -2092,6 +2109,7 @@ function route(){
     state.filters = f; state.sort = params.get('orden') === 'fecha' ? 'fecha' : 'relevancia';
     state.view = viewFor(f);
   }
+  else if (path === '__page') state.view = 'page';
   else if (['datos','fuentes','guardadas','calculadora','exportacion','guias','agenda','glosario'].includes(path) || PAGES[path]) state.view = path;
   else if (path.startsWith('guia-') && guideBySlug(path.slice(5))){ state.view = 'guide'; state.guideId = path.slice(5); }
   else if (path.startsWith('hilo-') && storyById(path.slice(5))){ state.view = 'story'; state.storyId = path.slice(5); }
@@ -2245,7 +2263,7 @@ document.addEventListener('click', e => {
   }
   if (d.section) return go('#tema-' + d.section);
   if (d.q) return go(filterHash({ q: d.q, arg: d.arg || '' }));
-  const base = ['article','datos','fuentes','guardadas','notfound','agenda','glosario','story','calculadora','exportacion','guias','guide'].includes(state.view) || PAGES[state.view] ? emptyFilters() : state.filters;
+  const base = ['article','datos','fuentes','guardadas','notfound','agenda','glosario','story','calculadora','exportacion','guias','guide','page'].includes(state.view) || PAGES[state.view] ? emptyFilters() : state.filters;
   if (d.tag) return go(filterHash({ ...base, tag: d.tag }));
   if (d.country) return go(filterHash({ ...base, country: d.country }));
   if (d.region) return go(filterHash({ ...base, region: d.region }));
@@ -2316,7 +2334,7 @@ matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', paintThe
     if (added.length){
       added.forEach(i => state.newIds.add(i.id)); store.set('comex.seen', state.items.map(i => i.id));
       fillSelects();
-      const reading = ['article','calculadora','exportacion','guide'].includes(state.view);
+      const reading = ['article','calculadora','exportacion','guide','page'].includes(state.view);
       if (!reading) render(); else { renderStatus(); renderBreaking(); renderAside(); }
       toast(added.length === 1 ? 'Nueva noticia: ' + added[0].title.slice(0, 60) + (added[0].title.length > 60 ? '…' : '') : `${added.length} noticias nuevas`, { label:'Ver', run:() => goArticle(added[0].id) });
     } else { renderStatus(); renderTicker(); }

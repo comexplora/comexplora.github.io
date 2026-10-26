@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import email.utils
 import hashlib
+import math
 import html
 import json
 import os
@@ -85,6 +86,9 @@ def load_site_config():
     ver = str(cfg.get('googleSiteVerification') or '').strip()
     m = re.search(r'content=["\']([^"\']+)["\']', ver)   # acepta la etiqueta completa o solo el código
     cfg['googleSiteVerification'] = re.sub(r'[^A-Za-z0-9_\-]', '', m.group(1) if m else ver)
+    bing = str(cfg.get('bingSiteVerification') or '').strip()   # Bing Webmaster Tools (msvalidate.01)
+    m = re.search(r'content=["\']([^"\']+)["\']', bing)
+    cfg['bingSiteVerification'] = re.sub(r'[^A-Za-z0-9]', '', m.group(1) if m else bing)
     nl = cfg.get('newsletter') or {}
     cfg['newsletter'] = {k: str(nl.get(k) or '').strip() for k in ('formAction', 'url')
                          if str(nl.get(k) or '').strip().startswith('https://')}
@@ -254,6 +258,8 @@ def meta_block(*, title, desc, url, image, image_alt, og_type='website', robots=
     ]
     if SITECFG.get('googleSiteVerification'):
         lines.append(f'<meta name="google-site-verification" content="{esc(SITECFG["googleSiteVerification"])}">')
+    if SITECFG.get('bingSiteVerification'):
+        lines.append(f'<meta name="msvalidate.01" content="{esc(SITECFG["bingSiteVerification"])}">')
     ga = SITECFG.get('googleAnalyticsId')
     if ga:  # las páginas vistas se envían desde assets/app.js en cada cambio de sección
         lines.append(f'<script async src="https://www.googletagmanager.com/gtag/js?id={ga}"></script>')
@@ -263,6 +269,30 @@ def meta_block(*, title, desc, url, image, image_alt, og_type='website', robots=
         lines.append(extra)
     lines.append(f'<script type="application/ld+json" id="ld">{json_script(ld or {})}</script>')
     return '\n'.join(lines)
+
+
+def person_node():
+    """Responsable del sitio (site.json → responsable) para los datos estructurados: da autoría identificable al medio."""
+    r = SITECFG.get('responsable') or {}
+    if not r.get('nombre'):
+        return None
+    p = {'@type': 'Person', '@id': f'{SITE}/quienes-somos/#editor', 'name': r['nombre'], 'jobTitle': r.get('rol') or None,
+         'description': r.get('descripcion') or None, 'url': f'{SITE}/quienes-somos/',
+         'sameAs': [r['linkedin']] if str(r.get('linkedin', '')).startswith('https://') else None}
+    return {k: v for k, v in p.items() if v}
+
+
+def org_node():
+    o = {'@type': 'NewsMediaOrganization', '@id': f'{SITE}/#org', 'name': SITE_NAME, 'url': f'{SITE}/', 'logo': f'{SITE}/logo.png',
+         'description': 'Portal de noticias, datos y análisis sobre comercio exterior, con foco en Argentina y Latinoamérica.', 'inLanguage': 'es-AR',
+         'publishingPrinciples': f'{SITE}/quienes-somos/', 'correctionsPolicy': f'{SITE}/quienes-somos/',
+         'sameAs': [r['url'] for r in SITECFG.get('redes', [])] or None}
+    if SITECFG.get('contactEmail'):
+        o['email'] = SITECFG['contactEmail']
+    p = person_node()
+    if p:
+        o['founder'] = p
+    return {k: v for k, v in o.items() if v}
 
 
 def fmt_day(dt):
@@ -426,7 +456,10 @@ def tool_body(key, news, items, sitedata, base):
                        f'{(" · " + esc(d.get("period"))) if d.get("period") else ""}'
                        f'{(" · dato " + esc(d.get("frequency"))) if d.get("frequency") else ""} <small>Fuente: {esc(d.get("source"))}</small></li>'
                        for d in news.get('indicators', []))
-        return f'<h2>Indicadores</h2><ul class="pre-list">{rows}</ul>'
+        t = news.get('trade') or {}
+        rep = (f'<p><a href="{base}datos/intercambio-comercial/">Informe del intercambio comercial argentino de {month_long(t["lastMonth"])}</a>: '
+               'exportaciones, importaciones y saldo, por rubro, uso, destino y origen.</p>') if t.get('lastMonth') and t.get('summary') else ''
+        return f'{rep}<h2>Indicadores</h2><ul class="pre-list">{rows}</ul>'
     if key == 'glosario':
         terms = sorted(sitedata['glossary'], key=lambda t: norm(t[0]))
         return '<dl class="gloss-list">' + ''.join(f'<dt>{esc(t[0])}</dt><dd>{esc(t[2])}</dd>' for t in terms) + '</dl>'
@@ -458,10 +491,16 @@ def tool_body(key, news, items, sitedata, base):
     mail = SITECFG.get('contactEmail')
     mail_html = f'<a href="mailto:{esc(mail)}">{esc(mail)}</a>' if mail else ''
     if key == 'acerca':
+        r = SITECFG.get('responsable') or {}
+        person = (f'<h2>Quién está detrás</h2><p><b>{esc(r["nombre"])}</b>{(" · " + esc(r["rol"])) if r.get("rol") else ""}</p>'
+                  + (f'<p>{esc(r["descripcion"])}</p>' if r.get('descripcion') else '')
+                  + (f'<p><a href="{esc(r["linkedin"])}" rel="noopener">Perfil de LinkedIn</a></p>' if r.get('linkedin', '').startswith('https://') else '')
+                  ) if r.get('nombre') else ''
         return ('<p>Comexplora es un portal de noticias, datos y herramientas sobre comercio exterior, con foco en Argentina y Latinoamérica.</p>'
+                + person +
                 '<h2>Criterios editoriales</h2><ul>'
                 '<li>Toda nota identifica su fuente y enlaza al original; no se publican noticias sin título, fecha y fuente.</li>'
-                '<li>Las notas de la redacción se verifican contra la fuente original. Los titulares marcados como «Enlace al medio» provienen del feed de la fuente, no tienen revisión editorial y abren el artículo original.</li>'
+                '<li>Las notas de la redacción se verifican contra la fuente original. Las notas marcadas como «Resumen» sintetizan con palabras propias una noticia de otro medio, con la fuente y el enlace al original.</li>'
                 '<li>Las calculadoras dan estimaciones orientativas y citan las normas que usan, con su fecha de revisión.</li>'
                 '<li>Para pedir una corrección, escribinos con el enlace a la nota' + (f' a {mail_html}' if mail else '') + '.</li></ul>')
     if key == 'contacto':
@@ -563,6 +602,285 @@ TOOLS = {
 TOOLS_INDEXED = {'datos', 'agenda', 'glosario', 'calculadora', 'exportacion', 'guias', 'fuentes', 'acerca'}
 
 
+def crumb_abs(h, here):
+    """Miga de pan: '#glosario' → dirección propia; '' → la página actual."""
+    if not h:
+        return here
+    if h.startswith('#') and h[1:] in TOOL_PATHS:
+        return f'{SITE}/{TOOL_PATHS[h[1:]]}/'
+    return h if h.startswith('http') else f'{SITE}/{h.lstrip("/")}'
+
+
+def slugify(s):
+    return re.sub(r'^-|-$', '', re.sub(r'[^a-z0-9]+', '-', norm(s)))   # igual que slug() de assets/app.js
+
+
+def item_text_full(it):
+    return ' '.join([it.get('title') or '', it.get('summary') or ''] + [b for b in it.get('body') or [] if isinstance(b, str)])
+
+
+def note_list(lst, base):
+    return '<ul class="pre-list rel-notes">' + ''.join(
+        f'<li><a href="{base}noticias/{esc(i["id"])}/">{esc(i["title"])}</a><small>{fmt_day(item_dt(i))}</small></li>' for i in lst) + '</ul>'
+
+
+def glossary_pages(own, curated, keep):
+    """Una página por término del glosario (/glosario/<término>/): definición, explicación ampliada (details de
+    data/glossary.json), ejemplo, herramientas, notas de la redacción que lo mencionan y términos relacionados."""
+    g = json.loads((ROOT / 'data' / 'glossary.json').read_text(encoding='utf-8'))
+    terms, details = g.get('terms', []), g.get('details', {})
+    by_name = {t[0]: t for t in terms}
+    guides = {x['slug']: x for x in load_guides()}
+    out = []
+    for term, pat, definition in terms:
+        sl = slugify(term)
+        rel = f'glosario/{sl}/'
+        keep.add(('glosario', sl))
+        base = '../../'
+        d = details.get(term, {})
+        try:
+            rx = re.compile(r'(?<![0-9A-Za-zÀ-ÿ])(?:' + pat + r')(?![0-9A-Za-zÀ-ÿ])')
+            notes = [i for i in curated if rx.search(item_text_full(i))][:8]
+        except re.error:
+            notes = []
+        parts = []
+        if d.get('body'):
+            parts.append('<div class="prose">' + ''.join(f'<p>{esc(x)}</p>' for x in d['body']) + '</div>')
+        if d.get('example'):
+            parts.append(f'<div class="callout term-ex"><p><b>Ejemplo.</b> {esc(d["example"])}</p></div>')
+        tools = []
+        if d.get('calc') in ('calculadora', 'exportacion'):
+            name = 'Calculadora de costo de importación' if d['calc'] == 'calculadora' else 'Calculadora de exportación'
+            tools.append(f'<li><a href="{base}{TOOL_PATHS[d["calc"]]}/">{name}</a><small>Hacé la cuenta con tus números.</small></li>')
+        if d.get('guide') in guides:
+            gd = guides[d['guide']]
+            tools.append(f'<li><a href="{base}guias/{esc(gd["slug"])}/">{esc(gd["title"])}</a><small>Guía práctica</small></li>')
+        if d.get('data'):
+            tools.append(f'<li><a href="{base}datos/intercambio-comercial/">Intercambio comercial argentino</a><small>Último informe del INDEC, con gráficos</small></li>'
+                         if term == 'INDEC' else f'<li><a href="{base}datos/">Datos e indicadores</a><small>Último valor publicado, con su fuente</small></li>')
+        if tools:
+            parts.append('<h2>Para profundizar</h2><ul class="pre-list">' + ''.join(tools) + '</ul>')
+        if notes:
+            parts.append(f'<h2>{esc(term)} en las noticias</h2>' + note_list(notes, base))
+        see = [by_name[x] for x in d.get('see', []) if x in by_name]
+        if see:
+            parts.append('<h2>Términos relacionados</h2><ul class="pre-list term-see">' + ''.join(
+                f'<li><a href="{base}glosario/{slugify(t[0])}/">{esc(t[0])}</a><small>{esc(t[2])}</small></li>' for t in see) + '</ul>')
+        parts.append(f'<p class="note"><a href="{base}glosario/">Ver el glosario completo</a> · {len(terms)} términos de comercio exterior explicados en simple.</p>')
+        url = f'{SITE}/{rel}'
+        pg = {'kind': 'term', 'title': f'{term}: qué significa en comercio exterior · {SITE_NAME}', 'desc': definition,
+              'h1': term, 'eyebrow': 'Glosario de comercio exterior', 'lede': definition, 'html': ''.join(parts),
+              'crumbs': [['Glosario', '#glosario'], [term, '']], 'back': ['Glosario', '#glosario'], 'feed': notes or curated[:12]}
+        ld = {'@type': 'DefinedTerm', '@id': url, 'name': term, 'description': definition, 'url': url, 'inLanguage': 'es-AR',
+              'inDefinedTermSet': {'@type': 'DefinedTermSet', 'name': 'Glosario de comercio exterior', 'url': f'{SITE}/glosario/'}}
+        own(rel, pg, ld, crumb_html='<a href="../">Glosario</a>')
+        out.append((rel, max([item_dt(i).astimezone(TZ).date().isoformat() for i in notes[:1]] + [str(g.get('updated') or '2026-10-25')])))
+    return out
+
+
+MESES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre']
+MESES_C = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic']
+
+
+def month_long(m):
+    return f'{MESES[int(m[5:7]) - 1]} de {m[:4]}'
+
+
+def musd(v):
+    return 'USD\u00a0' + f'{v:,.0f}'.replace(',', '.') + '\u00a0M'
+
+
+def var_txt(v):
+    return 'sin cambios' if round(v, 1) == 0 else f'un {dec1(abs(v))} % {"más" if v > 0 else "menos"}'
+
+
+def dec1(v):
+    return f'{v:.1f}'.replace('.', ',')
+
+
+def pct(v):
+    return '' if v is None else (('+' if v > 0 else '') + f'{v:.1f}'.replace('.', ',') + ' %')
+
+
+def trade_chart(monthly):
+    """Barras de exportaciones e importaciones de los últimos 13 meses (SVG propio, colores del tema)."""
+    rows = monthly[-13:]
+    if len(rows) < 2:
+        return ''
+    W, H, L, B, T = 720, 270, 52, 34, 14
+    mx = max(max(r['expo'], r['impo']) for r in rows)
+    raw = mx / 5
+    mag = 10 ** math.floor(math.log10(raw))
+    tick = next(c * mag for c in (1, 2, 2.5, 5, 10) if c * mag >= raw)
+    nt = math.ceil(mx / tick)
+    top = tick * nt
+    cw = (W - L - 8) / len(rows)
+    bw = cw * .34
+    y = lambda v: T + (H - T - B) * (1 - v / top)
+    g = []
+    for k in range(nt + 1):
+        v = tick * k
+        g.append(f'<line x1="{L}" x2="{W - 4}" y1="{y(v):.1f}" y2="{y(v):.1f}" style="stroke:var(--viz-grid)"/>'
+                 f'<text x="{L - 6}" y="{y(v) + 4:.1f}" text-anchor="end" style="fill:var(--muted);font-size:11px">{f"{v:,.0f}".replace(",", ".")}</text>')
+    for n, r in enumerate(rows):
+        x = L + n * cw + cw * .14
+        lab = f'{MESES_C[int(r["m"][5:7]) - 1]} {r["m"][2:4]}'
+        g.append(f'<rect x="{x:.1f}" y="{y(r["expo"]):.1f}" width="{bw:.1f}" height="{y(0) - y(r["expo"]):.1f}" rx="2" style="fill:var(--viz-expo)"><title>{lab}: exportaciones {musd(r["expo"])}</title></rect>'
+                 f'<rect x="{x + bw + 2:.1f}" y="{y(r["impo"]):.1f}" width="{bw:.1f}" height="{y(0) - y(r["impo"]):.1f}" rx="2" style="fill:var(--viz-impo)"><title>{lab}: importaciones {musd(r["impo"])}</title></rect>'
+                 f'<text x="{x + bw + 1:.1f}" y="{H - 14}" text-anchor="middle" style="fill:var(--muted);font-size:11px">{lab}</text>')
+    legend = ('<p class="tr-legend"><span><i style="background:var(--viz-expo)"></i>Exportaciones</span>'
+              '<span><i style="background:var(--viz-impo)"></i>Importaciones</span> <small>Millones de dólares</small></p>')
+    return (f'<figure class="tr-svg"><svg viewBox="0 0 {W} {H}" role="img" aria-labelledby="trc-t" style="width:100%;height:auto;display:block">'
+            f'<title id="trc-t">Exportaciones e importaciones mensuales de la Argentina, últimos {len(rows)} meses</title>{"".join(g)}</svg>'
+            f'{legend}<figcaption class="note">Fuente: INDEC. La tabla con los valores está más abajo.</figcaption></figure>')
+
+
+def table(caption, head, rows):
+    return ('<div class="table-wrap" tabindex="0" role="region" aria-label="Tabla (se puede desplazar)"><table class="calc-table">'
+            f'<caption class="sr">{esc(caption)}</caption><thead><tr>' + ''.join(f'<th scope="col">{esc(h)}</th>' for h in head) + '</tr></thead><tbody>'
+            + ''.join('<tr><th scope="row">' + esc(r[0]) + '</th>' + ''.join(f'<td>{esc(c)}</td>' for c in r[1:]) + '</tr>' for r in rows)
+            + '</tbody></table></div>')
+
+
+def trade_story(t):
+    """Texto del informe armado solo con los datos del INDEC (nada estimado)."""
+    s, m = t['summary'], t['lastMonth']
+    prev = f'{MESES[int(m[5:7]) - 1]} de {int(m[:4]) - 1}'
+    ps = [f'En {month_long(m)} las exportaciones argentinas sumaron {musd(s["expo"])}'
+          + (f', {var_txt(s["expoChange"])} que en {prev}' if s.get('expoChange') is not None else '')
+          + f', y las importaciones {musd(s["impo"])}' + (f', {var_txt(s["impoChange"])}' if s.get('impoChange') is not None else '')
+          + f'. El saldo comercial fue {"superavitario" if s["saldo"] >= 0 else "deficitario"} en {musd(abs(s["saldo"]))}.']
+    mon = [r for r in t.get('monthly', []) if r['m'] <= m]
+    if len(mon) >= 12 and mon[-1]['m'] == m:
+        if s['expo'] >= max(r['expo'] for r in mon):
+            ps[0] += f' Es el mayor valor mensual de exportaciones de los últimos {len(mon)} meses.'
+        last12 = sum(r['expo'] for r in mon[-12:])
+        ps[0] += f' En los últimos doce meses las exportaciones suman {musd(last12)}.'
+    if s.get('expoYtd') is not None:
+        ps.append(f'En el acumulado de {s.get("ytdLabel", "el año")}, las exportaciones llegaron a {musd(s["expoYtd"])} ({pct(s.get("expoYtdChange"))}) '
+                  f'y las importaciones a {musd(s["impoYtd"])} ({pct(s.get("impoYtdChange"))}), con un saldo de {musd(s["saldoYtd"])}.')
+    ru = [r for r in t.get('rubros', []) if r.get('share') is not None]
+    if ru:
+        big = max(ru, key=lambda r: r['share'])
+        fast = max((r for r in ru if r.get('lastChange') is not None), key=lambda r: r['lastChange'], default=None)
+        low = lambda r: ('las ' if norm(r['name']).startswith('manufacturas') else 'los ') + r['name'][0].lower() + r['name'][1:]
+        txt = f'Por rubro, {low(big)} fueron el principal componente de las ventas externas, con el {dec1(big["share"])} % del acumulado'
+        if fast and fast is not big:
+            txt += f'; en el mes, el rubro que más creció fue el de {low(fast)[4:]} ({pct(fast["lastChange"])})'
+        ps.append(txt + '.')
+    us = [r for r in t.get('usos', []) if r.get('share') is not None and norm(r['name']) != 'resto']
+    if us:
+        big = max(us, key=lambda r: r['share'])
+        art = 'las' if norm(big['name']).startswith('piezas') else 'los'
+        ps.append(f'Del lado de las compras, {art} {big["name"][0].lower() + big["name"][1:]} '
+                  f'concentraron el {dec1(big["share"])} % de las importaciones acumuladas'
+                  + (f' y variaron {pct(big["lastChange"])} interanual en el mes.' if big.get('lastChange') is not None else '.'))
+    de, orr = t.get('destinos', [])[:3], t.get('origenes', [])[:3]
+    if de:
+        jy = lambda xs: ', '.join(xs[:-1]) + ' y ' + xs[-1] if len(xs) > 1 else ''.join(xs)
+        ps.append('Los principales destinos de las exportaciones en el año fueron ' + jy([f'{d["name"]} ({musd(d["ytd"])}, {pct(d.get("change"))})' for d in de])
+                  + ('; y los principales orígenes de las importaciones, ' + jy([f'{o["name"]} ({musd(o["ytd"])}, {pct(o.get("change"))})' for o in orr]) if orr else '') + '.')
+    return ''.join(f'<p>{esc(p)}</p>' for p in ps)
+
+
+def trade_pages(own, news, curated, keep):
+    """Informe del intercambio comercial argentino (INDEC): /datos/intercambio-comercial/ con el último mes y una página
+    fija por mes (/datos/intercambio-comercial/AAAA-MM/) a partir de las copias de data/trade-reports/. La copia del
+    último mes se reescribe en cada corrida (el INDEC puede revisar cifras); las anteriores quedan fijas."""
+    t = news.get('trade')
+    if not t or not t.get('summary') or not t.get('lastMonth'):
+        return []
+    arch = ROOT / 'data' / 'trade-reports'
+    arch.mkdir(exist_ok=True)
+    snap = {k: v for k, v in t.items() if k != 'checkedAt'}
+    f = arch / f'{t["lastMonth"]}.json'
+    old = json.loads(f.read_text(encoding='utf-8')) if f.exists() else {}
+    snap['savedAt'] = old.get('savedAt') if {k: v for k, v in old.items() if k != 'savedAt'} == snap else NOW.isoformat(timespec='seconds')
+    f.write_text(json.dumps(snap, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+    months = sorted((json.loads(f.read_text(encoding='utf-8')) for f in arch.glob('????-??.json')), key=lambda x: x['lastMonth'], reverse=True)
+    today = NOW.astimezone(TZ).date().isoformat()
+    nxt = sorted({(str(d['date']), d.get('url')) for i in curated for d in i.get('deadlines') or []
+                  if str(d.get('date', '')) >= today and 'INDEC' in d.get('label', '') and 'intercambio' in d.get('label', '').lower()})
+    related = [i for i in curated if i.get('story') == 'balanza-argentina'][:8]
+    out = []
+
+    def body(r, base, latest):
+        m = r['lastMonth']
+        s = r['summary']
+        ytd = s.get('ytdLabel', '')
+        mon = [x for x in r.get('monthly', []) if x['m'] <= m][-13:]
+        parts = [f'<div class="tr-kpis"><div><span>Exportaciones</span><b>{musd(s["expo"])}</b><small>{pct(s.get("expoChange"))} interanual</small></div>'
+                 f'<div><span>Importaciones</span><b>{musd(s["impo"])}</b><small>{pct(s.get("impoChange"))} interanual</small></div>'
+                 f'<div><span>Saldo</span><b>{musd(s["saldo"])}</b><small>{"Superávit" if s["saldo"] >= 0 else "Déficit"}</small></div></div>',
+                 '<div class="prose">' + trade_story(r) + '</div>',
+                 '<h2>Exportaciones e importaciones por mes</h2>', trade_chart(mon)]
+        if latest and nxt:
+            d, u = nxt[0]
+            dd = date.fromisoformat(d)
+            parts.append(f'<p class="note">Próximo informe del INDEC: {dd.day} de {MESES[dd.month - 1]} de {dd.year}'
+                         + (f' (<a href="{esc(u)}" rel="noopener">calendario oficial</a>)' if u else '') + '. Esta página se actualiza sola ese día.</p>')
+        parts.append(table('Exportaciones, importaciones y saldo por mes', ['Mes', 'Exportaciones', 'Importaciones', 'Saldo'],
+                           [[month_long(x['m']).capitalize(), musd(x['expo']), musd(x['impo']), musd(x['expo'] - x['impo'])] for x in reversed(mon)]))
+        def comp(title, lst, cap):
+            if not lst:
+                return ''
+            return (f'<h2>{title}</h2>' + table(cap, ['', 'En el mes', 'Var. i.a.', f'Acumulado', 'Var. i.a.', 'Part.'],
+                    [[x['name'], musd(x['last']) if x.get('last') is not None else '—', pct(x.get('lastChange')) or '—', musd(x['ytd']),
+                      pct(x.get('ytdChange') if 'ytdChange' in x else x.get('change')) or '—', (f'{x["share"]:.1f}'.replace('.', ',') + ' %') if x.get('share') is not None else '—'] for x in lst]))
+        parts.append(f'<p class="note">Acumulado: {esc(ytd)}. «Var. i.a.»: variación contra el mismo período del año anterior. «Part.»: participación en el total acumulado.</p>')
+        parts.append(comp('Exportaciones por rubro', r.get('rubros'), 'Exportaciones por rubro'))
+        parts.append(comp('Importaciones por uso económico', r.get('usos'), 'Importaciones por uso económico'))
+        parts.append(comp('Principales destinos de las exportaciones', r.get('destinos', [])[:10], 'Destinos'))
+        parts.append(comp('Principales orígenes de las importaciones', r.get('origenes', [])[:10], 'Orígenes'))
+        parts.append(comp('Exportaciones e importaciones por bloque', [dict(x, name='Exportaciones · ' + x['name']) for x in r.get('destinosBloques', [])]
+                          + [dict(x, name='Importaciones · ' + x['name']) for x in r.get('origenesBloques', [])], 'Bloques'))
+        if related:
+            parts.append('<h2>Notas sobre el intercambio comercial</h2>' + note_list(related, base))
+        if len(months) > 1:
+            parts.append('<h2>Informes anteriores</h2><ul class="pre-list">' + ''.join(
+                f'<li><a href="{base}datos/intercambio-comercial/{x["lastMonth"]}/">{month_long(x["lastMonth"]).capitalize()}</a></li>'
+                for x in months if x['lastMonth'] != m) + '</ul>')
+        parts.append(f'<h2>Fuente y método</h2><p>Datos del <a href="{esc(r.get("sourceUrl"))}" rel="noopener">INDEC</a> '
+                     f'({esc(r.get("source", ""))}), en {esc(r.get("units", "millones de dólares"))}. Se consultan automáticamente varias veces por día; '
+                     'el texto y los gráficos se arman solo con esas cifras, sin estimaciones. El INDEC puede revisar los datos de meses anteriores. '
+                     f'Ver también los <a href="{base}datos/">indicadores de comercio exterior</a> y qué es el <a href="{base}glosario/fob/">valor FOB</a> y el <a href="{base}glosario/cif/">valor CIF</a>.</p>')
+        return ''.join(parts)
+
+    def ld(r, url, title, desc):
+        return {'@type': 'Article', '@id': url, 'headline': title[:110], 'description': desc, 'url': url, 'inLanguage': 'es-AR',
+                'dateModified': r.get('savedAt') or NOW.isoformat(timespec='seconds'), 'author': {'@type': 'Organization', 'name': SITE_NAME, 'url': f'{SITE}/'},
+                'publisher': {'@type': 'NewsMediaOrganization', 'name': SITE_NAME, 'logo': {'@type': 'ImageObject', 'url': f'{SITE}/logo.png'}},
+                'about': {'@type': 'Dataset', 'name': 'Intercambio comercial argentino', 'url': r.get('sourceUrl'),
+                          'creator': {'@type': 'Organization', 'name': 'INDEC', 'url': 'https://www.indec.gob.ar/'}}}
+
+    latest = months[0]
+    for r in months:
+        m = r['lastMonth']
+        is_latest = r is latest
+        s = r['summary']
+        desc = (f'Exportaciones {musd(s["expo"])} ({pct(s.get("expoChange"))}), importaciones {musd(s["impo"])} ({pct(s.get("impoChange"))}) '
+                f'y saldo de {musd(s["saldo"])} en {month_long(m)}, según el INDEC: rubros, usos, destinos y orígenes, con gráficos.')
+        h1 = f'Intercambio comercial argentino: {month_long(m)}'
+        for rel, canonical in ([('datos/intercambio-comercial/', None)] if is_latest else []) + [(f'datos/intercambio-comercial/{m}/', f'{SITE}/datos/intercambio-comercial/' if is_latest else None)]:
+            hub = rel == 'datos/intercambio-comercial/'
+            if not hub:
+                keep.add(('datos/intercambio-comercial', m))
+            url = f'{SITE}/{rel}'
+            title = (f'Exportaciones e importaciones de la Argentina: {month_long(m)} (INDEC) · {SITE_NAME}' if not hub else
+                     f'Intercambio comercial argentino: exportaciones e importaciones por mes (INDEC) · {SITE_NAME}')
+            pg = {'kind': 'trade-report', 'title': title, 'desc': desc, 'h1': h1 if not hub else 'Intercambio comercial argentino',
+                  'eyebrow': 'Datos · INDEC' if hub else 'Informe mensual · INDEC',
+                  'lede': (f'Último dato: {month_long(m)}. ' if hub else '') + 'Exportaciones, importaciones y saldo comercial de la Argentina, con su apertura por rubro, uso económico, destino y origen.',
+                  'html': body(r, '../' * rel.count('/'), is_latest), 'back': ['Datos', '#datos'],
+                  'crumbs': [['Datos', '#datos'], ['Intercambio comercial', '' if hub else 'datos/intercambio-comercial/']] + ([] if hub else [[month_long(m).capitalize(), '']]),
+                  'feed': related or curated[:12]}
+            own(rel, pg, ld(r, url, pg['h1'], desc), og_type='article', canonical=canonical,
+                crumb_html=('<a href="../">Datos</a>' if hub else '<a href="../../">Datos</a> · <a href="../">Intercambio comercial</a>'))
+            if not canonical:
+                out.append((rel, r.get('savedAt') or f'{m}-28'))
+    return out
+
+
 def build_static_pages(template, news, items, bank, version, sitedata, tax):
     """Genera /seccion/<slug>/, /tema/<id>/ y las herramientas. Devuelve [(ruta, lastmod)] para el sitemap."""
     out, keep = [], set()
@@ -579,7 +897,8 @@ def build_static_pages(template, news, items, bank, version, sitedata, tax):
         url = f'{SITE}/{rel}'
         ld = {'@context': 'https://schema.org', '@graph': [
             {'@type': ld_type, 'name': title, 'description': desc, 'url': url, 'inLanguage': 'es-AR',
-             'isPartOf': {'@type': 'WebSite', 'name': SITE_NAME, 'url': f'{SITE}/'}},
+             'isPartOf': {'@type': 'WebSite', 'name': SITE_NAME, 'url': f'{SITE}/'},
+             **({'mainEntity': org_node()} if ld_type == 'AboutPage' else {})},
             {'@type': 'BreadcrumbList', 'itemListElement': [{'@type': 'ListItem', 'position': n + 1, 'name': c[0], 'item': c[1]}
                                                               for n, c in enumerate([('Inicio', f'{SITE}/')] + crumbs)]}]}
         meta = meta_block(title=f'{title} · {SITE_NAME}', desc=desc, url=url, image=OG_DEFAULT, image_alt=SITE_NAME,
@@ -629,7 +948,8 @@ def build_static_pages(template, news, items, bank, version, sitedata, tax):
         rel = f'{TOOL_PATHS[key]}/'
         feed_items = curated[:80] if key in ('agenda', 'datos', 'fuentes') else curated[:12]
         body = lambda base, key=key, title=title, desc=desc: static_article(title, desc, tool_body(key, news, items, sitedata, base), base=base)
-        ld_type = 'WebApplication' if key in ('calculadora', 'exportacion') else 'CollectionPage' if key == 'guias' else 'WebPage'
+        ld_type = ('WebApplication' if key in ('calculadora', 'exportacion') else 'CollectionPage' if key == 'guias'
+                   else 'AboutPage' if key == 'acerca' else 'ContactPage' if key == 'contacto' else 'WebPage')
         write(rel, page_for(rel, title, desc, body, feed_items, 'index,follow' if key in TOOLS_INDEXED else 'noindex,follow',
                             [(title, f'{SITE}/{rel}')], ld_type))
         if key in TOOLS_INDEXED:
@@ -657,12 +977,29 @@ def build_static_pages(template, news, items, bank, version, sitedata, tax):
                           bank=bank, version=version, base='../../', sitedata=gdata))
         out.append((rel, g.get('updated') or updated))
 
-    # Borra secciones, temas o guías que ya no existen
-    for folder in ('seccion', 'tema', 'guias'):
+    # Páginas con contenido propio (SITE_DATA.page): términos del glosario e informe del intercambio comercial
+    def own(rel, pg, ld_main, og_type='website', canonical=None, crumb_html=''):
+        base = '../' * rel.count('/')
+        url = f'{SITE}/{rel}'
+        crumbs = [('Inicio', f'{SITE}/')] + [(c[0], crumb_abs(c[1], url)) for c in pg['crumbs']]
+        ld = {'@context': 'https://schema.org', '@graph': [ld_main, {'@type': 'BreadcrumbList', 'itemListElement': [
+            {'@type': 'ListItem', 'position': n + 1, 'name': c[0], 'item': c[1]} for n, c in enumerate(crumbs)]}]}
+        meta = meta_block(title=pg['title'], desc=pg['desc'], url=canonical or url, image=OG_DEFAULT, image_alt=SITE_NAME,
+                          og_type=og_type, ld=ld, image_size=(1200, 630), base=base)
+        pg = dict(pg, path=rel.rstrip('/'), ld=ld_main, ogType=og_type, canonical=(canonical or url)[len(SITE) + 1:].rstrip('/'))
+        pre = static_article(pg['h1'], pg.get('lede', ''), pg['html'], crumb=crumb_html, base=base)
+        write(rel, render(template, meta=meta, prerender=lambda inner, pre=pre: pre, feed=feed_payload(news, pg.pop('feed', curated[:12])),
+                          bank=bank, version=version, base=base, sitedata=dict(sitedata, page=pg)))
+
+    out += glossary_pages(own, curated, keep)
+    out += trade_pages(own, news, curated, keep)
+
+    # Borra secciones, temas, guías o términos que ya no existen
+    for folder in ('seccion', 'tema', 'guias', 'glosario', 'datos/intercambio-comercial'):
         d = ROOT / folder
         if d.exists():
             for sub in d.iterdir():
-                if sub.is_dir() and (folder, sub.name) not in keep and not (folder == 'guias' and sub.name == 'index.html'):
+                if sub.is_dir() and (folder, sub.name) not in keep:
                     shutil.rmtree(sub)
     return out
 
@@ -704,8 +1041,7 @@ def main():
 
     # Portada
     org_ld = {'@context': 'https://schema.org', '@graph': [
-        {'@type': 'NewsMediaOrganization', '@id': f'{SITE}/#org', 'name': SITE_NAME, 'url': f'{SITE}/', 'logo': f'{SITE}/logo.png',
-         'description': 'Portal de noticias, datos y análisis sobre comercio exterior, con foco en Argentina y Latinoamérica.', 'inLanguage': 'es-AR'},
+        org_node(),
         {'@type': 'WebSite', '@id': f'{SITE}/#web', 'name': SITE_NAME, 'url': f'{SITE}/', 'inLanguage': 'es-AR', 'publisher': {'@id': f'{SITE}/#org'},
          'potentialAction': {'@type': 'SearchAction', 'target': f'{SITE}/#buscar?q={{q}}', 'query-input': 'required name=q'}}]}
     # Feed embebido: primero las curadas recientes (así la portada arma su jerarquía antes de leer latest.json).
