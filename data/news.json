@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-10-26T18:02:47Z",
+  "updatedAt": "2026-10-26T21:58:33Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -134,20 +134,16 @@
     {
       "id": "tc-mayorista",
       "label": "Tipo de cambio mayorista ARS/USD",
-      "value": "$ 1.528,26",
-      "period": "Com. A 3500 · 23 oct 2026",
+      "value": "$ 1.540,48",
+      "period": "Com. A 3500 · 26 oct 2026",
       "source": "BCRA",
       "url": "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp",
       "group": "Mercados",
-      "obsDate": "2026-10-23",
-      "change": "0,0% vs. día hábil anterior",
-      "trend": "flat",
-      "checkedAt": "2026-10-26T18:03:55Z",
+      "obsDate": "2026-10-26",
+      "change": "+0,8% vs. día hábil anterior",
+      "trend": "up",
+      "checkedAt": "2026-10-26T21:59:12Z",
       "history": [
-        [
-          "2026-09-11",
-          1509.9074
-        ],
         [
           "2026-09-14",
           1510.3215
@@ -263,11 +259,15 @@
         [
           "2026-10-23",
           1528.263
+        ],
+        [
+          "2026-10-26",
+          1540.4751
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-26T18:03:55Z"
+      "lastAttempt": "2026-10-26T21:59:12Z"
     },
     {
       "id": "soja",
@@ -284,7 +284,7 @@
         "date": "2026-10-23",
         "ars": 555000.0
       },
-      "checkedAt": "2026-10-26T18:03:56Z",
+      "checkedAt": "2026-10-26T21:59:12Z",
       "_prev": {
         "date": "2026-10-22",
         "ars": 550000.0
@@ -353,7 +353,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-26T18:03:56Z"
+      "lastAttempt": "2026-10-26T21:59:12Z"
     },
     {
       "id": "brent",
@@ -366,7 +366,7 @@
       "obsDate": "2026-10-20",
       "change": "-3,0% vs. día anterior",
       "trend": "down",
-      "checkedAt": "2026-10-26T18:03:58Z",
+      "checkedAt": "2026-10-26T21:59:15Z",
       "history": [
         [
           "2026-09-09",
@@ -491,7 +491,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-10-26T18:03:58Z"
+      "lastAttempt": "2026-10-26T21:59:15Z"
     },
     {
       "id": "maiz",
@@ -508,7 +508,7 @@
         "date": "2026-10-23",
         "ars": 278250.0
       },
-      "checkedAt": "2026-10-26T18:03:58Z",
+      "checkedAt": "2026-10-26T21:59:15Z",
       "_prev": {
         "date": "2026-10-22",
         "ars": 278000.0
@@ -577,7 +577,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-26T18:03:58Z"
+      "lastAttempt": "2026-10-26T21:59:15Z"
     },
     {
       "id": "trigo",
@@ -594,7 +594,7 @@
         "date": "2026-10-23",
         "ars": 326900.0
       },
-      "checkedAt": "2026-10-26T18:03:58Z",
+      "checkedAt": "2026-10-26T21:59:15Z",
       "_prev": {
         "date": "2026-10-22",
         "ars": 326600.0
@@ -663,10 +663,773 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-26T18:03:58Z"
+      "lastAttempt": "2026-10-26T21:59:15Z"
     }
   ],
   "items": [
+    {
+      "id": "la-provincia-autorizo-un-aumento-en-los-aranceles-de-los-colegios-privados-a-cua",
+      "datetime": "2026-10-26T21:54:32Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "La Provincia autorizó un aumento en los aranceles de los colegios privados: a cuánto se van las cuotas",
+      "summary": "La Asociación de Institutos de Enseñanza Privada de Argentina (AIEPA) confirmó la actualización autorizada por el gobierno provincial.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Tratados y acuerdos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "La Nueva Provincia",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.lanueva.com/nota/2026-10-26-17-53-0-la-provincia-autorizo-un-aumento-en-los-aranceles-de-los-colegios-privados-a-cuanto-se-van-las-cuotas",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-26T21:58:33Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOX0RaWnNaMy1vYTZ2SHRwdUtFRlpKaTdYRkFoMk52WXEwSGRLUzdvUmZSVUV2Y1VFaG9oN1JBcmtYMTZ5Nzd1QmczU19XaFBKSlR0SHhpNVpCeTJ3S21Gd2l2OFlYYlk1cWphMkNxdndlTVJ5WV96SWYwV3V6QmRtUVQwYmR6cnlUWm05c0t4SVlkZzZsZXV3RVg2OFl5ZG9xY0tGMEpRVXFTYzYzV1gzOXZ2V1VYdUgyTjZhdzV6Q1ZyS3k1b1hPTE82NWVKZlZYV1Qway0xMV93WThaZWFPMDVUZw?oc=5"
+    },
+    {
+      "id": "venezuela-recinto-portuario-de-puerto-cabello-moderniza-su-infraestructura-logis",
+      "datetime": "2026-10-26T21:46:26Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "Venezuela: Recinto portuario de Puerto Cabello moderniza su infraestructura logística con sistema TOS de Atlasoft",
+      "summary": "El recinto portuario de Puerto Cabello modernizó y fortaleció su infraestructura logística del principal complejo marítimo…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Transporte marítimo",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Venezuela"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/venezuela-recinto-portuario-de-puerto-cabello-moderniza-su-infraestructura-logistica-con-sistema-tos-de-atlasoft/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "zim-incluye-al-puerto-de-houston-en-itinerario-de-su-servicio-venezuela-line",
+      "datetime": "2026-10-26T21:30:49Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "Zim incluye al Puerto de Houston en itinerario de su servicio Venezuela Line",
+      "summary": "La naviera ZIM informó la inclusión de una nueva recalada en su servicio Venezuela Line (VEL).",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Venezuela"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/zim-incluye-al-puerto-de-houston-en-itinerario-de-su-servicio-venezuela-line/",
+          "primary": true,
+          "author": "Gabriel"
+        }
+      ]
+    },
+    {
+      "id": "trump-preve-alcanzar-pronto-un-pacto-comercial-con-canada-tras-disputa-arancelar",
+      "datetime": "2026-10-26T21:23:06Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "Trump prevé alcanzar pronto un pacto comercial con Canadá tras disputa arancelaria",
+      "summary": "Donald Trump aseguró que Estados Unidos y Canadá podrían alcanzar pronto un pacto comercial tras meses de tensiones por los aranceles",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Estados Unidos",
+        "Canadá"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Ahora Tabasco Noticias",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://ahoratabasco.com/trump-preve-alcanzar-pronto-un-pacto-comercial-con-canada-tras-disputa-arancelaria/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-26T21:58:33Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOREFTWjlEeHlVTWNNMzB2MFVrbmJ6WWhKSW0xSG95cU01NW5lYkxneW10YUU5dDlpeDVyd195X3pkYXVXNzBvNGtXX0JYQlFHYXpkMmpMWlRmaVFpN1F0cGJlWHVPbnBpSVFnN2hnaW9qQlpjVkFUdWpweGktZzFpMWV2czg2anZJMzdvVF9HUmJhUGZzdnhVdWNuMXh3MVlzTnlTdHFmZWVWcnB0?oc=5"
+    },
+    {
+      "id": "paraguay-suma-a-mexico-como-destino-para-exportaciones-de-carne-bovina",
+      "datetime": "2026-10-26T21:21:46Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "Paraguay suma a México como destino para exportaciones de carne bovina",
+      "summary": "Paraguay sumó a México como nuevo destino para sus exportaciones de carne bovina…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Paraguay",
+        "México"
+      ],
+      "tags": [
+        "Carne"
+      ],
+      "visual": "livestock",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/paraguay-suma-a-mexico-como-destino-para-exportaciones-de-carne-bovina/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "mas-alla-de-los-aranceles-al-arroz",
+      "datetime": "2026-10-26T21:10:05Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "Más allá de los aranceles al arroz",
+      "summary": "La eliminación de los aranceles al arroz estadounidense no es el único desafío que enfrenta el Gobierno en las relaciones comerciales con la",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "El Nacional — La voz de todos",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://elnacional.com.do/opinion/alla-aranceles-arroz_584547.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-26T21:58:33Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1BSW5abGwxclVDUTBmUE9VYUdUYjU0ejk0OEpRZXdjRDdjc19KMGswbHRDcS1yalhJX2hubHNYRm53Q29wSk9TZ093UVdGZVl0eDgySXZwM0VvNzJoT1N1YmZPNUNEN0dPcFd0aFZFNG9tR2lw0gF6QVVfeXFMUF95N0RDMjJHMUl5RTZZS0VRMHUtMFZ5V05VZExLWWZndVA5NFhsMENqdW1JQ2NieEtjekNRaF82OFZNUHNFSW1Cc1FaUVVfWEU1QWoyYWxob0lFTmVUQ0NUY20zdGROVllPbU12bXkxdGVCU3RSNGFjWlE?oc=5"
+    },
+    {
+      "id": "trump-preve-acuerdo-comercial-con-canada-en-el-corto-plazo",
+      "datetime": "2026-10-26T20:54:08Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "Trump prevé acuerdo comercial con Canadá en el corto plazo",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Estados Unidos",
+        "Canadá"
+      ],
+      "tags": [
+        "Estados Unidos"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Tabasco HOY",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.tabascohoy.com/trump-preve-acuerdo-comercial-con-canada-en-el-corto-plazo/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-26T21:58:33Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVktpTXl3ZlVTUzBaVXB5em82cERIRWduUWMwNXFrMEdjZWtzUlBKS0pfUWdSZ05uR190TTJrYjZKaENDckhpQU5YMnVrSkxpQUNjSVEwS0U2WTd6OEV6QTlUMWtQY2lad1FhaVQ2N25MUV9LYThWVFBKSlVvSkh0bEZocjRSWDVzeC1vdE1fRQ?oc=5"
+    },
+    {
+      "id": "uatre-y-las-entidades-del-agro-debatiran-como-vincular-el-empleo-registrado-con",
+      "datetime": "2026-10-26T20:19:24Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "UATRE y las entidades del agro debatirán cómo vincular el empleo registrado con las exportaciones",
+      "summary": "La organización que conduce José Voytenco y la plataforma VISEC convocaron a una jornada con referentes del sector para analizar las exigencias laborales y ambientales de la Unión Europea. El encuentro se realizará el 29 de octubre en la Bolsa de Cereales de Buenos Aires.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Agro"
+      ],
+      "visual": "agro",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Radio Mitre",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://radiomitre.cienradios.com/sociedad/uatre-y-las-entidades-del-agro-debatiran-como-vincular-el-empleo-registrado-con-las-exportaciones/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-26T21:58:33Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQV1k2Z3ZmZWc4Q1ZZemo1eWwzSmlTRG8xbWlVNTVuRHU5Tk5hMXhKaGc1bmo3emtidGtYTkFFZEc4Tjhtb1RFamY2REI3SXJ1WEh6T2dDT28tM0Rxc1BtSUt4QU5yX0RERlRWVUNETngyWVk5QUdub05FUm1ESE1MQXcwWFN2Y0M4ZTZMTTZYNlJNczA5MTJ1LXhpTzNWVG9kbTRPU1c3UnBMaTZ3eS16aUtmTEs5d3ZOcmRaTkVNVG9ScGVNSk55bWJueG5BbHc2bUxWMzFwNWY?oc=5"
+    },
+    {
+      "id": "brasil-consorcio-de-empresas-construira-nuevos-muelles-para-graneles-liquidos-en",
+      "datetime": "2026-10-26T20:00:56Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "Brasil: Consorcio de empresas construirá nuevos muelles para graneles líquidos en Puerto de Santos",
+      "summary": "Un consorcio compuesto por Ultracargo, Stolthaven Terminals, Granel Química y Vopak firmó un contrato con la…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Brasil"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/brasil-consorcio-de-empresas-construira-nuevos-muelles-para-graneles-liquidos-en-puerto-de-santos/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "el-triunfo-de-lula-sacude-los-mercados-como-impacta-en-argentina-para-turismo-y",
+      "datetime": "2026-10-26T19:35:34Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "El triunfo de Lula sacude los mercados: cómo impacta en Argentina para turismo y exportaciones",
+      "summary": "La victoria del presidente brasileño provocó caídas en las acciones y una depreciación del real de cerca del 10%. Federico Servideo, de la Cámara de Comercio Argentino-Brasileña, advirtió a Cadena 3 sobre el impacto bilateral.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Cadena 3 Argentina",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.cadena3.com/noticia/elecciones-en-brasil-2026/el-triunfo-de-lula-sacude-los-mercados-como-impacta-en-argentina-para-turismo-y-exportaciones_607263",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-26T21:58:33Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNTTlfZFNBQVN3ek55cjhxakRDMEdZUXdCVmNZRkQtN1hzMzJISmswcnpHbHh5LXdJaW9XdERHZDVDaGFScEw0U3gxVXZiOXFmUWdEUjdtN0FCM1A2TzJwbDNYUzZyNXR2Ymk3M3BNaE9DVTJLZXpwaFhJRnIyTG9HM0tmcVAwU0IwOHhBSzAxRlFUSmhnLTB5bWV3RGNiZVlCQ2lxQ2g0bUxFdTQxYkt6OGhOT19vbVdsejlmeWE3cEVoWGRNRWpPMG5lRGdLdmZtb2d2Q0FhWmhhNmFCb3d5elhpR283a095dmNZVDkyQQ?oc=5"
+    },
+    {
+      "id": "de-jugador-regional-a-internacional-volkswagen-camiones-y-buses-celebra-45-anos",
+      "datetime": "2026-10-26T19:32:23Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "De jugador regional a internacional: Volkswagen Camiones y Buses celebra 45 años de exportaciones mientras consolida su operación en Argentina",
+      "summary": "Volkswagen Camiones y Buses atraviesa en 2026 un año marcado por varios hitos dentro de su estrategia de expansión internacional. La compañía cumple 45",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "truck",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "camionesybuses.com.ar",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.camionesybuses.com.ar/de-jugador-regional-a-internacional-volkswagen-camiones-y-buses-celebra-45-anos-de-exportaciones-mientras-consolida-su-operacion-en-argentina-202618165/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-26T21:58:33Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOeDctTnNsaVd1dzhNQUFmLWdENnMtcVpWdkN6bXg3RzBacG1aWEg3TXB3cTdHWXRmLVBqc2UxeUg3Y3NBNTJaWXdtSDIzRVFoNm5pY2NiOUxMRXBaeF9rajR5QmRiYlNlSEh3QUpzSzNoaGNzd01vVkNmSDFjYmwwOWotRExWZjBlb0JxV3VQWDlnZ0tIN2hrOTItX1BLc3pzMjBRQnRYR2VLNUpscXZYNGY3MVp3M2lta0VaNUJSTGJCQkVsNWhVQjVCSzhtZXFfM3M1T29vWXhGMi1YMllMdFNqMmwxZ01PZUVhUzJ2bDhrbDdzZVNhNVlvRGJscnFUNlRwbE9MRlkzSmVDY1ZLUEdPQnc?oc=5"
+    },
+    {
+      "id": "suspenden-sesion-del-comite-de-ministros-que-revisaria-reclamos-contra-rca-favor",
+      "datetime": "2026-10-26T19:30:08Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "Suspenden sesión del Comité de Ministros que revisaría reclamos contra RCA favorable del Puerto Exterior San Antonio",
+      "summary": "El Servicio de Evaluación Ambiental (SEA) suspendió la sesión ordinaria del Comité de Ministros, programada para…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/suspenden-sesion-del-comite-de-ministros-que-revisaria-reclamos-contra-rca-favorable-del-puerto-exterior-san-antonio/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "la-balanza-comercial-argentina-con-saldo-positivo-de-usd-2-976-millones-la-mas-a",
+      "datetime": "2026-10-26T19:29:31Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "La balanza comercial argentina con saldo positivo de USD 2.976 millones, la más alta desde 1993",
+      "summary": "El petróleo crudo se consolidó como el producto individual más vendido con USD 7.753 millones, seguido por el complejo sojero en la medición por sectores. En el mapa de destinos, Estados Unidos desplazó a China y se ubicó en el segundo lugar detrás de Brasil.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Economía internacional"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "chart",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "La Opinión Austral",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://laopinionaustral.com.ar/argentina/la-balanza-comercial-argentina-con-saldo-positivo-de-usd-2-976-millones-la-mas-alta-desde-1993-723741.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-26T21:58:33Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZnZPZzlwS24wTWpReGU2dGpvRk9aUGs5cWJvc0NGa1pVbVlUblZsTTA4U0pZaDBlMnVBXzdkT3NJQnc2YmZkeFhMZDkyMUctUFA2VDBWQm9OY3ZBMDhVLWx6MmdDSHNRRDY3YWY4VE9qS2hYQmRNZDZQX0d5cGs5N3VrV2ZjQld6dGl3US16SWdjOTRkcWZ2WTZnYUtld0N4SEFib2FuQW1FYkR5cWdsNV9ybkN5S0ZFNm5VekJ1WDNPQWVQS2FrQy0zQ3hCalh0aTNRWW1USHFzUUx2VU5JYlV3?oc=5"
+    },
+    {
+      "id": "el-mein-shiff-3-colisiona-con-dos-portacontenedores-cuando-viajaba-a-las-islas",
+      "datetime": "2026-10-26T19:24:49Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "El Mein Shiff 3 colisiona con dos portacontenedores cuando viajaba a las islas",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Contenedores"
+      ],
+      "visual": "container",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Noticias Fuerteventura",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.noticiasfuerteventura.com/canarias/el-mein-shuiff-3-colisiona-con-dos-portacontenedores-cuando-viajaba-a-las-islas",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-26T21:58:33Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPc1dIekl3dXhyZlh2X1hrVnZfNEFHNjZ5M1ZsM1NHNDl6TVF2Q2thcnVWOEN3S3h4SGY1eGJxNEh6TVlOcFZfeElmb1NGVmdKNW0xcWZwVExNXzBEbXhyMzdaRlItVGRPWVNJcTQ4WU9iQVNKZkdhTEhmQ2N4Wld6YWF6X2p1Qk9VbERVVzBtRnNSbDNQcG1LVFNmZ0lRcXU3YnBqbjZPQlpvS2tzVTRVSGk2NkRVZWhEUC1VbUo4SWY4N295?oc=5"
+    },
+    {
+      "id": "america-latina-aumenta-notablemente-su-capacidad-naviera",
+      "datetime": "2026-10-26T19:13:01Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "América Latina aumenta notablemente su capacidad naviera",
+      "summary": "La capacidad naviera de América Latina con nuevos buques, implica que el transporte marítimo aumente el comercio en la región.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Ciudad Valencia",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.ciudadvalencia.com.ve/america-latina-aumenta-notablemente-capacidad-naviera/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-26T21:58:33Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcWRiLUlTZFFzU01DRUZraTR5RlRzc3JHQlhpcVhFbFFHTmhUbWxqbnRnUHRmb0t4QlV0ckNjZnJWVmg1ZmdRdi1ZZGlPbnVfLWhxNlc5UWZKeEwwX0tMS1phdVd6TlhLQjU5Zmo3T0g0aTRpSEM2SWRaUy1QY19RcVRuaFdVcVE2UmFBeG1kc0RMUQ?oc=5"
+    },
+    {
+      "id": "brasil-antaq-publica-licitacion-para-primera-subasta-de-terminal-de-contenedores",
+      "datetime": "2026-10-26T19:00:14Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "Brasil: Antaq publica licitación para primera subasta de terminal de contenedores en más de diez años",
+      "summary": "La Agencia Nacional de Transportes Acuáticos (Antaq) de Brasil publicó en el Diario Oficial de la…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Brasil"
+      ],
+      "tags": [],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/brasil-antaq-publica-licitacion-para-primera-subasta-de-terminal-de-contenedores-en-mas-de-diez-anos/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "unlu-y-aduana-argentina-capacitaran-sobre-el-programa-operador-economico-autoriz",
+      "datetime": "2026-10-26T18:57:46Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "UNLU y Aduana Argentina capacitarán sobre el programa \"Operador Económico Autorizado\"",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Aduanas"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 2,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Campana Noticias",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://m.campananoticias.com/noticia/96582/unlu-y-aduana-argentina-capacitaran-sobre-el-programa-operador-economico-autorizado",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-26T21:58:33Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSzdlMXBYZWpVd3ZuZVByZFQ3cWNvZUJQZlA5Y2ZNYVlXZmxOd0M4RnpFRzlISTI5Sl9rTG9FdHk1aW1COVhVamw1bDNLczZtLTNFOXpfcnk2UktTMnBrdDhleVl5VjFtRGt4Z21wYUtNT182bTFOdzdIUUxOdnRHbXNZZ3FPdmdxUUJIRTdtTlV3eUk3NkIzM0RubEJNNDBjT3BaOW1aVGhLc3YwY3pNQzc5N1VwTmNGRWxaRkh4VmVWQWNFdEE?oc=5"
+    },
+    {
+      "id": "puertos-brasilenos-alinean-agenda-de-sostenibilidad-con-acuerdo-mercosur-ue",
+      "datetime": "2026-10-26T18:30:20Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "Puertos brasileños alinean agenda de sostenibilidad con acuerdo Mercosur-UE",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Puertos",
+        "Latinoamérica",
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Brasil",
+        "Unión Europea"
+      ],
+      "tags": [
+        "Mercosur",
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Data Portuaria",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://dataportuaria.com/es/brasil/ambiente-y-energia/puertos-brasilenos-alinean-agenda-de-sostenibilidad-con-acuerdo-mercosur-ue-dbcbd3",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-26T21:58:33Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQblZsWjZTanpuaWdKampJeDI3ZTU2S2c5ZHp1S1R4OFVzbHI2MEhTZlJyT2J5RlJqOTBRYTZQZzRRY2lTVEZ3TU9QNU1rZkk4RTZRb2thSmZOdnROSEhiWDJqZk5ZWThzS00wbFVIeE5SS3dzWFJ5eDg3THdyRGlDV3MyMDF5UmZxQ3QwXzZ0RjZjS2RYOUlUUlY1MEthVW4wN1U5bC1oNFBJMVF4MWk3bTVSRTRUQzhvM0pXYzJiR0xMNjVLS2tMdEM3RklkbnhEeEJz?oc=5"
+    },
+    {
+      "id": "presentan-en-bruselas-iniciativas-sobre-oea-digitalizacion-y-seguridad-de-las-ca",
+      "datetime": "2026-10-26T18:21:10Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "Presentan en Bruselas iniciativas sobre OEA, digitalización y seguridad de las cadenas de suministro",
+      "summary": "El Grupo de Trabajo SAFE (SWG, por sus siglas en inglés) de la Organización Mundial de Aduanas (OMA) celebró su 33.ª reunión del 21 al 23 de octubre de 2026, en Bruselas, sede de la organización, según informó la OMA en un comunicado difundido el pasado jueves. El encuentro se inscribe en la labor de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aduanas",
+        "Tecnología COMEX",
+        "Europa"
+      ],
+      "countries": [
+        "Unión Europea"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Aduana News",
+      "sources": [
+        {
+          "name": "Aduana News",
+          "type": "Medio especializado · Argentina",
+          "url": "https://aduananews.com/presentan-en-bruselas-iniciativas-sobre-oea-digitalizacion-y-seguridad-de-las-cadenas-de-suministro/?utm_source=rss&utm_medium=rss&utm_campaign=presentan-en-bruselas-iniciativas-sobre-oea-digitalizacion-y-seguridad-de-las-cadenas-de-suministro",
+          "primary": true,
+          "author": "Aduana News"
+        }
+      ]
+    },
+    {
+      "id": "br-do-mar-impulsa-la-logistica-brasilena-ante-el-acuerdo-mercosur-union-europea",
+      "datetime": "2026-10-26T18:10:22Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "BR do Mar impulsa la logística brasileña ante el acuerdo Mercosur-Unión Europea",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Logística",
+        "Latinoamérica",
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Brasil",
+        "Unión Europea"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Data Portuaria",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://dataportuaria.com/es/brasil/logistica/br-do-mar-impulsa-la-logistica-brasilena-ante-el-acuerdo-mercosur-union-europea-6036e8",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-26T21:58:33Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNblA3VGt0aVZneWxPQ1pIdS03R1BERkRMaW5uUWl5cE9vOExlR3VIN3VGNlROMnVyczNtTk1BVWphaFZrZXRCWTdqeWlDMk9Tc0hrWUQzX0pkbGhsekNka3lEbU5mOTB1X3M3ZklLLXJydFV5OS16UVB2RDkwU01QWmVLLXFNM05CR1R1SWN2M05HVUVIZ2NHa2NhNnNPQlRua0txbEQ5ZWpKZENJR3pOTUZtemtpS0VrZG12bmY1S09SZklJUmFsUDZmalU?oc=5"
+    },
+    {
+      "id": "el-mein-schiff-3-choca-contra-un-portacontenedores-al-zarpar-de-bremerhaven",
+      "datetime": "2026-10-26T18:02:18Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "El Mein Schiff 3 choca contra un portacontenedores al zarpar de Bremerhaven",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Contenedores"
+      ],
+      "visual": "container",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Canarias7",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.canarias7.es/sucesos/mein-schiff-choca-portacontenedores-zarpar-bremerhaven-20261026180213-nt.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-26T21:58:33Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNODhudjFMTFkzamliOGdiNjJUSlhhbWExTFZiTEVsaTRKT1ZmaU9lMkZhdVdxX1BBbm1WSkxuUllLTkZ6Z3JaZkNxVThfaTNTY1I4enNpalA4N0pwa2c0MHMtOVZ2SF83RjFQUThRMnRKVzlwODU1b2Z0MGN5SEd4dGY4WWJqSHEtbUpoTEU1TnlkR3piVU1UZkoxaldWSzRIN3VaUm1vYVI1SFEybllr?oc=5"
+    },
     {
       "id": "shein-y-temu-bajo-la-lupa-del-congreso-por-propuesta-de-nuevos-aranceles",
       "datetime": "2026-10-26T17:57:13Z",
@@ -677,7 +1440,8 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Aranceles"
+        "Aranceles",
+        "Impuestos"
       ],
       "countries": [
         "Global"
@@ -797,84 +1561,102 @@
       }
     },
     {
-      "id": "el-maiz-argentino-gana-terreno-en-el-mundo-y-octubre-podria-marcar-un-record-de",
-      "datetime": "2026-10-26T16:40:04Z",
+      "id": "la-unio-denuncia-que-importaciones-de-miel-de-mercosur-casi-se-duplican-en-los-t",
+      "datetime": "2026-10-26T16:34:30Z",
       "date": "2026-10-26",
-      "firstSeen": "2026-10-26T18:02:47Z",
-      "title": "El maíz argentino gana terreno en el mundo y octubre podría marcar un récord de exportaciones",
-      "summary": "Las trabas logísticas en el Mar Negro y la menor oferta exportable de Brasil abren oportunidades para el cereal local. Los despachos pueden alcanzar los 45 millones de toneladas.En trigo, la Bolsa de Comercio de Rosario proyecta una cosecha de 23,8 millones de toneladas.",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "La Unió denuncia que importaciones de miel de Mercosur casi se duplican en los tres primeros meses del acuerdo",
+      "summary": "La Unió Llauradora i Ramadera alerta del \"fuerte\" incremento de las importaciones de miel procedentes de...",
       "body": [],
       "keyData": [],
       "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "grain",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Clarín",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.clarin.com/rural/maiz-argentino-gana-terreno-mundo-octubre-podria-marcar-record-exportaciones_0_dQazLqUYJf.html",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-26T18:02:47Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNR3NuSksxYzIyenlQSnFkYkpRa1liTEJOZ2JBbGdWRUplRGRkenNnTE1teF92T0ZyYWhISFVjQ0lIZWFwTnFOOUczZWx0N1lNRVdyWVIta1ViNzNTWE1mOTlMUVRuZGtwSUk3eXZPdk5IQ0NCTVl5cEVuQkY2Q0Mzb2Z3bnBSZno3R3Z5UlM2RWw0eGs3TDVzaGxsWXVIbUxwOHA4ekItaVlER1NweFZNSkNMZXdRMENSVzVDTVJsa0E?oc=5",
-      "digestSkip": {
-        "at": "2026-10-26T18:50:00-03:00",
-        "reason": "repite una nota de la redacción (maiz-exportaciones-record-marzo-octubre-34-2-millones-toneladas-bcr-ucrania-brasil)"
-      }
-    },
-    {
-      "id": "el-petroleo-lidero-las-exportaciones-argentinas-durante-septiembre",
-      "datetime": "2026-10-26T16:39:04Z",
-      "date": "2026-10-26",
-      "firstSeen": "2026-10-26T18:02:47Z",
-      "title": "El petróleo lideró las exportaciones argentinas durante septiembre",
-      "summary": "La Argentina consolidó al petróleo crudo como su principal producto de exportación durante septiembre, ubicándolo por encima de los principales envíos agrícolas. De acuerdo con los datos del INDEC, las ventas externas de aceites crudos de petróleo sumaron 1....",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
+        "Importaciones",
+        "Tratados y acuerdos",
+        "Mercosur"
       ],
       "countries": [
         "Argentina"
       ],
       "tags": [
-        "Energía"
+        "Mercosur"
       ],
-      "visual": "energy",
+      "visual": "customs",
       "impact": 1,
       "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
       "sources": [
         {
-          "name": "El Diario de Madryn",
+          "name": "Notimérica",
           "type": "Medio · vía Google Noticias",
-          "url": "https://www.eldiarioweb.com/2026/10/el-petroleo-lidero-las-exportaciones-argentinas-durante-septiembre/",
+          "url": "https://www.notimerica.com/economia/noticia-brasil-unio-denuncia-importaciones-miel-mercosur-casi-duplican-tres-primeros-meses-acuerdo-20261026173430.html",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Campo Galego",
+          "type": "También publicó esta noticia",
+          "url": "https://www.campogalego.es/las-importaciones-de-miel-de-mercosur-se-disparan-un-94/",
+          "alsoIn": true,
+          "title": "Las importaciones de miel de Mercosur se disparan un 94 %"
+        },
+        {
+          "name": "Agronews Castilla y León",
+          "type": "También publicó esta noticia",
+          "url": "https://www.agronewscastillayleon.com/union-de-uniones-apicultura/",
+          "alsoIn": true,
+          "title": "Unión de Uniones alerta de que las importaciones de miel de Mercosur se disparan un 94% en los tres primeros meses del acuerdo con la UE"
+        }
+      ],
+      "gnTried": "2026-10-26T21:58:33Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQWE1wY0FGanNiTE5OVVpyWGxHNlphaFBBUDFrd05ESGY1RVRkLXdWeWl2NzROTnBYLTRuYlIzQ0hoY1dlQkZXdHd2UXR6ZVdwQ18xcDBHOUtLR18ya1ZsckduODJZVEJpdFJaTDZONVJ5Ullmb29zZXh0bXhId1JhU2xrUEM5VGJYV2pEZDRvX0R2UnVaeUViUWNDRkp6MEppc2hRWTJSZkp1VzhWVEJxWDl3T01fWGRuTWlUNHp1VkE3aEZwYWRUV25CeVByeURVN0hGeHFYZmR2RlRUcVNpUVRPTVh5elJzOEE?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMidEFVX3lxTE9PVkxCYW1pYXF6RlZRQjdoNkliaWZxd0htWW0yRTdtdGpyZkV0YTlpUTRKU0t6SUo0RE8xdE1oM1hPOV9pSzhKOU9pY2VvSUNUV0xlXzhqYVoxb1FCSzFjM1NxX0JYRk9ZODFmNXR3d0c3cGNx",
+        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPM1R6RGhkaUVJWkhlLTYwRGE3dV9kNHNvVk85ZnI0NDRvQlVvQ0tUbXV4aktPWFYyMWFrN1NOeFBOX2o4RUpLN3JlaXc3WGZLSmRsMkhtODB0bWZqWVlEdXFuTmpIMFJOeUw0MGZMc2d2b2lHbGN3MjVkdTVwQjRZMVh6bnJCc3BnN1lv",
+        "https://www.agronewscastillayleon.com/union-de-uniones-apicultura",
+        "https://www.campogalego.es/las-importaciones-de-miel-de-mercosur-se-disparan-un-94"
+      ],
+      "mergedIds": [
+        "las-importaciones-de-miel-de-mercosur-se-disparan-un-94",
+        "union-de-uniones-alerta-de-que-las-importaciones-de-miel-de-mercosur-se-disparan"
+      ]
+    },
+    {
+      "id": "ch-robinson-amplia-la-ia-en-cotizaciones-de-carga-aerea-y-aduanas-noticias-y-est",
+      "datetime": "2026-10-26T16:30:30Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "CH Robinson amplía la IA en cotizaciones de carga aérea y aduanas - Noticias y Estadísticas",
+      "summary": "CH Robinson amplía sus agentes de IA para cotizaciones de carga aérea y tramitación aduanera, reduciendo los tiempos de cotización a minutos y el tiempo de documentos aduaneros un 23%.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aduanas",
+        "Transporte aéreo",
+        "Tecnología COMEX"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "plane",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "IndexBox",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.indexbox.io/es/blog/ch-robinson-expands-ai-use-in-air-cargo-quoting-and-customs-processing/",
           "primary": true,
           "author": ""
         }
       ],
-      "gnTried": "2026-10-26T18:02:47Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNa0diLUw2b1VtU0h1bFoxQUpzN3lybldrQlFEYkFpSzFNYmJKc1NpMnVQQWVkS0NhMkxkTUdJdThRbTMwVVJlZ3ZfYXJOSlI5czljMUlnZUZTUlZtQ2I3elE3VzZSSTR3VTZCOS1MZXVhdWRDZXJrT0lsQzZRcTM4UEFONXkxYTMtZG1vTFBiMF9fcVV4T2JXUkhrTnlWNkN3djZhSy1n?oc=5",
-      "digestSkip": {
-        "at": "2026-10-26T15:49:41-03:00",
-        "reason": "repite una nota de la redacción (exportaciones de septiembre, INDEC)"
-      }
+      "gnTried": "2026-10-26T21:58:33Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUU9DeUN2c1hqVGlGSDh5XzdJZm9oUjZmYUYtcGFtdDJULWQ0Ny05WFpqeEs3SGh1SmQ0bldkUGF3R1NUd2hadGduU0xfZlNwWVdTTHhrcmstQlV2YnF4Z1JMWkhHcWc5N3Y4UmhtNmV1Ump6UnRONkZTX3RNZWJsQms3ZllEUnd0V21ibzBiSmJTY0xmejg1aDNBVk15YkpsV3ZCNHFB?oc=5"
     },
     {
       "id": "myanmar-camufla-compra-de-combustible-irani-para-aviones-sometido-a-sanciones",
@@ -931,11 +1713,13 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Tratados y acuerdos",
         "Mercosur",
         "Europa"
       ],
       "countries": [
+        "Argentina",
         "Unión Europea"
       ],
       "tags": [
@@ -959,91 +1743,6 @@
       ],
       "gnTried": "2026-10-26T18:02:47Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRHBkNTZUVmZuMUFEejlkeWpZc2ZZclJ2SVBBbWJUekN3aEdQcE5LWDlLaWJNS1RvbDhmd0NSRHNpWERQcVN0SXBrX1BlcEN6QXhxX25Ga3VVTEZsN3ZSOUNpTUJzRUZNX01zNmxrVjBqS3lxTGhlZ0RhS3l6eWIyVG5iVEtocE9zZkZQSzFjeE9ubVU2ZEdvNDdDRGt0YU13UkFxWG9FUUtSSnFOZnI0TTVn?oc=5"
-    },
-    {
-      "id": "lula-sigue-cuatro-anos-comercio-mercosur-y-la-carrera-por-las-inversiones",
-      "datetime": "2026-10-26T16:22:29Z",
-      "date": "2026-10-26",
-      "firstSeen": "2026-10-26T18:02:47Z",
-      "title": "Lula sigue cuatro años: comercio, Mercosur, y la carrera por las inversiones",
-      "summary": "Los analistas no esperan un giro en el vínculo comercial, pero empresarios advierten sobre la competencia brasileña en nuevas cadenas industriales",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Latinoamérica",
-        "Mercosur"
-      ],
-      "countries": [
-        "Brasil"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "El Cronista",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.cronista.com/economia-politica/lula-sigue-cuatro-anos-comercio-mercosur-y-la-carrera-por-las-inversiones/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-26T18:02:47Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOajBmc2VxbGVqbEdSRzIzU05zRU9TbUtVaDBLcmJLajJIZ0owU3lwVHlSdkl6SWY5cmgxclFnNEFGUWdRaFM4LVlRYzRrdEMza3g1T0duTEtzMjlqOUhRTjhuT3BrRG1zSDJTZHpDTmFrV0NGRUxFUGk0SElqZkk1MnJVamFDTVVrMDlqWEF2TFk3TXk3QTllcGxsRXc5aE9UUmV5RlNUSFJ1YTBHTEhRZ1dsM016VmhI0gHTAUFVX3lxTFBGV29xWThidTdvc1VkM3ZuQ1kwc3I1TXBaVGlHU0NzeE9DOFpFX0NWZnpiYnU1a2xmRDNxYXlyV2FVM3VRNnhkNnRlTVpwVThMQWlwTGtiSVZ0aDhMaC1FWXVmLUNXZXNOZ0xSVmR0SGlycjNDM0lKeGFxZVVCcTNRV1JIcTEzbTZrRzQ3S2VLRmpZR05nOUNYWUlDZFY4T3Y3WjF6blk0SFlMTk94YUF5M3YtUU5fc0NkLW9SVXlob2xpNXhIX3huYkR0aUczbEtnTFk?oc=5",
-      "digestSkip": {
-        "at": "2026-10-26T15:49:41-03:00",
-        "reason": "repite una nota de la redacción (reelección de Lula y comercio con Brasil)"
-      }
-    },
-    {
-      "id": "union-europea-felicita-a-lula-tras-ganar-las-elecciones-de-brasil-2026-y-destaca",
-      "datetime": "2026-10-26T16:06:04Z",
-      "date": "2026-10-26",
-      "firstSeen": "2026-10-26T18:02:47Z",
-      "title": "Unión Europea felicita a Lula tras ganar las elecciones de Brasil 2026 y destaca el acuerdo con Mercosur",
-      "summary": "La Unión Europea felicitó a Lula por su reelección en Brasil y reafirmó su compromiso con el comercio, el clima y la cooperación bilateral.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Tratados y acuerdos",
-        "Latinoamérica",
-        "Mercosur",
-        "Europa"
-      ],
-      "countries": [
-        "Brasil",
-        "Unión Europea"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Revista Mercado",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://revistamercado.do/internacional/union-europea-felicita-lula-reeleccion-brasil-2026/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-26T18:02:47Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNekNzU0NickViSDJXb01kZWZick9qVUZYTWpwR3VDUWFpUnQyV2xhTTB1S2RfM1l4MUFfZE9Pcm9NdVBZb0Rua3MteGdpYzBZTE9ld1BZaEZmV0FBOUVKUUlPQUhTRGUzN0tkZHQ2WW5iRERVbWtfVXJyNDJXSnVFdVZVTHBYNTl2MGJGdS1acWY1cWVmd1E?oc=5",
-      "digestSkip": {
-        "at": "2026-10-26T15:49:41-03:00",
-        "reason": "repite una nota de la redacción (reelección de Lula y comercio con Brasil)"
-      }
     },
     {
       "id": "en-paraguay-diego-tellez-vivio-una-experiencia-medica-con-sello-mercosur",
@@ -1133,47 +1832,6 @@
       }
     },
     {
-      "id": "lula-gano-en-brasil-y-crece-la-preocupacion-en-argentina-por-la-caida-del-real-y",
-      "datetime": "2026-10-26T15:56:00Z",
-      "date": "2026-10-26",
-      "firstSeen": "2026-10-26T18:02:47Z",
-      "title": "Lula ganó en Brasil y crece la preocupación en Argentina por la caída del real y el futuro de las exportacione...",
-      "summary": "Las diferencias diplomáticas entre Javier Milei y Luiz Inácio Lula da Silva no impidieron que ambos países mantuvieran sus vínculos productivos y comerciales. Sin embargo, analistas advierten que una desaceleración de la economía brasileña podría afectar especialmente a las empresas industriales argentinas.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Latinoamérica"
-      ],
-      "countries": [
-        "Argentina",
-        "Brasil"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Perfil",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.perfil.com/noticias/economia/lula-gano-brasil-crece-preocupacion-argentina-caida-real-futuro-exportaciones-a40.phtml",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-26T18:02:47Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPQTVvZHVENnJ0ZU5iQy1CczBVc0xEc004NmJiUjdDSzRDazU0aWZudVhySWd2WXBSRnNBRF85ZHpIVlBYOWUwQkFua09RWVBEQ2hZVDA2LVRlTFRtWWFBZXR5ZVg0dm9lejI4dnh3ZmRmQlg4X3o5ZFpqRlNpX0RxT3JqV2VSZEVaNlNpeEI4N2c5clREQmZjZjdHckl1RC1aUGFlYUlyUDdrNkJXWVh6RGtZMUZkUHdmZHJtbWVOR2tWUlI4M08w0gHMAUFVX3lxTFAzVDBfNlhtTk55MUw4ODhpOXRTLVBrVGVTeVRULVRQdTNhMXg4Uy15YVpPOGwzVHdvd2dqUTljeXF0VHgtNXpodWEwUGJ0QUFfNXNYcjBlOHJpMjZDZXFoLTJTTmJ0NEM5d3pkYUtVV0ozWHJIY1BwRFhSOTBqckhVMGJDajJQeHI0ZDBkWlVPcE9tNUVtX3dUOTBTMzc0dEU5N2s1S1lhVDRSNHlMaG5qeVdqOU5icUp2SjB0d3VicTNncEhSV2JpVWFFZg?oc=5",
-      "digestSkip": {
-        "at": "2026-10-26T15:49:41-03:00",
-        "reason": "repite una nota de la redacción (reelección de Lula y comercio con Brasil)"
-      }
-    },
-    {
       "id": "ati-genera-inversiones-por-usd-2-millones-para-modernizar-infraestructura-en-lin",
       "datetime": "2026-10-26T15:47:18Z",
       "date": "2026-10-26",
@@ -1218,44 +1876,6 @@
       }
     },
     {
-      "id": "union-de-uniones-se-disparan-las-importaciones-de-miel",
-      "datetime": "2026-10-26T15:30:28Z",
-      "date": "2026-10-26",
-      "firstSeen": "2026-10-26T18:02:47Z",
-      "title": "Unión de Uniones: se disparan las importaciones de miel",
-      "summary": "Unión de Uniones alerta de que las importaciones de miel de Mercosur se han disparado un 94% tras la aplicación del acuerdo con la UE",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Importaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
-      "sources": [
-        {
-          "name": "agropopular.com",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.agropopular.com/union-miel-261026/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-26T18:02:47Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5jbW1qajRVa2ktenI2TWFiU1hkeURPakFsa05wQktydmpTQ29WXzExaFhrUXZCanc3OXR2a1Bkc3BVR2N6eHBId0tsYlpjX2xaR1hYMUJkeUN1UQ?oc=5",
-      "digestSkip": {
-        "at": "2026-10-26T15:49:41-03:00",
-        "reason": "repite el mismo hecho que la nota de Valencia News (miel del Mercosur, +94%)"
-      }
-    },
-    {
       "id": "crcp-propone-consejo-nacional-para-coordinar-decisiones-que-impulsen-exportacion",
       "datetime": "2026-10-26T15:13:30Z",
       "date": "2026-10-26",
@@ -1297,50 +1917,6 @@
         "at": "2026-10-26T13:10:00-03:00",
         "basedOn": "https://portalportuario.cl/crcp-propone-consejo-nacional-para-coordinar-decisiones-que-impulsen-exportaciones-chilenas",
         "words": 195
-      }
-    },
-    {
-      "id": "abastecimiento-en-la-hidrovia-la-soja-de-paraguay-ya-es-el-cuarto-origen-de-las",
-      "datetime": "2026-10-26T15:11:15Z",
-      "date": "2026-10-26",
-      "firstSeen": "2026-10-26T18:02:47Z",
-      "title": "Abastecimiento en la Hidrovía: la soja de Paraguay ya es el cuarto origen de las importaciones y rescata de la parálisis al clúster del Gran Rosario",
-      "summary": "El mapa de las importaciones nacionales registró una reconfiguración inédita impulsada por las necesidades operativas de las grandes procesadoras d",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Importaciones",
-        "Transporte marítimo",
-        "Latinoamérica"
-      ],
-      "countries": [
-        "Argentina",
-        "Paraguay"
-      ],
-      "tags": [
-        "Soja"
-      ],
-      "visual": "agro",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
-      "sources": [
-        {
-          "name": "Política y Medios",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://politicaymedios.com.ar/nota/24697/abastecimiento-en-la-hidrovia-la-soja-de-paraguay-ya-es-el-cuarto-origen-de-las-importaciones-y-rescata-de-la-paralisis-al-cluster-del-gran-rosario/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-26T18:02:47Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOU0NKVXBVS24zeW5JaHdUaWw0dHFWQnpJTHNxbnpDcFhmRWRfUFdlNWZaa20waVpmN3VaMHNEdWtwalFiTzhhTTN5ZzVucU1jblUyczVpMmNyRHZrTmNrZHdkSzRSZGo0X1Y0TzllOU1SSDRHNkNaMnFBeGhGdGVTOGpFRTlSOThCTmRWcXByZnoxQnpKWld6eVNhTThxeDV3UUMzRmJiQnEycFlSd2pfN3RSR2d0eTU4bGdzQjdJOEZweWl6Vkg2UzFZaEVjR3lZdjV1c1VDSGpqYldvZ2NZajZpclMzdGZQQW5HUGhfZThObnZGSWZIZTlReEk1ZGx5RHNnVldSTGRGOFhsemNyRFBRQ0tCVUNRMEE?oc=5",
-      "digestSkip": {
-        "at": "2026-10-26T15:49:41-03:00",
-        "reason": "repite una nota de la redacción (soja paraguaya en admisión temporaria)"
       }
     },
     {
@@ -1437,48 +2013,6 @@
       "mergedIds": [
         "trump-preve-un-acuerdo-comercial-con-canada-muy-pronto"
       ]
-    },
-    {
-      "id": "la-importacion-de-miel-desde-mercosur-aumenta-un-94-en-los-primeros-tres-meses-d",
-      "datetime": "2026-10-26T14:52:20Z",
-      "date": "2026-10-26",
-      "firstSeen": "2026-10-26T18:02:47Z",
-      "title": "La importación de miel desde Mercosur aumenta un 94 % en los primeros tres meses del acuerdo",
-      "summary": "Los apicultores exigen a la Comisión que ante cualquier perturbación grave del mercado «se utilicen sin demora los instrumentos de salvaguardia pr...",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Importaciones",
-        "Tratados y acuerdos",
-        "Mercosur"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "El Debate",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.eldebate.com/campo-y-caza/20261026/importacion-miel-desde-mercosur-aumenta-94-primeros-tres-meses-acuerdo_473923.html",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-26T18:02:47Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUVAyOUtiNEpqLVJCSnBBOUtzbEN1dFhfVmNReG5lTTdHMFJtWm10U3otY2RuYUVSdjF4Z1hVc2hVZU9QMXRQWFhHQ0dLVTN3Yk9DUzFtYlM5NlNUbk8zYXRlY2xMc3lJXzFuYlVEUnVfNjFWMFJRaGRQQVhnYnl3VjNQU3A0Y0pUZkpzc2VYY0huMVV1V3AxbzdaU09iSTJnZXZyNjFUVDN3WDRqOEt6bHJHS3hEejRjdUFPM0ZnUWpMN0MxY2tkeNIBzgFBVV95cUxQbnFCMjRkejlXNzlPbmFHZEZOVm9pTk13cmduV0g4bjVuRGFmb0pRUXNobjZ6NU5nNWdOb2tabngtQzFfbHNQVlpvdHczektDc3dvTnFDZ29lc0FVQWVRd1VjNXUtbkRoMlMxNGVoVVFqZmJxa1RpbC1PRDVUX0dLc0NiaWd6R3FQcV9FZ0FHT1pmZ0JVN1ZKZlh1TkFNVWxFbFdUel91aEQtc0k4blVLd3VfUHBFUlV3VktFVmswRWVKN05Jb01rS1RRSFJRQQ?oc=5",
-      "digestSkip": {
-        "at": "2026-10-26T15:49:41-03:00",
-        "reason": "repite el mismo hecho que la nota de Valencia News (miel del Mercosur, +94%)"
-      }
     },
     {
       "id": "sheinbaum-coincide-con-trump-sobre-acuerdo-comercial-entre-mexico-y-eua-vamos-mu",
@@ -1600,6 +2134,13 @@
           "url": "https://argenports.com/nota/puerto-la-plata-llevo-al-aula-su-rol-en-la-logistica-y-el-comercio-exterior/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Infomiba",
+          "type": "También publicó esta noticia",
+          "url": "https://infomiba.com.ar/nota/59233/el-puerto-la-plata-llevo-su-trama-logistica-al-colegio-nacional/",
+          "alsoIn": true,
+          "title": "El Puerto La Plata llevó su trama logística al Colegio Nacional"
         }
       ],
       "gnTried": "2026-10-26T15:16:25Z",
@@ -1607,7 +2148,14 @@
       "digestSkip": {
         "at": "2026-10-26T13:10:00-03:00",
         "reason": "fuera de tema (actividad educativa en escuelas)"
-      }
+      },
+      "aliasUrls": [
+        "https://infomiba.com.ar/nota/59233/el-puerto-la-plata-llevo-su-trama-logistica-al-colegio-nacional",
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZXF2Q2hrVFowc0c3bHZzVm9ERFJnWl9fX2pva000ZnJ5cFJGUzFvM0N1Q2U0SjQxVlVPTGxGam1Ccm1oTFJKckk3V2ZWZlg4czRzamJQWUJwMjFpOV9BUEF6bXlYOVo2MjNsSVQ2bjZxTlpqZElVRjhCblFJY29Wa1B0dWlHQ2w0MjUyd1NHYWMyQk9hMXo5NElDOE5ldWlt"
+      ],
+      "mergedIds": [
+        "el-puerto-la-plata-llevo-su-trama-logistica-al-colegio-nacional"
+      ]
     },
     {
       "id": "indice-de-fletes-secos-del-baltico-cae-a-minimos-de-casi-una-semana",
@@ -1654,6 +2202,147 @@
         "basedOn": "https://es.investing.com/news/commodities-news/indice-de-fletes-secos-del-baltico-cae-a-minimos-de-casi-una-semana-93CH-3890638",
         "words": 154
       }
+    },
+    {
+      "id": "gobierno-uia-mercado-libre-meta-acuerdo-contrabando-plataformas-arca-cruce-datos",
+      "date": "2026-10-26",
+      "datetime": "2026-10-26T11:18:00-03:00",
+      "kind": "noticia",
+      "title": "Contrabando: el Gobierno firmó con la UIA, Mercado Libre y Meta un acuerdo para cruzar datos de vendedores con los registros de la Aduana",
+      "summary": "Las plataformas informarán a los principales vendedores de categorías sensibles y ARCA cruzará esos datos con los registros aduaneros para detectar ventas irregulares. Mercado Libre empezará con notebooks, celulares, cosméticos, juguetes y neumáticos.",
+      "topics": [
+        "Argentina",
+        "Aduanas",
+        "Importaciones",
+        "Regulaciones",
+        "Tecnología COMEX"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Contrabando",
+        "Comercio electrónico",
+        "ARCA",
+        "UIA",
+        "Mercado Libre",
+        "Meta",
+        "Subfacturación",
+        "Vigilancia de mercado"
+      ],
+      "visual": "parcel",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "Quien importa para vender en plataformas digitales queda expuesto a un cruce de datos entre los avisos y los registros de la Aduana: un origen que no cierra puede terminar en la baja de la publicación.",
+      "argentinaImpact": {
+        "change": "Mercado Libre, Meta, Frávega y Cetrogar entregarán informes trimestrales sobre vendedores y productos de categorías sensibles, que ARCA cruzará con los registros de la Aduana y de la VUCE para detectar ventas irregulares.",
+        "who": "Importadores, vendedores en plataformas de comercio electrónico y redes sociales, industrias que compiten con productos importados y despachantes de aduana.",
+        "sectors": [
+          "Electrónica",
+          "Celulares",
+          "Cosmética",
+          "Juguetes",
+          "Neumáticos",
+          "Comercio electrónico"
+        ],
+        "flows": {
+          "importaciones": true,
+          "exportaciones": false,
+          "logistica": false,
+          "aranceles": false
+        }
+      },
+      "body": [
+        "La Secretaría de Industria y Comercio firmó el lunes 26 de octubre convenios con la Unión Industrial Argentina (UIA), cámaras empresarias y las principales plataformas de venta en línea para combatir el contrabando, la subfacturación y la venta de productos que no cumplen la normativa. Según Infobae y El Cronista, participaron el secretario de Industria, Pablo Lavigne, y el presidente de la UIA, Martín Rappallini. El eje del esquema es un cruce de datos: las plataformas informarán quiénes venden y qué venden en categorías sensibles, y ARCA contrastará esa información con los registros de la Aduana.",
+        "La firma había sido anticipada por Rappallini el 22 de octubre en el Coloquio Industrial de la Unión Industrial de Córdoba, y llega en un contexto de reclamos del sector manufacturero por la competencia de mercadería que ingresa en forma irregular, en medio de la caída de la actividad fabril.",
+        "## Quiénes firmaron y qué se comprometen a hacer",
+        "Según Infobae, los convenios marco los suscribieron la UIA, la Cámara Argentina de Comercio Electrónico (CACE), la Cámara Argentina de Comercio y Servicios, AFARTE, la Asociación de Supermercados Unidos, Mercado Libre, Frávega, Cetrogar y Meta. Además, Meta, Mercado Libre, Frávega y Cetrogar firmaron acuerdos específicos. El Cronista suma a la Cámara de Importadores (CIRA) entre las entidades participantes; la diferencia entre ambas listas no fue aclarada.",
+        "Las plataformas se comprometieron a compartir información sobre sus principales vendedores y los productos de categorías sensibles. Esos informes, de frecuencia trimestral, podrán cotejarse con los registros de la Dirección General de Aduanas y de la Ventanilla Única de Comercio Exterior (VUCE), y ARCA cruzará los datos para detectar inconsistencias e indicios de ventas irregulares. Las plataformas podrán dar de baja las publicaciones que provengan de operaciones ilegales, algo que Meta ya hacía en Facebook e Instagram. Mercado Libre, que se suma ahora al mecanismo, empezará por cinco categorías: notebooks, celulares, cosméticos, juguetes y neumáticos. También harán campañas para recordar a vendedores y proveedores sus obligaciones, en especial sobre el origen de la mercadería.",
+        "## Qué consecuencias puede tener para un vendedor",
+        "Cuando corresponda, los casos se tramitarán según la Resolución 56/2026, que aprobó el Protocolo de Vigilancia de Mercado y se publicó en el Boletín Oficial el 9 de marzo. Según el análisis del estudio Marval O'Farrell Mairal, esa norma no crea requisitos técnicos nuevos: fija criterios y prioridades para verificaciones documentales, inspecciones, controles en frontera y toma de muestras, con un enfoque basado en el riesgo, y alcanza a fabricantes, importadores y comercializadores. Los procedimientos pueden terminar en multas, la prohibición de vender, el retiro de los productos del mercado o, según Infobae, la intervención de la Justicia.",
+        "El convenio con la UIA tiene cinco ejes: un marco de cooperación contra el contrabando, el fraude aduanero, la falsificación y los productos fuera de norma; herramientas tecnológicas y controles sistémicos, con revisión normativa y fiscalización coordinada; intercambio de información, con acuerdos específicos voluntarios con empresas socias; coordinación con ARCA, la Autoridad Nacional de la Competencia, el INPI, el SENASA y la ANMAT, y una mesa de trabajo permanente. Según El Cronista, entre las líneas de trabajo figuran además perfiles de riesgo, análisis de subfacturación, escáneres, trazabilidad, medidas contra el fraccionamiento de envíos y una revisión de los límites de los envíos por courier y postales; ese medio menciona también valores de referencia para importaciones de bienes sensibles, un punto que Infobae no recoge.",
+        "## Los números del reclamo industrial",
+        "Las cifras que acompañaron la firma son de la propia industria. Según la UIA, el comercio ilícito equivale a cerca del 5% del PBI y genera una pérdida fiscal de unos USD 2.300 millones por año. La tercera encuesta de la entidad indica que seis de cada diez empresas industriales se ven afectadas por el comercio desleal y que cuatro de cada diez enfrentan competencia ilegal en plataformas, marketplaces y redes sociales. Según Clarín, citado por Noticias de Bariloche, el 59,7% de las firmas reporta un impacto alto o muy alto, que llega al 88,2% en metales comunes y al 84,6% en textiles. Ana Vainman, de AFARTE, estimó que uno de cada tres celulares que se venden en el país no fue importado legalmente ni fabricado en la Argentina.",
+        "## De dónde viene y qué falta",
+        "El acuerdo le da un marco formal a un esquema que hasta hace dos semanas no tenía respaldo oficial. Como informó Comexplora el 13 de octubre, las cámaras industriales ya denunciaban publicaciones irregulares ante Meta y negociaban con Mercado Libre, mientras la Aduana preparaba una plataforma integrada con inteligencia artificial para reemplazar más de 25 sistemas, financiada por el BID. A comienzos de octubre, la UIA también había planteado ante la Aduana la subvaloración de importaciones, un problema que, según Infobae, creció tras la eliminación de los precios de referencia; las autoridades dijeron que trabajan en un sistema para cruzar cantidades y precios declarados.",
+        "Quedan pasos por delante. La Secretaría y la UIA tienen que acordar un plan de trabajo semestral con seguimiento trimestral, a cargo de la Mesa de Acciones contra el Contrabando, el Comercio Ilegítimo y la Competencia Desleal de la entidad fabril, y faltan los acuerdos específicos con cada empresa socia que quiera sumarse. Las fuentes no informan desde qué fecha empezará a funcionar el mecanismo de bajas en Mercado Libre ni cuándo se entregarán los primeros informes trimestrales."
+      ],
+      "keyData": [
+        [
+          "Pérdida fiscal estimada por comercio ilícito",
+          "USD 2.300 millones por año (UIA)"
+        ],
+        [
+          "Comercio ilícito",
+          "Cerca del 5% del PBI (UIA)"
+        ],
+        [
+          "Empresas industriales afectadas",
+          "6 de cada 10"
+        ],
+        [
+          "Competencia ilegal en plataformas",
+          "4 de cada 10 empresas"
+        ],
+        [
+          "Categorías iniciales en Mercado Libre",
+          "Notebooks, celulares, cosméticos, juguetes y neumáticos"
+        ],
+        [
+          "Frecuencia de los informes",
+          "Trimestral, con cruce de ARCA"
+        ],
+        [
+          "Marco de sanciones",
+          "Resolución 56/2026 (Vigilancia de Mercado)"
+        ]
+      ],
+      "explainer": {
+        "what": "La Secretaría de Industria y Comercio firmó con la UIA, cámaras empresarias, Mercado Libre, Meta, Frávega y Cetrogar un acuerdo para que las plataformas informen vendedores de categorías sensibles y ARCA cruce esos datos con los registros aduaneros.",
+        "why": "Según la UIA, el comercio ilícito cuesta unos USD 2.300 millones por año en recaudación, y 4 de cada 10 empresas industriales enfrentan competencia ilegal en plataformas y redes sociales.",
+        "who": "Importadores, vendedores en plataformas digitales y redes sociales, industrias que compiten con productos importados y despachantes de aduana.",
+        "products": [
+          "Notebooks",
+          "Celulares",
+          "Cosméticos",
+          "Juguetes",
+          "Neumáticos"
+        ],
+        "next": "Según Infobae, la Secretaría y la UIA acordarán un plan de trabajo semestral con seguimiento trimestral, y las empresas socias de la UIA podrán firmar acuerdos específicos.",
+        "nextSource": {
+          "name": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/10/26/el-gobierno-firma-con-empresarios-un-acuerdo-contra-el-contrabando-que-controles-incluye-y-como-funcionaran/"
+        }
+      },
+      "sources": [
+        {
+          "name": "Infobae",
+          "type": "Medio de comunicación",
+          "url": "https://www.infobae.com/economia/2026/10/26/el-gobierno-firma-con-empresarios-un-acuerdo-contra-el-contrabando-que-controles-incluye-y-como-funcionaran/",
+          "primary": true
+        },
+        {
+          "name": "El Cronista",
+          "type": "Medio de comunicación",
+          "url": "https://www.cronista.com/economia-politica/acuerdo-gobierno-industria-para-combatir-la-venta-ilegal-online-que-medidas-se-toman/"
+        },
+        {
+          "name": "Marval O'Farrell Mairal (Resolución 56/2026)",
+          "type": "Estudio jurídico",
+          "url": "https://www.marval.com/Publicacion/nuevo-protocolo-de-vigilancia-de-mercado-17539?lang=es"
+        },
+        {
+          "name": "Noticias de Bariloche (vía Clarín)",
+          "type": "Medio de comunicación",
+          "url": "https://www.noticiasdebariloche.com.ar/contrabando-controlaran-el-origen-y-por-cual-plataforma-ingresan-los-productos-al-pais/"
+        },
+        {
+          "name": "El Cronista (anuncio en el Coloquio de la UIC)",
+          "type": "Medio de comunicación",
+          "url": "https://www.cronista.com/economia-politica/el-gobierno-lanza-medidas-para-la-industria-acuerdo-por-contrabando-y-la-negociacion-por-el-rigi-pyme/"
+        }
+      ],
+      "story": "aduana-argentina"
     },
     {
       "id": "el-indice-baltic-cae-lastrado-por-el-debilitamiento-de-los-fletes-capesize-y-pan",
@@ -2070,95 +2759,165 @@
       }
     },
     {
-      "id": "la-unio-alerta-de-las-importaciones-de-miel-de-mercosur",
-      "datetime": "2026-10-26T11:27:31Z",
+      "id": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia",
       "date": "2026-10-26",
-      "firstSeen": "2026-10-26T15:16:25Z",
-      "title": "LA UNIÓ alerta de las importaciones de miel de Mercosur",
-      "summary": "La Unió Llauradora i Ramadera alerta del fuerte incremento de las importaciones de miel procedentes de los países de Mercosur",
-      "body": [],
-      "keyData": [],
+      "datetime": "2026-10-26T08:24:00-03:00",
+      "kind": "noticia",
+      "title": "Miel: las compras europeas al Mercosur casi se duplicaron con el acuerdo y los apicultores españoles piden activar la salvaguardia",
+      "summary": "Según organizaciones agrarias de España, la UE importó 12.692,51 toneladas de miel del Mercosur entre mayo y julio, 94,2% más que un año antes, y la Argentina aportó más del 85% de lo que entró en julio. La cuota sin arancel se desbordó en su primer tramo y la Comisión recortó el último.",
       "topics": [
-        "Importaciones",
-        "Mercosur"
+        "Argentina",
+        "Mercosur",
+        "Europa",
+        "Exportaciones",
+        "Tratados y acuerdos",
+        "Aranceles"
       ],
       "countries": [
-        "Argentina"
+        "Argentina",
+        "Uruguay",
+        "Brasil",
+        "Paraguay",
+        "Unión Europea",
+        "España"
       ],
       "tags": [
-        "Mercosur"
+        "UE-Mercosur",
+        "Miel",
+        "Cuotas arancelarias",
+        "Salvaguardia",
+        "Apicultura"
       ],
-      "visual": "customs",
-      "impact": 1,
+      "visual": "agro",
+      "impact": 2,
       "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "argentinaNote": "La Argentina es la principal proveedora de miel del Mercosur a la UE: la presión de los apicultores europeos apunta directamente a sus ventas.",
+      "argentinaImpact": {
+        "change": "La cuota de miel con arancel cero del acuerdo UE–Mercosur se desbordó en su primer tramo y las organizaciones agrarias españolas piden a la Comisión vigilancia reforzada y, si hay perjuicio, aplicar la salvaguardia bilateral.",
+        "who": "Exportadores y fraccionadores de miel, apicultores argentinos y despachantes que tramitan embarques a la UE.",
+        "sectors": [
+          "Miel",
+          "Apicultura"
+        ],
+        "flows": {
+          "importaciones": false,
+          "exportaciones": true,
+          "logistica": false,
+          "aranceles": true
+        }
+      },
+      "body": [
+        "Las importaciones de miel de la Unión Europea desde el Mercosur casi se duplicaron en los primeros tres meses de aplicación del acuerdo comercial entre los dos bloques. Según los datos oficiales que difundieron el lunes 26 de octubre dos organizaciones agrarias españolas, LA UNIÓ Llauradora i Ramadera, de la Comunitat Valenciana, y Unión de Uniones de Agricultores y Ganaderos, entre mayo y julio de 2026 entraron al bloque 12.692,51 toneladas de miel de la Argentina, Brasil, Uruguay y Paraguay, un 94,2% más que las 6.535,59 toneladas del mismo período de 2025.",
+        "El salto se concentró en julio, cuando ingresaron 6.269,81 toneladas, contra 2.248,10 toneladas un año antes: una suba interanual de 178,9%. Ese solo mes casi igualó lo que había entrado en todo el trimestre mayo–julio de 2025. La Argentina explicó 5.343,34 toneladas de las compras de julio, más del 85% del total, seguida por Uruguay, con 635,35 toneladas, y Brasil, con 291,12 toneladas, según las cifras que reprodujeron elperiodic.com, El Debate y Agronews Castilla y León.",
+        "## Cómo funciona la cuota de miel",
+        "Fuera del acuerdo, la miel del Mercosur paga en la UE un arancel de 17,3%. El Acuerdo Interino de Comercio, que se aplica en forma provisional desde el 1 de mayo de 2026, abrió una cuota con arancel cero (número de orden 09.0881) que irá creciendo hasta 45.000 toneladas anuales. La base anual de arranque es de 7.500 toneladas, pero como el acuerdo empezó a regir en mayo, el volumen efectivo para 2026 quedó en 5.000 toneladas, repartido en subperíodos. La cuota se asigna por orden de llegada: el beneficio corresponde a las declaraciones de aduana que se aceptan primero, hasta agotar el volumen, según explicó Aduana News.",
+        "En el primer tramo, del 1 de mayo al 30 de junio, había 1.402,04 toneladas disponibles y las importaciones imputadas a la cuota lo superaron en 152,04 toneladas. La Comisión Europea reconoció ese exceso en el Reglamento de Ejecución (UE) 2026/1727, del 10 de julio, y lo descontó del último subperíodo del año, que quedó en 1.722,96 toneladas. Las organizaciones agrarias aclaran que las 12.692,51 toneladas importadas no entraron todas con preferencia: la cuota solo determina cuánta miel paga cero, y el resto sigue tributando el arancel general.",
+        "## La Argentina, la que más aprovechó el primer cupo",
+        "El resultado no sorprende a quienes siguen el sector. La Argentina produce en promedio unas 80.000 toneladas de miel por año y exporta alrededor del 95%, según Canal 26, y es la segunda productora y exportadora mundial detrás de China, según iProfesional, con Alemania como principal destino. El primer embarque argentino con arancel cero salió de Concordia, Entre Ríos, hacia Alemania en los primeros días de mayo, y a mediados de ese mes el primer cupo ya estaba agotado. Canal 26 informó entonces que empresas argentinas y brasileñas se quedaron con el tramo por velocidad de embarque y que exportadores de Uruguay y Paraguay objetaron el mecanismo.",
+        "Antes del acuerdo, la miel argentina ya tenía un peso grande en Europa. LA UNIÓ había calculado en enero que, hasta septiembre de 2025, la UE compró 20.390 toneladas de miel del Mercosur, de las cuales 16.923 llegaron desde la Argentina, y que en todo 2024 las compras al bloque sudamericano sumaron 23.630 toneladas. Exportadores consultados por iProfesional en mayo advirtieron que la baja del arancel no se traslada en forma automática al precio que cobra el productor.",
+        "## Qué piden los apicultores europeos",
+        "Las organizaciones españolas sostienen que haber agotado y superado la cuota en su primer tramo muestra la presión de la miel sudamericana sobre el mercado europeo, y advierten que esa presión crecerá a medida que aumenten los volúmenes preferenciales. Argumentan que los apicultores europeos cargan con costos altos y exigencias sanitarias, ambientales y de trazabilidad estrictas. Piden a la Comisión un seguimiento específico del mercado de la miel, con información actualizada sobre volúmenes, precios de entrada, orígenes y uso de la cuota; vigilancia de los precios que reciben los productores, y la aplicación inmediata de las salvaguardias del acuerdo ante una perturbación grave o un perjuicio acreditado. Unión de Uniones anunció además que participará el miércoles 28 de octubre de una tractorada en Madrid contra lo que considera competencia desleal.",
+        "## Qué dice la salvaguardia bilateral",
+        "La herramienta que invocan existe y ya está reglamentada. El Reglamento (UE) 2026/687, del 11 de marzo, que aplica las cláusulas de salvaguardia bilateral del acuerdo para productos agrícolas, incluye a la miel en su lista de productos sensibles, junto con la carne vacuna, el azúcar, el etanol y el biodiésel, entre otros. Para esos productos, una suba de más de 5% en el volumen importado frente al promedio de los tres años anteriores, o una baja de más de 5% en el precio de importación, se toma en principio como indicio de perjuicio grave, siempre que el precio de lo importado esté al menos 5% por debajo del precio interno. Pueden pedir una investigación un Estado miembro o representantes de la industria europea; la Comisión tiene un mes para iniciarla y, en productos sensibles, debe adoptar medidas provisionales dentro de los 21 días de abierta, si corresponden, por un máximo de 200 días.",
+        "Las organizaciones agrarias no presentaron datos de precios de entrada ni de precios al productor, por lo que con la información disponible no se puede saber si se cumplen las condiciones de esos umbrales. Tampoco hubo, hasta ahora, una respuesta pública de la Comisión Europea al reclamo. El mismo reglamento obliga a Bruselas a informar al Parlamento y al Consejo sobre el seguimiento de las importaciones sensibles al menos cada seis meses."
+      ],
+      "keyData": [
+        [
+          "Importaciones de miel del Mercosur (may–jul 2026)",
+          "12.692,51 t (+94,2%)"
+        ],
+        [
+          "Mismo período de 2025",
+          "6.535,59 t"
+        ],
+        [
+          "Julio 2026",
+          "6.269,81 t (+178,9% interanual)"
+        ],
+        [
+          "Argentina en julio",
+          "5.343,34 t (más del 85%)"
+        ],
+        [
+          "Cuota con arancel cero 2026",
+          "5.000 t (hasta 45.000 t anuales)"
+        ],
+        [
+          "Exceso en el primer subperíodo",
+          "152,04 t sobre 1.402,04 t"
+        ],
+        [
+          "Arancel fuera de cuota",
+          "17,3%"
+        ]
+      ],
+      "explainer": {
+        "what": "Según organizaciones agrarias españolas, la UE importó 12.692,51 toneladas de miel del Mercosur entre mayo y julio de 2026, 94,2% más que un año antes, y la cuota sin arancel se superó en 152,04 toneladas en su primer tramo.",
+        "why": "La Argentina aportó más del 85% de lo que entró en julio, y los apicultores europeos piden a Bruselas vigilancia reforzada y la salvaguardia bilateral, que incluye a la miel entre los productos sensibles.",
+        "who": "Exportadores y fraccionadores de miel argentinos, apicultores e importadores europeos.",
+        "products": [
+          "Miel natural"
+        ],
+        "next": "Si un Estado miembro o la industria europea lo piden, el Reglamento (UE) 2026/687 le da a la Comisión un mes para iniciar una investigación y, en productos sensibles como la miel, 21 días desde la apertura para adoptar medidas provisionales si corresponden.",
+        "nextSource": {
+          "name": "EUR-Lex: Reglamento (UE) 2026/687",
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/687/oj/eng"
+        }
+      },
       "sources": [
         {
-          "name": "Valencia News",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://valencianews.es/economia/la-unio-alerta-de-que-las-importaciones-de-miel-de-mercosur-casi-se-duplican-en-los-tres-primeros-meses-del-acuerdo-y-ya-desbordan-el-primer-contingente-sin-aranceles/",
-          "primary": true,
-          "author": ""
+          "name": "elperiodic.com (datos de LA UNIÓ)",
+          "type": "Medio de comunicación",
+          "url": "https://www.elperiodic.com/unio-alerta-importaciones-miel-mercosur-casi-duplican-tres-primeros-meses-acuerdo_1099268",
+          "primary": true
         },
         {
-          "name": "Valencia Plaza",
-          "type": "También publicó esta noticia",
-          "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/la-unio-alerta-de-un-aumento-del-94-en-importaciones-europeas-de-miel-de-mercosur",
-          "alsoIn": true,
-          "title": "La Unió alerta de un aumento del 94 % en importaciones europeas de miel de Mercosur"
+          "name": "El Debate (datos de Unión de Uniones)",
+          "type": "Medio de comunicación",
+          "url": "https://www.eldebate.com/campo-y-caza/20261026/importacion-miel-desde-mercosur-aumenta-94-primeros-tres-meses-acuerdo_473923.html"
         },
         {
-          "name": "El Periódico Mediterráneo",
-          "type": "También publicó esta noticia",
-          "url": "https://www.elperiodicomediterraneo.com/castello-provincia/2026/10/26/primeros-efectos-acuerdo-mercosur-entrada-135764407.html",
-          "alsoIn": true,
-          "title": "Primeros efectos del acuerdo con Mercosur: la entrada de miel en Europa se dispara un 94% y pone en alerta a los apicultores de Castellón"
+          "name": "Agronews Castilla y León",
+          "type": "Medio especializado",
+          "url": "https://www.agronewscastillayleon.com/union-de-uniones-apicultura"
         },
         {
-          "name": "Info Vegabaja",
-          "type": "También publicó esta noticia",
-          "url": "https://www.infovegabaja.com/la-unio-alerta-del-aumento-del-94-de-las-importaciones-de-miel-de-mercosur/",
-          "alsoIn": true,
-          "title": "LA UNIÓ alerta del aumento del 94% de las importaciones de miel de Mercosur"
+          "name": "EUR-Lex: Reglamento (UE) 2026/687 (salvaguardia bilateral UE–Mercosur)",
+          "type": "Documento oficial",
+          "url": "https://eur-lex.europa.eu/eli/reg/2026/687/oj/eng"
         },
         {
-          "name": "Castellón Plaza",
-          "type": "También publicó esta noticia",
-          "url": "https://castellonplaza.com/castellonplaza/agro/la-unio-alerta-de-un-aumento-del-94-en-importaciones-europeas-de-miel-de-mercosur",
-          "alsoIn": true,
-          "title": "La Unió alerta de un aumento del 94 % en importaciones europeas de miel de Mercosur"
+          "name": "AGRINFO (gestión de cuotas UE–Mercosur, Reglamento 2026/1727)",
+          "type": "Organismo técnico",
+          "url": "https://agrinfo.eu/book-of-reports/eumercosur-interim-trade-agreement-management-of-tariff-rate-quotas/pdf/"
+        },
+        {
+          "name": "Aduana News",
+          "type": "Medio especializado",
+          "url": "https://aduananews.com/en/mercosur-ue-arroz-miel-y-huevos-exponen-el-funcionamiento-de-las-cuotas-regionales/"
+        },
+        {
+          "name": "Canal 26",
+          "type": "Medio de comunicación",
+          "url": "https://www.canal26.com/economia/2026/05/15/acuerdo-mercosur-union-europea-argentina-ya-completo-el-primer-cupo-de-miel-sin-aranceles/"
+        },
+        {
+          "name": "iProfesional",
+          "type": "Medio de comunicación",
+          "url": "https://www.iprofesional.com/comex/454642-oportunidad-historica-un-producto-argentino-ya-ingresa-a-europa-sin-pagar-aranceles"
+        },
+        {
+          "name": "Agronews Castilla y León (datos de LA UNIÓ, enero 2026)",
+          "type": "Medio especializado",
+          "url": "https://www.agronewscastillayleon.com/entrada-de-la-miel"
         }
       ],
-      "gnTried": "2026-10-26T15:16:25Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOVy04Z3BCdVM5NVlvSHo0U0VkdXcxUVBaNFI1LW1ZNF9MYUxIVHpNNUJfZEtOSkZrTWRzcFdZT1pnU2l5YkI5YVIxTEw2YkJ3S0EyTzd2Q1d6M2F6TnBLTDdPVWl5Zm0tNlRoTDJHbGJFRVNGSE1sRVFOMlgtbWZfbGhfV2hHc0R6YUN3a2RQUy0zWDZ6NnBvRXJoYVQwX09wNG1tMy1CMjhfcDhyWTNpeVVpaWt6QnROYXJDYTZ4ZGZHaXdrdHl0UlVaMzV0OWFqUFBzbU12dEoxS0U1LUpFckwtLTNWd1BhSEVDb1RsOFlkX2J5VjdrdGNjWWx3RWV0bmRPOGZxdTE4LWc1U2J5cmpKRTctcUZoUWE4blFkVFlBeG5La1Qw?oc=5",
-      "aliasUrls": [
-        "https://castellonplaza.com/castellonplaza/agro/la-unio-alerta-de-un-aumento-del-94-en-importaciones-europeas-de-miel-de-mercosur",
-        "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQLURpTU9GaHkzS1loVXlzbVVMcENJMDhhdHI0Tm9jeWlleXM3V3ppUUFjaTRORlNrQ1FXamY5enhiMmh6a2t6aWdMV210Qm1zTWlwX3FIOEVaa3dnclBMVEY4djB1ZENSX1UwRFJ2SndnUzF0RUFQMDVMTm82V1hTeFRkOGhlc3JlS2FzXzBqNVpTdHY0VGpkNEUwcmo0TlYzMXB5REdFcHFaNnhvMlVXWnRrTUZlMW9rVUotRFJlcERCTTVGTEotZTkwQTNQd1lJTklGRGJEZWNHR2M",
-        "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS2dEYzR4bGhqSzNCMElYNUhINDd5OUQxNDc5T3h1OFl1NERVTHBzbk12d2dQeWpPS3NFVlVyX0pkTnNnNkhuOEJmVEJqb1ZYa1lqemhVOENISkNxYUZBM0JhTzZIYVBvQkRoNlNvTUJ6NGtXd1RWR1FJNVhYTmhKUGxYdC1naF9fc1pCS1FUZzlHb3prbjdwRzJ3aFF3UVptWEtDZ3R5TQ",
-        "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVHp2SGN4cE13d0t2aExwVDBwYVg3aVJUUlVhaGp4RDFpanhFb0lOM0RjZVY0a3BDRGNhRWk4Q3R6SEJXT2ZYV3VIRlpDRnBKcUZPWEJWVndsdjlKY19HbDVzSVRfclJUUEdoaTNWeHNsN3UtcmhOakNpOTdBSkMxNVdKdVNnSnJTdmkwbTlveV81cUZNbEI5TWZsM3k1Zk82cV9Pa1hzbWhudzlTeDg4Tm9xY0NpamZNbE9tTjdmenhfS0Ru0gHKAUFVX3lxTE1fenRkVVFENkRLR2gzejd3d2JaeUFxV0lYT09oSEtrX0RIbWJMZWxhcmxTTmVEZ0JCWjFGNkpYdnVNdThWRVYteExwcGhMaFR2OVRQcmxaQ0dEVkFuWUl6TGlZN0N5aGo2NkhXV3ZzZWhqUW9zMWloSnlGdGxKUXY1T1plX3h0MllzN1IyNXV0SG11d2xueWV0a3RxOXE3cGxEQzdSczR5aDQxUkJHNDIyaUNUbzFHQ0ZmSXZ3cVZpendVODNncENpUUE",
-        "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTkFWNmNZTFJwZHRITW4ySlBrQ1dJZ3VKWlVyTzdOU1RHZWpxV2NRU3ZZVnVrN2RYU1c1LVE3NFEzMEMzcXJOMmRPZ2VjOERsMVpCTnpHOEVWQjRodk5zb21icFNFYk1vXzJhRjhaU19Rd0N0UzdmSjYyN04za2VDUGdRS3RRSnFtN3J5TXRoeTdxU2pBdTVxYUxpbW1pUzl0S21IZGZHNGlIdmhRaDNHMlFva1JUMnF4c2x1Q1Nhenc1NTlfci00",
-        "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/la-unio-alerta-de-un-aumento-del-94-en-importaciones-europeas-de-miel-de-mercosur",
-        "https://www.elperiodicomediterraneo.com/castello-provincia/2026/10/26/primeros-efectos-acuerdo-mercosur-entrada-135764407.html",
-        "https://www.infovegabaja.com/la-unio-alerta-del-aumento-del-94-de-las-importaciones-de-miel-de-mercosur"
-      ],
-      "mergedIds": [
-        "la-unio-alerta-de-un-aumento-del-94-en-importaciones-europeas-de-miel-de-mercosu",
-        "primeros-efectos-del-acuerdo-con-mercosur-la-entrada-de-miel-en-europa-se-dispar",
-        "la-unio-alerta-del-aumento-del-94-de-las-importaciones-de-miel-de-mercosur"
-      ],
-      "digest": {
-        "lead": "La organización agraria valenciana LA UNIÓ advirtió que la UE importó 12.692,51 toneladas de miel del Mercosur entre mayo y julio de 2026, un 94,2% más que un año antes, y que ya se desbordó el primer cupo sin arancel, informó Valencia News.",
-        "body": [
-          "Según los datos oficiales que cita la entidad, solo en julio entraron 6.269,81 toneladas (+178,9% interanual), y la Argentina aportó más del 85% de ese volumen. Para 2026, primer año de aplicación del acuerdo desde el 1 de mayo, el contingente efectivo de arancel cero es de 5.000 toneladas. En el primer subperíodo, del 1 de mayo al 30 de junio, había 1.402,04 toneladas disponibles y las importaciones lo superaron en 152,04; la Comisión Europea descontó ese excedente del último subperíodo, que quedó en 1.722,96 toneladas.",
-          "El cupo irá creciendo hasta 45.000 toneladas anuales. LA UNIÓ reclama a Bruselas un seguimiento reforzado del mercado de la miel, vigilancia de los precios que reciben los apicultores y la activación sin demora de las salvaguardias del acuerdo si hay un perjuicio grave para los productores europeos."
-        ],
-        "at": "2026-10-26T13:10:00-03:00",
-        "basedOn": "https://valencianews.es/economia/la-unio-alerta-de-que-las-importaciones-de-miel-de-mercosur-casi-se-duplican-en-los-tres-primeros-meses-del-acuerdo-y-ya-desbordan-el-primer-contingente-sin-aranceles/",
-        "words": 177,
-        "flag": "curar"
-      }
+      "story": "ue-mercosur",
+      "absorbs": [
+        "la-unio-alerta-de-las-importaciones-de-miel-de-mercosur",
+        "union-de-uniones-se-disparan-las-importaciones-de-miel",
+        "la-importacion-de-miel-desde-mercosur-aumenta-un-94-en-los-primeros-tres-meses-d"
+      ]
     },
     {
       "id": "economia-del-conocimiento-exportaciones-de-servicios-superan-los-us-10-000-millo",
@@ -2211,13 +2970,16 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Logística",
         "Transporte marítimo",
         "Geopolítica y comercio"
       ],
       "countries": [
         "Global"
       ],
-      "tags": [],
+      "tags": [
+        "Fletes"
+      ],
       "visual": "ship",
       "impact": 1,
       "affectsArgentina": false,
@@ -2671,6 +3433,41 @@
       }
     },
     {
+      "id": "argentina-lleva-34-meses-consecutivos-de-superavit-comercial-las-exportaciones-s",
+      "datetime": "2026-10-26T06:50:17Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-26T21:58:33Z",
+      "title": "Argentina lleva 34 meses consecutivos de superávit comercial: “Las exportaciones superaron los USD 10.000 millones por primera vez”",
+      "summary": "“Acá lo que estamos viendo, al haber un crecimiento de las cantidades, es que hay una expansión real del comercio”, indicó la especialista en comercio exterior, Yanina Lojo. ...",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Radio Fan",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://lafanradio.com/articulo/argentina-lleva-34-meses-consecutivos-de-superavit-comercial-las-exportaciones-superaron-los-usd-10.000-millones-por-primera-vez.php",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-26T21:58:33Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOdEhHWHVCX1M3bGtBVElwU055aTl5bzlEbjQ4SktvRDBYbTFXbWtPSURXbTlXYmFNR0Q0b2xScmtrOTJ5MXNZMXIzc1RXaWZYb0h0RG01MmY4RmJXT2dMTko0aTNDQTlQaTRGT2tqeWdEdEIyQzdZYUVENGlZZFo5TmliX3VxVm0zMnBYdWVQVm9nd2lCRURNOGRoNGNZNi1HMGFaM1VLdEhyZzd0dlNNN2p3WEtDUlhaMl9nbFZ0R1ZQQXozZ29ZWko4bmhMRmkyc29ubllBRjRZZEg3STFsQ0E2Y0hrY0VVYnFzRlBsZWQyVWJ3SmxV?oc=5"
+    },
+    {
       "id": "ee-uu-flexibiliza-sanciones-al-diesel-ruso-pero-restricciones-limitarian-impacto",
       "datetime": "2026-10-26T06:06:20Z",
       "date": "2026-10-26",
@@ -2680,6 +3477,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Importaciones",
         "Transporte marítimo",
         "Geopolítica y comercio",
         "Estados Unidos"
@@ -2723,7 +3521,7 @@
       "date": "2026-10-26",
       "firstSeen": "2026-10-26T18:02:47Z",
       "title": "Economía, exportaciones e inteligencia artificial: los grandes temas que reunirá la Jornada Comex",
-      "summary": "La plataforma de noticias del ámbito empresarial, emprendedor e industrial de Villa María y toda la región. Contenido de calidad e interés para el sector.",
+      "summary": "",
       "body": [],
       "keyData": [],
       "topics": [
@@ -30130,7 +30928,7 @@
       "date": "2026-10-19",
       "firstSeen": "2026-10-19T14:08:27Z",
       "title": "Córdoba busca abrir nuevos mercados para sus empresas a partir del acuerdo Mercosur-Unión Europea",
-      "summary": "La plataforma de noticias del ámbito empresarial, emprendedor e industrial de Villa María y toda la región. Contenido de calidad e interés para el sector.",
+      "summary": "",
       "body": [],
       "keyData": [],
       "topics": [
@@ -85467,312 +86265,10 @@
         }
       },
       "updated": "2026-10-21T12:00:00-03:00"
-    },
-    {
-      "id": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia",
-      "date": "2026-10-26",
-      "datetime": "2026-10-26T08:24:00-03:00",
-      "kind": "noticia",
-      "title": "Miel: las compras europeas al Mercosur casi se duplicaron con el acuerdo y los apicultores españoles piden activar la salvaguardia",
-      "summary": "Según organizaciones agrarias de España, la UE importó 12.692,51 toneladas de miel del Mercosur entre mayo y julio, 94,2% más que un año antes, y la Argentina aportó más del 85% de lo que entró en julio. La cuota sin arancel se desbordó en su primer tramo y la Comisión recortó el último.",
-      "topics": [
-        "Argentina",
-        "Mercosur",
-        "Europa",
-        "Exportaciones",
-        "Tratados y acuerdos",
-        "Aranceles"
-      ],
-      "countries": [
-        "Argentina",
-        "Uruguay",
-        "Brasil",
-        "Paraguay",
-        "Unión Europea",
-        "España"
-      ],
-      "tags": [
-        "UE-Mercosur",
-        "Miel",
-        "Cuotas arancelarias",
-        "Salvaguardia",
-        "Apicultura"
-      ],
-      "visual": "agro",
-      "impact": 2,
-      "affectsArgentina": true,
-      "argentinaNote": "La Argentina es la principal proveedora de miel del Mercosur a la UE: la presión de los apicultores europeos apunta directamente a sus ventas.",
-      "argentinaImpact": {
-        "change": "La cuota de miel con arancel cero del acuerdo UE–Mercosur se desbordó en su primer tramo y las organizaciones agrarias españolas piden a la Comisión vigilancia reforzada y, si hay perjuicio, aplicar la salvaguardia bilateral.",
-        "who": "Exportadores y fraccionadores de miel, apicultores argentinos y despachantes que tramitan embarques a la UE.",
-        "sectors": [
-          "Miel",
-          "Apicultura"
-        ],
-        "flows": {
-          "importaciones": false,
-          "exportaciones": true,
-          "logistica": false,
-          "aranceles": true
-        }
-      },
-      "body": [
-        "Las importaciones de miel de la Unión Europea desde el Mercosur casi se duplicaron en los primeros tres meses de aplicación del acuerdo comercial entre los dos bloques. Según los datos oficiales que difundieron el lunes 26 de octubre dos organizaciones agrarias españolas, LA UNIÓ Llauradora i Ramadera, de la Comunitat Valenciana, y Unión de Uniones de Agricultores y Ganaderos, entre mayo y julio de 2026 entraron al bloque 12.692,51 toneladas de miel de la Argentina, Brasil, Uruguay y Paraguay, un 94,2% más que las 6.535,59 toneladas del mismo período de 2025.",
-        "El salto se concentró en julio, cuando ingresaron 6.269,81 toneladas, contra 2.248,10 toneladas un año antes: una suba interanual de 178,9%. Ese solo mes casi igualó lo que había entrado en todo el trimestre mayo–julio de 2025. La Argentina explicó 5.343,34 toneladas de las compras de julio, más del 85% del total, seguida por Uruguay, con 635,35 toneladas, y Brasil, con 291,12 toneladas, según las cifras que reprodujeron elperiodic.com, El Debate y Agronews Castilla y León.",
-        "## Cómo funciona la cuota de miel",
-        "Fuera del acuerdo, la miel del Mercosur paga en la UE un arancel de 17,3%. El Acuerdo Interino de Comercio, que se aplica en forma provisional desde el 1 de mayo de 2026, abrió una cuota con arancel cero (número de orden 09.0881) que irá creciendo hasta 45.000 toneladas anuales. La base anual de arranque es de 7.500 toneladas, pero como el acuerdo empezó a regir en mayo, el volumen efectivo para 2026 quedó en 5.000 toneladas, repartido en subperíodos. La cuota se asigna por orden de llegada: el beneficio corresponde a las declaraciones de aduana que se aceptan primero, hasta agotar el volumen, según explicó Aduana News.",
-        "En el primer tramo, del 1 de mayo al 30 de junio, había 1.402,04 toneladas disponibles y las importaciones imputadas a la cuota lo superaron en 152,04 toneladas. La Comisión Europea reconoció ese exceso en el Reglamento de Ejecución (UE) 2026/1727, del 10 de julio, y lo descontó del último subperíodo del año, que quedó en 1.722,96 toneladas. Las organizaciones agrarias aclaran que las 12.692,51 toneladas importadas no entraron todas con preferencia: la cuota solo determina cuánta miel paga cero, y el resto sigue tributando el arancel general.",
-        "## La Argentina, la que más aprovechó el primer cupo",
-        "El resultado no sorprende a quienes siguen el sector. La Argentina produce en promedio unas 80.000 toneladas de miel por año y exporta alrededor del 95%, según Canal 26, y es la segunda productora y exportadora mundial detrás de China, según iProfesional, con Alemania como principal destino. El primer embarque argentino con arancel cero salió de Concordia, Entre Ríos, hacia Alemania en los primeros días de mayo, y a mediados de ese mes el primer cupo ya estaba agotado. Canal 26 informó entonces que empresas argentinas y brasileñas se quedaron con el tramo por velocidad de embarque y que exportadores de Uruguay y Paraguay objetaron el mecanismo.",
-        "Antes del acuerdo, la miel argentina ya tenía un peso grande en Europa. LA UNIÓ había calculado en enero que, hasta septiembre de 2025, la UE compró 20.390 toneladas de miel del Mercosur, de las cuales 16.923 llegaron desde la Argentina, y que en todo 2024 las compras al bloque sudamericano sumaron 23.630 toneladas. Exportadores consultados por iProfesional en mayo advirtieron que la baja del arancel no se traslada en forma automática al precio que cobra el productor.",
-        "## Qué piden los apicultores europeos",
-        "Las organizaciones españolas sostienen que haber agotado y superado la cuota en su primer tramo muestra la presión de la miel sudamericana sobre el mercado europeo, y advierten que esa presión crecerá a medida que aumenten los volúmenes preferenciales. Argumentan que los apicultores europeos cargan con costos altos y exigencias sanitarias, ambientales y de trazabilidad estrictas. Piden a la Comisión un seguimiento específico del mercado de la miel, con información actualizada sobre volúmenes, precios de entrada, orígenes y uso de la cuota; vigilancia de los precios que reciben los productores, y la aplicación inmediata de las salvaguardias del acuerdo ante una perturbación grave o un perjuicio acreditado. Unión de Uniones anunció además que participará el miércoles 28 de octubre de una tractorada en Madrid contra lo que considera competencia desleal.",
-        "## Qué dice la salvaguardia bilateral",
-        "La herramienta que invocan existe y ya está reglamentada. El Reglamento (UE) 2026/687, del 11 de marzo, que aplica las cláusulas de salvaguardia bilateral del acuerdo para productos agrícolas, incluye a la miel en su lista de productos sensibles, junto con la carne vacuna, el azúcar, el etanol y el biodiésel, entre otros. Para esos productos, una suba de más de 5% en el volumen importado frente al promedio de los tres años anteriores, o una baja de más de 5% en el precio de importación, se toma en principio como indicio de perjuicio grave, siempre que el precio de lo importado esté al menos 5% por debajo del precio interno. Pueden pedir una investigación un Estado miembro o representantes de la industria europea; la Comisión tiene un mes para iniciarla y, en productos sensibles, debe adoptar medidas provisionales dentro de los 21 días de abierta, si corresponden, por un máximo de 200 días.",
-        "Las organizaciones agrarias no presentaron datos de precios de entrada ni de precios al productor, por lo que con la información disponible no se puede saber si se cumplen las condiciones de esos umbrales. Tampoco hubo, hasta ahora, una respuesta pública de la Comisión Europea al reclamo. El mismo reglamento obliga a Bruselas a informar al Parlamento y al Consejo sobre el seguimiento de las importaciones sensibles al menos cada seis meses."
-      ],
-      "keyData": [
-        [
-          "Importaciones de miel del Mercosur (may–jul 2026)",
-          "12.692,51 t (+94,2%)"
-        ],
-        [
-          "Mismo período de 2025",
-          "6.535,59 t"
-        ],
-        [
-          "Julio 2026",
-          "6.269,81 t (+178,9% interanual)"
-        ],
-        [
-          "Argentina en julio",
-          "5.343,34 t (más del 85%)"
-        ],
-        [
-          "Cuota con arancel cero 2026",
-          "5.000 t (hasta 45.000 t anuales)"
-        ],
-        [
-          "Exceso en el primer subperíodo",
-          "152,04 t sobre 1.402,04 t"
-        ],
-        [
-          "Arancel fuera de cuota",
-          "17,3%"
-        ]
-      ],
-      "explainer": {
-        "what": "Según organizaciones agrarias españolas, la UE importó 12.692,51 toneladas de miel del Mercosur entre mayo y julio de 2026, 94,2% más que un año antes, y la cuota sin arancel se superó en 152,04 toneladas en su primer tramo.",
-        "why": "La Argentina aportó más del 85% de lo que entró en julio, y los apicultores europeos piden a Bruselas vigilancia reforzada y la salvaguardia bilateral, que incluye a la miel entre los productos sensibles.",
-        "who": "Exportadores y fraccionadores de miel argentinos, apicultores e importadores europeos.",
-        "products": [
-          "Miel natural"
-        ],
-        "next": "Si un Estado miembro o la industria europea lo piden, el Reglamento (UE) 2026/687 le da a la Comisión un mes para iniciar una investigación y, en productos sensibles como la miel, 21 días desde la apertura para adoptar medidas provisionales si corresponden.",
-        "nextSource": {
-          "name": "EUR-Lex: Reglamento (UE) 2026/687",
-          "url": "https://eur-lex.europa.eu/eli/reg/2026/687/oj/eng"
-        }
-      },
-      "sources": [
-        {
-          "name": "elperiodic.com (datos de LA UNIÓ)",
-          "type": "Medio de comunicación",
-          "url": "https://www.elperiodic.com/unio-alerta-importaciones-miel-mercosur-casi-duplican-tres-primeros-meses-acuerdo_1099268",
-          "primary": true
-        },
-        {
-          "name": "El Debate (datos de Unión de Uniones)",
-          "type": "Medio de comunicación",
-          "url": "https://www.eldebate.com/campo-y-caza/20261026/importacion-miel-desde-mercosur-aumenta-94-primeros-tres-meses-acuerdo_473923.html"
-        },
-        {
-          "name": "Agronews Castilla y León",
-          "type": "Medio especializado",
-          "url": "https://www.agronewscastillayleon.com/union-de-uniones-apicultura"
-        },
-        {
-          "name": "EUR-Lex: Reglamento (UE) 2026/687 (salvaguardia bilateral UE–Mercosur)",
-          "type": "Documento oficial",
-          "url": "https://eur-lex.europa.eu/eli/reg/2026/687/oj/eng"
-        },
-        {
-          "name": "AGRINFO (gestión de cuotas UE–Mercosur, Reglamento 2026/1727)",
-          "type": "Organismo técnico",
-          "url": "https://agrinfo.eu/book-of-reports/eumercosur-interim-trade-agreement-management-of-tariff-rate-quotas/pdf/"
-        },
-        {
-          "name": "Aduana News",
-          "type": "Medio especializado",
-          "url": "https://aduananews.com/en/mercosur-ue-arroz-miel-y-huevos-exponen-el-funcionamiento-de-las-cuotas-regionales/"
-        },
-        {
-          "name": "Canal 26",
-          "type": "Medio de comunicación",
-          "url": "https://www.canal26.com/economia/2026/05/15/acuerdo-mercosur-union-europea-argentina-ya-completo-el-primer-cupo-de-miel-sin-aranceles/"
-        },
-        {
-          "name": "iProfesional",
-          "type": "Medio de comunicación",
-          "url": "https://www.iprofesional.com/comex/454642-oportunidad-historica-un-producto-argentino-ya-ingresa-a-europa-sin-pagar-aranceles"
-        },
-        {
-          "name": "Agronews Castilla y León (datos de LA UNIÓ, enero 2026)",
-          "type": "Medio especializado",
-          "url": "https://www.agronewscastillayleon.com/entrada-de-la-miel"
-        }
-      ],
-      "story": "ue-mercosur",
-      "absorbs": [
-        "la-unio-alerta-de-las-importaciones-de-miel-de-mercosur",
-        "union-de-uniones-se-disparan-las-importaciones-de-miel",
-        "la-importacion-de-miel-desde-mercosur-aumenta-un-94-en-los-primeros-tres-meses-d"
-      ]
-    },
-    {
-      "id": "gobierno-uia-mercado-libre-meta-acuerdo-contrabando-plataformas-arca-cruce-datos",
-      "date": "2026-10-26",
-      "datetime": "2026-10-26T11:18:00-03:00",
-      "kind": "noticia",
-      "title": "Contrabando: el Gobierno firmó con la UIA, Mercado Libre y Meta un acuerdo para cruzar datos de vendedores con los registros de la Aduana",
-      "summary": "Las plataformas informarán a los principales vendedores de categorías sensibles y ARCA cruzará esos datos con los registros aduaneros para detectar ventas irregulares. Mercado Libre empezará con notebooks, celulares, cosméticos, juguetes y neumáticos.",
-      "topics": [
-        "Argentina",
-        "Aduanas",
-        "Importaciones",
-        "Regulaciones",
-        "Tecnología COMEX"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Contrabando",
-        "Comercio electrónico",
-        "ARCA",
-        "UIA",
-        "Mercado Libre",
-        "Meta",
-        "Subfacturación",
-        "Vigilancia de mercado"
-      ],
-      "visual": "parcel",
-      "impact": 2,
-      "affectsArgentina": true,
-      "argentinaNote": "Quien importa para vender en plataformas digitales queda expuesto a un cruce de datos entre los avisos y los registros de la Aduana: un origen que no cierra puede terminar en la baja de la publicación.",
-      "argentinaImpact": {
-        "change": "Mercado Libre, Meta, Frávega y Cetrogar entregarán informes trimestrales sobre vendedores y productos de categorías sensibles, que ARCA cruzará con los registros de la Aduana y de la VUCE para detectar ventas irregulares.",
-        "who": "Importadores, vendedores en plataformas de comercio electrónico y redes sociales, industrias que compiten con productos importados y despachantes de aduana.",
-        "sectors": [
-          "Electrónica",
-          "Celulares",
-          "Cosmética",
-          "Juguetes",
-          "Neumáticos",
-          "Comercio electrónico"
-        ],
-        "flows": {
-          "importaciones": true,
-          "exportaciones": false,
-          "logistica": false,
-          "aranceles": false
-        }
-      },
-      "body": [
-        "La Secretaría de Industria y Comercio firmó el lunes 26 de octubre convenios con la Unión Industrial Argentina (UIA), cámaras empresarias y las principales plataformas de venta en línea para combatir el contrabando, la subfacturación y la venta de productos que no cumplen la normativa. Según Infobae y El Cronista, participaron el secretario de Industria, Pablo Lavigne, y el presidente de la UIA, Martín Rappallini. El eje del esquema es un cruce de datos: las plataformas informarán quiénes venden y qué venden en categorías sensibles, y ARCA contrastará esa información con los registros de la Aduana.",
-        "La firma había sido anticipada por Rappallini el 22 de octubre en el Coloquio Industrial de la Unión Industrial de Córdoba, y llega en un contexto de reclamos del sector manufacturero por la competencia de mercadería que ingresa en forma irregular, en medio de la caída de la actividad fabril.",
-        "## Quiénes firmaron y qué se comprometen a hacer",
-        "Según Infobae, los convenios marco los suscribieron la UIA, la Cámara Argentina de Comercio Electrónico (CACE), la Cámara Argentina de Comercio y Servicios, AFARTE, la Asociación de Supermercados Unidos, Mercado Libre, Frávega, Cetrogar y Meta. Además, Meta, Mercado Libre, Frávega y Cetrogar firmaron acuerdos específicos. El Cronista suma a la Cámara de Importadores (CIRA) entre las entidades participantes; la diferencia entre ambas listas no fue aclarada.",
-        "Las plataformas se comprometieron a compartir información sobre sus principales vendedores y los productos de categorías sensibles. Esos informes, de frecuencia trimestral, podrán cotejarse con los registros de la Dirección General de Aduanas y de la Ventanilla Única de Comercio Exterior (VUCE), y ARCA cruzará los datos para detectar inconsistencias e indicios de ventas irregulares. Las plataformas podrán dar de baja las publicaciones que provengan de operaciones ilegales, algo que Meta ya hacía en Facebook e Instagram. Mercado Libre, que se suma ahora al mecanismo, empezará por cinco categorías: notebooks, celulares, cosméticos, juguetes y neumáticos. También harán campañas para recordar a vendedores y proveedores sus obligaciones, en especial sobre el origen de la mercadería.",
-        "## Qué consecuencias puede tener para un vendedor",
-        "Cuando corresponda, los casos se tramitarán según la Resolución 56/2026, que aprobó el Protocolo de Vigilancia de Mercado y se publicó en el Boletín Oficial el 9 de marzo. Según el análisis del estudio Marval O'Farrell Mairal, esa norma no crea requisitos técnicos nuevos: fija criterios y prioridades para verificaciones documentales, inspecciones, controles en frontera y toma de muestras, con un enfoque basado en el riesgo, y alcanza a fabricantes, importadores y comercializadores. Los procedimientos pueden terminar en multas, la prohibición de vender, el retiro de los productos del mercado o, según Infobae, la intervención de la Justicia.",
-        "El convenio con la UIA tiene cinco ejes: un marco de cooperación contra el contrabando, el fraude aduanero, la falsificación y los productos fuera de norma; herramientas tecnológicas y controles sistémicos, con revisión normativa y fiscalización coordinada; intercambio de información, con acuerdos específicos voluntarios con empresas socias; coordinación con ARCA, la Autoridad Nacional de la Competencia, el INPI, el SENASA y la ANMAT, y una mesa de trabajo permanente. Según El Cronista, entre las líneas de trabajo figuran además perfiles de riesgo, análisis de subfacturación, escáneres, trazabilidad, medidas contra el fraccionamiento de envíos y una revisión de los límites de los envíos por courier y postales; ese medio menciona también valores de referencia para importaciones de bienes sensibles, un punto que Infobae no recoge.",
-        "## Los números del reclamo industrial",
-        "Las cifras que acompañaron la firma son de la propia industria. Según la UIA, el comercio ilícito equivale a cerca del 5% del PBI y genera una pérdida fiscal de unos USD 2.300 millones por año. La tercera encuesta de la entidad indica que seis de cada diez empresas industriales se ven afectadas por el comercio desleal y que cuatro de cada diez enfrentan competencia ilegal en plataformas, marketplaces y redes sociales. Según Clarín, citado por Noticias de Bariloche, el 59,7% de las firmas reporta un impacto alto o muy alto, que llega al 88,2% en metales comunes y al 84,6% en textiles. Ana Vainman, de AFARTE, estimó que uno de cada tres celulares que se venden en el país no fue importado legalmente ni fabricado en la Argentina.",
-        "## De dónde viene y qué falta",
-        "El acuerdo le da un marco formal a un esquema que hasta hace dos semanas no tenía respaldo oficial. Como informó Comexplora el 13 de octubre, las cámaras industriales ya denunciaban publicaciones irregulares ante Meta y negociaban con Mercado Libre, mientras la Aduana preparaba una plataforma integrada con inteligencia artificial para reemplazar más de 25 sistemas, financiada por el BID. A comienzos de octubre, la UIA también había planteado ante la Aduana la subvaloración de importaciones, un problema que, según Infobae, creció tras la eliminación de los precios de referencia; las autoridades dijeron que trabajan en un sistema para cruzar cantidades y precios declarados.",
-        "Quedan pasos por delante. La Secretaría y la UIA tienen que acordar un plan de trabajo semestral con seguimiento trimestral, a cargo de la Mesa de Acciones contra el Contrabando, el Comercio Ilegítimo y la Competencia Desleal de la entidad fabril, y faltan los acuerdos específicos con cada empresa socia que quiera sumarse. Las fuentes no informan desde qué fecha empezará a funcionar el mecanismo de bajas en Mercado Libre ni cuándo se entregarán los primeros informes trimestrales."
-      ],
-      "keyData": [
-        [
-          "Pérdida fiscal estimada por comercio ilícito",
-          "USD 2.300 millones por año (UIA)"
-        ],
-        [
-          "Comercio ilícito",
-          "Cerca del 5% del PBI (UIA)"
-        ],
-        [
-          "Empresas industriales afectadas",
-          "6 de cada 10"
-        ],
-        [
-          "Competencia ilegal en plataformas",
-          "4 de cada 10 empresas"
-        ],
-        [
-          "Categorías iniciales en Mercado Libre",
-          "Notebooks, celulares, cosméticos, juguetes y neumáticos"
-        ],
-        [
-          "Frecuencia de los informes",
-          "Trimestral, con cruce de ARCA"
-        ],
-        [
-          "Marco de sanciones",
-          "Resolución 56/2026 (Vigilancia de Mercado)"
-        ]
-      ],
-      "explainer": {
-        "what": "La Secretaría de Industria y Comercio firmó con la UIA, cámaras empresarias, Mercado Libre, Meta, Frávega y Cetrogar un acuerdo para que las plataformas informen vendedores de categorías sensibles y ARCA cruce esos datos con los registros aduaneros.",
-        "why": "Según la UIA, el comercio ilícito cuesta unos USD 2.300 millones por año en recaudación, y 4 de cada 10 empresas industriales enfrentan competencia ilegal en plataformas y redes sociales.",
-        "who": "Importadores, vendedores en plataformas digitales y redes sociales, industrias que compiten con productos importados y despachantes de aduana.",
-        "products": [
-          "Notebooks",
-          "Celulares",
-          "Cosméticos",
-          "Juguetes",
-          "Neumáticos"
-        ],
-        "next": "Según Infobae, la Secretaría y la UIA acordarán un plan de trabajo semestral con seguimiento trimestral, y las empresas socias de la UIA podrán firmar acuerdos específicos.",
-        "nextSource": {
-          "name": "Infobae",
-          "url": "https://www.infobae.com/economia/2026/10/26/el-gobierno-firma-con-empresarios-un-acuerdo-contra-el-contrabando-que-controles-incluye-y-como-funcionaran/"
-        }
-      },
-      "sources": [
-        {
-          "name": "Infobae",
-          "type": "Medio de comunicación",
-          "url": "https://www.infobae.com/economia/2026/10/26/el-gobierno-firma-con-empresarios-un-acuerdo-contra-el-contrabando-que-controles-incluye-y-como-funcionaran/",
-          "primary": true
-        },
-        {
-          "name": "El Cronista",
-          "type": "Medio de comunicación",
-          "url": "https://www.cronista.com/economia-politica/acuerdo-gobierno-industria-para-combatir-la-venta-ilegal-online-que-medidas-se-toman/"
-        },
-        {
-          "name": "Marval O'Farrell Mairal (Resolución 56/2026)",
-          "type": "Estudio jurídico",
-          "url": "https://www.marval.com/Publicacion/nuevo-protocolo-de-vigilancia-de-mercado-17539?lang=es"
-        },
-        {
-          "name": "Noticias de Bariloche (vía Clarín)",
-          "type": "Medio de comunicación",
-          "url": "https://www.noticiasdebariloche.com.ar/contrabando-controlaran-el-origen-y-por-cual-plataforma-ingresan-los-productos-al-pais/"
-        },
-        {
-          "name": "El Cronista (anuncio en el Coloquio de la UIC)",
-          "type": "Medio de comunicación",
-          "url": "https://www.cronista.com/economia-politica/el-gobierno-lanza-medidas-para-la-industria-acuerdo-por-contrabando-y-la-negociacion-por-el-rigi-pyme/"
-        }
-      ],
-      "story": "aduana-argentina"
     }
   ],
   "ingestion": {
-    "ranAt": "2026-10-26T18:02:47Z",
+    "ranAt": "2026-10-26T21:58:33Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
@@ -85788,7 +86284,7 @@
         "url": "https://www.aduananews.com/feed/",
         "ok": true,
         "items": 12,
-        "added": 0,
+        "added": 1,
         "updated": 0,
         "skipped": 3
       },
@@ -85797,7 +86293,7 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 3,
+        "added": 6,
         "updated": 0,
         "skipped": 9
       },
@@ -85805,8 +86301,8 @@
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 42,
-        "added": 2,
+        "items": 44,
+        "added": 3,
         "updated": 0,
         "skipped": 32
       },
@@ -85814,16 +86310,16 @@
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 33,
-        "added": 4,
+        "items": 35,
+        "added": 1,
         "updated": 0,
-        "skipped": 27
+        "skipped": 29
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 77,
+        "items": 78,
         "added": 4,
         "updated": 0,
         "skipped": 63
@@ -85832,28 +86328,28 @@
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 45,
+        "items": 38,
         "added": 4,
         "updated": 0,
-        "skipped": 31
+        "skipped": 21
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
         "url": "https://news.google.com/rss/search?q=(aranceles+OR+%22guerra+comercial%22+OR+%22acuerdo+comercial%22)+when:1d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 63,
+        "items": 65,
         "added": 4,
         "updated": 0,
-        "skipped": 46
+        "skipped": 47
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 62,
+        "items": 84,
         "added": 4,
         "updated": 0,
-        "skipped": 40
+        "skipped": 59
       }
     ],
     "curatedDuplicates": [
@@ -85888,9 +86384,9 @@
         "curated": "lula-reelecto-brasil-comercio-argentina-autos-mercosur-agenda-2027"
       },
       {
-        "title": "Exportaciones récord: el maíz argentino avanza a todo ritmo y domina el mercado mundial",
-        "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPVkJ5YWZOMjRrSzYwNl8zMF9faW9fN05lLWN0c1JucEU0VUttLVloTXNmTndSZ1BzcUFpSXVBclA3WTV2NkgtY1JuenFlMkFOSXBzaWFlR0VOOXMtcndYVS1IbHZjckxDNkJZUmhmLTY5Z21SOUI4V2I2d185Q3NjVzQtd0dmQjVjejFUcm5ja2ZNQ1JIMW5mbTNtam1GODJJZGswcVFyT2R6dS1HSWI4dDZkXzNvanhsTVlFUUxoOGlQM09HajBWNllIZl9GNzdWUWJfU2FFaDN0R3BDRnfSAd4BQVVfeXFMT1ZCeWFmTjI0a0s2MDZfMzBfX2lvXzdOZS1jdHNSbnBFNFVLbS1ZaE1zZk53UmdQc3FBaUl1QXJQN1k1djZILWNSbnpxZTJBTklwc2lhZUdFTjlzLXJ3WFUtSGx2Y3JMQzZCWVJoZi02OWdtUjlCOFdiNndfOUNzY1c0LXdHZkI1Y3oxVHJuY2tmTUNSSDFuZm0zbWptRjgySWRrMHFRck9kenUtR0liOHQ2ZF8zb2p4bE1ZRVFMaDhpUDNPR2owVjZZSGZfRjc3VlFiX1NhRWgzdEdwQ0Z3?oc=5",
-        "curated": "maiz-exportaciones-record-marzo-octubre-34-2-millones-toneladas-bcr-ucrania-brasil"
+        "title": "El impacto del triunfo de Lula en Argentina: Brasil tiene la llave de las exportaciones y pone a prueba el pla",
+        "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPRXhSaUhFYzlfRFJUWHNvcjF6UW53OE5Ca2FVYXZpZXRyNDNqanpPTmFVNFhjOUlDb2hMS18wQ0U3TzF1WEJhdTRDSU94RHFFbjF0T2FYVlUxMFFmNnBBekpwdy1ZYWpPalpBcFRZNXJhQnNJOElTOXhhdkJZZ3ZwajNqM21DdHBEbHpHak1STVBFenE2WXRVNFpDTUdUcTFwUUdnQXdTWjJXTEhVbU5fZ01HZ1lieWVubUNIb3FRckFRSV9WZHlWY2hBNGpHb1lWWGtoOUZTak0yTUFnREdVVnBGNFVidi1XRURjWjNjUzg4ZEVNUWxJ0gH_AUFVX3lxTE1EOUNnRF9DdmMxMklpY21HclVIWDdYNU43Zkxsd3lQbk1aOG1nMHg3c3VtUGx1MERubHlacEJGdUJsNVdnMjhEdWhjVmJjUkZWenlLOXRsdjlyYVdsbGR4QzJJTldRczhIUXhPWlpaRU5ScVh2bU9MYzE2YS03aVdZTkpKdFg3bDYzOF9LXy02Y0dxb2J6U3AzYnJCYTU5VDJEcG4tcnJ3X1ZiVlNHRm93S0RNRVJTbXBjcnl6NlVlamVpMk16dTMwdWlKaUhfaDdtTEhsVm9DSTZCNTgxMkltVE1xV1Rla2psamlEWEVvbU8yWDNJdWNHSlg4VmVrNA?oc=5",
+        "curated": "lula-reelecto-brasil-comercio-argentina-autos-mercosur-agenda-2027"
       },
       {
         "title": "El trinfo de Lula y su impacto en el comercio exterior: qué puede pasar en la balanza bilateral con Argentina",
@@ -85904,7 +86400,7 @@
       },
       {
         "title": "El petróleo se consolida como el principal producto de exportación de la Argentina",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVlRTUS1aLTd4SnFOOXJSdngwZGJPWXFudTZ5emZLNEwwU09GeER0aTUwOTZvenJGMk9JTlVSSURlR2NVMlMzWDA0UEV3WVhaZFdUbEx6NHRwVkVfM1pVVHF1RFQ0YldfMlhySG1qczNBcUoxXzJsdlpKUlBSTEZtRW5IaFAwNWp1UGxlc3pFX0ZZNFkzZ2NXTUhBMjVuc29RNXdFaHE2U183R0xYVEx6YjlGdzV2Z21tcTV3Sl96TG9jTjVwN1dFV2ZxRDVGX19sTy1ieVJWY9IB1wFBVV95cUxPVlRTUS1aLTd4SnFOOXJSdngwZGJPWXFudTZ5emZLNEwwU09GeER0aTUwOTZvenJGMk9JTlVSSURlR2NVMlMzWDA0UEV3WVhaZFdUbEx6NHRwVkVfM1pVVHF1RFQ0YldfMlhySG1qczNBcUoxXzJsdlpKUlBSTEZtRW5IaFAwNWp1UGxlc3pFX0ZZNFkzZ2NXTUhBMjVuc29RNXdFaHE2U183R0xYVEx6YjlGdzV2Z21tcTV3Sl96TG9jTjVwN1dFV2ZxRDVGX19sTy1ieVJWYw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZUcxaXlyY19xcFZ1emxuTkVCM1BoUXhmajljVEt1LWtXX3dmZGYycWpWVlZtc1N1THpxQ1J5MmR5aWNFVUkwYUllVGtfWmxJY0JQTjVhUW9YeEtPMXEwUldzejNIMGw5dmZtVTFxbjFSQlM5alVVMFhUTlZvSTZid0ZKMTdjOWtEYlVXdkE4eHZPUG1aZjU1bU96VmNGandNNHVUNzIxV3lnOGRaRDA5RTJtNDJTbUoydGJhRlF0SUN2SlBkUjgydnE1dzh0a3M5bmgyWNIB1wFBVV95cUxPVlRTUS1aLTd4SnFOOXJSdngwZGJPWXFudTZ5emZLNEwwU09GeER0aTUwOTZvenJGMk9JTlVSSURlR2NVMlMzWDA0UEV3WVhaZFdUbEx6NHRwVkVfM1pVVHF1RFQ0YldfMlhySG1qczNBcUoxXzJsdlpKUlBSTEZtRW5IaFAwNWp1UGxlc3pFX0ZZNFkzZ2NXTUhBMjVuc29RNXdFaHE2U183R0xYVEx6YjlGdzV2Z21tcTV3Sl96TG9jTjVwN1dFV2ZxRDVGX19sTy1ieVJWYw?oc=5",
         "curated": "exportaciones-12-meses-100845-millones-crudo-primer-producto-septiembre-2026"
       },
       {
@@ -85918,88 +86414,96 @@
         "curated": "exportaciones-12-meses-100845-millones-crudo-primer-producto-septiembre-2026"
       },
       {
-        "title": "El petróleo se consolida como el principal producto de exportación de la Argentina: los planes para escalar en el…",
-        "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNck5PeXgtcnpEZk1odklvd25RTjhGeTJmWG9rUWM5a2NyQ0s3UEw5U0Rwd2xfUFF5cExmUDVuUU1GdzB0Y2tZYWd3U1B4U3J4MjBWby0zVjI3cUxkdHRlWDdwUG1nOU9VMWxQMC1BZFFYN0pkSUw1d1NfbEhObGlwREtjRzg3WTB6cmUyWUVaeVItZzZ5bUlibG1MejVnaXNMalF6TFpIS1NEa3E1eXRoV2hkbFpKMjNXa0tPQ2UzU1pmdVZha3hETUJzX25aQTN5R1hWZHk2ZDJkaWZaUFlYQXExZjctQU5rYmpVXw?oc=5",
+        "title": "Mercado Libre, Aduana y el contrabando: el nuevo frente de Javier Milei",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWnI0bWc2cVR0MHVldmVWaGx2ZVpleXZxRW9YeFB3T1A4VHFxQmkwc1p0VFlXdHFkTXQ4WDBGSUcwQjMwV1lfdGNwN29kLWtJQlhaYjROZVNlM1lCVmp6REllbDRHZjhlX0s1aFJYRkVjeGxVVHBLWmV0UUdITi15UVhJYTVVcVZsVmtzd19GMGpYRmZDVWdHUUZTMzFaRDQwSXdHdi1hMmNwZFXSAasBQVVfeXFMTVpyNG1nNnFUdDB1ZXZlVmhsdmVaZXl2cUVvWHhQd09QOFRxcUJpMHNadFRZV3RxZE10OFgwRklHMEIzMFdZX3RjcDdvZC1rSUJYWmI0TmVTZTNZQlZqekRJZWw0R2Y4ZV9LNWhSWEZFY3hsVVRwS1pldFFHSE4teVFYSWE1VXFWbFZrc3dfRjBqWEZmQ1VnR1FGUzMxWkQ0MEl3R3YtYTJjcGRV?oc=5",
+        "curated": "gobierno-uia-mercado-libre-meta-acuerdo-contrabando-plataformas-arca-cruce-datos"
+      },
+      {
+        "title": "Las importaciones de miel de Mercosur a la UE casi se duplican",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOM3RYUkJ0SHdXcDBXXzlCaXQ4TE9SLU1jSjVMZU5IWFp1V0dvaFp2QXhDVVRBSnhZWEpxVGlURFVVeVBPdk1jUlFvRXJKNVVPZ2N1VVNERjZHZTlteUlWSmRMX2tORzM2cy12YkU3eGFOZTNSWS1BSDhUbjBnVV9ONXBlTlhDYlFZWUNaRFBXX1RMZ2lCOE9mOTQ3WnZpZzBGa2pzQ3JPb3IwWGNMSzRMXzlWYXZUY0NPY3hmdNIBwgFBVV95cUxPMW9VWGRmMWExcW9GRXBDaGxWaktXOXk5SFh6X1MteTZycDBsMVNCMGd2VE5zd1A2V05WeF9xbm9zNnB4eUdrWWtWdWo0U3NhU0x1UTZSU0JWbnk3VFE1Y0xfcFFGZmRtZnVyQWxoNUxtY2gwTUc5UEdCRk4zMDNHUVNTckhYcTByVlNyYW05OU1xSVZtSE8wRXRXWEI5S0RBQlQ4MUNEV0JfQU1IS2V3Y3F6OW9LM0R2RWRIQkwyeEN0Zw?oc=5",
+        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
+      },
+      {
+        "title": "Exportaciones récord: Argentina superó los u$s100.000 millones",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaEhNQUx2V3puclphamptbk9iaDl4ZlI1Vms4ZXh4WWZ5OE5EaVVoOWt1c1RueTI2T2pjcUIwenZlRWFicmJNMDlWQThsZXJZZ29IRlgtTG5tVmgtbjZ0UTFFbXBZZGl6dl9TUGZQRXVubEVXemJ2MlZvSW14ckZ1Zzd4ZWVsLXRvVnpMN3gyMVFGZVk2MmlYWGw2c3p2T1hRcXIyWkdzY3HSAagBQVVfeXFMT2hITUFMdld6bnJaYWpqbW5PYmg5eGZSNVZrOGV4eFlmeThORGlVaDlrdXNUbnkyNk9qY3FCMHp2ZUVhYnJiTTA5VkE4bGVyWWdvSEZYLUxubVZoLW42dFExRW1wWWRpenZfU1BmUEV1bmxFV3pidjJWb0lteHJGdWc3eGVlbC10b1Z6TDd4MjFRRmVZNjJpWFhsNnN6dk9YUXFyMlpHc2Nx?oc=5",
         "curated": "exportaciones-12-meses-100845-millones-crudo-primer-producto-septiembre-2026"
       },
       {
-        "title": "El Gobierno destacó el acuerdo Mercosur-UE: \"Son mejoras reales para nuestras exportaciones\"",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQVlqSGdaTmYwdzFyMERybGtCblZrUzc0TE8yMGRBUjh0ZUd0T1pDUVAtNjZSSGU2ZUQ2V21fNURQWXRYM2FzcGdiM0dHeGZacG4wNEhkRU45YTVZTjZpSVVTSTlpckQ5X0l6Mzk2d0FMT3MwTmczYVlJZUxuUkJVV0dkSTBydEdXX3M4SDJHRjVvZW9oYzFVc09zNVYtM1FDaUE0cFNGN3h3WWhFMzd1TlJ4R3ROU1ZQN0FIcTBMbw?oc=5",
-        "curated": "quirno-acuerdo-mercosur-ue-argentina-60-por-ciento-preferencias-2800-millones"
+        "title": "Las exportaciones de los últimos 12 meses superaron los USD 100.000 millones y la Argentina recupera participación en…",
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPV2R2NzZWQUp1OGpWNndfNnJJX08xRks0dUE1QkE2VF9TRnhxSG1yTmdkSHR2XzVZVVJDS29LQ3o3WWQwM2NOZkEwaEo4RWUtUmhSVUhjdFYwX1I4RWJwMHhVYmU0ZjkzbTl3bVdDVTdyeVMyM1dIcmZ1NXhhSXRCSHZ1bUtDWWlwY1lwUG81NTdtdnRXM01ZczRVTGg2a1kwcVMyMmNyeHBKRlRndDNfUzR1RUNDak84WDJtUE54SE4ySEdFbzlNVUdwa2E2Rk9DX1hmN0FYY29FZV9RdWlVNXBQODdkX24zbF9EaFlFOXZXeUc1TllBTVdkNzljeWMzYkxNZ0JiVkRfQdIBpAJBVV95cUxPVjFlNU0xX3hlWkN3LXJYYzFIekdickY1SjRCNjNqWHliR1YwWDV6Xy1ZRlN1bVNXdUtNcmNMT1o4Q3hEcFI2M2lzSHZzR2FUSWQtOGxrWkJsOEJ6U1V0bktOejlJRVFBbVYwZzh1T0RSZExDbTJJRzdoSXNUY0NxbFg5SFFZVnVoMElnQ3VCeGp6NXlqWlZLVzZjb0lTaGpGcUFGQ2JHelJoQ25zTWt3QmpTZTRySmRXbEYwdWJFM3RkSDk1Z2F0ZUFxS19ITkRPbTdYYnEyTk5UN0oxR0dtZVpJZDRLcG80R3kwTG5rUHEzLTJsZHhfNDZwdFNRZ1Bxa0xWYUVNRVExdExYTldMNVlZQmhodVRrVFlJN2RPUHhsbTBs?oc=5",
+        "curated": "exportaciones-12-meses-100845-millones-crudo-primer-producto-septiembre-2026"
       },
       {
-        "title": "Lula ganó en Brasil y crece la preocupación en Argentina por la caída del real y el futuro de las exportaciones",
-        "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxObTNpWGZGanJNVFd6ZTF3QWhwcjRsbU1xNElSclJkZ2Y5WmlQbXVQWUgzMVVJQkx2SnBTcWE5blFJMzhXdFdHSHk3LVRFa2Q1RjJlUzN3aGFiOG45dWN1dUFvbzVfbk41SVFoOXVqSXp5NjM0eVBnZzNwVE9aYmJCdy1JMjcxamMwZjdyTy1lYXhwQ1QySEFzdUtKYVMxZ2pWUTU1MVktT0hlVTNWY3VUbVJRV1cxdW9xdEtaY2RvMzVLTG5wOEhqdHk2Q1hxME9EdU1FU2l4VEpYM2NSS2ctaWRoQ1FMSURDOUtEc2tn?oc=5",
+        "title": "Por la compra de soja, Paraguay se consolida como el cuarto origen de las importaciones",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcURSVXdKbWlaUzBjSTI5MFlhV3BIV21DRjRwNE9VRllIOWNlcXEyUVVZSTZpOWlpRUV5ZGhVakRiS2xaNm1SemNZMS16dXpVZlR1OHpabWFMaG91MkdCdndaRWdlVnU3VTNNczNnUTJZQmRMV2ZBbUhoMy1Fbjh3U2t2X2V5Y2tUcVFDTDlPNjRXTGFQa2RGLTg3UVBmZDFkZ0xTQl83ZUpZQW01WGFEdFBEd3QtcDBFT1lDeC1DUTlVSzlMVzhMRC1oYkJWVW5tcVQ4?oc=5",
+        "curated": "soja-paraguay-admision-temporaria-cuarto-origen-importaciones-septiembre-2026"
+      },
+      {
+        "title": "El maíz argentino gana terreno en el mundo y octubre podría marcar un récord de exportaciones",
+        "url": "https://www.clarin.com/rural/maiz-argentino-gana-terreno-mundo-octubre-podria-marcar-record-exportaciones_0_dQazLqUYJf.html",
+        "curated": "maiz-exportaciones-record-marzo-octubre-34-2-millones-toneladas-bcr-ucrania-brasil"
+      },
+      {
+        "title": "El petróleo lideró las exportaciones argentinas durante septiembre",
+        "url": "https://www.eldiarioweb.com/2026/10/el-petroleo-lidero-las-exportaciones-argentinas-durante-septiembre/",
+        "curated": "exportaciones-12-meses-100845-millones-crudo-primer-producto-septiembre-2026"
+      },
+      {
+        "title": "Lula sigue cuatro años: comercio, Mercosur, y la carrera por las inversiones",
+        "url": "https://www.cronista.com/economia-politica/lula-sigue-cuatro-anos-comercio-mercosur-y-la-carrera-por-las-inversiones/",
         "curated": "lula-reelecto-brasil-comercio-argentina-autos-mercosur-agenda-2027"
       },
       {
-        "title": "Reelección de Lula en Brasil: cómo impacta en las exportaciones y la industria argentina",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNOWNtcXVKa1JTcU15OGFvTmVuT2xOU1BMUlp6QzVydUIyX3lPMWZ0REItdnloNnpDdUtSLTU5MmREOGprTnZLRkQwSkNwMEZvc21XWVZiR0JFZ3hBV0ZLNEFtMHh4SVhoRlVWaHNKaUxFOWdqQW5OTk1Nc1doNUF6ZW9YLVo2X3ZBejZBUjFqeTE0R2EwSFdTVDNObTNWcFlPdmFqT2hNdkNVWG5CY0VOU19kcmlfbDRnaFl6cDRYZm5vdzdkS1VxRVhaYUo?oc=5",
+        "title": "Unión Europea felicita a Lula tras ganar las elecciones de Brasil 2026 y destaca el acuerdo con Mercosur",
+        "url": "https://revistamercado.do/internacional/union-europea-felicita-lula-reeleccion-brasil-2026/",
         "curated": "lula-reelecto-brasil-comercio-argentina-autos-mercosur-agenda-2027"
       },
       {
-        "title": "Aranceles a Canadá cambian el 30 de octubre: qué productos suben",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTmVtUGFNYmt0RXhScXVuX2V3ZDRlaHFPeXBYZkptbGd4N2ltQWtVZUkwa1JkNmR3bjJaNG1lMm5Ja29tazRQeE5RaVozYkFDRnRSN1o5WFYzWl9fdDRjbE5CQ2wwRzdsaGZxLWpveDdnOTN1TTNBNm1xYW1jLXNvSUlKSUhvZzRQWndPcWRkMzJwZ3BQQlRHMGR6aVlEUE1NYjlvdFRNOVM5Uzg3czRUQg?oc=5",
-        "curated": "eeuu-canada-seccion-338-cambia-productos-arancel-50-terciados-embalajes-alfombras-30-octubre"
-      },
-      {
-        "title": "El transporte marítimo de contenedores encarece sus tarifas un 2 % por el repunte de las rutas entre Asia, Europa y EE…",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcDVTZExlajlCTXcySmZKQm15QUQxeThkSlBoNFpzSTFKbVhIUUJTM2F1WDV5dWxrUnMtams0bXFpUHpVV2tyUklmM09GTVE3dTA0Qi0xYndrNnpocFEtak9VNEVYOU9CM3RRYTluQ2hpNDFpTHNqOS1yTktvOG9IYjBPZkhSU2Q3aHg4b1Vaek1Nd0ZVVVM5VGFfcFZyQVlzZGt0Zkdtd0h0V29PaDBxS3AyV1UtWHdVeHAtaWNONU9zRk9vYjQ3MVgxUVdDOUE?oc=5",
-        "curated": "drewry-wci-sube-2-22-octubre-4585"
-      },
-      {
-        "title": "El trinfo de Lula y su impacto en el comercio exterior: qué puede pasar en la balanza bilateral con Argentina",
-        "url": "https://mendozatoday.com.ar/economia/el-trinfo-de-lula-y-su-impacto-en-el-comercio-exterior-que-puede-pasar-en-la-balanza-bilateral-con-argentina/",
+        "title": "Lula ganó en Brasil y crece la preocupación en Argentina por la caída del real y el futuro de las exportacione...",
+        "url": "https://www.perfil.com/noticias/economia/lula-gano-brasil-crece-preocupacion-argentina-caida-real-futuro-exportaciones-a40.phtml",
         "curated": "lula-reelecto-brasil-comercio-argentina-autos-mercosur-agenda-2027"
       },
       {
-        "title": "El impacto del triunfo de Lula en Argentina: Brasil tiene la llave de las exportaciones y pone a prueba el pla",
-        "url": "https://www.voxpopuli.net.ar/pais/el-impacto-del-triunfo-de-lula-en-argentina-brasil-tiene-la-llave-de-las-exportaciones-y-pone-a-prueba-el-plan-economico-de-milei/",
-        "curated": "lula-reelecto-brasil-comercio-argentina-autos-mercosur-agenda-2027"
+        "title": "Unión de Uniones: se disparan las importaciones de miel",
+        "url": "https://www.agropopular.com/union-miel-261026/",
+        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
       },
       {
-        "title": "El triunfo de Lula sacude el tablero económico argentino: qué puede pasar con el dólar, las exportaciones y los mercados",
-        "url": "https://mediosrioja.com.ar/el-triunfo-de-lula-sacude-el-tablero-economico-argentino-que-puede-pasar-con-el-dolar-las-exportaciones-y-los-mercados/",
-        "curated": "lula-reelecto-brasil-comercio-argentina-autos-mercosur-agenda-2027"
+        "title": "Abastecimiento en la Hidrovía: la soja de Paraguay ya es el cuarto origen de las importaciones y rescata de la…",
+        "url": "https://politicaymedios.com.ar/nota/24697/abastecimiento-en-la-hidrovia-la-soja-de-paraguay-ya-es-el-cuarto-origen-de-las-importaciones-y-rescata-de-la-paralisis-al-cluster-del-gran-rosario/",
+        "curated": "soja-paraguay-admision-temporaria-cuarto-origen-importaciones-septiembre-2026"
+      },
+      {
+        "title": "La importación de miel desde Mercosur aumenta un 94 % en los primeros tres meses del acuerdo",
+        "url": "https://www.eldebate.com/campo-y-caza/20261026/importacion-miel-desde-mercosur-aumenta-94-primeros-tres-meses-acuerdo_473923.html",
+        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
+      },
+      {
+        "title": "LA UNIÓ alerta de las importaciones de miel de Mercosur",
+        "url": "https://valencianews.es/economia/la-unio-alerta-de-que-las-importaciones-de-miel-de-mercosur-casi-se-duplican-en-los-tres-primeros-meses-del-acuerdo-y-ya-desbordan-el-primer-contingente-sin-aranceles/",
+        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "america-latina-gana-protagonismo-en-el-despliegue-de-capacidad-naviera-a-nivel-g",
+        "main": "puerto-la-plata-llevo-al-aula-su-rol-en-la-logistica-y-el-comercio-exterior",
         "merged": [
-          "america-latina-gana-protagonismo-en-despliegue-de-capacidad-naviera"
+          "el-puerto-la-plata-llevo-su-trama-logistica-al-colegio-nacional"
         ]
       },
       {
-        "main": "volkswagen-levantara-una-planta-de-audi-en-georgia-y-busca-alivio-frente-a-los-a",
+        "main": "la-unio-denuncia-que-importaciones-de-miel-de-mercosur-casi-se-duplican-en-los-t",
         "merged": [
-          "audi-construira-su-primera-planta-en-estados-unidos-para-evitar-aranceles"
-        ]
-      },
-      {
-        "main": "paraguay-tras-reeleccion-de-lula-mas-llegada-de-capital-mayor-migracion-y-el-fut",
-        "merged": [
-          "la-reeleccion-de-lula-pone-en-foco-a-las-exportaciones-argentinas"
-        ]
-      },
-      {
-        "main": "la-unio-alerta-de-las-importaciones-de-miel-de-mercosur",
-        "merged": [
-          "la-unio-alerta-de-un-aumento-del-94-en-importaciones-europeas-de-miel-de-mercosu"
-        ]
-      },
-      {
-        "main": "asegura-donald-trump-que-pronto-habra-acuerdo-comercial-con-canada",
-        "merged": [
-          "trump-preve-un-acuerdo-comercial-con-canada-muy-pronto"
+          "las-importaciones-de-miel-de-mercosur-se-disparan-un-94",
+          "union-de-uniones-alerta-de-que-las-importaciones-de-miel-de-mercosur-se-disparan"
         ]
       }
     ],
     "googleNews": {
-      "pending": 22,
-      "resolved": 22,
-      "withSummary": 21,
+      "pending": 20,
+      "resolved": 20,
+      "withSummary": 14,
       "withPhoto": 0,
       "failed": 0,
       "duplicates": 0
