@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-10-27T18:05:40Z",
+  "updatedAt": "2026-10-27T22:00:14Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -134,20 +134,16 @@
     {
       "id": "tc-mayorista",
       "label": "Tipo de cambio mayorista ARS/USD",
-      "value": "$ 1.540,48",
-      "period": "Com. A 3500 · 26 oct 2026",
+      "value": "$ 1.538,74",
+      "period": "Com. A 3500 · 27 oct 2026",
       "source": "BCRA",
       "url": "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp",
       "group": "Mercados",
-      "obsDate": "2026-10-26",
-      "change": "+0,8% vs. día hábil anterior",
-      "trend": "up",
-      "checkedAt": "2026-10-27T18:06:19Z",
+      "obsDate": "2026-10-27",
+      "change": "-0,1% vs. día hábil anterior",
+      "trend": "down",
+      "checkedAt": "2026-10-27T22:01:30Z",
       "history": [
-        [
-          "2026-09-14",
-          1510.3215
-        ],
         [
           "2026-09-15",
           1506.6836
@@ -263,11 +259,15 @@
         [
           "2026-10-26",
           1540.4751
+        ],
+        [
+          "2026-10-27",
+          1538.741
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-27T18:06:19Z"
+      "lastAttempt": "2026-10-27T22:01:30Z"
     },
     {
       "id": "soja",
@@ -284,7 +284,7 @@
         "date": "2026-10-26",
         "ars": 555000.0
       },
-      "checkedAt": "2026-10-27T18:06:19Z",
+      "checkedAt": "2026-10-27T22:01:31Z",
       "_prev": {
         "date": "2026-10-23",
         "ars": 555000.0
@@ -357,7 +357,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-27T18:06:19Z"
+      "lastAttempt": "2026-10-27T22:01:31Z"
     },
     {
       "id": "brent",
@@ -370,7 +370,7 @@
       "obsDate": "2026-10-20",
       "change": "-3,0% vs. día anterior",
       "trend": "down",
-      "checkedAt": "2026-10-27T18:06:21Z",
+      "checkedAt": "2026-10-27T22:01:33Z",
       "history": [
         [
           "2026-09-09",
@@ -495,7 +495,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-10-27T18:06:21Z"
+      "lastAttempt": "2026-10-27T22:01:33Z"
     },
     {
       "id": "maiz",
@@ -512,7 +512,7 @@
         "date": "2026-10-26",
         "ars": 281000.0
       },
-      "checkedAt": "2026-10-27T18:06:21Z",
+      "checkedAt": "2026-10-27T22:01:33Z",
       "_prev": {
         "date": "2026-10-23",
         "ars": 278250.0
@@ -585,7 +585,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-27T18:06:21Z"
+      "lastAttempt": "2026-10-27T22:01:33Z"
     },
     {
       "id": "trigo",
@@ -602,7 +602,7 @@
         "date": "2026-10-26",
         "ars": 326000.0
       },
-      "checkedAt": "2026-10-27T18:06:21Z",
+      "checkedAt": "2026-10-27T22:01:33Z",
       "_prev": {
         "date": "2026-10-23",
         "ars": 326900.0
@@ -675,181 +675,433 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-27T18:06:21Z"
+      "lastAttempt": "2026-10-27T22:01:33Z"
     }
   ],
   "items": [
     {
-      "id": "diputados-dictamen-acuerdo-mercosur-aelc-efta-protocolo-servicios-montevideo",
+      "id": "eu-recauda-14-mil-millones-de-dolares-por-aranceles-a-mexico",
+      "datetime": "2026-10-27T21:20:09Z",
       "date": "2026-10-27",
+      "firstSeen": "2026-10-27T22:00:14Z",
+      "title": "EU recauda 14 mil millones de dólares por aranceles a México",
+      "summary": "Estados Unidos recaudó 14 mil 439 millones de dólares por aranceles a productos mexicanos entre enero y agosto, mientras continúan las negociaciones",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Latinoamérica",
+        "Europa"
+      ],
+      "countries": [
+        "México",
+        "Unión Europea"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
       "kind": "noticia",
-      "story": "mercosur-aelc",
-      "title": "Mercosur–AELC: Diputados firmó dictamen y el acuerdo con Suiza, Noruega, Islandia y Liechtenstein queda a un paso de la ratificación argentina",
-      "summary": "El plenario de las comisiones de Relaciones Exteriores y del Mercosur aprobó el tratado de libre comercio con la AELC y una enmienda al protocolo de servicios del bloque, los dos con media sanción del Senado. Falta la votación en el recinto, sin fecha informada, mientras Brasil ya aplica el acuerdo con Islandia y lo hará con Noruega desde el 1 de noviembre.",
-      "body": [
-        "El plenario de las comisiones de Relaciones Exteriores y Culto y del Mercosur de la Cámara de Diputados firmó el martes 27 de octubre dictamen favorable a dos proyectos de ley que llegaron con media sanción del Senado: el Acuerdo de Libre Comercio entre el Mercosur y la Asociación Europea de Libre Comercio (AELC, o EFTA por su sigla en inglés), que integran Islandia, Liechtenstein, Noruega y Suiza, y una enmienda al Protocolo de Montevideo sobre el comercio de servicios en el Mercosur, según informó la Cámara.",
-        "Con el dictamen, el tratado con la AELC supera la instancia de comisión una semana después de que los mismos legisladores escucharan a la Cancillería y a diplomáticos de Noruega y Suiza. La Cámara no informó fecha para la sesión en la que ambos textos deberían votarse; la aprobación del pleno es el último paso parlamentario que le falta a la Argentina para ratificar el acuerdo, que el Senado aprobó por unanimidad el 27 de agosto.",
-        "## Qué se dijo en el plenario",
-        "La reunión la condujeron Juliana Santillán Juárez Brahim (La Libertad Avanza), presidenta de Relaciones Exteriores, y Eduardo Valdés (Unión por la Patria), titular de la comisión del Mercosur. Según la crónica oficial, Santillán defendió los dos proyectos y presentó el acuerdo con la AELC como una oportunidad para las economías regionales y la producción agroindustrial, con potencial para generar inversiones, exportaciones y empleo.",
-        "Valdés anunció el acompañamiento de su bloque y planteó la necesidad de fortalecer el Mercosur. Damián Arabia (LLA) sostuvo que el tratado institucionaliza las relaciones comerciales y ayuda a que las diferencias políticas no afecten el vínculo entre los países, y Esteban Paulón (Provincias Unidas) adelantó el apoyo de su bancada a ambas iniciativas. La información de la Cámara no detalla la cantidad de firmas del dictamen ni registra objeciones.",
-        "## Qué contiene el tratado con la AELC",
-        "El acuerdo se firmó el 16 de septiembre de 2025 en Río de Janeiro y abarca bienes, servicios, inversiones, compras públicas, propiedad intelectual, reglas de origen, medidas sanitarias y fitosanitarias, defensa comercial, solución de controversias y desarrollo sostenible. Según la agencia EFE, crea un área de libre comercio de casi 300 millones de personas; el canciller Pablo Quirno destacó en agosto el acceso a un mercado de unos 15 millones de habitantes con alto poder adquisitivo.",
-        "La AELC otorgará preferencias a más del 97% de las exportaciones del Mercosur y eliminará de inmediato sus aranceles para los productos industriales. Los limones, las naranjas, el maní, las legumbres, el biodiésel y los productos pesqueros tendrán desgravación inmediata, y habrá mejor acceso para carne bovina y aviar, lácteos y miel. Suiza abrirá una cuota bilateral de 55.000 hectolitros de vino con arancel cero, y el texto reconoce 108 indicaciones geográficas argentinas, según la crónica de Parlamentario sobre la reunión del 20 de octubre. Del lado del Mercosur, los productos industriales sensibles tendrán plazos de desgravación de hasta 15 años.",
-        "## La enmienda sobre servicios",
-        "El segundo proyecto dictaminado aprueba la enmienda al Protocolo de Montevideo firmada el 7 de diciembre de 2023, también en Río de Janeiro, durante la cumbre del Mercosur. Según el gobierno brasileño, ese texto cerró la VIII Ronda de negociación de compromisos específicos en servicios: reemplaza las listas de compromisos de cada país e incorpora al bloque las concesiones más amplias que los cuatro socios ofrecieron a terceros países desde 2009, en sectores como servicios financieros, profesionales, de comunicaciones y de transporte.",
-        "De acuerdo con el texto aprobado por Uruguay en la Ley 20.425, del 18 de septiembre de 2025, la enmienda entra en vigor 30 días después de que el tercer Estado Parte deposite su ratificación, con Paraguay como depositario. La Cámara argentina la describió como una actualización de los compromisos regionales a la evolución de los mercados.",
-        "## Cómo van los demás socios",
-        "Brasil promulgó el acuerdo con la AELC el 23 de septiembre, lo aplica con Islandia desde el 1 de octubre y empezará con Noruega el 1 de noviembre; con Suiza y Liechtenstein, la aplicación depende de que esos países terminen sus procesos internos, según InfoNegocios. En Suiza, el Consejo de los Estados lo aprobó por 35 votos contra 7 y el Consejo Nacional por 118 contra 66, después de un primer rechazo en junio y de un paquete de CHF 517 millones adicionales para el agro entre 2028 y 2033; todavía puede convocarse un referéndum. Uruguay completó la aprobación parlamentaria en junio, y en Paraguay la comisión de Relaciones Exteriores del Senado emitió dictamen favorable por unanimidad el 16 de septiembre.",
-        "Para los exportadores argentinos la demora tiene un costo concreto: Brasil ya reglamentó el uso de las cuotas que Noruega abrió al Mercosur, que este año se asignan por orden de llegada y sin reparto previo entre los socios, como informó Comexplora el 20 de octubre. Sobre la entrada en vigor para cada país hay versiones distintas: la descripción difundida en el Senado habla de una regla bilateral entre cada país que ratifica y cada miembro de la AELC, mientras que una nota de Ámbito de junio había señalado que hacía falta la ratificación de los cuatro socios del Mercosur."
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "eltiempomx.com",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://eltiempomx.com/noticia/2026/eu-recauda-14-mil-millones-de-dolares-por-aranceles-a-mexico.html",
+          "primary": true,
+          "author": ""
+        }
       ],
-      "keyData": [
-        [
-          "Dictamen en Diputados",
-          "27/10/2026, plenario de Relaciones Exteriores y Mercosur"
-        ],
-        [
-          "Senado",
-          "Aprobado por unanimidad el 27/8/2026"
-        ],
-        [
-          "Preferencias de la AELC",
-          "Más del 97% de las exportaciones del Mercosur"
-        ],
-        [
-          "Cuota suiza de vino",
-          "55.000 hl con arancel cero"
-        ],
-        [
-          "Indicaciones geográficas argentinas",
-          "108"
-        ],
-        [
-          "Brasil–Noruega",
-          "Aplicación desde el 1/11/2026"
-        ],
-        [
-          "Enmienda de servicios",
-          "Firmada el 7/12/2023; rige 30 días después de la tercera ratificación"
-        ]
+      "gnTried": "2026-10-27T22:00:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeXRxOHcwRlJ2THV6M3BBTTcyOGItaG1aLVMwYkdhQ2c2YVoxSUhyajFCcFdQSzRNTFplRlRnMEJqMGw2bTE5OW5XY2dqakphSEJnMDVhcEtLU2pIdzZnemVWejg1a3BpaWxwQmc5c0ZpOTBYeFB1b0pCOVdwZUUxU0hUa3IxZ3FCbHJWa3JxV2FaUmxVVVAzWkU2SzQ0bVJWTHdZ0gGXAUFVX3lxTE0wblYtd1Z3QzJwTDVFQVhqMlYtaG9oV1NPN2RPYnJpS1BzeS1yNTQzcVR6eV8zdEdQejZDOUctUk9mS1FaUmlGYV9YMHd4a3VmVUVJU1hDM3hvUFpGV29pUVU1VUZPM1lwOHE5bEZFWk9BSERCV1N3VGxGREx1OHVMdExtTVBRSWNmanpDRmpjSmFVRXFHbWs?oc=5"
+    },
+    {
+      "id": "ebrard-no-preve-cambios-en-los-aranceles-de-eu",
+      "datetime": "2026-10-27T21:18:13Z",
+      "date": "2026-10-27",
+      "firstSeen": "2026-10-27T22:00:14Z",
+      "title": "Ebrard no prevé cambios en los aranceles de EU",
+      "summary": "Marcelo Ebrard señaló que México no espera cambios drásticos en los aranceles de Estados Unidos y destacó las inversiones en centros de datos",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Europa"
       ],
+      "countries": [
+        "Unión Europea"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Enfoque Noticias",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://enfoquenoticias.com.mx/noticias/ebrard-no-preve-cambios-en-los-aranceles-de-eu",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-27T22:00:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUENyT0hRRGpJdkd0b0p0eFgteEJhNUQ1LVhGb3NYZnZjUGxTR1FVX3d2WTVSb3NtWmdiaWR3VXJmVGFFMGVfUDViUlZBTmdhSzJvQ3R2b09wd3R6cHVNUWExa3h0dWxoRkxXbE0tMUVDdXpJNEVIS3RuNXRtekk1ejJKaVVtdlppVWhNNTdpOA?oc=5"
+    },
+    {
+      "id": "subrei-se-reune-con-autoridades-de-eeuu-para-negociar-mas-exenciones-a-aranceles",
+      "datetime": "2026-10-27T21:07:46Z",
+      "date": "2026-10-27",
+      "firstSeen": "2026-10-27T22:00:14Z",
+      "title": "Subrei se reúne con autoridades de EEUU para negociar más exenciones a aranceles a productos chilenos",
+      "summary": "La subsecretaria de Relaciones Económicas Internacionales, Paula Estévez, se encuentra en Estados Unidos para participar en una serie de reuniones con autoridades de ese país, en el marco de las negociaciones comerciales que ambos gobiernos mantienen para ampliar las exenciones a los aranceles impuestos a productos…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Latinoamérica",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Chile",
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "El Periodista",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.elperiodista.cl/2026/10/subrei-se-reune-con-autoridades-de-eeuu-para-negociar-mas-exenciones-a-aranceles-a-productos-chilenos/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-27T22:00:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObkwtNkk1TjdnWlN0RUUzUnNDT01lV09GN05zZWluc1RmNWZPZmlkQlNlc01uRlgtOHhPUm1xa1FBRDRmX3o5TGhrSFZZbG81bHRxaGk3bWIzLVB2c3hfOXR3dFdUM2FHUnM4cDExWDZUT3FpWXhHa09PRFMyUzBEVmYycGdQODJWSFJKZzJRSmFxMExGbnBLRWh2NUowdUpKZ3ozODBHVURMTTg5ZGxkT0JQZ2FBTjJTTWl4dVk0VElQQmFzRWRUeEx1RTgyVzg0dTE3RQ?oc=5"
+    },
+    {
+      "id": "exportaciones-las-cuotas-llegaron-para-cambiar-el-ritmo-del-negocio-exportador",
+      "datetime": "2026-10-27T20:50:34Z",
+      "date": "2026-10-27",
+      "firstSeen": "2026-10-27T22:00:14Z",
+      "title": "Exportaciones: Las cuotas llegaron para cambiar el ritmo del negocio exportador",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Tratados y acuerdos"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Nuevo Enfoque Urbano",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://nuevoenfoqueurbano.com.ar/exportaciones-las-cuotas-llegaron-para-cambiar-el-ritmo-del-negocio-exportador/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-27T22:00:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMnoxQ2NndEMyUEdDc1E4ZzZaMU9iLU11Y3k3NWZ4a2F5RldCaHB4b0pZMWxNVjBRSFZxWnZtT3FkWWRHVFRVNlp0LWJwT3pTTUttS1ZjeFM4akJIOG50WU5NcG03RXBiQ1NadUU5a3BzaVZfZkRNMmY5anZYb2tuZnp3Ukk3UVJKYThSeGpIU1lPTGY4cVpUd1Nna0dGeVVlRXVVRV81bHJ1b0EyeC1RdjNRTQ?oc=5"
+    },
+    {
+      "id": "brasil-y-argentina-aumentan-un-5-y-un-17-7-respectivamente-sus-exportaciones-con",
+      "datetime": "2026-10-27T19:39:13Z",
+      "date": "2026-10-27",
+      "firstSeen": "2026-10-27T22:00:14Z",
+      "title": "Brasil y Argentina aumentan un 5% y un 17,7%, respectivamente, sus exportaciones contenerizadas a agosto",
+      "summary": "En tanto, Paraguay y Uruguay, en forma conjunta, las incrementaron en un 13,6% en igual periodo",
+      "body": [],
+      "keyData": [],
       "topics": [
         "Argentina",
-        "Mercosur",
-        "Europa",
-        "Tratados y acuerdos",
-        "Exportaciones"
+        "Exportaciones",
+        "Latinoamérica"
       ],
       "countries": [
         "Argentina",
-        "Suiza",
-        "Noruega",
-        "Islandia",
-        "Liechtenstein",
-        "Brasil",
-        "Uruguay",
-        "Paraguay"
+        "Brasil"
       ],
-      "tags": [
-        "AELC",
-        "EFTA",
-        "Congreso",
-        "Diputados",
-        "Ratificación",
-        "Protocolo de Montevideo",
-        "Servicios",
-        "Vino"
-      ],
-      "visual": "treaty",
-      "impact": 2,
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
       "affectsArgentina": true,
-      "argentinaNote": "Con el dictamen, al acuerdo con la AELC solo le falta la votación del pleno de Diputados para que la Argentina complete la ratificación parlamentaria; Brasil ya lo aplica con Islandia y desde el 1 de noviembre con Noruega.",
-      "argentinaImpact": {
-        "change": "El acuerdo Mercosur–AELC y la enmienda al protocolo de servicios del Mercosur obtuvieron dictamen en Diputados y quedan pendientes de la votación en el recinto.",
-        "who": "Exportadores de economías regionales, carnes, vino, miel y pesca; importadores de bienes industriales de Suiza y Noruega; prestadores de servicios que operan en el Mercosur.",
-        "sectors": [
-          "Economías regionales",
-          "Carnes",
-          "Vino",
-          "Pesca",
-          "Servicios"
-        ],
-        "flows": {
-          "importaciones": true,
-          "exportaciones": true,
-          "logistica": false,
-          "aranceles": true
-        }
-      },
-      "explainer": {
-        "what": "El plenario de comisiones de Relaciones Exteriores y del Mercosur de Diputados firmó dictamen favorable al acuerdo Mercosur–AELC y a una enmienda al protocolo de servicios del bloque.",
-        "why": "Es el paso previo a la votación final: la AELC dará preferencias a más del 97% de las exportaciones del Mercosur, y Brasil ya empezó a usar el acuerdo con Islandia y lo hará con Noruega.",
-        "who": "Exportadores argentinos de limones, naranjas, maní, biodiésel, pescado, carnes, miel y vino, importadores de bienes industriales europeos y prestadores de servicios.",
-        "products": [
-          "Limones",
-          "Naranjas",
-          "Maní",
-          "Legumbres",
-          "Biodiésel",
-          "Productos pesqueros",
-          "Carne bovina",
-          "Carne aviar",
-          "Miel",
-          "Vino"
-        ],
-        "next": "Brasil empieza a aplicar el acuerdo con Noruega el 1 de noviembre; con Suiza y Liechtenstein, la aplicación depende de que terminen sus procesos internos.",
-        "nextSource": {
-          "name": "InfoNegocios",
-          "url": "https://infonegocios.com.py/default/efta-mercosur-el-acuerdo-avanza-en-suiza-y-brasil-mientras-paraguay-da-otro-paso-hacia-su-ratificacion"
-        }
-      },
-      "deadlines": [
-        {
-          "date": "2026-11-01",
-          "label": "Brasil: empieza a aplicar el acuerdo Mercosur–AELC con Noruega",
-          "url": "https://infonegocios.com.py/default/efta-mercosur-el-acuerdo-avanza-en-suiza-y-brasil-mientras-paraguay-da-otro-paso-hacia-su-ratificacion"
-        }
-      ],
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
       "sources": [
         {
-          "name": "Cámara de Diputados de la Nación",
-          "type": "Fuente oficial",
-          "url": "https://www.hcdn.gob.ar/prensa/noticia/UN-PLENARIO-DE-COMISIONES-DICTAMINO-A-FAVOR-DE-DOS-PROYECTOS-VINCULADOS-AL-MERCOSUR/",
-          "primary": true
-        },
-        {
-          "name": "Parlamentario",
-          "type": "Medio especializado",
-          "url": "https://www.parlamentario.com/2026/10/20/diplomaticos-analizaron-ante-diputados-el-acuerdo-mercosur-y-la-asociacion-europea-de-libre-comercio/"
-        },
-        {
-          "name": "InfoNegocios Paraguay",
-          "type": "Medio de comunicación",
-          "url": "https://infonegocios.com.py/default/efta-mercosur-el-acuerdo-avanza-en-suiza-y-brasil-mientras-paraguay-da-otro-paso-hacia-su-ratificacion"
-        },
-        {
-          "name": "Medios Públicos Uruguay",
-          "type": "Medio público",
-          "url": "https://mediospublicos.uy/parlamento-ratifico-acuerdo-de-libre-comercio-entre-el-mercosur-y-la-efta/"
-        },
-        {
-          "name": "Infobae (EFE)",
-          "type": "Agencia de noticias",
-          "url": "https://www.infobae.com/america/agencias/2026/08/28/avanza-en-el-parlamento-argentino-la-ratificacion-del-acuerdo-mercosur-efta/"
-        },
-        {
-          "name": "IMPO Uruguay (Ley 20.425)",
-          "type": "Fuente oficial",
-          "url": "https://www.impo.com.uy/bases/leyes-internacional/20425-2025/1"
-        },
-        {
-          "name": "Agência Gov (Brasil)",
-          "type": "Fuente oficial",
-          "url": "https://agenciagov.ebc.com.br/noticias/202312/conclusao-da-viii-rodada-de-negociacoes-de-compromissos-especificos-em-materia-de-servicos-do-mercosul"
+          "name": "Mundo Marítimo",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.mundomaritimo.cl/noticias/brasil-y-argentina-aumentan-un-5-y-un-177-respectivamente-sus-exportaciones-contenerizadas-a-agosto",
+          "primary": true,
+          "author": ""
         }
       ],
-      "absorbs": [
-        "un-plenario-de-comisiones-dictamino-a-favor-de-dos-proyectos-vinculados-al-merco"
+      "gnTried": "2026-10-27T22:00:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORTRxdnVQLUNoY0tXV2hLRF9ZM2hfY2o5WE1NcmsyZkdQSmR5VERHZGZYLWVfb205eUV3dFFvcWFNcUtqbXFuSUk0ZERwUUk5ME1fYTdGcE5PZUJSSXNibGM1OHBlMzBuNXIyTzkxTl9BVUM2ZE5PSTZjQ3QwRkpYUlZ1YkZ6TUlpSklwRl9Yd29DQXl2ZkYya2c4blhxbDRSVHhLYlRZZFpyd2NXWDhBMDc4d2p2MUFDQUwzWWl6V3hCRGFiNDF6UVNMX0twd0ppaFVB?oc=5"
+    },
+    {
+      "id": "c-h-robinson-lanza-agentes-de-ia-para-transporte-maritimo-aereo-y-gestion-aduana",
+      "datetime": "2026-10-27T18:35:05Z",
+      "date": "2026-10-27",
+      "firstSeen": "2026-10-27T22:00:14Z",
+      "title": "C.H. Robinson lanza agentes de IA para transporte marítimo, aéreo y gestión aduanal",
+      "summary": "Como una expansión de las capacidades de IA Eficiente, los agentes permiten contar con cadenas de suministro más rápidas y eficientes.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aduanas",
+        "Transporte marítimo",
+        "Transporte aéreo",
+        "Tecnología COMEX"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "plane",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Revista TyT",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.tyt.com.mx/nota/c-h-robinson-lanza-agentes-de-ia-para-transporte-maritimo-aereo-y-gestion-aduanal",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-27T22:00:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRURwZC1Ua2l5X0I4NFJFZENSZWg0OHZTUnFCc1hJNGlSUlF3ZXpnOWVZaUxVYmp2cTYzWHF0ZlNkRTN3NlJJOGhLSzFFVXdncDJuTzRRbnFsa1g1Z2lsYVduM05veWtzb0NuQnk1eXNmeHZmQkI0V2hEeGVtNnBUT0doR2RiNV9Wa0Z0SktPYlZ5ZG0zdWRheE9zeXlsdjN2M0dXdG1vdmRJRlBvNlE?oc=5"
+    },
+    {
+      "id": "japon-abre-mercado-a-exportaciones-de-carne-bovina-argentina",
+      "datetime": "2026-10-27T18:11:20Z",
+      "date": "2026-10-27",
+      "firstSeen": "2026-10-27T22:00:14Z",
+      "title": "Japón abre mercado a exportaciones de carne bovina argentina",
+      "summary": "Argentina y Japón acordaron requisitos sanitarios para las exportaciones de carne bovina de todo el país, incluyendo zonas con vacunación contra aftosa.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Asia"
+      ],
+      "countries": [
+        "Argentina",
+        "Japón"
+      ],
+      "tags": [
+        "Carne"
+      ],
+      "visual": "livestock",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Periódico MOTIVAR",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.motivar.com.ar/ganaderia/japon-abre-mercado-exportaciones-carne-bovina-argentina-n5337462",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-27T22:00:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSmY5ZTdxNGNDLXFON2gzOHloMEd4SzEzV041U0h0eng3RVAyeDRWMlA2MGJBSjFINzBVMWJYWW9fcUc1RHJnX0pwb19Oc0c3WmhLajZwSVhEcVFhMDNhaGRuR09JOERPN3FSSHlzVTlZWVVZWkhMZ1J3My04c28zSzFHWl9PWllQM2tocUZieVVQZVhlRzAtT2RpWGxMVlBZMWlr0gGoAUFVX3lxTE9aUE5ucThpS3BBWTZMSEUwelRjemV2THphZzVSVDhWV1BNSi04NHR5YVVqcjZHZGhSS0ljOUI2NDdBRElZdGFwYlpFelZrR0d3SkhtZXhheEdabTdSUDFvTHMxWFdpWE92TFNNNXVjWkhvZkJTMUtSNm1QRFRkWjVUZndHLVNNZjAyUFlfVEVZVHNEcDcyNmFwcm9oMzI3NGVoMG5CVGZtQw?oc=5"
+    },
+    {
+      "id": "argentina-consolida-exportaciones-agroindustriales-con-60-auditorias-sanitarias",
+      "datetime": "2026-10-27T18:06:21Z",
+      "date": "2026-10-27",
+      "firstSeen": "2026-10-27T22:00:14Z",
+      "title": "Argentina consolida exportaciones agroindustriales con 60 auditorías sanitarias",
+      "summary": "El país recibió 60 auditorías sanitarias internacionales en 3 años, fortaleciendo exportaciones agroindustriales y el estatus sanitario para nuevos destinos.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Agro"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Periódico MOTIVAR",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.motivar.com.ar/produccion-agropecuaria/argentina-consolida-exportaciones-agroindustriales-60-auditorias-sanitarias-n5337474",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Radio Nacional",
+          "type": "También publicó esta noticia",
+          "url": "https://cdn02.radionacional.com.ar/argentina-consolida-su-posicionamiento-como-exportador-agroindustrial/",
+          "alsoIn": true,
+          "title": "Argentina consolida su posicionamiento como exportador agroindustrial"
+        }
+      ],
+      "gnTried": "2026-10-27T22:00:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRUsyV2tZVjFDLWlyejUzUUFvS2pVczZvODdnSUZUcE1JbXplM3RscTJsaTFnUUlwNnFaanctbW9PMXVmaWQxcl95U3dERHRKQk0zdGxiN0gxdldWWnJERloySkRraHNkQ0pSbjZtSVVRWHhiMnFtUlNCNXhtQkppdGFYaEVJQVUyejdpWXVyclhhZWs3NFVTa0RlR1JnRU8tUTNJYUVvY19sdWxfSDM3a1pTYnZkdHJqV0xBbnBBcVVvWFphWEM1R2JLemlIbGRZ0gHWAUFVX3lxTE5Zc3MxZGZfSUJBLUc1TG0wSl93dDhab0V6YTBPNC1JR1p2WUtpRXE4b2lYanN3Y0VoN2NuS0pfVFBYRWlKMjJfV2g4VWlSN3ktT1h2RGNDaUhxT2FLWXVwT3hNZWlsa29FZGdUbS1ySlJnZFg5andVbmlFMHpmald2bjJMMldEaVIzRjZHTTdkSU96b3JUXzdJMWI1dEllR29STUJwX3ZVTVRWcjBXUzNsZ3NxWTNfVjJlQmlRVjhjV29adG9udTZoWTF3Nm5fcDNZV09USHc?oc=5",
+      "aliasUrls": [
+        "https://cdn02.radionacional.com.ar/argentina-consolida-su-posicionamiento-como-exportador-agroindustrial",
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeVFwRzdDRm95Y19RcnB5aDlZb0FVdWQwRG9Ib3NDWTVjMUp5azc2SlpHc3Y1d3VMNkpYVFJEdGxISm5ROFMyTnE1Q2J3aVlTZVdJQVh5SEtyMGY1clAtS3QtS3VxcUI2dk9JV2E1b1NncFVJRllxUlRWcDdFWEhrWnBqLWl5dENmSGpGaHhjc1EtTVUtMmZWZWg4S1NuVndTNzZoMGw5aVY"
+      ],
+      "mergedIds": [
+        "argentina-consolida-su-posicionamiento-como-exportador-agroindustrial"
       ]
+    },
+    {
+      "id": "honda-advirtio-que-los-aranceles-del-50-a-los-automoviles-en-canada-serian-catas",
+      "datetime": "2026-10-27T17:32:39Z",
+      "date": "2026-10-27",
+      "firstSeen": "2026-10-27T18:05:40Z",
+      "title": "Honda advirtió que los aranceles del 50% a los automóviles en Canadá serían catastróficos para la industria.",
+      "summary": "Jennifer Thomas de American Honda dijo que la industria necesita un pacto trilateral entre EE.UU., México y Canadá a medida que se acerca la fecha límite de tarifas de Trump el 1 de enero.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Latinoamérica",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "México",
+        "Estados Unidos",
+        "Canadá"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "auto",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Quartz",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://es.qz.com/honda-canada-aranceles-automotrices-50-por-ciento-catastrficos-102726",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "eltiempomx.com",
+          "type": "También publicó esta noticia",
+          "url": "https://eltiempomx.com/noticia/2026/sin-acuerdo-comercial-industria-automotriz-enfrentaria-escenario-catastrofico.html",
+          "alsoIn": true,
+          "title": "Sin acuerdo comercial, industria automotriz enfrentaría escenario catastrófico"
+        }
+      ],
+      "gnTried": "2026-10-27T18:05:40Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVXZSaXg4enJ1cTAtajZuSGxDRWZPNi1HSXJEOE92OFEtQk5vQi1LMWxfd3pvR2JpZnoxenlhNllIbXRfSGJiQ3RhVnRHbEVrZENYdEc1Sm9iYjRicG5wMkxjcVVoUHdzWUNjMjhSTUVTQmpHajZ6TklpV2xZejBRbExVMkFDaWxlSlhva05NdXE?oc=5",
+      "digestSkip": {
+        "at": "2026-10-27T16:05:00-03:00",
+        "reason": "la fuente no se pudo leer (error del sitio)"
+      },
+      "aliasUrls": [
+        "https://eltiempomx.com/noticia/2026/sin-acuerdo-comercial-industria-automotriz-enfrentaria-escenario-catastrofico.html",
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZEJ0bzhQSVRBbTVGTHlNcDEwTmF1Q0lEYkNHR2pBREhsc0lCU0M2ZUpmNFoxZEZDWF9UUUlpdTZTX1ZINW5GZ0JBR2xpem0yVWlLX1hLRk10S0RhNWs3U1h5c2ZndUI1NXRsVVFiQkxCSmNWQTQ2WUduZHhRNENOcjZNNkJ2eEZnbHRVblJjMGt4ZDFCbXpnSFFTUmpNZ0hPWk4yZUpBVHRQb0k1RUx1YkxNbGJtYTBpT1HSAa4BQVVfeXFMUEJCQkoyNy15TXIzUG9PaEhEZkFNcnpaRElyZVc3UTZBc2FwRTM3LUNkZmFhaWRoa2E3dVVZZVUtSlpOQnVtS0Zpa3hKLXpHZmc2eDJxWWRxdjBiZ2kzS3pUUEN6VnVvY0J2b3k5X3hwb2dXRktQbkR5RnQxTkdSMmcyRk9CUmRsenlxbjRqT3hval9USm1sR1lKTHR1Vnd0REdJVUlhNGtXSXYxdXdR"
+      ],
+      "mergedIds": [
+        "sin-acuerdo-comercial-industria-automotriz-enfrentaria-escenario-catastrofico"
+      ]
+    },
+    {
+      "id": "brasil-puerto-de-itaqui-desembarca-carga-destinada-a-proyecto-electrico",
+      "datetime": "2026-10-27T17:30:02Z",
+      "date": "2026-10-27",
+      "firstSeen": "2026-10-27T18:05:40Z",
+      "title": "Brasil: Puerto de Itaqui desembarca carga destinada a proyecto eléctrico",
+      "summary": "El Puerto de Itaqui desembarcó transformadores eléctricos y componentes de ensamblaje de la empresa estatal china…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "Brasil",
+        "China"
+      ],
+      "tags": [
+        "Puertos",
+        "China"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/brasil-puerto-de-itaqui-desembarca-carga-destinada-a-proyecto-electrico/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ],
+      "digest": {
+        "lead": "El puerto brasileño de Itaqui recibe transformadores y componentes de la estatal china State Grid para una línea de transmisión eléctrica de 1.468 kilómetros, en una operación que prevé 12 buques, informó PortalPortuario.",
+        "body": [
+          "Las piezas se destinan a las subestaciones convertidoras ubicadas en ambos extremos de la línea, que parte del municipio de Graça Aranha y cruza los estados de Maranhão, Tocantins y Goiás para llevar energía renovable del Noreste hacia el Centro-Oeste, el Sudeste y el Sur del país. La obra completa estaría terminada en marzo de 2030.",
+          "Las descargas empezaron el 18 de agosto y siguen un ritmo promedio de un buque por mes, cada uno con unos cuatro transformadores; el operador portuario NML coordina la maniobra. Según la nota, los tiempos del traslado por tierra y la circulación de camiones obligaron a espaciar más las llegadas.",
+          "Para Oquerlina Costa, presidenta de la administradora portuaria Emap, la regularidad de estas recepciones muestra que Itaqui está preparado para atender cargas de proyecto complejas."
+        ],
+        "at": "2026-10-27T16:05:00-03:00",
+        "basedOn": "https://portalportuario.cl/brasil-puerto-de-itaqui-desembarca-carga-destinada-a-proyecto-electrico",
+        "words": 164
+      }
     },
     {
       "id": "stellantis-frena-produccion-el-palomar-ferreyra-pickups-exportaciones-brasil-enero-2027",
@@ -1012,96 +1264,6 @@
       ]
     },
     {
-      "id": "honda-advirtio-que-los-aranceles-del-50-a-los-automoviles-en-canada-serian-catas",
-      "datetime": "2026-10-27T17:32:39Z",
-      "date": "2026-10-27",
-      "firstSeen": "2026-10-27T18:05:40Z",
-      "title": "Honda advirtió que los aranceles del 50% a los automóviles en Canadá serían catastróficos para la industria.",
-      "summary": "Jennifer Thomas de American Honda dijo que la industria necesita un pacto trilateral entre EE.UU., México y Canadá a medida que se acerca la fecha límite de tarifas de Trump el 1 de enero.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Aranceles"
-      ],
-      "countries": [
-        "Canadá"
-      ],
-      "tags": [
-        "Aranceles"
-      ],
-      "visual": "auto",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
-      "sources": [
-        {
-          "name": "Quartz",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://es.qz.com/honda-canada-aranceles-automotrices-50-por-ciento-catastrficos-102726",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-27T18:05:40Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVXZSaXg4enJ1cTAtajZuSGxDRWZPNi1HSXJEOE92OFEtQk5vQi1LMWxfd3pvR2JpZnoxenlhNllIbXRfSGJiQ3RhVnRHbEVrZENYdEc1Sm9iYjRicG5wMkxjcVVoUHdzWUNjMjhSTUVTQmpHajZ6TklpV2xZejBRbExVMkFDaWxlSlhva05NdXE?oc=5",
-      "digestSkip": {
-        "at": "2026-10-27T16:05:00-03:00",
-        "reason": "la fuente no se pudo leer (error del sitio)"
-      }
-    },
-    {
-      "id": "brasil-puerto-de-itaqui-desembarca-carga-destinada-a-proyecto-electrico",
-      "datetime": "2026-10-27T17:30:02Z",
-      "date": "2026-10-27",
-      "firstSeen": "2026-10-27T18:05:40Z",
-      "title": "Brasil: Puerto de Itaqui desembarca carga destinada a proyecto eléctrico",
-      "summary": "El Puerto de Itaqui desembarcó transformadores eléctricos y componentes de ensamblaje de la empresa estatal china…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Puertos",
-        "Latinoamérica",
-        "China",
-        "Asia"
-      ],
-      "countries": [
-        "Brasil",
-        "China"
-      ],
-      "tags": [
-        "Puertos",
-        "China"
-      ],
-      "visual": "port",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/brasil-puerto-de-itaqui-desembarca-carga-destinada-a-proyecto-electrico/",
-          "primary": true,
-          "author": "Periodista 4"
-        }
-      ],
-      "digest": {
-        "lead": "El puerto brasileño de Itaqui recibe transformadores y componentes de la estatal china State Grid para una línea de transmisión eléctrica de 1.468 kilómetros, en una operación que prevé 12 buques, informó PortalPortuario.",
-        "body": [
-          "Las piezas se destinan a las subestaciones convertidoras ubicadas en ambos extremos de la línea, que parte del municipio de Graça Aranha y cruza los estados de Maranhão, Tocantins y Goiás para llevar energía renovable del Noreste hacia el Centro-Oeste, el Sudeste y el Sur del país. La obra completa estaría terminada en marzo de 2030.",
-          "Las descargas empezaron el 18 de agosto y siguen un ritmo promedio de un buque por mes, cada uno con unos cuatro transformadores; el operador portuario NML coordina la maniobra. Según la nota, los tiempos del traslado por tierra y la circulación de camiones obligaron a espaciar más las llegadas.",
-          "Para Oquerlina Costa, presidenta de la administradora portuaria Emap, la regularidad de estas recepciones muestra que Itaqui está preparado para atender cargas de proyecto complejas."
-        ],
-        "at": "2026-10-27T16:05:00-03:00",
-        "basedOn": "https://portalportuario.cl/brasil-puerto-de-itaqui-desembarca-carga-destinada-a-proyecto-electrico",
-        "words": 164
-      }
-    },
-    {
       "id": "chile-las-exportaciones-de-papa-aumentaron-25-en-valor-durante-enero-septiembre",
       "datetime": "2026-10-27T17:09:28Z",
       "date": "2026-10-27",
@@ -1111,16 +1273,20 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Exportaciones",
         "Latinoamérica"
       ],
       "countries": [
+        "Argentina",
+        "Brasil",
+        "Uruguay",
         "Chile"
       ],
       "tags": [],
       "visual": "customs",
       "impact": 1,
-      "affectsArgentina": false,
+      "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
       "feed": "Google Noticias · Exportaciones Argentina",
@@ -1135,6 +1301,41 @@
       ],
       "gnTried": "2026-10-27T18:05:40Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNmc0eGEtLVVqTDR0eHFzZGJMcURITUF2Q3VoeUg5MTE3YkNFMXhYblFVMEp3aGRRT2g4T2JvUDVMeWFJN20zR1N4bERWV2MwZS1ieVl6ZHdLSm01RkRDdmFLYXlBT0dmTjdoQUowR08zUG9reEx1M3U1czhwUEpRVzZyYkI2dnZtbXk2T3J0N010RFNteWlRRFlvNEpsdlhMTm1CWmQwY1djcUNzazh1OGJVVWZDQnFzbXBXbzZIV3hDbnRkYmxMd19n?oc=5"
+    },
+    {
+      "id": "argentina-va-por-un-record-exportador-en-2026-y-suma-nuevos-rubros",
+      "datetime": "2026-10-27T17:07:58Z",
+      "date": "2026-10-27",
+      "firstSeen": "2026-10-27T22:00:14Z",
+      "title": "Argentina va por un récord exportador en 2026 y suma nuevos rubros",
+      "summary": "Un informe del Ieral, de la Fundación Mediterránea, proyecta un salto en 2026, con mayor peso de la energía y la minería.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Punto Biz",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://puntobiz.com.ar/economia/argentina-va-por-un-record-exportador-en-2026-y-suma-nuevos-rubros-2026102713420",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-27T22:00:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSktqUW9sbnNrQUtkd0J1ZjA0YmV6RnpvYjZtMlBWMkdWYXFPNlNYS2V1bzdrME4tSHhFU1JoSk90RHBaSXRXSGxoNGxGVFpFTGdBOWNqYnlNVDRocGpaY3JxYWl1RXRFcHRWZ25RWVpoQmpVUExMeGZvMTF6Rjk5OE9ONmRuVFZaeE5LbWxscUpHTElhTERWb1FzT1ZfQ0RZSHpXb2JJdm84WEJQNFE?oc=5"
     },
     {
       "id": "aranceles-y-cartera-vencida-el-doble-desafio-para-el-financiamiento-automotriz-e",
@@ -1266,6 +1467,13 @@
           "url": "https://www.impulsobaires.com.ar/nota/326428/exportaciones-argentinas-brasil-pierde-participacion-frente-a-ee-uu-china-e-india/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Paralelo32",
+          "type": "También publicó esta noticia",
+          "url": "https://www.paralelo32.com.ar/brasil-pierde-participacion-en-las-exportaciones-argentinas-mientras-crecen-las-ventas-a-estados-unidos-y-asia",
+          "alsoIn": true,
+          "title": "Brasil pierde participación en las exportaciones argentinas, mientras crecen las ventas a Estados Unidos y Asia"
         }
       ],
       "gnTried": "2026-10-27T18:05:40Z",
@@ -1279,7 +1487,14 @@
         "at": "2026-10-27T16:05:00-03:00",
         "basedOn": "https://www.impulsobaires.com.ar/nota/326428/exportaciones-argentinas-brasil-pierde-participacion-frente-a-ee-uu-china-e-india/",
         "words": 167
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVU5tM1ppUC1FQXRKMDNiTlJKVGk4cHN2OEUwTGdtUTlYLTdZTkJSaklncVRsS3BVTGl1ZXdQN0ZDWXVyUExtNUZjbFQzYkdSSm45YjNhUGROOGluZ2p1c0RTZzRQQ1VYQnhMOXFZQ1ptVzl3NXlEaWxRc3FYRTgteXlIeUpiLXBUdDBzeEp6NDc5UkhiTzIxMXdtN0toenlDYU13VVBmcHhWeXNTdVFIWTc0Njk1bEczeFVKd1FncXVXUHZPdHM5ZnZRVXNoc3lxRHFnY0N6UQ",
+        "https://www.paralelo32.com.ar/brasil-pierde-participacion-en-las-exportaciones-argentinas-mientras-crecen-las-ventas-a-estados-unidos-y-asia"
+      ],
+      "mergedIds": [
+        "brasil-pierde-participacion-en-las-exportaciones-argentinas-mientras-crecen-las"
+      ]
     },
     {
       "id": "la-carga-aerea-busca-aviones-se-necesitan-miles-de-cargueros-hasta-el-2045",
@@ -1368,99 +1583,6 @@
         "at": "2026-10-27T16:05:00-03:00",
         "basedOn": "https://portalportuario.cl/argentina-puerto-san-nicolas-fortalece-infraestructura-con-nuevo-acceso/",
         "words": 132
-      }
-    },
-    {
-      "id": "un-plenario-de-comisiones-dictamino-a-favor-de-dos-proyectos-vinculados-al-merco",
-      "datetime": "2026-10-27T16:24:49Z",
-      "date": "2026-10-27",
-      "firstSeen": "2026-10-27T18:05:40Z",
-      "title": "Un plenario de comisiones dictaminó a favor de dos proyectos vinculados al Mercosur",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Mercosur"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Cámara de Diputados de la Nación",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.hcdn.gob.ar/prensa/noticia/UN-PLENARIO-DE-COMISIONES-DICTAMINO-A-FAVOR-DE-DOS-PROYECTOS-VINCULADOS-AL-MERCOSUR/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-27T18:05:40Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWjdaTFM3Mk42djJHMmRJS3lRVHVNYzdsV3ZNU09pQkRHSGJ6cVhCQXJ0ajZ0b0U1czJabF96N1dDSGFuc0pwanpwVGpVQXB1NEJ2SWdkVUlWNjY5RE11VWQwbVI3YU9zVkRMLU5Tbl9kcXhCaEhzOTBwaXBJblN0U1JhYTNub0tFSjhUc0Rzb3RxSmRmbE9uNlc1eXNWbE9zTHhXWW1LTlk4NEp6YldoYTRQeXlsMW5uaEVqUnoyY2M?oc=5",
-      "digest": {
-        "lead": "Las comisiones de Relaciones Exteriores y de Mercosur de Diputados firmaron el 27 de octubre dictamen favorable al Acuerdo de Libre Comercio Mercosur-EFTA y a una enmienda del protocolo de servicios del bloque, ambos con media sanción del Senado, informó la Cámara.",
-        "body": [
-          "El acuerdo con la Asociación Europea de Libre Comercio (Suiza, Noruega, Islandia y Liechtenstein) se firmó en Río de Janeiro el 16 de septiembre de 2025. La otra iniciativa modifica el Protocolo de Montevideo sobre comercio de servicios del Mercosur, suscripto el 7 de diciembre de 2023, para adecuar los compromisos regionales a la evolución de los mercados.",
-          "El plenario, encabezado por Juliana Santillán Juárez Brahim (LLA) y Eduardo Valdés (UxP), tuvo apoyo de varios bloques. Santillán presentó el tratado con la EFTA como una oportunidad para las economías regionales y la agroindustria; Damián Arabia (LLA) dijo que institucionaliza las relaciones comerciales, y Esteban Paulón (Provincias Unidas) también adelantó su acompañamiento. Con el dictamen, ambos textos quedan en condiciones de ser tratados en el recinto."
-        ],
-        "at": "2026-10-27T16:05:00-03:00",
-        "basedOn": "https://www.hcdn.gob.ar/prensa/noticia/UN-PLENARIO-DE-COMISIONES-DICTAMINO-A-FAVOR-DE-DOS-PROYECTOS-VINCULADOS-AL-MERCOSUR/",
-        "flag": "curar",
-        "words": 167
-      }
-    },
-    {
-      "id": "empresa-automotriz-freno-la-produccion-por-la-caida-de-la-demanda-interna-y-de-l",
-      "datetime": "2026-10-27T16:12:36Z",
-      "date": "2026-10-27",
-      "firstSeen": "2026-10-27T18:05:40Z",
-      "title": "Empresa automotriz frenó la producción por la caída de la demanda interna y de las exportaciones",
-      "summary": "Se trata de Stellantis que opera en Buenos Aires y en Córdoba donde se producen los modelos Peugeot 208 y 2008 y las picks up Fiat Titanio y Ram Dakota",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Autos"
-      ],
-      "visual": "auto",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "El Ciudadano",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://elciudadanoweb.com/empresa-automotriz-freno-la-produccion-por-la-caida-de-la-demanda-interna-y-de-las-exportaciones/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-27T18:05:40Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOc05NdHFMZFk3M0hqQW1WQk5rZU90ZVRWMVJLVktxU3lOa3Y1RXY5U0gxTDlvdzMtYUtHTS1kQlNGdXZqeGg2a1c5NUVqamtKSThiSTR6dHJoZktsY2s5c2hoRzhobTlIMWZSMmFjbzltZjZIT0NuaG1wejVlYTNzMnpOVjZORUdrQi1pMjdWRjBrUDRkUmFMdk84ZTl3ZEVTUFU0R0dzTU5pNFpPcFZKb1BRYWVVRWpsMG9fMXROdWFCMXBYVkxr0gHHAUFVX3lxTE5zTk10cUxkWTczSGpBbVZCTmtlT3RlVFYxUktWS3FTeU5rdjVFdjlTSDFMOW93My1hS0dNLWRCU0Z1dmp4aDZrVzk1RWpqa0pJOGJJNHp0cmhmS2xjazlzaGhHOGhtOUgxZlIyYWNvOW1mNkhPQ25obXB6NWVhM3Myek5WNk5FR2tCLWkyN1ZGMGtQNGRSYUx2TzhlOXdkRVNQVTRHR3NNTmk0Wk9wVkpvUFFhZVVFamwwb18xdE51YUIxcFhWTGs?oc=5",
-      "digest": {
-        "lead": "Stellantis detuvo la producción en su planta de El Palomar hasta el 18 de enero de 2027 y ajusta los planes en Córdoba por la caída de las ventas internas y de las exportaciones, informó El Ciudadano de Rosario.",
-        "body": [
-          "Según fuentes gremiales citadas por el diario, la fábrica bonaerense, donde se arman los Peugeot 208 y 2008, frenó el lunes y adelantó vacaciones del personal para noviembre y diciembre. En el Polo Industrial Ferreyra, en Córdoba, la compañía revisa la producción de las pickups Fiat Titanio y Ram Dakota por la baja de los envíos al exterior, mientras el Fiat Cronos sigue con el cronograma previsto.",
-          "La empresa no comunicó despidos y presentó la medida como un ajuste a las condiciones del mercado. La nota recuerda que semanas atrás el nuevo director regional, Gerlander Sol, advirtió que la continuidad de la producción en la Argentina no está garantizada. Stellantis emplea a unas 5.000 personas en sus plantas del país, a las que se suman los trabajadores de sus proveedores de autopartes."
-        ],
-        "at": "2026-10-27T16:05:00-03:00",
-        "basedOn": "https://elciudadanoweb.com/empresa-automotriz-freno-la-produccion-por-la-caida-de-la-demanda-interna-y-de-las-exportaciones/",
-        "words": 171
       }
     },
     {
@@ -1560,7 +1682,8 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Transporte marítimo"
+        "Transporte marítimo",
+        "Puertos"
       ],
       "countries": [
         "Global"
@@ -1591,23 +1714,22 @@
       }
     },
     {
-      "id": "alerta-para-el-comercio-exterior-se-incendio-un-megabuque-en-altamar-con-miles-d",
-      "datetime": "2026-10-27T15:15:00Z",
+      "id": "apertura-comercial-record-de-exportaciones-con-nuevos-motores-y-el-desafio-de-co",
+      "datetime": "2026-10-27T15:20:13Z",
       "date": "2026-10-27",
-      "firstSeen": "2026-10-27T18:05:40Z",
-      "title": "Alerta para el comercio exterior: se incendió un megabuque en altamar con miles de contenedores con destino a Buenos Aires",
-      "summary": "",
+      "firstSeen": "2026-10-27T22:00:14Z",
+      "title": "Apertura Comercial: Récord de Exportaciones con Nuevos Motores y el Desafío de Consolidar el Crecimiento",
+      "summary": "Después de una década en la cual Argentina tuvo una participación muy errática en el comercio mundial, nuestro país atraviesa un cambio de escala en su inserción externa. Las exportaciones de bienes llegaron a USD 87.000 millones en 2025 (+9,1% interanual) y las proyecciones anticipan para este año un récord por…",
       "body": [],
       "keyData": [],
       "topics": [
-        "Argentina",
-        "Transporte marítimo"
+        "Exportaciones"
       ],
       "countries": [
         "Argentina"
       ],
       "tags": [],
-      "visual": "container",
+      "visual": "customs",
       "impact": 1,
       "affectsArgentina": true,
       "kind": "noticia",
@@ -1615,19 +1737,15 @@
       "feed": "Google Noticias · Comercio exterior Argentina",
       "sources": [
         {
-          "name": "SL24",
+          "name": "Agrositio",
           "type": "Medio · vía Google Noticias",
-          "url": "https://sl24.com.ar/alerta-para-el-comercio-exterior-se-incendio-un-megabuque-en-altamar-con-miles-de-contenedores-con-destino-a-buenos-aires/",
+          "url": "https://www.agrositio.com.ar/noticia/249053-apertura-comercial-record-de-exportaciones-con-nuevos-motores-y-el-desafio-de-consolidar-el-crecimiento.html",
           "primary": true,
           "author": ""
         }
       ],
-      "gnTried": "2026-10-27T18:05:40Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPS0hCdnJ4X2hmX0otY0hrLS02bW01bDlwd0hrbnRCemJEbEZBNTVmSndOV1NxRElkSmFIT3loODBfLVNSOTA4ZUdpbHFjZ3F5RkpMQjd2V3Rtcjh5OXFWT3VVaGo5Q0lnMHhzYXE5SFBhd1BaMGhneUhaWmlSYUMxMmZmSDNobWF4bzdWQ0FadzBmZVh2Qk8xRTIxQnFna2tQZFpvbEpuc2ZzWEYxR2IxWFhmUGVhbjBaMEZqYmNEOHV2MDJYbGtmYUVKd05hc0diUW85T1RNZjFHZw?oc=5",
-      "digestSkip": {
-        "at": "2026-10-27T16:05:00-03:00",
-        "reason": "repite una nota de la redacción (incendio del Espirito Santo Express)"
-      }
+      "gnTried": "2026-10-27T22:00:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRXA3WnpoRzNCdEJQVVRLS1FhNGcyVVRHM2JaQ2sya1JKaTNodWxRemhIdnJHR0hIalhfUFRLSHk2c3BYQlJSMVpZRGdUb21wODh6ZXVjb0dTMXhaZHVEZ1p4MUdWdTdyZ2I5TlhBekNkY18wY0FBTThGdWY4N19mOVhHc1pBbU9RSl9VSmhhVWlYNC1jOVpxM2d1NFdzMU9jUFY5elJHOFhqUTlGS19la1dRMUNEaXVsWkR2aG9jWmwteHpZbGFrME9oMXNLcVFNT2Y4VUpTb1BJOFlHZ1pQeFNhRDdRT3c?oc=5"
     },
     {
       "id": "gabriel-mato-destaca-el-reconocimiento-de-canarias-y-las-rup-en-las-salvaguardas",
@@ -1641,6 +1759,7 @@
       "topics": [
         "Aranceles",
         "Tratados y acuerdos",
+        "Regulaciones",
         "Mercosur",
         "Europa"
       ],
@@ -1926,6 +2045,43 @@
         "at": "2026-10-27T13:05:00-03:00",
         "reason": "la página no se puede leer (la herramienta rechaza la URL)"
       }
+    },
+    {
+      "id": "la-ue-elevo-un-94-las-compras-de-miel-de-mercosur-entre-mayo-y-julio-hasta-12-69",
+      "datetime": "2026-10-27T13:06:50Z",
+      "date": "2026-10-27",
+      "firstSeen": "2026-10-27T22:00:14Z",
+      "title": "La UE elevó un 94% las compras de miel de Mercosur entre mayo y julio hasta 12.693 toneladas",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Unión Europea"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Demócrata",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.democrata.es/castilla-y-leon/la-ue-elevo-un-94-las-compras-de-miel-de-mercosur-entre-mayo-y-julio-hasta-12-693-toneladas/amp/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-27T22:00:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdzNOWUF1N1ZBV3Rta2xBYkljbFpYMXEwaEJZMmlWdE1MRDJ4UGFPQ2FVWnJ3VUNkcnBYeGNWb0xhRTlWWGFMaFFmd0RxS3N0V216clRac3FXNzNWUlRwZ3QxakJfVkFBNTUzSVk4bGxlLXh6bUdrbkwwZlh0SkU4azVuOURRdS1UYWZhNmt2ekFPZGJiR1lxUmprckxtOTlNMnhMN21sTU9RU0VVV19EWF84RWF4Nk1ISHBFN0tqdjlOVWRsSGdHRjNUY2dCVVlWNGtj0gHTAUFVX3lxTE53M05ZQXU3VkFXdG1rbEFiSWNsWlgxcTBoQlkyaVZ0TUxEMnhQYU9DYVVacndVQ2RycFh4Y1ZvTGFFOVZYYUxoUWZ3RHFLc3RXbXpyVFpzcVc3M1ZSVHBndDFqQl9WQUE1NTNJWThsbGUteHptR2tuTDBmWHRKRThrNW45RFF1LVRhZmE2a3Z6QU9kYmJHWXFSamtyTG05OU0yeEw3bWxNT1FTRVVXX0RYXzhFYXg2TUhIcEU3S2p2OU5VZGxIZ0dGM1RjZ0JVWVY0a2M?oc=5"
     },
     {
       "id": "previsibilidad-la-nueva-moneda-del-comercio-exterior-en-un-mundo-impredecible",
@@ -2380,6 +2536,77 @@
       ],
       "gnTried": "2026-10-27T18:05:40Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeEZ0aEFXZERwMmFJREhOeEhHM25uR3JsQ0RjWExBYWlLNzQ3dkF0UlZfWXFBLTJMYkFReUMwS1c1ZG5zQVRySTQ1NWx2NnVuV3AzS1BNbmZWelFyOGU4dWNLU0JRcE1FUmVPSTlqRjE3Y09URUEzLUZrbXpnR0tWT1o0bXZuZ080Qm5lc19JNUNXWUY0QzBqV0c4VURBVk1sa1kxY1hMYmVFV3dWMTUzdWFKUEdfcE9Vb082VFNR0gG2AUFVX3lxTE1McEo4MTJXVFExajFZN0JwVEZldGhuUnRHem8wWlhJV0hIREZqQnpLMkVlcHJmU3VrU05CM1Y1NDhVenhILTVPVVdvQ2RuMGJTUFhfa2stMmEtR0lTbVE2X01tckF2RzU5aWZhMkZWTEoyQTF5RUM5R0dwaGsybGdYQnJWVjY2eE15X0syUDhjc1hqNno1b1pSWmhFVEhHZ284OW55aTdHSlkxZUZOeGJtWHNGSW1n?oc=5"
+    },
+    {
+      "id": "uccl-alerta-de-que-las-importaciones-de-miel-de-mercosur-se-disparan-un-94",
+      "datetime": "2026-10-27T10:12:11Z",
+      "date": "2026-10-27",
+      "firstSeen": "2026-10-27T22:00:14Z",
+      "title": "UCCL alerta de que las importaciones de miel de Mercosur se disparan un 94%",
+      "summary": "La organización agraria denuncia que la Unión Europea recibió 12.693 toneladas entre mayo y julio y reclama a Bruselas mayor vigilancia ante la presión sobre los apicultores europeos",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones",
+        "Mercosur"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Diario de Burgos",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.diariodeburgos.es/noticia/z15290de3-d2f0-4abc-966e572d9969b47b/202610/las-importaciones-de-miel-de-mercosur-se-disparan-un-94",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-27T22:00:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdFNKcnhWX3E4V3JVckRxYXNMOHJQM0otQ0QxVGRQelJSZHNMa3B3N0JScUpGSEZ1WW9kRlB4Y2YzUWxZSzUta25qbVRsQkYzTmJpdnZrTVN4a0d1SFJpMFNzbnBDRTdTMmZmUXQzMEJUdUUxU3FPTWpubHVlSzdVb0EyQ1RxX254aVI2Tk0xZG5nNmw0U0xRMndmSmIzVmVvdDlXeGUwSERsUXVPWTRpN2hyOGlnd1FNbF9jQ2tvNERONnVRaW9nUGNGMTZYSVVDaHBN?oc=5"
+    },
+    {
+      "id": "ninguna-naviera-opta-a-cubrir-las-rutas-maritimas-de-interes-publico-entre-la-pa",
+      "datetime": "2026-10-27T09:53:37Z",
+      "date": "2026-10-27",
+      "firstSeen": "2026-10-27T22:00:14Z",
+      "title": "Ninguna naviera opta a cubrir las rutas marítimas de interés público entre La Palma y la península",
+      "summary": "El Ministerio de Transportes ha declarado desierta la licitación de las líneas marítimas de interés público entre la península y Canarias, que debían incluir escalas en cinco islas, al no haberse presentado ninguna naviera, han informado fuentes de este departamento. El contrato para hac...",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "El Time",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://eltime.es/politica/183-canarias/61200-ninguna-naviera-opta-a-cubrir-las-rutas-maritimas-de-interes-publico-entre-la-palma-y-la-peninsula.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-27T22:00:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWmFvMV9jd1AxS1ZQQUN3LWtuSGFEWjdpTjdlSld2R0RaWXI4eTRlSncwZWZ1d29YX3Z6REM2enhVaUsweXViaFZnODBWNlhxNUNIVVg2ekJLeF9qT0VqdDN1WV9PV3lXV05CdS0zWTlDOUNENUxtX3lreFdQMmN1bFVwWjBtVDdnNlBSYndCbUhLRTBwdE1hVWN5ZFNHLXRvenZrUXcyc0s0U2dMMG1TTTFIZXFQc0JFeGN5c1BZVE9yVjZiMkl1TUV2VDZOdXlRRGZWNk1pTXlGdjQxc3dQRW5oRQ?oc=5"
     },
     {
       "id": "mexico-aporta-8-3-por-ciento-de-la-recaudacion-de-aranceles-de-eu",
@@ -2911,6 +3138,44 @@
       }
     },
     {
+      "id": "la-miel-de-mercosur-casi-duplica-sus-entradas-en-la-ue-en-los-tres-primeros-mese",
+      "datetime": "2026-10-27T06:11:15Z",
+      "date": "2026-10-27",
+      "firstSeen": "2026-10-27T22:00:14Z",
+      "title": "La miel de Mercosur casi duplica sus entradas en la UE en los tres primeros meses del acuerdo",
+      "summary": "Las importaciones de miel de Mercosur casi se han duplicado en tres meses y el primer contingente ya se ha superado, según Unión de Uniones.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Unión Europea"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Agrodigital",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://agrodigital.info/2026/10/27/miel-mercosur-importaciones-duplica/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-27T22:00:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1DZzAyNnVxTkJ0eFlwdEFlbldBZC1TOTJhVkhFcVhBNEFlb3NNYlZBTUlsMWNVa2JaNGhUQTU5ZXhzaVpWSEhWbWR2V1doVVE2OFBsaHJpbllKSVVJZ1k0TkZrenQ4NUtDOGJ3dEtsNnUzQ2l5QWhOSmVYblk?oc=5"
+    },
+    {
       "id": "el-campo-valenciano-sufre-la-cara-b-de-mercosur-y-los-citricos-piden-auxilio-en",
       "datetime": "2026-10-27T05:25:53Z",
       "date": "2026-10-27",
@@ -3171,7 +3436,182 @@
       "digestSkip": {
         "at": "2026-10-27T13:05:00-03:00",
         "reason": "no se pudo abrir la página con la herramienta de lectura en esta corrida"
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUDF1NUF5TndQQjRNU0dfbFh4RXB5VlJKNHVfMDdxMGFnTWxUajBSaWkxRkZLLWdhTEVJRU9xQ2drVnZ3SjlabTdoanZ1MzFYLXNtdXN4X0I0cG9QQjQ4Y1BSMzJfR0swOGNWalFiRk5Gcjh3Yzg2Q25RLXVueUk3THVyU3JFV01rM3J5cnl1cVI3Q2I0cy15Sy1BS1h6SF9pQ1E5ZlA2eTBjY1lucHl4RVllTlZneEVlWVY3TVhQQW1xeTJIbl9V"
+      ]
+    },
+    {
+      "id": "diputados-dictamen-acuerdo-mercosur-aelc-efta-protocolo-servicios-montevideo",
+      "date": "2026-10-27",
+      "kind": "noticia",
+      "story": "mercosur-aelc",
+      "title": "Mercosur–AELC: Diputados firmó dictamen y el acuerdo con Suiza, Noruega, Islandia y Liechtenstein queda a un paso de la ratificación argentina",
+      "summary": "El plenario de las comisiones de Relaciones Exteriores y del Mercosur aprobó el tratado de libre comercio con la AELC y una enmienda al protocolo de servicios del bloque, los dos con media sanción del Senado. Falta la votación en el recinto, sin fecha informada, mientras Brasil ya aplica el acuerdo con Islandia y lo hará con Noruega desde el 1 de noviembre.",
+      "body": [
+        "El plenario de las comisiones de Relaciones Exteriores y Culto y del Mercosur de la Cámara de Diputados firmó el martes 27 de octubre dictamen favorable a dos proyectos de ley que llegaron con media sanción del Senado: el Acuerdo de Libre Comercio entre el Mercosur y la Asociación Europea de Libre Comercio (AELC, o EFTA por su sigla en inglés), que integran Islandia, Liechtenstein, Noruega y Suiza, y una enmienda al Protocolo de Montevideo sobre el comercio de servicios en el Mercosur, según informó la Cámara.",
+        "Con el dictamen, el tratado con la AELC supera la instancia de comisión una semana después de que los mismos legisladores escucharan a la Cancillería y a diplomáticos de Noruega y Suiza. La Cámara no informó fecha para la sesión en la que ambos textos deberían votarse; la aprobación del pleno es el último paso parlamentario que le falta a la Argentina para ratificar el acuerdo, que el Senado aprobó por unanimidad el 27 de agosto.",
+        "## Qué se dijo en el plenario",
+        "La reunión la condujeron Juliana Santillán Juárez Brahim (La Libertad Avanza), presidenta de Relaciones Exteriores, y Eduardo Valdés (Unión por la Patria), titular de la comisión del Mercosur. Según la crónica oficial, Santillán defendió los dos proyectos y presentó el acuerdo con la AELC como una oportunidad para las economías regionales y la producción agroindustrial, con potencial para generar inversiones, exportaciones y empleo.",
+        "Valdés anunció el acompañamiento de su bloque y planteó la necesidad de fortalecer el Mercosur. Damián Arabia (LLA) sostuvo que el tratado institucionaliza las relaciones comerciales y ayuda a que las diferencias políticas no afecten el vínculo entre los países, y Esteban Paulón (Provincias Unidas) adelantó el apoyo de su bancada a ambas iniciativas. La información de la Cámara no detalla la cantidad de firmas del dictamen ni registra objeciones.",
+        "## Qué contiene el tratado con la AELC",
+        "El acuerdo se firmó el 16 de septiembre de 2025 en Río de Janeiro y abarca bienes, servicios, inversiones, compras públicas, propiedad intelectual, reglas de origen, medidas sanitarias y fitosanitarias, defensa comercial, solución de controversias y desarrollo sostenible. Según la agencia EFE, crea un área de libre comercio de casi 300 millones de personas; el canciller Pablo Quirno destacó en agosto el acceso a un mercado de unos 15 millones de habitantes con alto poder adquisitivo.",
+        "La AELC otorgará preferencias a más del 97% de las exportaciones del Mercosur y eliminará de inmediato sus aranceles para los productos industriales. Los limones, las naranjas, el maní, las legumbres, el biodiésel y los productos pesqueros tendrán desgravación inmediata, y habrá mejor acceso para carne bovina y aviar, lácteos y miel. Suiza abrirá una cuota bilateral de 55.000 hectolitros de vino con arancel cero, y el texto reconoce 108 indicaciones geográficas argentinas, según la crónica de Parlamentario sobre la reunión del 20 de octubre. Del lado del Mercosur, los productos industriales sensibles tendrán plazos de desgravación de hasta 15 años.",
+        "## La enmienda sobre servicios",
+        "El segundo proyecto dictaminado aprueba la enmienda al Protocolo de Montevideo firmada el 7 de diciembre de 2023, también en Río de Janeiro, durante la cumbre del Mercosur. Según el gobierno brasileño, ese texto cerró la VIII Ronda de negociación de compromisos específicos en servicios: reemplaza las listas de compromisos de cada país e incorpora al bloque las concesiones más amplias que los cuatro socios ofrecieron a terceros países desde 2009, en sectores como servicios financieros, profesionales, de comunicaciones y de transporte.",
+        "De acuerdo con el texto aprobado por Uruguay en la Ley 20.425, del 18 de septiembre de 2025, la enmienda entra en vigor 30 días después de que el tercer Estado Parte deposite su ratificación, con Paraguay como depositario. La Cámara argentina la describió como una actualización de los compromisos regionales a la evolución de los mercados.",
+        "## Cómo van los demás socios",
+        "Brasil promulgó el acuerdo con la AELC el 23 de septiembre, lo aplica con Islandia desde el 1 de octubre y empezará con Noruega el 1 de noviembre; con Suiza y Liechtenstein, la aplicación depende de que esos países terminen sus procesos internos, según InfoNegocios. En Suiza, el Consejo de los Estados lo aprobó por 35 votos contra 7 y el Consejo Nacional por 118 contra 66, después de un primer rechazo en junio y de un paquete de CHF 517 millones adicionales para el agro entre 2028 y 2033; todavía puede convocarse un referéndum. Uruguay completó la aprobación parlamentaria en junio, y en Paraguay la comisión de Relaciones Exteriores del Senado emitió dictamen favorable por unanimidad el 16 de septiembre.",
+        "Para los exportadores argentinos la demora tiene un costo concreto: Brasil ya reglamentó el uso de las cuotas que Noruega abrió al Mercosur, que este año se asignan por orden de llegada y sin reparto previo entre los socios, como informó Comexplora el 20 de octubre. Sobre la entrada en vigor para cada país hay versiones distintas: la descripción difundida en el Senado habla de una regla bilateral entre cada país que ratifica y cada miembro de la AELC, mientras que una nota de Ámbito de junio había señalado que hacía falta la ratificación de los cuatro socios del Mercosur."
+      ],
+      "keyData": [
+        [
+          "Dictamen en Diputados",
+          "27/10/2026, plenario de Relaciones Exteriores y Mercosur"
+        ],
+        [
+          "Senado",
+          "Aprobado por unanimidad el 27/8/2026"
+        ],
+        [
+          "Preferencias de la AELC",
+          "Más del 97% de las exportaciones del Mercosur"
+        ],
+        [
+          "Cuota suiza de vino",
+          "55.000 hl con arancel cero"
+        ],
+        [
+          "Indicaciones geográficas argentinas",
+          "108"
+        ],
+        [
+          "Brasil–Noruega",
+          "Aplicación desde el 1/11/2026"
+        ],
+        [
+          "Enmienda de servicios",
+          "Firmada el 7/12/2023; rige 30 días después de la tercera ratificación"
+        ]
+      ],
+      "topics": [
+        "Argentina",
+        "Mercosur",
+        "Europa",
+        "Tratados y acuerdos",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina",
+        "Suiza",
+        "Noruega",
+        "Islandia",
+        "Liechtenstein",
+        "Brasil",
+        "Uruguay",
+        "Paraguay"
+      ],
+      "tags": [
+        "AELC",
+        "EFTA",
+        "Congreso",
+        "Diputados",
+        "Ratificación",
+        "Protocolo de Montevideo",
+        "Servicios",
+        "Vino"
+      ],
+      "visual": "treaty",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "Con el dictamen, al acuerdo con la AELC solo le falta la votación del pleno de Diputados para que la Argentina complete la ratificación parlamentaria; Brasil ya lo aplica con Islandia y desde el 1 de noviembre con Noruega.",
+      "argentinaImpact": {
+        "change": "El acuerdo Mercosur–AELC y la enmienda al protocolo de servicios del Mercosur obtuvieron dictamen en Diputados y quedan pendientes de la votación en el recinto.",
+        "who": "Exportadores de economías regionales, carnes, vino, miel y pesca; importadores de bienes industriales de Suiza y Noruega; prestadores de servicios que operan en el Mercosur.",
+        "sectors": [
+          "Economías regionales",
+          "Carnes",
+          "Vino",
+          "Pesca",
+          "Servicios"
+        ],
+        "flows": {
+          "importaciones": true,
+          "exportaciones": true,
+          "logistica": false,
+          "aranceles": true
+        }
+      },
+      "explainer": {
+        "what": "El plenario de comisiones de Relaciones Exteriores y del Mercosur de Diputados firmó dictamen favorable al acuerdo Mercosur–AELC y a una enmienda al protocolo de servicios del bloque.",
+        "why": "Es el paso previo a la votación final: la AELC dará preferencias a más del 97% de las exportaciones del Mercosur, y Brasil ya empezó a usar el acuerdo con Islandia y lo hará con Noruega.",
+        "who": "Exportadores argentinos de limones, naranjas, maní, biodiésel, pescado, carnes, miel y vino, importadores de bienes industriales europeos y prestadores de servicios.",
+        "products": [
+          "Limones",
+          "Naranjas",
+          "Maní",
+          "Legumbres",
+          "Biodiésel",
+          "Productos pesqueros",
+          "Carne bovina",
+          "Carne aviar",
+          "Miel",
+          "Vino"
+        ],
+        "next": "Brasil empieza a aplicar el acuerdo con Noruega el 1 de noviembre; con Suiza y Liechtenstein, la aplicación depende de que terminen sus procesos internos.",
+        "nextSource": {
+          "name": "InfoNegocios",
+          "url": "https://infonegocios.com.py/default/efta-mercosur-el-acuerdo-avanza-en-suiza-y-brasil-mientras-paraguay-da-otro-paso-hacia-su-ratificacion"
+        }
+      },
+      "deadlines": [
+        {
+          "date": "2026-11-01",
+          "label": "Brasil: empieza a aplicar el acuerdo Mercosur–AELC con Noruega",
+          "url": "https://infonegocios.com.py/default/efta-mercosur-el-acuerdo-avanza-en-suiza-y-brasil-mientras-paraguay-da-otro-paso-hacia-su-ratificacion"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Cámara de Diputados de la Nación",
+          "type": "Fuente oficial",
+          "url": "https://www.hcdn.gob.ar/prensa/noticia/UN-PLENARIO-DE-COMISIONES-DICTAMINO-A-FAVOR-DE-DOS-PROYECTOS-VINCULADOS-AL-MERCOSUR/",
+          "primary": true
+        },
+        {
+          "name": "Parlamentario",
+          "type": "Medio especializado",
+          "url": "https://www.parlamentario.com/2026/10/20/diplomaticos-analizaron-ante-diputados-el-acuerdo-mercosur-y-la-asociacion-europea-de-libre-comercio/"
+        },
+        {
+          "name": "InfoNegocios Paraguay",
+          "type": "Medio de comunicación",
+          "url": "https://infonegocios.com.py/default/efta-mercosur-el-acuerdo-avanza-en-suiza-y-brasil-mientras-paraguay-da-otro-paso-hacia-su-ratificacion"
+        },
+        {
+          "name": "Medios Públicos Uruguay",
+          "type": "Medio público",
+          "url": "https://mediospublicos.uy/parlamento-ratifico-acuerdo-de-libre-comercio-entre-el-mercosur-y-la-efta/"
+        },
+        {
+          "name": "Infobae (EFE)",
+          "type": "Agencia de noticias",
+          "url": "https://www.infobae.com/america/agencias/2026/08/28/avanza-en-el-parlamento-argentino-la-ratificacion-del-acuerdo-mercosur-efta/"
+        },
+        {
+          "name": "IMPO Uruguay (Ley 20.425)",
+          "type": "Fuente oficial",
+          "url": "https://www.impo.com.uy/bases/leyes-internacional/20425-2025/1"
+        },
+        {
+          "name": "Agência Gov (Brasil)",
+          "type": "Fuente oficial",
+          "url": "https://agenciagov.ebc.com.br/noticias/202312/conclusao-da-viii-rodada-de-negociacoes-de-compromissos-especificos-em-materia-de-servicos-do-mercosul"
+        }
+      ],
+      "absorbs": [
+        "un-plenario-de-comisiones-dictamino-a-favor-de-dos-proyectos-vinculados-al-merco"
+      ]
     },
     {
       "id": "agua-rica-glencore-rigi-resolucion-1854-6393-millones-cobre-rosario",
@@ -4395,19 +4835,39 @@
           "url": "https://www.eldiario.es/canariasahora/economia/naviera-presenta-cubrir-lineas-interes-publico-canarias-peninsula_1_13617574.html",
           "alsoIn": true,
           "title": "Ninguna naviera se presenta para cubrir las líneas de interés público Canarias-península"
+        },
+        {
+          "name": "Radio Televisión Canaria",
+          "type": "También publicó esta noticia",
+          "url": "https://rtvc.es/naviera-transporte-canarias-peninsula-27-octubre-2026/",
+          "alsoIn": true,
+          "title": "Ninguna naviera opta a las rutas marítimas entre Canarias y la península"
+        },
+        {
+          "name": "Diario de Avisos",
+          "type": "También publicó esta noticia",
+          "url": "https://diariodeavisos.elespanol.com/canariasenred/ninguna-naviera-quiere-la-ruta-canarias-peninsula-por-estos-motivos/",
+          "alsoIn": true,
+          "title": "Ninguna naviera quiere la ruta Canarias-Península por estos motivos"
         }
       ],
       "gnTried": "2026-10-27T02:04:16Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOU3Q4UU9zRnBFbEt0S3ZjWVVreGktZDEzSjFtQUZ3WHRXNzViMGJnRXhSYktoRHQzaVhWRm9ta2hMZ09VZVlMMzFfMXVTNVlIVlVJX21qVGlBM1ZfcXcxdFBSWDk2N0R5eld4SnQtNDJxTENXTTgtYkVXWk5UWHBRQ3hUamltYkNXSnA1RVc1QjdaMFFWS3daejFZYWk2N0RGc0JqQ3FRM0pZYUN6OWtWMUxIcUhTWHhCbjkzZ2Y5OUdnWnQ1RmpFY21vbk9Ubnh2NHIybg?oc=5",
       "aliasUrls": [
+        "https://diariodeavisos.elespanol.com/canariasenred/ninguna-naviera-quiere-la-ruta-canarias-peninsula-por-estos-motivos",
+        "https://news.google.com/rss/articles/CBMiekFVX3lxTE9BTzRMR2JNOTJFWFNBRFJkYllja1JEOVpwbGFxeWpydnA3OU9vejl3RVBCdmNZZURXRXgtbXY5cC1kZ2x2T1ZkajYzOGdmQ0x6UVpnM3VaUzNXYmxoTkM5MU0temVJVHNpRUg0WnNfMGRLYW5ZOW5YcXBn",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPclVNaTB1YUtfUjd4RzlFRjctWjNKQ0ZyUmwzZzVqdmJPMmxhWGViNjVyWDRuNjl4c28yNW01MGtRejdNc0N0emZ1UXdhMWhldjl3aHV0aVBFNnptbVA5ajVhRF9XX1dJZWNidVNTeGlScE9YR3p2OXJJN2FVVEJfbDlwY3d0VTlHamJRT3M4dWpEQVhfaVFfdGd3RlhVNWNST0s0cXRIUExjZnBydEFsU2QzOVh6eWxvUW5r",
         "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTm9PV2hGYVlHWnRkNHlwMlN0VS1oQ0xyd1BwdHFiS2R3cXV0LVJWUXVKTFlwbkFBYXNuekVIQ2hHOERncldhaDM5Z1JYSlFsSmhQYVRJYnUzZ2x1ajhRRW9mYlVtVGU4VE5nYUstRGRMTWVwMkhvX2F0Wm55bVFFVGJLMnh5MWVacHY2YzBHM0lLbVQxTzZOTlpFd2Z3OGprdEZuS1BBbm5rdHJpM2FnNFVEZXJ6ZjJBZWI1MmlCVE5DR0VkcTh30gHMAUFVX3lxTE8wY3lLbGo3RjJFMjRXUFlJNWJGZDV6RnNlVEdDbXBwMkJUdDlXYWhfazlEeHNDWG5lNndNVXJKcmNBc08zclBQNEFMdTNLS2tFVXFwX3VBSHBQeERSMThCNWFPM0tSRVdOMDNuQUtOb1VSOFFWVVdoc0cyVFVsNGlRb2NsRkl4Y2h3X0pic0J5dEYwa2VXQWY1WDdCamNaZzBLams4Zjg2S1R5ZEJUb181UUFsN3hUak1HWm9uRVJKSjRwS0FjM3dsVldRaA",
         "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNmxVOEVkSjJoTFBmUUpsTnRzMXI4NmVkVEpiTG84eEx2MkdrbkZ0NjhCS3oyM0tDMDJXSVoycDVGX29hQi1KOUsxY1NuSlpDQmdaMzU2RUlFMENac2dJM2Rqai1DdnRvYkZQTTFxSjM3bElZb1ZZbTRVckFkM0ROd2VtTXFQOTlrNjkxb1Vxc3VLT3FlSmZUQnNJTVdXVDJsc3JfWk96aVZ1bVZaNVpUT0VOMnk3aFRFYUQtVGVpNTZ5NDFCU1h0QmFn",
+        "https://rtvc.es/naviera-transporte-canarias-peninsula-27-octubre-2026",
         "https://www.diariodelanzarote.com/noticia/ninguna-naviera-se-presenta-al-concurso-de-tres-millones-para-conectar-lanzarote-y-otras",
         "https://www.eldiario.es/canariasahora/economia/naviera-presenta-cubrir-lineas-interes-publico-canarias-peninsula_1_13617574.html"
       ],
       "mergedIds": [
         "ninguna-naviera-se-presenta-al-concurso-de-tres-millones-para-conectar-lanzarote",
-        "ninguna-naviera-se-presenta-para-cubrir-las-lineas-de-interes-publico-canarias-p"
+        "ninguna-naviera-se-presenta-para-cubrir-las-lineas-de-interes-publico-canarias-p",
+        "ninguna-naviera-opta-a-las-rutas-maritimas-entre-canarias-y-la-peninsula",
+        "ninguna-naviera-quiere-la-ruta-canarias-peninsula-por-estos-motivos"
       ],
       "digestSkip": {
         "at": "2026-10-27T00:52:47-03:00",
@@ -5009,6 +5469,13 @@
           "url": "https://dataportuaria.com/es/brasil/ambiente-y-energia/puertos-brasilenos-alinean-agenda-de-sostenibilidad-con-acuerdo-mercosur-ue-dbcbd3",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Data Portuaria",
+          "type": "También publicó esta noticia",
+          "url": "https://dataportuaria.com/es/brasil/ambiente-y-energia/puertos-brasilenos-alinean-sostenibilidad-con-el-acuerdo-mercosur-union-europea-2f6396",
+          "alsoIn": true,
+          "title": "Puertos brasileños alinean sostenibilidad con el acuerdo Mercosur-Unión Europea"
         }
       ],
       "gnTried": "2026-10-26T21:58:33Z",
@@ -5022,7 +5489,14 @@
         "at": "2026-10-27T00:52:47-03:00",
         "basedOn": "https://dataportuaria.com/en/brasil/environment-and-energy/brazilian-ports-align-sustainability-agenda-with-mercosur-eu-agreement-dbcbd3",
         "words": 172
-      }
+      },
+      "aliasUrls": [
+        "https://dataportuaria.com/es/brasil/ambiente-y-energia/puertos-brasilenos-alinean-sostenibilidad-con-el-acuerdo-mercosur-union-europea-2f6396",
+        "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbHExQ3l5OHQtS0JzSVRqbk1uLW9OOXVRQVJDaDltMWtDMzV6b01wWXFHejZVaXJGOFJlVjBnT1lCd2ZCeFd6cVU4OWwyTVNRV2ZhRTgtWks1TUJHeGVZaDg0NzBHT0lJY0N3dk0xLWVjaUhkVVpSSWp6bkpfUERZakJuVHRtM1NFMHFycHRTcnJWOWtHcTNXX2xnaTN3MFZ2TkI3aVlSSm9JX1loeUt4TTZhNXlDb3JBZlE2Q0J2ZGY1WDNxdkk2aDF5bHlKUEhTLW1TSjVRRXE"
+      ],
+      "mergedIds": [
+        "puertos-brasilenos-alinean-sostenibilidad-con-el-acuerdo-mercosur-union-europea"
+      ]
     },
     {
       "id": "elecciones-en-brasil-por-que-el-triunfo-de-lula-no-deberia-afectar-las-exportaci",
@@ -5175,63 +5649,6 @@
       }
     },
     {
-      "id": "union-de-uniones-alerta-de-que-las-importaciones-de-miel-de-mercosur-se-disparan",
-      "datetime": "2026-10-26T18:00:13Z",
-      "date": "2026-10-26",
-      "firstSeen": "2026-10-27T18:05:40Z",
-      "title": "Unión de Uniones alerta de que las importaciones de miel de Mercosur se disparan un 94% en los tres primeros meses del acuerdo con la UE",
-      "summary": "Unión de Uniones de Agricultores y Ganaderos alertó hoy de que las importaciones de miel procedentes de los países de Mercosur prácticamente se han duplicado",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Importaciones",
-        "Tratados y acuerdos",
-        "Mercosur",
-        "Europa"
-      ],
-      "countries": [
-        "Unión Europea"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Agronews Castilla y León",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.agronewscastillayleon.com/union-de-uniones-apicultura/",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "Demócrata",
-          "type": "También publicó esta noticia",
-          "url": "https://www.democrata.es/agricultura-alimentacion/la-unio-alerta-de-que-las-compras-de-miel-de-mercosur-casi-se-duplican-en-los-tres-primeros-meses-del-acuerdo-con-la-ue/",
-          "alsoIn": true,
-          "title": "La Unió alerta de que las compras de miel de Mercosur casi se duplican en los tres primeros meses del acuerdo con la UE"
-        }
-      ],
-      "gnTried": "2026-10-27T18:05:40Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9PVkxCYW1pYXF6RlZRQjdoNkliaWZxd0htWW0yRTdtdGpyZkV0YTlpUTRKU0t6SUo0RE8xdE1oM1hPOV9pSzhKOU9pY2VvSUNUV0xlXzhqYVoxb1FCSzFjM1NxX0JYRk9ZODFmNXR3d0c3cGNx?oc=5",
-      "aliasUrls": [
-        "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNM01nR0V1djNYeU9zZzZwdTFLLWJJMGlCdDJ2Y0pqNnNqSkdGRkFvd0dUSWVqRXNleEktdFlIbG1PUVRBWDRyM3RKWHo2Vk00R3RsRnNJVk9yYzBBM1NuaHYxX1dYNE1tMGFqMXZMMl9nSEozMEV3Q1U0U0tPUnFtU3N5WGtGeF9HSXVGS21zNms3NVk3MU1iT01peVk3VExtMVk0cDlmSVRxdGxvN3JUY2k0TFRnVHVvT1EtY0syNWdHdnhKQ0VBUlB2WDY3c2hrOXZIblV4bm5td0hQTHdoNU1fUVZuRURXcjg3RHZBTzRHeVEtWU5Qcks2Mm1fT1HSAYQCQVVfeXFMT19lMWlhX1hlTGItcm1YSXppRzkwUXVReWU5bE5mN182TjJtNEV2UDJtVU5TUEtrVUpJOHVLNE14UnlHNkdFVmtmeDNNUllEUlV6Rjd2cWFWeXNHTmJiRHZaUW1XNUNaM1VsbFNrWjR3Um9FS2RRUVNmc1NjVTBRRnBfMW9kbGVtejU5c20xcHdaTVF4YWFHRHpQbmY4V1BweHFsSi0zLWMtWFhiNGRXLVJyczZNREluS3hqNlJkajUtT3VnX093N3o0Rm1VaFFfeHRVNDZkQnBYbjU1LVVpcEVUeGhVay00NkU0cnNHOFFUajJOZXYzX1cwQ2JMd3FLdHJFbFI",
-        "https://www.democrata.es/agricultura-alimentacion/la-unio-alerta-de-que-las-compras-de-miel-de-mercosur-casi-se-duplican-en-los-tres-primeros-meses-del-acuerdo-con-la-ue"
-      ],
-      "mergedIds": [
-        "la-unio-alerta-de-que-las-compras-de-miel-de-mercosur-casi-se-duplican-en-los-tr"
-      ],
-      "digestSkip": {
-        "at": "2026-10-27T16:05:00-03:00",
-        "reason": "repite una nota de la redacción (importaciones europeas de miel del Mercosur)"
-      }
-    },
-    {
       "id": "shein-y-temu-bajo-la-lupa-del-congreso-por-propuesta-de-nuevos-aranceles",
       "datetime": "2026-10-26T17:57:13Z",
       "date": "2026-10-26",
@@ -5270,47 +5687,6 @@
       "digestSkip": {
         "at": "2026-10-26T15:49:41-03:00",
         "reason": "repite el mismo hecho que la nota de la Cámara de Representantes de Colombia (aranceles a Shein y Temu)"
-      }
-    },
-    {
-      "id": "argentina-consolida-su-posicionamiento-como-exportador-agroindustrial",
-      "datetime": "2026-10-26T17:36:54Z",
-      "date": "2026-10-26",
-      "firstSeen": "2026-10-26T18:02:47Z",
-      "title": "Argentina consolida su posicionamiento como exportador agroindustrial",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Agro"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Radio Nacional",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://cdn02.radionacional.com.ar/argentina-consolida-su-posicionamiento-como-exportador-agroindustrial/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-26T18:02:47Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeVFwRzdDRm95Y19RcnB5aDlZb0FVdWQwRG9Ib3NDWTVjMUp5azc2SlpHc3Y1d3VMNkpYVFJEdGxISm5ROFMyTnE1Q2J3aVlTZVdJQVh5SEtyMGY1clAtS3QtS3VxcUI2dk9JV2E1b1NncFVJRllxUlRWcDdFWEhrWnBqLWl5dENmSGpGaHhjc1EtTVUtMmZWZWg4S1NuVndTNzZoMGw5aVY?oc=5",
-      "digestSkip": {
-        "at": "2026-10-27T00:52:47-03:00",
-        "reason": "no se pudo abrir la fuente"
       }
     },
     {
@@ -90028,14 +90404,14 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-10-27T18:05:40Z",
+    "ranAt": "2026-10-27T22:00:14Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
         "url": "https://www.wto.org/library/rss/latest_news_s.xml",
         "ok": true,
         "items": 8,
-        "added": 1,
+        "added": 0,
         "updated": 0,
         "skipped": 0
       },
@@ -90051,65 +90427,62 @@
       {
         "source": "PortalPortuario",
         "url": "https://portalportuario.cl/feed/",
-        "ok": true,
-        "items": 15,
-        "added": 4,
-        "updated": 0,
-        "skipped": 7
+        "ok": false,
+        "error": "The read operation timed out"
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 17,
-        "added": 1,
+        "items": 46,
+        "added": 4,
         "updated": 0,
-        "skipped": 10
+        "skipped": 30
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 38,
-        "added": 2,
+        "items": 22,
+        "added": 1,
         "updated": 0,
-        "skipped": 33
+        "skipped": 17
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 90,
+        "items": 95,
         "added": 4,
         "updated": 0,
-        "skipped": 72
+        "skipped": 73
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 27,
-        "added": 4,
+        "items": 32,
+        "added": 3,
         "updated": 0,
-        "skipped": 12
+        "skipped": 16
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
         "url": "https://news.google.com/rss/search?q=(aranceles+OR+%22guerra+comercial%22+OR+%22acuerdo+comercial%22)+when:1d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 65,
+        "items": 63,
         "added": 4,
         "updated": 0,
-        "skipped": 49
+        "skipped": 47
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 99,
+        "items": 100,
         "added": 4,
         "updated": 0,
-        "skipped": 71
+        "skipped": 72
       }
     ],
     "curatedDuplicates": [
@@ -90129,16 +90502,6 @@
         "curated": "cepal-perspectivas-comercio-2026-exportaciones-region-20-argentina-19"
       },
       {
-        "title": "El trinfo de Lula y su impacto en el comercio exterior: qué puede pasar en la balanza bilateral con Argentina",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxObUJqN19zMUFycEJERWVxaHJfb1pIU2x1ZUpmN0IyU0ZhQ2pIdHNxQjZMMWZKa1dRSXJ6M25UbnRvc1lsNmFNWVNybE9xZndjalQ3SUNkOHJiemVWcC1ISzVQZkVDa0NIYWVtTXRBZFJvMm1MMVFZRjdrbW82bTNHMGUzcUFRS3p1UFYwTU1jUk1HMWZ3c3VHenc3ZDQ4T1dnQ2pDYTlaTUtIcGZyTUpGVnVwYVVJdTdHNHZxQ0VBalZQaGtta1lZT2R4VHB0VWpERWFIeGFmcmtmeUpxUl9Z0gHYAUFVX3lxTFB1QnJkaHhveEZLSlBrbjZFVkVGLVBsMHAxR3VsTGZCRVNja184MWVRa19qX01LZTI0dGY5cWg5S29rUl9tVlBPOUExTWJ4RXppenhBQ2Zvbl9pdUFfT29rZjYtVjdMdG9UNGJtRGcyT3dQUno5Z2dZRVFYLURLOG9fcGtlekh0N2VYOGhmblFmendTSS1YaE54X3lBdTRWdVp0Q3FYdzhQQzNhLUVncS1kc0tWQXNWaHhnQ2JVcmVza1U4TUdlLXNNVWRBWkdHSHdlMjdVcFVwdg?oc=5",
-        "curated": "lula-reelecto-brasil-comercio-argentina-autos-mercosur-agenda-2027"
-      },
-      {
-        "title": "Brasil reporta que importaciones de miel del Mercosur casi se duplican en los primeros tres meses del acuerdo",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcHVtT2p0N0N6QzI3OVh1Znd5aGRVRndzbVhXeXVnX3ItaGhiMG9oLUVGYUd4MDJQNnBwOXl0YmctSVNESk1fZFp5bDlxeVl3dUFCMmIwNkdtVk9OVmpraWM3Y2drWEpDZ3Z6Q183a3JOY3NLckNid2RjcUNuRl9HdkYzTlB6bml0NXhBVFV4dVRlazhwNkMtc0Q2R0ZublBkcDhuZkhpMmFlQmRCMFBXLUYyc0FIQ1ctNVJGNXVMUFZmY21ZcXppSUs5UGFtaGNKS2k0Nw?oc=5",
-        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
-      },
-      {
         "title": "Puerto Coronel busca captar importaciones asiáticas con destino a Vaca Muerta y ampliar su negocio con Argentina",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMXR6NmY2c0xHYjY5NUVkal95ZDNxcFMzT200ZXdGRG9WYWROdG5wQzc4Z082ZmozU1c4WUxxVF9QZWppdV9xSG1heGZtVDVlZGRzbF9vb0RCdkJLdVZhXzQxMDdOaS1OVDhPQy1xUE5CYlJ2ZnBBMEdvOWxVSGxERnl1Wl9ZV0FrNVR0WUwxVzRZMVcyRTBxRDZjWW9JYU9LZm91UnpWQmdnMWktTGVLVHliVQ?oc=5",
         "curated": "puertos-chilenos-coronel-valparaiso-ventanas-carga-vaca-muerta-cobre-argentino"
@@ -90149,29 +90512,9 @@
         "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
       },
       {
-        "title": "Las importaciones de miel de Mercosur a la UE casi se duplican",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOM3RYUkJ0SHdXcDBXXzlCaXQ4TE9SLU1jSjVMZU5IWFp1V0dvaFp2QXhDVVRBSnhZWEpxVGlURFVVeVBPdk1jUlFvRXJKNVVPZ2N1VVNERjZHZTlteUlWSmRMX2tORzM2cy12YkU3eGFOZTNSWS1BSDhUbjBnVV9ONXBlTlhDYlFZWUNaRFBXX1RMZ2lCOE9mOTQ3WnZpZzBGa2pzQ3JPb3IwWGNMSzRMXzlWYXZUY0NPY3hmdNIBwgFBVV95cUxPMW9VWGRmMWExcW9GRXBDaGxWaktXOXk5SFh6X1MteTZycDBsMVNCMGd2VE5zd1A2V05WeF9xbm9zNnB4eUdrWWtWdWo0U3NhU0x1UTZSU0JWbnk3VFE1Y0xfcFFGZmRtZnVyQWxoNUxtY2gwTUc5UEdCRk4zMDNHUVNTckhYcTByVlNyYW05OU1xSVZtSE8wRXRXWEI5S0RBQlQ4MUNEV0JfQU1IS2V3Y3F6OW9LM0R2RWRIQkwyeEN0Zw?oc=5",
-        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
-      },
-      {
-        "title": "LA UNIÓ alerta del aumento del 94% de las importaciones de miel de Mercosur",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS2dEYzR4bGhqSzNCMElYNUhINDd5OUQxNDc5T3h1OFl1NERVTHBzbk12d2dQeWpPS3NFVlVyX0pkTnNnNkhuOEJmVEJqb1ZYa1lqemhVOENISkNxYUZBM0JhTzZIYVBvQkRoNlNvTUJ6NGtXd1RWR1FJNVhYTmhKUGxYdC1naF9fc1pCS1FUZzlHb3prbjdwRzJ3aFF3UVptWEtDZ3R5TQ?oc=5",
-        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
-      },
-      {
-        "title": "La Unió alerta de un aumento del 94 % en importaciones europeas de miel de Mercosur",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQLURpTU9GaHkzS1loVXlzbVVMcENJMDhhdHI0Tm9jeWlleXM3V3ppUUFjaTRORlNrQ1FXamY5enhiMmh6a2t6aWdMV210Qm1zTWlwX3FIOEVaa3dnclBMVEY4djB1ZENSX1UwRFJ2SndnUzF0RUFQMDVMTm82V1hTeFRkOGhlc3JlS2FzXzBqNVpTdHY0VGpkNEUwcmo0TlYzMXB5REdFcHFaNnhvMlVXWnRrTUZlMW9rVUotRFJlcERCTTVGTEotZTkwQTNQd1lJTklGRGJEZWNHR2M?oc=5",
-        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
-      },
-      {
-        "title": "Exportaciones récord: Argentina superó los u$s100.000 millones",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaEhNQUx2V3puclphamptbk9iaDl4ZlI1Vms4ZXh4WWZ5OE5EaVVoOWt1c1RueTI2T2pjcUIwenZlRWFicmJNMDlWQThsZXJZZ29IRlgtTG5tVmgtbjZ0UTFFbXBZZGl6dl9TUGZQRXVubEVXemJ2MlZvSW14ckZ1Zzd4ZWVsLXRvVnpMN3gyMVFGZVk2MmlYWGw2c3p2T1hRcXIyWkdzY3HSAagBQVVfeXFMT2hITUFMdld6bnJaYWpqbW5PYmg5eGZSNVZrOGV4eFlmeThORGlVaDlrdXNUbnkyNk9qY3FCMHp2ZUVhYnJiTTA5VkE4bGVyWWdvSEZYLUxubVZoLW42dFExRW1wWWRpenZfU1BmUEV1bmxFV3pidjJWb0lteHJGdWc3eGVlbC10b1Z6TDd4MjFRRmVZNjJpWFhsNnN6dk9YUXFyMlpHc2Nx?oc=5",
-        "curated": "exportaciones-12-meses-100845-millones-crudo-primer-producto-septiembre-2026"
-      },
-      {
-        "title": "Qué puede pasar con el Mercosur y las exportaciones argentinas a Brasil tras reelección de Lula",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQcjJQTmVKdi1VQ25xX0h4M21od1N3WE5jNy1LWGVXdFVIZXBGRlBtQjlYVTc3MDA1MC15TnhkbjJvbWp0ay1RQWVMNHJya0lmVlRSUG9kbUQ5eE0zSjVqb25vQ3YteVZCUnJEbzU5MnZYSVQ1cVBNSXFsdzhUVkl6R2pCc040UDZWay1PeHJyZW1FRl81U29MRzY5YmY4ekFvNlhIZkxMNmdUc1Q4dXZHTC1sRjVRNEg0UEFpcmxqS2xUMWl3WHhaX19HT2lWRVlmX3drYmI4LUhlUGR5aHVxSUdFV1ZIdE0?oc=5",
-        "curated": "lula-reelecto-brasil-comercio-argentina-autos-mercosur-agenda-2027"
+        "title": "UN PLENARIO DE COMISIONES DICTAMINÓ A FAVOR DE DOS PROYECTOS VINCULADOS AL MERCOSUR",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWjdaTFM3Mk42djJHMmRJS3lRVHVNYzdsV3ZNU09pQkRHSGJ6cVhCQXJ0ajZ0b0U1czJabF96N1dDSGFuc0pwanpwVGpVQXB1NEJ2SWdkVUlWNjY5RE11VWQwbVI3YU9zVkRMLU5Tbl9kcXhCaEhzOTBwaXBJblN0U1JhYTNub0tFSjhUc0Rzb3RxSmRmbE9uNlc1eXNWbE9zTHhXWW1LTlk4NEp6YldoYTRQeXlsMW5uaEVqUnoyY2M?oc=5",
+        "curated": "diputados-dictamen-acuerdo-mercosur-aelc-efta-protocolo-servicios-montevideo"
       },
       {
         "title": "Lula reelecto: qué pasa con el Mercosur y las exportaciones argentinas a Brasil",
@@ -90181,6 +90524,11 @@
       {
         "title": "Los apicultores alertan del acuerdo Mercosur: “Las importaciones de miel casi se duplican en tres meses”",
         "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNSXBDNWVnNUFFUl9vdDQtYzViNkt3U2p2am42b3pIbkl4aWN2V3UyNGN1VFZVVGt0dDZYcWU5S2JMSDBiOGdxTVhkQzlaNGxjSl9aSjZYbE83SjFSNDdPd0lVamVmMHljMGg0eXZERlNvV0JBa1J6aHpqVU0zWWhzbUZQMllmcExUVWhPUDNKLWVhcFBNYkU3ZFBoNUNVMXRfUnNKWHZ3T01kb3l5elRuR1JGNHVQc0lXcFFzdWRGNjEzQzQxNklURzVtNDRfRU9KYWVEZzAwekpUY1hxeFFuTUtsOUEzWVEwUGdoQ1JTajdBQQ?oc=5",
+        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
+      },
+      {
+        "title": "Brasil reporta que importaciones de miel del Mercosur casi se duplican en los primeros tres meses del acuerdo",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcHVtT2p0N0N6QzI3OVh1Znd5aGRVRndzbVhXeXVnX3ItaGhiMG9oLUVGYUd4MDJQNnBwOXl0YmctSVNESk1fZFp5bDlxeVl3dUFCMmIwNkdtVk9OVmpraWM3Y2drWEpDZ3Z6Q183a3JOY3NLckNid2RjcUNuRl9HdkYzTlB6bml0NXhBVFV4dVRlazhwNkMtc0Q2R0ZublBkcDhuZkhpMmFlQmRCMFBXLUYyc0FIQ1ctNVJGNXVMUFZmY21ZcXppSUs5UGFtaGNKS2k0Nw?oc=5",
         "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
       },
       {
@@ -90214,49 +90562,82 @@
         "curated": "lula-reelecto-brasil-comercio-argentina-autos-mercosur-agenda-2027"
       },
       {
-        "title": "Controles en ventas online y aduana por productos importados",
-        "url": "https://lu17.com/contenido/154957/industriales-denuncian-competencia-desleal-y-gobierno-busca-frenar-importaciones-irregulares",
-        "curated": "gobierno-uia-mercado-libre-meta-acuerdo-contrabando-plataformas-arca-cruce-datos"
-      },
-      {
-        "title": "Alerta en la miel española: las importaciones de miel de Mercosur crecen un 94,2% en tres meses",
-        "url": "https://www.moncloa.com/2026/10/27/importaciones-miel-mercosur-alerta-espana-3456034/",
+        "title": "La importación de miel desde Mercosur aumenta un 94 % en los primeros tres meses del acuerdo",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUVAyOUtiNEpqLVJCSnBBOUtzbEN1dFhfVmNReG5lTTdHMFJtWm10U3otY2RuYUVSdjF4Z1hVc2hVZU9QMXRQWFhHQ0dLVTN3Yk9DUzFtYlM5NlNUbk8zYXRlY2xMc3lJXzFuYlVEUnVfNjFWMFJRaGRQQVhnYnl3VjNQU3A0Y0pUZkpzc2VYY0huMVV1V3AxbzdaU09iSTJnZXZyNjFUVDN3WDRqOEt6bHJHS3hEejRjdUFPM0ZnUWpMN0MxY2tkeNIBzgFBVV95cUxQbnFCMjRkejlXNzlPbmFHZEZOVm9pTk13cmduV0g4bjVuRGFmb0pRUXNobjZ6NU5nNWdOb2tabngtQzFfbHNQVlpvdHczektDc3dvTnFDZ29lc0FVQWVRd1VjNXUtbkRoMlMxNGVoVVFqZmJxa1RpbC1PRDVUX0dLc0NiaWd6R3FQcV9FZ0FHT1pmZ0JVN1ZKZlh1TkFNVWxFbFdUel91aEQtc0k4blVLd3VfUHBFUlV3VktFVmswRWVKN05Jb01rS1RRSFJRQQ?oc=5",
         "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
       },
       {
-        "title": "La miel de Mercosur se dispara en Europa y supera el límite sin aranceles",
-        "url": "https://castellondiario.com/la-miel-de-mercosur-se-dispara-en-europa-y-supera-el-limite-sin-aranceles/",
+        "title": "LA UNIÓ alerta del aumento del 94% de las importaciones de miel de Mercosur",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS2dEYzR4bGhqSzNCMElYNUhINDd5OUQxNDc5T3h1OFl1NERVTHBzbk12d2dQeWpPS3NFVlVyX0pkTnNnNkhuOEJmVEJqb1ZYa1lqemhVOENISkNxYUZBM0JhTzZIYVBvQkRoNlNvTUJ6NGtXd1RWR1FJNVhYTmhKUGxYdC1naF9fc1pCS1FUZzlHb3prbjdwRzJ3aFF3UVptWEtDZ3R5TQ?oc=5",
+        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
+      },
+      {
+        "title": "Primeros efectos del acuerdo con Mercosur: la entrada de miel en Europa se dispara un 94% y pone en alerta a los…",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVHp2SGN4cE13d0t2aExwVDBwYVg3aVJUUlVhaGp4RDFpanhFb0lOM0RjZVY0a3BDRGNhRWk4Q3R6SEJXT2ZYV3VIRlpDRnBKcUZPWEJWVndsdjlKY19HbDVzSVRfclJUUEdoaTNWeHNsN3UtcmhOakNpOTdBSkMxNVdKdVNnSnJTdmkwbTlveV81cUZNbEI5TWZsM3k1Zk82cV9Pa1hzbWhudzlTeDg4Tm9xY0NpamZNbE9tTjdmenhfS0Ru0gHKAUFVX3lxTE1fenRkVVFENkRLR2gzejd3d2JaeUFxV0lYT09oSEtrX0RIbWJMZWxhcmxTTmVEZ0JCWjFGNkpYdnVNdThWRVYteExwcGhMaFR2OVRQcmxaQ0dEVkFuWUl6TGlZN0N5aGo2NkhXV3ZzZWhqUW9zMWloSnlGdGxKUXY1T1plX3h0MllzN1IyNXV0SG11d2xueWV0a3RxOXE3cGxEQzdSczR5aDQxUkJHNDIyaUNUbzFHQ0ZmSXZ3cVZpendVODNncENpUUE?oc=5",
+        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
+      },
+      {
+        "title": "Un acuerdo Mercosur-Canadá es más probable de concretarse ahora que fue reelecto Lula en Brasil",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVFpUSEJnWU1USHF0QkhIZUtvUGFWMzlFbTdYd3duV253QnA0cWg0ZU1Kc0hTQk5YS0VvZkxteW8tdEM5cHU5SlltclpLLW03RktOcUlJcFlRWGlDNHN1cld2TmlrTE14N1VOaTRBRm1KbHhrV2FVMzB0bV9CWEI3Si1WQV96bXNZOUlVYnBmMmZuU3A0YjZpN0xxMTgxcFhMTFZjSUhvMW1XVjE0a2N5M0thZ1NWWUQ4RFpQdWdMWUVzVnQ5d2c?oc=5",
+        "curated": "lula-reelecto-brasil-comercio-argentina-autos-mercosur-agenda-2027"
+      },
+      {
+        "title": "Empresa automotriz frenó la producción por la caída de la demanda interna y de las exportaciones",
+        "url": "https://elciudadanoweb.com/empresa-automotriz-freno-la-produccion-por-la-caida-de-la-demanda-interna-y-de-las-exportaciones/",
+        "curated": "stellantis-frena-produccion-el-palomar-ferreyra-pickups-exportaciones-brasil-enero-2027"
+      },
+      {
+        "title": "Alerta para el comercio exterior: se incendió un megabuque en altamar con miles de contenedores con destino a Buenos…",
+        "url": "https://sl24.com.ar/alerta-para-el-comercio-exterior-se-incendio-un-megabuque-en-altamar-con-miles-de-contenedores-con-destino-a-buenos-aires/",
+        "curated": "hapag-lloyd-espirito-santo-express-incendio-atlantico-sur-santos"
+      },
+      {
+        "title": "Unión de Uniones alerta de que las importaciones de miel de Mercosur se disparan un 94% en los tres primeros meses del…",
+        "url": "https://www.agronewscastillayleon.com/union-de-uniones-apicultura/",
         "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "tecnologia-y-aranceles-crecimiento-del-comercio-mundial-se-acelera",
+        "main": "argentina-consolida-exportaciones-agroindustriales-con-60-auditorias-sanitarias",
         "merged": [
-          "la-tecnologia-se-impone-a-los-aranceles-el-crecimiento-del-comercio-mundial-se-a"
+          "argentina-consolida-su-posicionamiento-como-exportador-agroindustrial"
         ]
       },
       {
-        "main": "union-de-uniones-alerta-de-que-las-importaciones-de-miel-de-mercosur-se-disparan",
+        "main": "puertos-brasilenos-alinean-agenda-de-sostenibilidad-con-acuerdo-mercosur-ue",
         "merged": [
-          "la-unio-alerta-de-que-las-compras-de-miel-de-mercosur-casi-se-duplican-en-los-tr"
+          "puertos-brasilenos-alinean-sostenibilidad-con-el-acuerdo-mercosur-union-europea"
         ]
       },
       {
-        "main": "aranceles-de-trump-eu-recauda-14-mil-439-millones-de-dolares-por-mercancias-mexi",
+        "main": "ninguna-naviera-se-presenta-al-concurso-de-tres-millones-para-conectar-fuerteven",
         "merged": [
-          "estados-unidos-recauda-14-mil-439-millones-de-dolares-por-aranceles-a-productos"
+          "ninguna-naviera-opta-a-las-rutas-maritimas-entre-canarias-y-la-peninsula",
+          "ninguna-naviera-quiere-la-ruta-canarias-peninsula-por-estos-motivos"
+        ]
+      },
+      {
+        "main": "exportaciones-argentinas-brasil-pierde-participacion-frente-a-ee-uu-china-e-indi",
+        "merged": [
+          "brasil-pierde-participacion-en-las-exportaciones-argentinas-mientras-crecen-las"
+        ]
+      },
+      {
+        "main": "honda-advirtio-que-los-aranceles-del-50-a-los-automoviles-en-canada-serian-catas",
+        "merged": [
+          "sin-acuerdo-comercial-industria-automotriz-enfrentaria-escenario-catastrofico"
         ]
       }
     ],
     "googleNews": {
-      "pending": 19,
-      "resolved": 18,
-      "withSummary": 12,
+      "pending": 20,
+      "resolved": 20,
+      "withSummary": 16,
       "withPhoto": 0,
-      "failed": 1,
-      "duplicates": 0
+      "failed": 0,
+      "duplicates": 1
     }
   },
   "stories": [
