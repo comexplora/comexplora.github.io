@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-10-28T10:14:43Z",
+  "updatedAt": "2026-10-28T14:19:57Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -142,7 +142,7 @@
       "obsDate": "2026-10-27",
       "change": "-0,1% vs. día hábil anterior",
       "trend": "down",
-      "checkedAt": "2026-10-28T02:13:28Z",
+      "checkedAt": "2026-10-28T14:21:00Z",
       "history": [
         [
           "2026-09-15",
@@ -267,27 +267,26 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-28T10:15:58Z",
-      "lastError": "HTTP Error 500: Internal Server Error"
+      "lastAttempt": "2026-10-28T14:21:00Z"
     },
     {
       "id": "soja",
       "label": "Soja · precio pizarra Rosario",
-      "value": "$ 555.000/t",
-      "period": "Rosario · 26 oct 2026 · US$ 362,27/t",
+      "value": "$ 550.000/t",
+      "period": "Rosario · 27 oct 2026 · US$ 359,71/t",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "group": "Mercados",
-      "obsDate": "2026-10-26",
-      "change": "0,0% vs. pizarra anterior",
-      "trend": "flat",
+      "obsDate": "2026-10-27",
+      "change": "-0,9% vs. pizarra anterior",
+      "trend": "down",
       "_last": {
-        "date": "2026-10-26",
-        "ars": 555000.0
+        "date": "2026-10-27",
+        "ars": 550000.0
       },
-      "checkedAt": "2026-10-28T10:16:15Z",
+      "checkedAt": "2026-10-28T14:21:00Z",
       "_prev": {
-        "date": "2026-10-23",
+        "date": "2026-10-26",
         "ars": 555000.0
       },
       "history": [
@@ -354,11 +353,15 @@
         [
           "2026-10-26",
           555000.0
+        ],
+        [
+          "2026-10-27",
+          550000.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-28T10:16:15Z"
+      "lastAttempt": "2026-10-28T14:21:00Z"
     },
     {
       "id": "brent",
@@ -371,7 +374,7 @@
       "obsDate": "2026-10-20",
       "change": "-3,0% vs. día anterior",
       "trend": "down",
-      "checkedAt": "2026-10-28T10:16:18Z",
+      "checkedAt": "2026-10-28T14:21:04Z",
       "history": [
         [
           "2026-09-09",
@@ -496,27 +499,27 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-10-28T10:16:18Z"
+      "lastAttempt": "2026-10-28T14:21:04Z"
     },
     {
       "id": "maiz",
       "label": "Maíz · precio pizarra Rosario",
-      "value": "$ 281.000/t",
+      "value": "$ 280.500/t",
       "group": "Mercados",
-      "period": "Rosario · 26 oct 2026 · US$ 183,42/t",
-      "obsDate": "2026-10-26",
-      "change": "+1,0% vs. pizarra anterior",
-      "trend": "up",
+      "period": "Rosario · 27 oct 2026 · US$ 183,45/t",
+      "obsDate": "2026-10-27",
+      "change": "-0,2% vs. pizarra anterior",
+      "trend": "down",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
+        "date": "2026-10-27",
+        "ars": 280500.0
+      },
+      "checkedAt": "2026-10-28T14:21:04Z",
+      "_prev": {
         "date": "2026-10-26",
         "ars": 281000.0
-      },
-      "checkedAt": "2026-10-28T10:16:18Z",
-      "_prev": {
-        "date": "2026-10-23",
-        "ars": 278250.0
       },
       "history": [
         [
@@ -582,31 +585,35 @@
         [
           "2026-10-26",
           281000.0
+        ],
+        [
+          "2026-10-27",
+          280500.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-28T10:16:18Z"
+      "lastAttempt": "2026-10-28T14:21:04Z"
     },
     {
       "id": "trigo",
       "label": "Trigo · precio pizarra Rosario",
-      "value": "$ 326.000/t",
+      "value": "$ 323.000/t",
       "group": "Mercados",
-      "period": "Rosario · 26 oct 2026 · US$ 212,79/t",
-      "obsDate": "2026-10-26",
-      "change": "-0,3% vs. pizarra anterior",
+      "period": "Rosario · 27 oct 2026 · US$ 211,25/t",
+      "obsDate": "2026-10-27",
+      "change": "-0,9% vs. pizarra anterior",
       "trend": "down",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
+        "date": "2026-10-27",
+        "ars": 323000.0
+      },
+      "checkedAt": "2026-10-28T14:21:04Z",
+      "_prev": {
         "date": "2026-10-26",
         "ars": 326000.0
-      },
-      "checkedAt": "2026-10-28T10:16:18Z",
-      "_prev": {
-        "date": "2026-10-23",
-        "ars": 326900.0
       },
       "history": [
         [
@@ -672,476 +679,643 @@
         [
           "2026-10-26",
           326000.0
+        ],
+        [
+          "2026-10-27",
+          323000.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-28T10:16:18Z"
+      "lastAttempt": "2026-10-28T14:21:04Z"
     }
   ],
   "items": [
     {
-      "id": "arca-rg-5914-posterga-120-dias-granos-envases-10-kg-trafico-vecinal-fronterizo",
-      "date": "2026-10-22",
-      "kind": "noticia",
-      "story": "arca-normativa",
-      "title": "ARCA posterga 120 días la prohibición de sacar granos y envases de 10 kg por el tráfico vecinal fronterizo",
-      "summary": "Con la RG 5914/2026, publicada el 22 de octubre, ARCA difirió por 120 días corridos dos de las restricciones que la RG 5910 había sumado al régimen de frontera: la salida de trigo, soja y maíz y la de mercadería en envases de 10 kg o más. El tope de USD 150 por día y por poblador sigue vigente.",
-      "body": [
-        "La Agencia de Recaudación y Control Aduanero (ARCA) postergó por 120 días corridos dos de las restricciones que había sumado este mes al régimen de tráfico vecinal fronterizo: la prohibición de sacar del país trigo, soja y maíz y la de llevar mercadería en envases de 10 kilos o más. Lo hizo con la Resolución General 5914/2026, firmada el 21 de octubre por el titular del organismo, Andrés Vázquez, y publicada en el Boletín Oficial el jueves 22, día en que entró en vigencia.",
-        "La pausa no deroga esas prohibiciones. Según el artículo 1° de la norma, los incisos c) y d) del punto 7 del Anexo IV «A» de la Resolución 2604 de la ex Administración Nacional de Aduanas se aplicarán a partir de los 120 días corridos desde la entrada en vigencia de la RG 5910, que rige desde el 10 de octubre. El resto de los cambios de esa resolución, incluido el tope de USD 150 por día y por poblador, siguen en pie.",
-        "## Qué se posterga y qué sigue vigente",
-        "La RG 5910, publicada el 9 de octubre, reescribió la lista de mercaderías que no pueden salir por este régimen, pensado para que los residentes de localidades fronterizas de países limítrofes compren en la Argentina para su consumo personal o familiar. Sumó dos exclusiones nuevas, los granos en todas sus formas y los productos en envases de 10 kg o más o su equivalente en volumen, y mantuvo las prohibiciones previas, como la de llevar combustible en bidones, tanques suplementarios u otros recipientes.",
-        "Según el resumen de Fracran, que sigue el comercio de frontera en Misiones, la postergación alcanza solo a esos dos incisos: el límite diario de USD 150 por persona y la restricción a los combustibles continúan aplicándose, y el régimen sigue sin poder usarse con fines comerciales o industriales. La pausa tampoco crea un cupo de compra nuevo ni modifica las franquicias de quienes ingresan al país con compras hechas en Brasil o Paraguay. Algunos medios provinciales presentaron la decisión como una postergación de todos los cambios, pero el texto oficial solo difiere los dos incisos.",
-        "## Hasta cuándo rige la pausa",
-        "Las fuentes no coinciden en la fecha exacta en que volverán a regir las prohibiciones, porque la norma no fija un día calendario. La novedad publicada por ARCA habla de 120 días corridos contados a partir del 10 de octubre, lo que lleva la aplicación a comienzos de febrero de 2027. El Intra, en cambio, estimó que si el plazo se contara desde la publicación de la nueva resolución la pausa vencería a mediados de febrero, en plena antesala de las elecciones provinciales salteñas.",
-        "## Por qué ARCA dio marcha atrás",
-        "En los considerandos, ARCA recuerda que los artículos 578 a 580 del Código Aduanero crean el régimen de tráfico fronterizo para los pobladores de zonas de frontera y excluyen de él el uso comercial o industrial, y que la RG 5910 buscó reducir el fraccionamiento de compras, la repetición sistemática de operaciones y los desvíos hacia circuitos comerciales no autorizados. Para diferir dos de esas limitaciones invoca razones operativas y socioeconómicas de las zonas de frontera y la necesidad de dar tiempo a las adaptaciones. En su comunicado, el organismo agregó que busca no alterar los usos y costumbres de esas localidades ni frenar su actividad económica.",
-        "La decisión llegó después de dos semanas de reclamos. En Salta, el gobernador Gustavo Sáenz había planteado la revisión de la medida ante Vázquez y ante el director general de Aduanas, José Vélis, y, según El Intra, se presentó además un amparo con pedido de medida cautelar. El 19 de octubre, los bagayeros de Yacuiba, del lado boliviano, cortaron durante 24 horas el puente internacional que une esa ciudad con Salvador Mazza. Tras la publicación de la RG 5914, Sáenz celebró que ARCA hubiera escuchado el reclamo de comerciantes y municipios.",
-        "## Qué pedían los comerciantes",
-        "El punto más discutido era el de los envases. Según Nuevo Diario de Salta, Manuel Pieve, exportador de la zona, explicó que la harina se vende a los compradores bolivianos en bolsas de 25 kg, que pueden costar cerca de 35% menos por unidad que las presentaciones chicas, y que fraccionarla en envases menores obliga a cambiar el empaque y la logística. Los comerciantes de esa frontera habían pedido seis meses de transición para vender el stock y adaptarse. En La Quiaca, frente a la ciudad boliviana de Villazón, Que Pasa Jujuy describió la postergación como un alivio para el comercio de pequeña escala de la Puna.",
-        "## Qué sigue",
-        "Según Salta News, durante los 120 días funcionarán mesas de trabajo para analizar la situación comercial en la frontera y la forma de introducir los cambios, aunque no se informó quiénes las integrarán. Vencido el plazo, las dos prohibiciones entrarán en vigencia salvo que ARCA dicte una norma distinta. Hasta entonces, los comercios que venden a pobladores de países vecinos pueden volver a despachar por este régimen granos y presentaciones de 10 kg o más, como las bolsas de harina de 25 kg, siempre dentro del tope de USD 150 diarios por comprador y sin fines comerciales."
-      ],
-      "keyData": [
-        [
-          "Postergación",
-          "120 días corridos"
-        ],
-        [
-          "Norma",
-          "RG 5914/2026 (Boletín Oficial del 22/10/2026)"
-        ],
-        [
-          "Se difieren",
-          "Salida de trigo, soja y maíz y de envases de 10 kg o más"
-        ],
-        [
-          "Sigue vigente",
-          "Tope de USD 150 por día y por poblador"
-        ],
-        [
-          "Norma modificada",
-          "RG 5910/2026, vigente desde el 10/10/2026"
-        ],
-        [
-          "Bolsas de harina de 25 kg",
-          "Hasta 35% más baratas por unidad (según un exportador citado por Nuevo Diario de Salta)"
-        ]
-      ],
+      "id": "rescatados-los-18-marineros-del-portacontenedores-atacado-en-el-mar-negro",
+      "datetime": "2026-10-28T14:00:26Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T14:19:57Z",
+      "title": "Rescatados los 18 marineros del portacontenedores atacado en el mar Negro",
+      "summary": "",
+      "body": [],
+      "keyData": [],
       "topics": [
-        "Argentina",
-        "Aduanas",
-        "Exportaciones",
-        "Regulaciones",
-        "Latinoamérica"
+        "Transporte marítimo"
       ],
       "countries": [
-        "Argentina",
-        "Bolivia",
-        "Brasil",
-        "Paraguay"
+        "Global"
       ],
       "tags": [
-        "ARCA",
-        "RG 5914",
-        "RG 5910",
-        "Tráfico vecinal fronterizo",
-        "Frontera",
-        "Granos",
-        "Salta",
-        "Boletín Oficial"
+        "Contenedores"
       ],
-      "visual": "customs",
-      "impact": 2,
-      "affectsArgentina": true,
-      "argentinaNote": "Los comercios de las ciudades de frontera con Bolivia, Paraguay y Brasil pueden volver a vender por este régimen granos y bolsas de 10 kg o más durante 120 días, pero el tope de USD 150 diarios por comprador sigue en vigor.",
-      "argentinaImpact": {
-        "change": "ARCA difirió por 120 días corridos, desde el 10 de octubre, las prohibiciones de sacar granos y mercadería en envases de 10 kg o más por el tráfico vecinal fronterizo.",
-        "who": "Comercios y mayoristas de localidades fronterizas, pobladores de países limítrofes que compran en la Argentina y la aduana en los pasos de frontera.",
-        "sectors": [
-          "Comercio minorista de frontera",
-          "Harina y alimentos",
-          "Granos"
-        ],
-        "flows": {
-          "importaciones": false,
-          "exportaciones": true,
-          "logistica": false,
-          "aranceles": false
-        }
-      },
-      "explainer": {
-        "what": "ARCA postergó por 120 días corridos, con la RG 5914/2026, las prohibiciones de sacar granos y mercadería en envases de 10 kg o más por el régimen de tráfico vecinal fronterizo.",
-        "why": "Era el punto más resistido de la RG 5910 en las ciudades de frontera, donde la harina se vende en bolsas de 25 kg; el tope de USD 150 por día y por poblador sigue vigente.",
-        "who": "Comercios de localidades fronterizas como Salvador Mazza, Aguas Blancas, La Quiaca y las de Misiones, y los pobladores de Bolivia, Paraguay y Brasil que compran en la Argentina.",
-        "products": [
-          "Trigo",
-          "Soja",
-          "Maíz",
-          "Harina en bolsas de 25 kg",
-          "Alimentos en envases de 10 kg o más"
-        ],
-        "next": "Según ARCA, las dos prohibiciones regirán a los 120 días corridos contados desde el 10 de octubre de 2026.",
-        "nextSource": {
-          "name": "ARCA",
-          "url": "https://servicioscf.afip.gob.ar/publico/sitio/contenido/novedad/ver.aspx?id=5981"
-        }
-      },
-      "deadlines": [
-        {
-          "date": "2027-02",
-          "label": "ARCA: vuelven a regir las prohibiciones de sacar granos y envases de 10 kg o más por el tráfico vecinal fronterizo (120 días corridos desde el 10/10/2026)",
-          "url": "https://servicioscf.afip.gob.ar/publico/sitio/contenido/novedad/ver.aspx?id=5981"
-        }
-      ],
+      "visual": "container",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
       "sources": [
         {
-          "name": "ARCA: Postergación de la implementación de los cambios en el comercio fronterizo",
-          "type": "Organismo oficial",
-          "url": "https://servicioscf.afip.gob.ar/publico/sitio/contenido/novedad/ver.aspx?id=5981",
-          "primary": true
-        },
+          "name": "БНР Новини",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://bnrnews.bg/es/post/549483/rescatados-los-18-marineros-del-portacontenedores-atacado-en-el-mar-negro",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-28T14:19:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbWVPdXVYVWNsOTVqNnN5TzJCblM1eWtFT21ZZzZVUkc2TmcteVNJRzFJVHp3d1gtYXYzRWhoU1BId3ptWVU1UFlYUDZFQVd0S1Z1ZnhvampYQU5yOHpnOGotV1NJUUVCazNQQlRyN044U0R5THNKdDI1V2lYS2tZS2Z3S05heEJoY0dMOGtXTi1ScVJET2Z4VF9fRGdYNi1UaV9UanF1MURTeU0?oc=5"
+    },
+    {
+      "id": "puerto-de-oakland-inicia-obras-para-electrificar-flota-de-manejo-de-carga-de-ter",
+      "datetime": "2026-10-28T14:00:19Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T14:19:57Z",
+      "title": "Puerto de Oakland inicia obras para electrificar flota de manejo de carga de Terminal Matson",
+      "summary": "El Puerto de Oakland comenzará la construcción de mejoras cruciales en infraestructura, incluyendo modernizaciones que permitirán…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
         {
-          "name": "La Hora de Salta (con el texto de la RG 5914/2026)",
-          "type": "Medio de comunicación",
-          "url": "https://www.lahoradesalta.com.ar/es-oficial-la-postergacion-de-la-implementacion-de-los-cambios-en-el-comercio-fronterizo/"
-        },
-        {
-          "name": "Fracran",
-          "type": "Medio de comunicación",
-          "url": "https://www.fracran.com.ar/noticias/2026-10-22-misiones-arca-prorroga-frontera"
-        },
-        {
-          "name": "El Intra",
-          "type": "Medio de comunicación",
-          "url": "https://elintra.com.ar/2026/10/22/saenz-festejo-la-tregua-de-arca-en-la-frontera-de-aguas-blancas-y-salvador-mazza/"
-        },
-        {
-          "name": "Salta News",
-          "type": "Medio de comunicación",
-          "url": "https://www.saltanews.com.ar/arca-posterga-120-dias-cambios-trafico-vecinal-fronterizo-salta"
-        },
-        {
-          "name": "Nuevo Diario de Salta",
-          "type": "Medio de comunicación",
-          "url": "https://nuevodiariodesalta.com.ar/comerciantes-de-frontera-cuestionan-las-nuevas-medidas-de-arca-y-piden-seis-meses-para-adecuarse/"
-        },
-        {
-          "name": "Que Pasa Jujuy",
-          "type": "Medio de comunicación",
-          "url": "https://www.quepasajujuy.com.ar/jujuy/freno-a-la-medida-de-arca-en-la-frontera-la-decision-que-alivia-al-comercio-jujeno-en-la-quiaca/"
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/puerto-de-oakland-inicia-obras-para-electrificar-flota-de-manejo-de-carga-de-terminal-matson/",
+          "primary": true,
+          "author": "cmeza"
         }
       ]
     },
     {
-      "id": "eeuu-ustr-propone-extender-suspension-tasas-portuarias-buques-chinos-9-enero-2027",
-      "date": "2026-10-26",
-      "kind": "noticia",
-      "story": "aranceles-eeuu",
-      "title": "EE.UU. propone extender hasta el 9 de enero la pausa de las tasas portuarias a buques chinos",
-      "summary": "La USTR publicó en el Federal Register un pedido de comentarios para prorrogar dos meses la suspensión de las tasas de la Sección 301 a buques operados, de propiedad o construidos en China, que vence el 9 de noviembre. Los comentarios se reciben hasta el 30 de octubre.",
-      "body": [
-        "La Oficina del Representante Comercial de Estados Unidos (USTR) propuso extender por dos meses, hasta el 9 de enero de 2027, la suspensión de las tasas portuarias que había fijado para los buques operados, de propiedad o construidos en China, en el marco de la investigación por Sección 301 sobre los sectores marítimo, logístico y naval de ese país. El aviso, que pide comentarios del público, se publicó en el Federal Register el 26 de octubre. Los interesados pueden opinar hasta las 17 (hora del Este) del 30 de octubre en el expediente USTR-2026-0694, según la Oficina de Defensa de la Pequeña Empresa (SBA Advocacy).",
-        "La suspensión vigente vence a las 23:59 del 9 de noviembre de 2026. Si la extensión se aprueba, la nueva pausa correría desde las 0 del 10 de noviembre hasta las 23:59 del 9 de enero de 2027, según el resumen del estudio Holland & Knight. De acuerdo con KPMG, la USTR difundió el pedido el 23 de octubre, antes de su publicación oficial. El organismo justificó la prórroga en la necesidad de seguir negociando con China para obtener la eliminación de las prácticas investigadas.",
-        "## Qué quedaría en suspenso",
-        "La pausa alcanza a los cargos sobre servicios de transporte marítimo de los Anexos I, II y III del aviso del 23 de abril de 2025, modificado el 16 de octubre de 2025, y a los derechos de importación del Anexo V.A de ese último aviso. Según Platts, citado por Hellenic Shipping News, la tarifa para los buques de propiedad u operados por empresas chinas era de USD 50 por tonelada neta por viaje, y la de los buques construidos en China, de USD 18 por tonelada neta o USD 120 por contenedor descargado. La propuesta inicial de 2025 era mucho más dura: llegaba a USD 1,5 millones por cada entrada a puerto de un buque de construcción china.",
-        "Según la guía de la plataforma logística Tradlinx, el Anexo III corresponde a los buques portavehículos y el Anexo V.A, a aranceles adicionales de 100% sobre grúas de muelle (ship-to-shore), ciertos chasis intermodales y sus partes. El esquema original preveía subas escalonadas: el cargo del Anexo I iba a pasar a USD 80 por tonelada neta en abril de 2026 y a USD 110 en abril de 2027, y el de los buques construidos en China, a USD 23 y USD 28. Las tasas se cobran al llegar al primer puerto estadounidense, con un máximo de cinco cobros por buque por año. Tradlinx advierte que los avisos no aclaran qué escalón se aplicaría si las tasas se reanudaran.",
-        "## Cómo se llegó hasta acá",
-        "La USTR abrió la investigación en abril de 2024, resolvió aplicar medidas el 17 de abril de 2025 y las publicó el 23 de ese mes. Las tasas empezaron a cobrarse el 14 de octubre de 2025. Tras el acuerdo comercial entre Donald Trump y Xi Jinping, anunciado por la Casa Blanca el 1 de noviembre de 2025, Washington suspendió las medidas por un año desde el 10 de noviembre de 2025. Según el estudio Thompson Hine, el aviso de suspensión aclaraba que la pausa dependía del compromiso de China de seguir negociando sobre los temas de la investigación.",
-        "Según Maritime Executive, China había calificado la política estadounidense de proteccionista, respondió con tasas recíprocas para los buques de navieras de Estados Unidos y habría puesto la suspensión como condición de su compromiso de comprar productos agrícolas estadounidenses. Tradlinx indica que Pekín suspendió sus propias tasas especiales por un período equivalente de un año.",
-        "## Por qué importa para el transporte marítimo",
-        "Las tasas apuntaban a una porción creciente de la flota mundial. Según datos del Ministerio de Industria y Tecnología de la Información de China citados por Maritime Executive, los astilleros chinos se quedaron con el 81,8% de los pedidos mundiales de buques nuevos en los primeros nueve meses del año, con más de 175 millones de toneladas de porte bruto contratadas, 163% más que un año antes. Los exportadores estadounidenses de carbón, con pocas alternativas a los buques de construcción china, se alarmaron cuando se propusieron las tasas, y el National Coal Council recomendó volver permanente la suspensión, según Platts.",
-        "En septiembre, una coalición de asociaciones empresarias le escribió al titular de la USTR, Jamieson Greer, para advertir que un cobro sobre buques construidos en China o vinculados con ese país podía desestabilizar las cadenas de suministro transpacíficas, según Marine Insight. Maritime Executive, por su parte, recoge que los analistas del mercado esperan que las importaciones estadounidenses desde China se desaceleren en lo que queda del año, después de que los cargadores adelantaran envíos por la incertidumbre sobre las tasas y los aranceles.",
-        "## Qué sigue",
-        "La USTR analizará los comentarios que reciba hasta el 30 de octubre antes de decidir. Según Platts, la propuesta llega después de una reunión de Trump y Xi en septiembre y antes de un nuevo encuentro previsto para noviembre, que podría influir en el resultado. Marine Insight remarca que la extensión es temporal y que lo que ocurra después de enero de 2027 dependerá de las conversaciones bilaterales. Si la suspensión no se prorroga, las tasas y los derechos volverían a aplicarse desde el 10 de noviembre."
-      ],
-      "keyData": [
-        [
-          "Nueva fecha propuesta de fin de la pausa",
-          "9 de enero de 2027"
-        ],
-        [
-          "Vencimiento actual de la suspensión",
-          "9 de noviembre de 2026"
-        ],
-        [
-          "Plazo para comentarios",
-          "30 de octubre de 2026, 17 h (hora del Este)"
-        ],
-        [
-          "Tasa a buques de empresas chinas",
-          "USD 50 por tonelada neta (Platts)"
-        ],
-        [
-          "Tasa a buques construidos en China",
-          "USD 18 por tonelada neta o USD 120 por contenedor (Platts)"
-        ],
-        [
-          "Arancel a grúas de muelle chinas (Anexo V.A)",
-          "100% adicional, en suspenso (Tradlinx)"
-        ],
-        [
-          "Participación china en pedidos de buques nuevos",
-          "81,8% en nueve meses (MIIT, vía Maritime Executive)"
-        ]
-      ],
+      "id": "los-pedidos-de-portacontenedores-ya-superan-los-15-millones-de-teus",
+      "datetime": "2026-10-28T13:55:20Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T14:19:57Z",
+      "title": "Los pedidos de portacontenedores ya superan los 15 millones de TEUs",
+      "summary": "Antes de que acabe el año se espera que se añadan otros 40 o más contratos para nuevos buques ‘megamax’ de Maersk, Yang Ming, CMA CGM y MSC, lo que elevará la cifra hasta casi 16 millones de TEUs e...",
+      "body": [],
+      "keyData": [],
       "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Contenedores"
+      ],
+      "visual": "container",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Cadena de Suministro",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.cadenadesuministro.es/transporte-maritimo/pedidos-portacontenedores-ya-superan-15-millones-teus_1519298_102.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-28T14:19:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNM2dpNVVLZTR4eEpDY3RkNDVlUGpIX05WemRCWFJQRmJ0NzF2ZnNEd1VJNWZnWUVkcnhJcEZmZW93YkRGUi1GTUNlUVNXYkU0eHlYUGEyeWFLdnpmLUptQWN3WUpiUmN0ZGlFbUdtaEtmUUhCS1RZMzd0ckU2MmFXcV9WeWNWd3RZYnFOU2NTalZ5NzVJdnNJM185WmRsMFZ6Y2FzYWpCN2JwODBEcVpZMWxUMmRQYk5GMTZEZy1xTFhwZw?oc=5"
+    },
+    {
+      "id": "alardea-trump-de-aranceles-a-mexico",
+      "datetime": "2026-10-28T13:47:06Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T14:19:57Z",
+      "title": "Alardea Trump de aranceles a México",
+      "summary": "El Presidente de Estados Unidos Donald Trump presumió ayer el arancel punitivo de 25 por ciento impuesto en 2025 a los autos importados de México",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Latinoamérica",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "México",
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Luces del Siglo",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://lucesdelsiglo.com/2026/10/28/alardea-trump-de-aranceles-a-mexico-internacional/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-28T14:19:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNblpRdkFzeTRHMlRlakFRSzZ1UkF1TEdwME5YaUI0UEpVSGdZMlhxQTNjMHhud21BYTB5czFISDNZeVNaOENlUXQ0YnpPYjVPUmV3R0Vma2pQRm9tckJQTjgxR3NZUmJoMHJHc2wyR2FDdU5UVV94LVZQS0c0VDJIX2I0YkNVRmFNbnJZdE04TDU?oc=5"
+    },
+    {
+      "id": "regulaciones-antideforestacion-de-la-ue-beneficiarian-exportaciones-de-harina-de",
+      "datetime": "2026-10-28T13:30:50Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T14:19:57Z",
+      "title": "Regulaciones antideforestación de la UE beneficiarían exportaciones de harina de soja argentina",
+      "summary": "La industria brasileña de la soja teme que las nuevas regulaciones antideforestación de la Unión…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Latinoamérica",
+        "Europa"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil",
+        "Unión Europea"
+      ],
+      "tags": [
+        "Soja"
+      ],
+      "visual": "agro",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/regulaciones-antideforestacion-de-la-ue-beneficiarian-exportaciones-de-harina-de-soja-argentina/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ],
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOa2tBTE5TRjBFSGcyTXJNejJ4akt2WWRoVVJtOXg5aUN0cVhTZ01ueFhycENVTVFxWERFbmpGYmJQM1ktcHpnSVhMY08zbWlZQ2JDZHFnUzBhN2hQTXBvcG9peUlIOVc3U0M3SUIyMGVvcEd5NV9rY3I5aGJYWHI2RVFoMGZnNGFoNGxSR2xTOThUNjBmZWJXWTM5YlZtZmxXcWxQS0xodHVvRGg5NjFPMkdtYi1qRnVHdGtzNjJZMXc"
+      ]
+    },
+    {
+      "id": "boom-exportador-con-el-agro-como-motor-argentina-recupera-market-share-en-el-com",
+      "datetime": "2026-10-28T13:15:12Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T14:19:57Z",
+      "title": "Boom exportador: con el agro como motor, Argentina recupera “market share” en el comercio mundial",
+      "summary": "En lo que va de la era Milei, el impulso a las exportaciones está mostrando resultados: nuestro país creció en participación en el comercio exterior global y este año se superarían los U$S 100.000 millones. El agro, como es usual, es el principal protagonista.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Economía internacional"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Agro"
+      ],
+      "visual": "agro",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Infocampo",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.infocampo.com.ar/boom-exportador-con-el-agro-como-motor-argentina-recupera-market-share-en-el-comercio-mundial/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-28T14:19:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQXhHSERLYUNvdVlhT2VPZEw2T0VFNnNnelh2UXFCMF9PWmhFSnY2dmRkUU9vaUxxNl80WGxDUHdBdU9pRzV2TDVvVktWUUF2Wkw5NERvMEtFY1BGQlZ1VlM5WXFGSTJ0eWNhMEI5Vm4yT1F6UnlaaGJmODdLaVFVNTZwMzBQUVItQ3hqeU53NGt4RXpXbFBISW52ZUxtdHVMLVNQOFp1Z0FkSi1DLVdMbDA3V0xpYXJ4NkNPbEszOGo?oc=5"
+    },
+    {
+      "id": "un-portacontenedores-fue-atacado-por-tres-drones-al-sudeste-de-shabla",
+      "datetime": "2026-10-28T13:02:11Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T14:19:57Z",
+      "title": "Un portacontenedores fue atacado por tres drones al sudeste de Shabla",
+      "summary": "Un portacontenedores fue atacado con tres drones en el mar Negro. El ataque se produjo aproximadamente a 21 millas al sureste de Shabla, informó el ministro de Defensa, Dimitar Stoyanov, en una confer…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Contenedores"
+      ],
+      "visual": "container",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "БНР Новини",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://bnrnews.bg/es/post/549406/un-portacontenedores-fue-atacado-por-tres-drones-al-sudeste-de-shabla",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-28T14:19:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQWVyd2w2M0p2cEt6MW96Y2s0QlZTZXRicWJjaEg1QlZwQl8tMkdRRWYwT0U0UVAtbEQyV1BRZmlxa3ZHcDlHQmVtWmdka2NmaDFRVDd5eEdNd2VuUzBERlY4ZzVfYVFTNGt4dnVqVVA2Xy1QbUJyaWtwWUEtNUFqYXNMOTJJS0g3RUhsR1loOTYzbGVOVXB5OEhMQVppWDh3emI0RWRR?oc=5"
+    },
+    {
+      "id": "d-amico-tankers-ejerce-opcion-de-compra-para-buque-mt-high-fidelity",
+      "datetime": "2026-10-28T13:00:52Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T14:19:57Z",
+      "title": "D’Amico Tankers ejerce opción de compra para buque MT High Fidelity",
+      "summary": "D’Amico International Shipping anunció que su filial operativa d’Amico Tankers (Irlanda) ejerció su opción de compra…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Europa"
+      ],
+      "countries": [
+        "Irlanda"
+      ],
+      "tags": [],
+      "visual": "tanker",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/damico-tankers-ejerce-opcion-de-compra-para-buque-mt-high-fidelity/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "dejan-aranceles-claro-que-eu-necesita-el-aluminio-de-canada",
+      "datetime": "2026-10-28T13:00:00Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T14:19:57Z",
+      "title": "Dejan aranceles claro que EU necesita el aluminio de Canadá",
+      "summary": "Canadá ha suministrado cerca del 70% de las importaciones de aluminio de EU y el arancel ha elevado los precios a niveles récord.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Europa"
+      ],
+      "countries": [
+        "Canadá",
+        "Unión Europea"
+      ],
+      "tags": [
+        "Aluminio",
+        "Aranceles"
+      ],
+      "visual": "steel",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Reforma",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.reforma.com/dejan-aranceles-claro-que-eu-necesita-el-aluminio-de-canada/ar3303122",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-28T14:19:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT3JndGpBMnlqSGxBOFQwOWxtcHhCSlVpLXFzSFgwNHUzVzJHcHpCRmpQaUxua0NmMWVRaElKQk9EcnVJY1h4Mzluc2RDaFVqNUxhSS04SHFPd05OeHI2WE1fZXowRXFCNU1tVTZvdVZmLVVxZ0JqNEY3cjFEeDFMcGlEd09MS3hraXZEMjMyU0tFOEhYVGg4Tg?oc=5"
+    },
+    {
+      "id": "las-exportaciones-de-carne-vacuna-crecieron-5-en-nueve-meses",
+      "datetime": "2026-10-28T12:58:28Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T14:19:57Z",
+      "title": "Las exportaciones de carne vacuna crecieron 5% en nueve meses",
+      "summary": "Los embarques argentinos de carne enfriada y congelada acumularon 549.600 toneladas entre enero y septiembre de 2026, un 5% más que en igual período del año pasado. Sin embargo, los envíos a China retrocedieron 8%, mientras crecieron 36% las ventas al resto de los destinos.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Carne"
+      ],
+      "visual": "livestock",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "El Litoral",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.ellitoral.com/campolitoral/embarques-china-cuotasdeimportacion-rosgan-carnevacuna-brasil-indec-exportaciones-senasa-australia_0_t7bPP3DiVl.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-28T14:19:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPbTV1Vkh1OGZXQURkaUVHRXBXeUJfSFZIM1RZUHRudllmamNfRk9nNDk0UEpsY3FkeGdTaTFOTGRVbVdOMVJXdWw3V2tCUy12ZTc0UlVCMkRYb2RMdGhQRUNMb00yQlg3bkdKenNIZU5HVVJZTnlaM0EwelVpcUlIeV9FTThhX0UzRnFZUVZkZ0V2YU1xbnYteWQ4a0hVWjhmZVU3eDRteXJVUDJtb3ViNzd3YnZfd002aVd5dDlVVC1ndjJaNHc2Y2IyVFdNdC1KVUZkbF83SHVUbjQxUEFxZUtDSE1FVWJGckVn?oc=5"
+    },
+    {
+      "id": "argentina-tiene-mas-superficie-forestada-que-uruguay-pero-exporta-seis-veces-men",
+      "datetime": "2026-10-28T12:57:57Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T14:19:57Z",
+      "title": "Argentina tiene más superficie forestada que Uruguay pero exporta seis veces menos",
+      "summary": "La disponibilidad de materia prima, la productividad de las plantaciones y los costos competitivos contrastan con las brechas de Argentina.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Uruguay"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Economis",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://economis.com.ar/argentina-tiene-mas-superficie-forestada-que-uruguay-pero-exporta-seis-veces-menos/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-28T14:19:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRFF2ZzJ5dlZRcDZRMWxCN05NTkk4OUNZSVdjbXBVdUZ2VEZtWkVoWk1jeWMzblRybWhDdUJpOHhoQ1pZRjZTYWxVNlIwa3ZRRXoyczF1aUFXMTQxY2tOREo5X0x1TkRrRkQ0eFlPOEswOGJkbHNlaVJlVU5vUnhHaGJvZ01SVTIyR2V5OHNhUVUxM2VlYVZOengzZE8yREFSQU9mTEVwMHE0bk0?oc=5"
+    },
+    {
+      "id": "el-mercado-brasileno-le-da-la-espalda-al-insultador-serial-ya-concentra-apenas-e",
+      "datetime": "2026-10-28T12:52:32Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T14:19:57Z",
+      "title": "El mercado brasileño le da la espalda al insultador serial: ya concentra apenas el 12,8 por ciento de las exportaciones",
+      "summary": "En un contexto de renovada tensión entre Argentina y Brasil tras las elecciones presidenciales en el país vecino, un informe de la Escuela de Gobierno de la Universidad Austral pone el foco en la evolución de la relación comercial bilateral y en los cambios que está experimentando el mapa de destinos de las…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Brasil"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Agencia NOVA",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.agencianova.com/economia-y-empresas/2026/10/28/174507/el-mercado-brasileno-le-da-la-espalda-al-insultador-serial-ya-concentra-apenas-el-128-por-ciento-de-las-exportaciones/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-28T14:19:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMifkFVX3lxTE51MUlIUDRFLXNsV0F1YW9LcUhuejNCanRzdXdLYnE5eTNfWWlhZ0VLdzhBMzBLRGRsd3AxYTFCeTc3Uk9QQnh5U0pyRXJTRjhQRTFTRnkzemh4T0hCZnE2ZjdGdFBqd0dIaFJkdnl4bHdFb3dTS19ac1hzT2UyQQ?oc=5"
+    },
+    {
+      "id": "en-septiembre-las-exportaciones-de-chaco-alcanzan-los-usd-26-millones",
+      "datetime": "2026-10-28T12:52:22Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T14:19:57Z",
+      "title": "En septiembre, las exportaciones de Chaco alcanzan los USD 26 millones",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Data Portuaria",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://dataportuaria.com/es/argentina/comercio-exterior/en-septiembre-las-exportaciones-de-chaco-alcanzan-los-usd-26-millones-1",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-28T14:19:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYm0wV01ldS1pTEJHTTFaMzJEMURja0ZsWmtxR0tzU1YtS18wTGQ5Yl8tbDZSeV9EMjhUWUVyZlFsRTJaNDZGV2p6aXlQR3lHZWRaSDJHTWVXekJRa1RJZU5qQ3c1b2VYMzZoTFY1VVJ6OEsxVExMVURaQXRTbExNdU1LX25mLWRaWHZmMHZIeGl1VzEyY0hHYzNLODlWbm85Y0lFNUk5YTN2dGlSSTRNMWF4R3dqTkhtUmgtckRBN2RZblE4SjVv?oc=5"
+    },
+    {
+      "id": "ee-uu-impone-aranceles-a-traileres-chinos-para-ayudar-a-productores-nacionales",
+      "datetime": "2026-10-28T12:50:15Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T14:19:57Z",
+      "title": "EE.UU. impone aranceles a tráileres chinos para ayudar a productores nacionales",
+      "summary": "Los remolques se utilizan habitualmente para transportar carga en la parte trasera de furgonetas y camiones grandes",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
         "Estados Unidos",
         "China",
-        "Transporte marítimo",
-        "Puertos",
-        "Geopolítica y comercio",
-        "Regulaciones"
+        "Asia"
       ],
       "countries": [
         "Estados Unidos",
         "China"
       ],
       "tags": [
-        "USTR",
-        "Sección 301",
-        "Tasas portuarias",
-        "Construcción naval",
-        "Navieras",
-        "Federal Register",
-        "Trump",
-        "Xi Jinping"
+        "Aranceles"
       ],
-      "visual": "ship",
-      "impact": 2,
+      "visual": "customs",
+      "impact": 1,
       "affectsArgentina": false,
-      "explainer": {
-        "what": "La USTR propuso extender dos meses, hasta el 9 de enero de 2027, la suspensión de las tasas portuarias de la Sección 301 a buques vinculados con China, que vence el 9 de noviembre.",
-        "why": "Si la pausa no se prorroga, volverían a cobrarse cargos de USD 50 por tonelada neta a buques de empresas chinas y de USD 18 por tonelada neta o USD 120 por contenedor a los construidos en China, además de un arancel de 100% a grúas de muelle chinas.",
-        "who": "Navieras con buques chinos o construidos en China que escalan en Estados Unidos, transportistas de vehículos, importadores de grúas de muelle chinas y los cargadores de esas rutas.",
-        "products": [
-          "Servicios de transporte marítimo",
-          "Buques portavehículos",
-          "Grúas de muelle",
-          "Chasis intermodales"
-        ],
-        "next": "La USTR recibe comentarios hasta el 30 de octubre; si aprueba la extensión, la pausa correrá del 10 de noviembre de 2026 al 9 de enero de 2027.",
-        "nextSource": {
-          "name": "SBA Office of Advocacy",
-          "url": "https://advocacy.sba.gov/2026/10/27/ustr-seeks-comments-on-further-suspension-of-section-301-action-on-chinas-maritime-logistics-and-shipbuilding-sectors/"
-        }
-      },
-      "deadlines": [
-        {
-          "date": "2026-10-30",
-          "label": "EE.UU.: vence el plazo de comentarios a la USTR sobre la extensión de la pausa de tasas portuarias a buques chinos",
-          "url": "https://advocacy.sba.gov/2026/10/27/ustr-seeks-comments-on-further-suspension-of-section-301-action-on-chinas-maritime-logistics-and-shipbuilding-sectors/"
-        },
-        {
-          "date": "2026-11-10",
-          "label": "EE.UU.: empezaría la extensión de la pausa de tasas portuarias a buques chinos, si la USTR la aprueba (si no, vuelven a cobrarse)",
-          "url": "https://advocacy.sba.gov/2026/10/27/ustr-seeks-comments-on-further-suspension-of-section-301-action-on-chinas-maritime-logistics-and-shipbuilding-sectors/"
-        },
-        {
-          "date": "2027-01-09",
-          "label": "EE.UU.: terminaría la pausa de las tasas portuarias a buques chinos, si se aprueba la extensión propuesta por la USTR",
-          "url": "https://advocacy.sba.gov/2026/10/27/ustr-seeks-comments-on-further-suspension-of-section-301-action-on-chinas-maritime-logistics-and-shipbuilding-sectors/"
-        }
-      ],
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
       "sources": [
         {
-          "name": "SBA Office of Advocacy (resumen del aviso de la USTR en el Federal Register)",
-          "type": "Organismo oficial",
-          "url": "https://advocacy.sba.gov/2026/10/27/ustr-seeks-comments-on-further-suspension-of-section-301-action-on-chinas-maritime-logistics-and-shipbuilding-sectors/",
-          "primary": true
-        },
+          "name": "La República",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.larepublica.co/globoeconomia/ee-uu-impone-aranceles-a-traileres-chinos-para-ayudar-a-productores-nacionales-4512858",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-28T14:19:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOLV9LMDV3TEpYTDZ0cXFabWJSOTlOdEdULXdveEg3TEg3aTJidUdLc01uaGhXQkFMX0pjOEFQWW1nQW9pLXJPRXNmZnM0M3pBbUFYanBTemVqUjZPZnBKNDF4ZFdWemZMT1dRVUExZXRKZEFDeGFsMF9UWWFoLTk1cmVUcTVvYjhRMkp4REl2SllLc0JEblNWb2pJZHJfUTNuQjluSTBDRHRnV3hBckgzOEh6MnlGOVMtd2RiaDUxdXhGTml5WHfSAcYBQVVfeXFMTTlzWjJqSjNmWjE0ZHMzSHlxYzFLMGJabHZ2VnNra0F5ZlFyc3lvNzlhQXN4djc0RW5vZE1DUzN2QmF5Q3drcmxkRTNmMklEOENkUXFWQ0JDTkV6MmcwNnRVQk1lUVk3MnhsSlJUVTJYTmthcmNqdnZxd2E5U3lRTF91QXBFMURoYVFHSkpCYmhpNnczYjViR1hKeEhGNHFaM2wxSnlNQ09tSVlTbEw3NWEyVXlqTzA3XzVzdG9BSW9VTnNmMHV3?oc=5"
+    },
+    {
+      "id": "boeing-preve-que-la-carga-aerea-mundial-se-duplique-en-2045-y-precise-3-000-avio",
+      "datetime": "2026-10-28T12:34:20Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T14:19:57Z",
+      "title": "Boeing prevé que la carga aérea mundial se duplique en 2045 y precise 3.000 aviones de carga adicionales",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte aéreo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "plane",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
         {
-          "name": "Holland & Knight",
-          "type": "Estudio jurídico",
-          "url": "https://www.hklaw.com/en/insights/publications/2026/10/ustr-proposes-2-month-extension-of-suspension-of-section-301"
-        },
+          "name": "Demócrata",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.democrata.es/economia/boeing-preve-que-la-carga-aerea-mundial-se-duplique-en-2045-y-precise-3-000-aviones-de-carga-adicionales/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-28T14:19:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdF9NaFlWZ1VPVkZnMzhfdkdHMEFEZlRaZTBPOTFWOGNSWkQ5Vmt2NGh3d1FfUUtfdFhfcHJ5Qy0xbTgzbDRYYTlKWUsxSC15NjBJN0NadVpaaDJHTU5BNldndm9jNmNNa1JmejEyR05EWnh4Sk8tY0N5ZDFYV1lFTy1MNDdDOUJkVHNOY1VQUzI5VUpQQUpuc3hzNlVyLUVDc2Ftd2ZIZFBEWlQ3WVVMNXRSdldsRG1wbzljcVJEYl9uTUFyMkJJcW8tb3RVX0JmS3doakpR0gHbAUFVX3lxTE5PLTRVNFNoZkpmY2d5WWlNYTRGVURKSUM5TTdjTEd1TjhSUE5OaWtldnllcWlSMEtoa1pJMDJtTUVOTS1lcnk1QkdHbmE0Y0JOZFV0MFdDSVpJRFE1blZkLUYtcnhGMEVuenNQNDlSQ29QTG9KcTE5UmVvNzNXOG10UWVkOV9vTTNPdTRvVXl2NnNNTm1QYXEySmFkYkVYX0JQSVJxWklVbS1odGxSVGJqNWVsUzBlN3kzQ0k0WHFBcjNfWVFVejdHb2IyT3lnRmhHS0xrSjZ5aDd1SQ?oc=5"
+    },
+    {
+      "id": "espana-puerto-de-tarragona-firma-su-mejor-septiembre-desde-2017-y-roza-23-millon",
+      "datetime": "2026-10-28T12:30:41Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T14:19:57Z",
+      "title": "España: Puerto de Tarragona firma su mejor septiembre desde 2017 y roza 23 millones de toneladas en 2026",
+      "summary": "El Puerto de Tarragona movió en septiembre 2.835.234 toneladas de movimiento marítimo, 6,3% más que hace…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos",
+        "Europa"
+      ],
+      "countries": [
+        "España"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
         {
-          "name": "KPMG",
-          "type": "Consultora",
-          "url": "https://kpmg.com/us/en/taxnewsflash/news/2026/10/ustr-china-maritime-suspension.html"
-        },
-        {
-          "name": "Hellenic Shipping News (Platts)",
-          "type": "Medio especializado",
-          "url": "https://www.hellenicshippingnews.com/ustr-proposes-extending-port-fee-suspension-on-china-linked-ships-to-january/"
-        },
-        {
-          "name": "Maritime Executive",
-          "type": "Medio especializado",
-          "url": "https://maritime-executive.com/article/port-fees-for-chinese-built-ships-and-shipping-to-be-delayed-by-ustr"
-        },
-        {
-          "name": "Marine Insight",
-          "type": "Medio especializado",
-          "url": "https://www.marineinsight.com/u-s-proposes-extending-port-fee-freeze-on-chinese-ships-to-january-2027/"
-        },
-        {
-          "name": "Tradlinx",
-          "type": "Medio especializado",
-          "url": "https://blogs.tradlinx.com/what-returns-on-november-10-when-the-china-ship-fee-suspension-expires/"
-        },
-        {
-          "name": "Thompson Hine",
-          "type": "Estudio jurídico",
-          "url": "https://www.thompsonhinesmartrade.com/2025/11/ustr-announces-one-year-suspension-of-section-301-countermeasures-targeting-chinas-maritime-logistics-and-shipbuilding-sectors/"
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/espana-puerto-de-tarragona-firma-el-mejor-septiembre-desde-2017-y-roza-los-23-millones-de-toneladas-en-2026/",
+          "primary": true,
+          "author": "cmeza"
         }
       ]
     },
     {
-      "id": "exportaciones-argentinas-destinos-enero-septiembre-2026-brasil-pierde-peso-estados-unidos-india",
-      "date": "2026-10-27",
-      "kind": "datos",
-      "story": "balanza-argentina",
-      "title": "Brasil pierde peso como destino de las exportaciones argentinas y Estados Unidos ya compra el 10%",
-      "summary": "Las ventas a Brasil crecieron 4,5% en enero–septiembre, contra 21,6% del total, y su participación bajó a 12,7%, según el CEI de la Cancillería. Estados Unidos (+35,2%), la Unión Europea, India y la ASEAN ganan terreno, en un cambio que un informe de la Universidad Austral atribuye a la energía y la agroindustria.",
-      "body": [
-        "Brasil sigue siendo el principal comprador de productos argentinos, pero pesa cada vez menos en las ventas externas. Según un informe del Centro de Estrategias Internacionales de Gobiernos y Organizaciones (CIG) de la Escuela de Gobierno de la Universidad Austral, firmado por Horacio Augusto Pereira, entre enero y agosto de 2026 las exportaciones a Brasil sumaron USD 8.578 millones, 4,7% más que un año antes, mientras el total creció 21,4%, a USD 67.248 millones. Así, la participación brasileña bajó de 14,9% a 12,8%.",
-        "Los datos oficiales del INDEC hasta septiembre, que resume el Centro de Economía Internacional (CEI) de la Cancillería, muestran la misma tendencia: en los nueve meses, las ventas a Brasil subieron 4,5%, a USD 9.789 millones, y representaron el 12,7% del total, frente a un crecimiento general de 21,6%, hasta USD 77.267 millones.",
-        "## Quiénes ganan peso",
-        "El mayor salto entre los grandes destinos fue el de Estados Unidos: según el CEI, las exportaciones a ese país crecieron 35,2% en enero–septiembre, a USD 7.708 millones, ya equivalen al 10% del total y dejan un superávit bilateral de USD 2.547 millones. Le siguen la Unión Europea, con USD 7.180 millones (+18,1%), y China, con USD 7.146 millones (+9,6%). India sumó USD 4.712 millones (+17,3%) y un saldo favorable de USD 3.788 millones, el segundo más alto después del de Chile (USD 4.351 millones). Las ventas a la ASEAN aumentaron 64,5%, y solo a Vietnam llegaron a USD 2.759 millones (+24,2%).",
-        "El informe de la Universidad Austral, con datos hasta agosto, muestra el mismo orden: Estados Unidos +34,5% (USD 6.691 millones), India +25,5% (USD 4.276 millones), China +17,8% (USD 6.155 millones) y ASEAN +57,7%. Las diferencias con el CEI en China e India se explican porque los trabajos cubren distintos meses: en septiembre, las ventas a China cayeron 23,8% y las de India, 28,6%, según la Cancillería.",
-        "## Qué explica el cambio",
-        "Según Pereira, la menor participación de Brasil no responde solo a una caída de la demanda industrial: también pesa el crecimiento de la energía y la agroindustria. Combustibles y energía exportaron USD 10.667 millones en los primeros ocho meses, 48,9% más, con el petróleo crudo en alza de 54,7%. Neuquén pasó de USD 107 millones en enero–agosto de 2015 a USD 6.031 millones en el mismo período de 2026, y la Patagonia elevó su participación en las exportaciones de las cinco regiones de 8,2% a 18,1%. Los datos del CEI confirman que el crudo fue el producto con mayor aumento en los nueve meses (USD 2.864 millones más), seguido por el maíz, el oro sin labrar y el carbonato de litio.",
-        "Brasil, en cambio, sigue siendo el mercado clave para la industria: de los USD 8.578 millones exportados hasta agosto, unos USD 5.583 millones, cerca del 65%, fueron manufacturas de origen industrial.",
-        "## Importaciones y saldos",
-        "Del lado de las compras, Brasil explicó el 21,4% de las importaciones de enero–septiembre, detrás de China (23,3%). Las importaciones desde Brasil cayeron 17%, a USD 12.005 millones, y el saldo bilateral fue deficitario en USD 2.216 millones, según el CEI. Con China el rojo es mayor: USD 5.901 millones. En total, las importaciones bajaron 2,5% y el superávit llegó a USD 21.198 millones. El informe de la Universidad Austral advierte que la caída de las compras de bienes de capital (-5,9%) y de sus piezas y accesorios (-19,2%) hasta agosto genera dudas sobre la inversión productiva y la sostenibilidad del crecimiento exportador.",
-        "## Qué sigue",
-        "El INDEC publicará el 19 de noviembre el intercambio comercial argentino de octubre, con el que se actualizarán las cifras por destino."
-      ],
-      "keyData": [
-        [
-          "Participación de Brasil en las exportaciones",
-          "12,7% en enero–septiembre (CEI)"
-        ],
-        [
-          "Exportaciones a Brasil, enero–septiembre",
-          "USD 9.789 millones (+4,5%)"
-        ],
-        [
-          "Exportaciones totales, enero–septiembre",
-          "USD 77.267 millones (+21,6%)"
-        ],
-        [
-          "Exportaciones a Estados Unidos",
-          "USD 7.708 millones (+35,2%)"
-        ],
-        [
-          "Exportaciones a India",
-          "USD 4.712 millones (+17,3%)"
-        ],
-        [
-          "Exportaciones a la ASEAN",
-          "+64,5%"
-        ],
-        [
-          "Participación de Brasil, enero–agosto",
-          "De 14,9% a 12,8% (Universidad Austral)"
-        ]
-      ],
+      "id": "arca-flexibiliza-las-exportaciones-de-minerales",
+      "datetime": "2026-10-28T12:06:09Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T14:19:57Z",
+      "title": "ARCA flexibiliza las exportaciones de minerales",
+      "summary": "ARCA flexibilizó el registro de exportaciones de minerales procesados fuera de la jurisdicción del yacimiento, con controles de origen y trazabilidad",
+      "body": [],
+      "keyData": [],
       "topics": [
         "Argentina",
         "Exportaciones",
-        "Mercosur",
-        "Estados Unidos",
-        "Asia",
-        "Economía internacional"
+        "Aduanas"
       ],
       "countries": [
-        "Argentina",
-        "Brasil",
-        "Estados Unidos",
-        "China",
-        "India",
-        "Vietnam",
-        "Chile"
+        "Argentina"
       ],
       "tags": [
-        "INDEC",
-        "CEI",
-        "Cancillería",
-        "Universidad Austral",
-        "Destinos de exportación",
-        "Vaca Muerta",
-        "Balanza comercial"
+        "ARCA",
+        "Minería"
       ],
-      "visual": "chart",
+      "visual": "mining",
       "impact": 2,
       "affectsArgentina": true,
-      "argentinaNote": "La diversificación de destinos reduce la dependencia de Brasil, pero la industria sigue atada a ese mercado: cerca del 65% de lo que se le vende son manufacturas industriales.",
-      "argentinaImpact": {
-        "change": "Las exportaciones a Brasil crecen mucho menos que el total y su participación bajó a 12,7% en enero–septiembre, mientras suben las ventas a Estados Unidos, la UE, India y la ASEAN.",
-        "who": "Exportadores industriales con Brasil como principal mercado, exportadores de energía, minería y agroindustria y las provincias patagónicas.",
-        "sectors": [
-          "Petróleo y gas",
-          "Manufacturas industriales",
-          "Agroindustria",
-          "Minería"
-        ],
-        "flows": {
-          "importaciones": true,
-          "exportaciones": true,
-          "logistica": false,
-          "aranceles": false
-        }
-      },
-      "explainer": {
-        "what": "La participación de Brasil en las exportaciones argentinas bajó a 12,7% en enero–septiembre de 2026, porque las ventas a ese país crecieron 4,5% contra 21,6% del total.",
-        "why": "Muestra un cambio en el mapa exportador: Estados Unidos ya compra el 10% y crecen India y la ASEAN, impulsados por la energía y la agroindustria, mientras Brasil sigue siendo el destino central de la industria.",
-        "who": "Exportadores industriales que dependen de Brasil, exportadores de petróleo, maíz, oro y litio, y las provincias de la Patagonia.",
-        "products": [
-          "Petróleo crudo",
-          "Maíz",
-          "Oro",
-          "Carbonato de litio",
-          "Manufacturas industriales"
-        ],
-        "next": "El INDEC publicará el 19 de noviembre el intercambio comercial de octubre.",
-        "nextSource": {
-          "name": "INDEC: calendario del segundo semestre de 2026",
-          "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf"
-        }
-      },
-      "deadlines": [
-        {
-          "date": "2026-11-19",
-          "label": "INDEC: intercambio comercial argentino de octubre, con exportaciones por destino",
-          "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf"
-        }
-      ],
-      "absorbs": [
-        "las-exportaciones-argentinas-crecieron-21-4-pero-las-ventas-a-brasil-apenas-aume",
-        "las-exportaciones-argentinas-crecen-pero-brasil-pierde-peso-como-principal-merca",
-        "exportaciones-argentinas-brasil-pierde-participacion-frente-a-ee-uu-china-e-indi"
-      ],
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
       "sources": [
         {
-          "name": "Cancillería (CEI): Intercambio comercial argentino, enero–septiembre de 2026",
-          "type": "Organismo oficial",
-          "url": "https://cancilleria.gob.ar/es/cei/actualidad/intercambio-comercial-argentino-enero-septiembre-2026",
-          "primary": true
-        },
-        {
-          "name": "Cancillería (CEI): presentación con datos a septiembre",
-          "type": "Organismo oficial",
-          "url": "https://cancilleria.gob.ar/userfiles/ut/2026-10_presentacion_ica_datos_a_septiembre_0.pdf"
-        },
-        {
-          "name": "Paralelo32 (informe de la Universidad Austral)",
-          "type": "Medio de comunicación",
-          "url": "https://www.paralelo32.com.ar/brasil-pierde-participacion-en-las-exportaciones-argentinas-mientras-crecen-las-ventas-a-estados-unidos-y-asia"
-        },
-        {
-          "name": "BAE Negocios",
-          "type": "Medio de comunicación",
-          "url": "https://www.baenegocios.com/economia/las-exportaciones-argentinas-crecen-pero-brasil-pierde-peso-como-principal-mercado/"
-        },
-        {
-          "name": "INDEC: calendario del segundo semestre de 2026",
-          "type": "Organismo oficial",
-          "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf"
+          "name": "Economis",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://economis.com.ar/arca-flexibiliza-las-exportaciones-de-minerales/",
+          "primary": true,
+          "author": ""
         }
-      ]
+      ],
+      "gnTried": "2026-10-28T14:19:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9xTjhYb29RTHI5ZmRaeWpQd3pLY1dZN3FNaDV3aGsySVFPTzAxMUljSF9UMk5QUGJyWEF5cGg1T2Izbm84WnVYSUQ1OHVXTjRWVmREWTFKUm9xWUhaN0FkVmpFak5qZlktTUtBeGM1UjlVbFh3bUxwNjBUSHE?oc=5"
     },
     {
       "id": "el-supara-celebro-el-egreso-de-seis-nuevos-binomios-operativos-de-la-aduana-arge",
@@ -1194,11 +1368,13 @@
       "topics": [
         "Aranceles",
         "Latinoamérica",
-        "Estados Unidos"
+        "Estados Unidos",
+        "Asia"
       ],
       "countries": [
         "México",
-        "Estados Unidos"
+        "Estados Unidos",
+        "Japón"
       ],
       "tags": [
         "Autos",
@@ -1312,13 +1488,15 @@
       "keyData": [],
       "topics": [
         "Logística",
+        "Transporte marítimo",
         "Transporte aéreo"
       ],
       "countries": [
         "Global"
       ],
       "tags": [
-        "Fletes"
+        "Fletes",
+        "Contenedores"
       ],
       "visual": "plane",
       "impact": 1,
@@ -1385,10 +1563,11 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Aranceles"
+        "Aranceles",
+        "Tratados y acuerdos"
       ],
       "countries": [
-        "Global"
+        "Canadá"
       ],
       "tags": [
         "Aranceles"
@@ -1427,7 +1606,8 @@
         "Global"
       ],
       "tags": [
-        "Contenedores"
+        "Contenedores",
+        "Energía"
       ],
       "visual": "container",
       "impact": 1,
@@ -1521,6 +1701,54 @@
           "primary": true,
           "author": "Diego Hermosilla"
         }
+      ]
+    },
+    {
+      "id": "fuego-criminal-las-llamas-devoraron-la-aduana-en-oran-y-la-sombra-del-sabotaje-e",
+      "datetime": "2026-10-28T02:16:00Z",
+      "date": "2026-10-27",
+      "firstSeen": "2026-10-28T14:19:57Z",
+      "title": "¿Fuego criminal? Las llamas devoraron la Aduana en Orán y la sombra del sabotaje estremece a la provincia",
+      "summary": "La información más actualizada de Salta, el NOA, Argentina y el mundo. Actualización permanente. Hacemos periodismo siempre.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aduanas"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 2,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Informate Salta",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://informatesalta.com.ar/sociedad/-fuego-criminal--las-llamas-devoraron-la-aduana-en-oran-y-la-sombra-del-sabotaje-estremece-a-la-provincia_a6ae15d1b6fef2a84665244f6",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Voces Criticas - Salta",
+          "type": "También publicó esta noticia",
+          "url": "https://www.vocescriticas.com/noticias/2026/10/27/223710-se-prendio-fuego-un-deposito-de-la-aduana-en-oran",
+          "alsoIn": true,
+          "title": "Se prendió fuego un depósito de la Aduana en Orán"
+        }
+      ],
+      "gnTried": "2026-10-28T14:19:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxONHFEM2pLWEljZ1BzT1VjdjJVc0Fld0VmZkVBZjV2UkxRYUlhU1B2Nlctb2hIbG9id1NzSUZaR2I5czNmcjVySzRuY2dfWjU5TWd0OUh3LUlENndUMU9pY2RGb3dEN05MOXhhb1JLWng4bXlQVnJZVUFLTVBWeElheENfZ0FNcjVSSklKMjE2cVhZSzlZdW9kMWQxUk9maWNTUjNoQXdYb2FJbVVrSERTeHAtRElzeUFTOWZYbWtqTnhHSUx1YkxUNnRyQWdJQXhfd181UWVhYlFsX0dtQU1rd0YzMC1XZEhqd3VnWW51S3VYc2hKZkptTFkwYTRHeUnSAY4CQVVfeXFMTU1PTmN5elpQNmdCeDlUREhTclBRb0lyc0Z0ZXU0bFJkY3Rnd01OVmJZcVFlXzM2MUtlUVJHamRtYnpTVTNrci1uNjA3QnhXbVhFWkQzSUNTQ3BtZEhTYUNUX09hdFFUNExkcVVockNvVEJyUU95djFpRktSQ0FMNU9oU0ZDRGlsN0RBSnFzMG5qTjJFUUdlS2ZxMnJVUUVTMWVNU1A4S1hsVnZsMWFIYjV3NGFGeS1jdzBxbmlyMHoxbmhtZFJmX3NZZmFrV0hocTVwYlJrVkU5S2ZBN2V5RFpQbDJFZW5HalpDUmw1R1laMFBSY3M2UjZBWTQ1RzhYZ2xvSWFXc2JNTXc1TTNR?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOVNtd0NBbmd0RFhFN1UtX2ttN2ZLcjlCUENUUG5BNE50YVhQS2FqWkQ3YkVVUm5xLXdhRF9Jd2FWbXNsLTRaWi10VDRGM3JMWjlOYzlvbmtNTUxYU2RfOF9ZS2UxN1VpXzl3cU00N051TXpUX0tuUFJ1elFoRkVWUUNwcU92M2JNdVRZc0k1YnV2ajRlOFFONXNrck92NUtQeEdZMlhaUGxJMHhPd2JZ0gGvAUFVX3lxTFA5U213Q0FuZ3REWEU3VS1fa203ZktyOUJQQ1RQbkE0TnRhWFBLYWpaRDdiRVVSbnEtd2FEX0l3YVZtc2wtNFpaLXRUNEYzckxaOU5jOW9ua01NTFhTZF84X1lLZTE3VWlfOXdxTTQ3TnVNelRfS25QUnV6UWhGRVZRQ3BxT3YzYk11VFlzSTVidXZqNGU4UU41c2tyT3Y1S1B4R1kyWFpQbEkweE93Ylk",
+        "https://www.vocescriticas.com/noticias/2026/10/27/223710-se-prendio-fuego-un-deposito-de-la-aduana-en-oran"
+      ],
+      "mergedIds": [
+        "se-prendio-fuego-un-deposito-de-la-aduana-en-oran"
       ]
     },
     {
@@ -1647,16 +1875,26 @@
           "url": "https://www.semana.com/economia/macroeconomia/articulo/cero-aranceles-adicionales-la-meta-de-abelardo-de-la-espriella-para-el-comercio-con-estados-unidos/202611/",
           "alsoIn": true,
           "title": "Cero aranceles adicionales: la meta de Abelardo De La Espriella para el comercio con Estados Unidos"
+        },
+        {
+          "name": "Infobae",
+          "type": "También publicó esta noticia",
+          "url": "https://www.infobae.com/colombia/2026/10/28/abelardo-de-la-espriella-buscara-que-estados-unidos-elimine-los-aranceles-vinculados-al-tlc-de-que-sirve-tener-el-tlc/",
+          "alsoIn": true,
+          "title": "Abelardo de la Espriella insistirá para que Estados Unidos elimine los aranceles que afectan a Colombia: “De qué sirve tener el TLC?”"
         }
       ],
       "gnTried": "2026-10-28T02:12:39Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcnB3MjlkbVlNRk1VRHktSG8wQjQ5cmpDTUtBN1A2NjQ3QnNZLWxvM3k0Smt1eGVpVFJmUFpHSDJjejFPcWs5UW1LTUx2aUY1SDFKVFJSa2t4eTNZLTk1VE1hNFZaSW5Pd2lTMVFRb0ljODd1azlEXzV2azlZOU96cDk1MnpadE5weEZXVzdvTC1LWXcyWng5SEdRWDIzZDRfNnA1RXp6QkVOOFRvRlZRX1NR?oc=5",
       "aliasUrls": [
         "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPN0FIRFBSZlVKM3hvX2ROOS0xWTZuOUM5SzdhUVVORDBvYVUzb192ZjZzZDZRbXRKQkFaQV9pVmJ3eWwxdUU0MkhMNGNUakM2SG1CWlJBWENDenhhTE5OWjIxS0lDNG4ydDB0dWVhXzgwWDhCQlVZMUFxWGp3N1BRYVZuMjhIMkU5eXdMVGZzME9OZTIyLVZ4cVAzR05sRElvSTcySHZfREFuWmZfcWF0LV9mQnB6TWx1VUwtc0M0QzFLZ29WUTZma1ZDTWMxNHRDUHhoekhPbS1YNjE4S1lZNjU4R0FHU2pzUGE0TXE1ZndhcmfSAfgBQVVfeXFMT3M3bjVod3FHZXU2UERPNGlrWnJBVHlCSzM3MjNVWUZLaWFhWHhTZ2lLNzMwM285S09ueTI0bGl1Sm1HNWg0UUdaWTlTbzdnZUg3Rm41RHZ4S0Yzbm56SXhzc0puUmdPTTFZdXUwbXlPSjF4S0MtZ3VYM1lRMjNRQ2VPV0NfS0tQbU9pdFBGRzdMZGZNWXlTVFplRE1OX2stdkdmLXFvVTdVRmQ0UmMxZlpFOFFSTHV2Yk42U1RLNDJrZ2hES185a3ZUQXl1cVhMS0xySjlyR2NpYnhKVV9ZcU1OeHd0QWFjVnhENzJhSEYydW5iS1JaVFc",
+        "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQMlhYd0l0Rk5uaDRNbEpiaXJmOEc4VzlwblhEd2plc3h0Znh3Yzlvb3RLSUpQT1otY0dsYnBsbFdTOHhiUkN4Ynl5R2lsT0FMaDNXMHhyRFhZVTlQNjVyV3pqWXJWMUhrd1FCcVRYX01JZ0ltTWJCN0dDRzhNM1hUOUVGZXRBRU5VSkNqR0d0UUhFM3dXUlVjRTBmX1c1b1FFZ0phc3laTFlYY0V5RVdZcFc5YUE1dEplOXdnVVh2QnZQSzNyNEQ3UTFrTWppMzd6bFhqVmFGUkhZaW9jVGU3TUVvWmRlakVVYmg4amxFQ2pIV0VI0gGPAkFVX3lxTE1RbTI2NlRXX28xRm51N244a2RRamRlVkZ6YnJnRER6djA1MnVyUVV0U3psX2dRZkxYQ2xRcWtIQjNFaDN4WXlGeGFhblRPQUp1R2VJYWR6aEkxT2p4NUthbzNtT3ZYZHpXcDB1QkZiNHhMajdpU0xfampvSmlZRTBKV0FzcXNGTndza0haLTVkT3Q5bEZaOGo4SWZFbTJMNmtOWV90MFI3OHk2NWVQdFpPRTIwdzJWOTVFMXRIa0FwRGJrVHo3SEFzQlNZMHQ0T3lYc2hHY1NqdV8wYzZLdnptdERwLW1JNnprTHFaMUlCMFlZVjZVNk4zenNIN2tpV0NzRDg1aC1SMllQcS1qbjA",
+        "https://www.infobae.com/colombia/2026/10/28/abelardo-de-la-espriella-buscara-que-estados-unidos-elimine-los-aranceles-vinculados-al-tlc-de-que-sirve-tener-el-tlc",
         "https://www.semana.com/economia/macroeconomia/articulo/cero-aranceles-adicionales-la-meta-de-abelardo-de-la-espriella-para-el-comercio-con-estados-unidos/202611"
       ],
       "mergedIds": [
-        "cero-aranceles-adicionales-la-meta-de-abelardo-de-la-espriella-para-el-comercio"
+        "cero-aranceles-adicionales-la-meta-de-abelardo-de-la-espriella-para-el-comercio",
+        "abelardo-de-la-espriella-insistira-para-que-estados-unidos-elimine-los-aranceles"
       ],
       "digest": {
         "lead": "El presidente colombiano Abelardo de la Espriella anunció que su gobierno negociará con Estados Unidos la eliminación de los aranceles adicionales que pagan el acero, el aluminio y otros productos de Colombia, informó Colombia.com el 27 de octubre.",
@@ -1923,44 +2161,6 @@
       }
     },
     {
-      "id": "se-prendio-fuego-un-deposito-de-la-aduana-en-oran",
-      "datetime": "2026-10-27T22:34:28Z",
-      "date": "2026-10-27",
-      "firstSeen": "2026-10-28T10:14:43Z",
-      "title": "Se prendió fuego un depósito de la Aduana en Orán",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Aduanas"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 2,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
-      "sources": [
-        {
-          "name": "Voces Criticas - Salta",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.vocescriticas.com/noticias/2026/10/27/223710-se-prendio-fuego-un-deposito-de-la-aduana-en-oran",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-28T10:14:43Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOVNtd0NBbmd0RFhFN1UtX2ttN2ZLcjlCUENUUG5BNE50YVhQS2FqWkQ3YkVVUm5xLXdhRF9Jd2FWbXNsLTRaWi10VDRGM3JMWjlOYzlvbmtNTUxYU2RfOF9ZS2UxN1VpXzl3cU00N051TXpUX0tuUFJ1elFoRkVWUUNwcU92M2JNdVRZc0k1YnV2ajRlOFFONXNrck92NUtQeEdZMlhaUGxJMHhPd2JZ0gGvAUFVX3lxTFA5U213Q0FuZ3REWEU3VS1fa203ZktyOUJQQ1RQbkE0TnRhWFBLYWpaRDdiRVVSbnEtd2FEX0l3YVZtc2wtNFpaLXRUNEYzckxaOU5jOW9ua01NTFhTZF84X1lLZTE3VWlfOXdxTTQ3TnVNelRfS25QUnV6UWhGRVZRQ3BxT3YzYk11VFlzSTVidXZqNGU4UU41c2tyT3Y1S1B4R1kyWFpQbEkweE93Ylk?oc=5",
-      "digestSkip": {
-        "at": "2026-10-28T09:50:00-03:00",
-        "reason": "fuera de tema (incendio en depósito de mercadería secuestrada, nota policial)"
-      }
-    },
-    {
       "id": "brasil-puerto-de-santos-realizara-simulacro-de-emergencia-por-fuga-de-gas",
       "datetime": "2026-10-27T22:33:35Z",
       "date": "2026-10-27",
@@ -2090,47 +2290,6 @@
       }
     },
     {
-      "id": "las-exportaciones-argentinas-crecieron-21-4-pero-las-ventas-a-brasil-apenas-aume",
-      "datetime": "2026-10-27T22:07:11Z",
-      "date": "2026-10-27",
-      "firstSeen": "2026-10-28T02:12:39Z",
-      "title": "Las exportaciones argentinas crecieron 21,4%, pero las ventas a Brasil apenas aumentaron 4,7%",
-      "summary": "COMERCIO EXTERIOR Un informe de la Universidad Austral revela que, entre enero y agosto de 2026, Brasil perdió peso como destino de las exportaciones argentinas: su participación cayó del 14,9% al 12,8% respecto del mismo período de 2025, aunque continúa siendo el principal comprador de productos nacionales. El…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Latinoamérica"
-      ],
-      "countries": [
-        "Argentina",
-        "Brasil"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Radio Vive",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://radiovive.com.ar/destacadas/2026/10/27/las-exportaciones-argentinas-crecieron-214-pero-las-ventas-a-brasil-apenas-aumentaron-47/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-28T02:12:39Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQjJxU3hhZHNfRzJnQ3hrT2NpUHN5bjk5M3JFRDBjZDB5YlZfWlpVR1BMZG56aWNlWFRrNVhIU2dWdXIwR05wTlUxdlpwWWpqNTNYRWljcDN4TTB2anQ4bzMzT29ROU43Z0RxeGlEOEtfR21ITlF0SkplMkRsc3BxSllWRDVTOTZXR2tmY3ZGV3NiNnZ6aU9aUDloeGRneHlCMEF3bTlDZmhIODZtVUZ5c2Z5ajladlNOZnBULTVJalVpV01YaGlTMzdwek51d3JwLVBrRU5ZXzRmUdIB2gFBVV95cUxNQjJxU3hhZHNfRzJnQ3hrT2NpUHN5bjk5M3JFRDBjZDB5YlZfWlpVR1BMZG56aWNlWFRrNVhIU2dWdXIwR05wTlUxdlpwWWpqNTNYRWljcDN4TTB2anQ4bzMzT29ROU43Z0RxeGlEOEtfR21ITlF0SkplMkRsc3BxSllWRDVTOTZXR2tmY3ZGV3NiNnZ6aU9aUDloeGRneHlCMEF3bTlDZmhIODZtVUZ5c2Z5ajladlNOZnBULTVJalVpV01YaGlTMzdwek51d3JwLVBrRU5ZXzRmUQ?oc=5",
-      "digestSkip": {
-        "at": "2026-10-28T01:00:00-03:00",
-        "reason": "repite el mismo hecho que la nota de ImpulsoBaires (informe de la Universidad Austral)"
-      }
-    },
-    {
       "id": "cancilleria-retoma-conversaciones-en-ee-uu-para-que-mas-productos-chilenos-quede",
       "datetime": "2026-10-27T22:00:17Z",
       "date": "2026-10-27",
@@ -2219,53 +2378,6 @@
         "at": "2026-10-28T01:00:00-03:00",
         "basedOn": "https://portalportuario.cl/one-y-msc-anuncian-primeros-zarpes-para-temporada-exportadora-de-cerezas-chilenas",
         "words": 163
-      }
-    },
-    {
-      "id": "las-exportaciones-argentinas-crecen-pero-brasil-pierde-peso-como-principal-merca",
-      "datetime": "2026-10-27T21:31:12Z",
-      "date": "2026-10-27",
-      "firstSeen": "2026-10-28T02:12:39Z",
-      "title": "Las exportaciones argentinas crecen, pero Brasil pierde peso como principal mercado",
-      "summary": "Brasil sigue primero como destino individual, pero las ventas a Estados Unidos, India y el sudeste asitico crecieron a mayor ritmo.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Latinoamérica",
-        "Estados Unidos",
-        "Asia"
-      ],
-      "countries": [
-        "Argentina",
-        "Brasil",
-        "Estados Unidos",
-        "India"
-      ],
-      "tags": [
-        "Estados Unidos"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "BAE Negocios",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.baenegocios.com/economia/las-exportaciones-argentinas-crecen-pero-brasil-pierde-peso-como-principal-mercado/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-28T02:12:39Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMGRKM1RTTTJmOVM4amViLXkzemhZOXJVVUtrUHpUUlFSbW8xdXhhYW41ZXBPTDB4UjVhZVZiblZDb28yZ1R0OFVWeXZZYzNuS051NDlIR29UVGhkenl0TVZEYlo4NmdsTWQ0WUoyM3Q2SF9lX1gyU0ZkZUpIbnR3VEJCZ2RfYXdaWmwtcFlDYXZ3ZnM0MUw5YTVaZ0l6cERtVV9aXzd1VmFOSEx6STVGRTN0TkI0UFhWMkRtONIBtgFBVV95cUxOU3E2OHh2bGdQSGZtdXFtcXNzQld0UzBpTzhIVlhtLUhvZmY3UTg4N3dCc2dMYUQxUkkzX3lXcjhXblNLcWlzTnVOWkFNZGZFakdwbGtoM01nazRVWkpRWkdlWnBTeTUxeUJvTTV3VTNPWlIyTWNaS2llcHo0Tkxva0xVeTZHdHl2Q3ZwOFJSOEFjdVJ4OUZYNzBybktGTXBkbDlFNWRYYkhzUHljV1ZjM1JqZTRqUQ?oc=5",
-      "digestSkip": {
-        "at": "2026-10-28T01:00:00-03:00",
-        "reason": "repite el mismo hecho que la nota de ImpulsoBaires (informe de la Universidad Austral)"
       }
     },
     {
@@ -2371,6 +2483,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Exportaciones"
       ],
       "countries": [
@@ -3009,84 +3122,6 @@
       }
     },
     {
-      "id": "exportaciones-argentinas-brasil-pierde-participacion-frente-a-ee-uu-china-e-indi",
-      "datetime": "2026-10-27T16:59:14Z",
-      "date": "2026-10-27",
-      "firstSeen": "2026-10-27T18:05:40Z",
-      "title": "Exportaciones argentinas: Brasil pierde participación frente a EE.UU., China e India",
-      "summary": "Aunque sigue liderando las compras de productos argentinos, Brasil redujo su participación mientras avanzan EE.UU. y Asia, según Universidad Austral",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Latinoamérica",
-        "Estados Unidos",
-        "China"
-      ],
-      "countries": [
-        "Argentina",
-        "Brasil",
-        "Estados Unidos",
-        "China",
-        "India"
-      ],
-      "tags": [
-        "China"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "ImpulsoBaires",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.impulsobaires.com.ar/nota/326428/exportaciones-argentinas-brasil-pierde-participacion-frente-a-ee-uu-china-e-india/",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "Paralelo32",
-          "type": "También publicó esta noticia",
-          "url": "https://www.paralelo32.com.ar/brasil-pierde-participacion-en-las-exportaciones-argentinas-mientras-crecen-las-ventas-a-estados-unidos-y-asia",
-          "alsoIn": true,
-          "title": "Brasil pierde participación en las exportaciones argentinas, mientras crecen las ventas a Estados Unidos y Asia"
-        },
-        {
-          "name": "flipr.news",
-          "type": "También publicó esta noticia",
-          "url": "https://flipr.com.ar/buenos-aires/impulsobaires/exportaciones-argentinas-brasil-pierde-participacion-frente-a-ee-uu-china-e-india/",
-          "alsoIn": true,
-          "title": "Exportaciones argentinas: Brasil pierde participación frente a EE.UU., China e India"
-        }
-      ],
-      "gnTried": "2026-10-27T18:05:40Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWmZNUEFYODhOa2J0aUQ4ZW9wTDF6VkJ3blJ2UHRwRkc0VS04Qnh4RmN6MS1WeW9KMno4cWg4M08zcU9HeGwzNDNDUzAyWlVQLVFkaXNKbEtoclhiQ25rRkNZOU5kaVRaRWQ2dWdWQXVGaEd0M0tjcVl4VDZVNVVIMWF0d3JqbWpBcEN4MVc4TFVXX3k4RHZmN0wzcFAzY0xOaVREdHkwRk5YNXVLeTcyYlVXZ2UyT1dsYzkxNFhYVUFlTTNHQmc?oc=5",
-      "digest": {
-        "lead": "Brasil bajó de 14,9% a 12,8% su peso en las exportaciones argentinas de enero-agosto de 2026, aunque sigue como primer destino, mientras crecen Estados Unidos, China e India, según un informe de la Universidad Austral citado por ImpulsoBaires.",
-        "body": [
-          "Las ventas totales sumaron USD 67.248 millones, 21,4% más que un año antes. Las dirigidas a Brasil llegaron a USD 8.578 millones (+4,7%), con unos USD 5.583 millones de manufacturas industriales; las de Estados Unidos treparon 34,5% a USD 6.691 millones, las de China 17,8% a USD 6.155 millones y las de India 25,5% a USD 4.276 millones. Hacia la ASEAN el alza fue de 57,7%.",
-          "El trabajo, firmado por Horacio Augusto Pereira, atribuye buena parte del cambio al salto de combustibles y energía (+48,9%, a USD 10.667 millones), con Neuquén y la Patagonia ganando peso por Vaca Muerta. Las importaciones cayeron 2,6% y el superávit alcanzó USD 18.249 millones, pero la baja en bienes de capital y sus piezas, advierte el informe, abre dudas sobre la inversión productiva."
-        ],
-        "at": "2026-10-27T16:05:00-03:00",
-        "basedOn": "https://www.impulsobaires.com.ar/nota/326428/exportaciones-argentinas-brasil-pierde-participacion-frente-a-ee-uu-china-e-india/",
-        "words": 167
-      },
-      "aliasUrls": [
-        "https://flipr.com.ar/buenos-aires/impulsobaires/exportaciones-argentinas-brasil-pierde-participacion-frente-a-ee-uu-china-e-india",
-        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVU5tM1ppUC1FQXRKMDNiTlJKVGk4cHN2OEUwTGdtUTlYLTdZTkJSaklncVRsS3BVTGl1ZXdQN0ZDWXVyUExtNUZjbFQzYkdSSm45YjNhUGROOGluZ2p1c0RTZzRQQ1VYQnhMOXFZQ1ptVzl3NXlEaWxRc3FYRTgteXlIeUpiLXBUdDBzeEp6NDc5UkhiTzIxMXdtN0toenlDYU13VVBmcHhWeXNTdVFIWTc0Njk1bEczeFVKd1FncXVXUHZPdHM5ZnZRVXNoc3lxRHFnY0N6UQ",
-        "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWnJlVGJTeWtqVnZMazJVTHJMQmI1ck1sWEktUzVQX1JuSkRoNFFfZGlUUUVtVDVDNXlKd05CQTRwNWVOZ1hqa0JCLXgtVHJwREVXRUZ5a1BXTFplMXQwWWVMd1NBcmwtWnc0U1ltY0dpbmswMmJQZHU0dG9XcUJ1cjljTzRCOExsYmY1YWR2czZJUFdYYlQ3WlFzb3BnTDRUbTB6eTJfTmhaT2trV3R6YTVmSE5FZ1V1a0RsbjlKdU92UnprckRGcWxB",
-        "https://www.paralelo32.com.ar/brasil-pierde-participacion-en-las-exportaciones-argentinas-mientras-crecen-las-ventas-a-estados-unidos-y-asia"
-      ],
-      "mergedIds": [
-        "brasil-pierde-participacion-en-las-exportaciones-argentinas-mientras-crecen-las",
-        "exportaciones-argentinas-brasil-pierde-participacion-frente-a-ee-uu-china-e--2"
-      ]
-    },
-    {
       "id": "la-carga-aerea-busca-aviones-se-necesitan-miles-de-cargueros-hasta-el-2045",
       "datetime": "2026-10-27T16:52:10Z",
       "date": "2026-10-27",
@@ -3225,10 +3260,12 @@
       "keyData": [],
       "topics": [
         "Argentina",
-        "Exportaciones"
+        "Exportaciones",
+        "Europa"
       ],
       "countries": [
-        "Argentina"
+        "Argentina",
+        "Unión Europea"
       ],
       "tags": [],
       "visual": "customs",
@@ -4744,46 +4781,6 @@
       }
     },
     {
-      "id": "el-campo-valenciano-sufre-la-cara-b-de-mercosur-y-los-citricos-piden-auxilio-en",
-      "datetime": "2026-10-27T05:25:53Z",
-      "date": "2026-10-27",
-      "firstSeen": "2026-10-27T10:06:58Z",
-      "title": "El campo valenciano sufre la cara B de Mercosur y los cítricos piden auxilio en Europa",
-      "summary": "VALÈNCIA. El sector agrario de la Comunitat Valenciana ha puesto este lunes el farolillo rojo sobre Europa. ¿El motivo? El revés que están sufriendo dos...",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Mercosur"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "fruit",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Castellón Plaza",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://castellonplaza.com/castellonplaza/comunitat/el-campo-valenciano-sufre-la-cara-b-de-mercosur-y-los-citricos-piden-auxilio-en-europa",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-27T10:06:58Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZUhiU25UN3cybFc1SzJvcUl6VGp1OS1wWXc1ckZZVEtITC1VV1hLX3ktMFZhdjdPVzdZQWRXY2FoQWZUclRodVJqTXFCZzU3bXpQbzBBQlVjQnMxZWtPZHZBS0xvQzMtMFBxWVctU2NqdUNvRXRpalRTS1pJcjZQNGVDU0hBSEtpNHpBZE1kSDFBM3YwZ2hUazZqcko2YXpZMTBaaC1qMHA0aWtFTFJ5UHB2akdxOWNUS1pDSTFkR2xZc29yazRjS3ZJVk9SQ2h6ZkU3aA?oc=5",
-      "digestSkip": {
-        "at": "2026-10-27T13:05:00-03:00",
-        "reason": "no se pudo abrir la página con la herramienta de lectura en esta corrida"
-      }
-    },
-    {
       "id": "los-cuatro-indices-mas-importantes-del-trafico-mundial-maritimo-se-disparan-y-en",
       "datetime": "2026-10-27T05:25:53Z",
       "date": "2026-10-27",
@@ -4884,6 +4881,56 @@
         "basedOn": "https://www.puentedemando.com/sierra-leona-crea-naviera-slosco-flota-50-buques/",
         "words": 126
       }
+    },
+    {
+      "id": "el-campo-valenciano-sufre-la-cara-b-de-mercosur-y-los-citricos-piden-auxilio-2",
+      "datetime": "2026-10-27T05:06:20Z",
+      "date": "2026-10-27",
+      "firstSeen": "2026-10-28T14:19:57Z",
+      "title": "El campo valenciano sufre la cara B de Mercosur y los cítricos piden auxilio en Europa",
+      "summary": "VALÈNCIA. El sector agrario de la Comunitat Valenciana ha puesto este lunes el farolillo rojo sobre Europa. ¿El motivo? El revés que están sufriendo dos...",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Mercosur"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "fruit",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Valencia Plaza",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/el-campo-valenciano-sufre-la-cara-b-de-mercosur-y-los-citricos-piden-auxilio-en-europa",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Castellón Plaza",
+          "type": "También publicó esta noticia",
+          "url": "https://castellonplaza.com/castellonplaza/comunitat/el-campo-valenciano-sufre-la-cara-b-de-mercosur-y-los-citricos-piden-auxilio-en-europa",
+          "alsoIn": true,
+          "title": "El campo valenciano sufre la cara B de Mercosur y los cítricos piden auxilio en Europa"
+        }
+      ],
+      "gnTried": "2026-10-28T14:19:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNQkQ4MElTekJDWEt0OVM3Zmw5SndER0FXT2FuZmVaa01vRWFKek9DSTNIYzVzTHdvckdZbnRfdFFnTWJLWWVKeHFHNUxqTWJtSFdPRldlV3hTbnlXcTVXV0JqY3hkdE1Gc1JzVURFUDk5NFpvUFNLNVM0N1JxbXRVdmMybmcyUXVyTXhTQUJSaEFCWWQ3MWZpQlZaYjk1UGJjczlaTXUxV2xHRDk0cTBFX2tnUmd6amlCU3o2SWp6d3A3SFVMMmd2aGs2Y1dFYnd4dkRJX1RRZU1yTm1oYzFPdXFn?oc=5",
+      "aliasUrls": [
+        "https://castellonplaza.com/castellonplaza/comunitat/el-campo-valenciano-sufre-la-cara-b-de-mercosur-y-los-citricos-piden-auxilio-en-europa",
+        "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZUhiU25UN3cybFc1SzJvcUl6VGp1OS1wWXc1ckZZVEtITC1VV1hLX3ktMFZhdjdPVzdZQWRXY2FoQWZUclRodVJqTXFCZzU3bXpQbzBBQlVjQnMxZWtPZHZBS0xvQzMtMFBxWVctU2NqdUNvRXRpalRTS1pJcjZQNGVDU0hBSEtpNHpBZE1kSDFBM3YwZ2hUazZqcko2YXpZMTBaaC1qMHA0aWtFTFJ5UHB2akdxOWNUS1pDSTFkR2xZc29yazRjS3ZJVk9SQ2h6ZkU3aA"
+      ],
+      "mergedIds": [
+        "el-campo-valenciano-sufre-la-cara-b-de-mercosur-y-los-citricos-piden-auxilio-en"
+      ]
     },
     {
       "id": "economia-azul-genera-usd-26-mil-millones-en-comunitat-valenciana",
@@ -5021,6 +5068,161 @@
       },
       "aliasUrls": [
         "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUDF1NUF5TndQQjRNU0dfbFh4RXB5VlJKNHVfMDdxMGFnTWxUajBSaWkxRkZLLWdhTEVJRU9xQ2drVnZ3SjlabTdoanZ1MzFYLXNtdXN4X0I0cG9QQjQ4Y1BSMzJfR0swOGNWalFiRk5Gcjh3Yzg2Q25RLXVueUk3THVyU3JFV01rM3J5cnl1cVI3Q2I0cy15Sy1BS1h6SF9pQ1E5ZlA2eTBjY1lucHl4RVllTlZneEVlWVY3TVhQQW1xeTJIbl9V"
+      ]
+    },
+    {
+      "id": "exportaciones-argentinas-destinos-enero-septiembre-2026-brasil-pierde-peso-estados-unidos-india",
+      "date": "2026-10-27",
+      "kind": "datos",
+      "story": "balanza-argentina",
+      "title": "Brasil pierde peso como destino de las exportaciones argentinas y Estados Unidos ya compra el 10%",
+      "summary": "Las ventas a Brasil crecieron 4,5% en enero–septiembre, contra 21,6% del total, y su participación bajó a 12,7%, según el CEI de la Cancillería. Estados Unidos (+35,2%), la Unión Europea, India y la ASEAN ganan terreno, en un cambio que un informe de la Universidad Austral atribuye a la energía y la agroindustria.",
+      "body": [
+        "Brasil sigue siendo el principal comprador de productos argentinos, pero pesa cada vez menos en las ventas externas. Según un informe del Centro de Estrategias Internacionales de Gobiernos y Organizaciones (CIG) de la Escuela de Gobierno de la Universidad Austral, firmado por Horacio Augusto Pereira, entre enero y agosto de 2026 las exportaciones a Brasil sumaron USD 8.578 millones, 4,7% más que un año antes, mientras el total creció 21,4%, a USD 67.248 millones. Así, la participación brasileña bajó de 14,9% a 12,8%.",
+        "Los datos oficiales del INDEC hasta septiembre, que resume el Centro de Economía Internacional (CEI) de la Cancillería, muestran la misma tendencia: en los nueve meses, las ventas a Brasil subieron 4,5%, a USD 9.789 millones, y representaron el 12,7% del total, frente a un crecimiento general de 21,6%, hasta USD 77.267 millones.",
+        "## Quiénes ganan peso",
+        "El mayor salto entre los grandes destinos fue el de Estados Unidos: según el CEI, las exportaciones a ese país crecieron 35,2% en enero–septiembre, a USD 7.708 millones, ya equivalen al 10% del total y dejan un superávit bilateral de USD 2.547 millones. Le siguen la Unión Europea, con USD 7.180 millones (+18,1%), y China, con USD 7.146 millones (+9,6%). India sumó USD 4.712 millones (+17,3%) y un saldo favorable de USD 3.788 millones, el segundo más alto después del de Chile (USD 4.351 millones). Las ventas a la ASEAN aumentaron 64,5%, y solo a Vietnam llegaron a USD 2.759 millones (+24,2%).",
+        "El informe de la Universidad Austral, con datos hasta agosto, muestra el mismo orden: Estados Unidos +34,5% (USD 6.691 millones), India +25,5% (USD 4.276 millones), China +17,8% (USD 6.155 millones) y ASEAN +57,7%. Las diferencias con el CEI en China e India se explican porque los trabajos cubren distintos meses: en septiembre, las ventas a China cayeron 23,8% y las de India, 28,6%, según la Cancillería.",
+        "## Qué explica el cambio",
+        "Según Pereira, la menor participación de Brasil no responde solo a una caída de la demanda industrial: también pesa el crecimiento de la energía y la agroindustria. Combustibles y energía exportaron USD 10.667 millones en los primeros ocho meses, 48,9% más, con el petróleo crudo en alza de 54,7%. Neuquén pasó de USD 107 millones en enero–agosto de 2015 a USD 6.031 millones en el mismo período de 2026, y la Patagonia elevó su participación en las exportaciones de las cinco regiones de 8,2% a 18,1%. Los datos del CEI confirman que el crudo fue el producto con mayor aumento en los nueve meses (USD 2.864 millones más), seguido por el maíz, el oro sin labrar y el carbonato de litio.",
+        "Brasil, en cambio, sigue siendo el mercado clave para la industria: de los USD 8.578 millones exportados hasta agosto, unos USD 5.583 millones, cerca del 65%, fueron manufacturas de origen industrial.",
+        "## Importaciones y saldos",
+        "Del lado de las compras, Brasil explicó el 21,4% de las importaciones de enero–septiembre, detrás de China (23,3%). Las importaciones desde Brasil cayeron 17%, a USD 12.005 millones, y el saldo bilateral fue deficitario en USD 2.216 millones, según el CEI. Con China el rojo es mayor: USD 5.901 millones. En total, las importaciones bajaron 2,5% y el superávit llegó a USD 21.198 millones. El informe de la Universidad Austral advierte que la caída de las compras de bienes de capital (-5,9%) y de sus piezas y accesorios (-19,2%) hasta agosto genera dudas sobre la inversión productiva y la sostenibilidad del crecimiento exportador.",
+        "## Qué sigue",
+        "El INDEC publicará el 19 de noviembre el intercambio comercial argentino de octubre, con el que se actualizarán las cifras por destino."
+      ],
+      "keyData": [
+        [
+          "Participación de Brasil en las exportaciones",
+          "12,7% en enero–septiembre (CEI)"
+        ],
+        [
+          "Exportaciones a Brasil, enero–septiembre",
+          "USD 9.789 millones (+4,5%)"
+        ],
+        [
+          "Exportaciones totales, enero–septiembre",
+          "USD 77.267 millones (+21,6%)"
+        ],
+        [
+          "Exportaciones a Estados Unidos",
+          "USD 7.708 millones (+35,2%)"
+        ],
+        [
+          "Exportaciones a India",
+          "USD 4.712 millones (+17,3%)"
+        ],
+        [
+          "Exportaciones a la ASEAN",
+          "+64,5%"
+        ],
+        [
+          "Participación de Brasil, enero–agosto",
+          "De 14,9% a 12,8% (Universidad Austral)"
+        ]
+      ],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Mercosur",
+        "Estados Unidos",
+        "Asia",
+        "Economía internacional"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil",
+        "Estados Unidos",
+        "China",
+        "India",
+        "Vietnam",
+        "Chile"
+      ],
+      "tags": [
+        "INDEC",
+        "CEI",
+        "Cancillería",
+        "Universidad Austral",
+        "Destinos de exportación",
+        "Vaca Muerta",
+        "Balanza comercial"
+      ],
+      "visual": "chart",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "La diversificación de destinos reduce la dependencia de Brasil, pero la industria sigue atada a ese mercado: cerca del 65% de lo que se le vende son manufacturas industriales.",
+      "argentinaImpact": {
+        "change": "Las exportaciones a Brasil crecen mucho menos que el total y su participación bajó a 12,7% en enero–septiembre, mientras suben las ventas a Estados Unidos, la UE, India y la ASEAN.",
+        "who": "Exportadores industriales con Brasil como principal mercado, exportadores de energía, minería y agroindustria y las provincias patagónicas.",
+        "sectors": [
+          "Petróleo y gas",
+          "Manufacturas industriales",
+          "Agroindustria",
+          "Minería"
+        ],
+        "flows": {
+          "importaciones": true,
+          "exportaciones": true,
+          "logistica": false,
+          "aranceles": false
+        }
+      },
+      "explainer": {
+        "what": "La participación de Brasil en las exportaciones argentinas bajó a 12,7% en enero–septiembre de 2026, porque las ventas a ese país crecieron 4,5% contra 21,6% del total.",
+        "why": "Muestra un cambio en el mapa exportador: Estados Unidos ya compra el 10% y crecen India y la ASEAN, impulsados por la energía y la agroindustria, mientras Brasil sigue siendo el destino central de la industria.",
+        "who": "Exportadores industriales que dependen de Brasil, exportadores de petróleo, maíz, oro y litio, y las provincias de la Patagonia.",
+        "products": [
+          "Petróleo crudo",
+          "Maíz",
+          "Oro",
+          "Carbonato de litio",
+          "Manufacturas industriales"
+        ],
+        "next": "El INDEC publicará el 19 de noviembre el intercambio comercial de octubre.",
+        "nextSource": {
+          "name": "INDEC: calendario del segundo semestre de 2026",
+          "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf"
+        }
+      },
+      "deadlines": [
+        {
+          "date": "2026-11-19",
+          "label": "INDEC: intercambio comercial argentino de octubre, con exportaciones por destino",
+          "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf"
+        }
+      ],
+      "absorbs": [
+        "las-exportaciones-argentinas-crecieron-21-4-pero-las-ventas-a-brasil-apenas-aume",
+        "las-exportaciones-argentinas-crecen-pero-brasil-pierde-peso-como-principal-merca",
+        "exportaciones-argentinas-brasil-pierde-participacion-frente-a-ee-uu-china-e-indi"
+      ],
+      "sources": [
+        {
+          "name": "Cancillería (CEI): Intercambio comercial argentino, enero–septiembre de 2026",
+          "type": "Organismo oficial",
+          "url": "https://cancilleria.gob.ar/es/cei/actualidad/intercambio-comercial-argentino-enero-septiembre-2026",
+          "primary": true
+        },
+        {
+          "name": "Cancillería (CEI): presentación con datos a septiembre",
+          "type": "Organismo oficial",
+          "url": "https://cancilleria.gob.ar/userfiles/ut/2026-10_presentacion_ica_datos_a_septiembre_0.pdf"
+        },
+        {
+          "name": "Paralelo32 (informe de la Universidad Austral)",
+          "type": "Medio de comunicación",
+          "url": "https://www.paralelo32.com.ar/brasil-pierde-participacion-en-las-exportaciones-argentinas-mientras-crecen-las-ventas-a-estados-unidos-y-asia"
+        },
+        {
+          "name": "BAE Negocios",
+          "type": "Medio de comunicación",
+          "url": "https://www.baenegocios.com/economia/las-exportaciones-argentinas-crecen-pero-brasil-pierde-peso-como-principal-mercado/"
+        },
+        {
+          "name": "INDEC: calendario del segundo semestre de 2026",
+          "type": "Organismo oficial",
+          "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf"
+        }
       ]
     },
     {
@@ -5600,6 +5802,46 @@
         "basedOn": "https://portalportuario.cl/actividad-de-transporte-y-produccion-de-puerto-de-ningbo-zhoushan-alcanza-record-en-septiembre",
         "words": 185
       }
+    },
+    {
+      "id": "la-ue-planea-imponer-mas-restricciones-a-las-importaciones-de-china",
+      "datetime": "2026-10-27T01:45:48Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-28T14:19:57Z",
+      "title": "La UE planea imponer más restricciones a las importaciones de China",
+      "summary": "Podrían adoptar la forma de límites a las importaciones o aranceles en el primer trimestre del 2027. ...",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones",
+        "China",
+        "Asia",
+        "Europa"
+      ],
+      "countries": [
+        "China",
+        "Unión Europea"
+      ],
+      "tags": [
+        "China"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "radio3caseros.com.ar",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.radio3caseros.com.ar/articulo/la-ue-planea-imponer-mas-restricciones-a-las-importaciones-de-china.php",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-28T14:19:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPS2VOZUF3VE5LbWVibE9SNmRVZkZGX2k3Y0VHWEZVYmVsZnBfdjZ1WFhuOUZWQjA0MTZ1RVV6Y3dUeHhRR3FkV3JuOTFSZ2k3MGtIam9lZjJIeUpNVXcybThlWXQ3SGtmOGVTUDBub0lackNFeDl0dmlYWEhtbDZCMHQ1MkNxQWZLMXpQSXFvN1Q0TmlwWEtPNEZ1X1hmWHdXVWJDT2ZCSEVDR0FzRjlOMzV0NA?oc=5"
     },
     {
       "id": "stena-ab-firma-acuerdo-para-adquirir-naviera-noruega-color-line",
@@ -7660,6 +7902,56 @@
       }
     },
     {
+      "id": "el-impacto-del-triunfo-de-lula-en-el-comercio-exterior-que-puede-pasar-con-argen",
+      "datetime": "2026-10-26T15:03:08Z",
+      "date": "2026-10-26",
+      "firstSeen": "2026-10-28T14:19:57Z",
+      "title": "El impacto del triunfo de Lula en el comercio exterior: qué puede pasar con Argentina",
+      "summary": "La evolución del real, la respuesta de los mercados y las condiciones del intercambio bilateral serán algunas de las var...",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "Agencia Hoy",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.agenciahoy.com/index.php/noticia/el-impacto-del-triunfo-de-lula-en-el-comercio-exterior-que-puede-pasar-con-argentina",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Radio Regional",
+          "type": "También publicó esta noticia",
+          "url": "https://radioregional.com.ar/mendoza-aseguran-que-el-triunfo-de-lula-en-brasil-puede-ser-positivo-para-el-comercio-exterior-de-la-provincia/",
+          "alsoIn": true,
+          "title": "Mendoza: Aseguran que el triunfo de Lula en Brasil puede ser positivo para el comercio exterior de la provincia"
+        }
+      ],
+      "gnTried": "2026-10-28T14:19:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNallQOE93MFR4dmFZUG1SVFROczIxWmh2WnZmeHA3S0JMZW9EeTVvbGI3dHRDSnltSTFoYnktTGpNVkR3WlVfczNSYm1tZklJTHlNSG9wTkR1dzMxM2ZUZjhfTl83Wm1wb1puWDd5cEhBck9NWnFtV2lUTWVzUHBJSWZuNnlWVEg2UzhEbk1oeFpndkdkSm1hazVPUktDX281a2JfcUF0ZkdnaWEzckRkc2p4cEZxMFA2Vll4cjJhRkNEWFQxNXo3ag?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaUR5V1ByZHlBbnY0V3JiMEpROFk2aWNGWFh1amZTTXRjRS02aGRxdVdRODR4eWdSelMyTWFWR3VyUGF6Qk11QkUzcm9fbE5yMkRld0VqWlJ1T2JqT3dSelFwMDdLUEhTR1EyY01CYVlhWjk1Z2JLYnUyQWZTc1BVVGVFVjZXdDVqeTVJak42OS01ajRwc041OF9RMlpxRGhFaUdZRm85UkpnOFQxU0h6OFZnNnVGSWRDZTlLZnoxanBYejJiaTBMSGV4SDJ0S0c4Y3owcUJfMA",
+        "https://radioregional.com.ar/mendoza-aseguran-que-el-triunfo-de-lula-en-brasil-puede-ser-positivo-para-el-comercio-exterior-de-la-provincia"
+      ],
+      "mergedIds": [
+        "mendoza-aseguran-que-el-triunfo-de-lula-en-brasil-puede-ser-positivo-para-el-com"
+      ]
+    },
+    {
       "id": "acuerdo-comercial-con-eu-va-avanzando-pero-hay-que-esperar-sheinbaum",
       "datetime": "2026-10-26T14:57:00Z",
       "date": "2026-10-26",
@@ -9505,6 +9797,160 @@
         "union-europea-felicita-a-lula-tras-ganar-las-elecciones-de-brasil-2026-y-destaca",
         "el-triunfo-de-lula-sacude-los-mercados-como-impacta-en-argentina-para-turismo-y",
         "el-triunfo-de-lula-renueva-las-dudas-sobre-las-exportaciones-argentinas"
+      ]
+    },
+    {
+      "id": "eeuu-ustr-propone-extender-suspension-tasas-portuarias-buques-chinos-9-enero-2027",
+      "date": "2026-10-26",
+      "kind": "noticia",
+      "story": "aranceles-eeuu",
+      "title": "EE.UU. propone extender hasta el 9 de enero la pausa de las tasas portuarias a buques chinos",
+      "summary": "La USTR publicó en el Federal Register un pedido de comentarios para prorrogar dos meses la suspensión de las tasas de la Sección 301 a buques operados, de propiedad o construidos en China, que vence el 9 de noviembre. Los comentarios se reciben hasta el 30 de octubre.",
+      "body": [
+        "La Oficina del Representante Comercial de Estados Unidos (USTR) propuso extender por dos meses, hasta el 9 de enero de 2027, la suspensión de las tasas portuarias que había fijado para los buques operados, de propiedad o construidos en China, en el marco de la investigación por Sección 301 sobre los sectores marítimo, logístico y naval de ese país. El aviso, que pide comentarios del público, se publicó en el Federal Register el 26 de octubre. Los interesados pueden opinar hasta las 17 (hora del Este) del 30 de octubre en el expediente USTR-2026-0694, según la Oficina de Defensa de la Pequeña Empresa (SBA Advocacy).",
+        "La suspensión vigente vence a las 23:59 del 9 de noviembre de 2026. Si la extensión se aprueba, la nueva pausa correría desde las 0 del 10 de noviembre hasta las 23:59 del 9 de enero de 2027, según el resumen del estudio Holland & Knight. De acuerdo con KPMG, la USTR difundió el pedido el 23 de octubre, antes de su publicación oficial. El organismo justificó la prórroga en la necesidad de seguir negociando con China para obtener la eliminación de las prácticas investigadas.",
+        "## Qué quedaría en suspenso",
+        "La pausa alcanza a los cargos sobre servicios de transporte marítimo de los Anexos I, II y III del aviso del 23 de abril de 2025, modificado el 16 de octubre de 2025, y a los derechos de importación del Anexo V.A de ese último aviso. Según Platts, citado por Hellenic Shipping News, la tarifa para los buques de propiedad u operados por empresas chinas era de USD 50 por tonelada neta por viaje, y la de los buques construidos en China, de USD 18 por tonelada neta o USD 120 por contenedor descargado. La propuesta inicial de 2025 era mucho más dura: llegaba a USD 1,5 millones por cada entrada a puerto de un buque de construcción china.",
+        "Según la guía de la plataforma logística Tradlinx, el Anexo III corresponde a los buques portavehículos y el Anexo V.A, a aranceles adicionales de 100% sobre grúas de muelle (ship-to-shore), ciertos chasis intermodales y sus partes. El esquema original preveía subas escalonadas: el cargo del Anexo I iba a pasar a USD 80 por tonelada neta en abril de 2026 y a USD 110 en abril de 2027, y el de los buques construidos en China, a USD 23 y USD 28. Las tasas se cobran al llegar al primer puerto estadounidense, con un máximo de cinco cobros por buque por año. Tradlinx advierte que los avisos no aclaran qué escalón se aplicaría si las tasas se reanudaran.",
+        "## Cómo se llegó hasta acá",
+        "La USTR abrió la investigación en abril de 2024, resolvió aplicar medidas el 17 de abril de 2025 y las publicó el 23 de ese mes. Las tasas empezaron a cobrarse el 14 de octubre de 2025. Tras el acuerdo comercial entre Donald Trump y Xi Jinping, anunciado por la Casa Blanca el 1 de noviembre de 2025, Washington suspendió las medidas por un año desde el 10 de noviembre de 2025. Según el estudio Thompson Hine, el aviso de suspensión aclaraba que la pausa dependía del compromiso de China de seguir negociando sobre los temas de la investigación.",
+        "Según Maritime Executive, China había calificado la política estadounidense de proteccionista, respondió con tasas recíprocas para los buques de navieras de Estados Unidos y habría puesto la suspensión como condición de su compromiso de comprar productos agrícolas estadounidenses. Tradlinx indica que Pekín suspendió sus propias tasas especiales por un período equivalente de un año.",
+        "## Por qué importa para el transporte marítimo",
+        "Las tasas apuntaban a una porción creciente de la flota mundial. Según datos del Ministerio de Industria y Tecnología de la Información de China citados por Maritime Executive, los astilleros chinos se quedaron con el 81,8% de los pedidos mundiales de buques nuevos en los primeros nueve meses del año, con más de 175 millones de toneladas de porte bruto contratadas, 163% más que un año antes. Los exportadores estadounidenses de carbón, con pocas alternativas a los buques de construcción china, se alarmaron cuando se propusieron las tasas, y el National Coal Council recomendó volver permanente la suspensión, según Platts.",
+        "En septiembre, una coalición de asociaciones empresarias le escribió al titular de la USTR, Jamieson Greer, para advertir que un cobro sobre buques construidos en China o vinculados con ese país podía desestabilizar las cadenas de suministro transpacíficas, según Marine Insight. Maritime Executive, por su parte, recoge que los analistas del mercado esperan que las importaciones estadounidenses desde China se desaceleren en lo que queda del año, después de que los cargadores adelantaran envíos por la incertidumbre sobre las tasas y los aranceles.",
+        "## Qué sigue",
+        "La USTR analizará los comentarios que reciba hasta el 30 de octubre antes de decidir. Según Platts, la propuesta llega después de una reunión de Trump y Xi en septiembre y antes de un nuevo encuentro previsto para noviembre, que podría influir en el resultado. Marine Insight remarca que la extensión es temporal y que lo que ocurra después de enero de 2027 dependerá de las conversaciones bilaterales. Si la suspensión no se prorroga, las tasas y los derechos volverían a aplicarse desde el 10 de noviembre."
+      ],
+      "keyData": [
+        [
+          "Nueva fecha propuesta de fin de la pausa",
+          "9 de enero de 2027"
+        ],
+        [
+          "Vencimiento actual de la suspensión",
+          "9 de noviembre de 2026"
+        ],
+        [
+          "Plazo para comentarios",
+          "30 de octubre de 2026, 17 h (hora del Este)"
+        ],
+        [
+          "Tasa a buques de empresas chinas",
+          "USD 50 por tonelada neta (Platts)"
+        ],
+        [
+          "Tasa a buques construidos en China",
+          "USD 18 por tonelada neta o USD 120 por contenedor (Platts)"
+        ],
+        [
+          "Arancel a grúas de muelle chinas (Anexo V.A)",
+          "100% adicional, en suspenso (Tradlinx)"
+        ],
+        [
+          "Participación china en pedidos de buques nuevos",
+          "81,8% en nueve meses (MIIT, vía Maritime Executive)"
+        ]
+      ],
+      "topics": [
+        "Estados Unidos",
+        "China",
+        "Transporte marítimo",
+        "Puertos",
+        "Geopolítica y comercio",
+        "Regulaciones"
+      ],
+      "countries": [
+        "Estados Unidos",
+        "China"
+      ],
+      "tags": [
+        "USTR",
+        "Sección 301",
+        "Tasas portuarias",
+        "Construcción naval",
+        "Navieras",
+        "Federal Register",
+        "Trump",
+        "Xi Jinping"
+      ],
+      "visual": "ship",
+      "impact": 2,
+      "affectsArgentina": false,
+      "explainer": {
+        "what": "La USTR propuso extender dos meses, hasta el 9 de enero de 2027, la suspensión de las tasas portuarias de la Sección 301 a buques vinculados con China, que vence el 9 de noviembre.",
+        "why": "Si la pausa no se prorroga, volverían a cobrarse cargos de USD 50 por tonelada neta a buques de empresas chinas y de USD 18 por tonelada neta o USD 120 por contenedor a los construidos en China, además de un arancel de 100% a grúas de muelle chinas.",
+        "who": "Navieras con buques chinos o construidos en China que escalan en Estados Unidos, transportistas de vehículos, importadores de grúas de muelle chinas y los cargadores de esas rutas.",
+        "products": [
+          "Servicios de transporte marítimo",
+          "Buques portavehículos",
+          "Grúas de muelle",
+          "Chasis intermodales"
+        ],
+        "next": "La USTR recibe comentarios hasta el 30 de octubre; si aprueba la extensión, la pausa correrá del 10 de noviembre de 2026 al 9 de enero de 2027.",
+        "nextSource": {
+          "name": "SBA Office of Advocacy",
+          "url": "https://advocacy.sba.gov/2026/10/27/ustr-seeks-comments-on-further-suspension-of-section-301-action-on-chinas-maritime-logistics-and-shipbuilding-sectors/"
+        }
+      },
+      "deadlines": [
+        {
+          "date": "2026-10-30",
+          "label": "EE.UU.: vence el plazo de comentarios a la USTR sobre la extensión de la pausa de tasas portuarias a buques chinos",
+          "url": "https://advocacy.sba.gov/2026/10/27/ustr-seeks-comments-on-further-suspension-of-section-301-action-on-chinas-maritime-logistics-and-shipbuilding-sectors/"
+        },
+        {
+          "date": "2026-11-10",
+          "label": "EE.UU.: empezaría la extensión de la pausa de tasas portuarias a buques chinos, si la USTR la aprueba (si no, vuelven a cobrarse)",
+          "url": "https://advocacy.sba.gov/2026/10/27/ustr-seeks-comments-on-further-suspension-of-section-301-action-on-chinas-maritime-logistics-and-shipbuilding-sectors/"
+        },
+        {
+          "date": "2027-01-09",
+          "label": "EE.UU.: terminaría la pausa de las tasas portuarias a buques chinos, si se aprueba la extensión propuesta por la USTR",
+          "url": "https://advocacy.sba.gov/2026/10/27/ustr-seeks-comments-on-further-suspension-of-section-301-action-on-chinas-maritime-logistics-and-shipbuilding-sectors/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "SBA Office of Advocacy (resumen del aviso de la USTR en el Federal Register)",
+          "type": "Organismo oficial",
+          "url": "https://advocacy.sba.gov/2026/10/27/ustr-seeks-comments-on-further-suspension-of-section-301-action-on-chinas-maritime-logistics-and-shipbuilding-sectors/",
+          "primary": true
+        },
+        {
+          "name": "Holland & Knight",
+          "type": "Estudio jurídico",
+          "url": "https://www.hklaw.com/en/insights/publications/2026/10/ustr-proposes-2-month-extension-of-suspension-of-section-301"
+        },
+        {
+          "name": "KPMG",
+          "type": "Consultora",
+          "url": "https://kpmg.com/us/en/taxnewsflash/news/2026/10/ustr-china-maritime-suspension.html"
+        },
+        {
+          "name": "Hellenic Shipping News (Platts)",
+          "type": "Medio especializado",
+          "url": "https://www.hellenicshippingnews.com/ustr-proposes-extending-port-fee-suspension-on-china-linked-ships-to-january/"
+        },
+        {
+          "name": "Maritime Executive",
+          "type": "Medio especializado",
+          "url": "https://maritime-executive.com/article/port-fees-for-chinese-built-ships-and-shipping-to-be-delayed-by-ustr"
+        },
+        {
+          "name": "Marine Insight",
+          "type": "Medio especializado",
+          "url": "https://www.marineinsight.com/u-s-proposes-extending-port-fee-freeze-on-chinese-ships-to-january-2027/"
+        },
+        {
+          "name": "Tradlinx",
+          "type": "Medio especializado",
+          "url": "https://blogs.tradlinx.com/what-returns-on-november-10-when-the-china-ship-fee-suspension-expires/"
+        },
+        {
+          "name": "Thompson Hine",
+          "type": "Estudio jurídico",
+          "url": "https://www.thompsonhinesmartrade.com/2025/11/ustr-announces-one-year-suspension-of-section-301-countermeasures-targeting-chinas-maritime-logistics-and-shipbuilding-sectors/"
+        }
       ]
     },
     {
@@ -23296,6 +23742,160 @@
         "at": "2026-10-22T09:56:00-03:00",
         "reason": "fuera de tema (decomiso de drogas en Ezeiza)"
       }
+    },
+    {
+      "id": "arca-rg-5914-posterga-120-dias-granos-envases-10-kg-trafico-vecinal-fronterizo",
+      "date": "2026-10-22",
+      "kind": "noticia",
+      "story": "arca-normativa",
+      "title": "ARCA posterga 120 días la prohibición de sacar granos y envases de 10 kg por el tráfico vecinal fronterizo",
+      "summary": "Con la RG 5914/2026, publicada el 22 de octubre, ARCA difirió por 120 días corridos dos de las restricciones que la RG 5910 había sumado al régimen de frontera: la salida de trigo, soja y maíz y la de mercadería en envases de 10 kg o más. El tope de USD 150 por día y por poblador sigue vigente.",
+      "body": [
+        "La Agencia de Recaudación y Control Aduanero (ARCA) postergó por 120 días corridos dos de las restricciones que había sumado este mes al régimen de tráfico vecinal fronterizo: la prohibición de sacar del país trigo, soja y maíz y la de llevar mercadería en envases de 10 kilos o más. Lo hizo con la Resolución General 5914/2026, firmada el 21 de octubre por el titular del organismo, Andrés Vázquez, y publicada en el Boletín Oficial el jueves 22, día en que entró en vigencia.",
+        "La pausa no deroga esas prohibiciones. Según el artículo 1° de la norma, los incisos c) y d) del punto 7 del Anexo IV «A» de la Resolución 2604 de la ex Administración Nacional de Aduanas se aplicarán a partir de los 120 días corridos desde la entrada en vigencia de la RG 5910, que rige desde el 10 de octubre. El resto de los cambios de esa resolución, incluido el tope de USD 150 por día y por poblador, siguen en pie.",
+        "## Qué se posterga y qué sigue vigente",
+        "La RG 5910, publicada el 9 de octubre, reescribió la lista de mercaderías que no pueden salir por este régimen, pensado para que los residentes de localidades fronterizas de países limítrofes compren en la Argentina para su consumo personal o familiar. Sumó dos exclusiones nuevas, los granos en todas sus formas y los productos en envases de 10 kg o más o su equivalente en volumen, y mantuvo las prohibiciones previas, como la de llevar combustible en bidones, tanques suplementarios u otros recipientes.",
+        "Según el resumen de Fracran, que sigue el comercio de frontera en Misiones, la postergación alcanza solo a esos dos incisos: el límite diario de USD 150 por persona y la restricción a los combustibles continúan aplicándose, y el régimen sigue sin poder usarse con fines comerciales o industriales. La pausa tampoco crea un cupo de compra nuevo ni modifica las franquicias de quienes ingresan al país con compras hechas en Brasil o Paraguay. Algunos medios provinciales presentaron la decisión como una postergación de todos los cambios, pero el texto oficial solo difiere los dos incisos.",
+        "## Hasta cuándo rige la pausa",
+        "Las fuentes no coinciden en la fecha exacta en que volverán a regir las prohibiciones, porque la norma no fija un día calendario. La novedad publicada por ARCA habla de 120 días corridos contados a partir del 10 de octubre, lo que lleva la aplicación a comienzos de febrero de 2027. El Intra, en cambio, estimó que si el plazo se contara desde la publicación de la nueva resolución la pausa vencería a mediados de febrero, en plena antesala de las elecciones provinciales salteñas.",
+        "## Por qué ARCA dio marcha atrás",
+        "En los considerandos, ARCA recuerda que los artículos 578 a 580 del Código Aduanero crean el régimen de tráfico fronterizo para los pobladores de zonas de frontera y excluyen de él el uso comercial o industrial, y que la RG 5910 buscó reducir el fraccionamiento de compras, la repetición sistemática de operaciones y los desvíos hacia circuitos comerciales no autorizados. Para diferir dos de esas limitaciones invoca razones operativas y socioeconómicas de las zonas de frontera y la necesidad de dar tiempo a las adaptaciones. En su comunicado, el organismo agregó que busca no alterar los usos y costumbres de esas localidades ni frenar su actividad económica.",
+        "La decisión llegó después de dos semanas de reclamos. En Salta, el gobernador Gustavo Sáenz había planteado la revisión de la medida ante Vázquez y ante el director general de Aduanas, José Vélis, y, según El Intra, se presentó además un amparo con pedido de medida cautelar. El 19 de octubre, los bagayeros de Yacuiba, del lado boliviano, cortaron durante 24 horas el puente internacional que une esa ciudad con Salvador Mazza. Tras la publicación de la RG 5914, Sáenz celebró que ARCA hubiera escuchado el reclamo de comerciantes y municipios.",
+        "## Qué pedían los comerciantes",
+        "El punto más discutido era el de los envases. Según Nuevo Diario de Salta, Manuel Pieve, exportador de la zona, explicó que la harina se vende a los compradores bolivianos en bolsas de 25 kg, que pueden costar cerca de 35% menos por unidad que las presentaciones chicas, y que fraccionarla en envases menores obliga a cambiar el empaque y la logística. Los comerciantes de esa frontera habían pedido seis meses de transición para vender el stock y adaptarse. En La Quiaca, frente a la ciudad boliviana de Villazón, Que Pasa Jujuy describió la postergación como un alivio para el comercio de pequeña escala de la Puna.",
+        "## Qué sigue",
+        "Según Salta News, durante los 120 días funcionarán mesas de trabajo para analizar la situación comercial en la frontera y la forma de introducir los cambios, aunque no se informó quiénes las integrarán. Vencido el plazo, las dos prohibiciones entrarán en vigencia salvo que ARCA dicte una norma distinta. Hasta entonces, los comercios que venden a pobladores de países vecinos pueden volver a despachar por este régimen granos y presentaciones de 10 kg o más, como las bolsas de harina de 25 kg, siempre dentro del tope de USD 150 diarios por comprador y sin fines comerciales."
+      ],
+      "keyData": [
+        [
+          "Postergación",
+          "120 días corridos"
+        ],
+        [
+          "Norma",
+          "RG 5914/2026 (Boletín Oficial del 22/10/2026)"
+        ],
+        [
+          "Se difieren",
+          "Salida de trigo, soja y maíz y de envases de 10 kg o más"
+        ],
+        [
+          "Sigue vigente",
+          "Tope de USD 150 por día y por poblador"
+        ],
+        [
+          "Norma modificada",
+          "RG 5910/2026, vigente desde el 10/10/2026"
+        ],
+        [
+          "Bolsas de harina de 25 kg",
+          "Hasta 35% más baratas por unidad (según un exportador citado por Nuevo Diario de Salta)"
+        ]
+      ],
+      "topics": [
+        "Argentina",
+        "Aduanas",
+        "Exportaciones",
+        "Regulaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Bolivia",
+        "Brasil",
+        "Paraguay"
+      ],
+      "tags": [
+        "ARCA",
+        "RG 5914",
+        "RG 5910",
+        "Tráfico vecinal fronterizo",
+        "Frontera",
+        "Granos",
+        "Salta",
+        "Boletín Oficial"
+      ],
+      "visual": "customs",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "Los comercios de las ciudades de frontera con Bolivia, Paraguay y Brasil pueden volver a vender por este régimen granos y bolsas de 10 kg o más durante 120 días, pero el tope de USD 150 diarios por comprador sigue en vigor.",
+      "argentinaImpact": {
+        "change": "ARCA difirió por 120 días corridos, desde el 10 de octubre, las prohibiciones de sacar granos y mercadería en envases de 10 kg o más por el tráfico vecinal fronterizo.",
+        "who": "Comercios y mayoristas de localidades fronterizas, pobladores de países limítrofes que compran en la Argentina y la aduana en los pasos de frontera.",
+        "sectors": [
+          "Comercio minorista de frontera",
+          "Harina y alimentos",
+          "Granos"
+        ],
+        "flows": {
+          "importaciones": false,
+          "exportaciones": true,
+          "logistica": false,
+          "aranceles": false
+        }
+      },
+      "explainer": {
+        "what": "ARCA postergó por 120 días corridos, con la RG 5914/2026, las prohibiciones de sacar granos y mercadería en envases de 10 kg o más por el régimen de tráfico vecinal fronterizo.",
+        "why": "Era el punto más resistido de la RG 5910 en las ciudades de frontera, donde la harina se vende en bolsas de 25 kg; el tope de USD 150 por día y por poblador sigue vigente.",
+        "who": "Comercios de localidades fronterizas como Salvador Mazza, Aguas Blancas, La Quiaca y las de Misiones, y los pobladores de Bolivia, Paraguay y Brasil que compran en la Argentina.",
+        "products": [
+          "Trigo",
+          "Soja",
+          "Maíz",
+          "Harina en bolsas de 25 kg",
+          "Alimentos en envases de 10 kg o más"
+        ],
+        "next": "Según ARCA, las dos prohibiciones regirán a los 120 días corridos contados desde el 10 de octubre de 2026.",
+        "nextSource": {
+          "name": "ARCA",
+          "url": "https://servicioscf.afip.gob.ar/publico/sitio/contenido/novedad/ver.aspx?id=5981"
+        }
+      },
+      "deadlines": [
+        {
+          "date": "2027-02",
+          "label": "ARCA: vuelven a regir las prohibiciones de sacar granos y envases de 10 kg o más por el tráfico vecinal fronterizo (120 días corridos desde el 10/10/2026)",
+          "url": "https://servicioscf.afip.gob.ar/publico/sitio/contenido/novedad/ver.aspx?id=5981"
+        }
+      ],
+      "sources": [
+        {
+          "name": "ARCA: Postergación de la implementación de los cambios en el comercio fronterizo",
+          "type": "Organismo oficial",
+          "url": "https://servicioscf.afip.gob.ar/publico/sitio/contenido/novedad/ver.aspx?id=5981",
+          "primary": true
+        },
+        {
+          "name": "La Hora de Salta (con el texto de la RG 5914/2026)",
+          "type": "Medio de comunicación",
+          "url": "https://www.lahoradesalta.com.ar/es-oficial-la-postergacion-de-la-implementacion-de-los-cambios-en-el-comercio-fronterizo/"
+        },
+        {
+          "name": "Fracran",
+          "type": "Medio de comunicación",
+          "url": "https://www.fracran.com.ar/noticias/2026-10-22-misiones-arca-prorroga-frontera"
+        },
+        {
+          "name": "El Intra",
+          "type": "Medio de comunicación",
+          "url": "https://elintra.com.ar/2026/10/22/saenz-festejo-la-tregua-de-arca-en-la-frontera-de-aguas-blancas-y-salvador-mazza/"
+        },
+        {
+          "name": "Salta News",
+          "type": "Medio de comunicación",
+          "url": "https://www.saltanews.com.ar/arca-posterga-120-dias-cambios-trafico-vecinal-fronterizo-salta"
+        },
+        {
+          "name": "Nuevo Diario de Salta",
+          "type": "Medio de comunicación",
+          "url": "https://nuevodiariodesalta.com.ar/comerciantes-de-frontera-cuestionan-las-nuevas-medidas-de-arca-y-piden-seis-meses-para-adecuarse/"
+        },
+        {
+          "name": "Que Pasa Jujuy",
+          "type": "Medio de comunicación",
+          "url": "https://www.quepasajujuy.com.ar/jujuy/freno-a-la-medida-de-arca-en-la-frontera-la-decision-que-alivia-al-comercio-jujeno-en-la-quiaca/"
+        }
+      ]
     },
     {
       "id": "senasa-newcastle-brasil-suspende-importaciones-zona-restriccion-santa-catarina",
@@ -92017,13 +92617,13 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-10-28T10:14:43Z",
+    "ranAt": "2026-10-28T14:19:57Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
         "url": "https://www.wto.org/library/rss/latest_news_s.xml",
         "ok": true,
-        "items": 8,
+        "items": 7,
         "added": 0,
         "updated": 0,
         "skipped": 0
@@ -92042,24 +92642,24 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 2,
+        "added": 4,
         "updated": 0,
-        "skipped": 12
+        "skipped": 10
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 15,
-        "added": 0,
+        "items": 23,
+        "added": 4,
         "updated": 0,
-        "skipped": 9
+        "skipped": 10
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 41,
+        "items": 44,
         "added": 3,
         "updated": 0,
         "skipped": 32
@@ -92068,28 +92668,28 @@
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 73,
+        "items": 61,
         "added": 4,
         "updated": 0,
-        "skipped": 49
+        "skipped": 37
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 30,
-        "added": 0,
+        "items": 25,
+        "added": 1,
         "updated": 0,
-        "skipped": 18
+        "skipped": 16
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
         "url": "https://news.google.com/rss/search?q=(aranceles+OR+%22guerra+comercial%22+OR+%22acuerdo+comercial%22)+when:1d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 94,
+        "items": 92,
         "added": 4,
         "updated": 0,
-        "skipped": 76
+        "skipped": 74
       },
       {
         "source": "Google Noticias · Logística y fletes",
@@ -92098,7 +92698,7 @@
         "items": 100,
         "added": 4,
         "updated": 0,
-        "skipped": 69
+        "skipped": 71
       }
     ],
     "curatedDuplicates": [
@@ -92123,11 +92723,6 @@
         "curated": "hapag-lloyd-espirito-santo-express-incendio-atlantico-sur-santos"
       },
       {
-        "title": "El trinfo de Lula y su impacto en el comercio exterior: qué puede pasar en la balanza bilateral con Argentina",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNaW9WWnFuZ05JNHFRcGNxb3oyNzkwcDVjOGlVUTBOUzEwVGxSZ2hjdHRsa3lSdUdCVUxWOUQtUDUwZVg1VWNQbjBKZVd3WWVlVG5yaVRIWXE3Q0hIdWoyd0UwaVo4SjFBY1FIN29TLXJTZ0hCQlpaOFBfbzAxQWJLU1BheHpxRTdlZ29OLVRJRGJQanpmQ19xb2l5MDRzNEZyS0dXdEh0Z1dzdDdBeDMwb1JJUld4VkNWVkJqVG9rWFQ2eHM2UjUxVlNmSzV2OWJVanRBYS1pYmrSAdgBQVVfeXFMTWlvVlpxbmdOSTRxUXBjcW96Mjc5MHA1YzhpVVEwTlMxMFRsUmdoY3R0bGt5UnVHQlVMVjlELVA1MGVYNVVjUG4wSmVXd1llZVRucmlUSFlxN0NISHVqMndFMGlaOEoxQWNRSDdvUy1yU2dIQkJaWjhQX28wMUFiS1NQYXh6cUU3ZWdvTi1USURiUGp6ZkNfcW9peTA0czRGcktHV3RIdGdXc3Q3QXgzMG9SSVJXeFZDVlZCalRva1hUNnhzNlI1MVZTZks1djliVWp0QWEtaWJq?oc=5",
-        "curated": "lula-reelecto-brasil-comercio-argentina-autos-mercosur-agenda-2027"
-      },
-      {
         "title": "Controles en ventas online y aduana por productos importados",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONm9MeVUxai0zQUpJTnB0UHBINU9weVFoUy0wSWZzeTlPd0FxSlpJdTRXMy0wLWhMbUF5d2Q4SjU2NHc1dlQ0WDBmZjdHUnpSZkM5Y2NqWVJObGxuN2NzV1JTR3IzUXZ4X3JudDl1QzFocEtGd3phRnhWM1JLYzUxV05nbUtCM29ud0o3amJINXNxZUtoUmw3RU0xTWdIV2hZdk12UkFyVXNxX2ZNMXNMd0hyejZtZUZjeC1uQU1Dam85a3Jl?oc=5",
         "curated": "gobierno-uia-mercado-libre-meta-acuerdo-contrabando-plataformas-arca-cruce-datos"
@@ -92135,11 +92730,6 @@
       {
         "title": "UCCL alerta de que las importaciones de miel de Mercosur se disparan un 94%",
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdFNKcnhWX3E4V3JVckRxYXNMOHJQM0otQ0QxVGRQelJSZHNMa3B3N0JScUpGSEZ1WW9kRlB4Y2YzUWxZSzUta25qbVRsQkYzTmJpdnZrTVN4a0d1SFJpMFNzbnBDRTdTMmZmUXQzMEJUdUUxU3FPTWpubHVlSzdVb0EyQ1RxX254aVI2Tk0xZG5nNmw0U0xRMndmSmIzVmVvdDlXeGUwSERsUXVPWTRpN2hyOGlnd1FNbF9jQ2tvNERONnVRaW9nUGNGMTZYSVVDaHBN?oc=5",
-        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
-      },
-      {
-        "title": "Brasil reporta que importaciones de miel del Mercosur casi se duplican en los primeros tres meses del acuerdo",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcHVtT2p0N0N6QzI3OVh1Znd5aGRVRndzbVhXeXVnX3ItaGhiMG9oLUVGYUd4MDJQNnBwOXl0YmctSVNESk1fZFp5bDlxeVl3dUFCMmIwNkdtVk9OVmpraWM3Y2drWEpDZ3Z6Q183a3JOY3NLckNid2RjcUNuRl9HdkYzTlB6bml0NXhBVFV4dVRlazhwNkMtc0Q2R0ZublBkcDhuZkhpMmFlQmRCMFBXLUYyc0FIQ1ctNVJGNXVMUFZmY21ZcXppSUs5UGFtaGNKS2k0Nw?oc=5",
         "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
       },
       {
@@ -92153,6 +92743,11 @@
         "curated": "gobierno-uia-mercado-libre-meta-acuerdo-contrabando-plataformas-arca-cruce-datos"
       },
       {
+        "title": "Las importaciones de miel de Mercosur se disparan un 94 %",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPM1R6RGhkaUVJWkhlLTYwRGE3dV9kNHNvVk85ZnI0NDRvQlVvQ0tUbXV4aktPWFYyMWFrN1NOeFBOX2o4RUpLN3JlaXc3WGZLSmRsMkhtODB0bWZqWVlEdXFuTmpIMFJOeUw0MGZMc2d2b2lHbGN3MjVkdTVwQjRZMVh6bnJCc3BnN1lv?oc=5",
+        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
+      },
+      {
         "title": "La Unió denuncia que importaciones de miel de Mercosur casi se duplican en los tres primeros meses del acuerdo",
         "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNU1Vha1A3cDFjLS0xVjdRSVctMTZmUEFISXAzWjNXY0NtUk0zMVlWOWdGWkVWdTZvdUkwemtfMFhxOE1VOWVpZDlZV2NWRFJleEJHeldZNmhOU1ZNTU9tSFI2SmlLQ3ZwcVJpbVpiMDh2eHVZV0NPd0Q4a2RrU1VCM0FLZ3lTYmxMcnA2VHpwV0ktZ3JHTEhaY1FlUlZfaW9aSFNlUXlKQlgtSmIySU5CaDVvR05YOF8yRGQ0S3JELW15a3p1OTRwaTZtRkwyaW12MXNmWTE4Wjd0RVByVzlkX3hFaDNtcndqeEJXbTNadkRWcEE0QlRQbmZoTW5IWHpWOGVCNUR5NDFMaUo5eU44eNIBkAJBVV95cUxNU1Vha1A3cDFjLS0xVjdRSVctMTZmUEFISXAzWjNXY0NtUk0zMVlWOWdGWkVWdTZvdUkwemtfMFhxOE1VOWVpZDlZV2NWRFJleEJHeldZNmhOU1ZNTU9tSFI2SmlLQ3ZwcVJpbVpiMDh2eHVZV0NPd0Q4a2RrU1VCM0FLZ3lTYmxMcnA2VHpwV0ktZ3JHTEhaY1FlUlZfaW9aSFNlUXlKQlgtSmIySU5CaDVvR05YOF8yRGQ0S3JELW15a3p1OTRwaTZtRkwyaW12MXNmWTE4Wjd0RVByVzlkX3hFaDNtcndqeEJXbTNadkRWcEE0QlRQbmZoTW5IWHpWOGVCNUR5NDFMaUo5eU44eA?oc=5",
         "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
@@ -92163,29 +92758,14 @@
         "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
       },
       {
-        "title": "LA UNIÓ alerta del aumento del 94% de las importaciones de miel de Mercosur",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS2dEYzR4bGhqSzNCMElYNUhINDd5OUQxNDc5T3h1OFl1NERVTHBzbk12d2dQeWpPS3NFVlVyX0pkTnNnNkhuOEJmVEJqb1ZYa1lqemhVOENISkNxYUZBM0JhTzZIYVBvQkRoNlNvTUJ6NGtXd1RWR1FJNVhYTmhKUGxYdC1naF9fc1pCS1FUZzlHb3prbjdwRzJ3aFF3UVptWEtDZ3R5TQ?oc=5",
-        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
-      },
-      {
         "title": "La Unió alerta de un aumento del 94 % en importaciones europeas de miel de Mercosur",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQLURpTU9GaHkzS1loVXlzbVVMcENJMDhhdHI0Tm9jeWlleXM3V3ppUUFjaTRORlNrQ1FXamY5enhiMmh6a2t6aWdMV210Qm1zTWlwX3FIOEVaa3dnclBMVEY4djB1ZENSX1UwRFJ2SndnUzF0RUFQMDVMTm82V1hTeFRkOGhlc3JlS2FzXzBqNVpTdHY0VGpkNEUwcmo0TlYzMXB5REdFcHFaNnhvMlVXWnRrTUZlMW9rVUotRFJlcERCTTVGTEotZTkwQTNQd1lJTklGRGJEZWNHR2M?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTkFWNmNZTFJwZHRITW4ySlBrQ1dJZ3VKWlVyTzdOU1RHZWpxV2NRU3ZZVnVrN2RYU1c1LVE3NFEzMEMzcXJOMmRPZ2VjOERsMVpCTnpHOEVWQjRodk5zb21icFNFYk1vXzJhRjhaU19Rd0N0UzdmSjYyN04za2VDUGdRS3RRSnFtN3J5TXRoeTdxU2pBdTVxYUxpbW1pUzl0S21IZGZHNGlIdmhRaDNHMlFva1JUMnF4c2x1Q1Nhenc1NTlfci00?oc=5",
         "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
       },
       {
-        "title": "Argentina recibió 60 auditorías para sus exportaciones agroalimentarias",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSEU1b3IxTy1JOXZFUkJUVDBfR2luaVI2aG1FZEVNRnNQQ0h1TE43WVpUNTQ4R1p5NHVwSTh2N2NnMEp6YzNXcDdJVnRha2ZOYkNhOFRVaXJYczhEeURyaUkyNHU2Ykl6UHo4OXd0b1pKLUlGQ1FPQ09hVHNEanFpUUo1YzhLUVluMmV3cWFWWTFZeUhvMGFmWDBWYmNhZkR4WnY1OE9R?oc=5",
-        "curated": "quirno-acuerdo-mercosur-ue-argentina-60-por-ciento-preferencias-2800-millones"
-      },
-      {
-        "title": "Argentina recibió 60 auditorías para sus exportaciones agroalimentarias",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNM09id010MWtLZXBGUG1pYURqWVU5eE1LdkVycnVtQ21MbDlMZ2NCMm1ZMmVBTGJiTUtrZEoxRnZIUDF0ZjJjblE0aXl5MXFXVXBTX0xsUHQwYm1RNDJmaDV6UGRkYzcyZXpsYTRrY2JGcmhHWEFQdVptR3NoMGFZSkU1ZXE2SENpVVpjNUo4NjRNaEppNDdDaEk4N3lWd2hpUGVV?oc=5",
-        "curated": "quirno-acuerdo-mercosur-ue-argentina-60-por-ciento-preferencias-2800-millones"
-      },
-      {
-        "title": "Qué puede pasar con el Mercosur y las exportaciones argentinas a Brasil tras reelección de Lula",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQcjJQTmVKdi1VQ25xX0h4M21od1N3WE5jNy1LWGVXdFVIZXBGRlBtQjlYVTc3MDA1MC15TnhkbjJvbWp0ay1RQWVMNHJya0lmVlRSUG9kbUQ5eE0zSjVqb25vQ3YteVZCUnJEbzU5MnZYSVQ1cVBNSXFsdzhUVkl6R2pCc040UDZWay1PeHJyZW1FRl81U29MRzY5YmY4ekFvNlhIZkxMNmdUc1Q4dXZHTC1sRjVRNEg0UEFpcmxqS2xUMWl3WHhaX19HT2lWRVlmX3drYmI4LUhlUGR5aHVxSUdFV1ZIdE0?oc=5",
-        "curated": "lula-reelecto-brasil-comercio-argentina-autos-mercosur-agenda-2027"
+        "title": "Abastecimiento en la Hidrovía: la soja de Paraguay ya es el cuarto origen de las importaciones y rescata de la…",
+        "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOU0NKVXBVS24zeW5JaHdUaWw0dHFWQnpJTHNxbnpDcFhmRWRfUFdlNWZaa20waVpmN3VaMHNEdWtwalFiTzhhTTN5ZzVucU1jblUyczVpMmNyRHZrTmNrZHdkSzRSZGo0X1Y0TzllOU1SSDRHNkNaMnFBeGhGdGVTOGpFRTlSOThCTmRWcXByZnoxQnpKWld6eVNhTThxeDV3UUMzRmJiQnEycFlSd2pfN3RSR2d0eTU4bGdzQjdJOEZweWl6Vkg2UzFZaEVjR3lZdjV1c1VDSGpqYldvZ2NZajZpclMzdGZQQW5HUGhfZThObnZGSWZIZTlReEk1ZGx5RHNnVldSTGRGOFhsemNyRFBRQ0tCVUNRMEE?oc=5",
+        "curated": "soja-paraguay-admision-temporaria-cuarto-origen-importaciones-septiembre-2026"
       },
       {
         "title": "UN PLENARIO DE COMISIONES DICTAMINÓ A FAVOR DE DOS PROYECTOS VINCULADOS AL MERCOSUR",
@@ -92200,11 +92780,6 @@
       {
         "title": "Los apicultores alertan del acuerdo con Mercosur: “Las importaciones de miel casi se duplican en tres meses”",
         "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNSXBDNWVnNUFFUl9vdDQtYzViNkt3U2p2am42b3pIbkl4aWN2V3UyNGN1VFZVVGt0dDZYcWU5S2JMSDBiOGdxTVhkQzlaNGxjSl9aSjZYbE83SjFSNDdPd0lVamVmMHljMGg0eXZERlNvV0JBa1J6aHpqVU0zWWhzbUZQMllmcExUVWhPUDNKLWVhcFBNYkU3ZFBoNUNVMXRfUnNKWHZ3T01kb3l5elRuR1JGNHVQc0lXcFFzdWRGNjEzQzQxNklURzVtNDRfRU9KYWVEZzAwekpUY1hxeFFuTUtsOUEzWVEwUGdoQ1JTajdBQQ?oc=5",
-        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
-      },
-      {
-        "title": "La UE elevó un 94% las compras de miel de Mercosur entre mayo y julio hasta 12.693 toneladas",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdzNOWUF1N1ZBV3Rta2xBYkljbFpYMXEwaEJZMmlWdE1MRDJ4UGFPQ2FVWnJ3VUNkcnBYeGNWb0xhRTlWWGFMaFFmd0RxS3N0V216clRac3FXNzNWUlRwZ3QxakJfVkFBNTUzSVk4bGxlLXh6bUdrbkwwZlh0SkU4azVuOURRdS1UYWZhNmt2ekFPZGJiR1lxUmprckxtOTlNMnhMN21sTU9RU0VVV19EWF84RWF4Nk1ISHBFN0tqdjlOVWRsSGdHRjNUY2dCVVlWNGtj0gHTAUFVX3lxTE53M05ZQXU3VkFXdG1rbEFiSWNsWlgxcTBoQlkyaVZ0TUxEMnhQYU9DYVVacndVQ2RycFh4Y1ZvTGFFOVZYYUxoUWZ3RHFLc3RXbXpyVFpzcVc3M1ZSVHBndDFqQl9WQUE1NTNJWThsbGUteHptR2tuTDBmWHRKRThrNW45RFF1LVRhZmE2a3Z6QU9kYmJHWXFSamtyTG05OU0yeEw3bWxNT1FTRVVXX0RYXzhFYXg2TUhIcEU3S2p2OU5VZGxIZ0dGM1RjZ0JVWVY0a2M?oc=5",
         "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
       },
       {
@@ -92248,58 +92823,65 @@
         "curated": "lula-reelecto-brasil-comercio-argentina-autos-mercosur-agenda-2027"
       },
       {
+        "title": "La Unió alerta de que las compras de miel de Mercosur casi se duplican en los tres primeros meses del acuerdo con la UE",
+        "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNM01nR0V1djNYeU9zZzZwdTFLLWJJMGlCdDJ2Y0pqNnNqSkdGRkFvd0dUSWVqRXNleEktdFlIbG1PUVRBWDRyM3RKWHo2Vk00R3RsRnNJVk9yYzBBM1NuaHYxX1dYNE1tMGFqMXZMMl9nSEozMEV3Q1U0U0tPUnFtU3N5WGtGeF9HSXVGS21zNms3NVk3MU1iT01peVk3VExtMVk0cDlmSVRxdGxvN3JUY2k0TFRnVHVvT1EtY0syNWdHdnhKQ0VBUlB2WDY3c2hrOXZIblV4bm5td0hQTHdoNU1fUVZuRURXcjg3RHZBTzRHeVEtWU5Qcks2Mm1fT1HSAYQCQVVfeXFMT19lMWlhX1hlTGItcm1YSXppRzkwUXVReWU5bE5mN182TjJtNEV2UDJtVU5TUEtrVUpJOHVLNE14UnlHNkdFVmtmeDNNUllEUlV6Rjd2cWFWeXNHTmJiRHZaUW1XNUNaM1VsbFNrWjR3Um9FS2RRUVNmc1NjVTBRRnBfMW9kbGVtejU5c20xcHdaTVF4YWFHRHpQbmY4V1BweHFsSi0zLWMtWFhiNGRXLVJyczZNREluS3hqNlJkajUtT3VnX093N3o0Rm1VaFFfeHRVNDZkQnBYbjU1LVVpcEVUeGhVay00NkU0cnNHOFFUajJOZXYzX1cwQ2JMd3FLdHJFbFI?oc=5",
+        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
+      },
+      {
         "title": "La importación de miel desde Mercosur aumenta un 94 % en los primeros tres meses del acuerdo",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUVAyOUtiNEpqLVJCSnBBOUtzbEN1dFhfVmNReG5lTTdHMFJtWm10U3otY2RuYUVSdjF4Z1hVc2hVZU9QMXRQWFhHQ0dLVTN3Yk9DUzFtYlM5NlNUbk8zYXRlY2xMc3lJXzFuYlVEUnVfNjFWMFJRaGRQQVhnYnl3VjNQU3A0Y0pUZkpzc2VYY0huMVV1V3AxbzdaU09iSTJnZXZyNjFUVDN3WDRqOEt6bHJHS3hEejRjdUFPM0ZnUWpMN0MxY2tkeNIBzgFBVV95cUxQbnFCMjRkejlXNzlPbmFHZEZOVm9pTk13cmduV0g4bjVuRGFmb0pRUXNobjZ6NU5nNWdOb2tabngtQzFfbHNQVlpvdHczektDc3dvTnFDZ29lc0FVQWVRd1VjNXUtbkRoMlMxNGVoVVFqZmJxa1RpbC1PRDVUX0dLc0NiaWd6R3FQcV9FZ0FHT1pmZ0JVN1ZKZlh1TkFNVWxFbFdUel91aEQtc0k4blVLd3VfUHBFUlV3VktFVmswRWVKN05Jb01rS1RRSFJRQQ?oc=5",
         "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
       },
       {
-        "title": "LA UNIÓ alerta del aumento del 94% de las importaciones de miel de Mercosur",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPS2dEYzR4bGhqSzNCMElYNUhINDd5OUQxNDc5T3h1OFl1NERVTHBzbk12d2dQeWpPS3NFVlVyX0pkTnNnNkhuOEJmVEJqb1ZYa1lqemhVOENISkNxYUZBM0JhTzZIYVBvQkRoNlNvTUJ6NGtXd1RWR1FJNVhYTmhKUGxYdC1naF9fc1pCS1FUZzlHb3prbjdwRzJ3aFF3UVptWEtDZ3R5TQ?oc=5",
-        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
+        "title": "Las exportaciones argentinas crecieron 21,4%, pero las ventas a Brasil apenas aumentaron 4,7%",
+        "url": "https://radiovive.com.ar/destacadas/2026/10/27/las-exportaciones-argentinas-crecieron-214-pero-las-ventas-a-brasil-apenas-aumentaron-47/",
+        "curated": "exportaciones-argentinas-destinos-enero-septiembre-2026-brasil-pierde-peso-estados-unidos-india"
       },
       {
-        "title": "Primeros efectos del acuerdo con Mercosur: la entrada de miel en Europa se dispara un 94% y pone en alerta a los…",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVHp2SGN4cE13d0t2aExwVDBwYVg3aVJUUlVhaGp4RDFpanhFb0lOM0RjZVY0a3BDRGNhRWk4Q3R6SEJXT2ZYV3VIRlpDRnBKcUZPWEJWVndsdjlKY19HbDVzSVRfclJUUEdoaTNWeHNsN3UtcmhOakNpOTdBSkMxNVdKdVNnSnJTdmkwbTlveV81cUZNbEI5TWZsM3k1Zk82cV9Pa1hzbWhudzlTeDg4Tm9xY0NpamZNbE9tTjdmenhfS0Ru0gHKAUFVX3lxTE1fenRkVVFENkRLR2gzejd3d2JaeUFxV0lYT09oSEtrX0RIbWJMZWxhcmxTTmVEZ0JCWjFGNkpYdnVNdThWRVYteExwcGhMaFR2OVRQcmxaQ0dEVkFuWUl6TGlZN0N5aGo2NkhXV3ZzZWhqUW9zMWloSnlGdGxKUXY1T1plX3h0MllzN1IyNXV0SG11d2xueWV0a3RxOXE3cGxEQzdSczR5aDQxUkJHNDIyaUNUbzFHQ0ZmSXZ3cVZpendVODNncENpUUE?oc=5",
-        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
+        "title": "Las exportaciones argentinas crecen, pero Brasil pierde peso como principal mercado",
+        "url": "https://www.baenegocios.com/economia/las-exportaciones-argentinas-crecen-pero-brasil-pierde-peso-como-principal-mercado/",
+        "curated": "exportaciones-argentinas-destinos-enero-septiembre-2026-brasil-pierde-peso-estados-unidos-india"
       },
       {
-        "title": "El superávit comercial argentino se duplicó en septiembre, pero el salto de las exportaciones no alcanza para despejar…",
-        "url": "https://flipr.com.ar/nacionales/economia/mercado/el-superavit-comercial-argentino-se-duplico-en-septiembre-pero-el-salto-de-las-exportaciones-no-alcanza-para-despejar-la-duda-sobre-la-actividad/",
-        "curated": "exportaciones-12-meses-100845-millones-crudo-primer-producto-septiembre-2026"
-      },
-      {
-        "title": "Japón abre mercado a exportaciones de carne bovina argentina",
-        "url": "https://www.motivar.com.ar/ganaderia/japon-abre-mercado-exportaciones-carne-bovina-argentina-n5337462",
-        "curated": "japon-abre-mercado-carne-vacuna-argentina"
-      },
-      {
-        "title": "La Unió alerta de que las compras de miel de Mercosur casi se duplican en los tres primeros meses del acuerdo con la UE",
-        "url": "https://www.democrata.es/agricultura-alimentacion/la-unio-alerta-de-que-las-compras-de-miel-de-mercosur-casi-se-duplican-en-los-tres-primeros-meses-del-acuerdo-con-la-ue/",
-        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
+        "title": "Exportaciones argentinas: Brasil pierde participación frente a EE.UU., China e India",
+        "url": "https://www.impulsobaires.com.ar/nota/326428/exportaciones-argentinas-brasil-pierde-participacion-frente-a-ee-uu-china-e-india/",
+        "curated": "exportaciones-argentinas-destinos-enero-septiembre-2026-brasil-pierde-peso-estados-unidos-india"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "acuerdo-union-europea-mercosur-frigerio-recibio-a-erik-h-eg",
+        "main": "el-impacto-del-triunfo-de-lula-en-el-comercio-exterior-que-puede-pasar-con-argen",
         "merged": [
-          "frigerio-recibio-a-representantes-de-la-citricultura-y-visito-una-exportadora-en"
+          "mendoza-aseguran-que-el-triunfo-de-lula-en-brasil-puede-ser-positivo-para-el-com"
         ]
       },
       {
-        "main": "apertura-comercial-record-de-exportaciones-con-nuevos-motores-y-el-desafio-de-co",
+        "main": "el-campo-valenciano-sufre-la-cara-b-de-mercosur-y-los-citricos-piden-auxilio-2",
         "merged": [
-          "record-exportador-mas-volumen-nuevos-sectores-y-desafios-pendientes"
+          "el-campo-valenciano-sufre-la-cara-b-de-mercosur-y-los-citricos-piden-auxilio-en"
+        ]
+      },
+      {
+        "main": "fuego-criminal-las-llamas-devoraron-la-aduana-en-oran-y-la-sombra-del-sabotaje-e",
+        "merged": [
+          "se-prendio-fuego-un-deposito-de-la-aduana-en-oran"
+        ]
+      },
+      {
+        "main": "por-que-abelardo-de-la-espriella-busca-eliminar-los-aranceles-de-ee-uu-al-acero",
+        "merged": [
+          "abelardo-de-la-espriella-insistira-para-que-estados-unidos-elimine-los-aranceles"
         ]
       }
     ],
     "googleNews": {
-      "pending": 16,
-      "resolved": 15,
-      "withSummary": 14,
+      "pending": 20,
+      "resolved": 20,
+      "withSummary": 15,
       "withPhoto": 0,
-      "failed": 1,
-      "duplicates": 0
+      "failed": 0,
+      "duplicates": 1
     }
   },
   "stories": [
