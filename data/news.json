@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-10-28T18:09:45Z",
+  "updatedAt": "2026-10-28T22:07:02Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -134,20 +134,16 @@
     {
       "id": "tc-mayorista",
       "label": "Tipo de cambio mayorista ARS/USD",
-      "value": "$ 1.538,74",
-      "period": "Com. A 3500 · 27 oct 2026",
+      "value": "$ 1.538,47",
+      "period": "Com. A 3500 · 28 oct 2026",
       "source": "BCRA",
       "url": "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp",
       "group": "Mercados",
-      "obsDate": "2026-10-27",
-      "change": "-0,1% vs. día hábil anterior",
-      "trend": "down",
-      "checkedAt": "2026-10-28T18:10:35Z",
+      "obsDate": "2026-10-28",
+      "change": "0,0% vs. día hábil anterior",
+      "trend": "flat",
+      "checkedAt": "2026-10-28T22:07:56Z",
       "history": [
-        [
-          "2026-09-15",
-          1506.6836
-        ],
         [
           "2026-09-16",
           1509.1055
@@ -263,11 +259,15 @@
         [
           "2026-10-27",
           1538.741
+        ],
+        [
+          "2026-10-28",
+          1538.4739
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-28T18:10:35Z"
+      "lastAttempt": "2026-10-28T22:07:56Z"
     },
     {
       "id": "soja",
@@ -284,7 +284,7 @@
         "date": "2026-10-27",
         "ars": 550000.0
       },
-      "checkedAt": "2026-10-28T18:10:35Z",
+      "checkedAt": "2026-10-28T22:07:57Z",
       "_prev": {
         "date": "2026-10-26",
         "ars": 555000.0
@@ -361,7 +361,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-28T18:10:35Z"
+      "lastAttempt": "2026-10-28T22:07:57Z"
     },
     {
       "id": "brent",
@@ -374,7 +374,7 @@
       "obsDate": "2026-10-27",
       "change": "-3,9% vs. día anterior",
       "trend": "down",
-      "checkedAt": "2026-10-28T18:10:38Z",
+      "checkedAt": "2026-10-28T22:08:00Z",
       "history": [
         [
           "2026-09-16",
@@ -499,7 +499,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-10-28T18:10:38Z"
+      "lastAttempt": "2026-10-28T22:08:00Z"
     },
     {
       "id": "maiz",
@@ -516,7 +516,7 @@
         "date": "2026-10-27",
         "ars": 280500.0
       },
-      "checkedAt": "2026-10-28T18:10:38Z",
+      "checkedAt": "2026-10-28T22:08:00Z",
       "_prev": {
         "date": "2026-10-26",
         "ars": 281000.0
@@ -593,7 +593,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-28T18:10:38Z"
+      "lastAttempt": "2026-10-28T22:08:00Z"
     },
     {
       "id": "trigo",
@@ -610,7 +610,7 @@
         "date": "2026-10-27",
         "ars": 323000.0
       },
-      "checkedAt": "2026-10-28T18:10:38Z",
+      "checkedAt": "2026-10-28T22:08:00Z",
       "_prev": {
         "date": "2026-10-26",
         "ars": 326000.0
@@ -687,311 +687,605 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-28T18:10:38Z"
+      "lastAttempt": "2026-10-28T22:08:00Z"
     }
   ],
   "items": [
     {
-      "id": "eudr-reglamento-antideforestacion-ue-harina-soja-argentina-brasil-fefac-30-diciembre",
+      "id": "port-everglades-recibe-usd-30-7-millones-para-modernizacion-de-su-sistema-de-sum",
+      "datetime": "2026-10-28T22:00:13Z",
       "date": "2026-10-28",
-      "kind": "noticia",
-      "story": "agroexportacion",
-      "title": "La norma antideforestación de la UE amenaza la harina de soja de Brasil y abre espacio para la Argentina",
-      "summary": "A dos meses de que empiece a aplicarse el reglamento europeo antideforestación (EUDR), la federación de fabricantes de piensos de la UE calcula que hasta 4 millones de toneladas de harina brasileña podrían quedar fuera por falta de trazabilidad. La Argentina, con riesgo «bajo» en esa evaluación, se postula para cubrir el hueco.",
+      "firstSeen": "2026-10-28T22:07:02Z",
+      "title": "Port Everglades recibe USD 30,7 millones para modernización de su sistema de suministro de combustible",
+      "summary": "Port Everglades recibió 30,75 millones de dólares a través del Programa de Desarrollo de Infraestructura Portuaria…",
+      "body": [],
+      "keyData": [],
       "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Europa",
-        "Regulaciones",
-        "Mercosur",
-        "Latinoamérica"
+        "Puertos"
       ],
       "countries": [
-        "Argentina",
-        "Brasil",
-        "Paraguay",
-        "Unión Europea"
+        "Global"
       ],
-      "tags": [
-        "EUDR",
-        "Deforestación",
-        "Harina de soja",
-        "Fefac",
-        "CIARA-CEC",
-        "Visec",
-        "Trazabilidad",
-        "Soja"
-      ],
-      "visual": "agro",
-      "impact": 3,
-      "affectsArgentina": true,
-      "argentinaNote": "La Argentina es el mayor exportador mundial de harina de soja y la evaluación de la industria europea la ubica entre los orígenes de riesgo bajo, mientras Brasil, el mayor proveedor de la UE, enfrenta dudas sobre la trazabilidad de su producción.",
-      "argentinaImpact": {
-        "change": "Desde el 30 de diciembre de 2026, los importadores europeos de soja y derivados deberán demostrar que la mercadería no proviene de tierras deforestadas; la industria europea de piensos prevé que casi toda la harina argentina del primer semestre de 2027 cumpla esas exigencias.",
-        "who": "Exportadores y aceiteras de soja, productores que deben acreditar la trazabilidad de sus lotes, el sistema Visec y los puertos del Gran Rosario.",
-        "sectors": [
-          "Complejo sojero",
-          "Industria aceitera",
-          "Puertos del Gran Rosario"
-        ],
-        "flows": {
-          "importaciones": false,
-          "exportaciones": true,
-          "logistica": true,
-          "aranceles": false
-        }
-      },
-      "keyData": [
-        [
-          "Harina brasileña en riesgo",
-          "Hasta 4 millones de t (cerca del 17% de sus exportaciones)"
-        ],
-        [
-          "Inicio del EUDR (grandes y medianas)",
-          "30 de diciembre de 2026"
-        ],
-        [
-          "Exportaciones brasileñas de harina 2025",
-          "23,3 millones de t (récord)"
-        ],
-        [
-          "Exportaciones argentinas de harina",
-          "Unos 27 millones de t el año pasado"
-        ],
-        [
-          "Evaluación de la Fefac",
-          "Argentina y Paraguay: riesgo bajo; Brasil: riesgo medio"
-        ],
-        [
-          "Hueco que estima CIARA-CEC",
-          "5 a 6 millones de t"
-        ],
-        [
-          "Sobreprecio previsto por la Fefac para 2027",
-          "Unos 30 euros por tonelada"
-        ]
-      ],
-      "explainer": {
-        "what": "La federación europea de fabricantes de piensos (Fefac) advierte que hasta 4 millones de toneladas de harina de soja brasileña podrían quedar fuera de la UE cuando empiece a regir el reglamento antideforestación, y la Argentina busca ocupar ese lugar.",
-        "why": "Brasil abastece cerca de la mitad de la harina de soja que importa la UE, y la Fefac ubica a la Argentina en riesgo bajo, con casi toda su harina del primer semestre de 2027 en condiciones de cumplir.",
-        "who": "Exportadores y aceiteras de soja de la Argentina, Brasil y Paraguay, productores que deben probar la trazabilidad de sus campos y los fabricantes de alimento balanceado de Europa.",
-        "products": [
-          "Harina de soja",
-          "Poroto de soja",
-          "Alimento balanceado"
-        ],
-        "next": "El reglamento empieza a aplicarse el 30 de diciembre de 2026 para operadores y comerciantes grandes y medianos, y el 30 de junio de 2027 para micro y pequeñas empresas.",
-        "nextSource": {
-          "name": "EY Tax News",
-          "url": "https://taxnews.ey.com/news/2026-0237-eu-deforestation-regulation-application-postponed-to-30-december-2026"
-        }
-      },
-      "deadlines": [
-        {
-          "date": "2026-12-30",
-          "label": "UE: empieza a aplicarse el reglamento antideforestación (EUDR) para operadores y comerciantes grandes y medianos",
-          "url": "https://taxnews.ey.com/news/2026-0237-eu-deforestation-regulation-application-postponed-to-30-december-2026"
-        },
-        {
-          "date": "2027-06-30",
-          "label": "UE: el reglamento antideforestación (EUDR) alcanza a micro y pequeñas empresas",
-          "url": "https://taxnews.ey.com/news/2026-0237-eu-deforestation-regulation-application-postponed-to-30-december-2026"
-        }
-      ],
-      "absorbs": [
-        "regulaciones-antideforestacion-de-la-ue-beneficiarian-exportaciones-de-harina-de"
-      ],
+      "tags": [],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
       "sources": [
         {
-          "name": "Reuters (vía Investing.com)",
-          "type": "Agencia de noticias",
-          "url": "https://www.investing.com/news/commodities-news/argentina-sees-eu-soymeal-opportunity-as-deforestation-rules-threaten-brazil-trade-4978230",
-          "primary": true
-        },
-        {
-          "name": "Fefac: EUDR Implementation, 4th Update (vía Bichos de Campo)",
-          "type": "Informe sectorial",
-          "url": "https://bichosdecampo.com/wp-content/uploads/2026/09/fefac.pdf"
-        },
-        {
-          "name": "EY Tax News",
-          "type": "Consultora",
-          "url": "https://taxnews.ey.com/news/2026-0237-eu-deforestation-regulation-application-postponed-to-30-december-2026"
-        },
-        {
-          "name": "Coolset: cronología del EUDR",
-          "type": "Consultora",
-          "url": "https://www.coolset.com/academy/eudr-delay-2025-explained"
-        },
-        {
-          "name": "Global Environmental Law Report",
-          "type": "Estudio jurídico",
-          "url": "https://www.globalelr.com/2026/05/european-commission-releases-new-eu-deforestation-regulation-measures/"
-        },
-        {
-          "name": "Perfil",
-          "type": "Medio de comunicación",
-          "url": "https://www.perfil.com/noticias/canal-e/el-gobierno-rechazo-la-calificacion-europea-sobre-el-riesgo-de-deforestacion-la-normativa-podria-afectar-la-exportacion-de-soja-y-carne.phtml"
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/port-everglades-recibe-usd-307-millones-para-modernizacion-de-su-sistema-de-suministro-de-combustible/",
+          "primary": true,
+          "author": "cmeza"
         }
-      ],
-      "body": [
-        "La cuenta regresiva del reglamento europeo contra la deforestación (EUDR) reabrió la competencia entre la Argentina y Brasil por el mercado de harina de soja de la Unión Europea. Según publicó Reuters el 28 de octubre, la industria sojera brasileña teme que las exigencias de trazabilidad recorten sus ventas al bloque, mientras que el sector argentino sostiene que está mejor preparado para cumplirlas y podría quedarse con parte de ese negocio.",
-        "La cifra que ordena la discusión viene de la federación europea de fabricantes de alimentos para animales (Fefac): hasta 4 millones de toneladas de harina brasileña podrían quedar fuera del mercado europeo, cerca del 17% de lo que exporta Brasil. Desde el 30 de diciembre, los importadores de la UE tendrán que probar que la soja y sus derivados no provienen de tierras deforestadas, con sanciones importantes para quien no cumpla.",
-        "## Cómo se llegó hasta acá",
-        "El EUDR iba a aplicarse a fines de 2025, pero el Reglamento (UE) 2025/2650, publicado en el Diario Oficial de la UE el 23 de diciembre de 2025, lo postergó un año. Según el resumen de EY, rige desde el 30 de diciembre de 2026 para operadores y comerciantes grandes y medianos y desde el 30 de junio de 2027 para micro y pequeñas empresas. La misma reforma simplificó obligaciones: por ejemplo, la declaración de debida diligencia se exige solo a quien coloca el producto por primera vez en el mercado o lo exporta, y no a los operadores que están más abajo en la cadena.",
-        "La reforma pedía a la Comisión Europea una revisión de simplificación antes del 30 de abril de 2026. Esa revisión se publicó el 4 de mayo y, según Coolset y el Global Environmental Law Report, descartó una nueva postergación y mantuvo las fechas. En la clasificación oficial de países que la UE aprobó en mayo de 2025, la Argentina quedó como de riesgo estándar, una categoría que el Gobierno rechazó formalmente en su momento, según informó Perfil.",
-        "## Qué dice la industria europea",
-        "La evaluación de riesgo de la Fefac no es la clasificación oficial de la UE, sino la mirada de los compradores. En su cuarta actualización sobre el EUDR, de septiembre, la federación ubicó a Brasil en riesgo medio (antes lo tenía entre medio y alto) y advirtió que Mato Grosso y otros estados enfrentan obstáculos estructurales y logísticos para armar cadenas totalmente trazables. Calcula que cerca de dos tercios de la soja brasileña destinada a la UE podría cumplir y que la disponibilidad de harina de ese origen rondaría el 70%.",
-        "La Argentina, Paraguay y América del Norte recibieron riesgo bajo, con una disponibilidad esperada de entre 90% y 100%. Para la Argentina, la Fefac señala que al menos la mitad de la producción anual ya está dentro del sistema Visec y se considera plenamente compatible con el EUDR. La federación estima un sobreprecio de unos 30 euros por tonelada para la soja que cumpla la norma durante 2027 y un costo total cercano a 1.400 millones de euros para la cadena de piensos europea, con alzas de unos 40 euros por tonelada de carne de cerdo y 15 euros por tonelada de carne aviar.",
-        "## Por qué la Argentina se ve mejor ubicada",
-        "Brasil vendió al exterior un récord de 23,3 millones de toneladas de harina de soja en 2025 y, según datos de la Fefac que cita Reuters, aportó cerca de la mitad de lo que importó la UE ese año. Pero buena parte de su frontera agrícola en el centro y el nordeste se desarrolló en las últimas décadas sobre ecosistemas desmontados. Dante Romano, gerente de investigación del corredor rosarino Max Agro, explicó a la agencia que en el centro de Brasil los campos están a más de 2.000 kilómetros de los puertos y el grano combina camión, barcaza y tren, lo que complica el rastreo.",
-        "La Argentina es el mayor exportador mundial de harina de soja, con unos 27 millones de toneladas el año pasado, de las que cerca de un cuarto fue al Sudeste Asiático. Sus principales zonas sojeras están en la región pampeana, a no más de 350 kilómetros del nodo portuario de Rosario, lo que según Reuters hace la trazabilidad más simple y barata. La Fefac proyecta que casi toda la harina argentina del primer semestre de 2027 cumplirá las exigencias. Gustavo Idígoras, presidente de CIARA-CEC, dijo que el país puede cubrir la caída brasileña, que estima en 5 a 6 millones de toneladas, y que el Visec, que sigue la soja y la carne desde el campo hasta el embarque, está plenamente operativo.",
-        "## Las otras posiciones",
-        "Paraguay, que además abastece de poroto a las aceiteras argentinas, también recibió riesgo bajo; la cámara de procesadores paraguaya (CAPPRO) destacó sus condiciones favorables y en la Región Oriental, donde se concentra la soja, una ley de 2004 prohíbe desmontar para uso agrícola. Del lado brasileño, el presidente de la asociación de productores Aprosoja sostuvo ante Reuters que la norma castiga injustamente a Brasil y que sus problemas ambientales son mucho menores que el tamaño de su agricultura. Según la agencia, la entrada en vigor del EUDR llegará pocos días antes de que Luiz Inácio Lula da Silva, reelecto este mes, asuma su nuevo mandato."
       ]
     },
     {
-      "id": "arca-rg-5917-minerales-fundidos-refinados-cualquier-aduana-exportacion",
+      "id": "portonave-recibe-nuevo-servicio-de-las-navieras-cma-cgm-cosco-y-oocl",
+      "datetime": "2026-10-28T21:33:34Z",
       "date": "2026-10-28",
-      "kind": "noticia",
-      "story": "arca-normativa",
-      "title": "ARCA permite exportar minerales fundidos y refinados fuera de la zona del yacimiento por cualquier aduana",
-      "summary": "La RG 5917/2026, publicada el 28 de octubre en el Boletín Oficial, modificó la RG 5626: cuando el mineral se funde y refina en una planta ubicada en otra jurisdicción aduanera, la exportación ya no tiene que registrarse en la aduana del yacimiento. El exportador debe acreditar origen y compra de la mercadería y cumplir el muestreo de la RG 3294.",
+      "firstSeen": "2026-10-28T22:07:02Z",
+      "title": "Portonave recibe nuevo servicio de las navieras CMA CGM, Cosco y OOCL",
+      "summary": "Portonave, el primer terminal portuario privado de contenedores de Brasil, amplió su red de conexiones marítimas.",
+      "body": [],
+      "keyData": [],
       "topics": [
-        "Argentina",
+        "Transporte marítimo",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Brasil"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/portonave-recibe-nuevo-servicio-de-las-navieras-cma-cgm-cosco-y-oocl/",
+          "primary": true,
+          "author": "admin"
+        }
+      ],
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZS1JNkdDbUlnd0pxZDZjdHZNVmR3N0Via1lDTzJhcS04MTkwbXF1TUlScmpFdVlaUlB2NER6cVVTd2puRHJZU0VyVjEzWFJ2TzJSWXVwcHptenVrWVFkNmNjM05laXNtNmxwaHVUa3hCbDFoZU5RNkZpdWlISFlKaFNtS3dTcVVac05jUEdzc3BhRVdUb09tSVpuZmM"
+      ]
+    },
+    {
+      "id": "colombia-dian-adopta-medidas-cautelares-sobre-mercancias-en-tres-terminales-port",
+      "datetime": "2026-10-28T21:30:45Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T22:07:02Z",
+      "title": "Colombia: Dian adopta medidas cautelares sobre mercancías en tres terminales portuarias de Buenaventura",
+      "summary": "La Dirección de Impuestos y Aduanas Nacionales (Dian) de Colombia reveló una intervención simultánea en tres…",
+      "body": [],
+      "keyData": [],
+      "topics": [
         "Aduanas",
-        "Exportaciones",
-        "Regulaciones"
+        "Impuestos",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Colombia"
+      ],
+      "tags": [],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/colombia-dian-adopta-medidas-cautelares-sobre-mercancias-en-tres-terminales-portuarias-de-buenaventura/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "el-iica-advierte-si-las-restricciones-europeas-a-los-pesticidas-aumentan-estaran",
+      "datetime": "2026-10-28T21:16:48Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T22:07:02Z",
+      "title": "El IICA advierte: SI las restricciones europeas a los pesticidas aumentan, estarán en riesgo miles de millones en exportaciones americanas",
+      "summary": "Las restricciones que la Unión Europea (UE) analiza aplicar a los residuos de pesticidas en productos agrícolas importados podrían complicar",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
       ],
       "countries": [
         "Argentina"
       ],
-      "tags": [
-        "ARCA",
-        "RG 5917",
-        "RG 5626",
-        "RG 3294",
-        "Minería",
-        "Oro",
-        "Plata",
-        "DNU 70/2023",
-        "Boletín Oficial"
-      ],
-      "visual": "mining",
-      "impact": 2,
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
       "affectsArgentina": true,
-      "argentinaNote": "Los exportadores mineros que funden y refinan su producción en plantas ubicadas en otra jurisdicción aduanera pueden oficializar el embarque en la aduana que les quede más cómoda, sin volver a la del yacimiento.",
-      "argentinaImpact": {
-        "change": "Desde el 28 de octubre, las destinaciones de exportación de minerales y concentrados fundidos y refinados en otra jurisdicción aduanera pueden registrarse ante cualquier aduana habilitada; antes debían oficializarse en la jurisdicción del yacimiento.",
-        "who": "Empresas mineras, plantas de fundición y refinación, despachantes de aduana y las aduanas del interior que intervienen en la exportación minera.",
-        "sectors": [
-          "Minería",
-          "Metales preciosos",
-          "Despachantes de aduana"
-        ],
-        "flows": {
-          "importaciones": false,
-          "exportaciones": true,
-          "logistica": true,
-          "aranceles": false
-        }
-      },
-      "keyData": [
-        [
-          "Norma",
-          "RG 5917/2026 de ARCA (Boletín Oficial del 28/10/2026)"
-        ],
-        [
-          "Qué cambia",
-          "Exportación por cualquier aduana habilitada si el mineral se funde y refina en otra jurisdicción"
-        ],
-        [
-          "Norma modificada",
-          "RG 5626 (31/12/2024), último párrafo del artículo 1"
-        ],
-        [
-          "Condiciones",
-          "Acreditar origen y adquisición; muestreo de la RG 3294"
-        ],
-        [
-          "Vigencia",
-          "Desde su publicación (28/10/2026)"
-        ],
-        [
-          "Exportaciones mineras enero–agosto 2026",
-          "USD 6.059 millones (+65,7%)"
-        ]
-      ],
-      "explainer": {
-        "what": "ARCA dispuso con la RG 5917/2026 que los minerales y concentrados fundidos y refinados fuera de la jurisdicción aduanera del yacimiento puedan exportarse registrando la operación en cualquier aduana habilitada.",
-        "why": "Hasta ahora la RG 5626 obligaba a oficializar esas exportaciones en las aduanas de la región donde está la mina, aunque el producto final saliera de una planta ubicada en otra provincia.",
-        "who": "Exportadores mineros, plantas de fundición y refinación, despachantes de aduana y la Dirección General de Aduanas, que fija cómo se acredita el origen.",
-        "products": [
-          "Minerales y concentrados del capítulo 26",
-          "Oro en bruto",
-          "Plata en bruto",
-          "Desperdicios con metales preciosos"
-        ]
-      },
-      "deadlines": [],
-      "absorbs": [
-        "arca-flexibiliza-las-exportaciones-de-minerales"
-      ],
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
       "sources": [
         {
-          "name": "CIRA: texto de la Resolución General 5917/2026",
-          "type": "Texto oficial de la norma",
-          "url": "https://www.cira.org.ar/es/servicios/normativas-servicios/resolucion-general/resolucion-general-5917-2026/",
-          "primary": true
-        },
-        {
-          "name": "CIRA: texto de la Resolución General 5626/2024",
-          "type": "Texto oficial de la norma",
-          "url": "https://www.cira.org.ar/?p=21580"
-        },
-        {
-          "name": "Noticias Argentinas",
-          "type": "Agencia de noticias",
-          "url": "https://noticiasargentinas.com/economia/arca-permitira-registrar-exportacion-de-minerales-procesados-en-cualquier-aduana-del-pais_a6ae1e02cbe9be2610e8aa805"
-        },
-        {
-          "name": "Trade News",
-          "type": "Medio especializado · Comercio exterior",
-          "url": "https://tradenews.com.ar/arca-habilita-el-registro-de-exportaciones-de-minerales-refinados-en-cualquier-aduana-del-pais/"
-        },
-        {
-          "name": "Marval O'Farrell Mairal: RG 3294/2012",
-          "type": "Estudio jurídico",
-          "url": "https://www.marval.com/Publicacion/resolucion-general-n-3294-dictada-por-la-administracion-federal-de-ingresos-publicos-el-23-03-2012-publicada-en-el-boletin-oficial-el-30-03-2012-8886?lang=es"
-        },
-        {
-          "name": "Parlamentario.com (exportaciones mineras enero–agosto)",
-          "type": "Medio de comunicación",
-          "url": "https://www.parlamentario.com/2026/10/02/la-mineria-rompio-otro-record-y-ya-exporto-mas-de-us-6-000-millones/"
-        },
-        {
-          "name": "+e (LM Neuquén)",
-          "type": "Medio especializado · Energía y minería",
-          "url": "https://mase.lmneuquen.com/mineria/record-historico-la-mineria-argentina-exporto-usd-6059-millones-agosto-n1255607/amp"
+          "name": "Bichos de Campo",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://bichosdecampo.com/el-iica-advierte-si-las-restricciones-europeas-a-los-pesticidas-aumentan-estaran-en-riesgo-miles-de-millones-en-exportaciones-americanas/",
+          "primary": true,
+          "author": ""
         }
       ],
-      "body": [
-        "La Agencia de Recaudación y Control Aduanero (ARCA) cambió el lugar donde pueden registrarse las exportaciones de minerales que se procesan lejos de la mina. Con la Resolución General 5917/2026, firmada el 27 de octubre y publicada este miércoles 28 en el Boletín Oficial, los minerales y concentrados que pasan por fundición y refinación en un establecimiento ubicado en otra jurisdicción aduanera pueden oficializarse ante cualquier aduana habilitada, y no solo ante las de la región del yacimiento.",
-        "La norma lleva la firma de Mariano Mengochea, director general de la Dirección General Impositiva a cargo de ARCA, y rige desde el mismo día de su publicación. No cambia la regla general: si el mineral no se funde ni se refina fuera de la jurisdicción de origen, el embarque se sigue registrando donde está la mina.",
-        "## Qué dice la resolución",
-        "El artículo 1° reemplaza el último párrafo del artículo 1° de la RG 5626, que exigía oficializar las destinaciones definitivas y suspensivas de exportación ante las aduanas de la jurisdicción de la Dirección Regional Aduanera donde se ubica el yacimiento. El nuevo texto mantiene esa obligación, pero agrega la excepción para el material fundido y refinado en otra jurisdicción, que podrá registrarse en cualquier aduana habilitada.",
-        "La flexibilización tiene condiciones. Según el texto que reproduce el Centro de Importadores de la República Argentina (CIRA), el exportador tiene que cumplir la rutina de extracción de muestras de la RG 3294, o la que la reemplace, y acreditar la adquisición y el origen de la mercadería en la forma que disponga la Dirección General de Aduanas. Trade News y Noticias Argentinas resumen esas exigencias como un requisito de trazabilidad: la aduana donde se registra la operación tiene que poder vincular el producto refinado con el yacimiento del que salió.",
-        "## La norma que se modifica",
-        "La RG 5626 se publicó el 31 de diciembre de 2024 para unificar y actualizar las reglas de exportación de minerales y concentrados. Abarca los productos del capítulo 26 de la Nomenclatura Común del Mercosur, salvo uranio y torio, además de chatarra y desperdicios con metales preciosos, desperdicios electrónicos destinados a recuperar esos metales y la plata y el oro en bruto. Esa resolución dejó sin efecto las RG 2108 y 3065 y una parte del Anexo V de la RG 1921.",
-        "Entre sus exigencias, la RG 5626 obliga al exportador a hacer en el país los análisis que determinan el contenido de metales preciosos y de otros metales; si la mercadería no es homogénea, el análisis puede hacerse en destino, en un laboratorio acreditado bajo la norma ISO/IEC 17025 o similar. También habilita a la aduana a tomar muestras representativas para valorar lo exportado y califica el incumplimiento como inconducta del exportador, sancionable según el artículo 100 del Código Aduanero.",
-        "## El muestreo que sigue vigente",
-        "La RG 3294, a la que remite la nueva norma, es de marzo de 2012. Según el resumen del estudio Marval O'Farrell Mairal, permite al servicio aduanero pedir la extracción de muestras para determinar el valor de la plata en bruto, la aleación o bullón dorado y el oro en bruto en lingotes, con la metodología de la norma IRAM 16013 de muestreo de bullón. Es decir, el cambio en el lugar de registro no elimina el control sobre la ley del metal, que es lo que define el valor en aduana de estas exportaciones.",
-        "## Por qué lo hace ARCA",
-        "En los considerandos, el organismo invoca el DNU 70/2023, que plantea simplificar trámites y eliminar barreras, y explica que busca dar más flexibilidad a los minerales que pasaron por fundición y refinación sin perder la trazabilidad ni el procedimiento de muestreo. Trade News lo vincula con la logística del sector, en la que la producción suele procesarse a cientos de kilómetros de los puntos de extracción. En la redacción intervinieron las áreas técnicas y jurídicas del organismo, según Noticias Argentinas.",
-        "El cambio llega en un año de exportaciones mineras récord. Según el informe oficial de comercio exterior minero que citan Parlamentario.com y +e, entre enero y agosto el sector exportó USD 6.059 millones, 65,7% más que los USD 3.656 millones del mismo período de 2025. El oro aportó USD 3.623 millones, el litio USD 1.467 millones y la plata USD 726 millones; solo en agosto las ventas mineras sumaron USD 652 millones.",
-        "## Qué cambia en la práctica",
-        "Para una empresa que extrae en una provincia y funde o refina en otra, la resolución evita tener que oficializar el embarque ante una aduana alejada de la planta. El despachante podrá registrar la destinación en la aduana que convenga a la operación, siempre que el exportador tenga en regla la documentación de compra y de origen y que el muestreo se haga según la RG 3294. Las fuentes consultadas no informan qué empresas o plantas usan hoy este esquema ni qué volumen de exportaciones alcanza, y la Dirección General de Aduanas todavía tiene que precisar cómo se acreditará el origen."
+      "gnTried": "2026-10-28T22:07:02Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNRVFyMXY3Sl9ZN3M0blY3UFBxLUkxUUo3clpnZnJJRmpJcl9FeTY2YnA5T2Jsb1hweHVFNmlRQ2NhdUd1TWlaNWMzbENtNjBqVHlIMk1GUUhJdGVTUGdfdkdoMnpiZUhINVcwOWZFc3cwazBVNXlzM1BFSE1HSE52a01uRkQ2dUdxbkp6YkJwR19GQno0c1dSVl91NXdLcHVkY2VNOXRBcjc1VC1qZVRHRGRGWkx4d2ZOTmtQVWZ2YkVsRUVWUGgzdm5GZ0c0VU1uRy1BMGVJOTI5eWctQlJ2ZTlRYklUVFFoOGhJSlU0WHNyN2tkMkE?oc=5"
+    },
+    {
+      "id": "sheinbaum-y-trump-decidiran-el-futuro-de-un-posible-acuerdo-comercial-entre-mexi",
+      "datetime": "2026-10-28T21:10:25Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T22:07:02Z",
+      "title": "Sheinbaum y Trump decidirán el futuro de un posible acuerdo comercial entre México y EE.UU.",
+      "summary": "Nacional | La presidenta de México, Claudia Sheinbaum, afirmó este miércoles que ella y su homólogo estadounidense, Donald Trump, t... ...",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "México",
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Estados Unidos"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "XEVA",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://xeva.com.mx/nacional/297593/sheinbaum-y-trump-decidiran-el-futuro-de-un-posible-acuerdo-comercial-entre-mexico-y-eeuu",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-28T22:07:02Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYVV6cWI4OWI1UnRhck9JbzNYTTNySWh5MUw1N25jOVZEdE0xbUVJdE1BalJIYmhfU0k2UzBuZWhJOEIyOVJKRWpmQWRWWWZINWh5bjNUd3NQcFdmLWNqOGY5XzhrbDQ3NVdmNnZwRUlzRXdSMnZCOWRWeDcxNFdpUTdfLWNDQkw0dGhBZG9Rc19qMS1VcXFJM0h6UmgyTlZYaGlmSDJlY2FsbUZGZWhQMC01U25qUGtwNENZQktJeEFlZjQ?oc=5"
+    },
+    {
+      "id": "sheinbaum-mexico-y-eeuu-evaluan-posible-acuerdo-comercial-antes-de-las-eleccione",
+      "datetime": "2026-10-28T20:43:05Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T22:07:02Z",
+      "title": "Sheinbaum: México y EEUU evalúan posible acuerdo comercial antes de las elecciones intermedias",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "México",
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Estados Unidos"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "CTPost",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.ctpost.com/news/world/article/sheinbaum-mexico-y-eeuu-eval-an-posible-22498793.php",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-28T22:07:02Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdExoUVAxOXoxVGUwMzJPY3ZycmsxRTFPUXJXeTdpRmtzLXB0MTh1Y2FzYVJEWWxRclNIM054ejRxR2FyczFtNEFoLVJjblpDM01aejEzZm1RMnpYZG82NDJRY25hcENIOHVjaTNwUTJWSTd1VTN4cGdKS1JGQnVtZ2tUSi1YTXU4T2podUVndDZCY2QtM2JaRHRn?oc=5"
+    },
+    {
+      "id": "mexico-busca-acuerdo-comercial-con-eu-antes-de-las-elecc",
+      "datetime": "2026-10-28T20:40:19Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T22:07:02Z",
+      "title": "México busca acuerdo comercial con EU antes de las elecc...",
+      "summary": "La presidenta señaló que las negociaciones comerciales registran avances, pero aún hay temas pendientes, entre ellos la reducción de arancel...",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "Europa"
+      ],
+      "countries": [
+        "México",
+        "Unión Europea"
+      ],
+      "tags": [],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "El Mexicano",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://el-mexicano.com.mx/Noticia/Nacional/101088/M%C3%A9xico-busca-acuerdo-comercial-con-EU-antes-de-las-elecciones-de-noviembre",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "El Heraldo de Saltillo",
+          "type": "También publicó esta noticia",
+          "url": "https://elheraldodesaltillo.mx/2026/10/28/claudia-sheinbaum-busca-acuerdo-comercial-con-eu-antes-de-sus-elecciones/",
+          "alsoIn": true,
+          "title": "Claudia Sheinbaum busca acuerdo comercial con EU antes de sus elecciones"
+        },
+        {
+          "name": "Excélsior",
+          "type": "También publicó esta noticia",
+          "url": "https://www.excelsior.com.mx/nacional/mexico-busca-cerrar-acuerdo-comercial-con-eu-antes-elecciones-intermedias",
+          "alsoIn": true,
+          "title": "México busca cerrar acuerdo comercial con EU antes de elecciones intermedias"
+        }
+      ],
+      "gnTried": "2026-10-28T22:07:02Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbFY2YnpPd0VTQ05hamJJaHhkYm1LbTFGR3Rrbmt1OEx4WWJFX3Njd29zQ2xJUjlYcDU4UFRyblFqTTd0cjdFeE00U0FLTEZvUnZFd25LNjNTY2RqSjZIb2NFMENSUjRWUFcyRVQwU1Zud0FZMEdOaUlOdXBiRHlGcWg5YmEyUkdhQ19ON1NlWXYzRXVfT1hlanRtZUZpUklsZTdJbWZNXzN2SWNlWVhXdjREMWhxLS1pLWhVb0dnZWFBOFFGaE5FbVd3?oc=5",
+      "aliasUrls": [
+        "https://elheraldodesaltillo.mx/2026/10/28/claudia-sheinbaum-busca-acuerdo-comercial-con-eu-antes-de-sus-elecciones",
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdDlwNHJrMTdGVUVTY3l1bHY2cFFjb1Bva2Vhamw3eHN0VjA5eWJ1OHZ2T1ZXR01EVjRCN3h1bjVVSlJWZUZNUGxvT1JmREZSczh0NVMyb1FrNjhacm5DR0I2alZENXNhTmVlWThneENwNktmUVpETVoyekdZaklzdTQ4U1lqUEI3Q3hOVVNSOVZfcVV1eG5iZTZxSUNmNF8zZldIUFlaMjNzNG5KaHpzUdIBtgFBVV95cUxNUHVTbTBwdF85SnZWTVc2YXZPdllMMXB5bV82M0lYS19xM2pVSlBCOXl3ODFPVHZ1RWlXT1F3ejJ1Q3huNEk5NHRtSHpFeXhWek1CN2pZM3RaQlM0M0RHTE5IMmIxMUdyMGVmWnpqR1NnbHRMTXV0emtHcEd5UmUySkh2U09DNDVpZDNpWFh0NE5OdmtVX0pwSzJlSHlJMGVUX0IwcjdGemhTbDVTOEszUFhqM0VHUQ",
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR0F4dXVINWxUSklxMHBQLXAzM3V6M0didzlxZDZYRWpDUlo1Y3Jzc0ZxY2FTanhONnlHVnBjWl8xMUJqLVVOVkFCd25jOGhBSXBTa0FMSE5YVmFTaXZpREUtTV83NWpIN28tNlpoVU5GWmpiakd0ZTh4dGVDYllQQlc1aS0zZ2ZUbENpdWxDWnlET2tXSVBoazAzOEhTZExCR0hpSHo3REREUVJLNk5rLXp2UDI1QQ",
+        "https://www.excelsior.com.mx/nacional/mexico-busca-cerrar-acuerdo-comercial-con-eu-antes-elecciones-intermedias"
+      ],
+      "mergedIds": [
+        "claudia-sheinbaum-busca-acuerdo-comercial-con-eu-antes-de-sus-elecciones",
+        "mexico-busca-cerrar-acuerdo-comercial-con-eu-antes-de-elecciones-intermedias"
       ]
+    },
+    {
+      "id": "iquique-terminal-internacional-recibe-a-cerca-de-2-mil-personas-en-nueva-jornada",
+      "datetime": "2026-10-28T20:30:51Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T22:07:02Z",
+      "title": "Iquique Terminal Internacional recibe a cerca de 2 mil personas en nueva jornada de puertas abiertas",
+      "summary": "Por PortalPortuario Social Iquique Terminal Internacional (ITI), puerto de Hanseatic Global Terminals Latin America, recibió a cerca de 2 mil…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Chile"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/iquique-terminal-internacional-recibe-a-cerca-de-2-mil-personas-en-nueva-jornada-de-puertas-abiertas/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "cosecha-record-el-combustible-y-los-fletes-desafian-el-negocio-agricola",
+      "datetime": "2026-10-28T20:22:00Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T22:07:02Z",
+      "title": "Cosecha récord: el combustible y los fletes desafían el negocio agrícola",
+      "summary": "Un informe de Coninagro advierte sobre una pérdida de competitividad",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "agro",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "La Nación",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.lanacion.com.ar/economia/campo/cosecha-record-el-combustible-y-los-fletes-desafian-el-negocio-agricola-nid28102026/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-28T22:07:02Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQeE10cEppWlBVVUVsTUFMRjZvQjhHWktZVmwzVXMwYmU2eHl4NDNITnUwSWVJRzdCYnB2MWxNUG5Da1p6aC02MXNaRVRiQklDeXBXV015UXVxM0l6YzlaOTE2UEhtN1hJUlR5bzBCZXVJY2plM3dVaW5jM0lhNmxCQXN0cGVKUFJDdnJpRXhFTFZJYTk1MTZONG1hZEY0UzNHQktNOHMzdm1aRGpXME9tRGhpSEZlMTl6YnRfZHJIVC1kNG42Q3c?oc=5"
+    },
+    {
+      "id": "mercosur-y-union-europea-buscan-definir-en-diciembre-como-participara-la-socieda",
+      "datetime": "2026-10-28T20:20:13Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T22:07:02Z",
+      "title": "Mercosur y Unión Europea buscan definir en diciembre cómo participará la sociedad civil en el acuerdo comercial",
+      "summary": "Empresarios, sindicatos y organizaciones sociales tendrán espacios de consulta para evaluar los efectos económicos, laborales y ambientales del entendimiento.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Unión Europea"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Ambito",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.ambito.com/uruguay/mercosur-y-union-europea-buscan-definir-diciembre-como-participara-la-sociedad-civil-el-acuerdo-comercial-n6339006",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-28T22:07:02Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbk9BVUdzRGYxb3JFM0hOM1hPM3o0djlXdFpTRjB4eXgxZjJjdGJuSkRSSWNMRE41bjV4RC1fcDJBb3U1dk0zWGNIbUdRMktDN2kyMUtFLXpKd00zV01HenFHY1NaZnVQUllsTWc0MjBNUDRuRWlodHpQem51aGt1N1FnQXJIb0tYRGJmczFiMHkwYjFCRHpwLVlDUmtVblNMQlkwV0cxYWhiano3ZDZUTUFzWEl6LUNER19UTE4tRnhLMW5YQkMwRU1hX3JHZTJ5bWhJd0U0UHRuemM0RGfSAeMBQVVfeXFMT0pDYjhZX3d2UFJKRWxndjhOMjh6WjYzQ0x6dUhzRk1MQzNoOHJqTEdCS2llVHF1bU5aMXJpTGMyNGtCWkdBNU1lMXNlTlgySG40OVVEeWlyUmVyQ0JVS05neTVTaDVQQkRGNU91amFnMkZDZV8xbTQ3MkJiSmJ6MEdYZDdmazd4Mms5RWVSdjI3YnRDOGJVMmFobU1qSmpmZlhvdW9WMjFwd1ZPNmVfWWdBQ1VzZlJBQ3NXVjFGZnhHb1gyYXYzX04yRGVVN2NDTUJRWXdKeThLUTVNSDJKUjBud1E?oc=5"
+    },
+    {
+      "id": "ruben-perez-cda-el-rol-del-despachante-de-aduana-en-un-comercio-exterior-en-tran",
+      "datetime": "2026-10-28T20:19:26Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T22:07:02Z",
+      "title": "Rubén Pérez (CDA): el rol del despachante de aduana en un comercio exterior en transformación",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aduanas"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 2,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "DataPortuaria",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://dataportuaria.com/es/argentina/analisis/ruben-perez-cda-el-rol-del-despachante-de-aduana-en-un-comercio-exterior-en-transformacion",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-28T22:07:02Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQenhmcXRJYUhpUHRWQTVLTTNPQzlKVmE4dUlfSHQxamFlWXNEOHdrR2hOMGZaZGh0elB4d3hQS2pxRV9zbFBrMFFxTExGN2N2S21vWWlDazg4VFhodzlJY1d4U2Jvc05QUkplZ3dZbk9kRURqOUxELWdjdWlGRDViSkJqdDdvbEZneC16bi1aaTE3Tm5Ka2lRVHFlcDZ4Z1lqZzBaY1pJR09fSWlLNkFzbnAtS3JQbS1LRTN2YURSZnJWUGctWl9wT1FLa2t2N1BlbEJmdA?oc=5"
+    },
+    {
+      "id": "cannabis-la-argentina-busca-fortalecer-su-industria-con-acuerdos-regionales-y-un",
+      "datetime": "2026-10-28T20:14:57Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T22:07:02Z",
+      "title": "Cannabis: La Argentina busca fortalecer su industria con acuerdos regionales y una agenda exportadora",
+      "summary": "En el marco de ExpoCannabis, la Cámara de la Industria del Cannabis y el Cáñamo (CAINCCA) impulsó acuerdos de cooperación con entidades de Costa Rica y cámaras provinciales para fortalecer la cadena productiva. Con mercados como Alemania y Brasil en la mira, el sector busca transformar su potencial productivo en…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Tratados y acuerdos"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "a1noticias.com.ar",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://a1noticias.com.ar/nota/17123/cannabis-la-argentina-busca-fortalecer-su-industria-con-acuerdos-regionales-y-una-agenda-exportadora",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-28T22:07:02Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdHlpTGpPalFHSW5PcnJDdHZCQnN6NE1SS1djVWtMaFExM1VFTW1tVElKWklMd1lXWlVtLXRlWUYyQ3VyZXY4QXltOFFXdXY2SEJaeXVyLUFnYjY3R2FKaTZEbEh3VEU0OGR6M0hnbkxiMnRSQmJnYzFVMGpBbmpZdGtSc3hPRVBCQzNxdm9Tall6YXNqaFBGeXBqamxGOWxiM2xDLTRoekFkOERtZ3puVlA0SDFCRlVsT21YVXQ4SG8xcmVGRXlWbnNOTG5HanJxTE0w?oc=5"
+    },
+    {
+      "id": "bolivia-acelera-estrategia-para-consolidar-operatividad-global-de-puerto-busch",
+      "datetime": "2026-10-28T20:00:05Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T22:07:02Z",
+      "title": "Bolivia acelera estrategia para consolidar operatividad global de Puerto Busch",
+      "summary": "El ministro de Relaciones Exteriores de Bolivia, Héctor Huanca, articuló una alianza interministerial para consolidar una…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Bolivia"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/bolivia-acelera-estrategia-para-consolidar-operatividad-global-de-puerto-busch/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "dhl-sostiene-que-filtracion-de-informacion-sensible-es-un-problema-persistente-d",
+      "datetime": "2026-10-28T19:28:04Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T22:07:02Z",
+      "title": "DHL sostiene que filtración de información sensible es un problema persistente dentro de cadena logística",
+      "summary": "Eduardo Ullivarri, Security Manager para DHL Global Forwarding Chile, sostuvo que la filtración de información sensible…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Chile"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/dhl-sostiene-que-filtracion-de-informacion-sensible-es-un-problema-persistente-dentro-de-cadena-logistica/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "mexico-puerto-de-lazaro-cardenas-recibe-nueva-naviera-centrada-en-ro-ro-y-carga",
+      "datetime": "2026-10-28T19:00:43Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T22:07:02Z",
+      "title": "México: Puerto de Lázaro Cárdenas recibe nueva naviera centrada en Ro-Ro y carga de proyecto",
+      "summary": "El Puerto de Lázaro Cárdenas sumó una nueva línea naviera a su conectividad marítima con el…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "México"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/mexico-puerto-de-lazaro-cardenas-recibe-nueva-naviera-centrada-en-ro-ro-y-carga-de-proyecto/",
+          "primary": true,
+          "author": "cmeza"
+        }
+      ]
+    },
+    {
+      "id": "las-exportaciones-a-efta-treparon-un-74-y-se-abre-una-oportunidad-en-carne-lana",
+      "datetime": "2026-10-28T18:15:37Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T22:07:02Z",
+      "title": "Las exportaciones a EFTA treparon un 74% y se abre una oportunidad en carne, lana y cannabis",
+      "summary": "El comercio exterior se fortalece y podría cobrar mayor impulso tras la entrada en vigencia del acuerdo a nivel Mercosur.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Carne"
+      ],
+      "visual": "sheep",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Ambito",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.ambito.com/uruguay/las-exportaciones-efta-treparon-un-74-y-se-abre-una-oportunidad-carne-lana-y-cannabis-n6338874",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-28T22:07:02Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZG1sZTExVURSX0dzNkNOOWVhdVVCdFNrWWtQcXJOWjNJeWdZOTZnYkV2NjhZR1dmSjJkV19TUGxIS2E5dGtXcUNXS0E4aU1LT3NMN3FJblpSQ2dkUjZWX1VIUmRVd2V1YjhRT3pKblZvSkpjS3NfbjU5LUZDLTJWUm5lR0YzMTVhV1E1N0tLRktCaVN5Q1FMNm9DT0tYX0c0TE1LUDNRMzJwOG5vcVRFSHJhSmpQR3U1VS1NQ01FUEI3OUZMd29RYtIByAFBVV95cUxOZG1sZTExVURSX0dzNkNOOWVhdVVCdFNrWWtQcXJOWjNJeWdZOTZnYkV2NjhZR1dmSjJkV19TUGxIS2E5dGtXcUNXS0E4aU1LT3NMN3FJblpSQ2dkUjZWX1VIUmRVd2V1YjhRT3pKblZvSkpjS3NfbjU5LUZDLTJWUm5lR0YzMTVhV1E1N0tLRktCaVN5Q1FMNm9DT0tYX0c0TE1LUDNRMzJwOG5vcVRFSHJhSmpQR3U1VS1NQ01FUEI3OUZMd29RYg?oc=5"
     },
     {
       "id": "mexico-mantiene-exigencia-de-reducir-aranceles-antes-de-acuerdo-con-eu",
@@ -1006,10 +1300,12 @@
         "Aranceles",
         "Tratados y acuerdos",
         "Latinoamérica",
+        "Estados Unidos",
         "Europa"
       ],
       "countries": [
         "México",
+        "Estados Unidos",
         "Unión Europea"
       ],
       "tags": [
@@ -1047,6 +1343,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Exportaciones",
         "Tratados y acuerdos",
         "Latinoamérica",
         "Asia"
@@ -1076,45 +1373,6 @@
       "digestSkip": {
         "at": "2026-10-28T15:50:00-03:00",
         "reason": "repite el mismo hecho que la nota de Prensa Latina (términos de referencia India–México)"
-      }
-    },
-    {
-      "id": "claudia-sheinbaum-busca-acuerdo-comercial-con-eu-antes-de-sus-elecciones",
-      "datetime": "2026-10-28T18:02:44Z",
-      "date": "2026-10-28",
-      "firstSeen": "2026-10-28T18:09:45Z",
-      "title": "Claudia Sheinbaum busca acuerdo comercial con EU antes de sus elecciones",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Tratados y acuerdos",
-        "Europa"
-      ],
-      "countries": [
-        "Unión Europea"
-      ],
-      "tags": [],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
-      "sources": [
-        {
-          "name": "El Heraldo de Saltillo",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://elheraldodesaltillo.mx/2026/10/28/claudia-sheinbaum-busca-acuerdo-comercial-con-eu-antes-de-sus-elecciones/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-28T18:09:45Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQR0F4dXVINWxUSklxMHBQLXAzM3V6M0didzlxZDZYRWpDUlo1Y3Jzc0ZxY2FTanhONnlHVnBjWl8xMUJqLVVOVkFCd25jOGhBSXBTa0FMSE5YVmFTaXZpREUtTV83NWpIN28tNlpoVU5GWmpiakd0ZTh4dGVDYllQQlc1aS0zZ2ZUbENpdWxDWnlET2tXSVBoazAzOEhTZExCR0hpSHo3REREUVJLNk5rLXp2UDI1QQ?oc=5",
-      "digestSkip": {
-        "at": "2026-10-28T15:50:00-03:00",
-        "reason": "el sitio no permite lectura automática"
       }
     },
     {
@@ -1205,44 +1463,6 @@
         "at": "2026-10-28T15:50:00-03:00",
         "basedOn": "https://portalportuario.cl/llega-a-texas-primer-cargamento-de-petroleo-venezolano-tras-acuerdo-entre-ee-uu-y-nabep",
         "words": 188
-      }
-    },
-    {
-      "id": "importaciones-lacteas-crecen-6-1-a-septiembre-con-alza-en-queso-gouda",
-      "datetime": "2026-10-28T17:29:00Z",
-      "date": "2026-10-28",
-      "firstSeen": "2026-10-28T18:09:45Z",
-      "title": "Importaciones lácteas crecen 6,1% a septiembre con alza en queso gouda",
-      "summary": "Importaciones chilenas de productos lácteos sumaron 598,5 millones de litros equivalentes en septiembre. Queso gouda crece 11% mientras leche polvo entera cae 79,8%. Análisis Fedeleche.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Importaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
-      "sources": [
-        {
-          "name": "reporteagricola.cl",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.reporteagricola.cl/noticia/noticias/2026/10/importaciones-lacteas-crecen-septiembre-queso-gouda-leche-polvo",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-28T18:09:45Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMjhsUFAtN1lVRmgxRTVlTUtDeTdGczliSUdQY0E0MUVlandIeUs1dnZleVZCS2NMVkdzejcyajRpWTZBUVFNNkx2ckZ1ekFwYXFtS1VQTTM5YmdfUnNVZ0dBQ0VLUU94NllxeTA3bmRKaG1BdEg2d2RrRTZzUWFTaHRQUUhjZmgwdWhSUXlvNG1YbG1UcFA0ekJPT0QyOHNtUmZvU0ZhUkdEOFV2bTFCQWViZWdqVzRNX3Q4?oc=5",
-      "digestSkip": {
-        "at": "2026-10-28T15:50:00-03:00",
-        "reason": "no se pudo leer la página de la fuente"
       }
     },
     {
@@ -1485,12 +1705,15 @@
       "topics": [
         "Argentina",
         "Transporte aéreo",
-        "Latinoamérica"
+        "Puertos",
+        "Latinoamérica",
+        "Europa"
       ],
       "countries": [
         "Argentina",
         "Chile",
-        "Colombia"
+        "Colombia",
+        "España"
       ],
       "tags": [],
       "visual": "plane",
@@ -1651,6 +1874,54 @@
         "basedOn": "https://www.infobae.com/movant/2026/10/28/la-carga-aerea-global-repunta-y-las-tarifas-suben-de-cara-a-la-temporada-alta/",
         "words": 188
       }
+    },
+    {
+      "id": "importaciones-totales-de-leche-equivalente-acumulan-alza-de-6-1-al-mes-de-septie",
+      "datetime": "2026-10-28T15:02:12Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T22:07:02Z",
+      "title": "Importaciones totales de leche equivalente acumulan alza de 6,1% al mes de septiembre",
+      "summary": "Las compras de productos lácteos en el extranjero sumaron 598,5 millones de litros equivalentes, con un crecimiento que se acelera respecto del mes...",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "FEDELECHE F.G.",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.fedeleche.cl/ww5/index.php/noticias/noticias-nacionales/10111-importaciones-totales-de-leche-equivalente-acumulan-alza-de-6-1-al-mes-de-septiembre",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "reporteagricola.cl",
+          "type": "También publicó esta noticia",
+          "url": "https://www.reporteagricola.cl/noticia/noticias/2026/10/importaciones-lacteas-crecen-septiembre-queso-gouda-leche-polvo",
+          "alsoIn": true,
+          "title": "Importaciones lácteas crecen 6,1% a septiembre con alza en queso gouda"
+        }
+      ],
+      "gnTried": "2026-10-28T22:07:02Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbnMzZ1hFYjREbjhZdmJDLXFhRWJrWC1kTE5pSTJwU19EYzlsMjhqcDJUYUhrc3VwZ0RyemZGc29rNDZFMk1nMWd6WjQwQnF0dzF2d25zd3BTWkV6NnJIZXJVaEpndzNkcVNpN1dHekQ1eXdqcUpJVmdOSl9zZjhjX1dtdkhEcFV3WjlkdlJFS0xsNG5PS1VURUQyalU3LUtIc0tmZHg2YS1uNzBWalVqSkM2RzczbmZHc0JMWThZbHB2U3hrZFBUX2tWczZsMkZzRXhZTTJ5ZGZKSDlNU3JjV0FNTnFoclhLM2Jvc2p3UQ?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMjhsUFAtN1lVRmgxRTVlTUtDeTdGczliSUdQY0E0MUVlandIeUs1dnZleVZCS2NMVkdzejcyajRpWTZBUVFNNkx2ckZ1ekFwYXFtS1VQTTM5YmdfUnNVZ0dBQ0VLUU94NllxeTA3bmRKaG1BdEg2d2RrRTZzUWFTaHRQUUhjZmgwdWhSUXlvNG1YbG1UcFA0ekJPT0QyOHNtUmZvU0ZhUkdEOFV2bTFCQWViZWdqVzRNX3Q4",
+        "https://www.reporteagricola.cl/noticia/noticias/2026/10/importaciones-lacteas-crecen-septiembre-queso-gouda-leche-polvo"
+      ],
+      "mergedIds": [
+        "importaciones-lacteas-crecen-6-1-a-septiembre-con-alza-en-queso-gouda"
+      ]
     },
     {
       "id": "juan-carlos-galdamez-la-confianza-necesita-una-prueba-cumplir-el-tratado-de-1984",
@@ -1913,6 +2184,42 @@
       }
     },
     {
+      "id": "mendoza-aseguran-que-el-triunfo-de-lula-en-brasil-puede-ser-positivo-para-el-com",
+      "datetime": "2026-10-28T13:58:49Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T22:07:02Z",
+      "title": "Mendoza: Aseguran que el triunfo de Lula en Brasil puede ser positivo para el comercio exterior de la provincia",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "Radio Regional",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://radioregional.com.ar/mendoza-aseguran-que-el-triunfo-de-lula-en-brasil-puede-ser-positivo-para-el-comercio-exterior-de-la-provincia/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-28T22:07:02Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaUR5V1ByZHlBbnY0V3JiMEpROFk2aWNGWFh1amZTTXRjRS02aGRxdVdRODR4eWdSelMyTWFWR3VyUGF6Qk11QkUzcm9fbE5yMkRld0VqWlJ1T2JqT3dSelFwMDdLUEhTR1EyY01CYVlhWjk1Z2JLYnUyQWZTc1BVVGVFVjZXdDVqeTVJak42OS01ajRwc041OF9RMlpxRGhFaUdZRm85UkpnOFQxU0h6OFZnNnVGSWRDZTlLZnoxanBYejJiaTBMSGV4SDJ0S0c4Y3owcUJfMA?oc=5"
+    },
+    {
       "id": "los-pedidos-de-portacontenedores-ya-superan-los-15-millones-de-teus",
       "datetime": "2026-10-28T13:55:20Z",
       "date": "2026-10-28",
@@ -2009,59 +2316,6 @@
         "at": "2026-10-28T13:40:00-03:00",
         "basedOn": "https://lucesdelsiglo.com/2026/10/28/alardea-trump-de-aranceles-a-mexico-internacional/",
         "words": 161
-      }
-    },
-    {
-      "id": "regulaciones-antideforestacion-de-la-ue-beneficiarian-exportaciones-de-harina-de",
-      "datetime": "2026-10-28T13:30:50Z",
-      "date": "2026-10-28",
-      "firstSeen": "2026-10-28T14:19:57Z",
-      "title": "Regulaciones antideforestación de la UE beneficiarían exportaciones de harina de soja argentina",
-      "summary": "La industria brasileña de la soja teme que las nuevas regulaciones antideforestación de la Unión…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Latinoamérica",
-        "Europa"
-      ],
-      "countries": [
-        "Argentina",
-        "Brasil",
-        "Unión Europea"
-      ],
-      "tags": [
-        "Soja"
-      ],
-      "visual": "agro",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/regulaciones-antideforestacion-de-la-ue-beneficiarian-exportaciones-de-harina-de-soja-argentina/",
-          "primary": true,
-          "author": "Luis Alonso"
-        }
-      ],
-      "aliasUrls": [
-        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOa2tBTE5TRjBFSGcyTXJNejJ4akt2WWRoVVJtOXg5aUN0cVhTZ01ueFhycENVTVFxWERFbmpGYmJQM1ktcHpnSVhMY08zbWlZQ2JDZHFnUzBhN2hQTXBvcG9peUlIOVc3U0M3SUIyMGVvcEd5NV9rY3I5aGJYWHI2RVFoMGZnNGFoNGxSR2xTOThUNjBmZWJXWTM5YlZtZmxXcWxQS0xodHVvRGg5NjFPMkdtYi1qRnVHdGtzNjJZMXc"
-      ],
-      "digest": {
-        "lead": "El reglamento antideforestación de la Unión Europea, que exigirá desde el 30 de diciembre probar que los productos no vienen de tierras deforestadas, podría frenar la harina de soja brasileña y favorecer a la argentina, según una nota de PortalPortuario con datos de Reuters.",
-        "body": [
-          "Brasil es el mayor proveedor de harina de soja para piensos de la UE: en 2025 envió un récord de 23,3 millones de toneladas, cerca de la mitad de las compras del bloque. La federación europea de fabricantes de piensos (Fefac) advierte que las exigencias de trazabilidad podrían bloquear hasta 4 millones de toneladas brasileñas, y calificó a Brasil con riesgo \"medio\", mientras que la Argentina y Paraguay recibieron riesgo \"bajo\". Para la Fefac, casi toda la harina argentina del primer semestre de 2027 cumpliría las exigencias.",
-          "Dante Romano, de Max Agro, explica que en Brasil la soja recorre más de 2.000 km hasta el puerto, combinando camión, barcaza y tren, mientras que las zonas sojeras argentinas están a no más de 350 km de Rosario. Gustavo Idígoras, de Ciara-CEC, sostuvo que el país puede cubrir la caída brasileña, que estima en 5 a 6 millones de toneladas, y destacó el sistema de trazabilidad Visec."
-        ],
-        "at": "2026-10-28T13:40:00-03:00",
-        "basedOn": "https://portalportuario.cl/regulaciones-antideforestacion-de-la-ue-beneficiarian-exportaciones-de-harina-de-soja-argentina",
-        "words": 199,
-        "flag": "curar"
       }
     },
     {
@@ -2275,6 +2529,20 @@
           "url": "https://www.ellitoral.com/campolitoral/embarques-china-cuotasdeimportacion-rosgan-carnevacuna-brasil-indec-exportaciones-senasa-australia_0_t7bPP3DiVl.html",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "NewsDigitales",
+          "type": "También publicó esta noticia",
+          "url": "https://www.newsdigitales.com/nota/348655/carne-vacuna-por-que-argentina-podria-no-completar-el-cupo-de-exportacion-a-china/",
+          "alsoIn": true,
+          "title": "Carne vacuna: por qué Argentina podría no completar el cupo de exportación a China"
+        },
+        {
+          "name": "Blasina y Asociados",
+          "type": "También publicó esta noticia",
+          "url": "https://blasinayasociados.com/argentina-exportacion-de-carne-a-china-cae-8-y-no-completara-la-cuota/",
+          "alsoIn": true,
+          "title": "Argentina: exportación de carne a China cae 8% y no completará la cuota"
         }
       ],
       "gnTried": "2026-10-28T14:19:57Z",
@@ -2289,7 +2557,17 @@
         "basedOn": "https://www.ellitoral.com/campolitoral/embarques-china-cuotasdeimportacion-rosgan-carnevacuna-brasil-indec-exportaciones-senasa-australia_0_t7bPP3DiVl.html",
         "words": 196,
         "flag": "curar"
-      }
+      },
+      "aliasUrls": [
+        "https://blasinayasociados.com/argentina-exportacion-de-carne-a-china-cae-8-y-no-completara-la-cuota",
+        "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQmRPMGh0YW5GUVNEUmZmUWo0c3hreFA3NDVFQ2tkTk5xQUdReGcybDF6c29MNlpsTnk2V3I2MFpHMGpMWVYzMHVQZ3R1NWl4V0s5LUNybTVkRTRkR0VJVWVIS1FUX2tPMjdtSm5rMC1FTUZHTXltUWd4V2w3ZWZRTVphN2dadC1ZRHVsR2lUNkFUSXhGd19Pb0Fyb2h4TGVVY2c",
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQU3hIZWRKUmRoS1dMZ09mUFI1b0duOGlGUm9obTlQZ1JqTlRobjdOQ3lMQmtRU2d3WVVPRFJZT0pxYnFKN1JteDYzNVVLbXcwYkxOdzFBNXNfMWsxcldEZ1Y3c1l0NnlDRzZRUERaS1ZMOUNZWUQySXNiM0hRZmpPZjNpSHBLSkJMLUNYaTlhWTlYcWpkbWdFR1duMTFZazluZGg4eEdXQ1dUY1NiSi1QaUIycGFSa2VXbWxKUmFPWVNOUQ",
+        "https://www.newsdigitales.com/nota/348655/carne-vacuna-por-que-argentina-podria-no-completar-el-cupo-de-exportacion-a-china"
+      ],
+      "mergedIds": [
+        "carne-vacuna-por-que-argentina-podria-no-completar-el-cupo-de-exportacion-a-chin",
+        "argentina-exportacion-de-carne-a-china-cae-8-y-no-completara-la-cuota"
+      ]
     },
     {
       "id": "argentina-tiene-mas-superficie-forestada-que-uruguay-pero-exporta-seis-veces-men",
@@ -2462,6 +2740,20 @@
           "url": "https://www.democrata.es/economia/boeing-preve-que-la-carga-aerea-mundial-se-duplique-en-2045-y-precise-3-000-aviones-de-carga-adicionales/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "EnElAire",
+          "type": "También publicó esta noticia",
+          "url": "https://enelaire.mx/2026/10/28/boeing-preve-que-el-trafico-mundial-de-carga-aerea-se-duplique-para-2045/",
+          "alsoIn": true,
+          "title": "Boeing prevé que el tráfico mundial de carga aérea se duplique para 2045"
+        },
+        {
+          "name": "MVS Noticias",
+          "type": "También publicó esta noticia",
+          "url": "https://mvsnoticias.com/economia/2026/10/28/anticipa-boeing-duplicacion-de-carga-aerea-751541.html",
+          "alsoIn": true,
+          "title": "Anticipa Boeing duplicación de carga aérea"
         }
       ],
       "gnTried": "2026-10-28T14:19:57Z",
@@ -2475,7 +2767,17 @@
         "at": "2026-10-28T13:40:00-03:00",
         "basedOn": "https://www.democrata.es/economia/boeing-preve-que-la-carga-aerea-mundial-se-duplique-en-2045-y-precise-3-000-aviones-de-carga-adicionales/",
         "words": 198
-      }
+      },
+      "aliasUrls": [
+        "https://enelaire.mx/2026/10/28/boeing-preve-que-el-trafico-mundial-de-carga-aerea-se-duplique-para-2045",
+        "https://mvsnoticias.com/economia/2026/10/28/anticipa-boeing-duplicacion-de-carga-aerea-751541.html",
+        "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWjBfNUE0aS0xbzBOVkFVbkJkM19WMUN0ZWo4dFZKb0NySlM5RUdwZ2J4Y294cldCQTZHV0tyLW1IMDc3NUxCcFNNRG5ZZThmV0JqelNXd18zR05ETHdaeER2WjZGcGEwaFpRbEk4Um9zWFdidld0X2RlNmpSc1ZMU2p1UGVZeGtMSmYzaWFiZ1h0bC1uT0E2cjJWeHE4NjA",
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRm5yd25IVHBCbVRJVTZ3MFRhY3JQTjR0bFJVZ19TWnFjTi1jSTRobzNyOUQybDIyMkxPbnVoWXhiMFJKenVaV1hYQmVReTNpeUE4YmFNRHdIV1pPMmRZU3BQNG10TnlMd0dTQW5WYmY2VFVFT19wTm52RUx0UlgzblR1elIyTk9YNzhsVlF0eGtJUlRicVd0bjgyZmdobm9rTFpuT0I5NA"
+      ],
+      "mergedIds": [
+        "boeing-preve-que-el-trafico-mundial-de-carga-aerea-se-duplique-para-2045",
+        "anticipa-boeing-duplicacion-de-carga-aerea"
+      ]
     },
     {
       "id": "espana-puerto-de-tarragona-firma-su-mejor-septiembre-desde-2017-y-roza-23-millon",
@@ -2524,80 +2826,6 @@
       }
     },
     {
-      "id": "arca-flexibiliza-las-exportaciones-de-minerales",
-      "datetime": "2026-10-28T12:06:09Z",
-      "date": "2026-10-28",
-      "firstSeen": "2026-10-28T14:19:57Z",
-      "title": "ARCA flexibiliza las exportaciones de minerales",
-      "summary": "ARCA flexibilizó el registro de exportaciones de minerales procesados fuera de la jurisdicción del yacimiento, con controles de origen y trazabilidad",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Aduanas"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "ARCA",
-        "Minería"
-      ],
-      "visual": "mining",
-      "impact": 2,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Economis",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://economis.com.ar/arca-flexibiliza-las-exportaciones-de-minerales/",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "Argentina.gob.ar",
-          "type": "También publicó esta noticia",
-          "url": "https://www.argentina.gob.ar/noticias/mas-flexibilidad-para-exportar-minerales",
-          "alsoIn": true,
-          "title": "Más flexibilidad para exportar minerales"
-        },
-        {
-          "name": "Diario El Norte - San Nicolás",
-          "type": "También publicó esta noticia",
-          "url": "https://diarioelnorte.com.ar/arca-flexibiliza-la-exportacion-de-minerales-procesados/",
-          "alsoIn": true,
-          "title": "ARCA flexibiliza la exportación de minerales procesados"
-        }
-      ],
-      "gnTried": "2026-10-28T14:19:57Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9xTjhYb29RTHI5ZmRaeWpQd3pLY1dZN3FNaDV3aGsySVFPTzAxMUljSF9UMk5QUGJyWEF5cGg1T2Izbm84WnVYSUQ1OHVXTjRWVmREWTFKUm9xWUhaN0FkVmpFak5qZlktTUtBeGM1UjlVbFh3bUxwNjBUSHE?oc=5",
-      "digest": {
-        "lead": "ARCA dispuso que los minerales fundidos y refinados fuera de la jurisdicción aduanera del yacimiento puedan exportarse por cualquier aduana habilitada, mediante la Resolución General 5917/2026, publicada el 28 de octubre en el Boletín Oficial, informó Economis.",
-        "body": [
-          "Hasta ahora, esas operaciones debían oficializarse en la aduana correspondiente a la jurisdicción del yacimiento. La norma, que modifica la Resolución General 5626, se aplica cuando el mineral o el concentrado se procesa en un establecimiento ubicado fuera de esa jurisdicción de origen.",
-          "Según el medio, el cambio no elimina los controles: el exportador debe cumplir el procedimiento de extracción de muestras de la Resolución General 3294, o la que la reemplace, y acreditar la adquisición y el origen de la mercadería según lo que fije la Dirección General de Aduanas. ARCA vinculó la medida con la simplificación administrativa del DNU 70/2023. La resolución rige desde su publicación y no modifica el régimen general para el resto de las operaciones con minerales."
-        ],
-        "at": "2026-10-28T13:40:00-03:00",
-        "basedOn": "https://economis.com.ar/arca-flexibiliza-las-exportaciones-de-minerales/",
-        "words": 159,
-        "flag": "curar"
-      },
-      "aliasUrls": [
-        "https://diarioelnorte.com.ar/arca-flexibiliza-la-exportacion-de-minerales-procesados",
-        "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeFQtT1ctTzF3dEZfdjFvcEJYUWFpSzNqcUo2QjJKOTEtSVdCMkEwd0o1eGRia3JlWC1uUnBjZ0h6eGJaY3hOLTdRMjFGRWhYYVk2cVp1YUJJeGRfc24tN0pHbmhFY24zMXg2ZWpvc1hrbEJVUTFXSjdGWUFnTlRCVEFyTGc",
-        "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQkV6WWtrV0huYUNhMlZCak5LT1JNVDRFNU5EWTY5Mm13cTNscmhKbE9DdFJtT2RLMnFRUk15ZHpUQmRLTnh6LUgwR2NHM1ZLdHpiRzA1NlBqc3llNkxFVmFMRVNKQkFJWDRnOWZQOUpRVHI5VjhLdmpNRU4wbTVXNG5rVkF1bDdmaDhQcWZB",
-        "https://www.argentina.gob.ar/noticias/mas-flexibilidad-para-exportar-minerales"
-      ],
-      "mergedIds": [
-        "mas-flexibilidad-para-exportar-minerales",
-        "arca-flexibiliza-la-exportacion-de-minerales-procesados"
-      ]
-    },
-    {
       "id": "la-mayor-diversificacion-de-las-exportaciones-permitira-un-mayor-crecimiento-de",
       "datetime": "2026-10-28T11:18:45Z",
       "date": "2026-10-28",
@@ -2640,45 +2868,6 @@
         "at": "2026-10-28T15:50:00-03:00",
         "basedOn": "https://www.bbva.com/es/ar/economia-y-finanzas/la-mayor-diversificacion-de-las-exportaciones-permitira-un-mayor-crecimiento-de-la-economia-argentina/",
         "words": 174
-      }
-    },
-    {
-      "id": "el-supara-celebro-el-egreso-de-seis-nuevos-binomios-operativos-de-la-aduana-arge",
-      "datetime": "2026-10-28T09:24:05Z",
-      "date": "2026-10-28",
-      "firstSeen": "2026-10-28T10:14:43Z",
-      "title": "El SUPARA celebró el egreso de seis nuevos binomios operativos de la Aduana Argentina para tareas de control y prevención del tráfico ilícito",
-      "summary": "El Sindicato Único del Personal Aduanero de la República Argentina (SUPARA), liderado por Daniel Mallotti, celebró el egreso de seis nuevos binomios operativos del Departamento de Adiestramiento de Canes y Entrenamiento de Guías de la Aduana Argentina.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Aduanas"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 2,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
-      "sources": [
-        {
-          "name": "lineasindical.com.ar",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.lineasindical.com.ar/supara-celebr-egreso-seis-nuevos-binomios-operativos-aduana-argentina-para-tareas-control-prevencin-trfico-ilcito-n-1765818.html",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-28T10:14:43Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMTRQTEZtWU9JMzFfYWVsUXFQWDlaNTRIUlh1ZkwyT08zR2lLSldLYnVPQ0tLZ1VJVlk4RG5GRXA1Y185Ul9rUXB1bTJUTENrVHA3YllUa3FNLWlRMWVfci1ZRk5Db3htM2diaEJfMG1CaHJpbDlrcm8wMmtXSkZPRnlsZGRneVI3MUtNZ2ZKdVFxTFhzSjRmS0c5bnNpRE5qQnh2Z0ZDVlpKQUtXZTNXSElMVjBtbFdhcXI4MFJkNXNSWXdvSFR0NGZzQnU5WldnQzBIcmRMZjRYN0JYVTlhRjRWRzlzMTRqS1dEVGk2RVdMQTQ?oc=5",
-      "digestSkip": {
-        "at": "2026-10-28T09:50:00-03:00",
-        "reason": "fuera de tema (acto gremial por egreso de binomios caninos de la Aduana)"
       }
     },
     {
@@ -3037,6 +3226,346 @@
       }
     },
     {
+      "id": "buenos-aires-sera-sede-de-una-exposicion-que-conectara-logistica-vaca-muerta-y-m",
+      "datetime": "2026-10-28T03:08:35Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-28T22:07:02Z",
+      "title": "Buenos Aires será sede de una exposición que conectará logística, Vaca Muerta y minería",
+      "summary": "Expo GlobalPorts 2026 se realizará el 3 y 4 de noviembre en la ciudad de Buenos Aires. Reunirá a más de 100 especialistas para debatir logística, puertos, energía, minería y agroexportación.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Logística"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Minería",
+        "Energía"
+      ],
+      "visual": "energy",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "InfoMendoza",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://infomendoza.info/infoenergia/buenos-aires-sera-sede-de-una-exposicion-que-conectara-logistica-vaca-muerta-y-mineria-2",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-28T22:07:02Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPXzBBM3M5bXhDdXpISUY5ZHBUXzdBUXg2dXExLUp4REFlXzhfU3JDQnBsbFc2V1J3M2tBN2MzeXVYcThNZGEzeWJsZk5QLV9qcHdCX29uUmFfNmZJUUFoVUJBVVRyVmR5RVdIRldvV3o5b3MwVlhsRlhQVnlxSXdqR25wRFVwcmNoQmNNZ1drdzRLVnRwVThWUGY3aVFjbU16NFUtMUlYcUl3NU55ZUlKNzZ2UnAwMk9NOS1GeEtRTXBRNEHSAcIBQVVfeXFMTlpBSzZNa0hIOGhDOEt3OERrRlFhdFkzSzlPc1Rnbk9NNkMwQ2U2WWVxWFhkNUppTHJKRDhTOXd2Y2hOMUlrdXRqOVJ1QXhWWUtKZnZNeEM5aHRsS3Biakk3bnVvTnYwRWl4SHBVY3g5QlQtdm92bzE3OW9PbGJ1WjVaQ054cmlfRGF1VThfcnRhSTliVlVHQkZwaFlib3JqSU9rQzNxdXhaa1hiQlNYdjdkNWF2RHVsaVVzcmxmTkJqaFE?oc=5"
+    },
+    {
+      "id": "eudr-reglamento-antideforestacion-ue-harina-soja-argentina-brasil-fefac-30-diciembre",
+      "date": "2026-10-28",
+      "kind": "noticia",
+      "story": "agroexportacion",
+      "title": "La norma antideforestación de la UE amenaza la harina de soja de Brasil y abre espacio para la Argentina",
+      "summary": "A dos meses de que empiece a aplicarse el reglamento europeo antideforestación (EUDR), la federación de fabricantes de piensos de la UE calcula que hasta 4 millones de toneladas de harina brasileña podrían quedar fuera por falta de trazabilidad. La Argentina, con riesgo «bajo» en esa evaluación, se postula para cubrir el hueco.",
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Europa",
+        "Regulaciones",
+        "Mercosur",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil",
+        "Paraguay",
+        "Unión Europea"
+      ],
+      "tags": [
+        "EUDR",
+        "Deforestación",
+        "Harina de soja",
+        "Fefac",
+        "CIARA-CEC",
+        "Visec",
+        "Trazabilidad",
+        "Soja"
+      ],
+      "visual": "agro",
+      "impact": 3,
+      "affectsArgentina": true,
+      "argentinaNote": "La Argentina es el mayor exportador mundial de harina de soja y la evaluación de la industria europea la ubica entre los orígenes de riesgo bajo, mientras Brasil, el mayor proveedor de la UE, enfrenta dudas sobre la trazabilidad de su producción.",
+      "argentinaImpact": {
+        "change": "Desde el 30 de diciembre de 2026, los importadores europeos de soja y derivados deberán demostrar que la mercadería no proviene de tierras deforestadas; la industria europea de piensos prevé que casi toda la harina argentina del primer semestre de 2027 cumpla esas exigencias.",
+        "who": "Exportadores y aceiteras de soja, productores que deben acreditar la trazabilidad de sus lotes, el sistema Visec y los puertos del Gran Rosario.",
+        "sectors": [
+          "Complejo sojero",
+          "Industria aceitera",
+          "Puertos del Gran Rosario"
+        ],
+        "flows": {
+          "importaciones": false,
+          "exportaciones": true,
+          "logistica": true,
+          "aranceles": false
+        }
+      },
+      "keyData": [
+        [
+          "Harina brasileña en riesgo",
+          "Hasta 4 millones de t (cerca del 17% de sus exportaciones)"
+        ],
+        [
+          "Inicio del EUDR (grandes y medianas)",
+          "30 de diciembre de 2026"
+        ],
+        [
+          "Exportaciones brasileñas de harina 2025",
+          "23,3 millones de t (récord)"
+        ],
+        [
+          "Exportaciones argentinas de harina",
+          "Unos 27 millones de t el año pasado"
+        ],
+        [
+          "Evaluación de la Fefac",
+          "Argentina y Paraguay: riesgo bajo; Brasil: riesgo medio"
+        ],
+        [
+          "Hueco que estima CIARA-CEC",
+          "5 a 6 millones de t"
+        ],
+        [
+          "Sobreprecio previsto por la Fefac para 2027",
+          "Unos 30 euros por tonelada"
+        ]
+      ],
+      "explainer": {
+        "what": "La federación europea de fabricantes de piensos (Fefac) advierte que hasta 4 millones de toneladas de harina de soja brasileña podrían quedar fuera de la UE cuando empiece a regir el reglamento antideforestación, y la Argentina busca ocupar ese lugar.",
+        "why": "Brasil abastece cerca de la mitad de la harina de soja que importa la UE, y la Fefac ubica a la Argentina en riesgo bajo, con casi toda su harina del primer semestre de 2027 en condiciones de cumplir.",
+        "who": "Exportadores y aceiteras de soja de la Argentina, Brasil y Paraguay, productores que deben probar la trazabilidad de sus campos y los fabricantes de alimento balanceado de Europa.",
+        "products": [
+          "Harina de soja",
+          "Poroto de soja",
+          "Alimento balanceado"
+        ],
+        "next": "El reglamento empieza a aplicarse el 30 de diciembre de 2026 para operadores y comerciantes grandes y medianos, y el 30 de junio de 2027 para micro y pequeñas empresas.",
+        "nextSource": {
+          "name": "EY Tax News",
+          "url": "https://taxnews.ey.com/news/2026-0237-eu-deforestation-regulation-application-postponed-to-30-december-2026"
+        }
+      },
+      "deadlines": [
+        {
+          "date": "2026-12-30",
+          "label": "UE: empieza a aplicarse el reglamento antideforestación (EUDR) para operadores y comerciantes grandes y medianos",
+          "url": "https://taxnews.ey.com/news/2026-0237-eu-deforestation-regulation-application-postponed-to-30-december-2026"
+        },
+        {
+          "date": "2027-06-30",
+          "label": "UE: el reglamento antideforestación (EUDR) alcanza a micro y pequeñas empresas",
+          "url": "https://taxnews.ey.com/news/2026-0237-eu-deforestation-regulation-application-postponed-to-30-december-2026"
+        }
+      ],
+      "absorbs": [
+        "regulaciones-antideforestacion-de-la-ue-beneficiarian-exportaciones-de-harina-de"
+      ],
+      "sources": [
+        {
+          "name": "Reuters (vía Investing.com)",
+          "type": "Agencia de noticias",
+          "url": "https://www.investing.com/news/commodities-news/argentina-sees-eu-soymeal-opportunity-as-deforestation-rules-threaten-brazil-trade-4978230",
+          "primary": true
+        },
+        {
+          "name": "Fefac: EUDR Implementation, 4th Update (vía Bichos de Campo)",
+          "type": "Informe sectorial",
+          "url": "https://bichosdecampo.com/wp-content/uploads/2026/09/fefac.pdf"
+        },
+        {
+          "name": "EY Tax News",
+          "type": "Consultora",
+          "url": "https://taxnews.ey.com/news/2026-0237-eu-deforestation-regulation-application-postponed-to-30-december-2026"
+        },
+        {
+          "name": "Coolset: cronología del EUDR",
+          "type": "Consultora",
+          "url": "https://www.coolset.com/academy/eudr-delay-2025-explained"
+        },
+        {
+          "name": "Global Environmental Law Report",
+          "type": "Estudio jurídico",
+          "url": "https://www.globalelr.com/2026/05/european-commission-releases-new-eu-deforestation-regulation-measures/"
+        },
+        {
+          "name": "Perfil",
+          "type": "Medio de comunicación",
+          "url": "https://www.perfil.com/noticias/canal-e/el-gobierno-rechazo-la-calificacion-europea-sobre-el-riesgo-de-deforestacion-la-normativa-podria-afectar-la-exportacion-de-soja-y-carne.phtml"
+        }
+      ],
+      "body": [
+        "La cuenta regresiva del reglamento europeo contra la deforestación (EUDR) reabrió la competencia entre la Argentina y Brasil por el mercado de harina de soja de la Unión Europea. Según publicó Reuters el 28 de octubre, la industria sojera brasileña teme que las exigencias de trazabilidad recorten sus ventas al bloque, mientras que el sector argentino sostiene que está mejor preparado para cumplirlas y podría quedarse con parte de ese negocio.",
+        "La cifra que ordena la discusión viene de la federación europea de fabricantes de alimentos para animales (Fefac): hasta 4 millones de toneladas de harina brasileña podrían quedar fuera del mercado europeo, cerca del 17% de lo que exporta Brasil. Desde el 30 de diciembre, los importadores de la UE tendrán que probar que la soja y sus derivados no provienen de tierras deforestadas, con sanciones importantes para quien no cumpla.",
+        "## Cómo se llegó hasta acá",
+        "El EUDR iba a aplicarse a fines de 2025, pero el Reglamento (UE) 2025/2650, publicado en el Diario Oficial de la UE el 23 de diciembre de 2025, lo postergó un año. Según el resumen de EY, rige desde el 30 de diciembre de 2026 para operadores y comerciantes grandes y medianos y desde el 30 de junio de 2027 para micro y pequeñas empresas. La misma reforma simplificó obligaciones: por ejemplo, la declaración de debida diligencia se exige solo a quien coloca el producto por primera vez en el mercado o lo exporta, y no a los operadores que están más abajo en la cadena.",
+        "La reforma pedía a la Comisión Europea una revisión de simplificación antes del 30 de abril de 2026. Esa revisión se publicó el 4 de mayo y, según Coolset y el Global Environmental Law Report, descartó una nueva postergación y mantuvo las fechas. En la clasificación oficial de países que la UE aprobó en mayo de 2025, la Argentina quedó como de riesgo estándar, una categoría que el Gobierno rechazó formalmente en su momento, según informó Perfil.",
+        "## Qué dice la industria europea",
+        "La evaluación de riesgo de la Fefac no es la clasificación oficial de la UE, sino la mirada de los compradores. En su cuarta actualización sobre el EUDR, de septiembre, la federación ubicó a Brasil en riesgo medio (antes lo tenía entre medio y alto) y advirtió que Mato Grosso y otros estados enfrentan obstáculos estructurales y logísticos para armar cadenas totalmente trazables. Calcula que cerca de dos tercios de la soja brasileña destinada a la UE podría cumplir y que la disponibilidad de harina de ese origen rondaría el 70%.",
+        "La Argentina, Paraguay y América del Norte recibieron riesgo bajo, con una disponibilidad esperada de entre 90% y 100%. Para la Argentina, la Fefac señala que al menos la mitad de la producción anual ya está dentro del sistema Visec y se considera plenamente compatible con el EUDR. La federación estima un sobreprecio de unos 30 euros por tonelada para la soja que cumpla la norma durante 2027 y un costo total cercano a 1.400 millones de euros para la cadena de piensos europea, con alzas de unos 40 euros por tonelada de carne de cerdo y 15 euros por tonelada de carne aviar.",
+        "## Por qué la Argentina se ve mejor ubicada",
+        "Brasil vendió al exterior un récord de 23,3 millones de toneladas de harina de soja en 2025 y, según datos de la Fefac que cita Reuters, aportó cerca de la mitad de lo que importó la UE ese año. Pero buena parte de su frontera agrícola en el centro y el nordeste se desarrolló en las últimas décadas sobre ecosistemas desmontados. Dante Romano, gerente de investigación del corredor rosarino Max Agro, explicó a la agencia que en el centro de Brasil los campos están a más de 2.000 kilómetros de los puertos y el grano combina camión, barcaza y tren, lo que complica el rastreo.",
+        "La Argentina es el mayor exportador mundial de harina de soja, con unos 27 millones de toneladas el año pasado, de las que cerca de un cuarto fue al Sudeste Asiático. Sus principales zonas sojeras están en la región pampeana, a no más de 350 kilómetros del nodo portuario de Rosario, lo que según Reuters hace la trazabilidad más simple y barata. La Fefac proyecta que casi toda la harina argentina del primer semestre de 2027 cumplirá las exigencias. Gustavo Idígoras, presidente de CIARA-CEC, dijo que el país puede cubrir la caída brasileña, que estima en 5 a 6 millones de toneladas, y que el Visec, que sigue la soja y la carne desde el campo hasta el embarque, está plenamente operativo.",
+        "## Las otras posiciones",
+        "Paraguay, que además abastece de poroto a las aceiteras argentinas, también recibió riesgo bajo; la cámara de procesadores paraguaya (CAPPRO) destacó sus condiciones favorables y en la Región Oriental, donde se concentra la soja, una ley de 2004 prohíbe desmontar para uso agrícola. Del lado brasileño, el presidente de la asociación de productores Aprosoja sostuvo ante Reuters que la norma castiga injustamente a Brasil y que sus problemas ambientales son mucho menores que el tamaño de su agricultura. Según la agencia, la entrada en vigor del EUDR llegará pocos días antes de que Luiz Inácio Lula da Silva, reelecto este mes, asuma su nuevo mandato."
+      ]
+    },
+    {
+      "id": "arca-rg-5917-minerales-fundidos-refinados-cualquier-aduana-exportacion",
+      "date": "2026-10-28",
+      "kind": "noticia",
+      "story": "arca-normativa",
+      "title": "ARCA permite exportar minerales fundidos y refinados fuera de la zona del yacimiento por cualquier aduana",
+      "summary": "La RG 5917/2026, publicada el 28 de octubre en el Boletín Oficial, modificó la RG 5626: cuando el mineral se funde y refina en una planta ubicada en otra jurisdicción aduanera, la exportación ya no tiene que registrarse en la aduana del yacimiento. El exportador debe acreditar origen y compra de la mercadería y cumplir el muestreo de la RG 3294.",
+      "topics": [
+        "Argentina",
+        "Aduanas",
+        "Exportaciones",
+        "Regulaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "ARCA",
+        "RG 5917",
+        "RG 5626",
+        "RG 3294",
+        "Minería",
+        "Oro",
+        "Plata",
+        "DNU 70/2023",
+        "Boletín Oficial"
+      ],
+      "visual": "mining",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "Los exportadores mineros que funden y refinan su producción en plantas ubicadas en otra jurisdicción aduanera pueden oficializar el embarque en la aduana que les quede más cómoda, sin volver a la del yacimiento.",
+      "argentinaImpact": {
+        "change": "Desde el 28 de octubre, las destinaciones de exportación de minerales y concentrados fundidos y refinados en otra jurisdicción aduanera pueden registrarse ante cualquier aduana habilitada; antes debían oficializarse en la jurisdicción del yacimiento.",
+        "who": "Empresas mineras, plantas de fundición y refinación, despachantes de aduana y las aduanas del interior que intervienen en la exportación minera.",
+        "sectors": [
+          "Minería",
+          "Metales preciosos",
+          "Despachantes de aduana"
+        ],
+        "flows": {
+          "importaciones": false,
+          "exportaciones": true,
+          "logistica": true,
+          "aranceles": false
+        }
+      },
+      "keyData": [
+        [
+          "Norma",
+          "RG 5917/2026 de ARCA (Boletín Oficial del 28/10/2026)"
+        ],
+        [
+          "Qué cambia",
+          "Exportación por cualquier aduana habilitada si el mineral se funde y refina en otra jurisdicción"
+        ],
+        [
+          "Norma modificada",
+          "RG 5626 (31/12/2024), último párrafo del artículo 1"
+        ],
+        [
+          "Condiciones",
+          "Acreditar origen y adquisición; muestreo de la RG 3294"
+        ],
+        [
+          "Vigencia",
+          "Desde su publicación (28/10/2026)"
+        ],
+        [
+          "Exportaciones mineras enero–agosto 2026",
+          "USD 6.059 millones (+65,7%)"
+        ]
+      ],
+      "explainer": {
+        "what": "ARCA dispuso con la RG 5917/2026 que los minerales y concentrados fundidos y refinados fuera de la jurisdicción aduanera del yacimiento puedan exportarse registrando la operación en cualquier aduana habilitada.",
+        "why": "Hasta ahora la RG 5626 obligaba a oficializar esas exportaciones en las aduanas de la región donde está la mina, aunque el producto final saliera de una planta ubicada en otra provincia.",
+        "who": "Exportadores mineros, plantas de fundición y refinación, despachantes de aduana y la Dirección General de Aduanas, que fija cómo se acredita el origen.",
+        "products": [
+          "Minerales y concentrados del capítulo 26",
+          "Oro en bruto",
+          "Plata en bruto",
+          "Desperdicios con metales preciosos"
+        ]
+      },
+      "deadlines": [],
+      "absorbs": [
+        "arca-flexibiliza-las-exportaciones-de-minerales"
+      ],
+      "sources": [
+        {
+          "name": "CIRA: texto de la Resolución General 5917/2026",
+          "type": "Texto oficial de la norma",
+          "url": "https://www.cira.org.ar/es/servicios/normativas-servicios/resolucion-general/resolucion-general-5917-2026/",
+          "primary": true
+        },
+        {
+          "name": "CIRA: texto de la Resolución General 5626/2024",
+          "type": "Texto oficial de la norma",
+          "url": "https://www.cira.org.ar/?p=21580"
+        },
+        {
+          "name": "Noticias Argentinas",
+          "type": "Agencia de noticias",
+          "url": "https://noticiasargentinas.com/economia/arca-permitira-registrar-exportacion-de-minerales-procesados-en-cualquier-aduana-del-pais_a6ae1e02cbe9be2610e8aa805"
+        },
+        {
+          "name": "Trade News",
+          "type": "Medio especializado · Comercio exterior",
+          "url": "https://tradenews.com.ar/arca-habilita-el-registro-de-exportaciones-de-minerales-refinados-en-cualquier-aduana-del-pais/"
+        },
+        {
+          "name": "Marval O'Farrell Mairal: RG 3294/2012",
+          "type": "Estudio jurídico",
+          "url": "https://www.marval.com/Publicacion/resolucion-general-n-3294-dictada-por-la-administracion-federal-de-ingresos-publicos-el-23-03-2012-publicada-en-el-boletin-oficial-el-30-03-2012-8886?lang=es"
+        },
+        {
+          "name": "Parlamentario.com (exportaciones mineras enero–agosto)",
+          "type": "Medio de comunicación",
+          "url": "https://www.parlamentario.com/2026/10/02/la-mineria-rompio-otro-record-y-ya-exporto-mas-de-us-6-000-millones/"
+        },
+        {
+          "name": "+e (LM Neuquén)",
+          "type": "Medio especializado · Energía y minería",
+          "url": "https://mase.lmneuquen.com/mineria/record-historico-la-mineria-argentina-exporto-usd-6059-millones-agosto-n1255607/amp"
+        }
+      ],
+      "body": [
+        "La Agencia de Recaudación y Control Aduanero (ARCA) cambió el lugar donde pueden registrarse las exportaciones de minerales que se procesan lejos de la mina. Con la Resolución General 5917/2026, firmada el 27 de octubre y publicada este miércoles 28 en el Boletín Oficial, los minerales y concentrados que pasan por fundición y refinación en un establecimiento ubicado en otra jurisdicción aduanera pueden oficializarse ante cualquier aduana habilitada, y no solo ante las de la región del yacimiento.",
+        "La norma lleva la firma de Mariano Mengochea, director general de la Dirección General Impositiva a cargo de ARCA, y rige desde el mismo día de su publicación. No cambia la regla general: si el mineral no se funde ni se refina fuera de la jurisdicción de origen, el embarque se sigue registrando donde está la mina.",
+        "## Qué dice la resolución",
+        "El artículo 1° reemplaza el último párrafo del artículo 1° de la RG 5626, que exigía oficializar las destinaciones definitivas y suspensivas de exportación ante las aduanas de la jurisdicción de la Dirección Regional Aduanera donde se ubica el yacimiento. El nuevo texto mantiene esa obligación, pero agrega la excepción para el material fundido y refinado en otra jurisdicción, que podrá registrarse en cualquier aduana habilitada.",
+        "La flexibilización tiene condiciones. Según el texto que reproduce el Centro de Importadores de la República Argentina (CIRA), el exportador tiene que cumplir la rutina de extracción de muestras de la RG 3294, o la que la reemplace, y acreditar la adquisición y el origen de la mercadería en la forma que disponga la Dirección General de Aduanas. Trade News y Noticias Argentinas resumen esas exigencias como un requisito de trazabilidad: la aduana donde se registra la operación tiene que poder vincular el producto refinado con el yacimiento del que salió.",
+        "## La norma que se modifica",
+        "La RG 5626 se publicó el 31 de diciembre de 2024 para unificar y actualizar las reglas de exportación de minerales y concentrados. Abarca los productos del capítulo 26 de la Nomenclatura Común del Mercosur, salvo uranio y torio, además de chatarra y desperdicios con metales preciosos, desperdicios electrónicos destinados a recuperar esos metales y la plata y el oro en bruto. Esa resolución dejó sin efecto las RG 2108 y 3065 y una parte del Anexo V de la RG 1921.",
+        "Entre sus exigencias, la RG 5626 obliga al exportador a hacer en el país los análisis que determinan el contenido de metales preciosos y de otros metales; si la mercadería no es homogénea, el análisis puede hacerse en destino, en un laboratorio acreditado bajo la norma ISO/IEC 17025 o similar. También habilita a la aduana a tomar muestras representativas para valorar lo exportado y califica el incumplimiento como inconducta del exportador, sancionable según el artículo 100 del Código Aduanero.",
+        "## El muestreo que sigue vigente",
+        "La RG 3294, a la que remite la nueva norma, es de marzo de 2012. Según el resumen del estudio Marval O'Farrell Mairal, permite al servicio aduanero pedir la extracción de muestras para determinar el valor de la plata en bruto, la aleación o bullón dorado y el oro en bruto en lingotes, con la metodología de la norma IRAM 16013 de muestreo de bullón. Es decir, el cambio en el lugar de registro no elimina el control sobre la ley del metal, que es lo que define el valor en aduana de estas exportaciones.",
+        "## Por qué lo hace ARCA",
+        "En los considerandos, el organismo invoca el DNU 70/2023, que plantea simplificar trámites y eliminar barreras, y explica que busca dar más flexibilidad a los minerales que pasaron por fundición y refinación sin perder la trazabilidad ni el procedimiento de muestreo. Trade News lo vincula con la logística del sector, en la que la producción suele procesarse a cientos de kilómetros de los puntos de extracción. En la redacción intervinieron las áreas técnicas y jurídicas del organismo, según Noticias Argentinas.",
+        "El cambio llega en un año de exportaciones mineras récord. Según el informe oficial de comercio exterior minero que citan Parlamentario.com y +e, entre enero y agosto el sector exportó USD 6.059 millones, 65,7% más que los USD 3.656 millones del mismo período de 2025. El oro aportó USD 3.623 millones, el litio USD 1.467 millones y la plata USD 726 millones; solo en agosto las ventas mineras sumaron USD 652 millones.",
+        "## Qué cambia en la práctica",
+        "Para una empresa que extrae en una provincia y funde o refina en otra, la resolución evita tener que oficializar el embarque ante una aduana alejada de la planta. El despachante podrá registrar la destinación en la aduana que convenga a la operación, siempre que el exportador tenga en regla la documentación de compra y de origen y que el muestreo se haga según la RG 3294. Las fuentes consultadas no informan qué empresas o plantas usan hoy este esquema ni qué volumen de exportaciones alcanza, y la Dirección General de Aduanas todavía tiene que precisar cómo se acreditará el origen."
+      ]
+    },
+    {
       "id": "shanghai-y-hamburgo-buscan-estrechar-lazos-a-cumplir-40-anos-de-amistad",
       "datetime": "2026-10-28T02:59:10Z",
       "date": "2026-10-27",
@@ -3346,6 +3875,41 @@
         "at": "2026-10-28T01:00:00-03:00",
         "reason": "no se pudo leer la página (error del sitio)"
       }
+    },
+    {
+      "id": "expo-globalports-2026-reunira-a-la-logistica-y-la-hidrovia-con-el-offshore-en-ag",
+      "datetime": "2026-10-28T00:36:21Z",
+      "date": "2026-10-27",
+      "firstSeen": "2026-10-28T22:07:02Z",
+      "title": "Expo GlobalPorts 2026 reunirá a la logística y la Hidrovía con el offshore en agenda",
+      "summary": "Más de 100 disertantes participarán del encuentro el 3 y 4 de noviembre en Buenos Aires. La agenda incluye la nueva concesión de la Vía Navegable Troncal y la logística para la energía y la minería.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "ArgenPorts",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://argenports.com/nota/expo-globalports-2026-reunira-a-la-logistica-y-la-hidrovia-con-el-offshore-en-agenda/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-28T22:07:02Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWG0tZjJBc3NCOWZVbDhxYWN0VW1yWmYxWWc1M2FVTHdLWTY4VW1CRmRXSkt2RWc4T2NqZ1FaVjRzM3RzUmwxeE1MYjNmVDhJaU9uYkVKQnIxeGxJWTBuRHB1X2VIVnZCWVBMcDZVeHo2U0pzYUVrNmMzc2k4endTYVdYZTE5T2pFRnNEdVNOVXVCclBxQkFvdUpYUmt0RzFIRk5ZY3ZnOFg4ZWVMZmNhcDVMWQ?oc=5"
     },
     {
       "id": "incendio-sin-control-en-la-aduana-las-llamas-consumen-un-deposito-de-mercaderia",
@@ -4051,47 +4615,6 @@
       }
     },
     {
-      "id": "avanzan-en-diputados-dos-acuerdos-internacionales-referidos-al-mercosur",
-      "datetime": "2026-10-27T19:31:21Z",
-      "date": "2026-10-27",
-      "firstSeen": "2026-10-28T18:09:45Z",
-      "title": "Avanzan en Diputados dos acuerdos internacionales referidos al Mercosur",
-      "summary": "Ambos cuentan con media sanción del Senado y obtuvieron dictamen este martes en un plenario de comisiones.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Tratados y acuerdos",
-        "Mercosur"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Parlamentario",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.parlamentario.com/2026/10/27/avanzan-en-diputados-dos-acuerdos-internacionales-referidos-al-mercosur/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-28T18:09:45Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd3hRSzhuUDJaVlJZcGx5SWpMR2tkckNzbHhobWNvbXU5RG53TU9PcC1BM3J2SUp4Sk9nTHBVdHBGcEtjNTYwUnRVeHhERUdkN3RYd0k4VGxNUGx1R2l3SWg2M0hiOUt1SFN4VFJRb19QYWIxZnBOQlJMSU1CVUk0eU9wd2lxa0pNU1oyS21WNlpMcmtTU2xMNHl2cW9KQXNxb3VMS2Vmd2stNTktRjZSNXBjYw?oc=5",
-      "digestSkip": {
-        "at": "2026-10-28T15:50:00-03:00",
-        "reason": "repite una nota de la redacción (dictamen Mercosur–AELC en Diputados)"
-      }
-    },
-    {
       "id": "c-h-robinson-lanza-agentes-de-ia-para-transporte-maritimo-aereo-y-gestion-aduana",
       "datetime": "2026-10-27T18:35:05Z",
       "date": "2026-10-27",
@@ -4131,6 +4654,56 @@
         "at": "2026-10-28T03:55:00-03:00",
         "reason": "repite el mismo hecho que la nota de IndexBox (C.H. Robinson amplía la IA en carga aérea y aduanas)"
       }
+    },
+    {
+      "id": "el-bloque-audiovisual-del-mercosur-avanza-en-la-agenda-de-coproduccion-y-fija-la",
+      "datetime": "2026-10-27T18:10:26Z",
+      "date": "2026-10-27",
+      "firstSeen": "2026-10-28T22:07:02Z",
+      "title": "El bloque audiovisual del MERCOSUR avanza en la agenda de coproducción y fija las prioridades 2027–2028",
+      "summary": "La RECAM del MERCOSUR celebró su 47.ª reunión ordinaria el 15 de octubre de 2026, en la que avanzó en iniciativas de coproducción, circulación de contenidos y patrimonio audiovisual y fijó las prioridades para 2027–2028, con la próxima reunión presencial prevista en Montevideo durante Ventana Sur.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Mercosur"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "IndexBox",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.indexbox.io/es/blog/mercosur-audiovisual-bloc-advances-coproduction-agenda-and-sets-20272028-priorities/",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "IndexBox",
+          "type": "También publicó esta noticia",
+          "url": "https://www.indexbox.io/it/blog/mercosur-audiovisual-bloc-advances-coproduction-agenda-and-sets-20272028-priorities/",
+          "alsoIn": true,
+          "title": "El bloque audiovisual del MERCOSUR impulsa la agenda de coproducción y fija las prioridades para 2027–2028"
+        }
+      ],
+      "gnTried": "2026-10-28T22:07:02Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPM1RlcVl2aWhIWTI1bWtBYTZQNXl0c0Niay10ZVV1dV8xc0s4RHdQbERHWnByOWttejRvSEMyOVc5dkFjNDZqVTN5TzBXYjBLTFFGd2NyTEoyTWtQaUhzZVNja2RobG85eWVtSmRUUUY1dmZJakFYTTNvNFIydFFLcENnTDVxMU10SDR6b0JBM1g0dkEwLXNzdXJQQTVBVVZ4YTN3ZjJyam13SWFNNWd0TFBRZVhTSWs?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxQODQyX0pPY3RpS0VXYl9uNGdJNUtPLXVvRmhUZzNCd1BtVW8yYWJvN2hQakVGZVg2RnFHOWtCN09wYTVmNjNtcDdLNnh4amxjZUUzbi01LTRkWFZBaHlMN2pqaVM1cEw5TXdaSmtCTXZmWGxfTFh1X2g0Ui04SmFxZUU5bGlvd2dqUnhaazRNM0tNSFBOQ2xIOExOZlJaUGhDMHRWa2gtZFZ1cTJoN3lQa2Z2T3RHaDg",
+        "https://www.indexbox.io/it/blog/mercosur-audiovisual-bloc-advances-coproduction-agenda-and-sets-20272028-priorities"
+      ],
+      "mergedIds": [
+        "el-bloque-audiovisual-del-mercosur-impulsa-la-agenda-de-coproduccion-y-fija-las"
+      ]
     },
     {
       "id": "honda-advirtio-que-los-aranceles-del-50-a-los-automoviles-en-canada-serian-catas",
@@ -5120,6 +5693,55 @@
       }
     },
     {
+      "id": "el-supara-celebro-el-egreso-de-seis-nuevos-binomios-operativos-de-la-aduana--2",
+      "datetime": "2026-10-27T14:00:15Z",
+      "date": "2026-10-27",
+      "firstSeen": "2026-10-28T22:07:02Z",
+      "title": "El SUPARA celebró el egreso de seis nuevos binomios operativos de la Aduana Argentina para tareas de control y prevención del tráfico ilícito",
+      "summary": "Noticias del mundo laboral y actualidad política de Argentina.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Aduanas"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 2,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Estado de Alerta",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://estadodealerta.com.ar/el-supara-celebro-el-egreso-de-seis-nuevos-binomios-operativos-de-la-aduana-argentina-para-tareas-de-control-y-prevencion-del-trafico-ilicito/",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "lineasindical.com.ar",
+          "type": "También publicó esta noticia",
+          "url": "https://www.lineasindical.com.ar/supara-celebr-egreso-seis-nuevos-binomios-operativos-aduana-argentina-para-tareas-control-prevencin-trfico-ilcito-n-1765818.html",
+          "alsoIn": true,
+          "title": "El SUPARA celebró el egreso de seis nuevos binomios operativos de la Aduana Argentina para tareas de control y prevención del tráfico ilícito"
+        }
+      ],
+      "gnTried": "2026-10-28T22:07:02Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQSExBTTVsSXZKMm1Nd1E2MU81MmtjNVJHMzVKRkpUT2I4VFZkcmNfUXZmWVpUVkduUUZYaEtqc1J4d3d1bEFpNFhvX1E5N2lyYVZqdVVleUduUlYxQWQ4ZUpfelNvSVV2RkpmYkNJOENuRFhjMnNkcjhoR2R5bTFZd3hHUFJTUnpkczVLWGp4TlJwTVp3cmZfRkdRaTdiQUtMVF9mNDRFZkdURGZTanN2WDM4cFNqd1pORWJaTmZHNXBxWnhtMnVyV2xZV1ZOdndwU2NJRUVoXzQ4bXVXNXlIYjdqeGJyV3BfejM2bGJrdFBiVXVPR05FTkVLc0ljNE84Z2fSAYcCQVVfeXFMTkl3d1p2T05OSm5CY0hyRk5WME5IV1djMDR6WlRUVzZ4OVRHODFqS2NaVmdrdXY0UmxCUW8yMDdfSHNFYzVVcEZKRVhJNGJ3azdudVB3WENRbU53RUhfVk4zLXZSeFpYaU5uNGMzZmU0cnQ3SHdHUE4tZ2hJMkVPZ0FVemo3WlJKTzk2aEUtem5RVzdwUnlDNmpyeVY0aHJ0VG9vSjliUEIwT2V1SkJ4a1ljRVNjWldaeUJsVHdZMjU3cnlIZGFlQWZKMi1CWjY0OUpOdl9TYW9mOWMwLXExQVFsaWF0d1o4TnNENFg1S0NYZEFiNWMtVzJ2YTRIVm1nYXVQQlhEOWc?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMTRQTEZtWU9JMzFfYWVsUXFQWDlaNTRIUlh1ZkwyT08zR2lLSldLYnVPQ0tLZ1VJVlk4RG5GRXA1Y185Ul9rUXB1bTJUTENrVHA3YllUa3FNLWlRMWVfci1ZRk5Db3htM2diaEJfMG1CaHJpbDlrcm8wMmtXSkZPRnlsZGRneVI3MUtNZ2ZKdVFxTFhzSjRmS0c5bnNpRE5qQnh2Z0ZDVlpKQUtXZTNXSElMVjBtbFdhcXI4MFJkNXNSWXdvSFR0NGZzQnU5WldnQzBIcmRMZjRYN0JYVTlhRjRWRzlzMTRqS1dEVGk2RVdMQTQ",
+        "https://www.lineasindical.com.ar/supara-celebr-egreso-seis-nuevos-binomios-operativos-aduana-argentina-para-tareas-control-prevencin-trfico-ilcito-n-1765818.html"
+      ],
+      "mergedIds": [
+        "el-supara-celebro-el-egreso-de-seis-nuevos-binomios-operativos-de-la-aduana-arge"
+      ]
+    },
+    {
       "id": "aduana-de-los-andes-capacita-a-agentes-aduaneros-sobre-cambios-en-procedimiento",
       "datetime": "2026-10-27T13:50:36Z",
       "date": "2026-10-27",
@@ -5692,50 +6314,6 @@
       }
     },
     {
-      "id": "la-miel-de-mercosur-se-dispara-un-94-en-la-ue-y-supera-el-cupo-arancelario",
-      "datetime": "2026-10-27T12:11:27Z",
-      "date": "2026-10-27",
-      "firstSeen": "2026-10-28T18:09:45Z",
-      "title": "La miel de Mercosur se dispara un 94% en la UE y supera el cupo arancelario",
-      "summary": "Las importaciones de miel de Mercosur crecen un 94,2% en la UE. LA UNIÓ alerta del agotamiento del primer contingente arancelario y pide controles.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Aranceles",
-        "Tratados y acuerdos",
-        "Mercosur",
-        "Europa"
-      ],
-      "countries": [
-        "Unión Europea"
-      ],
-      "tags": [
-        "Mercosur",
-        "Aranceles"
-      ],
-      "visual": "customs",
-      "impact": 2,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Economía 3",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://economia3.com/2026/10/27/763644-la-miel-de-mercosur-se-dispara-un-94-en-la-ue-y-supera-el-cupo-arancelario/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-28T18:09:45Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNHhiUFVGd3NXQVUwQW03S3dmdS14d19udHdwVFhCV1RHaXJkYW8tdksteF9Rd2s5OEVjZlJ1MHlKcEFDMklIZ0U0RE9HbjB1Snhnb0hXckVGMlNQMzFjcERtb25IUDRZTGRublF3M1FOWXhTOTdqaVJ2WFhBZk5MelpMa25qeWx6Q3JXa2puZVJ3RGQ2V2hzUW0xYVJsTkp5djhwWkFENlRQSG1KQVl6dzJmYm1iUQ?oc=5",
-      "digestSkip": {
-        "at": "2026-10-28T15:50:00-03:00",
-        "reason": "repite una nota de la redacción (miel del Mercosur en la UE)"
-      }
-    },
-    {
       "id": "la-cac-y-el-capitulo-argentino-de-icc-analizaron-con-autoridades-aduaneras-el-pr",
       "datetime": "2026-10-27T11:59:04Z",
       "date": "2026-10-27",
@@ -5822,50 +6400,6 @@
       "digestSkip": {
         "at": "2026-10-28T13:40:00-03:00",
         "reason": "no se pudo abrir la fuente (la herramienta de lectura no tuvo acceso a la página)"
-      }
-    },
-    {
-      "id": "la-unio-alerta-de-que-las-importaciones-de-miel-de-mercosur-casi-se-duplican-en",
-      "datetime": "2026-10-27T10:09:03Z",
-      "date": "2026-10-27",
-      "firstSeen": "2026-10-28T18:09:45Z",
-      "title": "LA UNIÓ alerta de que las importaciones de miel de Mercosur casi se duplican en los tres primeros meses del acuerdo y ya desbordan el primer contingente sin aranceles",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Importaciones",
-        "Aranceles",
-        "Tratados y acuerdos",
-        "Mercosur"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [
-        "Mercosur",
-        "Aranceles"
-      ],
-      "visual": "customs",
-      "impact": 2,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "LA UNIO",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://launio.org/post/la-unio-alerta-de-que-las-importaciones-de-miel-de-mercosur-casi-se-duplican-en--525231",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-28T18:09:45Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNTFDWURQZFlkcXdJTGRVMnZCSEVSbVVzN1c1cXpzQXRnQXhBc1pNUXFyU3MxMVlmZkdpMG5DbGNjNkdtd1Y3eGR4aG05bFcxRmI5a2phaVlWUXpiVXNuVVhnamg2dHhRUnpUU0pJUTNVcnE3Tk1QS2JzMlUtY2x3U3JQR09rQ1Y4dThNRnlLODduVG14NzB4Mk9BY2s2aEdzT1ZmUExicV9hZFZWWlNWVg?oc=5",
-      "digestSkip": {
-        "at": "2026-10-28T15:50:00-03:00",
-        "reason": "repite una nota de la redacción (miel del Mercosur en la UE)"
       }
     },
     {
@@ -94133,7 +94667,7 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-10-28T18:09:45Z",
+    "ranAt": "2026-10-28T22:07:02Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
@@ -94166,37 +94700,37 @@
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 23,
-        "added": 1,
-        "updated": 0,
-        "skipped": 14
-      },
-      {
-        "source": "Google Noticias · Aduana e importaciones Argentina",
-        "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
-        "ok": true,
-        "items": 51,
+        "items": 48,
         "added": 4,
         "updated": 0,
         "skipped": 34
       },
       {
+        "source": "Google Noticias · Aduana e importaciones Argentina",
+        "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
+        "ok": true,
+        "items": 27,
+        "added": 2,
+        "updated": 0,
+        "skipped": 13
+      },
+      {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 76,
+        "items": 73,
         "added": 4,
         "updated": 0,
-        "skipped": 46
+        "skipped": 45
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 23,
-        "added": 3,
+        "items": 38,
+        "added": 4,
         "updated": 0,
-        "skipped": 12
+        "skipped": 26
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
@@ -94205,16 +94739,16 @@
         "items": 100,
         "added": 4,
         "updated": 0,
-        "skipped": 85
+        "skipped": 87
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 98,
+        "items": 97,
         "added": 4,
         "updated": 0,
-        "skipped": 67
+        "skipped": 66
       }
     ],
     "curatedDuplicates": [
@@ -94229,160 +94763,95 @@
         "curated": "eeuu-canada-seccion-338-cambia-productos-arancel-50-terciados-embalajes-alfombras-30-octubre"
       },
       {
-        "title": "Las exportaciones argentinas crecieron 21,4%, pero las ventas a Brasil apenas aumentaron 4,7%",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQjJxU3hhZHNfRzJnQ3hrT2NpUHN5bjk5M3JFRDBjZDB5YlZfWlpVR1BMZG56aWNlWFRrNVhIU2dWdXIwR05wTlUxdlpwWWpqNTNYRWljcDN4TTB2anQ4bzMzT29ROU43Z0RxeGlEOEtfR21ITlF0SkplMkRsc3BxSllWRDVTOTZXR2tmY3ZGV3NiNnZ6aU9aUDloeGRneHlCMEF3bTlDZmhIODZtVUZ5c2Z5ajladlNOZnBULTVJalVpV01YaGlTMzdwek51d3JwLVBrRU5ZXzRmUdIB2gFBVV95cUxNQjJxU3hhZHNfRzJnQ3hrT2NpUHN5bjk5M3JFRDBjZDB5YlZfWlpVR1BMZG56aWNlWFRrNVhIU2dWdXIwR05wTlUxdlpwWWpqNTNYRWljcDN4TTB2anQ4bzMzT29ROU43Z0RxeGlEOEtfR21ITlF0SkplMkRsc3BxSllWRDVTOTZXR2tmY3ZGV3NiNnZ6aU9aUDloeGRneHlCMEF3bTlDZmhIODZtVUZ5c2Z5ajladlNOZnBULTVJalVpV01YaGlTMzdwek51d3JwLVBrRU5ZXzRmUQ?oc=5",
+        "title": "El mercado brasileño le da la espalda al insultador serial: ya concentra apenas el 12,8 por ciento de las exportaciones",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE51MUlIUDRFLXNsV0F1YW9LcUhuejNCanRzdXdLYnE5eTNfWWlhZ0VLdzhBMzBLRGRsd3AxYTFCeTc3Uk9QQnh5U0pyRXJTRjhQRTFTRnkzemh4T0hCZnE2ZjdGdFBqd0dIaFJkdnl4bHdFb3dTS19ac1hzT2UyQQ?oc=5",
         "curated": "exportaciones-argentinas-destinos-enero-septiembre-2026-brasil-pierde-peso-estados-unidos-india"
       },
       {
-        "title": "Las exportaciones argentinas crecen, pero Brasil pierde peso como principal mercado",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMGRKM1RTTTJmOVM4amViLXkzemhZOXJVVUtrUHpUUlFSbW8xdXhhYW41ZXBPTDB4UjVhZVZiblZDb28yZ1R0OFVWeXZZYzNuS051NDlIR29UVGhkenl0TVZEYlo4NmdsTWQ0WUoyM3Q2SF9lX1gyU0ZkZUpIbnR3VEJCZ2RfYXdaWmwtcFlDYXZ3ZnM0MUw5YTVaZ0l6cERtVV9aXzd1VmFOSEx6STVGRTN0TkI0UFhWMkRtONIBtgFBVV95cUxOU3E2OHh2bGdQSGZtdXFtcXNzQld0UzBpTzhIVlhtLUhvZmY3UTg4N3dCc2dMYUQxUkkzX3lXcjhXblNLcWlzTnVOWkFNZGZFakdwbGtoM01nazRVWkpRWkdlWnBTeTUxeUJvTTV3VTNPWlIyTWNaS2llcHo0Tkxva0xVeTZHdHl2Q3ZwOFJSOEFjdVJ4OUZYNzBybktGTXBkbDlFNWRYYkhzUHljV1ZjM1JqZTRqUQ?oc=5",
-        "curated": "exportaciones-argentinas-destinos-enero-septiembre-2026-brasil-pierde-peso-estados-unidos-india"
-      },
-      {
-        "title": "Brasil pierde participación en las exportaciones argentinas, mientras crecen las ventas a Estados Unidos y Asia",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVU5tM1ppUC1FQXRKMDNiTlJKVGk4cHN2OEUwTGdtUTlYLTdZTkJSaklncVRsS3BVTGl1ZXdQN0ZDWXVyUExtNUZjbFQzYkdSSm45YjNhUGROOGluZ2p1c0RTZzRQQ1VYQnhMOXFZQ1ptVzl3NXlEaWxRc3FYRTgteXlIeUpiLXBUdDBzeEp6NDc5UkhiTzIxMXdtN0toenlDYU13VVBmcHhWeXNTdVFIWTc0Njk1bEczeFVKd1FncXVXUHZPdHM5ZnZRVXNoc3lxRHFnY0N6UQ?oc=5",
-        "curated": "exportaciones-argentinas-destinos-enero-septiembre-2026-brasil-pierde-peso-estados-unidos-india"
-      },
-      {
-        "title": "Alerta para el comercio exterior: se incendió un megabuque en altamar con miles de contenedores con destino a Buenos…",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPS0hCdnJ4X2hmX0otY0hrLS02bW01bDlwd0hrbnRCemJEbEZBNTVmSndOV1NxRElkSmFIT3loODBfLVNSOTA4ZUdpbHFjZ3F5RkpMQjd2V3Rtcjh5OXFWT3VVaGo5Q0lnMHhzYXE5SFBhd1BaMGhneUhaWmlSYUMxMmZmSDNobWF4bzdWQ0FadzBmZVh2Qk8xRTIxQnFna2tQZFpvbEpuc2ZzWEYxR2IxWFhmUGVhbjBaMEZqYmNEOHV2MDJYbGtmYUVKd05hc0diUW85T1RNZjFHZw?oc=5",
-        "curated": "hapag-lloyd-espirito-santo-express-incendio-atlantico-sur-santos"
-      },
-      {
-        "title": "Las exportaciones argentinas crecen, pero Brasil pierde peso como principal mercado",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYWJlX3I1dTB5SWcxMndWWHpaeDE5Z0U0SlVmQjFmUUFhV0dScEhjRU9qWnFpSlB0dS1KWXFRZ01FTmgzdFpyVUhOVUx2MmJqdUZCbkp1YWdnbFZqazI1ellTQ1NEUWZ1YkY4NjIxQk5FaDJYZTVIcHVBQ2JQWVpHWTJQeUp0ZF9BNWNwUDFaV0pCdWhRaVlodnpUR1M1eGQ2UzdiaW1Fc1RqM25HYUJRV3doRGY3QdIBtgFBVV95cUxQYWJlX3I1dTB5SWcxMndWWHpaeDE5Z0U0SlVmQjFmUUFhV0dScEhjRU9qWnFpSlB0dS1KWXFRZ01FTmgzdFpyVUhOVUx2MmJqdUZCbkp1YWdnbFZqazI1ellTQ1NEUWZ1YkY4NjIxQk5FaDJYZTVIcHVBQ2JQWVpHWTJQeUp0ZF9BNWNwUDFaV0pCdWhRaVlodnpUR1M1eGQ2UzdiaW1Fc1RqM25HYUJRV3doRGY3QQ?oc=5",
-        "curated": "exportaciones-argentinas-destinos-enero-septiembre-2026-brasil-pierde-peso-estados-unidos-india"
-      },
-      {
-        "title": "Argentina recibió 60 auditorías para sus exportaciones agroalimentarias",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSEU1b3IxTy1JOXZFUkJUVDBfR2luaVI2aG1FZEVNRnNQQ0h1TE43WVpUNTQ4R1p5NHVwSTh2N2NnMEp6YzNXcDdJVnRha2ZOYkNhOFRVaXJYczhEeURyaUkyNHU2Ykl6UHo4OXd0b1pKLUlGQ1FPQ09hVHNEanFpUUo1YzhLUVluMmV3cWFWWTFZeUhvMGFmWDBWYmNhZkR4WnY1OE9R?oc=5",
-        "curated": "quirno-acuerdo-mercosur-ue-argentina-60-por-ciento-preferencias-2800-millones"
-      },
-      {
-        "title": "Argentina recibió 60 auditorías para sus exportaciones agroalimentarias",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNM09id010MWtLZXBGUG1pYURqWVU5eE1LdkVycnVtQ21MbDlMZ2NCMm1ZMmVBTGJiTUtrZEoxRnZIUDF0ZjJjblE0aXl5MXFXVXBTX0xsUHQwYm1RNDJmaDV6UGRkYzcyZXpsYTRrY2JGcmhHWEFQdVptR3NoMGFZSkU1ZXE2SENpVVpjNUo4NjRNaEppNDdDaEk4N3lWd2hpUGVV?oc=5",
-        "curated": "quirno-acuerdo-mercosur-ue-argentina-60-por-ciento-preferencias-2800-millones"
-      },
-      {
-        "title": "Las exportaciones argentinas crecieron 21,4%, pero las ventas a Brasil apenas aumentaron 4,7%",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQjJxU3hhZHNfRzJnQ3hrT2NpUHN5bjk5M3JFRDBjZDB5YlZfWlpVR1BMZG56aWNlWFRrNVhIU2dWdXIwR05wTlUxdlpwWWpqNTNYRWljcDN4TTB2anQ4bzMzT29ROU43Z0RxeGlEOEtfR21ITlF0SkplMkRsc3BxSllWRDVTOTZXR2tmY3ZGV3NiNnZ6aU9aUDloeGRneHlCMEF3bTlDZmhIODZtVUZ5c2Z5ajladlNOZnBULTVJalVpV01YaGlTMzdwek51d3JwLVBrRU5ZXzRmUdIB2gFBVV95cUxNQjJxU3hhZHNfRzJnQ3hrT2NpUHN5bjk5M3JFRDBjZDB5YlZfWlpVR1BMZG56aWNlWFRrNVhIU2dWdXIwR05wTlUxdlpwWWpqNTNYRWljcDN4TTB2anQ4bzMzT29ROU43Z0RxeGlEOEtfR21ITlF0SkplMkRsc3BxSllWRDVTOTZXR2tmY3ZGV3NiNnZ6aU9aUDloeGRneHlCMEF3bTlDZmhIODZtVUZ5c2Z5ajladlNOZnBULTVJalVpV01YaGlTMzdwek51d3JwLVBrRU5ZXzRmUQ?oc=5",
-        "curated": "exportaciones-argentinas-destinos-enero-septiembre-2026-brasil-pierde-peso-estados-unidos-india"
-      },
-      {
-        "title": "El superávit comercial argentino se duplicó en septiembre, pero el salto de las exportaciones no alcanza para despejar…",
-        "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQT3BOelBaQ3ZqQnNPbUo1eFV5NHJrM013S3k2Y1Q5MkJHdTV3Sy1tajNJTTZ6X2JENDN5N3lVcTdoV0N6cHU1WUdOUEtDSlZVYU50cDJhM3ZJbXJzYTY2Y21XckRkamFsSU5hbklvQXYwcVFqb0h4Zl9XLWY4Uko1bWhIYnhUSWhPUmFqRm0zNmhVbE9NRzA5N0FJSUJacmRKdjM3YnVaV0pXX1dmLWpTbGpKV1Z6dl96TF9VNWpBZ1g2NjdjU00tSlU3amRnUWhJVW50elRWWGM0dDFCeHZNaGdFUzdCQW9fMFo2TWttWHNlV2JFQ1l6SnZwWlFMMnNSQkdEUVpiSzBWZlFVS25GZHlvcUJOOHpqdEoweFRtaw?oc=5",
-        "curated": "exportaciones-12-meses-100845-millones-crudo-primer-producto-septiembre-2026"
-      },
-      {
-        "title": "Brasil pierde participación en las exportaciones argentinas, mientras crecen las ventas a Estados Unidos y Asia",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVU5tM1ppUC1FQXRKMDNiTlJKVGk4cHN2OEUwTGdtUTlYLTdZTkJSaklncVRsS3BVTGl1ZXdQN0ZDWXVyUExtNUZjbFQzYkdSSm45YjNhUGROOGluZ2p1c0RTZzRQQ1VYQnhMOXFZQ1ptVzl3NXlEaWxRc3FYRTgteXlIeUpiLXBUdDBzeEp6NDc5UkhiTzIxMXdtN0toenlDYU13VVBmcHhWeXNTdVFIWTc0Njk1bEczeFVKd1FncXVXUHZPdHM5ZnZRVXNoc3lxRHFnY0N6UQ?oc=5",
-        "curated": "exportaciones-argentinas-destinos-enero-septiembre-2026-brasil-pierde-peso-estados-unidos-india"
-      },
-      {
-        "title": "Exportaciones argentinas: Brasil pierde participación frente a EE.UU., China e India",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWnJlVGJTeWtqVnZMazJVTHJMQmI1ck1sWEktUzVQX1JuSkRoNFFfZGlUUUVtVDVDNXlKd05CQTRwNWVOZ1hqa0JCLXgtVHJwREVXRUZ5a1BXTFplMXQwWWVMd1NBcmwtWnc0U1ltY0dpbmswMmJQZHU0dG9XcUJ1cjljTzRCOExsYmY1YWR2czZJUFdYYlQ3WlFzb3BnTDRUbTB6eTJfTmhaT2trV3R6YTVmSE5FZ1V1a0RsbjlKdU92UnprckRGcWxB?oc=5",
-        "curated": "exportaciones-argentinas-destinos-enero-septiembre-2026-brasil-pierde-peso-estados-unidos-india"
-      },
-      {
-        "title": "Japón abre mercado a exportaciones de carne bovina argentina",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSmY5ZTdxNGNDLXFON2gzOHloMEd4SzEzV041U0h0eng3RVAyeDRWMlA2MGJBSjFINzBVMWJYWW9fcUc1RHJnX0pwb19Oc0c3WmhLajZwSVhEcVFhMDNhaGRuR09JOERPN3FSSHlzVTlZWVVZWkhMZ1J3My04c28zSzFHWl9PWllQM2tocUZieVVQZVhlRzAtT2RpWGxMVlBZMWlr0gGoAUFVX3lxTE9aUE5ucThpS3BBWTZMSEUwelRjemV2THphZzVSVDhWV1BNSi04NHR5YVVqcjZHZGhSS0ljOUI2NDdBRElZdGFwYlpFelZrR0d3SkhtZXhheEdabTdSUDFvTHMxWFdpWE92TFNNNXVjWkhvZkJTMUtSNm1QRFRkWjVUZndHLVNNZjAyUFlfVEVZVHNEcDcyNmFwcm9oMzI3NGVoMG5CVGZtQw?oc=5",
-        "curated": "japon-abre-mercado-carne-vacuna-argentina"
-      },
-      {
-        "title": "Qué puede pasar con el Mercosur y las exportaciones argentinas a Brasil tras reelección de Lula",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQcjJQTmVKdi1VQ25xX0h4M21od1N3WE5jNy1LWGVXdFVIZXBGRlBtQjlYVTc3MDA1MC15TnhkbjJvbWp0ay1RQWVMNHJya0lmVlRSUG9kbUQ5eE0zSjVqb25vQ3YteVZCUnJEbzU5MnZYSVQ1cVBNSXFsdzhUVkl6R2pCc040UDZWay1PeHJyZW1FRl81U29MRzY5YmY4ekFvNlhIZkxMNmdUc1Q4dXZHTC1sRjVRNEg0UEFpcmxqS2xUMWl3WHhaX19HT2lWRVlmX3drYmI4LUhlUGR5aHVxSUdFV1ZIdE0?oc=5",
-        "curated": "lula-reelecto-brasil-comercio-argentina-autos-mercosur-agenda-2027"
-      },
-      {
-        "title": "Empresa automotriz frenó la producción por la caída de la demanda interna y de las exportaciones",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOc05NdHFMZFk3M0hqQW1WQk5rZU90ZVRWMVJLVktxU3lOa3Y1RXY5U0gxTDlvdzMtYUtHTS1kQlNGdXZqeGg2a1c5NUVqamtKSThiSTR6dHJoZktsY2s5c2hoRzhobTlIMWZSMmFjbzltZjZIT0NuaG1wejVlYTNzMnpOVjZORUdrQi1pMjdWRjBrUDRkUmFMdk84ZTl3ZEVTUFU0R0dzTU5pNFpPcFZKb1BRYWVVRWpsMG9fMXROdWFCMXBYVkxr0gHHAUFVX3lxTE5zTk10cUxkWTczSGpBbVZCTmtlT3RlVFYxUktWS3FTeU5rdjVFdjlTSDFMOW93My1hS0dNLWRCU0Z1dmp4aDZrVzk1RWpqa0pJOGJJNHp0cmhmS2xjazlzaGhHOGhtOUgxZlIyYWNvOW1mNkhPQ25obXB6NWVhM3Myek5WNk5FR2tCLWkyN1ZGMGtQNGRSYUx2TzhlOXdkRVNQVTRHR3NNTmk0Wk9wVkpvUFFhZVVFamwwb18xdE51YUIxcFhWTGs?oc=5",
-        "curated": "stellantis-frena-produccion-el-palomar-ferreyra-pickups-exportaciones-brasil-enero-2027"
-      },
-      {
-        "title": "Lula reelecto: qué pasa con el Mercosur y las exportaciones argentinas a Brasil",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTTdkTHJmU0hpZjE1bkhwNFBaN1lDVVJ3cWtwMV9OZlVWZUVpOHkxUGFxRHI2ekdxdlpvVy1pZlpOU3lwOVl6WE91T2N2MmxpZ1dDUVpjVGM4QTlOaE12TU9xOVhzUnNsOEw5Nld6UklvQ3ZxVFJCVHVYSm8zR1pGNW9WVFhING5oUWVVVFA3SGdfYk5WUWQ0N083YzBzaWlqQzl5bkVYUWV4bzZGZXBRVndULVdlLXJYa3dyRDlrSzNwdzNySW9JLdIB4wFBVV95cUxPQkd0M2ZqUzlaN1l6V2JuQ3BGSFJjSUQtbHpkLWF2MjkxRzVsS0VhN2RBZWlxa2hDWEQwb19WbEsxVXlkUnczRzdGUEtueFphUWxxV21kbW9iSG5SeWNpdXBHaUtJMVpVR3l2QWl2TG9VTi1VSDlBekVOd1RWVTQzQVZVSGptbm84d3VvUVZnMHhiVnBKa2Z0UlJXQWc4OFRmc3BXYnphcmN4TTdxYWx3TTc2cGlVTThRZ3pMYk41THUyV0xzcGIxQ1BNZXFvV1EzMVFCV0JadlJNdnU5WGU0VTRIcw?oc=5",
-        "curated": "lula-reelecto-brasil-comercio-argentina-autos-mercosur-agenda-2027"
-      },
-      {
-        "title": "UN PLENARIO DE COMISIONES DICTAMINÓ A FAVOR DE DOS PROYECTOS VINCULADOS AL MERCOSUR",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWjdaTFM3Mk42djJHMmRJS3lRVHVNYzdsV3ZNU09pQkRHSGJ6cVhCQXJ0ajZ0b0U1czJabF96N1dDSGFuc0pwanpwVGpVQXB1NEJ2SWdkVUlWNjY5RE11VWQwbVI3YU9zVkRMLU5Tbl9kcXhCaEhzOTBwaXBJblN0U1JhYTNub0tFSjhUc0Rzb3RxSmRmbE9uNlc1eXNWbE9zTHhXWW1LTlk4NEp6YldoYTRQeXlsMW5uaEVqUnoyY2M?oc=5",
-        "curated": "diputados-dictamen-acuerdo-mercosur-aelc-efta-protocolo-servicios-montevideo"
-      },
-      {
-        "title": "Lula reelecto: qué pasa con el Mercosur y las exportaciones argentinas a Brasil",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTTdkTHJmU0hpZjE1bkhwNFBaN1lDVVJ3cWtwMV9OZlVWZUVpOHkxUGFxRHI2ekdxdlpvVy1pZlpOU3lwOVl6WE91T2N2MmxpZ1dDUVpjVGM4QTlOaE12TU9xOVhzUnNsOEw5Nld6UklvQ3ZxVFJCVHVYSm8zR1pGNW9WVFhING5oUWVVVFA3SGdfYk5WUWQ0N083YzBzaWlqQzl5bkVYUWV4bzZGZXBRVndULVdlLXJYa3dyRDlrSzNwdzNySW9JLdIB4wFBVV95cUxPQkd0M2ZqUzlaN1l6V2JuQ3BGSFJjSUQtbHpkLWF2MjkxRzVsS0VhN2RBZWlxa2hDWEQwb19WbEsxVXlkUnczRzdGUEtueFphUWxxV21kbW9iSG5SeWNpdXBHaUtJMVpVR3l2QWl2TG9VTi1VSDlBekVOd1RWVTQzQVZVSGptbm84d3VvUVZnMHhiVnBKa2Z0UlJXQWc4OFRmc3BXYnphcmN4TTdxYWx3TTc2cGlVTThRZ3pMYk41THUyV0xzcGIxQ1BNZXFvV1EzMVFCV0JadlJNdnU5WGU0VTRIcw?oc=5",
-        "curated": "lula-reelecto-brasil-comercio-argentina-autos-mercosur-agenda-2027"
-      },
-      {
-        "title": "Los apicultores alertan del acuerdo con Mercosur: “Las importaciones de miel casi se duplican en tres meses”",
-        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNSXBDNWVnNUFFUl9vdDQtYzViNkt3U2p2am42b3pIbkl4aWN2V3UyNGN1VFZVVGt0dDZYcWU5S2JMSDBiOGdxTVhkQzlaNGxjSl9aSjZYbE83SjFSNDdPd0lVamVmMHljMGg0eXZERlNvV0JBa1J6aHpqVU0zWWhzbUZQMllmcExUVWhPUDNKLWVhcFBNYkU3ZFBoNUNVMXRfUnNKWHZ3T01kb3l5elRuR1JGNHVQc0lXcFFzdWRGNjEzQzQxNklURzVtNDRfRU9KYWVEZzAwekpUY1hxeFFuTUtsOUEzWVEwUGdoQ1JTajdBQQ?oc=5",
-        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
+        "title": "Controles en ventas online y aduana por productos importados",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONm9MeVUxai0zQUpJTnB0UHBINU9weVFoUy0wSWZzeTlPd0FxSlpJdTRXMy0wLWhMbUF5d2Q4SjU2NHc1dlQ0WDBmZjdHUnpSZkM5Y2NqWVJObGxuN2NzV1JTR3IzUXZ4X3JudDl1QzFocEtGd3phRnhWM1JLYzUxV05nbUtCM29ud0o3amJINXNxZUtoUmw3RU0xTWdIV2hZdk12UkFyVXNxX2ZNMXNMd0hyejZtZUZjeC1uQU1Dam85a3Jl?oc=5",
+        "curated": "gobierno-uia-mercado-libre-meta-acuerdo-contrabando-plataformas-arca-cruce-datos"
       },
       {
         "title": "UCCL alerta de que las importaciones de miel de Mercosur se disparan un 94%",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdFNKcnhWX3E4V3JVckRxYXNMOHJQM0otQ0QxVGRQelJSZHNMa3B3N0JScUpGSEZ1WW9kRlB4Y2YzUWxZSzUta25qbVRsQkYzTmJpdnZrTVN4a0d1SFJpMFNzbnBDRTdTMmZmUXQzMEJUdUUxU3FPTWpubHVlSzdVb0EyQ1RxX254aVI2Tk0xZG5nNmw0U0xRMndmSmIzVmVvdDlXeGUwSERsUXVPWTRpN2hyOGlnd1FNbF9jQ2tvNERONnVRaW9nUGNGMTZYSVVDaHBN?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUjltXzVwU0lMVlY0VGVUVjg0YVUzVXhHZWxpeWZSdHhmZVRQWThDeVJnb0FuZldxWHVSV2h5SzhJazRCVm5iOVpOTFN4c05Mb2RrSnhNcHVraGczUlA3dGp6eWtsSG9nd0Q4cXhtOHVUUV9Bd3BHN2R3ejBpQmYwamgzam10QXdGRXppSVF1QWhKNnVOLTYzWmoxU1NjTXJfQkFnQlVmSDVOQ2xXZXBRaUIxZzZDNWNKMkFISnhLREhwdkdENVRlNWtEOVpLb1hFSXNBTkhTcHY?oc=5",
         "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
       },
       {
-        "title": "La miel de Mercosur casi duplica sus entradas en la UE en los tres primeros meses del acuerdo",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBWMzhGcXlDMnhkZWlMUmhqZnFSUDgwZnNZRlU3cVlzYXZJQ1lnOXRpXzFoLUltUUxNZy1OekJESkhaU2JDODY0dllHc2lQcHRVLXc2dzBHblZ5QTJEYXd4MXI0QXBYc09VMmd2dFBmbjljQlowa2QydHp4MA?oc=5",
+        "title": "Regulaciones antideforestación de la UE beneficiarían exportaciones de harina de soja argentina",
+        "url": "https://portalportuario.cl/regulaciones-antideforestacion-de-la-ue-beneficiarian-exportaciones-de-harina-de-soja-argentina/",
+        "curated": "eudr-reglamento-antideforestacion-ue-harina-soja-argentina-brasil-fefac-30-diciembre"
+      },
+      {
+        "title": "ARCA flexibiliza las exportaciones de minerales",
+        "url": "https://economis.com.ar/arca-flexibiliza-las-exportaciones-de-minerales/",
+        "curated": "arca-rg-5917-minerales-fundidos-refinados-cualquier-aduana-exportacion"
+      },
+      {
+        "title": "Avanzan en Diputados dos acuerdos internacionales referidos al Mercosur",
+        "url": "https://www.parlamentario.com/2026/10/27/avanzan-en-diputados-dos-acuerdos-internacionales-referidos-al-mercosur/",
+        "curated": "diputados-dictamen-acuerdo-mercosur-aelc-efta-protocolo-servicios-montevideo"
+      },
+      {
+        "title": "La miel de Mercosur se dispara un 94% en la UE y supera el cupo arancelario",
+        "url": "https://economia3.com/2026/10/27/763644-la-miel-de-mercosur-se-dispara-un-94-en-la-ue-y-supera-el-cupo-arancelario/",
         "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
       },
       {
-        "title": "Brasil reporta que importaciones de miel del Mercosur casi se duplican en los primeros tres meses del acuerdo",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcHVtT2p0N0N6QzI3OVh1Znd5aGRVRndzbVhXeXVnX3ItaGhiMG9oLUVGYUd4MDJQNnBwOXl0YmctSVNESk1fZFp5bDlxeVl3dUFCMmIwNkdtVk9OVmpraWM3Y2drWEpDZ3Z6Q183a3JOY3NLckNid2RjcUNuRl9HdkYzTlB6bml0NXhBVFV4dVRlazhwNkMtc0Q2R0ZublBkcDhuZkhpMmFlQmRCMFBXLUYyc0FIQ1ctNVJGNXVMUFZmY21ZcXppSUs5UGFtaGNKS2k0Nw?oc=5",
+        "title": "LA UNIÓ alerta de que las importaciones de miel de Mercosur casi se duplican en los tres primeros meses del acuerdo y…",
+        "url": "https://launio.org/post/la-unio-alerta-de-que-las-importaciones-de-miel-de-mercosur-casi-se-duplican-en--525231",
         "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
-      },
-      {
-        "title": "Argentina lidera el Mercosur en beneficios del acuerdo comercial con UE",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZXg0Z0FleEloNTk1SlIxYjRnUlpNSXdxcy1paHVMM1JJU0xIYnhsRkVVb2NXRVNEdVdwWWprUzl0aXNGa0djMlFEMnNGZ08tYUQwOWo4U2hsMDZwWUc5cW9ZRTJ6cDB6UlBaczA4YWFHTlVyY09Pa1M0SkFETl81Yk9NcFRlV2NfOTJJXzY5QU5oZnpOZXV5MjYya2EwVmF2cTNWMkY1WVVNUQ?oc=5",
-        "curated": "quirno-acuerdo-mercosur-ue-argentina-60-por-ciento-preferencias-2800-millones"
-      },
-      {
-        "title": "El mercado brasileño le da la espalda al insultador serial: ya concentra apenas el 12,8 por ciento de las exportaciones",
-        "url": "https://www.agencianova.com/economia-y-empresas/2026/10/28/174507/el-mercado-brasileno-le-da-la-espalda-al-insultador-serial-ya-concentra-apenas-el-128-por-ciento-de-las-exportaciones/",
-        "curated": "exportaciones-argentinas-destinos-enero-septiembre-2026-brasil-pierde-peso-estados-unidos-india"
-      },
-      {
-        "title": "El campo valenciano sufre la cara B de Mercosur y los cítricos piden auxilio en Europa",
-        "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/el-campo-valenciano-sufre-la-cara-b-de-mercosur-y-los-citricos-piden-auxilio-en-europa",
-        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
-      },
-      {
-        "title": "El impacto del triunfo de Lula en el comercio exterior: qué puede pasar con Argentina",
-        "url": "https://www.agenciahoy.com/index.php/noticia/el-impacto-del-triunfo-de-lula-en-el-comercio-exterior-que-puede-pasar-con-argentina",
-        "curated": "lula-reelecto-brasil-comercio-argentina-autos-mercosur-agenda-2027"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "girasol-el-aceite-llega-a-us-1-390-y-la-crisis-logistica-del-mar-negro-impulsa-l",
+        "main": "el-supara-celebro-el-egreso-de-seis-nuevos-binomios-operativos-de-la-aduana--2",
         "merged": [
-          "el-precio-internacional-del-aceite-de-girasol-sigue-un-50-por-encima-del-promedi"
+          "el-supara-celebro-el-egreso-de-seis-nuevos-binomios-operativos-de-la-aduana-arge"
         ]
       },
       {
-        "main": "stena-ab-firma-acuerdo-para-adquirir-naviera-noruega-color-line",
+        "main": "el-bloque-audiovisual-del-mercosur-avanza-en-la-agenda-de-coproduccion-y-fija-la",
         "merged": [
-          "la-sueca-stena-line-firma-un-acuerdo-para-adquirir-la-naviera-noruega-color-line"
+          "el-bloque-audiovisual-del-mercosur-impulsa-la-agenda-de-coproduccion-y-fija-las"
         ]
       },
       {
-        "main": "arca-flexibiliza-las-exportaciones-de-minerales",
+        "main": "boeing-preve-que-la-carga-aerea-mundial-se-duplique-en-2045-y-precise-3-000-avio",
         "merged": [
-          "mas-flexibilidad-para-exportar-minerales",
-          "arca-flexibiliza-la-exportacion-de-minerales-procesados"
+          "boeing-preve-que-el-trafico-mundial-de-carga-aerea-se-duplique-para-2045",
+          "anticipa-boeing-duplicacion-de-carga-aerea"
+        ]
+      },
+      {
+        "main": "las-exportaciones-de-carne-vacuna-crecieron-5-en-nueve-meses",
+        "merged": [
+          "carne-vacuna-por-que-argentina-podria-no-completar-el-cupo-de-exportacion-a-chin",
+          "argentina-exportacion-de-carne-a-china-cae-8-y-no-completara-la-cuota"
+        ]
+      },
+      {
+        "main": "importaciones-totales-de-leche-equivalente-acumulan-alza-de-6-1-al-mes-de-septie",
+        "merged": [
+          "importaciones-lacteas-crecen-6-1-a-septiembre-con-alza-en-queso-gouda"
+        ]
+      },
+      {
+        "main": "mexico-busca-acuerdo-comercial-con-eu-antes-de-las-elecc",
+        "merged": [
+          "claudia-sheinbaum-busca-acuerdo-comercial-con-eu-antes-de-sus-elecciones",
+          "mexico-busca-cerrar-acuerdo-comercial-con-eu-antes-de-elecciones-intermedias"
         ]
       }
     ],
     "googleNews": {
-      "pending": 20,
-      "resolved": 20,
-      "withSummary": 15,
+      "pending": 22,
+      "resolved": 22,
+      "withSummary": 17,
       "withPhoto": 0,
       "failed": 0,
-      "duplicates": 0
+      "duplicates": 1
     }
   },
   "stories": [
