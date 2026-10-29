@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-10-29T02:15:46Z",
+  "updatedAt": "2026-10-29T10:16:14Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -267,7 +267,8 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-29T02:16:53Z"
+      "lastAttempt": "2026-10-29T10:16:56Z",
+      "lastError": "HTTP Error 500: Internal Server Error"
     },
     {
       "id": "soja",
@@ -284,7 +285,7 @@
         "date": "2026-10-27",
         "ars": 550000.0
       },
-      "checkedAt": "2026-10-29T02:16:54Z",
+      "checkedAt": "2026-10-29T10:17:12Z",
       "_prev": {
         "date": "2026-10-26",
         "ars": 555000.0
@@ -361,7 +362,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-29T02:16:54Z"
+      "lastAttempt": "2026-10-29T10:17:12Z"
     },
     {
       "id": "brent",
@@ -374,7 +375,7 @@
       "obsDate": "2026-10-27",
       "change": "-3,9% vs. día anterior",
       "trend": "down",
-      "checkedAt": "2026-10-29T02:16:56Z",
+      "checkedAt": "2026-10-29T10:17:17Z",
       "history": [
         [
           "2026-09-16",
@@ -499,7 +500,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-10-29T02:16:56Z"
+      "lastAttempt": "2026-10-29T10:17:17Z"
     },
     {
       "id": "maiz",
@@ -516,7 +517,7 @@
         "date": "2026-10-27",
         "ars": 280500.0
       },
-      "checkedAt": "2026-10-29T02:16:56Z",
+      "checkedAt": "2026-10-29T10:17:17Z",
       "_prev": {
         "date": "2026-10-26",
         "ars": 281000.0
@@ -593,7 +594,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-29T02:16:56Z"
+      "lastAttempt": "2026-10-29T10:17:17Z"
     },
     {
       "id": "trigo",
@@ -610,7 +611,7 @@
         "date": "2026-10-27",
         "ars": 323000.0
       },
-      "checkedAt": "2026-10-29T02:16:56Z",
+      "checkedAt": "2026-10-29T10:17:17Z",
       "_prev": {
         "date": "2026-10-26",
         "ars": 326000.0
@@ -687,10 +688,567 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-29T02:16:56Z"
+      "lastAttempt": "2026-10-29T10:17:17Z"
     }
   ],
   "items": [
+    {
+      "id": "el-portacontenedores-atacado-por-drones-marinos-se-hunde-frente-a-la-costa-de-bu",
+      "datetime": "2026-10-29T10:11:07Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T10:16:14Z",
+      "title": "El portacontenedores atacado por drones marinos se hunde frente a la costa de Bulgaria",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Contenedores"
+      ],
+      "visual": "container",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Infobae",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.infobae.com/america/agencias/2026/10/29/el-portacontenedores-atacado-por-drones-marinos-se-hunde-frente-a-la-costa-de-bulgaria/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T10:16:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONm5vSUZJOVREZ1ZKdXZIS0ZZeEFxcXk0dzJKX0lSamNoVWZVcGEyUFNZV0FibEdUdzlSdGhKaGZidFpwR2JnWGdsdFN3VTFOV3hNb0ZJMHM0T3o4N2MwcHVTOVp4cFkxOUZYWGQwSHV6ZHNrSXJrV0ZPVGJVVlBQTUk1b3NHMXkxNkxUOVFCWUFud29uWU9wT09WRDJqVUE5cVcwMVl4ZEdLSjFfNjFzTmlFQTE1TTR5eXRnekw2VS04SWtsWkhHMlZLczAtRzlranFjZnBB0gHwAUFVX3lxTFAzNVJhalpzX3R3eEMwS293T2lMMjliNlg5SWpVcWxyYm1VX3FPV3pIbmEyN0w4R0MxMFdzVUNiLWRfbERjckNXdVY2cDdCbFJ4akw2YkJ4aTZtYkN5c2o5WmlkZ1MyQ1pRSXlhRGY0bndaWDlzZEpZUVBwN21qMGtldFNFNGtKLXRJWWNPbjYwUERxVXVpVHQ3Skl1UzFqVzV5YXV6d0hpc1Y3UzlZSmp4dmw4ektKaElRd0xYMUhVX05oWm1fVHlCeW5JakFTUjR4ektHa3NWSkhoTjlRXy1BMVlVdlpKR2tnb0xJZGtZaw?oc=5"
+    },
+    {
+      "id": "dinamarca-puerto-de-aarhus-conecta-primer-portacontenedores-a-red-electrica-en-t",
+      "datetime": "2026-10-29T10:00:42Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T10:16:14Z",
+      "title": "Dinamarca: Puerto de Aarhus conecta primer portacontenedores a red eléctrica en tierra",
+      "summary": "El Puerto de Aarhus conectó por primera vez un portacontenedores a su red eléctrica en tierra…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos",
+        "Europa"
+      ],
+      "countries": [
+        "Dinamarca"
+      ],
+      "tags": [
+        "Contenedores",
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/dinamarca-puerto-de-aarhus-conecta-primer-portacontenedores-a-red-electrica-en-tierra/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ],
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOGpWVkJObWM1eWMyMk5fXzVrU2xpSzEyLW1uSFdfODB5THNUdEZjQTFlV3NKTl9jQVhuQklFYkZQcWlLOUpNaWVRZF9oNS1kUzBJQkNzNXFUa0ZDb0ctekJSSmhNV0lDNTNOSGttbmtlOXBaUlhXbnJDdGYzYW5Hdmc5RlRVbUd1WVF1ZVFZeWlpSDROcDdzNVBJcWlZVjE4NHVQU1dSaVd4cDNqdHYwUUdZWQ"
+      ]
+    },
+    {
+      "id": "india-afirma-que-el-acuerdo-comercial-con-estados-unidos-no-perjudicara-a-sus-ag",
+      "datetime": "2026-10-29T09:48:35Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T10:16:14Z",
+      "title": "India afirma que el acuerdo comercial con Estados Unidos no perjudicará a sus agricultores",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Estados Unidos",
+        "Asia"
+      ],
+      "countries": [
+        "Estados Unidos",
+        "India"
+      ],
+      "tags": [
+        "Estados Unidos"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "MarketScreener España",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://es.marketscreener.com/noticias/india-afirma-que-el-acuerdo-comercial-con-estados-unidos-no-perjudicar-a-sus-agricultores-ce785cd3de89ff24",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T10:16:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNZlJYMkQwUkwzQWdLbnFNbDJqYUNkWnVDbWRMQWdtYjI5bHdIcnhiV3prQjM1ZmNTME1KM3hzNGdqMTJIOF9aZHQ2QVN4ajFIWGdHTFFxcTU3UEhYck1XLVNQbUxYOHJDWTVnWG1UTGM2RlBSM1VaYnhkdExVWXVBUmROVWxoTmQyRVROa2Ffa0lMbjRGQVd0Y0lPNTJWWU42X0hTVVozeW80Vk0taGpUWmRLRDBPb0lXZUNCQV9fRzJlOVM2T0hLSWlQQXFRbWhfQUcwRF80cDhqMEY2aVE?oc=5"
+    },
+    {
+      "id": "los-beneficios-de-ford-se-enfrian-por-la-transicion-al-coche-electrico-o-los-ara",
+      "datetime": "2026-10-29T09:30:45Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T10:16:14Z",
+      "title": "Los beneficios de Ford se enfrían por la transición al coche eléctrico o los aranceles de Trump",
+      "summary": "La división de eléctricos ha registrado unas pérdidas operativas ajustadas de 990 millones de euros.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "20Minutos",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.20minutos.es/lainformacion/empresas/beneficios-ford-enfrian-transicion-electrico-aranceles-trump_7054850_0.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T10:16:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdnpOUmVLd21iRk9xeDdIWmlISVBLOWQyNXMwOVprWDFLcUF5bXRSNjlJSWJwZm1LWUNqdURlbXBxWXRxbXgtU2Y1MFZwb0poQjNvVG4tczdFVlNjUVhOZHAtM2RmUE5KTlRoeEpEWmNOU0NFTk1NWEU4RVVSM3NIQmVmbzdUOVgzMkZKeE5fRW1iV3NxY3ZMcUZFdVFCY0JKTDZBU3lZemM2Z2hlanVHREFBbE1tU3EyMW1VMUJFTVc?oc=5"
+    },
+    {
+      "id": "tres-paises-vecinos-duplicaron-el-crecimiento-de-las-exportaciones-agroindustria",
+      "datetime": "2026-10-29T09:25:33Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T10:16:14Z",
+      "title": "Tres países vecinos duplicaron el crecimiento de las exportaciones agroindustriales de la Argentina",
+      "summary": "No tuvieron retenciones, como las que el peronismo instaló “provisoriamente” en 2002. Tampoco regulaciones cambiarias, ingresos brutos o impuesto al cheque. El RIGI, ¿es inversión o resignación fiscal? Argentina, de los números al debate político 2027.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Agro"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "El Litoral",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.ellitoral.com/economia/exportacionesagroindustriales-rigi-ieral-juanmanuelgarzon-bolsadecomercioderosario-retenciones-javiermilei-marinadalpoggetto-fundacionmediterranea-presionfiscal-ecogo-axelkicillof_0_bH29ATCpzK.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T10:16:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNemZjOFVISE00WkxzMzExenlhVWVna1lvMEVFQXUzYmh4c2g5bXF1bUFnc3BvR1U0OFI3aGlsMTJST1ZiVk4tT0pHU0RTRENFaXoyQTJRMklLekNKbWJnd29Hd2VDTUJCRE51cWVkVWg0a1VWaDgtVnFLM3ZOYzdXS3ZyR2lUdmo5QXIzS0tBTnlxNmhDLUtmRzBoZnd6ZEF0VmFqWl8zOGxjbjFzRS00cmp5djdKNjl0dTR0ZGFMRS1XeEJwbGlycEV6OFlvZE80MzRkdTJhUjY3aVhWRlF1RnM5dksyQWNLVVJOOVpqaDZ6R3pyUHlBZ2pGVWhERzMxRGlRblB6ZEJDWE45ZXNzUzRUc1FmSkJNNWVzaFItZnYtaVA5bmRHTWZJVGZjajlpRVBCMXJxSDc1cy1mbHhYa3p5bmtGMVVQeG5mWG9CZFZ5QQ?oc=5"
+    },
+    {
+      "id": "trump-firma-la-proclamacion-del-section-232-sobre-aranceles-a-la-maquinaria-indu",
+      "datetime": "2026-10-29T09:24:51Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T10:16:14Z",
+      "title": "Trump firma la proclamación del Section 232 sobre aranceles a la maquinaria industrial importada",
+      "summary": "Trump activa el Section 232 sobre robótica y maquinaria industrial: 180 días de negociación antes de cualquier arancel. España tiene 2.000 millones en juego.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones",
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Moncloa.com",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.moncloa.com/2026/10/29/trump-section-232-aranceles-maquinaria-3457582/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T10:16:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONTVrWm9fY3dXWVVvODZjWC1OV1o4SjdWQ0NoaXlHTXNQRkZIQlNiX2Z0aDBfOHFaSHlweGJCdFMtRC1taGtocm02OHlOVUlSQWpFeHBGc0VsblJaUnVtTUxTc0tZTG9BZUdfUkZaSnBhNEZDU1RjNDNDbzdtcmtXOXRGN2xkaW9JM3c?oc=5"
+    },
+    {
+      "id": "gwm-ora-5-la-apuesta-de-china-en-europa-para-sortear-los-aranceles",
+      "datetime": "2026-10-29T09:10:21Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T10:16:14Z",
+      "title": "GWM Ora 5: la apuesta de China en Europa para sortear los aranceles",
+      "summary": "Great Wall Motor fabricará el SUV Ora 5 en Bulgaria desde 2027 y aspira a producir 300.000 coches al año en Europa para 2029.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "China"
+      ],
+      "tags": [
+        "Aranceles",
+        "China"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Autofácil",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.autofacil.es/gwm-ora-5-la-apuesta-de-china-en-europa-para-sortear-los-aranceles/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T10:16:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRVVtUHNDVnl3ckJHY3R6WTR5UG5DS1BwaEVXM21YZTVwLVFFdUlBcmdCc2lTYVI5RDdtdW1Wd3hybU5MNzM0RklZMEZjbmF0blBldERjRW9sa0l4T3RnZlpIVnhma2UzNFJCckNfYXZLdUhNbnhvZEtYNVptMUU3NjFkX1FkTFZOWmJzM3FrZkhPRG9WWDNV?oc=5"
+    },
+    {
+      "id": "hhla-plt-italia-incrementa-capacidad-para-recibir-300-semirremolques-en-puerto-d",
+      "datetime": "2026-10-29T09:00:37Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T10:16:14Z",
+      "title": "HHLA PLT Italia incrementa capacidad para recibir 300 semirremolques en Puerto de Trieste",
+      "summary": "HHLA PLT Italia ha puesto en funcionamiento 37.000 metros cuadrados extras en el Puerto de Trieste…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Europa"
+      ],
+      "countries": [
+        "Italia"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/hhla-plt-italia-incrementa-capacidad-para-recibir-300-semirremolques-en-puerto-de-trieste/",
+          "primary": true,
+          "author": "cmeza"
+        }
+      ]
+    },
+    {
+      "id": "nueva-semana-de-fletes-al-alza",
+      "datetime": "2026-10-29T08:50:00Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T10:16:14Z",
+      "title": "Nueva semana de fletes al alza",
+      "summary": "Los fletes se mantienen al alza a finales de octubre pese a la recuperación cada vez más sólida de los tránsitos por Suez y del alivio de la congestión portuaria en Asia.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Cadena de Suministro",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.cadenadesuministro.es/transporte-maritimo/nueva-semana-fletes-alza_1519305_102.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T10:16:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWnhCNTZFaXJ3cC16RURETThvQkhUY25QVF9HbGF1bEF1TWppdGRnQ2txenFUSDROQ0NCN0FnNm5RbkY2VEgwQUFlZHdlMThiNE5jenBBT2I0ODB5dTJBRURDQlNDR1J6UEJaZGFTeTFVME9tTEZsQVo1dy1kajUtZjZ6U1hpVllUdVl2SFJ0NW9Ed3JjRzIzZXdnNA?oc=5"
+    },
+    {
+      "id": "tercer-congregacoop-cordoba-sede-de-un-encuentro-internacional-que-supero-las-ex",
+      "datetime": "2026-10-29T08:27:00Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T10:16:14Z",
+      "title": "Tercer CongregaCoop: Córdoba, sede de un encuentro internacional que superó las expectativas y consolida la integración cooperativa en el Mercosur",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Mercosur"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Comercio y Justicia",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://comercioyjusticia.info/agronegocios/tercer-congregacoop-cordoba-sede-de-un-encuentro-internacional-que-supero-las-expectativas-y-consolida-la-integracion-cooperativa-en-el-mercosur/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T10:16:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNVF9lLS1qTHE4OGJrR09EdXZsdmpMaVNLLUdpOWJQSGIxbHZOX3M1dS1VWDZHaVkyazVLNHhteWlZUnA4VGdNVmR0RjlEbXY4aWxPbUhORDNVNTI5cWJ0YzlLTHE5TU03Q1Vrb19rMW03ZmJnejRYYTdsR2R4aEp6N0NjLTBIMDFPUHBVYzRjRVdxT0hBV0I2NDZZUTcyczlDZmxpd0pySXdDWWcwMnJ4MkdhdEowRjVlc0lmTHBrdU5aRHBjZjBmY1hlQ2hDbmJmLW53dk05MlZiNkhUZE50OHVZY3NmRG5ReXQwcjRROEJhVzk2UE0zYjFQOVFzSVJYb0xLM3BXZTVXSWFUVTlEY2hsa2FNdzl2?oc=5"
+    },
+    {
+      "id": "italia-adsp-comunica-inicio-de-demolicion-de-antiguo-astillero-tubimar-en-puerto",
+      "datetime": "2026-10-29T08:00:01Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T10:16:14Z",
+      "title": "Italia: AdSP comunica inicio de demolición de antiguo astillero Tubimar en Puerto de Ancona",
+      "summary": "La Autoridad del Sistema Portuario del Mar Adriático Central (AdSP) informó el inicio de la demolición…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Europa"
+      ],
+      "countries": [
+        "Italia"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/italia-adsp-comunica-inicio-de-demolicion-de-antiguo-astillero-tubimar-en-puerto-de-ancona/",
+          "primary": true,
+          "author": "Gabriel"
+        }
+      ]
+    },
+    {
+      "id": "el-gobierno-no-denunciara-a-lula-por-fraude-pero-aprovechara-para-endurecer-el-d",
+      "datetime": "2026-10-29T05:16:21Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T10:16:14Z",
+      "title": "El Gobierno no denunciará a Lula por fraude, pero aprovechará para endurecer el discurso contra el Mercosur",
+      "summary": "En la Casa Rosada no prevén avanzar contra el presidente del país vecino tras el reconocimiento de la derrota del Partido Liberal. Pero fogonean el fantasma de una salida del Mercosur. En el Planalto por ahora mantienen la cautela a pesar del enojo con la jugada de Milei para contribuir a la fuga",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Latinoamérica",
+        "Mercosur"
+      ],
+      "countries": [
+        "Brasil"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Infobae",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.infobae.com/politica/2026/10/29/el-gobierno-no-denunciara-a-lula-por-fraude-pero-aprovechara-para-endurecer-el-discurso-contra-el-mercosur/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T10:16:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPbXdtUExqalZqT3hIOUgtRU1MN3UwN1BrYWRjTElEMFpvYWd4eUZEdmdtdEFqSkd3Q1lNa0NuOS1tSkFBbU5HTy12dHdYeVpvSFI5MmdiUGNScXVWMS1RVU9zenRnaGJpMjlIbk1ZczR5bEwyaGRxRHdUWXBrRjk4UVZBUFdYMUQ1MUJrb3V4bkZzNlRDNnVHOFFweG9ydlpLZnVjYUQxeWQ0NnNvN2N3SnlBclNaNTM1UDhKbTMyOXRlZTUyZjZweFFNWWRFdHJWVTVzMW9YamtFUHFmUndobEVHYmZMeGNMZGZRUVJfQ2hUa3N4RDE0UGMzNUFOYkpt0gGAAkFVX3lxTE9td21QTGpqVmpPeEg5SC1FTUw3dTA3UGthZGNMSUQwWm9hZ3h5RkR2Z210QWpKR3dDWU1rQ245LW1KQUFtTkdPLXZ0d1h5Wm9IUjkyZ2JQY1JxdVYxLVFVT3N6dGdoYmkyOUhuTVlzNHlsTDJoZHFEd1RZcGtGOThRVkFQV1gxRDUxQmtvdXhuRnM2VEM2dUc4UXB4b3J2WktmdWNhRDF5ZDQ2c283Y3dKeUFyU1o1MzVQOEptMzI5dGVlNTJmNnB4UU1ZZEV0clZVNXMxb1hqa0VQcWZSd2hsRUdiZkx4Y0xkZlFRUl9DaFRrc3hEMTRQYzM1QU5iSm0?oc=5"
+    },
+    {
+      "id": "italia-fhp-adelanta-fin-de-ampliacion-de-terminal-intermodal-en-incoronata",
+      "datetime": "2026-10-29T05:00:26Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T10:16:14Z",
+      "title": "Italia: FHP adelanta fin de ampliación de Terminal Intermodal en Incoronata",
+      "summary": "Con FHP Intermodal como concesionario y el Consorcio ASI Foggia como organismo público ejecutor, se están realizando…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Europa"
+      ],
+      "countries": [
+        "Italia"
+      ],
+      "tags": [],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/italia-fhp-adelanta-fin-de-ampliacion-de-terminal-intermodal-en-incoronata/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "foro-mercosur-ue-oportunidades-y-desafios",
+      "datetime": "2026-10-29T03:14:20Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T10:16:14Z",
+      "title": "Foro Mercosur - UE: Oportunidades y desafíos",
+      "summary": "Noticias de Jujuy, Argentina y el Mundo. El Tribuno de Jujuy ofrece noticias de último momento, actualidad, deportes, policial, económico, social, política e información de interés general. Informate",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Unión Europea"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "El Tribuno de Jujuy",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://eltribunodejujuy.com/opiniones/2026-10-29-0-0-0-foro-mercosur-ue-oportunidades-y-desafios",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T10:16:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPOUR4eXlBbHZ0LWU1UFFRUFVXM0NxQWJpdjFjMUtQRGpia1ItOVNIY2t3REJyLTcwS1ZQYWxqU3loNk92Szl6TkVoQmVzNk5haEtlWnJfTGMxdDhwczdHZmVXVEthRFhLZHd5SzFlYVFQTkhsT0UxOW1oemladWtTckhia1h6dWZtb2dGbzRJbUJTdzgtWU1VazFPSzBad9IBowFBVV95cUxPMlUwSGVkN0ZjS2pYM0NVTkIwUFlwejdkbzFWeWNMMU1TQmJhZXhoZHNja0NiU0FUeWJ5YlZYVVBwWkM0QktsMlNEQ2lqUWYtTXBMYktTSW54MW00TnVLdGNLaDAwaTBqNzhBRlNOcmpKUld2VmgyTlN5dUhiZmxqYVlPNWZsQkFpOXhTbHNBSy16ejV3M0ladHVnUFdlMU5mSjM0?oc=5"
+    },
+    {
+      "id": "arca-flexibiliza-la-exportacion-de-minerales-procesados-por-fundicion-y-refinaci",
+      "datetime": "2026-10-29T02:38:45Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-29T10:16:14Z",
+      "title": "ARCA flexibiliza la exportación de minerales procesados por fundición y refinación y abre una ventaja logística para la minería",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Aduanas",
+        "Logística"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "ARCA",
+        "Minería"
+      ],
+      "visual": "mining",
+      "impact": 2,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Minería & Desarrollo",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.mineriaydesarrollo.com/noticias/2026/10/28/27474-arca-flexibiliza-la-exportacion-de-minerales-procesados-por-fundicion-y-refinacion-y-abre-una-ventaja-logistica-para-la-mineria",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T10:16:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQeF9TVWdWektvaHhRMlR3M1M3VXJUajlrWGhvQnRFTnBFdlFydzhqSGl2YW92MXJhTHZuUjZVclI4YmRodjJiRTB0QzJRVFRsMi1TNUdBZDlzdGtyTDBSc21LMVFqRm1Kb1dLQUhrQ0N6djFHakhGcXpYUGxja2tiMmlsbmtsMGQtRWl0VjNlR2FMUFB5ZmxkSmttd3ZUVTZNRmRvQjJRRG9lV2E1VWJBNFc3RlJsTnpubVZPa2lLQWRRb25KczBsNkd1VjNsSmVpendEMzRuUGV0RVRlaHBZUDZna0JqcmlMekhaaVltUEhhbVJMRVF3RnJNa1RpZUJFNGJWcS1qMU5ycDlKNmZtbmUydEpsdTFmX2tXWdIBnAJBVV95cUxQeF9TVWdWektvaHhRMlR3M1M3VXJUajlrWGhvQnRFTnBFdlFydzhqSGl2YW92MXJhTHZuUjZVclI4YmRodjJiRTB0QzJRVFRsMi1TNUdBZDlzdGtyTDBSc21LMVFqRm1Kb1dLQUhrQ0N6djFHakhGcXpYUGxja2tiMmlsbmtsMGQtRWl0VjNlR2FMUFB5ZmxkSmttd3ZUVTZNRmRvQjJRRG9lV2E1VWJBNFc3RlJsTnpubVZPa2lLQWRRb25KczBsNkd1VjNsSmVpendEMzRuUGV0RVRlaHBZUDZna0JqcmlMekhaaVltUEhhbVJMRVF3RnJNa1RpZUJFNGJWcS1qMU5ycDlKNmZtbmUydEpsdTFmX2tXWQ?oc=5"
+    },
     {
       "id": "mexico-mantiene-cautela-ante-posible-acuerdo-comercial-con-eua",
       "datetime": "2026-10-29T02:00:00Z",
@@ -707,7 +1265,10 @@
       "countries": [
         "México"
       ],
-      "tags": [],
+      "tags": [
+        "Acero",
+        "Aluminio"
+      ],
       "visual": "treaty",
       "impact": 1,
       "affectsArgentina": false,
@@ -737,12 +1298,16 @@
       "keyData": [],
       "topics": [
         "Tratados y acuerdos",
-        "Latinoamérica"
+        "Latinoamérica",
+        "Estados Unidos"
       ],
       "countries": [
-        "México"
+        "México",
+        "Estados Unidos"
       ],
-      "tags": [],
+      "tags": [
+        "Estados Unidos"
+      ],
       "visual": "treaty",
       "impact": 1,
       "affectsArgentina": false,
@@ -775,10 +1340,12 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Aranceles"
+        "Aranceles",
+        "Tratados y acuerdos",
+        "Latinoamérica"
       ],
       "countries": [
-        "Global"
+        "Colombia"
       ],
       "tags": [
         "Aranceles"
@@ -985,10 +1552,24 @@
           "url": "https://castellonplaza.com/castellonplaza/empresas2/boluda-shipping-compra-la-islandesa-samskip",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Forbes España",
+          "type": "También publicó esta noticia",
+          "url": "https://forbes.es/nautik/1058120/boluda-shipping-adquiere-samskip-para-crear-una-de-las-mayores-redes-de-transporte-maritimo-de-corta-distancia-de-europa/",
+          "alsoIn": true,
+          "title": "Boluda Shipping adquiere Samskip para crear una de las mayores redes de transporte marítimo de corta distancia de Europa"
         }
       ],
       "gnTried": "2026-10-29T02:15:46Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOEIxLXhiNktLMzhyQVFDSjNLRmJrUGFEU1B3QjhpUkhoUE9Fa2VlakFTMlR6cFJ2Nkt5R3JhRkZuTXYyWkFUV05LNThrODFXZVFWdDJxRjlMSXJadUZIenYzd3ZWb0tieG5YUWFOc2pjYkVJWGwxVHMwaTUtdUpiU1dobDFwSGhfS01ENU90RGgwM0xEYzFJWDlxcw?oc=5"
+      "gnUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOEIxLXhiNktLMzhyQVFDSjNLRmJrUGFEU1B3QjhpUkhoUE9Fa2VlakFTMlR6cFJ2Nkt5R3JhRkZuTXYyWkFUV05LNThrODFXZVFWdDJxRjlMSXJadUZIenYzd3ZWb0tieG5YUWFOc2pjYkVJWGwxVHMwaTUtdUpiU1dobDFwSGhfS01ENU90RGgwM0xEYzFJWDlxcw?oc=5",
+      "aliasUrls": [
+        "https://forbes.es/nautik/1058120/boluda-shipping-adquiere-samskip-para-crear-una-de-las-mayores-redes-de-transporte-maritimo-de-corta-distancia-de-europa",
+        "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPTldnc1ViR1h5VnFqbjJvb2dvTWhJODRRaXJjdC1CS2gybW80RTlWVHVkN3cycFU0aTlrUVFhQzZ4NTJmUC01TDAzajVDX2REaEU0Y2NjQ3NUZWt6N1R5QnpBRmhnN1hmU2EzcWZYRnRTQVZIRGhMZnFYRnBYY29OdERDRUQ0UVJuRldqN1JiWWIyOGJuM0FNU1NLcUtqWmpqd2RQQ29NaVRlRl9MWGNlc2kzYmYtZnpraDZUUlBqVS1JN1pHY1B2ZVI3cWRDZGhPMllXLTB1SFl1anREaHBVemtDaE9PYlJLWkE"
+      ],
+      "mergedIds": [
+        "boluda-shipping-adquiere-samskip-para-crear-una-de-las-mayores-redes-de-transpor"
+      ]
     },
     {
       "id": "rdeco-como-influye-el-atraso-cambiario-en-las-exportaciones-y-que-desafios-plant",
@@ -1352,12 +1933,16 @@
       "keyData": [],
       "topics": [
         "Argentina",
-        "Exportaciones"
+        "Exportaciones",
+        "Economía internacional"
       ],
       "countries": [
         "Argentina"
       ],
-      "tags": [],
+      "tags": [
+        "Minería",
+        "Agro"
+      ],
       "visual": "customs",
       "impact": 1,
       "affectsArgentina": true,
@@ -1797,6 +2382,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Tratados y acuerdos",
         "Logística"
       ],
       "countries": [
@@ -1869,6 +2455,80 @@
         "basedOn": "https://portalportuario.cl/dhl-sostiene-que-filtracion-de-informacion-sensible-es-un-problema-persistente-dentro-de-cadena-logistica",
         "words": 172
       }
+    },
+    {
+      "id": "el-mercado-chino-ya-concentra-una-cuarta-parte-de-las-exportaciones-pesqueras-ar",
+      "datetime": "2026-10-28T19:17:56Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-29T10:16:14Z",
+      "title": "El mercado chino ya concentra una cuarta parte de las exportaciones pesqueras argentinas",
+      "summary": "Catorce empresas argentinas participan de la China Fisheries & Seafood Expo 2026, que comenzó este miércoles en Qingdao. Durante los primeros nueve meses del año, el país asiático compró pescados y mariscos argentinos por 455,5 millones de dólares y se convirtió en el principal destino de exportación del sector en…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "Argentina",
+        "China"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "DangDai",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://dangdai.com.ar/2026/10/28/el-mercado-chino-ya-concentra-una-cuarta-parte-de-las-exportaciones-pesqueras-argentinas/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T10:16:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaXdsdGNfbi1odWFrYm1UcTlvTHRWLVZMT2pKVW51UFItRkhYX2RvWXZLbTl3RlZMbm1tYUJqeEtZcnVzdVQ0Zzc1aXRDREVTNVBvYUIyQUM5TThfdFZKdmg1UTNvMklueGNsbjhkbG12Y3N1UlByUk1zRkN5N2EwaExybmYwUUtfa2xpNXVTa3ZlNlJ4V1oyeEFpNlBHUVhvMmRzWXdydXktbUJuLS15Y3I2eDZnQlBBOE5oS2NpX3Q?oc=5"
+    },
+    {
+      "id": "la-cac-expuso-en-el-xiii-encuentro-de-la-convergencia-empresarial-de-mujeres-del",
+      "datetime": "2026-10-28T19:09:53Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-29T10:16:14Z",
+      "title": "La CAC expuso en el XIII Encuentro de la Convergencia Empresarial de Mujeres del Mercosur",
+      "summary": "Congregó en Montevideo, Uruguay, a representantes de cada uno de los países fundadores del bloque regional para explorar estrategias de integración y fomento del comercio internacional.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Mercosur"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Cámara Argentina de Comercio y Servicios (CAC)",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.cac.com.ar/noticias/la-cac-expuso-en-el-xiii-encuentro-de-la-convergencia-empresarial-de-mujeres-del-mercosur",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T10:16:14Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQ0dYd0VhLUR4elJDMzJvU24ycWNGUVg5eGdSb09wY1YxcXB2eXZMUFZpdHlacGpRdWs3M3lqUFp0UUxPVzNjZElITHJUTEkwUkJWbjd3dURpQ25vOXJ3Z05tc0taMWZob194aWNkREpfNWpQN1F4aEtGYTAxWG9zd0FkTEdVQkFuVVdiWGpjODVfT3hVWWxMcTJPeFVLZDJ0MWdqYXcwaFJ4ODZSOGR0V01Va2RLZ2Jqb29hbkhR?oc=5"
     },
     {
       "id": "mexico-puerto-de-lazaro-cardenas-recibe-nueva-naviera-centrada-en-ro-ro-y-carga",
@@ -1957,63 +2617,6 @@
       "digestSkip": {
         "at": "2026-10-28T21:50:24-03:00",
         "reason": "muro de pago"
-      }
-    },
-    {
-      "id": "arca-flexibiliza-las-exportaciones-mineras",
-      "datetime": "2026-10-28T18:10:24Z",
-      "date": "2026-10-28",
-      "firstSeen": "2026-10-29T02:15:46Z",
-      "title": "ARCA flexibiliza las exportaciones mineras",
-      "summary": "ARCA flexibiliza las exportaciones mineras: el organismo autorizó registrar minerales procesados en cualquier aduana del país.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Aduanas"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "ARCA",
-        "Minería"
-      ],
-      "visual": "mining",
-      "impact": 2,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
-      "sources": [
-        {
-          "name": "» Cholila Online",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://cholilaonline.ar/2026/10/arca-flexibiliza-las-exportaciones-mineras.html",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "Diario El Norte - San Nicolás",
-          "type": "También publicó esta noticia",
-          "url": "https://diarioelnorte.com.ar/arca-flexibiliza-la-exportacion-de-minerales-procesados/",
-          "alsoIn": true,
-          "title": "ARCA flexibiliza la exportación de minerales procesados"
-        }
-      ],
-      "gnTried": "2026-10-29T02:15:46Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNTQ0NldOR1pQOElCTEFTNGRfVFoxWHpucVh1U216UmhWWTVYQWhITkltWUpwRFhxaEJTX2RCdWpQc3NTNnBtV2QxS3pzWGk0LXFfb05tcjhYZEZpQlJESG94UE5DNHpRcnlTMXVTVGJkeHY1QmVBZmg5a1pkRWxKWFJ0bG1TS2c?oc=5",
-      "aliasUrls": [
-        "https://diarioelnorte.com.ar/arca-flexibiliza-la-exportacion-de-minerales-procesados",
-        "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQkV6WWtrV0huYUNhMlZCak5LT1JNVDRFNU5EWTY5Mm13cTNscmhKbE9DdFJtT2RLMnFRUk15ZHpUQmRLTnh6LUgwR2NHM1ZLdHpiRzA1NlBqc3llNkxFVmFMRVNKQkFJWDRnOWZQOUpRVHI5VjhLdmpNRU4wbTVXNG5rVkF1bDdmaDhQcWZB"
-      ],
-      "mergedIds": [
-        "arca-flexibiliza-la-exportacion-de-minerales-procesados"
-      ],
-      "digestSkip": {
-        "at": "2026-10-29T00:49:38-03:00",
-        "reason": "repite una nota de la redacción (ARCA, RG 5917 sobre exportación de minerales)"
       }
     },
     {
@@ -2239,7 +2842,10 @@
         "at": "2026-10-28T15:50:00-03:00",
         "basedOn": "https://novedadeseconomicas.ieral.org/exportaciones-agro-podria-haber-tenido-arg/",
         "words": 191
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaUdXdFF4NWxYLUdyS1R0eDFSUzdGT0pFQklIdkFJRm15ZmVvVVhxXzFfUUVkN0VrcENLOTYxX2xEb1BHM1pmYk5HSFVkb05ScUNCNnFIRTQ1TEl5MzBLbk1Ma21yM3pocUI4WG95VUc0ei1rZnJiQWFmR0dRXzltZGVFMllBQ1Bs"
+      ]
     },
     {
       "id": "ee-uu-puertos-de-indiana-recibe-subvencion-federal-de-usd-11-2-millones-de-dolar",
@@ -2343,11 +2949,13 @@
       "keyData": [],
       "topics": [
         "Importaciones",
+        "Exportaciones",
         "Latinoamérica"
       ],
       "countries": [
         "Brasil",
-        "Uruguay"
+        "Uruguay",
+        "México"
       ],
       "tags": [],
       "visual": "customs",
@@ -5073,13 +5681,17 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Logística"
       ],
       "countries": [
         "Argentina"
       ],
-      "tags": [],
-      "visual": "globe",
+      "tags": [
+        "Minería",
+        "Energía"
+      ],
+      "visual": "energy",
       "impact": 1,
       "affectsArgentina": true,
       "kind": "noticia",
@@ -7862,46 +8474,6 @@
       }
     },
     {
-      "id": "el-campo-valenciano-sufre-la-cara-b-de-mercosur-y-los-citricos-piden-auxilio-en",
-      "datetime": "2026-10-27T05:06:20Z",
-      "date": "2026-10-27",
-      "firstSeen": "2026-10-29T02:15:46Z",
-      "title": "El campo valenciano sufre la cara B de Mercosur y los cítricos piden auxilio en Europa",
-      "summary": "VALÈNCIA. El sector agrario de la Comunitat Valenciana ha puesto este lunes el farolillo rojo sobre Europa. ¿El motivo? El revés que están sufriendo dos...",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Mercosur"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "fruit",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Valencia Plaza",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/el-campo-valenciano-sufre-la-cara-b-de-mercosur-y-los-citricos-piden-auxilio-en-europa",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-29T02:15:46Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNQkQ4MElTekJDWEt0OVM3Zmw5SndER0FXT2FuZmVaa01vRWFKek9DSTNIYzVzTHdvckdZbnRfdFFnTWJLWWVKeHFHNUxqTWJtSFdPRldlV3hTbnlXcTVXV0JqY3hkdE1Gc1JzVURFUDk5NFpvUFNLNVM0N1JxbXRVdmMybmcyUXVyTXhTQUJSaEFCWWQ3MWZpQlZaYjk1UGJjczlaTXUxV2xHRDk0cTBFX2tnUmd6amlCU3o2SWp6d3A3SFVMMmd2aGs2Y1dFYnd4dkRJX1RRZU1yTm1oYzFPdXFn?oc=5",
-      "digestSkip": {
-        "at": "2026-10-29T00:49:38-03:00",
-        "reason": "repite una nota de la redacción (importaciones de miel del Mercosur a la UE)"
-      }
-    },
-    {
       "id": "economia-azul-genera-usd-26-mil-millones-en-comunitat-valenciana",
       "datetime": "2026-10-27T04:00:10Z",
       "date": "2026-10-27",
@@ -9869,6 +10441,13 @@
           "url": "https://radiomitre.cienradios.com/sociedad/uatre-y-las-entidades-del-agro-debatiran-como-vincular-el-empleo-registrado-con-las-exportaciones/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Prensa Mercosur",
+          "type": "También publicó esta noticia",
+          "url": "https://prensamercosur.org/2026/10/29/uatre-y-visec-debatiran-el-trabajo-rural-registrado-y-las-exportaciones/",
+          "alsoIn": true,
+          "title": "UATRE y VISEC debatirán el trabajo rural registrado y las exportaciones"
         }
       ],
       "gnTried": "2026-10-26T21:58:33Z",
@@ -9876,7 +10455,14 @@
       "digestSkip": {
         "at": "2026-10-27T00:52:47-03:00",
         "reason": "fuera de tema (aviso de evento)"
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcG5DY2swNE9iVGpaLWVZcFRYUG9zS3pTRmZ2RElYbkhxelAyWFNfWkFLT25EN0xSVmxPdy12U3BUS0FoWVJ3dUFPWVN3ckZiUE1JTkJqSDdNV2paeW9rZl9xb3l5Z3F0UWtxWmJzajhlZ0lWcTdXdXdLa2tvN2dwVzFzcmJRMVY1cVhKdXlOejdVM0UtNVdIekgyMzJkZ01TNW5uaUNNV0YyZTNYRW5F",
+        "https://prensamercosur.org/2026/10/29/uatre-y-visec-debatiran-el-trabajo-rural-registrado-y-las-exportaciones"
+      ],
+      "mergedIds": [
+        "uatre-y-visec-debatiran-el-trabajo-rural-registrado-y-las-exportaciones"
+      ]
     },
     {
       "id": "brasil-consorcio-de-empresas-construira-nuevos-muelles-para-graneles-liquidos-en",
@@ -85085,7 +85671,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-10-28T10:14:43Z"
+      "gnTried": "2026-10-29T10:16:14Z"
     },
     {
       "id": "portcastello-presenta-estrategia-para-albergar-hub-industrial-de-energia-eolica",
@@ -95569,7 +96155,7 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-10-29T02:15:46Z",
+    "ranAt": "2026-10-29T10:16:14Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
@@ -95602,37 +96188,37 @@
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 48,
-        "added": 2,
+        "items": 25,
+        "added": 0,
         "updated": 0,
-        "skipped": 34
+        "skipped": 19
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 51,
-        "added": 4,
+        "items": 26,
+        "added": 1,
         "updated": 0,
-        "skipped": 33
+        "skipped": 14
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 74,
+        "items": 57,
         "added": 4,
         "updated": 0,
-        "skipped": 45
+        "skipped": 27
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 20,
-        "added": 2,
+        "items": 43,
+        "added": 4,
         "updated": 0,
-        "skipped": 13
+        "skipped": 33
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
@@ -95641,16 +96227,16 @@
         "items": 100,
         "added": 4,
         "updated": 0,
-        "skipped": 86
+        "skipped": 87
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 100,
+        "items": 97,
         "added": 4,
         "updated": 0,
-        "skipped": 68
+        "skipped": 65
       }
     ],
     "curatedDuplicates": [
@@ -95663,11 +96249,6 @@
         "title": "30 de octubre: XII Jornada de Derecho Aduanero en la UBA",
         "url": "https://aduananews.com/evento-30-de-octubre-xii-jornada-de-derecho-aduanero-en-la-uba/?utm_source=rss&utm_medium=rss&utm_campaign=evento-30-de-octubre-xii-jornada-de-derecho-aduanero-en-la-uba",
         "curated": "eeuu-canada-seccion-338-cambia-productos-arancel-50-terciados-embalajes-alfombras-30-octubre"
-      },
-      {
-        "title": "El mercado brasileño le da la espalda al insultador serial: ya concentra apenas el 12,8 por ciento de las exportaciones",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE51MUlIUDRFLXNsV0F1YW9LcUhuejNCanRzdXdLYnE5eTNfWWlhZ0VLdzhBMzBLRGRsd3AxYTFCeTc3Uk9QQnh5U0pyRXJTRjhQRTFTRnkzemh4T0hCZnE2ZjdGdFBqd0dIaFJkdnl4bHdFb3dTS19ac1hzT2UyQQ?oc=5",
-        "curated": "exportaciones-argentinas-destinos-enero-septiembre-2026-brasil-pierde-peso-estados-unidos-india"
       },
       {
         "title": "Las exportaciones argentinas crecieron 21,4%, pero las ventas a Brasil apenas aumentaron 4,7%",
@@ -95690,109 +96271,48 @@
         "curated": "hapag-lloyd-espirito-santo-express-incendio-atlantico-sur-santos"
       },
       {
-        "title": "Avanzan en Diputados dos acuerdos internacionales referidos al Mercosur",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd3hRSzhuUDJaVlJZcGx5SWpMR2tkckNzbHhobWNvbXU5RG53TU9PcC1BM3J2SUp4Sk9nTHBVdHBGcEtjNTYwUnRVeHhERUdkN3RYd0k4VGxNUGx1R2l3SWg2M0hiOUt1SFN4VFJRb19QYWIxZnBOQlJMSU1CVUk0eU9wd2lxa0pNU1oyS21WNlpMcmtTU2xMNHl2cW9KQXNxb3VMS2Vmd2stNTktRjZSNXBjYw?oc=5",
-        "curated": "diputados-dictamen-acuerdo-mercosur-aelc-efta-protocolo-servicios-montevideo"
+        "title": "ARCA flexibiliza las exportaciones de minerales",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9xTjhYb29RTHI5ZmRaeWpQd3pLY1dZN3FNaDV3aGsySVFPTzAxMUljSF9UMk5QUGJyWEF5cGg1T2Izbm84WnVYSUQ1OHVXTjRWVmREWTFKUm9xWUhaN0FkVmpFak5qZlktTUtBeGM1UjlVbFh3bUxwNjBUSHE?oc=5",
+        "curated": "arca-rg-5917-minerales-fundidos-refinados-cualquier-aduana-exportacion"
       },
       {
-        "title": "UN PLENARIO DE COMISIONES DICTAMINÓ A FAVOR DE DOS PROYECTOS VINCULADOS AL MERCOSUR",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWjdaTFM3Mk42djJHMmRJS3lRVHVNYzdsV3ZNU09pQkRHSGJ6cVhCQXJ0ajZ0b0U1czJabF96N1dDSGFuc0pwanpwVGpVQXB1NEJ2SWdkVUlWNjY5RE11VWQwbVI3YU9zVkRMLU5Tbl9kcXhCaEhzOTBwaXBJblN0U1JhYTNub0tFSjhUc0Rzb3RxSmRmbE9uNlc1eXNWbE9zTHhXWW1LTlk4NEp6YldoYTRQeXlsMW5uaEVqUnoyY2M?oc=5",
-        "curated": "diputados-dictamen-acuerdo-mercosur-aelc-efta-protocolo-servicios-montevideo"
+        "title": "Controles en ventas online y aduana por productos importados",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONm9MeVUxai0zQUpJTnB0UHBINU9weVFoUy0wSWZzeTlPd0FxSlpJdTRXMy0wLWhMbUF5d2Q4SjU2NHc1dlQ0WDBmZjdHUnpSZkM5Y2NqWVJObGxuN2NzV1JTR3IzUXZ4X3JudDl1QzFocEtGd3phRnhWM1JLYzUxV05nbUtCM29ud0o3amJINXNxZUtoUmw3RU0xTWdIV2hZdk12UkFyVXNxX2ZNMXNMd0hyejZtZUZjeC1uQU1Dam85a3Jl?oc=5",
+        "curated": "gobierno-uia-mercado-libre-meta-acuerdo-contrabando-plataformas-arca-cruce-datos"
       },
       {
-        "title": "Lula reelecto: qué pasa con el Mercosur y las exportaciones argentinas a Brasil",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTTdkTHJmU0hpZjE1bkhwNFBaN1lDVVJ3cWtwMV9OZlVWZUVpOHkxUGFxRHI2ekdxdlpvVy1pZlpOU3lwOVl6WE91T2N2MmxpZ1dDUVpjVGM4QTlOaE12TU9xOVhzUnNsOEw5Nld6UklvQ3ZxVFJCVHVYSm8zR1pGNW9WVFhING5oUWVVVFA3SGdfYk5WUWQ0N083YzBzaWlqQzl5bkVYUWV4bzZGZXBRVndULVdlLXJYa3dyRDlrSzNwdzNySW9JLdIB4wFBVV95cUxPQkd0M2ZqUzlaN1l6V2JuQ3BGSFJjSUQtbHpkLWF2MjkxRzVsS0VhN2RBZWlxa2hDWEQwb19WbEsxVXlkUnczRzdGUEtueFphUWxxV21kbW9iSG5SeWNpdXBHaUtJMVpVR3l2QWl2TG9VTi1VSDlBekVOd1RWVTQzQVZVSGptbm84d3VvUVZnMHhiVnBKa2Z0UlJXQWc4OFRmc3BXYnphcmN4TTdxYWx3TTc2cGlVTThRZ3pMYk41THUyV0xzcGIxQ1BNZXFvV1EzMVFCV0JadlJNdnU5WGU0VTRIcw?oc=5",
-        "curated": "lula-reelecto-brasil-comercio-argentina-autos-mercosur-agenda-2027"
+        "title": "ARCA flexibiliza las exportaciones mineras",
+        "url": "https://cholilaonline.ar/2026/10/arca-flexibiliza-las-exportaciones-mineras.html",
+        "curated": "arca-rg-5917-minerales-fundidos-refinados-cualquier-aduana-exportacion"
       },
       {
-        "title": "Los apicultores alertan del acuerdo con Mercosur: “Las importaciones de miel casi se duplican en tres meses”",
-        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNSXBDNWVnNUFFUl9vdDQtYzViNkt3U2p2am42b3pIbkl4aWN2V3UyNGN1VFZVVGt0dDZYcWU5S2JMSDBiOGdxTVhkQzlaNGxjSl9aSjZYbE83SjFSNDdPd0lVamVmMHljMGg0eXZERlNvV0JBa1J6aHpqVU0zWWhzbUZQMllmcExUVWhPUDNKLWVhcFBNYkU3ZFBoNUNVMXRfUnNKWHZ3T01kb3l5elRuR1JGNHVQc0lXcFFzdWRGNjEzQzQxNklURzVtNDRfRU9KYWVEZzAwekpUY1hxeFFuTUtsOUEzWVEwUGdoQ1JTajdBQQ?oc=5",
+        "title": "El campo valenciano sufre la cara B de Mercosur y los cítricos piden auxilio en Europa",
+        "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/el-campo-valenciano-sufre-la-cara-b-de-mercosur-y-los-citricos-piden-auxilio-en-europa",
         "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
-      },
-      {
-        "title": "La miel de Mercosur se dispara un 94% en la UE y supera el cupo arancelario",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNHhiUFVGd3NXQVUwQW03S3dmdS14d19udHdwVFhCV1RHaXJkYW8tdksteF9Rd2s5OEVjZlJ1MHlKcEFDMklIZ0U0RE9HbjB1Snhnb0hXckVGMlNQMzFjcERtb25IUDRZTGRublF3M1FOWXhTOTdqaVJ2WFhBZk5MelpMa25qeWx6Q3JXa2puZVJ3RGQ2V2hzUW0xYVJsTkp5djhwWkFENlRQSG1KQVl6dzJmYm1iUQ?oc=5",
-        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
-      },
-      {
-        "title": "UCCL alerta de que las importaciones de miel de Mercosur se disparan un 94%",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQdFNKcnhWX3E4V3JVckRxYXNMOHJQM0otQ0QxVGRQelJSZHNMa3B3N0JScUpGSEZ1WW9kRlB4Y2YzUWxZSzUta25qbVRsQkYzTmJpdnZrTVN4a0d1SFJpMFNzbnBDRTdTMmZmUXQzMEJUdUUxU3FPTWpubHVlSzdVb0EyQ1RxX254aVI2Tk0xZG5nNmw0U0xRMndmSmIzVmVvdDlXeGUwSERsUXVPWTRpN2hyOGlnd1FNbF9jQ2tvNERONnVRaW9nUGNGMTZYSVVDaHBN?oc=5",
-        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
-      },
-      {
-        "title": "LA UNIÓ alerta de que las importaciones de miel de Mercosur casi se duplican en los tres primeros meses del acuerdo y…",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNTFDWURQZFlkcXdJTGRVMnZCSEVSbVVzN1c1cXpzQXRnQXhBc1pNUXFyU3MxMVlmZkdpMG5DbGNjNkdtd1Y3eGR4aG05bFcxRmI5a2phaVlWUXpiVXNuVVhnamg2dHhRUnpUU0pJUTNVcnE3Tk1QS2JzMlUtY2x3U3JQR09rQ1Y4dThNRnlLODduVG14NzB4Mk9BY2s2aEdzT1ZmUExicV9hZFZWWlNWVg?oc=5",
-        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
-      },
-      {
-        "title": "La miel de Mercosur casi duplica sus entradas en la UE en los tres primeros meses del acuerdo",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBWMzhGcXlDMnhkZWlMUmhqZnFSUDgwZnNZRlU3cVlzYXZJQ1lnOXRpXzFoLUltUUxNZy1OekJESkhaU2JDODY0dllHc2lQcHRVLXc2dzBHblZ5QTJEYXd4MXI0QXBYc09VMmd2dFBmbjljQlowa2QydHp4MA?oc=5",
-        "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
-      },
-      {
-        "title": "Las exportaciones de Vaca Muerta en las agitadas aguas del comercio internacional",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOT2tPX0JLNVF1Ym0xdzItd0l1VW5HV2lzaVFseGdTajVacWI1UW5yWXg4eEFjS1VaTlRjRlNEdHhEVFNBRm1kZGtGR0l4X29aU0NVVHJmRnJKeFhsQnVkWkVhM1ZTVUhGaHlfZ0RCRWRxMDNRcVNvdFBZR05jY19MNG5UYnRrdUY2T1pMOVVoTEVwZWZPWnpJeXZTX091UnI2dS1DUEVZbWtMZnlndV83VENmcWZhTHM?oc=5",
-        "curated": "exportaciones-12-meses-100845-millones-crudo-primer-producto-septiembre-2026"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "puertos-brasilenos-alinean-agenda-de-sostenibilidad-con-acuerdo-mercosur-ue",
+        "main": "uatre-y-las-entidades-del-agro-debatiran-como-vincular-el-empleo-registrado-con",
         "merged": [
-          "puertos-brasilenos-alinean-sostenibilidad-con-acuerdo-mercosur-ue"
+          "uatre-y-visec-debatiran-el-trabajo-rural-registrado-y-las-exportaciones"
         ]
       },
       {
-        "main": "america-latina-aumenta-notablemente-su-capacidad-naviera",
+        "main": "boluda-shipping-compra-la-naviera-islandesa-samskip",
         "merged": [
-          "capacidad-naviera-america-latina-busca-consolidarse-como-potencia-logistica"
-        ]
-      },
-      {
-        "main": "rdeco-por-que-el-aumento-del-petroleo-puede-beneficiar-al-comercio-exterior--2",
-        "merged": [
-          "rdeco-por-que-el-aumento-del-petroleo-puede-beneficiar-al-comercio-exterior-y-co"
-        ]
-      },
-      {
-        "main": "expo-globalports-2026-reunira-a-los-actores-de-la-logistica-y-el-comercio-exteri",
-        "merged": [
-          "expo-globalports-2026-reunira-a-la-logistica-y-la-hidrovia-con-el-offshore-en-ag"
-        ]
-      },
-      {
-        "main": "argentina-tiene-mas-superficie-forestada-que-uruguay-pero-exporta-seis-veces-men",
-        "merged": [
-          "argentina-tiene-mas-hectareas-forestadas-que-uruguay-pero-exporta-6-veces-menos"
-        ]
-      },
-      {
-        "main": "arca-flexibiliza-las-exportaciones-mineras",
-        "merged": [
-          "arca-flexibiliza-la-exportacion-de-minerales-procesados"
-        ]
-      },
-      {
-        "main": "cosecha-record-el-combustible-y-los-fletes-desafian-el-negocio-agricola",
-        "merged": [
-          "podra-haber-cosecha-record-pero-con-los-valores-del-flete-y-del-combustible-no-h"
-        ]
-      },
-      {
-        "main": "fundacion-mediterranea-preve-exportaciones-argentinas-por-mas-de-us-100-000--2",
-        "merged": [
-          "fundacion-mediterranea-preve-exportaciones-argentinas-por-mas-de-us-100-000-mill"
+          "boluda-shipping-adquiere-samskip-para-crear-una-de-las-mayores-redes-de-transpor"
         ]
       }
     ],
     "googleNews": {
-      "pending": 20,
-      "resolved": 20,
-      "withSummary": 17,
+      "pending": 18,
+      "resolved": 17,
+      "withSummary": 11,
       "withPhoto": 0,
-      "failed": 0,
-      "duplicates": 0
+      "failed": 1,
+      "duplicates": 2
     }
   },
   "stories": [
