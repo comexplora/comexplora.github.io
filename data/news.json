@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-10-29T18:10:35Z",
+  "updatedAt": "2026-10-29T22:08:01Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -134,20 +134,16 @@
     {
       "id": "tc-mayorista",
       "label": "Tipo de cambio mayorista ARS/USD",
-      "value": "$ 1.538,47",
-      "period": "Com. A 3500 · 28 oct 2026",
+      "value": "$ 1.539,59",
+      "period": "Com. A 3500 · 29 oct 2026",
       "source": "BCRA",
       "url": "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp",
       "group": "Mercados",
-      "obsDate": "2026-10-28",
-      "change": "0,0% vs. día hábil anterior",
-      "trend": "flat",
-      "checkedAt": "2026-10-29T18:11:32Z",
+      "obsDate": "2026-10-29",
+      "change": "+0,1% vs. día hábil anterior",
+      "trend": "up",
+      "checkedAt": "2026-10-29T22:08:50Z",
       "history": [
-        [
-          "2026-09-16",
-          1509.1055
-        ],
         [
           "2026-09-17",
           1510.0024
@@ -263,11 +259,15 @@
         [
           "2026-10-28",
           1538.4739
+        ],
+        [
+          "2026-10-29",
+          1539.593
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-29T18:11:32Z"
+      "lastAttempt": "2026-10-29T22:08:50Z"
     },
     {
       "id": "soja",
@@ -284,7 +284,7 @@
         "date": "2026-10-28",
         "ars": 550000.0
       },
-      "checkedAt": "2026-10-29T18:11:32Z",
+      "checkedAt": "2026-10-29T22:08:51Z",
       "_prev": {
         "date": "2026-10-27",
         "ars": 550000.0
@@ -365,7 +365,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-29T18:11:32Z"
+      "lastAttempt": "2026-10-29T22:08:51Z"
     },
     {
       "id": "brent",
@@ -378,7 +378,7 @@
       "obsDate": "2026-10-27",
       "change": "-3,9% vs. día anterior",
       "trend": "down",
-      "checkedAt": "2026-10-29T18:11:35Z",
+      "checkedAt": "2026-10-29T22:08:54Z",
       "history": [
         [
           "2026-09-16",
@@ -503,7 +503,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-10-29T18:11:35Z"
+      "lastAttempt": "2026-10-29T22:08:54Z"
     },
     {
       "id": "maiz",
@@ -520,7 +520,7 @@
         "date": "2026-10-28",
         "ars": 277800.0
       },
-      "checkedAt": "2026-10-29T18:11:35Z",
+      "checkedAt": "2026-10-29T22:08:54Z",
       "_prev": {
         "date": "2026-10-27",
         "ars": 280500.0
@@ -601,7 +601,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-29T18:11:35Z"
+      "lastAttempt": "2026-10-29T22:08:54Z"
     },
     {
       "id": "trigo",
@@ -618,7 +618,7 @@
         "date": "2026-10-28",
         "ars": 317300.0
       },
-      "checkedAt": "2026-10-29T18:11:35Z",
+      "checkedAt": "2026-10-29T22:08:54Z",
       "_prev": {
         "date": "2026-10-27",
         "ars": 323000.0
@@ -699,10 +699,659 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-29T18:11:35Z"
+      "lastAttempt": "2026-10-29T22:08:54Z"
     }
   ],
   "items": [
+    {
+      "id": "finlandia-ponen-en-servicio-primer-sistema-mcs-de-carga-electrica-para-vehiculos",
+      "datetime": "2026-10-29T22:00:03Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "Finlandia: Ponen en servicio primer sistema MCS de carga eléctrica para vehículos pesados en Puerto de HaminaKotka",
+      "summary": "Las primeras cargas públicas mediante el sistema MCS (Megawatt Charging System) para vehículos pesados en Finlandia…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Europa"
+      ],
+      "countries": [
+        "Finlandia"
+      ],
+      "tags": [
+        "Autos",
+        "Puertos"
+      ],
+      "visual": "auto",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/finlandia-ponen-en-servicio-primer-sistema-mcs-de-carga-electrica-para-vehiculos-pesados-en-puerto-de-haminakotka/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "peru-avanza-articulacion-de-plan-maestro-actualizado-para-puerto-del-callao",
+      "datetime": "2026-10-29T21:47:07Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "Perú: Avanza articulación de plan maestro actualizado para Puerto del Callao",
+      "summary": "La articulación de un plan maestro actualizado para el Puerto del Callao sumó otro avance, luego…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Perú"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/peru-avanza-articulacion-de-plan-maestro-actualizado-para-puerto-del-callao/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "cosco-shipping-energy-encarga-construccion-de-buque-etilenero-de-combustible-dua",
+      "datetime": "2026-10-29T21:40:32Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "Cosco Shipping Energy encarga construcción de buque etilenero de combustible dual por USD 50 millones",
+      "summary": "Cosco Shipping Energy Transportation anunció que su filial Hainan Zhaogang Shipping proyecta suscribir un contrato con…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/cosco-shipping-energy-encarga-construccion-de-buque-etilenero-de-combustible-dual-por-usd-50-millones/",
+          "primary": true,
+          "author": "admin"
+        }
+      ]
+    },
+    {
+      "id": "peru-puerto-de-paracas-destaca-operacion-simultanea-con-tres-portacontenedores",
+      "datetime": "2026-10-29T21:30:26Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "Perú: Puerto de Paracas destaca operación simultánea con tres portacontenedores",
+      "summary": "El Puerto de Paracas, situado en la Provincia de Pisco, Perú, destacó una operación simultánea que…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Perú"
+      ],
+      "tags": [
+        "Contenedores",
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/peru-puerto-de-paracas-destaca-operacion-simultanea-con-tres-portacontenedores/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ],
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSlZOZVhfQnFORnJrUUR2Sk1VOWpka09WdmRTcTNpYVN6amxpZWtKVnByUk9Fd3J5dXFsV2RORjN0Rmhyc1U3Z21aX2Fvc05mWl9NcXQxVk5PMmxhcl9LYmxOWVQ2NEdjVnNXc0Nua3pXSFNuRWpGTXpIMGQyY3U0SzlZVWJ5c2VOandPZ0dBdlhJalE2ZnNST0xLYzc4VVBLTjJwRkwyTF9PUQ"
+      ]
+    },
+    {
+      "id": "lograra-mexico-un-acuerdo-con-donald-trump-para-retirar-los-aranceles-al-sector",
+      "datetime": "2026-10-29T21:23:25Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "¿Logrará México un acuerdo con Donald Trump para retirar los aranceles al sector automotriz antes del 3 de noviembre?",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "México",
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Autos",
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "auto",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Cadena Politica",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://cadenapolitica.com/2026/10/29/lograra-mexico-un-acuerdo-con-donald-trump-para-retirar-los-aranceles-al-sector-automotriz-antes-del-3-de-noviembre/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T22:08:01Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOa0FnZ2Fza2VYdUpUc1VoME1zak5FczZWVHJMb2x2bUxuMTBqVU9XLXlLRjNlVFFUQ1RRcXg4TUQzY3FnZmhidURJZkZ4TWJrN3V4dnRuTXdza1pKRy1KNHV6dTJaSmNNVWlNYkpPV0RmRnJ6U2RnSDhSRmJmXzNPc2N5eUR1a0tJVUFyaExBSURuWUtodnREcTNJUlZvUnBZQ3lLbTE3OHptX1psYnVKVXVxdWYtY0RCeWpLZGhsTWNDVWcyaEkxQ0EwaWl6dXg5aWtMbjJGX19VLXBIREJsRkMtZ3NiUk9LMnc?oc=5"
+    },
+    {
+      "id": "one-recibe-nuevo-portacontenedores-de-13-932-teu-construido-en-japon",
+      "datetime": "2026-10-29T21:20:47Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "ONE recibe nuevo portacontenedores de 13.932 TEU construido en Japón",
+      "summary": "La naviera Ocean Network Express (ONE) recibió el nuevo buque portacontenedores ONE Symphony, construido por el…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Asia"
+      ],
+      "countries": [
+        "Japón"
+      ],
+      "tags": [
+        "Contenedores"
+      ],
+      "visual": "container",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/one-recibe-nuevo-portacontenedores-de-13-932-teu-construido-en-japon/",
+          "primary": true,
+          "author": "admin"
+        }
+      ]
+    },
+    {
+      "id": "mexico-busca-abrir-mercado-en-india-con-acuerdo-comercial-preferencial",
+      "datetime": "2026-10-29T20:56:30Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "México busca abrir mercado en India con acuerdo comercial preferencial",
+      "summary": "México e India iniciaron negociaciones para establecer un Acuerdo de Comercio Preferencial (ACP) que permita ampliar las oportunidades de exportación para las",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "Asia"
+      ],
+      "countries": [
+        "México",
+        "India"
+      ],
+      "tags": [],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Revista Fortuna",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://revistafortuna.com.mx/2026/10/29/mexico-busca-abrir-mercado-en-india-con-acuerdo-comercial-preferencial/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T22:08:01Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZXJIWDcwUmZnYnViaFFyMlRQLS1wci1Ua3JONEZIZndORWo3YlBEUkk1ZGNTNmx2VG1Ed0VsZ0NIU1BUUkZyMUQ2Rl9ReFlvY09mRnFyS2V1bXFBTzdsZ3ZOYmtjTnVpYjhSMXBObl9qN0U1UVNWNVQ2cUVQSzdFQ0w1YUNNRzUtdVRRTzN4VlJNSXZEZDlyMWpGeTZNT0xMakFWeV9xUEJodFgweG9KbG1B?oc=5"
+    },
+    {
+      "id": "en-fotos-kota-elan-llega-a-montevideo-por-primera-vez",
+      "datetime": "2026-10-29T20:55:12Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "En fotos: Kota Elan llega a Montevideo por primera vez",
+      "summary": "El Puerto de Montevideo (Uruguay) recibió la escala inaugural del buque Kota Elan. El portacontenedores arribó proveniente del Puerto de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Uruguay"
+      ],
+      "tags": [
+        "Contenedores",
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/en-fotos-kota-elan-llega-a-montevideo-por-primera-vez/",
+          "primary": true,
+          "author": "admin"
+        }
+      ]
+    },
+    {
+      "id": "riesgo-de-huelga-en-vw-y-aranceles-frenaron-crecimiento-economico-de-puebla-sede",
+      "datetime": "2026-10-29T20:38:20Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "Riesgo de huelga en VW y aranceles frenaron crecimiento económico de Puebla: Sedetra",
+      "summary": "La economía de Puebla se desaceleró por los aranceles y la incertidumbre ante una posible huelga en VW, informó Víctor Gabriel Chedraui.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "La Jornada de Oriente – Puebla",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.lajornadadeoriente.com.mx/puebla/riesgo-huelga-vw-aranceles-frenan-crecimiento-economico-puebla/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T22:08:01Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZUdpOGlmQVdwTVdwR1RpdFIwOG42WTdjVk84LWZ1eE1qZUpLczg2RUhacUJuSTh1R0FwcEhMR01PUDB2YXRXQ0xINzFnQjhKQVdsMXdtTVRNaGxveEh5enIzSWhTTzV1OGlrVWdtQTFBazRJenBaeW9tTGQtWkMwWUwzaTg2LWNuYTZ4RlFlNGRrQXprb0pBV0dWMlBXZXUyWTRiM0Z6bGJxSlZH?oc=5"
+    },
+    {
+      "id": "d-amico-group-se-une-al-maersk-mc-kinney-m-ller-center-for-zero-carbon-shipping",
+      "datetime": "2026-10-29T20:30:04Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "d’Amico Group se une al Maersk Mc-Kinney Møller Center for Zero Carbon Shipping como socio estratégico",
+      "summary": "Maersk Mc-Kinney Møller Center for Zero Carbon Shipping dio la bienvenida a d’Amico Società di Navigazione…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/damico-group-se-une-al-maersk-mc-kinney-moller-center-for-zero-carbon-shipping-como-socio-estrategico/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "portacontenedores-msc-zivana-realiza-escala-inaugural-a-puerto-coronel",
+      "datetime": "2026-10-29T20:25:48Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "Portacontenedores MSC Zivana realiza escala inaugural a Puerto Coronel",
+      "summary": "El MSC Zivana, un portacontenedores de nueva construcción incorporado a la flota de Mediterranean Shipping Company…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Chile"
+      ],
+      "tags": [
+        "Contenedores",
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/portacontenedores-msc-zivana-realiza-escala-inaugural-a-puerto-coronel/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ],
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMinwFBVV95cUxQd21rd0NZbmJkNUgtQ0xHUUFBOUd4MFdwbk42Z284S0Y3OWVKWnJfZUJhdlhkSWZoOVRwN1ltbEdESll3T3JkOFB6WHJKV2cyYjJZQ0xrNGRvRzhpazdaVG9ndG1EWnlySTVwOWtFXzFCbWlRVEtFekg3cGVQal9Yd0lmbV9XUG5seG1zSGdRZmwzSEN5YlJkM01kN0JXRlU"
+      ]
+    },
+    {
+      "id": "argentina-puerto-la-plata-firma-convenio-para-desarrollar-tareas-de-batimetria",
+      "datetime": "2026-10-29T20:00:18Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "Argentina: Puerto La Plata firma convenio para desarrollar tareas de batimetría",
+      "summary": "La presidenta del Consorcio de Gestión del Puerto La Plata, Susana González, y el director del…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Puertos"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/argentina-puerto-la-plata-firma-convenio-para-desarrollar-tareas-de-batimetria/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "acuerdo-mercosur-ue-lo-que-nos-ensenan-los-primeros-meses-y-como-podemos-prepara",
+      "datetime": "2026-10-29T19:53:28Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "Acuerdo Mercosur–UE: lo que nos enseñan los primeros meses y cómo podemos prepararnos para aprovecharlo",
+      "summary": "¿Qué ocurre cuando un acuerdo comercial deja de ser un titular novedoso y empieza a implementarse y medirse en contenedores, productos y volumen? Esa es la pregunta que nos dejan los primeros meses de vigencia provisional del acuerdo entre el Mercosur y la Unión Europea, que rige desde el 1 de mayo de 2026. Los…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Unión Europea"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "PASBBA Abogados",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://pasbba.com.ar/acuerdo-mercosur-ue-primeros-meses-y-como-prepararse/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T22:08:01Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT0hZNzExRnNnOHFORGFxc1VoTTFrNHNmbnBKZDAtR1NyYXBpQlhTU0xsOGRpRjdveWY0YmY2eFpTUU5MTEJSTDVJZk9EYm1OQWswLURYb1Y3ZVJYVkpIelJvcXRIeFM5MmpFZy1qN19hYXF5WDVLMW1sR0FMSkg4dQ?oc=5"
+    },
+    {
+      "id": "la-carga-aerea-se-duplicara-hasta-2045-segun-boeing-cuantos-aviones-haran-falta",
+      "datetime": "2026-10-29T19:44:54Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "La carga aérea se duplicará hasta 2045, según Boeing: cuántos aviones harán falta y qué papel juega la IA",
+      "summary": "Boeing presentó en Miami su pronóstico de carga aérea a 20 años: cuántos cargueros nuevos necesitará el mundo y por qué la IA empuja la demanda.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte aéreo",
+        "Tecnología COMEX"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "plane",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Revista Mercado",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://revistamercado.do/internacional/boeing-pronostico-carga-aerea-se-duplicara-2045/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T22:08:01Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPLVc2WEwxbnNNa3ZrWDZiRzlVbzZoQjNmYk5uN043eXdXV1ctUTV6d2RTSWI4SDhCNE85ZFhwVGxlb3NBNDk5QkswU2hrTi1Ub21MeEdoSDkwbW1RMlc3UUJKdE5teTJSLXktNUZ0bWIyVldfeVdGVXBDeU9lQi1qXzdsVmhqaVhWMTctVGlfblZDZw?oc=5"
+    },
+    {
+      "id": "trabajadoras-de-servantis-mejillones-reciben-certificacion-para-operar-reach-sta",
+      "datetime": "2026-10-29T19:20:29Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "Trabajadoras de Servantis Mejillones reciben certificación para operar reach stackers",
+      "summary": "Tres trabajadoras de Servantis Mejillones, filial de Ultraport enfocada en las faenas mecanizadas, están ahora habilitadas…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Chile"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/trabajadoras-de-servantis-mejillones-reciben-certificacion-para-operar-reach-stackers/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "vaca-muerta-vista-registro-exportaciones-record-y-sus-ganancias-se-dispararon-78",
+      "datetime": "2026-10-29T19:10:00Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "Vaca Muerta: Vista registró exportaciones récord y sus ganancias se dispararon 78% interanual",
+      "summary": "La compañía reportó ingresos por u$s 841 millones en el tercer trimestre y mejoró sus índices de eficiencia y producción. Boom de precios y expansión.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Energía"
+      ],
+      "visual": "energy",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Letra P",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.letrap.com.ar/letrae/empresas-negocios/vaca-muerta-vista-registro-exportaciones-record-y-sus-ganancias-se-dispararon-78-interanual-n5427789",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T22:08:01Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWWlXWExGbDR3OS1mSkZCTXBURzVxQks3VDV6NUV6SnFiNVFkSlcwRDZ4azlaUUJUWmRzbW8xVU00ZnhleEpxM201Tmx1NEN1dmxHNEx3anhnOTU1YzZKOFhoamFkWWZQRHJiVnd0MWxMTUl0dEdVXzFXZFNrS2taNHZUMl9XbWJWeDBrVkstVHdoeThLdHRaTDBHNWhYR282eGdkNnFUMjM5VEFzZ09vc3FhSnJvQXQxcXBDQ09FbGdOMkxtLS1fYTVFalJteGFCa195Uzdhcm1UOUZKbWZ4ZkFaVGF0Y250eWlv?oc=5"
+    },
+    {
+      "id": "xxvii-reunion-de-ministras-y-altas-autoridades-de-la-mujer-del-mercosur-rmaam",
+      "datetime": "2026-10-29T18:18:01Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "XXVII Reunión de Ministras y Altas Autoridades de la Mujer del Mercosur (RMAAM)",
+      "summary": "El martes 3 de noviembre se realizará la XXVII Reunión de Ministras y Altas Autoridades de la Mujer del Mercosur (RMAAM) en Montevideo, en el marco",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Mercosur"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Gobierno de Uruguay",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.gub.uy/ministerio-desarrollo-social/comunicacion/calendario-actividades/xxvii-reunion-ministras-altas-autoridades-mujer-del-mercosur",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T22:08:01Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQV0M5NlFiaXJvWEUyWjEtM3h1WjNNTXFxYmdGNnNnRUR3VzdjSE5QVmlNczBQMGNGRGR6RHNPbzdaMnViZmdnQnNsc2FMeHl1ZzdxSHVDZi1RNzk1SlFERUI1NHIxdTRoUENKTy1URDV2Qk9QMUllRWJjX2dDWUN2N3dPc3AxNVFnRWd5MzdOZEJ0UTVhejZnMHpGQTNWc3dXSEJZWG5NdjNndFRHUE5Xd2FEM2lGZ3l1RkhNeVhzVjUyY1pQZ3VmWXpVLUo0WDE3Y21XOFpnUWdEWExI?oc=5"
+    },
+    {
+      "id": "la-letra-chica-de-la-autocertificacion-de-origen-que-los-exportadores-no-estan-m",
+      "datetime": "2026-10-29T18:08:52Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "La letra chica de la autocertificación de origen que los exportadores no están mirando",
+      "summary": "Agustín Páez Romairone, despachante de aduana, repasa veinte años de informatización aduanera y advierte por qué la simplificación del comercio exterior nunca puede dejar el control de lado",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "Infobae",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.infobae.com/movant/2026/10/29/la-letra-chica-de-la-autocertificacion-de-origen-que-los-exportadores-no-estan-mirando/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T22:08:01Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQekF0UE5MTHRNaHZRclpZYmVMcDZCVHN0V1BjOUdYQTJ4WFFQLVM4blB0SU9XZzRvY3UwR05rVE5FakFwZUpzNGo2eUJwVkR4NVZaVkZ5WXY1Sjc2WHkwZDdFY29xNFNFV0c2SEJrQzVfVXZTUkV4dFk2ekx0ZEJYSVhnSU5URXpnWWtiYnVVRW1ETzZQMkxBc2FjRFFGTHFwYnltWjhvYk1KYUwzSmFoT2ludHQzTERtVUJUUmJHc052ZkRwTVUwWg?oc=5"
+    },
     {
       "id": "boluda-shipping-firma-adquisicion-de-samskip",
       "datetime": "2026-10-29T18:00:15Z",
@@ -792,6 +1441,7 @@
       ],
       "tags": [
         "Acero",
+        "Aluminio",
         "Autos",
         "Aranceles",
         "Estados Unidos"
@@ -809,6 +1459,13 @@
           "url": "https://clusterindustrial.com.mx/mexico-busca-reducir-aranceles-automotrices-y-al-acero-en-negociaciones-con-estados-unidos/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Acento 21",
+          "type": "También publicó esta noticia",
+          "url": "https://acento21.com/politica/mexico-busca-acuerdo-comercial-eeuu-elecciones-intermedias-2/86219/",
+          "alsoIn": true,
+          "title": "México negocia con EE. UU. reducir aranceles a autos y acero"
         }
       ],
       "gnTried": "2026-10-29T18:10:35Z",
@@ -822,7 +1479,48 @@
         "at": "2026-10-29T15:52:19-03:00",
         "basedOn": "https://clusterindustrial.com.mx/mexico-busca-reducir-aranceles-automotrices-y-al-acero-en-negociaciones-con-estados-unidos/",
         "words": 161
-      }
+      },
+      "aliasUrls": [
+        "https://acento21.com/politica/mexico-busca-acuerdo-comercial-eeuu-elecciones-intermedias-2/86219",
+        "https://news.google.com/rss/articles/CBMingFBVV95cUxQTWhrcVZBcF84ZkNMVnkxZUtzdTkxY0xlU0xjaEtTaDRjZGUyMVZzU1RLZHRMZWtRVDlmMEtHQkd3ZnNyZlVxeWtZS3Nub3NtT0dhdWdsQUVkZmN1YXJUNHdlV1ZobkU1NFBZZWlXUnBNSEI1ZTZvM0ROY0VYMmRuRHowZ2FqRDFtQ0lxSWUxRUlLT085UGtHNFBmQlR6UQ"
+      ],
+      "mergedIds": [
+        "mexico-negocia-con-ee-uu-reducir-aranceles-a-autos-y-acero"
+      ]
+    },
+    {
+      "id": "zona-franca-de-salta-la-apuesta-logistica-para-competir-en-el-mercado-europeo",
+      "datetime": "2026-10-29T17:37:55Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "Zona Franca de Salta: la apuesta logística para competir en el mercado europeo",
+      "summary": "Dante Apaza, presidente de COZOFRA, aseguró que la infraestructura salteña ya está operativa y puede facilitar importaciones y exportaciones en el marco del acuerdo Mercosur-Unión Europea.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "IN Salta",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://insalta.info/nota-principal/zona-franca-de-salta-la-apuesta-logistica-para-competir-en-el-mercado-europeo",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T22:08:01Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSGx4MDVfWVQ4UGtQS2U0cFZQTTNWRGtQM1d5MFZhcUxHUWJCaFl2ak9xQnZMM0t2UGRjbjFTbUEzT09FcDhDbXYwQzdtUjVVekNxZ1VvMVhiVVl3NEx4MWUxbkVfcmNpSkZjRVRPZUZUMDJfMU96VkVERlB1UEZFdnJ6WlFqRWJTcHhOR2xjZVVDYklsVDRJX3FpTFdMT2QteEtrVDc5allFTDJnSHpFYkEtb9IBuAFBVV95cUxPdkMweHh5MFk5MjVMaE91dUZyU3JZZDJtWkdZQ1ljZFUxTDNfVVdjazkyMFdyX1BIc2ZlbFBNSHlXSTdpR1VyQWVnZHV6NHRxemwzaWpLUks3T1BQMDdMZlZBVlBJVUdXMTk4LXpTWkJqQVUwSFhfVTZGOVBWSzZpWkVsZEtwUmlEV3MzRWRnXzZLMkNFbW1NNV9IX28wRzlZQzFUbzJYMWc5ZWJJdXNfVlhaeHNCRGhF?oc=5"
     },
     {
       "id": "de-los-aranceles-al-oro-como-podrian-impactar-las-elecciones-de-mitad-de-legisla",
@@ -968,7 +1666,9 @@
       "countries": [
         "Argentina"
       ],
-      "tags": [],
+      "tags": [
+        "Energía"
+      ],
       "visual": "customs",
       "impact": 1,
       "affectsArgentina": true,
@@ -1058,6 +1758,13 @@
           "url": "https://www.minutouno.com/economia/pauny-entro-crisis-caida-ventas-y-apertura-importaciones-n6339360",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Diario Digital Conclusión",
+          "type": "También publicó esta noticia",
+          "url": "https://www.conclusion.com.ar/gremiales/fabrica-de-tractores-entro-en-crisis-por-la-caida-de-ventas-y-apertura-de-importaciones/10/2026/",
+          "alsoIn": true,
+          "title": "Fábrica de tractores entró en crisis por la caída de ventas y apertura de importaciones"
         }
       ],
       "gnTried": "2026-10-29T18:10:35Z",
@@ -1065,7 +1772,14 @@
       "digestSkip": {
         "at": "2026-10-29T15:52:19-03:00",
         "reason": "muro de pago (solo contenido parcial)"
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUHNwNTNCUlMtT1daMFM3eHpISGs2UXMySURhSmxxRzVsUm9CVjR6ZTJqYWEwVlZZMFpWR0xxaWFfalFFZXhUXzBvM1N0ZUEzdWZTbUh2NGE3RUpkNnlpcFBrZ1AyVUNYR0k4aG10cEhnNkVGeTJiMEFjNVhLR3NZSWYwc1o1YnBCOHctZmdMU0twMVlDQUMxS1YtV1JVUnl3Um5Sb0NSbVRiNlVLT3U4SE5lRWlid3hUaFd5VGFnRkRYVFRzalQ2RFNqekRzWVFHNWc",
+        "https://www.conclusion.com.ar/gremiales/fabrica-de-tractores-entro-en-crisis-por-la-caida-de-ventas-y-apertura-de-importaciones/10/2026"
+      ],
+      "mergedIds": [
+        "fabrica-de-tractores-entro-en-crisis-por-la-caida-de-ventas-y-apertura-de-import"
+      ]
     },
     {
       "id": "fenalco-pide-al-gobierno-derogar-aranceles-al-vestuario-regular-plataformas-digi",
@@ -1239,6 +1953,41 @@
       }
     },
     {
+      "id": "caputo-aseguro-que-el-rigi-generara-250-000-empleos-y-us-50-000-millones-en-expo",
+      "datetime": "2026-10-29T16:18:00Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "Caputo aseguró que el RIGI generará 250.000 empleos y US$50.000 millones en exportaciones",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "LA17",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://lu17.com/contenido/155317/caputo-aseguro-que-el-rigi-generara-250-000-empleos-y-us-50-000-millones-en-exportaciones",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T22:08:01Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQRGIyUVJvVXVfNTJpOVBlR2F2WW1VN1hVSlo0NWJjdGFCblhkMU5zWVJPb2g5U2lodWFXQzBSdW1zWksxNkxzOC1iWE5rdzdJZGY5VWV0cFdhN3I0ZUFPUk9ZRDlLV1pTSVYteTM1Q0JrdXBWN1dSYzhnOV9FYXZWZ183eVZqNVBTWE5teDA2aEtIckpzV2pvRnB5TWVfdXJOeFpMSnljUzR2Mi1qaEVmMFR4UnNMbHVxYlJmTUxPbU4?oc=5"
+    },
+    {
       "id": "puerto-de-fortaleza-aumenta-10-movimiento-de-carga-y-avanza-en-proyectos-de-mode",
       "datetime": "2026-10-29T16:10:00Z",
       "date": "2026-10-29",
@@ -1334,10 +2083,12 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Mercosur",
         "Europa"
       ],
       "countries": [
+        "Argentina",
         "Unión Europea"
       ],
       "tags": [
@@ -1377,88 +2128,6 @@
       "digestSkip": {
         "at": "2026-10-29T15:52:19-03:00",
         "reason": "fuera de tema (aviso de evento)"
-      }
-    },
-    {
-      "id": "de-vaca-muerta-al-atlantico-argentina-se-apresta-a-dar-un-salto-como-exportador",
-      "datetime": "2026-10-29T16:02:00Z",
-      "date": "2026-10-29",
-      "firstSeen": "2026-10-29T18:10:35Z",
-      "title": "De Vaca Muerta al Atlántico: Argentina se apresta a dar un salto como exportador petrolero",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Energía"
-      ],
-      "visual": "tanker",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Infobae",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.infobae.com/america/agencias/2026/10/29/de-vaca-muerta-al-atlantico-argentina-se-apresta-a-dar-un-salto-como-exportador-petrolero/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-29T18:10:35Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTWwyUnI2b2d3TG5uWndqcktJVWszendGTnFLRW5QRGc1TTdiZEdDa2xGekhnLVFsRms5amFncmt6US1yTHkyOEE4QlVnY3psVmtyRDRwQXJ4MzhEWG9VUS14dWZUNzNpWTdlOHNkdENvTW5RaWlTZUh6QlM5dVlmWW5nbVJLZkcyS2txLWd3WWZKR2pibU5yRkpXTDI1bTJ2QWsxRGFjc0ptRHQxcm5FNkpsdFlodFdORjFxakN1a2hRbVkxVGhfQ2tyeW05WUM1b2hYRjNsMXZfd9IB9AFBVV95cUxQcm5FZVQ3UkFNRVFYb20zYWxlblE1cWVUQmJjbG52TFhvV2hLQ2FPUmJ1bGNRVGVrX2wxX0dUQktWeEVhVTlLR3hxUGRHQVB4cWJDQzRER29oQ3M3ZWI2X1FMa1FMcjRLTE04QTlhVS1GbEIxWWxzelIyVkdoSzdTUkFFQVVZT2FwVVh1QlZvVnJIZUpqMWRjMUJoX1BBS1ZCVmNlNzRXWVpSek45bENJX2FSWmY3UVFKRHB4a19QVWlkZ240UHM0LWFZN3N4ZXJEN0RGRk1NQXpXcHdPbmMwcGFnZUZoU1EzbEFLNzBvTktEUkNV?oc=5",
-      "digestSkip": {
-        "at": "2026-10-29T15:52:19-03:00",
-        "reason": "no se pudo abrir la fuente (lectura automática no disponible)"
-      }
-    },
-    {
-      "id": "argentina-ultima-una-obra-que-preve-generar-hasta-20-000-millones-de-dolares-anu",
-      "datetime": "2026-10-29T15:43:34Z",
-      "date": "2026-10-29",
-      "firstSeen": "2026-10-29T18:10:35Z",
-      "title": "Argentina ultima una obra que prevé generar hasta 20.000 millones de dólares anuales en exportaciones petroleras (C)",
-      "summary": "Punta Colorada (Argentina), 29 oct (EFE).- La puesta en marcha en los próximos meses del oleoducto Vaca Muerta Oil Sur (VMOS) permitirá a Argentina dar un salto exponencial como exportador de crudo a ...",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Energía"
-      ],
-      "visual": "energy",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Yahoo",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://es-us.noticias.yahoo.com/argentina-ultima-obra-prev%C3%A9-generar-154334077.html",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-29T18:10:35Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOFctSmtVY2h0U0lrVmlYRWlCc2g1bGhILU9PVW55Vk5CVno4eTJOWmE0T1BOUmxKM0dqRkVzM1ZfZlZoQ1BYLWFOWVNjT1JONzJsMWlFZTdBSy05MFN5TGstay01ZkhxYkk4ekpCTnM3YWNzMGN0V2NydW4wSTdnVExBdUJJSmZzaEtUT1EzbWdvUQ?oc=5",
-      "digestSkip": {
-        "at": "2026-10-29T15:52:19-03:00",
-        "reason": "no se pudo abrir la fuente (lectura automática no disponible)"
       }
     },
     {
@@ -1506,43 +2175,45 @@
       }
     },
     {
-      "id": "centro-despachantes-de-aduana-de-la-republica-argentina-el-cda-saluda-a-su-filia",
-      "datetime": "2026-10-29T15:18:12Z",
+      "id": "que-sabemos-sobre-el-video-de-la-carne-uruguaya-en-mal-estado-vendida-en-dinamar",
+      "datetime": "2026-10-29T15:30:00Z",
       "date": "2026-10-29",
-      "firstSeen": "2026-10-29T18:10:35Z",
-      "title": "Centro Despachantes de Aduana de la Republica Argentina - El CDA saluda a su Filial Córdoba en su 40° aniversario",
-      "summary": "El Centro Despachantes de Aduana (CDA) saluda con especial afecto a su Filial Córdoba, que celebra su 40° aniversario, conmemorando cuatro décadas de trayectoria, compromiso y trabajo en representación de los Despachantes de Aduana de la región.",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "Qué sabemos sobre el vídeo de la carne uruguaya en mal estado vendida en Dinamarca y los datos sobre importaciones de Mercosur",
+      "summary": "El programa danés Kontant publicó el 9 de septiembre de 2026 los resultados de una investigación sobre carne de vacuno p…",
       "body": [],
       "keyData": [],
       "topics": [
-        "Argentina",
-        "Aduanas"
+        "Importaciones",
+        "Latinoamérica",
+        "Mercosur",
+        "Europa"
       ],
       "countries": [
-        "Argentina"
+        "Uruguay",
+        "Dinamarca"
       ],
-      "tags": [],
+      "tags": [
+        "Mercosur",
+        "Carne"
+      ],
       "visual": "customs",
-      "impact": 2,
+      "impact": 1,
       "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "feed": "Google Noticias · Mercosur",
       "sources": [
         {
-          "name": "Centro Despachantes de Aduana (CDA)",
+          "name": "maldita.es",
           "type": "Medio · vía Google Noticias",
-          "url": "http://www.cda.org.ar/detalle_noticia.php?id=42833",
+          "url": "https://maldita.es/desinfo/20261029/que-sabemos-sobre-el-video-de-la-carne-uruguaya-en-mal-estado-vendida-en-dinamarca-y-los-datos-sobre-importaciones-de-mercosur/",
           "primary": true,
           "author": ""
         }
       ],
-      "gnTried": "2026-10-29T18:10:35Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1JOC0wYWlkWjNZZVFfUUdiV240NzNNRVlMajhCUzEtVGNrdlRHM0kxY1I1NWg0bWhVcDM2MTRSMUZlSWtzb3R4aWx1ZUtMaFBxVTdCUGFqbHJWVFpyWWUw?oc=5",
-      "digestSkip": {
-        "at": "2026-10-29T15:52:19-03:00",
-        "reason": "fuera de tema (saludo institucional por aniversario)"
-      }
+      "gnTried": "2026-10-29T22:08:01Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNSlhlZUZreGh5M3ZmQWM2VG5pdWNGaEVZTmlfWV84dWpEbTZUWHhEOXVGSFhFSVFzU09HN3Z2ajhvMXBOSlBCRnJHQTc3bVVReDNfdERiX19pX1FYOE8wUHpaUlc2ZGVDOWd2bmhLR0VfNEtERk1Za3JHWjIyVHlYSzAzNF85VDRWYmUxUDlfNlpDMTlSUExjMEY4dWxuRDFrTjVYaHVTeGQ4VjhZdWtTUVVrakhWTllCTFpGR3NqWFdLcHhld2JDVGVSNjA2aW8tVE1vZlhtMWVyeGpPSHhydUcxa05mZnZtT1FtekdHVVd3MEhReWc?oc=5"
     },
     {
       "id": "dinamarca-ratifica-nuevo-acuerdo-comercial-entre-la-union-europea-y-mexico",
@@ -1682,7 +2353,8 @@
       "keyData": [],
       "topics": [
         "Argentina",
-        "Importaciones"
+        "Importaciones",
+        "Exportaciones"
       ],
       "countries": [
         "Argentina"
@@ -1758,6 +2430,81 @@
       }
     },
     {
+      "id": "europa-paga-un-56-mas-por-el-petroleo-sin-aumentar-sus-importaciones",
+      "datetime": "2026-10-29T14:41:45Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "Europa paga un 56% más por el petróleo sin aumentar sus importaciones",
+      "summary": "La UE enfrenta una mayor presión sobre sus cuentas energéticas, con un gasto que crece muy por encima del volumen de crudo adquirido.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Energía"
+      ],
+      "visual": "energy",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "MasContainer",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://mascontainer.com/europa-paga-un-56-mas-por-el-petroleo/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T22:08:01Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1MTHdtbkhDLWhwUFl5SmR0WVJnNEFpR2Z2QV9lU1RPODRZMWU2cUVDWjdnc01nb3AybEk2Y3Nqak01cGR3Uld2bzJ1ZkVfUEZJaUlhMzA3c2daaUk2U1lVSHZzTWUyVVdIREhfOUU5cmI?oc=5"
+    },
+    {
+      "id": "vaca-muerta-puerto-abandonado-renace-como-puerta-de-salida-del-petroleo-argentin",
+      "datetime": "2026-10-29T14:14:38Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "Vaca Muerta: Puerto Abandonado Renace como Puerta de Salida del Petróleo Argentino con Exportaciones por USD 15.000 Millones Anuales",
+      "summary": "El oleoducto VMOS, con un 85% de avance y finalización prevista para el 31 de diciembre, habilitará exportaciones de petróleo argentino por USD 15.000 millones anuales, revitalizando el histórico puerto de Punta Colorada.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Puertos"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Energía",
+        "Puertos"
+      ],
+      "visual": "energy",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Rosario Finanzas",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://rosariofinanzas.ar/noticias/vaca-muerta-puerto-abandonado-renace-como-puerta-de-salida-del-petroleo-argentino-con-exportaciones-por-usd-15-000-millo",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T22:08:01Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPUFZPRE10b1djaG9FQWZOeXNMbXBDNlJ5WjRaQTdxaG9OODdFcF9ZaXpqcHlrXzhpeDJLWnF2S3RZNVlCT2dHZ01GWVdraFJlNXJua1hEemR0WTQ3SjNsQ2hZRVhVMmhIaHlONGpmZTh0ZnhwaVZWeFpiRXVVZHFuTDN0Mm5YQjZCMkNvVTRjbEFIZWRrbUFXRFh1TnppaE9wT3ZJLS1ZZTJSSVN4QnZLdDVTNGt3QXpFTWF6MkQ5eXZ6UnRCS0EwclFtT2J0QmdXMUVoNG81MldOTDFKU3huNHVBSjVUMlBxLW5Taw?oc=5"
+    },
+    {
       "id": "seat-dispara-sus-perdidas-en-verano-hasta-los-116-millones-pese-al-fin-de-los-ar",
       "datetime": "2026-10-29T13:58:41Z",
       "date": "2026-10-29",
@@ -1796,64 +2543,6 @@
         "at": "2026-10-29T13:30:00-03:00",
         "reason": "no se pudo leer la fuente (error del sitio)"
       }
-    },
-    {
-      "id": "la-carga-aerea-crecio-un-7-7-en-el-mundo-en-el-mes-de-septiembre",
-      "datetime": "2026-10-29T13:37:35Z",
-      "date": "2026-10-29",
-      "firstSeen": "2026-10-29T14:21:57Z",
-      "title": "La carga aérea creció un 7,7% en el mundo en el mes de septiembre",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Transporte aéreo"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [],
-      "visual": "plane",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Logística y fletes",
-      "sources": [
-        {
-          "name": "Agencia Noticias Argentinas",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://noticiasargentinas.com/economia/la-carga-aerea-crecio-en-el-mundo-en-el-mes-de-septiembre_a6ae34b5683a79a91f38b16fb",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "» Cholila Online",
-          "type": "También publicó esta noticia",
-          "url": "https://cholilaonline.ar/2026/10/la-carga-aerea-mundial-crecio-77-en-septiembre.html",
-          "alsoIn": true,
-          "title": "La carga aérea mundial creció 7,7% en septiembre"
-        }
-      ],
-      "gnTried": "2026-10-29T14:21:57Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVnl1amJTcEp0Z0ttMS1YdmlCTzhkcmVvbFFOeWF1Ulk4bFRlS0VFbWlpY281aE45TEVWMldMcGxWc3h2NFlGbGY2Q0p2MzhKZ29lUlRWRjcyWHJPRzJzRWYzVDEwVE5SUGZIX3NsUGhWcGwwNk03QU9PczhueUJYX1hhV08tZHV6MzU2MUF4ODBnQndaUVBHbmR5Yk9pOTZTZF9OOF96aEpqUXBqbXdoM3BOY01XZEIxMzNVNUFtcl_SAc8BQVVfeXFMTVY0cGNLcU40dDdQcjRINy1UM2Z3SVhZT2NVWk1BRXBuWXdhS3ZrLTBLbktELWpYMnNwNkpfd1lPTmFJVXFfTzg0ZHBRamJkNS13T2JMVDZ1eHlBc1dXdXc0LWRWM0lOeml6VElCMkZJTkU2QW04RFE4MXd4a2x5ZjJmckFoenhQT25KelNvOVptdTBwMjVOc1Nqc3NhbkttaDIyajJGREtXRWRwMFdjNTJMV1A3R3JlSFNhLXE3dGxqTmRVdHYyQVZpZ1RMa19N?oc=5",
-      "digest": {
-        "lead": "La demanda mundial de carga aérea, medida en toneladas-kilómetro, creció 7,7% interanual en septiembre, con alzas en todas las regiones, según datos de IATA difundidos el 29 de octubre por la Agencia Noticias Argentinas.",
-        "body": [
-          "La capacidad ofrecida aumentó apenas 2,7%. Norteamérica tuvo el mejor desempeño, con una demanda 11,8% mayor, seguida por Asia-Pacífico (8,6%) y Latinoamérica y el Caribe (6,7%, con capacidad en alza de 7,6%). Medio Oriente fue la región más floja, con 3,8%. Por rutas, lideró Asia-Norteamérica, impulsada por envíos ligados a la inteligencia artificial, mientras los corredores que pasan por Medio Oriente perdieron tráfico.",
-          "La economista jefa de IATA, Marie Owens Thomsen, advirtió que el problema está en los costos: el combustible de aviación subió 17,5% en el mes y 103,4% interanual, sin que los ingresos por carga acompañaran. El contexto comercial, en cambio, es favorable: el comercio mundial creció 3,6% en agosto, su mes 42 de expansión consecutiva, y los índices PMI de manufactura (53,8) y de nuevos pedidos de exportación (51,9) quedaron en máximos de cinco años."
-        ],
-        "at": "2026-10-29T13:30:00-03:00",
-        "basedOn": "https://noticiasargentinas.com/economia/la-carga-aerea-crecio-en-el-mundo-en-el-mes-de-septiembre_a6ae34b5683a79a91f38b16fb",
-        "words": 172
-      },
-      "aliasUrls": [
-        "https://cholilaonline.ar/2026/10/la-carga-aerea-mundial-crecio-77-en-septiembre.html",
-        "https://news.google.com/rss/articles/CBMijAFBVV95cUxNLUZwVXRqUkZnOTJHMUh5dEtYNEhBYVFUOWNnekk5R2h4UXFUYm1Ob1FKUDNaUjFiSEs0T3E5ZGJLbkwtTmFlRWU1dlowUlQ3ODhQYVRaMFZnWVQwNEdMSzZ5V1ZqTFpaek9jTDJneU40ZDcxT2NHblhpN1hlTmZCRVBGMmd2UU9VNGNfNQ"
-      ],
-      "mergedIds": [
-        "la-carga-aerea-mundial-crecio-7-7-en-septiembre"
-      ]
     },
     {
       "id": "gobierno-de-chile-se-reune-con-ustr-para-dar-seguimiento-a-negociacion-arancelar",
@@ -2204,6 +2893,40 @@
       }
     },
     {
+      "id": "importaciones-record-los-bienes-finales-ya-superan-el-promedio-del-macrismo-y-de",
+      "datetime": "2026-10-29T12:45:14Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "Importaciones récord: los bienes finales ya superan el promedio del macrismo y de la Convertibilidad",
+      "summary": "Los bienes finales que ingresan desde el exterior ya representan el 24% de las importaciones totales. La apertura comercial avanza mientras la producción local pierde terreno y crece la preocupación empresarial por la competencia extranjera.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "treslineas.com.ar",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.treslineas.com.ar/importaciones-rcord-bienes-finales-superan-promedio-macrismo-convertibilidad-n-1765863.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T22:08:01Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOa0tJUWRpN0tsbktraWtJeGVXRFVFQzh4cGpsbFB2TUlscnhDREUtUW5xQWhsaG0xNnpkZzY2T2FkbmRGNFBQcWxlajd3MUZCVHNNa092NlZhX3c4NFdMN3dLd0JGQkJQZ1JFVEtjLUpIV1llTFhOSUNCN1VpSHlDNGxXbVZQUkRnckgtWjJEdmpxZTVxUHQxZlBwWXp2S3VOamVLdlBwN1U5V3ZmNXNKTmZxWVJwOEsxelM5WjR3?oc=5"
+    },
+    {
       "id": "frente-al-impacto-de-las-importaciones-y-el-rigi-la-uia-relanzo-su-consejo-acade",
       "datetime": "2026-10-29T12:45:00Z",
       "date": "2026-10-29",
@@ -2342,16 +3065,19 @@
       "topics": [
         "Exportaciones",
         "Latinoamérica",
+        "Mercosur",
         "Europa"
       ],
       "countries": [
         "Brasil",
         "Unión Europea"
       ],
-      "tags": [],
+      "tags": [
+        "Mercosur"
+      ],
       "visual": "customs",
       "impact": 1,
-      "affectsArgentina": false,
+      "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
       "feed": "Google Noticias · Mercosur",
@@ -2774,6 +3500,13 @@
           "url": "https://www.infobae.com/america/agencias/2026/10/29/el-portacontenedores-atacado-por-drones-marinos-se-hunde-frente-a-la-costa-de-bulgaria/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "PortalPortuario",
+          "type": "También publicó esta noticia",
+          "url": "https://portalportuario.cl/portacontenedores-se-hunde-tras-ser-alcanzado-por-drones-navales-frente-a-costas-de-bulgaria/",
+          "alsoIn": true,
+          "title": "Portacontenedores se hunde tras ser alcanzado por drones navales frente a costas de Bulgaria"
         }
       ],
       "gnTried": "2026-10-29T10:16:14Z",
@@ -2787,7 +3520,14 @@
         "at": "2026-10-29T13:30:00-03:00",
         "basedOn": "https://www.infobae.com/america/agencias/2026/10/29/el-portacontenedores-atacado-por-drones-marinos-se-hunde-frente-a-la-costa-de-bulgaria/",
         "words": 176
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxQM0hncTRNZFdkVFJnOTFuUGZNbmoyY3VFbUdPc0MzWktaRWY3dzNsZ1Q0dGF1cm9GM2ktanZSZXhwZFpYOE02RkpJZFVLeUtJc21xOXVENG5RZ1JjTHhQMjVXcFJtOERfdFNBY3FQcm56ZE5wWHBtbngtd0F0S1YtRWJUc28yNGFqa1EyZzdZazRYMmIzNW1oSElTQkROZmFjRW9aaW43OXRHcEJJSHJDWWZWZm5LUE1XTEN0dA",
+        "https://portalportuario.cl/portacontenedores-se-hunde-tras-ser-alcanzado-por-drones-navales-frente-a-costas-de-bulgaria"
+      ],
+      "mergedIds": [
+        "portacontenedores-se-hunde-tras-ser-alcanzado-por-drones-navales-frente-a-costas"
+      ]
     },
     {
       "id": "dinamarca-puerto-de-aarhus-conecta-primer-portacontenedores-a-red-electrica-en-t",
@@ -3236,6 +3976,43 @@
       }
     },
     {
+      "id": "importaciones-de-trigo-de-brasil-hasta-2027-y-riesgos-de-calidad-en-argentina-cm",
+      "datetime": "2026-10-29T05:29:06Z",
+      "date": "2026-10-29",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "Importaciones de trigo de Brasil hasta 2027 y riesgos de calidad en Argentina — CMB News",
+      "summary": "Las pérdidas de trigo nacional de Brasil y los problemas de calidad en Argentina apuntan a importaciones brasileñas récord para 2027, ajustando la oferta de calidad molinera y respaldando los precios.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Importaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil"
+      ],
+      "tags": [],
+      "visual": "grain",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "CMB News",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://commodity-board.com/las-crecientes-necesidades-de-importacion-de-trigo-de-brasil-se-enfrentan-a-riesgos-de-calidad-en-argentina",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-29T22:08:01Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQUFybl94czMyNE1vWUxJbmJuWVQ5eHRHZDYyU2F3eVZPY1dlTk1XUlFRQ19COWxOUEI2bUQ3QVVTM1I4d3ZSYkNjdUU0d3NoRThNU09QNGJiZGxOa1IwTmREYWFNTnI5bjNlQlVudEZGZW50SU5Dc0Z5dHlYZWMtaUwwWGV4SlBIZ3MyQlR6MHJ0QWIyRWk5dU95QTZEcUdVUVJsYzlOcUdsWkxWRHk5eDY1aUVVY21xUXFVRm1SaGI1TV9KY1J2UDJtVFpqampr?oc=5"
+    },
+    {
       "id": "el-gobierno-no-denunciara-a-lula-por-fraude-pero-aprovechara-para-endurecer-el-d",
       "datetime": "2026-10-29T05:16:21Z",
       "date": "2026-10-29",
@@ -3369,6 +4146,242 @@
         "at": "2026-10-29T13:30:00-03:00",
         "reason": "no se pudo abrir la fuente (la herramienta de lectura no habilitó la URL)"
       }
+    },
+    {
+      "id": "iata-carga-aerea-septiembre-2026-7-7-por-ciento-combustible",
+      "date": "2026-10-29",
+      "kind": "datos",
+      "title": "La demanda mundial de carga aérea creció 7,7% en septiembre, pero el combustible ya cuesta más del doble que hace un año",
+      "summary": "Según IATA, la demanda medida en toneladas-kilómetro subió 7,7% interanual y la capacidad, 2,7%, con alzas en todas las regiones. América Latina y el Caribe creció 6,7%, pero su capacidad aumentó más. El jet fuel subió 103,4% frente a septiembre de 2025.",
+      "topics": [
+        "Transporte aéreo",
+        "Logística",
+        "Economía internacional",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Carga aérea",
+        "IATA",
+        "Combustible",
+        "Inteligencia artificial"
+      ],
+      "visual": "plane",
+      "impact": 2,
+      "affectsArgentina": false,
+      "body": [
+        "La Asociación de Transporte Aéreo Internacional (IATA) publicó el 29 de octubre los datos de carga aérea de septiembre. La demanda total, medida en toneladas-kilómetro de carga (CTK), creció 7,7% frente a septiembre de 2025, y en las operaciones internacionales el alza fue de 8,6%. Es una aceleración clara respecto de agosto, cuando la suba había sido de 4,4%.",
+        "La capacidad, medida en toneladas-kilómetro disponibles (ACTK), aumentó 2,7% (3,3% en el tráfico internacional). Como la demanda creció bastante más que la oferta de bodega, el factor de ocupación de la carga subió 2,2 puntos y llegó a 47,9%. En agosto había quedado en 46%, con una capacidad prácticamente estable (-0,1%).",
+        "## Todas las regiones en alza",
+        "Las aerolíneas de Norteamérica fueron las de mejor desempeño, con una demanda 11,8% mayor y una capacidad que apenas creció 0,8%, lo que llevó su ocupación a 43,9% (+4,3 puntos). Les siguieron Asia-Pacífico (+8,6%, con capacidad en alza de 4,9%), América Latina y el Caribe (+6,7%), África (+4,7%) y Europa (+4,5%, con capacidad 1,6% menor y la ocupación más alta del mundo, 54,6%). Medio Oriente tuvo el menor avance, con +3,8%, frente a una capacidad que subió 7%; su ocupación cayó 1,4 puntos, a 44%.",
+        "En América Latina y el Caribe, que explica el 2,9% del tráfico mundial, la demanda creció más que en agosto (+5,1%), pero esta vez la capacidad corrió más rápido: subió 7,6%. Por eso el factor de ocupación retrocedió 0,3 puntos, a 34,3%, el más bajo entre las regiones. Para los cargadores de la región, el dato sugiere que sigue habiendo bodega disponible.",
+        "## Las rutas: el Pacífico, impulsado por la inteligencia artificial",
+        "Por corredores, el que más creció fue Asia–Norteamérica, con +17% y ocho meses seguidos en alza; concentra el 23,5% del tráfico mundial. Según la economista jefa de IATA, Marie Owens Thomsen, los envíos vinculados a la inteligencia artificial sostuvieron ese crecimiento de dos dígitos en el Pacífico. Dentro de Asia, la demanda subió 10,2% (35 meses de crecimiento); Europa–Norteamérica, 9,3% (cinco meses), y Europa–Asia, 6% (43 meses). África–Asia subió 2,6%, su primer mes de crecimiento.",
+        "Los corredores que pasan por el golfo Pérsico siguen golpeados por el conflicto en Medio Oriente: Europa–Medio Oriente cayó 18% y Medio Oriente–Asia 10,2%, ambos con siete meses consecutivos de baja. En agosto, las caídas habían sido de 12,1% y 11%, respectivamente.",
+        "## El problema es el costo",
+        "El contexto económico acompañó. Según IATA, el comercio mundial de bienes creció 3,6% interanual en agosto y suma 42 meses de expansión; el índice global de gerentes de compras (PMI) manufacturero subió 0,7 puntos, a 53,8, y el de nuevos pedidos de exportación, 0,5 puntos, a 51,9. Los dos marcaron máximos de cinco años.",
+        "La contracara es el combustible. El jet fuel subió 17,5% respecto de agosto y cuesta 103,4% más que un año antes; en agosto la suba interanual había sido de 79,2%. Owens Thomsen señaló que el costo es hoy el principal desafío: los rendimientos, es decir, lo que las aerolíneas cobran por kilo transportado, no acompañaron la suba del combustible. Según su lectura, mercadería para transportar no falta, pero hacerlo con ganancia se volvió más difícil.",
+        "## Cómo leer el dato",
+        "Las cifras de IATA miden toneladas-kilómetro, es decir, combinan peso y distancia, y se asignan a la región de la aerolínea, no al país de origen de la carga. Por eso el dato de América Latina refleja a las compañías de la región y no el total de la carga aérea argentina, en la que también operan aerolíneas de otras regiones. El informe no incluye tarifas: Air Cargo News, que reprodujo los datos, tampoco publicó cifras de fletes aéreos para el mes."
+      ],
+      "keyData": [
+        [
+          "Demanda total (CTK)",
+          "+7,7% interanual (septiembre 2026)"
+        ],
+        [
+          "Demanda internacional",
+          "+8,6%"
+        ],
+        [
+          "Capacidad (ACTK)",
+          "+2,7%"
+        ],
+        [
+          "Factor de ocupación",
+          "47,9% (+2,2 puntos)"
+        ],
+        [
+          "América Latina y Caribe",
+          "+6,7% (capacidad +7,6%; ocupación 34,3%)"
+        ],
+        [
+          "Asia–Norteamérica",
+          "+17%"
+        ],
+        [
+          "Jet fuel",
+          "+103,4% interanual"
+        ]
+      ],
+      "sources": [
+        {
+          "name": "IATA",
+          "type": "Organización internacional",
+          "url": "https://www.iata.org/en/pressroom/2026-releases/10-29-air-cargo-demand-accelerates-september/",
+          "primary": true
+        },
+        {
+          "name": "IATA (datos de agosto)",
+          "type": "Organización internacional",
+          "url": "https://www.iata.org/en/pressroom/2026-releases/09-29-air-cargo-demand-grows-august/"
+        },
+        {
+          "name": "Air Cargo News",
+          "type": "Medio especializado · Reino Unido",
+          "url": "https://www.aircargonews.net/data/2026/10/iata-air-cargo-demand-up-more-than-7-in-september/"
+        }
+      ],
+      "explainer": {
+        "what": "La demanda mundial de carga aérea creció 7,7% interanual en septiembre, con una capacidad que subió 2,7%, según IATA.",
+        "why": "Es una aceleración frente al 4,4% de agosto, impulsada por el Pacífico y los envíos ligados a la inteligencia artificial, pero el jet fuel cuesta 103,4% más que hace un año y los rendimientos no acompañan.",
+        "who": "Exportadores e importadores que usan carga aérea, aerolíneas, agentes de carga y operadores de aeropuertos.",
+        "products": [
+          "Carga aérea general",
+          "Envíos ligados a la inteligencia artificial"
+        ]
+      },
+      "story": "carga-aerea",
+      "absorbs": [
+        "la-carga-aerea-crecio-un-7-7-en-el-mundo-en-el-mes-de-septiembre"
+      ]
+    },
+    {
+      "id": "vmos-vaca-muerta-oil-sur-85-por-ciento-primera-exportacion-marzo-2027-punta-colorada",
+      "date": "2026-10-29",
+      "kind": "noticia",
+      "title": "Vaca Muerta Oil Sur, al 85%: el oleoducto empezaría a llenarse en el verano y la primera exportación desde Punta Colorada se prevé para marzo de 2027",
+      "summary": "La obra de USD 3.000 millones que unirá Allen con la costa del golfo San Matías ya tiene terminado el caño principal de 437 km. Arrancaría con unos 180.000 a 190.000 barriles diarios, y el consorcio de nueve petroleras proyecta exportaciones por USD 15.000 millones por año cuando llegue a 550.000 barriles.",
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Puertos",
+        "Logística",
+        "Empresas"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Energía",
+        "Petróleo",
+        "Vaca Muerta",
+        "VMOS",
+        "RIGI",
+        "Río Negro",
+        "YPF"
+      ],
+      "visual": "energy",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "El oleoducto y la terminal de Punta Colorada crearán una nueva salida de crudo de exportación por el Atlántico, con buques de hasta 2 millones de barriles, cuando el petróleo ya es el primer producto de exportación del país.",
+      "argentinaImpact": {
+        "change": "El consorcio VMOS prevé llenar el oleoducto entre fines de diciembre de 2026 y enero de 2027 y concretar la primera exportación de crudo desde Punta Colorada (Río Negro) en marzo de 2027.",
+        "who": "Petroleras exportadoras de Vaca Muerta, armadores y agentes marítimos, proveedores de servicios portuarios y logísticos de Río Negro y Neuquén.",
+        "sectors": [
+          "Petróleo",
+          "Energía",
+          "Transporte marítimo",
+          "Puertos"
+        ],
+        "flows": {
+          "importaciones": false,
+          "exportaciones": true,
+          "logistica": true,
+          "aranceles": false
+        }
+      },
+      "body": [
+        "El oleoducto Vaca Muerta Oil Sur (VMOS), la obra con la que la Argentina busca multiplicar sus exportaciones de petróleo, tiene un avance general de 85% y entra en su etapa final. Según informaron el 29 de octubre la agencia EFE, Infobae e iProfesional tras recorrer la terminal de Punta Colorada, en la costa rionegrina del golfo San Matías, el llenado del caño y de los tanques empezaría entre fines de diciembre y enero, y la primera exportación de crudo está prevista para marzo de 2027.",
+        "El proyecto demanda una inversión de unos USD 3.000 millones y lo lleva adelante un consorcio formado a fines de 2024 por YPF, Pan American Energy, Vista, Pampa Energía, Pluspetrol, Tecpetrol, GyP, Shell y Chevron, con YPF como líder técnico. El caño principal, de 437 kilómetros entre Allen (Río Negro) y Punta Colorada, ya está terminado; falta conectarlo con los oleoductos que traen el crudo desde Vaca Muerta.",
+        "## El calendario: llenado en el verano, embarque en marzo",
+        "Las fuentes coinciden en el orden de los pasos, aunque no en las fechas exactas. Según Infobae, el primer petróleo ingresaría al sistema el 31 de diciembre de 2026; EFE habla de un llenado entre fines de diciembre y principios de enero, e iProfesional, de enero. Ese primer llenado de caños y tanques llevaría entre 40 y 50 días e inmovilizaría 1,5 millones de barriles, según iProfesional. La primera gran exportación se prevé para marzo, según EFE e iProfesional; Infobae la ubica en el primer trimestre de 2027.",
+        "La capacidad crecerá por etapas. El oleoducto arrancaría con unos 180.000 barriles diarios, según iProfesional e Infobae (EFE informa 190.000), subiría a 390.000 a mediados de 2027 y a 550.000 en una tercera etapa, que iProfesional ubica en 2028. Gustavo Gallino, vicepresidente de Infraestructura de YPF y presidente de VMOS, dijo a EFE que la compañía estudia una ampliación a 750.000 barriles diarios y que aspira a llegar alguna vez al millón.",
+        "## La terminal de Punta Colorada",
+        "La terminal ocupa 170 hectáreas, donde trabajan unas 1.600 personas. Tendrá seis tanques de 750.000 barriles cada uno, de 83 metros de diámetro y unos 30 metros de alto, que suman 4,5 millones de barriles; según Infobae, en la primera etapa funcionarían solo dos. Los buques, de hasta 2 millones de barriles, cargarán a través de dos monoboyas conectadas por un tramo en tierra y otro submarino.",
+        "Según iProfesional, las bombas permiten transferir hasta 1,2 millones de barriles por día: un buque estándar de un millón de barriles se cargaría en unas 20 horas y uno de 2 millones (VLCC), en unas 40, lo que permitiría despachar un barco cada cuatro días. Las monoboyas, fabricadas por Bluewater en Emiratos Árabes Unidos, llegaron al golfo San Matías unas tres semanas antes de la visita, después de un traslado que, según Infobae, se vio afectado por el conflicto en el estrecho de Ormuz.",
+        "## Por qué importa para las exportaciones",
+        "Hoy el crudo argentino sale por oleoducto a Chile y por mar desde Bahía Blanca y Caleta Córdova. Según EFE, el país exportó crudo por USD 7.753 millones en los primeros nueve meses de 2026, y Vaca Muerta produjo en septiembre un récord de 698.500 barriles diarios. El consorcio proyecta exportaciones por unos USD 15.000 millones anuales; Infobae precisa que ese cálculo corresponde a la etapa de 550.000 barriles diarios, ya vendida, con un precio de referencia de USD 70 por barril, y EFE agrega que podrían llegar a USD 20.000 millones si los precios internacionales siguen altos.",
+        "Además del volumen, el puerto tiene una ventaja logística: por su mayor calado que Bahía Blanca, el ahorro en fletes marítimos rondaría los USD 3 a 4 por barril, según iProfesional.",
+        "## Financiamiento, RIGI y un puerto con historia",
+        "Según Infobae, la obra se financia con un préstamo sindicado de USD 2.000 millones de 14 bancos, encabezados por Citi, Deutsche Bank, JP Morgan, Itaú y Santander, más un aporte propio de 30% de las socias. Río Negro fue la primera provincia en adherir al Régimen de Incentivo para Grandes Inversiones (RIGI), que el proyecto usa para tener estabilidad jurídica, e iProfesional recuerda que la provincia derogó una norma que restringía la actividad hidrocarburífera en el golfo San Matías.",
+        "Punta Colorada no es un sitio nuevo para la exportación: desde allí se embarcaba el mineral de hierro de Sierra Grande que explotaba HIPASAM, empresa creada en 1969 y disuelta en 1992, según repasa Infobae. La misma costa es la elegida para Argentina LNG, el proyecto de gas natural licuado de YPF, Eni y XRG, cuya decisión final de inversión está prevista para el 26 de noviembre, como informó Comexplora."
+      ],
+      "keyData": [
+        [
+          "Primera exportación prevista",
+          "Marzo de 2027 (primer trimestre, según Infobae)"
+        ],
+        [
+          "Avance de obra",
+          "85%"
+        ],
+        [
+          "Inversión",
+          "USD 3.000 millones"
+        ],
+        [
+          "Oleoducto",
+          "437 km, de Allen a Punta Colorada (Río Negro)"
+        ],
+        [
+          "Capacidad",
+          "180.000–190.000 b/d al inicio; 390.000 a mediados de 2027; 550.000 en la tercera etapa"
+        ],
+        [
+          "Almacenaje",
+          "6 tanques, 4,5 millones de barriles"
+        ],
+        [
+          "Exportaciones proyectadas",
+          "USD 15.000 millones anuales (hasta 20.000 con precios altos)"
+        ]
+      ],
+      "sources": [
+        {
+          "name": "EFE (vía ABC Color)",
+          "type": "Agencia de noticias",
+          "url": "https://www.abc.com.py/internacionales/2026/10/29/de-vaca-muerta-al-atlantico-argentina-se-apresta-a-dar-un-salto-como-exportador-petrolero/",
+          "primary": true
+        },
+        {
+          "name": "iProfesional",
+          "type": "Medio · Argentina",
+          "url": "https://www.iprofesional.com/energia/467794-vaca-muerta-oil-sur-en-su-etapa-final-cuando-sera-la-primera-exportacion-de-crudo"
+        },
+        {
+          "name": "Infobae",
+          "type": "Medio · Argentina",
+          "url": "https://www.infobae.com/economia/2026/10/29/vaca-muerta-un-puerto-que-exporto-hierro-y-estuvo-30-anos-abandonado-ahora-renace-como-la-gran-puerta-de-salida-del-petroleo-argentino/"
+        }
+      ],
+      "explainer": {
+        "what": "El oleoducto Vaca Muerta Oil Sur tiene 85% de avance y prevé su primera exportación de crudo desde Punta Colorada en marzo de 2027.",
+        "why": "Abre una nueva salida atlántica para el petróleo, ya primer producto de exportación, con buques de hasta 2 millones de barriles; el consorcio proyecta USD 15.000 millones anuales en ventas externas.",
+        "who": "Petroleras de Vaca Muerta, armadores, agentes marítimos y proveedores logísticos y portuarios de Río Negro y Neuquén.",
+        "products": [
+          "Petróleo crudo"
+        ],
+        "next": "El llenado del caño y los tanques empezaría en enero y llevaría entre 40 y 50 días; la primera gran exportación está prevista para marzo de 2027.",
+        "nextSource": {
+          "name": "iProfesional",
+          "url": "https://www.iprofesional.com/energia/467794-vaca-muerta-oil-sur-en-su-etapa-final-cuando-sera-la-primera-exportacion-de-crudo"
+        }
+      },
+      "story": "energia-mineria",
+      "deadlines": [
+        {
+          "date": "2027-03",
+          "label": "Argentina: primera exportación de crudo prevista por el oleoducto VMOS desde Punta Colorada (Río Negro)",
+          "url": "https://www.iprofesional.com/energia/467794-vaca-muerta-oil-sur-en-su-etapa-final-cuando-sera-la-primera-exportacion-de-crudo"
+        }
+      ],
+      "absorbs": [
+        "argentina-ultima-una-obra-que-preve-generar-hasta-20-000-millones-de-dolares-anu",
+        "de-vaca-muerta-al-atlantico-argentina-se-apresta-a-dar-un-salto-como-exportador"
+      ]
     },
     {
       "id": "mexico-mantiene-cautela-ante-posible-acuerdo-comercial-con-eua",
@@ -5480,6 +6493,13 @@
           "url": "http://www.cda.org.ar/detalle_noticia.php?id=42836",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Centro Despachantes de Aduana (CDA)",
+          "type": "También publicó esta noticia",
+          "url": "http://www.cda.org.ar/detalle_noticia.php?id=42833",
+          "alsoIn": true,
+          "title": "Centro Despachantes de Aduana de la Republica Argentina - El CDA saluda a su Filial Córdoba en su 40° aniversario"
         }
       ],
       "gnTried": "2026-10-28T18:09:45Z",
@@ -5487,7 +6507,14 @@
       "digestSkip": {
         "at": "2026-10-28T15:50:00-03:00",
         "reason": "fuera de tema (convocatoria institucional a asamblea)"
-      }
+      },
+      "aliasUrls": [
+        "http://www.cda.org.ar/detalle_noticia.php?id=42833",
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1JOC0wYWlkWjNZZVFfUUdiV240NzNNRVlMajhCUzEtVGNrdlRHM0kxY1I1NWg0bWhVcDM2MTRSMUZlSWtzb3R4aWx1ZUtMaFBxVTdCUGFqbHJWVFpyWWUw"
+      ],
+      "mergedIds": [
+        "centro-despachantes-de-aduana-de-la-republica-argentina-el-cda-saluda-a-su-filia"
+      ]
     },
     {
       "id": "agenda-cordoba-debatira-el-futuro-de-su-comercio-exterior",
@@ -5526,242 +6553,6 @@
         "at": "2026-10-28T15:50:00-03:00",
         "reason": "fuera de tema (aviso de evento)"
       }
-    },
-    {
-      "id": "iata-carga-aerea-septiembre-2026-7-7-por-ciento-combustible",
-      "date": "2026-10-29",
-      "kind": "datos",
-      "title": "La demanda mundial de carga aérea creció 7,7% en septiembre, pero el combustible ya cuesta más del doble que hace un año",
-      "summary": "Según IATA, la demanda medida en toneladas-kilómetro subió 7,7% interanual y la capacidad, 2,7%, con alzas en todas las regiones. América Latina y el Caribe creció 6,7%, pero su capacidad aumentó más. El jet fuel subió 103,4% frente a septiembre de 2025.",
-      "topics": [
-        "Transporte aéreo",
-        "Logística",
-        "Economía internacional",
-        "Latinoamérica"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [
-        "Carga aérea",
-        "IATA",
-        "Combustible",
-        "Inteligencia artificial"
-      ],
-      "visual": "plane",
-      "impact": 2,
-      "affectsArgentina": false,
-      "body": [
-        "La Asociación de Transporte Aéreo Internacional (IATA) publicó el 29 de octubre los datos de carga aérea de septiembre. La demanda total, medida en toneladas-kilómetro de carga (CTK), creció 7,7% frente a septiembre de 2025, y en las operaciones internacionales el alza fue de 8,6%. Es una aceleración clara respecto de agosto, cuando la suba había sido de 4,4%.",
-        "La capacidad, medida en toneladas-kilómetro disponibles (ACTK), aumentó 2,7% (3,3% en el tráfico internacional). Como la demanda creció bastante más que la oferta de bodega, el factor de ocupación de la carga subió 2,2 puntos y llegó a 47,9%. En agosto había quedado en 46%, con una capacidad prácticamente estable (-0,1%).",
-        "## Todas las regiones en alza",
-        "Las aerolíneas de Norteamérica fueron las de mejor desempeño, con una demanda 11,8% mayor y una capacidad que apenas creció 0,8%, lo que llevó su ocupación a 43,9% (+4,3 puntos). Les siguieron Asia-Pacífico (+8,6%, con capacidad en alza de 4,9%), América Latina y el Caribe (+6,7%), África (+4,7%) y Europa (+4,5%, con capacidad 1,6% menor y la ocupación más alta del mundo, 54,6%). Medio Oriente tuvo el menor avance, con +3,8%, frente a una capacidad que subió 7%; su ocupación cayó 1,4 puntos, a 44%.",
-        "En América Latina y el Caribe, que explica el 2,9% del tráfico mundial, la demanda creció más que en agosto (+5,1%), pero esta vez la capacidad corrió más rápido: subió 7,6%. Por eso el factor de ocupación retrocedió 0,3 puntos, a 34,3%, el más bajo entre las regiones. Para los cargadores de la región, el dato sugiere que sigue habiendo bodega disponible.",
-        "## Las rutas: el Pacífico, impulsado por la inteligencia artificial",
-        "Por corredores, el que más creció fue Asia–Norteamérica, con +17% y ocho meses seguidos en alza; concentra el 23,5% del tráfico mundial. Según la economista jefa de IATA, Marie Owens Thomsen, los envíos vinculados a la inteligencia artificial sostuvieron ese crecimiento de dos dígitos en el Pacífico. Dentro de Asia, la demanda subió 10,2% (35 meses de crecimiento); Europa–Norteamérica, 9,3% (cinco meses), y Europa–Asia, 6% (43 meses). África–Asia subió 2,6%, su primer mes de crecimiento.",
-        "Los corredores que pasan por el golfo Pérsico siguen golpeados por el conflicto en Medio Oriente: Europa–Medio Oriente cayó 18% y Medio Oriente–Asia 10,2%, ambos con siete meses consecutivos de baja. En agosto, las caídas habían sido de 12,1% y 11%, respectivamente.",
-        "## El problema es el costo",
-        "El contexto económico acompañó. Según IATA, el comercio mundial de bienes creció 3,6% interanual en agosto y suma 42 meses de expansión; el índice global de gerentes de compras (PMI) manufacturero subió 0,7 puntos, a 53,8, y el de nuevos pedidos de exportación, 0,5 puntos, a 51,9. Los dos marcaron máximos de cinco años.",
-        "La contracara es el combustible. El jet fuel subió 17,5% respecto de agosto y cuesta 103,4% más que un año antes; en agosto la suba interanual había sido de 79,2%. Owens Thomsen señaló que el costo es hoy el principal desafío: los rendimientos, es decir, lo que las aerolíneas cobran por kilo transportado, no acompañaron la suba del combustible. Según su lectura, mercadería para transportar no falta, pero hacerlo con ganancia se volvió más difícil.",
-        "## Cómo leer el dato",
-        "Las cifras de IATA miden toneladas-kilómetro, es decir, combinan peso y distancia, y se asignan a la región de la aerolínea, no al país de origen de la carga. Por eso el dato de América Latina refleja a las compañías de la región y no el total de la carga aérea argentina, en la que también operan aerolíneas de otras regiones. El informe no incluye tarifas: Air Cargo News, que reprodujo los datos, tampoco publicó cifras de fletes aéreos para el mes."
-      ],
-      "keyData": [
-        [
-          "Demanda total (CTK)",
-          "+7,7% interanual (septiembre 2026)"
-        ],
-        [
-          "Demanda internacional",
-          "+8,6%"
-        ],
-        [
-          "Capacidad (ACTK)",
-          "+2,7%"
-        ],
-        [
-          "Factor de ocupación",
-          "47,9% (+2,2 puntos)"
-        ],
-        [
-          "América Latina y Caribe",
-          "+6,7% (capacidad +7,6%; ocupación 34,3%)"
-        ],
-        [
-          "Asia–Norteamérica",
-          "+17%"
-        ],
-        [
-          "Jet fuel",
-          "+103,4% interanual"
-        ]
-      ],
-      "sources": [
-        {
-          "name": "IATA",
-          "type": "Organización internacional",
-          "url": "https://www.iata.org/en/pressroom/2026-releases/10-29-air-cargo-demand-accelerates-september/",
-          "primary": true
-        },
-        {
-          "name": "IATA (datos de agosto)",
-          "type": "Organización internacional",
-          "url": "https://www.iata.org/en/pressroom/2026-releases/09-29-air-cargo-demand-grows-august/"
-        },
-        {
-          "name": "Air Cargo News",
-          "type": "Medio especializado · Reino Unido",
-          "url": "https://www.aircargonews.net/data/2026/10/iata-air-cargo-demand-up-more-than-7-in-september/"
-        }
-      ],
-      "explainer": {
-        "what": "La demanda mundial de carga aérea creció 7,7% interanual en septiembre, con una capacidad que subió 2,7%, según IATA.",
-        "why": "Es una aceleración frente al 4,4% de agosto, impulsada por el Pacífico y los envíos ligados a la inteligencia artificial, pero el jet fuel cuesta 103,4% más que hace un año y los rendimientos no acompañan.",
-        "who": "Exportadores e importadores que usan carga aérea, aerolíneas, agentes de carga y operadores de aeropuertos.",
-        "products": [
-          "Carga aérea general",
-          "Envíos ligados a la inteligencia artificial"
-        ]
-      },
-      "story": "carga-aerea",
-      "absorbs": [
-        "la-carga-aerea-crecio-un-7-7-en-el-mundo-en-el-mes-de-septiembre"
-      ]
-    },
-    {
-      "id": "vmos-vaca-muerta-oil-sur-85-por-ciento-primera-exportacion-marzo-2027-punta-colorada",
-      "date": "2026-10-29",
-      "kind": "noticia",
-      "title": "Vaca Muerta Oil Sur, al 85%: el oleoducto empezaría a llenarse en el verano y la primera exportación desde Punta Colorada se prevé para marzo de 2027",
-      "summary": "La obra de USD 3.000 millones que unirá Allen con la costa del golfo San Matías ya tiene terminado el caño principal de 437 km. Arrancaría con unos 180.000 a 190.000 barriles diarios, y el consorcio de nueve petroleras proyecta exportaciones por USD 15.000 millones por año cuando llegue a 550.000 barriles.",
-      "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Puertos",
-        "Logística",
-        "Empresas"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Energía",
-        "Petróleo",
-        "Vaca Muerta",
-        "VMOS",
-        "RIGI",
-        "Río Negro",
-        "YPF"
-      ],
-      "visual": "energy",
-      "impact": 2,
-      "affectsArgentina": true,
-      "argentinaNote": "El oleoducto y la terminal de Punta Colorada crearán una nueva salida de crudo de exportación por el Atlántico, con buques de hasta 2 millones de barriles, cuando el petróleo ya es el primer producto de exportación del país.",
-      "argentinaImpact": {
-        "change": "El consorcio VMOS prevé llenar el oleoducto entre fines de diciembre de 2026 y enero de 2027 y concretar la primera exportación de crudo desde Punta Colorada (Río Negro) en marzo de 2027.",
-        "who": "Petroleras exportadoras de Vaca Muerta, armadores y agentes marítimos, proveedores de servicios portuarios y logísticos de Río Negro y Neuquén.",
-        "sectors": [
-          "Petróleo",
-          "Energía",
-          "Transporte marítimo",
-          "Puertos"
-        ],
-        "flows": {
-          "importaciones": false,
-          "exportaciones": true,
-          "logistica": true,
-          "aranceles": false
-        }
-      },
-      "body": [
-        "El oleoducto Vaca Muerta Oil Sur (VMOS), la obra con la que la Argentina busca multiplicar sus exportaciones de petróleo, tiene un avance general de 85% y entra en su etapa final. Según informaron el 29 de octubre la agencia EFE, Infobae e iProfesional tras recorrer la terminal de Punta Colorada, en la costa rionegrina del golfo San Matías, el llenado del caño y de los tanques empezaría entre fines de diciembre y enero, y la primera exportación de crudo está prevista para marzo de 2027.",
-        "El proyecto demanda una inversión de unos USD 3.000 millones y lo lleva adelante un consorcio formado a fines de 2024 por YPF, Pan American Energy, Vista, Pampa Energía, Pluspetrol, Tecpetrol, GyP, Shell y Chevron, con YPF como líder técnico. El caño principal, de 437 kilómetros entre Allen (Río Negro) y Punta Colorada, ya está terminado; falta conectarlo con los oleoductos que traen el crudo desde Vaca Muerta.",
-        "## El calendario: llenado en el verano, embarque en marzo",
-        "Las fuentes coinciden en el orden de los pasos, aunque no en las fechas exactas. Según Infobae, el primer petróleo ingresaría al sistema el 31 de diciembre de 2026; EFE habla de un llenado entre fines de diciembre y principios de enero, e iProfesional, de enero. Ese primer llenado de caños y tanques llevaría entre 40 y 50 días e inmovilizaría 1,5 millones de barriles, según iProfesional. La primera gran exportación se prevé para marzo, según EFE e iProfesional; Infobae la ubica en el primer trimestre de 2027.",
-        "La capacidad crecerá por etapas. El oleoducto arrancaría con unos 180.000 barriles diarios, según iProfesional e Infobae (EFE informa 190.000), subiría a 390.000 a mediados de 2027 y a 550.000 en una tercera etapa, que iProfesional ubica en 2028. Gustavo Gallino, vicepresidente de Infraestructura de YPF y presidente de VMOS, dijo a EFE que la compañía estudia una ampliación a 750.000 barriles diarios y que aspira a llegar alguna vez al millón.",
-        "## La terminal de Punta Colorada",
-        "La terminal ocupa 170 hectáreas, donde trabajan unas 1.600 personas. Tendrá seis tanques de 750.000 barriles cada uno, de 83 metros de diámetro y unos 30 metros de alto, que suman 4,5 millones de barriles; según Infobae, en la primera etapa funcionarían solo dos. Los buques, de hasta 2 millones de barriles, cargarán a través de dos monoboyas conectadas por un tramo en tierra y otro submarino.",
-        "Según iProfesional, las bombas permiten transferir hasta 1,2 millones de barriles por día: un buque estándar de un millón de barriles se cargaría en unas 20 horas y uno de 2 millones (VLCC), en unas 40, lo que permitiría despachar un barco cada cuatro días. Las monoboyas, fabricadas por Bluewater en Emiratos Árabes Unidos, llegaron al golfo San Matías unas tres semanas antes de la visita, después de un traslado que, según Infobae, se vio afectado por el conflicto en el estrecho de Ormuz.",
-        "## Por qué importa para las exportaciones",
-        "Hoy el crudo argentino sale por oleoducto a Chile y por mar desde Bahía Blanca y Caleta Córdova. Según EFE, el país exportó crudo por USD 7.753 millones en los primeros nueve meses de 2026, y Vaca Muerta produjo en septiembre un récord de 698.500 barriles diarios. El consorcio proyecta exportaciones por unos USD 15.000 millones anuales; Infobae precisa que ese cálculo corresponde a la etapa de 550.000 barriles diarios, ya vendida, con un precio de referencia de USD 70 por barril, y EFE agrega que podrían llegar a USD 20.000 millones si los precios internacionales siguen altos.",
-        "Además del volumen, el puerto tiene una ventaja logística: por su mayor calado que Bahía Blanca, el ahorro en fletes marítimos rondaría los USD 3 a 4 por barril, según iProfesional.",
-        "## Financiamiento, RIGI y un puerto con historia",
-        "Según Infobae, la obra se financia con un préstamo sindicado de USD 2.000 millones de 14 bancos, encabezados por Citi, Deutsche Bank, JP Morgan, Itaú y Santander, más un aporte propio de 30% de las socias. Río Negro fue la primera provincia en adherir al Régimen de Incentivo para Grandes Inversiones (RIGI), que el proyecto usa para tener estabilidad jurídica, e iProfesional recuerda que la provincia derogó una norma que restringía la actividad hidrocarburífera en el golfo San Matías.",
-        "Punta Colorada no es un sitio nuevo para la exportación: desde allí se embarcaba el mineral de hierro de Sierra Grande que explotaba HIPASAM, empresa creada en 1969 y disuelta en 1992, según repasa Infobae. La misma costa es la elegida para Argentina LNG, el proyecto de gas natural licuado de YPF, Eni y XRG, cuya decisión final de inversión está prevista para el 26 de noviembre, como informó Comexplora."
-      ],
-      "keyData": [
-        [
-          "Primera exportación prevista",
-          "Marzo de 2027 (primer trimestre, según Infobae)"
-        ],
-        [
-          "Avance de obra",
-          "85%"
-        ],
-        [
-          "Inversión",
-          "USD 3.000 millones"
-        ],
-        [
-          "Oleoducto",
-          "437 km, de Allen a Punta Colorada (Río Negro)"
-        ],
-        [
-          "Capacidad",
-          "180.000–190.000 b/d al inicio; 390.000 a mediados de 2027; 550.000 en la tercera etapa"
-        ],
-        [
-          "Almacenaje",
-          "6 tanques, 4,5 millones de barriles"
-        ],
-        [
-          "Exportaciones proyectadas",
-          "USD 15.000 millones anuales (hasta 20.000 con precios altos)"
-        ]
-      ],
-      "sources": [
-        {
-          "name": "EFE (vía ABC Color)",
-          "type": "Agencia de noticias",
-          "url": "https://www.abc.com.py/internacionales/2026/10/29/de-vaca-muerta-al-atlantico-argentina-se-apresta-a-dar-un-salto-como-exportador-petrolero/",
-          "primary": true
-        },
-        {
-          "name": "iProfesional",
-          "type": "Medio · Argentina",
-          "url": "https://www.iprofesional.com/energia/467794-vaca-muerta-oil-sur-en-su-etapa-final-cuando-sera-la-primera-exportacion-de-crudo"
-        },
-        {
-          "name": "Infobae",
-          "type": "Medio · Argentina",
-          "url": "https://www.infobae.com/economia/2026/10/29/vaca-muerta-un-puerto-que-exporto-hierro-y-estuvo-30-anos-abandonado-ahora-renace-como-la-gran-puerta-de-salida-del-petroleo-argentino/"
-        }
-      ],
-      "explainer": {
-        "what": "El oleoducto Vaca Muerta Oil Sur tiene 85% de avance y prevé su primera exportación de crudo desde Punta Colorada en marzo de 2027.",
-        "why": "Abre una nueva salida atlántica para el petróleo, ya primer producto de exportación, con buques de hasta 2 millones de barriles; el consorcio proyecta USD 15.000 millones anuales en ventas externas.",
-        "who": "Petroleras de Vaca Muerta, armadores, agentes marítimos y proveedores logísticos y portuarios de Río Negro y Neuquén.",
-        "products": [
-          "Petróleo crudo"
-        ],
-        "next": "El llenado del caño y los tanques empezaría en enero y llevaría entre 40 y 50 días; la primera gran exportación está prevista para marzo de 2027.",
-        "nextSource": {
-          "name": "iProfesional",
-          "url": "https://www.iprofesional.com/energia/467794-vaca-muerta-oil-sur-en-su-etapa-final-cuando-sera-la-primera-exportacion-de-crudo"
-        }
-      },
-      "story": "energia-mineria",
-      "deadlines": [
-        {
-          "date": "2027-03",
-          "label": "Argentina: primera exportación de crudo prevista por el oleoducto VMOS desde Punta Colorada (Río Negro)",
-          "url": "https://www.iprofesional.com/energia/467794-vaca-muerta-oil-sur-en-su-etapa-final-cuando-sera-la-primera-exportacion-de-crudo"
-        }
-      ],
-      "absorbs": [
-        "argentina-ultima-una-obra-que-preve-generar-hasta-20-000-millones-de-dolares-anu",
-        "de-vaca-muerta-al-atlantico-argentina-se-apresta-a-dar-un-salto-como-exportador"
-      ]
     },
     {
       "id": "carne-vacuna-exportaciones-enero-septiembre-2026-549600-toneladas-china-cuota-rosgan",
@@ -5910,6 +6701,56 @@
           "type": "Medio especializado",
           "url": "https://www.eaduana.com/articulos/china-impone-cuotas-y-aranceles-del-55-a-importaciones-de-carne-vacuna-a-partir-de-2026"
         }
+      ]
+    },
+    {
+      "id": "mas-flexibilidad-para-exportar-minerales",
+      "datetime": "2026-10-28T14:23:59Z",
+      "date": "2026-10-28",
+      "firstSeen": "2026-10-29T22:08:01Z",
+      "title": "Más flexibilidad para exportar minerales",
+      "summary": "El Gobierno nacional elimina una restricción burocrática que obligaba a trasladar minerales refinados a la provincia de origen para exportarlos.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Minería"
+      ],
+      "visual": "mining",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Argentina.gob.ar",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.argentina.gob.ar/noticias/mas-flexibilidad-para-exportar-minerales",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Diario El Norte - San Nicolás",
+          "type": "También publicó esta noticia",
+          "url": "https://diarioelnorte.com.ar/arca-flexibiliza-la-exportacion-de-minerales-procesados/",
+          "alsoIn": true,
+          "title": "ARCA flexibiliza la exportación de minerales procesados"
+        }
+      ],
+      "gnTried": "2026-10-29T22:08:01Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeFQtT1ctTzF3dEZfdjFvcEJYUWFpSzNqcUo2QjJKOTEtSVdCMkEwd0o1eGRia3JlWC1uUnBjZ0h6eGJaY3hOLTdRMjFGRWhYYVk2cVp1YUJJeGRfc24tN0pHbmhFY24zMXg2ZWpvc1hrbEJVUTFXSjdGWUFnTlRCVEFyTGc?oc=5",
+      "aliasUrls": [
+        "https://diarioelnorte.com.ar/arca-flexibiliza-la-exportacion-de-minerales-procesados",
+        "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQkV6WWtrV0huYUNhMlZCak5LT1JNVDRFNU5EWTY5Mm13cTNscmhKbE9DdFJtT2RLMnFRUk15ZHpUQmRLTnh6LUgwR2NHM1ZLdHpiRzA1NlBqc3llNkxFVmFMRVNKQkFJWDRnOWZQOUpRVHI5VjhLdmpNRU4wbTVXNG5rVkF1bDdmaDhQcWZB"
+      ],
+      "mergedIds": [
+        "arca-flexibiliza-la-exportacion-de-minerales-procesados"
       ]
     },
     {
@@ -8414,17 +9255,27 @@
           "url": "https://argenports.com/nota/expo-globalports-2026-reunira-a-la-logistica-y-la-hidrovia-con-el-offshore-en-agenda/",
           "alsoIn": true,
           "title": "Expo GlobalPorts 2026 reunirá a la logística y la Hidrovía con el offshore en agenda"
+        },
+        {
+          "name": "Comex Online",
+          "type": "También publicó esta noticia",
+          "url": "https://comexonline.com.ar/noticias/val/63784/expo-globalports-2026-la-logistica-la-energia-y-el-comercio-exterior-preparan-su-agenda-de-negocios.html",
+          "alsoIn": true,
+          "title": "Expo GlobalPorts 2026: la logística, la energía y el comercio exterior preparan su agenda de negocios"
         }
       ],
       "gnTried": "2026-10-29T02:15:46Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSVBNU1pvNEg4Ykp0LXBTQXBZaDN1R2p4N2JfYm1OWi1HUk1QM3J5N0lwRUhmd3k4MkJJM3drbDVNY3JvbE1NY3dMOFRvdTRvSndSMzNsbUI4aWo2NjFiVFBLSVNBYkoyUTZpU1Ezcml2RTk0ZDRBMTNwMUJ0VTdaOXJEd0VzNnZTTHhxM0xTZXplejVDTHNkaE44aVotXzk4NXZpMExRNGtMQXlsRzY2WmFqSEhncml3NXJuM1JLQjZCd9IB3AFBVV95cUxNRTEwaVl6ZWJOVmRUeXJfSFV5T2ZkaVNQbm5iNGlZa0drMGZCblYzOEw3dVotSFoyMlNRUFBGSHZyRldVSVcxcXNtei1RcDZBQXBrQ3UxWXF1UzlJS0JCaVJqUy0wUHBVbmtLVzd0YzZXLTNjbWNubEFER0xaRl9kR3BNMGFURHdlMGVwU0FJVkZ4U0tQRzNKU3lQRU5uaUpZZUpKTUt2djJ5a1A1Rk1laFVPYUxETFFXOFl6ZVBjMlBxRTlGUDRpUTR6TWplOVcycTZ1TjBSamRlTm8t?oc=5",
       "aliasUrls": [
         "https://argenports.com/nota/expo-globalports-2026-reunira-a-la-logistica-y-la-hidrovia-con-el-offshore-en-agenda",
+        "https://comexonline.com.ar/noticias/val/63784/expo-globalports-2026-la-logistica-la-energia-y-el-comercio-exterior-preparan-su-agenda-de-negocios.html",
         "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRTEwaVl6ZWJOVmRUeXJfSFV5T2ZkaVNQbm5iNGlZa0drMGZCblYzOEw3dVotSFoyMlNRUFBGSHZyRldVSVcxcXNtei1RcDZBQXBrQ3UxWXF1UzlJS0JCaVJqUy0wUHBVbmtLVzd0YzZXLTNjbWNubEFER0xaRl9kR3BNMGFURHdlMGVwU0FJVkZ4U0tQRzNKU3lQRU5uaUpZZUpKTUt2djJ5a1A1Rk1laFVPYUxETFFXOFl6ZVBjMlBxRTlGUDRpUTR6TWplOVcycTZ1TjBSamRlTm8t0gHcAUFVX3lxTE1FMTBpWXplYk5WZFR5cl9IVXlPZmRpU1BubmI0aVlrR2swZkJuVjM4TDd1Wi1IWjIyU1FQUEZIdnJGV1VJVzFxc216LVFwNkFBcGtDdTFZcXVTOUlLQkJpUmpTLTBQcFVua0tXN3RjNlctM2NtY25sQURHTFpGX2RHcE0wYVREd2UwZXBTQUlWRnhTS1BHM0pTeVBFTm5pSlllSkpNS3Z2MnlrUDVGTWVoVU9hTERMUVc4WXplUGMyUHFFOUZQNGlRNHpNamU5VzJxNnVOMFJqZGVOby0",
+        "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNWhKUDQxYlRha0dZR3ctQzZiYTBBTWhNUHhrOVROVHlQdkl5bkRZaVQ4SXJRYlNXUDlMVDdkMlFCQjE0RWlfc2RMM2lsUGlyTkRBeE5ITFUzTjMxZUEzZVUxMDJZUXRrb3JVNlpIbjZTYnhNTnhxVEpOX2I2M2h1VDNVX0lhMW5LdUJqTDVDUFJjRWxOTGZyNE1GWUU5bXdZa1BCanVFbmpVb2wwR1ROc05MZFJwQ2xDUGpyemVqMHRLQW96OXl5cFdoX2lhMERuWHpUUUllX01ta3NBUTJGR3Btd04",
         "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWG0tZjJBc3NCOWZVbDhxYWN0VW1yWmYxWWc1M2FVTHdLWTY4VW1CRmRXSkt2RWc4T2NqZ1FaVjRzM3RzUmwxeE1MYjNmVDhJaU9uYkVKQnIxeGxJWTBuRHB1X2VIVnZCWVBMcDZVeHo2U0pzYUVrNmMzc2k4endTYVdYZTE5T2pFRnNEdVNOVXVCclBxQkFvdUpYUmt0RzFIRk5ZY3ZnOFg4ZWVMZmNhcDVMWQ"
       ],
       "mergedIds": [
-        "expo-globalports-2026-reunira-a-la-logistica-y-la-hidrovia-con-el-offshore-en-ag"
+        "expo-globalports-2026-reunira-a-la-logistica-y-la-hidrovia-con-el-offshore-en-ag",
+        "expo-globalports-2026-la-logistica-la-energia-y-el-comercio-exterior-preparan-su"
       ],
       "digestSkip": {
         "at": "2026-10-29T00:49:38-03:00",
@@ -16377,11 +17228,11 @@
           "title": "Los Miembros examinan notificaciones y medidas antidumping en la reunión del Comité"
         }
       ],
-      "aliasUrls": [
-        "https://www.wto.org/spanish/news_s/news26_s/anti_27oct26_529_s.htm"
-      ],
       "mergedIds": [
         "los-miembros-examinan-notificaciones-y-medidas-antidumping-en-la-reunion-del-com"
+      ],
+      "aliasUrls": [
+        "https://www.wto.org/spanish/news_s/news26_s/anti_27oct26_529_s.htm"
       ],
       "digestSkip": {
         "at": "2026-10-29T15:52:19-03:00",
@@ -98922,14 +99773,14 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-10-29T18:10:35Z",
+    "ranAt": "2026-10-29T22:08:01Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
         "url": "https://www.wto.org/library/rss/latest_news_s.xml",
         "ok": true,
         "items": 7,
-        "added": 3,
+        "added": 0,
         "updated": 0,
         "skipped": 0
       },
@@ -98947,54 +99798,54 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 9,
+        "added": 10,
         "updated": 0,
-        "skipped": 6
+        "skipped": 5
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 25,
-        "added": 1,
+        "items": 55,
+        "added": 3,
         "updated": 0,
-        "skipped": 16
+        "skipped": 42
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 55,
+        "items": 53,
         "added": 4,
         "updated": 0,
-        "skipped": 39
+        "skipped": 32
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 59,
+        "items": 47,
         "added": 4,
         "updated": 0,
-        "skipped": 37
+        "skipped": 25
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 49,
+        "items": 50,
         "added": 4,
         "updated": 0,
-        "skipped": 34
+        "skipped": 32
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
         "url": "https://news.google.com/rss/search?q=(aranceles+OR+%22guerra+comercial%22+OR+%22acuerdo+comercial%22)+when:1d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 100,
+        "items": 77,
         "added": 4,
         "updated": 0,
-        "skipped": 80
+        "skipped": 57
       },
       {
         "source": "Google Noticias · Logística y fletes",
@@ -99003,7 +99854,7 @@
         "items": 100,
         "added": 4,
         "updated": 0,
-        "skipped": 68
+        "skipped": 63
       }
     ],
     "curatedDuplicates": [
@@ -99018,77 +99869,122 @@
         "curated": "eeuu-canada-seccion-338-cambia-productos-arancel-50-terciados-embalajes-alfombras-30-octubre"
       },
       {
+        "title": "Exportaciones récord: el maíz argentino avanza a todo ritmo y domina el mercado mundial",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWnNGOGhralIwZHA2T25ScGVWOGZQeFNybm5HdXNuZ25vY19OMVM2b0xqS2NENXA1RVo2c2RtSVowNElzTE5ocXVSS2k1MjhTbW1pOVVENnRQQ3lOVXgtUDZPemhaOVE3OVFSRW5HXy1DSGtvTTY4T2FMd1hPODB4aWgyemRzRHlBTjJnWmFySjE3OGNTVVV3YlB6OTJiZXVqSGFrMThEeFpGT2tNT3lyN0tjUVBrdEpuNVNrOUQ1R05VMlptVXZ6MHdhYTFMWm8?oc=5",
+        "curated": "maiz-exportaciones-record-marzo-octubre-34-2-millones-toneladas-bcr-ucrania-brasil"
+      },
+      {
         "title": "ARCA flexibiliza la exportación de minerales procesados por fundición y refinación y abre una ventaja logística para la…",
         "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOUEhaSU9SNU1kVHV1T2hkUVpzWlBocUQ4VzNLOF9fLUxqOWlpc0V4RWt2N1lhNndwazhaLXFfTVExWFJYbUN5OG5waHFKYlhwV2xPeGhfczYzS2h5RXJGMnhPR0FKQnZUSTFma1pjNm1pWTFwS3RhUmRPaGk0VzNLaDF0cUluNGpXV3ZndkI3Q3RsaGtjUHBHa0c3eGFiOXU4Z1JqZmY2a1dqVFBVRXlqN1QyeHhTWkN2OTRqa2lHTFI5enhHSjd5SlZrekh4S2NtVFhEVGtiMUpDVTZkLVVvenhuZkF1YVhNNUNydEFENGF2MERYdmd5YmgwV0VKTksxVEdnM25OTkJjMThvMEV0N1hkTGlNYVHSAZwCQVVfeXFMUHhfU1VnVnpLb2h4UTJUdzNTN1VyVGo5a1hob0J0RU5wRXZRcnc4akhpdmFvdjFyYUx2blI2VXJSOGJkaHYyYkUwdEMyUVRUbDItUzVHQWQ5c3RrckwwUnNtSzFRakZtSm9XS0FIa0NDenYxR2pIRnF6WFBsY2trYjJpbG5rbDBkLUVpdFYzZUdhTFBQeWZsZEprbXd2VFU2TUZkb0IyUURvZVdhNVViQTRXN0ZSbE56bm1WT2tpS0FkUW9uSnMwbDZHdVYzbEplaXp3RDM0blBldEVUZWhwWVA2Z2tCanJpTHpIWmlZbVBIYW1STEVRd0ZyTWtUaWVCRTRiVnEtajFOcnA5SjZmbW5lMnRKbHUxZl9rV1k?oc=5",
         "curated": "arca-rg-5917-minerales-fundidos-refinados-cualquier-aduana-exportacion"
       },
       {
-        "title": "Las exportaciones argentinas crecieron 21,4%, pero las ventas a Brasil apenas aumentaron 4,7%",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQjJxU3hhZHNfRzJnQ3hrT2NpUHN5bjk5M3JFRDBjZDB5YlZfWlpVR1BMZG56aWNlWFRrNVhIU2dWdXIwR05wTlUxdlpwWWpqNTNYRWljcDN4TTB2anQ4bzMzT29ROU43Z0RxeGlEOEtfR21ITlF0SkplMkRsc3BxSllWRDVTOTZXR2tmY3ZGV3NiNnZ6aU9aUDloeGRneHlCMEF3bTlDZmhIODZtVUZ5c2Z5ajladlNOZnBULTVJalVpV01YaGlTMzdwek51d3JwLVBrRU5ZXzRmUdIB2gFBVV95cUxNQjJxU3hhZHNfRzJnQ3hrT2NpUHN5bjk5M3JFRDBjZDB5YlZfWlpVR1BMZG56aWNlWFRrNVhIU2dWdXIwR05wTlUxdlpwWWpqNTNYRWljcDN4TTB2anQ4bzMzT29ROU43Z0RxeGlEOEtfR21ITlF0SkplMkRsc3BxSllWRDVTOTZXR2tmY3ZGV3NiNnZ6aU9aUDloeGRneHlCMEF3bTlDZmhIODZtVUZ5c2Z5ajladlNOZnBULTVJalVpV01YaGlTMzdwek51d3JwLVBrRU5ZXzRmUQ?oc=5",
+        "title": "El mercado brasileño le da la espalda al insultador serial: ya concentra apenas el 12,8 por ciento de las exportaciones",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9zNE9BTVZ2RXdkYkE0bjlvdTFXTUttSFdWOFZvazVoUVpvSU9yMkg3aEtFNkpOR1ZzUG81ZmhvY3dJcHFhVVlhMnlxbEg4WkZBQ1ZkU0lJbzl5ckctUkNuWF8wVTNGZk5FY2wwOEdFUDNUbVV6UVV6VHN6c0pndw?oc=5",
         "curated": "exportaciones-argentinas-destinos-enero-septiembre-2026-brasil-pierde-peso-estados-unidos-india"
       },
       {
         "title": "Las exportaciones argentinas crecen, pero Brasil pierde peso como principal mercado",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMGRKM1RTTTJmOVM4amViLXkzemhZOXJVVUtrUHpUUlFSbW8xdXhhYW41ZXBPTDB4UjVhZVZiblZDb28yZ1R0OFVWeXZZYzNuS051NDlIR29UVGhkenl0TVZEYlo4NmdsTWQ0WUoyM3Q2SF9lX1gyU0ZkZUpIbnR3VEJCZ2RfYXdaWmwtcFlDYXZ3ZnM0MUw5YTVaZ0l6cERtVV9aXzd1VmFOSEx6STVGRTN0TkI0UFhWMkRtONIBtgFBVV95cUxOU3E2OHh2bGdQSGZtdXFtcXNzQld0UzBpTzhIVlhtLUhvZmY3UTg4N3dCc2dMYUQxUkkzX3lXcjhXblNLcWlzTnVOWkFNZGZFakdwbGtoM01nazRVWkpRWkdlWnBTeTUxeUJvTTV3VTNPWlIyTWNaS2llcHo0Tkxva0xVeTZHdHl2Q3ZwOFJSOEFjdVJ4OUZYNzBybktGTXBkbDlFNWRYYkhzUHljV1ZjM1JqZTRqUQ?oc=5",
-        "curated": "exportaciones-argentinas-destinos-enero-septiembre-2026-brasil-pierde-peso-estados-unidos-india"
-      },
-      {
-        "title": "Brasil pierde participación en las exportaciones argentinas, mientras crecen las ventas a Estados Unidos y Asia",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNVU5tM1ppUC1FQXRKMDNiTlJKVGk4cHN2OEUwTGdtUTlYLTdZTkJSaklncVRsS3BVTGl1ZXdQN0ZDWXVyUExtNUZjbFQzYkdSSm45YjNhUGROOGluZ2p1c0RTZzRQQ1VYQnhMOXFZQ1ptVzl3NXlEaWxRc3FYRTgteXlIeUpiLXBUdDBzeEp6NDc5UkhiTzIxMXdtN0toenlDYU13VVBmcHhWeXNTdVFIWTc0Njk1bEczeFVKd1FncXVXUHZPdHM5ZnZRVXNoc3lxRHFnY0N6UQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQY2kxS0RFdWdlSWhaeFRIS2tqVWdtMUdJRnk1OXVQLVVzcFRBRWVQSXlacHdnVmpHRzVaYndxNFRnLWo2clYxWm1WQmtTT3RjTVdlcFRBUTZCNGk3Q0RYcDE0OUs1YWhXbEQyMERNNDVBX0I5UmtzOUM5TzRScGhoUGFvdXR2cjZRQlpCVVc0QTVxMXVDejVGZ1FNNUNfOFpaT2tDZmxzRzFnU0FkQVlqeDAyU2dMb2I1MmQ2dNIBtgFBVV95cUxQYWJlX3I1dTB5SWcxMndWWHpaeDE5Z0U0SlVmQjFmUUFhV0dScEhjRU9qWnFpSlB0dS1KWXFRZ01FTmgzdFpyVUhOVUx2MmJqdUZCbkp1YWdnbFZqazI1ellTQ1NEUWZ1YkY4NjIxQk5FaDJYZTVIcHVBQ2JQWVpHWTJQeUp0ZF9BNWNwUDFaV0pCdWhRaVlodnpUR1M1eGQ2UzdiaW1Fc1RqM25HYUJRV3doRGY3QQ?oc=5",
         "curated": "exportaciones-argentinas-destinos-enero-septiembre-2026-brasil-pierde-peso-estados-unidos-india"
       },
       {
         "title": "ARCA permite registrar exportaciones de minerales fundidos y refinados en cualquier aduana habilitada",
         "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPRU5XcFV6UmFnUFNiZHN2bFp1UEdDa1dqc2xlUEZHb3V4UkFERS1ZM292WWp4enByby0wSl9wcS1nd01mYUJFT0hNWS1PeWlKby1NUXlMRGRjVU9EZHJxZDNsZTBfY0M5Uy1rUmwyV1p5bnNzaEl4YWVqd2M3UlBoMG9OTXBsek9scDQ4WWEyNlNRYnM3N25faVNGTG1wel9Kell2YzNtZElVWVFEMUI4M20tUXJXNXpSLUZrX2V1azRvTTk4NVA0YXE0NmVHajdKdklsTWxLUllNc3ZJWGRPOVhwcjQzTEM1WUI4YTZsYw?oc=5",
         "curated": "arca-rg-5917-minerales-fundidos-refinados-cualquier-aduana-exportacion"
+      },
+      {
+        "title": "Las exportaciones de carne vacuna argentina crecieron un 5% en los primeros nueve meses del año",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORDcxYlhDdkE3aUdVSUxtSXBZVlFoVmp5U3RCUE12cHlDWk9kZ2lIWXpaRURnWXJheVpVaThIM3RZR2pwbTV0Q2t3ZWtYaUd5ZlJzTUlCcGR5VkRDSjFnRnJWZzFYN1pjZHNLOFliY05COW1hVWpwWGxHWW5JZnNweXJGdFVkQWotZXlqNkZFMEFPc1d4al9mbERRdWtxaDhmR1pHMGV0dVh1Q3BKSXpCWktEeGJTbUtjZ0JaWGdZLWNfT3V3TmVzcVY0X1EtN1pRdHc?oc=5",
+        "curated": "carne-vacuna-exportaciones-enero-septiembre-2026-549600-toneladas-china-cuota-rosgan"
+      },
+      {
+        "title": "El IICA advierte: Si las restricciones europeas a los pesticidas aumentan, estarán en riesgo miles de millones en…",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNRVFyMXY3Sl9ZN3M0blY3UFBxLUkxUUo3clpnZnJJRmpJcl9FeTY2YnA5T2Jsb1hweHVFNmlRQ2NhdUd1TWlaNWMzbENtNjBqVHlIMk1GUUhJdGVTUGdfdkdoMnpiZUhINVcwOWZFc3cwazBVNXlzM1BFSE1HSE52a01uRkQ2dUdxbkp6YkJwR19GQno0c1dSVl91NXdLcHVkY2VNOXRBcjc1VC1qZVRHRGRGWkx4d2ZOTmtQVWZ2YkVsRUVWUGgzdm5GZ0c0VU1uRy1BMGVJOTI5eWctQlJ2ZTlRYklUVFFoOGhJSlU0WHNyN2tkMkE?oc=5",
+        "curated": "iica-estudio-ue-limites-residuos-pesticidas-omnibus-argentina-4620-millones"
+      },
+      {
+        "title": "Carne vacuna: por qué Argentina podría no completar el cupo de exportación a China",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQU3hIZWRKUmRoS1dMZ09mUFI1b0duOGlGUm9obTlQZ1JqTlRobjdOQ3lMQmtRU2d3WVVPRFJZT0pxYnFKN1JteDYzNVVLbXcwYkxOdzFBNXNfMWsxcldEZ1Y3c1l0NnlDRzZRUERaS1ZMOUNZWUQySXNiM0hRZmpPZjNpSHBLSkJMLUNYaTlhWTlYcWpkbWdFR1duMTFZazluZGg4eEdXQ1dUY1NiSi1QaUIycGFSa2VXbWxKUmFPWVNOUQ?oc=5",
+        "curated": "carne-vacuna-exportaciones-enero-septiembre-2026-549600-toneladas-china-cuota-rosgan"
+      },
+      {
+        "title": "Una complicación para la carne bovina argentina: no llegaría a cumplir con la cuota exportadora a China",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVXExNDBtWTl0cHN3UEJFOThaOEo3S2hLYjA0NDZKeDBTeFh2Rno5WUVYZno4cFI2dmtuc0NiRC1WVWpET2h6MW04RG9Nalc2MXlDWG9NQ3JfOWFUMXFoSURxazVmTVA1RkwwUzVVSkVfbGJNSEVDanQ1YmVIRXVtelRSMUF0RDNOOHRpVjRBWjFTUGo5OVlCdHBOOWZBYW1XdXdFMmxlUmZkX2ZpbTRDTHNvTkx0c1o0OWVWQUZaRFdQakhvRHZlVC1sLVo?oc=5",
+        "curated": "carne-vacuna-exportaciones-enero-septiembre-2026-549600-toneladas-china-cuota-rosgan"
+      },
+      {
+        "title": "La demanda mundial de carga aérea creció un 7,7% en septiembre",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOb2NKaWw3WndZZmNBVFljbzRXRWtoWFBoZDJXQmJ0M1BxaUVVNVlWY1lpODY0ZzVRU3k3ZjRDeWN4a2FoMWdVSGg5aUJkaWdGbmEyVDNMMzBsQkdkenNuOTUtSkVnblBGc1RzM1pzRUkzamd0WXZkRC1fX3l5LW4ycmxIUDhUQ1Vhc2ZIUjk3b0dpR19odU9tX1JtWW5BM1M1Qi1TOHBsbVpkRDJ4V1plcQ?oc=5",
+        "curated": "iata-carga-aerea-septiembre-2026-7-7-por-ciento-combustible"
+      },
+      {
+        "title": "La demanda de carga aérea creció 7,7% en septiembre",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQWVreTBNT3Ezc2kwdlE3TDRuMncxX2dGZFd0SDk1QVk1LTh6THpnVmUwR2QxRTNJS3BySjUyb1pNVDdzbk9Obm0yTUpfRXpMUXVUUEp0WHk0ZTR5Si1xYUtMNHFoc3lXUlJQWlJUSE01RUhNQWkwX0NjbklNcEhWNmNZMjRWMkgtM2taM21yNA?oc=5",
+        "curated": "iata-carga-aerea-septiembre-2026-7-7-por-ciento-combustible"
+      },
+      {
+        "title": "De Vaca Muerta al Atlántico: Argentina se apresta a dar un salto como exportador petrolero",
+        "url": "https://www.infobae.com/america/agencias/2026/10/29/de-vaca-muerta-al-atlantico-argentina-se-apresta-a-dar-un-salto-como-exportador-petrolero/",
+        "curated": "vmos-vaca-muerta-oil-sur-85-por-ciento-primera-exportacion-marzo-2027-punta-colorada"
+      },
+      {
+        "title": "Argentina ultima una obra que prevé generar hasta 20.000 millones de dólares anuales en exportaciones petroleras (C)",
+        "url": "https://es-us.noticias.yahoo.com/argentina-ultima-obra-prev%C3%A9-generar-154334077.html",
+        "curated": "vmos-vaca-muerta-oil-sur-85-por-ciento-primera-exportacion-marzo-2027-punta-colorada"
+      },
+      {
+        "title": "La carga aérea creció un 7,7% en el mundo en el mes de septiembre",
+        "url": "https://noticiasargentinas.com/economia/la-carga-aerea-crecio-en-el-mundo-en-el-mes-de-septiembre_a6ae34b5683a79a91f38b16fb",
+        "curated": "iata-carga-aerea-septiembre-2026-7-7-por-ciento-combustible"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "los-miembros-de-la-omc-examinan-medidas-de-salvaguardia-y-observan-un-mayor-recu",
+        "main": "expo-globalports-2026-reunira-a-los-actores-de-la-logistica-y-el-comercio-exteri",
         "merged": [
-          "los-miembros-examinan-notificaciones-y-medidas-antidumping-en-la-reunion-del-com"
+          "expo-globalports-2026-la-logistica-la-energia-y-el-comercio-exterior-preparan-su"
         ]
       },
       {
-        "main": "un-portacontenedores-fue-atacado-por-tres-drones-al-sudeste-de-shabla",
+        "main": "mas-flexibilidad-para-exportar-minerales",
         "merged": [
-          "portacontenedores-es-atacado-por-drones"
+          "arca-flexibiliza-la-exportacion-de-minerales-procesados"
         ]
       },
       {
-        "main": "ruben-perez-cda-el-rol-del-despachante-de-aduana-en-un-comercio-exterior-en-tran",
+        "main": "centro-despachantes-de-aduana-de-la-republica-argentina-preinscripcion-online-a",
         "merged": [
-          "el-rol-del-despachante-de-aduana-en-un-comercio-exterior-en-transformacion"
+          "centro-despachantes-de-aduana-de-la-republica-argentina-el-cda-saluda-a-su-filia"
         ]
       },
       {
-        "main": "boluda-shipping-firma-adquisicion-de-samskip",
+        "main": "el-portacontenedores-atacado-por-drones-marinos-se-hunde-frente-a-la-costa-de-bu",
         "merged": [
-          "boluda-shipping-compra-la-naviera-islandesa-samskip"
+          "portacontenedores-se-hunde-tras-ser-alcanzado-por-drones-navales-frente-a-costas"
         ]
       },
       {
-        "main": "cuarta-ronda-de-negocios-mercosur-ue-una-oportunidad-para-conectar-las-empresas",
+        "main": "pauny-entro-en-crisis-por-caida-de-ventas-y-apertura-de-importaciones",
         "merged": [
-          "se-realizo-la-cuarta-ronda-de-negocios-mercosur-union-europea-para-empresas-chaq"
+          "fabrica-de-tractores-entro-en-crisis-por-la-caida-de-ventas-y-apertura-de-import"
         ]
       },
       {
-        "main": "la-carga-aerea-crecio-un-7-7-en-el-mundo-en-el-mes-de-septiembre",
+        "main": "mexico-busca-reducir-aranceles-automotrices-y-al-acero-en-negociaciones-con-esta",
         "merged": [
-          "la-carga-aerea-mundial-crecio-7-7-en-septiembre"
+          "mexico-negocia-con-ee-uu-reducir-aranceles-a-autos-y-acero"
         ]
       }
     ],
     "googleNews": {
-      "pending": 21,
-      "resolved": 21,
+      "pending": 23,
+      "resolved": 23,
       "withSummary": 16,
       "withPhoto": 0,
       "failed": 0,
-      "duplicates": 1
+      "duplicates": 2
     }
   },
   "stories": [
