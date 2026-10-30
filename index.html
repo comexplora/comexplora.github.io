@@ -1803,7 +1803,10 @@ const FREQ_LABEL = { diaria: 'Dato diario', semanal: 'Dato semanal', mensual: 'D
 const fmtChecked = iso => { const d = new Date(iso); return isNaN(d) ? '' : `${shortDate(d)} ${fmtTime.format(d)} h`; };
 
 async function loadFeeds(){
-  const byKey = new Map(state.items.map(i => [i.primary.url, i]));
+  // Clave: id de la nota (único). Antes era el enlace original, y las notas de la redacción que citan el mismo
+  // documento (por ejemplo, el mismo informe del INDEC) se pisaban entre sí y desaparecían de las listas (30/10).
+  const itemKey = i => i.id || i.primary.url;
+  const byKey = new Map(state.items.map(i => [itemKey(i), i]));
   let indicators = state.indicators, stories = state.stories, updated = state.updatedAt, live = false;
   for (const src of CONFIG.sources){
     try {
@@ -1815,7 +1818,7 @@ async function loadFeeds(){
       if (feed.updatedAt && (!updated || new Date(feed.updatedAt) > new Date(updated))) updated = feed.updatedAt;
       for (const raw of feed.items || []){
         const it = normalize(raw); if (!it) continue;
-        byKey.set(it.primary.url, it); // deduplica por enlace original
+        byKey.set(itemKey(it), it); // la misma nota en dos fuentes (inline y JSON) queda una sola vez
       }
     } catch (e) { console.warn('Fuente no disponible:', src, e); }
   }
@@ -2211,9 +2214,33 @@ function deadlineInfo(d){
   return { date: d.date, label: d.label, url: d.url || '', start, end, monthOnly: !day,
     days: Math.round((start - today) / DAY_MS), past: end < today, thisMonth: !day && start <= today && end >= today };
 }
+/* Fechas repetidas: varias notas pueden cargar el mismo evento con otro texto
+   («INDEC: intercambio comercial de octubre» / «INDEC publica el intercambio…»).
+   Se unen si caen el mismo día (o mes) y comparten al menos el 60% de las raíces de palabras
+   del texto más corto. Queda el texto de la nota más reciente. Misma regla en scripts/deadlines.py. */
+const DL_STOP = new Set('de del la las el los en con por para a al y o u e un una que se su sus sobre desde hasta entre como mas ya es son lo le les rige empieza empiezan publica vence nueva nuevo nuevas nuevos primer primera segun fecha dia'.split(' '));
+function dlRoots(label){
+  const s = norm(label).replace(/vmos/g, 'vaca muerta oil sur').replace(/crudo/g, 'petroleo');
+  return new Set((s.match(/[a-z0-9]+/g) || []).filter(w => w.length > 1 && !DL_STOP.has(w)).map(w => w.slice(0, 5)));
+}
+function sameDeadline(a, b){
+  if (a.date !== b.date) return false;
+  const A = a.roots || (a.roots = dlRoots(a.label)), B = b.roots || (b.roots = dlRoots(b.label));
+  if (!A.size || !B.size) return false;
+  let n = 0; A.forEach(w => { if (B.has(w)) n++; });
+  return n / Math.min(A.size, B.size) >= 0.6;
+}
+function dedupeDeadlines(list){
+  const out = [];
+  [...list].sort((a, b) => +itemDate(b.it) - +itemDate(a.it)).forEach(d => {
+    const g = out.find(x => sameDeadline(x, d));
+    if (g) { g.notes = (g.notes || 1) + 1; if (!g.url && d.url) g.url = d.url; } else out.push(d);
+  });
+  return out;
+}
 function deadlineList(items = state.items){
-  return items.flatMap(it => (it.deadlines || []).map(d => { const x = deadlineInfo(d); return x ? { ...x, it } : null; }).filter(Boolean))
-    .sort((a, b) => a.start - b.start || a.label.localeCompare(b.label, 'es'));
+  const list = items.flatMap(it => (it.deadlines || []).map(d => { const x = deadlineInfo(d); return x ? { ...x, it } : null; }).filter(Boolean));
+  return dedupeDeadlines(list).sort((a, b) => a.start - b.start || a.label.localeCompare(b.label, 'es'));
 }
 const upcomingDeadlines = () => deadlineList().filter(d => !d.past);
 function whenText(d){
@@ -2232,7 +2259,7 @@ function deadlineRow(d, { link = true } = {}){
   const soon = !d.past && !d.monthOnly && d.days <= 7;
   return `<li class="dl-row${soon ? ' soon' : ''}${d.past ? ' past' : ''}">${dateBadge(d)}<div class="dl-body">
     <p class="dl-label">${esc(d.label)}</p>
-    <span class="dl-meta"><span class="sr">${esc(dateLong(d))}. </span><b>${esc(whenText(d))}</b>${link ? ` · <a ${hrefTo(d.it)}>Ver la nota</a>` : ''}${d.url ? ` · <a href="${esc(d.url)}" target="_blank" rel="noopener noreferrer">Fuente de la fecha</a>` : ''}</span>
+    <span class="dl-meta"><span class="sr">${esc(dateLong(d))}. </span><b>${esc(whenText(d))}</b>${link ? ` · <a ${hrefTo(d.it)}>Ver la nota</a>${d.notes > 1 ? ` <small>(${d.notes} notas)</small>` : ''}` : ''}${d.url ? ` · <a href="${esc(d.url)}" target="_blank" rel="noopener noreferrer">Fuente de la fecha</a>` : ''}</span>
   </div></li>`;
 }
 const deadlineListHtml = (list, opts) => `<ul class="dl-list">${list.map(d => deadlineRow(d, opts)).join('')}</ul>`;
