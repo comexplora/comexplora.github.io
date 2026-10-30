@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-10-30T18:02:39Z",
+  "updatedAt": "2026-10-30T22:01:41Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -134,20 +134,16 @@
     {
       "id": "tc-mayorista",
       "label": "Tipo de cambio mayorista ARS/USD",
-      "value": "$ 1.539,59",
-      "period": "Com. A 3500 · 29 oct 2026",
+      "value": "$ 1.537,35",
+      "period": "Com. A 3500 · 30 oct 2026",
       "source": "BCRA",
       "url": "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp",
       "group": "Mercados",
-      "obsDate": "2026-10-29",
-      "change": "+0,1% vs. día hábil anterior",
-      "trend": "up",
-      "checkedAt": "2026-10-30T18:03:29Z",
+      "obsDate": "2026-10-30",
+      "change": "-0,1% vs. día hábil anterior",
+      "trend": "down",
+      "checkedAt": "2026-10-30T22:02:37Z",
       "history": [
-        [
-          "2026-09-17",
-          1510.0024
-        ],
         [
           "2026-09-18",
           1512.3332
@@ -263,11 +259,15 @@
         [
           "2026-10-29",
           1539.593
+        ],
+        [
+          "2026-10-30",
+          1537.3487
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-30T18:03:29Z"
+      "lastAttempt": "2026-10-30T22:02:37Z"
     },
     {
       "id": "soja",
@@ -284,7 +284,7 @@
         "date": "2026-10-29",
         "ars": 547000.0
       },
-      "checkedAt": "2026-10-30T18:03:29Z",
+      "checkedAt": "2026-10-30T22:02:38Z",
       "_prev": {
         "date": "2026-10-28",
         "ars": 550000.0
@@ -369,7 +369,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-30T18:03:29Z"
+      "lastAttempt": "2026-10-30T22:02:38Z"
     },
     {
       "id": "brent",
@@ -382,7 +382,7 @@
       "obsDate": "2026-10-27",
       "change": "-3,9% vs. día anterior",
       "trend": "down",
-      "checkedAt": "2026-10-30T18:03:32Z",
+      "checkedAt": "2026-10-30T22:02:40Z",
       "history": [
         [
           "2026-09-16",
@@ -507,7 +507,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-10-30T18:03:32Z"
+      "lastAttempt": "2026-10-30T22:02:40Z"
     },
     {
       "id": "maiz",
@@ -524,7 +524,7 @@
         "date": "2026-10-29",
         "ars": 275400.0
       },
-      "checkedAt": "2026-10-30T18:03:32Z",
+      "checkedAt": "2026-10-30T22:02:40Z",
       "_prev": {
         "date": "2026-10-28",
         "ars": 277800.0
@@ -609,7 +609,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-30T18:03:32Z"
+      "lastAttempt": "2026-10-30T22:02:40Z"
     },
     {
       "id": "trigo",
@@ -626,7 +626,7 @@
         "date": "2026-10-29",
         "ars": 311000.0
       },
-      "checkedAt": "2026-10-30T18:03:32Z",
+      "checkedAt": "2026-10-30T22:02:40Z",
       "_prev": {
         "date": "2026-10-28",
         "ars": 317300.0
@@ -711,160 +711,593 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-10-30T18:03:32Z"
+      "lastAttempt": "2026-10-30T22:02:40Z"
     }
   ],
   "items": [
     {
-      "id": "senado-media-sancion-ley-mercados-carbono-creditos-exportacion-renare",
+      "id": "peru-aseguran-que-restablecimiento-de-relaciones-diplomaticas-entre-peru-y-mexic",
+      "datetime": "2026-10-30T22:00:32Z",
       "date": "2026-10-30",
+      "firstSeen": "2026-10-30T22:01:41Z",
+      "title": "Perú: Aseguran que restablecimiento de relaciones diplomáticas entre Perú y México impulsará integración económica",
+      "summary": "El restablecimiento de las relaciones diplomáticas entre Perú y México, desde agosto pasado, abre la oportunidad…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Perú",
+        "México"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
       "kind": "noticia",
-      "title": "El Senado aprobó la ley de mercados de carbono: los créditos se podrán exportar sin derechos y con un registro nacional",
-      "summary": "La media sanción salió 60 a 2 y el proyecto pasa a Diputados. Crea el ReNaRe, fija en 0% los derechos de exportación de los créditos y exige autorización estatal para venderlos a otros países que quieran contarlos en sus metas. Royón estimó exportaciones de entre USD 1.400 y 3.900 millones; las fuentes difieren sobre si la estabilidad fiscal es de 10 o 30 años.",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/peru-aseguran-que-restablecimiento-de-relaciones-diplomaticas-entre-peru-y-mexico-impulsara-integracion-economica/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "brasil-puerto-de-itajai-continua-con-dragado-diario-para-asegurar-continuidad-op",
+      "datetime": "2026-10-30T21:30:50Z",
+      "date": "2026-10-30",
+      "firstSeen": "2026-10-30T22:01:41Z",
+      "title": "Brasil: Puerto de Itajaí continúa con dragado diario para asegurar continuidad operativa",
+      "summary": "La Superintendencia del Puerto de Itajaí (SPI) informó que mantiene operaciones diarias e ininterrumpidas de dragado…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Brasil"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/brasil-puerto-de-itajai-continua-con-dragado-diario-para-asegurar-continuidad-operativa/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "bunge-cierra-su-planta-en-argentina-y-culpa-a-las-importaciones-y-al-conflicto-e",
+      "datetime": "2026-10-30T21:25:34Z",
+      "date": "2026-10-30",
+      "firstSeen": "2026-10-30T22:01:41Z",
+      "title": "Bunge cierra su planta en Argentina y culpa a las importaciones y al conflicto en Ormuz",
+      "summary": "Bunge frena su planta de fertilizantes y culpa a las importaciones y al conflicto en Ormuz. El impacto industrial y la postura oficial.",
+      "body": [],
+      "keyData": [],
       "topics": [
         "Argentina",
-        "Exportaciones",
-        "Regulaciones",
-        "Impuestos"
+        "Importaciones",
+        "Transporte marítimo",
+        "Geopolítica y comercio"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "tanker",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "El Destape",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.eldestapeweb.com/economia/bunge-cierra-planta-argentina-culpa-importaciones-conflicto-ormuz-20261030182426",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-30T22:01:41Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcUYySnhkMnZ1Q1MyX1UtVl8yVjBSWjMzcTNUSUhwRlNFUURkQmdKZVVPcHF6R2hvejhfTUFJcndhQURNNUJGbVZsNl96eVVPWWhvVHdhajVaTk14Tkg1LWxQaUN5Qk1MbDk5VlNLRjlad21sREhSemE3LUlGb21Ed1ZXcjBvSlhIaFJ3c0dHdndBQmh2bExHZXFFQzh5SHd6RFRGVFZGY3BfRmZBMk5lZHo2Ui13dHh3M2fSAc4BQVVfeXFMTVpoTjU3aEdFNHFYc0dhYnlFV21LaGZ5bXdiclFKWXFpZ25pbUhRYmY4Z05kWUNzVXVsLUloaFgyM0pkaDlvbFdmMlpLWkZBTHA2ZzU0ZVhwV1U1S1BGd0pVNThYRHB1RldtRWdGelk1NlJqWHR1MkZXRnVqaDdHcThXd0U1eGV3bDY5SEZSQjRsbWpGanFrVzFEaE1GNU11cXY4UWlWYjNDbGMtNngyU2x6THhqUVFNeFhkV2NpcUg0bGNZaFozQzJwSEIxWEE?oc=5"
+    },
+    {
+      "id": "canal-de-panama-modifica-sistema-de-reserva-de-transitos",
+      "datetime": "2026-10-30T21:10:46Z",
+      "date": "2026-10-30",
+      "firstSeen": "2026-10-30T22:01:41Z",
+      "title": "Canal de Panamá modifica sistema de reserva de tránsitos",
+      "summary": "El Canal de Panamá actualizó los criterios para reasignar los cupos que sean cancelados o queden…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Transporte marítimo",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Panamá"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/canal-de-panama-modifica-sistema-de-reserva-de-transitos/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "las-exportaciones-de-carne-vacuna-marcaron-record-mientras-el-consumo-interno-to",
+      "datetime": "2026-10-30T21:09:00Z",
+      "date": "2026-10-30",
+      "firstSeen": "2026-10-30T22:01:41Z",
+      "title": "Las exportaciones de carne vacuna marcaron récord, mientras el consumo interno tocó su piso histórico",
+      "summary": "Las ventas externas crecieron 37% entre enero y septiembre, impulsadas por los precios internacionales. En el mercado local, el consumo aparente per cpita cay a 46 kilos anuales.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
       ],
       "countries": [
         "Argentina"
       ],
       "tags": [
-        "Mercado de carbono",
-        "Créditos de carbono",
-        "Senado",
-        "ReNaRe",
-        "Acuerdo de París",
-        "CORSIA",
-        "Derechos de exportación",
-        "Misiones"
+        "Carne"
       ],
-      "visual": "chart",
-      "impact": 2,
+      "visual": "livestock",
+      "impact": 1,
       "affectsArgentina": true,
-      "argentinaNote": "Abre un nuevo rubro exportable: créditos de carbono con 0% de derechos de exportación y reglas para venderlos al exterior.",
-      "argentinaImpact": {
-        "change": "El Senado aprobó un marco para registrar y exportar créditos de carbono, con 0% de derechos de exportación y autorización estatal para transferencias que otro país impute a su meta climática.",
-        "who": "Desarrolladores de proyectos forestales, agropecuarios y de energía, provincias con programas jurisdiccionales, compradores internacionales de créditos y emisores de instrumentos financieros.",
-        "sectors": [
-          "Forestal",
-          "Agro",
-          "Energía",
-          "Mercado de capitales"
-        ],
-        "flows": {
-          "importaciones": false,
-          "exportaciones": true,
-          "logistica": false,
-          "aranceles": true
-        }
-      },
-      "body": [
-        "El Senado dio media sanción en la noche del jueves 29 de octubre al proyecto que crea un marco regulatorio para los mercados de carbono en la Argentina. La votación en general terminó 60 a 2, según el parte de prensa de la Cámara alta y las crónicas de Parlamentario, Los Andes y El Argentino; La Nación informó 59 votos afirmativos. Los dos rechazos fueron de los senadores de Santa Cruz José María Carambia y Natalia Gadano. El texto ahora pasa a la Cámara de Diputados.",
-        "Para el comercio exterior, el punto central es que la ley trata a los créditos de carbono como un producto exportable: fija en 0% los derechos de exportación sobre sus transferencias al exterior y ordena las reglas para venderlos a otros países. La miembro informante, la neuquina Nadia Márquez (La Libertad Avanza), lo resumió en el recinto diciendo que la iniciativa «abre a la Argentina a un nuevo campo de exportación». La senadora salteña Flavia Royón, autora de uno de los proyectos, estimó que el país podría exportar entre USD 1.400 y 3.900 millones si cuenta con el marco regulado y las autorizaciones necesarias.",
-        "## Qué establece el proyecto",
-        "El dictamen unificó tres iniciativas: la de Royón, que proponía el marco regulatorio general; la de los misioneros Sonia Rojas Decut y Carlos Arce, que fijaba presupuestos mínimos ambientales y vinculaba estos mercados con el mercado de capitales; y la del chaqueño Jorge Capitanich, sobre activos financieros ambientales. Crea el Registro Nacional de Reducción de Emisiones (ReNaRe), una plataforma pública donde deben inscribirse los proyectos y que sirve para seguir cada crédito y evitar que una misma reducción se cuente dos veces. Cada crédito equivale a una tonelada de emisiones evitada o capturada.",
-        "El texto define al crédito como un bien inmaterial con valor patrimonial propio, separado del inmueble o del recurso natural que lo genera, según La Nación y El Argentino. Las reducciones tienen que ser reales, medibles, verificables y adicionales, y cumplir salvaguardas sociales y ambientales. La Nación detalla dos tipos de unidades: los Aportes de Mitigación, pensados para el mercado voluntario o para la meta climática argentina, y las Unidades de Resultado de Mitigación Transferibles, que pueden negociarse en el exterior. La autoridad de aplicación es el Poder Ejecutivo, y las provincias y la Ciudad de Buenos Aires pueden designar sus propios organismos y llevar adelante programas jurisdiccionales, en respeto de su dominio sobre los recursos naturales.",
-        "## Exportar créditos: las reglas para vender afuera",
-        "Los créditos podrán venderse en mercados locales e internacionales. Cuando el comprador sea otro país que quiera contar esa reducción para su propia meta climática, la transferencia necesitará autorización del Estado y un ajuste correspondiente en el inventario nacional de gases de efecto invernadero, el mecanismo previsto en el artículo 6 del Acuerdo de París para evitar el doble conteo. Según Parlamentario, los créditos también podrán usarse en el esquema CORSIA, el sistema de compensación de emisiones de la aviación internacional.",
-        "El proyecto habilita además instrumentos financieros respaldados por estos activos, cuya oferta pública podrá regular la Comisión Nacional de Valores (CNV). Royón aclaró que la ley no crea un mercado obligatorio de cumplimiento.",
-        "## La estabilidad fiscal, el punto que dividió la votación",
-        "El único artículo que se votó dividido fue el 14, sobre estabilidad fiscal frente a los tributos nacionales para los proyectos registrados. Las fuentes no coinciden en el plazo. El parte de prensa del Senado menciona un régimen de diez años, que era lo que fijaba el dictamen. Parlamentario informó que en la sesión se incorporó un cambio que llevó el plazo de 10 a 30 años, que el bloque justicialista no aceptó, y que el artículo se aprobó con 44 votos a favor y 19 en contra. La Nación, Los Andes y El Argentino también informan 30 años. Hasta que circule el texto aprobado, el plazo exacto debe tomarse con cautela.",
-        "Según Parlamentario, los otros artículos modificados en el recinto (3, 5, 6 y 13) se aprobaron 61 a 2. Capitanich acompañó el dictamen, pero lamentó que no se incluyeran los servicios ecosistémicos y criticó la ausencia en el debate del secretario del área, Daniel Scioli.",
-        "## Quiénes lo impulsan y quiénes lo cuestionan",
-        "Las comisiones de Legislación General, Ambiente y Desarrollo Sustentable y Presupuesto y Hacienda trataron el tema en plenario y firmaron el dictamen unificado a principios de septiembre, con una disidencia parcial de Rojas Decut. El 31 de agosto, la Mesa Argentina de Carbono, que reúne a más de 50 empresas y organizaciones y contabiliza más de 40 proyectos en marcha, había pedido que la ley definiera la titularidad de los créditos, su naturaleza jurídica y un mecanismo de autorización y ajuste para acceder a los mercados internacionales, y advirtió que sin reglas claras los inversores podían preferir a otros países de la región.",
-        "Misiones es el caso que más se citó. Desde 2021 tiene un programa jurisdiccional basado en la selva paranaense, con más de 10,9 millones de créditos certificados bajo estándares de Verra para el período 2017–2022, según Canal 12 de Misiones, y un reparto de ingresos propio que la ley nacional no impone al resto de las provincias.",
-        "Las críticas vinieron del ambientalismo. Según La Nación, el exdiputado Juan Carlos Villalonga, del Círculo de Políticas Ambientales, calificó la aprobación de «irresponsabilidad total», cuestionó que casi no hubiera debate y advirtió que podría debilitar la Ley de Bosques Nativos. La FARN ya había objetado que los mercados permitan compensar emisiones sin reducirlas en origen, además de los beneficios fiscales y las transferencias al exterior sin resguardos suficientes.",
-        "## Qué sigue",
-        "Con la media sanción, el proyecto fue girado a la Cámara de Diputados. Si se convierte en ley, los desarrolladores de proyectos tendrán un registro nacional y reglas para exportar créditos sin derechos, aunque cada venta que otro país impute a su meta climática seguirá necesitando autorización oficial."
-      ],
-      "keyData": [
-        [
-          "Votación en general en el Senado",
-          "60 a favor y 2 en contra"
-        ],
-        [
-          "Exportaciones potenciales (según Royón)",
-          "USD 1.400–3.900 millones"
-        ],
-        [
-          "Derechos de exportación de los créditos",
-          "0%"
-        ],
-        [
-          "Estabilidad fiscal (artículo 14)",
-          "10 años según el Senado; 30 según Parlamentario, La Nación y otros"
-        ],
-        [
-          "Registro que crea",
-          "ReNaRe"
-        ],
-        [
-          "Créditos certificados de Misiones (2017–2022)",
-          "Más de 10,9 millones"
-        ],
-        [
-          "Próximo paso",
-          "Cámara de Diputados"
-        ]
-      ],
-      "explainer": {
-        "what": "El Senado dio media sanción, con 60 votos a favor y 2 en contra, a un marco regulatorio para generar, registrar y exportar créditos de carbono.",
-        "why": "Convierte a los créditos en un producto exportable con 0% de derechos de exportación y fija reglas para venderlos a otros países; Royón estimó que el país podría exportar entre USD 1.400 y 3.900 millones.",
-        "who": "Desarrolladores de proyectos forestales, agropecuarios y de energía, provincias con programas propios como Misiones, compradores internacionales de créditos y el mercado de capitales.",
-        "products": [
-          "Créditos de carbono",
-          "Aportes de Mitigación",
-          "Unidades de Resultado de Mitigación Transferibles"
-        ],
-        "next": "El proyecto fue girado a la Cámara de Diputados, que debe tratarlo para que se convierta en ley.",
-        "nextSource": {
-          "name": "Senado de la Nación",
-          "url": "https://www.senado.gob.ar/prensa/24583/noticias"
-        }
-      },
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
       "sources": [
         {
-          "name": "Senado de la Nación: parte de prensa de la sesión",
-          "type": "Organismo oficial",
-          "url": "https://www.senado.gob.ar/prensa/24583/noticias",
-          "primary": true
-        },
-        {
-          "name": "Parlamentario: los senadores dieron luz verde al mercado de carbono",
-          "type": "Medio especializado",
-          "url": "https://www.parlamentario.com/2026/10/29/los-senadores-dieron-luz-verde-al-desarrollo-del-mercado-de-carbono/"
-        },
-        {
-          "name": "La Nación: las claves de la ley de mercados de carbono",
-          "type": "Medio de comunicación",
-          "url": "https://www.lanacion.com.ar/sociedad/negocio-verde-o-riesgo-ambiental-las-claves-de-la-ley-de-mercados-de-carbono-que-aprobo-el-senado-nid30102026/"
-        },
-        {
-          "name": "Los Andes",
-          "type": "Medio de comunicación",
-          "url": "https://www.losandes.com.ar/politica/el-senado-dio-luz-verde-una-ley-regular-los-mercados-carbono-argentina-n6012358"
-        },
-        {
-          "name": "El Argentino Diario",
-          "type": "Medio de comunicación",
-          "url": "https://elargentinodiario.com.ar/politica/30/10/2026/senado-media-sancion-creditos-de-carbono/"
-        },
-        {
-          "name": "Canal 12 Misiones",
-          "type": "Medio de comunicación",
-          "url": "https://www.canal12misiones.com/noticias-de-misiones/politica-politica/senado-mercado-de-carbono"
-        },
-        {
-          "name": "Mercado: la Mesa Argentina de Carbono en el Senado (agosto de 2026)",
-          "type": "Medio especializado",
-          "url": "https://mercado.com.ar/gestion-sustentable/mesa-argentina-de-carbono-pidio-al-senado-tres-definiciones-para-atraer-inversiones"
+          "name": "BAE Negocios",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.baenegocios.com/economia/las-exportaciones-de-carne-vacuna-marcaron-record-mientras-el-consumo-interno-toco-su-piso-historico/",
+          "primary": true,
+          "author": ""
         }
       ],
-      "absorbs": [
-        "el-senado-aprobo-la-ley-de-carbono-y-esperan-exportaciones-por-us-3-900-millones"
+      "gnTried": "2026-10-30T22:01:41Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMGxUUE1sbzV0cnlqSlFNWmdndmZIbmxOV2VSYXlMNkVqaVh0ZmpOT0gzc0ZEdlZJV19QX2dmbUJ6dnFiLVlXNXNCaTFKUzR6dnRFMkZldWdQY0UxeVA1VF92dmdMSGlRWU9OUUdwZldVZ3djeFFoM1U5Yl9qX0g5SzZQdnNNNzYzTmE4by1TU055UXpkX2w1Z2FMS0VSblZUdjJuZVdnMFRiSnU4UHIzOUhvdmlSV2NHOXVPYkZVdXAzUGxsNTJXREZvcUNlUmp4QU91TtIBzgFBVV95cUxPUENPU0FjYVJHVHN0ODVsaWR3VkZsLThRZUpHTkhwVnN3VVdOSkpvUzA2cnV3QVdUSFZZdVhSSjhOU1J1YktDRWVVRGYzZFRkRHBCNHRWd1p3WHJtSnRuTUxFS0tTVGNvcEgxUVBmTThRSlFPQVRYQkNkMW9rbk0xMlhrWjhsM0lvUFB1T3AtSWFwZFFNR1liSnloeS1uY1Vfci1TdVlKSHNYdTRwem9OWWl4UzFEOUxUU01hX0o3NHZvUGVtb1BmZExvWGd4dw?oc=5"
+    },
+    {
+      "id": "apm-terminals-callao-coordina-con-navieras-alternativas-para-mantener-movimiento",
+      "datetime": "2026-10-30T20:30:12Z",
+      "date": "2026-10-30",
+      "firstSeen": "2026-10-30T22:01:41Z",
+      "title": "APM Terminals Callao coordina con navieras alternativas para mantener movimiento de carga ante Fenómeno de El Niño",
+      "summary": "APM Terminals Callao, operador del Terminal Norte del Callao, viene coordinando con líneas navieras una alternativa…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Perú"
+      ],
+      "tags": [],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/apm-terminals-callao-coordina-con-navieras-alternativas-para-mantener-movimiento-de-carga-ante-fenomeno-de-el-nino/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ],
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbEQ4N29sNmVvQUtFQnI5QS0taU5STGxfSlhjb3VyRDdBa3ZXTnV2OXlQNHVlMVpIYVpsRlp4eTVCaDhza3lGZllsalU0ZzJ2cHBGNmp0TGt5eFRXM0MzeS10dGlTQkFWNFdwTHhDeHVEbUd3V0xJdVZKU2NNb2tlNXBfbHd0V0lRdkNmZEpFWUVWXy03dlhkaG1XYm1SVWJveEZQT0xRZk1BM1NUUExoQVVwNG5uTldGV0luSVBPTU9HbjM3azk3d3h5enpGRHRwbGE2cVBTRGN5dw"
       ]
+    },
+    {
+      "id": "victoria-democrata-en-eu-no-flexibilizaria-aranceles-de-trump-hacia-mexico-banco",
+      "datetime": "2026-10-30T20:20:16Z",
+      "date": "2026-10-30",
+      "firstSeen": "2026-10-30T22:01:41Z",
+      "title": "Victoria demócrata en EU no flexibilizaría aranceles de Trump hacia México: Banco BASE",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Latinoamérica",
+        "Estados Unidos",
+        "Europa"
+      ],
+      "countries": [
+        "México",
+        "Estados Unidos",
+        "Unión Europea"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Fortuna y Poder",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://fortunaypoder.com/economia/victoria-democrata-en-eu-no-flexibilizaria-aranceles-de-trump-hacia-mexico-banco-base/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-30T22:01:41Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPd2ZLRHVTSHVPYzhKd3Etdl9IUENGLTN5WVQ1QWVZRmUwclhjZW1TTWNSMmppRlFqZ0dfcXBNWFBEVWR5VHNHaXI3VGQ1UWhseEJtM1RMM28tbGM0Q0o1N1Y2UXRUYlpFZEZMUktOOGtWMnZHbTRMTkY0YWNMYjFySmw3V25WWEdHcFdjOHQ4N3FEdWpHNDJHVnhFMUEyRl84Z3JMakhTUVMzQ3B6NmJQdUQ2YzRLWFZzWXpIdlJB?oc=5"
+    },
+    {
+      "id": "sna-advierte-impacto-de-us-800-millones-por-aranceles-de-estados-unidos",
+      "datetime": "2026-10-30T20:16:38Z",
+      "date": "2026-10-30",
+      "firstSeen": "2026-10-30T22:01:41Z",
+      "title": "SNA advierte impacto de US$800 millones por aranceles de Estados Unidos",
+      "summary": "Gremios agrícolas estiman un costo de US$800 millones en tres años por el arancel de 12,5% y piden ampliar las exenciones.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Prensa Digital",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.prensadigital.cl/agro-chileno-costo-arancel-estados-unidos-exenciones.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-30T22:01:41Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRWNIUG1OMHVPWUZHeFlIVkhzNThvRTRVUlBPWWt1cUVpNDl0eDdqbWVxSjNSR0RzTlFqandyMXVVVDlqRGZIVnlfYnp6WkhCNTRBX0xfMEtWaXF2QXRVQzdSb1pCekc4djlMVklXWmowUVNUOVV2a2pMTGtCR1lyc2I4Q0xCU1ZpQnd6OWp3UQ?oc=5"
+    },
+    {
+      "id": "el-truco-de-los-fabricantes-chinos-para-torear-los-aranceles-del-57-que-prepara",
+      "datetime": "2026-10-30T20:11:27Z",
+      "date": "2026-10-30",
+      "firstSeen": "2026-10-30T22:01:41Z",
+      "title": "El truco de los fabricantes chinos para torear los aranceles del 57% que prepara Bruselas",
+      "summary": "Descubre cómo las marcas de neumáticos chinos esquivarán los nuevos aranceles del 57% de Bruselas fabricando en Marruecos.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "China",
+        "Asia",
+        "Europa"
+      ],
+      "countries": [
+        "China",
+        "Unión Europea"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Autofácil",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.autofacil.es/asi-esquivaran-neumaticos-chinos-aranceles-impuestos-bruselas/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-30T22:01:41Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOb3FFSjl5VkNJOGRIUXdTbFhvaXh2emtvcDY0TjU0VEVVb004eFY4TGh2R0twVERYWWVORGdTRm9wRGZaODBReTZjSWpqVTQwRnRQSVNWMjdXak5fT2ZvYWZqdEFxQlJ0c0dSMEpoVWdtNjNMZ0tVNHJpUjBDelB4c1B6UnNUV0JSWW10dnFsaVk?oc=5"
+    },
+    {
+      "id": "peru-dp-world-callao-recibe-nuevas-gruas-sts-y-rtg",
+      "datetime": "2026-10-30T20:00:30Z",
+      "date": "2026-10-30",
+      "firstSeen": "2026-10-30T22:01:41Z",
+      "title": "Perú: DP World Callao recibe nuevas grúas STS y RTG",
+      "summary": "DP World Callao, operador del terminal Muelle Sur del Puerto del Callao, recibió una grúa STS…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Perú"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/peru-dp-world-callao-recibe-nuevas-gruas-sts-y-rtg/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "caida-de-contenedores-activa-protocolos-de-emergencia-en-sti",
+      "datetime": "2026-10-30T19:32:58Z",
+      "date": "2026-10-30",
+      "firstSeen": "2026-10-30T22:01:41Z",
+      "title": "Caída de contenedores activa protocolos de emergencia en STI",
+      "summary": "La caída de dos contenedores sobre el muelle en San Antonio Terminal Internacional (STI), concesionario de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "container",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/caida-de-contenedores-activa-protocolos-de-emergencia-en-sti/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "argentina-siete-empresas-ofertan-para-obra-de-demolicion-de-galeria-de-granos-de",
+      "datetime": "2026-10-30T19:30:32Z",
+      "date": "2026-10-30",
+      "firstSeen": "2026-10-30T22:01:41Z",
+      "title": "Argentina: Siete empresas ofertan para obra de demolición de galería de granos del Puerto de Mar del Plata",
+      "summary": "Siete empresas presentaron ofertas en el llamado a licitación abierto por el Consorcio Portuario Regional Mar…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Puertos"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Agro",
+        "Puertos"
+      ],
+      "visual": "grain",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/argentina-siete-empresas-ofertan-para-obra-de-demolicion-de-galeria-de-granos-del-puerto-de-mar-del-plata/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "ee-uu-autoriza-construccion-de-puerto-de-aguas-profundas-por-usd-8-200-millones",
+      "datetime": "2026-10-30T19:00:03Z",
+      "date": "2026-10-30",
+      "firstSeen": "2026-10-30T22:01:41Z",
+      "title": "EE.UU. autoriza construcción de puerto de aguas profundas por USD 8.200 millones en Texas",
+      "summary": "El secretario de Transporte de Estados Unidos, Sean P. Duffy, anunció que la Administración Marítima (Marad)…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Puertos",
+        "Estados Unidos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/ee-uu-autoriza-construccion-de-puerto-de-aguas-profundas-por-usd-8-200-millones-en-texas/",
+          "primary": true,
+          "author": "cmeza"
+        }
+      ]
+    },
+    {
+      "id": "procesaron-al-importador-de-alfa-romeo-por-ingresar-17-autos-de-alta-gama-con-fa",
+      "datetime": "2026-10-30T18:47:16Z",
+      "date": "2026-10-30",
+      "firstSeen": "2026-10-30T22:01:41Z",
+      "title": "Procesaron al importador de Alfa Romeo por ingresar 17 autos de alta gama con facturas falsas",
+      "summary": "La Justicia federal de Campana procesó por contrabando agravado a Centro Milano S.A., a su director suplente y al despachante de aduana. El perjuicio fiscal supera los 200 mil dólares y el embargo es de $4.625 millones para cada uno.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Autos"
+      ],
+      "visual": "auto",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "BAE Negocios",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.baenegocios.com/negocios/procesaron-al-importador-de-alfa-romeo-por-ingresar-17-autos-de-alta-gama-con-facturas-falsas/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-30T22:01:41Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaklZVEdLRGlZVDhQSkJLLVpOa0hFZG1PcUFBbUhmbDkydmk1LUVmQUt4dnpSVlZJVWJYNzB6aGlBeUNZSFBib3FHS1R3cTJPcUdPa1drZGZYcUdQZkM5Uks0RTZlTF9tX1otVEdkX2NiaGpNYm05UlBwbC00M3hIaGQ5REE5TlpWdjAybENrb0sya0pHODJsTFVxbUk3emQ3bWdZM3dxMHhTQTFKQ3NGQmNJd3JCWEtpcXdGbjBzOGdKbm5G0gHEAUFVX3lxTE1qSVlUR0tEaVlUOFBKQkstWk5rSEVkbU9xQUFtSGZsOTJ2aTUtRWZBS3h2elJWVklVYlg3MHpoaUF5Q1lIUGJvcUdLVHdxMk9xR09rV2tkZlhxR1BmQzlSSzRFNmVMX21fWi1UR2RfY2Joak1ibTlSUHBsLTQzeEhoZDlEQTlOWlZ2MDJsQ2tvSzJrSkc4MmxMVXFtSTd6ZDdtZ1kzd3EweFNBMUpDc0ZCY0l3ckJYS2lxd0ZuMHM4Z0pubkY?oc=5"
+    },
+    {
+      "id": "mexico-busca-acuerdo-comercial-con-estados-unidos-revision-del-t-mec-impactara-a",
+      "datetime": "2026-10-30T18:30:00Z",
+      "date": "2026-10-30",
+      "firstSeen": "2026-10-30T22:01:41Z",
+      "title": "México busca acuerdo comercial con Estados Unidos; revisión del T-MEC impactará a la industria de Chihuahua",
+      "summary": "El canciller Roberto Velasco reconoce avances en las negociaciones con Washington, aunque persisten diferencias sobre aranceles, reglas de origen y condiciones comerciales. CHIHUAHUA, Chih.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "México",
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Estados Unidos"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Quadratín Michoacán",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://chihuahua.quadratin.com.mx/internacionales/mexico-busca-acuerdo-comercial-con-estados-unidos-revision-del-t-mec-impactara-a-la-industria-de-chihuahua/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-30T22:01:41Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOTmdoUWloZG93YUtoYktXaE5aU2o3SUh6M2xRdnlqRmtVWF95ZVFEZi1JSlB6M2lXbDNiZ0ZrQmw0QjVITzVjQzFLbkQydURadHVXeDFtZ3dKdGNsLVNWaVNnMi1ndGp6QWZ4VDZJZHAyZWhrZDhpS0lpVEtIR2FfcXhTQ1E1YTBIQXo2NExRckVuNXBqcU1ONHcxeVQyNzRvenJaTDFreF9VZ2poOHRldEJkN3BkRTVwUnZyOUV4bFBCWVlsQ1NkR0lwWGNKdTZFNjJCTkkxN3BOTTdkYVU3eEZnejJEbmRQZHlIbnhGMA?oc=5"
+    },
+    {
+      "id": "san-juan-proyecta-exportaciones-mineras-por-40-mil-millones",
+      "datetime": "2026-10-30T18:22:30Z",
+      "date": "2026-10-30",
+      "firstSeen": "2026-10-30T22:01:41Z",
+      "title": "San Juan proyecta exportaciones mineras por 40 mil millones",
+      "summary": "San Juan proyecta exportar 40 mil millones de dólares anuales en quince años con seis proyectos mineros de cobre.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Minería"
+      ],
+      "visual": "mining",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Acero y Roca | Magazine Minero",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://aceroyroca.com/2026/10/30/noticias-san-juan-proyecta-exportaciones-mineras-40-mil-millones/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-30T22:01:41Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRzVnRXF0TXlyQW5IaFdKQVduVGp3WElxclRxOEU2TGI1V1RFa3lHZFpqMjM1NVpYUVJmQUMtaWk1RWdJNHpZT2d2Nm9fenJBVlhMUGlQYW55cTluZGdJb1QxOVNMS2pJczZ3b2NoMUxpZDNza0gzckNPTXpkWHJqTDVzRkloeks2RlQwZjlsQUdnQmg0NTh1TFNrMWR2MkhK?oc=5"
     },
     {
       "id": "camioneros-se-movilizan-en-iquique-exigiendo-respuesta-del-gobierno-ante-alza-de",
@@ -907,6 +1340,42 @@
         "basedOn": "https://portalportuario.cl/camioneros-se-movilizan-en-iquique-exigiendo-respuesta-del-gobierno-ante-alza-de-combustibles/",
         "words": 176
       }
+    },
+    {
+      "id": "los-costos-del-combustible-y-los-fletes-condicionan-la-rentabilidad-agricola",
+      "datetime": "2026-10-30T17:34:43Z",
+      "date": "2026-10-30",
+      "firstSeen": "2026-10-30T22:01:41Z",
+      "title": "Los costos del combustible y los fletes condicionan la rentabilidad agrícola",
+      "summary": "La campaña gruesa 2026/27 comienza bajo un escenario climático marcado por la presencia de El Niño y una mayor disponibilidad de agua, factores que inciden en las decisiones de siembra…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "flipr.news",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://flipr.com.ar/nacionales/gremios/serindustria/los-costos-del-combustible-y-los-fletes-condicionan-la-rentabilidad-agricola/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-10-30T22:01:41Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYXlRQXFEa1ZIaGxjR3B1X3pRcHVVYjdLcVFPSmdVQl9UcllSSzg4cGxHY1VoN2d1X2dfMW15eWtXTTVVWUhkS2dVN2E5SWZyT0VkNjRiS0J5NDVCOThqSjRVMWdfLTBaclprSjZLNDVTLTJxTnFVVS1TSGh3b295QmJfR0U2WXNEU1Q5TzBwM090cnZIWk1jeW9HdWstUnJ3LVZxekZrcy0yS29JQmNwRl9Vd1B5WnlaUmNxWTlaTFg0d0hGWkw4Qlln?oc=5"
     },
     {
       "id": "portuarios-inician-huelga-en-22-paises-en-protesta-por-uso-de-puertos-para-envio",
@@ -1101,52 +1570,6 @@
       }
     },
     {
-      "id": "las-cuotas-de-china-modifican-el-negocio-de-la-carne-vacuna-y-obligan-a-argentin",
-      "datetime": "2026-10-30T16:45:19Z",
-      "date": "2026-10-30",
-      "firstSeen": "2026-10-30T18:02:39Z",
-      "title": "Las cuotas de China modifican el negocio de la carne vacuna y obligan a Argentina a revisar su estrategia exportadora",
-      "summary": "Las cuotas de China modifican el negocio de la carne vacuna: Argentina diversifica destinos y enfrenta límites logísticos para completar sus embarques",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Tratados y acuerdos",
-        "China",
-        "Asia"
-      ],
-      "countries": [
-        "Argentina",
-        "China"
-      ],
-      "tags": [
-        "Carne",
-        "China"
-      ],
-      "visual": "livestock",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Economis",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://economis.com.ar/cuotas-de-china-modifican-el-negocio-de-la-carne-vacuna/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-30T18:02:39Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPN2tTYjZ2dGRvTzlEZlJodmdmZTh3Q3ZJUUJLZXlTb2ZsUDlZMEdyUzdpV2VmVDNzUUFqR2UzemRHcENWZ3lUOGNEbTZJSXZ5eWhJS29vYl96SEtFQ3hTLWNveWIxcGdPZTRtejlQQ1VWQ2VpdUJQenpxamZHb2NfYkNVbW1BeVU?oc=5",
-      "digestSkip": {
-        "at": "2026-10-30T16:20:00-03:00",
-        "reason": "repite una nota de la redacción (carne vacuna: exportaciones a nueve meses y cuota china)"
-      }
-    },
-    {
       "id": "ricci-participo-de-la-mesa-federal-de-cooperacion-del-acuerdo-mercosur-ue",
       "datetime": "2026-10-30T16:07:19Z",
       "date": "2026-10-30",
@@ -1156,11 +1579,13 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Tratados y acuerdos",
         "Mercosur",
         "Europa"
       ],
       "countries": [
+        "Argentina",
         "Unión Europea"
       ],
       "tags": [
@@ -1179,10 +1604,24 @@
           "url": "https://noticias.santacruz.gob.ar/organismos/produccion/ricci-participo-de-la-mesa-federal-de-cooperacion-del-acuerdo-mercosur-ue",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Ministerio de la Producción Comercio e Industria",
+          "type": "También publicó esta noticia",
+          "url": "https://minpro.santacruz.gob.ar/2026/10/30/ricci-participo-de-la-mesa-federal-de-cooperacion-del-acuerdo-mercosur-ue/",
+          "alsoIn": true,
+          "title": "Ricci participó de la mesa federal de cooperación del Acuerdo MERCOSUR–UE"
         }
       ],
       "gnTried": "2026-10-30T18:02:39Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeEdod090cU5aUjNDcDVDV0tXQVJ2RlBjSUpiUVVHczNaeGtiaFVJMVZscHZlNS05ZURMMXhGMWR5RksxMGVhZXdpRkZPamxRbXAtZUV3Nzh3bWtyVGo1cG1vdUxZaVBCWV84SzdIeWtrMWtWNFF5M055TjI0ZjU2aDhXMmxkWnRYV1NvMEJMUFg3WWo4SG9sWUd2MzhIdVMyUmNoNkFzd1dCMmEweUIwSnFwNjZvdnpXV3k5bDB4TVZFNlRxNnlqeA?oc=5"
+      "gnUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeEdod090cU5aUjNDcDVDV0tXQVJ2RlBjSUpiUVVHczNaeGtiaFVJMVZscHZlNS05ZURMMXhGMWR5RksxMGVhZXdpRkZPamxRbXAtZUV3Nzh3bWtyVGo1cG1vdUxZaVBCWV84SzdIeWtrMWtWNFF5M055TjI0ZjU2aDhXMmxkWnRYV1NvMEJMUFg3WWo4SG9sWUd2MzhIdVMyUmNoNkFzd1dCMmEweUIwSnFwNjZvdnpXV3k5bDB4TVZFNlRxNnlqeA?oc=5",
+      "aliasUrls": [
+        "https://minpro.santacruz.gob.ar/2026/10/30/ricci-participo-de-la-mesa-federal-de-cooperacion-del-acuerdo-mercosur-ue",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONU1uU0l6Q1oyVFd5UHRzUFpkUEF3Z1hueERSUUhHamx0NkpsYmFFWTJEdHJleUx5TXVKYnR2NlNVSnNWSEtqZ3FERkRvMmtFby1YS0p4QksyeGREcy1aMU9hRDJad3NCbW1WeE5nQUNHTTN0MDZPbHZJNlBvN0o2Q0tOMFBpQk9PMUJzb1drR0sySlBoTEs1SWpVM1ozS1NDRGxOWmRoQU1VbVcza3Y4Zk1MUDEwTmct"
+      ],
+      "mergedIds": [
+        "ricci-participo-de-la-mesa-federal-de-cooperacion-del-acuerdo-mercosur-ue-2"
+      ]
     },
     {
       "id": "cabotaje-en-mexico-que-mueve-el-transporte-maritimo-entre-puertos-nacionales",
@@ -1285,10 +1724,13 @@
       "keyData": [],
       "topics": [
         "Argentina",
-        "Exportaciones"
+        "Exportaciones",
+        "Economía internacional",
+        "Estados Unidos"
       ],
       "countries": [
-        "Argentina"
+        "Argentina",
+        "Estados Unidos"
       ],
       "tags": [],
       "visual": "customs",
@@ -1319,6 +1761,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Tratados y acuerdos",
         "Logística"
       ],
       "countries": [
@@ -1474,51 +1917,6 @@
       }
     },
     {
-      "id": "el-senado-aprobo-la-ley-de-carbono-y-esperan-exportaciones-por-us-3-900-millones",
-      "datetime": "2026-10-30T14:50:00Z",
-      "date": "2026-10-30",
-      "firstSeen": "2026-10-30T18:02:39Z",
-      "title": "El Senado aprobó la Ley de Carbono y esperan exportaciones por US$ 3.900 millones",
-      "summary": "El Senado dio media sanción a un proyecto de ley que crea la Mesa Argentina de Carbono impulsada desde hace muchos años.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Urgente24",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://urgente24.com/dinero/el-senado-aprobo-la-ley-carbono-y-esperan-exportaciones-us-3900-millones-n635813",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-30T18:02:39Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWF9TYjZGR1NQVFhDVTFwRzNCYW4xVDFQS21idDljeHg3QVZJdkVLbmR6V1hTcGxibGNobnBFajRZMXZlRVNOS21URk15eGhjSzdISWUxa3JySkExWUg5dUVUYlM0MlpBbUVQbGR2Q1N1M3JFenZyRGNCbHJtYnY5QW1VeXl4RlpOZ1hmZk1HSlk2MXo2RXVNaV9FLWl1aFNwbU5OTDlPS3pHMXhUZHc?oc=5",
-      "digest": {
-        "lead": "El Senado argentino dio media sanción al proyecto de marco regulatorio del mercado de carbono, impulsado por la senadora Royón; según estudios técnicos citados por Urgente24, las exportaciones de créditos podrían llegar a entre US$ 1.400 y 3.900 millones.",
-        "body": [
-          "El texto define la titularidad y la naturaleza jurídica de los créditos de carbono y su participación en mercados internacionales. La Mesa Argentina de Carbono (MAC), que agrupa a más de 50 empresas y organizaciones, contabiliza más de 40 proyectos en marcha en el país y estima de forma preliminar que los agropecuarios y forestales podrían generar entre US$ 460 y 2.377 millones anuales. El Centro Argentino de Ingenieros y la Academia Nacional de Ingeniería calculan un potencial mínimo de 131,4 millones de créditos por año.",
-          "Según la nota, los mercados internacionales pagan entre dos y cinco veces más que el mercado voluntario actual, y Chile, Paraguay, Perú, Brasil, Colombia y México ya avanzan con esquemas propios. La MAC había redactado un proyecto similar en noviembre de 2024 que no prosperó. El próximo paso es el tratamiento en Diputados."
-        ],
-        "at": "2026-10-30T16:20:00-03:00",
-        "basedOn": "https://urgente24.com/dinero/el-senado-aprobo-la-ley-carbono-y-esperan-exportaciones-us-3900-millones-n635813",
-        "flag": "curar",
-        "words": 178
-      }
-    },
-    {
       "id": "peru-apm-terminals-anuncia-comienzo-de-dragado-en-terminal-norte-del-puerto-del",
       "datetime": "2026-10-30T14:30:02Z",
       "date": "2026-10-30",
@@ -1593,6 +1991,13 @@
           "url": "https://www.ellitoral.com/campolitoral/direccionnacionaldelecheria-cadenalactea-secretariadeagriculturaganaderiaypesca-producciondeleche-exportaciones-calidad-leche-productoslacteos-consumointerno-mozzarella-genetica-manteca-brasil-tambosargentinos-solidosutiles_0_T81f6v5WIR.html",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Mirador Provincial",
+          "type": "También publicó esta noticia",
+          "url": "https://www.miradorprovincial.com/2026/10/30/la-cadena-lactea-argentina-crece-con-mas-produccion-calidad-y-exportaciones-millonarias/",
+          "alsoIn": true,
+          "title": "La cadena láctea argentina crece con más producción, calidad y exportaciones millonarias"
         }
       ],
       "gnTried": "2026-10-30T14:22:02Z",
@@ -1600,7 +2005,14 @@
       "digestSkip": {
         "at": "2026-10-30T14:10:00-03:00",
         "reason": "no se pudo abrir la fuente (dirección demasiado larga para la herramienta de lectura) y no hay otro medio"
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZTh3b1M3MTY5bVhOSEFQRlIyZVpBTkV4NC16RzJxRmJMOFRWSDNCYkZYUWQ3SkxSSHNlSjBJYkhVdlY3OG9udjRuQlg0S3hGakh4MWh1NGJSa2dKZjJPWXZFM3FSMEpfOVpieUVBcWZrUllIY0xFU1RwclRNNWNvTTRMNjlXZWVNVXpvX1lhcFIyRTFSR3c0V1NiZTJRNUQ5NWhYTUlFeXlTWU5ObG53N1E5QjBDLVlrV2JRaEZlRkRpRUZYcks3N1EzaUx2Zw",
+        "https://www.miradorprovincial.com/2026/10/30/la-cadena-lactea-argentina-crece-con-mas-produccion-calidad-y-exportaciones-millonarias"
+      ],
+      "mergedIds": [
+        "la-cadena-lactea-argentina-crece-con-mas-produccion-calidad-y-exportaciones-mill"
+      ]
     },
     {
       "id": "la-tecnologia-se-impone-a-los-aranceles-el-crecimiento-del-comercio-mundial-se-a",
@@ -3230,6 +3642,157 @@
       }
     },
     {
+      "id": "senado-media-sancion-ley-mercados-carbono-creditos-exportacion-renare",
+      "date": "2026-10-30",
+      "kind": "noticia",
+      "title": "El Senado aprobó la ley de mercados de carbono: los créditos se podrán exportar sin derechos y con un registro nacional",
+      "summary": "La media sanción salió 60 a 2 y el proyecto pasa a Diputados. Crea el ReNaRe, fija en 0% los derechos de exportación de los créditos y exige autorización estatal para venderlos a otros países que quieran contarlos en sus metas. Royón estimó exportaciones de entre USD 1.400 y 3.900 millones; las fuentes difieren sobre si la estabilidad fiscal es de 10 o 30 años.",
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Regulaciones",
+        "Impuestos"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Mercado de carbono",
+        "Créditos de carbono",
+        "Senado",
+        "ReNaRe",
+        "Acuerdo de París",
+        "CORSIA",
+        "Derechos de exportación",
+        "Misiones"
+      ],
+      "visual": "chart",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "Abre un nuevo rubro exportable: créditos de carbono con 0% de derechos de exportación y reglas para venderlos al exterior.",
+      "argentinaImpact": {
+        "change": "El Senado aprobó un marco para registrar y exportar créditos de carbono, con 0% de derechos de exportación y autorización estatal para transferencias que otro país impute a su meta climática.",
+        "who": "Desarrolladores de proyectos forestales, agropecuarios y de energía, provincias con programas jurisdiccionales, compradores internacionales de créditos y emisores de instrumentos financieros.",
+        "sectors": [
+          "Forestal",
+          "Agro",
+          "Energía",
+          "Mercado de capitales"
+        ],
+        "flows": {
+          "importaciones": false,
+          "exportaciones": true,
+          "logistica": false,
+          "aranceles": true
+        }
+      },
+      "body": [
+        "El Senado dio media sanción en la noche del jueves 29 de octubre al proyecto que crea un marco regulatorio para los mercados de carbono en la Argentina. La votación en general terminó 60 a 2, según el parte de prensa de la Cámara alta y las crónicas de Parlamentario, Los Andes y El Argentino; La Nación informó 59 votos afirmativos. Los dos rechazos fueron de los senadores de Santa Cruz José María Carambia y Natalia Gadano. El texto ahora pasa a la Cámara de Diputados.",
+        "Para el comercio exterior, el punto central es que la ley trata a los créditos de carbono como un producto exportable: fija en 0% los derechos de exportación sobre sus transferencias al exterior y ordena las reglas para venderlos a otros países. La miembro informante, la neuquina Nadia Márquez (La Libertad Avanza), lo resumió en el recinto diciendo que la iniciativa «abre a la Argentina a un nuevo campo de exportación». La senadora salteña Flavia Royón, autora de uno de los proyectos, estimó que el país podría exportar entre USD 1.400 y 3.900 millones si cuenta con el marco regulado y las autorizaciones necesarias.",
+        "## Qué establece el proyecto",
+        "El dictamen unificó tres iniciativas: la de Royón, que proponía el marco regulatorio general; la de los misioneros Sonia Rojas Decut y Carlos Arce, que fijaba presupuestos mínimos ambientales y vinculaba estos mercados con el mercado de capitales; y la del chaqueño Jorge Capitanich, sobre activos financieros ambientales. Crea el Registro Nacional de Reducción de Emisiones (ReNaRe), una plataforma pública donde deben inscribirse los proyectos y que sirve para seguir cada crédito y evitar que una misma reducción se cuente dos veces. Cada crédito equivale a una tonelada de emisiones evitada o capturada.",
+        "El texto define al crédito como un bien inmaterial con valor patrimonial propio, separado del inmueble o del recurso natural que lo genera, según La Nación y El Argentino. Las reducciones tienen que ser reales, medibles, verificables y adicionales, y cumplir salvaguardas sociales y ambientales. La Nación detalla dos tipos de unidades: los Aportes de Mitigación, pensados para el mercado voluntario o para la meta climática argentina, y las Unidades de Resultado de Mitigación Transferibles, que pueden negociarse en el exterior. La autoridad de aplicación es el Poder Ejecutivo, y las provincias y la Ciudad de Buenos Aires pueden designar sus propios organismos y llevar adelante programas jurisdiccionales, en respeto de su dominio sobre los recursos naturales.",
+        "## Exportar créditos: las reglas para vender afuera",
+        "Los créditos podrán venderse en mercados locales e internacionales. Cuando el comprador sea otro país que quiera contar esa reducción para su propia meta climática, la transferencia necesitará autorización del Estado y un ajuste correspondiente en el inventario nacional de gases de efecto invernadero, el mecanismo previsto en el artículo 6 del Acuerdo de París para evitar el doble conteo. Según Parlamentario, los créditos también podrán usarse en el esquema CORSIA, el sistema de compensación de emisiones de la aviación internacional.",
+        "El proyecto habilita además instrumentos financieros respaldados por estos activos, cuya oferta pública podrá regular la Comisión Nacional de Valores (CNV). Royón aclaró que la ley no crea un mercado obligatorio de cumplimiento.",
+        "## La estabilidad fiscal, el punto que dividió la votación",
+        "El único artículo que se votó dividido fue el 14, sobre estabilidad fiscal frente a los tributos nacionales para los proyectos registrados. Las fuentes no coinciden en el plazo. El parte de prensa del Senado menciona un régimen de diez años, que era lo que fijaba el dictamen. Parlamentario informó que en la sesión se incorporó un cambio que llevó el plazo de 10 a 30 años, que el bloque justicialista no aceptó, y que el artículo se aprobó con 44 votos a favor y 19 en contra. La Nación, Los Andes y El Argentino también informan 30 años. Hasta que circule el texto aprobado, el plazo exacto debe tomarse con cautela.",
+        "Según Parlamentario, los otros artículos modificados en el recinto (3, 5, 6 y 13) se aprobaron 61 a 2. Capitanich acompañó el dictamen, pero lamentó que no se incluyeran los servicios ecosistémicos y criticó la ausencia en el debate del secretario del área, Daniel Scioli.",
+        "## Quiénes lo impulsan y quiénes lo cuestionan",
+        "Las comisiones de Legislación General, Ambiente y Desarrollo Sustentable y Presupuesto y Hacienda trataron el tema en plenario y firmaron el dictamen unificado a principios de septiembre, con una disidencia parcial de Rojas Decut. El 31 de agosto, la Mesa Argentina de Carbono, que reúne a más de 50 empresas y organizaciones y contabiliza más de 40 proyectos en marcha, había pedido que la ley definiera la titularidad de los créditos, su naturaleza jurídica y un mecanismo de autorización y ajuste para acceder a los mercados internacionales, y advirtió que sin reglas claras los inversores podían preferir a otros países de la región.",
+        "Misiones es el caso que más se citó. Desde 2021 tiene un programa jurisdiccional basado en la selva paranaense, con más de 10,9 millones de créditos certificados bajo estándares de Verra para el período 2017–2022, según Canal 12 de Misiones, y un reparto de ingresos propio que la ley nacional no impone al resto de las provincias.",
+        "Las críticas vinieron del ambientalismo. Según La Nación, el exdiputado Juan Carlos Villalonga, del Círculo de Políticas Ambientales, calificó la aprobación de «irresponsabilidad total», cuestionó que casi no hubiera debate y advirtió que podría debilitar la Ley de Bosques Nativos. La FARN ya había objetado que los mercados permitan compensar emisiones sin reducirlas en origen, además de los beneficios fiscales y las transferencias al exterior sin resguardos suficientes.",
+        "## Qué sigue",
+        "Con la media sanción, el proyecto fue girado a la Cámara de Diputados. Si se convierte en ley, los desarrolladores de proyectos tendrán un registro nacional y reglas para exportar créditos sin derechos, aunque cada venta que otro país impute a su meta climática seguirá necesitando autorización oficial."
+      ],
+      "keyData": [
+        [
+          "Votación en general en el Senado",
+          "60 a favor y 2 en contra"
+        ],
+        [
+          "Exportaciones potenciales (según Royón)",
+          "USD 1.400–3.900 millones"
+        ],
+        [
+          "Derechos de exportación de los créditos",
+          "0%"
+        ],
+        [
+          "Estabilidad fiscal (artículo 14)",
+          "10 años según el Senado; 30 según Parlamentario, La Nación y otros"
+        ],
+        [
+          "Registro que crea",
+          "ReNaRe"
+        ],
+        [
+          "Créditos certificados de Misiones (2017–2022)",
+          "Más de 10,9 millones"
+        ],
+        [
+          "Próximo paso",
+          "Cámara de Diputados"
+        ]
+      ],
+      "explainer": {
+        "what": "El Senado dio media sanción, con 60 votos a favor y 2 en contra, a un marco regulatorio para generar, registrar y exportar créditos de carbono.",
+        "why": "Convierte a los créditos en un producto exportable con 0% de derechos de exportación y fija reglas para venderlos a otros países; Royón estimó que el país podría exportar entre USD 1.400 y 3.900 millones.",
+        "who": "Desarrolladores de proyectos forestales, agropecuarios y de energía, provincias con programas propios como Misiones, compradores internacionales de créditos y el mercado de capitales.",
+        "products": [
+          "Créditos de carbono",
+          "Aportes de Mitigación",
+          "Unidades de Resultado de Mitigación Transferibles"
+        ],
+        "next": "El proyecto fue girado a la Cámara de Diputados, que debe tratarlo para que se convierta en ley.",
+        "nextSource": {
+          "name": "Senado de la Nación",
+          "url": "https://www.senado.gob.ar/prensa/24583/noticias"
+        }
+      },
+      "sources": [
+        {
+          "name": "Senado de la Nación: parte de prensa de la sesión",
+          "type": "Organismo oficial",
+          "url": "https://www.senado.gob.ar/prensa/24583/noticias",
+          "primary": true
+        },
+        {
+          "name": "Parlamentario: los senadores dieron luz verde al mercado de carbono",
+          "type": "Medio especializado",
+          "url": "https://www.parlamentario.com/2026/10/29/los-senadores-dieron-luz-verde-al-desarrollo-del-mercado-de-carbono/"
+        },
+        {
+          "name": "La Nación: las claves de la ley de mercados de carbono",
+          "type": "Medio de comunicación",
+          "url": "https://www.lanacion.com.ar/sociedad/negocio-verde-o-riesgo-ambiental-las-claves-de-la-ley-de-mercados-de-carbono-que-aprobo-el-senado-nid30102026/"
+        },
+        {
+          "name": "Los Andes",
+          "type": "Medio de comunicación",
+          "url": "https://www.losandes.com.ar/politica/el-senado-dio-luz-verde-una-ley-regular-los-mercados-carbono-argentina-n6012358"
+        },
+        {
+          "name": "El Argentino Diario",
+          "type": "Medio de comunicación",
+          "url": "https://elargentinodiario.com.ar/politica/30/10/2026/senado-media-sancion-creditos-de-carbono/"
+        },
+        {
+          "name": "Canal 12 Misiones",
+          "type": "Medio de comunicación",
+          "url": "https://www.canal12misiones.com/noticias-de-misiones/politica-politica/senado-mercado-de-carbono"
+        },
+        {
+          "name": "Mercado: la Mesa Argentina de Carbono en el Senado (agosto de 2026)",
+          "type": "Medio especializado",
+          "url": "https://mercado.com.ar/gestion-sustentable/mesa-argentina-de-carbono-pidio-al-senado-tres-definiciones-para-atraer-inversiones"
+        }
+      ],
+      "absorbs": [
+        "el-senado-aprobo-la-ley-de-carbono-y-esperan-exportaciones-por-us-3-900-millones"
+      ]
+    },
+    {
       "id": "nueva-zelanda-puerto-de-tauranga-moviliza-6-25-millones-de-toneladas-a-septiembr",
       "datetime": "2026-10-30T02:30:57Z",
       "date": "2026-10-29",
@@ -3693,17 +4256,20 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Exportaciones",
+        "Economía internacional",
         "Latinoamérica"
       ],
       "countries": [
+        "Argentina",
         "Chile",
         "Perú"
       ],
       "tags": [],
       "visual": "customs",
       "impact": 1,
-      "affectsArgentina": false,
+      "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
       "feed": "Google Noticias · Exportaciones Argentina",
@@ -3961,12 +4527,25 @@
           "url": "https://portalportuario.cl/camioneros-de-san-antonio-mantienen-paro-tras-reunion-con-gobierno/",
           "primary": true,
           "author": "Periodista 4"
+        },
+        {
+          "name": "PortalPortuario",
+          "type": "También publicó esta noticia",
+          "url": "https://portalportuario.cl/camport-advierte-consecuencias-en-operaciones-portuarias-por-paro-de-camioneros-en-san-antonio/",
+          "alsoIn": true,
+          "title": "Camport advierte consecuencias en operaciones portuarias por paro de camioneros en San Antonio"
         }
       ],
       "digestSkip": {
         "at": "2026-10-30T00:50:58-03:00",
         "reason": "repite el mismo hecho que la nota de PortalPortuario sobre el bloqueo de camioneros en San Antonio"
-      }
+      },
+      "aliasUrls": [
+        "https://portalportuario.cl/camport-advierte-consecuencias-en-operaciones-portuarias-por-paro-de-camioneros-en-san-antonio"
+      ],
+      "mergedIds": [
+        "camport-advierte-consecuencias-en-operaciones-portuarias-por-paro-de-camioneros"
+      ]
     },
     {
       "id": "acuerdo-union-europea-mexico-coincide-con-tratado-de-mercosur",
@@ -5870,6 +6449,13 @@
           "url": "https://agroempresario.com/publicacion/123122/costos-de-produccion-agricola-gasoil-y-fletes-presionan/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Diario El Argentino",
+          "type": "También publicó esta noticia",
+          "url": "https://diarioelargentino.com/pais/proyectan-records-de-produccion-agricola-pero-los-costos-de-combustible-y-fletes-presionan-la-rentabilidad.htm",
+          "alsoIn": true,
+          "title": "Proyectan récords de producción agrícola, pero los costos de combustible y fletes presionan la rentabilidad"
         }
       ],
       "gnTried": "2026-10-30T02:14:24Z",
@@ -5877,7 +6463,14 @@
       "digestSkip": {
         "at": "2026-10-30T00:50:58-03:00",
         "reason": "repite el mismo hecho que la nota de La Nación (informe de Coninagro)"
-      }
+      },
+      "aliasUrls": [
+        "https://diarioelargentino.com/pais/proyectan-records-de-produccion-agricola-pero-los-costos-de-combustible-y-fletes-presionan-la-rentabilidad.htm",
+        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZGctd2tjOWl1dTRCcEFuM2tDaVVqb2FqTzFjSnl4TkQySHA5ZG9zcGFzdnV6MTd3OFhTa2NJaVpRb2pQWGtXeFlZUXpNQ1dfNkJkSzRkbmhNTmxzTklUWUVXS1h5U05LdUQ1ZGNCNHJwNHdXOXB5YTIzSnExMTRCelVsV1BBMTV6TUZyNFU1U0pTVWhXeUFhR09PY2E5ekxGdXVJWGU5VXAtU2lVeDRIV2FnNmxpbjlUaElhZVlUcHpUaHZ4ZXVhdmF1M0ZBNTNJa3lXUHhwcUR6TWZ6RFHSAdwBQVVfeXFMT0Y4VGNHdWRRcDZlM2sxT2s4ZThONTdtdTgyTEhVM0RZSF9uSklKNUttSm1aQnFZTzF3Uzh5ejFkVVYtWFpTTWR5Ym41Mm1wMnVDbkRlX2E0eGxvVGdkRjNWNTdaUVgxLWhmdWpocFlwQm1lRE0tS2lTVHppSmlzbzIyTUVZclBrQkJBN25ES1BOVjFFV1BrNnNsYmJkUjlUOFp0WDRQUHRTcjd1RklvZnBoVlBKRWFQal90Ti1ueWotWnpKZkdaZUpPLUxaRTcwOXg4OV9uN2xDUjI2aA"
+      ],
+      "mergedIds": [
+        "proyectan-records-de-produccion-agricola-pero-los-costos-de-combustible-y-fletes"
+      ]
     },
     {
       "id": "seat-dispara-sus-perdidas-en-verano-hasta-los-116-millones-pese-al-fin-de-los-ar",
@@ -6220,6 +6813,13 @@
           "url": "https://chacodiapordia.com/logistica-del-campo-el-gasoil-y-los-fletes-golpean-la-rentabilidad-de-la-nueva-campana/",
           "alsoIn": true,
           "title": "Logística del campo: el gasoil y los fletes golpean la rentabilidad de la nueva campaña"
+        },
+        {
+          "name": "Clarín",
+          "type": "También publicó esta noticia",
+          "url": "https://www.clarin.com/rural/gasoil-fletes-encarecen-campana-maiz-pierde-poder-compra-soja_0_Zx3v86xZCl.html",
+          "alsoIn": true,
+          "title": "El gasoil y los fletes encarecen la campaña: el maíz pierde más poder de compra que la soja"
         }
       ],
       "gnTried": "2026-10-29T14:21:57Z",
@@ -6227,12 +6827,15 @@
       "aliasUrls": [
         "https://chacodiapordia.com/logistica-del-campo-el-gasoil-y-los-fletes-golpean-la-rentabilidad-de-la-nueva-campana",
         "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVmt5RS1OV01iSWxuTmhnSkh6WWpZQlBxM0NSQnlFbWRLZDdTbjlReGsyaDZxdC1xMFNmb1Jya2JEX05PcFpXNmU2NzJ3VWZYbnJlZEtoWEF0V05uRXRDcjg5T2JwdExZNllZSFk3SVVQY2o3WlVVd0VtYW4xbnJMVzU5a1NKUlpqNTRZaUhoUHJWVmxkbTJvc1ZwSHZ5UE5C",
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTHdiLU9yd0lLNm84eThkMERSd09weDFKVHVzVXYzRlVJREdUX09hTEFlWnozMGlJb1JGeFN6SGVrMkRLSVVLVUQ5QjUxWlpKcWh0MUtiYmV6Rktja3NwanVSUm1GZWxjV0c0TDBTWlM4TlczNXdBb0lfa01UR0gzd00tVTcxdlB4Q2lhcUEtZGljb2NpWkliVlM0Rnp0UWthY2JMZ2UyNUpSRi1v",
         "https://news.google.com/rss/articles/CBMitAFBVV95cUxOU1ZPZTdUTWtjZXhXVkpUOTRPb2JXek9hMXRGM0lMMDVtblJEMjFyQzFKMVktQkRQZ29BZXFubzk2TmlhQ0hldXc1UWRWNHAwUi1tenE1R3hTTU9nT2xNcnFxNmctQ3FiLTlMX0dldHhJbFRGUHlVa1k0eHA0SFBYejgwZDVKOEs0LTVJRGRVUnZjUFRpZnRST0JZVktXM1dUa3R6QnZIT0xTMU96dTZNZ204S0M",
-        "https://www.agrolatam.com/argentina/actualidad/gasoil-fletes-rentabilidad-campana-agricola-2026-27"
+        "https://www.agrolatam.com/argentina/actualidad/gasoil-fletes-rentabilidad-campana-agricola-2026-27",
+        "https://www.clarin.com/rural/gasoil-fletes-encarecen-campana-maiz-pierde-poder-compra-soja_0_Zx3v86xZCl.html"
       ],
       "mergedIds": [
         "el-aumento-del-gasoil-y-los-fletes-complica-la-rentabilidad-de-la-campana-2026-2",
-        "logistica-del-campo-el-gasoil-y-los-fletes-golpean-la-rentabilidad-de-la-nueva-c"
+        "logistica-del-campo-el-gasoil-y-los-fletes-golpean-la-rentabilidad-de-la-nueva-c",
+        "el-gasoil-y-los-fletes-encarecen-la-campana-el-maiz-pierde-mas-poder-de-compra-q"
       ],
       "digestSkip": {
         "at": "2026-10-29T13:30:00-03:00",
@@ -8622,16 +9225,16 @@
           "title": "El Examen Global concluye con una declaración sobre las asociaciones para el comercio y el desarrollo"
         }
       ],
-      "digestSkip": {
-        "at": "2026-10-29T13:30:00-03:00",
-        "reason": "no se pudo abrir la fuente (la herramienta de lectura no habilitó la URL)"
-      },
+      "mergedIds": [
+        "el-examen-global-concluye-con-una-declaracion-sobre-las-asociaciones-para-el-com"
+      ],
       "aliasUrls": [
         "https://www.wto.org/spanish/news_s/news26_s/gr26_30oct26_534_s.htm"
       ],
-      "mergedIds": [
-        "el-examen-global-concluye-con-una-declaracion-sobre-las-asociaciones-para-el-com"
-      ]
+      "digestSkip": {
+        "at": "2026-10-29T13:30:00-03:00",
+        "reason": "no se pudo abrir la fuente (la herramienta de lectura no habilitó la URL)"
+      }
     },
     {
       "id": "segun-el-presidente-de-cote-d-ivoire-la-reglobalizacion-ofrece-una-oportunidad-p",
@@ -9484,6 +10087,13 @@
           "url": "http://www.cda.org.ar/detalle_noticia.php?id=42839",
           "alsoIn": true,
           "title": "el rol del despachante de aduana en un comercio exterior en transformación"
+        },
+        {
+          "name": "Data Portuaria",
+          "type": "También publicó esta noticia",
+          "url": "https://dataportuaria.com/es/argentina/entrevistas/ruben-perez-cda-el-rol-del-despachante-de-aduana-en-un-comercio-exterior-en-transformacion",
+          "alsoIn": true,
+          "title": "Rubén Pérez: el rol del despachante de aduana en un comercio exterior en transformación"
         }
       ],
       "gnTried": "2026-10-28T22:07:02Z",
@@ -9500,10 +10110,13 @@
       },
       "aliasUrls": [
         "http://www.cda.org.ar/detalle_noticia.php?id=42839",
+        "https://dataportuaria.com/es/argentina/entrevistas/ruben-perez-cda-el-rol-del-despachante-de-aduana-en-un-comercio-exterior-en-transformacion",
+        "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPN2RKczdMT1ZMdUhKRlNNUmVUSlR0REYzUFltZFJYNmR2MlJXNG1MekF2ajl4anVLaUNaTnNLRGJtM0dPNTZIWE8wU1hHRnRpWEZ6ZnJYZUp4ekE0V1lsbzh3M1BpUUZSLTR0a1NMZkJJZUhQZzBVTFowdnQ3cVBMWktwS1NvVDlGUmtvbjIzVDFiS0pweE5tcXJyTkN4TU9zdmhLa3pvSkpBV3EtcjdFTU5hY3BhNDRiYkhiT3RlSFhmRllic0ZneUFXYUtHdWtJR2ZPX1I0d2Y",
         "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FZDVhQkhDX05ia21hRDRRQnFPeFdxelUzamJoZFBOWjY2NUw5VkRqUUpWVUVHbjN4MHV2RnBFMW9Cb2JnQzNQLTJkR1B1ckd2d0w1VDR4bTRKTUtPdjAw"
       ],
       "mergedIds": [
-        "el-rol-del-despachante-de-aduana-en-un-comercio-exterior-en-transformacion"
+        "el-rol-del-despachante-de-aduana-en-un-comercio-exterior-en-transformacion",
+        "ruben-perez-el-rol-del-despachante-de-aduana-en-un-comercio-exterior-en-transfor"
       ]
     },
     {
@@ -13587,6 +14200,13 @@
           "url": "https://nuevoenfoqueurbano.com.ar/exportaciones-las-cuotas-llegaron-para-cambiar-el-ritmo-del-negocio-exportador/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Agrositio",
+          "type": "También publicó esta noticia",
+          "url": "https://www.agrositio.com.ar/noticia/249120-exportaciones-de-carne-vacuna-las-cuotas-llegaron-para-cambiar-el-ritmo-del-negocio-exportador.html",
+          "alsoIn": true,
+          "title": "Exportaciones de carne vacuna: las cuotas llegaron para cambiar el ritmo del negocio exportador"
         }
       ],
       "gnTried": "2026-10-27T22:00:14Z",
@@ -13594,7 +14214,14 @@
       "digestSkip": {
         "at": "2026-10-28T13:40:00-03:00",
         "reason": "repite el mismo hecho que la nota de El Litoral (informe de Rosgan sobre cuotas chinas de carne)"
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOWWJkOWVWOXJPeTNNSVpCbHRZdDkzU1lEZjBNUVNzU09kcHNLWUZKclZNZlJULVVDeVJlSzNUSFkyVE0wRzdsMm9MWUY4UWNEckZuaDlEZjRZbUliTm9wZ0N2NlBOOWpGR1F1QTZrN3ByNi1HaVd3UVFSRTIxQkREMldJX2hKYzFzXy1XUEQyTXJtcXBJbjVjNi01UVFaZm9IV2h0QnVZVFpEa2VFLWJsbWhvdEJxcFVfUUZHNzlYVEszZExpbE5wRlBUbVJLR0puQmR0OVZjd1BXSlU",
+        "https://www.agrositio.com.ar/noticia/249120-exportaciones-de-carne-vacuna-las-cuotas-llegaron-para-cambiar-el-ritmo-del-negocio-exportador.html"
+      ],
+      "mergedIds": [
+        "exportaciones-de-carne-vacuna-las-cuotas-llegaron-para-cambiar-el-ritmo-del-nego"
+      ]
     },
     {
       "id": "brasil-y-argentina-aumentan-un-5-y-un-17-7-respectivamente-sus-exportaciones-con",
@@ -102506,14 +103133,14 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-10-30T18:02:39Z",
+    "ranAt": "2026-10-30T22:01:41Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
         "url": "https://www.wto.org/library/rss/latest_news_s.xml",
         "ok": true,
         "items": 7,
-        "added": 4,
+        "added": 0,
         "updated": 0,
         "skipped": 0
       },
@@ -102531,15 +103158,15 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 6,
+        "added": 9,
         "updated": 0,
-        "skipped": 7
+        "skipped": 6
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 27,
+        "items": 26,
         "added": 1,
         "updated": 0,
         "skipped": 17
@@ -102548,43 +103175,43 @@
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 30,
-        "added": 0,
+        "items": 52,
+        "added": 2,
         "updated": 0,
-        "skipped": 22
+        "skipped": 36
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 61,
+        "items": 59,
         "added": 4,
         "updated": 0,
-        "skipped": 32
+        "skipped": 31
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 25,
-        "added": 2,
+        "items": 28,
+        "added": 1,
         "updated": 0,
-        "skipped": 7
+        "skipped": 11
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
         "url": "https://news.google.com/rss/search?q=(aranceles+OR+%22guerra+comercial%22+OR+%22acuerdo+comercial%22)+when:1d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 62,
+        "items": 51,
         "added": 4,
         "updated": 0,
-        "skipped": 40
+        "skipped": 29
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 100,
+        "items": 97,
         "added": 4,
         "updated": 0,
         "skipped": 62
@@ -102595,6 +103222,11 @@
         "title": "La Argentina registró un superávit comercial de USD 2.976 millones, con exportaciones en alza",
         "url": "https://aduananews.com/la-argentina-registro-un-superavit-comercial-de-usd-2-976-millones-con-exportaciones-en-alza/?utm_source=rss&utm_medium=rss&utm_campaign=la-argentina-registro-un-superavit-comercial-de-usd-2-976-millones-con-exportaciones-en-alza",
         "curated": "indec-ica-septiembre-2026-exportaciones-record-10036-superavit-2976"
+      },
+      {
+        "title": "Las exportaciones argentinas crecieron 21,6% y marcaron récords en energía y agroindustria",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVUo2a3c4dGdaZkRRNHF3MEtaVnlzdXJtOVFXdkhaalNHX29QQmgtR2NzUHprSGpUY0xueXg1eE5XM1NtUGZ0aTZreXRoemFFWkNUVEwxbTJzUUFWdEdWZTBGUGJ0YmtYT0xuNTZmdGpmNnZuNDFMOTA5aGwtTE5JRzZ4QWs5Nkc1T3hoM0JwMUlwb051VE1WVll4eHJYbFEyX0tYR203MmZPeXRyQ3RabzRtS3c3clpNUkE?oc=5",
+        "curated": "exportaciones-argentinas-destinos-enero-septiembre-2026-brasil-pierde-peso-estados-unidos-india"
       },
       {
         "title": "ARCA flexibiliza la exportación de minerales procesados por fundición y refinación y abre una ventaja logística para la…",
@@ -102612,6 +103244,11 @@
         "curated": "arca-rg-5917-minerales-fundidos-refinados-cualquier-aduana-exportacion"
       },
       {
+        "title": "Las ventas de carne argentina a China caen y podría quedar sin utilizar parte del cupo de exportación",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNEZVbVUzb1NiYW1DbUNGTlZDRTAwNUVncnV4Y2RVOURTTC1QVWJLbmV3N3ZEV1ItbnBWYUU5cWstS3FyUXd5R1NjSXNFVjFQMU1Gb2psTl83b1BfNHdhMi1PbVpVdjVrVjNqOEMwUlplOVQ4X0JvdGNKVkhnalBOOWotU293ZW05ZWxVQ0RjelljOFk1ZFo3UjZrNkVLaGZKQlBONENUeXNSSmozdmtUS3hiSkJPUkFZd3VDQXA5Unh3VnNkc1JLc2FwQzlxYkp1eVE?oc=5",
+        "curated": "carne-vacuna-exportaciones-enero-septiembre-2026-549600-toneladas-china-cuota-rosgan"
+      },
+      {
         "title": "Uruguay activa el acuerdo Mercosur-EFTA inicialmente con aprobación de Noruega e Islandia",
         "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPRWpRLXl1amxmR0hqTlRnRzN2RE9PSXdyOGlLMkFZU3pfV210VTJSeUtISkJWd1RUZzRWU0dndDhaLVVGcWRWLUplWDRxOFFEbDZmbi0tbHoxUjJNNkcwMjhrelB5WHpXUm40V3Z0OVdPQXB2dDktZU5ocG5Fb0Nkd0g1RTdGY0VaUVFaOXNkMms3RXBRT1d4bnRJTFhLWHRqU3p6V1luLVJtbGJnTnpPN1pyUlMyaXpwZVBaLTItRmdtUWFGUDJqMFQ5Q09SY3EtcDhNYUdNdUlKeFNqM2xjQQ?oc=5",
         "curated": "diputados-dictamen-acuerdo-mercosur-aelc-efta-protocolo-servicios-montevideo"
@@ -102622,63 +103259,70 @@
         "curated": "diputados-dictamen-acuerdo-mercosur-aelc-efta-protocolo-servicios-montevideo"
       },
       {
-        "title": "El Gobierno modificó los requisitos para importar autos eléctricos sin pagar aranceles",
-        "url": "https://19640noticias.com/contenido/104333/gobierno-cambia-requisitos-importar-autos-electricos-sin-arancel",
-        "curated": "resolucion-438-2026-cupo-50000-autos-arancel-cero-criterios-cada-convocatoria"
+        "title": "Las cuotas de China modifican el negocio de la carne vacuna y obligan a Argentina a revisar su estrategia exportadora",
+        "url": "https://economis.com.ar/cuotas-de-china-modifican-el-negocio-de-la-carne-vacuna/",
+        "curated": "carne-vacuna-exportaciones-enero-septiembre-2026-549600-toneladas-china-cuota-rosgan"
       },
       {
-        "title": "Todo apunta a que los fletes empiezan a moderarse",
-        "url": "https://www.ace-cargadores.com/2026/10/30/todo-apunta-a-que-los-fletes-empiezan-a-moderarse/",
-        "curated": "drewry-wci-baja-3-29-octubre-4429"
-      },
-      {
-        "title": "Las exportaciones argentinas crecieron 21,6% y marcaron récords en energía y agroindustria",
-        "url": "https://mundoempresas.com.ar/las-exportaciones-argentinas-crecieron-216-y-marcaron-records-en-energia-y-agroindustria/",
-        "curated": "exportaciones-argentinas-destinos-enero-septiembre-2026-brasil-pierde-peso-estados-unidos-india"
+        "title": "El Senado aprobó la Ley de Carbono y esperan exportaciones por US$ 3.900 millones",
+        "url": "https://urgente24.com/dinero/el-senado-aprobo-la-ley-carbono-y-esperan-exportaciones-us-3900-millones-n635813",
+        "curated": "senado-media-sancion-ley-mercados-carbono-creditos-exportacion-renare"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "ee-uu-puertos-de-indiana-recibe-subvencion-federal-de-usd-11-2-millones-de-dolar",
+        "main": "exportaciones-las-cuotas-llegaron-para-cambiar-el-ritmo-del-negocio-exportador",
         "merged": [
-          "ee-uu-jaxport-recibe-subvencion-federal-de-usd-40-millones-para-modernizar-muell"
+          "exportaciones-de-carne-vacuna-las-cuotas-llegaron-para-cambiar-el-ritmo-del-nego"
         ]
       },
       {
-        "main": "el-examen-global-2026-destaca-las-asociaciones-para-el-comercio-y-el-desarrollo",
+        "main": "ruben-perez-cda-el-rol-del-despachante-de-aduana-en-un-comercio-exterior-en-tran",
         "merged": [
-          "el-examen-global-concluye-con-una-declaracion-sobre-las-asociaciones-para-el-com"
+          "ruben-perez-el-rol-del-despachante-de-aduana-en-un-comercio-exterior-en-transfor"
         ]
       },
       {
-        "main": "peru-puede-superar-a-argentina-y-desafiar-a-chile-en-el-listado-de-las-potencias",
+        "main": "la-logistica-a-contramano-el-gasoil-y-los-fletes-golpean-la-rentabilidad-de-la-n",
         "merged": [
-          "record-exportador-el-desafio-de-convertir-el-potencial-agroindustrial-en-crecimi"
+          "el-gasoil-y-los-fletes-encarecen-la-campana-el-maiz-pierde-mas-poder-de-compra-q"
         ]
       },
       {
-        "main": "xi-jinping-sella-el-acuerdo-comercial-entre-china-y-suiza-mas-favorable-a-un-pai",
+        "main": "costos-de-produccion-agricola-gasoil-y-fletes-presionan",
         "merged": [
-          "china-y-suiza-firman-un-acuerdo-comercial-que-desafia-el-proteccionismo-global"
+          "proyectan-records-de-produccion-agricola-pero-los-costos-de-combustible-y-fletes"
         ]
       },
       {
-        "main": "colombia-no-puede-seguir-con-un-40-de-tasas-de-aranceles-entrevista-con-carlos-g",
+        "main": "camioneros-de-san-antonio-mantienen-paro-tras-reunion-con-gobierno",
         "merged": [
-          "decathlon-colombia-ceo-gomez-pide-revision-de-aranceles"
+          "camport-advierte-consecuencias-en-operaciones-portuarias-por-paro-de-camioneros"
+        ]
+      },
+      {
+        "main": "la-cadena-lactea-argentina-combina-mas-produccion-calidad-y-crecimiento-exportad",
+        "merged": [
+          "la-cadena-lactea-argentina-crece-con-mas-produccion-calidad-y-exportaciones-mill"
+        ]
+      },
+      {
+        "main": "ricci-participo-de-la-mesa-federal-de-cooperacion-del-acuerdo-mercosur-ue",
+        "merged": [
+          "ricci-participo-de-la-mesa-federal-de-cooperacion-del-acuerdo-mercosur-ue-2"
         ]
       }
     ],
     "googleNews": {
-      "pending": 15,
-      "resolved": 15,
-      "withSummary": 11,
+      "pending": 16,
+      "resolved": 16,
+      "withSummary": 10,
       "withPhoto": 0,
       "failed": 0,
-      "duplicates": 0
+      "duplicates": 1
     },
-    "noRead": 1
+    "noRead": 0
   },
   "stories": [
     {
