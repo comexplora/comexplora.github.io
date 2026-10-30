@@ -216,6 +216,30 @@ EXCLUDE = [
     r'\breina (nacional|provincial) de', r'reconocid[oa] por (el )?programa', r'tazas? comestible',
 ]
 
+# Avisos de eventos (congresos, jornadas, foros, exposiciones, rondas de negocios): anuncian una reunión, no un hecho
+# de comercio exterior. Se miran SOLO en el título, porque una nota real puede mencionar un foro en el texto (30/10).
+EXCLUDE_TITLE = [
+    r'^agenda\.', r'^evento\b', r'\b(reunira|reuniran|sera sede|seran sede|se daran cita|se dara cita)\b',
+    r'\b(debatira|debatiran|se debatira|se debatiran|analizaran)\b.{0,80}\b(jornada|congreso|foro|encuentro|seminario|expo|feria|simposio|semana comex|ude|rural)\b',
+    r'\b(jornada|congreso|foro|encuentro|seminario|simposio|webinar|videoconferencia|ronda de negocios|semana comex)\b.{0,90}'
+    r'\b(reunira|realizara|se realizara|tendra lugar|ya tiene programa|cuenta regresiva|mesas redondas|convocatoria|inscripcion)',
+    r'\b(participara|participaran|realizara|realizaran)\b.{0,40}\b(foro|congreso|jornada|encuentro|seminario|feria|expo|ronda de negocios)\b',
+    r'\bronda de negocios (mercosur|se realizara)', r'\bse viene la .{0,20}edicion', r'\bexpo \w+ 20\d\d\b',
+    r'\b\d+(\.?a|ra|ta|º|°)? (edicion|jornada|semana comex)\b', r'\bvideoconferencia\b',
+    r'\bcongreso (latinoamericano|nacional|internacional|de comercio exterior|de derecho aduanero)\b',
+    r'\bjornada (comex|de derecho aduanero)\b', r'\bforo (federal|de transporte|de mercosur de mujeres)\b', r'\bciop\b',
+]
+
+# Medios cuyo sitio la herramienta de lectura de la tarea «Resúmenes» no puede abrir (bloqueo de lectores automáticos o
+# error sistemático; 3 o más intentos fallidos y ninguno correcto al 30/10). Las notas siguen entrando, pero la tarea
+# intenta el resumen con otro medio del grupo ("alsoIn"); si no hay otro, el bot las marca sin resumen posible para que
+# no ocupen el cupo de cada corrida. Para sacar un medio de la lista, borralo de acá.
+# Días que una nota marcada «curar» por la tarea de resúmenes espera a la curaduría antes de vencer.
+FLAG_DAYS = 5
+
+NO_READ_DOMAINS = ['vietnam.vn', 'marketscreener.com', 'merca2.es', 'reforma.com', 'clarin.com', 'milenio.com',
+                   'motivar.com.ar', 'tradingview.com']
+
 # Medios que no se publican aunque su nota hable de comercio: órganos de propaganda de partes en un conflicto armado
 # y medios estatales sancionados por la UE. Se descartan al ingresar y se retiran del archivo (también como "+N medios").
 BLOCKED_DOMAINS = ['saba.ye', 'almasirah.net', 'almasirah.net.ye', 'rt.com', 'sputniknews.com', 'sputniknews.lat', 'mundo.sputniknews.com',
@@ -573,6 +597,16 @@ def fix_caps(title: str) -> str:
 
 def excluded(text: str) -> bool:
     return any_match(norm(text), EXCLUDE)
+
+
+def excluded_title(title: str) -> bool:
+    return any_match(norm(title), EXCLUDE_TITLE)
+
+
+def no_read(url: str = '') -> bool:
+    """True si el sitio está en NO_READ_DOMAINS (la tarea de resúmenes no lo puede abrir)."""
+    host = re.sub(r'^https?://', '', (url or '').lower()).split('/')[0].split(':')[0]
+    return any(host == d or host.endswith('.' + d) for d in NO_READ_DOMAINS)
 
 
 def parse_feed(raw: bytes, source: dict):
@@ -1040,7 +1074,7 @@ def main():
                 if src.get('aggregator') and not strong(p['title']):
                     skipped += 1
                     continue
-                if excluded(p['title'] + ' ' + p['desc']) or blocked(p['origin'], p['url']):
+                if excluded(p['title'] + ' ' + p['desc']) or excluded_title(p['title']) or blocked(p['origin'], p['url']):
                     skipped += 1
                     continue
                 if added >= max_new:  # las repetidas con otro título se agrupan después (group_auto)
@@ -1161,7 +1195,8 @@ def main():
                 del by_url[key]
                 continue
         if feed in disabled or (via_aggregator and not strong(it.get('title', ''))) \
-                or excluded(it.get('title', '') + ' ' + it.get('summary', '')):
+                or excluded(it.get('title', '') + ' ' + it.get('summary', '')) \
+                or (excluded_title(it.get('title', '')) and not it.get('digest')):
             excluded_n += 1
             del by_url[key]
             continue
@@ -1202,6 +1237,27 @@ def main():
     for it in values:
         put_keep_curated(by_url, canonical_url(primary_url(it)) or it.get('id'), it)
 
+    # Sin resumen posible: el medio principal está en NO_READ_DOMAINS y ningún otro medio del grupo se puede leer.
+    # Si más tarde se suma un medio legible, la marca automática se quita y la nota vuelve a la cola de resúmenes.
+    no_read_n = 0
+    flag_limit = NOW - timedelta(days=FLAG_DAYS)
+    for it in by_url.values():
+        dg = it.get('digest') if it.get('label') == 'Automática' else None
+        if dg and dg.get('flag') == 'curar' and (parse_date(dg.get('at')) or NOW) < flag_limit:
+            # Marca «curar» que ninguna curaduría tomó en FLAG_DAYS días: deja de figurar como pendiente.
+            dg['flag'] = 'vencida'
+        if it.get('label') != 'Automática' or it.get('digest'):
+            continue
+        alt = any(s.get('alsoIn') and s.get('url') and not no_read(s['url']) and not blocked(s.get('name', ''), s['url'])
+                  for s in it.get('sources') or [])
+        skip = it.get('digestSkip')
+        if skip and skip.get('auto') == 'no-read' and alt:
+            del it['digestSkip']
+        elif not skip and no_read(primary_url(it)) and not alt:
+            it['digestSkip'] = {'at': iso(NOW), 'auto': 'no-read',
+                                'reason': 'medio sin lectura automática (NO_READ_DOMAINS) y sin otro medio con la misma noticia'}
+            no_read_n += 1
+
     # Archivo: notas automáticas hasta un año y con tope; las curadas no se borran.
     cutoff = NOW - timedelta(days=ARCHIVE_DAYS)
     kept = []
@@ -1222,7 +1278,7 @@ def main():
     if before != after or not store.get('updatedAt'):
         store['updatedAt'] = iso(NOW)
     store['ingestion'] = {'ranAt': iso(NOW), 'sources': report, 'curatedDuplicates': suppressed,
-                          'excluded': excluded_n, 'grouped': groups, 'googleNews': gn}
+                          'excluded': excluded_n, 'grouped': groups, 'googleNews': gn, 'noRead': no_read_n}
     NEWS.write_text(json.dumps(store, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     STATUS.write_text(json.dumps(status, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 

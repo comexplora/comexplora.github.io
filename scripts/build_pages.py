@@ -30,6 +30,7 @@ from pathlib import Path
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from taxonomy import Taxonomy, norm  # noqa: E402
+import deadlines  # noqa: E402
 try:   # imágenes para redes de las notas curadas (requiere Pillow; sin él se usa la foto de archivo)
     import og_images  # noqa: E402
 except ImportError as e:
@@ -218,6 +219,19 @@ def split_items(raw):
         if dg.get('lead') and body:
             x = dict(it)
             x.update(label='Resumen', summary=dg['lead'], body=body)
+            # Si el medio principal no se pudo leer y el resumen se escribió con otro medio del grupo ("alsoIn"),
+            # ese medio pasa a ser la fuente principal: el resumen se atribuye a la nota que realmente se leyó.
+            srcs = it.get('sources') or []
+            alt = next((s for s in srcs if dg.get('basedOn') and s.get('url') == dg['basedOn'] and not s.get('primary')), None)
+            if alt:
+                prim = primary(it)
+                new = {k: v for k, v in alt.items() if k not in ('alsoIn', 'title')}
+                new.update(primary=True, type=prim.get('type') or 'Medio')
+                old = {k: v for k, v in prim.items() if k != 'primary'}
+                old.update(alsoIn=True, type='También publicó esta noticia', title=it.get('title', ''))
+                x['sources'] = [new, old] + [s for s in srcs if s is not alt and s is not prim]
+                if alt.get('title'):
+                    x['title'] = alt['title']
             shown.append(x)
         else:
             hidden.append(it)
@@ -465,14 +479,8 @@ def tool_body(key, news, items, sitedata, base):
         return '<dl class="gloss-list">' + ''.join(f'<dt>{esc(t[0])}</dt><dd>{esc(t[2])}</dd>' for t in terms) + '</dl>'
     if key == 'agenda':
         today = NOW.astimezone(TZ).date().isoformat()
-        rows = []
-        for it in items:
-            if is_secondary(it):
-                continue
-            for d in it.get('deadlines') or []:
-                if str(d.get('date', '')) >= today[:len(str(d.get('date', '')))]:
-                    rows.append((str(d['date']), d.get('label', ''), it))
-        rows.sort(key=lambda r: r[0])
+        rows = [r[:3] for r in deadlines.collect([i for i in items if not is_secondary(i)],
+                                                 lambda it, d: str(d['date']) >= today[:len(str(d['date']))])]
         return '<h2>Próximas fechas</h2><ul class="pre-list">' + ''.join(
             f'<li><b>{esc(dt)}</b> · {esc(lbl)} <small><a href="{base}noticias/{esc(it["id"])}/">{esc(it["title"])}</a></small></li>'
             for dt, lbl, it in rows[:60]) + '</ul>'

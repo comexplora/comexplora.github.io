@@ -12,6 +12,7 @@ import html
 import json
 from datetime import date, datetime, timedelta
 from pathlib import Path
+import deadlines  # noqa: E402  (misma carpeta: scripts/)
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = 'https://comexplora.github.io'
@@ -48,24 +49,15 @@ def pick(items, until: date, days: int):
 
 
 def upcoming(items, today: date, days=21):
-    out = []
-    for it in items:
-        if it.get('label'):
-            continue
-        for d in it.get('deadlines') or []:
-            ds = str(d.get('date', ''))
-            try:
-                dd = date.fromisoformat(ds) if len(ds) == 10 else None
-            except ValueError:
-                dd = None
-            if dd and today <= dd <= today + timedelta(days=days):
-                out.append((dd, d.get('label', ''), it))
-    out.sort(key=lambda r: r[0])
-    seen, uniq = set(), []
-    for r in out:
-        if r[1] not in seen:
-            seen.add(r[1]); uniq.append(r)
-    return uniq[:6]
+    def keep(it, d):
+        ds = str(d.get('date', ''))
+        try:
+            dd = date.fromisoformat(ds) if len(ds) == 10 else None
+        except ValueError:
+            return False
+        return bool(dd and today <= dd <= today + timedelta(days=days))
+    rows = deadlines.collect([i for i in items if not i.get('label')], keep)
+    return [(date.fromisoformat(r[0]), r[1], r[2]) for r in rows][:6]
 
 
 def build(until: date, intro: str, days: int):
