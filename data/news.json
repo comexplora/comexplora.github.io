@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-11-01T02:17:26Z",
+  "updatedAt": "2026-11-01T10:08:00Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -267,7 +267,8 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-01T02:18:28Z"
+      "lastAttempt": "2026-11-01T10:08:47Z",
+      "lastError": "HTTP Error 500: Internal Server Error"
     },
     {
       "id": "soja",
@@ -284,7 +285,7 @@
         "date": "2026-10-29",
         "ars": 547000.0
       },
-      "checkedAt": "2026-11-01T02:18:29Z",
+      "checkedAt": "2026-11-01T10:09:04Z",
       "_prev": {
         "date": "2026-10-28",
         "ars": 550000.0
@@ -369,7 +370,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-01T02:18:29Z"
+      "lastAttempt": "2026-11-01T10:09:04Z"
     },
     {
       "id": "brent",
@@ -382,7 +383,7 @@
       "obsDate": "2026-10-27",
       "change": "-3,9% vs. día anterior",
       "trend": "down",
-      "checkedAt": "2026-11-01T02:18:31Z",
+      "checkedAt": "2026-11-01T10:09:07Z",
       "history": [
         [
           "2026-09-16",
@@ -507,7 +508,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-11-01T02:18:31Z"
+      "lastAttempt": "2026-11-01T10:09:07Z"
     },
     {
       "id": "maiz",
@@ -524,7 +525,7 @@
         "date": "2026-10-29",
         "ars": 275400.0
       },
-      "checkedAt": "2026-11-01T02:18:31Z",
+      "checkedAt": "2026-11-01T10:09:07Z",
       "_prev": {
         "date": "2026-10-28",
         "ars": 277800.0
@@ -609,7 +610,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-01T02:18:31Z"
+      "lastAttempt": "2026-11-01T10:09:07Z"
     },
     {
       "id": "trigo",
@@ -626,7 +627,7 @@
         "date": "2026-10-29",
         "ars": 311000.0
       },
-      "checkedAt": "2026-11-01T02:18:31Z",
+      "checkedAt": "2026-11-01T10:09:07Z",
       "_prev": {
         "date": "2026-10-28",
         "ars": 317300.0
@@ -711,10 +712,235 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-01T02:18:31Z"
+      "lastAttempt": "2026-11-01T10:09:07Z"
     }
   ],
   "items": [
+    {
+      "id": "el-puerto-de-bilbao-adaptara-las-defensas-de-los-atraques-del-muelle-a1-a-los-ac",
+      "datetime": "2026-11-01T10:00:00Z",
+      "date": "2026-11-01",
+      "firstSeen": "2026-11-01T10:08:00Z",
+      "title": "El puerto de Bilbao adaptará las defensas de los atraques del muelle A1 a los actuales portacontenedores",
+      "summary": "El puerto de Bilbao invertirá 1,8 millones de euros para renovar las 38 defensas del muelle A1 y adaptarlas a las necesidades que marcan los portacontenedores que atracan allí.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos",
+        "Europa"
+      ],
+      "countries": [
+        "España"
+      ],
+      "tags": [
+        "Contenedores",
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Cadena de Suministro",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.cadenadesuministro.es/transporte-maritimo/puerto-bilbao-adaptara-defensas-atraques-muelle-a1-actuales-portacontenedores_1519339_102.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-01T10:08:00Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOd0dxcTdWamFPbl9QZlZkdVk5YlpuN3d3RVhuYjExVkVMTTN0Zzdob2RsVXZyT0Jicnd3b0s3MFlYQnNScXZ3NjRLZUhEd0JPbFJRQ2xlaHY3QVZZcVdUdzVLTHNrVlI0aVBjUVc2LXZQVGU5a1dqSTBQa2FES3hTSUhrU0s0RjRjV0lBaGV3NTZBdG91ODJka1I4QWRVVVpZQjhvVGlTQVcxM2NiTFBBSDRfRWh1dWhzVkdXZnVPQ0lFbjE0WFF0SU1GdENtd2hUM1U1VjRtU1VRYXV3MmlpNzhn?oc=5"
+    },
+    {
+      "id": "que-pasara-con-los-aranceles-de-trump-tras-las-elecciones-i-enclaveeconomica",
+      "datetime": "2026-11-01T06:45:06Z",
+      "date": "2026-11-01",
+      "firstSeen": "2026-11-01T10:08:00Z",
+      "title": "¿QUÉ PASARÁ CON LOS ARANCELES DE TRUMP TRAS LAS ELECCIONES? I #EnClaveEconómica",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "apnoticias.pe",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.apnoticias.pe/video/que-pasara-con-los-aranceles-de-trump-tras-las-elecciones-i-enclaveeconomica-635978",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-01T10:08:00Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORXE1V1ozVDM4Y2RKNnRuMUhTYl83MHVSNWl2dF9Wdmd3MGhETm1HZmpEc2QxOENreW15c1lnblJCZTBYWjhBWWtrVzBCNHBsaTZWb1drLTVnMGhUWjhZSUF4UWdoM2hBd3RpWlNtckc2aDdqU1R1YkE5eE1oYkVwWWwxWEVMblhURVlYTFBYUW9WdG9zTzJCb1BBWW1pN2xJZS1yVm9FdW1PV2pqNkl6YnN6N2hjUQ?oc=5"
+    },
+    {
+      "id": "de-ucrania-a-los-aranceles-como-afecta-a-espana-y-europa-el-resultado-de-las-ele",
+      "datetime": "2026-11-01T05:01:24Z",
+      "date": "2026-11-01",
+      "firstSeen": "2026-11-01T10:08:00Z",
+      "title": "De Ucrania a los aranceles: cómo afecta a España y Europa el resultado de las elecciones 'midterm' en Estados Unidos",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Estados Unidos",
+        "Europa"
+      ],
+      "countries": [
+        "Estados Unidos",
+        "España",
+        "Ucrania"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "El Periódico",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.elperiodico.com/es/internacional/20261101/impacto-espana-europa-elecciones-midterm-eeuu-135965805",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-01T10:08:00Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNS2U2M1IyUHZJcW51X3RkaVNQX3JYTTd0a3pWekJ3U2tfSFVqbTlXRVlZR2tTYjZ2QjVxNnllM1dRMHF1RjVZS2ZOX3hBOWs5TFBJSEdDa3NhclNGR0xMbVJiajFadE5nZ202cTk4RTk1bTZRZFY0OHJXcllDc0hBNzh4bURqckdRSkdKZlRQVGR1U29HYTRFYm1YSU5QTTdyWXBnRGtJeEkwX25VYnfSAa4BQVVfeXFMUFZiN0wzM2dYR0lMNVdvMlJDZHU4YXRydVhDUTVmZENLV2lFdlZ3M3k2ZkZ5b3NoenJ3dEd3MzBZRXFmMm1jZFpEQnVWZFZESm9JUDlkOTdqVlNyMnFveHNsMHB1elh3MFAtZktMX0hWQUhyYjZYM2JtM0RsRWZaY0hMejFuT1BtXzhPd3hFUFBpeGRjcFJZNkVqaWNsNzdEWmtNcllQbzM1aHpuVzBR?oc=5"
+    },
+    {
+      "id": "el-planeta-nos-cobrara-aranceles",
+      "datetime": "2026-11-01T04:30:00Z",
+      "date": "2026-11-01",
+      "firstSeen": "2026-11-01T10:08:00Z",
+      "title": "El planeta nos cobrará aranceles",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "EL PAÍS",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://elpais.com/economia/negocios/2026-11-01/el-planeta-nos-cobrara-aranceles.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-01T10:08:00Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcXdJeFN4OHRWWGlOV3h1Nzk2ZmQyLWcwdU9pQWxyZ25uUXl1UURFdllsR0lWVXpNc05PQXpmYTdTWVpmRmpQSXlmTkZ0UG00MHJmR3d1R0hsMjJOdjZ4QjFJRVc1SFl2dTdsQ1Z6V0tyQUZZVVNkbk00MkdxVmZBRFU5b2JHQXI5c3hWZl9B0gGiAUFVX3lxTE1xZm1PdjNUaGdpSEExa3Z0ODJNN1lOZW5idnVoclFrWGR2YmQyUUNkcmdPNTE2Y3Jhc1B0YVhOeTNoVWdPMzZYN0ZKeE9nQ2cyelV0V1VxdnRhbnhmQkt6cGVHdnRtcWVCN0stcGFscjlRVG1qcnRVWUxmZkZwN1k2SmJTMEFGbmx1UjhiQmNVZmo4RlRraVRFakNRTzRrVU43UQ?oc=5"
+    },
+    {
+      "id": "mein-schiff-3-colisiona-con-portacontenedores-y-cancela-su-temporada",
+      "datetime": "2026-11-01T03:13:09Z",
+      "date": "2026-11-01",
+      "firstSeen": "2026-11-01T10:08:00Z",
+      "title": "Mein Schiff 3 colisiona con portacontenedores y cancela su temporada",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Contenedores"
+      ],
+      "visual": "container",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Foro3D",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://foro3d.com/2026/noviembre/mein-schiff-3-colisiona-con-portacontenedores-y-cancela-su-temporada.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-01T10:08:00Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbnVYc1NNekZKSGt1UVBsV25MNVBsR1JTWXYzZlQzdjV4M0pyN2hmdjIwd1lyVF9SSnFXNTJZbjBBWWdsT3V1RU92SDQza3N0M2RweUpBb2NrZkFyRGxTOURUQ1ROU0dIQkR2NjJrX2lsNU5jd3NfUjBQZEtXN0s1em9nSl9Dd0JoSG44RXRrMnl1Y3hQR0NBUElBcnVBQ2xZYVFlNExJS3o3RzA?oc=5"
+    },
+    {
+      "id": "argentina-puede-exportar-u-s-200-mil-millones-pero-sigue-frenando-a-quienes-vend",
+      "datetime": "2026-11-01T03:01:33Z",
+      "date": "2026-11-01",
+      "firstSeen": "2026-11-01T10:08:00Z",
+      "title": "Argentina puede exportar U$S 200 mil millones, pero sigue frenando a quienes venden al mundo",
+      "summary": "Mientras se encamina a superar los U$S 100 mil millones anuales en ventas al exterior, persisten retenciones, trabas burocráticas y una baja inserción comercial que limitan su potencial. Qué necesita el país para duplicar sus exportaciones en la próxima década.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "La Voz del Interior",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.lavoz.com.ar/negocios/argentina-puede-exportar-us-200-mil-millones-sigue-frenando-venden-mundo_0_gcIpnIpAo2.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-01T10:08:00Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQUNsNUpmSmdrbGpCemNiM3RlVWNKbkIyOFhuSVpUejMzN0dxVW9mSkhlRFJkQ2JaSGxnck1Tb0RsNTJEd1JfSlZnQjJocVp1czZ5YTZjaS1LdHpMbGZpelI1dEpTRkFWR1Z4WVpCd0JTeUIybWlZY0R2N2l3NGNtY1h6cDBVbjExUHZZZHBtMmtfOGhKeHRpVEFCV0NvTTVqbVRvNDBKdUo5dmJXVk5OSmM3R090U1FqUlZPLTA1aFZwUQ?oc=5"
+    },
     {
       "id": "autlan-bajo-la-mira-tras-revision-de-aranceles-en-mexico",
       "datetime": "2026-11-01T00:39:34Z",
@@ -772,6 +998,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Aduanas"
       ],
       "countries": [
@@ -798,7 +1025,10 @@
       "digestSkip": {
         "at": "2026-11-01T00:45:00-03:00",
         "reason": "fuera de tema (decomiso en operativos de carnaval)"
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQzcyMjI2Sm1oRXJWOWxrNGJPYy05TzZna1QtWWxmN0FaTGNGYXNiOHFnd2dsUFRsMW02TmVJN1FZQ295OGlwUVBNZm9pV2FKOXhpWHJhbW50Wnl4VTNPbVZ3YkhsT2xaUE9XcXM0RVE2UGZwY1VfMXk5NEwyOEdueTRZNjAxYVJQLTkwdA"
+      ]
     },
     {
       "id": "canada-esperaria-a-que-ee-uu-tenga-un-nuevo-presidente-para-renegociar-un-acuerd",
@@ -817,7 +1047,9 @@
         "Estados Unidos",
         "Canadá"
       ],
-      "tags": [],
+      "tags": [
+        "Carne"
+      ],
       "visual": "treaty",
       "impact": 1,
       "affectsArgentina": false,
@@ -1675,7 +1907,7 @@
       ],
       "visual": "port",
       "impact": 1,
-      "affectsArgentina": false,
+      "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
       "feed": "Google Noticias · Logística y fletes",
@@ -1686,6 +1918,13 @@
           "url": "https://www.dzair-tube.dz/es/articles/el-puerto-de-skikda-alcanza-un-record-historico-al-superar-los-200-000-contenedores-y-refuerza-la-posicion-de-argelia-en-el-transporte-maritimo/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Medios del Aire",
+          "type": "También publicó esta noticia",
+          "url": "https://www.mediosdelaire.com.ar/d/noticias/el-campo-argentino-ya-alcanzo-un-record-historico-de-exportaciones-22239/",
+          "alsoIn": true,
+          "title": "El campo argentino ya alcanzó un récord histórico de exportaciones"
         }
       ],
       "gnTried": "2026-10-31T17:56:31Z",
@@ -1693,7 +1932,14 @@
       "digestSkip": {
         "at": "2026-10-31T17:30:00-03:00",
         "reason": "no se pudo abrir el artículo con la herramienta y no hay otra fuente legible"
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNLUp6djhuc3dWMl9MN0hsaXRfWmtKOWNZa1BMUi1PaGxJYXNSUzBaQk4zeWx4X1NPRi1FSnFRZXo5U0NOSDE4VjJYTXI0bGdWZnpEZzhnemlnNXlWbGxpWXhFd2xwVlFxWklNUkFLeU5KT1NUSXUxamwzVmpUN2hoT0pmRWtDeFFQLUhRbVZfcUNrYTk2RjBiVTJxY0tOWGZFcm1uT2tlSVZYWXIwSW5ZM25yQjNBeExa",
+        "https://www.mediosdelaire.com.ar/d/noticias/el-campo-argentino-ya-alcanzo-un-record-historico-de-exportaciones-22239"
+      ],
+      "mergedIds": [
+        "el-campo-argentino-ya-alcanzo-un-record-historico-de-exportaciones"
+      ]
     },
     {
       "id": "puerto-de-virginia-encarga-a-kalmar-10-gruas-portico-electricas",
@@ -1981,15 +2227,20 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Importaciones",
-        "Exportaciones"
+        "Exportaciones",
+        "Aduanas",
+        "Puertos"
       ],
       "countries": [
         "Argentina"
       ],
-      "tags": [],
+      "tags": [
+        "ARCA"
+      ],
       "visual": "customs",
-      "impact": 1,
+      "impact": 2,
       "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
@@ -2015,45 +2266,6 @@
         "at": "2026-11-01T06:50:00-03:00",
         "basedOn": "https://www.infobae.com/movant/2026/10/31/deposito-fiscal-que-es-como-funciona-y-cuando-se-utiliza-en-importaciones-y-exportaciones/",
         "words": 178
-      }
-    },
-    {
-      "id": "hacia-una-recuperacion-de-la-participacion-argentina-en-el-total-de-exportacione",
-      "datetime": "2026-10-31T11:13:55Z",
-      "date": "2026-10-31",
-      "firstSeen": "2026-10-31T14:03:37Z",
-      "title": "¿Hacia una recuperación de la participación argentina en el total de exportaciones mundiales?",
-      "summary": "A partir de 2023 (el año del piso en la participación de las exportaciones argentinas en el total mundial), la dinámica comercial argentina exhibe un crecimiento de sus exportaciones que supera el…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "flipr.news",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://flipr.com.ar/nacionales/politica/dataclave/hacia-una-recuperacion-de-la-participacion-argentina-en-el-total-de-exportaciones-mundiales/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-31T14:03:37Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZUVVRFcxODZBMDAzUGxtQ3Z2cHMtNm1OX2ZKazAxZ0plWC11cHE5RU9zaGVSUFhNTE5oSDZMZHd3T000MWo0SjhoRzQ5bF81aGFnMF8xOFduX1JIMlc5dk52d0hhRjE4MjBEcGR1cl96azJPZHpfMklTZGhFMDVEc1l6M1V5dldqS3dueWN1M241TWlxUE1EcHdaOVBLYklLOXZfY0FveG9TUlMwQ0tZZmZ6UHlvV3pTRWE0SWhnaTB4ZE1VYTVyWWNfTDN0Ul95b2pSRU84eElJamc?oc=5",
-      "digestSkip": {
-        "at": "2026-10-31T13:30:00-03:00",
-        "reason": "la fuente solo muestra un extracto (agregador que remite a Data Clave)"
       }
     },
     {
@@ -2104,6 +2316,44 @@
         "basedOn": "https://www.canal26.com/politica/2026/10/31/tension-entre-argentina-y-chile-por-malvinas-tierra-del-fuego-prepara-multas-y-sanciones-contra-empresas-navieras/",
         "words": 199
       }
+    },
+    {
+      "id": "los-aranceles-y-los-costos-de-flete-elevan-los-precios-de-los-disfraces-de-hallo",
+      "datetime": "2026-10-31T10:30:40Z",
+      "date": "2026-10-31",
+      "firstSeen": "2026-11-01T10:08:00Z",
+      "title": "Los aranceles y los costos de flete elevan los precios de los disfraces de Halloween",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes",
+        "Aranceles"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "IndexBox",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.indexbox.io/es/blog/tariffs-and-freight-costs-push-up-halloween-costume-prices/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-01T10:08:00Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcWpUVWtHSUhOMGljMHQtY01ieERZVTBBT195WXRDSTBSM0J2UlNPejRCM0pNUEtQeHdaM2pzYW9zZkVoTDFxVlJ1SmlLOXExZFMteEZjMUpWTlpmcXY3UXZ0Mkl2eGFrYUNVaWhSbm40YTNYTU81cUticDNCcFN0SHZlOTBFS1ZnYmhEZEJISm0wS0FlVXc?oc=5"
     },
     {
       "id": "gracias-a-la-eliminacion-de-los-aranceles-india-esta-incrementando-las-importaci",
@@ -2247,7 +2497,11 @@
       "countries": [
         "Argentina"
       ],
-      "tags": [],
+      "tags": [
+        "Soja",
+        "Carne",
+        "Agro"
+      ],
       "visual": "customs",
       "impact": 2,
       "affectsArgentina": true,
@@ -2452,6 +2706,42 @@
       }
     },
     {
+      "id": "paradoja-historica-exportaciones-e-historia-de-carne",
+      "datetime": "2026-10-31T03:28:26Z",
+      "date": "2026-10-31",
+      "firstSeen": "2026-11-01T10:08:00Z",
+      "title": "Paradoja histórica: exportaciones e historia de carne",
+      "summary": "¡Paradoja histórica! Las exportaciones de carne marcan récord de USD 3.792 millones mientras el consumo interno se desploma al piso más bajo desde 1914.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Carne"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "» Cholila Online",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://cholilaonline.ar/2026/10/paradoja-historica-exportaciones-carne-consumo-interno.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-01T10:08:00Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUmd6VnVlSHNqVUwxY1RjNzE4MEpXR3NZenlCNmJpa3B1NFFNSGdwNEtObXhPWEl1UkFOekhiXzNEbmJRcVdSV3RhWDRJOElaSnBLNjdFRldiNzdSY0JfSTRPNk91OGdQcjNaUHI0N096Qk5rRUNSM2kwbVdfYlZTbVRUbnV2ZHc2cXUxVDl4ZzV5bElEMUlF?oc=5"
+    },
+    {
       "id": "becas-joventec-en-ecuador-como-estudiar-carreras-tecnicas-y-tecnologicas-sin-pag",
       "datetime": "2026-10-31T03:25:00Z",
       "date": "2026-10-31",
@@ -2491,6 +2781,57 @@
         "at": "2026-10-31T13:30:00-03:00",
         "reason": "fuera de tema (becas educativas; «aranceles» refiere a matrículas)"
       }
+    },
+    {
+      "id": "ypf-presento-un-proyecto-de-usd-8-729-millones-que-preve-exportaciones-por-usd-2",
+      "datetime": "2026-10-31T03:08:06Z",
+      "date": "2026-10-31",
+      "firstSeen": "2026-11-01T10:08:00Z",
+      "title": "YPF presentó un proyecto de USD 8.729 millones que prevé exportaciones por USD 25 mil millones en Vaca Muerta",
+      "summary": "El desarrollo de Bajo del Toro prevé la perforación de 440 pozos y la generación de exportaciones por unos 25.000 millones de dólares",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Energía"
+      ],
+      "visual": "energy",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "La 100",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://la100.cienradios.com/economia/ypf-presento-un-proyecto-de-usd-8729-millones-que-preve-exportaciones-por-usd-25-mil-millones-en-vaca-muerta/",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Diario Neuquino",
+          "type": "También publicó esta noticia",
+          "url": "https://diarioneuquino.com.ar/bolivia-autoriza-importar-gas-tras-decadas-de-exportaciones-y-abre-un-nuevo-escenario-para-vaca-muerta/",
+          "alsoIn": true,
+          "title": "Bolivia autoriza importar gas tras décadas de exportaciones y abre un nuevo escenario para Vaca Muerta"
+        }
+      ],
+      "gnTried": "2026-11-01T10:08:00Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPekJJMjBJZGZ5MWlVX2tEX2tXazNQaURfR0szblJCVzNpYkF3MklYckhpaXJwYkU1MTVTLWM3QWRIMGZSaWpPeFBzVlZBRXRscngwdzZlSXJBTU5kaFlaOHh0MHZrRlVZX2NMcjFuSzB0azRJY0ktNWR2dHJEQnFvYVBudktTM0JJOEZWSVBqcTJhTHZ3Nmd4Y1lZWjA4SlRfSDdFOW91dGtnYS04a2JnTk5GSnhDMFd6R3FNUm1CUlFMWnRULWZ1Nm5BV2M1UFkxRHBjT0V5RlBqMFo3ek9zcw?oc=5",
+      "aliasUrls": [
+        "https://diarioneuquino.com.ar/bolivia-autoriza-importar-gas-tras-decadas-de-exportaciones-y-abre-un-nuevo-escenario-para-vaca-muerta",
+        "https://news.google.com/rss/articles/CBMizgFBVV95cUxNWHlmaTl0R1daaE9od0d1Vnh6czhjSHVhVGxoOWphWm1MMHVLMjNVaW1xVTExNWlXZXowQVc2ZFNLaWFmNkhEWG4zZEZLOHc1amZkaFdCbkFDZkZfQ0syWlplWVlyR1VtcVZQNk9OeldaOXA4eDFBbTRZSzVGOWxZejRUSjR6SWpNUDk0cDkwQVlJS2VRZWpLYkJIQTVfRGhIOHl2TGctYXBZV2dSZnRVakxVcmNYMHBydzVSendkZy00TnFwU1FhX3lLNjdkQQ"
+      ],
+      "mergedIds": [
+        "bolivia-autoriza-importar-gas-tras-decadas-de-exportaciones-y-abre-un-nuevo-esce"
+      ]
     },
     {
       "id": "ue-tasa-manejo-2-euros-por-articulo-ventas-a-distancia-1-noviembre-reglamento-2026-2152",
@@ -3452,71 +3793,6 @@
       }
     },
     {
-      "id": "las-exportaciones-argentinas-de-carne-vacuna-crecieron-un-37-y-van-rumbo-a-un-nu",
-      "datetime": "2026-10-31T00:51:07Z",
-      "date": "2026-10-30",
-      "firstSeen": "2026-11-01T02:17:26Z",
-      "title": "Las exportaciones argentinas de carne vacuna crecieron un 37% y van rumbo a un nuevo récord histórico",
-      "summary": "Entre enero y septiembre, las ventas externas crecieron 36,9% interanual y quedaron cerca de superar todo lo facturado en 2025.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Carne"
-      ],
-      "visual": "livestock",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "qpasó",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://qpaso.ar/noticias/derechadiario/economia/exportaciones-argentinas-carne-vacuna-crecieron-37-van-rumbo-nuevo-record-historico",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "El Esquiu",
-          "type": "También publicó esta noticia",
-          "url": "https://www.elesquiu.com/nacionales/2026/10/31/las-exportaciones-de-carne-vacuna-alcanzaron-un-record-de-us-3792-millones-601727.html",
-          "alsoIn": true,
-          "title": "Las exportaciones de carne vacuna alcanzaron un récord de US$ 3.792 millones"
-        },
-        {
-          "name": "Primicias Rurales",
-          "type": "También publicó esta noticia",
-          "url": "https://www.ruralprimicias.com.ar/las-nuevas-cuotas-de-carne-vacuna-imponen-un-cambio-radical-en-el-ritmo-del-negocio-exportador/",
-          "alsoIn": true,
-          "title": "Las nuevas cuotas de carne vacuna imponen un cambio radical en el ritmo del negocio exportador"
-        }
-      ],
-      "gnTried": "2026-11-01T02:17:26Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSHR1LXo5cGVZRko2QTRic3dzZ2pBd3VBazhuVmszUG5nbGVrdTNjR1ZpWUFidFpNUVlKSnBXRVZIWGpOamFvZzNyd0lMb3FfalZfd1JCSVFVQnN6WEIxc0ZISEdsUGZlQ092MWhoeWxZMW44cm1wRUtsWnkzcWxHa1Qwc1puTnBLTjBESEJfTFg1VWtaNEd1QlJIa1ozSjJNRmhDOXpxWGMzT2VSc1UtZjd0cHB1bE9FUHlFbGNlQlhqZC14dk1RWHUyR0U?oc=5",
-      "aliasUrls": [
-        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQb1p2WTd1bmFVYmstY0cxTzBFZXFqZ1daQWdJZnp4YjZyX2JTWmg4MDZ6bHNPdmc3U21GeDRpUFhURjNCM01DMVE3RHMzV2xuYm51THhoVFpKSDVYLXpXR281Uk1XUEQ5UkJfc2xIMmtheHFLNFR2bm9qLXBSTG1URXRwT192TnVsWWs1c2tGUmNHZXNDam05UVN6UEtWX1lQdkRjRUl3QWJVZ2tBcE9vaGJmdng0OU05Ni1BQnQ3MnlnZXdpNTRrRg",
-        "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYm83d1JrVFV1alF3ZmFISzg5UlVtYkVWTHNDSjJGeGl6SENGTTZyNUhoZWdpLVp4YnZCX0JHV0hkbzBrVzN0NmZwdnVnbW9FeVlGcDVKYWZxOFpxemdrQTlNaS1qUUduU3JtMkFWNy14ZFJvSUZuejJWcTFmM0Y0RlBMUE9hN1JPSnRQcmNISHFSaFBhbHdOWEJ6akU0Q0ppTDlYd3AwbVpXdmRRNHF3X0VlSk9PLTB1VWtvUkEyUGR3VUVtZFQ0cDBiaU03dw",
-        "https://www.elesquiu.com/nacionales/2026/10/31/las-exportaciones-de-carne-vacuna-alcanzaron-un-record-de-us-3792-millones-601727.html",
-        "https://www.ruralprimicias.com.ar/las-nuevas-cuotas-de-carne-vacuna-imponen-un-cambio-radical-en-el-ritmo-del-negocio-exportador"
-      ],
-      "mergedIds": [
-        "las-exportaciones-de-carne-vacuna-alcanzaron-un-record-de-us-3-792-millones",
-        "las-nuevas-cuotas-de-carne-vacuna-imponen-un-cambio-radical-en-el-ritmo-del-nego"
-      ],
-      "digestSkip": {
-        "at": "2026-11-01T03:47:53-03:00",
-        "reason": "repite una nota de la redacción (exportaciones de carne vacuna enero-septiembre 2026)"
-      }
-    },
-    {
       "id": "astillero-chino-entrega-nuevo-portacontenedores-cma-cgm-austral",
       "datetime": "2026-10-31T00:00:32Z",
       "date": "2026-10-30",
@@ -3897,6 +4173,55 @@
         "at": "2026-10-31T15:30:00-03:00",
         "reason": "fuera de tema (perfil político de Hakeem Jeffries ante las elecciones; los aranceles son un aspecto menor)"
       }
+    },
+    {
+      "id": "hacia-una-recuperacion-de-la-participacion-argentina-en-el-total-de-exportac-2",
+      "datetime": "2026-10-30T22:06:33Z",
+      "date": "2026-10-30",
+      "firstSeen": "2026-11-01T10:08:00Z",
+      "title": "¿Hacia una recuperación de la participación argentina en el total de exportaciones mundiales?",
+      "summary": "A partir de 2023 (el año del piso en la participación de las exportaciones argentinas en el total mundial), la dinámica comercial argentina exhibe un crecimiento de sus exportaciones que supera el alza del total mundial, un dato no menor considerando que el comercio internacional planetario se encuentra en niveles…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "DataClave",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.dataclave.com.ar/opinion/-hacia-una-recuperacion-de-la-participacion-argentina-en-el-total-de-exportaciones-mundiales-_a6ae512581b0855ad6a2203e5",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "flipr.news",
+          "type": "También publicó esta noticia",
+          "url": "https://flipr.com.ar/nacionales/politica/dataclave/hacia-una-recuperacion-de-la-participacion-argentina-en-el-total-de-exportaciones-mundiales/",
+          "alsoIn": true,
+          "title": "¿Hacia una recuperación de la participación argentina en el total de exportaciones mundiales?"
+        }
+      ],
+      "gnTried": "2026-11-01T10:08:00Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNZW8wTUdLZlN1ajJUWHNoM2V3QjN3Vk9UVjZBcWF1a3liRXFheGc3U0xZSTdVZWFLeU44TG53YUZEaUo4aWEwanNEeFZKMVVnRDAxWWpiTUhPOHN6aGlDelU5SkotTVVqb2JYd01MUlZkSGk2VW44ZnEtWmlpaUhIZzJZVFNPa2tnRnB5TktEVU5qbkxDekVBREF3cWozUVlFRXpWZmRZbUdTZ1pNeEZCSERlRVBqUlJLZXp2WENGUEMyc2xjWU9rYVVPR09lY1VKTmtucTF5RnJWM3pLUlFreXd5WTBIQ05ZcF9oZdIB-wFBVV95cUxPTFE4S2NudHJRTFI1Y2E1ZXBpN1VnNkRycVZHc3Y2amtaUl9jTXlfTjRrSG82Z1doQWVCOG1XZUJpWW43NGxZQmhFa2RVYzF4Qk1xUVQ4c2NYWlp0QU9oeXZyNmJYR3Y4VUE1N2dDSUs3Z2ZkYVhoZUtPbkp4WjgwSEl4ajAxaWRGRk5YYTJSbFpQT3FLSDFVQTZNcFQxN2NRZXdYOWRMM0szenNaTndPektJeElsREMtc0JkRkFocnFPcE4xd0tUVkV5V1FvWnl5N3ZveVQwRW5pWGtGQjRIT0I0d0RoQ2VNTUJWbTJfdk1tQWd4M3FuSlF0Zw?oc=5",
+      "aliasUrls": [
+        "https://flipr.com.ar/nacionales/politica/dataclave/hacia-una-recuperacion-de-la-participacion-argentina-en-el-total-de-exportaciones-mundiales",
+        "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZUVVRFcxODZBMDAzUGxtQ3Z2cHMtNm1OX2ZKazAxZ0plWC11cHE5RU9zaGVSUFhNTE5oSDZMZHd3T000MWo0SjhoRzQ5bF81aGFnMF8xOFduX1JIMlc5dk52d0hhRjE4MjBEcGR1cl96azJPZHpfMklTZGhFMDVEc1l6M1V5dldqS3dueWN1M241TWlxUE1EcHdaOVBLYklLOXZfY0FveG9TUlMwQ0tZZmZ6UHlvV3pTRWE0SWhnaTB4ZE1VYTVyWWNfTDN0Ul95b2pSRU84eElJamc"
+      ],
+      "mergedIds": [
+        "hacia-una-recuperacion-de-la-participacion-argentina-en-el-total-de-exportacione"
+      ]
     },
     {
       "id": "peru-aseguran-que-restablecimiento-de-relaciones-diplomaticas-entre-peru-y-mexic",
@@ -5949,7 +6274,10 @@
       "digestSkip": {
         "at": "2026-10-30T14:10:00-03:00",
         "reason": "fuera de tema (contenido patrocinado, sección Brandvoice)"
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxOb0FjSUtzM1loQ0d4Nzl6MWMyS2txczNENlUzbTliZTRFbkVFYm4zY0RfOFVadEFRV1dSTy1TYlVoTWw1NXhpOG45SXA5UWFJOWk3SFQxakNGVmtUSC1ZbjR0Ny1iZmNRV0paSUtJX19PUE5IVHMwT01vTWd2aTJxN3Jvd19jSjlDNk9FMTZ0UHFJb2o4UkNWQTBkcmFzNzVkY2FtdVR4UGtlQldBcWxPUDRaN24wZUtkYWEzMTVnODZyVlJxTEHSAcsBQVVfeXFMTmFBXzBMM2FuWmlSY0pKYzZtdnNLT21qX2NvQzNoZ3lqYVZVYjNhc095My1GeXVlT09DeWkwN0hzcmY4RzVRUkxrUnZtZnRZZlNScWxFS2w4OHM1eUFBVEVLbl9nWTRlM2FHdEVaREN0Ukt0SXpMLXdtZVNPOVF6XzkwMnRoRk9qMnZ4WHFHYzdnUXFQajJMUS0wcEkyZGNwVzRPaTFUbkNXTU5taEVhWlJHc2ZFN091WVFmbF9RczI3LWVhM3VwX253a1k"
+      ]
     },
     {
       "id": "el-nuevo-costo-de-exportar-el-campo-argentino-debera-demostrar-como-contrata-a-s",
@@ -5989,6 +6317,41 @@
         "at": "2026-10-30T14:10:00-03:00",
         "reason": "repite el mismo hecho que la nota de Rosario Finanzas (constancia de legalidad laboral de Uatre y Visec)"
       }
+    },
+    {
+      "id": "dp-world-ecuador-da-un-salto-logistico-con-un-muelle-de-800-metros-y-una-grua-re",
+      "datetime": "2026-10-30T11:16:27Z",
+      "date": "2026-10-30",
+      "firstSeen": "2026-11-01T10:08:00Z",
+      "title": "DP World Ecuador da un salto logístico con un muelle de 800 metros y una grúa récord",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Ecuador"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "MasContainer",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://mascontainer.com/dp-world-ecuador-da-un-salto-logistico-con-un-muelle-de-800-mts/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-01T10:08:00Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaWx2b0ZSV0piei1qdloyd2xhQXlCNFY1YVhNbkZiU1Y4dnhLOTQwY3k5UlYydUZrSmFxcVhoSFN3dVB4ODBybjhsenpyRk1RNVVibzd1LTBGYmFkTWpkMDlWRmdxNGhNZHFCRDVjMVFPQlh2a0locEpWYVVZbVhOcDZVT0RXRnFUVnBBV0Z5aU1JWms?oc=5"
     },
     {
       "id": "la-nueva-oleada-de-portacontenedores-amenaza-con-desatar-una-sobreoferta-de-capa",
@@ -32005,6 +32368,13 @@
           "url": "https://laotracara.co/actualidad/panorama-del-comercio-exterior-en-colombia-retos-y-perspectivas/",
           "alsoIn": true,
           "title": "Panorama del Comercio Exterior en Colombia: Retos y Perspectivas"
+        },
+        {
+          "name": "Al Poniente",
+          "type": "También publicó esta noticia",
+          "url": "https://alponiente.com/panorama-del-comercio-exterior-en-colombia-retos-y-perspectivas/",
+          "alsoIn": true,
+          "title": "Panorama del comercio exterior en colombia: retos y perspectivas"
         }
       ],
       "gnTried": "2026-10-23T17:55:22Z",
@@ -32021,7 +32391,9 @@
         "words": 196
       },
       "aliasUrls": [
+        "https://alponiente.com/panorama-del-comercio-exterior-en-colombia-retos-y-perspectivas",
         "https://laotracara.co/actualidad/panorama-del-comercio-exterior-en-colombia-retos-y-perspectivas",
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMlVqOFRkU3FOcm9ZZ2xOYnJUc3lJMjJNVk5Eb2Y5eWpyTWZvaXdmYkwybzVSV2w3RHBpckQ5QW1sSEF0bUthc0VkcTBnMzJXUW45NFoxbFVpTGh2Y0txQXBHU2I1aTRYRVUwMU1KZlVWNElISTNIbUE5VUlnOENkLTE4UmZTSThIQjk5akEwTmU",
         "https://news.google.com/rss/articles/CBMingFBVV95cUxQWHZKMi01aHVTSVE2T2d2aXBIZjRqOW94b0pRQ3dIMHJIMGtpQkJVNzRkRXJVV0N0TnRmNUFqazlQc2x5MWtDQ2t4b3lncnl3ZGl6NlVTREFPR0RBNkxTc1REMjhjMlJWS29VNjUtU0lnNW5YM2Z4NTJJTGNmcVlKck1tajQ2TFJuM2VkUkgxRjRfdW9VM0hjdFNDWm5vZw",
         "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVGdfUksyblRyMlZTT3gzcXB4cWtuN3BsZTNONFpnS2M5eXhhOTd3RjF1eG4wX3paSDhfaGdQYlZld0RoS0Y4RVRhRWozd0NDeXZJcUZiREdBYkZiS0dOUkthT3FINU1kQnpFUjJyMnJFbmNYcVFPb1R6MEtpazQ0ZHA4bFMxNGxLeGp4WjM4VV9oRXpndGs5d0EyUS0wd0dGSVZkSA",
         "https://prensamercosur.org/2026/10/23/panorama-del-comercio-exterior-en-colombia-retos-y-perspectivas"
@@ -96480,7 +96852,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-10-31T10:04:16Z"
+      "gnTried": "2026-11-01T10:08:00Z"
     },
     {
       "id": "portcastello-presenta-estrategia-para-albergar-hub-industrial-de-energia-eolica",
@@ -106947,7 +107319,7 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-11-01T02:17:26Z",
+    "ranAt": "2026-11-01T10:08:00Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
@@ -106972,7 +107344,7 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 6,
+        "added": 0,
         "updated": 0,
         "skipped": 4
       },
@@ -106980,25 +107352,25 @@
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 50,
+        "items": 51,
         "added": 4,
         "updated": 0,
-        "skipped": 37
+        "skipped": 36
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 55,
+        "items": 52,
         "added": 1,
         "updated": 0,
-        "skipped": 47
+        "skipped": 44
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 58,
+        "items": 60,
         "added": 4,
         "updated": 0,
         "skipped": 33
@@ -107007,7 +107379,7 @@
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 29,
+        "items": 28,
         "added": 1,
         "updated": 0,
         "skipped": 22
@@ -107016,19 +107388,19 @@
         "source": "Google Noticias · Aranceles y comercio internacional",
         "url": "https://news.google.com/rss/search?q=(aranceles+OR+%22guerra+comercial%22+OR+%22acuerdo+comercial%22)+when:1d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 45,
+        "items": 24,
         "added": 4,
         "updated": 0,
-        "skipped": 29
+        "skipped": 10
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 59,
-        "added": 3,
+        "items": 44,
+        "added": 2,
         "updated": 0,
-        "skipped": 23
+        "skipped": 14
       }
     ],
     "curatedDuplicates": [
@@ -107063,11 +107435,6 @@
         "curated": "carne-vacuna-exportaciones-enero-septiembre-2026-549600-toneladas-china-cuota-rosgan"
       },
       {
-        "title": "Cuatro años más de Lula: cómo puede seguir la relación comercial con Brasil, destino top de las exportaciones cordobesas",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUUpnMWtpUnA4NjI5RVFCY3h4ZF9MVVBxck82SXgtYXA0N2RGS2ZZaGVXaEM0Y0NiT2lCSnVEb1BXR0VCNktjR0JqMklYUUZoTzM5SkNibUJUdTJTcG5keEt6am50ZnkxMmVvY3FMZk55aXNGd2JWTTQ0bkV3ajZDcE1YNEJIM29WcG5CWXlQT1pudVhUZVk1U0lEV0thTjQtQTFGOFB2VFlsNmxHeTI2Y0JVMDRsMHNQcGVDT29qYXFnX3VRWldjamlIN3BZT3h6NUZB?oc=5",
-        "curated": "lula-reelecto-bolsa-de-cereales-inai-agro-argentino-eeuu-sectores-expuestos-real"
-      },
-      {
         "title": "Las importaciones de miel de Mercosur se duplican en tres meses",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVXpCbTRCWDUzam14QzFWZ2U1Zy1xa3VkUURrVjk5eHVyUmVDN3lhdnoyZEhabkxVUllsUnRCZDNJNjZ1cnRjWTF0S0VoM0IyLUFCSTFLZ25GTm83elFSQ0dwMm1MbmE0dHhkeGhyTy1CY0Z1MWFFajVFMGxIaGRyby1MNGdiUWd5bTZMZVlqWTZyWXV2VHhwTktTTXlOMU9mUU5GdFR6NlRaTW5XMkJQUjVFQdIBuAFBVV95cUxQdHU5MGEta0twbHdkOFRzQ1RWVm9HWG92TmxEUU5RbkN1N1k3RWZneTV4czJaNGtXNW5majVXdkZMd2F6cHhGNThhWVVGdkhwTnI0SGtYMUJkMTdiXy1zSTZWbzBIcmNvUUswN0dxdHJNcVljQjI5NGR1YmxSQTFiaUhKUWFpVUR6X2YtaGxqWDRYV1NRa21oU3cxdXZVS2xiVHhUTjJSd3NaQjZnWS1WbVJmbnk0eXQz?oc=5",
         "curated": "ue-miel-mercosur-importaciones-94-por-ciento-cuota-superada-argentina-85-salvaguardia"
@@ -107098,69 +107465,47 @@
         "curated": "iata-carga-aerea-septiembre-2026-7-7-por-ciento-combustible"
       },
       {
-        "title": "La demanda global de carga aérea crece un 7,7% en septiembre",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNckZRYzVRSWZLVXowZkxLX1lPZFYtNWR5bFFqNVVzZmljWjZ3eWZLVnhxWWU4Zmllek9aM0tXMy1nR00xXzROMmxoaDVELTdvc1dVQkRfdW0wZ0EwNHNjWW1vbUNablVUQWRmdVNRWDd3MEFKNXk2dGw5YUZwSm9xQ2c3bThNYVZhSE9qRFJ2cEY0cFhQUzZlWUZ2clNkM1c5eVdIQTV2ekhuLVlaQlc4?oc=5",
-        "curated": "iata-carga-aerea-septiembre-2026-7-7-por-ciento-combustible"
-      },
-      {
-        "title": "Aumenta 7.7% la demanda mundial de carga aérea en septiembre: IATA",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNY1hpTzdCQnZxaDBtX1VQY3BrV2I4dVRaaHRHR3d3ZV85bUdFZGg3TURfOC1tN25ic0lPVlE4RHVkMTFKOUlYejJGQTBkSFdBdkpDS0hSNzlnZ0FKSFRNNzhzV01xcmw3UnMwcS05Y2tOZFNSQWk1dFJPWHo0THM5WUN2RTFFMWVIY0hPazU3NXZPLU9yV3BqMzRfbzU1aVY5X1Q2eFRqSzRCazg?oc=5",
-        "curated": "iata-carga-aerea-septiembre-2026-7-7-por-ciento-combustible"
-      },
-      {
-        "title": "Carga aérea mundial crece 7,7% en septiembre, según IATA",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAtN1pidEZabDVvZ1hMUnZhbXVOcFI3bXlSZnluelk0OWE1cGlfWjhBM01zWktQSktOY2g0M3Fka3V3UTJxXzUxUmRzMGpzSlFWOFV6S2hNSXpybEtUMVJCZkpPenVFc2QydGI0OG1tdVdWaXBMRGV5WmsxZw?oc=5",
-        "curated": "iata-carga-aerea-septiembre-2026-7-7-por-ciento-combustible"
-      },
-      {
-        "title": "Enviar paquetes a la Unión Europea costará más: aplican nuevas tarifas aduanales desde el 1 de noviembre",
-        "url": "https://heraldodemexico.com.mx/economia/2026/10/30/enviar-paquetes-la-union-europea-costara-mas-aplican-nuevas-tarifas-aduanales-desde-el-de-noviembre-919678.html",
-        "curated": "ue-tasa-manejo-2-euros-por-articulo-ventas-a-distancia-1-noviembre-reglamento-2026-2152"
-      },
-      {
-        "title": "YPF presentó un proyecto de USD 8.729 millones que prevé exportaciones por USD 25 mil millones en Vaca Muerta",
-        "url": "https://la100.cienradios.com/economia/ypf-presento-un-proyecto-de-usd-8729-millones-que-preve-exportaciones-por-usd-25-mil-millones-en-vaca-muerta/",
-        "curated": "vmos-vaca-muerta-oil-sur-85-por-ciento-primera-exportacion-marzo-2027-punta-colorada"
+        "title": "Las exportaciones argentinas de carne vacuna crecieron un 37% y van rumbo a un nuevo récord histórico",
+        "url": "https://qpaso.ar/noticias/derechadiario/economia/exportaciones-argentinas-carne-vacuna-crecieron-37-van-rumbo-nuevo-record-historico",
+        "curated": "carne-vacuna-exportaciones-enero-septiembre-2026-549600-toneladas-china-cuota-rosgan"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "agro-argentino-un-estudio-revela-que-podria-exportar-us-122-000-millones-si-hubi",
+        "main": "entrevista-colombia-panorama-del-comercio-exterior-en-colombia-retos-y-perspecti",
         "merged": [
-          "si-hubiera-crecido-como-brasil-la-argentina-exportaria-us-122-000-millones-del-a"
+          "panorama-del-comercio-exterior-en-colombia-retos-y-perspectivas"
         ]
       },
       {
-        "main": "camioneros-de-san-antonio-mantienen-paro-tras-reunion-con-gobierno",
+        "main": "hacia-una-recuperacion-de-la-participacion-argentina-en-el-total-de-exportac-2",
         "merged": [
-          "paro-de-camioneros-continua-de-forma-indefinida-en-san-antonio-por-desacuerdo-en",
-          "camioneros-mantienen-paro-indefinido-en-san-antonio-por-alza-en-tarifas-de-flete"
+          "hacia-una-recuperacion-de-la-participacion-argentina-en-el-total-de-exportacione"
         ]
       },
       {
-        "main": "canal-de-panama-modifica-sistema-de-reserva-de-transitos",
+        "main": "ypf-presento-un-proyecto-de-usd-8-729-millones-que-preve-exportaciones-por-usd-2",
         "merged": [
-          "canal-de-panama-modifica-reglas-para-asignar-cupos-de-transito-a-navieras"
+          "bolivia-autoriza-importar-gas-tras-decadas-de-exportaciones-y-abre-un-nuevo-esce"
         ]
       },
       {
-        "main": "las-exportaciones-argentinas-de-carne-vacuna-crecieron-un-37-y-van-rumbo-a-un-nu",
+        "main": "el-puerto-de-skikda-alcanza-un-record-historico-al-superar-los-200-000-contenedo",
         "merged": [
-          "las-exportaciones-de-carne-vacuna-alcanzaron-un-record-de-us-3-792-millones",
-          "las-nuevas-cuotas-de-carne-vacuna-imponen-un-cambio-radical-en-el-ritmo-del-nego"
+          "el-campo-argentino-ya-alcanzo-un-record-historico-de-exportaciones"
         ]
       }
     ],
     "googleNews": {
       "pending": 17,
-      "resolved": 17,
-      "withSummary": 17,
+      "resolved": 16,
+      "withSummary": 7,
       "withPhoto": 0,
-      "failed": 0,
-      "duplicates": 0
+      "failed": 1,
+      "duplicates": 2
     },
-    "noRead": 1
+    "noRead": 0
   },
   "stories": [
     {
