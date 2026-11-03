@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-11-03T17:13:06Z",
+  "updatedAt": "2026-11-03T22:26:36Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -134,20 +134,16 @@
     {
       "id": "tc-mayorista",
       "label": "Tipo de cambio mayorista ARS/USD",
-      "value": "$ 1.544,65",
-      "period": "Com. A 3500 · 2 nov 2026",
+      "value": "$ 1.549,72",
+      "period": "Com. A 3500 · 3 nov 2026",
       "source": "BCRA",
       "url": "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp",
       "group": "Mercados",
-      "obsDate": "2026-11-02",
-      "change": "+0,5% vs. día hábil anterior",
+      "obsDate": "2026-11-03",
+      "change": "+0,3% vs. día hábil anterior",
       "trend": "up",
-      "checkedAt": "2026-11-03T17:14:08Z",
+      "checkedAt": "2026-11-03T22:27:42Z",
       "history": [
-        [
-          "2026-09-21",
-          1514.9134
-        ],
         [
           "2026-09-22",
           1513.6838
@@ -263,11 +259,15 @@
         [
           "2026-11-02",
           1544.6507
+        ],
+        [
+          "2026-11-03",
+          1549.7194
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-03T17:14:08Z"
+      "lastAttempt": "2026-11-03T22:27:42Z"
     },
     {
       "id": "soja",
@@ -284,7 +284,7 @@
         "date": "2026-11-02",
         "ars": 542000.0
       },
-      "checkedAt": "2026-11-03T17:14:09Z",
+      "checkedAt": "2026-11-03T22:27:43Z",
       "_prev": {
         "date": "2026-10-30",
         "ars": 544000.0
@@ -377,7 +377,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-03T17:14:09Z"
+      "lastAttempt": "2026-11-03T22:27:43Z"
     },
     {
       "id": "brent",
@@ -390,7 +390,7 @@
       "obsDate": "2026-10-27",
       "change": "-3,9% vs. día anterior",
       "trend": "down",
-      "checkedAt": "2026-11-03T17:14:11Z",
+      "checkedAt": "2026-11-03T22:27:45Z",
       "history": [
         [
           "2026-09-16",
@@ -515,7 +515,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-11-03T17:14:11Z"
+      "lastAttempt": "2026-11-03T22:27:45Z"
     },
     {
       "id": "maiz",
@@ -532,7 +532,7 @@
         "date": "2026-11-02",
         "ars": 275000.0
       },
-      "checkedAt": "2026-11-03T17:14:11Z",
+      "checkedAt": "2026-11-03T22:27:45Z",
       "_prev": {
         "date": "2026-10-30",
         "ars": 273300.0
@@ -625,7 +625,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-03T17:14:11Z"
+      "lastAttempt": "2026-11-03T22:27:45Z"
     },
     {
       "id": "trigo",
@@ -642,7 +642,7 @@
         "date": "2026-11-02",
         "ars": 314980.0
       },
-      "checkedAt": "2026-11-03T17:14:11Z",
+      "checkedAt": "2026-11-03T22:27:45Z",
       "_prev": {
         "date": "2026-10-30",
         "ars": 312500.0
@@ -735,172 +735,785 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-03T17:14:11Z"
+      "lastAttempt": "2026-11-03T22:27:45Z"
     }
   ],
   "items": [
     {
-      "id": "caputo-uia-saldos-exportacion-reintegros-iva-deudas-aduaneras-pymes-embargos-mayo-2027",
+      "id": "comercio-exterior-mejora-del-4-2-en-terminos-de-intercambio",
+      "datetime": "2026-11-03T22:02:12Z",
       "date": "2026-11-03",
-      "datetime": "2026-11-03T10:56:00-03:00",
-      "kind": "noticia",
-      "title": "Caputo anunció que las pymes podrán cancelar deudas aduaneras con el 100% de sus reintegros e IVA de exportación",
-      "summary": "En la Conferencia Industrial de la UIA, el ministro de Economía anunció que las pymes podrán usar todos sus saldos a favor por exportaciones para pagar deudas con la Aduana, y las grandes empresas, un porcentaje que irá subiendo. También suspendió hasta mayo de 2027 los embargos de ARCA a pymes. Las normas todavía no se publicaron.",
-      "body": [
-        "El ministro de Economía, Luis Caputo, anunció el martes 3 de noviembre, en la 32ª Conferencia Industrial de la Unión Industrial Argentina (UIA), un paquete de alivio para empresas que incluye una medida directa para quienes exportan: las pymes podrán usar el 100% de los saldos a favor que acumulan por reintegros a la exportación o por el IVA vinculado a sus ventas externas para cancelar deudas aduaneras, sin esperar a que el Estado se los devuelva. Las grandes empresas también podrán hacerlo, pero al principio solo con una parte de esos créditos.",
-        "El anuncio llegó junto con la suspensión hasta mayo de 2027 de los embargos de la Agencia de Recaudación y Control Aduanero (ARCA) a pymes y la ampliación del plan de pagos en 18 cuotas. Ninguna de las fuentes consultadas informa cuándo se publicarán las normas que pongan en marcha estas medidas, de modo que por ahora son anuncios: los detalles operativos —qué deudas entran, cómo se pide la compensación y qué porcentaje tendrán las grandes empresas— dependen de esa reglamentación.",
-        "## Qué cambia para los exportadores",
-        "Según Ámbito y Hoy Día, Caputo justificó la medida en las demoras del Estado para devolver reintegros y saldos de IVA de exportación, que en algunos casos llegan a entre seis y nueve meses. El ministro calificó de «ridículo» que ARCA les deba dinero a las empresas mientras les cobra por otros conceptos. Con el esquema anunciado, una pyme exportadora que tenga créditos pendientes de cobro podrá aplicarlos en su totalidad a sus obligaciones con la Aduana, en lugar de pagarlos con fondos propios mientras espera la devolución.",
-        "Para las grandes empresas el porcentaje inicial será menor y aumentará en forma progresiva; según Ámbito, hasta que se normalice el atraso en las devoluciones. Ninguna de las fuentes precisa ese porcentaje ni el cronograma. Hoy Día y Continental agregan que Caputo presentó la medida como un primer paso hacia una cuenta corriente aduanera única entre el Estado y las empresas, en la que créditos y obligaciones se compensen entre sí.",
-        "## El antecedente: los saldos dolarizados que recién se usan en 2027",
-        "La medida se suma a un esquema previo para los mismos créditos. La Resolución 1834/2025 del Ministerio de Economía, publicada en el Boletín Oficial el 18 de noviembre de 2025, permitió que los saldos a favor de libre disponibilidad de impuestos nacionales vinculados al comercio exterior y los reintegros a la exportación acumulados al 31 de octubre de 2025 se expresaran en dólares, al tipo de cambio vendedor del Banco Nación, para quienes optaran hasta el 1 de marzo de 2026. A cambio, esos saldos recién pueden compensarse contra tributos interiores y aduaneros, o pedirse en devolución, a partir del 1 de enero de 2027, al tipo comprador del día anterior.",
-        "Aquella norma generó críticas del sector. En diciembre de 2025, la Cámara de Exportadores de la República Argentina (CERA) sostuvo, según El Cronista, que las devoluciones se cobraban muy por encima de los 30 a 120 días previstos y citó una estimación del extitular de la Aduana Guillermo Michel: unos USD 1.500 millones adeudados, alrededor de 0,2 puntos del PBI. Las fuentes del anuncio de este martes no aclaran si el nuevo mecanismo alcanza también a los saldos dolarizados por la Resolución 1834 o solo a los generados después.",
-        "## El resto del paquete",
-        "Además de la suspensión de embargos, que según Ámbito no condona deudas sino que posterga las acciones de cobro, el plan de pagos en 18 cuotas pasará a incluir obligaciones vencidas hasta el 31 de octubre, en lugar del 30 de junio. Ámbito indica que abarca deudas impositivas y aduaneras; Infobae advierte que, en su exposición, el ministro habló de 18 meses de plazo y no de 18 cuotas. El Banco Nación ofrecerá una línea para la compra de autos con tasa fija cercana al 20%: Continental y Hoy Día mencionan plazos de tres, cuatro y cinco años, y Ámbito, de cuatro o cinco.",
-        "Caputo propuso además que las provincias y la Ciudad de Buenos Aires eliminen el impuesto a los Sellos, que según sus cifras recauda entre $4 y $5 billones por año, entre 0,4 y 0,5 puntos del PBI. La eliminación no es automática: requiere que cada jurisdicción adhiera, y la Nación compensaría la mitad de la recaudación en las provincias que acepten. En su exposición, el ministro sostuvo que las exportaciones de energía y minería terminaron con la restricción externa y ubicó la economía cerrada al comercio internacional entre los problemas heredados, según El Litoral.",
-        "## Qué dijo la industria",
-        "El presidente de la UIA, Martín Rappallini, valoró los anuncios y dijo que eran temas que la entidad venía conversando con el Gobierno desde hacía meses, según TN citado por Examedia. Pidió que las medidas se apliquen rápido y reclamó un régimen de incentivos para la industria, una suerte de RIGI industrial, dentro de un pacto fiscal federal que baje en forma gradual los impuestos a la producción. También insistió en combatir la competencia desleal, el contrabando y el comercio ilegal.",
-        "Rappallini citó como contexto que la producción industrial acumula una baja de 2,8% en los primeros nueve meses de 2026 frente a 2025 y que entre agosto de 2023 y julio de 2026 se perdieron casi 95.000 puestos formales en el sector. El reclamo sobre el contrabando sigue al acuerdo que la Secretaría de Industria y Comercio firmó el 26 de octubre con la UIA y las plataformas de venta en línea para cruzar datos de vendedores con los registros de la Aduana, que Comexplora contó en su momento."
-      ],
-      "keyData": [
-        [
-          "Saldos aplicables por pymes a deudas aduaneras",
-          "100% de reintegros e IVA de exportación"
-        ],
-        [
-          "Grandes empresas",
-          "Porcentaje inicial menor, que irá subiendo (sin cifra oficial)"
-        ],
-        [
-          "Demora de devoluciones citada por Caputo",
-          "Entre 6 y 9 meses"
-        ],
-        [
-          "Suspensión de embargos de ARCA a pymes",
-          "Hasta mayo de 2027"
-        ],
-        [
-          "Plan de 18 cuotas",
-          "Deudas vencidas hasta el 31 de octubre (antes, 30 de junio)"
-        ],
-        [
-          "Saldos dolarizados por la Res. 1834/2025",
-          "Compensables o devolvibles desde el 1 de enero de 2027"
-        ],
-        [
-          "Normas de las nuevas medidas",
-          "Sin publicar al 3 de noviembre"
-        ]
-      ],
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Comercio exterior: mejora del 4,2% en términos de intercambio",
+      "summary": "",
+      "body": [],
+      "keyData": [],
       "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Aduanas",
-        "Impuestos",
-        "Regulaciones"
+        "Argentina"
       ],
       "countries": [
         "Argentina"
       ],
-      "tags": [
-        "Reintegros",
-        "IVA de exportación",
-        "ARCA",
-        "UIA",
-        "Pymes",
-        "Luis Caputo",
-        "Embargos",
-        "Plan de pagos"
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "Diario El Norte - San Nicolás",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://diarioelnorte.com.ar/comercio-exterior-mejora-del-42-en-terminos-de-intercambio/",
+          "primary": true,
+          "author": ""
+        }
       ],
+      "gnTried": "2026-11-03T22:26:36Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUTdZVVo3RlFoSnkzalFXZzRYdjV4Z0hXOGJOZm9PRkRpb2tPMldCbXAxUTFvRmppeHNjbUg1R1JVY0hpZHYtdTUxMlNzaGY5N3ZmRF8tZ2JmMDVIUnc0NFVkbE1Zblh5alVPTmZ1SzAzM05iVWFxb2djbHhyZlNnemFXXzZCVXpFZ09Rb0xKSEJKUQ?oc=5"
+    },
+    {
+      "id": "petronet-de-india-negocia-con-qatar-entrega-de-cargamentos-de-gnl-retrasados",
+      "datetime": "2026-11-03T22:00:17Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Petronet de India negocia con Qatar entrega de cargamentos de GNL retrasados",
+      "summary": "Petronet LNG, el principal importador de gas de India, mantiene conversaciones con Qatar para coordinar…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones",
+        "Asia"
+      ],
+      "countries": [
+        "India",
+        "Catar"
+      ],
+      "tags": [
+        "Energía"
+      ],
+      "visual": "tanker",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/petronet-de-india-negocia-con-qatar-entrega-de-cargamentos-de-gnl-retrasados/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "portuarios-de-arica-reciben-certificacion-de-competencias-laborales",
+      "datetime": "2026-11-03T21:39:20Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Portuarios de Arica reciben certificación de competencias laborales",
+      "summary": "Un total de 43 trabajadores de Terminal Puerto Arica (TPA) recibieron su certificación de competencias laborales…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Chile"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/portuarios-de-arica-reciben-certificacion-de-competencias-laborales/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "psa-bdp-recibe-certificacion-de-buenas-practicas-de-distribucion-en-singapur-ita",
+      "datetime": "2026-11-03T21:30:45Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "PSA BDP recibe certificación de buenas prácticas de distribución en Singapur, Italia, Reino Unido y Estados Unidos",
+      "summary": "PSA BDP obtuvo la certificación de Buenas Prácticas de Distribución (GDP) mediante un programa que abarca…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Economía internacional",
+        "Estados Unidos",
+        "Asia",
+        "Europa"
+      ],
+      "countries": [
+        "Estados Unidos",
+        "Singapur",
+        "Italia",
+        "Reino Unido"
+      ],
+      "tags": [
+        "Estados Unidos"
+      ],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/psa-bdp-recibe-certificacion-de-buenas-practicas-de-distribucion-en-singapur-italia-reino-unido-y-estados-unidos/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "elecciones-usa-aranceles-y-conflictos-geopoliticos-debilitan-al-gobierno-de-dona",
+      "datetime": "2026-11-03T21:10:02Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Elecciones USA: Aranceles y conflictos geopolíticos debilitan al gobierno de Donald Trump, señala Banamex",
+      "summary": "#eleccionesUSA Un análisis financiero destaca que la presión de los aranceles restan margen político al gobierno de Donald Trump.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Geopolítica y comercio",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Tribuna de México",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://tribunademexico.com/elecciones-usa-aranceles/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T22:26:36Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5hOFpid3QydlVwdTVrNlhzQ0w0TjNfa0FaUkx2NkNNUEdHbTBGTS1tRTBuRmF4RVQ4bGE0MlE2anh2Nks3UnVHOTlubDdWZVdrb1d6a3pCM2dSSjQ0NWcyYndKMA?oc=5"
+    },
+    {
+      "id": "puertos-de-los-angeles-ven-al-metanol-como-una-alternativa-clave-para-el-futuro",
+      "datetime": "2026-11-03T20:46:12Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Puertos de Los Ángeles ven al metanol como una alternativa clave para el futuro del transporte marítimo",
+      "summary": "Los puertos de Los Ángeles y Long Beach ven al metanol como alternativa clave para el transporte marítimo.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "almomento.mx",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://almomento.mx/puertos-de-los-angeles-ven-al-metanol-como-una-alternativa-clave-para-el-futuro-del-transporte-maritimo/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T22:26:36Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOU3RHc0syMGpnZXVIRzB4NnFPZXNLQm1JNDd0d1Z4WXVhbDNFSTNUOGF3aVAxQXFvSW5yaUgySkUtVUpiRzBETzR4SDhTUUdtMDcyOUppMnB0WDMtN3hyak5MNllreVRwQTJ2RjNSVFBhSlNsZ2JoOW83RHRNNHBLTHcxMHVKV3pjbURGUE9lZmZReElTZHA3UVV0VFkwdVlHSEpyMXN2ajVCU3NBYnE4cXFOLWlPQ0g0NzU1SzROV1h1ZlU?oc=5"
+    },
+    {
+      "id": "eu-recauda-mas-de-14-mil-mdd-por-aranceles-a-productos-mexicanos",
+      "datetime": "2026-11-03T20:39:00Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "EU recauda más de 14 mil mdd por aranceles a productos mexicanos",
+      "summary": "Estados Unidos recaudó 14 mil 439 millones de dólares por aranceles aplicados a importaciones mexicanas entre enero y agosto de 2026, informa el Departamento de Comercio estadounidense. El monto representó 8.3 por ciento del total obtenidos por el gobierno estadounidense mediante gravámenes…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Latinoamérica",
+        "Europa"
+      ],
+      "countries": [
+        "México",
+        "Unión Europea"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Notisistema",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.notisistema.com/noticias/eu-recauda-mas-de-14-mil-mdd-por-aranceles-a-productos-mexicanos/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T22:26:36Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPR05SbE1peW9hNEE3NVlqUC15N19XVHpKeTQ4RzI4OFZhZ0pLbFlfZzJrQXhrbnRxckNNQm9KQnJwdzN2RVdyTFRoVUJITzM2bl9Wc21XZjg1bU5UU2RFZHluYU5PMTExWUVYNkdXaENVNFFVLW4tbU8wVVB1RnlPQmM1VlZCckxrTDV4SDg2OTh1QkcxajJfeHcxN3g3X0htc0dLYQ?oc=5"
+    },
+    {
+      "id": "la-carga-aerea-mundial-crecio-7-7-en-septiembre-pero-el-combustible-afecta-la-re",
+      "datetime": "2026-11-03T20:38:21Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "La carga aérea mundial creció 7,7% en septiembre, pero el combustible afecta la rentabilidad",
+      "summary": "La demanda mundial de carga aérea aceleró su crecimiento en septiembre de 2026, con un incremento interanual del 7,7%, mientras que la capacidad disponible avanzó apenas un 2,7%. Los datos, difundidos por la Asociación Internacional de Transporte Aéreo (IATA), reflejan un escenario favorable para el negocio de carga…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte aéreo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "plane",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Aviación News",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.aviacionnews.com/2026/11/la-carga-aerea-mundial-crecio-77-en-septiembre-pero-el-combustible-afecta-la-rentabilidad/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T22:26:36Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWTVJLXRlSUhUOF9tMExiUnpwYkRjMmNEeEtqOFp6UnVlVmYzbG9WbV8xQThKSlRpbFlKOVQ1X0JLQkk5eUdMd3RuQ1RRTnBuUzhTNzdWcUc5Tkloc2RoTE1wTXJ5YTFXcmNfb2E2RXF1Q2p6UEpscDBvbTlKaEpadTA2TElBT0tkSnI2bGVkSkdJbDJIb3BHaFFDcThYS2RGcGhsbnFLS3lHSkctT1lOS2xlbkpTVWJUa0VzVWk4cGVrVjZOREE?oc=5"
+    },
+    {
+      "id": "bernie-navarro-negociaciones-con-peru-por-aranceles-avanzan-hacia-un-termino-med",
+      "datetime": "2026-11-03T20:26:39Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Bernie Navarro: negociaciones con Perú por aranceles avanzan hacia un “término medio”",
+      "summary": "El embajador de los Estados Unidos en Perú, Bernie Navarro, remarcó a Gestión que estrechar el vínculo con Perú es una de las prioridades del presidente Donald Trump.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Tratados y acuerdos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Perú"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Gestión",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://gestion.pe/economia/estados-unidos-negociaciones-con-peru-por-aranceles-avanzan-hacia-un-termino-medio-dice-embajador-bernie-navarro-noticia/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T22:26:36Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQTDg2RHM1VDV4c0JNMUo5NF9ya0pqc3A5Qy04Mm8wWk5zYmVGRWNPQzVEZjkxbnBtTGZ4RnJaQ1VMU3pQTVZTR09DVnI0RHdpN1FtckdpMnIzbHpZYjAydnNZdVVwZmhuQ1Flb0ZVMjlDUDZLOXFVQ2VMUEs5VlRzSHFlUlVOTWQxVkpaV1FOeC1wTXd2UjQ3NmEyMGFLLWFPTUhPVjBPbzd3VVN2b2pIdkF5RjJOTWYwU3RIOFhqc0J0R2hJaFBSWE5vYkVtcVhCSlB6dE1SRkpfRjhHZWZxbXdsNA?oc=5"
+    },
+    {
+      "id": "tecnologia-desarrollada-en-brasil-para-manejo-de-celulosa-es-implementada-en-dp",
+      "datetime": "2026-11-03T20:19:17Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Tecnología desarrollada en Brasil para manejo de celulosa es implementada en DP World Lirquén",
+      "summary": "HX, empresa de tecnología logística (logtech) fundada en 2021 en el Puerto de Santos, firmó un…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Brasil",
+        "Chile"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/tecnologia-desarrollada-en-brasil-para-manejo-de-celulosa-es-implementada-en-dp-world-lirquen/",
+          "primary": true,
+          "author": "admin"
+        }
+      ]
+    },
+    {
+      "id": "crecio-el-comercio-exterior-las-exportaciones-subieron-21-6-y-las-importaciones",
+      "datetime": "2026-11-03T20:04:00Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Creció el comercio exterior: las exportaciones subieron 21,6% y las importaciones cayeron",
+      "summary": "El comercio exterior argentino registró un aumento de las ventas al exterior y una reducción de las compras durante los primeros nueve meses del año. Según el Indec, las exportaciones superaron los 77.267 millones de dólares, mientras que las importaciones totalizaron 56.069 millones de dólares.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "Diario Mendoza",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.diariomendoza.com.ar/economia/crecio-comercio-exterior-exportaciones-subieron-216-importaciones-cayeron-n184244",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T22:26:36Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNczVvRUQwUEZZZmozMTJ0SHQwMGVpeDdXVVZSUU1vbkk1VnY5ckNXMEt2WWtjUm9OV21GQmd1eFdERVdfT0NfblpfZk9FT1RadWlxMlJJd3FleC0zbWFrdHJkTnpkV01oel9PTHJjVE5uQ296bGx1UkF1QVF6eHl1aklySGgzUTlycXY5aXNFbWRFTURpbnd6NUluLXF2RWdvUjh1ZEVMMFBCMlFDa0hjbVRURFNLOUVRalhTN1VFTkMwYUlPZFHSAcYBQVVfeXFMTXM1b0VEMFBGWWZqMzEydEh0MDBlaXg3V1VWUlFNb25JNVZ2OXJDVzBLdllrY1JvTldtRkJndXhXREVXX09DX25aX2ZPRU9UWnVpcTJSSXdxZXgtM21ha3RyZE56ZFdNaHpfT0xyY1RObkNvemxsdVJBdUFRenh5dWpJckhoM1E5cnF2OWlzRW1kRU1EaW53ejVJbi1xdkVnb1I4dWRFTDBQQjJRQ2tIY21UVERTSzlFUWpYUzdVRU5DMGFJT2RR?oc=5"
+    },
+    {
+      "id": "uruguay-anp-llama-a-licitacion-para-elaborar-plan-maestro-de-desarrollo-portuari",
+      "datetime": "2026-11-03T19:53:09Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Uruguay: ANP llama a licitación para elaborar Plan Maestro de Desarrollo Portuario 2027-2040",
+      "summary": "La Administración Nacional de Puertos (ANP) de Uruguay lanzó un llamado a licitación abreviada para la…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Uruguay"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/uruguay-anp-llama-a-licitacion-para-elaborar-plan-maestro-de-desarrollo-portuario-2027-2040/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "gobierno-anuncia-plan-de-transporte-maritimo-para-asegurar-exportaciones-pese-a",
+      "datetime": "2026-11-03T19:40:29Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Gobierno anuncia plan de transporte marítimo para asegurar exportaciones pese a efectos de El Niño",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Rumbo Minero",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.rumbominero.com/portada2/gobierno-transporte-maritimo-exportaciones-el-nino/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T22:26:36Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdXZ0NU02cWtjYWg2YmlqUm94OGd1WWl5cHY2VVpaRTE5LTY1LVljWmpQSU1mdUZHcWRMUUtGaGVPeTBOWmZjYjZ1TDk5YUVGNFpET28tRlN0RU9QdWIzdWFsT2RhOFdncFh3VHczWVUtU19SclRJa3VOdVczQVRqQ291bDUzelpVWFdxZHU4am9vUQ?oc=5"
+    },
+    {
+      "id": "los-precios-de-exportacion-subieron-15-2-que-productos-argentinos-se-encareciero",
+      "datetime": "2026-11-03T19:19:15Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Los precios de exportación subieron 15,2%: qué productos argentinos se encarecieron más",
+      "summary": "El petróleo crudo, las carnes, los aceites y los productos químicos estuvieron entre los principales impulsores. En paralelo, las cantidades importadas cayeron 9,5%, mientras que sus precios subieron 10,5%.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "El Cronista",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.cronista.com/economia-politica/el-superavit-comercial-acumulo-mas-de-us-21100-millones-a-septiembre-con-precios-record-y-freno-importador/",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Agencia Noticias Argentinas",
+          "type": "También publicó esta noticia",
+          "url": "https://noticiasargentinas.com/economia/comercio-exterior--los-precios-de-exportacion-subieron-un-15-2-_a6aea418a362d45b1b5dddf3d",
+          "alsoIn": true,
+          "title": "Comercio exterior: los precios de exportación subieron un 15,2%"
+        }
+      ],
+      "gnTried": "2026-11-03T22:26:36Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSVBxSlBjZWRaRERZRFRZVzJpbVZ6UjZDWldsOWtsWVJhVUdyUmdCSHBoajVxUUpORkFGSW85bWV3TzlORkg4V2liYUFINTRSRkFQM1FYZE85ZjFCNy1uMmZKREFySmJROVU5ZEVBNU1vNm5IeVFRd2hJMlpKSUoyQTRITFJSRVgybk1McnhJbGZuMnEySnJodTU3LTh2Ty1vek15eUxfNVZIX2JHc2puZGNndmhvWjBuVHE1TmpVSTk0dC1TQWE3cVlrbWZCdUpTWmFTWEtweWdmRVp0NnVtc2pEUTTSAf8BQVVfeXFMT3E5R1pZNW5GSlBwaE9FOHBBM1ZSekh4djQ0V1kwZ3NJV3NNUFZBdmhObjRjYjBTd0E0SDluY2lNUDgxdjhOeDdjcWhMQ0k2VFJueERYTUk5SktGcE5qZUF1dWhQZUJaaUdqOHItUTBramd2ZVMxZEU4cW95Rk9EUGJLbnFUWDBDMHVaUk44Q0hwWmVxU1dlTFhnQW9Ma1VJX2doRUY3OEowRnZ2Tkd0OUZhbk5WOGQ2ckVvZDAxYlB1VjgxUTBnTG9TcVc0dUM4Y1NwcG5hNzV6VzdldnFmaFQtaDFqYm5oazkzNllKenNFMDhlRFpfVUVDbTRuZnRN?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVnRTWkRWS1REZm1GWnBjR1d4YmNja0p6dGFlTGxpLW9QVjRaZjJIYmc0Q05lUTFBcS1KWjZqZEszRzl4alR4TllZdnpPV09SVERBWVk5TnJqbGNWT3ZLTVVtaDFnWm1Ebm01d0ZOLVRHTklVYk80SU9yR3ZlU0lwV0JKWUZ5Nmp3dUdlRlFMZnAtTDEwaFdKcmM3c0xTTVJ3MzFPeFNtVGdUWXRPcWV0V3RuTVpqNlhac0JLQXdyNkdwSUxxRTBnZdIB1wFBVV95cUxQM2owODE3VGxUcWZqdnVOWjl5VTM0cmZpU29XUFJwWUkxdEFnSUxhbWNycHluaFZkUWMzZzV4bFZySWI5SXRTaXcyZ244V0Njb0UzelpWRmRuT3pRbDdlWEs3TEVNYlhUNGQ5RnBmMjd1TlhTN3hNUS1yRWN0bm5uYVNPR0cyaVplXzRSYnVBY3d6LTlvOHM4VmotaDZKOTVtcE5xUnJzbG5jS1BGNE9JUlBzSDlOZld6QW1udWZDY0F3dW14bmNMY3YyNW1lVHFiakhlbEsxZw",
+        "https://noticiasargentinas.com/economia/comercio-exterior--los-precios-de-exportacion-subieron-un-15-2-_a6aea418a362d45b1b5dddf3d"
+      ],
+      "mergedIds": [
+        "comercio-exterior-los-precios-de-exportacion-subieron-un-15-2"
+      ]
+    },
+    {
+      "id": "puerto-de-gotemburgo-maneja-698-mil-teu-al-tercer-trimestre-de-2026",
+      "datetime": "2026-11-03T19:00:13Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Puerto de Gotemburgo maneja 698 mil TEU al tercer trimestre de 2026",
+      "summary": "Los volúmenes de carga en el Puerto de Gotemburgo mostraron una evolución estable entre enero y…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Europa"
+      ],
+      "countries": [
+        "Suecia"
+      ],
+      "tags": [
+        "Contenedores",
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/puerto-de-gotemburgo-maneja-698-mil-teu-tercer-trimestre-de-2026/",
+          "primary": true,
+          "author": "cmeza"
+        }
+      ]
+    },
+    {
+      "id": "frutas-de-chile-advierte-situacion-de-extrema-gravedad-por-bloqueo-camionero-en",
+      "datetime": "2026-11-03T18:49:33Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Frutas de Chile advierte situación de “extrema gravedad” por bloqueo camionero en San Antonio",
+      "summary": "Frutas de Chile, organización que representa a productores y exportadores de fruta fresca del país, advirtió…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Chile"
+      ],
+      "tags": [],
+      "visual": "fruit",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/frutas-de-chile-advierte-situacion-de-extrema-gravedad-por-bloqueo-camionero-en-san-antonio/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "argentina-anuncian-alivio-fiscal-para-deudas-aduaneras",
+      "datetime": "2026-11-03T18:08:01Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Argentina: anuncian alivio fiscal para deudas aduaneras",
+      "summary": "El ministro de Economía, Luis Caputo, anunció hoy (03.11.2026) nuevas medidas destinadas a aliviar las obligaciones fiscales y financieras de las empresas durante su exposición en la 32.ª Conferencia Industrial, titulada “Talento argentino, la fuerza que transforma”, organizada por la Unión Industrial Argentina (UIA)…",
+      "body": [
+        "El ministro de Economía, Luis Caputo, anunció hoy (03.11.2026) nuevas medidas destinadas a aliviar las obligaciones fiscales y financieras de las empresas durante su exposición en la 32.ª Conferencia Industrial, titulada “Talento argentino, la fuerza que transforma”, organizada por la Unión Industrial Argentina (UIA). Entre los principales anuncios, informó que se suspenderán los embargos de…"
+      ],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Aduanas"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
       "visual": "customs",
       "impact": 2,
       "affectsArgentina": true,
-      "argentinaNote": "Las pymes exportadoras con reintegros o IVA de exportación pendientes de cobro podrán aplicarlos íntegros a deudas con la Aduana cuando se publique la norma; las grandes, solo una parte al principio.",
-      "argentinaImpact": {
-        "change": "Anuncio: las pymes podrán cancelar deudas aduaneras con el 100% de sus saldos a favor por reintegros e IVA de exportación; las grandes empresas, con un porcentaje creciente. Se suspenden hasta mayo de 2027 los embargos de ARCA a pymes y el plan de 18 cuotas suma deudas vencidas hasta el 31 de octubre.",
-        "who": "Pymes y grandes empresas exportadoras con saldos a favor pendientes de devolución, contribuyentes con deudas aduaneras o impositivas y sus despachantes y asesores.",
-        "sectors": [
-          "Industria",
-          "Exportadores pymes",
-          "Automotriz"
-        ],
-        "flows": {
-          "importaciones": false,
-          "exportaciones": true,
-          "logistica": false,
-          "aranceles": false
-        }
-      },
-      "explainer": {
-        "what": "Luis Caputo anunció en la Conferencia Industrial de la UIA que las pymes podrán usar el 100% de sus saldos a favor por reintegros o IVA de exportación para pagar deudas aduaneras, y las grandes empresas, un porcentaje que irá aumentando.",
-        "why": "Según el ministro, el Estado tarda entre seis y nueve meses en devolver esos créditos; con la compensación, las empresas dejan de pagar a la Aduana con fondos propios mientras esperan cobrar.",
-        "who": "Pymes y grandes empresas exportadoras con reintegros o IVA de exportación pendientes, y contribuyentes con deudas aduaneras o impositivas alcanzados por la suspensión de embargos y el plan de pagos.",
-        "products": [],
-        "next": "La Resolución 1834/2025 fija que los saldos de comercio exterior dolarizados que se acumularon hasta el 31 de octubre de 2025 recién podrán compensarse o pedirse en devolución desde el 1 de enero de 2027.",
-        "nextSource": {
-          "name": "Resolución 1834/2025 del Ministerio de Economía (texto del Boletín Oficial)",
-          "url": "https://www.consejosalta.org.ar/wp-content/uploads/me-1834.pdf"
-        }
-      },
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Aduana News",
       "sources": [
         {
-          "name": "Ámbito",
-          "type": "Medio de comunicación",
-          "url": "https://www.ambito.com/economia/una-una-las-medidas-que-anuncio-luis-caputo-alivio-financiero-empresas-y-pymes-n6340903",
-          "primary": true
-        },
-        {
-          "name": "Hoy Día",
-          "type": "Medio de comunicación",
-          "url": "https://hoydia.com.ar/politica/nacional/caputo-anuncio-la-suspension-de-embargos-de-arca-a-pymes-hasta-mayo-de-2027/"
-        },
-        {
-          "name": "Infobae",
-          "type": "Medio de comunicación",
-          "url": "https://www.infobae.com/economia/2026/11/03/economia-anuncio-la-suspension-de-embargos-de-arca-para-pymes-y-otras-tres-medidas-para-impulsar-la-actividad/"
-        },
-        {
-          "name": "Radio Continental",
-          "type": "Medio de comunicación",
-          "url": "http://www.continental.com.ar/2026-11-03/caputo-anuncio-cuatro-medidas-de-alivio-para-las-pymes-se-suspenden-los-embargos-de-arca-hasta-mayo-de-2027-152820/"
-        },
-        {
-          "name": "El Litoral",
-          "type": "Medio de comunicación",
-          "url": "https://www.ellitoral.com/economia/luiscaputo-unionindustrialargentina-arca-rigi-pymes-fmi-uia_0_zMZbotDH3s.html"
-        },
-        {
-          "name": "Examedia (vía TN): declaraciones de Martín Rappallini",
-          "type": "Medio de comunicación",
-          "url": "https://examedia.com.ar/portada/post/88172602"
-        },
-        {
-          "name": "Resolución 1834/2025 del Ministerio de Economía (texto del Boletín Oficial)",
-          "type": "Norma oficial",
-          "url": "https://www.consejosalta.org.ar/wp-content/uploads/me-1834.pdf"
-        },
-        {
-          "name": "El Cronista (reclamo de CERA por los reintegros)",
-          "type": "Medio de comunicación",
-          "url": "https://www.cronista.com/economia-politica/superavit-real-un-sector-clave-advierte-que-la-demora-en-reintegros-financia-el-saldo-a-favor"
+          "name": "Aduana News",
+          "type": "Medio especializado · Argentina",
+          "url": "https://aduananews.com/anuncian-alivio-fiscal-para-deudas-aduaneras/?utm_source=rss&utm_medium=rss&utm_campaign=anuncian-alivio-fiscal-para-deudas-aduaneras",
+          "primary": true,
+          "author": "Aduana News"
         }
-      ],
-      "story": "arca-normativa",
-      "deadlines": [
-        {
-          "date": "2027-01-01",
-          "label": "Economía: los exportadores adheridos a la Resolución 1834/2025 pueden empezar a compensar o pedir la devolución de sus saldos a favor dolarizados",
-          "url": "https://www.consejosalta.org.ar/wp-content/uploads/me-1834.pdf"
-        },
-        {
-          "date": "2027-05",
-          "label": "ARCA: termina la suspensión de embargos a pymes anunciada por Caputo (sujeto a que se publique la norma)",
-          "url": "https://www.ambito.com/economia/una-una-las-medidas-que-anuncio-luis-caputo-alivio-financiero-empresas-y-pymes-n6340903"
-        }
-      ],
-      "absorbs": [
-        "hoy-hay-dolares-y-manana-va-a-haber-mas-luis-caputo-les-dijo-a-los-industriales"
       ]
+    },
+    {
+      "id": "newcastle-en-brasil-la-argentina-restringio-importaciones-y-refuerza-la-vigilanc",
+      "datetime": "2026-11-03T18:00:00Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Newcastle en Brasil: La Argentina restringió importaciones y refuerza la vigilancia avícola",
+      "summary": "El SENASA limitó las compras de productos provenientes del área afectada en Santa Catarina y pidió extremar las medidas de bioseguridad en las granjas argentinas.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Importaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "El Heraldo",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.elheraldo.com.ar/noticias/agro/newcastle-en-brasil-la-argentina-restringio-importaciones-y-refuerza-la-vigilancia-avicola",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T22:26:36Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdjU3ZENUdzJNTDRBWHBHX1ZiVERGQk5hUXZuQXFWWXdQVHdQR2FmRG9vTGVlbUlBZWRmVklCZ2RmQUpDVEFfeVJQbnh2MF80V1ZZMklOSHB5b2VLYzkzQ1VSTEpFcUI3ZGd3RFdoMmtFeG9BczJ4SWdGN3JKWHEwUUZ0T0JxTllhSFZvUlVzTURONXdQR18zSDJxWlFvZkVWVFdtLS1uOGxFMHA0VVQzTG91QVFOWVVXbTQ4dTBxVFM1eFIzQWlTb09tVXRUUQ?oc=5"
+    },
+    {
+      "id": "noruega-le-abre-la-puerta-a-un-producto-estrella-uruguayo-con-el-acuerdo-mercosu",
+      "datetime": "2026-11-03T17:57:00Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Noruega le abre la puerta a un producto estrella uruguayo con el acuerdo Mercosur-EFTA",
+      "summary": "Uruguay accedió a una cuota sin arancel para carne en el mercado nórdico de alto valor con la entrada en vigencia del acuerdo comercial.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Uruguay",
+        "Noruega"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Ambito",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.ambito.com/uruguay/noruega-le-abre-la-puerta-un-producto-estrella-o-el-acuerdo-mercosur-efta-n6341044",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T22:26:36Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPc0dUdVFhcEp4WmJvRFZTUlpKT2t6UWNmQTBfcENxTVM0VktSN0RGTHo0UGtMOVhTUEVWSHpXZUt4ckt5akFYUUI4MmJYc0d5ZkUxTlg2azhFNmg0YXgxdkIzRWs3YmRxZUhwaDBIeGFaM1RCSmZoaGM1RDZoSGFxSmhoYUpTZDRJcEZpOG9tNU9GSWpfNFo0WnVCU3RScXFaeFRteHVkMThSMFk2dUw3d1pzRdIBuAFBVV95cUxPT1NJd0x6dWl2WmIxUVdmVkRRcjd5OHh3cnhkQWRBM1YzRGFyLVFiWTFfNXV5REhHMGdJX0gyZUVkaEZocTRLTjdaUzJyb2xTV0VVSVFXYU1EbzNYZnJReGU5MVRWMTBKVkFEY19JX0o4MnpnalZJSUgzdDZ4Z1BTLWtSa0xRYzNLVEpKX0NNZklaSXlHeTFkUFFPLS1vRm4wNXZxSWNOUWhrbEYzRW92eU1ibzNMVTN4?oc=5"
+    },
+    {
+      "id": "duenos-de-las-exportaciones-argentinas-como-el-rigi-promueve-la-fuga-de-dolares",
+      "datetime": "2026-11-03T17:36:17Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Dueños de las exportaciones argentinas: cómo el RIGI promueve la fuga de dólares a través de la extranjerización de los commodities",
+      "summary": "Cargill, Viterra, AGD, YPF, Vista y mineras extranjeras dominan las exportaciones. Giraron US$ 1.276 millones y el RIGI les permitirá no liquidar divisas.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "El Destape",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.eldestapeweb.com/economia/duenos-exportaciones-argentinas-rigi-permite-girar-dolares-exterior-202611314327",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T22:26:36Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMEpsYVNpZENaVXFmWGZCUXpwTjBuUDJSTnc4NUp6OEFPQ296Y2FDTzhXT1l1MFE3LUZUMUdWeFRRMzcxRjZ6bWFrM2QxQll3SXU3LTZGNUpnLUxscDlPN0Y4QzhVem1ldkZMNjlyWm10Z3Zhd3Rkcl9WblR4U0hVSHNhalNwa3BiM3BKY1ZfUWZCaV9MQUV0UlY3OFRiNEdDVjhvSmhvRDR2eFB3V08yR1pqRDVhUmlsZ3fSAc4BQVVfeXFMT3QxVnk5QmN1bzF6TEllR3ZuRW1YSkQ0LUFfcDVPaW4xTUlZMk1OanJicnhTeFdVWDgtaG04ZEhUZ3ZUdFVwWG1hSkRMNDl4UTY4VjBPT2RHelp4UTN6N2dKSlZPSHVSYnRpcElqNVZKMjJjMHloek9INFdJWnB5WTNJdmhvdzRqQ3NnU1N3RV9fWXNtNXlQSXdGdmlhXzhDbVB5NWRlZ2ptVlRaa2VPaVJMTEFVQnFqZkMzNTR1Vm9NZG5SRDhWS3lraXEwbEE?oc=5"
+    },
+    {
+      "id": "como-cambio-la-balanza-comercial-del-gasoil-de-la-argentina-con-importaciones-a",
+      "datetime": "2026-11-03T17:10:14Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Cómo cambió la balanza comercial del gasoil de la Argentina, con importaciones a la mitad y un nuevo rol exportador",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Importaciones",
+        "Exportaciones",
+        "Economía internacional"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Mejor Energía",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.mejorenergia.com.ar/noticias/2026/11/03/7344-como-cambio-la-balanza-comercial-del-gasoil-de-la-argentina-con-importaciones-a-la-mitad-y-un-nuevo-rol-exportador",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T22:26:36Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNY283SUw0dW9JY3NBekROSlEzQk5KVVcxYkRYeUxTbzFmdzlXbWk0amRqUC1LQXpUenR6UjhXNEFZLTZ2QVpKY1JxY09FbHljRnpvWFZFUWNhRFNsRjl1SDdoTlBuQ0FTS2RVUnNRTWRZczN6OVREWVctVlRKS21RMzQya3B3c2s0LTZwYnZyblpkaElUbGpPUU01TXBHeHZOV0lpLWZtdlg5QWx0VFZ0LWI4bnRucVd6RkNqc1V1LV9fVlhnSDl6b1dBUnZrb0tyeDVJbWVDWnI5OFhmZ29PZUhkMmRnT3hzNU10Y1UzVDdib25CRUp4YzVsTV95bWRMQWJrUnRn0gGGAkFVX3lxTE1jbzdJTDR1b0ljc0F6RE5KUTNCTkpVVzFiRFh5TFNvMWZ3OVdtaTRqZGpQLUtBelR6dHpSOFc0QVktNnZBWkpjUnFjT0VseWNGem9YVkVRY2FEU2xGOXVIN2hOUG5DQVNLZFVSc1FNZFlzM3o5VERZVy1WVEpLbVEzNDJrcHdzazQtNnBidnJuWmRoSVRsak9RTTVNcEd4dk5XSWktZm12WDlBbHRUVnQtYjhudG5xV3pGQ2pzVXUtX19WWGdIOXpvV0FSdmtvS3J4NUltZUNacjk4WGZnb09lSGQyZGdPeHM1TXRjVTNUN2JvbkJFSnhjNWxNX3ltZExBYmtSdGc?oc=5"
     },
     {
       "id": "estan-los-aranceles-en-boleta-en-michigan",
@@ -912,13 +1525,17 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Aranceles"
+        "Aranceles",
+        "Estados Unidos",
+        "Europa"
       ],
       "countries": [
-        "Global"
+        "Estados Unidos",
+        "Unión Europea"
       ],
       "tags": [
-        "Aranceles"
+        "Aranceles",
+        "Estados Unidos"
       ],
       "visual": "customs",
       "impact": 1,
@@ -942,6 +1559,46 @@
         "auto": "no-read",
         "reason": "medio sin lectura automática (NO_READ_DOMAINS) y sin otro medio con la misma noticia"
       }
+    },
+    {
+      "id": "argentina-duplica-su-presencia-empresarial-en-la-feria-de-importaciones-mas-impo",
+      "datetime": "2026-11-03T16:45:00Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Argentina duplica su presencia empresarial en la feria de importaciones más importante de China",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Importaciones",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "Argentina",
+        "China"
+      ],
+      "tags": [
+        "China"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Newsargenchina",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://newsargenchina.ar/amp/7963/argentina-duplica-su-presencia-empresarial-en-la-feria-de-importaciones-mas-impo",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T22:26:36Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZmU3YUZjOVhpSmNNTzlhLXBuRG1jVDQzTDlZczZ4Y01UZ1hJZ0s0S0JQMEVpVzBQMTlGU3dNSXJlNy1STkdxei1ueHZObGhob1RvZnF1aXVNcTR6aWRBSWN0LXRBUk5hQ0hBVVBiQ19vSkF1ZVZncGhTeHVqVVM3b1dTZUl5SWl5a1ZTTlp3ejhVNzBjcUFnb21xbEl1YkRFbDRmOUVseDlEOEY4WmhPUkdMNWdEQdIBtgFBVV95cUxPZmU3YUZjOVhpSmNNTzlhLXBuRG1jVDQzTDlZczZ4Y01UZ1hJZ0s0S0JQMEVpVzBQMTlGU3dNSXJlNy1STkdxei1ueHZObGhob1RvZnF1aXVNcTR6aWRBSWN0LXRBUk5hQ0hBVVBiQ19vSkF1ZVZncGhTeHVqVVM3b1dTZUl5SWl5a1ZTTlp3ejhVNzBjcUFnb21xbEl1YkRFbDRmOUVseDlEOEY4WmhPUkdMNWdEQQ?oc=5"
     },
     {
       "id": "trump-tiene-salida-para-seguir-con-aranceles-si-pierde-el-congreso-peru-debe-pre",
@@ -1037,6 +1694,41 @@
       "gnUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOY3NoSExqNlhaUHJpdWRxLWdFWTd5TDV5N2twUVV6dXNlUjVEU3J3YU1nRVhJSVUtQmNLSWxGamhRczFxNzNOSFNMLVRVQ3N4bzRBZjd3TWNTV191dmg3Y2Z1SHU5ZDZmVW5sb0FaeERjRndQSjVodFZKLVdYX28yREE1S3dpR2ZHc1Fmc2FVc3gyYUNNaEZLeDBFQ3FaRVg0aUVyZkJ5clNmeFNqOHhfZWFieFJjN3RxV1pCQWFiT0hkR0ZzMVJZdzBlUXNFckNxeks0TWNWak1UNWJTbGEzaQ?oc=5"
     },
     {
+      "id": "pesca-argentina-se-consolido-como-el-tercer-exportador-mundial-de-merluza",
+      "datetime": "2026-11-03T16:00:29Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Pesca: Argentina se consolidó como el tercer exportador mundial de merluza",
+      "summary": "La pesca argentina cerró un 2025 sobresaliente con el segundo mejor registro histórico en valor de sus exportaciones (USD 2.010 millones). Dentro de ese panorama, un dato clave para la industria —c…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Chubutline",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://chubutline.com/pesca-argentina-se-consolido-como-el-tercer-exportador-mundial-de-merluza/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T22:26:36Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaGFrWE5ZQ01Nd3N6S2ZlNzQyR18tbVlYTHY0UDM0cXkwc0ZhVXp3WnZycjNTVUprdWZldWtPb0w5YWdITDNscUVmVGtwWENwdi0yUTZmUkp1eGY3ZEJZX1ZkNllxTl9UYnBSUm02Ym1zY01LR2xtRTJkMnpiX3FOWGFHSXpoay1FdGMwT0lJZkJveGpQZHpQVmdTa3FFZw?oc=5"
+    },
+    {
       "id": "ricardo-riesco-el-molo-de-valparaiso-el-viejo-guardian-del-puerto",
       "datetime": "2026-11-03T16:00:28Z",
       "date": "2026-11-03",
@@ -1127,6 +1819,175 @@
       }
     },
     {
+      "id": "promotores-de-comercio-internacional-edicion-mercosur-union-europea",
+      "datetime": "2026-11-03T15:28:16Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Promotores de comercio internacional edición: Mercosur Unión Europea",
+      "summary": "Te invitamos a postularte a la 16va. edición del Curso de Promotores de Comercio Internacional. El curso tiene como objetivo: • Formar profesionales especializados: Capacitar a los participantes para guiar de manera integral a las empresas en su proceso de internacionalización hacia el mercado de la Unión Europea…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Unión Europea"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Cámara de Comercio Exterior de Santa Fe",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://comercioexterior.org.ar/evento/promotores-de-comercio-internacional-edicion-mercosur-union-europea/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T22:26:36Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYzZoRnB5M3B3bUxfbFJYUlFPWU9EdGdWQWlHVTVPLUNnZF90LW9BNzNLWVNCMXVNTUNZUXJTTld0aTJhV2kyWGR1aUlsaDJnT0Q2cGVOWlgyZ1I0djF5QklseHNCZHByMExaSjRHZlRHNk5mRW5ZUEJzTDdUUHYxR0Y2MnNTa3dmc1FWbUtmaHpoRi1xcEpETDhCbjBETGxrOWRKLVdBRF81N0U?oc=5"
+    },
+    {
+      "id": "la-carne-argentina-cierra-el-ano-en-china-su-principal-mercado-de-exportacio-2",
+      "datetime": "2026-11-03T15:25:36Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "La carne argentina cierra el año en China, su principal mercado de exportación",
+      "summary": "El Instituto de Promoción de la Carne Vacuna Argentina (IPCVA) participará, junto con catorce empresas exportadoras, en la China International Import Expo (CIIE), que se realizar á del 5 al 10 de noviembre en Shanghái. Se trata de la última gran feria internacional del año para la carne vacuna argentina. La CIIE es…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "Argentina",
+        "China"
+      ],
+      "tags": [
+        "Carne",
+        "China"
+      ],
+      "visual": "livestock",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "IPCVA",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://ipcva.com.ar/novedades/la-carne-argentina-cierra-el-ano-en-china-su-principal-mercado-de-exportacion",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "AIM Digital",
+          "type": "También publicó esta noticia",
+          "url": "https://www.aimdigital.com.ar/produccion/la-carne-argentina-cierra-el-ao-en-china-su-principal-mercado-de-exportacin.htm",
+          "alsoIn": true,
+          "title": "La carne argentina cierra el año en China, su principal mercado de exportación"
+        }
+      ],
+      "gnTried": "2026-11-03T22:26:36Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMUQyLUJtVDJKazZNMzQzeWNxLUc2Wm50RDRpa1lna2RUV2ptQ0psV2wxaE1vaERwRHNVdDIzUG5pOXFteHJ5S1JhY2s4TjlaeXBZN0hRelZoSjNSZmkxdDRzbHBuV3cwNVlEaHQwZGhWMGFPSm5Nel9mbjlSUFRKZnp2dEFjbFJDZmtvVHNCZDJsN1pVd1Jwc1JFQjZGRXFuQkZHTnk1X0I2M2tW?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbnliY3l1cXFoNzJkRjJjbmg2bFM1bENlZmlUMDJ6V1J5RWU4S1ZIZnlOWWtKUFUzMkRhQXpITUxsOXlIeW9CbFpoWXpjRUotcUZmOEVJWUNpQUpYY1dMR0dTQjJ6aVdhSDlMNVhPOTdlWmlVTDJDci00a3pfXzU5N3c0S1E1Sjc0aDVXaE5nWHRxMmtQTWVlUDBMRjlaeHNpV3RHTGU3X0tOWlJuOEpQOG1vb2x6SnlsRmFIYw",
+        "https://www.aimdigital.com.ar/produccion/la-carne-argentina-cierra-el-ao-en-china-su-principal-mercado-de-exportacin.htm"
+      ],
+      "mergedIds": [
+        "la-carne-argentina-cierra-el-ano-en-china-su-principal-mercado-de-exportacion"
+      ]
+    },
+    {
+      "id": "uruguay-busca-gestionar-la-tension-entre-argentina-y-brasil-para-generar-nuevas",
+      "datetime": "2026-11-03T15:14:00Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Uruguay busca gestionar la tensión entre Argentina y Brasil para generar nuevas oportunidades en el Mercosur",
+      "summary": "El gobierno apunta a seguir flexibilizando el bloque y diversificar riesgos, con la mira puesta en no perder peso en Estados Unidos, China y la Unión Europea.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Latinoamérica",
+        "Mercosur"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil",
+        "Uruguay"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Ambito",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.ambito.com/uruguay/busca-gestionar-la-tension-argentina-y-brasil-generar-nuevas-oportunidades-el-mercosur-n6340932",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T22:26:36Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTVJLTEFrVGxLSnVfZzdyLVpkcG1MNFV5VGhJbmhJbzFGNnNPZVdsVTNYc2hCak52M0JmWjM1Z0hvdEMxY3o0QnlLYTk2bEc4TUdiV2NUWDBpc1hFM1RGOXhsUHNBVEx5aWJiNW9IakpIRUM2RE5LNVd4RkpCbUpMZzhhQ1lXdHBLTVBoeHVLd18tZm9KenRPTDlMWTREWkdZZkRjNFNEeHBFNXdEcjJXbll2LS0yVTFscEx4SzFnU0NiTnBF0gHKAUFVX3lxTE5FclM3eFpuNkluZkRtZ25iRXlfUkRRaHVrUC1lMjdscFkybnk1b3o1ZjNKU2RoRTBvOFhSSUJ3Zk5XX2lYaVgtZThKRGN0azA4bDhvbUtBMVE4YkZSMDRycG1IZjl5b1RrRTlJNnR4WTdtcnRWNTdSQ2hiZjItMzRqU0lEd3pCajZWM3RORGdUdzhwdC01RndvZGZGNHpWcFZMUmRvS05PbWhSZ2YyUUVtZ1JHbkFUMDF4V25BZEZnLUdSSkxaekVSTlE?oc=5"
+    },
+    {
+      "id": "despues-de-tres-anos-un-establecimiento-argentino-podra-exportar-sebo-a-la-union",
+      "datetime": "2026-11-03T15:01:45Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Después de tres años un establecimiento argentino podrá exportar sebo a la Unión Europea",
+      "summary": "El SENASA lo incluyó en su listado de plantas para que envíe el subproducto de origen animal incomestible a este mercado al que no exportaba desde noviembre de 2023.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Europa"
+      ],
+      "countries": [
+        "Argentina",
+        "Unión Europea"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Argentina.gob.ar",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.argentina.gob.ar/noticias/despues-de-tres-anos-un-establecimiento-argentino-podra-exportar-sebo-la-union-europea",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T22:26:36Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU3NicHZkVERiS1JfVnhsaFYtUFNndG1mY08yMTZMSVpGaVRmQTNqS3BUWUJxUTJDNUYtU0VHRFVnLUpUaW5DY2pvWnN5Y3AtUGMxbS02TXVIdGFfUzFNOFJoWXRvRS10cU9ObTdneldHZG5SQ2Y5bTFUYWtOdFJPOHZZcW8wTmNkN0xzR2ZyUjFfbVRLNUNHODJYS1ZlUUVWTlR5MFV0RF9SaTR6Y0JVR0sxNVRqeWlQS0F5ZEwtOUFvdw?oc=5"
+    },
+    {
       "id": "portacontenedores-desplegado-en-servicio-de-maersk-cambia-de-nombre",
       "datetime": "2026-11-03T15:00:20Z",
       "date": "2026-11-03",
@@ -1197,10 +2058,24 @@
           "url": "https://es-us.finanzas.yahoo.com/noticias/exportaciones-petroleras-venezuela-cambios-medio-145609411.html",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Mundo Marítimo",
+          "type": "También publicó esta noticia",
+          "url": "https://www.mundomaritimo.cl/noticias/venezuela-exportaciones-de-petroleo-caen-25-en-octubre-ante-alza-de-fletes-maritimos",
+          "alsoIn": true,
+          "title": "Venezuela: Exportaciones de petróleo caen 25% en octubre ante alza de fletes marítimos"
         }
       ],
       "gnTried": "2026-11-03T17:13:06Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdE5oT3ZNeldKdFJIV1UyRnZNcUk3ZFcyX1duazlOZm5Da1EybHlXejQ4d084OWVYM0ZEWXBGOEJoR24xNGlTUDdWWk5kdjJPNE5ScG9xVDFEX3gxaE9NVlJNRy1QS3dwNkdwWkZZVktHdHd3VTNSTWJfbWZwaGE1NVVJdUVlOVZmY3lPSTloWnNUWEphb2xuOXo3MFhyZXAwS1VZQnRWUE4?oc=5"
+      "gnUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdE5oT3ZNeldKdFJIV1UyRnZNcUk3ZFcyX1duazlOZm5Da1EybHlXejQ4d084OWVYM0ZEWXBGOEJoR24xNGlTUDdWWk5kdjJPNE5ScG9xVDFEX3gxaE9NVlJNRy1QS3dwNkdwWkZZVktHdHd3VTNSTWJfbWZwaGE1NVVJdUVlOVZmY3lPSTloWnNUWEphb2xuOXo3MFhyZXAwS1VZQnRWUE4?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxPR2VkVHBmeVNrbk5xdEVRYkI1MmNfaGJZOGphVHI2TUdINm45Z3BLQUw0V0dycUZoZzJuVTdKc1BLOFZBVnhiaV83VERYWklYcURDaF9mdkEyenQ3V2YteWdFMThXb1F4YmpJSFJTTWZOT3VzWENqaWpUSThOblg4Tm15RkgtTVIyc1hnaDZhaXNtOFFjemdTT1Y5OVoweXVrOFktTXktbkdrV1ZqaGdKN3A5ZGJycjJlN0JTZS1KZw",
+        "https://www.mundomaritimo.cl/noticias/venezuela-exportaciones-de-petroleo-caen-25-en-octubre-ante-alza-de-fletes-maritimos"
+      ],
+      "mergedIds": [
+        "venezuela-exportaciones-de-petroleo-caen-25-en-octubre-ante-alza-de-fletes-marit"
+      ]
     },
     {
       "id": "combustibles-y-fletes-le-meten-presion-a-la-renta-de-la-nueva-campana",
@@ -1218,7 +2093,8 @@
         "Global"
       ],
       "tags": [
-        "Fletes"
+        "Fletes",
+        "Agro"
       ],
       "visual": "ship",
       "impact": 1,
@@ -1397,86 +2273,167 @@
       }
     },
     {
-      "id": "tras-entrada-en-vigor-de-acuerdo-mercosur-efta-ignacio-bartesaghi-destaco-la-cap",
-      "datetime": "2026-11-03T13:59:34Z",
+      "id": "caputo-uia-saldos-exportacion-reintegros-iva-deudas-aduaneras-pymes-embargos-mayo-2027",
       "date": "2026-11-03",
-      "firstSeen": "2026-11-03T17:13:06Z",
-      "title": "Tras entrada en vigor de acuerdo Mercosur-EFTA, Ignacio Bartesaghi destacó la capacidad económica de",
-      "summary": "Desde este mes Uruguay negociará bajo las condiciones del acuerdo en forma bilateral, en primera instancia con Noruega e Islandia, explicó el analista internacional.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Tratados y acuerdos",
-        "Mercosur"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": true,
+      "datetime": "2026-11-03T10:56:00-03:00",
       "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Radio Monte Carlo CX20 AM930",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.radiomontecarlo.com.uy/2026/11/03/nacionales/tras-entrada-en-vigor-de-acuerdo-mercosur-efta-ignacio-bartesaghi-destaco-la-capacidad-economica-del-bloque-europeo-y-las-posibilidades-que-se-abren-para-uruguay/",
-          "primary": true,
-          "author": ""
-        }
+      "title": "Caputo anunció que las pymes podrán cancelar deudas aduaneras con el 100% de sus reintegros e IVA de exportación",
+      "summary": "En la Conferencia Industrial de la UIA, el ministro de Economía anunció que las pymes podrán usar todos sus saldos a favor por exportaciones para pagar deudas con la Aduana, y las grandes empresas, un porcentaje que irá subiendo. También suspendió hasta mayo de 2027 los embargos de ARCA a pymes. Las normas todavía no se publicaron.",
+      "body": [
+        "El ministro de Economía, Luis Caputo, anunció el martes 3 de noviembre, en la 32ª Conferencia Industrial de la Unión Industrial Argentina (UIA), un paquete de alivio para empresas que incluye una medida directa para quienes exportan: las pymes podrán usar el 100% de los saldos a favor que acumulan por reintegros a la exportación o por el IVA vinculado a sus ventas externas para cancelar deudas aduaneras, sin esperar a que el Estado se los devuelva. Las grandes empresas también podrán hacerlo, pero al principio solo con una parte de esos créditos.",
+        "El anuncio llegó junto con la suspensión hasta mayo de 2027 de los embargos de la Agencia de Recaudación y Control Aduanero (ARCA) a pymes y la ampliación del plan de pagos en 18 cuotas. Ninguna de las fuentes consultadas informa cuándo se publicarán las normas que pongan en marcha estas medidas, de modo que por ahora son anuncios: los detalles operativos —qué deudas entran, cómo se pide la compensación y qué porcentaje tendrán las grandes empresas— dependen de esa reglamentación.",
+        "## Qué cambia para los exportadores",
+        "Según Ámbito y Hoy Día, Caputo justificó la medida en las demoras del Estado para devolver reintegros y saldos de IVA de exportación, que en algunos casos llegan a entre seis y nueve meses. El ministro calificó de «ridículo» que ARCA les deba dinero a las empresas mientras les cobra por otros conceptos. Con el esquema anunciado, una pyme exportadora que tenga créditos pendientes de cobro podrá aplicarlos en su totalidad a sus obligaciones con la Aduana, en lugar de pagarlos con fondos propios mientras espera la devolución.",
+        "Para las grandes empresas el porcentaje inicial será menor y aumentará en forma progresiva; según Ámbito, hasta que se normalice el atraso en las devoluciones. Ninguna de las fuentes precisa ese porcentaje ni el cronograma. Hoy Día y Continental agregan que Caputo presentó la medida como un primer paso hacia una cuenta corriente aduanera única entre el Estado y las empresas, en la que créditos y obligaciones se compensen entre sí.",
+        "## El antecedente: los saldos dolarizados que recién se usan en 2027",
+        "La medida se suma a un esquema previo para los mismos créditos. La Resolución 1834/2025 del Ministerio de Economía, publicada en el Boletín Oficial el 18 de noviembre de 2025, permitió que los saldos a favor de libre disponibilidad de impuestos nacionales vinculados al comercio exterior y los reintegros a la exportación acumulados al 31 de octubre de 2025 se expresaran en dólares, al tipo de cambio vendedor del Banco Nación, para quienes optaran hasta el 1 de marzo de 2026. A cambio, esos saldos recién pueden compensarse contra tributos interiores y aduaneros, o pedirse en devolución, a partir del 1 de enero de 2027, al tipo comprador del día anterior.",
+        "Aquella norma generó críticas del sector. En diciembre de 2025, la Cámara de Exportadores de la República Argentina (CERA) sostuvo, según El Cronista, que las devoluciones se cobraban muy por encima de los 30 a 120 días previstos y citó una estimación del extitular de la Aduana Guillermo Michel: unos USD 1.500 millones adeudados, alrededor de 0,2 puntos del PBI. Las fuentes del anuncio de este martes no aclaran si el nuevo mecanismo alcanza también a los saldos dolarizados por la Resolución 1834 o solo a los generados después.",
+        "## El resto del paquete",
+        "Además de la suspensión de embargos, que según Ámbito no condona deudas sino que posterga las acciones de cobro, el plan de pagos en 18 cuotas pasará a incluir obligaciones vencidas hasta el 31 de octubre, en lugar del 30 de junio. Ámbito indica que abarca deudas impositivas y aduaneras; Infobae advierte que, en su exposición, el ministro habló de 18 meses de plazo y no de 18 cuotas. El Banco Nación ofrecerá una línea para la compra de autos con tasa fija cercana al 20%: Continental y Hoy Día mencionan plazos de tres, cuatro y cinco años, y Ámbito, de cuatro o cinco.",
+        "Caputo propuso además que las provincias y la Ciudad de Buenos Aires eliminen el impuesto a los Sellos, que según sus cifras recauda entre $4 y $5 billones por año, entre 0,4 y 0,5 puntos del PBI. La eliminación no es automática: requiere que cada jurisdicción adhiera, y la Nación compensaría la mitad de la recaudación en las provincias que acepten. En su exposición, el ministro sostuvo que las exportaciones de energía y minería terminaron con la restricción externa y ubicó la economía cerrada al comercio internacional entre los problemas heredados, según El Litoral.",
+        "## Qué dijo la industria",
+        "El presidente de la UIA, Martín Rappallini, valoró los anuncios y dijo que eran temas que la entidad venía conversando con el Gobierno desde hacía meses, según TN citado por Examedia. Pidió que las medidas se apliquen rápido y reclamó un régimen de incentivos para la industria, una suerte de RIGI industrial, dentro de un pacto fiscal federal que baje en forma gradual los impuestos a la producción. También insistió en combatir la competencia desleal, el contrabando y el comercio ilegal.",
+        "Rappallini citó como contexto que la producción industrial acumula una baja de 2,8% en los primeros nueve meses de 2026 frente a 2025 y que entre agosto de 2023 y julio de 2026 se perdieron casi 95.000 puestos formales en el sector. El reclamo sobre el contrabando sigue al acuerdo que la Secretaría de Industria y Comercio firmó el 26 de octubre con la UIA y las plataformas de venta en línea para cruzar datos de vendedores con los registros de la Aduana, que Comexplora contó en su momento."
       ],
-      "gnTried": "2026-11-03T17:13:06Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxQSU1LMUp6SG5ORFlNS1d3ajNibnJTOE1pTzlOZWZKU1M4ckxfRjhVQ25qYUxlU25iaVZxVFh2TWFpOFRRb2d2ODBnUXRxMV9Ma3Bwa0pacXFPTzhFNVV6ZXVxcU1pdDVvc1BEeUFLcVFEOV8zT0FwQ3poc1NOd0wtS2FCVGQ2OFoxNTBSOGY3M1YxSHFEOEVuM19RRU9qR0Z5OV9QbDJGcTR0ajJER0JkWGVHdVF6ZVdqZmV4Vi01eXpFMmNOcndVbjJyOXZna2N6ZmdwZ0dqdnduYTlfaVNXOWNJaG1SWnNNN3lqNjRtMDVFQmFfYkppN3MzM1pUV0FzYXRiRmw3YUswY1NFdWVTbWx6bURxb0hId216Uk5UbG5ZMGE2M0dMdkZXUDh3RUNJRHJmbGZrN1YyMWN4UHUyNA?oc=5",
-      "digestSkip": {
-        "at": "2026-11-03T10:40:00-03:00",
-        "reason": "repite una nota de la redacción (Uruguay aplica el acuerdo Mercosur–AELC)"
-      }
-    },
-    {
-      "id": "la-carne-argentina-cierra-el-ano-en-china-su-principal-mercado-de-exportacion",
-      "datetime": "2026-11-03T13:47:58Z",
-      "date": "2026-11-03",
-      "firstSeen": "2026-11-03T17:13:06Z",
-      "title": "La carne argentina cierra el año en China, su principal mercado de exportación",
-      "summary": "",
-      "body": [],
-      "keyData": [],
+      "keyData": [
+        [
+          "Saldos aplicables por pymes a deudas aduaneras",
+          "100% de reintegros e IVA de exportación"
+        ],
+        [
+          "Grandes empresas",
+          "Porcentaje inicial menor, que irá subiendo (sin cifra oficial)"
+        ],
+        [
+          "Demora de devoluciones citada por Caputo",
+          "Entre 6 y 9 meses"
+        ],
+        [
+          "Suspensión de embargos de ARCA a pymes",
+          "Hasta mayo de 2027"
+        ],
+        [
+          "Plan de 18 cuotas",
+          "Deudas vencidas hasta el 31 de octubre (antes, 30 de junio)"
+        ],
+        [
+          "Saldos dolarizados por la Res. 1834/2025",
+          "Compensables o devolvibles desde el 1 de enero de 2027"
+        ],
+        [
+          "Normas de las nuevas medidas",
+          "Sin publicar al 3 de noviembre"
+        ]
+      ],
       "topics": [
         "Argentina",
         "Exportaciones",
-        "China",
-        "Asia"
+        "Aduanas",
+        "Impuestos",
+        "Regulaciones"
       ],
       "countries": [
-        "Argentina",
-        "China"
+        "Argentina"
       ],
       "tags": [
-        "Carne",
-        "China"
+        "Reintegros",
+        "IVA de exportación",
+        "ARCA",
+        "UIA",
+        "Pymes",
+        "Luis Caputo",
+        "Embargos",
+        "Plan de pagos"
       ],
-      "visual": "livestock",
-      "impact": 1,
+      "visual": "customs",
+      "impact": 2,
       "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
+      "argentinaNote": "Las pymes exportadoras con reintegros o IVA de exportación pendientes de cobro podrán aplicarlos íntegros a deudas con la Aduana cuando se publique la norma; las grandes, solo una parte al principio.",
+      "argentinaImpact": {
+        "change": "Anuncio: las pymes podrán cancelar deudas aduaneras con el 100% de sus saldos a favor por reintegros e IVA de exportación; las grandes empresas, con un porcentaje creciente. Se suspenden hasta mayo de 2027 los embargos de ARCA a pymes y el plan de 18 cuotas suma deudas vencidas hasta el 31 de octubre.",
+        "who": "Pymes y grandes empresas exportadoras con saldos a favor pendientes de devolución, contribuyentes con deudas aduaneras o impositivas y sus despachantes y asesores.",
+        "sectors": [
+          "Industria",
+          "Exportadores pymes",
+          "Automotriz"
+        ],
+        "flows": {
+          "importaciones": false,
+          "exportaciones": true,
+          "logistica": false,
+          "aranceles": false
+        }
+      },
+      "explainer": {
+        "what": "Luis Caputo anunció en la Conferencia Industrial de la UIA que las pymes podrán usar el 100% de sus saldos a favor por reintegros o IVA de exportación para pagar deudas aduaneras, y las grandes empresas, un porcentaje que irá aumentando.",
+        "why": "Según el ministro, el Estado tarda entre seis y nueve meses en devolver esos créditos; con la compensación, las empresas dejan de pagar a la Aduana con fondos propios mientras esperan cobrar.",
+        "who": "Pymes y grandes empresas exportadoras con reintegros o IVA de exportación pendientes, y contribuyentes con deudas aduaneras o impositivas alcanzados por la suspensión de embargos y el plan de pagos.",
+        "products": [],
+        "next": "La Resolución 1834/2025 fija que los saldos de comercio exterior dolarizados que se acumularon hasta el 31 de octubre de 2025 recién podrán compensarse o pedirse en devolución desde el 1 de enero de 2027.",
+        "nextSource": {
+          "name": "Resolución 1834/2025 del Ministerio de Economía (texto del Boletín Oficial)",
+          "url": "https://www.consejosalta.org.ar/wp-content/uploads/me-1834.pdf"
+        }
+      },
       "sources": [
         {
-          "name": "AIM Digital",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.aimdigital.com.ar/produccion/la-carne-argentina-cierra-el-ao-en-china-su-principal-mercado-de-exportacin.htm",
-          "primary": true,
-          "author": ""
+          "name": "Ámbito",
+          "type": "Medio de comunicación",
+          "url": "https://www.ambito.com/economia/una-una-las-medidas-que-anuncio-luis-caputo-alivio-financiero-empresas-y-pymes-n6340903",
+          "primary": true
+        },
+        {
+          "name": "Hoy Día",
+          "type": "Medio de comunicación",
+          "url": "https://hoydia.com.ar/politica/nacional/caputo-anuncio-la-suspension-de-embargos-de-arca-a-pymes-hasta-mayo-de-2027/"
+        },
+        {
+          "name": "Infobae",
+          "type": "Medio de comunicación",
+          "url": "https://www.infobae.com/economia/2026/11/03/economia-anuncio-la-suspension-de-embargos-de-arca-para-pymes-y-otras-tres-medidas-para-impulsar-la-actividad/"
+        },
+        {
+          "name": "Radio Continental",
+          "type": "Medio de comunicación",
+          "url": "http://www.continental.com.ar/2026-11-03/caputo-anuncio-cuatro-medidas-de-alivio-para-las-pymes-se-suspenden-los-embargos-de-arca-hasta-mayo-de-2027-152820/"
+        },
+        {
+          "name": "El Litoral",
+          "type": "Medio de comunicación",
+          "url": "https://www.ellitoral.com/economia/luiscaputo-unionindustrialargentina-arca-rigi-pymes-fmi-uia_0_zMZbotDH3s.html"
+        },
+        {
+          "name": "Examedia (vía TN): declaraciones de Martín Rappallini",
+          "type": "Medio de comunicación",
+          "url": "https://examedia.com.ar/portada/post/88172602"
+        },
+        {
+          "name": "Resolución 1834/2025 del Ministerio de Economía (texto del Boletín Oficial)",
+          "type": "Norma oficial",
+          "url": "https://www.consejosalta.org.ar/wp-content/uploads/me-1834.pdf"
+        },
+        {
+          "name": "El Cronista (reclamo de CERA por los reintegros)",
+          "type": "Medio de comunicación",
+          "url": "https://www.cronista.com/economia-politica/superavit-real-un-sector-clave-advierte-que-la-demora-en-reintegros-financia-el-saldo-a-favor"
         }
       ],
-      "gnTried": "2026-11-03T17:13:06Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbnliY3l1cXFoNzJkRjJjbmg2bFM1bENlZmlUMDJ6V1J5RWU4S1ZIZnlOWWtKUFUzMkRhQXpITUxsOXlIeW9CbFpoWXpjRUotcUZmOEVJWUNpQUpYY1dMR0dTQjJ6aVdhSDlMNVhPOTdlWmlVTDJDci00a3pfXzU5N3c0S1E1Sjc0aDVXaE5nWHRxMmtQTWVlUDBMRjlaeHNpV3RHTGU3X0tOWlJuOEpQOG1vb2x6SnlsRmFIYw?oc=5"
+      "story": "arca-normativa",
+      "deadlines": [
+        {
+          "date": "2027-01-01",
+          "label": "Economía: los exportadores adheridos a la Resolución 1834/2025 pueden empezar a compensar o pedir la devolución de sus saldos a favor dolarizados",
+          "url": "https://www.consejosalta.org.ar/wp-content/uploads/me-1834.pdf"
+        },
+        {
+          "date": "2027-05",
+          "label": "ARCA: termina la suspensión de embargos a pymes anunciada por Caputo (sujeto a que se publique la norma)",
+          "url": "https://www.ambito.com/economia/una-una-las-medidas-que-anuncio-luis-caputo-alivio-financiero-empresas-y-pymes-n6340903"
+        }
+      ],
+      "absorbs": [
+        "hoy-hay-dolares-y-manana-va-a-haber-mas-luis-caputo-les-dijo-a-los-industriales"
+      ]
     },
     {
       "id": "escandalo-en-la-aduana-de-santo-tome-una-menor-se-fugo-a-san-borja-sin-control-d",
@@ -1488,12 +2445,15 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Aduanas"
+        "Aduanas",
+        "Mercosur"
       ],
       "countries": [
         "Argentina"
       ],
-      "tags": [],
+      "tags": [
+        "Mercosur"
+      ],
       "visual": "customs",
       "impact": 2,
       "affectsArgentina": true,
@@ -1517,46 +2477,6 @@
       }
     },
     {
-      "id": "hoy-hay-dolares-y-manana-va-a-haber-mas-luis-caputo-les-dijo-a-los-industriales",
-      "datetime": "2026-11-03T13:18:57Z",
-      "date": "2026-11-03",
-      "firstSeen": "2026-11-03T17:13:06Z",
-      "title": "\"Hoy hay dólares y mañana va a haber más\": Luis Caputo les dijo a los industriales que las exportaciones podrían sostener \"cualquier proceso de dolarización\"",
-      "summary": "El ministro de Economía expuso en la Conferencia Industrial que organiza la UIA.\"Se terminó el mito de la restricción externa\", insistió.El reclamo de la UIA para que el Gobierno \"escuche a las empresas\".",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Clarín",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.clarin.com/economia/hoy-dolares-manana-va-luis-caputo-dijo-industriales-exportaciones-podrian-sostener-cualquier-proceso-dolarizacion_0_pfPPNIBbhN.html",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-03T17:13:06Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNUHRmRGtCMXZmVkJoRUp2cTFFRjVhWVZ4N3A3aXZzdTRWbkg1a0dILTBWbGlsQ0kwemNEZm96cGM0U2ctT0xaQXR6UmNybGZ6WWNNYXRxaF9oa0dmeTRCSk1BRE0zNkpzWkx1ZHFfekZQQU1TbklPc2lXT29ISldhNXFaM1NxY3ZicDgxWGRtdFc4Q1VVYmlaZHBYVGtZeGk3NHhtRGZnUEIyajB2aVI5b3BVYW9nXzVmWm93YWYzcjJyVHFpY3hPNGgtWVUxVFR5X1JybDUtZml4cVV2SHNhQUVRRU45cF9nSzhscjZjZkRqNDlid2c?oc=5",
-      "digestSkip": {
-        "at": "2026-11-03T17:13:06Z",
-        "auto": "no-read",
-        "reason": "medio sin lectura automática (NO_READ_DOMAINS) y sin otro medio con la misma noticia"
-      }
-    },
-    {
       "id": "del-exportador-al-buque-y-del-buque-a-la-planta-en-la-importacion-de-autopartes",
       "datetime": "2026-11-03T12:45:00Z",
       "date": "2026-11-03",
@@ -1568,15 +2488,21 @@
       "topics": [
         "Importaciones",
         "Exportaciones",
-        "Transporte marítimo"
+        "Transporte marítimo",
+        "Puertos",
+        "Latinoamérica"
       ],
       "countries": [
-        "Argentina"
+        "Brasil",
+        "China"
       ],
-      "tags": [],
+      "tags": [
+        "Autos",
+        "China"
+      ],
       "visual": "auto",
       "impact": 1,
-      "affectsArgentina": true,
+      "affectsArgentina": false,
       "kind": "noticia",
       "label": "Automática",
       "feed": "Google Noticias · Comercio exterior Argentina",
@@ -1601,51 +2527,6 @@
         "at": "2026-11-03T10:32:00-03:00",
         "basedOn": "https://www.infobae.com/movant/2026/11/03/del-exportador-al-buque-y-del-buque-a-la-planta-en-la-importacion-de-autopartes/",
         "words": 196
-      }
-    },
-    {
-      "id": "el-acuerdo-mercosur-ue-impulsa-un-21-las-exportaciones-brasilenas",
-      "datetime": "2026-11-03T12:06:00Z",
-      "date": "2026-11-03",
-      "firstSeen": "2026-11-03T17:13:06Z",
-      "title": "El acuerdo Mercosur-UE impulsa un 21% las exportaciones brasileñas",
-      "summary": "La entrada en vigor de las preferencias arancelarias el 1 de mayo aumentó la competitividad de los productos brasileños en el mercado europeo y abrió nuevas oportunidades para las empresas.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones",
-        "Tratados y acuerdos",
-        "Latinoamérica",
-        "Mercosur",
-        "Europa"
-      ],
-      "countries": [
-        "Brasil",
-        "Unión Europea"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Agência Brasil",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://agenciabrasil.ebc.com.br/es/economia/noticia/2026-11/el-acuerdo-mercosur-ue-impulsa-un-21-las-exportaciones-brasilenas",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-03T17:13:06Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQX2NGUW9nZUJudVUxaEljVHZJcThFcUNhTk9IRmtqelZzbVBlSU9CZ285cUxOYzNYOWVyUWYyWjZNbWdpSktwdExiaGhjYW40b0NvLWEzTWNRQWVpWWpOMHk3T1Vla1E4V1hSMElJVTZkMG05OVVJeVVXV0RJTWRFRDM4MXpxdlRHRDM3eTZTNzJLZVlSUF9DMFpHMTdPVE9sM2pMV2MtbXJWQlMzd3FFQ2FfSmFwaF90R1ptSXFpWG5oTGtH?oc=5",
-      "digestSkip": {
-        "at": "2026-11-03T10:40:00-03:00",
-        "reason": "repite una nota de la redacción (balance de seis meses del acuerdo UE–Mercosur)"
       }
     },
     {
@@ -1763,12 +2644,26 @@
           "url": "https://aduananews.com/claves-del-encuentro-nacional-de-despachantes-en-mar-del-plata-dnu-70-2023-ia-y-comercio-internacional/?utm_source=rss&utm_medium=rss&utm_campaign=claves-del-encuentro-nacional-de-despachantes-en-mar-del-plata-dnu-70-2023-ia-y-comercio-internacional",
           "primary": true,
           "author": "Aduana News"
+        },
+        {
+          "name": "Centro Despachantes de Aduana (CDA)",
+          "type": "También publicó esta noticia",
+          "url": "http://www.cda.org.ar/detalle_noticia.php?id=42846",
+          "alsoIn": true,
+          "title": "DNU 70/2023, IA y comercio internacional: las claves del XI Encuentro Nacional de Despachantes"
         }
       ],
       "digestSkip": {
         "at": "2026-11-03T10:40:00-03:00",
         "reason": "fuera de tema (aviso de evento: programa del encuentro de despachantes)"
-      }
+      },
+      "aliasUrls": [
+        "http://www.cda.org.ar/detalle_noticia.php?id=42846",
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5PRG1QMF96MWxtSzVOS0hkZnpza01KazBSQ1ZoUjlMc2JZYTdTSkZ6OXZsaWw5aG1RbGY2SDR5bkY1b2VIWlRKU2dkMkJQM3ZMN1JSZDJIemFmZXF1RmNR"
+      ],
+      "mergedIds": [
+        "dnu-70-2023-ia-y-comercio-internacional-las-claves-del-xi-encuentro-nacional-2"
+      ]
     },
     {
       "id": "compania-portuaria-de-bristol-nombra-a-justin-shirtcliff-como-su-nuevo-capitan-d",
@@ -1807,48 +2702,6 @@
       "digestSkip": {
         "at": "2026-11-03T10:40:00-03:00",
         "reason": "fuera de tema (nombramiento)"
-      }
-    },
-    {
-      "id": "uruguay-abre-la-puerta-a-un-mercado-de-us-1-4-billones-entra-en-vigor-el-acuerdo",
-      "datetime": "2026-11-03T03:24:20Z",
-      "date": "2026-11-03",
-      "firstSeen": "2026-11-03T17:13:06Z",
-      "title": "Uruguay abre la puerta a un mercado de US$ 1,4 billones (entra en vigor el acuerdo Mercosur-EFTA)",
-      "summary": "Desde el 1° de noviembre, Uruguay aplica el tratado de libre comercio con Islandia y Noruega, dos de los países que integran la Asociación Europea de Libre Comercio (EFTA). El bloque reúne a casi 15 millones de habitantes y registra un PIB cercano a los US$ 1,4 billones. El acuerdo contempla beneficios para el…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Tratados y acuerdos",
-        "Latinoamérica",
-        "Mercosur"
-      ],
-      "countries": [
-        "Uruguay"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "InfoNegocios Uruguay",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://infonegocios.biz/default/uruguay-abre-la-puerta-a-un-mercado-de-us-1-4-billones-entra-en-vigor-el-acuerdo-mercosur-efta",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-03T17:13:06Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVFo2OS0yOC1oY2E1QTRTRUtvNVVST1NJM0pEX2ZUeWZkZUx2eTBmby1TRXM0bUcwd0RWUk44T0k2S25vazZVZlRUejZCUWVhSTRCUW8tV0lZUV9Ia0ZnN1VqTmF1QlN2eDluRlN3V3BoY1BSdGthSUxOY2Y5RGE3anRVSTA2UHNmcHZWZGNIc2EtbkJ6YjhVTC1lcU5WRnZ5NFp4SmFOMUhld1E1cTJQLTNCVXVtN0J4TnNIX2cxU2NYU1ljVjZTdkNyY9IBywFBVV95cUxOVFo2OS0yOC1oY2E1QTRTRUtvNVVST1NJM0pEX2ZUeWZkZUx2eTBmby1TRXM0bUcwd0RWUk44T0k2S25vazZVZlRUejZCUWVhSTRCUW8tV0lZUV9Ia0ZnN1VqTmF1QlN2eDluRlN3V3BoY1BSdGthSUxOY2Y5RGE3anRVSTA2UHNmcHZWZGNIc2EtbkJ6YjhVTC1lcU5WRnZ5NFp4SmFOMUhld1E1cTJQLTNCVXVtN0J4TnNIX2cxU2NYU1ljVjZTdkNyYw?oc=5",
-      "digestSkip": {
-        "at": "2026-11-03T10:40:00-03:00",
-        "reason": "repite una nota de la redacción (Uruguay aplica el acuerdo Mercosur–AELC)"
       }
     },
     {
@@ -2736,6 +3589,47 @@
       "gnUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMFBFdFg5SVJwdUtQek0wWkdMYUtULWVLQ2tEYXNOTXo4N0dyY0tHMnZrbkJud3djVU4teWUyWTJOX19JdkZPZ0lPTV9hX3c1Yl9LM0JuMV9vWFI1eVNZa1VXQ0liRHh5VTZacnBGZkJ6UGNBOTZhSWZ5UW5NRkJmUml5LXROSEs2ZXJiU2RLaERPckZJekgtX0R1amY3S0w4OC1Nbk81TU5mX1dBa1JGalMxUU9TSktBbllfN2VqemhtbjQ?oc=5"
     },
     {
+      "id": "uruguay-colonia-exporto-us-264-millones-a-la-union-europea-en-2025-y-analiza-las",
+      "datetime": "2026-11-02T22:31:30Z",
+      "date": "2026-11-02",
+      "firstSeen": "2026-11-03T22:26:36Z",
+      "title": "Uruguay — Colonia exportó US$ 264 millones a la Unión Europea en 2025 y analiza las oportunidades del acuerdo con el Mercosur",
+      "summary": "Colonia exportó bienes por 264 millones de dólares a la Unión Europea durante 2025, lo que lo ubicó como el tercer departamento uruguayo con mayores ventas a ese mercado, según el informe Exportaciones de bienes… | Noticias del MERCOSUR: política, economía y actualidad regional del Prensa Mercosur.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Uruguay",
+        "Unión Europea"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Prensa Mercosur",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://prensamercosur.org/2026/11/02/uruguay-colonia-exporto-us-264-millones-a-la-union-europea-en-2025-y-analiza-las-oportunidades-del-acuerdo-con-el-mercosur/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T22:26:36Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPbG8xQ0pUUHVJSVRNWDZ1bGtVd0FWSXNsem5uUk1FX2ZSd2ZtejQ0dXRscUlGcTc5anJLR09CZWhSM1JtSm1PdnpTb2czdHE5TmtwakFGU2M3Wk1yd2lkZFZyTlBUbnh3V0RsakFaWEhjdGpJR2xtdDl3WW5aemZqdThsNnY1YkFKY0phcWkzX1pyVlZiOUZDd2hGR3hFMVRGalpfY2YxZkI3Y1VMdE9PT3dfaXlGbDI5S25nT1lFZmNyR0JldGpEODNpSjVmaFhyc1lJRWEtS2RXSGVPYXRBNU5iQk1hQmZLYS0tVzQyc2N1cE0?oc=5"
+    },
+    {
       "id": "el-usda-proyecta-un-aumento-de-3-en-las-importaciones-brasilenas-de-leche-en-pol",
       "datetime": "2026-11-02T21:20:06Z",
       "date": "2026-11-02",
@@ -2840,6 +3734,8 @@
       "keyData": [],
       "topics": [
         "Argentina",
+        "Aduanas",
+        "Logística",
         "Transporte aéreo"
       ],
       "countries": [
@@ -2847,7 +3743,7 @@
       ],
       "tags": [],
       "visual": "plane",
-      "impact": 1,
+      "impact": 2,
       "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
@@ -2873,59 +3769,6 @@
         "at": "2026-11-03T10:34:00-03:00",
         "basedOn": "https://www.infobae.com/movant/2026/11/02/carga-aerea-sin-papel-el-paso-que-le-falta-al-comercio-exterior-argentino/",
         "words": 189
-      }
-    },
-    {
-      "id": "mas-de-50-productos-argentinos-ocupan-los-primeros-puestos-como-exportadores-mun",
-      "datetime": "2026-11-02T19:35:08Z",
-      "date": "2026-11-02",
-      "firstSeen": "2026-11-03T17:13:06Z",
-      "title": "Más de 50 productos argentinos ocupan los primeros puestos como exportadores mundiales",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Comercio exterior Argentina",
-      "sources": [
-        {
-          "name": "Data Portuaria",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://dataportuaria.com/es/argentina/comercio-exterior/mas-de-50-productos-argentinos-ocupan-los-primeros-puestos-como-exportadores-mundiales-194338",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "Campo en acción",
-          "type": "También publicó esta noticia",
-          "url": "https://campoenaccion.com/actualidad/ponderan-que-son-ms-de-50-los-productos-argentinos-que-ocupan-los-primeros-puestos-como-exportadores.htm",
-          "alsoIn": true,
-          "title": "Ponderan que son más de 50 los productos argentinos que ocupan los primeros puestos como exportadores"
-        }
-      ],
-      "gnTried": "2026-11-03T17:13:06Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZUtwdE5aMTNJS3BaWVB3NXVydWhMQTV6bEkxWjFSNXVDQTRaeVhZcGc5allOOUkyUHg2bTdjb09GaHpJZHFfUHk4NGJPQzF2bEdXYV9GZjc5dHRGWTBfVm0ybldBYVd0OERWd0ZWWEdoOFRIRzBtRWl4b1lCMkwtY1M3eE4tOHczYUs1d0ZiQjBZVzZ3Q24wYnVudDU5ckhoYmlSeUxmaUZyNmRiVVlmMEhTMU8wLWE0d3M2WGZVZ2dWVjk1RTBCQ2pDYkljSjE1X0dUOXhvZnZWNkdEQTduU0NTRWQ?oc=5",
-      "aliasUrls": [
-        "https://campoenaccion.com/actualidad/ponderan-que-son-ms-de-50-los-productos-argentinos-que-ocupan-los-primeros-puestos-como-exportadores.htm",
-        "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdm50US1BeXJibHJGVGJlOGtJdG8tUEFDYlJfQlR3NjJMbE1TUS1XcDlDOWtqX0ptWlBPWUJfQ1JWLUswM2NtQ19UdEJreThnbE5rYlR5Sl9HQWpaMHBUV3lTYTlnd2ZXRE9JenhHVnp5ejJFZTZZMXpweEdrcGp6cFlMMlBxSmdtMnlPYmh4RzMzZm1SY0xiWnVKUU5yUlBhS0tfSW1OMDJpalF2azZ5X3RiUmVEZUE3UUZEWlRvNXJhNHVUOEI4akE4OERERVHSAc8BQVVfeXFMTnZudFEtQXlyYmxyRlRiZThrSXRvLVBBQ2JSX0JUdzYyTGxNU1EtV3A5Qzlral9KbVpQT1lCX0NSVi1LMDNjbUNfVHRCa3k4Z2xOa2JUeUpfR0FqWjBwVFd5U2E5Z3dmV0RPSXp4R1Z6eXoyRWU2WTF6cHhHa3BqenBZTDJQcUpnbTJ5T2JoeEczM2ZtUmNMYlp1SlFOclJQYUtLX0ltTjAyaWpRdms2eV90YlJlRGVBN1FGRFpUbzVyYTR1VDhCOGpBODhEREVR"
-      ],
-      "mergedIds": [
-        "ponderan-que-son-mas-de-50-los-productos-argentinos-que-ocupan-los-primeros-pues"
-      ],
-      "digestSkip": {
-        "at": "2026-11-03T10:40:00-03:00",
-        "reason": "repite una nota de la redacción (52 productos agroindustriales en el top 20 mundial)"
       }
     },
     {
@@ -3117,6 +3960,13 @@
           "url": "https://gacetaperutv.pe/2026/11/trump-busca-excluir-a-ruanda-y-sudafrica-de-acuerdo-comercial.html",
           "alsoIn": true,
           "title": "Trump busca excluir a Ruanda y Sudáfrica de acuerdo comercial"
+        },
+        {
+          "name": "sipse.com",
+          "type": "También publicó esta noticia",
+          "url": "https://sipse.com/mundo/estados-unidos-deja-fuera-a-sudafrica-y-ruanda-de-acuerdo-comercial-517175.html",
+          "alsoIn": true,
+          "title": "Estados Unidos deja fuera a Sudáfrica y Ruanda de acuerdo comercial"
         }
       ],
       "gnTried": "2026-11-02T19:39:39Z",
@@ -3125,11 +3975,14 @@
         "https://eldiariodecoahuila.com.mx/2026/11/02/eeuu-excluira-a-sudafrica-y-ruanda-de-acuerdo-comercial-africano",
         "https://gacetaperutv.pe/2026/11/trump-busca-excluir-a-ruanda-y-sudafrica-de-acuerdo-comercial.html",
         "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVHlPV0FrenNEdW5KNThORXQ1dHh4VVEzS0xCYlUzZlE2N0ZEa0lSa0ZYLVlLcDlJN2dlZzJUMGFsVmVueU5SYndWblNqd015clpMb2ZYTWJ1WjJMN3ZQMldCam1JZ1RoN3ZNUmRBYm9xelA2X2dlMUZZdE8xMXlfX240bFRPRHpFaTNOeEYyb3dlWUFsOEdhOUpScm9MUzA",
-        "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSnhjdU81aXFKbndIbW5MbmlSVm1CNXo4MTVvLTNUd01wNEVmX1N2RUNxMkg4ZGpVbVNtd1pJckROUWE5QmRYLXUtQmFPc2pwYllybkMwS1poNWx0dm5SUkFubUJ1aWpEY3ZyMFpiY3l4Z1pGYksybmlVNThZTWI4b1JsbXZvanQ0c25xMVE5VnJ6X19ydzdMaWd4RmFfWGhJMTBMcUtEWHZGNTR2REU0"
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQnRTMU44YlNubnEtRURMZ09vX3hsaWZkdk5nNTdCZTl5cnBMMVNEX0xRQmk3TFpmQU1MNzBlMm5oM19aRk8yQm55WmpHMWhCR1M4TWhBRks4TUVxUTBVYU9hNjZreGdibUZ0SjNVUkJPVjRxUDdldE9hdEVmUG4xUEhxRkNKT0ZfT283X2pDQUhHbUh5NDY4VmtmVEhrMzZqWVNJY2pR0gGrAUFVX3lxTE9FUVB6NG5Hb2ZhVTNnNF9yVkZyVzhKc2VlTzlsSDh3SUNUZzRBYTRQT0pxUnNHUFNLZXVsVDZBOTU3NHRVQ29OUlVOMVlNNWlzeVM0S2ZDTGxzdk9tbmFfODJBOUhGQzlmOTh5eHZzQWl1YzJ1dlJQbnFkVVNsMmdOVUhkY1IwNTZDR201RGdEelVHaTVGRkxURUdYQmh5YS1uX21BYVlTNm5ibw",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSnhjdU81aXFKbndIbW5MbmlSVm1CNXo4MTVvLTNUd01wNEVmX1N2RUNxMkg4ZGpVbVNtd1pJckROUWE5QmRYLXUtQmFPc2pwYllybkMwS1poNWx0dm5SUkFubUJ1aWpEY3ZyMFpiY3l4Z1pGYksybmlVNThZTWI4b1JsbXZvanQ0c25xMVE5VnJ6X19ydzdMaWd4RmFfWGhJMTBMcUtEWHZGNTR2REU0",
+        "https://sipse.com/mundo/estados-unidos-deja-fuera-a-sudafrica-y-ruanda-de-acuerdo-comercial-517175.html"
       ],
       "mergedIds": [
         "eeuu-excluira-a-sudafrica-y-ruanda-de-acuerdo-comercial-africano",
-        "trump-busca-excluir-a-ruanda-y-sudafrica-de-acuerdo-comercial"
+        "trump-busca-excluir-a-ruanda-y-sudafrica-de-acuerdo-comercial",
+        "estados-unidos-deja-fuera-a-sudafrica-y-ruanda-de-acuerdo-comercial"
       ]
     },
     {
@@ -113549,7 +114402,7 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-11-03T17:13:06Z",
+    "ranAt": "2026-11-03T22:26:36Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
@@ -113558,7 +114411,7 @@
         "items": 7,
         "added": 0,
         "updated": 0,
-        "skipped": 0
+        "skipped": 1
       },
       {
         "source": "Aduana News",
@@ -113582,76 +114435,71 @@
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 18,
+        "items": 38,
         "added": 4,
         "updated": 0,
-        "skipped": 9
+        "skipped": 26
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 24,
-        "added": 1,
+        "items": 34,
+        "added": 4,
         "updated": 0,
-        "skipped": 19
+        "skipped": 26
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 66,
+        "items": 55,
         "added": 4,
         "updated": 0,
-        "skipped": 51
+        "skipped": 47
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 40,
+        "items": 34,
         "added": 4,
         "updated": 0,
-        "skipped": 31
+        "skipped": 25
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
         "url": "https://news.google.com/rss/search?q=(aranceles+OR+%22guerra+comercial%22+OR+%22acuerdo+comercial%22)+when:1d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 68,
+        "items": 80,
         "added": 4,
         "updated": 0,
-        "skipped": 57
+        "skipped": 68
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 45,
+        "items": 54,
         "added": 4,
         "updated": 0,
-        "skipped": 31
+        "skipped": 38
       }
     ],
     "curatedDuplicates": [
       {
-        "title": "La miel de Mercosur se dispara un 94% en Europa en los tres primeros meses del acuerdo",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQRXFnUnkwQ0Q3Z1NrMVVhZ2l3S2Njcmx6NGlwbmdISU9zZHpTMnV0dzNSX1JaR1BrZXQ4R0JsMFpOZWI0cHBWczlHTkxIclktMzZuZWJWZGFOejZJS1BHNTdJcEowcDBqdENvT2ZxRlo0U0JtdFJQVHFUaExHUHBGd0dmRTdFZFBJVjdiQk5zM1ctYXBxaXowUk5sMmt4RDVNeFVQVFZkOUF2UkVBaUlqRzhSUUQxcVpJZG5ySUc5UWNVZG0xSEk5OG05QmxjNE1TNm4xVnhQcG9IYmFBdWx4V2I3U1JoZHZ3TzB6YXBXR2pWN1k?oc=5",
-        "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
+        "title": "La UE inicia una investigación en materia de salvaguardias relativa a determinados vehículos híbridos nuevos",
+        "url": "https://www.wto.org/spanish/news_s/news26_s/safe_eec_02nov26_536_s.htm",
+        "curated": "ue-investigacion-salvaguardia-vehiculos-hibridos-importaciones-1-4-millones-cupo-china"
       },
       {
-        "title": "Argentina se destaca entre los principales exportadores mundiales de 52 productos agroindustriales",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPX2VxZWJ1d3UySmJFWFl2azF5QVBGOFNrSVNBZ2JhV0YwOG1tUnFYVUFkWGxDLW1GZXNNbkNEVEYwdHMyaDFTcjJXMjlSRnZiWEhjUDlxZ2ZJYWJzVWJqcVFtSGkwcElvTjl0cHE4cW9GUGNqaTd3R1d2cGJrQmtzcDJpc2JGOFR2WjFXamNjRHlXUmhjS20wcVZLUXRrQjlVTEk2SEhFbG9oR0x4bEdpbEoxY05hMFVKekJSUHRZclpoMmdyYkszN9IByAFBVV95cUxPX2VxZWJ1d3UySmJFWFl2azF5QVBGOFNrSVNBZ2JhV0YwOG1tUnFYVUFkWGxDLW1GZXNNbkNEVEYwdHMyaDFTcjJXMjlSRnZiWEhjUDlxZ2ZJYWJzVWJqcVFtSGkwcElvTjl0cHE4cW9GUGNqaTd3R1d2cGJrQmtzcDJpc2JGOFR2WjFXamNjRHlXUmhjS20wcVZLUXRrQjlVTEk2SEhFbG9oR0x4bEdpbEoxY05hMFVKekJSUHRZclpoMmdyYkszNw?oc=5",
-        "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
-      },
-      {
-        "title": "Argentina lidera las exportaciones mundiales de seis productos agroindustriales",
-        "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNUmRKLXk5bDRJZHloR3NZRXJVV1ZVaE5LRmZ1ZUlNQ0ExTjFSNHc1ekRKU0VyOG01ckxpajJmWWtIS09rU2V2N0UtTTRHMzFFNDZUekJRalZZNmhZWWlLTTNDei0yTTFDdkhVRnJKdnJJN2RHOEdpR0J2ZzJZZmM1UXFGYmVyb3pfLVVkZHdERDlwbmJmVkNBZ0I0SVJFNW5XczhvalVEY19WZzgyeVc3RExCLUxzQjdLRWFGcGphMDQtQzB0TGliMy1LbG1pRU1JWDVHR3YwbmZFNVVRdXZ2M2tadmZiaE1JS2J3MGNCT2U2Rm1hbXVBUWR2YzVCdFVVT3BkcmY2XzV5dmFyNFAxMWVKNVFiWC10dUM1U2ptZHcwMWNEWVNWZmh1QkVSOW5LdXh0RnhsZkFmb2FqclktZnAxeXA?oc=5",
+        "title": "Exportaciones: 26 productos argentinos en el top 5 mundial",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1BX3FxTi1WQ19sQnE2VnBQbERTOGJxaXlYNTJ6ODFKeVdDSlZxbzJfVlJJdDdPRG96ckhpVi05QjV2R0psU1Q2ODY2Q3owQnIyZjdPeHJDMlJYeWhWRFZSSnZpaUVVX0wtV1ZaZlpMX2Rzd0lSUE9N?oc=5",
         "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
       },
       {
         "title": "Uruguay aumentó las exportaciones a Europa tras el acuerdo con el Mercosur: qué productos se beneficiaron",
-        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNN1F5cXFxM2h3VVljTmNWU25xdTh0X3htdUtTV0wwMERyNGV4ZzZiN3hqZjVaMnRYdjRMMXdRbVpOUU54YXhIcFpyUy05UFBnSGlBN1htdWdoQWMybXdZeElwNWRYd3Y4ZVBVZUcxNGp0bDZGYmNVN3o3VmFfVVBYa2N0bnUwZGRwY01IeExCSThia21lNlV6dlQ3Z2tJMmpWVzVyam5YbU1sbWpsX2ZBeTdWazJCbUhUNGVha0ZVQ0tJa25hZ2F1OEJ4cGY1eVpRR2Y5dk5obTI3LTFtNHhaN2JDUHdaRGcyclNNRXJQSjV4a0llUTBrVDZ5RGlSM3dUajQwQUVHNnNrMGFDMVZ5SNIBkAJBVV95cUxNN1F5cXFxM2h3VVljTmNWU25xdTh0X3htdUtTV0wwMERyNGV4ZzZiN3hqZjVaMnRYdjRMMXdRbVpOUU54YXhIcFpyUy05UFBnSGlBN1htdWdoQWMybXdZeElwNWRYd3Y4ZVBVZUcxNGp0bDZGYmNVN3o3VmFfVVBYa2N0bnUwZGRwY01IeExCSThia21lNlV6dlQ3Z2tJMmpWVzVyam5YbU1sbWpsX2ZBeTdWazJCbUhUNGVha0ZVQ0tJa25hZ2F1OEJ4cGY1eVpRR2Y5dk5obTI3LTFtNHhaN2JDUHdaRGcyclNNRXJQSjV4a0llUTBrVDZ5RGlSM3dUajQwQUVHNnNrMGFDMVZ5SA?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPYUVkT0FUOFhVcnJVdmZwbGxpOFMtMTFEQmxhX0JfaVh6bG51bnREaWhCNUVpYTA5NXBySk9td1RnTDE3M3Utdjk3cWRmOUIwZEY2end1eHVjVzJFN0g2ZWFhemE2UnpVdHlhOUZZSjh1OFpPa3piREhuR0EzTEtwQjBDelMtZ1BNalNyMm1KeEZSS0J3bld6LXR3Qmk1dFJBSTBkdzRoN1lMdHBscHlBNkJNdXVWSTdsOUhkbE5oN05YcFdIeFNXb09OX2VPZVA0Q0p5RWFNSkJwSTZnTTdpSHI0eGRuZXhGYVE5cXhsMENsN09DVUHSAZACQVVfeXFMTTdReXFxcTNod1VZY05jVlNucXU4dF94bXVLU1dMMDBEcjRleGc2Yjd4amY1WjJ0WHY0TDF3UW1aTlFOeGF4SHBaclMtOVBQZ0hpQTdYbXVnaEFjMm13WXhJcDVkWHd2OGVQVWVHMTRqdGw2RmJjVTd6N1ZhX1VQWGtjdG51MGRkcGNNSHhMQkk4YmttZTZVenZUN2drSTJqVlc1cmpuWG1NbG1qbF9mQXk3VmsyQm1IVDRlYWtGVUNLSWtuYWdhdThCeHBmNXlaUUdmOXZOaG0yNy0xbTR4WjdiQ1B3WkRnMnJTTUVyUEo1eGtJZVEwa1Q2eURpUjN3VGo0MEFFRzZzazBhQzFWeUg?oc=5",
         "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
       },
       {
@@ -113660,59 +114508,39 @@
         "curated": "uruguay-aplica-acuerdo-mercosur-aelc-noruega-islandia-1-noviembre-cupos-vuce"
       },
       {
-        "title": "IATA: Aerolíneas latinoamericanas registraron un aumento del 6,7% en la demanda de carga aérea en septiembre",
-        "url": "https://www.mundomaritimo.cl/noticias/iata-aerolineas-latinoamericanas-registraron-un-aumento-del-67-en-la-demanda-de-carga-aerea-en-septiembre",
-        "curated": "iata-carga-aerea-septiembre-2026-7-7-por-ciento-combustible"
-      },
-      {
-        "title": "Más de 50 productos argentinos se posicionan en los primeros puestos de exportación mundial",
-        "url": "https://www.ruralprimicias.com.ar/173500-2/",
-        "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
-      },
-      {
-        "title": "Argentina se ubica entre los principales exportadores mundiales",
-        "url": "https://www.unoentrerios.com.ar/economia/argentina-se-ubica-los-principales-exportadores-mundiales-n10290096.html",
-        "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
-      },
-      {
-        "title": "La carne argentina está rompiendo récords: exportaciones que no paran de crecer",
-        "url": "https://esposta.com.ar/contenido/4153/la-carne-argentina-esta-rompiendo-records-exportaciones-que-no-paran-de-crecer",
-        "curated": "carne-vacuna-exportaciones-enero-septiembre-2026-549600-toneladas-china-cuota-rosgan"
-      },
-      {
-        "title": "Argentina figura entre los principales exportadores de más de 50 productos agroindustriales",
-        "url": "https://comercioyjusticia.info/economia/argentina-figura-entre-los-principales-exportadores-de-mas-de-50-productos-agroindustriales/",
-        "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
-      },
-      {
-        "title": "Centro Despachantes de Aduana de la Republica Argentina - Cronogramas operativos: Feriados visita del Papa",
-        "url": "http://www.cda.org.ar/detalle_noticia.php?id=42843",
-        "curated": "feriados-visita-papa-leon-xiv-9-10-11-noviembre-cinco-dias-sin-bancos-comercio-exterior"
-      },
-      {
-        "title": "Seis meses del acuerdo Mercosur-UE: Ministerio de Economía destaca crecimiento y diversificación comercial",
-        "url": "https://www.busqueda.com.uy/economia/seis-meses-del-acuerdo-mercosur-ue-ministerio-economia-destaca-crecimiento-y-diversificacion-comercial-n5418941",
-        "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
-      },
-      {
-        "title": "Argentina se posiciona entre los líderes mundiales: más de 50 productos agroindustriales están en el top 20 exportador",
-        "url": "https://www.infobae.com/revista-chacra/2026/11/02/argentina-se-posiciona-entre-los-lideres-mundiales-mas-de-50-productos-agroindustriales-estan-en-el-top-20-exportador/",
-        "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
-      },
-      {
-        "title": "Mercosur-EFTA: el acuerdo entra en vigor para Uruguay y abre un mercado de 15 millones de habitantes",
-        "url": "https://www.xn--lamaana-7za.uy/actualidad/mercosur-efta-el-acuerdo-entra-en-vigor-para-uruguay-y-abre-un-mercado-de-15-millones-de-habitantes/",
+        "title": "Uruguay abre la puerta a un mercado de US$ 1,4 billones (entra en vigor el acuerdo Mercosur-EFTA)",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNHVuaUFiMlBRWURBSHdKMEI0TEtNeXZhSGZRUXlxZGtfN28yRUdNNU5TVzJINXNOdWVRUEpHLTRUTE5TdUtSTVM3Z3hEVUZXYlpIckdFODhlOVJwVW5ra0g5ZV9vYjRWYTR6SHpPMDd6SkRuZ3lEYmRsNXBkdTJzUGFvcTk1cU1idFR3d3c1dHhLRXphMi1DQUYwWUJYMEVpcXBSNndVY2lac1EwcE50SGgzTm5XSl9ldzVhTGhhVURiSnJ2Qi1v0gHLAUFVX3lxTE5UWjY5LTI4LWhjYTVBNFNFS281VVJPU0kzSkRfZlR5ZmRlTHZ5MGZvLVNFczRtRzB3RFZSTjhPSTZLbm9rNlVmVFR6NkJRZWFJNEJRby1XSVlRX0hrRmc3VWpOYXVCU3Z4OW5GU3dXcGhjUFJ0a2FJTE5jZjlEYTdqdFVJMDZQc2ZwdlZkY0hzYS1uQnpiOFVMLWVxTlZGdnk0WnhKYU4xSGV3UTVxMlAtM0JVdW03QnhOc0hfZzFTY1hTWWNWNlN2Q3Jj?oc=5",
         "curated": "uruguay-aplica-acuerdo-mercosur-aelc-noruega-islandia-1-noviembre-cupos-vuce"
       },
       {
-        "title": "Aumentaron las exportaciones a Europa a raíz del acuerdo Mercosur-Unión Europea",
-        "url": "https://www.carasycaretas.com.uy/politica/aumentaron-las-exportaciones-europa-raiz-del-acuerdo-mercosur-union-europea-n100683",
+        "title": "A seis meses de su aplicación, acuerdo Mercosur-UE permitió aumento de 12% en exportaciones",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZFRPV0ptQXdOWHU1Q2tTeWtFNzBjU0Q2YlVmZ3g3aDFrcDBtT3VxOWNybzE1cGVNV2FuVDhzN2diNHNkeTlWMndnVnMwNUxzMHVZSHZZaldGZ2VVQkFmWlVsSDdQOTdxMHJzY2k0ZnBYR0c2Y2ZiMkc1VFFxNkhUZm5JeHJfVlpOV29NOGREZTFNN1VWbkR4LUo3aXk5RXRJMUJ5MUJqd2hxd19UY2dkcTVveFo5NWkwTFFuUklELWR1RXRUampZTDln0gHPAUFVX3lxTFBSWUFtNWxJNWgyQzhleGtxSzh4aDM0VGVZUlh2MW84QnhOa3MzdkRjM0RmU1VpdnA3NzhSNFJRRGxKRFFPcFBqRFpFc21jT1VaaHNDSm9yeEN6eUp1YUVIU3pyUm0yaFEtZE5GaHJ0UDFDaEJLWXVrWG9aX1RyNzJodWsyRWRBb0NSckMxUmZKZk4xQ0R6d0c1TGhlLU00TnA4QnRDUWhneEhQM1FvUkZPSjF3eUcwOGhaNEhMOFFhUk84ckduZFBiN2JVdzdDOA?oc=5",
         "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
       },
       {
-        "title": "La UE inicia una investigación en materia de salvaguardias relativa a determinados vehículos híbridos nuevos",
-        "url": "https://www.wto.org/spanish/news_s/news26_s/safe_eec_02nov26_536_s.htm",
-        "curated": "ue-investigacion-salvaguardia-vehiculos-hibridos-importaciones-1-4-millones-cupo-china"
+        "title": "Tras entrada en vigor de acuerdo Mercosur-EFTA, Ignacio Bartesaghi destacó la capacidad económica de",
+        "url": "https://www.radiomontecarlo.com.uy/2026/11/03/nacionales/tras-entrada-en-vigor-de-acuerdo-mercosur-efta-ignacio-bartesaghi-destaco-la-capacidad-economica-del-bloque-europeo-y-las-posibilidades-que-se-abren-para-uruguay/",
+        "curated": "uruguay-aplica-acuerdo-mercosur-aelc-noruega-islandia-1-noviembre-cupos-vuce"
+      },
+      {
+        "title": "\"Hoy hay dólares y mañana va a haber más\": Luis Caputo les dijo a los industriales que las exportaciones podrían…",
+        "url": "https://www.clarin.com/economia/hoy-dolares-manana-va-luis-caputo-dijo-industriales-exportaciones-podrian-sostener-cualquier-proceso-dolarizacion_0_pfPPNIBbhN.html",
+        "curated": "caputo-uia-saldos-exportacion-reintegros-iva-deudas-aduaneras-pymes-embargos-mayo-2027"
+      },
+      {
+        "title": "El acuerdo Mercosur-UE impulsa un 21% las exportaciones brasileñas",
+        "url": "https://agenciabrasil.ebc.com.br/es/economia/noticia/2026-11/el-acuerdo-mercosur-ue-impulsa-un-21-las-exportaciones-brasilenas",
+        "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
+      },
+      {
+        "title": "Uruguay abre la puerta a un mercado de US$ 1,4 billones (entra en vigor el acuerdo Mercosur-EFTA)",
+        "url": "https://infonegocios.biz/default/uruguay-abre-la-puerta-a-un-mercado-de-us-1-4-billones-entra-en-vigor-el-acuerdo-mercosur-efta",
+        "curated": "uruguay-aplica-acuerdo-mercosur-aelc-noruega-islandia-1-noviembre-cupos-vuce"
+      },
+      {
+        "title": "Más de 50 productos argentinos ocupan los primeros puestos como exportadores mundiales",
+        "url": "https://dataportuaria.com/es/argentina/comercio-exterior/mas-de-50-productos-argentinos-ocupan-los-primeros-puestos-como-exportadores-mundiales-194338",
+        "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
       }
     ],
     "excluded": 0,
@@ -113720,25 +114548,43 @@
       {
         "main": "eeuu-planea-excluir-a-sudafrica-y-ruanda-de-acuerdo-comercial-con-africa",
         "merged": [
-          "trump-busca-excluir-a-ruanda-y-sudafrica-de-acuerdo-comercial"
+          "estados-unidos-deja-fuera-a-sudafrica-y-ruanda-de-acuerdo-comercial"
         ]
       },
       {
-        "main": "mas-de-50-productos-argentinos-ocupan-los-primeros-puestos-como-exportadores-mun",
+        "main": "dnu-70-2023-ia-y-comercio-internacional-las-claves-del-xi-encuentro-nacional-de",
         "merged": [
-          "ponderan-que-son-mas-de-50-los-productos-argentinos-que-ocupan-los-primeros-pues"
+          "dnu-70-2023-ia-y-comercio-internacional-las-claves-del-xi-encuentro-nacional-2"
+        ]
+      },
+      {
+        "main": "la-carne-argentina-cierra-el-ano-en-china-su-principal-mercado-de-exportacio-2",
+        "merged": [
+          "la-carne-argentina-cierra-el-ano-en-china-su-principal-mercado-de-exportacion"
+        ]
+      },
+      {
+        "main": "exportaciones-petroleras-de-venezuela-sin-cambios-en-medio-de-estancamiento-de-p",
+        "merged": [
+          "venezuela-exportaciones-de-petroleo-caen-25-en-octubre-ante-alza-de-fletes-marit"
+        ]
+      },
+      {
+        "main": "los-precios-de-exportacion-subieron-15-2-que-productos-argentinos-se-encareciero",
+        "merged": [
+          "comercio-exterior-los-precios-de-exportacion-subieron-un-15-2"
         ]
       }
     ],
     "googleNews": {
-      "pending": 22,
-      "resolved": 21,
-      "withSummary": 15,
+      "pending": 24,
+      "resolved": 24,
+      "withSummary": 20,
       "withPhoto": 0,
-      "failed": 1,
-      "duplicates": 1
+      "failed": 0,
+      "duplicates": 0
     },
-    "noRead": 2
+    "noRead": 0
   },
   "stories": [
     {
