@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-11-03T02:59:45Z",
+  "updatedAt": "2026-11-03T17:13:06Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -142,7 +142,7 @@
       "obsDate": "2026-11-02",
       "change": "+0,5% vs. día hábil anterior",
       "trend": "up",
-      "checkedAt": "2026-11-03T03:00:49Z",
+      "checkedAt": "2026-11-03T17:14:08Z",
       "history": [
         [
           "2026-09-21",
@@ -267,27 +267,27 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-03T03:00:49Z"
+      "lastAttempt": "2026-11-03T17:14:08Z"
     },
     {
       "id": "soja",
       "label": "Soja · precio pizarra Rosario",
-      "value": "$ 544.000/t",
-      "period": "Rosario · 30 oct 2026 · US$ 356,72/t (estimado)",
+      "value": "$ 542.000/t",
+      "period": "Rosario · 2 nov 2026 · US$ 352,75/t",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "group": "Mercados",
-      "obsDate": "2026-10-30",
-      "change": "-0,5% vs. pizarra anterior",
+      "obsDate": "2026-11-02",
+      "change": "-0,4% vs. pizarra anterior",
       "trend": "down",
       "_last": {
+        "date": "2026-11-02",
+        "ars": 542000.0
+      },
+      "checkedAt": "2026-11-03T17:14:09Z",
+      "_prev": {
         "date": "2026-10-30",
         "ars": 544000.0
-      },
-      "checkedAt": "2026-11-03T03:00:50Z",
-      "_prev": {
-        "date": "2026-10-29",
-        "ars": 547000.0
       },
       "history": [
         [
@@ -369,11 +369,15 @@
         [
           "2026-10-30",
           544000.0
+        ],
+        [
+          "2026-11-02",
+          542000.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-03T03:00:50Z"
+      "lastAttempt": "2026-11-03T17:14:09Z"
     },
     {
       "id": "brent",
@@ -386,7 +390,7 @@
       "obsDate": "2026-10-27",
       "change": "-3,9% vs. día anterior",
       "trend": "down",
-      "checkedAt": "2026-11-03T03:00:52Z",
+      "checkedAt": "2026-11-03T17:14:11Z",
       "history": [
         [
           "2026-09-16",
@@ -511,27 +515,27 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-11-03T03:00:52Z"
+      "lastAttempt": "2026-11-03T17:14:11Z"
     },
     {
       "id": "maiz",
       "label": "Maíz · precio pizarra Rosario",
-      "value": "$ 273.300/t",
+      "value": "$ 275.000/t",
       "group": "Mercados",
-      "period": "Rosario · 30 oct 2026 · US$ 179,21/t (estimado)",
-      "obsDate": "2026-10-30",
-      "change": "-0,8% vs. pizarra anterior",
-      "trend": "down",
+      "period": "Rosario · 2 nov 2026 · US$ 178,98/t",
+      "obsDate": "2026-11-02",
+      "change": "+0,6% vs. pizarra anterior",
+      "trend": "up",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
+        "date": "2026-11-02",
+        "ars": 275000.0
+      },
+      "checkedAt": "2026-11-03T17:14:11Z",
+      "_prev": {
         "date": "2026-10-30",
         "ars": 273300.0
-      },
-      "checkedAt": "2026-11-03T03:00:52Z",
-      "_prev": {
-        "date": "2026-10-29",
-        "ars": 275400.0
       },
       "history": [
         [
@@ -613,31 +617,35 @@
         [
           "2026-10-30",
           273300.0
+        ],
+        [
+          "2026-11-02",
+          275000.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-03T03:00:52Z"
+      "lastAttempt": "2026-11-03T17:14:11Z"
     },
     {
       "id": "trigo",
       "label": "Trigo · precio pizarra Rosario",
-      "value": "$ 312.500/t",
+      "value": "$ 314.980/t",
       "group": "Mercados",
-      "period": "Rosario · 30 oct 2026 · US$ 204,92/t",
-      "obsDate": "2026-10-30",
-      "change": "+0,5% vs. pizarra anterior",
+      "period": "Rosario · 2 nov 2026 · US$ 205,00/t",
+      "obsDate": "2026-11-02",
+      "change": "+0,8% vs. pizarra anterior",
       "trend": "up",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
+        "date": "2026-11-02",
+        "ars": 314980.0
+      },
+      "checkedAt": "2026-11-03T17:14:11Z",
+      "_prev": {
         "date": "2026-10-30",
         "ars": 312500.0
-      },
-      "checkedAt": "2026-11-03T03:00:52Z",
-      "_prev": {
-        "date": "2026-10-29",
-        "ars": 311000.0
       },
       "history": [
         [
@@ -719,14 +727,1145 @@
         [
           "2026-10-30",
           312500.0
+        ],
+        [
+          "2026-11-02",
+          314980.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-03T03:00:52Z"
+      "lastAttempt": "2026-11-03T17:14:11Z"
     }
   ],
   "items": [
+    {
+      "id": "estan-los-aranceles-en-boleta-en-michigan",
+      "datetime": "2026-11-03T17:00:00Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "Están los aranceles en boleta en Michigan",
+      "summary": "Los aranceles de Trump, que prometían proteger la industria de EU, ahora generan escepticismo entre votantes de estados clave como Michigan.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Reforma",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.reforma.com/estan-los-aranceles-en-boleta-en-michigan/ar3307001",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T17:13:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY0E5S1NvM2txU1pMcDlEUTktbWN6Tjk4RE15aFJwRkJzRG5ld0hEOTFMblhZOWg0NjN6dlMwWjIxSDhXb19mRERXUGtVbWE5b1BZUktxb2NtY0tqMzlVT180SjZWV0hxUzJZVHpUa1d0R20yenNQRmZFaHFScTk1dQ?oc=5",
+      "digestSkip": {
+        "at": "2026-11-03T17:13:06Z",
+        "auto": "no-read",
+        "reason": "medio sin lectura automática (NO_READ_DOMAINS) y sin otro medio con la misma noticia"
+      }
+    },
+    {
+      "id": "trump-tiene-salida-para-seguir-con-aranceles-si-pierde-el-congreso-peru-debe-pre",
+      "datetime": "2026-11-03T16:21:10Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "Trump tiene “salida” para seguir con aranceles si pierde el Congreso: ¿Perú debe preocuparse?",
+      "summary": "Donald Trump se juega en las elecciones de medio término la facilidad para impulsar sus políticas en lo que le resta al mando de la Casa Blanca. ¿Qué podría cambiar respecto a América Latina? Aquí la respuesta.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Latinoamérica",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Perú",
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Gestión",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://gestion.pe/economia/donald-trump-tiene-una-salida-para-seguir-con-aranceles-si-pierde-el-congreso-peru-debe-preocuparse-noticia/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T17:13:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQX05SVTZYZjVYNkRMOGNOR2NLeVhHQ0FPcTRqbnVzTDhrWHNoUU9Ba004Tl81STJBbkh3SWQyR3N5V1Juby1kNEtxN0JHcXJNaDdxMFJCYjJENkVNVENYanZSM3lmU1J5OWl0amxtTmVmWDVoNHRVWjNtRk5jQkJDWWRlS1ZpaXE0aTJpeDlXcXlCbi1WQ0habXBHX0tLVFJubVhEazlWV2t3SjZLS2dncFRYYndaaS1KVm9INGc4Q1c3Nzh5WUZOTlRoeFduNENSdkE?oc=5"
+    },
+    {
+      "id": "tras-guerra-de-aranceles-trump-dice-que-eu-y-canada-estan-a-punto-de-lograr-un-a",
+      "datetime": "2026-11-03T16:18:45Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "Tras guerra de aranceles, Trump dice que EU y Canadá están a punto de lograr un acuerdo comercial",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Tratados y acuerdos",
+        "Estados Unidos",
+        "Europa"
+      ],
+      "countries": [
+        "Estados Unidos",
+        "Canadá",
+        "Unión Europea"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "El Sol de México",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://oem.com.mx/elsoldemexico/finanzas/tras-guerra-de-aranceles-trump-dice-que-eu-y-canada-estan-a-punto-de-lograr-un-acuerdo-comercial-32940670",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T17:13:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOY3NoSExqNlhaUHJpdWRxLWdFWTd5TDV5N2twUVV6dXNlUjVEU3J3YU1nRVhJSVUtQmNLSWxGamhRczFxNzNOSFNMLVRVQ3N4bzRBZjd3TWNTV191dmg3Y2Z1SHU5ZDZmVW5sb0FaeERjRndQSjVodFZKLVdYX28yREE1S3dpR2ZHc1Fmc2FVc3gyYUNNaEZLeDBFQ3FaRVg0aUVyZkJ5clNmeFNqOHhfZWFieFJjN3RxV1pCQWFiT0hkR0ZzMVJZdzBlUXNFckNxeks0TWNWak1UNWJTbGEzaQ?oc=5"
+    },
+    {
+      "id": "ricardo-riesco-el-molo-de-valparaiso-el-viejo-guardian-del-puerto",
+      "datetime": "2026-11-03T16:00:28Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "Ricardo Riesco: El Molo de Valparaíso, el viejo guardián del puerto",
+      "summary": "Ricardo Riesco Fuenzalida es Managing Director & Founder de Green Logistics En 1998, mientras excavaban bajo la Plaza Sotomayor, unos…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Chile"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/ricardo-riesco-el-molo-de-valparaiso-el-viejo-guardian-del-puerto/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "exportaciones-pesqueras-peruanas-podrian-verse-golpeadas-por-el-nino-en-2026",
+      "datetime": "2026-11-03T15:30:50Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "Exportaciones pesqueras peruanas podrían verse golpeadas por El Niño en 2026",
+      "summary": "La Asociación de Exportadores (Adex) de Perú proyectó que los despachos pesqueros al exterior cerrarán este…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Perú"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/exportaciones-pesqueras-peruanas-podrian-verse-golpeadas-por-el-nino-en-2026/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "portacontenedores-desplegado-en-servicio-de-maersk-cambia-de-nombre",
+      "datetime": "2026-11-03T15:00:20Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "Portacontenedores desplegado en servicio de Maersk cambia de nombre",
+      "summary": "Un portacontenedores que se encuentra desplegado en el servicio Oceania de Maersk cambió su nombre, según…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Contenedores"
+      ],
+      "visual": "container",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/portacontenedores-desplegado-en-servicio-de-maersk-cambia-de-nombre/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ],
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZFJsUW5UTWNfbGxGMVkzMGtSR3lOeGZjb1daRWNZektqb3pIRlNWVVRtWHdNM3Fvcm4tMExweVZEMUlQSGJmSlRka3g5Wjhaa1VVUFcweTZYcm0wSGRsbnd0cmxiczA4OC1hM2E1NGxRZHdrX3E2dlFWMUtwc21leGJmcG5LZS1vSG9IN2pONWtvU3E4LTlQNU1wTQ"
+      ]
+    },
+    {
+      "id": "exportaciones-petroleras-de-venezuela-sin-cambios-en-medio-de-estancamiento-de-p",
+      "datetime": "2026-11-03T14:56:09Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "Exportaciones petroleras de Venezuela sin cambios en medio de estancamiento de producción y elevados fletes: datos",
+      "summary": "3 nov () - Las exportaciones de ‌petróleo de ‌Venezuela se mantuvieron ​prácticamente sin cambios en 1,08 millones de ‌barriles ⁠diarios (bpd) en octubre, en un ⁠contexto de estancamiento ​de la ​producción ​de crudo ‌y elevados fletes que han reducido la demanda de ciertos ‌tipos de ​crudo ​sudamericano ​en ‌los…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Logística",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Venezuela"
+      ],
+      "tags": [
+        "Fletes",
+        "Energía"
+      ],
+      "visual": "energy",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Yahoo Finanzas",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://es-us.finanzas.yahoo.com/noticias/exportaciones-petroleras-venezuela-cambios-medio-145609411.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T17:13:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdE5oT3ZNeldKdFJIV1UyRnZNcUk3ZFcyX1duazlOZm5Da1EybHlXejQ4d084OWVYM0ZEWXBGOEJoR24xNGlTUDdWWk5kdjJPNE5ScG9xVDFEX3gxaE9NVlJNRy1QS3dwNkdwWkZZVktHdHd3VTNSTWJfbWZwaGE1NVVJdUVlOVZmY3lPSTloWnNUWEphb2xuOXo3MFhyZXAwS1VZQnRWUE4?oc=5"
+    },
+    {
+      "id": "combustibles-y-fletes-le-meten-presion-a-la-renta-de-la-nueva-campana",
+      "datetime": "2026-11-03T14:42:25Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "Combustibles y fletes le meten presión a la renta de la nueva campaña",
+      "summary": "Si bien se proyecta una producción récord, los costos operativos avanzan por encima de los precios de los granos y deterioran el poder de compra de los productores. El informe de Coninagro",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "La Voz del Pueblo",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.lavozdelpueblo.com.ar/combustibles-y-fletes-le-meten-presion-a-la-renta-de-la-nueva-campana",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T17:13:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQ1FnbjdnSWRTMDQyakdSblFZYUlSWk9ieEpZcy12aDV3WFplUWdrLWVnN2d3WG9JRXB0LU8xNmdHQWExVTZGUm5UOHcxMFlnTG5aQlNMUmpSSmgzNGxTbXZmVHhvTHREMlBkQXRiUmVLUUFjTmtId1dlNnV5Y1Bxakc1RGNzRTdLa2hWblNLT25rbmpZeGljQkZVR29USllDVkVVNTlB?oc=5"
+    },
+    {
+      "id": "argentina-exporta-mas-carne-vacuna-mientras-el-pollo-y-el-cerdo-ganan-espacio-en",
+      "datetime": "2026-11-03T14:35:00Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "Argentina exporta más carne vacuna mientras el pollo y el cerdo ganan espacio en la mesa",
+      "summary": "Las exportaciones de carne vacuna aumentaron 36,9% en dólares, pero 5,3% en volumen. En Argentina, el pollo y el cerdo ganan espacio frente a la carne bovina.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Carne"
+      ],
+      "visual": "livestock",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Sitio Andino",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.sitioandino.com.ar/economia/argentina-exporta-mas-carne-vacuna-mientras-el-pollo-y-el-cerdo-ganan-espacio-la-mesa-n5733052",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T17:13:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYkE2WGpybS1YcnY1NW9VYnRHU190VWh4Z2R3SkNmNWNLVFc3Q1ByakJPQ1B6TlMyNG92M3FVRGRjOTd6T1o0cWZudGZSbHozQVpBSHBtYlRtTWVobXN1OUVDbG5XSExDVjdfRVQ5UkQyU2tBVUZIclR3NmNORDFmeVo2ZUphY1pSRFVGdk9RLXJwdFlZNmpYUDJJM0RrY2U3bFk5aXpnVGRpZ3d2a25hYXFRRkoxbFJKcndkcjdld2VJUUxLMnUySE9MaHRMdUpMNVFXUNIB1AFBVV95cUxPYkE2WGpybS1YcnY1NW9VYnRHU190VWh4Z2R3SkNmNWNLVFc3Q1ByakJPQ1B6TlMyNG92M3FVRGRjOTd6T1o0cWZudGZSbHozQVpBSHBtYlRtTWVobXN1OUVDbG5XSExDVjdfRVQ5UkQyU2tBVUZIclR3NmNORDFmeVo2ZUphY1pSRFVGdk9RLXJwdFlZNmpYUDJJM0RrY2U3bFk5aXpnVGRpZ3d2a25hYXFRRkoxbFJKcndkcjdld2VJUUxLMnUySE9MaHRMdUpMNVFXUA?oc=5"
+    },
+    {
+      "id": "kalmar-actualiza-estrategia-y-establece-nuevos-objetivos-de-rendimiento-para-203",
+      "datetime": "2026-11-03T14:30:52Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "Kalmar actualiza estrategia y establece nuevos objetivos de rendimiento para 2030",
+      "summary": "El Consejo de Administración de Kalmar Corporation aprobó una estrategia actualizada y objetivos de rendimiento para…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/kalmar-actualiza-estrategia-y-establece-nuevos-objetivos-de-rendimiento-para-2030/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "el-transporte-maritimo-de-contenedores-alcanza-niveles-record-de-capacidad-en-la",
+      "datetime": "2026-11-03T14:26:13Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "El transporte marítimo de contenedores alcanza niveles récord de capacidad en las principales rutas comerciales",
+      "summary": "Sea-Intelligence sitúa la capacidad semanal por encima de los 350.000 TEUs entre Asia y el norte de Europa, mientras que la conexión con la costa oeste de Norteamérica podría alcanzar los 400.000 TEUs en noviembre.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "container",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "El Estrecho Digital",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.elestrechodigital.com/2026/11/03/el-transporte-maritimo-de-contenedores-alcanza-niveles-record-de-capacidad-en-las-principales-rutas-comerciales",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T17:13:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQOHVQWExSdjhJTl83TzR3eE9ZblV3NEQ1eThXWXdhNEdTOW43aEZFQU41OHMwRXhGTWhwZUowMGYzTlB2LTlUcDB3dXNhaXpiM3BGYlUwOHhuZGdhYURnNUR5bkZ3UVRZZm5kRHBwQkljOWVMZzhUckpJaUsxbGpadktFZmF5MHNWaGd4M3VIaXJiOENTTG12cHFMVDhCWnFfOG9aZE5HLWF2R0N2c2pTYmhJcVNJdDJORURQQ1dLbXExXzFYazJMMUVZWTA4WjFKdHNpX0dLWmpIRWRwTGxqYmF3WHU2ZTNnaUR5ZA?oc=5"
+    },
+    {
+      "id": "rusia-planea-vender-una-participacion-del-7-8-en-naviera-estatal-sovcomflot",
+      "datetime": "2026-11-03T14:00:52Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "Rusia planea vender una participación del 7,8% en naviera estatal Sovcomflot",
+      "summary": "Rusia planea vender una participación del 7,8% en la naviera estatal Sovcomflot, en busca de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Europa"
+      ],
+      "countries": [
+        "Rusia"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/rusia-planea-vender-una-participacion-del-78-en-naviera-estatal-sovcomflot/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "tras-entrada-en-vigor-de-acuerdo-mercosur-efta-ignacio-bartesaghi-destaco-la-cap",
+      "datetime": "2026-11-03T13:59:34Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "Tras entrada en vigor de acuerdo Mercosur-EFTA, Ignacio Bartesaghi destacó la capacidad económica de",
+      "summary": "Desde este mes Uruguay negociará bajo las condiciones del acuerdo en forma bilateral, en primera instancia con Noruega e Islandia, explicó el analista internacional.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Mercosur"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Radio Monte Carlo CX20 AM930",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.radiomontecarlo.com.uy/2026/11/03/nacionales/tras-entrada-en-vigor-de-acuerdo-mercosur-efta-ignacio-bartesaghi-destaco-la-capacidad-economica-del-bloque-europeo-y-las-posibilidades-que-se-abren-para-uruguay/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T17:13:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxQSU1LMUp6SG5ORFlNS1d3ajNibnJTOE1pTzlOZWZKU1M4ckxfRjhVQ25qYUxlU25iaVZxVFh2TWFpOFRRb2d2ODBnUXRxMV9Ma3Bwa0pacXFPTzhFNVV6ZXVxcU1pdDVvc1BEeUFLcVFEOV8zT0FwQ3poc1NOd0wtS2FCVGQ2OFoxNTBSOGY3M1YxSHFEOEVuM19RRU9qR0Z5OV9QbDJGcTR0ajJER0JkWGVHdVF6ZVdqZmV4Vi01eXpFMmNOcndVbjJyOXZna2N6ZmdwZ0dqdnduYTlfaVNXOWNJaG1SWnNNN3lqNjRtMDVFQmFfYkppN3MzM1pUV0FzYXRiRmw3YUswY1NFdWVTbWx6bURxb0hId216Uk5UbG5ZMGE2M0dMdkZXUDh3RUNJRHJmbGZrN1YyMWN4UHUyNA?oc=5"
+    },
+    {
+      "id": "la-carne-argentina-cierra-el-ano-en-china-su-principal-mercado-de-exportacion",
+      "datetime": "2026-11-03T13:47:58Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "La carne argentina cierra el año en China, su principal mercado de exportación",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "Argentina",
+        "China"
+      ],
+      "tags": [
+        "Carne",
+        "China"
+      ],
+      "visual": "livestock",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "AIM Digital",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.aimdigital.com.ar/produccion/la-carne-argentina-cierra-el-ao-en-china-su-principal-mercado-de-exportacin.htm",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T17:13:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbnliY3l1cXFoNzJkRjJjbmg2bFM1bENlZmlUMDJ6V1J5RWU4S1ZIZnlOWWtKUFUzMkRhQXpITUxsOXlIeW9CbFpoWXpjRUotcUZmOEVJWUNpQUpYY1dMR0dTQjJ6aVdhSDlMNVhPOTdlWmlVTDJDci00a3pfXzU5N3c0S1E1Sjc0aDVXaE5nWHRxMmtQTWVlUDBMRjlaeHNpV3RHTGU3X0tOWlJuOEpQOG1vb2x6SnlsRmFIYw?oc=5"
+    },
+    {
+      "id": "escandalo-en-la-aduana-de-santo-tome-una-menor-se-fugo-a-san-borja-sin-control-d",
+      "datetime": "2026-11-03T13:35:11Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "Escándalo en la Aduana de Santo Tomé: Una menor se fugó a San Borja sin control de Migraciones",
+      "summary": "Por Urgente Santo Tomé 02/11/2026 La niña de 14 años tenía pedido de búsqueda por desaparición en Santo Tomé y fue ubicada en la ciudad vecina de San Borja. El cruce expone la falta de… | Noticias del MERCOSUR: política, economía y actualidad regional del Prensa Mercosur.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aduanas"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 2,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Prensa Mercosur",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://prensamercosur.org/2026/11/03/escandalo-en-la-aduana-de-santo-tome-una-menor-se-fugo-a-san-borja-sin-control-de-migraciones/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T17:13:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUmM5QjhXMGdZTU9KYWRObFJHM1ZINkpNN1pGT0tRWmlxTkgxdVRLX2tiaW9HME9GQXBPVkFXVU0tUmE1VVRGRlUtZjIwTzJBdUJDdUVEZUZUaWxLVWpPdDdEcU9QSTZJUVJ2WEZHOWxIM2JheV9sOUMwZnpWbU5ubkM4LVFrYjlGYXZidC1xN3JxdGJpU2ZHUnVuZjcyTDlweEcybE1na2laVWpJZklMcnBSVTZpYk15c0FsMW1fUXlDN05NWnF6YVlJaTc?oc=5"
+    },
+    {
+      "id": "hoy-hay-dolares-y-manana-va-a-haber-mas-luis-caputo-les-dijo-a-los-industriales",
+      "datetime": "2026-11-03T13:18:57Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "\"Hoy hay dólares y mañana va a haber más\": Luis Caputo les dijo a los industriales que las exportaciones podrían sostener \"cualquier proceso de dolarización\"",
+      "summary": "El ministro de Economía expuso en la Conferencia Industrial que organiza la UIA.\"Se terminó el mito de la restricción externa\", insistió.El reclamo de la UIA para que el Gobierno \"escuche a las empresas\".",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Clarín",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.clarin.com/economia/hoy-dolares-manana-va-luis-caputo-dijo-industriales-exportaciones-podrian-sostener-cualquier-proceso-dolarizacion_0_pfPPNIBbhN.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T17:13:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNUHRmRGtCMXZmVkJoRUp2cTFFRjVhWVZ4N3A3aXZzdTRWbkg1a0dILTBWbGlsQ0kwemNEZm96cGM0U2ctT0xaQXR6UmNybGZ6WWNNYXRxaF9oa0dmeTRCSk1BRE0zNkpzWkx1ZHFfekZQQU1TbklPc2lXT29ISldhNXFaM1NxY3ZicDgxWGRtdFc4Q1VVYmlaZHBYVGtZeGk3NHhtRGZnUEIyajB2aVI5b3BVYW9nXzVmWm93YWYzcjJyVHFpY3hPNGgtWVUxVFR5X1JybDUtZml4cVV2SHNhQUVRRU45cF9nSzhscjZjZkRqNDlid2c?oc=5",
+      "digestSkip": {
+        "at": "2026-11-03T17:13:06Z",
+        "auto": "no-read",
+        "reason": "medio sin lectura automática (NO_READ_DOMAINS) y sin otro medio con la misma noticia"
+      }
+    },
+    {
+      "id": "del-exportador-al-buque-y-del-buque-a-la-planta-en-la-importacion-de-autopartes",
+      "datetime": "2026-11-03T12:45:00Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "Del exportador al buque y del buque a la planta en la importación de autopartes",
+      "summary": "Franco Manzo, analista de comercio exterior, cuenta qué pasa cuando no hay contenedor en China, una carga cae en canal rojo en Brasil o los gastos portuarios suman en la industria automotriz",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones",
+        "Exportaciones",
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "auto",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "Infobae",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.infobae.com/movant/2026/11/03/del-exportador-al-buque-y-del-buque-a-la-planta-en-la-importacion-de-autopartes/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T17:13:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYjBES0FuRnExbzdTbHZzVHFGcHNQUzNqX0lTZjMwNEIwYTBzQXNGRy1ZamlMMFk0YXJPam1MV0hkc1BVeFFEVnRaeHpaSmlTTElyUFZUNEhidnktd1VLRUVRbmp2OW9DZXhnRGRlQlFvc0VtN0R3Rm9Fc3F1dG04T1JTc0xkdU5NUkpER2V1VUMyMEFUY0VlZmNJUzdxT3p1aGlfZXBwbnY0XzByUUQyd1JQdWl5a3JTSzRDeUFhQ2NQclhTRVhSYVUyR0NkWjQtRzhBTl81cHpOQdIB2gFBVV95cUxNYjBES0FuRnExbzdTbHZzVHFGcHNQUzNqX0lTZjMwNEIwYTBzQXNGRy1ZamlMMFk0YXJPam1MV0hkc1BVeFFEVnRaeHpaSmlTTElyUFZUNEhidnktd1VLRUVRbmp2OW9DZXhnRGRlQlFvc0VtN0R3Rm9Fc3F1dG04T1JTc0xkdU5NUkpER2V1VUMyMEFUY0VlZmNJUzdxT3p1aGlfZXBwbnY0XzByUUQyd1JQdWl5a3JTSzRDeUFhQ2NQclhTRVhSYVUyR0NkWjQtRzhBTl81cHpOQQ?oc=5"
+    },
+    {
+      "id": "el-acuerdo-mercosur-ue-impulsa-un-21-las-exportaciones-brasilenas",
+      "datetime": "2026-11-03T12:06:00Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "El acuerdo Mercosur-UE impulsa un 21% las exportaciones brasileñas",
+      "summary": "La entrada en vigor de las preferencias arancelarias el 1 de mayo aumentó la competitividad de los productos brasileños en el mercado europeo y abrió nuevas oportunidades para las empresas.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Brasil",
+        "Unión Europea"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Agência Brasil",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://agenciabrasil.ebc.com.br/es/economia/noticia/2026-11/el-acuerdo-mercosur-ue-impulsa-un-21-las-exportaciones-brasilenas",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T17:13:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQX2NGUW9nZUJudVUxaEljVHZJcThFcUNhTk9IRmtqelZzbVBlSU9CZ285cUxOYzNYOWVyUWYyWjZNbWdpSktwdExiaGhjYW40b0NvLWEzTWNRQWVpWWpOMHk3T1Vla1E4V1hSMElJVTZkMG05OVVJeVVXV0RJTWRFRDM4MXpxdlRHRDM3eTZTNzJLZVlSUF9DMFpHMTdPVE9sM2pMV2MtbXJWQlMzd3FFQ2FfSmFwaF90R1ptSXFpWG5oTGtH?oc=5"
+    },
+    {
+      "id": "roberts-bank-terminal-2-figura-como-proyecto-de-interes-nacional-para-canada",
+      "datetime": "2026-11-03T12:00:52Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "Roberts Bank Terminal 2 figura como proyecto de interés nacional para Canadá",
+      "summary": "El gobierno de Canadá anunció la inclusión de Roberts Bank Terminal 2 del Puerto de Vancouver…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos"
+      ],
+      "countries": [
+        "Canadá"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/roberts-bank-terminal-2-figura-como-proyecto-de-interes-nacional-para-canada/",
+          "primary": true,
+          "author": "cmeza"
+        }
+      ]
+    },
+    {
+      "id": "santa-fe-busca-integrar-su-estructura-productiva-y-logistica-al-desarrollo-de-la",
+      "datetime": "2026-11-03T11:53:36Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "Santa Fe busca integrar su estructura productiva y logística al desarrollo de la minería argentina",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Logística"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Minería"
+      ],
+      "visual": "mining",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "Editorial RN",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://editorialrn.com.ar/santa-fe-busca-integrar-su-estructura-productiva-y-logistica-al-desarrollo-de-la-mineria-argentina/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T17:13:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNXzVRYmVTcmxOTGlFYkdGcy1kMUVzX2k1SGdwR0xwOVdteE5aTGZicmZsNTlkOXBqXzh0Z2g3OWVGWnRRSDZPbUcyVjdiZDJENXd4QXVZQ0owNlN6Tzc3cnhzd0JlLURMcloyZjZkNnpKSnV4VF93UVM3RlhSdHpYeVhBNElrVTluYjFVUGt0d0RVcS1Nd3Jwc3pRQmdLMUJ0dVRWQWpiT0VuLUdGOXBkRE9lalhyY1JMV2ZxVXNYRkJOMHRX?oc=5"
+    },
+    {
+      "id": "dnu-70-2023-ia-y-comercio-internacional-las-claves-del-xi-encuentro-nacional-de",
+      "datetime": "2026-11-03T10:47:45Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "DNU 70/2023, IA y comercio internacional: las claves del XI Encuentro Nacional de Despachantes",
+      "summary": "El Centro Despachantes de Aduana (CDA) realizará entre el 4 y 5 de noviembre en Mar del Plata el XI Encuentro Nacional de Despachantes de Aduana y VII Encuentro Nacional de Agentes de Transporte Aduanero (ATA), una instancia de intercambio profesional que reunirá a representantes del sector. Las actividades tendrán…",
+      "body": [
+        "El Centro Despachantes de Aduana (CDA) realizará entre el 4 y 5 de noviembre en Mar del Plata el XI Encuentro Nacional de Despachantes de Aduana y VII Encuentro Nacional de Agentes de Transporte Aduanero (ATA), una instancia de intercambio profesional que reunirá a representantes del sector. Las actividades tendrán lugar en los salones del…"
+      ],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Aduanas",
+        "Tecnología COMEX"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 2,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Aduana News",
+      "sources": [
+        {
+          "name": "Aduana News",
+          "type": "Medio especializado · Argentina",
+          "url": "https://aduananews.com/claves-del-encuentro-nacional-de-despachantes-en-mar-del-plata-dnu-70-2023-ia-y-comercio-internacional/?utm_source=rss&utm_medium=rss&utm_campaign=claves-del-encuentro-nacional-de-despachantes-en-mar-del-plata-dnu-70-2023-ia-y-comercio-internacional",
+          "primary": true,
+          "author": "Aduana News"
+        }
+      ]
+    },
+    {
+      "id": "compania-portuaria-de-bristol-nombra-a-justin-shirtcliff-como-su-nuevo-capitan-d",
+      "datetime": "2026-11-03T10:00:30Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "Compañía Portuaria de Bristol nombra a Justin Shirtcliff como su nuevo capitán de puerto",
+      "summary": "La Compañía Portuaria de Bristol (Reino Unido) nombró a Justin Shirtcliff como su nuevo capitán de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Europa"
+      ],
+      "countries": [
+        "Reino Unido"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/compania-portuaria-de-bristol-nombra-a-justin-shirtcliff-como-su-nuevo-capitan-de-puerto/",
+          "primary": true,
+          "author": "Gabriel"
+        }
+      ]
+    },
+    {
+      "id": "uruguay-abre-la-puerta-a-un-mercado-de-us-1-4-billones-entra-en-vigor-el-acuerdo",
+      "datetime": "2026-11-03T03:24:20Z",
+      "date": "2026-11-03",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "Uruguay abre la puerta a un mercado de US$ 1,4 billones (entra en vigor el acuerdo Mercosur-EFTA)",
+      "summary": "Desde el 1° de noviembre, Uruguay aplica el tratado de libre comercio con Islandia y Noruega, dos de los países que integran la Asociación Europea de Libre Comercio (EFTA). El bloque reúne a casi 15 millones de habitantes y registra un PIB cercano a los US$ 1,4 billones. El acuerdo contempla beneficios para el…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "Mercosur"
+      ],
+      "countries": [
+        "Uruguay"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "InfoNegocios Uruguay",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://infonegocios.biz/default/uruguay-abre-la-puerta-a-un-mercado-de-us-1-4-billones-entra-en-vigor-el-acuerdo-mercosur-efta",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T17:13:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVFo2OS0yOC1oY2E1QTRTRUtvNVVST1NJM0pEX2ZUeWZkZUx2eTBmby1TRXM0bUcwd0RWUk44T0k2S25vazZVZlRUejZCUWVhSTRCUW8tV0lZUV9Ia0ZnN1VqTmF1QlN2eDluRlN3V3BoY1BSdGthSUxOY2Y5RGE3anRVSTA2UHNmcHZWZGNIc2EtbkJ6YjhVTC1lcU5WRnZ5NFp4SmFOMUhld1E1cTJQLTNCVXVtN0J4TnNIX2cxU2NYU1ljVjZTdkNyY9IBywFBVV95cUxOVFo2OS0yOC1oY2E1QTRTRUtvNVVST1NJM0pEX2ZUeWZkZUx2eTBmby1TRXM0bUcwd0RWUk44T0k2S25vazZVZlRUejZCUWVhSTRCUW8tV0lZUV9Ia0ZnN1VqTmF1QlN2eDluRlN3V3BoY1BSdGthSUxOY2Y5RGE3anRVSTA2UHNmcHZWZGNIc2EtbkJ6YjhVTC1lcU5WRnZ5NFp4SmFOMUhld1E1cTJQLTNCVXVtN0J4TnNIX2cxU2NYU1ljVjZTdkNyYw?oc=5"
+    },
+    {
+      "id": "feriados-visita-papa-leon-xiv-9-10-11-noviembre-cinco-dias-sin-bancos-comercio-exterior",
+      "date": "2026-11-03",
+      "kind": "noticia",
+      "title": "Feriados por la visita de León XIV: cinco días sin bancos y tres jornadas cortadas para importadores y exportadores",
+      "summary": "El Decreto 1103/2026 fija feriado nacional el lunes 9 de noviembre, feriados en CABA y Córdoba el martes 10 y en la provincia de Buenos Aires el miércoles 11. El BCRA declaró el 10 feriado bancario en todo el país y, con el Día del Bancario del viernes 6, las sucursales no atenderán del 6 al 10.",
+      "body": [
+        "La visita del papa León XIV a la Argentina, entre el domingo 8 y el miércoles 11 de noviembre, deja una semana corta para el comercio exterior: un feriado nacional el lunes 9, feriados regionales el martes 10 (Ciudad de Buenos Aires y Córdoba) y el miércoles 11 (provincia de Buenos Aires) y un feriado bancario en todo el país el martes 10. Si se suman el Día del Bancario del viernes 6 y el fin de semana, las sucursales bancarias no atenderán durante cinco días seguidos, del 6 al 10 de noviembre.",
+        "Los feriados los fijó el Decreto de Necesidad y Urgencia 1103/2026, publicado en el Boletín Oficial el 28 de septiembre, y el feriado bancario, la Comunicación \"A\" 8487 del Banco Central, fechada el 1 de octubre. Para importadores, exportadores, despachantes y transportistas del área metropolitana, donde están las principales terminales de contenedores y el aeropuerto de Ezeiza, se encadenan hasta tres días hábiles sin actividad administrativa normal.",
+        "## Qué dice el decreto",
+        "El decreto declara de interés nacional la visita y fija en su artículo 2 el feriado nacional del lunes 9 en todo el país. El artículo 3 establece el feriado del martes 10 solo en la provincia de Córdoba y en la Ciudad Autónoma de Buenos Aires, y el artículo 4, el del miércoles 11 solo en la provincia de Buenos Aires. En los tres casos el texto habla de feriado, no de día no laborable, y según sus considerandos alcanza también a los organismos y dependencias nacionales que funcionan en esos territorios.",
+        "La norma no resuelve qué pasa con quien vive en una jurisdicción y trabaja en otra. Fuentes oficiales le dijeron a Chequeado que manda la jurisdicción del empleador, mientras que el sitio Derecho en Zapatillas considera más razonable tomar el lugar de trabajo. El decreto crea, además, una unidad ejecutora temporaria en la Jefatura de Gabinete para organizar la visita, con un plazo máximo de 12 meses.",
+        "## Cinco días sin sucursales bancarias",
+        "La Comunicación \"A\" 8487, dirigida a las entidades financieras y a las cámaras electrónicas de compensación, declara feriado bancario el martes 10 en todo el territorio nacional. Así, aunque ese día solo es feriado general en la Ciudad y en Córdoba, los bancos no abrirán en ningún punto del país. A eso se suma el viernes 6, Día del Trabajador Bancario, que la Asociación Bancaria trata como jornada no laborable, según Bloomberg Línea. La atención en sucursales vuelve el miércoles 11.",
+        "Durante el cierre seguirán disponibles los canales electrónicos: transferencias por home banking y aplicaciones, pagos con tarjetas de débito y crédito, billeteras virtuales y cajeros automáticos, con diferencias según cada entidad. No habrá atención en cajas ni trámites que requieran personal. Según El Economista, las operaciones que dependen de la compensación bancaria, como los cheques depositados, se acreditan recién el día hábil siguiente.",
+        "## Qué implica para pagos y cobros con el exterior",
+        "Bloomberg Línea advirtió que las operaciones de cambio no seguirán su cronograma habitual mientras los mercados estén cerrados y que el Sistema de Pagos en Moneda Local (SML), el mecanismo para operar con monedas locales en el comercio regional, tampoco funciona en feriados ni fines de semana. Según iProfesional, citado por El Economista, los días 6, 9 y 10 no habrá cotización del dólar oficial ni del mayorista. La Comunicación \"A\" 8487 no menciona el mercado de cambios ni explica cómo se corren los plazos de operaciones puntuales.",
+        "Para quienes tengan que girar pagos de importaciones o ingresar cobros de exportaciones, el jueves 5 de noviembre es el último día hábil bancario antes del cierre, y Bloomberg Línea recomienda resolver ese día todo lo que no pueda hacerse por canales electrónicos. El Economista sugiere revisar los vencimientos de pagos y cobros que caigan entre el 6 y el 10 y adelantarlos cuando sea posible; también plantea que las transferencias masivas enviadas esos días podrían acreditarse recién el miércoles 11, una inferencia del propio medio que conviene confirmar con cada banco.",
+        "## Vencimientos y terminales portuarias",
+        "En materia tributaria, los vencimientos nacionales que caen en días inhábiles se trasladan al día hábil siguiente, y entre el viernes 6 y el martes 10 no hay vencimientos de ARCA, según Tributum. Los vencimientos locales dependen de cada jurisdicción: la Ciudad, la provincia de Buenos Aires y Córdoba tienen feriados en días distintos.",
+        "Para la operatoria en los puertos, el Centro Despachantes de Aduana (CDA) difundió el 2 de noviembre los cronogramas operativos de las terminales Exolgan, APM Terminals y TRP para el lunes 9, el martes 10 y el miércoles 11. Los horarios figuran como imágenes adjuntas en el sitio del CDA, por lo que conviene consultarlos allí antes de programar retiros o entregas de contenedores.",
+        "## La agenda de la visita",
+        "Según la agenda que publicó Chequeado, el Papa llega el domingo 8 a Ezeiza a las 16:30 y ese día se reúne con el presidente Javier Milei en la Casa Rosada. El lunes 9 visita el Pequeño Cottolengo Don Orione de Claypole y celebra misa en el Monumento a los Españoles, en Palermo. El martes 10 da misa en la Escuela de Aviación Militar de Córdoba y regresa a Buenos Aires para una vigilia con jóvenes. El miércoles 11 visita a las 8 el Complejo Penitenciario Federal, celebra misa a las 10 en la Basílica de Luján y se despide en Ezeiza antes de viajar a Perú."
+      ],
+      "keyData": [
+        [
+          "Días sin sucursales bancarias",
+          "5 (viernes 6 al martes 10 de noviembre)"
+        ],
+        [
+          "Feriado nacional",
+          "Lunes 9 de noviembre (Decreto 1103/2026, art. 2)"
+        ],
+        [
+          "Martes 10",
+          "Feriado en CABA y Córdoba; feriado bancario en todo el país (Com. \"A\" 8487)"
+        ],
+        [
+          "Miércoles 11",
+          "Feriado en la provincia de Buenos Aires (art. 4)"
+        ],
+        [
+          "Último día hábil bancario antes del cierre",
+          "Jueves 5 de noviembre"
+        ],
+        [
+          "Vencimientos de ARCA",
+          "Ninguno entre el 6 y el 10; pasan al día hábil siguiente"
+        ],
+        [
+          "Terminales con cronograma especial",
+          "Exolgan, APM Terminals y TRP (vía CDA)"
+        ]
+      ],
+      "explainer": {
+        "what": "Por la visita de León XIV, el Decreto 1103/2026 fijó feriado nacional el lunes 9 de noviembre y feriados regionales el 10 (CABA y Córdoba) y el 11 (provincia de Buenos Aires), y el BCRA declaró feriado bancario nacional el martes 10.",
+        "why": "Con el Día del Bancario del viernes 6, los bancos no atenderán en sucursales durante 5 días seguidos, del 6 al 10, y según Bloomberg Línea el mercado de cambios y el SML no operarán con normalidad: el jueves 5 es el último día hábil bancario para pagos y cobros con el exterior.",
+        "who": "Importadores y exportadores que giran pagos o ingresan cobros, despachantes y operadores que trabajan con las terminales del área metropolitana, y contribuyentes con vencimientos en esa semana.",
+        "products": [],
+        "next": "Las sucursales bancarias vuelven a atender el miércoles 11 de noviembre; los vencimientos nacionales que caen entre el 6 y el 10 se trasladan al día hábil siguiente.",
+        "nextSource": {
+          "name": "Bloomberg Línea",
+          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/bancos-en-argentina-cerraran-cinco-dias-seguidos-en-noviembre-cuando-y-que-operaciones-seguirian-disponibles/"
+        }
+      },
+      "topics": [
+        "Argentina",
+        "Regulaciones",
+        "Aduanas",
+        "Logística"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Feriados",
+        "BCRA",
+        "Bancos",
+        "Mercado de cambios",
+        "ARCA",
+        "Terminales portuarias",
+        "Decreto 1103/2026"
+      ],
+      "visual": "port",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "La semana del 6 al 11 de noviembre tiene cinco días sin sucursales bancarias y hasta tres feriados en el área metropolitana: conviene adelantar al jueves 5 los pagos al exterior y los ingresos de divisas que no puedan hacerse por canales electrónicos y revisar los cronogramas de las terminales.",
+      "argentinaImpact": {
+        "flows": [
+          "Importaciones",
+          "Exportaciones"
+        ],
+        "summary": "Los pagos de importaciones y los cobros de exportaciones que pasan por el mercado de cambios o por el SML quedan sin operatoria habitual del 6 al 10 de noviembre; las terminales Exolgan, APM y TRP aplican cronogramas especiales del 9 al 11."
+      },
+      "sources": [
+        {
+          "name": "Boletín Oficial – Decreto 1103/2026",
+          "type": "Organismo oficial",
+          "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/348022/20260928",
+          "primary": true
+        },
+        {
+          "name": "BCRA – Comunicación \"A\" 8487",
+          "type": "Organismo oficial",
+          "url": "https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A8487.pdf"
+        },
+        {
+          "name": "Bloomberg Línea",
+          "type": "Medio especializado · Economía",
+          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/bancos-en-argentina-cerraran-cinco-dias-seguidos-en-noviembre-cuando-y-que-operaciones-seguirian-disponibles/"
+        },
+        {
+          "name": "El Economista",
+          "type": "Medio especializado · Economía",
+          "url": "https://eleconomista.com.ar/finanzas/cinco-dias-bancos-noviembre-conviene-resolver-antes-6-sigue-funcionando-n98616"
+        },
+        {
+          "name": "Tributum",
+          "type": "Medio especializado · Impuestos",
+          "url": "https://tributum.news/com-a-8487-2026-bcra-feriados-bancarios-noviembre-2026-tres-dias-habiles-consecutivos-sin-bancos-vencimientos-fiscales/"
+        },
+        {
+          "name": "Centro Despachantes de Aduana",
+          "type": "Entidad del sector",
+          "url": "https://cda.org.ar/detalle_noticia.php?id=42843"
+        },
+        {
+          "name": "Chequeado",
+          "type": "Medio · Verificación",
+          "url": "https://chequeado.com/el-explicador/visita-del-papa-leon-xiv-cuales-son-los-feriados-del-9-10-y-11-de-noviembre-y-donde-rigen/"
+        }
+      ],
+      "absorbs": [
+        "centro-despachantes-de-aduana-de-la-republica-argentina-cronogramas-operativos-f"
+      ],
+      "story": "aduana-argentina",
+      "deadlines": [
+        {
+          "date": "2026-11-05",
+          "label": "Bancos: último día hábil con atención en sucursales antes del cierre del 6 al 10 de noviembre",
+          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/bancos-en-argentina-cerraran-cinco-dias-seguidos-en-noviembre-cuando-y-que-operaciones-seguirian-disponibles/"
+        },
+        {
+          "date": "2026-11-09",
+          "label": "Argentina: feriado nacional por la visita del papa León XIV (Decreto 1103/2026)",
+          "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/348022/20260928"
+        },
+        {
+          "date": "2026-11-10",
+          "label": "BCRA: feriado bancario en todo el país; feriado en CABA y Córdoba por la visita papal",
+          "url": "https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A8487.pdf"
+        },
+        {
+          "date": "2026-11-11",
+          "label": "Provincia de Buenos Aires: feriado por la visita del papa León XIV; vuelve la atención bancaria",
+          "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/348022/20260928"
+        }
+      ]
+    },
+    {
+      "id": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade",
+      "date": "2026-11-03",
+      "kind": "datos",
+      "title": "La Argentina tiene 52 productos agroindustriales entre los 20 mayores exportadores del mundo y 26 en el top 5",
+      "summary": "Un relevamiento de la Secretaría de Agricultura sobre datos 2025 de COMTRADE ubica al país como primer exportador mundial de aceites y harinas de soja y girasol, maní, yerba mate y derivados del limón. El complejo sojero exportó unos US$ 15.600 millones y la India compró el 54% del aceite de soja.",
+      "body": [
+        "La Argentina cerró 2025 con 52 productos agroindustriales entre los veinte mayores exportadores del mundo y 26 entre los cinco primeros, según un relevamiento de la Secretaría de Agricultura, Ganadería y Pesca (SAGyP) basado en COMTRADE, la base de estadísticas de comercio de Naciones Unidas. El trabajo, que difundieron el 2 y el 3 de noviembre Infobae, Infocampo y Noticias Agropecuarias, abarca más de 35 cadenas de valor.",
+        "El informe compara posiciones en los rankings mundiales y no trae montos de exportación para cada producto. Además, las fuentes difieren en el detalle de los primeros puestos, porque agrupan de distinta manera los productos de un mismo complejo.",
+        "## Dónde la Argentina es primera",
+        "Según Infobae, el país fue el primer exportador mundial en ocho rubros: aceite de girasol, aceite de soja, aceite esencial de limón, jugo de limón, maní, subproductos de soja (harinas y pellets), subproductos de girasol y yerba mate. Infocampo agrupa esos liderazgos en seis: girasol, soja, yerba mate, maní, aceite esencial de limón y jugo de limón. Infocampo y Noticias Agropecuarias coinciden en que la yerba mate subió al primer lugar; Infocampo precisa que venía del segundo.",
+        "En el tercer puesto aparecen el maíz, el sorgo, los porotos comunes, el ajo, la ciruela seca, el mosto de uva, la merluza congelada y el poroto de soja. En el cuarto, según Infobae, figuran la carne equina, la leche en polvo entera, la miel y las preparaciones de maní.",
+        "## Entre los diez primeros",
+        "Dentro del top 10, sin posición exacta, Infocampo menciona la carne vacuna, el vino, la miel, las peras, la carne equina, la lana sucia, las preparaciones de durazno, el jugo de naranja, el aceite de oliva, el trigo, los garbanzos, el té, las aceitunas, las pasas de uva, la alfalfa y los frutos secos, entre otros.",
+        "La SAGyP atribuye parte del desempeño a la simplificación de trámites, a más de 600 aperturas de mercados durante la actual gestión y a la inversión privada en tecnología, según Noticias Agropecuarias. Es la explicación del organismo: el relevamiento no mide el peso de cada factor.",
+        "## El complejo sojero, en números",
+        "Infobae detalla que el complejo sojero, que incluye poroto, aceite y subproductos, exportó en 2025 unos US$ 15.600 millones. El aceite de soja aportó US$ 6.868 millones, el 44% del total del complejo, con 6,73 millones de toneladas. La India fue el principal destino: compró 3,64 millones de toneladas por US$ 3.712 millones, el 54% del valor exportado de aceite.",
+        "Detrás se ubicaron Bangladesh (479.000 toneladas, por US$ 487 millones), Canadá (355.000 toneladas), Perú (305.500), Marruecos (159.500), Mozambique (115.600) y Pakistán (casi 60.000). Un 20,5% del valor, US$ 1.411 millones por unas 1,39 millones de toneladas, figura con destino sin determinar.",
+        "## Qué no dice el relevamiento",
+        "Las notas publicadas no informan el valor total de las exportaciones agroindustriales de 2025, la cantidad de destinos ni la posición exacta del trigo o de la carne vacuna, que solo aparecen dentro del top 10. En la versión de Noticias Agropecuarias, el cuadro llama posiciones arancelarias a los 26 ítems del top 5, mientras que el texto habla de productos."
+      ],
+      "keyData": [
+        [
+          "Productos en el top 20 mundial (2025)",
+          "52"
+        ],
+        [
+          "Productos en el top 5",
+          "26"
+        ],
+        [
+          "Primer exportador mundial",
+          "8 rubros según Infobae (6 según Infocampo)"
+        ],
+        [
+          "Cadenas de valor representadas",
+          "Más de 35"
+        ],
+        [
+          "Exportaciones del complejo sojero (2025)",
+          "≈ US$ 15.600 millones"
+        ],
+        [
+          "Aceite de soja",
+          "US$ 6.868 millones y 6,73 millones de t"
+        ],
+        [
+          "Participación de la India en el aceite de soja",
+          "54% del valor (US$ 3.712 millones)"
+        ]
+      ],
+      "explainer": {
+        "what": "Según la Secretaría de Agricultura, con datos 2025 de COMTRADE, la Argentina tiene 52 productos agroindustriales entre los 20 mayores exportadores del mundo y 26 entre los cinco primeros.",
+        "why": "Muestra en qué cadenas el país tiene peso global: es primer exportador de aceites y harinas de soja y girasol, maní, yerba mate y derivados del limón, y el complejo sojero exportó unos US$ 15.600 millones.",
+        "who": "Exportadores agroindustriales, la industria aceitera y las economías regionales (limón, yerba mate, maní, frutas, vino).",
+        "products": [
+          "Aceite y harina de soja",
+          "Aceite y harina de girasol",
+          "Maní",
+          "Yerba mate",
+          "Jugo y aceite esencial de limón",
+          "Maíz",
+          "Sorgo"
+        ]
+      },
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina",
+        "India"
+      ],
+      "tags": [
+        "SAGyP",
+        "COMTRADE",
+        "Agroexportación",
+        "Soja",
+        "Girasol",
+        "Yerba mate",
+        "Limón",
+        "Maní"
+      ],
+      "visual": "agro",
+      "impact": 1,
+      "affectsArgentina": true,
+      "argentinaNote": "El ranking confirma la dependencia de pocos complejos, sobre todo el sojero, y de pocos destinos: la India compró el 54% del valor del aceite de soja exportado en 2025.",
+      "argentinaImpact": {
+        "flows": [
+          "Exportaciones"
+        ],
+        "summary": "Posiciones de la Argentina en los rankings mundiales de exportación agroindustrial de 2025, con detalle de destinos del aceite de soja."
+      },
+      "sources": [
+        {
+          "name": "Infobae",
+          "type": "Medio · Economía",
+          "url": "https://www.infobae.com/movant/2026/11/03/la-agroindustria-argentina-gana-posiciones-y-consolida-una-amplia-red-de-destinos-internacionales/",
+          "primary": true
+        },
+        {
+          "name": "Infocampo",
+          "type": "Medio especializado · Agro",
+          "url": "https://www.infocampo.com.ar/liderazgo-global-segun-la-onu-argentina-tiene-26-productos-del-agro-en-el-top-five-mundial/"
+        },
+        {
+          "name": "Noticias Agropecuarias",
+          "type": "Medio especializado · Agro",
+          "url": "https://www.noticiasagropecuarias.com/2026/11/02/liderazgo-global-52-productos-agroindustriales-argentinos-se-consolidan-en-el-top-20-mundial/"
+        }
+      ],
+      "absorbs": [
+        "mas-de-50-productos-argentinos-se-posicionan-en-los-primeros-puestos-de-exportac",
+        "argentina-se-ubica-entre-los-principales-exportadores-mundiales",
+        "argentina-figura-entre-los-principales-exportadores-de-mas-de-50-productos-agroi",
+        "argentina-se-posiciona-entre-los-lideres-mundiales-mas-de-50-productos-agroindus"
+      ],
+      "story": "agroexportacion"
+    },
     {
       "id": "fundacion-valenciaport-participa-en-primera-recarga-rapida-automatica-para-buque",
       "datetime": "2026-11-03T02:59:15Z",
@@ -780,12 +1919,16 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Transporte marítimo"
+        "Logística",
+        "Transporte marítimo",
+        "Puertos"
       ],
       "countries": [
         "Global"
       ],
-      "tags": [],
+      "tags": [
+        "Puertos"
+      ],
       "visual": "ship",
       "impact": 1,
       "affectsArgentina": false,
@@ -943,6 +2086,43 @@
       }
     },
     {
+      "id": "acuerdo-mercosur-efta-la-carrera-del-sector-privado-para-conquistar-los-nichos-d",
+      "datetime": "2026-11-03T01:01:00Z",
+      "date": "2026-11-02",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "Acuerdo Mercosur–EFTA: la carrera del sector privado para conquistar los nichos de alto lujo en el norte de Europa",
+      "summary": "El canciller Mario Lubetkin destacó que el bloque europeo reúne unos 15 millones de habitantes y un producto interno bruto de u$s1,2 billones.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Mercosur"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Ambito",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.ambito.com/uruguay/acuerdo-mercosurefta-la-carrera-del-sector-privado-conquistar-los-nichos-alto-lujo-el-norte-europa-n6340759",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T17:13:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWUE0OVlYLWRGM0MxWHczcWFIcXF2X0NUaUVQSGgtVUk4SjVSbVIzMnlmeGIzaTF4Rm9vcUQwSnVmUmstZDQxZllZS0dYR19UMDhEM2JxUGVYbHlGNWtKakNmLTJCRVluZHpLekZtakJwanJuYUx5QW5la0l5djlaU1BQWHRGcHloZnJubzNtNklzdGxkN2JWMC1pWG9LNzdHLVhtbUNhYWp2YzZWQWJheFY1ZjFKYzM3Z25pemhMTHFfUU53eTZkMzgxS09MaktaeVFsNNIB2gFBVV95cUxPaVFTNE12M0xQNjRYcm9wU2F0d0R1cFhIcFljUFR5YlhVRDNJcTN0NTRYUUs5bll2MktCRTZQOURMNFBtYmdoRzhpWVp6Y1puaFN6c3NTZ3JHRjBpWnVhZFpuelZHVzNZWERfUGY5dzlhcVNLeHdrQlpfVmFzb1ZINW1Ec25XNEFiMTgzMzdCcnBLRDJvWl9UWGNaWlpPWWsxY1BLZU40cTlLaVdHUVBrbFdIX3c1bHp0MHl1MTdJRFczMjhac01pN3hkWWppV0tjQVZkYU0zWjVxQQ?oc=5"
+    },
+    {
       "id": "canada-carnival-sunshine-realiza-recalada-inaugural-en-port-charlottetown",
       "datetime": "2026-11-03T01:00:30Z",
       "date": "2026-11-02",
@@ -1032,12 +2212,16 @@
       "keyData": [],
       "topics": [
         "Tratados y acuerdos",
-        "Latinoamérica"
+        "Latinoamérica",
+        "Estados Unidos"
       ],
       "countries": [
-        "México"
+        "México",
+        "Estados Unidos"
       ],
-      "tags": [],
+      "tags": [
+        "Estados Unidos"
+      ],
       "visual": "treaty",
       "impact": 1,
       "affectsArgentina": false,
@@ -1055,44 +2239,6 @@
       ],
       "gnTried": "2026-11-03T02:59:45Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPZDhvOXlOTmJ3X3B2MjgxNmM0VW1BWWVmNTdJTVQyczFXcG5BX3E0eXJGM0ZWQjFHcVlaSC1JUi1DZ3hhRUM0bERUa3drRXJ3bGhJa01oZHRCWFN2Q1RrZEpHbEdqeTA4T2xCZ1diUi1lVEstdVpGZlJoWWxubENNYW1SWThHaHFaYnZTZHN6WnZfZ09GVndncUtpdlMxU3l1a3ZaMVlrR1NPb2xzTXJ2WHBkbUJTaWxtaTRKRk1FdHhsSGVQZGpYbWhYWkt1STNXNi1CUHlaVmJ5c3VycnM4UFVETHRjdURFd1llRC1iTzkwcGda?oc=5"
-    },
-    {
-      "id": "iata-aerolineas-latinoamericanas-registraron-un-aumento-del-6-7-en-la-demanda-de",
-      "datetime": "2026-11-03T00:40:39Z",
-      "date": "2026-11-02",
-      "firstSeen": "2026-11-03T02:59:45Z",
-      "title": "IATA: Aerolíneas latinoamericanas registraron un aumento del 6,7% en la demanda de carga aérea en septiembre",
-      "summary": "Mientras que la capacidad de transporte aéreo de la región creció un 7,6% interanual en el mes de análisis",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Transporte aéreo"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [],
-      "visual": "plane",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Logística y fletes",
-      "sources": [
-        {
-          "name": "Mundo Marítimo",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.mundomaritimo.cl/noticias/iata-aerolineas-latinoamericanas-registraron-un-aumento-del-67-en-la-demanda-de-carga-aerea-en-septiembre",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-03T02:59:45Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRkxPdGFPRVcyMjJoNUJVWVk5LVFzd0xxTW40Ni1TNXhhcjRiOHJIYmJKaWFRSWctMF9qNWZlQWtCdU85akNoS1M3OElaRlh5Z1phbnFQSVIzZGxkdFFzT25OMENrNDlueHRSMDI3RFk1bUdtMzJjaVE1OURncHdHR2hfVjc0OVE5TkN2SWowYm1VN2pQekYxMmxiNnM5dWVGV2hibkU1X2hIbGhYN0M4UUhldTdxMlEwSExFTDJhOFdUV1VpN01mMEtHVUp1VXBTR3ZuaHVPRjBXelk?oc=5",
-      "digestSkip": {
-        "at": "2026-11-03T10:30:00-03:00",
-        "reason": "repite una nota de la redacción (carga aérea IATA de septiembre)"
-      }
     },
     {
       "id": "apm-terminals-estrena-nuevo-servicio-de-transporte-ferroviario-entre-haparanda-y",
@@ -1195,7 +2341,8 @@
       "keyData": [],
       "topics": [
         "Exportaciones",
-        "Logística"
+        "Logística",
+        "Transporte marítimo"
       ],
       "countries": [
         "Global"
@@ -1335,15 +2482,18 @@
       "keyData": [],
       "topics": [
         "Importaciones",
-        "Latinoamérica"
+        "Latinoamérica",
+        "Mercosur"
       ],
       "countries": [
         "Brasil"
       ],
-      "tags": [],
+      "tags": [
+        "Mercosur"
+      ],
       "visual": "customs",
       "impact": 1,
-      "affectsArgentina": false,
+      "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
       "feed": "Google Noticias · Aduana e importaciones Argentina",
@@ -1416,12 +2566,47 @@
       }
     },
     {
-      "id": "mas-de-50-productos-argentinos-se-posicionan-en-los-primeros-puestos-de-exportac",
-      "datetime": "2026-11-02T20:59:47Z",
+      "id": "carga-aerea-sin-papel-el-paso-que-le-falta-al-comercio-exterior-argentino",
+      "datetime": "2026-11-02T19:52:00Z",
       "date": "2026-11-02",
-      "firstSeen": "2026-11-03T02:59:45Z",
-      "title": "Más de 50 productos argentinos se posicionan en los primeros puestos de exportación mundial",
-      "summary": "La Argentina consolidó y mejoró su posicionamiento global en el comercio agroindustrial tras alcanzar cifras récord de ventas externas en 2025. Desempeño global y récord de ventas externas",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "Carga aérea sin papel: el paso que le falta al comercio exterior argentino",
+      "summary": "Jorge Heinermann, referente regional de carga aérea que integra AAACI, IATA y ALACAT, plantea por qué la operación aduanera tiene que volverse digital de punta a punta y qué gana la cadena logística",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Transporte aéreo"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "plane",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Infobae",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.infobae.com/movant/2026/11/02/carga-aerea-sin-papel-el-paso-que-le-falta-al-comercio-exterior-argentino/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-03T17:13:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVjBiS3d0THZqM2R5Q25IakdnMXp0WXRISzg1S3JIanptZkx0cGlQVzhuYmdpLUhpSFI4cWU2d09MR0ZSZ29TclRKTHpoaWdkNjktbGJtdWM4UThjY2JnNWROT1Y1WnZjZjNxNXl5V0VuejRlNXNTeC1FdUc3SEpiaktqZXVpa1dOMk8wZ1lkakdRVVRMOVE5Q2s1aTdpN1B0RDc2aloyZGNTd2VzQWVNYV9XUnFnZEXSAdIBQVVfeXFMTnUtcElKUlYyenRpbm5fUV9oWXRuUEI1ZU9VRzhDNzlTMFFKZG1JeWMwbjhBemgzMURXallxWmE1SjBycVdYdDltSU9vWTg2cFhycXE1ZnRtOGIzNlU3UWJadF9KM0tvcHRnVGxKdWVzT3E0ejlwQmozdkI3ZnNDaUxPdFdldDVxVG1PUXRBRmVMY0NzUmRPUE96WUVqVng3Xy1PRWVKeXJlMjNKUDY2Y19IOE9HUzhFTzVSNENHNHQ3LTBWUUg2aXRkSUhrMXpsb3J3?oc=5"
+    },
+    {
+      "id": "mas-de-50-productos-argentinos-ocupan-los-primeros-puestos-como-exportadores-mun",
+      "datetime": "2026-11-02T19:35:08Z",
+      "date": "2026-11-02",
+      "firstSeen": "2026-11-03T17:13:06Z",
+      "title": "Más de 50 productos argentinos ocupan los primeros puestos como exportadores mundiales",
+      "summary": "",
       "body": [],
       "keyData": [],
       "topics": [
@@ -1437,75 +2622,32 @@
       "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
+      "feed": "Google Noticias · Comercio exterior Argentina",
       "sources": [
         {
-          "name": "Primicias Rurales",
+          "name": "Data Portuaria",
           "type": "Medio · vía Google Noticias",
-          "url": "https://www.ruralprimicias.com.ar/173500-2/",
+          "url": "https://dataportuaria.com/es/argentina/comercio-exterior/mas-de-50-productos-argentinos-ocupan-los-primeros-puestos-como-exportadores-mundiales-194338",
           "primary": true,
           "author": ""
         },
         {
-          "name": "Los Primeros TV",
+          "name": "Campo en acción",
           "type": "También publicó esta noticia",
-          "url": "https://www.losprimeros.tv/economia/argentina-ocupa-el-primer-puesto-como-exportadora-mundial-de-aceite-esencial-y-jugo-de-limon_a6ae91cabbcf08930c40a53c0",
+          "url": "https://campoenaccion.com/actualidad/ponderan-que-son-ms-de-50-los-productos-argentinos-que-ocupan-los-primeros-puestos-como-exportadores.htm",
           "alsoIn": true,
-          "title": "Argentina ocupa el primer puesto como exportadora mundial de aceite esencial y jugo de limón"
+          "title": "Ponderan que son más de 50 los productos argentinos que ocupan los primeros puestos como exportadores"
         }
       ],
-      "gnTried": "2026-11-03T02:59:45Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBJZmJpb096eElESTM0a3paUnBuWkw2dFc3SXNLSFlyYTFsWEZEZ3luOVZYWmVGRjE4WXJKUUx1UUlOQjI1MlZCWk5WUG92amtNYTdHam1n?oc=5",
+      "gnTried": "2026-11-03T17:13:06Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZUtwdE5aMTNJS3BaWVB3NXVydWhMQTV6bEkxWjFSNXVDQTRaeVhZcGc5allOOUkyUHg2bTdjb09GaHpJZHFfUHk4NGJPQzF2bEdXYV9GZjc5dHRGWTBfVm0ybldBYVd0OERWd0ZWWEdoOFRIRzBtRWl4b1lCMkwtY1M3eE4tOHczYUs1d0ZiQjBZVzZ3Q24wYnVudDU5ckhoYmlSeUxmaUZyNmRiVVlmMEhTMU8wLWE0d3M2WGZVZ2dWVjk1RTBCQ2pDYkljSjE1X0dUOXhvZnZWNkdEQTduU0NTRWQ?oc=5",
       "aliasUrls": [
-        "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNYUFWUzhIczBORmdFVmlDWkthWjl2QkMzQ2Q4RGo4MXlMTnZQR09VSVNORkFzYVYwWjE0UGI5SFhMNVVFa01FU2tMN05CTWQ2ZHoydklnWFliMDFTbVkxMEs1Z0xTdDJJZjd5N0JoTkdZTm9ZcFBkRGlqdXc2cjFEUUgwZnFzQlM4ZTViVXgtR3lrYjJVTUZrb1dueUZDaElkV2pxOUFCTXNaSlFrZjJRZmtuRnJFOTNnOGRkMVFEMTF1NWNrY29mUUg0LW5haS1fU05URWhETFNGWlBmVEU1WHQtUWpqUzJyRWc",
-        "https://www.losprimeros.tv/economia/argentina-ocupa-el-primer-puesto-como-exportadora-mundial-de-aceite-esencial-y-jugo-de-limon_a6ae91cabbcf08930c40a53c0"
+        "https://campoenaccion.com/actualidad/ponderan-que-son-ms-de-50-los-productos-argentinos-que-ocupan-los-primeros-puestos-como-exportadores.htm",
+        "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdm50US1BeXJibHJGVGJlOGtJdG8tUEFDYlJfQlR3NjJMbE1TUS1XcDlDOWtqX0ptWlBPWUJfQ1JWLUswM2NtQ19UdEJreThnbE5rYlR5Sl9HQWpaMHBUV3lTYTlnd2ZXRE9JenhHVnp5ejJFZTZZMXpweEdrcGp6cFlMMlBxSmdtMnlPYmh4RzMzZm1SY0xiWnVKUU5yUlBhS0tfSW1OMDJpalF2azZ5X3RiUmVEZUE3UUZEWlRvNXJhNHVUOEI4akE4OERERVHSAc8BQVVfeXFMTnZudFEtQXlyYmxyRlRiZThrSXRvLVBBQ2JSX0JUdzYyTGxNU1EtV3A5Qzlral9KbVpQT1lCX0NSVi1LMDNjbUNfVHRCa3k4Z2xOa2JUeUpfR0FqWjBwVFd5U2E5Z3dmV0RPSXp4R1Z6eXoyRWU2WTF6cHhHa3BqenBZTDJQcUpnbTJ5T2JoeEczM2ZtUmNMYlp1SlFOclJQYUtLX0ltTjAyaWpRdms2eV90YlJlRGVBN1FGRFpUbzVyYTR1VDhCOGpBODhEREVR"
       ],
       "mergedIds": [
-        "argentina-ocupa-el-primer-puesto-como-exportadora-mundial-de-aceite-esencial-y-j"
-      ],
-      "digestSkip": {
-        "at": "2026-11-03T10:30:00-03:00",
-        "reason": "repite el mismo hecho que la nota de Infobae"
-      }
-    },
-    {
-      "id": "argentina-se-ubica-entre-los-principales-exportadores-mundiales",
-      "datetime": "2026-11-02T20:48:00Z",
-      "date": "2026-11-02",
-      "firstSeen": "2026-11-03T02:59:45Z",
-      "title": "Argentina se ubica entre los principales exportadores mundiales",
-      "summary": "En más de 50 productos agroindustriales, la Argentina se ubica entre los principales exportadores mundiales de yerba mate, maní, girasol y jugo de limón.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Uno Entre Rios",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.unoentrerios.com.ar/economia/argentina-se-ubica-los-principales-exportadores-mundiales-n10290096.html",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-03T02:59:45Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNm16d28taFp3ZnRuWmRaVWxyVktYTnRXUlZ2U3NsQ0lPT25jSU1STlVtblVTbHlOZEczbXJJdUVBdTVhbkI0cW1JelRLWXBOWlkzWVY3Y05EUHNyeENWQTRGUFdGWjBkdmhFZFRmcW9QR1EtdTFON3hiQkpXRTJLYThEcWhjSXN3emphY1h2RnFxbU9sVzNQcWdjWTNVYTZhNHNMTVNZeV9GOGVWX05zMnR4NlVFdUVR0gG4AUFVX3lxTFA2bXp3by1oWndmdG5aZFpVbHJWS1hOdFdSVnZTc2xDSU9PbmNJTVJOVW1uVVNseU5kRzNtckl1RUF1NWFuQjRxbUl6VEtZcE5aWTNZVjdjTkRQc3J4Q1ZBNEZQV0ZaMGR2aEVkVGZxb1BHUS11MU43eGJCSldFMkthOERxaGNJc3d6amFjWHZGcXFtT2xXM1BxZ2NZM1VhNmE0c0xNU1l5X0Y4ZVZfTnMydHg2VUV1RVE?oc=5",
-      "digestSkip": {
-        "at": "2026-11-03T10:30:00-03:00",
-        "reason": "repite el mismo hecho que la nota de Infobae"
-      }
+        "ponderan-que-son-mas-de-50-los-productos-argentinos-que-ocupan-los-primeros-pues"
+      ]
     },
     {
       "id": "peru-terminales-portuarios-euroandinos-exporta-mas-de-13-mil-teu-con-uvas",
@@ -1552,47 +2694,6 @@
         "at": "2026-11-02T19:05:00-03:00",
         "basedOn": "https://portalportuario.cl/peru-terminales-portuarios-euroandinos-exporta-mas-de-13-mil-teu-con-uvas/",
         "words": 149
-      }
-    },
-    {
-      "id": "la-carne-argentina-esta-rompiendo-records-exportaciones-que-no-paran-de-crecer",
-      "datetime": "2026-11-02T19:05:11Z",
-      "date": "2026-11-02",
-      "firstSeen": "2026-11-03T02:59:45Z",
-      "title": "La carne argentina está rompiendo récords: exportaciones que no paran de crecer",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Carne"
-      ],
-      "visual": "livestock",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "esposta.com.ar",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://esposta.com.ar/contenido/4153/la-carne-argentina-esta-rompiendo-records-exportaciones-que-no-paran-de-crecer",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-03T02:59:45Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOW8xT21DWmZYZUNTZ0tKQ2NseXloMDFhU1RsMDFRbzl1ZGt6RmpYTmM4WmZOVkdjNEExeDctS1JudWNOcDYxRU5KOGJxbHZhdDVEMTlSZ1V6WVpNbXRPSXliTk95Z0RDQjFkNWFpZDBNeHF2TEk1UzRoYmEwbDdwOHpmNlVYSng1ZGNSN1dFeUtpUzFEVFV6cGI3RngtaHlaRWl6WFdmSHNKVS1oTUczZHJGSnplRU0?oc=5",
-      "digestSkip": {
-        "at": "2026-11-03T09:48:39-03:00",
-        "reason": "repite una nota de la redacción (récord de exportaciones de carne vacuna en nueve meses)"
       }
     },
     {
@@ -1730,16 +2831,26 @@
           "url": "https://eldiariodecoahuila.com.mx/2026/11/02/eeuu-excluira-a-sudafrica-y-ruanda-de-acuerdo-comercial-africano/",
           "alsoIn": true,
           "title": "EEUU excluirá a Sudáfrica y Ruanda de acuerdo comercial africano"
+        },
+        {
+          "name": "Gaceta Perú TV",
+          "type": "También publicó esta noticia",
+          "url": "https://gacetaperutv.pe/2026/11/trump-busca-excluir-a-ruanda-y-sudafrica-de-acuerdo-comercial.html",
+          "alsoIn": true,
+          "title": "Trump busca excluir a Ruanda y Sudáfrica de acuerdo comercial"
         }
       ],
       "gnTried": "2026-11-02T19:39:39Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeXQ1bHdScmlZM05aVkVicGY2LU9HUE5HQlVCNTZNVWRwcGFXbUFobzdfYnI3QkFCWDI1ZjRTSEhoTHlTUGhkc1J0ZV8zQ1RQZS11alJGMTVHQXk3UnNUQndKeFZpT0tiRE15bjRqalZLejkzYno2RUZzUFMxZHJnSC1URHJ0U1kxaUM0YUoyTDVXZG9kYjlfTHVOZVl4Ym9BOWtHd0JnQkd4LXdVVDBpcVZRUUZvQ0lCa0QzalRibEhNMFZCWU9V?oc=5",
       "aliasUrls": [
         "https://eldiariodecoahuila.com.mx/2026/11/02/eeuu-excluira-a-sudafrica-y-ruanda-de-acuerdo-comercial-africano",
+        "https://gacetaperutv.pe/2026/11/trump-busca-excluir-a-ruanda-y-sudafrica-de-acuerdo-comercial.html",
+        "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVHlPV0FrenNEdW5KNThORXQ1dHh4VVEzS0xCYlUzZlE2N0ZEa0lSa0ZYLVlLcDlJN2dlZzJUMGFsVmVueU5SYndWblNqd015clpMb2ZYTWJ1WjJMN3ZQMldCam1JZ1RoN3ZNUmRBYm9xelA2X2dlMUZZdE8xMXlfX240bFRPRHpFaTNOeEYyb3dlWUFsOEdhOUpScm9MUzA",
         "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSnhjdU81aXFKbndIbW5MbmlSVm1CNXo4MTVvLTNUd01wNEVmX1N2RUNxMkg4ZGpVbVNtd1pJckROUWE5QmRYLXUtQmFPc2pwYllybkMwS1poNWx0dm5SUkFubUJ1aWpEY3ZyMFpiY3l4Z1pGYksybmlVNThZTWI4b1JsbXZvanQ0c25xMVE5VnJ6X19ydzdMaWd4RmFfWGhJMTBMcUtEWHZGNTR2REU0"
       ],
       "mergedIds": [
-        "eeuu-excluira-a-sudafrica-y-ruanda-de-acuerdo-comercial-africano"
+        "eeuu-excluira-a-sudafrica-y-ruanda-de-acuerdo-comercial-africano",
+        "trump-busca-excluir-a-ruanda-y-sudafrica-de-acuerdo-comercial"
       ]
     },
     {
@@ -1791,48 +2902,6 @@
         "at": "2026-11-02T19:05:00-03:00",
         "basedOn": "https://www.nuevopoder.cl/elecciones-en-ee-uu-triunfo-democrata-podria-favorecer-a-chile-en-aranceles-y-petroleo/",
         "words": 180
-      }
-    },
-    {
-      "id": "argentina-figura-entre-los-principales-exportadores-de-mas-de-50-productos-agroi",
-      "datetime": "2026-11-02T18:09:01Z",
-      "date": "2026-11-02",
-      "firstSeen": "2026-11-02T19:39:39Z",
-      "title": "Argentina figura entre los principales exportadores de más de 50 productos agroindustriales",
-      "summary": "De acuerdo con los datos de comercio exterior publicados por COMTRADE, la base de estadísticas de las Naciones Unidas, el",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Tratados y acuerdos"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Agro"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Comercio exterior Argentina",
-      "sources": [
-        {
-          "name": "Comercio y Justicia",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://comercioyjusticia.info/economia/argentina-figura-entre-los-principales-exportadores-de-mas-de-50-productos-agroindustriales/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-02T19:39:39Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaGMzLTZTLTRYTGFpQ0lYbVQ2ZlJqNWxMdHZuNjFVUUk2dVVhYnBVUnlwUFc0RDM5MVBnQVhlRktpNWF0V1RsZFJWX3hkZ240NWx0aWNYUTQyc2FzWWVFRHpHd3JKNlRoRFZzamFXRWpMaFYtOExqcElka29BX0VrRTgzdFU0RUVmQmQ5dlA4RnoyR3VFMnhkcXNfNjROd3ltSEFLQnJKN3lzNlF2NWpUZHdacjdGNEU2WWtiRDRJaV95NGFLQU5NTGYtTTA?oc=5",
-      "digestSkip": {
-        "at": "2026-11-02T19:05:00-03:00",
-        "reason": "repite el mismo hecho que la nota de Infobae"
       }
     },
     {
@@ -2078,46 +3147,6 @@
       }
     },
     {
-      "id": "centro-despachantes-de-aduana-de-la-republica-argentina-cronogramas-operativos-f",
-      "datetime": "2026-11-02T17:22:14Z",
-      "date": "2026-11-02",
-      "firstSeen": "2026-11-02T19:39:39Z",
-      "title": "Centro Despachantes de Aduana de la Republica Argentina - Cronogramas operativos: Feriados visita del Papa",
-      "summary": "El Centro Despachantes de Aduana (CDA) les acerca a sus asociados el cronograma operativo de las distintas Terminales Portuarias para los feriados del lunes 09, martes 10 y miércoles 11 de noviembre.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Aduanas",
-        "Puertos"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 2,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
-      "sources": [
-        {
-          "name": "Centro Despachantes de Aduana (CDA)",
-          "type": "Medio · vía Google Noticias",
-          "url": "http://www.cda.org.ar/detalle_noticia.php?id=42843",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-02T19:39:39Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4RV94TjE3LXhKTjlzdFdTb29oOXFpZUFITWhCY0Rlc1BpS0tWRW1BQnZ2UzZELTg4SFhRX3hMTkNzX2RSYmpjb0xnMUs4YTg3UmtwZWVWVkNkakhrTGhj?oc=5",
-      "digestSkip": {
-        "at": "2026-11-03T09:48:39-03:00",
-        "reason": "repite una nota de la redacción (feriados por la visita de León XIV)"
-      }
-    },
-    {
       "id": "exportar-a-europa-nuevas-oportunidades-y-exigencias-para-la-region",
       "datetime": "2026-11-02T17:13:00Z",
       "date": "2026-11-02",
@@ -2266,48 +3295,6 @@
       ]
     },
     {
-      "id": "seis-meses-del-acuerdo-mercosur-ue-ministerio-de-economia-destaca-crecimiento-y",
-      "datetime": "2026-11-02T16:37:00Z",
-      "date": "2026-11-02",
-      "firstSeen": "2026-11-03T02:59:45Z",
-      "title": "Seis meses del acuerdo Mercosur-UE: Ministerio de Economía destaca crecimiento y diversificación comercial",
-      "summary": "El tratado canalizó exportaciones uruguayas por US$ 38 millones hasta setiembre, con el jugo de naranja, los arándanos frescos y “diversos productos de panadería” como rubros novedosos en los negocios con la Unión Europea",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Tratados y acuerdos",
-        "Mercosur",
-        "Europa"
-      ],
-      "countries": [
-        "Unión Europea"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "BÚSQUEDA",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.busqueda.com.uy/economia/seis-meses-del-acuerdo-mercosur-ue-ministerio-economia-destaca-crecimiento-y-diversificacion-comercial-n5418941",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-03T02:59:45Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZmQ1dlpIUlFGRm1ISmpxZTU3ZmFNQ2pub2pUcElSdmtFMmp6NVdqLW9SWlNQQm9BNXNDUkJKbHpHcXZvdWt2d0dIQ0RFVDZpTThfeVZOQWRyQlgyQWhBYTBBX2VUcmZENXRaeEJTQUc2cllneTl4T2s3TlU2Y0lxZWw1X3JJMEhCaXV0NGhITGJOOWJYeXVuV1ByaGFhLTJnZDRtczR4cXA3ai1xbWhVa3htZjBkUkNaNENhX3JhRUptd19lUkdUUy0yS1IzdTZnbzRnUzh4SGNyR1hDc2huU0JB?oc=5",
-      "digestSkip": {
-        "at": "2026-11-03T10:30:00-03:00",
-        "reason": "repite una nota de la redacción (seis meses del acuerdo UE–Mercosur)"
-      }
-    },
-    {
       "id": "espana-autoridad-portuaria-de-bilbao-preside-redaccion-de-reglamento-del-fueleu",
       "datetime": "2026-11-02T16:30:22Z",
       "date": "2026-11-02",
@@ -2350,88 +3337,6 @@
         "at": "2026-11-02T19:05:00-03:00",
         "basedOn": "https://portalportuario.cl/espana-autoridad-portuaria-de-bilbao-preside-redaccion-de-reglamento-del-fueleu-maritime/",
         "words": 158
-      }
-    },
-    {
-      "id": "argentina-se-posiciona-entre-los-lideres-mundiales-mas-de-50-productos-agroindus",
-      "datetime": "2026-11-02T16:13:00Z",
-      "date": "2026-11-02",
-      "firstSeen": "2026-11-02T19:39:39Z",
-      "title": "Argentina se posiciona entre los líderes mundiales: más de 50 productos agroindustriales están en el top 20 exportador",
-      "summary": "El país lidera los envíos internacionales de seis productos y cuenta con 26 posiciones entre los cinco principales exportadores mundiales",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Agro"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Infobae",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.infobae.com/revista-chacra/2026/11/02/argentina-se-posiciona-entre-los-lideres-mundiales-mas-de-50-productos-agroindustriales-estan-en-el-top-20-exportador/",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "ReconquistaHOY",
-          "type": "También publicó esta noticia",
-          "url": "https://www.reconquistahoy.com/92994-argentina-tiene-52-productos-agroindustriales-entre-los-20-mas-exportados-del-mundo",
-          "alsoIn": true,
-          "title": "Argentina tiene 52 productos agroindustriales entre los 20 más exportados del mundo"
-        },
-        {
-          "name": "Diario El Debate Pregón",
-          "type": "También publicó esta noticia",
-          "url": "https://www.diariodebatepregon.com/argentina-y-el-mundo/argentina-se-posiciona-como-lider-mundial-en-exportaciones-agroindustriales",
-          "alsoIn": true,
-          "title": "Argentina se posiciona como líder mundial en exportaciones agroindustriales"
-        },
-        {
-          "name": "El País Diario",
-          "type": "También publicó esta noticia",
-          "url": "https://www.elpaisdiario.com.ar/argentina-se-ubico-entre-los-principales-exportadores-mundiales-en-mas-de-50-productos-agroindustriales-169666/",
-          "alsoIn": true,
-          "title": "Argentina se ubicó entre los principales exportadores mundiales en más de 50 productos agroindustriales"
-        }
-      ],
-      "gnTried": "2026-11-02T19:39:39Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPNjZOUkpmSnQzUGx4U29GeUlJUDVZU0ptNE9UcEU3Uy1wZFFZaGlmd3dEeE5BUVB5Nnd3Z0pGaG5aRXBiN1BucjI0a09yWnNNUWNTY1ZMeXlTLWJaYjZyNWxjQWozM1F0MTVQRkZVaXEzcUp0WThPRGM5QmljYXVPeW01aVhsV3dRMUpmbWlQUEFjMGNyZVZmc1hTMFdVcXlzVHhVT2VYYTZFUnF6N3BBQnRnQmtqa2dDbWRyUXMzODdMRlJjVmRxS0FvX2k1OEdRczNNNzFCYnl1OXlpNnZJZlV6T0ZOUDVHdlF1VC10bFdwbXFXYklWQ3BrRy3SAZcCQVVfeXFMUEppN1Zjd2VlSDhUVHNXZ2p4ME40VG1IeXhZOG5KZThVdzc3dHctSGRSbzZaOFI4Mm0ySDhaaEViR1UwbERRZS1yWFg3U1haMW9BcW9weWVwRjg2dlR3N1hyZk5aQ1VHdGlNWk1jNU92cUpELWJpN2tfbUJEYnVZeFRYVEJUUkdsRHBmTmRBdUVtaTdTZDkyVFFYbFJ0cXNkWEZXcGw2c0xNMTY3VWRNdFlqMV9GUWNOZWNJZTRvemlFSlZzSVg4UDkyMEdWenNvcXdIbFFHREE4X0NsOTlJWEFOd2Jyd09HaEtnQUZEdEw1V2JsVUxxWW5QMVZkbVNGVTM3eWhqUS1kam0zdTQ4OHpkbVd3WVVj?oc=5",
-      "aliasUrls": [
-        "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQY3NvbnpKZERNY3diUE1MZVdVRGFMY2VxbVJWdXM0M3lQZzNaLTA2QjhoZGZHbm11c24tajlfaWZUckxWU3FkU2lIMFp6bWEtcDRZNUZyTXI2T1VNeGw1aGlETzNiWGJBSnNCdXFzcG10MlVETkJBdTZSR1ZNZk9hWlB0MG9YVG9mS0J2bHNYc2ZJXzZkLW5OdUdFX1dONkpxTDdTVkJ1V09HWDlPbkk5ems1ZTJKRGVyQW5zZXhJa2loWm44TUVDblAtZFJVamY2RnZUQm5hNlgxOTA",
-        "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWHk1S3hIQk1lX3pTSmtrUFd3aDNIeVdKM1V3TmVFcGQ4TE9jOWdxR2xDblE3aFMxZVRQWld5dGhvUlJsVlQwTnFOa0JmTVZuUFV5cTFZS05abjdtVkhJRGdkd3RDVWZod1MwOEcyWktmc3c1T2pUSTAtZk1nV1k0VVh0eW95dGVRTXdGc3cxSUdWWGdPTHdPZzhNSm4xTFFTd1ZVV2F0UjIwOXd1cVVlbEVfUU9ELTlmTFZwaQ",
-        "https://news.google.com/rss/articles/CBMiywFBVV95cUxQM3hJb05mTlYwak5vd19nMFJJVTE3bDZUeUtRSUpmeGJOVFRnNC15QVp6NnAyNXRxQ04wWk1CMm8xY3J0eFQxN0c1NUxtMUZIQnBMN3VlM01idzZWU2dtZXpBSlZJN3JCMTdmdHdmRC1saDV2d3dOdUR0WTRiQzVsVWZtMnJ6d3Y3djBrZ2JWeUhvZ3d3NFJzZVc1Ym14RlAyUGhncEJwcC15VWVqaVZoSVZ3dDl5OGhfMlBFX0Vod2FGYjVzTnFLTEVIbw",
-        "https://www.diariodebatepregon.com/argentina-y-el-mundo/argentina-se-posiciona-como-lider-mundial-en-exportaciones-agroindustriales",
-        "https://www.elpaisdiario.com.ar/argentina-se-ubico-entre-los-principales-exportadores-mundiales-en-mas-de-50-productos-agroindustriales-169666",
-        "https://www.reconquistahoy.com/92994-argentina-tiene-52-productos-agroindustriales-entre-los-20-mas-exportados-del-mundo"
-      ],
-      "mergedIds": [
-        "argentina-tiene-52-productos-agroindustriales-entre-los-20-mas-exportados-del-mu",
-        "argentina-se-posiciona-como-lider-mundial-en-exportaciones-agroindustriales",
-        "argentina-se-ubico-entre-los-principales-exportadores-mundiales-en-mas-de-50-pro"
-      ],
-      "digest": {
-        "lead": "La Argentina tiene 26 productos agroindustriales entre los cinco mayores exportadores del mundo y 52 entre los veinte primeros, según un relevamiento de la Secretaría de Agricultura sobre datos de 2025 que publicó Infobae.",
-        "body": [
-          "El trabajo de la Secretaría de Agricultura, Ganadería y Pesca se apoya en las estadísticas de comercio de COMTRADE, la base de Naciones Unidas, y repasa las principales posiciones arancelarias que el país vendió al exterior el año pasado. En seis rubros la Argentina figura primera: girasol, soja, yerba mate, maní, aceite esencial y jugo de limón.",
-          "Entre los cambios respecto de mediciones anteriores, la yerba mate y el girasol subieron al primer puesto, mientras que el maíz quedó tercero. Dentro del top 10 aparecen además la carne vacuna y la equina, el vino, la miel, las peras, la lana sucia, las preparaciones de durazno, el jugo de naranja, el aceite de oliva, el trigo, los garbanzos, el té, las aceitunas, las pasas de uva, la alfalfa y los frutos secos.",
-          "Según la Secretaría, más de 35 cadenas de valor contribuyeron a esas posiciones."
-        ],
-        "at": "2026-11-02T19:05:00-03:00",
-        "basedOn": "https://www.infobae.com/revista-chacra/2026/11/02/argentina-se-posiciona-entre-los-lideres-mundiales-mas-de-50-productos-agroindustriales-estan-en-el-top-20-exportador/",
-        "words": 178
       }
     },
     {
@@ -2720,48 +3625,6 @@
       }
     },
     {
-      "id": "mercosur-efta-el-acuerdo-entra-en-vigor-para-uruguay-y-abre-un-mercado-de-15-mil",
-      "datetime": "2026-11-02T14:41:43Z",
-      "date": "2026-11-02",
-      "firstSeen": "2026-11-03T02:59:45Z",
-      "title": "Mercosur-EFTA: el acuerdo entra en vigor para Uruguay y abre un mercado de 15 millones de habitantes",
-      "summary": "El tratado, firmado en septiembre de 2025 tras ocho años de negociaciones y ratificado por unanimidad en el Senado, comenzó a regir este domingo para el vínculo bilateral con Noruega e Islandia. La desgravación alcanza al 97% de los bienes, con cupos específicos para carne bovina, vino y miel. Suiza y Liechtenstein se…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Tratados y acuerdos",
-        "Latinoamérica",
-        "Mercosur"
-      ],
-      "countries": [
-        "Uruguay"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "La Mañana",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.xn--lamaana-7za.uy/actualidad/mercosur-efta-el-acuerdo-entra-en-vigor-para-uruguay-y-abre-un-mercado-de-15-millones-de-habitantes/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-03T02:59:45Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQa19MSHpfMXdzNmN5cXdKZnZMVmdOVWUzZ2JiNFc0cW1BTTJ1a1c0UmVWQk5IWlBBazQ0RVYwR3RndzVwdk1qbEVSS21LQTk0cGxnYURpbjRMOFlvTU1HX0hadHBDTElhSElUTkF5QlJINlRDVkJVcWpFcGRpVU5DQnVERGROdEJXVGNqdzN1cHFzOElQOUFIVVJYMGtVUk81eFJuaUtNUWdfUjQwQ2Y2dGhMeFFQN1B6eWE0Yzl1NV95UEJXVXFRUkpSSUxhSjd3Q3NKZDllNXZ4dw?oc=5",
-      "digestSkip": {
-        "at": "2026-11-03T10:30:00-03:00",
-        "reason": "repite una nota de la redacción (Mercosur–AELC en vigor para Uruguay)"
-      }
-    },
-    {
       "id": "la-uba-debatio-el-procedimiento-aduanero-en-la-era-digital-y-reconocio-a-dos-jur",
       "datetime": "2026-11-02T13:26:35Z",
       "date": "2026-11-02",
@@ -2935,49 +3798,6 @@
           "url": "https://www.infobae.com/economia/2026/10/19/mas-agrodolares-con-precios-firmes-las-ventas-alcanzaron-un-record-de-105-millones-de-toneladas-de-granos/"
         }
       ]
-    },
-    {
-      "id": "aumentaron-las-exportaciones-a-europa-a-raiz-del-acuerdo-mercosur-union-europea",
-      "datetime": "2026-11-02T11:12:00Z",
-      "date": "2026-11-02",
-      "firstSeen": "2026-11-03T02:59:45Z",
-      "title": "Aumentaron las exportaciones a Europa a raíz del acuerdo Mercosur-Unión Europea",
-      "summary": "El informe preliminar de Presidencia revela que las exportaciones al bloque europeo alcanzaron los 860 millones de dólares entre mayo y setiembre de 2026.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones",
-        "Tratados y acuerdos",
-        "Mercosur",
-        "Europa"
-      ],
-      "countries": [
-        "Unión Europea"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Caras y Caretas",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.carasycaretas.com.uy/politica/aumentaron-las-exportaciones-europa-raiz-del-acuerdo-mercosur-union-europea-n100683",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-03T02:59:45Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNak83amNkejBfNFBPNmtYZGU5RXltS0poTUd6MDB3QjRHWkg2ZUJwWG45SGM4ZGJ1NUlua19SUGVBRTBPd2VmUWoxaDdVMF9iTWpzbDVkb0hQVXpubnMzWjBOdjNaSTdGb2hpUF9WTHY3M2RiMFBjaFNKemMwWWFTNEdENTllRE5ZQlIwYktuQWNtVWg1WHFZRHBBdVIzMkNDcXFYaVVJZjBidDRRMXhJSUcwN1R1UjQ0a3RBUVhnUktLRTjSAcgBQVVfeXFMT3BOLTdPa0xmQnUzNHhJbUJFdzlwT3pISmtDWnRBRVVtUDhmcFVyb0F1cUk0VVRJSWdJak5qNjFqV0pESk1VRjhOZ3dEVmVpV0Mzd0sybnREOUd1QjNJcjFtRENVRUpCZ21kLTE3YmN5Z0ZraTVTR0YxNGh4R05FLU1LZVVEWGVjdHFTbk11SFBuZlpnMU1mMWFQcmpDUEw4MWthRGx2Qms3TlM3STg3Mk5Ob1haWmhGT2l0MXBXb0pfSGtoM25hcTI?oc=5",
-      "digestSkip": {
-        "at": "2026-11-03T10:30:00-03:00",
-        "reason": "repite una nota de la redacción (seis meses del acuerdo UE–Mercosur)"
-      }
     },
     {
       "id": "aduana-interior-cuando-una-provincia-cobra-antes-de-que-se-venda-un-producto",
@@ -3461,6 +4281,136 @@
       ]
     },
     {
+      "id": "ue-investigacion-salvaguardia-vehiculos-hibridos-importaciones-1-4-millones-cupo-china",
+      "date": "2026-11-02",
+      "kind": "noticia",
+      "title": "La UE abre una investigación de salvaguardia contra los híbridos importados, que crecieron casi 50% desde 2023",
+      "summary": "La Comisión Europea inició de oficio el 30 de octubre una investigación sobre las importaciones de autos híbridos nuevos, que llegaron a 1,42 millones de unidades en un año. Al ser una salvaguardia, alcanza a todos los orígenes: Japón, Corea del Sur, el Reino Unido y Turquía protestaron en la OMC.",
+      "body": [
+        "La Comisión Europea abrió el 30 de octubre, de oficio, una investigación de salvaguardia sobre las importaciones de ciertos vehículos híbridos nuevos para el transporte de personas y ese mismo día la notificó al Comité de Salvaguardias de la Organización Mundial del Comercio (OMC), en el documento G/SG/N/6/EU/4. El aviso de inicio salió en el Diario Oficial de la UE también el 30 de octubre, según EU Law Live.",
+        "La cifra que sostiene el caso es el salto de las compras: las importaciones europeas de autos híbridos pasaron de unas 960.000 unidades en 2023 a 1,42 millones entre julio de 2025 y junio de 2026, un alza de alrededor de 49%, según los datos que citan Yicai y MoneyToday. A diferencia de un antidumping, una salvaguardia no apunta a un país: en principio se aplica a todas las procedencias. Por eso el caso, que llega semanas después del entendimiento entre Bruselas y Pekín para moderar las ventas chinas, inquieta también a Japón, Corea del Sur, el Reino Unido y Turquía.",
+        "## Qué productos abarca",
+        "Según EU Law Live, la investigación cubre los híbridos nuevos diseñados principalmente para llevar nueve personas o menos, incluido el conductor, tanto enchufables como no enchufables: los que combinan un motor de combustión interna de pistón con uno o más motores eléctricos para la propulsión. La Comisión se apoya en el artículo 5 del Reglamento (UE) 2015/478 y en el artículo 3 del Reglamento (UE) 2015/755.",
+        "La Dirección General de Comercio y Seguridad Económica tiene que determinar si el aumento de las importaciones causa o amenaza causar un perjuicio grave a la industria europea y si existe una relación causal entre ambos. Solo después de escuchar a las partes interesadas y consultar a los socios comerciales puede decidir si impone medidas y de qué tipo, explicó MoneyToday.",
+        "## Los números del caso",
+        "Según datos de Eurostat citados por Yicai, el año pasado China, Japón, Corea del Sur, el Reino Unido y Turquía fueron los cinco mayores proveedores de la UE de vehículos híbridos y eléctricos por valor, con el 82,7% del total; China sola aportó el 26%. Las compras europeas de híbridos chinos crecieron 182,2% en 2025, hasta 302.000 unidades, según Yicai; BigGo, que cita las mismas estadísticas, ubica el punto de partida en 107.000 unidades en 2024.",
+        "El impacto no se limita a China. Corea del Sur, por ejemplo, exportó a la UE híbridos por US$ 2.418 millones el año pasado y por US$ 1.633 millones entre enero y septiembre de este año, según la agencia coreana de promoción comercial KOTRA citada por MoneyToday. El Ministerio de Comercio, Industria y Energía coreano anunció que presentará su posición por escrito y en consultas bilaterales para proteger el acceso de sus automotrices.",
+        "## La discusión por el cupo chino",
+        "El caso llega después del entendimiento del 9 de octubre entre el comisario de Comercio, Maroš Šefčovič, y el ministro chino Wang Wentao, que según el comisario abría la posibilidad de recortar en más de la mitad las ventas chinas de híbridos a Europa. Las fuentes difieren sobre la cifra final: MoneyToday informó que el acuerdo fija para China un cupo anual de 350.000 unidades, frente a una proyección de 800.000 para este año, un recorte de alrededor de 56%; Yicai, en cambio, no da un número y señala que China logró que el cupo se calcule sobre su volumen real de 2025.",
+        "La base de cálculo pesa. Según el especialista chino Shi Xiaoli, citado por Yicai y BigGo, con el promedio de 2022–2024 el cupo chino rondaría las 70.000 unidades por año, y con 2025 incluido, unas 150.000. El 12 de octubre el Ministerio de Comercio de China informó que ambas partes acordaron tres principios: respeto de los hechos, no discriminación y apego a las reglas de la OMC, de modo que el cupo chino no sea menor que el de ningún otro proveedor. El 29 de octubre la misma cartera advirtió que tomará las medidas necesarias si la UE discrimina productos chinos.",
+        "## Las quejas en Ginebra y los plazos",
+        "En el Comité de Salvaguardias de la OMC, el Reino Unido reconoció el derecho a aplicar salvaguardias pero pidió pleno apego al acuerdo y transparencia; Japón lamentó la apertura y sostuvo que sus exportaciones de híbridos no crecieron; Corea del Sur preguntó si la UE pactó volúmenes de cupo con un país en particular y si los años de referencia lo favorecen, y Turquía reclamó que se excluya a los socios cuyas ventas no causaron daño, según BigGo y Yicai.",
+        "De acuerdo con la notificación reproducida por IndexBox, productores, importadores y concesionarios europeos tienen 21 días desde la publicación de los cuestionarios para responderlos, y las partes interesadas, incluidas las representaciones de terceros países, 21 días desde la publicación del aviso para presentar escritos y pedir audiencia. La investigación debe terminar en principio en nueve meses, ampliables a once en casos excepcionales, según MoneyToday; Shi Xiaoli estimó que podría haber medidas provisionales uno o dos meses después del inicio. Según Yicai, entre 1995 y 2025 la UE abrió siete investigaciones de salvaguardia y en 2026 ya lleva dos: la del acero magnético de grano orientado y la de los híbridos."
+      ],
+      "keyData": [
+        [
+          "Importaciones de híbridos de la UE",
+          "1,42 millones de unidades (jul. 2025–jun. 2026), casi +50% vs. 2023"
+        ],
+        [
+          "Inicio de la investigación",
+          "30 de octubre de 2026 (de oficio)"
+        ],
+        [
+          "Notificación a la OMC",
+          "G/SG/N/6/EU/4"
+        ],
+        [
+          "Cinco mayores proveedores (2025)",
+          "China, Japón, Corea del Sur, Reino Unido y Turquía: 82,7% del valor"
+        ],
+        [
+          "Híbridos chinos importados en 2025",
+          "302.000 unidades (+182,2%)"
+        ],
+        [
+          "Cupo chino informado por MoneyToday",
+          "350.000 unidades por año"
+        ],
+        [
+          "Plazo de la investigación",
+          "9 meses, ampliable a 11"
+        ]
+      ],
+      "explainer": {
+        "what": "La Comisión Europea abrió el 30 de octubre una investigación de salvaguardia sobre las importaciones de autos híbridos nuevos, enchufables y no enchufables, de todos los orígenes.",
+        "why": "Las importaciones de híbridos de la UE llegaron a 1,42 millones de unidades entre julio de 2025 y junio de 2026, casi 50% más que en 2023; una salvaguardia puede derivar en cupos o recargos que alcancen a todos los proveedores, no solo a China.",
+        "who": "Fabricantes y exportadores de híbridos de China, Japón, Corea del Sur, el Reino Unido y Turquía, e importadores y concesionarios europeos.",
+        "products": [
+          "Autos híbridos nuevos",
+          "Híbridos enchufables",
+          "Vehículos para nueve personas o menos"
+        ],
+        "next": "La investigación debe terminar en principio en nueve meses, ampliables a once en casos excepcionales; las partes interesadas tienen 21 días desde la publicación del aviso para presentar escritos y pedir audiencia.",
+        "nextSource": {
+          "name": "MoneyToday",
+          "url": "https://www.mt.co.kr/en/economy/2026/10/30/2026103020354098284"
+        }
+      },
+      "topics": [
+        "Europa",
+        "China",
+        "Aranceles",
+        "Regulaciones",
+        "Importaciones"
+      ],
+      "countries": [
+        "Unión Europea",
+        "China",
+        "Japón",
+        "Corea del Sur",
+        "Reino Unido",
+        "Turquía"
+      ],
+      "tags": [
+        "Salvaguardia",
+        "Autos híbridos",
+        "OMC",
+        "Comisión Europea",
+        "Cupos"
+      ],
+      "visual": "auto",
+      "impact": 2,
+      "affectsArgentina": false,
+      "sources": [
+        {
+          "name": "EU Law Live",
+          "type": "Medio especializado · Derecho europeo",
+          "url": "https://eulawlive.com/commission-opens-safeguard-investigation-into-imports-of-new-hybrid-passenger-vehicles/",
+          "primary": true
+        },
+        {
+          "name": "Yicai Global",
+          "type": "Medio especializado · Economía",
+          "url": "https://www.yicaiglobal.com/news/eus-hybrid-ev-probe-riles-key-trading-partners-china-locks-in-favorable-export-quota"
+        },
+        {
+          "name": "MoneyToday",
+          "type": "Medio · Economía (Corea del Sur)",
+          "url": "https://www.mt.co.kr/en/economy/2026/10/30/2026103020354098284"
+        },
+        {
+          "name": "BigGo Finance",
+          "type": "Medio especializado · Finanzas",
+          "url": "https://finance.biggo.com/news/c99aa7ad-5379-4eb2-bc36-ccae926e5332"
+        },
+        {
+          "name": "IndexBox",
+          "type": "Medio especializado · Comercio",
+          "url": "https://www.indexbox.io/blog/eu-opens-wto-notified-safeguard-investigation-into-certain-new-hybrid-vehicle-imports/"
+        },
+        {
+          "name": "CPTPP Trade Updates",
+          "type": "Medio especializado · Comercio",
+          "url": "https://www.cptpp.co.uk/trade-updates/eu-launches-safeguard-investigation-on-certain-new-hybrid-vehicles/"
+        }
+      ],
+      "absorbs": [
+        "la-ue-inicia-una-investigacion-en-materia-de-salvaguardias-relativa-a-determinad"
+      ],
+      "story": "china-comercio"
+    },
+    {
       "id": "cisco-y-psa-singapur-impulsan-operaciones-basadas-en-inteligencia-artificial-de",
       "datetime": "2026-11-02T02:00:26Z",
       "date": "2026-11-01",
@@ -3646,56 +4596,6 @@
         "at": "2026-11-02T00:50:00-03:00",
         "basedOn": "https://portalportuario.cl/geodis-amplia-flota-electrica-para-transporte-de-contenedores-de-gran-tonelaje-en-sydney/",
         "words": 130
-      }
-    },
-    {
-      "id": "la-ue-inicia-una-investigacion-en-materia-de-salvaguardias-relativa-a-determinad",
-      "datetime": "2026-11-02T00:00:00Z",
-      "date": "2026-11-01",
-      "firstSeen": "2026-11-02T19:39:39Z",
-      "title": "La UE inicia una investigación en materia de salvaguardias relativa a determinados vehículos híbridos nuevos",
-      "summary": "El 30 de octubre de 2026, la Unión Europea notificó al Comité de Salvaguardias de la OMC que ese mismo día (30 de octubre de 2026) había iniciado una investigación en materia de salvaguardias relativa a las importaciones de determinados vehículos híbridos nuevos.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Importaciones",
-        "Aranceles",
-        "Economía internacional",
-        "Europa"
-      ],
-      "countries": [
-        "Unión Europea"
-      ],
-      "tags": [
-        "OMC",
-        "Autos",
-        "Medidas comerciales"
-      ],
-      "visual": "auto",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "OMC · Organización Mundial del Comercio",
-      "sources": [
-        {
-          "name": "OMC · Organización Mundial del Comercio",
-          "type": "Organismo internacional",
-          "url": "https://www.wto.org/spanish/news_s/news26_s/safe_eec_02nov26_536_s.htm",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "digest": {
-        "lead": "La Unión Europea abrió el 30 de octubre una investigación de salvaguardias sobre las importaciones de ciertos vehículos híbridos nuevos y ese mismo día la notificó al Comité de Salvaguardias, según informó la OMC.",
-        "body": [
-          "La notificación, registrada como G/SG/N/6/EU/4, fue presentada por la Comisión Europea a través de su Dirección General de Comercio y Seguridad Económica. Bruselas va a enviar cuestionarios a productores, asociaciones de productores, importadores y distribuidores de la Unión: se publicarán el mismo día que el aviso de apertura y tendrán que devolverse completos dentro de los 21 días.",
-          "En ese mismo plazo de 21 días, contado desde la publicación del aviso en el Diario Oficial de la UE, cualquier parte interesada —también los productores exportadores y las representaciones de terceros países— puede presentar por escrito opiniones, datos y pruebas, o pedir ser escuchada por los servicios de investigación de la Comisión.",
-          "La OMC recuerda que una salvaguardia es una restricción temporal a las importaciones y que un país miembro solo puede aplicarla si comprueba que el aumento de las compras externas causa o amenaza causar un daño grave a su producción local."
-        ],
-        "basedOn": "https://www.wto.org/spanish/news_s/news26_s/safe_eec_02nov26_536_s.htm",
-        "at": "2026-11-03T06:49:06-03:00",
-        "words": 186
       }
     },
     {
@@ -101900,7 +102800,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-11-02T19:39:39Z"
+      "gnTried": "2026-11-03T17:13:06Z"
     },
     {
       "id": "portcastello-presenta-estrategia-para-albergar-hub-industrial-de-energia-eolica",
@@ -112364,418 +113264,10 @@
         }
       },
       "updated": "2026-10-21T12:00:00-03:00"
-    },
-    {
-      "id": "feriados-visita-papa-leon-xiv-9-10-11-noviembre-cinco-dias-sin-bancos-comercio-exterior",
-      "date": "2026-11-03",
-      "kind": "noticia",
-      "title": "Feriados por la visita de León XIV: cinco días sin bancos y tres jornadas cortadas para importadores y exportadores",
-      "summary": "El Decreto 1103/2026 fija feriado nacional el lunes 9 de noviembre, feriados en CABA y Córdoba el martes 10 y en la provincia de Buenos Aires el miércoles 11. El BCRA declaró el 10 feriado bancario en todo el país y, con el Día del Bancario del viernes 6, las sucursales no atenderán del 6 al 10.",
-      "body": [
-        "La visita del papa León XIV a la Argentina, entre el domingo 8 y el miércoles 11 de noviembre, deja una semana corta para el comercio exterior: un feriado nacional el lunes 9, feriados regionales el martes 10 (Ciudad de Buenos Aires y Córdoba) y el miércoles 11 (provincia de Buenos Aires) y un feriado bancario en todo el país el martes 10. Si se suman el Día del Bancario del viernes 6 y el fin de semana, las sucursales bancarias no atenderán durante cinco días seguidos, del 6 al 10 de noviembre.",
-        "Los feriados los fijó el Decreto de Necesidad y Urgencia 1103/2026, publicado en el Boletín Oficial el 28 de septiembre, y el feriado bancario, la Comunicación \"A\" 8487 del Banco Central, fechada el 1 de octubre. Para importadores, exportadores, despachantes y transportistas del área metropolitana, donde están las principales terminales de contenedores y el aeropuerto de Ezeiza, se encadenan hasta tres días hábiles sin actividad administrativa normal.",
-        "## Qué dice el decreto",
-        "El decreto declara de interés nacional la visita y fija en su artículo 2 el feriado nacional del lunes 9 en todo el país. El artículo 3 establece el feriado del martes 10 solo en la provincia de Córdoba y en la Ciudad Autónoma de Buenos Aires, y el artículo 4, el del miércoles 11 solo en la provincia de Buenos Aires. En los tres casos el texto habla de feriado, no de día no laborable, y según sus considerandos alcanza también a los organismos y dependencias nacionales que funcionan en esos territorios.",
-        "La norma no resuelve qué pasa con quien vive en una jurisdicción y trabaja en otra. Fuentes oficiales le dijeron a Chequeado que manda la jurisdicción del empleador, mientras que el sitio Derecho en Zapatillas considera más razonable tomar el lugar de trabajo. El decreto crea, además, una unidad ejecutora temporaria en la Jefatura de Gabinete para organizar la visita, con un plazo máximo de 12 meses.",
-        "## Cinco días sin sucursales bancarias",
-        "La Comunicación \"A\" 8487, dirigida a las entidades financieras y a las cámaras electrónicas de compensación, declara feriado bancario el martes 10 en todo el territorio nacional. Así, aunque ese día solo es feriado general en la Ciudad y en Córdoba, los bancos no abrirán en ningún punto del país. A eso se suma el viernes 6, Día del Trabajador Bancario, que la Asociación Bancaria trata como jornada no laborable, según Bloomberg Línea. La atención en sucursales vuelve el miércoles 11.",
-        "Durante el cierre seguirán disponibles los canales electrónicos: transferencias por home banking y aplicaciones, pagos con tarjetas de débito y crédito, billeteras virtuales y cajeros automáticos, con diferencias según cada entidad. No habrá atención en cajas ni trámites que requieran personal. Según El Economista, las operaciones que dependen de la compensación bancaria, como los cheques depositados, se acreditan recién el día hábil siguiente.",
-        "## Qué implica para pagos y cobros con el exterior",
-        "Bloomberg Línea advirtió que las operaciones de cambio no seguirán su cronograma habitual mientras los mercados estén cerrados y que el Sistema de Pagos en Moneda Local (SML), el mecanismo para operar con monedas locales en el comercio regional, tampoco funciona en feriados ni fines de semana. Según iProfesional, citado por El Economista, los días 6, 9 y 10 no habrá cotización del dólar oficial ni del mayorista. La Comunicación \"A\" 8487 no menciona el mercado de cambios ni explica cómo se corren los plazos de operaciones puntuales.",
-        "Para quienes tengan que girar pagos de importaciones o ingresar cobros de exportaciones, el jueves 5 de noviembre es el último día hábil bancario antes del cierre, y Bloomberg Línea recomienda resolver ese día todo lo que no pueda hacerse por canales electrónicos. El Economista sugiere revisar los vencimientos de pagos y cobros que caigan entre el 6 y el 10 y adelantarlos cuando sea posible; también plantea que las transferencias masivas enviadas esos días podrían acreditarse recién el miércoles 11, una inferencia del propio medio que conviene confirmar con cada banco.",
-        "## Vencimientos y terminales portuarias",
-        "En materia tributaria, los vencimientos nacionales que caen en días inhábiles se trasladan al día hábil siguiente, y entre el viernes 6 y el martes 10 no hay vencimientos de ARCA, según Tributum. Los vencimientos locales dependen de cada jurisdicción: la Ciudad, la provincia de Buenos Aires y Córdoba tienen feriados en días distintos.",
-        "Para la operatoria en los puertos, el Centro Despachantes de Aduana (CDA) difundió el 2 de noviembre los cronogramas operativos de las terminales Exolgan, APM Terminals y TRP para el lunes 9, el martes 10 y el miércoles 11. Los horarios figuran como imágenes adjuntas en el sitio del CDA, por lo que conviene consultarlos allí antes de programar retiros o entregas de contenedores.",
-        "## La agenda de la visita",
-        "Según la agenda que publicó Chequeado, el Papa llega el domingo 8 a Ezeiza a las 16:30 y ese día se reúne con el presidente Javier Milei en la Casa Rosada. El lunes 9 visita el Pequeño Cottolengo Don Orione de Claypole y celebra misa en el Monumento a los Españoles, en Palermo. El martes 10 da misa en la Escuela de Aviación Militar de Córdoba y regresa a Buenos Aires para una vigilia con jóvenes. El miércoles 11 visita a las 8 el Complejo Penitenciario Federal, celebra misa a las 10 en la Basílica de Luján y se despide en Ezeiza antes de viajar a Perú."
-      ],
-      "keyData": [
-        [
-          "Días sin sucursales bancarias",
-          "5 (viernes 6 al martes 10 de noviembre)"
-        ],
-        [
-          "Feriado nacional",
-          "Lunes 9 de noviembre (Decreto 1103/2026, art. 2)"
-        ],
-        [
-          "Martes 10",
-          "Feriado en CABA y Córdoba; feriado bancario en todo el país (Com. \"A\" 8487)"
-        ],
-        [
-          "Miércoles 11",
-          "Feriado en la provincia de Buenos Aires (art. 4)"
-        ],
-        [
-          "Último día hábil bancario antes del cierre",
-          "Jueves 5 de noviembre"
-        ],
-        [
-          "Vencimientos de ARCA",
-          "Ninguno entre el 6 y el 10; pasan al día hábil siguiente"
-        ],
-        [
-          "Terminales con cronograma especial",
-          "Exolgan, APM Terminals y TRP (vía CDA)"
-        ]
-      ],
-      "explainer": {
-        "what": "Por la visita de León XIV, el Decreto 1103/2026 fijó feriado nacional el lunes 9 de noviembre y feriados regionales el 10 (CABA y Córdoba) y el 11 (provincia de Buenos Aires), y el BCRA declaró feriado bancario nacional el martes 10.",
-        "why": "Con el Día del Bancario del viernes 6, los bancos no atenderán en sucursales durante 5 días seguidos, del 6 al 10, y según Bloomberg Línea el mercado de cambios y el SML no operarán con normalidad: el jueves 5 es el último día hábil bancario para pagos y cobros con el exterior.",
-        "who": "Importadores y exportadores que giran pagos o ingresan cobros, despachantes y operadores que trabajan con las terminales del área metropolitana, y contribuyentes con vencimientos en esa semana.",
-        "products": [],
-        "next": "Las sucursales bancarias vuelven a atender el miércoles 11 de noviembre; los vencimientos nacionales que caen entre el 6 y el 10 se trasladan al día hábil siguiente.",
-        "nextSource": {
-          "name": "Bloomberg Línea",
-          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/bancos-en-argentina-cerraran-cinco-dias-seguidos-en-noviembre-cuando-y-que-operaciones-seguirian-disponibles/"
-        }
-      },
-      "topics": [
-        "Argentina",
-        "Regulaciones",
-        "Aduanas",
-        "Logística"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Feriados",
-        "BCRA",
-        "Bancos",
-        "Mercado de cambios",
-        "ARCA",
-        "Terminales portuarias",
-        "Decreto 1103/2026"
-      ],
-      "visual": "port",
-      "impact": 2,
-      "affectsArgentina": true,
-      "argentinaNote": "La semana del 6 al 11 de noviembre tiene cinco días sin sucursales bancarias y hasta tres feriados en el área metropolitana: conviene adelantar al jueves 5 los pagos al exterior y los ingresos de divisas que no puedan hacerse por canales electrónicos y revisar los cronogramas de las terminales.",
-      "argentinaImpact": {
-        "flows": [
-          "Importaciones",
-          "Exportaciones"
-        ],
-        "summary": "Los pagos de importaciones y los cobros de exportaciones que pasan por el mercado de cambios o por el SML quedan sin operatoria habitual del 6 al 10 de noviembre; las terminales Exolgan, APM y TRP aplican cronogramas especiales del 9 al 11."
-      },
-      "sources": [
-        {
-          "name": "Boletín Oficial – Decreto 1103/2026",
-          "type": "Organismo oficial",
-          "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/348022/20260928",
-          "primary": true
-        },
-        {
-          "name": "BCRA – Comunicación \"A\" 8487",
-          "type": "Organismo oficial",
-          "url": "https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A8487.pdf"
-        },
-        {
-          "name": "Bloomberg Línea",
-          "type": "Medio especializado · Economía",
-          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/bancos-en-argentina-cerraran-cinco-dias-seguidos-en-noviembre-cuando-y-que-operaciones-seguirian-disponibles/"
-        },
-        {
-          "name": "El Economista",
-          "type": "Medio especializado · Economía",
-          "url": "https://eleconomista.com.ar/finanzas/cinco-dias-bancos-noviembre-conviene-resolver-antes-6-sigue-funcionando-n98616"
-        },
-        {
-          "name": "Tributum",
-          "type": "Medio especializado · Impuestos",
-          "url": "https://tributum.news/com-a-8487-2026-bcra-feriados-bancarios-noviembre-2026-tres-dias-habiles-consecutivos-sin-bancos-vencimientos-fiscales/"
-        },
-        {
-          "name": "Centro Despachantes de Aduana",
-          "type": "Entidad del sector",
-          "url": "https://cda.org.ar/detalle_noticia.php?id=42843"
-        },
-        {
-          "name": "Chequeado",
-          "type": "Medio · Verificación",
-          "url": "https://chequeado.com/el-explicador/visita-del-papa-leon-xiv-cuales-son-los-feriados-del-9-10-y-11-de-noviembre-y-donde-rigen/"
-        }
-      ],
-      "absorbs": [
-        "centro-despachantes-de-aduana-de-la-republica-argentina-cronogramas-operativos-f"
-      ],
-      "story": "aduana-argentina",
-      "deadlines": [
-        {
-          "date": "2026-11-05",
-          "label": "Bancos: último día hábil con atención en sucursales antes del cierre del 6 al 10 de noviembre",
-          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/bancos-en-argentina-cerraran-cinco-dias-seguidos-en-noviembre-cuando-y-que-operaciones-seguirian-disponibles/"
-        },
-        {
-          "date": "2026-11-09",
-          "label": "Argentina: feriado nacional por la visita del papa León XIV (Decreto 1103/2026)",
-          "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/348022/20260928"
-        },
-        {
-          "date": "2026-11-10",
-          "label": "BCRA: feriado bancario en todo el país; feriado en CABA y Córdoba por la visita papal",
-          "url": "https://www.bcra.gob.ar/archivos/Pdfs/comytexord/A8487.pdf"
-        },
-        {
-          "date": "2026-11-11",
-          "label": "Provincia de Buenos Aires: feriado por la visita del papa León XIV; vuelve la atención bancaria",
-          "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/348022/20260928"
-        }
-      ]
-    },
-    {
-      "id": "ue-investigacion-salvaguardia-vehiculos-hibridos-importaciones-1-4-millones-cupo-china",
-      "date": "2026-11-02",
-      "kind": "noticia",
-      "title": "La UE abre una investigación de salvaguardia contra los híbridos importados, que crecieron casi 50% desde 2023",
-      "summary": "La Comisión Europea inició de oficio el 30 de octubre una investigación sobre las importaciones de autos híbridos nuevos, que llegaron a 1,42 millones de unidades en un año. Al ser una salvaguardia, alcanza a todos los orígenes: Japón, Corea del Sur, el Reino Unido y Turquía protestaron en la OMC.",
-      "body": [
-        "La Comisión Europea abrió el 30 de octubre, de oficio, una investigación de salvaguardia sobre las importaciones de ciertos vehículos híbridos nuevos para el transporte de personas y ese mismo día la notificó al Comité de Salvaguardias de la Organización Mundial del Comercio (OMC), en el documento G/SG/N/6/EU/4. El aviso de inicio salió en el Diario Oficial de la UE también el 30 de octubre, según EU Law Live.",
-        "La cifra que sostiene el caso es el salto de las compras: las importaciones europeas de autos híbridos pasaron de unas 960.000 unidades en 2023 a 1,42 millones entre julio de 2025 y junio de 2026, un alza de alrededor de 49%, según los datos que citan Yicai y MoneyToday. A diferencia de un antidumping, una salvaguardia no apunta a un país: en principio se aplica a todas las procedencias. Por eso el caso, que llega semanas después del entendimiento entre Bruselas y Pekín para moderar las ventas chinas, inquieta también a Japón, Corea del Sur, el Reino Unido y Turquía.",
-        "## Qué productos abarca",
-        "Según EU Law Live, la investigación cubre los híbridos nuevos diseñados principalmente para llevar nueve personas o menos, incluido el conductor, tanto enchufables como no enchufables: los que combinan un motor de combustión interna de pistón con uno o más motores eléctricos para la propulsión. La Comisión se apoya en el artículo 5 del Reglamento (UE) 2015/478 y en el artículo 3 del Reglamento (UE) 2015/755.",
-        "La Dirección General de Comercio y Seguridad Económica tiene que determinar si el aumento de las importaciones causa o amenaza causar un perjuicio grave a la industria europea y si existe una relación causal entre ambos. Solo después de escuchar a las partes interesadas y consultar a los socios comerciales puede decidir si impone medidas y de qué tipo, explicó MoneyToday.",
-        "## Los números del caso",
-        "Según datos de Eurostat citados por Yicai, el año pasado China, Japón, Corea del Sur, el Reino Unido y Turquía fueron los cinco mayores proveedores de la UE de vehículos híbridos y eléctricos por valor, con el 82,7% del total; China sola aportó el 26%. Las compras europeas de híbridos chinos crecieron 182,2% en 2025, hasta 302.000 unidades, según Yicai; BigGo, que cita las mismas estadísticas, ubica el punto de partida en 107.000 unidades en 2024.",
-        "El impacto no se limita a China. Corea del Sur, por ejemplo, exportó a la UE híbridos por US$ 2.418 millones el año pasado y por US$ 1.633 millones entre enero y septiembre de este año, según la agencia coreana de promoción comercial KOTRA citada por MoneyToday. El Ministerio de Comercio, Industria y Energía coreano anunció que presentará su posición por escrito y en consultas bilaterales para proteger el acceso de sus automotrices.",
-        "## La discusión por el cupo chino",
-        "El caso llega después del entendimiento del 9 de octubre entre el comisario de Comercio, Maroš Šefčovič, y el ministro chino Wang Wentao, que según el comisario abría la posibilidad de recortar en más de la mitad las ventas chinas de híbridos a Europa. Las fuentes difieren sobre la cifra final: MoneyToday informó que el acuerdo fija para China un cupo anual de 350.000 unidades, frente a una proyección de 800.000 para este año, un recorte de alrededor de 56%; Yicai, en cambio, no da un número y señala que China logró que el cupo se calcule sobre su volumen real de 2025.",
-        "La base de cálculo pesa. Según el especialista chino Shi Xiaoli, citado por Yicai y BigGo, con el promedio de 2022–2024 el cupo chino rondaría las 70.000 unidades por año, y con 2025 incluido, unas 150.000. El 12 de octubre el Ministerio de Comercio de China informó que ambas partes acordaron tres principios: respeto de los hechos, no discriminación y apego a las reglas de la OMC, de modo que el cupo chino no sea menor que el de ningún otro proveedor. El 29 de octubre la misma cartera advirtió que tomará las medidas necesarias si la UE discrimina productos chinos.",
-        "## Las quejas en Ginebra y los plazos",
-        "En el Comité de Salvaguardias de la OMC, el Reino Unido reconoció el derecho a aplicar salvaguardias pero pidió pleno apego al acuerdo y transparencia; Japón lamentó la apertura y sostuvo que sus exportaciones de híbridos no crecieron; Corea del Sur preguntó si la UE pactó volúmenes de cupo con un país en particular y si los años de referencia lo favorecen, y Turquía reclamó que se excluya a los socios cuyas ventas no causaron daño, según BigGo y Yicai.",
-        "De acuerdo con la notificación reproducida por IndexBox, productores, importadores y concesionarios europeos tienen 21 días desde la publicación de los cuestionarios para responderlos, y las partes interesadas, incluidas las representaciones de terceros países, 21 días desde la publicación del aviso para presentar escritos y pedir audiencia. La investigación debe terminar en principio en nueve meses, ampliables a once en casos excepcionales, según MoneyToday; Shi Xiaoli estimó que podría haber medidas provisionales uno o dos meses después del inicio. Según Yicai, entre 1995 y 2025 la UE abrió siete investigaciones de salvaguardia y en 2026 ya lleva dos: la del acero magnético de grano orientado y la de los híbridos."
-      ],
-      "keyData": [
-        [
-          "Importaciones de híbridos de la UE",
-          "1,42 millones de unidades (jul. 2025–jun. 2026), casi +50% vs. 2023"
-        ],
-        [
-          "Inicio de la investigación",
-          "30 de octubre de 2026 (de oficio)"
-        ],
-        [
-          "Notificación a la OMC",
-          "G/SG/N/6/EU/4"
-        ],
-        [
-          "Cinco mayores proveedores (2025)",
-          "China, Japón, Corea del Sur, Reino Unido y Turquía: 82,7% del valor"
-        ],
-        [
-          "Híbridos chinos importados en 2025",
-          "302.000 unidades (+182,2%)"
-        ],
-        [
-          "Cupo chino informado por MoneyToday",
-          "350.000 unidades por año"
-        ],
-        [
-          "Plazo de la investigación",
-          "9 meses, ampliable a 11"
-        ]
-      ],
-      "explainer": {
-        "what": "La Comisión Europea abrió el 30 de octubre una investigación de salvaguardia sobre las importaciones de autos híbridos nuevos, enchufables y no enchufables, de todos los orígenes.",
-        "why": "Las importaciones de híbridos de la UE llegaron a 1,42 millones de unidades entre julio de 2025 y junio de 2026, casi 50% más que en 2023; una salvaguardia puede derivar en cupos o recargos que alcancen a todos los proveedores, no solo a China.",
-        "who": "Fabricantes y exportadores de híbridos de China, Japón, Corea del Sur, el Reino Unido y Turquía, e importadores y concesionarios europeos.",
-        "products": [
-          "Autos híbridos nuevos",
-          "Híbridos enchufables",
-          "Vehículos para nueve personas o menos"
-        ],
-        "next": "La investigación debe terminar en principio en nueve meses, ampliables a once en casos excepcionales; las partes interesadas tienen 21 días desde la publicación del aviso para presentar escritos y pedir audiencia.",
-        "nextSource": {
-          "name": "MoneyToday",
-          "url": "https://www.mt.co.kr/en/economy/2026/10/30/2026103020354098284"
-        }
-      },
-      "topics": [
-        "Europa",
-        "China",
-        "Aranceles",
-        "Regulaciones",
-        "Importaciones"
-      ],
-      "countries": [
-        "Unión Europea",
-        "China",
-        "Japón",
-        "Corea del Sur",
-        "Reino Unido",
-        "Turquía"
-      ],
-      "tags": [
-        "Salvaguardia",
-        "Autos híbridos",
-        "OMC",
-        "Comisión Europea",
-        "Cupos"
-      ],
-      "visual": "auto",
-      "impact": 2,
-      "affectsArgentina": false,
-      "sources": [
-        {
-          "name": "EU Law Live",
-          "type": "Medio especializado · Derecho europeo",
-          "url": "https://eulawlive.com/commission-opens-safeguard-investigation-into-imports-of-new-hybrid-passenger-vehicles/",
-          "primary": true
-        },
-        {
-          "name": "Yicai Global",
-          "type": "Medio especializado · Economía",
-          "url": "https://www.yicaiglobal.com/news/eus-hybrid-ev-probe-riles-key-trading-partners-china-locks-in-favorable-export-quota"
-        },
-        {
-          "name": "MoneyToday",
-          "type": "Medio · Economía (Corea del Sur)",
-          "url": "https://www.mt.co.kr/en/economy/2026/10/30/2026103020354098284"
-        },
-        {
-          "name": "BigGo Finance",
-          "type": "Medio especializado · Finanzas",
-          "url": "https://finance.biggo.com/news/c99aa7ad-5379-4eb2-bc36-ccae926e5332"
-        },
-        {
-          "name": "IndexBox",
-          "type": "Medio especializado · Comercio",
-          "url": "https://www.indexbox.io/blog/eu-opens-wto-notified-safeguard-investigation-into-certain-new-hybrid-vehicle-imports/"
-        },
-        {
-          "name": "CPTPP Trade Updates",
-          "type": "Medio especializado · Comercio",
-          "url": "https://www.cptpp.co.uk/trade-updates/eu-launches-safeguard-investigation-on-certain-new-hybrid-vehicles/"
-        }
-      ],
-      "absorbs": [
-        "la-ue-inicia-una-investigacion-en-materia-de-salvaguardias-relativa-a-determinad"
-      ],
-      "story": "china-comercio"
-    },
-    {
-      "id": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade",
-      "date": "2026-11-03",
-      "kind": "datos",
-      "title": "La Argentina tiene 52 productos agroindustriales entre los 20 mayores exportadores del mundo y 26 en el top 5",
-      "summary": "Un relevamiento de la Secretaría de Agricultura sobre datos 2025 de COMTRADE ubica al país como primer exportador mundial de aceites y harinas de soja y girasol, maní, yerba mate y derivados del limón. El complejo sojero exportó unos US$ 15.600 millones y la India compró el 54% del aceite de soja.",
-      "body": [
-        "La Argentina cerró 2025 con 52 productos agroindustriales entre los veinte mayores exportadores del mundo y 26 entre los cinco primeros, según un relevamiento de la Secretaría de Agricultura, Ganadería y Pesca (SAGyP) basado en COMTRADE, la base de estadísticas de comercio de Naciones Unidas. El trabajo, que difundieron el 2 y el 3 de noviembre Infobae, Infocampo y Noticias Agropecuarias, abarca más de 35 cadenas de valor.",
-        "El informe compara posiciones en los rankings mundiales y no trae montos de exportación para cada producto. Además, las fuentes difieren en el detalle de los primeros puestos, porque agrupan de distinta manera los productos de un mismo complejo.",
-        "## Dónde la Argentina es primera",
-        "Según Infobae, el país fue el primer exportador mundial en ocho rubros: aceite de girasol, aceite de soja, aceite esencial de limón, jugo de limón, maní, subproductos de soja (harinas y pellets), subproductos de girasol y yerba mate. Infocampo agrupa esos liderazgos en seis: girasol, soja, yerba mate, maní, aceite esencial de limón y jugo de limón. Infocampo y Noticias Agropecuarias coinciden en que la yerba mate subió al primer lugar; Infocampo precisa que venía del segundo.",
-        "En el tercer puesto aparecen el maíz, el sorgo, los porotos comunes, el ajo, la ciruela seca, el mosto de uva, la merluza congelada y el poroto de soja. En el cuarto, según Infobae, figuran la carne equina, la leche en polvo entera, la miel y las preparaciones de maní.",
-        "## Entre los diez primeros",
-        "Dentro del top 10, sin posición exacta, Infocampo menciona la carne vacuna, el vino, la miel, las peras, la carne equina, la lana sucia, las preparaciones de durazno, el jugo de naranja, el aceite de oliva, el trigo, los garbanzos, el té, las aceitunas, las pasas de uva, la alfalfa y los frutos secos, entre otros.",
-        "La SAGyP atribuye parte del desempeño a la simplificación de trámites, a más de 600 aperturas de mercados durante la actual gestión y a la inversión privada en tecnología, según Noticias Agropecuarias. Es la explicación del organismo: el relevamiento no mide el peso de cada factor.",
-        "## El complejo sojero, en números",
-        "Infobae detalla que el complejo sojero, que incluye poroto, aceite y subproductos, exportó en 2025 unos US$ 15.600 millones. El aceite de soja aportó US$ 6.868 millones, el 44% del total del complejo, con 6,73 millones de toneladas. La India fue el principal destino: compró 3,64 millones de toneladas por US$ 3.712 millones, el 54% del valor exportado de aceite.",
-        "Detrás se ubicaron Bangladesh (479.000 toneladas, por US$ 487 millones), Canadá (355.000 toneladas), Perú (305.500), Marruecos (159.500), Mozambique (115.600) y Pakistán (casi 60.000). Un 20,5% del valor, US$ 1.411 millones por unas 1,39 millones de toneladas, figura con destino sin determinar.",
-        "## Qué no dice el relevamiento",
-        "Las notas publicadas no informan el valor total de las exportaciones agroindustriales de 2025, la cantidad de destinos ni la posición exacta del trigo o de la carne vacuna, que solo aparecen dentro del top 10. En la versión de Noticias Agropecuarias, el cuadro llama posiciones arancelarias a los 26 ítems del top 5, mientras que el texto habla de productos."
-      ],
-      "keyData": [
-        [
-          "Productos en el top 20 mundial (2025)",
-          "52"
-        ],
-        [
-          "Productos en el top 5",
-          "26"
-        ],
-        [
-          "Primer exportador mundial",
-          "8 rubros según Infobae (6 según Infocampo)"
-        ],
-        [
-          "Cadenas de valor representadas",
-          "Más de 35"
-        ],
-        [
-          "Exportaciones del complejo sojero (2025)",
-          "≈ US$ 15.600 millones"
-        ],
-        [
-          "Aceite de soja",
-          "US$ 6.868 millones y 6,73 millones de t"
-        ],
-        [
-          "Participación de la India en el aceite de soja",
-          "54% del valor (US$ 3.712 millones)"
-        ]
-      ],
-      "explainer": {
-        "what": "Según la Secretaría de Agricultura, con datos 2025 de COMTRADE, la Argentina tiene 52 productos agroindustriales entre los 20 mayores exportadores del mundo y 26 entre los cinco primeros.",
-        "why": "Muestra en qué cadenas el país tiene peso global: es primer exportador de aceites y harinas de soja y girasol, maní, yerba mate y derivados del limón, y el complejo sojero exportó unos US$ 15.600 millones.",
-        "who": "Exportadores agroindustriales, la industria aceitera y las economías regionales (limón, yerba mate, maní, frutas, vino).",
-        "products": [
-          "Aceite y harina de soja",
-          "Aceite y harina de girasol",
-          "Maní",
-          "Yerba mate",
-          "Jugo y aceite esencial de limón",
-          "Maíz",
-          "Sorgo"
-        ]
-      },
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina",
-        "India"
-      ],
-      "tags": [
-        "SAGyP",
-        "COMTRADE",
-        "Agroexportación",
-        "Soja",
-        "Girasol",
-        "Yerba mate",
-        "Limón",
-        "Maní"
-      ],
-      "visual": "agro",
-      "impact": 1,
-      "affectsArgentina": true,
-      "argentinaNote": "El ranking confirma la dependencia de pocos complejos, sobre todo el sojero, y de pocos destinos: la India compró el 54% del valor del aceite de soja exportado en 2025.",
-      "argentinaImpact": {
-        "flows": [
-          "Exportaciones"
-        ],
-        "summary": "Posiciones de la Argentina en los rankings mundiales de exportación agroindustrial de 2025, con detalle de destinos del aceite de soja."
-      },
-      "sources": [
-        {
-          "name": "Infobae",
-          "type": "Medio · Economía",
-          "url": "https://www.infobae.com/movant/2026/11/03/la-agroindustria-argentina-gana-posiciones-y-consolida-una-amplia-red-de-destinos-internacionales/",
-          "primary": true
-        },
-        {
-          "name": "Infocampo",
-          "type": "Medio especializado · Agro",
-          "url": "https://www.infocampo.com.ar/liderazgo-global-segun-la-onu-argentina-tiene-26-productos-del-agro-en-el-top-five-mundial/"
-        },
-        {
-          "name": "Noticias Agropecuarias",
-          "type": "Medio especializado · Agro",
-          "url": "https://www.noticiasagropecuarias.com/2026/11/02/liderazgo-global-52-productos-agroindustriales-argentinos-se-consolidan-en-el-top-20-mundial/"
-        }
-      ],
-      "absorbs": [
-        "mas-de-50-productos-argentinos-se-posicionan-en-los-primeros-puestos-de-exportac",
-        "argentina-se-ubica-entre-los-principales-exportadores-mundiales",
-        "argentina-figura-entre-los-principales-exportadores-de-mas-de-50-productos-agroi",
-        "argentina-se-posiciona-entre-los-lideres-mundiales-mas-de-50-productos-agroindus"
-      ],
-      "story": "agroexportacion"
     }
   ],
   "ingestion": {
-    "ranAt": "2026-11-03T02:59:45Z",
+    "ranAt": "2026-11-03T17:13:06Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
@@ -112791,8 +113283,8 @@
         "url": "https://www.aduananews.com/feed/",
         "ok": true,
         "items": 12,
-        "added": 0,
-        "updated": 1,
+        "added": 1,
+        "updated": 0,
         "skipped": 3
       },
       {
@@ -112800,51 +113292,51 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 8,
+        "added": 7,
         "updated": 0,
-        "skipped": 7
+        "skipped": 8
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 42,
+        "items": 18,
         "added": 4,
         "updated": 0,
-        "skipped": 30
+        "skipped": 9
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 25,
+        "items": 24,
         "added": 1,
         "updated": 0,
-        "skipped": 17
+        "skipped": 19
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 64,
+        "items": 66,
         "added": 4,
         "updated": 0,
-        "skipped": 46
+        "skipped": 51
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 41,
+        "items": 40,
         "added": 4,
         "updated": 0,
-        "skipped": 35
+        "skipped": 31
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
         "url": "https://news.google.com/rss/search?q=(aranceles+OR+%22guerra+comercial%22+OR+%22acuerdo+comercial%22)+when:1d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 64,
+        "items": 68,
         "added": 4,
         "updated": 0,
         "skipped": 57
@@ -112853,10 +113345,10 @@
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 40,
+        "items": 45,
         "added": 4,
         "updated": 0,
-        "skipped": 22
+        "skipped": 31
       }
     ],
     "curatedDuplicates": [
@@ -112866,104 +113358,105 @@
         "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
       },
       {
-        "title": "Newcastle en Brasil: Argentina restringió importaciones y refuerza la vigilancia avícola",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdHJLTktYN3dPWXRHYk9CellVb2l4ei1KbV9UWGpLeUpvc05LX21LTVMyTERsTXZUYWpVZ2tWZzA2dkNmZElQa0QwS2kwak04ZDhaNFBfLUJQVXFIeWlPbzF6bHJfYW01NU9fc0VPUzdVb1YzWHVZRFM2YXpSbld6YW95ajJzdWRvWkZDNmpOLUZSaXIxWTlONmptLTJzV0Y1V2prZzY3QnVxUnpJbUk4bUFiRkhxYzhVVWRWVmFlSUFNVHVwQmYzc1BFUG1PWjZkUmFXRtIB7wFBVV95cUxNckhPUG5lNGxWckJkOEVVbk9kU29CSEgwM20teDUtLW5CVU5vQjBTYVkxTk9GVjZaTzFwdzJ2ZkJfYUN3MW8xdDdvWnpYZVZfTmx5MGxMS3dsNkJtdGxwTHN0WVo4b29LTEVNdUljUXhiWnItZkhxWG1NcEdZcWRyMHpYV1ROZkhqQUlEX2pxUTJjQ3M5Mk1LZmlTeTlEc2k4VEZFeEE1ZUQ0bXVCeWpKbmZDS0pvcndPclNjdmtMaHBJaGdhd3BxdUc3azlNTFBwWWs2cjRZQVhBSmVjd0d3d1gwOUZ0VjFLV0xGWkF4cw?oc=5",
-        "curated": "senasa-newcastle-brasil-suspende-importaciones-zona-restriccion-santa-catarina"
+        "title": "Argentina se destaca entre los principales exportadores mundiales de 52 productos agroindustriales",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPX2VxZWJ1d3UySmJFWFl2azF5QVBGOFNrSVNBZ2JhV0YwOG1tUnFYVUFkWGxDLW1GZXNNbkNEVEYwdHMyaDFTcjJXMjlSRnZiWEhjUDlxZ2ZJYWJzVWJqcVFtSGkwcElvTjl0cHE4cW9GUGNqaTd3R1d2cGJrQmtzcDJpc2JGOFR2WjFXamNjRHlXUmhjS20wcVZLUXRrQjlVTEk2SEhFbG9oR0x4bEdpbEoxY05hMFVKekJSUHRZclpoMmdyYkszN9IByAFBVV95cUxPX2VxZWJ1d3UySmJFWFl2azF5QVBGOFNrSVNBZ2JhV0YwOG1tUnFYVUFkWGxDLW1GZXNNbkNEVEYwdHMyaDFTcjJXMjlSRnZiWEhjUDlxZ2ZJYWJzVWJqcVFtSGkwcElvTjl0cHE4cW9GUGNqaTd3R1d2cGJrQmtzcDJpc2JGOFR2WjFXamNjRHlXUmhjS20wcVZLUXRrQjlVTEk2SEhFbG9oR0x4bEdpbEoxY05hMFVKekJSUHRZclpoMmdyYkszNw?oc=5",
+        "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
       },
       {
-        "title": "Exportaciones agroindustriales: Argentina lidera el mercado mundial en 26 productos",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPS0V5dGlfZ19PclRobVUxREVxeVFWbnRfTTJqMEF1Z1JYT28xNVQ4Q21oRl8wU3JlWi1JQjZNX3d1WEJVaVplSGZOXzZyRDB1R1QtOFFCZEs5S3QwdlppSGcxeFFfNkY2MGVFc09fLVZDTFJsVUFhR3FSM045aWNCLTl6VzJpSEVOLV9sNVozM3MxS056aTdLOEpfdjZHNWk1TmRRS09XRktDTl9meDNaRzJvU09JcVlmTGo4?oc=5",
-        "curated": "bcr-harina-de-soja-precio-26-anos-biocombustibles-brasil-31-mt-eeuu-21-mt-oilshare"
+        "title": "Argentina lidera las exportaciones mundiales de seis productos agroindustriales",
+        "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNUmRKLXk5bDRJZHloR3NZRXJVV1ZVaE5LRmZ1ZUlNQ0ExTjFSNHc1ekRKU0VyOG01ckxpajJmWWtIS09rU2V2N0UtTTRHMzFFNDZUekJRalZZNmhZWWlLTTNDei0yTTFDdkhVRnJKdnJJN2RHOEdpR0J2ZzJZZmM1UXFGYmVyb3pfLVVkZHdERDlwbmJmVkNBZ0I0SVJFNW5XczhvalVEY19WZzgyeVc3RExCLUxzQjdLRWFGcGphMDQtQzB0TGliMy1LbG1pRU1JWDVHR3YwbmZFNVVRdXZ2M2tadmZiaE1JS2J3MGNCT2U2Rm1hbXVBUWR2YzVCdFVVT3BkcmY2XzV5dmFyNFAxMWVKNVFiWC10dUM1U2ptZHcwMWNEWVNWZmh1QkVSOW5LdXh0RnhsZkFmb2FqclktZnAxeXA?oc=5",
+        "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
       },
       {
-        "title": "A seis meses de su aplicación, acuerdo Mercosur-UE permitió aumento de 12% en exportaciones",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZFRPV0ptQXdOWHU1Q2tTeWtFNzBjU0Q2YlVmZ3g3aDFrcDBtT3VxOWNybzE1cGVNV2FuVDhzN2diNHNkeTlWMndnVnMwNUxzMHVZSHZZaldGZ2VVQkFmWlVsSDdQOTdxMHJzY2k0ZnBYR0c2Y2ZiMkc1VFFxNkhUZm5JeHJfVlpOV29NOGREZTFNN1VWbkR4LUo3aXk5RXRJMUJ5MUJqd2hxd19UY2dkcTVveFo5NWkwTFFuUklELWR1RXRUampZTDln0gHPAUFVX3lxTFBSWUFtNWxJNWgyQzhleGtxSzh4aDM0VGVZUlh2MW84QnhOa3MzdkRjM0RmU1VpdnA3NzhSNFJRRGxKRFFPcFBqRFpFc21jT1VaaHNDSm9yeEN6eUp1YUVIU3pyUm0yaFEtZE5GaHJ0UDFDaEJLWXVrWG9aX1RyNzJodWsyRWRBb0NSckMxUmZKZk4xQ0R6d0c1TGhlLU00TnA4QnRDUWhneEhQM1FvUkZPSjF3eUcwOGhaNEhMOFFhUk84ckduZFBiN2JVdzdDOA?oc=5",
+        "title": "Uruguay aumentó las exportaciones a Europa tras el acuerdo con el Mercosur: qué productos se beneficiaron",
+        "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNN1F5cXFxM2h3VVljTmNWU25xdTh0X3htdUtTV0wwMERyNGV4ZzZiN3hqZjVaMnRYdjRMMXdRbVpOUU54YXhIcFpyUy05UFBnSGlBN1htdWdoQWMybXdZeElwNWRYd3Y4ZVBVZUcxNGp0bDZGYmNVN3o3VmFfVVBYa2N0bnUwZGRwY01IeExCSThia21lNlV6dlQ3Z2tJMmpWVzVyam5YbU1sbWpsX2ZBeTdWazJCbUhUNGVha0ZVQ0tJa25hZ2F1OEJ4cGY1eVpRR2Y5dk5obTI3LTFtNHhaN2JDUHdaRGcyclNNRXJQSjV4a0llUTBrVDZ5RGlSM3dUajQwQUVHNnNrMGFDMVZ5SNIBkAJBVV95cUxNN1F5cXFxM2h3VVljTmNWU25xdTh0X3htdUtTV0wwMERyNGV4ZzZiN3hqZjVaMnRYdjRMMXdRbVpOUU54YXhIcFpyUy05UFBnSGlBN1htdWdoQWMybXdZeElwNWRYd3Y4ZVBVZUcxNGp0bDZGYmNVN3o3VmFfVVBYa2N0bnUwZGRwY01IeExCSThia21lNlV6dlQ3Z2tJMmpWVzVyam5YbU1sbWpsX2ZBeTdWazJCbUhUNGVha0ZVQ0tJa25hZ2F1OEJ4cGY1eVpRR2Y5dk5obTI3LTFtNHhaN2JDUHdaRGcyclNNRXJQSjV4a0llUTBrVDZ5RGlSM3dUajQwQUVHNnNrMGFDMVZ5SA?oc=5",
         "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
       },
       {
-        "title": "Exportaciones uruguayas crecieron 12% en los primeros cinco meses de aplicación del acuerdo Mercosur-UE",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPY2FtMm50dVh1ZjdjT1k2b05WaVU4R1hNMXZJYWtIRVRoUkwtVWRCMTQwbVAwSkFqaDg1ajRBUTJQYzJjMkExeEJya0F1YTdhX0REMWxkQTlsamhYMDU5MElRdE1DT1pvNHdRNU5FVWNPdHZDd01XTUtVUEo4Skg1UF85Q3J5SndZb2U5ZkJFNXEyWHZYTHVHWkh4U05GTUdNUlZUWjF4eWhVZ0NyU2ItMURFa2liMUpfT3J4aWFnc0hVSGZURWswNlYtNzVKcGvSAdQBQVVfeXFMTzlGVHVjbXBpWVNqOFpOVzRSYjJlckEtaDdLazBIQThSRlF5bFZnc0dnZ1h4Q2NTN1Y2cTFySUJhSEhTa3JVd0tZVDR3bnhSSWM5b1RWM0x5ZXVoS1VwV0U3anBhaVZwRmEtb0pnZU5RZDdzZm44d3NkNVdTeUhRMWpUMEVtaU9uTUlzQ0E0bV9ITDNSNEg1TWo5Sk1JVy1QZW9lNXFIMjk3X3NRYU9pOFp2cGxIN1EzeFBQTXV1NnZVOERiU2haQTFRSW9xSnVtOWJPV3Q?oc=5",
-        "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
-      },
-      {
-        "title": "Uruguay amplía su horizonte de exportación a través del acuerdo entre el Mercosur y la EFTA",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMVVoN05BcG1OR0NpbmUyREFuMDY1cDhrdnI5UVYwdXIwX2pySHpzTEpCZ0FEZTBFcEVRMno3c0c2ZWkyVW9NNkRXUDVWSUhlQV83RTl1NlhtOTVaaW5ucTJtN2d4Tmc2SWFDYnhhamdxUllYUjZ2Mjk5MUhmWTlRTmVMVEZFYzFVdjRySW0wc1BFdFpJbTJmc1p6NnNCWml1RGdZS2hkWHBBQ1JTQzNwMVdyOEl6dndvY0E?oc=5",
+        "title": "Entró en vigor el tratado Mercosur-EFTA entre Uruguay, Noruega e Islandia, mercado de 15 millones de personas",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWjhBZzJIbmU3U2JtZEJfUkc1RWxiZEpZUFppSGhaNXkzbm9YS0hjMFYtWjJVa25UdWlzQzZ3X2NlN1VJWjRTN0VVZ0dMT1RKMzBKTUlXbGs3U1FFUS0tUmpITXV3SWc0WkZuaHZUbmFaWWRxaG1FR3ZkSExQQUNlUERwUno1aWVYLVZXdkdSTURVcVl3NlFka1hFdHFwMXNpNy1zcFAyVzZRUlktX0pTdEwxN0VsMFdfX29zU0R1WEhibzhiNTktMkhDQ0FlVlBtalo0VWh1MHdja1Rf?oc=5",
         "curated": "uruguay-aplica-acuerdo-mercosur-aelc-noruega-islandia-1-noviembre-cupos-vuce"
       },
       {
-        "title": "Las exportaciones uruguayas a la Unión Europea crecieron 12% en los primeros meses del acuerdo UE-Mercosur",
-        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQUHFZR2FYU2dLTWprUjRsZVJTcVNMcmppbUQxNjhaQkJ0Nk5WWm04WUVodkxwcE1kT1BTdlc0ajhpeXBya1RpYW9KSDBVU2dSQi1WWlpzNmpucEFEeWxOTUV5OXlrRnBEX1BiRUVXcmttQVFvSm93TURCZEVMZHQ1MGJEckVDR3l4QnVFNXZDbFZfcDR1c2JubVdCV1g0STIySkNNbXZGczEza3NmWEoxOXZ5OFlucTR1S29xNXpPNUlmdXFwakszM0JRNEhFa2txeTBFZEVHRE1KalpCbFRMcXltTdIB6AFBVV95cUxQSWU5UWdnYXZQenl0Q2ZHM1lVLWoxMVZ3LW80bUYxbS1JVTBubllZcWljaVpNLU1KQ3J5dXFZVkNPUXY3RjJoOUFWbU94WktXaEh5Q2pSRGpJREc3NUxkbHVobkNCUTNhZzlxbjFrcDVpVFpXd19jcTdCU0w0Z1NpWHlYNlRLQ19BZWJZQlpiVlE4blBVYWlPcWpFXzZmZnNjcjhkWnpnb21WRTdsY0lxLUpjdEM3YTdDTmJyeFY4ODc4Rk05NnJuYVJNSW04RUEzcVB3LXRlc2ZWRXFrRzg5T3V1RGROMk1l?oc=5",
-        "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
+        "title": "IATA: Aerolíneas latinoamericanas registraron un aumento del 6,7% en la demanda de carga aérea en septiembre",
+        "url": "https://www.mundomaritimo.cl/noticias/iata-aerolineas-latinoamericanas-registraron-un-aumento-del-67-en-la-demanda-de-carga-aerea-en-septiembre",
+        "curated": "iata-carga-aerea-septiembre-2026-7-7-por-ciento-combustible"
       },
       {
-        "title": "La miel de Mercosur se dispara un 94% en Europa en los tres primeros meses del acuerdo",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQRXFnUnkwQ0Q3Z1NrMVVhZ2l3S2Njcmx6NGlwbmdISU9zZHpTMnV0dzNSX1JaR1BrZXQ4R0JsMFpOZWI0cHBWczlHTkxIclktMzZuZWJWZGFOejZJS1BHNTdJcEowcDBqdENvT2ZxRlo0U0JtdFJQVHFUaExHUHBGd0dmRTdFZFBJVjdiQk5zM1ctYXBxaXowUk5sMmt4RDVNeFVQVFZkOUF2UkVBaUlqRzhSUUQxcVpJZG5ySUc5UWNVZG0xSEk5OG05QmxjNE1TNm4xVnhQcG9IYmFBdWx4V2I3U1JoZHZ3TzB6YXBXR2pWN1k?oc=5",
-        "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
+        "title": "Más de 50 productos argentinos se posicionan en los primeros puestos de exportación mundial",
+        "url": "https://www.ruralprimicias.com.ar/173500-2/",
+        "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
       },
       {
-        "title": "A seis meses de su entrada en vigencia, ¿cuáles son los resultados del acuerdo Mercosur-UE?",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaEtxYTViTmRFbldDeDl4TG5rUXNBbFF3Z0g0UTNKVDJ0ajBqbUtibFJBalFxVFNPVGdXR3NaLU1PR0M1aG1USzlLNDVwa2kwM1RFNFJIUzlWVXRvRU1IUHJyZHdrWGVOcXQ2RWlOZml4VFI2Qy01c2dXSTVtS3NSMUdISWZpek1vajRtU1VPdjlUZFdqazVzN2hITnJWdXdKbmxiblozUHhrZGJnZXVCN2tWSk93N0xlTnRwYmdaT1NtTTFX0gHEAUFVX3lxTE1oS3FhNWJOZEVuV0N4OXhMbmtRc0FsUXdnSDRRM0pUMnRqMGptS2JsUkFqUXFUU09UZ1dHc1otTU9HQzVobVRLOUs0NXBraTAzVEU0UkhTOVZVdG9FTUhQcnJkd2tYZU5xdDZFaU5maXhUUjZDLTVzZ1dJNW1Lc1IxR0hJZml6TW9qNG1TVU92OVRkV2prNXM3aEhOclZ1d0pubGJuWjNQeGtkYmdldUI3a1ZKT3c3TGVOdHBiZ1pPU21NMVc?oc=5",
-        "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
+        "title": "Argentina se ubica entre los principales exportadores mundiales",
+        "url": "https://www.unoentrerios.com.ar/economia/argentina-se-ubica-los-principales-exportadores-mundiales-n10290096.html",
+        "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
       },
       {
-        "title": "Récord para la carne argentina: las exportaciones superaron en nueve meses todo lo vendido al exterior en 2025",
-        "url": "https://www.minutoneuquen.com/nacionales/2026/11/2/record-para-la-carne-argentina-las-exportaciones-superaron-en-nueve-meses-todo-lo-vendido-al-exterio-413398.html",
+        "title": "La carne argentina está rompiendo récords: exportaciones que no paran de crecer",
+        "url": "https://esposta.com.ar/contenido/4153/la-carne-argentina-esta-rompiendo-records-exportaciones-que-no-paran-de-crecer",
         "curated": "carne-vacuna-exportaciones-enero-septiembre-2026-549600-toneladas-china-cuota-rosgan"
       },
       {
-        "title": "Las exportaciones uruguayas a la Unión Europea aumentaron 12 %",
-        "url": "https://lagaceta.com.uy/las-exportaciones-uruguayas-a-la-union-europea-aumentaron-12/",
+        "title": "Argentina figura entre los principales exportadores de más de 50 productos agroindustriales",
+        "url": "https://comercioyjusticia.info/economia/argentina-figura-entre-los-principales-exportadores-de-mas-de-50-productos-agroindustriales/",
+        "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
+      },
+      {
+        "title": "Centro Despachantes de Aduana de la Republica Argentina - Cronogramas operativos: Feriados visita del Papa",
+        "url": "http://www.cda.org.ar/detalle_noticia.php?id=42843",
+        "curated": "feriados-visita-papa-leon-xiv-9-10-11-noviembre-cinco-dias-sin-bancos-comercio-exterior"
+      },
+      {
+        "title": "Seis meses del acuerdo Mercosur-UE: Ministerio de Economía destaca crecimiento y diversificación comercial",
+        "url": "https://www.busqueda.com.uy/economia/seis-meses-del-acuerdo-mercosur-ue-ministerio-economia-destaca-crecimiento-y-diversificacion-comercial-n5418941",
         "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
       },
       {
-        "title": "Carne vacuna: las cuotas llegaron para cambiar el ritmo del negocio exportador",
-        "url": "https://www.noticiasagropecuarias.com/2026/11/02/carne-vacuna-las-cuotas-llegaron-para-cambiar-el-ritmo-del-negocio-exportador/",
-        "curated": "carne-vacuna-exportaciones-enero-septiembre-2026-549600-toneladas-china-cuota-rosgan"
+        "title": "Argentina se posiciona entre los líderes mundiales: más de 50 productos agroindustriales están en el top 20 exportador",
+        "url": "https://www.infobae.com/revista-chacra/2026/11/02/argentina-se-posiciona-entre-los-lideres-mundiales-mas-de-50-productos-agroindustriales-estan-en-el-top-20-exportador/",
+        "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
+      },
+      {
+        "title": "Mercosur-EFTA: el acuerdo entra en vigor para Uruguay y abre un mercado de 15 millones de habitantes",
+        "url": "https://www.xn--lamaana-7za.uy/actualidad/mercosur-efta-el-acuerdo-entra-en-vigor-para-uruguay-y-abre-un-mercado-de-15-millones-de-habitantes/",
+        "curated": "uruguay-aplica-acuerdo-mercosur-aelc-noruega-islandia-1-noviembre-cupos-vuce"
+      },
+      {
+        "title": "Aumentaron las exportaciones a Europa a raíz del acuerdo Mercosur-Unión Europea",
+        "url": "https://www.carasycaretas.com.uy/politica/aumentaron-las-exportaciones-europa-raiz-del-acuerdo-mercosur-union-europea-n100683",
+        "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
+      },
+      {
+        "title": "La UE inicia una investigación en materia de salvaguardias relativa a determinados vehículos híbridos nuevos",
+        "url": "https://www.wto.org/spanish/news_s/news26_s/safe_eec_02nov26_536_s.htm",
+        "curated": "ue-investigacion-salvaguardia-vehiculos-hibridos-importaciones-1-4-millones-cupo-china"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "yerbateros-cruzaron-a-sturzenegger-la-yerba-argentina-ya-se-exportaba-a-china-de",
+        "main": "eeuu-planea-excluir-a-sudafrica-y-ruanda-de-acuerdo-comercial-con-africa",
         "merged": [
-          "productores-yerbateros-cuestionan-a-sturzenegger-las-exportaciones-a-china-prece"
+          "trump-busca-excluir-a-ruanda-y-sudafrica-de-acuerdo-comercial"
         ]
       },
       {
-        "main": "mark-carney-retoma-el-dialogo-con-donald-trump-para-buscar-un-acuerdo-comercial",
+        "main": "mas-de-50-productos-argentinos-ocupan-los-primeros-puestos-como-exportadores-mun",
         "merged": [
-          "mark-carney-y-donald-trump-buscan-acuerdo-comercial-entre-canada-y-eu-en-las-pro"
-        ]
-      },
-      {
-        "main": "argentina-se-posiciona-entre-los-lideres-mundiales-mas-de-50-productos-agroindus",
-        "merged": [
-          "argentina-se-posiciona-como-lider-mundial-en-exportaciones-agroindustriales",
-          "argentina-se-ubico-entre-los-principales-exportadores-mundiales-en-mas-de-50-pro"
-        ]
-      },
-      {
-        "main": "mas-de-50-productos-argentinos-se-posicionan-en-los-primeros-puestos-de-exportac",
-        "merged": [
-          "argentina-ocupa-el-primer-puesto-como-exportadora-mundial-de-aceite-esencial-y-j"
-        ]
-      },
-      {
-        "main": "bloomberg-exportaciones-petroleras-venezolanas-caen-a-su-nivel-mas-bajo-en-2026",
-        "merged": [
-          "exportaciones-petroleras-venezolanas-caen-a-su-nivel-mas-bajo-en-2026-por-altos"
+          "ponderan-que-son-mas-de-50-los-productos-argentinos-que-ocupan-los-primeros-pues"
         ]
       }
     ],
     "googleNews": {
-      "pending": 21,
+      "pending": 22,
       "resolved": 21,
-      "withSummary": 16,
+      "withSummary": 15,
       "withPhoto": 0,
-      "failed": 0,
-      "duplicates": 2
+      "failed": 1,
+      "duplicates": 1
     },
-    "noRead": 3
+    "noRead": 2
   },
   "stories": [
     {
