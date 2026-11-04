@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-11-04T07:44:57Z",
+  "updatedAt": "2026-11-04T17:24:12Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -142,7 +142,7 @@
       "obsDate": "2026-11-03",
       "change": "+0,3% vs. día hábil anterior",
       "trend": "up",
-      "checkedAt": "2026-11-04T07:46:15Z",
+      "checkedAt": "2026-11-04T17:25:12Z",
       "history": [
         [
           "2026-09-22",
@@ -267,27 +267,27 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-04T07:46:15Z"
+      "lastAttempt": "2026-11-04T17:25:12Z"
     },
     {
       "id": "soja",
       "label": "Soja · precio pizarra Rosario",
-      "value": "$ 542.000/t",
-      "period": "Rosario · 2 nov 2026 · US$ 352,75/t",
+      "value": "$ 540.500/t",
+      "period": "Rosario · 3 nov 2026 · US$ 350,52/t",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "group": "Mercados",
-      "obsDate": "2026-11-02",
-      "change": "-0,4% vs. pizarra anterior",
+      "obsDate": "2026-11-03",
+      "change": "-0,3% vs. pizarra anterior",
       "trend": "down",
       "_last": {
+        "date": "2026-11-03",
+        "ars": 540500.0
+      },
+      "checkedAt": "2026-11-04T17:25:13Z",
+      "_prev": {
         "date": "2026-11-02",
         "ars": 542000.0
-      },
-      "checkedAt": "2026-11-04T07:46:16Z",
-      "_prev": {
-        "date": "2026-10-30",
-        "ars": 544000.0
       },
       "history": [
         [
@@ -373,11 +373,15 @@
         [
           "2026-11-02",
           542000.0
+        ],
+        [
+          "2026-11-03",
+          540500.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-04T07:46:16Z"
+      "lastAttempt": "2026-11-04T17:25:13Z"
     },
     {
       "id": "brent",
@@ -390,7 +394,7 @@
       "obsDate": "2026-10-27",
       "change": "-3,9% vs. día anterior",
       "trend": "down",
-      "checkedAt": "2026-11-04T07:46:19Z",
+      "checkedAt": "2026-11-04T17:25:16Z",
       "history": [
         [
           "2026-09-16",
@@ -515,27 +519,27 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-11-04T07:46:19Z"
+      "lastAttempt": "2026-11-04T17:25:16Z"
     },
     {
       "id": "maiz",
       "label": "Maíz · precio pizarra Rosario",
-      "value": "$ 275.000/t",
+      "value": "$ 272.934/t",
       "group": "Mercados",
-      "period": "Rosario · 2 nov 2026 · US$ 178,98/t",
-      "obsDate": "2026-11-02",
-      "change": "+0,6% vs. pizarra anterior",
-      "trend": "up",
+      "period": "Rosario · 3 nov 2026 · US$ 177,00/t",
+      "obsDate": "2026-11-03",
+      "change": "-0,8% vs. pizarra anterior",
+      "trend": "down",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
+        "date": "2026-11-03",
+        "ars": 272934.0
+      },
+      "checkedAt": "2026-11-04T17:25:16Z",
+      "_prev": {
         "date": "2026-11-02",
         "ars": 275000.0
-      },
-      "checkedAt": "2026-11-04T07:46:19Z",
-      "_prev": {
-        "date": "2026-10-30",
-        "ars": 273300.0
       },
       "history": [
         [
@@ -621,31 +625,35 @@
         [
           "2026-11-02",
           275000.0
+        ],
+        [
+          "2026-11-03",
+          272934.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-04T07:46:19Z"
+      "lastAttempt": "2026-11-04T17:25:16Z"
     },
     {
       "id": "trigo",
       "label": "Trigo · precio pizarra Rosario",
-      "value": "$ 314.980/t",
+      "value": "$ 316.000/t",
       "group": "Mercados",
-      "period": "Rosario · 2 nov 2026 · US$ 205,00/t",
-      "obsDate": "2026-11-02",
-      "change": "+0,8% vs. pizarra anterior",
+      "period": "Rosario · 3 nov 2026 · US$ 204,93/t",
+      "obsDate": "2026-11-03",
+      "change": "+0,3% vs. pizarra anterior",
       "trend": "up",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
+        "date": "2026-11-03",
+        "ars": 316000.0
+      },
+      "checkedAt": "2026-11-04T17:25:16Z",
+      "_prev": {
         "date": "2026-11-02",
         "ars": 314980.0
-      },
-      "checkedAt": "2026-11-04T07:46:19Z",
-      "_prev": {
-        "date": "2026-10-30",
-        "ars": 312500.0
       },
       "history": [
         [
@@ -731,14 +739,759 @@
         [
           "2026-11-02",
           314980.0
+        ],
+        [
+          "2026-11-03",
+          316000.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-04T07:46:19Z"
+      "lastAttempt": "2026-11-04T17:25:16Z"
     }
   ],
   "items": [
+    {
+      "id": "bloqueo-de-camioneros-provoca-desvio-de-buque-del-cherry-express-desde-san-anton",
+      "datetime": "2026-11-04T17:02:25Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T17:24:12Z",
+      "title": "Bloqueo de camioneros provoca desvío de buque del cherry express desde San Antonio a Valparaíso",
+      "summary": "El buque YM Orchid (ligado al servicio cherry express) desvió su viaje con destino al Puerto…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Chile"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "truck",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/bloqueo-de-camioneros-provoca-desvio-de-buque-del-cherry-express-desde-san-antonio-a-valparaiso/",
+          "primary": true,
+          "author": "Gabriel"
+        }
+      ]
+    },
+    {
+      "id": "camioneros-de-antofagasta-se-movilizan-para-solicitar-soluciones-al-alza-en-prec",
+      "datetime": "2026-11-04T17:00:47Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T17:24:12Z",
+      "title": "Camioneros de Antofagasta se movilizan para solicitar soluciones al alza en precio del diésel",
+      "summary": "Una caravana de camiones se movilizó por las calles de Antofagasta para solicitar soluciones ante las…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Chile"
+      ],
+      "tags": [],
+      "visual": "truck",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/camioneros-de-antofagasta-se-movilizan-para-solicitar-soluciones-al-alza-en-precio-del-diesel/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "algeciras-llama-a-la-puerta-de-las-navieras-japonesas",
+      "datetime": "2026-11-04T16:45:12Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T17:24:12Z",
+      "title": "Algeciras llama a la puerta de las navieras japonesas",
+      "summary": "Una delegación formada por una treintena de profesionales ha presentado en Tokio la oferta logística y portuaria de la Bahía y ha reforzado contactos con com...",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Asia",
+        "Europa"
+      ],
+      "countries": [
+        "Japón",
+        "España"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Andalucía Información",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.andaluciainformacion.es/articulo/campo-gibraltar-bahia/algeciras-llama-puerta-navieras-japonesas/202611041745123526627.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-04T17:24:12Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdFlxSzZlNjdnOXFfWWdPemk1Tnl5RG9CQUpoSUZjY1pNQ1RCWWQwOW9xNmdoQkdhNmlRVjlfaE1DSndPbnJGelkwWk50UDFRYXZybTh3WWgxejU2V2ZJNGItZlR1dmd1WnBfVF9ocFppS3BZT2FrVUpEb0xwU2UwSU9SMTdybUpNTG9FSWZFWm11b2VJQmNhcGh0ei1ybUFSVmJPdUFCRHM2Y2hQdlNWQ2RUdm9ON0FXRnk1Tk1qNnZYRWgzY1JMWGlrRWlkT0lL0gHWAUFVX3lxTE04Wm5ObXdlNzNfMTR3SDllMUFQUTJqa2pNbHYtRTFaUEd2bHRSRUUyM0dhSFQyenk4eVlfQ0ltaG1keDljenI1MDBPTy1IV05BVUl3T3hZWmc5a3lPVWVRUGdBZUtTYWIwaFJWUzRCN2hMV1pVNWhhOUNRZi1JcUlDZzlBdWc2UnRPeGJRLS1PMjJOZGZXSDlOeE01QkczY3dKemhaUElFekhtWkdEOXdiWWtsNnFWR1F2VWZFWnh6Vnh3WlJ3UkdNVHJna1I4UjllTFY2VlE?oc=5"
+    },
+    {
+      "id": "victoria-de-democratas-no-aliviaria-los-costos-y-los-aranceles-de-empresas-a-cor",
+      "datetime": "2026-11-04T16:43:17Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T17:24:12Z",
+      "title": "Victoria de demócratas no aliviaría los costos y los aranceles de empresas a corto plazo: Ejecutivos",
+      "summary": "Las empresas internacionales dijeron el miércoles que es poco probable que la victoria legislativa de los demócratas en Estados Unidos altere sus",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "El Economista",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.eleconomista.com.mx/empresas/victoria-democratas-aliviaria-costos-aranceles-empresas-corto-plazo-ejecutivos-20261104-842147.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-04T17:24:12Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVnN4ZnkxamhCWGNfVmNWNElWWFVDWllvLXFTbVRrOXVFdHU0MmZfaHRvQzdzX0FxM0I1NUFRU0dCTVdDUjM3SkN0aklrTXI3amczVUZ5S1pkcmViNE1DbnoxdklZbzk5NzFheG8xajhubzNWVGFQZWFuai1Fd05rcTJyQ3lmNHVXNll0VUxSd2s3d05sMV9FbEtNT1pXX0poZFY4RmVfaHpSSXQ5cW5pdS1Jd3lRaTJBWjNoa1lpYVNtdi1uNkZCNW1tT3NpNXNON3dmdHBuVdIB3AFBVV95cUxQd1E3X0RCZnZOLTRneXlVRUlzMlJWYlE4NFRET1VCMnNDdFpnblo2aElmbGl2SURlQ2JLcm40NlFFb09YQ1A5aS1Tb0JUc2ZnR05lZlplbkNUTWpOVkdtdldyQlV2YkFjbVhTOWR0U2ozbTE0T25mSzVmUUFGUGwwb1RRclVVRUZ3TVFjZGtsQ0dPNl96UHIzNUkwZ1JUUm1zZlhfSFd2TFdYYVdwSDM0V1ZBMXdZTW9OLUgyWVctWkpESHpnS3VuLTMyVE5yX1NxbTNURFQ1dGVCQTVO?oc=5"
+    },
+    {
+      "id": "mexico-no-debe-asumir-que-triunfo-democrata-en-congreso-de-eu-resolvera-arancele",
+      "datetime": "2026-11-04T16:40:17Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T17:24:12Z",
+      "title": "México no debe asumir que triunfo demócrata en Congreso de EU resolverá aranceles y retos del T-MEC: Concanaco",
+      "summary": "México no debe asumir que triunfo demócrata en el Congreso de EU resolverá aranceles y retos del T-MEC: Concanaco",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Latinoamérica",
+        "Europa"
+      ],
+      "countries": [
+        "México",
+        "Unión Europea"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Fortuna y Poder",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://fortunaypoder.com/economia/mexico-no-debe-asumir-que-triunfo-democrata-en-congreso-de-eu-resolvera-aranceles-y-retos-del-t-mec-concanaco/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-04T17:24:12Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdHI4QWROQlZrbnNJODNvTzVuVmJ0OXVxcjJkVjltMTZWb1N1NjE4clljcWRMenlyYTNaVXJaVmcwWG5pUTV1Zjc4RHhYTkRrZ1J1SWlkZlpkaUxwUG9FaEY3UF9FQkdHVDA4Q3lCWnFpMk9PQUxJLXQzOWpaV3lTSzlSUzY4aEgyeExpUmRWSTBkTTdTbHJVOEkzMFdUTHJiLWxlTUFCeDZaSTRxS2w1bW1jN25Sc2xMNjBneDlGV0hXQ1plQl9kczAtRThRdlFGdWFKbi03Y0hjLWJwdVE?oc=5"
+    },
+    {
+      "id": "el-aceite-de-oliva-espanol-se-prepara-para-conquistar-china-los-aranceles-bajara",
+      "datetime": "2026-11-04T16:37:00Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T17:24:12Z",
+      "title": "El aceite de oliva español se prepara para conquistar China: los aranceles bajarán en 2027 y el sector espera batir récords de ventas",
+      "summary": "La rebaja del 10% al 5% de los gravámenes comerciales a partir del 1 de enero abre nuevas oportunidades para las exportaciones españolas al gigante asiático, que ya compra a España más del 80% del aceite de oliva que consume",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "China"
+      ],
+      "tags": [
+        "Aranceles",
+        "China"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Infobae",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.infobae.com/espana/2026/11/04/el-aceite-de-oliva-espanol-se-prepara-para-conquistar-china-los-aranceles-bajaran-en-2027-y-el-sector-espera-batir-records-de-ventas/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-04T17:24:12Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQMjZqVGZNaWVyYTNQbjZlcHRyMEJ6N3FKRkdsbF9yNDJWbG92ODNUSjBBNWxpSTdRWXNLNHp3WG9ENm5IV1Z4TjhJbExTUnJIc251QW9jMnFCb0l2ZUhKNVROR1c4eWxYR1pZMmpXMV9RRmpoekxvZVhLRGU4UGREQVM2QmlqQ3YtRzB2cjJacS1KS1BTTmhPci1VOHNJcWFtajJVV3lhZ2cxbzdXVUlibGg3eGdXTEo1YWgtMktMd3REMUlTb050UV96UVdyUGRJMVpmWFRFMjh1U1FIcHo3S0Zaazh3eEdXTWVHOFdDbG94TnU1YjFlU3hCdUZkTmppbWZyLXB30gGgAkFVX3lxTE4yelVfdmVlbHdnMkRGQVJHUkFWWkZIZnVhYm1WZUVZN3E5MVlWa0ZmTGZzV25KZmV5NFRjQVJsTGU4RTF0bFZuVVJIVHhBTVlEUnAzOExJdlh2b1FJVHd4MTRmaVhzT0FWbTl5dy1Tdmc1d1dRUU9oTERCRnFuWjRwRHA1dzlSdVlJMGJUOEZTbGFueTNZeV94dlpWUzNURmZQajIwY3JiY1d4cjZPUldCTnB6OUgwVGZRLV9jb1RLd0FRNTRZRW5IcVhyakhmQ3BZYlp4XzlsS0hQR0daTW9rcF9LblU3MU1oWk9wVWFxbjdCbGp6VWN5aVNKOEczNlBRcnhhTW80NXd6UXRmdkFKTWxVNlJhRHBuTGVOYjA0TQ?oc=5"
+    },
+    {
+      "id": "ardmore-shipping-anuncia-utilidad-neta-atribuible-a-accionistas-de-usd-16-3-mill",
+      "datetime": "2026-11-04T16:30:29Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T17:24:12Z",
+      "title": "Ardmore Shipping anuncia utilidad neta atribuible a accionistas de USD 16,3 millones en tercer trimestre",
+      "summary": "Ardmore Shipping Corporation anunció los resultados de los tres y nueve meses finalizados el 30 de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/ardmore-shipping-anuncia-utilidad-neta-atribuible-a-accionistas-de-usd-163-millones-en-tercer-trimestre/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "resultado-electoral-en-eu-no-soluciona-aranceles-impuestos-a-mexico-ip",
+      "datetime": "2026-11-04T16:17:00Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T17:24:12Z",
+      "title": "Resultado electoral en EU no soluciona aranceles impuestos a México: IP",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Impuestos",
+        "Latinoamérica",
+        "Europa"
+      ],
+      "countries": [
+        "México",
+        "Unión Europea"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "La Jornada",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.jornada.com.mx/noticia/2026/11/04/economia/resultado-electoral-en-eu-no-soluciona-aranceles-impuestos-a-mexico-ip",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-04T17:24:12Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYi13UVptemdzdFhyQlUzLWZJSEpsLWZoSHpuSjk2SGtXc3JZbFhYX0owSE9uS1ZKTjZxNkh3dXpLVGtzTkM5Q1pxRTRqYUtiMTVOZVQ4ZEFjMG1OTjlvR1pZaXY2OVJMNWZhUWxrNFpTRjBlLUk5Und3T3Z6ZTlrLVBJbE82SjI0b2MzUUFnSTFxZWlmSnhONVdnVElheFhzX2dyTVkyRk50Z2ZpSm1KWEdZdFRzOU1JNEtldWJEOFZia00?oc=5"
+    },
+    {
+      "id": "suecia-puerto-de-gavle-firma-acuerdo-de-25-anos-con-varopreem-sverige",
+      "datetime": "2026-11-04T16:00:09Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T17:24:12Z",
+      "title": "Suecia: Puerto de Gävle firma acuerdo de 25 años con VAROPreem Sverige",
+      "summary": "El Puerto de Gävle firmó un nuevo acuerdo de 25 años con VAROPreem Sverige para el…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Puertos",
+        "Europa"
+      ],
+      "countries": [
+        "Suecia"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/suecia-puerto-de-gavle-firma-acuerdo-de-25-anos-con-varopreem-sverige/",
+          "primary": true,
+          "author": "cmeza"
+        }
+      ]
+    },
+    {
+      "id": "peru-acuerda-con-navieras-itinerarios-especiales-de-cabotaje-para-enfrentar-efec",
+      "datetime": "2026-11-04T15:39:08Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T17:24:12Z",
+      "title": "Perú acuerda con navieras itinerarios especiales de cabotaje para enfrentar efectos de El Niño",
+      "summary": "El Gobierno coordina rutas marítimas alternativas entre puertos y monitorea riesgos logísticos",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Perú"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Mundo Marítimo",
+          "type": "Medio · vía Google Noticias",
+          "url": "http://www.mundomaritimo.cl/noticias/peru-acuerda-con-navieras-itinerarios-especiales-de-cabotaje-para-enfrentar-efectos-de-el-nino",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-04T17:24:12Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUGI1SWpPaklMUFpwRW1YZmc0VEY2N3d5MVRtUEttcHA2RXdOU0w3RjJlWDVxbVFDUEl6U2tETGJoSGdfYVBqVDBMNzZTODJuVTBZVnFxRkMwZ0lsVkpPdmRBTDdTRjJ0Z0JJaDRCb3BQZXdBVDRSYWd4NzZXeGxzTXlzR3NBTlpSODlKc1ZXZlNGRUdFQ05WZW1SU0ZLSkkyMndGcjB3VnM0Y2pJSV9hcUpzRzhTUTVoTkJsa0xYRk1OWktGYUItbVlvYw?oc=5"
+    },
+    {
+      "id": "exportaciones-uruguayas-superan-usd-1-000-millones-en-octubre",
+      "datetime": "2026-11-04T15:23:33Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T17:24:12Z",
+      "title": "Exportaciones uruguayas superan USD 1.000 millones en octubre",
+      "summary": "En octubre de 2026, las exportaciones de Uruguay, incluidas las ventas de zonas francas, alcanzaron los…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Uruguay"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/exportaciones-uruguayas-superan-usd-1-000-millones-en-octubre/",
+          "primary": true,
+          "author": "admin"
+        }
+      ]
+    },
+    {
+      "id": "grecia-puerto-de-el-pireo-registra-disminucion-de-ingresos-y-ganancias-de-enero",
+      "datetime": "2026-11-04T15:00:59Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T17:24:12Z",
+      "title": "Grecia: Puerto de El Pireo registra disminución de ingresos y ganancias de enero a septiembre de 2026",
+      "summary": "La Autoridad Portuaria de El Pireo (OLP), en Grecia, informó una disminución de sus ingresos…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Europa"
+      ],
+      "countries": [
+        "Grecia"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/grecia-puerto-de-el-pireo-registra-disminucion-de-ingresos-y-ganancias-de-enero-a-septiembre-de-2026/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "gobernador-de-nueva-jersey-advierte-a-puertos-que-no-acepten-diesel-ruso",
+      "datetime": "2026-11-04T14:30:39Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T17:24:12Z",
+      "title": "Gobernador de Nueva Jersey advierte a puertos que no acepten diésel ruso",
+      "summary": "La gobernadora de Nueva Jersey, Mikie Sherrill, advirtió a las autoridades portuarias y a los…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/gobernador-de-nueva-jersey-advierte-a-puertos-que-no-acepten-diesel-ruso/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "oficializan-la-prorroga-de-la-suspension-de-ejecuciones-fiscales-para-mipymes-ha",
+      "datetime": "2026-11-04T14:13:03Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T17:24:12Z",
+      "title": "Oficializan la prórroga de la suspensión de ejecuciones fiscales para MiPyMEs hasta junio de 2027",
+      "summary": "El Ministerio de Economía extendió hasta el 30 de junio de 2027 la suspensión del inicio de juicios de ejecución fiscal y de la traba de medidas cautelares para las micro, pequeñas y medianas empresas (MiPyMEs) de los tramos 1 y 2, entre otros contribuyentes. La medida fue establecida mediante la Resolución 1899/2026…",
+      "body": [
+        "El Ministerio de Economía extendió hasta el 30 de junio de 2027 la suspensión del inicio de juicios de ejecución fiscal y de la traba de medidas cautelares para las micro, pequeñas y medianas empresas (MiPyMEs) de los tramos 1 y 2, entre otros contribuyentes. La medida fue establecida mediante la Resolución 1899/2026, que encomienda…"
+      ],
+      "keyData": [],
+      "topics": [
+        "Regulaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 2,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Aduana News",
+      "sources": [
+        {
+          "name": "Aduana News",
+          "type": "Medio especializado · Argentina",
+          "url": "https://aduananews.com/oficializan-la-prorroga-de-la-suspension-de-ejecuciones-fiscales-para-mipymes-hasta-junio-de-2027/?utm_source=rss&utm_medium=rss&utm_campaign=oficializan-la-prorroga-de-la-suspension-de-ejecuciones-fiscales-para-mipymes-hasta-junio-de-2027",
+          "primary": true,
+          "author": "Aduana News"
+        }
+      ]
+    },
+    {
+      "id": "argentina-recupero-el-acceso-al-mercado-europeo-para-exportar-sebo-animal",
+      "datetime": "2026-11-04T14:11:54Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T17:24:12Z",
+      "title": "Argentina recuperó el acceso al mercado europeo para exportar sebo animal",
+      "summary": "El SENASA incorporó al establecimiento Nº 263 al listado de plantas habilitadas para exportar este subproducto de origen animal. La autorización permite retomar los envíos a la Unión Europea, un mercado al que Argentina no exportaba sebo desde noviembre de 2023.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "El Litoral",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.ellitoral.com/campolitoral/argentina-seboincomestible-seboanimal-industriafrigorifica-unioneuropea-senasa-exportaciones-hacienda-faena-certificacionsanitaria-mercadoeuropeo-subproductos_0_LVi3XR3bIl.html",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Mirador Provincial",
+          "type": "También publicó esta noticia",
+          "url": "https://www.miradorprovincial.com/2026/11/04/el-senasa-habilito-una-planta-y-argentina-recupera-el-mercado-europeo-para-exportar-sebo-animal/",
+          "alsoIn": true,
+          "title": "El SENASA habilitó una planta y Argentina recupera el mercado europeo para exportar sebo animal"
+        }
+      ],
+      "gnTried": "2026-11-04T17:24:12Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxOTHFISGdiVFoyLURpcmw3UERIM0JiNzNGMzFwRjcwU3V4alRGRlluVGpLUDZ4MGExVTZOR0lHSWxJS2gwRmtnOEdSMUJ3Nl9nMGRDWGd6aDFxaWdyc25nMTF4ZWcwdU95SXdIQ1pTSUVrbmRrcFl5MEJ2blppWVJjcG5sTnlLY1Brd3V6MUhaNGlxanFwa2NZQWMwbmdlRC1vV01qOU83MlJGVUt0S0VkZmo3ZXI4SkJ3bmx2ckx1NGNxWFhXU3ZHVzF5NVg0aE0xdFFXWnFUYTNlN295VW9FMElEYUZfUGQ4NlNiMUNSRmtRZ0EwNDMtY0kyc0c0Ujh0bnNsNnBEZi12LTg0R2ZYMU1PRmRCR2dGSHEwSFNSQUNVU0dKSEJGLVFPci1KLXc1VE90aHJtMzVmdFU?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQYVh2Q0xTMmhTdTktLVVwQ245MUhIdW96cjdOMEl4X1djM19rc3NJdUM1WFlhYW5POTl0bVd0SG10S2l4R29sWUs0aVFqQVNybE9MTmJOaERseG03cXhXSjY5elQwUnBpeEFMY2ZlVjJPS2o3RllscTNRNVhUWWUxamIzNnFqMWtKTHZ4YTE3NnpIWnN2MHhFSXc4Qm1YNWduQWs3ZXV5UEg2QU9iTEpaZ081WkM0XzBTcFRHR2NKWVhZblNCc0pINXI3RnJzdHNGYjV5cG5pYUg",
+        "https://www.miradorprovincial.com/2026/11/04/el-senasa-habilito-una-planta-y-argentina-recupera-el-mercado-europeo-para-exportar-sebo-animal"
+      ],
+      "mergedIds": [
+        "el-senasa-habilito-una-planta-y-argentina-recupera-el-mercado-europeo-para-expor"
+      ]
+    },
+    {
+      "id": "peru-anuncia-plan-de-transporte-maritimo-para-asegurar-exportaciones-pese-a-efec",
+      "datetime": "2026-11-04T13:33:36Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T17:24:12Z",
+      "title": "Perú anuncia plan de transporte marítimo para asegurar exportaciones pese a efectos de El Niño",
+      "summary": "l Niño ya está golpeando al sector pesquero ya la agricultura en la costa de Perú, por el calentamiento del mar y por las fuertes lluvias",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Transporte marítimo",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Perú"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "La República",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.larepublica.co/globoeconomia/peru-anuncia-plan-de-transporte-maritimo-para-asegurar-exportaciones-pese-a-efectos-de-el-nino-4517343",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Rumbo Minero",
+          "type": "También publicó esta noticia",
+          "url": "https://www.rumbominero.com/portada2/gobierno-transporte-maritimo-exportaciones-el-nino/",
+          "alsoIn": true,
+          "title": "Gobierno anuncia plan de transporte marítimo para asegurar exportaciones pese a efectos de El Niño"
+        }
+      ],
+      "gnTried": "2026-11-04T17:24:12Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQWERKVnVKVmIzSFNZTW5IV2ZYQ0dZWXB0VVI0UVhlcmtjQXBBcUsxa2tfUDRpTXVRbjRXZU9jRWNra2RocVlGbDFQMVduYkxqRFVzTmtGTmJUY0dmSm03eUV3a2ZjV2hSM0Q0cmxjUzZqdFJMWWI3SmxBakJEbWQxbktNVF8tRVJYWmxtNkIxVjg5YnpESjQxeTcwMFV5Zy15ZzRLblYtb2phMFhmMDJoSnlycThfdmN5NS1ybFBFbjNhT3RnNTdCWUdIencyamloNkNldVhLX1o0NFnSAdsBQVVfeXFMTndPOVFmRkpFRElmSFdNelNwMFo0NnlqbmZTc2FKZzFudWowa20xZFgxVjQ4cXJFT0dRNktZNmRsRExnaXJFRjlEdVd4R0kyQy1LTE1hbkFnZ1NKMUc5UjJEbDNVdXY1NlZZeEVUYXl2QTRKMTVTeTBoVWdRLVYwRm1wV1ZId0RNSl9QWlZSTEJDejdUSTdlQTdsWE1KNkkzcHdsU1RlRFlOREtndVh2aER2eVhOdE5xRFBQU3F2VUF0VEVzQnN1M3ROam90YS00SlE3WkU4NEFHRVFB?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdXZ0NU02cWtjYWg2YmlqUm94OGd1WWl5cHY2VVpaRTE5LTY1LVljWmpQSU1mdUZHcWRMUUtGaGVPeTBOWmZjYjZ1TDk5YUVGNFpET28tRlN0RU9QdWIzdWFsT2RhOFdncFh3VHczWVUtU19SclRJa3VOdVczQVRqQ291bDUzelpVWFdxZHU4am9vUQ",
+        "https://www.rumbominero.com/portada2/gobierno-transporte-maritimo-exportaciones-el-nino"
+      ],
+      "mergedIds": [
+        "gobierno-anuncia-plan-de-transporte-maritimo-para-asegurar-exportaciones-pese-a"
+      ]
+    },
+    {
+      "id": "exportaciones-de-petroleo-de-venezuela-se-mantienen-estables-ante-altas-tarifas",
+      "datetime": "2026-11-04T13:30:30Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T17:24:12Z",
+      "title": "Exportaciones de petróleo de Venezuela se mantienen estables ante altas tarifas de flete",
+      "summary": "Las exportaciones de petróleo de Venezuela se mantuvieron estables en octubre, con un promedio de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Logística",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Venezuela"
+      ],
+      "tags": [
+        "Fletes",
+        "Energía"
+      ],
+      "visual": "tanker",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/exportaciones-de-petroleo-de-venezuela-se-mantienen-estables-ante-altas-tarifas-de-flete/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "argentina-reanudo-las-exportaciones-de-sebo-bovino-a-la-ue-despues-de-3-anos",
+      "datetime": "2026-11-04T13:23:05Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T17:24:12Z",
+      "title": "Argentina reanudó las exportaciones de sebo bovino a la UE después de 3 años",
+      "summary": "El subproducto de la faena bovina se utiliza como materia prima para elaborar combustible sostenible de aviación. Los envíos estaban suspendidos hacía 3 años. (NAP) El Servicio Nacional de Sanidad y Calidad Agroalimentaria de Argentina habilitó las exportaciones a la Unión Europea de sebo bovino no comestible, luego…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Europa"
+      ],
+      "countries": [
+        "Argentina",
+        "Unión Europea"
+      ],
+      "tags": [],
+      "visual": "livestock",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Noticias AgroPecuarias",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.noticiasagropecuarias.com/2026/11/04/argentina-reanudo-las-exportaciones-de-sebo-bovino-a-la-ue-despues-de-3-anos/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-04T17:24:12Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUzFBVzhycnI3OW5qbWZNdUFCNTc1d3FNZzZDNWh1eUEyMFA3d3dHVnlkNE9pZGJTY0d6RDU4ZmtSckxPWHFqRE5HckJlTjJPTldjZWdhdkhrczFTRlJaaXRvY0JkSW42U1hMOEJQQWpXMk1YU2gtemEwRDcyNERkVGIzdGVnbHVBLWYyR1ZTa2hLT1ZNTXg3MGJnZ3ZwMVY5aDJpSGlqRDEtTDdDVHVOVDVreGFmR3prWW9sc2ZJNk1OYUpX?oc=5"
+    },
+    {
+      "id": "canada-arcadis-y-egis-son-designados-por-dp-world-para-desarrollar-nueva-termina",
+      "datetime": "2026-11-04T12:30:17Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T17:24:12Z",
+      "title": "Canadá: Arcadis y Egis son designados por DP World para desarrollar nueva terminal en Puerto de Montreal",
+      "summary": "Arcadis y Egis, socios de una empresa conjunta, fueron designados por DP World para desempeñarse como asesores…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos"
+      ],
+      "countries": [
+        "Canadá"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/canada-arcadis-y-egis-son-designados-por-dp-world-para-desarrollar-nueva-terminal-en-puerto-de-montreal/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "estudiantes-de-colchane-conocen-puerto-de-iquique-y-relevancia-logistica-de-su-c",
+      "datetime": "2026-11-04T12:23:46Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T17:24:12Z",
+      "title": "Estudiantes de Colchane conocen Puerto de Iquique y relevancia logística de su comuna",
+      "summary": "Por PortalPortuario Social Con la finalidad de estrechar vínculos con la comunidad formativa regional y profundizar el conocimiento sobre la…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Chile"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/estudiantes-de-colchane-conocen-puerto-de-iquique-y-relevancia-logistica-de-su-comuna/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
     {
       "id": "empresas-mendocinas-exportadoras-ya-pueden-postularse-al-premio-exportar-2027-mo",
       "datetime": "2026-11-04T06:22:35Z",
@@ -749,6 +1502,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Exportaciones"
       ],
       "countries": [
@@ -775,65 +1529,30 @@
           "url": "https://tradenews.com.ar/abren-las-postulaciones-al-premio-exportar-2027-las-empresas-pueden-inscribirse-hasta-el-30-de-noviembre/",
           "alsoIn": true,
           "title": "Abren las postulaciones al Premio Exportar 2027: las empresas pueden inscribirse hasta el 30 de noviembre"
+        },
+        {
+          "name": "Noticias AgroPecuarias",
+          "type": "También publicó esta noticia",
+          "url": "https://www.noticiasagropecuarias.com/2026/11/04/se-abre-la-postulacion-de-empresas-argentinas-interesadas-en-participar-del-concurso-premio-exportar-2027/",
+          "alsoIn": true,
+          "title": "Se abre la postulación de empresas argentinas interesadas en participar del concurso “Premio Exportar 2027”"
         }
       ],
       "gnTried": "2026-11-04T07:44:57Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMXRJQVdSeXQtZTZMYmJILUoyamtlNDRlSzlKcXN5T1FFVllibnJXaHRpOUpaMi11SDZROVdoOWhiajVSLXF5NFRaQVZaUW1YaUJrM0VZNVZ3RDNhUEZ2N0tsUVExY0NVcnhuVUlCcHpRZUI1bUFNUldJREJGWGk5dm9MeDMyelhvNDhhZmlSQzlzdE9BVnkxMHJDcnd2V1UwYVNIV183RFVaZkxhQWtyaHFpcTdmTHBuR0NENm9nUE0tcF9u?oc=5",
       "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQTmtWVDB2anhGeFpIWXZlcVA3V25WdWpybnNEX0tGUE5GT0hhTF96ZHBOcVJKbUpWMzBCYWRNRE5jRTlsRzJyY3pjNUJocDY0ejA2c0NJTFR5ejJKdVBvRnUtMUtzOXFLdXNKTXpxbEZpZHA3S0xoSXZ5aF9BODdkRWhaQ3VtS3hDeEwtVWg0VXdhQjdWME90cjVlRUpQMkVjRFpEejB0VXRGdU8zZDhoX3ZBOFVtX1pWc0tRODYwSUtVcUdSMkFNWW8wRWNsd2tvdm1laVdfbHlDYi0teC1GS1JELWZEN19LSXk4",
         "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMmh4cC03NWxHeDRfNktVSm12ckZxWks1dWxRcTlwMFluQnI3RHZncFJJd0stSTdMMmc4RWpRY193WnpzNG1oanc4MGtDcmhWQl9BRkJ3Q2hROENHZWxINnlzX3pUZ1JjSFA5YTBUSEFwcFg1SEw0ZWRhdnBLZU5YWjRqVmZZejB5ZWNwMW5lcnVocXpSNmpkZEI3WWdQaTRreVhhX19jSjcwTWthX1FTaXMyNFJzYk82dTJRLWV6NmZnaU9OZ1FfN0xR",
-        "https://tradenews.com.ar/abren-las-postulaciones-al-premio-exportar-2027-las-empresas-pueden-inscribirse-hasta-el-30-de-noviembre"
+        "https://tradenews.com.ar/abren-las-postulaciones-al-premio-exportar-2027-las-empresas-pueden-inscribirse-hasta-el-30-de-noviembre",
+        "https://www.noticiasagropecuarias.com/2026/11/04/se-abre-la-postulacion-de-empresas-argentinas-interesadas-en-participar-del-concurso-premio-exportar-2027"
       ],
       "mergedIds": [
-        "abren-las-postulaciones-al-premio-exportar-2027-las-empresas-pueden-inscribirse"
+        "abren-las-postulaciones-al-premio-exportar-2027-las-empresas-pueden-inscribirse",
+        "se-abre-la-postulacion-de-empresas-argentinas-interesadas-en-participar-del-conc"
       ],
       "digestSkip": {
         "at": "2026-11-04T06:50:00-03:00",
         "reason": "fuera de tema (convocatoria a un premio empresarial)"
-      }
-    },
-    {
-      "id": "las-exportaciones-brasilenas-beneficiadas-por-el-acuerdo-mercosur-ue-avanzan-un",
-      "datetime": "2026-11-04T06:09:44Z",
-      "date": "2026-11-04",
-      "firstSeen": "2026-11-04T07:44:57Z",
-      "title": "Las exportaciones brasileñas beneficiadas por el acuerdo Mercosur-UE avanzan un 21 %",
-      "summary": "Las exportaciones de productos brasileños beneficiados por el acuerdo entre Mercosur y la Unión Europea avanzaron un 21 % durante los primeros cinco meses de aplicación de las nuevas reglas comerciales. El dato, difundido por el Ministerio de Desarrollo, Industria, Comercio y Servicios de Brasil (MDIC), se refiere a…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones",
-        "Tratados y acuerdos",
-        "Latinoamérica",
-        "Mercosur",
-        "Europa"
-      ],
-      "countries": [
-        "Brasil",
-        "Unión Europea"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Jetss Latam",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://es.jetss.com/2026/11/04/las-exportaciones-brasilenas-beneficiadas-por-el-acuerdo-mercosur-ue-avanzan-un-21/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-04T07:44:57Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNGxIUFZnUnY0X05qZzI3clVFM1kxcDI4TERkVnZPcWhqYUV0d1FxMjE1Qml5emRqVHEtc1lnSm9tS3ZodWxaOFQ4VmNIcmlXVEcxUmlrTF9YYU5hTk1BczduX2EtMVg4N2FLSXNwejdqV2lZX1MxTndERFVNQmplQ2dQSlhiU2pMeS1tWFhsZk12YUFIYmFoLVBvM0Y4cDVEaXJta0I1b1k3Y0FESEdTRTExMFNQQQ?oc=5",
-      "digestSkip": {
-        "at": "2026-11-04T06:50:00-03:00",
-        "reason": "repite una nota de la redacción (seis meses del acuerdo UE–Mercosur)"
       }
     },
     {
@@ -846,13 +1565,15 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Aranceles"
+        "Aranceles",
+        "Estados Unidos"
       ],
       "countries": [
-        "Global"
+        "Estados Unidos"
       ],
       "tags": [
-        "Aranceles"
+        "Aranceles",
+        "Estados Unidos"
       ],
       "visual": "customs",
       "impact": 1,
@@ -938,10 +1659,12 @@
       "countries": [
         "Estados Unidos",
         "China",
+        "Rusia",
         "Irán"
       ],
       "tags": [
         "Aranceles",
+        "Estados Unidos",
         "China"
       ],
       "visual": "customs",
@@ -971,51 +1694,6 @@
         "at": "2026-11-04T09:55:00-03:00",
         "basedOn": "https://www.larepublica.co/globoeconomia/aranceles-china-ia-e-iran-las-decisiones-en-juego-en-las-midterm-de-ee-uu-4517011",
         "words": 175
-      }
-    },
-    {
-      "id": "argentina-exporta-un-5-mas-de-vacuno-pero-podria-no-completar-su-cuota-en-china",
-      "datetime": "2026-11-04T05:01:31Z",
-      "date": "2026-11-04",
-      "firstSeen": "2026-11-04T07:44:57Z",
-      "title": "Argentina exporta un 5 % más de vacuno, pero podría no completar su cuota en China",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Tratados y acuerdos",
-        "China",
-        "Asia"
-      ],
-      "countries": [
-        "Argentina",
-        "China"
-      ],
-      "tags": [
-        "China"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Eurocarne",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://eurocarne.com/noticias/codigo/72601/kw/Argentina+exporta+un+5+%25+m%C3%A1s+de+vacuno%2C+pero+podr%C3%ADa+no+completar+su+cuota+en+China",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-04T07:44:57Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORUY0bllhbnZZa3J3UFp3SldvWlRVX2RVaHpPQ0ZQWVlRQ0lzN0pXSEtiY3lWVUJmY2lLNkk2ZE0zcHNKNmtOaG01NzF3aFRWY3FiQzZuQUdhSjE4bHhOYkRQVEZZS214OE1MeV8xZFZWRFdRVVJfSnE5TUowYUR0dWVwRnBuLXlQWDViVW1CcUZLaW1vVWtuaTRHeHhXZFRiRnQwNDI5YlVsVjc2TUpNRmMxU2lmMG1IaUdxU20tRFN1YXdtMWZJNlRabGxuNEFxbmZ6UHpMc0dld1k?oc=5",
-      "digestSkip": {
-        "at": "2026-11-04T09:55:00-03:00",
-        "reason": "repite una nota de la redacción (exportaciones de carne vacuna enero-septiembre y cuota china)"
       }
     },
     {
@@ -1059,52 +1737,6 @@
       "digestSkip": {
         "at": "2026-11-04T09:55:00-03:00",
         "reason": "fuera de tema (agenda política del nuevo Congreso de EE.UU.; los aranceles son un aspecto menor)"
-      }
-    },
-    {
-      "id": "menos-inversion-las-importaciones-de-bienes-de-capital-cayeron-casi-14-en-lo-que",
-      "datetime": "2026-11-04T04:10:00Z",
-      "date": "2026-11-04",
-      "firstSeen": "2026-11-04T07:44:57Z",
-      "title": "¿Menos inversión?: las importaciones de bienes de capital cayeron casi 14% en lo que va del año",
-      "summary": "Las compras de maquinarias y equipos para producir se redujeron tanto en volumen como en valor. Los precios aumentaron 8,5%, impulsados por el encarecimiento de los fletes",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Importaciones"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Logística y fletes",
-      "sources": [
-        {
-          "name": "Infobae",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.infobae.com/economia/2026/11/04/menos-inversion-las-importaciones-de-bienes-de-capital-cayeron-casi-14-en-lo-que-va-del-ano/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-04T07:44:57Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNEN4NThvYWRzY1FiU0hnNFVsRjRBVFRhSGNyR0hWaGw5dEkxZjBfSmhJN19sSHJmSl9NdUkzQjhlUXktYTdPWkxIbVQ4RXNGaE5yVTJrZUlsWS1ZQjBGclUwTjJ1T3VZcEIzVFhNeV94dDhwaUYyMnFXczhRQjB0YzhIakZoMWpxMF9iMU50Z0lEV2ZFZG1TZ2VFZG1UUmhQelZfS3lrbkVXV1l6NUdFSGlZRnMzcXNjNEVyN1k4cUJSQWc5UEZ5QzV0QVpWWUFaenfSAewBQVVfeXFMUC1mSlNJYllkbllKeDZXVmFVUngyaG9YalVXTFVyWkt6TU5hdXJOYTdSdUptZFR5cjdLY3laNXZubTNMVndnaTdRRnRCZEZFU1otcFRZelk0TWE2bnNiRDBKQ3QyTWhvSlZQWmxSUWtKZDlXVUdVbU5hNTJYY2ZOSGlYTjZISDkxT2hGUGp3Mm40VkhtM1BRU19YVk5oaXhMRzgzaHd1eHBKTGxJTlZlSjY3N3J3cUhjM2JBcVE2UVg5TlB2WDVXcTZnNTJnZTJqOVdLSUo5WGU1TEtLR2ZjZHNwZWg2dGlzbzlIeng?oc=5",
-      "digest": {
-        "lead": "Las importaciones argentinas de bienes de capital cayeron 13,9% en volumen y 6,5% en valor entre enero y septiembre de 2026, hasta USD 10.690 millones, según datos del INDEC que analiza Infobae.",
-        "body": [
-          "En el mismo período los precios de esos bienes subieron 8,5%, y las piezas y accesorios para bienes de capital mostraron una baja todavía mayor: 25,9% en volumen. Entre los proveedores, China vendió USD 3.965 millones (+5,3%), Brasil USD 1.979 millones (−27,3%), Estados Unidos USD 1.085 millones (+4,1%) y Alemania USD 484 millones (−3,9%).",
-          "El cuadro general muestra importaciones totales por USD 56.069 millones (−2,5%), con volúmenes 9,7% menores, frente a exportaciones de USD 77.267 millones (+21,6%) y un superávit de USD 21.198 millones. El INDEC señala que bajaron los volúmenes de todos los usos «excepto vehículos automotores».",
-          "El organismo no explica las causas. La nota menciona como posibles factores la base alta de 2025, la suba de precios y el flete: en septiembre el flete desde China promedió USD 458,7 por tonelada, 59,1% más que un año antes."
-        ],
-        "at": "2026-11-04T09:55:00-03:00",
-        "basedOn": "https://www.infobae.com/economia/2026/11/04/menos-inversion-las-importaciones-de-bienes-de-capital-cayeron-casi-14-en-lo-que-va-del-ano/",
-        "words": 171,
-        "flag": "curar"
       }
     },
     {
@@ -1152,6 +1784,448 @@
         "basedOn": "https://portalportuario.cl/hateco-haiphong-international-container-terminal-se-une-a-vietnam-seaports-association",
         "words": 124
       }
+    },
+    {
+      "id": "tierra-del-fuego-proyecto-sanciones-navieras-malvinas-danstar-punta-arenas",
+      "date": "2026-11-04",
+      "kind": "noticia",
+      "title": "Malvinas: Tierra del Fuego prepara sanciones para las navieras que operen sin permiso en las islas y el alcance va más allá del Danstar",
+      "summary": "El régimen provincial que redacta la gobernación fueguina exigiría autorización para operar dentro de las 12 millas del departamento Islas del Atlántico Sur, con multas más duras si hay apoyo a la actividad petrolera. Apunta al buque chileno que reabre la ruta Punta Arenas–Malvinas, pero también podría alcanzar al servicio que hoy sale de Montevideo.",
+      "topics": [
+        "Argentina",
+        "Latinoamérica",
+        "Logística",
+        "Transporte marítimo",
+        "Geopolítica y comercio",
+        "Regulaciones"
+      ],
+      "countries": [
+        "Argentina",
+        "Chile",
+        "Reino Unido",
+        "Uruguay"
+      ],
+      "tags": [
+        "Malvinas",
+        "Danstar",
+        "Tierra del Fuego",
+        "Punta Arenas",
+        "Navieras",
+        "Paso inocente"
+      ],
+      "visual": "ship",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "Si se aprueban, los proyectos podrían sancionar a navieras y empresas de servicios que trabajen con las islas sin autorización argentina, y suman tensión en la relación comercial con Chile.",
+      "body": [
+        "El gobierno de Tierra del Fuego prepara un régimen provincial para controlar y sancionar las operaciones portuarias y logísticas sin autorización en las aguas de hasta 12 millas náuticas del departamento Islas del Atlántico Sur, que incluye a las Malvinas. Su secretario de Malvinas, Antártida, Islas del Atlántico Sur y Asuntos Internacionales, Andrés Dachary, dijo a PortalPortuario, en una nota publicada el 3 de noviembre, que el alcance no se limita al Danstar, el buque chileno que reabrirá la ruta comercial entre Punta Arenas y Puerto Argentino, sino a cualquier naviera que opere con las islas sin permiso.",
+        "La iniciativa se llama Régimen Provincial de Control de Actividades Portuarias No Autorizadas en el Departamento Islas del Atlántico Sur y, según ese medio, todavía estaba en redacción; ninguna de las fuentes consultadas informa una fecha de presentación formal en la Legislatura fueguina. En paralelo, la diputada Agustina Propato, del Partido Justicialista, presentó otro proyecto que propone tratar como paso no inocente el tránsito de buques vinculados con las islas.",
+        "## Qué prevé el régimen fueguino",
+        "De acuerdo con PortalPortuario, el texto se aplicaría al mar territorial de hasta 12 millas, sin importar la bandera, a buques públicos y privados, que necesitarían una autorización de la Dirección Provincial de Puertos. Abarcaría también las aguas cercanas a las Georgias del Sur y las Sandwich del Sur. Las operaciones sin permiso tendrían sanciones económicas, cuyos montos no se conocen, y la sanción sería más grave si la logística sirve a la exploración o extracción de hidrocarburos. Canal 26 agregó que el proyecto prevé identificar a las empresas involucradas en la logística con las islas y restringir su operación en territorio argentino.",
+        "Dachary aseguró que el objetivo no es frenar el primer viaje del Danstar sino actuar sobre las operaciones futuras, aunque admitió que la ley tendrá consecuencias para ese servicio. Tampoco descartó sanciones al MV Unispirit, de la empresa South American Atlantic Service, que hoy es el único servicio que abastece a las islas desde Sudamérica, con salida desde Montevideo. El funcionario anticipó, según PortalPortuario, que espera una aprobación rápida y con amplio apoyo.",
+        "## La ruta que reabre Punta Arenas",
+        "La conexión surge de un contrato entre la Corporación de Desarrollo de las Islas Falkland (FIDC) y la naviera chilena Easter Island, que confirmó en septiembre el alcalde de Punta Arenas, Claudio Radonich, según Meganoticias. El Danstar, de bandera chilena, tiene capacidad para unas 1.400 toneladas, informó Emol. Entre las cargas de interés figuran alimentos, frutas y verduras, vino, materiales de construcción, gas licuado y repuestos. La ruta acortaría a la mitad la distancia frente a Montevideo, a unos 2.000 kilómetros de las islas. Los medios difieren sobre la antigüedad del servicio anterior: Emol dice que la conexión funcionó hasta 2011 y PortalPortuario, que estaba inactiva hacía más de 15 años.",
+        "Según Meganoticias, la economía de Magallanes perdió US$ 300 millones desde 2011, cuando una declaración del Mercosur, apoyada por Chile, impidió que los buques con bandera de las islas amarraran en puertos del bloque; el alcalde Radonich argumentó que la nueva ruta no choca con esa declaración porque el barco tiene otra bandera. El poder de compra de las islas ronda los US$ 20 millones anuales. La fecha de la primera salida también varió: en septiembre se hablaba de noviembre y a mediados de octubre, de noviembre o comienzos de diciembre; PortalPortuario y Canal 26 la ubican ahora en diciembre, y BioBioChile informó que no se anunciará de antemano.",
+        "## Las posiciones de los gobiernos",
+        "El canciller Pablo Quirno reconoció que la Argentina no puede impedir ese tránsito, según Canal 26, que recuerda que el Tratado de Paz y Amistad de 1984 con Chile garantiza la navegación de buques de todas las banderas hacia y desde el estrecho de Magallanes, y que rige el régimen de paso inocente de la Convención del Mar. En octubre, Quirno había dicho a Perfil que no hubo notificación oficial y que no hay intención de abordar el buque. Dachary, en cambio, sostiene que el paso inocente debe ser continuo y no amenazar al territorio continental.",
+        "Del lado chileno, el biministro de Economía y Minería, Daniel Mas, lo definió como un negocio entre privados, y el gobernador de Magallanes, Jorge Flies, pidió resolverlo por vía diplomática, según Emol. La Cámara de Diputados de Chile aprobó el 6 de octubre siete resoluciones no vinculantes sobre la defensa del estrecho, y en la Argentina el diputado Guillermo Michel propuso que el Ejecutivo denuncie el tratado de inversiones con Chile (Ley 24.342) y el convenio para evitar la doble imposición (Ley 27.274), informó Perfil. Dachary, citado por BioBioChile, contrastó los cerca de US$ 8.000 millones del comercio bilateral con los US$ 20 millones en juego.",
+        "## Qué propone el proyecto de Propato",
+        "Según PortalPortuario, el proyecto de la diputada calificaría como no inocente el paso de buques de cualquier bandera que vayan o vengan de puertos de Malvinas, Georgias o Sandwich del Sur, o que lleven carga o personas vinculadas con actividades logísticas, militares, petroleras, pesqueras o de infraestructura en esas islas. La Prefectura podría ordenarles detenerse, cambiar el rumbo o salir de aguas argentinas, y registrar el buque y su carga; si no acatan, se labraría un acta, se avisaría a la Cancillería, se incluiría al buque en un registro de infractores y podría ser detenido. Ninguno de los dos textos está vigente: ambos necesitan aprobación legislativa."
+      ],
+      "keyData": [
+        [
+          "Alcance del régimen fueguino",
+          "12 millas náuticas del departamento Islas del Atlántico Sur"
+        ],
+        [
+          "Buque que reabre la ruta",
+          "Danstar (bandera chilena, unas 1.400 t)"
+        ],
+        [
+          "Ruta",
+          "Punta Arenas–Puerto Argentino"
+        ],
+        [
+          "Primer viaje",
+          "previsto para diciembre, según PortalPortuario"
+        ],
+        [
+          "Poder de compra de las islas",
+          "unos US$ 20 millones por año"
+        ],
+        [
+          "Comercio Argentina–Chile",
+          "cerca de US$ 8.000 millones (según Dachary)"
+        ]
+      ],
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado",
+          "url": "https://portalportuario.cl/no-solo-al-danstar-proyecto-de-ley-de-tierra-del-fuego-tambien-afectaria-a-otras-navieras-que-conecten-con-falkland",
+          "primary": true
+        },
+        {
+          "name": "PortalPortuario (proyecto de Propato)",
+          "type": "Medio especializado",
+          "url": "https://portalportuario.cl/presentan-proyecto-para-restringir-transito-maritimo-a-buques-que-apoyen-explotacion-en-islas-falkland"
+        },
+        {
+          "name": "Canal 26",
+          "type": "Medio de comunicación",
+          "url": "https://www.canal26.com/politica/2026/10/31/tension-entre-argentina-y-chile-por-malvinas-tierra-del-fuego-prepara-multas-y-sanciones-contra-empresas-navieras/"
+        },
+        {
+          "name": "BioBioChile",
+          "type": "Medio de comunicación",
+          "url": "https://www.biobiochile.cl/noticias/internacional/america-latina/2026/10/29/provincia-argentina-alista-ley-para-sancionar-comercio-maritimo-en-atlantico-sur-apuntan-al-danstar.shtml"
+        },
+        {
+          "name": "Emol",
+          "type": "Medio de comunicación",
+          "url": "https://www.emol.com/noticias/Nacional/2026/10/11/1213836/nuevo-barco-islas-malvinas-cancilleria.html"
+        },
+        {
+          "name": "Meganoticias",
+          "type": "Medio de comunicación",
+          "url": "https://www.meganoticias.cl/nacional/530826-punta-arenas-ruta-maritima-falkland-malvinas-easter-island-03-09-2026.html"
+        },
+        {
+          "name": "Perfil",
+          "type": "Medio de comunicación",
+          "url": "https://www.perfil.com/noticias/internacional/chile-defiende-la-nueva-ruta-maritima-a-malvinas-y-crece-la-disputa-con-argentina-por-posibles-medidas-economicas.phtml"
+        }
+      ],
+      "argentinaImpact": {
+        "change": "Tierra del Fuego prepara sanciones a navieras que operen sin autorización en las 12 millas de Malvinas y hay un proyecto en el Congreso para tratar como paso no inocente el tránsito hacia las islas.",
+        "who": "Navieras y empresas de servicios logísticos con operaciones en el Atlántico Sur, puertos patagónicos y exportadores con negocios en Chile.",
+        "sectors": [
+          "Transporte marítimo",
+          "Logística",
+          "Hidrocarburos"
+        ],
+        "flows": {
+          "importaciones": false,
+          "exportaciones": false,
+          "logistica": true,
+          "aranceles": false
+        }
+      },
+      "explainer": {
+        "what": "Tierra del Fuego prepara un régimen para sancionar a las navieras que operen sin autorización dentro de las 12 millas de Malvinas, en respuesta a la nueva ruta del buque chileno Danstar desde Punta Arenas.",
+        "why": "Podría alcanzar a cualquier empresa que haga logística con las islas, incluido el servicio que hoy sale de Montevideo, y suma tensión con Chile, un socio con un comercio bilateral cercano a US$ 8.000 millones.",
+        "who": "Navieras y operadores logísticos del Atlántico Sur, empresas con negocios con las islas y exportadores e inversores en la relación con Chile.",
+        "products": [
+          "Alimentos",
+          "Materiales de construcción",
+          "Gas licuado",
+          "Repuestos"
+        ],
+        "next": "El primer viaje del Danstar entre Punta Arenas y las islas está previsto para diciembre.",
+        "nextSource": {
+          "name": "PortalPortuario",
+          "url": "https://portalportuario.cl/no-solo-al-danstar-proyecto-de-ley-de-tierra-del-fuego-tambien-afectaria-a-otras-navieras-que-conecten-con-falkland"
+        }
+      },
+      "story": "logistica-regional",
+      "absorbs": [
+        "no-solo-al-danstar-proyecto-de-ley-de-tierra-del-fuego-tambien-afectaria-a-otras",
+        "tension-entre-argentina-y-chile-por-malvinas-tierra-del-fuego-prepara-multas-y-s"
+      ]
+    },
+    {
+      "id": "indec-indices-precios-cantidades-tercer-trimestre-2026-terminos-intercambio-4-2",
+      "date": "2026-11-04",
+      "kind": "datos",
+      "title": "Tercer trimestre: los precios de exportación subieron 15,2%, las cantidades apenas 1,3% y los términos del intercambio mejoraron 4,2%",
+      "summary": "Según los índices del INDEC, entre julio y septiembre las ventas externas crecieron casi solo por precios, empujadas por energía, químicos y carnes, mientras las importaciones fueron 10,5% más caras y 9,5% menores en volumen. Los bienes de capital acumulan una caída de 13,9% en cantidades en nueve meses.",
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Importaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "INDEC",
+        "Términos del intercambio",
+        "Precios de exportación",
+        "Bienes de capital",
+        "Vaca Muerta"
+      ],
+      "visual": "chart",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "Es el dato oficial que separa precio y volumen en el comercio de bienes: muestra que la suba del valor exportado del tercer trimestre vino casi toda de precios y que las importaciones de bienes de capital siguen cayendo en cantidades.",
+      "body": [
+        "El INDEC publicó el martes 3 de noviembre sus índices de precios y cantidades del comercio exterior de bienes correspondientes al tercer trimestre de 2026. Entre julio y septiembre, los precios de las exportaciones argentinas subieron 15,2% frente al mismo período de 2025, mientras que las cantidades vendidas apenas crecieron 1,3%. Del lado de las compras, los precios aumentaron 10,5% y los volúmenes cayeron 9,5%. Con esa combinación, los términos del intercambio —la relación entre los precios de lo que el país vende y los de lo que compra— mejoraron 4,2% interanual, según los datos difundidos por la agencia NA y por El Cronista.",
+        "La consecuencia es que el aumento del valor exportado del trimestre, de 16,7% según NA, se explicó casi por completo por precios. En las importaciones, la suba de precios compensó la menor cantidad de mercadería comprada y el valor quedó prácticamente igual que un año antes (+0,1%).",
+        "## Qué rubros empujaron los precios",
+        "Combustibles y energía fue otra vez el motor: sus precios subieron 26,6%, las cantidades 37,5% y el valor 74,1%, con el petróleo crudo 21,7% más caro. El rubro ya pesa 17,3% en el índice de exportaciones. Las manufacturas de origen industrial (MOI) tuvieron precios 13,9% más altos, con fuertes subas en químicos y conexos (33,1%), materias plásticas (39,9%), piedras y metales preciosos (23,4%) y metales comunes (21,5%).",
+        "Las manufacturas de origen agropecuario (MOA), que representan 35,5% del índice, subieron 13,4% en precios y bajaron 0,6% en cantidades. Ahí se destacaron carnes y preparados (+27,6%), con la carne bovina 24,7% más cara, y los aceites de girasol (+19,2%) y de soja (+14,8%), además de la harina y los pellets de soja (+14,6%). Los productos primarios perdieron valor (−2%): sus precios subieron 7,2%, pero las cantidades cayeron 8,6%, arrastradas por las oleaginosas (−59,9%) y, en particular, por el poroto de soja (−69,3%), cuyo precio aumentó 13,1%. Los cereales, en cambio, crecieron 35,4% en volumen, con precios 4,5% más altos.",
+        "## Importaciones: más caras y en menor volumen",
+        "Por usos económicos, los bienes intermedios —35% del índice de importaciones— fueron el único gran grupo con más cantidades (+1%), con precios 12,7% mayores. Los combustibles y lubricantes subieron 31,7% en precios y cayeron 11,1% en volumen. Las piezas y accesorios para bienes de capital tuvieron precios 10,9% más altos y cantidades 18% menores; los bienes de capital, precios 8,4% mayores y volúmenes 12,7% más bajos, y los bienes de consumo, +4,4% y −8,8%. Los vehículos de pasajeros fueron la excepción en precios: bajaron 10,2%, con cantidades 12,7% menores.",
+        "En el acumulado de enero a septiembre, las importaciones registran precios 8% más altos y cantidades 9,7% menores. La caída en volumen es más fuerte en piezas y accesorios para bienes de capital (−25,9%) y en bienes de capital (−13,9%), un dato que se sigue de cerca como indicador de inversión.",
+        "## Nueve meses y la comparación con el trimestre anterior",
+        "En los primeros nueve meses, los precios de exportación subieron 11,2% y las cantidades 9,3%. Por rubro, combustibles y energía acumula +18,6% en precios y +29,5% en cantidades; las MOI, +16,5% y +5,6%; las MOA, +10,8% y +3,1%, y los productos primarios, +1,3% y +12,9%.",
+        "El tercer trimestre marca un cambio respecto del segundo. Según el informe que el INDEC publicó el 30 de julio, entre abril y junio los precios de exportación habían subido 13,7% y las cantidades 15,1%, con importaciones 8,2% más caras y 8,3% menores en volumen; los términos del intercambio habían mejorado 5% y el organismo estimó una ganancia de USD 1.224 millones por esa mejora. Entre julio y septiembre, en cambio, el volumen exportado casi se estancó y la mejora de los términos del intercambio se moderó a 4,2%. Dentro del trimestre, el ICA de septiembre ya había mostrado precios de exportación 16,4% más altos y cantidades 6,1% mayores en ese mes, según cubrió Comexplora el 19 de octubre.",
+        "## Qué sigue",
+        "Según el calendario del INDEC, el 5 de noviembre se publica el informe en inglés con los datos preliminares de los nueve meses, y el jueves 19 de noviembre llega el intercambio comercial argentino de octubre, que mostrará si el peso de los precios en las exportaciones se mantiene en el arranque del cuarto trimestre."
+      ],
+      "keyData": [
+        [
+          "Términos del intercambio (3.er trim.)",
+          "+4,2% interanual"
+        ],
+        [
+          "Precios de exportación",
+          "+15,2%"
+        ],
+        [
+          "Cantidades exportadas",
+          "+1,3%"
+        ],
+        [
+          "Precios de importación",
+          "+10,5%"
+        ],
+        [
+          "Cantidades importadas",
+          "−9,5%"
+        ],
+        [
+          "Combustibles y energía",
+          "precios +26,6%, cantidades +37,5%"
+        ],
+        [
+          "Bienes de capital, cantidades ene–sep",
+          "−13,9%"
+        ]
+      ],
+      "sources": [
+        {
+          "name": "El Cronista",
+          "type": "Medio de comunicación",
+          "url": "https://www.cronista.com/economia-politica/el-superavit-comercial-acumulo-mas-de-us-21100-millones-a-septiembre-con-precios-record-y-freno-importador/",
+          "primary": true
+        },
+        {
+          "name": "Diario El Observador (NA)",
+          "type": "Medio de comunicación",
+          "url": "https://diarioelobservador.com.ar/los-precios-de-exportacion-en-argentina-aumentan-un-152-y-marcan-un-cambio-en-el-comercio-exterior/"
+        },
+        {
+          "name": "INDEC — Índices de precios y cantidades, segundo trimestre de 2026",
+          "type": "Organismo oficial",
+          "url": "https://www.indec.gob.ar/uploads/informesdeprensa/ipcext_07_2688456401E3.pdf"
+        },
+        {
+          "name": "INDEC — Calendario de difusión, segundo semestre de 2026",
+          "type": "Organismo oficial",
+          "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf"
+        }
+      ],
+      "argentinaImpact": {
+        "change": "En el tercer trimestre, las exportaciones crecieron por precios (+15,2%) y casi nada en cantidades (+1,3%); las importaciones cayeron 9,5% en volumen.",
+        "who": "Exportadores de energía, agroindustria e industria química; importadores de bienes de capital, insumos y vehículos.",
+        "sectors": [
+          "Energía",
+          "Agroindustria",
+          "Química",
+          "Bienes de capital"
+        ],
+        "flows": {
+          "importaciones": true,
+          "exportaciones": true,
+          "logistica": false,
+          "aranceles": false
+        }
+      },
+      "explainer": {
+        "what": "El INDEC informó que en el tercer trimestre de 2026 los precios de exportación subieron 15,2% y los de importación 10,5%, con lo que los términos del intercambio mejoraron 4,2%.",
+        "why": "Muestra que el mayor valor exportado vino casi todo de precios, con cantidades apenas 1,3% mayores, y que las compras externas siguen cayendo en volumen, en especial las de bienes de capital.",
+        "who": "Exportadores de energía, carnes, aceites y químicos; importadores de bienes de capital, insumos y vehículos; y quienes siguen el ingreso de divisas.",
+        "products": [
+          "Petróleo crudo",
+          "Carne bovina",
+          "Aceites de soja y girasol",
+          "Harina de soja",
+          "Poroto de soja",
+          "Químicos",
+          "Bienes de capital"
+        ],
+        "next": "El INDEC publicará el 19 de noviembre el intercambio comercial argentino de octubre.",
+        "nextSource": {
+          "name": "INDEC — Calendario de difusión, segundo semestre de 2026",
+          "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf"
+        }
+      },
+      "story": "balanza-argentina",
+      "deadlines": [
+        {
+          "date": "2026-11-19",
+          "label": "INDEC: intercambio comercial argentino de octubre",
+          "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf"
+        }
+      ],
+      "absorbs": [
+        "los-precios-de-exportacion-subieron-15-2-que-productos-argentinos-se-encareciero",
+        "comercio-exterior-mejora-del-4-2-en-terminos-de-intercambio",
+        "menos-inversion-las-importaciones-de-bienes-de-capital-cayeron-casi-14-en-lo-que"
+      ]
+    },
+    {
+      "id": "senasa-maquinaria-agricola-usada-zarate-214-equipos-2026-triple-controles-afidi",
+      "date": "2026-11-04",
+      "kind": "noticia",
+      "title": "Maquinaria agrícola usada: ya entraron 214 equipos por Zárate en 2026, más del triple que en 2025, y el SENASA refuerza los controles",
+      "summary": "El organismo inspeccionó 214 máquinas e implementos usados importados, contra 61 en el mismo período del año pasado, la mayoría de Estados Unidos y la UE. Recordó que cada equipo necesita AFIDI, llegar limpio, tratado y con certificado fitosanitario de origen. Es el efecto del Decreto 273/2025, que eliminó el certificado de importación de usados.",
+      "topics": [
+        "Argentina",
+        "Importaciones",
+        "Aduanas",
+        "Regulaciones"
+      ],
+      "countries": [
+        "Argentina",
+        "Estados Unidos",
+        "Unión Europea"
+      ],
+      "tags": [
+        "SENASA",
+        "Maquinaria agrícola",
+        "Bienes usados",
+        "AFIDI",
+        "Zárate",
+        "Decreto 273/2025"
+      ],
+      "visual": "agro",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "Quien importe maquinaria agrícola usada tiene que cumplir los requisitos fitosanitarios del SENASA antes de liberarla, y los controles en Zárate se intensificaron. Para la industria local de maquinaria, el dato se suma a un año de ventas en baja y crisis de varias fábricas.",
+      "body": [
+        "El SENASA informó que en lo que va de 2026 inspeccionó 214 máquinas e implementos agrícolas usados importados que ingresaron por la terminal portuaria de Zárate, en la provincia de Buenos Aires, frente a 61 en el mismo período de 2025. Es más del triple, una suba de algo más de 250%. Ante ese aumento, el organismo intensificó los controles fitosanitarios en la terminal, a cargo del personal de su Centro Regional Buenos Aires Norte, que hace revisiones documentales y físicas de cada envío.",
+        "El comunicado, difundido el 3 de noviembre y reproducido por Agrofy News, Opción Rural, Infocampo y La Capital, señala que la mayoría de los equipos llega desde Estados Unidos y desde países de la Unión Europea. Las fuentes describen el período de manera algo distinta: Agrofy lo atribuye a la Secretaría de Agricultura, Ganadería y Pesca y habla de los primeros diez meses del año, mientras que Bichos de Campo lo ubica entre enero y lo que va de noviembre. Ninguna informa el valor en dólares de esas importaciones ni el detalle por tipo de máquina.",
+        "## Qué exige el SENASA para liberar una máquina usada",
+        "Según el organismo, toda maquinaria usada debe cumplir las condiciones de la Autorización Fitosanitaria de Importación (AFIDI): llegar limpia por fuera y por dentro, sin tierra, restos vegetales ni plagas; haber recibido alguno de los tratamientos cuarentenarios aprobados por la Argentina, y venir acompañada por un certificado fitosanitario emitido por la autoridad del país de origen. El objetivo, explica el SENASA, es evitar que entren plagas o enfermedades ausentes en el país que pongan en riesgo el estatus sanitario de la producción.",
+        "En un informe de agosto de 2025, basado en datos del SENASA, la Revista Cultivar detalló que la AFIDI se tramita en el sistema SIGPV-IMPO y que los controles se hacen en 32 puntos de ingreso terrestres, marítimos y fluviales. En los cinco años previos, los equipos más frecuentes habían sido cosechadoras de algodón, cabezales maiceros y máquinas forestales, con Estados Unidos como origen principal, seguido por Brasil, Uruguay, Chile y Paraguay. Entre los riesgos citados figuraban semillas de malezas como Orobanche, Striga y Amaranthus, y la sospecha de que la polilla de la vid (Lobesia botrana) llegó al país con cosechadoras de uva.",
+        "## El cambio de reglas de 2025",
+        "El salto de las importaciones de usados se apoya en el Decreto 273/2025, publicado en el Boletín Oficial el 16 de abril de 2025. La norma eliminó el Certificado de Importación de Bienes Usados (CIBU), que funcionaba como un filtro previo, y lo reemplazó por una declaración jurada del importador cargada en el sistema SIM. Según el análisis de Aduana News, el derecho de importación extrazona del bien usado es el del bien nuevo de la misma posición aumentado 100%, con un tope de 35%, y se admite el ingreso de bienes sin aptitud funcional, siempre que no se violen otras normas. El importador sigue siendo responsable de cumplir las exigencias sanitarias, de seguridad y ambientales.",
+        "Cuando se publicó el decreto, Bichos de Campo lo vinculó con un pedido del gobierno de Estados Unidos en la negociación por el arancel de 10% que pagan los productos argentinos. En mayo de 2025, según iProfesional, los primeros dos buques con maquinaria usada esperaban en Zárate la inspección del SENASA antes de descargar.",
+        "## La industria local, en otra sintonía",
+        "La apertura fue resistida desde el principio por los fabricantes. En 2025, la Asociación de Fabricantes de Tractores (AFAT) rechazó la medida y recordó que sus socios tienen 12 plantas en el país con unos 16.700 empleados; la cámara de fabricantes de maquinaria agrícola (CAFMA) advirtió por el riesgo sanitario, y la UIA habló de competencia desleal. Enrique Bertini, entonces presidente de CAFMA, dijo que el decreto abría la puerta a equipos a un precio «casi de chatarra», según recordó La Capital.",
+        "Bichos de Campo, en una nota crítica del 3 de noviembre, contrastó el anuncio con los datos de patentamientos de ACARA: entre enero y octubre de 2026 se registraron 5.649 tractores, cosechadoras y pulverizadoras, 0,7% menos que un año antes, con cosechadoras en alza (+11,4%) y caídas en tractores (−1%) y pulverizadoras (−11,9%). La categoría «otros», integrada sobre todo por tractores de marcas importadas, en particular chinas, pasó de 382 a 873 unidades y ya concentra 19,7% del mercado. El mismo medio estima que los usados equivalen a cerca de 4% de la maquinaria que venden los concesionarios y repasa la situación de fabricantes como Metalfor, en concurso preventivo; Plantium, con el cierre temporal de su planta de Villa Constitución, y Pauny, con la fábrica tomada por sus trabajadores.",
+        "## Qué falta saber",
+        "Agrofy remarca que el volumen de usados todavía es chico frente a las ventas de maquinaria nueva: solo en septiembre, ACARA registró 493 patentamientos de maquinaria agrícola. El SENASA no informó cuántos equipos fueron rechazados u obligados a recibir tratamiento, ni si el aumento se repite en otros puntos de ingreso además de Zárate. Para los importadores, la regla práctica no cambió: sin AFIDI, limpieza certificada y documentación de origen, la máquina no se libera."
+      ],
+      "keyData": [
+        [
+          "Máquinas usadas inspeccionadas en 2026",
+          "214 (vs. 61 en 2025)"
+        ],
+        [
+          "Variación interanual",
+          "más de +250%"
+        ],
+        [
+          "Puerto de ingreso controlado",
+          "Zárate (Buenos Aires)"
+        ],
+        [
+          "Orígenes principales",
+          "Estados Unidos y Unión Europea"
+        ],
+        [
+          "Norma que eliminó el CIBU",
+          "Decreto 273/2025"
+        ],
+        [
+          "Derecho de importación de usados",
+          "el del bien nuevo +100%, tope 35%"
+        ],
+        [
+          "Patentamientos ene–oct 2026 (ACARA)",
+          "5.649 unidades (−0,7%)"
+        ]
+      ],
+      "sources": [
+        {
+          "name": "Agrofy News",
+          "type": "Medio especializado",
+          "url": "https://news.agrofy.com.ar/noticia/216932/se-disparo-importacion-maquinaria-agricola-usada-crecio-mas-250",
+          "primary": true
+        },
+        {
+          "name": "Opción Rural",
+          "type": "Medio especializado",
+          "url": "https://opcionrural.com.ar/2026/11/03/argentina-fortalece-proteccion-fitosanitaria-ante-el-crecimiento-del-ingreso-de-maquinaria-agricola-usada/"
+        },
+        {
+          "name": "Infocampo",
+          "type": "Medio especializado",
+          "url": "https://www.infocampo.com.ar/importaciones-de-maquinaria-agricola-usada-crecen-250-y-disparan-otro-riesgo-el-ingreso-de-plagas/"
+        },
+        {
+          "name": "La Capital",
+          "type": "Medio de comunicación",
+          "url": "https://www.lacapital.com.ar/agro/maquinaria-agricola-usada-crecio-mas-250-el-ingreso-equipos-importados-n10290339.html"
+        },
+        {
+          "name": "Bichos de Campo",
+          "type": "Medio especializado",
+          "url": "https://bichosdecampo.com/puro-tacto-en-medio-de-una-crisis-sin-precedentes-de-la-industria-de-la-maquinaria-local-el-gobierno-salio-a-festejar-el-incremento-de-fierros-usados-desde-el-exterior/"
+        },
+        {
+          "name": "Aduana News",
+          "type": "Medio especializado",
+          "url": "https://aduananews.com/bienes-usados-el-gobierno-actualiza-el-regimen-de-importacion-mediante-el-decreto-273-2025/"
+        },
+        {
+          "name": "Bichos de Campo (abril de 2025)",
+          "type": "Medio especializado",
+          "url": "https://bichosdecampo.com/argentina-hablita-la-importacion-de-maquinaria-agricola-usada-para-cumplir-con-una-exigencia-de-trump/"
+        },
+        {
+          "name": "iProfesional",
+          "type": "Medio de comunicación",
+          "url": "https://www.iprofesional.com/economia/427999-llegan-primeras-cosechadoras-usadas-pais-hay-fuerte-polemica-en-sector"
+        },
+        {
+          "name": "Revista Cultivar",
+          "type": "Medio especializado",
+          "url": "https://www.revistacultivar.com.br/noticias/argentina-intensifica-controle-de-maquinas-agricolas-usadas-para-barrar-pragas"
+        }
+      ],
+      "argentinaImpact": {
+        "change": "El ingreso de maquinaria agrícola usada por Zárate pasó de 61 a 214 equipos y el SENASA intensificó las inspecciones fitosanitarias.",
+        "who": "Importadores de maquinaria usada, productores y contratistas rurales, despachantes y fabricantes locales de maquinaria agrícola.",
+        "sectors": [
+          "Maquinaria agrícola",
+          "Agro"
+        ],
+        "flows": {
+          "importaciones": true,
+          "exportaciones": false,
+          "logistica": true,
+          "aranceles": false
+        }
+      },
+      "explainer": {
+        "what": "El SENASA informó que en 2026 ingresaron por Zárate 214 máquinas agrícolas usadas importadas, contra 61 en el mismo período de 2025, e intensificó los controles.",
+        "why": "El aumento es el efecto del Decreto 273/2025, que eliminó el certificado de importación de usados; los equipos que trabajaron en campos de otros países pueden traer plagas ausentes en la Argentina.",
+        "who": "Importadores y despachantes de maquinaria usada, productores y contratistas, y los fabricantes locales de maquinaria agrícola.",
+        "products": [
+          "Cosechadoras",
+          "Tractores",
+          "Implementos agrícolas",
+          "Cabezales maiceros"
+        ]
+      },
+      "story": "bienes-usados",
+      "absorbs": [
+        "maquinaria-agricola-usada-las-importaciones-se-triplicaron-y-senasa-refuerza-con"
+      ]
     },
     {
       "id": "memoria-2025-del-port-de-barcelona-refleja-ano-de-crecimiento-inversion-y-transf",
@@ -1286,46 +2360,6 @@
         "at": "2026-11-04T09:55:00-03:00",
         "basedOn": "https://portalportuario.cl/puerto-de-amberes-brujas-detalla-ajustes-arancelarios-para-2027",
         "words": 168
-      }
-    },
-    {
-      "id": "no-solo-al-danstar-proyecto-de-ley-de-tierra-del-fuego-tambien-afectaria-a-otras",
-      "datetime": "2026-11-03T23:41:27Z",
-      "date": "2026-11-03",
-      "firstSeen": "2026-11-04T07:44:57Z",
-      "title": "No solo al Danstar: Proyecto de Ley de Tierra del Fuego también afectaría a otras navieras que conecten con Falkland",
-      "summary": "Andrés Dachary, secretario de Malvinas, Antártida, Islas del Atlántico Sur y Asuntos Internacionales de la…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Transporte marítimo"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "ship",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/no-solo-al-danstar-proyecto-de-ley-de-tierra-del-fuego-tambien-afectaria-a-otras-navieras-que-conecten-con-falkland/",
-          "primary": true,
-          "author": "Gabriel"
-        }
-      ],
-      "aliasUrls": [
-        "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPcExDUHBLLThCSlotM2xJcUpqZTNpSzVFamFScEJxeGJuQURvcXktZFFqNW9GQW5mNTBrbHk4WDBPcXVLNWRRb09zSzBwczNqa0hBLU1BOTN0UDhHTEhyaC1xR05WeEMxT2RYNm1PRWZYc29GOUxVeVgwSFRYX0JLYkRPNV8wMHVaYnRkMFc5eHNuZnFVc1ZYQjVxOVhOUk5vRFk1TU1UWUZJb3FCRnhmU2drUldtdXZJVFc0MkhCdlB4ZFJrNnFhbVBvdzU4YWpOenI3c0NaaWg2WEU"
-      ],
-      "digestSkip": {
-        "at": "2026-11-04T06:50:00-03:00",
-        "reason": "repite el mismo hecho que la nota de Canal 26"
       }
     },
     {
@@ -1543,83 +2577,6 @@
         "at": "2026-11-04T09:55:00-03:00",
         "basedOn": "https://portalportuario.cl/estados-unidos-anuncia-donacion-de-usd-17-millones-para-modernizar-sistemas-digitales-de-puerto-de-colombo",
         "words": 159
-      }
-    },
-    {
-      "id": "maquinaria-agricola-usada-las-importaciones-se-triplicaron-y-senasa-refuerza-con",
-      "datetime": "2026-11-03T22:21:54Z",
-      "date": "2026-11-03",
-      "firstSeen": "2026-11-04T07:44:57Z",
-      "title": "Maquinaria agrícola usada: las importaciones se triplicaron y Senasa refuerza controles",
-      "summary": "En diez meses ingresaron 214 equipos usados por Zrate, un 251% ms que en 2025. Senasa intensific las inspecciones para prevenir el ingreso de plagas.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Importaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
-      "sources": [
-        {
-          "name": "AgroLatam",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.agrolatam.com/argentina/maquinaria/importacion-maquinaria-agricola-usada-senasa-controles-zarate/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-04T07:44:57Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcjVRd3U5bjh3R0hXSzJIUS1pa3FyYnE1TFVHQURnRzV1cnJlSVA2WjlRTTJQY2N4MURPc1RIQm83M2J6SFhKdG9Ed0E0SFh2UmJnZko1V2tmVnFvRDlPVmtyMGVuTTlVRVJaRVczVkxfbVhnS1VjSWtQaUhxNVFqOVZWNkJpYmNLMWotWGYwa3pVWmNaR3laRl9vS3lVMW5kSGpmWnZQV2xVek4za0E?oc=5",
-      "digestSkip": {
-        "at": "2026-11-04T09:55:00-03:00",
-        "reason": "repite una nota de la redacción (importaciones de maquinaria agrícola usada por Zárate y controles del SENASA)"
-      }
-    },
-    {
-      "id": "comercio-exterior-mejora-del-4-2-en-terminos-de-intercambio",
-      "datetime": "2026-11-03T22:02:12Z",
-      "date": "2026-11-03",
-      "firstSeen": "2026-11-03T22:26:36Z",
-      "title": "Comercio exterior: mejora del 4,2% en términos de intercambio",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "globe",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Comercio exterior Argentina",
-      "sources": [
-        {
-          "name": "Diario El Norte - San Nicolás",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://diarioelnorte.com.ar/comercio-exterior-mejora-del-42-en-terminos-de-intercambio/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-03T22:26:36Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUTdZVVo3RlFoSnkzalFXZzRYdjV4Z0hXOGJOZm9PRkRpb2tPMldCbXAxUTFvRmppeHNjbUg1R1JVY0hpZHYtdTUxMlNzaGY5N3ZmRF8tZ2JmMDVIUnc0NFVkbE1Zblh5alVPTmZ1SzAzM05iVWFxb2djbHhyZlNnemFXXzZCVXpFZ09Rb0xKSEJKUQ?oc=5",
-      "digestSkip": {
-        "at": "2026-11-03T21:55:00-03:00",
-        "reason": "repite el mismo hecho que la nota de El Cronista (índices de precios y cantidades del comercio exterior del INDEC, tercer trimestre)"
       }
     },
     {
@@ -2170,107 +3127,45 @@
       }
     },
     {
-      "id": "gobierno-anuncia-plan-de-transporte-maritimo-para-asegurar-exportaciones-pese-a",
-      "datetime": "2026-11-03T19:40:29Z",
+      "id": "documento-seis-meses-del-acuerdo-mercosur-union-europea-balance-preliminar-y-evo",
+      "datetime": "2026-11-03T19:34:00Z",
       "date": "2026-11-03",
-      "firstSeen": "2026-11-03T22:26:36Z",
-      "title": "Gobierno anuncia plan de transporte marítimo para asegurar exportaciones pese a efectos de El Niño",
-      "summary": "",
+      "firstSeen": "2026-11-04T17:24:12Z",
+      "title": "Documento | Seis meses del acuerdo Mercosur-Unión Europea: balance preliminar y evolución de las exportaciones uruguayas.",
+      "summary": "Disponible en: https://www.gub.uy/ministerio-economia-finanzas/comunicacion/noticias/seis-meses-del-acuerdo-mercosur-ue-balance-preliminar-comportamiento",
       "body": [],
       "keyData": [],
       "topics": [
         "Exportaciones",
-        "Transporte marítimo"
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "Mercosur",
+        "Europa"
       ],
       "countries": [
-        "Global"
-      ],
-      "tags": [],
-      "visual": "ship",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Logística y fletes",
-      "sources": [
-        {
-          "name": "Rumbo Minero",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.rumbominero.com/portada2/gobierno-transporte-maritimo-exportaciones-el-nino/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-03T22:26:36Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdXZ0NU02cWtjYWg2YmlqUm94OGd1WWl5cHY2VVpaRTE5LTY1LVljWmpQSU1mdUZHcWRMUUtGaGVPeTBOWmZjYjZ1TDk5YUVGNFpET28tRlN0RU9QdWIzdWFsT2RhOFdncFh3VHczWVUtU19SclRJa3VOdVczQVRqQ291bDUzelpVWFdxZHU4am9vUQ?oc=5",
-      "digestSkip": {
-        "at": "2026-11-03T21:55:00-03:00",
-        "reason": "la fuente no se pudo abrir (error del sitio) y no hay otro medio con la misma noticia"
-      }
-    },
-    {
-      "id": "los-precios-de-exportacion-subieron-15-2-que-productos-argentinos-se-encareciero",
-      "datetime": "2026-11-03T19:19:15Z",
-      "date": "2026-11-03",
-      "firstSeen": "2026-11-03T22:26:36Z",
-      "title": "Los precios de exportación subieron 15,2%: qué productos argentinos se encarecieron más",
-      "summary": "El petróleo crudo, las carnes, los aceites y los productos químicos estuvieron entre los principales impulsores. En paralelo, las cantidades importadas cayeron 9,5%, mientras que sus precios subieron 10,5%.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Importaciones",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
+        "Uruguay",
+        "Unión Europea"
       ],
       "tags": [
-        "Carne",
-        "Energía"
+        "Mercosur"
       ],
       "visual": "customs",
       "impact": 1,
       "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
+      "feed": "Google Noticias · Mercosur",
       "sources": [
         {
-          "name": "El Cronista",
+          "name": "Radiomundo En Perspectiva",
           "type": "Medio · vía Google Noticias",
-          "url": "https://www.cronista.com/economia-politica/el-superavit-comercial-acumulo-mas-de-us-21100-millones-a-septiembre-con-precios-record-y-freno-importador/",
+          "url": "https://enperspectiva.uy/documentos/documento-seis-meses-del-acuerdo-mercosur-union-europea-balance-preliminar-y-evolucion-de-las-exportaciones-uruguayas/",
           "primary": true,
           "author": ""
-        },
-        {
-          "name": "Agencia Noticias Argentinas",
-          "type": "También publicó esta noticia",
-          "url": "https://noticiasargentinas.com/economia/comercio-exterior--los-precios-de-exportacion-subieron-un-15-2-_a6aea418a362d45b1b5dddf3d",
-          "alsoIn": true,
-          "title": "Comercio exterior: los precios de exportación subieron un 15,2%"
         }
       ],
-      "gnTried": "2026-11-03T22:26:36Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSVBxSlBjZWRaRERZRFRZVzJpbVZ6UjZDWldsOWtsWVJhVUdyUmdCSHBoajVxUUpORkFGSW85bWV3TzlORkg4V2liYUFINTRSRkFQM1FYZE85ZjFCNy1uMmZKREFySmJROVU5ZEVBNU1vNm5IeVFRd2hJMlpKSUoyQTRITFJSRVgybk1McnhJbGZuMnEySnJodTU3LTh2Ty1vek15eUxfNVZIX2JHc2puZGNndmhvWjBuVHE1TmpVSTk0dC1TQWE3cVlrbWZCdUpTWmFTWEtweWdmRVp0NnVtc2pEUTTSAf8BQVVfeXFMT3E5R1pZNW5GSlBwaE9FOHBBM1ZSekh4djQ0V1kwZ3NJV3NNUFZBdmhObjRjYjBTd0E0SDluY2lNUDgxdjhOeDdjcWhMQ0k2VFJueERYTUk5SktGcE5qZUF1dWhQZUJaaUdqOHItUTBramd2ZVMxZEU4cW95Rk9EUGJLbnFUWDBDMHVaUk44Q0hwWmVxU1dlTFhnQW9Ma1VJX2doRUY3OEowRnZ2Tkd0OUZhbk5WOGQ2ckVvZDAxYlB1VjgxUTBnTG9TcVc0dUM4Y1NwcG5hNzV6VzdldnFmaFQtaDFqYm5oazkzNllKenNFMDhlRFpfVUVDbTRuZnRN?oc=5",
-      "aliasUrls": [
-        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVnRTWkRWS1REZm1GWnBjR1d4YmNja0p6dGFlTGxpLW9QVjRaZjJIYmc0Q05lUTFBcS1KWjZqZEszRzl4alR4TllZdnpPV09SVERBWVk5TnJqbGNWT3ZLTVVtaDFnWm1Ebm01d0ZOLVRHTklVYk80SU9yR3ZlU0lwV0JKWUZ5Nmp3dUdlRlFMZnAtTDEwaFdKcmM3c0xTTVJ3MzFPeFNtVGdUWXRPcWV0V3RuTVpqNlhac0JLQXdyNkdwSUxxRTBnZdIB1wFBVV95cUxQM2owODE3VGxUcWZqdnVOWjl5VTM0cmZpU29XUFJwWUkxdEFnSUxhbWNycHluaFZkUWMzZzV4bFZySWI5SXRTaXcyZ244V0Njb0UzelpWRmRuT3pRbDdlWEs3TEVNYlhUNGQ5RnBmMjd1TlhTN3hNUS1yRWN0bm5uYVNPR0cyaVplXzRSYnVBY3d6LTlvOHM4VmotaDZKOTVtcE5xUnJzbG5jS1BGNE9JUlBzSDlOZld6QW1udWZDY0F3dW14bmNMY3YyNW1lVHFiakhlbEsxZw",
-        "https://noticiasargentinas.com/economia/comercio-exterior--los-precios-de-exportacion-subieron-un-15-2-_a6aea418a362d45b1b5dddf3d"
-      ],
-      "mergedIds": [
-        "comercio-exterior-los-precios-de-exportacion-subieron-un-15-2"
-      ],
-      "digest": {
-        "lead": "Los precios de las exportaciones argentinas subieron 15,2 % interanual en el tercer trimestre, con cantidades apenas 1,3 % mayores, mientras las importaciones cayeron 9,5 % en volumen, según el INDEC, informó El Cronista el 3 de noviembre.",
-        "body": [
-          "Combustibles y energía encabezó la suba: precios 26,6 % más altos, cantidades 37,5 % mayores y un valor exportado que creció 74,1 %. En las manufacturas agropecuarias los precios subieron 13,4 %, con la carne bovina 24,7 % arriba; en las industriales, 13,9 %, y en los productos primarios, 7,2 %, aunque con 8,6 % menos volumen por el derrumbe de los envíos de soja en grano.",
-          "Del lado importador, los precios aumentaron 10,5 % y el valor quedó prácticamente estable (+0,1 %). Cayeron las compras de bienes de capital (−12,7 % en cantidades) y de sus piezas (−18 %), y también las de autos de pasajeros.",
-          "En los nueve meses, los precios de exportación acumulan una suba de 11,2 % y las cantidades, de 9,3 %; en las importaciones, los precios subieron 8 % y los volúmenes bajaron 9,7 %."
-        ],
-        "at": "2026-11-03T21:55:00-03:00",
-        "basedOn": "https://www.cronista.com/economia-politica/el-superavit-comercial-acumulo-mas-de-us-21100-millones-a-septiembre-con-precios-record-y-freno-importador/",
-        "words": 179
-      }
+      "gnTried": "2026-11-04T17:24:12Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPaW5CV2ZHZGVnNG1YWVM0eTVSQVBNSGVILXR6WmJNSmowOWFlaV9pbkh1MS1qWHp2Qm5hS1ZCWllDYmZpalB3UWJLZkdZZkZrWVV1VUNQZlZiU3dnSVpwQmdaT2lrOGw4WmdaWEhYWGlUa0J4VmZ1ZHI4ZWJJSGZGSVp3TFV0QlhUSmNxUVQzT1hEUllTRmRQeGVDaVFTZENodGJyT0pPR1gydXI1V05rMHlkYWthdzhMMTd2dzRMeHdvc0dIemRWWDJDUmtpd3F2a002dldTMHc4bWp0elFQZHdCcUUydndrWFE?oc=5"
     },
     {
       "id": "puerto-de-gotemburgo-maneja-698-mil-teu-al-tercer-trimestre-de-2026",
@@ -2987,47 +3882,6 @@
       }
     },
     {
-      "id": "exportaciones-de-carne-vacuna-las-cuotas-llegaron-para-cambiar-el-ritmo-del-nego",
-      "datetime": "2026-11-03T15:09:45Z",
-      "date": "2026-11-03",
-      "firstSeen": "2026-11-04T07:44:57Z",
-      "title": "Exportaciones de carne vacuna: las cuotas llegaron para cambiar el ritmo del negocio exportador",
-      "summary": "Las exportaciones argentinas de carne vacuna registraron un nivel elevado en septiembre y en línea con la dinámica del año previo. Según datos del INDEC, los embarques de carne enfriada y congelada alcanzaron las 71.881 toneladas peso producto, el segundo registro más alto de 2026, detrás de las 76.887 toneladas…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones",
-        "Tratados y acuerdos"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Carne"
-      ],
-      "visual": "livestock",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Expoagro - Edición YPF Agro",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.expoagro.com.ar/exportaciones-de-carne-vacuna-las-cuotas-llegaron-para-cambiar-el-ritmo-del-negocio-exportador/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-04T07:44:57Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNT0xMVVFLdS1CYWpUVHhzS1p1LVdGS0dSa0hLb1BUdF9DMjZRREJqN2dIdy0taVJMOURhTHhOMHJGaTJFTmpCNldQaVR4cXc0VFE4VlhYbUxJV2RucXlva1FhQ2JFdi1iMWFWTjZZdXMtVkJnQ01jUW9XdXRvVGlDdGsxM3Rfak13VklEWDR3ajl0NC1KY01VMEQ0N3g2TF85dUlWTzNfckRQd0dlWGdFVnVmbU9veFFuWjhQajRmYko?oc=5",
-      "digestSkip": {
-        "at": "2026-11-04T09:55:00-03:00",
-        "reason": "repite una nota de la redacción (exportaciones de carne vacuna enero-septiembre y cuota china, informe de Rosgan)"
-      }
-    },
-    {
       "id": "despues-de-tres-anos-un-establecimiento-argentino-podra-exportar-sebo-a-la-union",
       "datetime": "2026-11-03T15:01:45Z",
       "date": "2026-11-03",
@@ -3198,6 +4052,13 @@
           "url": "https://www.lavozdelpueblo.com.ar/combustibles-y-fletes-le-meten-presion-a-la-renta-de-la-nueva-campana",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "El Dia.com.do",
+          "type": "También publicó esta noticia",
+          "url": "https://eldia.com.do/alza-de-combustibles-y-fletes-internacionales-presiona-los-costos-de-la-industria/",
+          "alsoIn": true,
+          "title": "Alza de combustibles y fletes internacionales presiona los costos de la industria"
         }
       ],
       "gnTried": "2026-11-03T17:13:06Z",
@@ -3212,7 +4073,14 @@
         "at": "2026-11-03T21:55:00-03:00",
         "basedOn": "https://www.lavozdelpueblo.com.ar/combustibles-y-fletes-le-meten-presion-a-la-renta-de-la-nueva-campana",
         "words": 194
-      }
+      },
+      "aliasUrls": [
+        "https://eldia.com.do/alza-de-combustibles-y-fletes-internacionales-presiona-los-costos-de-la-industria",
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTE9jaG5LNUN6Ulc3QzRRWWl4REpmSW04Mk91c3hTd1lXVUhOUDZpaUFJWlVkdXhaSktDZlg3aXZSUlRhNS1hZEdqUUZBNjJQN1NfQ1ltUXl1NjZCSnJTcmhDbUFvUFlnTHN4UXVBMXhPMVJiTU1ZSkxqSHUteTJESkNpalc0Z20tY1l3OTl6UUQ0ZnBpM3pJS3FXTUtHQ21weWNIckdB"
+      ],
+      "mergedIds": [
+        "alza-de-combustibles-y-fletes-internacionales-presiona-los-costos-de-la-industri"
+      ]
     },
     {
       "id": "argentina-exporta-mas-carne-vacuna-mientras-el-pollo-y-el-cerdo-ganan-espacio-en",
@@ -3390,48 +4258,6 @@
         "at": "2026-11-03T10:26:00-03:00",
         "basedOn": "https://portalportuario.cl/rusia-planea-vender-una-participacion-del-78-en-naviera-estatal-sovcomflot/",
         "words": 200
-      }
-    },
-    {
-      "id": "entrada-en-vigor-acuerdo-mercosur-efta-ignacio-bartesaghi-destaco-capacidad-econ",
-      "datetime": "2026-11-03T13:59:34Z",
-      "date": "2026-11-03",
-      "firstSeen": "2026-11-04T07:44:57Z",
-      "title": "Entrada en vigor acuerdo Mercosur-EFTA, Ignacio Bartesaghi destacó capacidad económica del bloque eu",
-      "summary": "Desde este mes Uruguay negociará bajo las condiciones del acuerdo en forma bilateral, en primera instancia con Noruega e Islandia, explicó el analista internacional.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Tratados y acuerdos",
-        "Mercosur",
-        "Europa"
-      ],
-      "countries": [
-        "Unión Europea"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Radio Monte Carlo CX20 AM930",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.radiomontecarlo.com.uy/2026/11/03/nacionales/tras-entrada-en-vigor-de-acuerdo-mercosur-efta-ignacio-bartesaghi-destaco-la-capacidad-economica-del-bloque-europeo-y-las-posibilidades-que-se-abren-para-uruguay/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-04T07:44:57Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxQSU1LMUp6SG5ORFlNS1d3ajNibnJTOE1pTzlOZWZKU1M4ckxfRjhVQ25qYUxlU25iaVZxVFh2TWFpOFRRb2d2ODBnUXRxMV9Ma3Bwa0pacXFPTzhFNVV6ZXVxcU1pdDVvc1BEeUFLcVFEOV8zT0FwQ3poc1NOd0wtS2FCVGQ2OFoxNTBSOGY3M1YxSHFEOEVuM19RRU9qR0Z5OV9QbDJGcTR0ajJER0JkWGVHdVF6ZVdqZmV4Vi01eXpFMmNOcndVbjJyOXZna2N6ZmdwZ0dqdnduYTlfaVNXOWNJaG1SWnNNN3lqNjRtMDVFQmFfYkppN3MzM1pUV0FzYXRiRmw3YUswY1NFdWVTbWx6bURxb0hId216Uk5UbG5ZMGE2M0dMdkZXUDh3RUNJRHJmbGZrN1YyMWN4UHUyNA?oc=5",
-      "digestSkip": {
-        "at": "2026-11-04T06:50:00-03:00",
-        "reason": "repite una nota de la redacción (Uruguay aplica el acuerdo Mercosur–AELC)"
       }
     },
     {
@@ -4735,45 +5561,6 @@
       }
     },
     {
-      "id": "argentina-ocupa-el-primer-puesto-como-exportadora-mundial-de-aceite-esencial-y-j",
-      "datetime": "2026-11-02T23:37:21Z",
-      "date": "2026-11-02",
-      "firstSeen": "2026-11-04T07:44:57Z",
-      "title": "Argentina ocupa el primer puesto como exportadora mundial de aceite esencial y jugo de limón",
-      "summary": "Así se desprende del análisis de los datos internacionales de comercio exterior correspondientes al cierre de 2025, publicados recientemente por COMTRADE (base de datos internacional de las Naciones Unidas).",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "fruit",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Los Primeros TV",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.losprimeros.tv/economia/argentina-ocupa-el-primer-puesto-como-exportadora-mundial-de-aceite-esencial-y-jugo-de-limon_a6ae91cabbcf08930c40a53c0",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-04T07:44:57Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNYUFWUzhIczBORmdFVmlDWkthWjl2QkMzQ2Q4RGo4MXlMTnZQR09VSVNORkFzYVYwWjE0UGI5SFhMNVVFa01FU2tMN05CTWQ2ZHoydklnWFliMDFTbVkxMEs1Z0xTdDJJZjd5N0JoTkdZTm9ZcFBkRGlqdXc2cjFEUUgwZnFzQlM4ZTViVXgtR3lrYjJVTUZrb1dueUZDaElkV2pxOUFCTXNaSlFrZjJRZmtuRnJFOTNnOGRkMVFEMTF1NWNrY29mUUg0LW5haS1fU05URWhETFNGWlBmVEU1WHQtUWpqUzJyRWc?oc=5",
-      "digestSkip": {
-        "at": "2026-11-04T06:50:00-03:00",
-        "reason": "repite una nota de la redacción (52 productos agroindustriales en el top 20 mundial)"
-      }
-    },
-    {
       "id": "cordoba-el-campo-llena-los-barcos-y-la-industria-apenas-participa-del-negocio-ex",
       "datetime": "2026-11-02T23:35:00Z",
       "date": "2026-11-02",
@@ -5344,50 +6131,6 @@
       }
     },
     {
-      "id": "easter-island-confirma-que-primer-viaje-del-danstar-entre-punta-arenas-e-islas-f",
-      "datetime": "2026-11-02T18:00:03Z",
-      "date": "2026-11-02",
-      "firstSeen": "2026-11-02T19:39:39Z",
-      "title": "Easter Island confirma que primer viaje del Danstar entre Punta Arenas e Islas Falkland se ejecutará en diciembre",
-      "summary": "La naviera Easter Island afirmó que el buque Danstar realizará su primer viaje entre Punta…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Transporte marítimo",
-        "Latinoamérica"
-      ],
-      "countries": [
-        "Chile"
-      ],
-      "tags": [],
-      "visual": "ship",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/easter-island-confirma-que-primer-viaje-del-danstar-entre-punta-arenas-e-islas-falkland-se-ejecutara-en-diciembre/",
-          "primary": true,
-          "author": "Gabriel"
-        }
-      ],
-      "digest": {
-        "lead": "La naviera chilena Easter Island confirmó a PortalPortuario que el buque Danstar hará en diciembre su primer viaje entre Punta Arenas y las Islas Malvinas, una ruta que genera tensión entre la Argentina y Chile.",
-        "body": [
-          "Antes de iniciar el servicio, el carguero entrará en las próximas semanas al astillero Asmar Magallanes para ajustes. El Danstar zarpó el 29 de octubre de la terminal TPV de Valparaíso, donde estuvo amarrado más de 24 horas, y navega hacia Punta Arenas.",
-          "Según el medio, desde Buenos Aires se sostiene que el buque abastecerá el proyecto petrolero Sea Lion que se busca instalar en el archipiélago, que la Argentina considera ilegal por tratarse de un territorio con soberanía en disputa. La naviera, en cambio, lo define como un negocio \"entre privados\".",
-          "La nota agrega que se llegó a insinuar la posibilidad de interceptar al buque de bandera chilena, pero ambas cancillerías descartaron esa opción y se apoyaron en el principio de paso inocente que reconoce el derecho internacional."
-        ],
-        "at": "2026-11-02T19:05:00-03:00",
-        "basedOn": "https://portalportuario.cl/easter-island-confirma-que-primer-viaje-del-danstar-entre-punta-arenas-e-islas-falkland-se-ejecutara-en-diciembre/",
-        "words": 164
-      }
-    },
-    {
       "id": "el-flete-los-tiempos-y-los-imprevistos-tambien-se-compran",
       "datetime": "2026-11-02T17:45:00Z",
       "date": "2026-11-02",
@@ -5432,48 +6175,6 @@
         "at": "2026-11-02T19:05:00-03:00",
         "basedOn": "https://www.infobae.com/movant/2026/11/02/el-flete-los-tiempos-y-los-imprevistos-tambien-se-compran/",
         "words": 200
-      }
-    },
-    {
-      "id": "uruguay-entro-en-vigor-el-acuerdo-mercosur-efta-un-bloque-con-capacidad-adquisit",
-      "datetime": "2026-11-02T17:34:03Z",
-      "date": "2026-11-02",
-      "firstSeen": "2026-11-04T07:44:57Z",
-      "title": "Uruguay. Entró en vigor el acuerdo Mercosur-EFTA, un bloque con “capacidad adquisitiva y una solidez muy importante”",
-      "summary": "Por Lucia Chu. La Diaria_Resumen Latinomericano 2 de noviembre 2026. Mario Lubetkin (archivo, setiembre de 2026). Foto: Ernesto Ryan El bloque regional ya exporta a los cuatro países que no integran la Unión Europea “más de 3.000 millones de dólares”, por lo que el acuerdo “tiene un efecto importante”, afirmó…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Tratados y acuerdos",
-        "Latinoamérica",
-        "Mercosur"
-      ],
-      "countries": [
-        "Uruguay"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Resumen Latinoamericano -",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.resumenlatinoamericano.org/2026/11/02/uruguay-entro-en-vigor-el-acuerdo-mercosur-efta-un-bloque-con-capacidad-adquisitiva-y-una-solidez-muy-importante/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-04T07:44:57Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNZFlZNlFNZmlSS1lJOTgzVnZvOWs4ZDg0RUw5b1hIczhQMkdLV21wc1FGZHVGZ080U2pnWV9ja2ZycGVYSVNKSFFyVUJYYlJKQk0xOUlYbThmal9NWWR2ZzZSSk1QenFLOE5nT2JESE95QTg4U3JMNEhrWlFzS3hLTWdLdk9LTTN3NzVCVHVGcWNGNFdOVEpRUWhWMWx2YXhPcERlbHZFY3VuMVZha3Q2dG9pa2FzSTVKNkFBazN0QjdobkhZckNoUVAyWEZDTElNRzQ0YThrbE5GS3lfbVEyUjF3bzR5ejhFWjd4SkZscUJUeTZlNmc?oc=5",
-      "digestSkip": {
-        "at": "2026-11-04T06:50:00-03:00",
-        "reason": "repite una nota de la redacción (Uruguay aplica el acuerdo Mercosur–AELC)"
       }
     },
     {
@@ -5530,6 +6231,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Exportaciones"
       ],
       "countries": [
@@ -10497,55 +11199,6 @@
       "digestSkip": {
         "at": "2026-11-01T12:55:00-03:00",
         "reason": "fuera de tema (contenido publicitario de La Voz)"
-      }
-    },
-    {
-      "id": "tension-entre-argentina-y-chile-por-malvinas-tierra-del-fuego-prepara-multas-y-s",
-      "datetime": "2026-10-31T10:45:00Z",
-      "date": "2026-10-31",
-      "firstSeen": "2026-10-31T14:03:37Z",
-      "title": "Tensión entre Argentina y Chile por Malvinas: Tierra del Fuego prepara multas y sanciones contra empresas navieras",
-      "summary": "La provincia impulsa una ley para restringir las operaciones comerciales con las islas sin autorización, tras la llegada del buque chileno Danstar. La iniciativa contempla fuertes multas y prohibiciones para compañías de cualquier bandera.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Transporte marítimo",
-        "Geopolítica y comercio",
-        "Latinoamérica"
-      ],
-      "countries": [
-        "Argentina",
-        "Chile"
-      ],
-      "tags": [],
-      "visual": "ship",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Logística y fletes",
-      "sources": [
-        {
-          "name": "Canal26",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.canal26.com/politica/2026/10/31/tension-entre-argentina-y-chile-por-malvinas-tierra-del-fuego-prepara-multas-y-sanciones-contra-empresas-navieras/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-31T14:03:37Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQVzFEdjBoU2l2M01JV3BOT2V2UjhuaVozdkpZTC1zMm1TYTFVakYtMEdFdncwUjlBUnhoYmhvNU83RE4zLVROOGcySEcyaWN0aV9INkRDWF9LZVFzVU1UZlhZNXZ4SFlrTUgtUzdSVmxzYTBZOXY4RW54aUtaZDN4NzZIUHNqbHZxZENoVWVQQ1JoQUV3YXdWeW9yUHl4NmhQdkVVdlRWWjNaalpvNnRjeTBtTkpRNWkyNEQ0VnNOcW9telB3VW9mQnF3c2dRTE10em9EdV82TzQtMXFWU3RJZFQ3YVdfQ3lTZW1IbmhROA?oc=5",
-      "digest": {
-        "lead": "Tierra del Fuego prepara un proyecto de ley para multar y sancionar a navieras y empresas de servicios que operen con Malvinas sin autorización, tras la reactivación de una ruta de carga desde Punta Arenas, informó Canal 26.",
-        "body": [
-          "La Falkland Islands Development Corporation contrató al carguero chileno Danstar, cuyo primer viaje está previsto para principios de diciembre. Según el medio, el intercambio comercial no superaría los 20 millones de dólares. Andrés Dachary, secretario de Malvinas de la provincia, dijo que es la primera vez que se piensa una ley específica para ese departamento y cuestionó que autoridades de Magallanes acompañen la iniciativa.",
-          "El proyecto contempla multas económicas, restricciones para operar en territorio argentino, la identificación de las empresas que participen de la logística con las islas, sanciones a buques de cualquier bandera y regulación de la actividad dentro de las doce millas. Según el artículo, no busca frenar el primer viaje sino tener herramientas para los siguientes.",
-          "El canciller Pablo Quirno admitió que el país no puede impedir ese tránsito: el Tratado de Paz y Amistad de 1984 obliga a garantizar el paso de buques hacia y desde el Estrecho de Magallanes, y la CONVEMAR prevé el paso inocente."
-        ],
-        "at": "2026-10-31T13:30:00-03:00",
-        "basedOn": "https://www.canal26.com/politica/2026/10/31/tension-entre-argentina-y-chile-por-malvinas-tierra-del-fuego-prepara-multas-y-sanciones-contra-empresas-navieras/",
-        "words": 199
       }
     },
     {
@@ -105301,7 +105954,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-11-03T17:13:06Z"
+      "gnTried": "2026-11-04T17:24:12Z"
     },
     {
       "id": "portcastello-presenta-estrategia-para-albergar-hub-industrial-de-energia-eolica",
@@ -115765,458 +116418,16 @@
         }
       },
       "updated": "2026-10-21T12:00:00-03:00"
-    },
-    {
-      "id": "indec-indices-precios-cantidades-tercer-trimestre-2026-terminos-intercambio-4-2",
-      "date": "2026-11-04",
-      "kind": "datos",
-      "title": "Tercer trimestre: los precios de exportación subieron 15,2%, las cantidades apenas 1,3% y los términos del intercambio mejoraron 4,2%",
-      "summary": "Según los índices del INDEC, entre julio y septiembre las ventas externas crecieron casi solo por precios, empujadas por energía, químicos y carnes, mientras las importaciones fueron 10,5% más caras y 9,5% menores en volumen. Los bienes de capital acumulan una caída de 13,9% en cantidades en nueve meses.",
-      "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Importaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "INDEC",
-        "Términos del intercambio",
-        "Precios de exportación",
-        "Bienes de capital",
-        "Vaca Muerta"
-      ],
-      "visual": "chart",
-      "impact": 2,
-      "affectsArgentina": true,
-      "argentinaNote": "Es el dato oficial que separa precio y volumen en el comercio de bienes: muestra que la suba del valor exportado del tercer trimestre vino casi toda de precios y que las importaciones de bienes de capital siguen cayendo en cantidades.",
-      "body": [
-        "El INDEC publicó el martes 3 de noviembre sus índices de precios y cantidades del comercio exterior de bienes correspondientes al tercer trimestre de 2026. Entre julio y septiembre, los precios de las exportaciones argentinas subieron 15,2% frente al mismo período de 2025, mientras que las cantidades vendidas apenas crecieron 1,3%. Del lado de las compras, los precios aumentaron 10,5% y los volúmenes cayeron 9,5%. Con esa combinación, los términos del intercambio —la relación entre los precios de lo que el país vende y los de lo que compra— mejoraron 4,2% interanual, según los datos difundidos por la agencia NA y por El Cronista.",
-        "La consecuencia es que el aumento del valor exportado del trimestre, de 16,7% según NA, se explicó casi por completo por precios. En las importaciones, la suba de precios compensó la menor cantidad de mercadería comprada y el valor quedó prácticamente igual que un año antes (+0,1%).",
-        "## Qué rubros empujaron los precios",
-        "Combustibles y energía fue otra vez el motor: sus precios subieron 26,6%, las cantidades 37,5% y el valor 74,1%, con el petróleo crudo 21,7% más caro. El rubro ya pesa 17,3% en el índice de exportaciones. Las manufacturas de origen industrial (MOI) tuvieron precios 13,9% más altos, con fuertes subas en químicos y conexos (33,1%), materias plásticas (39,9%), piedras y metales preciosos (23,4%) y metales comunes (21,5%).",
-        "Las manufacturas de origen agropecuario (MOA), que representan 35,5% del índice, subieron 13,4% en precios y bajaron 0,6% en cantidades. Ahí se destacaron carnes y preparados (+27,6%), con la carne bovina 24,7% más cara, y los aceites de girasol (+19,2%) y de soja (+14,8%), además de la harina y los pellets de soja (+14,6%). Los productos primarios perdieron valor (−2%): sus precios subieron 7,2%, pero las cantidades cayeron 8,6%, arrastradas por las oleaginosas (−59,9%) y, en particular, por el poroto de soja (−69,3%), cuyo precio aumentó 13,1%. Los cereales, en cambio, crecieron 35,4% en volumen, con precios 4,5% más altos.",
-        "## Importaciones: más caras y en menor volumen",
-        "Por usos económicos, los bienes intermedios —35% del índice de importaciones— fueron el único gran grupo con más cantidades (+1%), con precios 12,7% mayores. Los combustibles y lubricantes subieron 31,7% en precios y cayeron 11,1% en volumen. Las piezas y accesorios para bienes de capital tuvieron precios 10,9% más altos y cantidades 18% menores; los bienes de capital, precios 8,4% mayores y volúmenes 12,7% más bajos, y los bienes de consumo, +4,4% y −8,8%. Los vehículos de pasajeros fueron la excepción en precios: bajaron 10,2%, con cantidades 12,7% menores.",
-        "En el acumulado de enero a septiembre, las importaciones registran precios 8% más altos y cantidades 9,7% menores. La caída en volumen es más fuerte en piezas y accesorios para bienes de capital (−25,9%) y en bienes de capital (−13,9%), un dato que se sigue de cerca como indicador de inversión.",
-        "## Nueve meses y la comparación con el trimestre anterior",
-        "En los primeros nueve meses, los precios de exportación subieron 11,2% y las cantidades 9,3%. Por rubro, combustibles y energía acumula +18,6% en precios y +29,5% en cantidades; las MOI, +16,5% y +5,6%; las MOA, +10,8% y +3,1%, y los productos primarios, +1,3% y +12,9%.",
-        "El tercer trimestre marca un cambio respecto del segundo. Según el informe que el INDEC publicó el 30 de julio, entre abril y junio los precios de exportación habían subido 13,7% y las cantidades 15,1%, con importaciones 8,2% más caras y 8,3% menores en volumen; los términos del intercambio habían mejorado 5% y el organismo estimó una ganancia de USD 1.224 millones por esa mejora. Entre julio y septiembre, en cambio, el volumen exportado casi se estancó y la mejora de los términos del intercambio se moderó a 4,2%. Dentro del trimestre, el ICA de septiembre ya había mostrado precios de exportación 16,4% más altos y cantidades 6,1% mayores en ese mes, según cubrió Comexplora el 19 de octubre.",
-        "## Qué sigue",
-        "Según el calendario del INDEC, el 5 de noviembre se publica el informe en inglés con los datos preliminares de los nueve meses, y el jueves 19 de noviembre llega el intercambio comercial argentino de octubre, que mostrará si el peso de los precios en las exportaciones se mantiene en el arranque del cuarto trimestre."
-      ],
-      "keyData": [
-        [
-          "Términos del intercambio (3.er trim.)",
-          "+4,2% interanual"
-        ],
-        [
-          "Precios de exportación",
-          "+15,2%"
-        ],
-        [
-          "Cantidades exportadas",
-          "+1,3%"
-        ],
-        [
-          "Precios de importación",
-          "+10,5%"
-        ],
-        [
-          "Cantidades importadas",
-          "−9,5%"
-        ],
-        [
-          "Combustibles y energía",
-          "precios +26,6%, cantidades +37,5%"
-        ],
-        [
-          "Bienes de capital, cantidades ene–sep",
-          "−13,9%"
-        ]
-      ],
-      "sources": [
-        {
-          "name": "El Cronista",
-          "type": "Medio de comunicación",
-          "url": "https://www.cronista.com/economia-politica/el-superavit-comercial-acumulo-mas-de-us-21100-millones-a-septiembre-con-precios-record-y-freno-importador/",
-          "primary": true
-        },
-        {
-          "name": "Diario El Observador (NA)",
-          "type": "Medio de comunicación",
-          "url": "https://diarioelobservador.com.ar/los-precios-de-exportacion-en-argentina-aumentan-un-152-y-marcan-un-cambio-en-el-comercio-exterior/"
-        },
-        {
-          "name": "INDEC — Índices de precios y cantidades, segundo trimestre de 2026",
-          "type": "Organismo oficial",
-          "url": "https://www.indec.gob.ar/uploads/informesdeprensa/ipcext_07_2688456401E3.pdf"
-        },
-        {
-          "name": "INDEC — Calendario de difusión, segundo semestre de 2026",
-          "type": "Organismo oficial",
-          "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf"
-        }
-      ],
-      "argentinaImpact": {
-        "change": "En el tercer trimestre, las exportaciones crecieron por precios (+15,2%) y casi nada en cantidades (+1,3%); las importaciones cayeron 9,5% en volumen.",
-        "who": "Exportadores de energía, agroindustria e industria química; importadores de bienes de capital, insumos y vehículos.",
-        "sectors": [
-          "Energía",
-          "Agroindustria",
-          "Química",
-          "Bienes de capital"
-        ],
-        "flows": {
-          "importaciones": true,
-          "exportaciones": true,
-          "logistica": false,
-          "aranceles": false
-        }
-      },
-      "explainer": {
-        "what": "El INDEC informó que en el tercer trimestre de 2026 los precios de exportación subieron 15,2% y los de importación 10,5%, con lo que los términos del intercambio mejoraron 4,2%.",
-        "why": "Muestra que el mayor valor exportado vino casi todo de precios, con cantidades apenas 1,3% mayores, y que las compras externas siguen cayendo en volumen, en especial las de bienes de capital.",
-        "who": "Exportadores de energía, carnes, aceites y químicos; importadores de bienes de capital, insumos y vehículos; y quienes siguen el ingreso de divisas.",
-        "products": [
-          "Petróleo crudo",
-          "Carne bovina",
-          "Aceites de soja y girasol",
-          "Harina de soja",
-          "Poroto de soja",
-          "Químicos",
-          "Bienes de capital"
-        ],
-        "next": "El INDEC publicará el 19 de noviembre el intercambio comercial argentino de octubre.",
-        "nextSource": {
-          "name": "INDEC — Calendario de difusión, segundo semestre de 2026",
-          "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf"
-        }
-      },
-      "story": "balanza-argentina",
-      "deadlines": [
-        {
-          "date": "2026-11-19",
-          "label": "INDEC: intercambio comercial argentino de octubre",
-          "url": "https://www.indec.gob.ar/ftp/cuadros/publicaciones/calendario_2sem2026.pdf"
-        }
-      ],
-      "absorbs": [
-        "los-precios-de-exportacion-subieron-15-2-que-productos-argentinos-se-encareciero",
-        "comercio-exterior-mejora-del-4-2-en-terminos-de-intercambio",
-        "menos-inversion-las-importaciones-de-bienes-de-capital-cayeron-casi-14-en-lo-que"
-      ]
-    },
-    {
-      "id": "senasa-maquinaria-agricola-usada-zarate-214-equipos-2026-triple-controles-afidi",
-      "date": "2026-11-04",
-      "kind": "noticia",
-      "title": "Maquinaria agrícola usada: ya entraron 214 equipos por Zárate en 2026, más del triple que en 2025, y el SENASA refuerza los controles",
-      "summary": "El organismo inspeccionó 214 máquinas e implementos usados importados, contra 61 en el mismo período del año pasado, la mayoría de Estados Unidos y la UE. Recordó que cada equipo necesita AFIDI, llegar limpio, tratado y con certificado fitosanitario de origen. Es el efecto del Decreto 273/2025, que eliminó el certificado de importación de usados.",
-      "topics": [
-        "Argentina",
-        "Importaciones",
-        "Aduanas",
-        "Regulaciones"
-      ],
-      "countries": [
-        "Argentina",
-        "Estados Unidos",
-        "Unión Europea"
-      ],
-      "tags": [
-        "SENASA",
-        "Maquinaria agrícola",
-        "Bienes usados",
-        "AFIDI",
-        "Zárate",
-        "Decreto 273/2025"
-      ],
-      "visual": "agro",
-      "impact": 2,
-      "affectsArgentina": true,
-      "argentinaNote": "Quien importe maquinaria agrícola usada tiene que cumplir los requisitos fitosanitarios del SENASA antes de liberarla, y los controles en Zárate se intensificaron. Para la industria local de maquinaria, el dato se suma a un año de ventas en baja y crisis de varias fábricas.",
-      "body": [
-        "El SENASA informó que en lo que va de 2026 inspeccionó 214 máquinas e implementos agrícolas usados importados que ingresaron por la terminal portuaria de Zárate, en la provincia de Buenos Aires, frente a 61 en el mismo período de 2025. Es más del triple, una suba de algo más de 250%. Ante ese aumento, el organismo intensificó los controles fitosanitarios en la terminal, a cargo del personal de su Centro Regional Buenos Aires Norte, que hace revisiones documentales y físicas de cada envío.",
-        "El comunicado, difundido el 3 de noviembre y reproducido por Agrofy News, Opción Rural, Infocampo y La Capital, señala que la mayoría de los equipos llega desde Estados Unidos y desde países de la Unión Europea. Las fuentes describen el período de manera algo distinta: Agrofy lo atribuye a la Secretaría de Agricultura, Ganadería y Pesca y habla de los primeros diez meses del año, mientras que Bichos de Campo lo ubica entre enero y lo que va de noviembre. Ninguna informa el valor en dólares de esas importaciones ni el detalle por tipo de máquina.",
-        "## Qué exige el SENASA para liberar una máquina usada",
-        "Según el organismo, toda maquinaria usada debe cumplir las condiciones de la Autorización Fitosanitaria de Importación (AFIDI): llegar limpia por fuera y por dentro, sin tierra, restos vegetales ni plagas; haber recibido alguno de los tratamientos cuarentenarios aprobados por la Argentina, y venir acompañada por un certificado fitosanitario emitido por la autoridad del país de origen. El objetivo, explica el SENASA, es evitar que entren plagas o enfermedades ausentes en el país que pongan en riesgo el estatus sanitario de la producción.",
-        "En un informe de agosto de 2025, basado en datos del SENASA, la Revista Cultivar detalló que la AFIDI se tramita en el sistema SIGPV-IMPO y que los controles se hacen en 32 puntos de ingreso terrestres, marítimos y fluviales. En los cinco años previos, los equipos más frecuentes habían sido cosechadoras de algodón, cabezales maiceros y máquinas forestales, con Estados Unidos como origen principal, seguido por Brasil, Uruguay, Chile y Paraguay. Entre los riesgos citados figuraban semillas de malezas como Orobanche, Striga y Amaranthus, y la sospecha de que la polilla de la vid (Lobesia botrana) llegó al país con cosechadoras de uva.",
-        "## El cambio de reglas de 2025",
-        "El salto de las importaciones de usados se apoya en el Decreto 273/2025, publicado en el Boletín Oficial el 16 de abril de 2025. La norma eliminó el Certificado de Importación de Bienes Usados (CIBU), que funcionaba como un filtro previo, y lo reemplazó por una declaración jurada del importador cargada en el sistema SIM. Según el análisis de Aduana News, el derecho de importación extrazona del bien usado es el del bien nuevo de la misma posición aumentado 100%, con un tope de 35%, y se admite el ingreso de bienes sin aptitud funcional, siempre que no se violen otras normas. El importador sigue siendo responsable de cumplir las exigencias sanitarias, de seguridad y ambientales.",
-        "Cuando se publicó el decreto, Bichos de Campo lo vinculó con un pedido del gobierno de Estados Unidos en la negociación por el arancel de 10% que pagan los productos argentinos. En mayo de 2025, según iProfesional, los primeros dos buques con maquinaria usada esperaban en Zárate la inspección del SENASA antes de descargar.",
-        "## La industria local, en otra sintonía",
-        "La apertura fue resistida desde el principio por los fabricantes. En 2025, la Asociación de Fabricantes de Tractores (AFAT) rechazó la medida y recordó que sus socios tienen 12 plantas en el país con unos 16.700 empleados; la cámara de fabricantes de maquinaria agrícola (CAFMA) advirtió por el riesgo sanitario, y la UIA habló de competencia desleal. Enrique Bertini, entonces presidente de CAFMA, dijo que el decreto abría la puerta a equipos a un precio «casi de chatarra», según recordó La Capital.",
-        "Bichos de Campo, en una nota crítica del 3 de noviembre, contrastó el anuncio con los datos de patentamientos de ACARA: entre enero y octubre de 2026 se registraron 5.649 tractores, cosechadoras y pulverizadoras, 0,7% menos que un año antes, con cosechadoras en alza (+11,4%) y caídas en tractores (−1%) y pulverizadoras (−11,9%). La categoría «otros», integrada sobre todo por tractores de marcas importadas, en particular chinas, pasó de 382 a 873 unidades y ya concentra 19,7% del mercado. El mismo medio estima que los usados equivalen a cerca de 4% de la maquinaria que venden los concesionarios y repasa la situación de fabricantes como Metalfor, en concurso preventivo; Plantium, con el cierre temporal de su planta de Villa Constitución, y Pauny, con la fábrica tomada por sus trabajadores.",
-        "## Qué falta saber",
-        "Agrofy remarca que el volumen de usados todavía es chico frente a las ventas de maquinaria nueva: solo en septiembre, ACARA registró 493 patentamientos de maquinaria agrícola. El SENASA no informó cuántos equipos fueron rechazados u obligados a recibir tratamiento, ni si el aumento se repite en otros puntos de ingreso además de Zárate. Para los importadores, la regla práctica no cambió: sin AFIDI, limpieza certificada y documentación de origen, la máquina no se libera."
-      ],
-      "keyData": [
-        [
-          "Máquinas usadas inspeccionadas en 2026",
-          "214 (vs. 61 en 2025)"
-        ],
-        [
-          "Variación interanual",
-          "más de +250%"
-        ],
-        [
-          "Puerto de ingreso controlado",
-          "Zárate (Buenos Aires)"
-        ],
-        [
-          "Orígenes principales",
-          "Estados Unidos y Unión Europea"
-        ],
-        [
-          "Norma que eliminó el CIBU",
-          "Decreto 273/2025"
-        ],
-        [
-          "Derecho de importación de usados",
-          "el del bien nuevo +100%, tope 35%"
-        ],
-        [
-          "Patentamientos ene–oct 2026 (ACARA)",
-          "5.649 unidades (−0,7%)"
-        ]
-      ],
-      "sources": [
-        {
-          "name": "Agrofy News",
-          "type": "Medio especializado",
-          "url": "https://news.agrofy.com.ar/noticia/216932/se-disparo-importacion-maquinaria-agricola-usada-crecio-mas-250",
-          "primary": true
-        },
-        {
-          "name": "Opción Rural",
-          "type": "Medio especializado",
-          "url": "https://opcionrural.com.ar/2026/11/03/argentina-fortalece-proteccion-fitosanitaria-ante-el-crecimiento-del-ingreso-de-maquinaria-agricola-usada/"
-        },
-        {
-          "name": "Infocampo",
-          "type": "Medio especializado",
-          "url": "https://www.infocampo.com.ar/importaciones-de-maquinaria-agricola-usada-crecen-250-y-disparan-otro-riesgo-el-ingreso-de-plagas/"
-        },
-        {
-          "name": "La Capital",
-          "type": "Medio de comunicación",
-          "url": "https://www.lacapital.com.ar/agro/maquinaria-agricola-usada-crecio-mas-250-el-ingreso-equipos-importados-n10290339.html"
-        },
-        {
-          "name": "Bichos de Campo",
-          "type": "Medio especializado",
-          "url": "https://bichosdecampo.com/puro-tacto-en-medio-de-una-crisis-sin-precedentes-de-la-industria-de-la-maquinaria-local-el-gobierno-salio-a-festejar-el-incremento-de-fierros-usados-desde-el-exterior/"
-        },
-        {
-          "name": "Aduana News",
-          "type": "Medio especializado",
-          "url": "https://aduananews.com/bienes-usados-el-gobierno-actualiza-el-regimen-de-importacion-mediante-el-decreto-273-2025/"
-        },
-        {
-          "name": "Bichos de Campo (abril de 2025)",
-          "type": "Medio especializado",
-          "url": "https://bichosdecampo.com/argentina-hablita-la-importacion-de-maquinaria-agricola-usada-para-cumplir-con-una-exigencia-de-trump/"
-        },
-        {
-          "name": "iProfesional",
-          "type": "Medio de comunicación",
-          "url": "https://www.iprofesional.com/economia/427999-llegan-primeras-cosechadoras-usadas-pais-hay-fuerte-polemica-en-sector"
-        },
-        {
-          "name": "Revista Cultivar",
-          "type": "Medio especializado",
-          "url": "https://www.revistacultivar.com.br/noticias/argentina-intensifica-controle-de-maquinas-agricolas-usadas-para-barrar-pragas"
-        }
-      ],
-      "argentinaImpact": {
-        "change": "El ingreso de maquinaria agrícola usada por Zárate pasó de 61 a 214 equipos y el SENASA intensificó las inspecciones fitosanitarias.",
-        "who": "Importadores de maquinaria usada, productores y contratistas rurales, despachantes y fabricantes locales de maquinaria agrícola.",
-        "sectors": [
-          "Maquinaria agrícola",
-          "Agro"
-        ],
-        "flows": {
-          "importaciones": true,
-          "exportaciones": false,
-          "logistica": true,
-          "aranceles": false
-        }
-      },
-      "explainer": {
-        "what": "El SENASA informó que en 2026 ingresaron por Zárate 214 máquinas agrícolas usadas importadas, contra 61 en el mismo período de 2025, e intensificó los controles.",
-        "why": "El aumento es el efecto del Decreto 273/2025, que eliminó el certificado de importación de usados; los equipos que trabajaron en campos de otros países pueden traer plagas ausentes en la Argentina.",
-        "who": "Importadores y despachantes de maquinaria usada, productores y contratistas, y los fabricantes locales de maquinaria agrícola.",
-        "products": [
-          "Cosechadoras",
-          "Tractores",
-          "Implementos agrícolas",
-          "Cabezales maiceros"
-        ]
-      },
-      "story": "bienes-usados",
-      "absorbs": [
-        "maquinaria-agricola-usada-las-importaciones-se-triplicaron-y-senasa-refuerza-con"
-      ]
-    },
-    {
-      "id": "tierra-del-fuego-proyecto-sanciones-navieras-malvinas-danstar-punta-arenas",
-      "date": "2026-11-04",
-      "kind": "noticia",
-      "title": "Malvinas: Tierra del Fuego prepara sanciones para las navieras que operen sin permiso en las islas y el alcance va más allá del Danstar",
-      "summary": "El régimen provincial que redacta la gobernación fueguina exigiría autorización para operar dentro de las 12 millas del departamento Islas del Atlántico Sur, con multas más duras si hay apoyo a la actividad petrolera. Apunta al buque chileno que reabre la ruta Punta Arenas–Malvinas, pero también podría alcanzar al servicio que hoy sale de Montevideo.",
-      "topics": [
-        "Argentina",
-        "Latinoamérica",
-        "Logística",
-        "Transporte marítimo",
-        "Geopolítica y comercio",
-        "Regulaciones"
-      ],
-      "countries": [
-        "Argentina",
-        "Chile",
-        "Reino Unido",
-        "Uruguay"
-      ],
-      "tags": [
-        "Malvinas",
-        "Danstar",
-        "Tierra del Fuego",
-        "Punta Arenas",
-        "Navieras",
-        "Paso inocente"
-      ],
-      "visual": "ship",
-      "impact": 2,
-      "affectsArgentina": true,
-      "argentinaNote": "Si se aprueban, los proyectos podrían sancionar a navieras y empresas de servicios que trabajen con las islas sin autorización argentina, y suman tensión en la relación comercial con Chile.",
-      "body": [
-        "El gobierno de Tierra del Fuego prepara un régimen provincial para controlar y sancionar las operaciones portuarias y logísticas sin autorización en las aguas de hasta 12 millas náuticas del departamento Islas del Atlántico Sur, que incluye a las Malvinas. Su secretario de Malvinas, Antártida, Islas del Atlántico Sur y Asuntos Internacionales, Andrés Dachary, dijo a PortalPortuario, en una nota publicada el 3 de noviembre, que el alcance no se limita al Danstar, el buque chileno que reabrirá la ruta comercial entre Punta Arenas y Puerto Argentino, sino a cualquier naviera que opere con las islas sin permiso.",
-        "La iniciativa se llama Régimen Provincial de Control de Actividades Portuarias No Autorizadas en el Departamento Islas del Atlántico Sur y, según ese medio, todavía estaba en redacción; ninguna de las fuentes consultadas informa una fecha de presentación formal en la Legislatura fueguina. En paralelo, la diputada Agustina Propato, del Partido Justicialista, presentó otro proyecto que propone tratar como paso no inocente el tránsito de buques vinculados con las islas.",
-        "## Qué prevé el régimen fueguino",
-        "De acuerdo con PortalPortuario, el texto se aplicaría al mar territorial de hasta 12 millas, sin importar la bandera, a buques públicos y privados, que necesitarían una autorización de la Dirección Provincial de Puertos. Abarcaría también las aguas cercanas a las Georgias del Sur y las Sandwich del Sur. Las operaciones sin permiso tendrían sanciones económicas, cuyos montos no se conocen, y la sanción sería más grave si la logística sirve a la exploración o extracción de hidrocarburos. Canal 26 agregó que el proyecto prevé identificar a las empresas involucradas en la logística con las islas y restringir su operación en territorio argentino.",
-        "Dachary aseguró que el objetivo no es frenar el primer viaje del Danstar sino actuar sobre las operaciones futuras, aunque admitió que la ley tendrá consecuencias para ese servicio. Tampoco descartó sanciones al MV Unispirit, de la empresa South American Atlantic Service, que hoy es el único servicio que abastece a las islas desde Sudamérica, con salida desde Montevideo. El funcionario anticipó, según PortalPortuario, que espera una aprobación rápida y con amplio apoyo.",
-        "## La ruta que reabre Punta Arenas",
-        "La conexión surge de un contrato entre la Corporación de Desarrollo de las Islas Falkland (FIDC) y la naviera chilena Easter Island, que confirmó en septiembre el alcalde de Punta Arenas, Claudio Radonich, según Meganoticias. El Danstar, de bandera chilena, tiene capacidad para unas 1.400 toneladas, informó Emol. Entre las cargas de interés figuran alimentos, frutas y verduras, vino, materiales de construcción, gas licuado y repuestos. La ruta acortaría a la mitad la distancia frente a Montevideo, a unos 2.000 kilómetros de las islas. Los medios difieren sobre la antigüedad del servicio anterior: Emol dice que la conexión funcionó hasta 2011 y PortalPortuario, que estaba inactiva hacía más de 15 años.",
-        "Según Meganoticias, la economía de Magallanes perdió US$ 300 millones desde 2011, cuando una declaración del Mercosur, apoyada por Chile, impidió que los buques con bandera de las islas amarraran en puertos del bloque; el alcalde Radonich argumentó que la nueva ruta no choca con esa declaración porque el barco tiene otra bandera. El poder de compra de las islas ronda los US$ 20 millones anuales. La fecha de la primera salida también varió: en septiembre se hablaba de noviembre y a mediados de octubre, de noviembre o comienzos de diciembre; PortalPortuario y Canal 26 la ubican ahora en diciembre, y BioBioChile informó que no se anunciará de antemano.",
-        "## Las posiciones de los gobiernos",
-        "El canciller Pablo Quirno reconoció que la Argentina no puede impedir ese tránsito, según Canal 26, que recuerda que el Tratado de Paz y Amistad de 1984 con Chile garantiza la navegación de buques de todas las banderas hacia y desde el estrecho de Magallanes, y que rige el régimen de paso inocente de la Convención del Mar. En octubre, Quirno había dicho a Perfil que no hubo notificación oficial y que no hay intención de abordar el buque. Dachary, en cambio, sostiene que el paso inocente debe ser continuo y no amenazar al territorio continental.",
-        "Del lado chileno, el biministro de Economía y Minería, Daniel Mas, lo definió como un negocio entre privados, y el gobernador de Magallanes, Jorge Flies, pidió resolverlo por vía diplomática, según Emol. La Cámara de Diputados de Chile aprobó el 6 de octubre siete resoluciones no vinculantes sobre la defensa del estrecho, y en la Argentina el diputado Guillermo Michel propuso que el Ejecutivo denuncie el tratado de inversiones con Chile (Ley 24.342) y el convenio para evitar la doble imposición (Ley 27.274), informó Perfil. Dachary, citado por BioBioChile, contrastó los cerca de US$ 8.000 millones del comercio bilateral con los US$ 20 millones en juego.",
-        "## Qué propone el proyecto de Propato",
-        "Según PortalPortuario, el proyecto de la diputada calificaría como no inocente el paso de buques de cualquier bandera que vayan o vengan de puertos de Malvinas, Georgias o Sandwich del Sur, o que lleven carga o personas vinculadas con actividades logísticas, militares, petroleras, pesqueras o de infraestructura en esas islas. La Prefectura podría ordenarles detenerse, cambiar el rumbo o salir de aguas argentinas, y registrar el buque y su carga; si no acatan, se labraría un acta, se avisaría a la Cancillería, se incluiría al buque en un registro de infractores y podría ser detenido. Ninguno de los dos textos está vigente: ambos necesitan aprobación legislativa."
-      ],
-      "keyData": [
-        [
-          "Alcance del régimen fueguino",
-          "12 millas náuticas del departamento Islas del Atlántico Sur"
-        ],
-        [
-          "Buque que reabre la ruta",
-          "Danstar (bandera chilena, unas 1.400 t)"
-        ],
-        [
-          "Ruta",
-          "Punta Arenas–Puerto Argentino"
-        ],
-        [
-          "Primer viaje",
-          "previsto para diciembre, según PortalPortuario"
-        ],
-        [
-          "Poder de compra de las islas",
-          "unos US$ 20 millones por año"
-        ],
-        [
-          "Comercio Argentina–Chile",
-          "cerca de US$ 8.000 millones (según Dachary)"
-        ]
-      ],
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado",
-          "url": "https://portalportuario.cl/no-solo-al-danstar-proyecto-de-ley-de-tierra-del-fuego-tambien-afectaria-a-otras-navieras-que-conecten-con-falkland",
-          "primary": true
-        },
-        {
-          "name": "PortalPortuario (proyecto de Propato)",
-          "type": "Medio especializado",
-          "url": "https://portalportuario.cl/presentan-proyecto-para-restringir-transito-maritimo-a-buques-que-apoyen-explotacion-en-islas-falkland"
-        },
-        {
-          "name": "Canal 26",
-          "type": "Medio de comunicación",
-          "url": "https://www.canal26.com/politica/2026/10/31/tension-entre-argentina-y-chile-por-malvinas-tierra-del-fuego-prepara-multas-y-sanciones-contra-empresas-navieras/"
-        },
-        {
-          "name": "BioBioChile",
-          "type": "Medio de comunicación",
-          "url": "https://www.biobiochile.cl/noticias/internacional/america-latina/2026/10/29/provincia-argentina-alista-ley-para-sancionar-comercio-maritimo-en-atlantico-sur-apuntan-al-danstar.shtml"
-        },
-        {
-          "name": "Emol",
-          "type": "Medio de comunicación",
-          "url": "https://www.emol.com/noticias/Nacional/2026/10/11/1213836/nuevo-barco-islas-malvinas-cancilleria.html"
-        },
-        {
-          "name": "Meganoticias",
-          "type": "Medio de comunicación",
-          "url": "https://www.meganoticias.cl/nacional/530826-punta-arenas-ruta-maritima-falkland-malvinas-easter-island-03-09-2026.html"
-        },
-        {
-          "name": "Perfil",
-          "type": "Medio de comunicación",
-          "url": "https://www.perfil.com/noticias/internacional/chile-defiende-la-nueva-ruta-maritima-a-malvinas-y-crece-la-disputa-con-argentina-por-posibles-medidas-economicas.phtml"
-        }
-      ],
-      "argentinaImpact": {
-        "change": "Tierra del Fuego prepara sanciones a navieras que operen sin autorización en las 12 millas de Malvinas y hay un proyecto en el Congreso para tratar como paso no inocente el tránsito hacia las islas.",
-        "who": "Navieras y empresas de servicios logísticos con operaciones en el Atlántico Sur, puertos patagónicos y exportadores con negocios en Chile.",
-        "sectors": [
-          "Transporte marítimo",
-          "Logística",
-          "Hidrocarburos"
-        ],
-        "flows": {
-          "importaciones": false,
-          "exportaciones": false,
-          "logistica": true,
-          "aranceles": false
-        }
-      },
-      "explainer": {
-        "what": "Tierra del Fuego prepara un régimen para sancionar a las navieras que operen sin autorización dentro de las 12 millas de Malvinas, en respuesta a la nueva ruta del buque chileno Danstar desde Punta Arenas.",
-        "why": "Podría alcanzar a cualquier empresa que haga logística con las islas, incluido el servicio que hoy sale de Montevideo, y suma tensión con Chile, un socio con un comercio bilateral cercano a US$ 8.000 millones.",
-        "who": "Navieras y operadores logísticos del Atlántico Sur, empresas con negocios con las islas y exportadores e inversores en la relación con Chile.",
-        "products": [
-          "Alimentos",
-          "Materiales de construcción",
-          "Gas licuado",
-          "Repuestos"
-        ],
-        "next": "El primer viaje del Danstar entre Punta Arenas y las islas está previsto para diciembre.",
-        "nextSource": {
-          "name": "PortalPortuario",
-          "url": "https://portalportuario.cl/no-solo-al-danstar-proyecto-de-ley-de-tierra-del-fuego-tambien-afectaria-a-otras-navieras-que-conecten-con-falkland"
-        }
-      },
-      "story": "logistica-regional",
-      "absorbs": [
-        "no-solo-al-danstar-proyecto-de-ley-de-tierra-del-fuego-tambien-afectaria-a-otras",
-        "tension-entre-argentina-y-chile-por-malvinas-tierra-del-fuego-prepara-multas-y-s"
-      ]
     }
   ],
   "ingestion": {
-    "ranAt": "2026-11-04T07:44:57Z",
+    "ranAt": "2026-11-04T17:24:12Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
         "url": "https://www.wto.org/library/rss/latest_news_s.xml",
         "ok": true,
-        "items": 7,
+        "items": 6,
         "added": 0,
         "updated": 0,
         "skipped": 1
@@ -116226,7 +116437,7 @@
         "url": "https://www.aduananews.com/feed/",
         "ok": true,
         "items": 12,
-        "added": 0,
+        "added": 1,
         "updated": 0,
         "skipped": 3
       },
@@ -116235,63 +116446,63 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 8,
+        "added": 10,
         "updated": 0,
-        "skipped": 7
+        "skipped": 5
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 38,
-        "added": 4,
+        "items": 21,
+        "added": 0,
         "updated": 0,
-        "skipped": 23
+        "skipped": 10
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 35,
-        "added": 2,
+        "items": 37,
+        "added": 0,
         "updated": 0,
-        "skipped": 28
+        "skipped": 30
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 69,
+        "items": 48,
         "added": 4,
         "updated": 0,
-        "skipped": 53
+        "skipped": 34
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 32,
-        "added": 4,
+        "items": 19,
+        "added": 1,
         "updated": 0,
-        "skipped": 21
+        "skipped": 8
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
         "url": "https://news.google.com/rss/search?q=(aranceles+OR+%22guerra+comercial%22+OR+%22acuerdo+comercial%22)+when:1d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 74,
+        "items": 56,
         "added": 4,
         "updated": 0,
-        "skipped": 61
+        "skipped": 42
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 52,
+        "items": 51,
         "added": 4,
         "updated": 0,
-        "skipped": 32
+        "skipped": 30
       }
     ],
     "curatedDuplicates": [
@@ -116299,6 +116510,21 @@
         "title": "La UE inicia una investigación en materia de salvaguardias relativa a determinados vehículos híbridos nuevos",
         "url": "https://www.wto.org/spanish/news_s/news26_s/safe_eec_02nov26_536_s.htm",
         "curated": "ue-investigacion-salvaguardia-vehiculos-hibridos-importaciones-1-4-millones-cupo-china"
+      },
+      {
+        "title": "Argentina: anuncian alivio fiscal para deudas aduaneras",
+        "url": "https://aduananews.com/anuncian-alivio-fiscal-para-deudas-aduaneras/?utm_source=rss&utm_medium=rss&utm_campaign=anuncian-alivio-fiscal-para-deudas-aduaneras",
+        "curated": "caputo-uia-saldos-exportacion-reintegros-iva-deudas-aduaneras-pymes-embargos-mayo-2027"
+      },
+      {
+        "title": "Comercio exterior: los precios de exportación subieron un 15,2%",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVnRTWkRWS1REZm1GWnBjR1d4YmNja0p6dGFlTGxpLW9QVjRaZjJIYmc0Q05lUTFBcS1KWjZqZEszRzl4alR4TllZdnpPV09SVERBWVk5TnJqbGNWT3ZLTVVtaDFnWm1Ebm01d0ZOLVRHTklVYk80SU9yR3ZlU0lwV0JKWUZ5Nmp3dUdlRlFMZnAtTDEwaFdKcmM3c0xTTVJ3MzFPeFNtVGdUWXRPcWV0V3RuTVpqNlhac0JLQXdyNkdwSUxxRTBnZdIB1wFBVV95cUxQM2owODE3VGxUcWZqdnVOWjl5VTM0cmZpU29XUFJwWUkxdEFnSUxhbWNycHluaFZkUWMzZzV4bFZySWI5SXRTaXcyZ244V0Njb0UzelpWRmRuT3pRbDdlWEs3TEVNYlhUNGQ5RnBmMjd1TlhTN3hNUS1yRWN0bm5uYVNPR0cyaVplXzRSYnVBY3d6LTlvOHM4VmotaDZKOTVtcE5xUnJzbG5jS1BGNE9JUlBzSDlOZld6QW1udWZDY0F3dW14bmNMY3YyNW1lVHFiakhlbEsxZw?oc=5",
+        "curated": "indec-indices-precios-cantidades-tercer-trimestre-2026-terminos-intercambio-4-2"
+      },
+      {
+        "title": "Los precios de exportación subieron 15,2%: qué productos argentinos se encarecieron más",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPSVBxSlBjZWRaRERZRFRZVzJpbVZ6UjZDWldsOWtsWVJhVUdyUmdCSHBoajVxUUpORkFGSW85bWV3TzlORkg4V2liYUFINTRSRkFQM1FYZE85ZjFCNy1uMmZKREFySmJROVU5ZEVBNU1vNm5IeVFRd2hJMlpKSUoyQTRITFJSRVgybk1McnhJbGZuMnEySnJodTU3LTh2Ty1vek15eUxfNVZIX2JHc2puZGNndmhvWjBuVHE1TmpVSTk0dC1TQWE3cVlrbWZCdUpTWmFTWEtweWdmRVp0NnVtc2pEUTTSAf8BQVVfeXFMT3E5R1pZNW5GSlBwaE9FOHBBM1ZSekh4djQ0V1kwZ3NJV3NNUFZBdmhObjRjYjBTd0E0SDluY2lNUDgxdjhOeDdjcWhMQ0k2VFJueERYTUk5SktGcE5qZUF1dWhQZUJaaUdqOHItUTBramd2ZVMxZEU4cW95Rk9EUGJLbnFUWDBDMHVaUk44Q0hwWmVxU1dlTFhnQW9Ma1VJX2doRUY3OEowRnZ2Tkd0OUZhbk5WOGQ2ckVvZDAxYlB1VjgxUTBnTG9TcVc0dUM4Y1NwcG5hNzV6VzdldnFmaFQtaDFqYm5oazkzNllKenNFMDhlRFpfVUVDbTRuZnRN?oc=5",
+        "curated": "indec-indices-precios-cantidades-tercer-trimestre-2026-terminos-intercambio-4-2"
       },
       {
         "title": "Argentina se destaca entre los principales exportadores mundiales de 52 productos agroindustriales",
@@ -116311,11 +116537,6 @@
         "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
       },
       {
-        "title": "Las exportaciones argentinas crecieron 21,4%, pero las ventas a Brasil apenas aumentaron 4,7%",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORUhoalhBTDBzaDZqdGIwSGhOUGxTd0pJNGF4VkVwb3hEVFRjYTRRS2lhTzVTRldfSjg4MGhZSnhRalZsLTRBbXNpaHpxNHJrLUlOM1ZNQ1k2Y3Q0UXdPSHZyNmtfNTAwZGEtaFA3RURGSWpsN3E3T3FLZWhYc3ZwVjJLWnN4YkJUdi1pT0tOd080VzlvWXlMT1hOWnpRZXB1cDZ0ejFuZXBQWmd6c1AzZDBzLVgyQS1aR1gtajVMRk9fVFpJ0gHKAUFVX3lxTE1lTUU4Njc0TDk3aWV1TFJza1RPTUZVSGItY19mVzlvVEJNNU1YMWpJNWVBMzFPWjJNWnQxYWxScDlBR0pBMWM1bkt3Mk9QV3doejZreE5EelI1akxoYlBZREhrdHRPR2dBQXI2QVpsQnVPNEhvWm1XbEVTLXZSdjVxbVhlLWw1Z21KTmhWamU4bUt4VG84VENVLUdHOUdJc3lVcXdYU1FOWGYtTlk0YVJrVzl0QTh3bGFvZHhzWEhzWFRNRG5TcXFsbFE?oc=5",
-        "curated": "exportaciones-argentinas-destinos-enero-septiembre-2026-brasil-pierde-peso-estados-unidos-india"
-      },
-      {
         "title": "Más de 50 productos argentinos ocupan los primeros puestos como exportadores mundiales",
         "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZUtwdE5aMTNJS3BaWVB3NXVydWhMQTV6bEkxWjFSNXVDQTRaeVhZcGc5allOOUkyUHg2bTdjb09GaHpJZHFfUHk4NGJPQzF2bEdXYV9GZjc5dHRGWTBfVm0ybldBYVd0OERWd0ZWWEdoOFRIRzBtRWl4b1lCMkwtY1M3eE4tOHczYUs1d0ZiQjBZVzZ3Q24wYnVudDU5ckhoYmlSeUxmaUZyNmRiVVlmMEhTMU8wLWE0d3M2WGZVZ2dWVjk1RTBCQ2pDYkljSjE1X0dUOXhvZnZWNkdEQTduU0NTRWQ?oc=5",
         "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
@@ -116326,28 +116547,13 @@
         "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
       },
       {
-        "title": "Centro Despachantes de Aduana de la Republica Argentina - Cronogramas operativos: Feriados visita del Papa",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4RV94TjE3LXhKTjlzdFdTb29oOXFpZUFITWhCY0Rlc1BpS0tWRW1BQnZ2UzZELTg4SFhRX3hMTkNzX2RSYmpjb0xnMUs4YTg3UmtwZWVWVkNkakhrTGhj?oc=5",
-        "curated": "feriados-visita-papa-leon-xiv-9-10-11-noviembre-cinco-dias-sin-bancos-comercio-exterior"
-      },
-      {
-        "title": "La miel de Mercosur se dispara un 94% en Europa en los tres primeros meses del acuerdo",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQRXFnUnkwQ0Q3Z1NrMVVhZ2l3S2Njcmx6NGlwbmdISU9zZHpTMnV0dzNSX1JaR1BrZXQ4R0JsMFpOZWI0cHBWczlHTkxIclktMzZuZWJWZGFOejZJS1BHNTdJcEowcDBqdENvT2ZxRlo0U0JtdFJQVHFUaExHUHBGd0dmRTdFZFBJVjdiQk5zM1ctYXBxaXowUk5sMmt4RDVNeFVQVFZkOUF2UkVBaUlqRzhSUUQxcVpJZG5ySUc5UWNVZG0xSEk5OG05QmxjNE1TNm4xVnhQcG9IYmFBdWx4V2I3U1JoZHZ3TzB6YXBXR2pWN1k?oc=5",
-        "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
-      },
-      {
-        "title": "Exportaciones: el campo argentino ubicó 52 productos en el top 20",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWVpJOGpRQmxsOV9xMEpNdzNzczFEeDA0c3ZlRzh3d3BkOHhyLU1TYXpoOWlKMjRCMVhCRm1mb3RRMThFbG56aHN4a0F4bzNXUXJJUFNZc0J2WUtZWHhUODh6N0NFQVNXOEJ2UVRPV3lTZGdZdVFOQ0Z6QUphNFVtU05DX214aWJ2TDVZeXhSMXB2V0VRVnZoWDRBZXRjNTA4eVRrX2VUVdIBrAFBVV95cUxQSzhyZWpWWDF2Qi00YTd2QlVWTlpyMzZJT2ZzUjRiUlVZamRtM056bV91X3AzNldXZDZkcUQ1RWoyaTRmSTA2ekpBUEota01tWlpzNUVXWUVpR3JkX2hTM2RRWFNiRFJfZDQxT1BNMHJxdDVjZmRyX1FwY3JOOUo1VEstVjdoZWxsSjk4SGdRT1RUNGNIWWFDd2tiaHIydnBOT284ekNCUEhzRVJF?oc=5",
-        "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
-      },
-      {
-        "title": "Exportaciones: 26 productos argentinos en el top 5 mundial",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1BX3FxTi1WQ19sQnE2VnBQbERTOGJxaXlYNTJ6ODFKeVdDSlZxbzJfVlJJdDdPRG96ckhpVi05QjV2R0psU1Q2ODY2Q3owQnIyZjdPeHJDMlJYeWhWRFZSSnZpaUVVX0wtV1ZaZlpMX2Rzd0lSUE9N?oc=5",
-        "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
+        "title": "Importaciones de maquinaria agrícola usada crecen 250% y disparan otro riesgo: el ingreso de plagas",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNkkzU2FkWXFkUkljTWxubTZBTkFTVFJSelVxRk45bG1NcGp3U0Y1STVuQ1lqNE9IZFFFaUtUYTdwZGdsREdlNE9hWEVfYmNjakR4WGtvM0dQeXRXZjFkTzUzRm1wM0YxY3hON2dsSXBfblQ0OWdub1NDbWFYSFhnMTdRbGtsamZIbGZwb3FsQndDN2l1OHk3NUZUUGFiLVFySDN1aVVUQUZiUktxT3RKY1NlSEZoM2lrQmxSSkNJdzlUaUp1N3c?oc=5",
+        "curated": "senasa-maquinaria-agricola-usada-zarate-214-equipos-2026-triple-controles-afidi"
       },
       {
         "title": "La importación de miel de Mercosur se duplica en seis meses",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYW5BMUdiSV9kNW9GYndsRFBfSndvdlVTTEdhYk5EUjZycG93VURpLW5IWU41OVFRNS1CT3dVMnBEQV8zT09KNEtBZ2gzak1JbnJ5NEF4Y3VqalduWElrOUxtYTYxdG5rSEc5dzgwZzBoZk5YSTgxdnl6S1V1WWo0ZEctMGZZS1VyOVVUQ0NwbFRuM0tHSmJMTF9LUXl6NkdOZFJETVNUYVFQc1NfRG1rNnJsSkFoVVJHODhVWlNnYkRvcUxwV0lVX010TUNpbzVWcHRydWhjSFJQT3F1WVQtYkNR?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZjNjWXA3M3FhMnhCN0NlMjc3Zjd1ODhRSllNRHo5bFRSWkhzazB5dG9LV1FBRHhFYUNwbHgwcDl5Zk82SWtKWG1zMVBnMzRQZFBnNFl0RDJWNmxQV0ZCT2NzZHZjSHJ1R2Z3ek1VdnVjTjRzVFkwUHoxZF95TDVPeW5rSWdkUjVpaXNSZDU1TEloQm9OQXcydUpFUGlSS0JYWVhGZ2FkVjZ4b2tDV3ZKU0RnT2hUY0x4UWRZSWFqLTZoQzBjWmNPQldJSHJlMElxamk0LXE3NU0?oc=5",
         "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
       },
       {
@@ -116376,38 +116582,105 @@
         "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
       },
       {
-        "title": "Argentina: anuncian alivio fiscal para deudas aduaneras",
-        "url": "https://aduananews.com/anuncian-alivio-fiscal-para-deudas-aduaneras/?utm_source=rss&utm_medium=rss&utm_campaign=anuncian-alivio-fiscal-para-deudas-aduaneras",
-        "curated": "caputo-uia-saldos-exportacion-reintegros-iva-deudas-aduaneras-pymes-embargos-mayo-2027"
+        "title": "Exportaciones uruguayas crecieron 12% en los primeros cinco meses de aplicación del acuerdo Mercosur-UE",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPY2FtMm50dVh1ZjdjT1k2b05WaVU4R1hNMXZJYWtIRVRoUkwtVWRCMTQwbVAwSkFqaDg1ajRBUTJQYzJjMkExeEJya0F1YTdhX0REMWxkQTlsamhYMDU5MElRdE1DT1pvNHdRNU5FVWNPdHZDd01XTUtVUEo4Skg1UF85Q3J5SndZb2U5ZkJFNXEyWHZYTHVHWkh4U05GTUdNUlZUWjF4eWhVZ0NyU2ItMURFa2liMUpfT3J4aWFnc0hVSGZURWswNlYtNzVKcGvSAdQBQVVfeXFMTzlGVHVjbXBpWVNqOFpOVzRSYjJlckEtaDdLazBIQThSRlF5bFZnc0dnZ1h4Q2NTN1Y2cTFySUJhSEhTa3JVd0tZVDR3bnhSSWM5b1RWM0x5ZXVoS1VwV0U3anBhaVZwRmEtb0pnZU5RZDdzZm44d3NkNVdTeUhRMWpUMEVtaU9uTUlzQ0E0bV9ITDNSNEg1TWo5Sk1JVy1QZW9lNXFIMjk3X3NRYU9pOFp2cGxIN1EzeFBQTXV1NnZVOERiU2haQTFRSW9xSnVtOWJPV3Q?oc=5",
+        "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
       },
       {
-        "title": "Pesca: Argentina se consolidó como el tercer exportador mundial de merluza",
-        "url": "https://chubutline.com/pesca-argentina-se-consolido-como-el-tercer-exportador-mundial-de-merluza/",
+        "title": "Uruguay amplía su horizonte de exportación a través del acuerdo entre el Mercosur y la EFTA",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMVVoN05BcG1OR0NpbmUyREFuMDY1cDhrdnI5UVYwdXIwX2pySHpzTEpCZ0FEZTBFcEVRMno3c0c2ZWkyVW9NNkRXUDVWSUhlQV83RTl1NlhtOTVaaW5ucTJtN2d4Tmc2SWFDYnhhamdxUllYUjZ2Mjk5MUhmWTlRTmVMVEZFYzFVdjRySW0wc1BFdFpJbTJmc1p6NnNCWml1RGdZS2hkWHBBQ1JTQzNwMVdyOEl6dndvY0E?oc=5",
+        "curated": "uruguay-aplica-acuerdo-mercosur-aelc-noruega-islandia-1-noviembre-cupos-vuce"
+      },
+      {
+        "title": "Las exportaciones brasileñas beneficiadas por el acuerdo Mercosur-UE avanzan un 21 %",
+        "url": "https://es.jetss.com/2026/11/04/las-exportaciones-brasilenas-beneficiadas-por-el-acuerdo-mercosur-ue-avanzan-un-21/",
+        "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
+      },
+      {
+        "title": "Argentina exporta un 5 % más de vacuno, pero podría no completar su cuota en China",
+        "url": "https://eurocarne.com/noticias/codigo/72601/kw/Argentina+exporta+un+5+%25+m%C3%A1s+de+vacuno%2C+pero+podr%C3%ADa+no+completar+su+cuota+en+China",
+        "curated": "carne-vacuna-exportaciones-enero-septiembre-2026-549600-toneladas-china-cuota-rosgan"
+      },
+      {
+        "title": "¿Menos inversión?: las importaciones de bienes de capital cayeron casi 14% en lo que va del año",
+        "url": "https://www.infobae.com/economia/2026/11/04/menos-inversion-las-importaciones-de-bienes-de-capital-cayeron-casi-14-en-lo-que-va-del-ano/",
+        "curated": "indec-indices-precios-cantidades-tercer-trimestre-2026-terminos-intercambio-4-2"
+      },
+      {
+        "title": "Maquinaria agrícola usada: las importaciones se triplicaron y Senasa refuerza controles",
+        "url": "https://www.agrolatam.com/argentina/maquinaria/importacion-maquinaria-agricola-usada-senasa-controles-zarate/",
+        "curated": "senasa-maquinaria-agricola-usada-zarate-214-equipos-2026-triple-controles-afidi"
+      },
+      {
+        "title": "Comercio exterior: mejora del 4,2% en términos de intercambio",
+        "url": "https://diarioelnorte.com.ar/comercio-exterior-mejora-del-42-en-terminos-de-intercambio/",
+        "curated": "indec-indices-precios-cantidades-tercer-trimestre-2026-terminos-intercambio-4-2"
+      },
+      {
+        "title": "Exportaciones de carne vacuna: las cuotas llegaron para cambiar el ritmo del negocio exportador",
+        "url": "https://www.expoagro.com.ar/exportaciones-de-carne-vacuna-las-cuotas-llegaron-para-cambiar-el-ritmo-del-negocio-exportador/",
+        "curated": "carne-vacuna-exportaciones-enero-septiembre-2026-549600-toneladas-china-cuota-rosgan"
+      },
+      {
+        "title": "Entrada en vigor acuerdo Mercosur-EFTA, Ignacio Bartesaghi destacó capacidad económica del bloque eu",
+        "url": "https://www.radiomontecarlo.com.uy/2026/11/03/nacionales/tras-entrada-en-vigor-de-acuerdo-mercosur-efta-ignacio-bartesaghi-destaco-la-capacidad-economica-del-bloque-europeo-y-las-posibilidades-que-se-abren-para-uruguay/",
+        "curated": "uruguay-aplica-acuerdo-mercosur-aelc-noruega-islandia-1-noviembre-cupos-vuce"
+      },
+      {
+        "title": "Argentina ocupa el primer puesto como exportadora mundial de aceite esencial y jugo de limón",
+        "url": "https://www.losprimeros.tv/economia/argentina-ocupa-el-primer-puesto-como-exportadora-mundial-de-aceite-esencial-y-jugo-de-limon_a6ae91cabbcf08930c40a53c0",
         "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
+      },
+      {
+        "title": "Easter Island confirma que primer viaje del Danstar entre Punta Arenas e Islas Falkland se ejecutará en diciembre",
+        "url": "https://portalportuario.cl/easter-island-confirma-que-primer-viaje-del-danstar-entre-punta-arenas-e-islas-falkland-se-ejecutara-en-diciembre/",
+        "curated": "tierra-del-fuego-proyecto-sanciones-navieras-malvinas-danstar-punta-arenas"
+      },
+      {
+        "title": "Uruguay. Entró en vigor el acuerdo Mercosur-EFTA, un bloque con “capacidad adquisitiva y una solidez muy importante”",
+        "url": "https://www.resumenlatinoamericano.org/2026/11/02/uruguay-entro-en-vigor-el-acuerdo-mercosur-efta-un-bloque-con-capacidad-adquisitiva-y-una-solidez-muy-importante/",
+        "curated": "uruguay-aplica-acuerdo-mercosur-aelc-noruega-islandia-1-noviembre-cupos-vuce"
+      },
+      {
+        "title": "Tensión entre Argentina y Chile por Malvinas: Tierra del Fuego prepara multas y sanciones contra empresas navieras",
+        "url": "https://www.canal26.com/politica/2026/10/31/tension-entre-argentina-y-chile-por-malvinas-tierra-del-fuego-prepara-multas-y-sanciones-contra-empresas-navieras/",
+        "curated": "tierra-del-fuego-proyecto-sanciones-navieras-malvinas-danstar-punta-arenas"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "la-carne-argentina-cierra-el-ano-en-china-su-principal-mercado-de-exportacio-2",
+        "main": "combustibles-y-fletes-le-meten-presion-a-la-renta-de-la-nueva-campana",
         "merged": [
-          "la-carne-argentina-cierra-el-ano-en-china-su-principal-mercado-de-exportacion"
+          "alza-de-combustibles-y-fletes-internacionales-presiona-los-costos-de-la-industri"
+        ]
+      },
+      {
+        "main": "peru-anuncia-plan-de-transporte-maritimo-para-asegurar-exportaciones-pese-a-efec",
+        "merged": [
+          "gobierno-anuncia-plan-de-transporte-maritimo-para-asegurar-exportaciones-pese-a"
         ]
       },
       {
         "main": "empresas-mendocinas-exportadoras-ya-pueden-postularse-al-premio-exportar-2027-mo",
         "merged": [
-          "abren-las-postulaciones-al-premio-exportar-2027-las-empresas-pueden-inscribirse"
+          "se-abre-la-postulacion-de-empresas-argentinas-interesadas-en-participar-del-conc"
+        ]
+      },
+      {
+        "main": "argentina-recupero-el-acceso-al-mercado-europeo-para-exportar-sebo-animal",
+        "merged": [
+          "el-senasa-habilito-una-planta-y-argentina-recupera-el-mercado-europeo-para-expor"
         ]
       }
     ],
     "googleNews": {
-      "pending": 22,
-      "resolved": 22,
-      "withSummary": 14,
+      "pending": 14,
+      "resolved": 13,
+      "withSummary": 12,
       "withPhoto": 0,
-      "failed": 0,
-      "duplicates": 3
+      "failed": 1,
+      "duplicates": 0
     },
     "noRead": 0
   },
