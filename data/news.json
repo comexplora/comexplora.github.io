@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-11-04T17:24:12Z",
+  "updatedAt": "2026-11-04T22:44:39Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -134,20 +134,16 @@
     {
       "id": "tc-mayorista",
       "label": "Tipo de cambio mayorista ARS/USD",
-      "value": "$ 1.549,72",
-      "period": "Com. A 3500 · 3 nov 2026",
+      "value": "$ 1.548,49",
+      "period": "Com. A 3500 · 4 nov 2026",
       "source": "BCRA",
       "url": "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp",
       "group": "Mercados",
-      "obsDate": "2026-11-03",
-      "change": "+0,3% vs. día hábil anterior",
-      "trend": "up",
-      "checkedAt": "2026-11-04T17:25:12Z",
+      "obsDate": "2026-11-04",
+      "change": "-0,1% vs. día hábil anterior",
+      "trend": "down",
+      "checkedAt": "2026-11-04T22:45:36Z",
       "history": [
-        [
-          "2026-09-22",
-          1513.6838
-        ],
         [
           "2026-09-23",
           1516.2964
@@ -263,11 +259,15 @@
         [
           "2026-11-03",
           1549.7194
+        ],
+        [
+          "2026-11-04",
+          1548.4941
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-04T17:25:12Z"
+      "lastAttempt": "2026-11-04T22:45:36Z"
     },
     {
       "id": "soja",
@@ -284,7 +284,7 @@
         "date": "2026-11-03",
         "ars": 540500.0
       },
-      "checkedAt": "2026-11-04T17:25:13Z",
+      "checkedAt": "2026-11-04T22:45:37Z",
       "_prev": {
         "date": "2026-11-02",
         "ars": 542000.0
@@ -381,41 +381,21 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-04T17:25:13Z"
+      "lastAttempt": "2026-11-04T22:45:37Z"
     },
     {
       "id": "brent",
       "label": "Petróleo Brent",
-      "value": "USD 123,10",
-      "period": "Barril, spot · 27 oct 2026 · la EIA publica los miércoles",
+      "value": "USD 107,03",
+      "period": "Barril, spot · 3 nov 2026 · la EIA publica los miércoles",
       "source": "EIA (vía FRED)",
       "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
       "group": "Mercados",
-      "obsDate": "2026-10-27",
-      "change": "-3,9% vs. día anterior",
+      "obsDate": "2026-11-03",
+      "change": "-0,3% vs. día anterior",
       "trend": "down",
-      "checkedAt": "2026-11-04T17:25:16Z",
+      "checkedAt": "2026-11-04T22:45:39Z",
       "history": [
-        [
-          "2026-09-16",
-          127.84
-        ],
-        [
-          "2026-09-17",
-          121.18
-        ],
-        [
-          "2026-09-18",
-          119.66
-        ],
-        [
-          "2026-09-21",
-          116.15
-        ],
-        [
-          "2026-09-22",
-          114.89
-        ],
         [
           "2026-09-23",
           117.45
@@ -515,11 +495,31 @@
         [
           "2026-10-27",
           123.1
+        ],
+        [
+          "2026-10-28",
+          119.2
+        ],
+        [
+          "2026-10-29",
+          115.28
+        ],
+        [
+          "2026-10-30",
+          120.15
+        ],
+        [
+          "2026-11-02",
+          107.39
+        ],
+        [
+          "2026-11-03",
+          107.03
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-11-04T17:25:16Z"
+      "lastAttempt": "2026-11-04T22:45:39Z"
     },
     {
       "id": "maiz",
@@ -536,7 +536,7 @@
         "date": "2026-11-03",
         "ars": 272934.0
       },
-      "checkedAt": "2026-11-04T17:25:16Z",
+      "checkedAt": "2026-11-04T22:45:39Z",
       "_prev": {
         "date": "2026-11-02",
         "ars": 275000.0
@@ -633,7 +633,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-04T17:25:16Z"
+      "lastAttempt": "2026-11-04T22:45:39Z"
     },
     {
       "id": "trigo",
@@ -650,7 +650,7 @@
         "date": "2026-11-03",
         "ars": 316000.0
       },
-      "checkedAt": "2026-11-04T17:25:16Z",
+      "checkedAt": "2026-11-04T22:45:39Z",
       "_prev": {
         "date": "2026-11-02",
         "ars": 314980.0
@@ -747,293 +747,631 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-04T17:25:16Z"
+      "lastAttempt": "2026-11-04T22:45:39Z"
     }
   ],
   "items": [
     {
-      "id": "senasa-sebo-incomestible-ue-establecimiento-263-coto-reapertura-noviembre-2023",
+      "id": "ebrard-descarta-cambios-en-aranceles-de-ee-uu-pero-advierte-ajustes-al-t-mec",
+      "datetime": "2026-11-04T22:30:00Z",
       "date": "2026-11-04",
-      "datetime": "2026-11-04T10:23:05-03:00",
-      "kind": "noticia",
-      "title": "Sebo bovino: el SENASA habilitó una planta para exportar a la UE y la Argentina recupera un mercado cerrado desde 2023",
-      "summary": "El organismo sumó al establecimiento N.º Oficial 263, que según varios medios pertenece a Coto, al listado de plantas autorizadas para vender sebo incomestible a la Unión Europea, donde se usa para fabricar combustible sostenible de aviación. Es un mercado al que el país no enviaba este subproducto desde noviembre de 2023; otras plantas están en auditoría.",
+      "firstSeen": "2026-11-04T22:44:39Z",
+      "title": "Ebrard descarta cambios en aranceles de EE. UU., pero advierte ajustes al T-MEC",
+      "summary": "",
+      "body": [],
+      "keyData": [],
       "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Europa",
-        "Regulaciones"
+        "Aranceles"
       ],
       "countries": [
-        "Argentina",
-        "Unión Europea",
+        "Global"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Mi bolsillo",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.mibolsillo.com/noticias/ebrard-descarta-cambios-en-aranceles-de-ee.-uu.-pero-advierte-ajustes-al-t-mec-20261104-0060.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-04T22:44:39Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQS3RRMXNMZWV5UmF1TExwanJXMUtISXR4ZFRHUlQ3eE9wOHdBTEhfaWZZa2lQYjZOaEhrSi14SV9IM2I3d3NSVHRiTG1JTlZvUkdkVGJOQ0lLN1Y3aS1LLWNMVzB0WFk2UDNna2luM3BTblZQd2ZsUmdOVVFSUkdLZG9USVFyU2VfTWdSclJBc284cWQ0Y1BRck1QVXR0UEZKV3FlWkEwM2dkVTJRcGxDeEFUWTE2bnZsamNJS0gtdkkwMzZ6ZkJ1YVNxMzBZUQ?oc=5"
+    },
+    {
+      "id": "politica-arancelaria-de-eu-no-cambiara-tras-triunfo-democrata-ebrard-economia",
+      "datetime": "2026-11-04T22:24:00Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T22:44:39Z",
+      "title": "Política arancelaria de EU no cambiará tras triunfo demócrata: Ebrard • Economía",
+      "summary": "Las facultades para imponer aranceles corresponden al presidente: secretario de Economía; el TMEC sí podría, pero aún es prematuro suponerlo, dice.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Europa"
+      ],
+      "countries": [
+        "Unión Europea"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Forbes México",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://forbes.com.mx/politica-arancelaria-de-eu-no-cambiara-tras-triunfo-democrata-ebrard/",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Revista GENTE",
+          "type": "También publicó esta noticia",
+          "url": "https://www.revistagente.com/mx/actualidad/economia/tmec-y-aranceles-tras-el-triunfo-democrata-en-eu-entre-expectativas-moderadas-y-desafios-para-mexico/",
+          "alsoIn": true,
+          "title": "TMEC y aranceles tras el triunfo demócrata en EU: entre expectativas moderadas y desafíos para México"
+        }
+      ],
+      "gnTried": "2026-11-04T22:44:39Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaDUyMHQ3Mi1Oa2x1dEVxNWVxTm9JT3IxejBhU19pZk1EeEdqOFplbUhRekJMTlhiczZrU2QzcUFoR1JlNU85SUhxV19OaUhDRWN2cXJJRmU0clBaMnFfV2ZzNFJZWDJPa3NIUER2S0NRNEpETE9BRXVEX1dHb2Yzd2hsRzdQRk5NckxRM3JKVkMtM01nTlE?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOckJ0eGZBSV94VnlLRGhTdms0TTJfdzJ6UDdiV0ExUW85RXh0UHVvTm1FanJPTlBDYk9QVlhNRFlrV21aVnZjeDczRDJqZVp0dlpXWVlXN2FJRV9MSExsWWZRVDVPRmoxbEFUM2dUT2FYazlWTnI4TUpRcmJSRnZqX3VLSmZPaTY4bko5bXdRLWFrSmwzNjItNHctRldJNV81RkhjT0NPWXM1ajMyeU1HcUFTUl9rUUhibkJkMzdHNExWbm5hRUo1VEFkWnp4MzJoVjN2SUllb25YLWppcFFNaUwzTkxXa2Vu",
+        "https://www.revistagente.com/mx/actualidad/economia/tmec-y-aranceles-tras-el-triunfo-democrata-en-eu-entre-expectativas-moderadas-y-desafios-para-mexico"
+      ],
+      "mergedIds": [
+        "tmec-y-aranceles-tras-el-triunfo-democrata-en-eu-entre-expectativas-moderadas-y"
+      ]
+    },
+    {
+      "id": "ip-advierte-triunfo-de-los-democratas-en-eeuu-no-garantiza-solucion-a-los-arance",
+      "datetime": "2026-11-04T22:23:00Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T22:44:39Z",
+      "title": "IP advierte: Triunfo de los demócratas en EEUU no garantiza solución a los aranceles ni a los desafíos en la revisión del T-MEC",
+      "summary": "La Concanaco, CCE e Index Nacional reaccionaron tras lo ocurrido en las elecciones intermedias de la Unión Americana",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "countries": [
         "Estados Unidos"
       ],
       "tags": [
-        "SENASA",
-        "Sebo bovino",
-        "Subproductos",
-        "Combustible sostenible de aviación",
-        "Bolsa de Comercio de Rosario"
+        "Aranceles",
+        "Estados Unidos"
       ],
-      "visual": "livestock",
-      "impact": 2,
-      "affectsArgentina": true,
-      "argentinaNote": "Los frigoríficos y plantas de rendering que producen sebo incomestible vuelven a tener un destino europeo, aunque por ahora con una sola planta habilitada. El producto venía dependiendo de Estados Unidos, que concentró cerca de 60% de las compras en los últimos años.",
-      "argentinaImpact": {
-        "change": "El SENASA incorporó una planta argentina al listado de establecimientos autorizados para exportar sebo incomestible a la Unión Europea, destino cerrado desde noviembre de 2023.",
-        "who": "Frigoríficos y plantas de rendering, exportadores de subproductos bovinos y certificadores sanitarios.",
-        "sectors": [
-          "Carne vacuna",
-          "Subproductos animales",
-          "Biocombustibles"
-        ],
-        "flows": {
-          "importaciones": false,
-          "exportaciones": true,
-          "logistica": false,
-          "aranceles": false
-        }
-      },
-      "body": [
-        "El SENASA incorporó al establecimiento N.º Oficial 263 al listado de plantas autorizadas para exportar sebo incomestible de origen animal a la Unión Europea, según un comunicado del organismo fechado el 3 de noviembre. Con esa habilitación, la Argentina vuelve a tener acceso al mercado europeo para este subproducto de la faena bovina, al que no despachaba desde noviembre de 2023. De acuerdo con Noticias AgroPecuarias, Agroempresario y El Monterizo, la planta pertenece a Coto Centro Integral de Comercialización S.A.; el texto oficial, tal como lo reprodujeron 3tres3 y Agrofy News, no nombra a la empresa.",
-        "Para el SENASA, la incorporación es un avance en la recuperación de las ventas de este producto a Europa. La autorización es específica para ese establecimiento y, según Agroempresario y El Monterizo, no significa que ya haya salido un embarque ni fija volúmenes o plazos. Ninguna de las fuentes consultadas informó dónde está ubicada la planta ni cuándo saldría el primer envío. Mirador Provincial habla en su bajada de más de un año de pausa, pero en el cuerpo de la nota, igual que el resto de los medios, ubica el último envío en noviembre de 2023.",
-        "## Qué es el sebo incomestible y para qué se usa",
-        "El sebo se obtiene de los tejidos grasos que quedan de la faena, que en las plantas de rendering se procesan con calor. No es apto para consumo humano y, según el comunicado oficial, se clasifica como un residuo. El destino que destaca el SENASA es la fabricación de combustible sostenible de aviación (SAF, por su sigla en inglés): el sebo pasa por un tratamiento con hidrógeno a altas temperaturas que le quita oxígeno, azufre y otras impurezas. Según el organismo, citado por Noticias AgroPecuarias, el combustible que resulta tiene una huella de carbono menor que la del queroseno fósil.",
-        "Para exportar a la UE no alcanza con que el país esté autorizado: cada planta tiene que figurar en el listado europeo. Según Mirador Provincial, el SENASA fiscaliza los establecimientos y certifica cada lote de exportación de acuerdo con las exigencias del destino.",
-        "## Por qué estuvo cerrado y qué falta",
-        "El comunicado no explica por qué se interrumpieron los envíos. El Monterizo cita a una fuente oficial, sin identificarla, según la cual el destino se cerró por distintas razones técnicas y después hubo un trabajo conjunto del SENASA, las autoridades europeas y las plantas locales para rehabilitarlas de a poco. La misma fuente sostiene que hay otros establecimientos en proceso de auditoría para entrar en la lista, algo que también informó La Nación, según citan Agroempresario y Noticias AgroPecuarias. Agrofy, sobre la base del comunicado, señala que la medida permitirá ampliar las oportunidades comerciales en los próximos meses.",
-        "## Un negocio que se multiplicó por 20",
-        "La reapertura llega después de una década de fuerte crecimiento de las ventas externas de sebo bovino. Según un informe de la Bolsa de Comercio de Rosario (BCR) difundido en septiembre, la Argentina pasó de exportar 6.819 toneladas en 2015 a 154.808 toneladas en 2025, por unos USD 125,2 millones. En casi 15 años, mientras el volumen faenado subió alrededor de 25%, las exportaciones de sebo crecieron 4.480%. El país pasó del puesto 15 entre los exportadores mundiales, con 0,4% del comercio del producto, al cuarto lugar en 2025, con 7,8%, detrás de Australia, Brasil y Canadá. Brasil hizo un recorrido parecido: del puesto 31 en 2015 al segundo lugar, con 402.000 toneladas.",
-        "Para la BCR, las causas del salto fueron sobre todo externas. Con datos de la Administración de Información Energética de Estados Unidos (EIA), el informe muestra que la producción estadounidense de diésel renovable pasó de unos 7,2 millones de barriles anuales a fines de 2018 a 69,4 millones en 2025, y que el consumo de grasa bovina para biocombustibles en ese país subió de unas 75.000 toneladas mensuales en 2021 a cerca de 450.000 a fines de 2025. Las importaciones mundiales de sebo rondan los 2 millones de toneladas por año y Estados Unidos pasó a concentrar más de la mitad en 2025.",
-        "## El peso de Estados Unidos y el lugar de Europa",
-        "El cambio también se vio en los destinos argentinos. Según la BCR, entre 2018 y 2022 los principales compradores eran Países Bajos y Brasil, con Estados Unidos en un lugar menor. En el promedio de 2023 a 2026 (con este año todavía en curso), Estados Unidos se quedó con cerca de 60% de los envíos, Uruguay con una cuarta parte y Brasil perdió participación.",
-        "Ese mercado se volvió más exigente en 2026. El informe señala que el crédito fiscal 45Z de Estados Unidos, de hasta USD 1 por galón según la intensidad de carbono del combustible, excluye al sebo importado, y que los embarques argentinos a ese país cayeron alrededor de 4% interanual en los primeros siete meses del año. En ese contexto, la planta habilitada vuelve a abrir un destino europeo, la región que entre 2018 y 2022, a través de Países Bajos, encabezaba las compras junto con Brasil. Según la Secretaría de Agricultura, citada por Economis, el biodiésel argentino se elabora con aceite de soja y no con grasas animales."
-      ],
-      "keyData": [
-        [
-          "Establecimiento habilitado",
-          "N.º Oficial 263 (Coto CICSA, según NAP y Agroempresario)"
-        ],
-        [
-          "Último envío a la UE",
-          "noviembre de 2023"
-        ],
-        [
-          "Exportaciones de sebo 2025",
-          "154.808 t (USD 125,2 M)"
-        ],
-        [
-          "Exportaciones de sebo 2015",
-          "6.819 t"
-        ],
-        [
-          "Ranking mundial 2025",
-          "4.º exportador (7,8%)"
-        ],
-        [
-          "Destino EE.UU. (promedio 2023–2026)",
-          "cerca de 60%"
-        ],
-        [
-          "Embarques a EE.UU. ene–jul 2026",
-          "alrededor de −4%"
-        ]
-      ],
-      "explainer": {
-        "what": "El SENASA sumó al establecimiento N.º Oficial 263 al listado de plantas autorizadas para exportar sebo incomestible a la Unión Europea, un destino cerrado desde noviembre de 2023.",
-        "why": "La Argentina exportó 154.808 toneladas de sebo en 2025 y dependía de Estados Unidos, que concentró cerca de 60% de los envíos y en 2026 dejó al sebo importado fuera del crédito 45Z; Europa lo usa para fabricar combustible sostenible de aviación.",
-        "who": "Frigoríficos y plantas de rendering, exportadores de subproductos bovinos y el SENASA, que certifica cada lote.",
-        "products": [
-          "Sebo bovino incomestible",
-          "Combustible sostenible de aviación"
-        ],
-        "next": "Otras plantas están en proceso de auditoría para sumarse al listado; la habilitación no fija volúmenes ni fecha del primer embarque.",
-        "nextSource": {
-          "name": "Agroempresario",
-          "url": "https://agroempresario.com/publicacion/123414/sebo-bovino-argentina-recupera-el-mercado-de-la-union-europea/"
-        }
-      },
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
       "sources": [
         {
-          "name": "Noticias AgroPecuarias",
-          "type": "Medio especializado",
-          "url": "https://www.noticiasagropecuarias.com/2026/11/04/argentina-reanudo-las-exportaciones-de-sebo-bovino-a-la-ue-despues-de-3-anos/",
+          "name": "Infobae",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.infobae.com/mexico/2026/11/04/ip-advierte-triunfo-de-los-democratas-en-eeuu-no-garantiza-solucion-a-los-aranceles-ni-a-los-desafios-en-la-revision-del-t-mec/",
           "primary": true,
-          "author": "Gabriel Quaizel"
-        },
-        {
-          "name": "3tres3 (comunicado del SENASA)",
-          "type": "Medio especializado",
-          "url": "https://www.3tres3.com/es-ar/ultima-hora/exportacion-sebo-a-la-union-europea_18145/"
-        },
-        {
-          "name": "Agroempresario",
-          "type": "Medio especializado",
-          "url": "https://agroempresario.com/publicacion/123414/sebo-bovino-argentina-recupera-el-mercado-de-la-union-europea/"
-        },
-        {
-          "name": "Agrofy News",
-          "type": "Medio especializado",
-          "url": "https://news.agrofy.com.ar/noticia/216937/residuo-combustible-aviones-subproducto-carnico-argentino-volvio-exportarse-europa"
-        },
-        {
-          "name": "El Monterizo",
-          "type": "Medio de comunicación",
-          "url": "https://elmonterizo.com/el-subproducto-bovino-que-coto-ya-puede-vender-a-europa-y-sirve-para-aviones"
-        },
-        {
-          "name": "Mirador Provincial",
-          "type": "Medio de comunicación",
-          "url": "https://www.miradorprovincial.com/2026/11/04/el-senasa-habilito-una-planta-y-argentina-recupera-el-mercado-europeo-para-exportar-sebo-animal/"
-        },
-        {
-          "name": "El Litoral (informe de la BCR, septiembre)",
-          "type": "Medio de comunicación",
-          "url": "https://www.ellitoral.com/campolitoral/sebobovino-bolsadecomercioderosario-exportaciones-biocombustibles-estadosunidos-dieselrenovable-faena-rendering-industriafrigorifica_0_FHZ0UHiSi0.html"
-        },
-        {
-          "name": "Economis (informe de la BCR)",
-          "type": "Medio de comunicación",
-          "url": "https://economis.com.ar/argentina-multiplico-por-20-sus-exportaciones-de-sebo-bovino-en-una-decada/"
-        },
-        {
-          "name": "Informe Digital (informe de la BCR)",
-          "type": "Medio de comunicación",
-          "url": "https://informedigital.com.ar/el-sebo-bovino-argentino-se-disparo-y-ya-es-cuarto-exportador-mundial/"
+          "author": ""
         }
       ],
-      "absorbs": [
-        "argentina-recupero-el-acceso-al-mercado-europeo-para-exportar-sebo-animal",
-        "argentina-reanudo-las-exportaciones-de-sebo-bovino-a-la-ue-despues-de-3-anos",
-        "despues-de-tres-anos-un-establecimiento-argentino-podra-exportar-sebo-a-la-union"
-      ],
-      "story": "carne-vacuna"
+      "gnTried": "2026-11-04T22:44:39Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQSkVueGxneTN4c3lUOTNVWWtvSGtfT3RhRGc5YlFjb2t3NHV0clk0MGY5VFBzMmdnN0pxakNDZ0FOZDU5cnRzYVU0QnN3bVFZd0lPZmZ3Q01qVjB0MlVzMUQ2Q0NNWFJMOUkzS05Lbnpsa1pNbC1QajIxWHVLUjUtOFFYc3FDTzdZLVY2amtnUnpWazlOYmI5NjEzeWctejJPRWloT3VOTTZuMkc2dHJwUnh4WkkwZGU3ZUt0VnV0a3dERFlqWV9oelR1U05mcVdCWlVhbXlablFySzlSUEdkR1pKbE0tYm1rWXZWX3A5STVmLTNEOUtiX28xcFpIQdIBmAJBVV95cUxOUDNERm9SNDJLQWk2SlpCR0NOcE1WMnR6OWhpeHdTSWw5MTcweTdQdmprVy1wZnByYTF4cnAxRDlXdGZxcHh6bTFHV1RXbVBMUlQzRjJlazhNX1BNZFkxcDBZNWQ1M0IwUWNlTTFsNGJsQ0pLbXo3WG94WXQ0MkVEbEJTLWhEOER6RnBnN1dDV3dqU1NPX0dGNXBVRm5XYmozc1REYTdPUHZrT2ZHMWd2eUE0eDZpd21QUjJ0ZjhLcDNLZWJ4clFLS1ZvektrS3FsNGZWUi1qUUdXcGhuS25fUVhhTkhJc3ZGVWNPQmIxN1RWMEljQkxZVlVpTjFWSy02ZzkyUWxEdE85VHN2VDc3NGRlYkhFRkZW?oc=5"
     },
     {
-      "id": "uruguay-exportaciones-octubre-2026-1089-millones-ue-primer-destino-china-37",
+      "id": "oocl-fija-fecha-para-zarpe-del-primer-buque-ligado-al-servicio-cherry-express-20",
+      "datetime": "2026-11-04T22:00:38Z",
       "date": "2026-11-04",
-      "kind": "datos",
-      "title": "Uruguay exportó USD 1.089 millones en octubre: la UE quedó como primer destino y las ventas a China cayeron 37%",
-      "summary": "Las exportaciones uruguayas de bienes crecieron 1% interanual en octubre, según Uruguay XXI, con la celulosa y la carne vacuna al frente. La Unión Europea superó por poco a Brasil como principal comprador, China cayó al tercer lugar y las ventas a la Argentina subieron 17%.",
+      "firstSeen": "2026-11-04T22:44:39Z",
+      "title": "OOCL fija fecha para zarpe del primer buque ligado al servicio Cherry Express 2026-2027",
+      "summary": "Orient Overseas Container Line (OOCL) informó la fecha en que zarpará el primer buque ligado al…",
+      "body": [],
+      "keyData": [],
       "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/oocl-fija-fecha-para-zarpe-del-primer-buque-ligado-al-servicio-cherry-express-2026-2027/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "peru-podria-superar-los-usd-120-mil-millones-en-exportaciones-y-dejar-atras-a-ch",
+      "datetime": "2026-11-04T21:30:00Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T22:44:39Z",
+      "title": "Perú podría superar los USD 120 mil millones en exportaciones y dejar atrás a Chile y Argentina",
+      "summary": "El ministro de Economía y Finanzas, Elmer Cuba, anticipó que la economía peruana crecerá a un ritmo de 3,2% durante el actual gobierno y afirmó que en 2027 el país registrará una expansión mayor que la de 2026, incluso bajo los efectos del fenómeno de El Niño",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Chile",
+        "Perú"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Infobae",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.infobae.com/peru/2026/11/04/peru-podria-superar-los-usd-120-mil-millones-en-exportaciones-y-dejar-atras-a-chile-y-argentina/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-04T22:44:39Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQd2dHMmt4RlhpTjdUOEt0Rmp6Mnl1SXlEZTFMUkRxYV95TmliRjJ3SWhHVGJWS2RCV0JZcEd5dFB5RU9USzU5VXhEVDZxbEdHdFo5a0hpTFBTTlhqRWhIa2MwR3pyeFlYQ3gxYl9VTzc2dExJZzZES1FxenBTMXFyWXdEY3NCdVhOa25wUEJrMGpaNUhTLVhVYUxzdHZQTGk1aWhSZjQ1TnZkUnhrNmN2Mk5CbG04Q0NiTGJ3dE9Pa3NsMG91dEFtMkxrRU85NVBvUUHSAewBQVVfeXFMTi1IeFpMZzJhMWFNaWcwRnZWaDRXVU9xa3dLZWVqcnlhUVluaU9NV0FSOUxVSlVxWWZmZDJOY3JudTgwZzVUV0k5bVBIV2Z0TTRLeTlZVDByY0xOczM4WVcxSzN2RHFKMGVSLW1BaDM2eWxNRjRNWXJwMXQ1cjdVYTFOZFpXSmM4bkkzSGJSRHQtZnliNVF2cUdlNjJ3bk9tZUl2bnBrbjZ1ZGQ3T2QydHFDVVVlNDB5aUdCNHo5a1kyNnA1eG1zNmlpbHJoclgxUmJ6M0xySi1tdmZkLXkwQlk5V3ppWnpWWWRIcEs?oc=5"
+    },
+    {
+      "id": "argentina-supero-los-u-s100-000-millones-en-exportaciones-y-logro-un-superavit-c",
+      "datetime": "2026-11-04T21:24:06Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T22:44:39Z",
+      "title": "Argentina superó los u$s100.000 millones en exportaciones y logró un superávit comercial histórico",
+      "summary": "Las ventas al exterior mostraron un récord en los últimos doce meses, mientras que el superávit comercial superó los u$s26.000 millones.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "BorderPeriodismo",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://borderperiodismo.com/actualidad/argentina-supero-los-us100-000-millones-en-exportaciones-y-logro-un-superavit-comercial-historico/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-04T22:44:39Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRndoRlVvdGFqM1o0ZU5JaW9wOGlUd05RSngtZEpoTnVGNGpqc3ZFM0JaRzRVc2dpZkdycm5LRnFVYURqaUxKdjVpaFJKZmhpX0w2RVUtVFhrVmhhSEM1OUtsOXNTT25BMWtxYVVtdXlyMF9hMkN4SWcxODVSXzRsb3hrM3JuRjF5R0psdWJxRkFIZXFfc2d2VTVXakZBU1FvdTAzUGNWSU55cDVJd0IxVUtZSFV3anpkLUdvckt0M0RwVUZlWkxHa3VJYTB6YTIxaW53Nw?oc=5"
+    },
+    {
+      "id": "evergreen-anuncia-su-primer-cherry-express-con-conexion-entre-san-antonio-y-shan",
+      "datetime": "2026-11-04T20:30:22Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T22:44:39Z",
+      "title": "Evergreen anuncia su primer Cherry Express con conexión entre San Antonio y Shanghai en 23 días",
+      "summary": "La naviera Evergreen confirmó la implementación de su primer servicio Cherry Express para la temporada de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "China"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/evergreen-anuncia-cherry-express-con-conexion-entre-san-antonio-y-shanghai-en-23-dias/",
+          "primary": true,
+          "author": "Gabriel"
+        }
+      ]
+    },
+    {
+      "id": "a-seis-meses-del-acuerdo-ue-mercosur-exvicecanciller-uruguayo-pide-senales-posit",
+      "datetime": "2026-11-04T20:09:46Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T22:44:39Z",
+      "title": "A seis meses del acuerdo UE-Mercosur, exvicecanciller uruguayo pide señales positivas",
+      "summary": "Montevideo, 4 nov (EFE).- Tras cumplirse los primeros seis meses de la entrada en vigor del acuerdo ...",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
         "Latinoamérica",
         "Mercosur",
-        "Exportaciones",
         "Europa"
       ],
       "countries": [
         "Uruguay",
-        "Unión Europea",
-        "Brasil",
-        "China",
-        "Estados Unidos",
-        "Argentina"
+        "Unión Europea"
       ],
       "tags": [
-        "Uruguay XXI",
-        "Celulosa",
-        "Carne vacuna",
-        "Lácteos",
-        "UE–Mercosur",
-        "Balanza comercial"
+        "Mercosur",
+        "UE-Mercosur"
       ],
-      "visual": "chart",
+      "visual": "treaty",
       "impact": 1,
-      "affectsArgentina": false,
-      "body": [
-        "Uruguay exportó bienes por USD 1.089 millones en octubre, 1% más que en el mismo mes de 2025, según el informe mensual de Uruguay XXI, la agencia oficial de promoción de exportaciones, difundido el martes 3 de noviembre. La cifra incluye las ventas desde zonas francas y se basa en las solicitudes de exportación. En los primeros diez meses del año, las exportaciones sumaron USD 11.430 millones, también 1% por encima de igual período del año pasado. El dato llega después de un septiembre con una suba de 10%.",
-        "El cambio más visible del mes estuvo en los destinos. La Unión Europea quedó primera, con USD 179 millones (16% del total) y una suba de 16% según Infobae, apenas por delante de Brasil, con USD 178 millones (−1%). China, que en septiembre había comprado USD 410 millones, bajó al tercer lugar con USD 160 millones, 37% menos que en octubre de 2025. Estados Unidos fue cuarto, con USD 151 millones (+25%). Subrayado ubicó a China como principal destino, pero ese orden no coincide con las cifras de octubre que publicaron los demás medios.",
-        "## Celulosa y carne, al frente",
-        "La celulosa fue el primer producto del mes, con USD 229 millones, 21% del total y una suba de 37%. Según Todo El Campo y PortalPortuario, la Unión Europea compró USD 92 millones (40% del producto, +71%), China USD 70 millones (+14%) y Estados Unidos USD 28 millones (+7%). Eso explica buena parte del ascenso europeo en el ranking.",
-        "La carne bovina quedó segunda, con USD 210 millones (19% del total), 4% menos que un año antes. Según Todo El Campo, el volumen cayó 22%, a 23.773 toneladas, mientras que el precio medio subió 23%, de unos USD 7.163 a USD 8.815 por tonelada. Estados Unidos fue el principal comprador (USD 73 millones, +16%), seguido por China (USD 57 millones, −12%) y la UE (USD 50 millones, −4%).",
-        "## Lácteos, bebidas y madera",
-        "Los lácteos sumaron USD 118 millones, 21% más, con 32.881 toneladas (+28%) enviadas a 65 destinos. Brasil compró USD 32 millones (+44%) y Argelia USD 28 millones (−21%). Los concentrados de bebidas llegaron a USD 78 millones (+23%), con México como primer comprador (USD 12 millones, +112%). La madera y sus productos alcanzaron USD 53 millones (+44%), con un volumen que casi se duplicó (+94%).",
-        "## El acumulado del año y la soja",
-        "Entre enero y octubre, la carne bovina fue el primer producto, con unos USD 2.200 millones según Infobae (PortalPortuario informa USD 2.220 millones) y una suba de 2%. La siguieron la celulosa, con USD 1.998 millones (+2%); la soja, con USD 834 millones; los lácteos, con USD 772 millones (+2%), y los concentrados de bebidas, con USD 711 millones. La soja cayó 37% en valor y su volumen bajó de 3,35 a 1,95 millones de toneladas: Uruguay XXI lo atribuye a la sequía de la zafra 2025/2026, que redujo la producción cerca de 50%.",
-        "## Argentina y el acuerdo con la UE",
-        "La Argentina fue el quinto destino de octubre, con USD 60 millones (5% del total) y una suba de 17%, después de una caída de 5% en septiembre. Según Todo El Campo, aceites de petróleo, productos farmacéuticos, vehículos y celulosa explicaron 54% de esas ventas. En paralelo, Infobae recordó el balance del Ministerio de Economía uruguayo sobre el acuerdo UE–Mercosur: entre mayo y septiembre, las exportaciones a la UE sumaron USD 860 millones (+12%), de las cuales USD 38 millones se enviaron con las preferencias del acuerdo. Infobae habla de seis meses, aunque el período informado abarca cinco."
-      ],
-      "keyData": [
-        [
-          "Exportaciones octubre (con zonas francas)",
-          "USD 1.089 M (+1% i.a.)"
-        ],
-        [
-          "Acumulado ene–oct",
-          "USD 11.430 M (+1%)"
-        ],
-        [
-          "Destino UE",
-          "USD 179 M (16%; +16%)"
-        ],
-        [
-          "Destino China",
-          "USD 160 M (−37%)"
-        ],
-        [
-          "Celulosa",
-          "USD 229 M (+37%)"
-        ],
-        [
-          "Carne bovina",
-          "USD 210 M (−4%; volumen −22%)"
-        ],
-        [
-          "Destino Argentina",
-          "USD 60 M (+17%)"
-        ]
-      ],
-      "explainer": {
-        "what": "Uruguay exportó bienes por USD 1.089 millones en octubre, 1% más que un año antes, según Uruguay XXI.",
-        "why": "La Unión Europea pasó a ser el primer destino del mes, con USD 179 millones, impulsada por la celulosa, mientras que las ventas a China cayeron 37%; es un termómetro del comercio del Mercosur durante la aplicación del acuerdo con la UE.",
-        "who": "Exportadores del Mercosur de celulosa, carne vacuna y lácteos, y operadores argentinos que comercian con Uruguay, cuyas compras subieron 17%.",
-        "products": [
-          "Celulosa",
-          "Carne vacuna",
-          "Lácteos",
-          "Concentrados de bebidas",
-          "Madera",
-          "Soja"
-        ]
-      },
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
       "sources": [
         {
-          "name": "Todo El Campo",
-          "type": "Medio especializado",
-          "url": "https://todoelcampo.com.uy/archives/51554",
-          "primary": true
+          "name": "ABC",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.abc.es/internacional/seis-meses-acuerdo-uemercosur-exvicecanciller-uruguayo-pide-20261104210942-nt.html",
+          "primary": true,
+          "author": ""
         },
         {
-          "name": "ABC Color (EFE)",
-          "type": "Medio de comunicación",
-          "url": "https://www.abc.com.py/internacionales/2026/11/03/las-exportaciones-uruguayas-crecen-1-en-octubre-y-alcanzan-los-1089-millones-de-dolares/"
+          "name": "ABC",
+          "type": "También publicó esta noticia",
+          "url": "https://www.abc.es/internacional/tras-seis-meses-acuerdo-uemercosur-exvicecanciller-uruguayo-20261104211231-nt.html",
+          "alsoIn": true,
+          "title": "Tras seis meses del acuerdo UE-Mercosur, exvicecanciller uruguayo pide señales positivas"
         },
         {
           "name": "Infobae",
-          "type": "Medio de comunicación",
-          "url": "https://www.infobae.com/america/america-latina/2026/11/04/exportaciones-uruguayas-crecieron-1-en-diez-meses-europa-fue-su-principal-destino-en-octubre/"
+          "type": "También publicó esta noticia",
+          "url": "https://www.infobae.com/america/agencias/2026/11/04/a-seis-meses-del-acuerdo-ue-mercosur-exvicecanciller-uruguayo-pide-senales-positivas/",
+          "alsoIn": true,
+          "title": "A seis meses del acuerdo UE-Mercosur, exvicecanciller uruguayo pide señales positivas"
         },
         {
-          "name": "la diaria",
-          "type": "Medio de comunicación",
-          "url": "https://ladiaria.com.uy/economia/articulo/2026/11/exportaciones-en-octubre-crecieron-1-interanual-y-la-union-europea-fue-el-principal-destino/"
-        },
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado",
-          "url": "https://portalportuario.cl/exportaciones-uruguayas-superan-usd-1-000-millones-en-octubre"
-        },
-        {
-          "name": "Subrayado",
-          "type": "Medio de comunicación",
-          "url": "https://www.subrayado.com.uy/exportaciones-bienes-suman-usd-1089-millones-octubre-cifra-similar-2025-n1022595"
+          "name": "flipr.news",
+          "type": "También publicó esta noticia",
+          "url": "https://flipr.com.ar/nacionales/ultimo-momento/infobae/a-seis-meses-del-acuerdo-ue-mercosur-exvicecanciller-uruguayo-pide-senales-positivas/",
+          "alsoIn": true,
+          "title": "A seis meses del acuerdo UE-Mercosur, exvicecanciller uruguayo pide señales positivas"
         }
       ],
-      "absorbs": [
-        "exportaciones-uruguayas-superan-usd-1-000-millones-en-octubre"
+      "gnTried": "2026-11-04T22:44:39Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLUdKUEhicHVKQ3U1UlBQWG5CQm0wbm9iQWZ5M1FoMlVOX29RMUJrWDdSeDNRVHNkVDBVcTFKYVljeGVtc1lYQkZNdnlpSkR4b0s2aEY3LVl2NVMyeVI4dlNMNENNaHJTa3RMNW9iUDVUcXczYmZZcmw5TnNhU0ZROURVVkQ3Sm43ZEFyYVpxeGFpYjNoN1BGRmxibDdUZUNMbFFYLVVwSlV4NXV2NkZiS0szT2FkMWNMa2JF0gG7AUFVX3lxTFAtR0pQSGJwdUpDdTVSUFBYbkJCbTBub2JBZnkzUWgyVU5fb1ExQmtYN1J4M1FUc2RUMFVxMUphWWN4ZW1zWVhCRk12eWlKRHhvSzZoRjctWXY1UzJ5Ujh2U0w0Q01oclNrdEw1b2JQNVRxdzNiZllybDlOc2FTRlE5RFVWRDdKbjdkQXJhWnF4YWliM2g3UEZGbGJsN1RlQ0xsUVgtVXBKVXg1dXY2RmJLSzNPYWQxY0xrYkU?oc=5",
+      "aliasUrls": [
+        "https://flipr.com.ar/nacionales/ultimo-momento/infobae/a-seis-meses-del-acuerdo-ue-mercosur-exvicecanciller-uruguayo-pide-senales-positivas",
+        "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUTRQSko2LVpLelN5Y2o0TlVnSE9BSEVyc1I5a05Bcm5aQmNReVpHSkdqUHVkZnJGaE9RTDdzNTkzVjNBNE5LR0pJc0RPdWdlMWJjWEtKcnplaEdXaWRidGktUUlrZGxsdEowWU5MQjR0OXlSSUJPSUxrOTcwUHpqdURJZlM5Q1U2SElGY3ZvVldQeWFBUlVPSXJoZmQ4aHd2amZxTndNZi1aZEtIYXhPYlBSV01Xb2tZb0s2dnN5YW5MTFFBU0VIM0RraUJCaHhHaVZv0gHuAUFVX3lxTE1rdjNKWGwxMUhpeE10YlV5SDN4Vy1HN29fV1c1OUVFajFvSE1NeGVVbGZDNjRib3lVRHFrbzNOcXBkRmZpVDZCVlNKcS1uV3BiQ3lFeXE0ek9senJiOXpmeUNjNVNRN1dRSEFOVXl4ejhXVTFuOHo0ek5GSkZTYUVVS3FBM2tUM1NCTDh4VXIwTnlQcDlnb1VzOUVuanY5WDhkNFFYRG91OHR1d0tQSkhZY1RXNmpJWU5XcGdOeDZBdy1VbXppSnR5REdrYUtaUE45ei0wSDNGOWRobVBRcFVmVTNPdEFhVGZsUjNzWVE",
+        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOV2Nwcy10dHpVODA4NThvQ0V6VWFwVUdzZHZwRHNVcTJUTl80MElvbUVtRUl4ejd6WFpRV2RCZzFiemoya0duck5BeDNrNlhRaWtJRXFLUUZIZF9rb2tGQ3E5LWtHV0tHNjdOLS1UcU95RUE0dkNwcGZZWm5HRlZJSjQzVG9oanNzNXpVZVd0MzN4dnJ6N01QalMzb1lrZzFlNGN4aXRIcFJyWndZTFNPX2o1cU9YV1BrMWhGdnBYTmVTUU12Z1pLRFlBMzQyQTQxTFV4SnRwSQ",
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxObGZwLUJiVV9lUUoybnVVcW11NnZKbGVuMTdCVTZjNnUzM0lENkxsYm03dHRrYmx1QUw0VjY2aHJBbXZaNjhsRnhiYXlRRUpWYnRCLTV6U1pyUW9rdW9CUkduNV85YnAyd0hISHZlekNaR29FNDNqbmpQbFM0WUhDakdqcUEyNWRlZ2F2Q1dTQWd2aHliNXJDaHp3WnJ5T3pwYmVmQkxOUDJ0TnRITGdQalUwLVZuZ9IBuwFBVV95cUxONmVfcWxiOGpua3owLVQ5eWQ3VzhMTnBYVVc2ZUpCN0JqdWhOSFdpUFB0dnBhTGphOEY0Vzc3akR2Y1BmWnVvQUxPNjRuc0hGOXN3VlRCU1dYVkZnSkRpbEpsZXFESTBaejJIVWhsOGItbGxqdW5LZzdHTEZaTnZYTnNvZHg2MS1ucGRVZTBrVVBVTFZsT2VIQjN4MXVxbjBVTHcxTXNkeEk0Zlk2WkdpZ1RNX1pnY2pxLXc4",
+        "https://www.abc.es/internacional/tras-seis-meses-acuerdo-uemercosur-exvicecanciller-uruguayo-20261104211231-nt.html",
+        "https://www.infobae.com/america/agencias/2026/11/04/a-seis-meses-del-acuerdo-ue-mercosur-exvicecanciller-uruguayo-pide-senales-positivas"
       ],
-      "story": "ue-mercosur"
+      "mergedIds": [
+        "tras-seis-meses-del-acuerdo-ue-mercosur-exvicecanciller-uruguayo-pide-senales-po",
+        "a-seis-meses-del-acuerdo-ue-mercosur-exvicecanciller-uruguayo-pide-senales-p-3",
+        "a-seis-meses-del-acuerdo-ue-mercosur-exvicecanciller-uruguayo-pide-senales-p-2"
+      ]
+    },
+    {
+      "id": "video-cluster-logistico-advierte-estancamiento-en-carga-aerea-urge-proyecto-para",
+      "datetime": "2026-11-04T20:04:10Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T22:44:39Z",
+      "title": "VIDEO | Clúster Logístico advierte estancamiento en carga aérea; urge proyecto para San Luis Potosí",
+      "summary": "Por Daniela Lara El presidente del Clúster Logístico de San Luis Potosí A.C., Humberto Siller Martínez, advirtió que la entidad continúa estancada en materia de carga aérea, pese a contar con una ubicación estratégica y un aeropuerto internacional que podría convertirse en un punto importante para el movimiento de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Transporte aéreo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "plane",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "potosinoticias.com",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://potosinoticias.com/2026/11/04/video-cluster-logistico-advierte-estancamiento-en-carga-aerea-urge-proyecto-para-san-luis-potosi/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-04T22:44:39Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOHlhaDN4V3Q0MGJmUmFDY0pfZGFCWFVUVm5KQ3dtNlNraWNlcGJBbDlFcDBqZHBrMzliUTFYQUY1ZG9HcEYtalkzV2FTbURtQ1RPS0RyR0pnZ1VjdkFBbVRjZmoyR2lCeGdzU05mNDJEVjdHZkQxSjZwcGYyQjQ2VE95eHRxMmloZTU4ZzFGYVhqV1lCZTRFQkhpczRxdnJsVVROZVZZQ2VRcjFjb1IxRkFLWTNOYTRfZnp1dXZJbTZzLWcyX2lvWl9hWGdvTWth?oc=5"
+    },
+    {
+      "id": "espana-gobierno-abre-licitacion-para-construccion-de-nuevo-muelle-en-puerto-de-m",
+      "datetime": "2026-11-04T19:30:30Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T22:44:39Z",
+      "title": "España: Gobierno abre licitación para construcción de nuevo muelle en Puerto de Málaga",
+      "summary": "El Consejo de Ministros de España dio el visto bueno para la licitación de las…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Europa"
+      ],
+      "countries": [
+        "España"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/espana-gobierno-abre-licitacion-para-construccion-de-nuevo-muelle-en-puerto-de-malaga/",
+          "primary": true,
+          "author": "Gabriel"
+        }
+      ]
+    },
+    {
+      "id": "presidente-de-la-aneih-advierte-sobre-presion-de-costos-por-alza-de-combustibles",
+      "datetime": "2026-11-04T19:26:17Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T22:44:39Z",
+      "title": "Presidente de la Aneih advierte sobre presión de costos por alza de combustibles y fletes internacionales",
+      "summary": "El aumento de los costos de producción, el encarecimiento de los fletes internacionales y la incertidumbre en los precios de las materias primas mantienen la preocupación del sector industrial dominicano.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Periódico elDinero",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://eldinero.com.do/387334/presidente-de-la-aneih-advierte-sobre-presion-de-costos-por-alza-de-combustibles-y-fletes-internacionales/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-04T22:44:39Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSHlyOExfZFBTR0tubDAzWm5kbmxYQVRNZ3U3anlYUnVjSHU1bTczbm4xcGktZFRRNnkyb0VrNVVHUHZZVThid2xpaDd6UUJmX3JOakp3T0xaS2FPMC1QTTRhNzY2N08xYVptTS1OT2tHRXg1WDZubWdkSXQzRXBKbGZ1dHN2NTg1ZVBxZXQ5OTdsaUU1OC00ZWJmREdwV0trU2FaZUIwSzFHbG1WYWlMOTFIOWFhQTBDWmdONkkyeG1LNElzY2VLVG9vY0VEeTNheFN3?oc=5"
+    },
+    {
+      "id": "carga-boliviana-crece-8-en-puerto-de-arica-a-septiembre",
+      "datetime": "2026-11-04T19:00:21Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T22:44:39Z",
+      "title": "Carga boliviana crece 8% en Puerto de Arica a septiembre",
+      "summary": "La carga boliviana en tránsito por el Puerto de Arica superó las 1,7 millones de toneladas…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Chile",
+        "Bolivia"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/carga-boliviana-crece-8-en-puerto-de-arica-a-septiembre/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "trigo-argentino-record-la-molienda-alcanzo-su-mayor-nivel-en-12-campanas-y-crece",
+      "datetime": "2026-11-04T18:19:29Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T22:44:39Z",
+      "title": "Trigo argentino récord: la molienda alcanzó su mayor nivel en 12 campañas y crecen las exportaciones",
+      "summary": "La industria molinera proces ms de 5,6 millones de toneladas de trigo, impulsada por una cosecha histrica y mayores exportaciones de harina.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "grain",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "AgroLatam",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.agrolatam.com/argentina/actualidad/trigo-argentino-record-molienda-exportaciones-harina-2026/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-04T22:44:39Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVVEzU0FTSElPMFJpazNCeURKMXV0TmtYOGpzZ3QtMUljemV1aHNfcFRiWFhiM3lVSERmMThtWmJKbm53cjFBaVV2Q25kajZTdHRxMnlYWEdfZE5jdGRrTmJfQzI2Z0JtY1FrR1c0WUtUMW9oNEV0cERVYWJpODFiaXBTU2l0bWxkcW0tOU1RTFduUzBBUFVHSVZKcjBJNl9PMzd3M3ZFZGU?oc=5"
+    },
+    {
+      "id": "colsa-solicita-a-porteadores-liberar-accesos-a-almacenes-extraportuarios-de-san",
+      "datetime": "2026-11-04T17:55:40Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T22:44:39Z",
+      "title": "Colsa solicita a porteadores liberar accesos a almacenes extraportuarios de San Antonio",
+      "summary": "La Comunidad Logística San Antonio (Colsa) hizo un llamado a la Agrupación de Camioneros Independientes de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "truck",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/colsa-solicita-a-porteadores-liberar-accesos-a-almacenes-extraportuarios-de-san-antonio/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "paro-de-camioneros-ministro-quiroz-llama-a-clientes-de-los-fletes-de-carga-a-que",
+      "datetime": "2026-11-04T17:52:03Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T22:44:39Z",
+      "title": "Paro de camioneros: ministro Quiroz llama a clientes de los fletes de carga a “que vean la realidad” y cierra puerta a nuevas medidas en favor de este sector",
+      "summary": "El ministro de Hacienda sostuvo que no habrá nuevas medidas para el sector, mientras el paro de transportistas mantiene paralizado San Antonio.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "truck",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "The Clinic",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.theclinic.cl/2026/11/04/paro-de-camioneros-ministro-quiroz-llama-a-clientes-de-los-fletes-de-carga-a-que-vean-la-realidad-y-cierra-puerta-a-nuevas-medidas-en-favor-de-este-sector/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-04T22:44:39Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOOE5DZU9mYS0zTEt3Uk9lckk3RTNvMWhhNWVPNnM1aUZnZDdoaGo2MGRBeDBjQVlUU09tSFM2a1lxS3V6MEhQZXI5V1JqNUpFN2c0VkZJLTMxWDdtQ0FISC1MV1BuTkdsRlF3bmNiYWFTLTg2dURZU1R1cEM2UDdJU2VoX1BXZmlCN2w5VDJVZ25GXzNLYUQ3T0cxVE1SRGhJUjVmY2I1bDQ1S2VXdjlzTUdNQk5NZ09adFhuTUtQdXkwdVBYMkptX3BIa3ZfdnBBd2wxZzVmNFdqcW94SG85OVRIcFcycmJvQzN3OWtGdWdOYkNWdWIzRE1FZi1mQnFka3diZUlnRVRBdGRsTVJEcl9Qeko1ZWZqTTNz?oc=5"
+    },
+    {
+      "id": "puerto-de-singapur-monitorea-derrame-de-petroleo-en-cercanias-de-pulau-sebarok",
+      "datetime": "2026-11-04T17:30:30Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T22:44:39Z",
+      "title": "Puerto de Singapur monitorea derrame de petróleo en cercanías de Pulau Sebarok",
+      "summary": "La Autoridad Marítima y Portuaria de Singapur (MPA) fue alertada sobre el avistamiento de petróleo en…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos",
+        "Asia"
+      ],
+      "countries": [
+        "Singapur"
+      ],
+      "tags": [
+        "Energía",
+        "Puertos"
+      ],
+      "visual": "energy",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/puerto-de-singapur-monitorea-derrame-de-petroleo-en-cercanias-de-pulau-sebarok/",
+          "primary": true,
+          "author": "cmeza"
+        }
+      ]
     },
     {
       "id": "bloqueo-de-camioneros-provoca-desvio-de-buque-del-cherry-express-desde-san-anton",
@@ -1068,6 +1406,13 @@
           "url": "https://portalportuario.cl/bloqueo-de-camioneros-provoca-desvio-de-buque-del-cherry-express-desde-san-antonio-a-valparaiso/",
           "primary": true,
           "author": "Gabriel"
+        },
+        {
+          "name": "PortalPortuario",
+          "type": "También publicó esta noticia",
+          "url": "https://portalportuario.cl/frutas-de-chile-alerta-que-desvio-de-buque-del-cherry-express-de-san-antonio-a-valparaiso-genera-dificultades-logisticas/",
+          "alsoIn": true,
+          "title": "Frutas de Chile alerta que desvío de buque del Cherry Express de San Antonio a Valparaíso genera dificultades logísticas"
         }
       ],
       "digest": {
@@ -1080,7 +1425,13 @@
         "at": "2026-11-04T16:30:00-03:00",
         "basedOn": "https://portalportuario.cl/bloqueo-de-camioneros-provoca-desvio-de-buque-del-cherry-express-desde-san-antonio-a-valparaiso/",
         "words": 177
-      }
+      },
+      "aliasUrls": [
+        "https://portalportuario.cl/frutas-de-chile-alerta-que-desvio-de-buque-del-cherry-express-de-san-antonio-a-valparaiso-genera-dificultades-logisticas"
+      ],
+      "mergedIds": [
+        "frutas-de-chile-alerta-que-desvio-de-buque-del-cherry-express-de-san-antonio-a-v"
+      ]
     },
     {
       "id": "camioneros-de-antofagasta-se-movilizan-para-solicitar-soluciones-al-alza-en-prec",
@@ -1135,7 +1486,9 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Logística",
         "Transporte marítimo",
+        "Puertos",
         "Asia",
         "Europa"
       ],
@@ -1176,13 +1529,15 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Aranceles"
+        "Aranceles",
+        "Estados Unidos"
       ],
       "countries": [
-        "Global"
+        "Estados Unidos"
       ],
       "tags": [
-        "Aranceles"
+        "Aranceles",
+        "Estados Unidos"
       ],
       "visual": "customs",
       "impact": 1,
@@ -1259,12 +1614,15 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Exportaciones",
         "Aranceles",
         "China",
-        "Asia"
+        "Asia",
+        "Europa"
       ],
       "countries": [
-        "China"
+        "China",
+        "España"
       ],
       "tags": [
         "Aranceles",
@@ -1442,13 +1800,17 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Logística",
         "Transporte marítimo",
+        "Puertos",
         "Latinoamérica"
       ],
       "countries": [
         "Perú"
       ],
-      "tags": [],
+      "tags": [
+        "Puertos"
+      ],
       "visual": "ship",
       "impact": 1,
       "affectsArgentina": false,
@@ -1462,6 +1824,13 @@
           "url": "http://www.mundomaritimo.cl/noticias/peru-acuerda-con-navieras-itinerarios-especiales-de-cabotaje-para-enfrentar-efectos-de-el-nino",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Mundo Marítimo",
+          "type": "También publicó esta noticia",
+          "url": "https://www.mundomaritimo.cl/noticias/peru-acuerda-con-navieras-itinerarios-especiales-de-cabotaje-para-enfrentar-efectos-de-el-nino",
+          "alsoIn": true,
+          "title": "Perú acuerda con navieras itinerarios especiales de cabotaje para enfrentar efectos de El Niño"
         }
       ],
       "gnTried": "2026-11-04T17:24:12Z",
@@ -1475,50 +1844,50 @@
         "at": "2026-11-04T16:30:00-03:00",
         "basedOn": "http://www.mundomaritimo.cl/noticias/peru-acuerda-con-navieras-itinerarios-especiales-de-cabotaje-para-enfrentar-efectos-de-el-nino",
         "words": 180
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZVJwWXJsUVl4ZVp6LTRFc0lZeEVNUDBnV0JGNGlUU3RhN2xQWHFUeks2Qlg0d2hadmdGQW1nM0xkdjI0clVteEVWTDRzVlFrNWZoTDJOQzZqbDF3dVdGMWJJMFpUVThsT1pYOUZ1OVpRWk1iN19MQzV3Rm15Nnc4SFZRM1lpMHJUUWRGOXhiM21lNTZRUXd1Y0Q3U1F0WHM4dEFVOUlDYW9ZYmo2TVVYS0xHVE1YbDBFZS1wNWRvSjlndXlfTVVVbmZpS2Y",
+        "https://www.mundomaritimo.cl/noticias/peru-acuerda-con-navieras-itinerarios-especiales-de-cabotaje-para-enfrentar-efectos-de-el-nino"
+      ],
+      "mergedIds": [
+        "peru-acuerda-con-navieras-itinerarios-especiales-de-cabotaje-para-enfrentar--2"
+      ]
     },
     {
-      "id": "exportaciones-uruguayas-superan-usd-1-000-millones-en-octubre",
-      "datetime": "2026-11-04T15:23:33Z",
+      "id": "el-comercio-exterior-mejora-pero-el-agro-pierde-volumen-exportado",
+      "datetime": "2026-11-04T15:12:30Z",
       "date": "2026-11-04",
-      "firstSeen": "2026-11-04T17:24:12Z",
-      "title": "Exportaciones uruguayas superan USD 1.000 millones en octubre",
-      "summary": "En octubre de 2026, las exportaciones de Uruguay, incluidas las ventas de zonas francas, alcanzaron los…",
+      "firstSeen": "2026-11-04T22:44:39Z",
+      "title": "El comercio exterior mejora, pero el agro pierde volumen exportado",
+      "summary": "Los precios de venta al exterior subieron ms que los de las importaciones en el tercer trimestre. Esa ventaja sostuvo a las manufacturas agropecuarias, mientras los productos primarios retrocedieron en valor",
       "body": [],
       "keyData": [],
       "topics": [
-        "Exportaciones",
-        "Latinoamérica"
+        "Exportaciones"
       ],
       "countries": [
-        "Uruguay"
+        "Argentina"
       ],
-      "tags": [],
-      "visual": "customs",
+      "tags": [
+        "Agro"
+      ],
+      "visual": "agro",
       "impact": 1,
-      "affectsArgentina": false,
+      "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
-      "feed": "PortalPortuario",
+      "feed": "Google Noticias · Comercio exterior Argentina",
       "sources": [
         {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/exportaciones-uruguayas-superan-usd-1-000-millones-en-octubre/",
+          "name": "Agritotal",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.agritotal.com/actualidad/el-comercio-exterior-mejora-pero-el-agro-pierde-volumen-exportado/",
           "primary": true,
-          "author": "admin"
+          "author": ""
         }
       ],
-      "digest": {
-        "lead": "Uruguay exportó bienes por USD 1.089 millones en octubre de 2026, incluidas zonas francas, 1 % más que un año antes, y acumuló USD 11.430 millones entre enero y octubre, también con una suba de 1 %, informó PortalPortuario.",
-        "body": [
-          "En el acumulado del año, la carne bovina encabeza con USD 2.220 millones (19 % del total, +2 %), seguida por la celulosa con USD 1.998 millones (+2 %). La soja cayó 37 % en valor, a USD 834 millones, con un volumen 42 % menor; según Uruguay XXI, la sequía de la zafra 2025-2026 recortó la producción cerca de la mitad. Lácteos y concentrados de bebidas completan los cinco primeros, que reúnen el 57 % de lo exportado.",
-          "En octubre, la celulosa fue el primer producto con USD 229 millones, 37 % más que un año antes, impulsada por la Unión Europea (+71 %). La carne bovina sumó USD 210 millones (−4 %): crecieron las ventas a Estados Unidos y bajaron las de China y la UE. Los lácteos alcanzaron USD 118 millones (+21 %), con Brasil como principal comprador y una suba de 44 % en ese destino."
-        ],
-        "at": "2026-11-04T16:30:00-03:00",
-        "basedOn": "https://portalportuario.cl/exportaciones-uruguayas-superan-usd-1-000-millones-en-octubre/",
-        "words": 189
-      }
+      "gnTried": "2026-11-04T22:44:39Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS1doZ1FRWmN5QUF0YzZkcFJCd0xNUE5BS3JpWFREaWZyaUlHY0dQTE1vdzhURUhta2gtVmpRdUczelRkWk5jeUtpWmV6aFlUSTNQZ0ZMRm5kUUJWSGZzRUN3ekc3YlNxa3V6QnJPT09jTlZsNlg4eEE5TVRqWml4c3Fxc0NNdmRtckw0dUpZa2VCd2tBcTNoeHMwRGtrN0RRYUo4a0Vn0gGcAUFVX3lxTE5Jal9Rb0lTbzB5djdHOVBhNGdUem9vS2FKYmhzdDBiVm5yc3JTTnRpUWJVbktlRFoxaGhQbE1ES3FjZXF0UzNoUF94clZocUwzQjExelVUcHlJMzFwSjVGU1E3RHNFTTdtSEtITUd5OE4tRzM5STF3NXZBaFNMRUVjMi03eFhSUG9fYnU4bXlGV2JrLWdzRExTQ0VWbA?oc=5"
     },
     {
       "id": "grecia-puerto-de-el-pireo-registra-disminucion-de-ingresos-y-ganancias-de-enero",
@@ -1649,66 +2018,6 @@
       }
     },
     {
-      "id": "argentina-recupero-el-acceso-al-mercado-europeo-para-exportar-sebo-animal",
-      "datetime": "2026-11-04T14:11:54Z",
-      "date": "2026-11-04",
-      "firstSeen": "2026-11-04T17:24:12Z",
-      "title": "Argentina recuperó el acceso al mercado europeo para exportar sebo animal",
-      "summary": "El SENASA incorporó al establecimiento Nº 263 al listado de plantas habilitadas para exportar este subproducto de origen animal. La autorización permite retomar los envíos a la Unión Europea, un mercado al que Argentina no exportaba sebo desde noviembre de 2023.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "El Litoral",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.ellitoral.com/campolitoral/argentina-seboincomestible-seboanimal-industriafrigorifica-unioneuropea-senasa-exportaciones-hacienda-faena-certificacionsanitaria-mercadoeuropeo-subproductos_0_LVi3XR3bIl.html",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "Mirador Provincial",
-          "type": "También publicó esta noticia",
-          "url": "https://www.miradorprovincial.com/2026/11/04/el-senasa-habilito-una-planta-y-argentina-recupera-el-mercado-europeo-para-exportar-sebo-animal/",
-          "alsoIn": true,
-          "title": "El SENASA habilitó una planta y Argentina recupera el mercado europeo para exportar sebo animal"
-        }
-      ],
-      "gnTried": "2026-11-04T17:24:12Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxOTHFISGdiVFoyLURpcmw3UERIM0JiNzNGMzFwRjcwU3V4alRGRlluVGpLUDZ4MGExVTZOR0lHSWxJS2gwRmtnOEdSMUJ3Nl9nMGRDWGd6aDFxaWdyc25nMTF4ZWcwdU95SXdIQ1pTSUVrbmRrcFl5MEJ2blppWVJjcG5sTnlLY1Brd3V6MUhaNGlxanFwa2NZQWMwbmdlRC1vV01qOU83MlJGVUt0S0VkZmo3ZXI4SkJ3bmx2ckx1NGNxWFhXU3ZHVzF5NVg0aE0xdFFXWnFUYTNlN295VW9FMElEYUZfUGQ4NlNiMUNSRmtRZ0EwNDMtY0kyc0c0Ujh0bnNsNnBEZi12LTg0R2ZYMU1PRmRCR2dGSHEwSFNSQUNVU0dKSEJGLVFPci1KLXc1VE90aHJtMzVmdFU?oc=5",
-      "aliasUrls": [
-        "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQYVh2Q0xTMmhTdTktLVVwQ245MUhIdW96cjdOMEl4X1djM19rc3NJdUM1WFlhYW5POTl0bVd0SG10S2l4R29sWUs0aVFqQVNybE9MTmJOaERseG03cXhXSjY5elQwUnBpeEFMY2ZlVjJPS2o3RllscTNRNVhUWWUxamIzNnFqMWtKTHZ4YTE3NnpIWnN2MHhFSXc4Qm1YNWduQWs3ZXV5UEg2QU9iTEpaZ081WkM0XzBTcFRHR2NKWVhZblNCc0pINXI3RnJzdHNGYjV5cG5pYUg",
-        "https://www.miradorprovincial.com/2026/11/04/el-senasa-habilito-una-planta-y-argentina-recupera-el-mercado-europeo-para-exportar-sebo-animal"
-      ],
-      "mergedIds": [
-        "el-senasa-habilito-una-planta-y-argentina-recupera-el-mercado-europeo-para-expor"
-      ],
-      "digest": {
-        "lead": "La Argentina volvió a tener acceso al mercado de la Unión Europea para el sebo animal no comestible: el Senasa incorporó al establecimiento frigorífico N.º 263 a la lista de plantas habilitadas para exportarlo, informó El Litoral el 4 de noviembre.",
-        "body": [
-          "El país no despachaba sebo a la UE desde noviembre de 2023, por lo que la habilitación reabre un destino que estuvo cerrado unos tres años. Se trata de un subproducto del procesamiento de bovinos que tiene distintos usos industriales y cuya venta suma valor a materiales que no van al consumo humano.",
-          "Para entrar a ese mercado hay que cumplir las condiciones sanitarias y los procedimientos de control europeos; el Senasa fiscaliza las plantas y certifica cada envío según las exigencias del destino. El artículo no da volúmenes ni valores ni precisa cuándo saldrían los primeros embarques."
-        ],
-        "at": "2026-11-04T16:30:00-03:00",
-        "basedOn": "https://www.ellitoral.com/campolitoral/argentina-seboincomestible-seboanimal-industriafrigorifica-unioneuropea-senasa-exportaciones-hacienda-faena-certificacionsanitaria-mercadoeuropeo-subproductos_0_LVi3XR3bIl.html",
-        "words": 139,
-        "flag": "curar"
-      }
-    },
-    {
       "id": "peru-anuncia-plan-de-transporte-maritimo-para-asegurar-exportaciones-pese-a-efec",
       "datetime": "2026-11-04T13:33:36Z",
       "date": "2026-11-04",
@@ -1804,45 +2113,163 @@
       }
     },
     {
-      "id": "argentina-reanudo-las-exportaciones-de-sebo-bovino-a-la-ue-despues-de-3-anos",
-      "datetime": "2026-11-04T13:23:05Z",
+      "id": "senasa-sebo-incomestible-ue-establecimiento-263-coto-reapertura-noviembre-2023",
       "date": "2026-11-04",
-      "firstSeen": "2026-11-04T17:24:12Z",
-      "title": "Argentina reanudó las exportaciones de sebo bovino a la UE después de 3 años",
-      "summary": "El subproducto de la faena bovina se utiliza como materia prima para elaborar combustible sostenible de aviación. Los envíos estaban suspendidos hacía 3 años. (NAP) El Servicio Nacional de Sanidad y Calidad Agroalimentaria de Argentina habilitó las exportaciones a la Unión Europea de sebo bovino no comestible, luego…",
-      "body": [],
-      "keyData": [],
+      "datetime": "2026-11-04T10:23:05-03:00",
+      "kind": "noticia",
+      "title": "Sebo bovino: el SENASA habilitó una planta para exportar a la UE y la Argentina recupera un mercado cerrado desde 2023",
+      "summary": "El organismo sumó al establecimiento N.º Oficial 263, que según varios medios pertenece a Coto, al listado de plantas autorizadas para vender sebo incomestible a la Unión Europea, donde se usa para fabricar combustible sostenible de aviación. Es un mercado al que el país no enviaba este subproducto desde noviembre de 2023; otras plantas están en auditoría.",
       "topics": [
         "Argentina",
         "Exportaciones",
-        "Europa"
+        "Europa",
+        "Regulaciones"
       ],
       "countries": [
         "Argentina",
-        "Unión Europea"
+        "Unión Europea",
+        "Estados Unidos"
       ],
-      "tags": [],
+      "tags": [
+        "SENASA",
+        "Sebo bovino",
+        "Subproductos",
+        "Combustible sostenible de aviación",
+        "Bolsa de Comercio de Rosario"
+      ],
       "visual": "livestock",
-      "impact": 1,
+      "impact": 2,
       "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
+      "argentinaNote": "Los frigoríficos y plantas de rendering que producen sebo incomestible vuelven a tener un destino europeo, aunque por ahora con una sola planta habilitada. El producto venía dependiendo de Estados Unidos, que concentró cerca de 60% de las compras en los últimos años.",
+      "argentinaImpact": {
+        "change": "El SENASA incorporó una planta argentina al listado de establecimientos autorizados para exportar sebo incomestible a la Unión Europea, destino cerrado desde noviembre de 2023.",
+        "who": "Frigoríficos y plantas de rendering, exportadores de subproductos bovinos y certificadores sanitarios.",
+        "sectors": [
+          "Carne vacuna",
+          "Subproductos animales",
+          "Biocombustibles"
+        ],
+        "flows": {
+          "importaciones": false,
+          "exportaciones": true,
+          "logistica": false,
+          "aranceles": false
+        }
+      },
+      "body": [
+        "El SENASA incorporó al establecimiento N.º Oficial 263 al listado de plantas autorizadas para exportar sebo incomestible de origen animal a la Unión Europea, según un comunicado del organismo fechado el 3 de noviembre. Con esa habilitación, la Argentina vuelve a tener acceso al mercado europeo para este subproducto de la faena bovina, al que no despachaba desde noviembre de 2023. De acuerdo con Noticias AgroPecuarias, Agroempresario y El Monterizo, la planta pertenece a Coto Centro Integral de Comercialización S.A.; el texto oficial, tal como lo reprodujeron 3tres3 y Agrofy News, no nombra a la empresa.",
+        "Para el SENASA, la incorporación es un avance en la recuperación de las ventas de este producto a Europa. La autorización es específica para ese establecimiento y, según Agroempresario y El Monterizo, no significa que ya haya salido un embarque ni fija volúmenes o plazos. Ninguna de las fuentes consultadas informó dónde está ubicada la planta ni cuándo saldría el primer envío. Mirador Provincial habla en su bajada de más de un año de pausa, pero en el cuerpo de la nota, igual que el resto de los medios, ubica el último envío en noviembre de 2023.",
+        "## Qué es el sebo incomestible y para qué se usa",
+        "El sebo se obtiene de los tejidos grasos que quedan de la faena, que en las plantas de rendering se procesan con calor. No es apto para consumo humano y, según el comunicado oficial, se clasifica como un residuo. El destino que destaca el SENASA es la fabricación de combustible sostenible de aviación (SAF, por su sigla en inglés): el sebo pasa por un tratamiento con hidrógeno a altas temperaturas que le quita oxígeno, azufre y otras impurezas. Según el organismo, citado por Noticias AgroPecuarias, el combustible que resulta tiene una huella de carbono menor que la del queroseno fósil.",
+        "Para exportar a la UE no alcanza con que el país esté autorizado: cada planta tiene que figurar en el listado europeo. Según Mirador Provincial, el SENASA fiscaliza los establecimientos y certifica cada lote de exportación de acuerdo con las exigencias del destino.",
+        "## Por qué estuvo cerrado y qué falta",
+        "El comunicado no explica por qué se interrumpieron los envíos. El Monterizo cita a una fuente oficial, sin identificarla, según la cual el destino se cerró por distintas razones técnicas y después hubo un trabajo conjunto del SENASA, las autoridades europeas y las plantas locales para rehabilitarlas de a poco. La misma fuente sostiene que hay otros establecimientos en proceso de auditoría para entrar en la lista, algo que también informó La Nación, según citan Agroempresario y Noticias AgroPecuarias. Agrofy, sobre la base del comunicado, señala que la medida permitirá ampliar las oportunidades comerciales en los próximos meses.",
+        "## Un negocio que se multiplicó por 20",
+        "La reapertura llega después de una década de fuerte crecimiento de las ventas externas de sebo bovino. Según un informe de la Bolsa de Comercio de Rosario (BCR) difundido en septiembre, la Argentina pasó de exportar 6.819 toneladas en 2015 a 154.808 toneladas en 2025, por unos USD 125,2 millones. En casi 15 años, mientras el volumen faenado subió alrededor de 25%, las exportaciones de sebo crecieron 4.480%. El país pasó del puesto 15 entre los exportadores mundiales, con 0,4% del comercio del producto, al cuarto lugar en 2025, con 7,8%, detrás de Australia, Brasil y Canadá. Brasil hizo un recorrido parecido: del puesto 31 en 2015 al segundo lugar, con 402.000 toneladas.",
+        "Para la BCR, las causas del salto fueron sobre todo externas. Con datos de la Administración de Información Energética de Estados Unidos (EIA), el informe muestra que la producción estadounidense de diésel renovable pasó de unos 7,2 millones de barriles anuales a fines de 2018 a 69,4 millones en 2025, y que el consumo de grasa bovina para biocombustibles en ese país subió de unas 75.000 toneladas mensuales en 2021 a cerca de 450.000 a fines de 2025. Las importaciones mundiales de sebo rondan los 2 millones de toneladas por año y Estados Unidos pasó a concentrar más de la mitad en 2025.",
+        "## El peso de Estados Unidos y el lugar de Europa",
+        "El cambio también se vio en los destinos argentinos. Según la BCR, entre 2018 y 2022 los principales compradores eran Países Bajos y Brasil, con Estados Unidos en un lugar menor. En el promedio de 2023 a 2026 (con este año todavía en curso), Estados Unidos se quedó con cerca de 60% de los envíos, Uruguay con una cuarta parte y Brasil perdió participación.",
+        "Ese mercado se volvió más exigente en 2026. El informe señala que el crédito fiscal 45Z de Estados Unidos, de hasta USD 1 por galón según la intensidad de carbono del combustible, excluye al sebo importado, y que los embarques argentinos a ese país cayeron alrededor de 4% interanual en los primeros siete meses del año. En ese contexto, la planta habilitada vuelve a abrir un destino europeo, la región que entre 2018 y 2022, a través de Países Bajos, encabezaba las compras junto con Brasil. Según la Secretaría de Agricultura, citada por Economis, el biodiésel argentino se elabora con aceite de soja y no con grasas animales."
+      ],
+      "keyData": [
+        [
+          "Establecimiento habilitado",
+          "N.º Oficial 263 (Coto CICSA, según NAP y Agroempresario)"
+        ],
+        [
+          "Último envío a la UE",
+          "noviembre de 2023"
+        ],
+        [
+          "Exportaciones de sebo 2025",
+          "154.808 t (USD 125,2 M)"
+        ],
+        [
+          "Exportaciones de sebo 2015",
+          "6.819 t"
+        ],
+        [
+          "Ranking mundial 2025",
+          "4.º exportador (7,8%)"
+        ],
+        [
+          "Destino EE.UU. (promedio 2023–2026)",
+          "cerca de 60%"
+        ],
+        [
+          "Embarques a EE.UU. ene–jul 2026",
+          "alrededor de −4%"
+        ]
+      ],
+      "explainer": {
+        "what": "El SENASA sumó al establecimiento N.º Oficial 263 al listado de plantas autorizadas para exportar sebo incomestible a la Unión Europea, un destino cerrado desde noviembre de 2023.",
+        "why": "La Argentina exportó 154.808 toneladas de sebo en 2025 y dependía de Estados Unidos, que concentró cerca de 60% de los envíos y en 2026 dejó al sebo importado fuera del crédito 45Z; Europa lo usa para fabricar combustible sostenible de aviación.",
+        "who": "Frigoríficos y plantas de rendering, exportadores de subproductos bovinos y el SENASA, que certifica cada lote.",
+        "products": [
+          "Sebo bovino incomestible",
+          "Combustible sostenible de aviación"
+        ],
+        "next": "Otras plantas están en proceso de auditoría para sumarse al listado; la habilitación no fija volúmenes ni fecha del primer embarque.",
+        "nextSource": {
+          "name": "Agroempresario",
+          "url": "https://agroempresario.com/publicacion/123414/sebo-bovino-argentina-recupera-el-mercado-de-la-union-europea/"
+        }
+      },
       "sources": [
         {
           "name": "Noticias AgroPecuarias",
-          "type": "Medio · vía Google Noticias",
+          "type": "Medio especializado",
           "url": "https://www.noticiasagropecuarias.com/2026/11/04/argentina-reanudo-las-exportaciones-de-sebo-bovino-a-la-ue-despues-de-3-anos/",
           "primary": true,
-          "author": ""
+          "author": "Gabriel Quaizel"
+        },
+        {
+          "name": "3tres3 (comunicado del SENASA)",
+          "type": "Medio especializado",
+          "url": "https://www.3tres3.com/es-ar/ultima-hora/exportacion-sebo-a-la-union-europea_18145/"
+        },
+        {
+          "name": "Agroempresario",
+          "type": "Medio especializado",
+          "url": "https://agroempresario.com/publicacion/123414/sebo-bovino-argentina-recupera-el-mercado-de-la-union-europea/"
+        },
+        {
+          "name": "Agrofy News",
+          "type": "Medio especializado",
+          "url": "https://news.agrofy.com.ar/noticia/216937/residuo-combustible-aviones-subproducto-carnico-argentino-volvio-exportarse-europa"
+        },
+        {
+          "name": "El Monterizo",
+          "type": "Medio de comunicación",
+          "url": "https://elmonterizo.com/el-subproducto-bovino-que-coto-ya-puede-vender-a-europa-y-sirve-para-aviones"
+        },
+        {
+          "name": "Mirador Provincial",
+          "type": "Medio de comunicación",
+          "url": "https://www.miradorprovincial.com/2026/11/04/el-senasa-habilito-una-planta-y-argentina-recupera-el-mercado-europeo-para-exportar-sebo-animal/"
+        },
+        {
+          "name": "El Litoral (informe de la BCR, septiembre)",
+          "type": "Medio de comunicación",
+          "url": "https://www.ellitoral.com/campolitoral/sebobovino-bolsadecomercioderosario-exportaciones-biocombustibles-estadosunidos-dieselrenovable-faena-rendering-industriafrigorifica_0_FHZ0UHiSi0.html"
+        },
+        {
+          "name": "Economis (informe de la BCR)",
+          "type": "Medio de comunicación",
+          "url": "https://economis.com.ar/argentina-multiplico-por-20-sus-exportaciones-de-sebo-bovino-en-una-decada/"
+        },
+        {
+          "name": "Informe Digital (informe de la BCR)",
+          "type": "Medio de comunicación",
+          "url": "https://informedigital.com.ar/el-sebo-bovino-argentino-se-disparo-y-ya-es-cuarto-exportador-mundial/"
         }
       ],
-      "gnTried": "2026-11-04T17:24:12Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUzFBVzhycnI3OW5qbWZNdUFCNTc1d3FNZzZDNWh1eUEyMFA3d3dHVnlkNE9pZGJTY0d6RDU4ZmtSckxPWHFqRE5HckJlTjJPTldjZWdhdkhrczFTRlJaaXRvY0JkSW42U1hMOEJQQWpXMk1YU2gtemEwRDcyNERkVGIzdGVnbHVBLWYyR1ZTa2hLT1ZNTXg3MGJnZ3ZwMVY5aDJpSGlqRDEtTDdDVHVOVDVreGFmR3prWW9sc2ZJNk1OYUpX?oc=5",
-      "digestSkip": {
-        "at": "2026-11-04T16:30:00-03:00",
-        "reason": "repite el mismo hecho que la nota de El Litoral (habilitación del Senasa para exportar sebo a la UE)"
-      }
+      "absorbs": [
+        "argentina-recupero-el-acceso-al-mercado-europeo-para-exportar-sebo-animal",
+        "argentina-reanudo-las-exportaciones-de-sebo-bovino-a-la-ue-despues-de-3-anos",
+        "despues-de-tres-anos-un-establecimiento-argentino-podra-exportar-sebo-a-la-union"
+      ],
+      "story": "carne-vacuna"
     },
     {
       "id": "canada-arcadis-y-egis-son-designados-por-dp-world-para-desarrollar-nueva-termina",
@@ -1927,6 +2354,75 @@
         "at": "2026-11-04T16:30:00-03:00",
         "reason": "fuera de tema (visita educativa de estudiantes)"
       }
+    },
+    {
+      "id": "el-vino-mendocino-no-levanta-cabeza-las-exportaciones-cayeron-casi-un-23",
+      "datetime": "2026-11-04T11:02:57Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T22:44:39Z",
+      "title": "El vino mendocino no levanta cabeza: las exportaciones cayeron casi un 23%",
+      "summary": "El sector registró una baja de 7,9% en las cantidades exportadas durante los primeros nueve meses de 2026.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "wine",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Mnews",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://mnews.com.ar/economia_negocios/183888-El-vino-mendocino-no-levanta-cabeza-las-exportaciones-cayeron-casi-un-23",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-04T22:44:39Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMDVMUFVHYllXSWpnZlN2bkxNbTEwQW1EaHVtZ2R5N2lIUnJGSTFTekZCTURtZktaRjNjNlVfZHRBMUN2MDNaNmhBdWpiYzlrZlFKSHJSYktrSXptNE1KaU1JeU5GMm1wb0I2V3NrSHlBZHhiTGVOdWw4V2pkRTRSUUd5cGZvYnZxX2VibG5mQnZWcWdSM3RWRG4tVF9PcWxoU1RrV3ByYlg4X1A0RzBjUVpMVlE1ZXA0bnc?oc=5"
+    },
+    {
+      "id": "una-de-cada-diez-aduanas-tiene-inteligencia-artificial-plenamente-implementada",
+      "datetime": "2026-11-04T10:45:00Z",
+      "date": "2026-11-04",
+      "firstSeen": "2026-11-04T22:44:39Z",
+      "title": "Una de cada diez aduanas tiene inteligencia artificial plenamente implementada",
+      "summary": "La Organización Mundial de Aduanas releva que tres de cada cuatro administraciones aún planifican o prueban estas herramientas, mientras el Mercosur ya usa blockchain para operadores certificados",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aduanas",
+        "Tecnología COMEX"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 2,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "Infobae",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.infobae.com/movant/2026/11/04/una-de-cada-diez-aduanas-tiene-inteligencia-artificial-plenamente-implementada/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-04T22:44:39Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNeTZBTzBIX3d5OVd2dEZsZnRQVFdfUHFmVGx2aGZtX1lYZXlLUF9aUGtnTHVvOWRqWjhqWjkzaWpNVzNNRDIyMTh5bl9kVmZ5M2RiWWxLS1o1dVFKSmVrel81QkpEdEdVc21JNUJuYUQwVFVieV82NUpoekF6N29yaVBPUVZZTThUMk83QUpjNHlUREl6ZFlmXzJDbGp0aG5tbmx3WjczOW9pV0VXRDZOWWJpUHlIQXNha2l5WVhObjN6Y3NPZUlPWUN1YmlxVGpadndVeHdmd0jSAdgBQVVfeXFMTXk2QU8wSF93eTlXdnRGbGZ0UFRXX1BxZlRsdmhmbV9ZWGV5S1BfWlBrZ0x1bzlkalo4alo5M2lqTVczTUQyMjE4eW5fZFZmeTNkYllsS0taNXVRSkpla3pfNUJKRHRHVXNtSTVCbmFEMFRVYnlfNjVKaHpBejdvcmlQT1FWWU04VDJPN0FKYzR5VERJemRZZl8yQ2xqdGhubW5sd1o3MzlvaVdFV0Q2TlliaVB5SEFzYWtpeVlYTm4zemNzT2VJT1lDdWJpcVRqWnZ3VXh3ZndI?oc=5"
     },
     {
       "id": "empresas-mendocinas-exportadoras-ya-pueden-postularse-al-premio-exportar-2027-mo",
@@ -2220,6 +2716,131 @@
         "basedOn": "https://portalportuario.cl/hateco-haiphong-international-container-terminal-se-une-a-vietnam-seaports-association",
         "words": 124
       }
+    },
+    {
+      "id": "uruguay-exportaciones-octubre-2026-1089-millones-ue-primer-destino-china-37",
+      "date": "2026-11-04",
+      "kind": "datos",
+      "title": "Uruguay exportó USD 1.089 millones en octubre: la UE quedó como primer destino y las ventas a China cayeron 37%",
+      "summary": "Las exportaciones uruguayas de bienes crecieron 1% interanual en octubre, según Uruguay XXI, con la celulosa y la carne vacuna al frente. La Unión Europea superó por poco a Brasil como principal comprador, China cayó al tercer lugar y las ventas a la Argentina subieron 17%.",
+      "topics": [
+        "Latinoamérica",
+        "Mercosur",
+        "Exportaciones",
+        "Europa"
+      ],
+      "countries": [
+        "Uruguay",
+        "Unión Europea",
+        "Brasil",
+        "China",
+        "Estados Unidos",
+        "Argentina"
+      ],
+      "tags": [
+        "Uruguay XXI",
+        "Celulosa",
+        "Carne vacuna",
+        "Lácteos",
+        "UE–Mercosur",
+        "Balanza comercial"
+      ],
+      "visual": "chart",
+      "impact": 1,
+      "affectsArgentina": false,
+      "body": [
+        "Uruguay exportó bienes por USD 1.089 millones en octubre, 1% más que en el mismo mes de 2025, según el informe mensual de Uruguay XXI, la agencia oficial de promoción de exportaciones, difundido el martes 3 de noviembre. La cifra incluye las ventas desde zonas francas y se basa en las solicitudes de exportación. En los primeros diez meses del año, las exportaciones sumaron USD 11.430 millones, también 1% por encima de igual período del año pasado. El dato llega después de un septiembre con una suba de 10%.",
+        "El cambio más visible del mes estuvo en los destinos. La Unión Europea quedó primera, con USD 179 millones (16% del total) y una suba de 16% según Infobae, apenas por delante de Brasil, con USD 178 millones (−1%). China, que en septiembre había comprado USD 410 millones, bajó al tercer lugar con USD 160 millones, 37% menos que en octubre de 2025. Estados Unidos fue cuarto, con USD 151 millones (+25%). Subrayado ubicó a China como principal destino, pero ese orden no coincide con las cifras de octubre que publicaron los demás medios.",
+        "## Celulosa y carne, al frente",
+        "La celulosa fue el primer producto del mes, con USD 229 millones, 21% del total y una suba de 37%. Según Todo El Campo y PortalPortuario, la Unión Europea compró USD 92 millones (40% del producto, +71%), China USD 70 millones (+14%) y Estados Unidos USD 28 millones (+7%). Eso explica buena parte del ascenso europeo en el ranking.",
+        "La carne bovina quedó segunda, con USD 210 millones (19% del total), 4% menos que un año antes. Según Todo El Campo, el volumen cayó 22%, a 23.773 toneladas, mientras que el precio medio subió 23%, de unos USD 7.163 a USD 8.815 por tonelada. Estados Unidos fue el principal comprador (USD 73 millones, +16%), seguido por China (USD 57 millones, −12%) y la UE (USD 50 millones, −4%).",
+        "## Lácteos, bebidas y madera",
+        "Los lácteos sumaron USD 118 millones, 21% más, con 32.881 toneladas (+28%) enviadas a 65 destinos. Brasil compró USD 32 millones (+44%) y Argelia USD 28 millones (−21%). Los concentrados de bebidas llegaron a USD 78 millones (+23%), con México como primer comprador (USD 12 millones, +112%). La madera y sus productos alcanzaron USD 53 millones (+44%), con un volumen que casi se duplicó (+94%).",
+        "## El acumulado del año y la soja",
+        "Entre enero y octubre, la carne bovina fue el primer producto, con unos USD 2.200 millones según Infobae (PortalPortuario informa USD 2.220 millones) y una suba de 2%. La siguieron la celulosa, con USD 1.998 millones (+2%); la soja, con USD 834 millones; los lácteos, con USD 772 millones (+2%), y los concentrados de bebidas, con USD 711 millones. La soja cayó 37% en valor y su volumen bajó de 3,35 a 1,95 millones de toneladas: Uruguay XXI lo atribuye a la sequía de la zafra 2025/2026, que redujo la producción cerca de 50%.",
+        "## Argentina y el acuerdo con la UE",
+        "La Argentina fue el quinto destino de octubre, con USD 60 millones (5% del total) y una suba de 17%, después de una caída de 5% en septiembre. Según Todo El Campo, aceites de petróleo, productos farmacéuticos, vehículos y celulosa explicaron 54% de esas ventas. En paralelo, Infobae recordó el balance del Ministerio de Economía uruguayo sobre el acuerdo UE–Mercosur: entre mayo y septiembre, las exportaciones a la UE sumaron USD 860 millones (+12%), de las cuales USD 38 millones se enviaron con las preferencias del acuerdo. Infobae habla de seis meses, aunque el período informado abarca cinco."
+      ],
+      "keyData": [
+        [
+          "Exportaciones octubre (con zonas francas)",
+          "USD 1.089 M (+1% i.a.)"
+        ],
+        [
+          "Acumulado ene–oct",
+          "USD 11.430 M (+1%)"
+        ],
+        [
+          "Destino UE",
+          "USD 179 M (16%; +16%)"
+        ],
+        [
+          "Destino China",
+          "USD 160 M (−37%)"
+        ],
+        [
+          "Celulosa",
+          "USD 229 M (+37%)"
+        ],
+        [
+          "Carne bovina",
+          "USD 210 M (−4%; volumen −22%)"
+        ],
+        [
+          "Destino Argentina",
+          "USD 60 M (+17%)"
+        ]
+      ],
+      "explainer": {
+        "what": "Uruguay exportó bienes por USD 1.089 millones en octubre, 1% más que un año antes, según Uruguay XXI.",
+        "why": "La Unión Europea pasó a ser el primer destino del mes, con USD 179 millones, impulsada por la celulosa, mientras que las ventas a China cayeron 37%; es un termómetro del comercio del Mercosur durante la aplicación del acuerdo con la UE.",
+        "who": "Exportadores del Mercosur de celulosa, carne vacuna y lácteos, y operadores argentinos que comercian con Uruguay, cuyas compras subieron 17%.",
+        "products": [
+          "Celulosa",
+          "Carne vacuna",
+          "Lácteos",
+          "Concentrados de bebidas",
+          "Madera",
+          "Soja"
+        ]
+      },
+      "sources": [
+        {
+          "name": "Todo El Campo",
+          "type": "Medio especializado",
+          "url": "https://todoelcampo.com.uy/archives/51554",
+          "primary": true
+        },
+        {
+          "name": "ABC Color (EFE)",
+          "type": "Medio de comunicación",
+          "url": "https://www.abc.com.py/internacionales/2026/11/03/las-exportaciones-uruguayas-crecen-1-en-octubre-y-alcanzan-los-1089-millones-de-dolares/"
+        },
+        {
+          "name": "Infobae",
+          "type": "Medio de comunicación",
+          "url": "https://www.infobae.com/america/america-latina/2026/11/04/exportaciones-uruguayas-crecieron-1-en-diez-meses-europa-fue-su-principal-destino-en-octubre/"
+        },
+        {
+          "name": "la diaria",
+          "type": "Medio de comunicación",
+          "url": "https://ladiaria.com.uy/economia/articulo/2026/11/exportaciones-en-octubre-crecieron-1-interanual-y-la-union-europea-fue-el-principal-destino/"
+        },
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado",
+          "url": "https://portalportuario.cl/exportaciones-uruguayas-superan-usd-1-000-millones-en-octubre"
+        },
+        {
+          "name": "Subrayado",
+          "type": "Medio de comunicación",
+          "url": "https://www.subrayado.com.uy/exportaciones-bienes-suman-usd-1089-millones-octubre-cifra-similar-2025-n1022595"
+        }
+      ],
+      "absorbs": [
+        "exportaciones-uruguayas-superan-usd-1-000-millones-en-octubre"
+      ],
+      "story": "ue-mercosur"
     },
     {
       "id": "tierra-del-fuego-proyecto-sanciones-navieras-malvinas-danstar-punta-arenas",
@@ -3563,51 +4184,6 @@
       }
     },
     {
-      "id": "documento-seis-meses-del-acuerdo-mercosur-union-europea-balance-preliminar-y-evo",
-      "datetime": "2026-11-03T19:34:00Z",
-      "date": "2026-11-03",
-      "firstSeen": "2026-11-04T17:24:12Z",
-      "title": "Documento | Seis meses del acuerdo Mercosur-Unión Europea: balance preliminar y evolución de las exportaciones uruguayas.",
-      "summary": "Disponible en: https://www.gub.uy/ministerio-economia-finanzas/comunicacion/noticias/seis-meses-del-acuerdo-mercosur-ue-balance-preliminar-comportamiento",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones",
-        "Tratados y acuerdos",
-        "Latinoamérica",
-        "Mercosur",
-        "Europa"
-      ],
-      "countries": [
-        "Uruguay",
-        "Unión Europea"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Radiomundo En Perspectiva",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://enperspectiva.uy/documentos/documento-seis-meses-del-acuerdo-mercosur-union-europea-balance-preliminar-y-evolucion-de-las-exportaciones-uruguayas/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-04T17:24:12Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPaW5CV2ZHZGVnNG1YWVM0eTVSQVBNSGVILXR6WmJNSmowOWFlaV9pbkh1MS1qWHp2Qm5hS1ZCWllDYmZpalB3UWJLZkdZZkZrWVV1VUNQZlZiU3dnSVpwQmdaT2lrOGw4WmdaWEhYWGlUa0J4VmZ1ZHI4ZWJJSGZGSVp3TFV0QlhUSmNxUVQzT1hEUllTRmRQeGVDaVFTZENodGJyT0pPR1gydXI1V05rMHlkYWthdzhMMTd2dzRMeHdvc0dIemRWWDJDUmtpd3F2a002dldTMHc4bWp0elFQZHdCcUUydndrWFE?oc=5",
-      "digestSkip": {
-        "at": "2026-11-04T16:30:00-03:00",
-        "reason": "repite una nota de la redacción (balance de seis meses del acuerdo UE–Mercosur)"
-      }
-    },
-    {
       "id": "puerto-de-gotemburgo-maneja-698-mil-teu-al-tercer-trimestre-de-2026",
       "datetime": "2026-11-03T19:00:13Z",
       "date": "2026-11-03",
@@ -4246,18 +4822,28 @@
           "url": "https://www.ellitoral.com/campolitoral/ipcva-ciie-shanghai-carnevacuna-exportaciones-china-georgesbreitschmitt-argentinebeef-chinainternationalimportexpo_0_aaSUob6pxz.html",
           "alsoIn": true,
           "title": "La carne argentina cierra el año en China, su principal mercado de exportación"
+        },
+        {
+          "name": "Clarín",
+          "type": "También publicó esta noticia",
+          "url": "https://www.clarin.com/rural/seguir-impulsando-consumo-carne-argentina-cierra-ano-china-principal-mercado-exportacion_0_jZgQoPE7ww.html",
+          "alsoIn": true,
+          "title": "\"Seguir impulsando el consumo\": la carne argentina cierra el año en China, su principal mercado de exportación"
         }
       ],
       "gnTried": "2026-11-03T22:26:36Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMUQyLUJtVDJKazZNMzQzeWNxLUc2Wm50RDRpa1lna2RUV2ptQ0psV2wxaE1vaERwRHNVdDIzUG5pOXFteHJ5S1JhY2s4TjlaeXBZN0hRelZoSjNSZmkxdDRzbHBuV3cwNVlEaHQwZGhWMGFPSm5Nel9mbjlSUFRKZnp2dEFjbFJDZmtvVHNCZDJsN1pVd1Jwc1JFQjZGRXFuQkZHTnk1X0I2M2tW?oc=5",
       "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdUVXTTQ2Z052bnN4MXIwNktobUJicEg5dndSbWZNOGZqaFZ2TEZJeGhaTFlocml2enNOVUJ4QjRlcjE0bUJqd3phUXg5bVQ3Q0FQZTRwSTVJaXk4RFdmc1NZcTV1N3l1b3U2UjdfaTNnaVZnR2E3TVVTbjRobGloOHZFd1MzYUNUeDcxRXF2OU9qNVZiWmlBd2wxamNERDNYTEY3RmwwS2J1SUJfd0lnT2VucFozY3J1ZjEyaUUxTm5mMWxaSHllX282QlhiR0J3",
         "https://news.google.com/rss/articles/CBMigAJBVV95cUxOTDdLVXdQNVMteVpJX3pHR3FGUEtLc0xyZlpPd0Fod3ZwdDVWZFoxWmUtSE1LZV9wazdsc21uS3YzekY0R0x6UldvdjlDbmJLeVlxR0NZM1BjeXJ6d2doZFhETVE4U0ZHNFozVTdKZ0NHY09XX1pRdlRBZmxGVGRtOXZOWVVOVTBJdUoyck9NcDF1NDN3THJlZXJUREstUEc2ektCVnY0TmtOb1RPMHBGSzNaY1FZUHlHRUQ2MVN1TDVENGpqMzJMVVc4UjNNMi1SS0JIclZoaU04N0UwUnVtX1o1bTBrbGdoMXNGT3EyaWpOTm5Rbk5uVkdVMHE3c2c2",
         "https://news.google.com/rss/articles/CBMivAFBVV95cUxNbnliY3l1cXFoNzJkRjJjbmg2bFM1bENlZmlUMDJ6V1J5RWU4S1ZIZnlOWWtKUFUzMkRhQXpITUxsOXlIeW9CbFpoWXpjRUotcUZmOEVJWUNpQUpYY1dMR0dTQjJ6aVdhSDlMNVhPOTdlWmlVTDJDci00a3pfXzU5N3c0S1E1Sjc0aDVXaE5nWHRxMmtQTWVlUDBMRjlaeHNpV3RHTGU3X0tOWlJuOEpQOG1vb2x6SnlsRmFIYw",
         "https://www.aimdigital.com.ar/produccion/la-carne-argentina-cierra-el-ao-en-china-su-principal-mercado-de-exportacin.htm",
+        "https://www.clarin.com/rural/seguir-impulsando-consumo-carne-argentina-cierra-ano-china-principal-mercado-exportacion_0_jZgQoPE7ww.html",
         "https://www.ellitoral.com/campolitoral/ipcva-ciie-shanghai-carnevacuna-exportaciones-china-georgesbreitschmitt-argentinebeef-chinainternationalimportexpo_0_aaSUob6pxz.html"
       ],
       "mergedIds": [
-        "la-carne-argentina-cierra-el-ano-en-china-su-principal-mercado-de-exportacion"
+        "la-carne-argentina-cierra-el-ano-en-china-su-principal-mercado-de-exportacion",
+        "seguir-impulsando-el-consumo-la-carne-argentina-cierra-el-ano-en-china-su-princi"
       ],
       "digest": {
         "lead": "El IPCVA y 14 empresas exportadoras participarán del 5 al 10 de noviembre en la China International Import Expo (CIIE) de Shanghái, la última gran feria del año para la carne vacuna argentina, según informó el propio instituto.",
@@ -4319,47 +4905,6 @@
       "digestSkip": {
         "at": "2026-11-03T21:55:00-03:00",
         "reason": "muro de pago (Ámbito, contenido exclusivo para suscriptores) y sin otro medio con la misma noticia"
-      }
-    },
-    {
-      "id": "despues-de-tres-anos-un-establecimiento-argentino-podra-exportar-sebo-a-la-union",
-      "datetime": "2026-11-03T15:01:45Z",
-      "date": "2026-11-03",
-      "firstSeen": "2026-11-03T22:26:36Z",
-      "title": "Después de tres años un establecimiento argentino podrá exportar sebo a la Unión Europea",
-      "summary": "El SENASA lo incluyó en su listado de plantas para que envíe el subproducto de origen animal incomestible a este mercado al que no exportaba desde noviembre de 2023.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Europa"
-      ],
-      "countries": [
-        "Argentina",
-        "Unión Europea"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Argentina.gob.ar",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.argentina.gob.ar/noticias/despues-de-tres-anos-un-establecimiento-argentino-podra-exportar-sebo-la-union-europea",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-03T22:26:36Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU3NicHZkVERiS1JfVnhsaFYtUFNndG1mY08yMTZMSVpGaVRmQTNqS3BUWUJxUTJDNUYtU0VHRFVnLUpUaW5DY2pvWnN5Y3AtUGMxbS02TXVIdGFfUzFNOFJoWXRvRS10cU9ObTdneldHZG5SQ2Y5bTFUYWtOdFJPOHZZcW8wTmNkN0xzR2ZyUjFfbVRLNUNHODJYS1ZlUUVWTlR5MFV0RF9SaTR6Y0JVR0sxNVRqeWlQS0F5ZEwtOUFvdw?oc=5",
-      "digestSkip": {
-        "at": "2026-11-04T09:55:00-03:00",
-        "reason": "no se pudo abrir la fuente (la herramienta de lectura no habilitó la URL en esta corrida) y no hay otro medio con el mismo hecho"
       }
     },
     {
@@ -116862,7 +117407,7 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-11-04T17:24:12Z",
+    "ranAt": "2026-11-04T22:44:39Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
@@ -116878,7 +117423,7 @@
         "url": "https://www.aduananews.com/feed/",
         "ok": true,
         "items": 12,
-        "added": 1,
+        "added": 0,
         "updated": 0,
         "skipped": 3
       },
@@ -116887,54 +117432,54 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 10,
+        "added": 7,
         "updated": 0,
-        "skipped": 5
+        "skipped": 8
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 21,
-        "added": 0,
+        "items": 25,
+        "added": 3,
         "updated": 0,
-        "skipped": 10
+        "skipped": 16
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 37,
+        "items": 38,
         "added": 0,
         "updated": 0,
-        "skipped": 30
+        "skipped": 32
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 48,
+        "items": 53,
         "added": 4,
         "updated": 0,
-        "skipped": 34
+        "skipped": 38
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 19,
-        "added": 1,
+        "items": 23,
+        "added": 4,
         "updated": 0,
-        "skipped": 8
+        "skipped": 12
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
         "url": "https://news.google.com/rss/search?q=(aranceles+OR+%22guerra+comercial%22+OR+%22acuerdo+comercial%22)+when:1d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 56,
+        "items": 86,
         "added": 4,
         "updated": 0,
-        "skipped": 42
+        "skipped": 73
       },
       {
         "source": "Google Noticias · Logística y fletes",
@@ -116943,7 +117488,7 @@
         "items": 51,
         "added": 4,
         "updated": 0,
-        "skipped": 30
+        "skipped": 31
       }
     ],
     "curatedDuplicates": [
@@ -116958,6 +117503,21 @@
         "curated": "caputo-uia-saldos-exportacion-reintegros-iva-deudas-aduaneras-pymes-embargos-mayo-2027"
       },
       {
+        "title": "Precios del comercio exterior argentino subieron 4,2% en el tercer trimestre, aportando u$s1.019 millones",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQa1JGUVVPSGdxaGtRMC1SbElZcXV0UXQteUZwX0NwVG83VlVVSFIzRVBLX29sVVc1MjVvTG1oTGZ0VUJzemtCZFR4UktWN2N2bS1yVHFqd2VVUjVYYks5OUVicnlVOVpzNUdIaVUwTFVDcXEyVW1sQW1wTS1aNVF4MHJOTDcyZVdJTmJZVWNLTXRnSVpWNE9XVzlHdDFocGFCOTBna0J3U3pkT1Z1eGRIcTVxVURPNTJJOWFwY29mRzVUTmdKNllDUUF2dTVuNWMzektBQjJn?oc=5",
+        "curated": "indec-indices-precios-cantidades-tercer-trimestre-2026-terminos-intercambio-4-2"
+      },
+      {
+        "title": "Los precios del comercio exterior mejoraron 4,2% en el tercer trimestre y aportaron u$s1.019 millones",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVmphZmFoeTlIS3FIOEdnYk9tOGZlcy1FQThRNFFENFBtZWxORS03V2JHdmUza1dFUlBIOFppdUM2RTNNbjdqVjZfZ0h5WGlqSjcyQ2lXXzVBdEREdnRrMTRuNnFFNEQ0R1ZEdGRHbzJOMm1HVGZ4M3pXZzloeDVPbFhpS3hUZ0FONElCVGdrMXh1dGw5QlQ2dFZId2d0ZVRySXRvcVVmeXk5QXlsd3pnRTJ3YXNLWWY4WjQtY29RLXF6b3FGLXNkTUwxZFpaRE5T0gHWAUFVX3lxTE9kYnJqbGZITG01RFJtN1JyVWlfcUtPSWRSSlhOME1sTy04bWVQZkdSQ2NITjZJRFU3WG94REIteGF3b1p2MzgzSkx1UHlMQVNncDRVRkJ5NWRyMGhZZU4tcFZGbHF5MzlPYnR5Y2dZN1psRTEybHRPWWd4T3ppMlZfc0NyM3Zhay1xbzhBTHpxTThhUXZCVTBwYlhTZ3hXWXZZdmdNLVkyak9yNTZhLVJ3Zi0yQm5DNEE2b2ZUU0NEak1aa2pZUEwtbTFnSjF6REpTSDJfTHc?oc=5",
+        "curated": "indec-indices-precios-cantidades-tercer-trimestre-2026-terminos-intercambio-4-2"
+      },
+      {
+        "title": "Comercio exterior: mejora del 4,2% en términos de intercambio",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUTdZVVo3RlFoSnkzalFXZzRYdjV4Z0hXOGJOZm9PRkRpb2tPMldCbXAxUTFvRmppeHNjbUg1R1JVY0hpZHYtdTUxMlNzaGY5N3ZmRF8tZ2JmMDVIUnc0NFVkbE1Zblh5alVPTmZ1SzAzM05iVWFxb2djbHhyZlNnemFXXzZCVXpFZ09Rb0xKSEJKUQ?oc=5",
+        "curated": "indec-indices-precios-cantidades-tercer-trimestre-2026-terminos-intercambio-4-2"
+      },
+      {
         "title": "Comercio exterior: los precios de exportación subieron un 15,2%",
         "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVnRTWkRWS1REZm1GWnBjR1d4YmNja0p6dGFlTGxpLW9QVjRaZjJIYmc0Q05lUTFBcS1KWjZqZEszRzl4alR4TllZdnpPV09SVERBWVk5TnJqbGNWT3ZLTVVtaDFnWm1Ebm01d0ZOLVRHTklVYk80SU9yR3ZlU0lwV0JKWUZ5Nmp3dUdlRlFMZnAtTDEwaFdKcmM3c0xTTVJ3MzFPeFNtVGdUWXRPcWV0V3RuTVpqNlhac0JLQXdyNkdwSUxxRTBnZdIB1wFBVV95cUxQM2owODE3VGxUcWZqdnVOWjl5VTM0cmZpU29XUFJwWUkxdEFnSUxhbWNycHluaFZkUWMzZzV4bFZySWI5SXRTaXcyZ244V0Njb0UzelpWRmRuT3pRbDdlWEs3TEVNYlhUNGQ5RnBmMjd1TlhTN3hNUS1yRWN0bm5uYVNPR0cyaVplXzRSYnVBY3d6LTlvOHM4VmotaDZKOTVtcE5xUnJzbG5jS1BGNE9JUlBzSDlOZld6QW1udWZDY0F3dW14bmNMY3YyNW1lVHFiakhlbEsxZw?oc=5",
         "curated": "indec-indices-precios-cantidades-tercer-trimestre-2026-terminos-intercambio-4-2"
@@ -116969,7 +117529,7 @@
       },
       {
         "title": "Argentina se destaca entre los principales exportadores mundiales de 52 productos agroindustriales",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPX2VxZWJ1d3UySmJFWFl2azF5QVBGOFNrSVNBZ2JhV0YwOG1tUnFYVUFkWGxDLW1GZXNNbkNEVEYwdHMyaDFTcjJXMjlSRnZiWEhjUDlxZ2ZJYWJzVWJqcVFtSGkwcElvTjl0cHE4cW9GUGNqaTd3R1d2cGJrQmtzcDJpc2JGOFR2WjFXamNjRHlXUmhjS20wcVZLUXRrQjlVTEk2SEhFbG9oR0x4bEdpbEoxY05hMFVKekJSUHRZclpoMmdyYkszN9IByAFBVV95cUxPX2VxZWJ1d3UySmJFWFl2azF5QVBGOFNrSVNBZ2JhV0YwOG1tUnFYVUFkWGxDLW1GZXNNbkNEVEYwdHMyaDFTcjJXMjlSRnZiWEhjUDlxZ2ZJYWJzVWJqcVFtSGkwcElvTjl0cHE4cW9GUGNqaTd3R1d2cGJrQmtzcDJpc2JGOFR2WjFXamNjRHlXUmhjS20wcVZLUXRrQjlVTEk2SEhFbG9oR0x4bEdpbEoxY05hMFVKekJSUHRZclpoMmdyYkszNw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNczVydXNsREhNN2NCcHViQ2paTHRoVkhCV1B6bkdSd0t4MGZiTFRCS2lTSTJmc1VHY3BobnhyeDJJcnFOYjVtOTdYRlhLY2dMclJzVlhEMnB4S0FyMXNDcnR5S2NjRzdmdFVDTG03akp2RHZEZThrZFFFLXlFQjdFdXF6WFVTaXd2ZUZzQmIydjNjVnJocUxlek9reldBYXFUY2JEZUtmQWRnQkRkU3BkVGZOOHcteC1vSW1kb3c3UlExeFhaQkVKWnFYeEJ4ZjDSAcgBQVVfeXFMT19lcWVidXd1MkpiRVhZdmsxeUFQRjhTa0lTQWdiYVdGMDhtbVJxWFVBZFhsQy1tRmVzTW5DRFRGMHRzMmgxU3IyVzI5UkZ2YlhIY1A5cWdmSWFic1VianFRbUhpMHBJb045dHBxOHFvRlBjamk3d0dXdnBia0Jrc3AyaXNiRjhUdloxV2pjY0R5V1JoY0ttMHFWS1F0a0I5VUxJNkhIRWxvaEdMeGxHaWxKMWNOYTBVSnpCUlB0WXJaaDJncmJLMzc?oc=5",
         "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
       },
       {
@@ -116978,13 +117538,13 @@
         "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
       },
       {
-        "title": "Más de 50 productos argentinos ocupan los primeros puestos como exportadores mundiales",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZUtwdE5aMTNJS3BaWVB3NXVydWhMQTV6bEkxWjFSNXVDQTRaeVhZcGc5allOOUkyUHg2bTdjb09GaHpJZHFfUHk4NGJPQzF2bEdXYV9GZjc5dHRGWTBfVm0ybldBYVd0OERWd0ZWWEdoOFRIRzBtRWl4b1lCMkwtY1M3eE4tOHczYUs1d0ZiQjBZVzZ3Q24wYnVudDU5ckhoYmlSeUxmaUZyNmRiVVlmMEhTMU8wLWE0d3M2WGZVZ2dWVjk1RTBCQ2pDYkljSjE1X0dUOXhvZnZWNkdEQTduU0NTRWQ?oc=5",
-        "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
+        "title": "Las exportaciones argentinas crecieron 21,4%, pero las ventas a Brasil apenas aumentaron 4,7%",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORUhoalhBTDBzaDZqdGIwSGhOUGxTd0pJNGF4VkVwb3hEVFRjYTRRS2lhTzVTRldfSjg4MGhZSnhRalZsLTRBbXNpaHpxNHJrLUlOM1ZNQ1k2Y3Q0UXdPSHZyNmtfNTAwZGEtaFA3RURGSWpsN3E3T3FLZWhYc3ZwVjJLWnN4YkJUdi1pT0tOd080VzlvWXlMT1hOWnpRZXB1cDZ0ejFuZXBQWmd6c1AzZDBzLVgyQS1aR1gtajVMRk9fVFpJ0gHKAUFVX3lxTE1lTUU4Njc0TDk3aWV1TFJza1RPTUZVSGItY19mVzlvVEJNNU1YMWpJNWVBMzFPWjJNWnQxYWxScDlBR0pBMWM1bkt3Mk9QV3doejZreE5EelI1akxoYlBZREhrdHRPR2dBQXI2QVpsQnVPNEhvWm1XbEVTLXZSdjVxbVhlLWw1Z21KTmhWamU4bUt4VG84VENVLUdHOUdJc3lVcXdYU1FOWGYtTlk0YVJrVzl0QTh3bGFvZHhzWEhzWFRNRG5TcXFsbFE?oc=5",
+        "curated": "exportaciones-argentinas-destinos-enero-septiembre-2026-brasil-pierde-peso-estados-unidos-india"
       },
       {
-        "title": "Argentina figura entre los principales exportadores de más de 50 productos agroindustriales",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaGMzLTZTLTRYTGFpQ0lYbVQ2ZlJqNWxMdHZuNjFVUUk2dVVhYnBVUnlwUFc0RDM5MVBnQVhlRktpNWF0V1RsZFJWX3hkZ240NWx0aWNYUTQyc2FzWWVFRHpHd3JKNlRoRFZzamFXRWpMaFYtOExqcElka29BX0VrRTgzdFU0RUVmQmQ5dlA4RnoyR3VFMnhkcXNfNjROd3ltSEFLQnJKN3lzNlF2NWpUZHdacjdGNEU2WWtiRDRJaV95NGFLQU5NTGYtTTA?oc=5",
+        "title": "Argentina ocupa el primer puesto como exportadora mundial de aceite esencial y jugo de limón",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNYUFWUzhIczBORmdFVmlDWkthWjl2QkMzQ2Q4RGo4MXlMTnZQR09VSVNORkFzYVYwWjE0UGI5SFhMNVVFa01FU2tMN05CTWQ2ZHoydklnWFliMDFTbVkxMEs1Z0xTdDJJZjd5N0JoTkdZTm9ZcFBkRGlqdXc2cjFEUUgwZnFzQlM4ZTViVXgtR3lrYjJVTUZrb1dueUZDaElkV2pxOUFCTXNaSlFrZjJRZmtuRnJFOTNnOGRkMVFEMTF1NWNrY29mUUg0LW5haS1fU05URWhETFNGWlBmVEU1WHQtUWpqUzJyRWc?oc=5",
         "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
       },
       {
@@ -116993,134 +117553,77 @@
         "curated": "senasa-maquinaria-agricola-usada-zarate-214-equipos-2026-triple-controles-afidi"
       },
       {
-        "title": "La importación de miel de Mercosur se duplica en seis meses",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZjNjWXA3M3FhMnhCN0NlMjc3Zjd1ODhRSllNRHo5bFRSWkhzazB5dG9LV1FBRHhFYUNwbHgwcDl5Zk82SWtKWG1zMVBnMzRQZFBnNFl0RDJWNmxQV0ZCT2NzZHZjSHJ1R2Z3ek1VdnVjTjRzVFkwUHoxZF95TDVPeW5rSWdkUjVpaXNSZDU1TEloQm9OQXcydUpFUGlSS0JYWVhGZ2FkVjZ4b2tDV3ZKU0RnT2hUY0x4UWRZSWFqLTZoQzBjWmNPQldJSHJlMElxamk0LXE3NU0?oc=5",
-        "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
-      },
-      {
-        "title": "Uruguay aumentó las exportaciones a Europa tras el acuerdo con el Mercosur: qué productos se beneficiaron",
-        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPYUVkT0FUOFhVcnJVdmZwbGxpOFMtMTFEQmxhX0JfaVh6bG51bnREaWhCNUVpYTA5NXBySk9td1RnTDE3M3Utdjk3cWRmOUIwZEY2end1eHVjVzJFN0g2ZWFhemE2UnpVdHlhOUZZSjh1OFpPa3piREhuR0EzTEtwQjBDelMtZ1BNalNyMm1KeEZSS0J3bld6LXR3Qmk1dFJBSTBkdzRoN1lMdHBscHlBNkJNdXVWSTdsOUhkbE5oN05YcFdIeFNXb09OX2VPZVA0Q0p5RWFNSkJwSTZnTTdpSHI0eGRuZXhGYVE5cXhsMENsN09DVUHSAZACQVVfeXFMTTdReXFxcTNod1VZY05jVlNucXU4dF94bXVLU1dMMDBEcjRleGc2Yjd4amY1WjJ0WHY0TDF3UW1aTlFOeGF4SHBaclMtOVBQZ0hpQTdYbXVnaEFjMm13WXhJcDVkWHd2OGVQVWVHMTRqdGw2RmJjVTd6N1ZhX1VQWGtjdG51MGRkcGNNSHhMQkk4YmttZTZVenZUN2drSTJqVlc1cmpuWG1NbG1qbF9mQXk3VmsyQm1IVDRlYWtGVUNLSWtuYWdhdThCeHBmNXlaUUdmOXZOaG0yNy0xbTR4WjdiQ1B3WkRnMnJTTUVyUEo1eGtJZVEwa1Q2eURpUjN3VGo0MEFFRzZzazBhQzFWeUg?oc=5",
-        "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
-      },
-      {
-        "title": "El acuerdo Mercosur-UE impulsa un 21% las exportaciones brasileñas",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQX2NGUW9nZUJudVUxaEljVHZJcThFcUNhTk9IRmtqelZzbVBlSU9CZ285cUxOYzNYOWVyUWYyWjZNbWdpSktwdExiaGhjYW40b0NvLWEzTWNRQWVpWWpOMHk3T1Vla1E4V1hSMElJVTZkMG05OVVJeVVXV0RJTWRFRDM4MXpxdlRHRDM3eTZTNzJLZVlSUF9DMFpHMTdPVE9sM2pMV2MtbXJWQlMzd3FFQ2FfSmFwaF90R1ptSXFpWG5oTGtH?oc=5",
-        "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
-      },
-      {
-        "title": "Entró en vigor el tratado Mercosur-EFTA entre Uruguay, Noruega e Islandia, mercado de 15 millones de personas",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWjhBZzJIbmU3U2JtZEJfUkc1RWxiZEpZUFppSGhaNXkzbm9YS0hjMFYtWjJVa25UdWlzQzZ3X2NlN1VJWjRTN0VVZ0dMT1RKMzBKTUlXbGs3U1FFUS0tUmpITXV3SWc0WkZuaHZUbmFaWWRxaG1FR3ZkSExQQUNlUERwUno1aWVYLVZXdkdSTURVcVl3NlFka1hFdHFwMXNpNy1zcFAyVzZRUlktX0pTdEwxN0VsMFdfX29zU0R1WEhibzhiNTktMkhDQ0FlVlBtalo0VWh1MHdja1Rf?oc=5",
-        "curated": "uruguay-aplica-acuerdo-mercosur-aelc-noruega-islandia-1-noviembre-cupos-vuce"
-      },
-      {
-        "title": "Uruguay abre la puerta a un mercado de US$ 1,4 billones (entra en vigor el acuerdo Mercosur-EFTA)",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNHVuaUFiMlBRWURBSHdKMEI0TEtNeXZhSGZRUXlxZGtfN28yRUdNNU5TVzJINXNOdWVRUEpHLTRUTE5TdUtSTVM3Z3hEVUZXYlpIckdFODhlOVJwVW5ra0g5ZV9vYjRWYTR6SHpPMDd6SkRuZ3lEYmRsNXBkdTJzUGFvcTk1cU1idFR3d3c1dHhLRXphMi1DQUYwWUJYMEVpcXBSNndVY2lac1EwcE50SGgzTm5XSl9ldzVhTGhhVURiSnJ2Qi1v0gHLAUFVX3lxTE5UWjY5LTI4LWhjYTVBNFNFS281VVJPU0kzSkRfZlR5ZmRlTHZ5MGZvLVNFczRtRzB3RFZSTjhPSTZLbm9rNlVmVFR6NkJRZWFJNEJRby1XSVlRX0hrRmc3VWpOYXVCU3Z4OW5GU3dXcGhjUFJ0a2FJTE5jZjlEYTdqdFVJMDZQc2ZwdlZkY0hzYS1uQnpiOFVMLWVxTlZGdnk0WnhKYU4xSGV3UTVxMlAtM0JVdW03QnhOc0hfZzFTY1hTWWNWNlN2Q3Jj?oc=5",
-        "curated": "uruguay-aplica-acuerdo-mercosur-aelc-noruega-islandia-1-noviembre-cupos-vuce"
-      },
-      {
-        "title": "A seis meses de su aplicación, acuerdo Mercosur-UE permitió aumento de 12% en exportaciones",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZFRPV0ptQXdOWHU1Q2tTeWtFNzBjU0Q2YlVmZ3g3aDFrcDBtT3VxOWNybzE1cGVNV2FuVDhzN2diNHNkeTlWMndnVnMwNUxzMHVZSHZZaldGZ2VVQkFmWlVsSDdQOTdxMHJzY2k0ZnBYR0c2Y2ZiMkc1VFFxNkhUZm5JeHJfVlpOV29NOGREZTFNN1VWbkR4LUo3aXk5RXRJMUJ5MUJqd2hxd19UY2dkcTVveFo5NWkwTFFuUklELWR1RXRUampZTDln0gHPAUFVX3lxTFBSWUFtNWxJNWgyQzhleGtxSzh4aDM0VGVZUlh2MW84QnhOa3MzdkRjM0RmU1VpdnA3NzhSNFJRRGxKRFFPcFBqRFpFc21jT1VaaHNDSm9yeEN6eUp1YUVIU3pyUm0yaFEtZE5GaHJ0UDFDaEJLWXVrWG9aX1RyNzJodWsyRWRBb0NSckMxUmZKZk4xQ0R6d0c1TGhlLU00TnA4QnRDUWhneEhQM1FvUkZPSjF3eUcwOGhaNEhMOFFhUk84ckduZFBiN2JVdzdDOA?oc=5",
-        "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
-      },
-      {
-        "title": "Exportaciones uruguayas crecieron 12% en los primeros cinco meses de aplicación del acuerdo Mercosur-UE",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPY2FtMm50dVh1ZjdjT1k2b05WaVU4R1hNMXZJYWtIRVRoUkwtVWRCMTQwbVAwSkFqaDg1ajRBUTJQYzJjMkExeEJya0F1YTdhX0REMWxkQTlsamhYMDU5MElRdE1DT1pvNHdRNU5FVWNPdHZDd01XTUtVUEo4Skg1UF85Q3J5SndZb2U5ZkJFNXEyWHZYTHVHWkh4U05GTUdNUlZUWjF4eWhVZ0NyU2ItMURFa2liMUpfT3J4aWFnc0hVSGZURWswNlYtNzVKcGvSAdQBQVVfeXFMTzlGVHVjbXBpWVNqOFpOVzRSYjJlckEtaDdLazBIQThSRlF5bFZnc0dnZ1h4Q2NTN1Y2cTFySUJhSEhTa3JVd0tZVDR3bnhSSWM5b1RWM0x5ZXVoS1VwV0U3anBhaVZwRmEtb0pnZU5RZDdzZm44d3NkNVdTeUhRMWpUMEVtaU9uTUlzQ0E0bV9ITDNSNEg1TWo5Sk1JVy1QZW9lNXFIMjk3X3NRYU9pOFp2cGxIN1EzeFBQTXV1NnZVOERiU2haQTFRSW9xSnVtOWJPV3Q?oc=5",
-        "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
-      },
-      {
-        "title": "Uruguay amplía su horizonte de exportación a través del acuerdo entre el Mercosur y la EFTA",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMVVoN05BcG1OR0NpbmUyREFuMDY1cDhrdnI5UVYwdXIwX2pySHpzTEpCZ0FEZTBFcEVRMno3c0c2ZWkyVW9NNkRXUDVWSUhlQV83RTl1NlhtOTVaaW5ucTJtN2d4Tmc2SWFDYnhhamdxUllYUjZ2Mjk5MUhmWTlRTmVMVEZFYzFVdjRySW0wc1BFdFpJbTJmc1p6NnNCWml1RGdZS2hkWHBBQ1JTQzNwMVdyOEl6dndvY0E?oc=5",
-        "curated": "uruguay-aplica-acuerdo-mercosur-aelc-noruega-islandia-1-noviembre-cupos-vuce"
-      },
-      {
-        "title": "Las exportaciones brasileñas beneficiadas por el acuerdo Mercosur-UE avanzan un 21 %",
-        "url": "https://es.jetss.com/2026/11/04/las-exportaciones-brasilenas-beneficiadas-por-el-acuerdo-mercosur-ue-avanzan-un-21/",
-        "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
-      },
-      {
-        "title": "Argentina exporta un 5 % más de vacuno, pero podría no completar su cuota en China",
-        "url": "https://eurocarne.com/noticias/codigo/72601/kw/Argentina+exporta+un+5+%25+m%C3%A1s+de+vacuno%2C+pero+podr%C3%ADa+no+completar+su+cuota+en+China",
-        "curated": "carne-vacuna-exportaciones-enero-septiembre-2026-549600-toneladas-china-cuota-rosgan"
-      },
-      {
-        "title": "¿Menos inversión?: las importaciones de bienes de capital cayeron casi 14% en lo que va del año",
-        "url": "https://www.infobae.com/economia/2026/11/04/menos-inversion-las-importaciones-de-bienes-de-capital-cayeron-casi-14-en-lo-que-va-del-ano/",
+        "title": "Precios del comercio exterior argentino subieron 4,2% en el tercer trimestre, aportando u$s1.019 millones",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQa1JGUVVPSGdxaGtRMC1SbElZcXV0UXQteUZwX0NwVG83VlVVSFIzRVBLX29sVVc1MjVvTG1oTGZ0VUJzemtCZFR4UktWN2N2bS1yVHFqd2VVUjVYYks5OUVicnlVOVpzNUdIaVUwTFVDcXEyVW1sQW1wTS1aNVF4MHJOTDcyZVdJTmJZVWNLTXRnSVpWNE9XVzlHdDFocGFCOTBna0J3U3pkT1Z1eGRIcTVxVURPNTJJOWFwY29mRzVUTmdKNllDUUF2dTVuNWMzektBQjJn?oc=5",
         "curated": "indec-indices-precios-cantidades-tercer-trimestre-2026-terminos-intercambio-4-2"
       },
       {
-        "title": "Maquinaria agrícola usada: las importaciones se triplicaron y Senasa refuerza controles",
-        "url": "https://www.agrolatam.com/argentina/maquinaria/importacion-maquinaria-agricola-usada-senasa-controles-zarate/",
-        "curated": "senasa-maquinaria-agricola-usada-zarate-214-equipos-2026-triple-controles-afidi"
+        "title": "Exportaciones de carne a China: menos volumen, más dólares en 2026",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSkJiN0JPenBoMXRjX3VvVEdXaDJQdzlBSFV4R21xcy0yRG9vbWJ0UFFrb3BlcjFhUGh0NHY0aTAtZmNhM1Q4WV9TYk93aGc5ZHBsTGV6Q2ZHOUgwX1dHb3BEeExqN2JjS2V2enhLdXp5dG8xdk1nZW90dFN0dUJPNW1oYlItN0d6eVN2d096X0s4SUd2bmprZA?oc=5",
+        "curated": "uruguay-exportaciones-octubre-2026-1089-millones-ue-primer-destino-china-37"
       },
       {
-        "title": "Comercio exterior: mejora del 4,2% en términos de intercambio",
-        "url": "https://diarioelnorte.com.ar/comercio-exterior-mejora-del-42-en-terminos-de-intercambio/",
-        "curated": "indec-indices-precios-cantidades-tercer-trimestre-2026-terminos-intercambio-4-2"
+        "title": "Exportaciones uruguayas superan USD 1.000 millones en octubre",
+        "url": "https://portalportuario.cl/exportaciones-uruguayas-superan-usd-1-000-millones-en-octubre/",
+        "curated": "uruguay-exportaciones-octubre-2026-1089-millones-ue-primer-destino-china-37"
       },
       {
-        "title": "Exportaciones de carne vacuna: las cuotas llegaron para cambiar el ritmo del negocio exportador",
-        "url": "https://www.expoagro.com.ar/exportaciones-de-carne-vacuna-las-cuotas-llegaron-para-cambiar-el-ritmo-del-negocio-exportador/",
-        "curated": "carne-vacuna-exportaciones-enero-septiembre-2026-549600-toneladas-china-cuota-rosgan"
+        "title": "Argentina recuperó el acceso al mercado europeo para exportar sebo animal",
+        "url": "https://www.ellitoral.com/campolitoral/argentina-seboincomestible-seboanimal-industriafrigorifica-unioneuropea-senasa-exportaciones-hacienda-faena-certificacionsanitaria-mercadoeuropeo-subproductos_0_LVi3XR3bIl.html",
+        "curated": "senasa-sebo-incomestible-ue-establecimiento-263-coto-reapertura-noviembre-2023"
       },
       {
-        "title": "Entrada en vigor acuerdo Mercosur-EFTA, Ignacio Bartesaghi destacó capacidad económica del bloque eu",
-        "url": "https://www.radiomontecarlo.com.uy/2026/11/03/nacionales/tras-entrada-en-vigor-de-acuerdo-mercosur-efta-ignacio-bartesaghi-destaco-la-capacidad-economica-del-bloque-europeo-y-las-posibilidades-que-se-abren-para-uruguay/",
-        "curated": "uruguay-aplica-acuerdo-mercosur-aelc-noruega-islandia-1-noviembre-cupos-vuce"
+        "title": "Documento | Seis meses del acuerdo Mercosur-Unión Europea: balance preliminar y evolución de las exportaciones…",
+        "url": "https://enperspectiva.uy/documentos/documento-seis-meses-del-acuerdo-mercosur-union-europea-balance-preliminar-y-evolucion-de-las-exportaciones-uruguayas/",
+        "curated": "ue-mercosur-seis-meses-balance-brasil-agro-14-8-uruguay-860-millones-argentina"
       },
       {
-        "title": "Argentina ocupa el primer puesto como exportadora mundial de aceite esencial y jugo de limón",
-        "url": "https://www.losprimeros.tv/economia/argentina-ocupa-el-primer-puesto-como-exportadora-mundial-de-aceite-esencial-y-jugo-de-limon_a6ae91cabbcf08930c40a53c0",
-        "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
-      },
-      {
-        "title": "Easter Island confirma que primer viaje del Danstar entre Punta Arenas e Islas Falkland se ejecutará en diciembre",
-        "url": "https://portalportuario.cl/easter-island-confirma-que-primer-viaje-del-danstar-entre-punta-arenas-e-islas-falkland-se-ejecutara-en-diciembre/",
-        "curated": "tierra-del-fuego-proyecto-sanciones-navieras-malvinas-danstar-punta-arenas"
-      },
-      {
-        "title": "Uruguay. Entró en vigor el acuerdo Mercosur-EFTA, un bloque con “capacidad adquisitiva y una solidez muy importante”",
-        "url": "https://www.resumenlatinoamericano.org/2026/11/02/uruguay-entro-en-vigor-el-acuerdo-mercosur-efta-un-bloque-con-capacidad-adquisitiva-y-una-solidez-muy-importante/",
-        "curated": "uruguay-aplica-acuerdo-mercosur-aelc-noruega-islandia-1-noviembre-cupos-vuce"
-      },
-      {
-        "title": "Tensión entre Argentina y Chile por Malvinas: Tierra del Fuego prepara multas y sanciones contra empresas navieras",
-        "url": "https://www.canal26.com/politica/2026/10/31/tension-entre-argentina-y-chile-por-malvinas-tierra-del-fuego-prepara-multas-y-sanciones-contra-empresas-navieras/",
-        "curated": "tierra-del-fuego-proyecto-sanciones-navieras-malvinas-danstar-punta-arenas"
+        "title": "Después de tres años un establecimiento argentino podrá exportar sebo a la Unión Europea",
+        "url": "https://www.argentina.gob.ar/noticias/despues-de-tres-anos-un-establecimiento-argentino-podra-exportar-sebo-la-union-europea",
+        "curated": "senasa-sebo-incomestible-ue-establecimiento-263-coto-reapertura-noviembre-2023"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "combustibles-y-fletes-le-meten-presion-a-la-renta-de-la-nueva-campana",
+        "main": "la-carne-argentina-cierra-el-ano-en-china-su-principal-mercado-de-exportacio-2",
         "merged": [
-          "alza-de-combustibles-y-fletes-internacionales-presiona-los-costos-de-la-industri"
+          "seguir-impulsando-el-consumo-la-carne-argentina-cierra-el-ano-en-china-su-princi"
         ]
       },
       {
-        "main": "peru-anuncia-plan-de-transporte-maritimo-para-asegurar-exportaciones-pese-a-efec",
+        "main": "peru-acuerda-con-navieras-itinerarios-especiales-de-cabotaje-para-enfrentar-efec",
         "merged": [
-          "gobierno-anuncia-plan-de-transporte-maritimo-para-asegurar-exportaciones-pese-a"
+          "peru-acuerda-con-navieras-itinerarios-especiales-de-cabotaje-para-enfrentar--2"
         ]
       },
       {
-        "main": "empresas-mendocinas-exportadoras-ya-pueden-postularse-al-premio-exportar-2027-mo",
+        "main": "bloqueo-de-camioneros-provoca-desvio-de-buque-del-cherry-express-desde-san-anton",
         "merged": [
-          "se-abre-la-postulacion-de-empresas-argentinas-interesadas-en-participar-del-conc"
+          "frutas-de-chile-alerta-que-desvio-de-buque-del-cherry-express-de-san-antonio-a-v"
         ]
       },
       {
-        "main": "argentina-recupero-el-acceso-al-mercado-europeo-para-exportar-sebo-animal",
+        "main": "a-seis-meses-del-acuerdo-ue-mercosur-exvicecanciller-uruguayo-pide-senales-posit",
         "merged": [
-          "el-senasa-habilito-una-planta-y-argentina-recupera-el-mercado-europeo-para-expor"
+          "tras-seis-meses-del-acuerdo-ue-mercosur-exvicecanciller-uruguayo-pide-senales-po",
+          "a-seis-meses-del-acuerdo-ue-mercosur-exvicecanciller-uruguayo-pide-senales-p-3",
+          "a-seis-meses-del-acuerdo-ue-mercosur-exvicecanciller-uruguayo-pide-senales-p-2"
+        ]
+      },
+      {
+        "main": "politica-arancelaria-de-eu-no-cambiara-tras-triunfo-democrata-ebrard-economia",
+        "merged": [
+          "tmec-y-aranceles-tras-el-triunfo-democrata-en-eu-entre-expectativas-moderadas-y"
         ]
       }
     ],
     "googleNews": {
-      "pending": 14,
-      "resolved": 13,
-      "withSummary": 12,
+      "pending": 19,
+      "resolved": 19,
+      "withSummary": 16,
       "withPhoto": 0,
-      "failed": 1,
+      "failed": 0,
       "duplicates": 0
     },
     "noRead": 0
