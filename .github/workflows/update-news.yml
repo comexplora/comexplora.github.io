@@ -6,7 +6,10 @@ on:
     branches: [main]
     paths-ignore: ['**.md']
   schedule:
-    - cron: '30 6,10,14,18,22 * * *'
+    # Cada 2 horas en un minuto poco congestionado. Desde el 2/11/2026 GitHub crea solo 2–3 de las
+    # 5 corridas programadas (a horarios irregulares); con más intentos el sitio igual se actualiza
+    # varias veces por día. Si GitHub vuelve a la normalidad, se puede volver a 5 por día.
+    - cron: '17 */2 * * *'
       timezone: 'America/Argentina/Buenos_Aires'
 
 permissions:
