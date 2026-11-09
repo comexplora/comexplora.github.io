@@ -206,6 +206,15 @@ def is_secondary(it):
     return is_auto(it) or is_digest(it)
 
 
+def same_url(a, b):
+    """Mismo artículo aunque cambie el esquema, el «www.» o la barra final."""
+    def norm(u):
+        u = str(u or '').strip().split('#')[0]
+        u = re.sub(r'^https?://(www\.)?', '', u, flags=re.I)
+        return u.rstrip('/').lower()
+    return bool(a and b) and norm(a) == norm(b)
+
+
 def split_items(raw):
     """Separa lo que se muestra de lo que no. Una automática con "digest" (resumen propio verificado) pasa a
     mostrarse como nota «Resumen» con su página; una automática sin resumen queda oculta."""
@@ -222,7 +231,15 @@ def split_items(raw):
             # Si el medio principal no se pudo leer y el resumen se escribió con otro medio del grupo ("alsoIn"),
             # ese medio pasa a ser la fuente principal: el resumen se atribuye a la nota que realmente se leyó.
             srcs = it.get('sources') or []
-            alt = next((s for s in srcs if dg.get('basedOn') and s.get('url') == dg['basedOn'] and not s.get('primary')), None)
+            based = dg.get('basedOn')
+            alt = next((s for s in srcs if based and same_url(s.get('url'), based) and not s.get('primary')), None)
+            # Desde el 9/11 la herramienta de lectura solo abre enlaces que aparecieron en una búsqueda: el resumen
+            # puede escribirse con otro medio que publicó el mismo hecho y que no estaba en el grupo
+            # ("basedOnSource": {name, url, title}). Ese medio pasa a ser la fuente principal, igual que arriba.
+            bos = dg.get('basedOnSource') if isinstance(dg.get('basedOnSource'), dict) else None
+            if (not alt and based and bos and str(bos.get('url', '')).startswith('https://') and same_url(bos['url'], based)
+                    and not any(same_url(s.get('url'), based) for s in srcs)):
+                alt = {'name': bos.get('name') or 'Medio', 'url': bos['url'], 'title': bos.get('title') or '', 'author': ''}
             if alt:
                 prim = primary(it)
                 new = {k: v for k, v in alt.items() if k not in ('alsoIn', 'title')}
