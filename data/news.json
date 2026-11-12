@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-11-11T18:43:00Z",
+  "updatedAt": "2026-11-12T01:32:20Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -134,20 +134,16 @@
     {
       "id": "tc-mayorista",
       "label": "Tipo de cambio mayorista ARS/USD",
-      "value": "$ 1.545,40",
-      "period": "Com. A 3500 · 5 nov 2026",
+      "value": "$ 1.547,91",
+      "period": "Com. A 3500 · 11 nov 2026",
       "source": "BCRA",
       "url": "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp",
       "group": "Mercados",
-      "obsDate": "2026-11-05",
-      "change": "-0,2% vs. día hábil anterior",
-      "trend": "down",
-      "checkedAt": "2026-11-11T18:44:24Z",
+      "obsDate": "2026-11-11",
+      "change": "+0,2% vs. día hábil anterior",
+      "trend": "up",
+      "checkedAt": "2026-11-12T01:34:07Z",
       "history": [
-        [
-          "2026-09-24",
-          1518.7415
-        ],
         [
           "2026-09-25",
           1523.9662
@@ -263,11 +259,15 @@
         [
           "2026-11-05",
           1545.3974
+        ],
+        [
+          "2026-11-11",
+          1547.9128
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-11T18:44:24Z"
+      "lastAttempt": "2026-11-12T01:34:07Z"
     },
     {
       "id": "soja",
@@ -389,7 +389,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-11T18:44:24Z",
+      "lastAttempt": "2026-11-12T01:34:07Z",
       "lastError": "no se encontró el precio de la soja en la página"
     },
     {
@@ -403,7 +403,7 @@
       "obsDate": "2026-11-03",
       "change": "-0,3% vs. día anterior",
       "trend": "down",
-      "checkedAt": "2026-11-11T18:44:27Z",
+      "checkedAt": "2026-11-12T01:34:11Z",
       "history": [
         [
           "2026-09-23",
@@ -528,7 +528,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-11-11T18:44:27Z"
+      "lastAttempt": "2026-11-12T01:34:11Z"
     },
     {
       "id": "maiz",
@@ -650,7 +650,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-11T18:44:27Z",
+      "lastAttempt": "2026-11-12T01:34:11Z",
       "lastError": "no se encontró el precio de el maíz en la página"
     },
     {
@@ -773,11 +773,1007 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-11T18:44:27Z",
+      "lastAttempt": "2026-11-12T01:34:11Z",
       "lastError": "no se encontró el precio de el trigo en la página"
     }
   ],
   "items": [
+    {
+      "id": "recuperacion-del-molo-de-abrigo-de-san-antonio-es-presentado-en-seminario-de-ing",
+      "datetime": "2026-11-12T00:52:05Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "Recuperación del Molo de Abrigo de San Antonio es presentado en seminario de ingeniería portuaria",
+      "summary": "Puerto San Antonio presentó los trabajos de conservación y reforzamiento de su molo de abrigo durante…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Chile"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/recuperacion-del-molo-de-abrigo-de-san-antonio-es-presentado-en-seminario-de-ingenieria-portuaria/",
+          "primary": true,
+          "author": "admin"
+        }
+      ]
+    },
+    {
+      "id": "mexico-confirma-restricciones-para-importar-acero-asiatico-mientras-avanzan-nego",
+      "datetime": "2026-11-12T00:51:22Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "México confirma restricciones para importar acero asiático mientras avanzan negociaciones contra aranceles de EU",
+      "summary": "Reuters.- México está trabajando para impedir que el acero procedente de China y otros países se desvíe a través del país hacia Estados Unidos al amparo del",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones",
+        "Aranceles",
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "Europa"
+      ],
+      "countries": [
+        "México",
+        "Unión Europea"
+      ],
+      "tags": [
+        "Acero",
+        "Aranceles"
+      ],
+      "visual": "steel",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Omnia",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.omnia.com.mx/noticia/449217",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "El Universal",
+          "type": "También publicó esta noticia",
+          "url": "https://www.eluniversal.com.mx/cartera/mexico-reduce-30-las-importaciones-de-acero-asiatico-industria-espera-acuerdo-comercial-con-eu/",
+          "alsoIn": true,
+          "title": "México reduce 30% las importaciones de acero asiático"
+        }
+      ],
+      "gnTried": "2026-11-12T01:32:20Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWmRTQjB6eVhXMWt0X3JiN0w0VzR0dDR1TWVmWTk3cTcyUkhtSGFpV09VSEdHUDZwWlM1akVRNkJWclctRHpES1Q4N2FfaGVqVjJsLUNYY2JmeGFCWXVRbVloblZldks0MmRpdWlhcF9XS3kwX281Y2ZlMEZxZjkyT1lqTlAxa29iOWlqWWkzd2JUdG9YajZvU2pYVGdBQ1Bjem1uMU0yelA1V19FVDZkRmZHRmdRcDN1YWxZYw?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZVFkaGJlVkc4bURZUDNHeXQtREtVams3ZERlZ0JaOGQyYlNIMnNIV1FLY1BibVRqTm4wOGYtSGVyTXEzaVhmSDRtVl9CT1NLWXk0R2FZN3R1Qk8xVWhueVhNNEtfREZkdnp3NTFVaVV3cHJSeU5zMHlJYkp3WjJNQTNGajRqcEktU1VqRmlnSXpxVjI1ZTh1clNEbGtaTUlrS203M25LRWtFb1pTZkhYdDAwYlBGa0hJX1d0RjFIdkJ1LUV6R3FpUmxkcl9HeGPSAeMBQVVfeXFMT1pLWnE2SGZsMmZLYjZXSVJRSjkwejMtdDJvcWlRblBNUFhVV0liTHVMVi1NcTBaUF9UYjV6SENxczNwUEx6b2VETTBzZUYybUExdXNzOUlUVDJjQnJkWHQxQ2RnekpMeXQ5OW1NZGRUZFdPajN6ZHE0Yl9Ed2VOMmZPUG5RZk9fd0pTQ3FuNjIzZTNOYm5ENXhoLUlicFNPSnNtV0gwaVhubWhoVkU1dHpCcHZsajJCcUVmLWZkanBGWGlMYU9MNGcxN3ZSeFAzMjRzNmI3cEItODl6VWc3WjBVbHc",
+        "https://www.eluniversal.com.mx/cartera/mexico-reduce-30-las-importaciones-de-acero-asiatico-industria-espera-acuerdo-comercial-con-eu"
+      ],
+      "mergedIds": [
+        "mexico-reduce-30-las-importaciones-de-acero-asiatico"
+      ]
+    },
+    {
+      "id": "la-carne-argentina-genero-casi-us-3-800-millones-en-nueve-meses-y-los-frigorific",
+      "datetime": "2026-11-12T00:49:17Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "La carne argentina generó casi US$3.800 millones en nueve meses y los frigoríficos buscan ampliar sus oportunidades de exportación.",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Carne"
+      ],
+      "visual": "livestock",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Diario Chilecito",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://diariochilecito.com/la-carne-argentina-genero-casi-us3-800-millones-en-nueve-meses-y-los-frigorificos-buscan-ampliar-sus-oportunidades-de-exportacion/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-12T01:32:20Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOcXFPbDgwajdzT2Q0TmxBWXN2cmpUNVVCRGRXMFl6dW5zLUZ3bDI3LWFYZWhUTjVCYk5oY04wN0FuTTRRbW5CcUNLblNKNzFKc2FmZ212cEtOZzJMMnVhSG1oV3lvVnU1WDAyUklZa0oyVFZ0dXFzbzBhd1NvWFJhTXhhUXp2OHhhd0Fialc3d2UwM19zbmtrREpNNmFCQUE3MFZ1by05Q04yU0F0V2VkTmVQYTlzREY1NVhrUWQ1MGpRLTdYSW5kR1I3RnpSLU5TbDh0Tlp5Y2xyaUhzZHdqRE5RYzhGOVB0ai10MERHcw?oc=5"
+    },
+    {
+      "id": "puerto-antofagasta-abordara-desafios-logisticos-y-oportunidades-que-abre-el-corr",
+      "datetime": "2026-11-12T00:47:01Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "Puerto Antofagasta abordará desafíos logísticos y oportunidades que abre el Corredor Bioceánico",
+      "summary": "Con el objetivo de fortalecer la colaboración público-privada, Puerto Antofagasta reunirá a actores de la cadena…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Chile"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/puerto-antofagasta-abordara-desafios-logisticos-y-oportunidades-que-abre-el-corredor-bioceanico/",
+          "primary": true,
+          "author": "admin"
+        }
+      ]
+    },
+    {
+      "id": "en-la-frontera-con-argentina-la-aduana-incauta-maquinaria-de-construccion-valora",
+      "datetime": "2026-11-12T00:43:58Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "En la frontera con Argentina, la Aduana incauta maquinaria de construcción valorada en más de Bs 220.000",
+      "summary": "Un operativo de control en el Punto de Inspección Aduanera (PIA) de La Mamora, en el departamento de Tarija [caption id=\"attachment_5143795\" align=\"alignnone\" width=\"500\"] La ilegal mercancía incautada. Foto: Aduana[/caption] eju.tv En la frontera con Argentina fueron incautados maquinaria, equipos y…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Aduanas"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 2,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "eju.tv",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://eju.tv/2026/11/en-la-frontera-con-argentina-la-aduana-incauta-maquinaria-de-construccion-valorada-en-mas-de-bs-220-000/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-12T01:32:20Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPblByc1JBY2wxMUg1MXhVNTFKX1ZOQVB1T1lFbHRXbWZFQ25WcnpWTmVQd3lwMVlZOEhxX0l2YUF1cFZic2JxQ2FOeDQ3bFVpVXdtQWpWVGptemlnZkpfNnYwZG5PRXVYcDdZSko5NGF5Q1RVR1lJcVYwQ0EzRTRmMnRIaGxOX20wWTBNQmc3T3U1a0pDUDJmblpwb1FxU29tN203SkZZX08yU3BQMGtvWWo5WnU5YkYzelBRam5qbVhGTm1qVFE?oc=5"
+    },
+    {
+      "id": "cosco-shipping-development-ordena-construccion-de-16-petroleros-de-gran-tamano",
+      "datetime": "2026-11-12T00:30:23Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "Cosco Shipping Development ordena construcción de 16 petroleros de gran tamaño",
+      "summary": "Cosco Shipping Development ordenó la construcción de 16 petroleros de gran tamaño (VLCC) al grupo…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Energía"
+      ],
+      "visual": "tanker",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/cosco-shipping-development-ordena-construccion-de-16-petroleros-de-gran-tamano/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "comision-de-transportes-del-senado-aprueba-en-general-proyecto-para-regular-cont",
+      "datetime": "2026-11-12T00:21:31Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "Comisión de Transportes del Senado aprueba en general proyecto para regular contratación y pagos a camioneros",
+      "summary": "La Comisión de Transportes del Senado aprobó en general el proyecto de ley, en primer trámite…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "truck",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/comision-de-transportes-del-senado-aprueba-en-general-proyecto-para-proteger-a-pequenos-transportistas-de-carga/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "tailandia-aumenta-los-aranceles-a-productos-de-comercio-electronico-hasta-un-30",
+      "datetime": "2026-11-12T00:20:00Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "Tailandia aumenta los aranceles a productos de comercio electrónico hasta un 30%",
+      "summary": "Esta política tiene como objetivo crear una competencia más justa para las pequeñas empresas locales.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Asia"
+      ],
+      "countries": [
+        "Tailandia"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "parcel",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "IDNFinancials",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.idnfinancials.com/es/news/71585/tailandia-aumenta-los-aranceles-a-productos-de-comercio-electrónico-hasta-un-30",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-12T01:32:20Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQaFAxajJfWm02Wmp1ampFUExtOE83V0UtLW1oVURkZEp4NXJRTUFBUEU0M0JiTlViSm8tdUJ5b1RGenlDQkVPcEMxWk81QWZSeXM1TDdNUU1BcHJHc1NNVkt1TGtWQU1INTNYS2xFdExST0ZXc3J5ME1iVVNOUG5sMjVueUFwazZCU0tTUkVBYmZVZlZfYmg2ZWRlQWtNd0RLREd3OGk1MWhMUVNQZGNPcFdoZ1VBSjg5OHlreC1MV0dhelc5ekZB?oc=5"
+    },
+    {
+      "id": "mexico-busca-acuerdo-con-ee-uu-para-reducir-aranceles-al-acero",
+      "datetime": "2026-11-12T00:19:57Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "México busca acuerdo con EE.UU. para reducir aranceles al acero",
+      "summary": "México se encuentra en negociaciones con EE.UU. para reducir aranceles al acero antes de 2026, buscando fortalecer su industria.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "México",
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Acero",
+        "Aranceles"
+      ],
+      "visual": "steel",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Consulta Monterrey",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://consultamonterrey.mx/negocios/acuerdo-mexico-eeuu-aranceles-acero/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-12T01:32:20Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKdlNzQnpWdUxISTJXT1N1Vmd4MjVyVzUtNUpyS0tKTDFYdTAxRXNWS1VmUUp0VS1pRlQ4ellQUWg3YzBidXdWUGhHR0tDMmx4YUFCSHU3ZzRMVW5pM1A3cGpCN3lmN2ltakdYM0hZbk45SXVzdHphVU1kXzg5SUk?oc=5"
+    },
+    {
+      "id": "confederacion-fuerza-del-norte-mantiene-paralizacion-tras-no-lograr-acuerdo-con",
+      "datetime": "2026-11-12T00:06:50Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "Confederación Fuerza del Norte mantiene paralización tras no lograr acuerdo con Gobierno",
+      "summary": "El presidente de la Confederación de Transportistas Fuerza del Norte (CTFN), Cristián Sandoval, confirmó que se…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/confederacion-fuerza-del-norte-mantiene-paralizacion-tras-no-lograr-acuerdo-con-gobierno/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "sostienen-como-poco-probable-que-empresas-de-estados-unidos-importen-diesel-de-r",
+      "datetime": "2026-11-12T00:00:51Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "Sostienen como poco probable que empresas de Estados Unidos importen diésel de Rusia",
+      "summary": "Expertos afirman que es poco probable que las empresas estadounidenses importen diésel ruso. Esto mientras…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones",
+        "Estados Unidos",
+        "Europa"
+      ],
+      "countries": [
+        "Estados Unidos",
+        "Rusia"
+      ],
+      "tags": [
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/sostienen-como-poco-probable-que-empresas-de-estados-unidos-importen-diesel-de-rusia/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "una-multinacional-estadounidense-cerro-su-fabrica-en-argentina-por-el-avance-de",
+      "datetime": "2026-11-11T23:31:37Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "Una multinacional estadounidense cerró su fábrica en Argentina por el avance de las importaciones y dejó a 61 trabajadores sin empleo",
+      "summary": "Stanley Black & Decker puso fin a más de una década de producción de discos abrasivos en Justo Daract, San Luis. Los empleados tomaron pacíficamente la planta y reclaman el pago de las indemnizaciones, mientras la compañía asegura que continuará operando en el país.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Importaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Canal26",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.canal26.com/economia/2026/11/11/una-multinacional-estadounidense-cerro-su-fabrica-en-argentina-por-el-avance-de-las-importaciones-y-dejo-a-61-trabajadores-sin-empleo/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-12T01:32:20Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOUGh4Zk4zb2hIYnNncFZnZWJ5QUl4SWtxbXV5ek5XUUVaSVU2MFFCTjJXUWNlSV80V2V3Q3N0T3lMa01lUEV4N0NFWndCSWlzWjJtUUR3TVV6MDE0ZWp3cjNrZDR4TzhlSmIyM3FJUGhXaXRrMXB3ZC1XWVhmeUd1NmtDTnl3SE10SzVmbGg1dEEzanZZWmdGTW5MVEU4ZjNaSnZ4M0s2cHF6Ti0wajRkYzI3T2hHaGY3UlI3N0JXMWFJRzhSVERoTnFGaHpkaHdsQk1HS3VscmxvZkZabDJkR2lPYWtpS1FCMW84RWc5bXZvdzhqSW92REV4SFNHOVNEbWtFRHdfaXhGQQ?oc=5"
+    },
+    {
+      "id": "peru-busca-consolidar-al-pais-como-punto-estrategico-de-conexion-entre-brasil-y",
+      "datetime": "2026-11-11T23:30:02Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "Perú busca consolidar al país como punto estratégico de conexión entre Brasil y los mercados del Asia-Pacífico",
+      "summary": "El Ministerio de Transporte y Comunicaciones (MTC) del Perú señaló que se tiene una visión clara…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Brasil",
+        "Perú"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/peru-busca-consolidar-al-pais-como-punto-estrategico-de-conexion-entre-brasil-y-los-mercados-del-asia-pacifico/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "argentina-aumento-sus-exportaciones-a-brasil-pero-mantiene-un-deficit-comercial",
+      "datetime": "2026-11-11T23:29:39Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "Argentina aumentó sus exportaciones a Brasil, pero mantiene un déficit comercial de casi US$2.000 millones en 2026",
+      "summary": "Las exportaciones argentinas a Brasil crecieron por octavo mes consecutivo, aunque el intercambio sigue siendo deficitario debido al comportamiento de las importaciones y la menor actividad de la industria automotriz nacional. Argentina registró un nuevo crecimiento de sus exportaciones hacia Brasil durante octubre de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Diario Neuquino",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://diarioneuquino.com.ar/argentina-aumento-sus-exportaciones-a-brasil-pero-mantiene-un-deficit-comercial-de-casi-us2-000-millones-en-2026/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-12T01:32:20Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNZGNoR2l3Y19jaFpCYllvbU5PX1lOd05ydVZhckhUcDhtbXptYk9TQUx3VnlIUHNYaUlKTmhuQTRzZ1YtWkZKcHpXenlVaFhZbjR4UzJqWVVqbnRZVS1yY21IRUhzNFVDZkd6VU9jcUNadHVTbDhnMUVnNlRZRDlEb1BySzk4Q3VGdExGb0JMQmdJNlhNYzg5ZzF4bXJEUmJUaFIzZ1l1dm5GSmM3bnVwakdweE8ySnlwTy1JT3U2V2Z5eUZWd1JqWldSN1pWUVRJT3ZKU2hXT3gzVXc?oc=5"
+    },
+    {
+      "id": "puerto-de-le-havre-inicia-desmantelamiento-de-grua-grn14",
+      "datetime": "2026-11-11T23:00:15Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "Puerto de Le Havre inicia desmantelamiento de grúa GRN14",
+      "summary": "Testigo de la historia del Puerto de Le Havre, la grúa GRN14, ubicada en el muelle…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/puerto-de-le-havre-inicia-desmantelamiento-de-grua-grn14/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "portcastello-refuerza-vinculos-con-navieras-turcas-en-logitrans-y-busca-nuevas-r",
+      "datetime": "2026-11-11T22:30:07Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "PortCastelló refuerza vínculos con navieras turcas en Logitrans y busca nuevas rutas",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Data Portuaria",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://dataportuaria.com/es/espa%C3%B1a/puertos/portcastello-refuerza-vinculos-con-navieras-turcas-en-logitrans-y-busca-nuevas-rutas-6ad9c4",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-12T01:32:20Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSGQ3UEI1WnRWY3dPR1JDeGpBUW5iOUtkbGpiUFRrYXEzMVpBTzFiVjVkeFhhODgzeVNyQ1lJbzdfZGJraUJWakI1ZnM0ZjIzamxqc3JMdHRpbEVsWXJPX1Z0WF90OUtxbTlQNjBId2s0d1V5NUhvSzZQWTBuYndRSTdnVlU1MEhVNFZNMm84cjB6eFBna1ZTU2lHa2MxdnZ0Z2xaNUlYNzZHYUhKM2ZKN2EyYl9Id2p4alg4NEE0eFNVcG5HcWxLLVZnNXBodUxBRm85dXdlMA?oc=5"
+    },
+    {
+      "id": "paraguay-corredor-bioceanico-suma-avances-en-obras-de-pavimentacion-y-drenaje",
+      "datetime": "2026-11-11T22:30:00Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "Paraguay: Corredor Bioceánico suma avances en obras de pavimentación y drenaje",
+      "summary": "La pavimentación de la ruta PY15, correspondiente al Corredor Bioceánico Vial en Paraguay, registra casi 50%…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Paraguay"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/paraguay-corredor-bioceanico-suma-avances-en-obras-de-pavimentacion-y-drenaje/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "las-exportaciones-representan-alrededor-del-25-del-pbi-en-rdeco-analizaron-por-q",
+      "datetime": "2026-11-11T22:05:02Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "Las exportaciones representan alrededor del 25% del PBI: en RDEco analizaron por qué son el principal motor del crecimiento argentino",
+      "summary": "La economía argentina sostiene buena parte de su crecimiento en las exportaciones, mientras el consumo permanece debilitado y la inversión continúa en niveles bajos. En diálogo con Ronda de Economistas (RDEco) por +Perfil, el economista Marcos Cohen Arazi analizó los desequilibrios entre los distintos motores de la…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Economía internacional"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Perfil",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.perfil.com/mas-perfil/las-exportaciones-representan-alrededor-del-25-del-pbi-en-rdeco-analizaron-por-que-son-el-principal-motor-del-crecimiento-argentino-ax7Lf2U9oGDm",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-12T01:32:20Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQZDhNcW43REtqTm5fUnBmeWNYVG1jaDhpaEthejNBaGV4RU1HTGdDRXF5amwwMVRWX3BOS0xvdnJIdUVWZC1CS0oxNkhRZTJzbUtpelRsejdRUlJhYUpBUDlRRWtIWjV2b1JBU21qRU5QUlhoZTZIUGhJZHpGMGV2UnVTSlRaZUZiV09nbnZVV1g3RnBud19wbTZYR1RwaTFoSU9meFNqX1V4R0xYcVlXQVJtbEFPUWZEQm03RGFQby1WOUt4UDdYREVOMDJYaC1RRm54dmk5MDlLZkZpcmxIN1ZlWHhfMVMxWGlWa0VtT0FlMjhkd2dOQWlYYTczeTJ3WmVFVTZHd1dpdw?oc=5"
+    },
+    {
+      "id": "uruguay-maersk-inaugura-centro-logistico-en-cercanias-del-puerto-de-montevideo",
+      "datetime": "2026-11-11T22:00:02Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "Uruguay: Maersk inaugura centro logístico en cercanías del Puerto de Montevideo",
+      "summary": "La naviera Maersk inauguró un nuevo centro logístico en Montevideo (Uruguay). La infraestructura se ubica en…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Transporte marítimo",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Uruguay"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/uruguay-maersk-inaugura-centro-logistico-en-cercanias-del-puerto-de-montevideo/",
+          "primary": true,
+          "author": "Gabriel"
+        }
+      ]
+    },
+    {
+      "id": "reglamento-sobre-deforestacion-y-administracion-de-contingentes-arancelarios-eje",
+      "datetime": "2026-11-11T21:53:25Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "Reglamento sobre Deforestación y administración de contingentes arancelarios, ejes de la reunión entre INAC y la Comisión Europea",
+      "summary": "La implementación del acuerdo comercial entre el Mercosur y la Unión Europea, las oportunidades para el sector cárnico uruguayo, la administración de los contingentes arancelarios y las nuevas exigencias regulatorias europeas fueron algunos de los principales temas tratados durante una reunión entre autoridades del…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Regulaciones",
+        "Europa"
+      ],
+      "countries": [
+        "Unión Europea"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Blasina y Asociados",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://blasinayasociados.com/reglamento-sobre-deforestacion-y-administracion-de-contingentes-arancelarios-ejes-de-la-reunion-entre-inac-y-la-comision-europea/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-12T01:32:20Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQNWNsLXVGMmp2ZWdVMnRfczY2eDlLZzEyTk9icDNHRU1lTlJhdTgtMVA1c2ZzV1NkS0VfVzBfcmZ4d2kyOC1hTF93RzNOYlNGVnpUcVZuSWZ2NzlpWXYwQmplTEpQS3ktbi1zeU1nQmthaFU1ajR0ZE9BWjVKSW1NYXNZTTVWTGdqSzAwM05qc18yWG1iaExTSjNVMVQ1M19mZWJFbjRkeFVoXzhXdUNvb3VmOHJTMVVmY1RqM1hwQk9nb0JyQ0pIYnlzdlc5R1E0emt4amhiZVY3NW5zeld1MWRzT1FRNnRYeXpyeWZlUUg?oc=5"
+    },
+    {
+      "id": "iata-cargo-day-2026-carga-aerea-mueve-el-33-del-comercio-mundial",
+      "datetime": "2026-11-11T21:48:00Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "IATA Cargo Day 2026: carga aérea mueve el 33% del comercio mundial",
+      "summary": "La demanda mundial de carga aérea sigue creciendo pese a las tensiones geopolíticas. IATA identificó los principales desafíos para el sector.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte aéreo",
+        "Economía internacional"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "plane",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Ladevi Medios y Soluciones",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.ladevi.info/actualidad/iata-cargo-day-2026-carga-aerea-mueve-el-33-del-comercio-mundial-n108986",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-12T01:32:20Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSk5Zano4UDg5LTdXa3JaWDVFV1Z6MmFlbDBQVG5TTUx0ZWhYNkVMN1ZNaFlPcFJOd2kwdHc0SEFDUDVmUVVjNk9CbzIyTmlBVGtDLW9XWUpBZ1hVdVp5Njhnb3k5REcxNDdxZldqQXNHalc2TjRzeUdkdkJQNkdmTWV2eUpzM1g5M1IwTlRVTGNpaXo5T2IwdW03UjR6dDdhZzhhc0h6VzNoaUHSAasBQVVfeXFMUEpOWWp6OFA4OS03V2tyWlg1RVdWejJhZWwwUFRuU01MdGVoWDZFTDdWTWhZT3BSTndpMHR3NEhBQ1A1ZlFVYzZPQm8yMk5pQVRrQy1vV1lKQWdYVXVaeTY4Z295OURHMTQ3cWZXakFzR2pXNk40c3lHZHZCUDZHZk1ldnlKczNYOTNSME5UVUxjaWl6OU9iMHVtN1I0enQ3YWc4YXNIelczaGlB?oc=5"
+    },
+    {
+      "id": "arancel-del-83-a-las-llantas-chinas-podria-encarecer-pasajes-y-fletes-en-colombi",
+      "datetime": "2026-11-11T21:38:38Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "Arancel del 83 % a las llantas chinas podría encarecer pasajes y fletes en Colombia: transportadores",
+      "summary": "El costo de importación de estos productos podría aumentar hasta un 88,64 %. El sector transportador advierte que la medida pondría presión sobre las tarifas y la operación de buses y camiones.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Logística",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Colombia"
+      ],
+      "tags": [
+        "Fletes",
+        "Aranceles"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Blu Radio",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.bluradio.com/economia/arancel-del-83-a-las-llantas-chinas-podria-encarecer-pasajes-y-fletes-en-colombia-transportadores-rg10",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Portafolio",
+          "type": "También publicó esta noticia",
+          "url": "https://www.portafolio.co/economia/impuestos/eventual-arancel-del-83-a-las-llantas-chinas-podria-encarecer-los-pasajes-de-bus-y-fletes-de-carga-en-colombia-506183",
+          "alsoIn": true,
+          "title": "Eventual arancel del 83 % a las llantas chinas podría encarecer los pasajes de bus y fletes de carga en Colombia"
+        }
+      ],
+      "gnTried": "2026-11-12T01:32:20Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSXlraU5TQnhwb2lDRTBNUGZsWnNPUndrNHhtamhZN1dkaVZDV0M4Mk9XRlEyM29sejVuMTdZREVzQTlqMnJ5blJCZmRjY1gweTQzcF91Uy1fVjVQUlc0SjlPNlZjbVRCZk91Z1AxNWxMU1FyQjdCaEpValFjVGpaMDRWWU5MUDNhOC0wNWNGS3o3MmFacU1VaDFCVjk4cXZDVVRpem1XVHRoNk9aa3NZYnE1bGNmM2NSOG1TTFZTRVZmSlpxUXM3UXc5dGRUeDd0SmfSAd8BQVVfeXFMT1owZXdwdXdqeTNuRkU1NVRuenM5WUtUdDhlRTM1Y0JDZlQ5UG5iRVhLd3VJYUZ3aFlrN2NCY3ZIQXJ6bUtjbFJ1WF9fRld2Unk0aGVMazJYRDV3dXdnZl94QlRlcXZCQThYUmNtd3I1NmUzS2pyZGdVX1M3TWpCMVl6Z2lJNVdsQXhWbWhFUUlIOUJPYXl6SWljQ0dxNWlZS1NPSEo3ZGREVWdINFFHSjNqZlNFNkliWWRCWmloS0FENWRRckEySHVGZE5Md0ktRm5lTlVDX0JraWZIT3dRYw?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQSTc5YzgtNklxdWNKcHVYZmpDZHVLZThlT2tneS11Z0Z4SUc0WVF4bS1GaXlERFdfQVRXaGJUUHZIS2dKVFdoa01IU1lGXzhPLXdXeWZ4dDRrT3FzMFQxYTJGNERSRnVRb0RlUmRLNjBYSmlFWl90a2RkTGg2RjZtRjRybjMxMXhSLV9aWHFDNEU4c2d4b2tpZUNQTnJHZXBYYVJ0bHNURUZhZWo5VjktU1JBYjdaQkttbkVsT2o3T2hwMHdmVm95azJETERGcXAxcjl3aGhEaTFuSUFlYWJpclNITmpTaktlUUhvLTNXMHlhVlk00gH6AUFVX3lxTE81cEk5dTh3OVlsMmt2WG1Jbzh4TDQ1Vi1pZkpjWWRzMGxMY3FMLTBheWZSYkRmUm83X1NKX2djT09ldmtkd2hRMXZLeTRQRHUyam05X3ZEWENkWTBTWEJwQkdtbHF1czNpanZwSHRucmpWaDNNc1RROEtBZGtsXzJ4YXlsSFBtNHFiczFUUmRzYmJCTkVtSEs1blhjZ0QzeGtUcFk4cW5OZ2NnZkkyRXFMNElRRDNBbDZ4ZVNDdFNfOWR0RVlqbGFLMTVtWnBBRExJd1RxYVZWdDhSclZabm9CZ0RMTHNyYW9Ec3Azb3p6ZTlvWmdtQWs1X0E",
+        "https://www.portafolio.co/economia/impuestos/eventual-arancel-del-83-a-las-llantas-chinas-podria-encarecer-los-pasajes-de-bus-y-fletes-de-carga-en-colombia-506183"
+      ],
+      "mergedIds": [
+        "eventual-arancel-del-83-a-las-llantas-chinas-podria-encarecer-los-pasajes-de-bus"
+      ]
+    },
+    {
+      "id": "argentina-suma-ocho-meses-de-crecimiento-de-las-exportaciones-a-brasil-que-produ",
+      "datetime": "2026-11-11T21:24:00Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "Argentina suma ocho meses de crecimiento de las exportaciones a Brasil: qué productos impulsaron las ventas",
+      "summary": "Las ventas argentinas subieron por octavo mes consecutivo, segn la CAC. El dficit comercial con Brasil se redujo ms de 60% en el acumulado anual",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "BAE Negocios",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.baenegocios.com/economia/argentina-suma-ocho-meses-de-crecimiento-de-las-exportaciones-a-brasil-que-productos-impulsaron-las-ventas/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-12T01:32:20Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNeUdINzBDcFFNLTZNbXExbGpuT1Q1TG5KZlpaSWdneXJSUkllazJoV3hXME5kS3U5WFVzcjFhRWlHYnQzbWlIb1hjbmJIZjFNSGFDWHRFN3AtOVVIb0htYkhjMzhmcEFTQk5XQVdEaFYyQlVwb2FhOFZYUV9lNmUwcU9nRTh3d3pzeDVpMHJFZHl3WFhtOVhLNkJYVHdmckhRSXlVVnRzcFBCMktzaVBKd01KVFhSdk9ZcUp2NWo3MWc1MjZkTEt1eTg4akEyMzJ5eEhsRFh1eGZrci1m0gHWAUFVX3lxTFBGa2RZZjU5V1dySGtZQ2Z5YWxyaWRSQVVwRWVRa0FlLXRpV2lWblpVdVJjT3JoMVp3b3lWM0VnbUZpdXRjWjNIeGREMzM3ZVJEdS1sWjEtYmdGUUVVLVBQUm93OXFUcVFLRmFoWFNJYndJNzcybFR4M2UxVGxER1dtVm1jd1R0UjM4WWpvZThCbUtlV2dmd0xhaHV1T1ZrS1haeFlzZk00YWxBakZwXy1CaWdqNFZRc3N2RlBad2J1NXd6S2ZTeDFOb2tibFBNQ0NvQjFjTmc?oc=5"
+    },
+    {
+      "id": "las-ventas-argentinas-a-brasil-crecieron-un-1-8-interanual-en-octubre",
+      "datetime": "2026-11-11T21:02:06Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "Las ventas argentinas a Brasil crecieron un 1,8% interanual en octubre",
+      "summary": "El comercio bilateral entre Argentina y Brasil alcanzó los U$S 2790 millones en octubre, un 3% menos que en el mismo mes de 2025, cuando había totalizado U$S 2877 millones. En comparación con septiembre de 2026, el intercambio aumentó un 4,8%, de acuerdo con el último informe elaborado por la Cámara Argentina de…",
+      "body": [
+        "El comercio bilateral entre Argentina y Brasil alcanzó los U$S 2790 millones en octubre, un 3% menos que en el mismo mes de 2025, cuando había totalizado U$S 2877 millones. En comparación con septiembre de 2026, el intercambio aumentó un 4,8%, de acuerdo con el último informe elaborado por la Cámara Argentina de Comercio y…"
+      ],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Tratados y acuerdos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil"
+      ],
+      "tags": [],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Aduana News",
+      "sources": [
+        {
+          "name": "Aduana News",
+          "type": "Medio especializado · Argentina",
+          "url": "https://aduananews.com/las-ventas-argentinas-a-brasil-crecieron-un-18-interanual-en-octubre/?utm_source=rss&utm_medium=rss&utm_campaign=las-ventas-argentinas-a-brasil-crecieron-un-18-interanual-en-octubre",
+          "primary": true,
+          "author": "Aduana News"
+        }
+      ]
+    },
+    {
+      "id": "pese-al-alza-de-las-exportaciones-el-intercambio-comercial-con-brasil-cayo-un-3",
+      "datetime": "2026-11-11T20:42:00Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "Pese al alza de las exportaciones, el intercambio comercial con Brasil cayó un 3% interanual en octubre",
+      "summary": "El volumen total de negocios bilaterales alcanzó los u$s2.790 millones durante el décimo mes del año. La balanza arrojó un déficit para el país, aunque la brecha negativa anual experimentó una fuerte reducción frente a los números de 2025.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Brasil"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "C5N",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.c5n.com/economia/pese-al-alza-las-exportaciones-el-intercambio-comercial-brasil-cayo-un-3-interanual-octubre-n254049",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-12T01:32:20Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ28wb25QVW4tMW5lRFRTX09vOWhyMnN1OXJhVjMydXpQTzRkZTFqZU1WSWQzMWtTakh2YUJIZ2xST1RaUjFhRUZVVE5VOVA1MEtJUkRZMzRHMTk2MUZ6VFZoMVB3ODhBMDdtQXU2Z0YzOHJQTVl4ZjExeWl0U05Xb0R1MFJER1M3TzlDb1lXS0JxekZGZGdraWZERDAzY2ttdk1ha081U2xqR3FXSTZCWU9pZmVfdEdONkFTT2ZWQldpQ0Nmakw0SEhwR2nSAcwBQVVfeXFMT0NvMG9uUFVuLTFuZURUU19PbzlocjJzdTlyYVYzMnV6UE80ZGUxamVNVklkMzFrU2pIdmFCSGdsUk9UWlIxYUVGVVROVTlQNTBLSVJEWTM0RzE5NjFGelRWaDFQdzg4QTA3bUF1NmdGMzhyUE1ZeGYxMXlpdFNOV29EdTBSREdTN085Q29ZV0tCcXpGRmRna2lmREQwM2NrbXZNYWtPNVNsakdxV0k2QllPaWZlX3RHTjZBU09mVkJXaUNDZmpMNEhIcEdp?oc=5"
+    },
+    {
+      "id": "grupo-selsa-logistica-integral-para-ganar-competitividad-en-el-comercio-exterior",
+      "datetime": "2026-11-11T19:40:53Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "Grupo SELSA: logística integral para ganar competitividad en el comercio exterior",
+      "summary": "Con más de 25 años de trayectoria, la empresa evolucionó de prestadora de servicios de almacenamiento y gestión aduanera a socio estratégico de importadores, exportadores y distribuidores. A través de sus soluciones de Zona Franca, Depósito Fiscal y Depósito Nacional, busca optimizar costos, agilizar operaciones y…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "Perfil",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.perfil.com/comercial/grupo-selsa-logistica-integral-para-ganar-competitividad-en-el-comercio-exterior-arxva3X9zodU",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-12T01:32:20Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOWnY2NE42RFcyVzNIVnlGbmlLQnEtZUJrYkhnQ3d0Rng3dDJWWjltWS1hc2tSMWVlNEtFcVRmeFB2cHZfVFI4NGFLaXE5ZW1hUW1TanIteUhhNEpJS1NseWozeW93WDF5cFRfM1h1ZllvTTV3MHBtLVd0YzN4SUIyRGhJLXdSSzNNeTgzRTE5NmlVVS1jWHFvRDVpWUNLckNTa29PQ1MtR2tpeWRwbDdlTWRudmVXQ0k1aXJobEttRXRBRnI4?oc=5"
+    },
+    {
+      "id": "argentina-exporta-mas-a-brasil-pero-todavia-acumula-un-deficit-que-sectores-lo-e",
+      "datetime": "2026-11-11T19:25:15Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-12T01:32:20Z",
+      "title": "Argentina exporta más a Brasil, pero todavía acumula un déficit: qué sectores lo explican",
+      "summary": "El déficit acumulado cayó más de 60% frente a 2025. El sector automotor explica parte de la caída de las importaciones",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "El Cronista",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.cronista.com/economia-politica/argentina-exporta-mas-a-brasil-pero-todavia-acumula-un-deficit-que-sectores-lo-explican/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-12T01:32:20Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZ2FfM2huQklMRFhMWm16M0RwTkhULUV3bllOeF9ZVVIwdWtqTnZuVkFldmZSUFlWRmtvR2lfUDA0M3lMN2JDZ1ZNUDMzbGVYWjl4QTY2NGN0UFZhZWc3MjJWZklJVEF5X2dGeGZqTUI3UkhjSjQtd3BDQkM5cFBHMU9JdnFwQ2VFSWRUZTVheFRja0ZTNjRRTGg2cmg5OVpmT1VleGU1Y1NpbTl6X0pDVms2NWU0a3YyUUktaWltZmZUUWx1T1ZsRG5rZHhvbTdPaEo4T0s5T2lkYzBXa24tSjBKYkhsUdIB5gFBVV95cUxNZ2FfM2huQklMRFhMWm16M0RwTkhULUV3bllOeF9ZVVIwdWtqTnZuVkFldmZSUFlWRmtvR2lfUDA0M3lMN2JDZ1ZNUDMzbGVYWjl4QTY2NGN0UFZhZWc3MjJWZklJVEF5X2dGeGZqTUI3UkhjSjQtd3BDQkM5cFBHMU9JdnFwQ2VFSWRUZTVheFRja0ZTNjRRTGg2cmg5OVpmT1VleGU1Y1NpbTl6X0pDVms2NWU0a3YyUUktaWltZmZUUWx1T1ZsRG5rZHhvbTdPaEo4T0s5T2lkYzBXa24tSjBKYkhsUQ?oc=5"
+    },
     {
       "id": "peso-gana-mientras-estados-unidos-impone-nuevos-aranceles",
       "datetime": "2026-11-11T17:41:07Z",
@@ -838,6 +1834,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Exportaciones",
         "Aranceles",
         "Latinoamérica",
         "China",
@@ -878,51 +1875,6 @@
         "at": "2026-11-11T18:50:00-03:00",
         "basedOn": "https://www.elfinanciero.com.mx/empresas/2026/11/11/ternium-advierte-china-esquiva-aranceles-de-mexico-con-contrabando-y-dumping/",
         "words": 190
-      }
-    },
-    {
-      "id": "argentina-establece-nuevos-requisitos-para-importar-prendas-y-articulos-textiles",
-      "datetime": "2026-11-11T16:56:52Z",
-      "date": "2026-11-11",
-      "firstSeen": "2026-11-11T18:43:00Z",
-      "title": "Argentina establece nuevos requisitos para importar prendas y artículos textiles usados",
-      "summary": "El Gobierno argentino estableció un nuevo procedimiento para la importación para consumo de prendas, complementos (accesorios) de vestir y sus partes, usados, comprendidos en las posiciones arancelarias N.C.M. 6309.00.10 y 6309.00.90. La medida busca resguardar la salud pública, la seguridad y el medio ambiente, y…",
-      "body": [
-        "El Gobierno argentino estableció un nuevo procedimiento para la importación para consumo de prendas, complementos (accesorios) de vestir y sus partes, usados, comprendidos en las posiciones arancelarias N.C.M. 6309.00.10 y 6309.00.90. La medida busca resguardar la salud pública, la seguridad y el medio ambiente, y alcanza a las mercaderías presentadas a granel, en fardos, sacos…"
-      ],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Importaciones",
-        "Aranceles"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Aranceles"
-      ],
-      "visual": "textile",
-      "impact": 2,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Aduana News",
-      "sources": [
-        {
-          "name": "Aduana News",
-          "type": "Medio especializado · Argentina",
-          "url": "https://aduananews.com/argentina-establece-nuevos-requisitos-para-importar-prendas-y-articulos-textiles-usados/?utm_source=rss&utm_medium=rss&utm_campaign=argentina-establece-nuevos-requisitos-para-importar-prendas-y-articulos-textiles-usados",
-          "primary": true,
-          "author": "Aduana News"
-        }
-      ],
-      "aliasUrls": [
-        "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUDV1MkJLWXg0YzV3WHJ2WmlJUnlPMjVsSldKNG9ndkpocWdKVnpEdnNVUlMtcV9sbEVISTFvandxeXBkNnFhU1pYN0JDMVdHOHlQSXlXTHlKaklXYWN1VXhLVUVRRHZibjhqSkVnbGxQQXJ2MThIYWo2Umk2NUNVVXJ6T2VmaFpKTWNYaGFJODBQZFo1N1hfLUQ0MVhzMFBjQ1VfYW9aV3VGbmRGNUhwag"
-      ],
-      "digestSkip": {
-        "at": "2026-11-11T18:50:00-03:00",
-        "reason": "repite una nota de la redacción (Resolución 461/2026, ropa usada)"
       }
     },
     {
@@ -1142,44 +2094,6 @@
       }
     },
     {
-      "id": "el-gobierno-habilito-la-unica-propuesta-para-concesionar-la-segunda-aduana-terre",
-      "datetime": "2026-11-11T16:29:00Z",
-      "date": "2026-11-11",
-      "firstSeen": "2026-11-11T18:43:00Z",
-      "title": "El Gobierno habilitó la única propuesta para concesionar la segunda aduana terrestre del país",
-      "summary": "Luego de más de dos años, el Ejecutivo firmó un decreto que habilita la licitación del paso fronterizo terrestre más importante del interior del país, por donde circulan más de 200.000 camiones al año",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Aduanas"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 2,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
-      "sources": [
-        {
-          "name": "Infobae",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.infobae.com/economia/2026/11/11/el-gobierno-habilito-la-unica-propuesta-para-concesionar-la-segunda-aduana-terrestre-del-pais/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-11T18:43:00Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRmxIa0lJc0hXYkhIZEN2cmxibHZMa25KZmZXeWFLdks2ZnhpMW9NY3lINnZxQWVReHNXVE41Z1FWek9kWk9DYS05VEZEMDVwU3l1MmVKQTc0eGQ4dTdCNmx4R2ZJaDhDc2xqLVhEVm9vdWdrRmVKUzdYTjZOSnFMUm9DNTdKVURiOTE0c3BtbVdZVkdmZUxXNklvR0lvbTZ3bHdwdWRsSm9qOFFnSUM1dXRBQmhVS0trOU5SWFpodVVNSDhEV3ZuUGNNY2g5REdTS1FfdtIB7wFBVV95cUxOX0VXOUZZV29EZWpWN2ctNElNSWR1d2hFbVNJaEx3amhKMHNHaUdod2U0SHdxTkZVdWpRWXJBQzN2dmRSWTBhdk9weV80UVdDSmFJNWxUM2JZWkNxWmktNGZ5azNxMFZpcGhvLTJJMWwzODJJSG9fWGRiYVRCSThqNlZUYUhEMlhuYjZ0SURnNHdsaEZIa2lxN3V1ajY3b3ctdlE5VVh4YjhEMjl1R3VmT1NWb2tkRDdtRDVlcHZXU0E2Rm8xTGRBZzVCZC1oWmc2MnFpMTNYd3djVVVEUmdNWTl1NkdBdEFLZ3dHeldIVQ?oc=5",
-      "digestSkip": {
-        "at": "2026-11-11T18:50:00-03:00",
-        "reason": "repite una nota de la redacción (concesión de Paso de los Libres)"
-      }
-    },
-    {
       "id": "la-mayor-expansion-de-flota-en-la-historia-amenaza-con-desatar-una-sobreoferta-e",
       "datetime": "2026-11-11T16:22:51Z",
       "date": "2026-11-11",
@@ -1360,13 +2274,15 @@
       "keyData": [],
       "topics": [
         "Logística",
+        "Transporte marítimo",
         "Latinoamérica"
       ],
       "countries": [
         "Brasil"
       ],
       "tags": [
-        "Fletes"
+        "Fletes",
+        "Energía"
       ],
       "visual": "tanker",
       "impact": 1,
@@ -1402,7 +2318,8 @@
       "keyData": [],
       "topics": [
         "Argentina",
-        "Exportaciones"
+        "Exportaciones",
+        "Logística"
       ],
       "countries": [
         "Argentina"
@@ -1628,82 +2545,138 @@
       }
     },
     {
-      "id": "el-gobierno-impulsa-la-concesion-del-centro-de-fronteras-paso-de-los-libres",
-      "datetime": "2026-11-11T14:22:04Z",
+      "id": "resolucion-461-2026-ropa-usada-importacion-certificacion-prohibe-calzado-ropa-interior",
       "date": "2026-11-11",
-      "firstSeen": "2026-11-11T18:43:00Z",
-      "title": "El Gobierno impulsa la concesión del Centro de Fronteras Paso de los Libres",
-      "summary": "El Poder Ejecutivo declaró de interés público la iniciativa privada para la concesión del Centro de Fronteras Paso de los Libres, en Corrientes, que conecta con Uruguayana, Brasil, a través del Puente Internacional Agustín P. Justo–Getúlio Vargas. Este paso fronterizo constituye uno de los puntos de mayor movimiento…",
+      "datetime": "2026-11-11T09:40:00-03:00",
+      "kind": "noticia",
+      "title": "Ropa usada: la Resolución 461/2026 exige certificación previa por cada embarque y prohíbe importar calzado y ropa interior",
+      "summary": "La Secretaría de Industria y Comercio fijó un procedimiento para importar prendas usadas de las posiciones 6309.00.10 y 6309.00.90: trámite en TAD antes de embarcar, certificado de un organismo acreditado con lavado a más de 71 °C, reembarco en 30 días si algo no coincide y 36 meses de bloqueo a los reincidentes.",
+      "topics": [
+        "Argentina",
+        "Importaciones",
+        "Aduanas",
+        "Regulaciones"
+      ],
+      "countries": [
+        "Argentina",
+        "Chile"
+      ],
+      "tags": [
+        "Ropa usada",
+        "Resolución 461/2026",
+        "Textiles",
+        "Bienes usados",
+        "TAD",
+        "ISO/IEC 17065",
+        "NCM 6309"
+      ],
+      "visual": "textile",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "Quien importe ropa usada en fardos o a granel tiene que tramitar una autorización por cada operación antes del embarque y presentar un certificado de lavado y desinfección emitido por un organismo acreditado. El calzado y la ropa interior usados quedan fuera, y los incumplimientos se pagan con el reembarco de la carga y, si se repiten, con tres años sin poder importar.",
+      "argentinaImpact": {
+        "change": "La importación de prendas usadas (NCM 6309.00.10 y 6309.00.90) pasa a requerir un trámite previo por operación en TAD con certificación de un organismo acreditado bajo ISO/IEC 17065; se prohíben el calzado y la ropa interior usados.",
+        "who": "Importadores de ropa usada, despachantes de aduana, organismos certificadores y comercios que venden prendas de segunda mano importadas.",
+        "sectors": [
+          "Textil e indumentaria",
+          "Comercio minorista"
+        ],
+        "flows": {
+          "importaciones": true,
+          "exportaciones": false,
+          "logistica": true,
+          "aranceles": false
+        }
+      },
+      "keyData": [
+        [
+          "Norma",
+          "Resolución 461/2026 (Secretaría de Industria y Comercio)"
+        ],
+        [
+          "Posiciones alcanzadas",
+          "NCM 6309.00.10 y 6309.00.90"
+        ],
+        [
+          "Prohibidos",
+          "calzado y ropa interior usados; textiles hospitalarios"
+        ],
+        [
+          "Lavado exigido",
+          "más de 71 °C durante más de 25 minutos"
+        ],
+        [
+          "Plazo para despachar tras la conformidad",
+          "90 días hábiles"
+        ],
+        [
+          "Si la carga no coincide",
+          "reembarco en 30 días corridos"
+        ],
+        [
+          "Sanción por reiteración",
+          "36 meses sin poder importar"
+        ]
+      ],
+      "explainer": {
+        "what": "El Gobierno publicó la Resolución 461/2026, que obliga a tramitar en TAD una autorización por cada embarque de ropa usada, con certificado de lavado y desinfección de un organismo acreditado, y prohíbe importar calzado y ropa interior usados.",
+        "why": "Desde diciembre de 2025 el sistema aduanero ya pedía un documento extra para estas posiciones; ahora hay requisitos técnicos detallados, plazos y sanciones: reembarco en 30 días corridos ante inconsistencias y 36 meses de bloqueo a quien reincida.",
+        "who": "Importadores de ropa usada, despachantes, organismos certificadores de los países de origen y comercios de prendas de segunda mano.",
+        "products": [
+          "Prendas de vestir usadas",
+          "Complementos de vestir usados",
+          "Trapos y textiles usados en fardos (NCM 6309)"
+        ],
+        "next": "Según Voces Críticas, la norma rige desde el jueves 12 de noviembre, aunque parte del intercambio de información con la Aduana depende de reglamentaciones complementarias de ARCA.",
+        "nextSource": {
+          "name": "Voces Críticas",
+          "url": "https://www.vocescriticas.com/noticias/2026/11/11/225731-cambian-las-reglas-para-importar-ropa-usada-en-argentina-que-productos-no-podran-ingresar-al-pais"
+        }
+      },
+      "story": "bienes-usados",
+      "absorbs": [
+        "argentina-establece-nuevos-requisitos-para-importar-prendas-y-articulos-textiles"
+      ],
+      "sources": [
+        {
+          "name": "iProfesional",
+          "type": "Medio de comunicación",
+          "url": "https://www.iprofesional.com/negocios/468783-importacion-de-ropa-usada-el-gobierno-prohibe-calzado-y-ropa-interior",
+          "primary": true
+        },
+        {
+          "name": "Elonce",
+          "type": "Medio de comunicación",
+          "url": "https://www.elonce.com/sociedad/establecieron-nuevos-requisitos-para-la-importacion-de-ropa-usada.htm"
+        },
+        {
+          "name": "Voces Críticas",
+          "type": "Medio de comunicación",
+          "url": "https://www.vocescriticas.com/noticias/2026/11/11/225731-cambian-las-reglas-para-importar-ropa-usada-en-argentina-que-productos-no-podran-ingresar-al-pais"
+        },
+        {
+          "name": "El Cronista (diciembre de 2025)",
+          "type": "Medio de comunicación",
+          "url": "https://www.cronista.com/economia-politica/alerta-por-importaciones-aduana-endurece-los-controles-tras-un-salto-exponencial-de-estos-productos"
+        }
+      ],
       "body": [
-        "El Poder Ejecutivo declaró de interés público la iniciativa privada para la concesión del Centro de Fronteras Paso de los Libres, en Corrientes, que conecta con Uruguayana, Brasil, a través del Puente Internacional Agustín P. Justo–Getúlio Vargas. Este paso fronterizo constituye uno de los puntos de mayor movimiento de cargas del Mercosur y una conexión…"
-      ],
-      "keyData": [],
-      "topics": [
-        "Latinoamérica",
-        "Mercosur"
-      ],
-      "countries": [
-        "Brasil",
-        "Uruguay"
-      ],
-      "tags": [],
-      "visual": "globe",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Aduana News",
-      "sources": [
-        {
-          "name": "Aduana News",
-          "type": "Medio especializado · Argentina",
-          "url": "https://aduananews.com/el-gobierno-impulsa-la-concesion-del-centro-de-fronteras-paso-de-los-libres/?utm_source=rss&utm_medium=rss&utm_campaign=el-gobierno-impulsa-la-concesion-del-centro-de-fronteras-paso-de-los-libres",
-          "primary": true,
-          "author": "Aduana News"
-        }
-      ],
-      "digestSkip": {
-        "at": "2026-11-11T18:50:00-03:00",
-        "reason": "repite una nota de la redacción (concesión de Paso de los Libres)"
-      }
-    },
-    {
-      "id": "el-67-de-las-importaciones-del-rigi-podria-abastecerse-con-produccion-nacional",
-      "datetime": "2026-11-11T14:03:49Z",
-      "date": "2026-11-11",
-      "firstSeen": "2026-11-11T18:43:00Z",
-      "title": "El 67% de las importaciones del RIGI podría abastecerse con producción nacional",
-      "summary": "Un informe de la cmara que agrupa a los industriales de bienes de capital identific U$S362,7 millones en compras externas que tienen potencial de fabricacin local. El dato reabre el debate sobre el impacto del rgimen en la industria argentina y la participacin de las pymes como proveedoras de los grandes proyectos.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Importaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
-      "sources": [
-        {
-          "name": "Mendoza Post",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.mendozapost.com/memo/el-67-de-las-importaciones-del-rigi-podria-abastecerse-con-produccion-nacional-7317/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-11T18:43:00Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOemxsN1MyZ1U2MWNRUmpnLTBhNjFPQjRyNW5RazVGRHprNTR6cGh1Q3Z1bjY3ZkRLaE5LNjBFZ21GeGZEaHJ6aWp0T0NOaDBHMzE0NUV0SXBvcDRuNVdkWWw0Z24zb0pxNXhucEpWQ1FVLWlTeTk3UlY1T3lHV3h3RkxwY1ZrSEFRVWF4cmhfaVFDODdpZzltWUhycl9DY0owV1phYWh3a3c0WUJyTHo4WHZubmtXR1J30gG4AUFVX3lxTE56bGw3UzJnVTYxY1FSamctMGE2MU9CNHI1blFrNUZEems1NHpwaHVDdnVuNjdmREtoTks2MEVnbUZ4ZkRocnppanRPQ05oMEczMTQ1RXRJcG9wNG41V2RZbDRnbjNvSnE1eG5wSlZDUVUtaVN5OTdSVjVPeUdXeHdGTHBjVmtIQVFVYXhyaF9pUUM4N2lnOW1ZSHJyX0NjSjBXWmFhaHdrdzRZQnJMejhYdm5ua1dHUnc?oc=5",
-      "digestSkip": {
-        "at": "2026-11-11T18:50:00-03:00",
-        "reason": "repite una nota de la redacción (informe de CIPIBIC sobre importaciones del RIGI)"
-      }
+        "La Secretaría de Industria, Comercio y de la Pequeña y Mediana Empresa publicó este miércoles 11 de noviembre en el Boletín Oficial la Resolución 461/2026, que fija un procedimiento nuevo para importar prendas, complementos de vestir y sus partes usados, clasificados en las posiciones arancelarias NCM 6309.00.10 y 6309.00.90 y que llegan a granel, en fardos, sacos o envases similares. Según iProfesional, la firmó Pablo Agustín Lavigne, secretario de Coordinación de Producción, en ejercicio de las competencias del área.",
+        "La norma no cierra la importación de ropa usada, pero la condiciona a un trámite previo por cada operación, a un certificado técnico emitido en origen por un organismo acreditado y a controles al arribo con sanciones concretas. Además prohíbe en forma expresa el ingreso de calzado y ropa interior usados, cualquiera sea el tratamiento de limpieza que hayan recibido, y de los textiles que provengan de hospitales, sanatorios o veterinarias o que hayan estado en contacto con fluidos de personas o animales.",
+        "## Cómo se llegó hasta acá",
+        "Los considerandos, citados por iProfesional, recuerdan que la importación de ropa usada tiene restricciones desde 1991: el Decreto 2112/2010 la limitó por cinco años y el Decreto 333/2017 prorrogó el régimen hasta el 15 de mayo de 2022. La resolución se apoya en un informe de la Dirección Nacional de Control de Enfermedades Transmisibles del Ministerio de Salud y en un análisis de la Dirección de Industria Sostenible sobre cómo regulan este comercio Estados Unidos, Australia, Nueva Zelanda y la Unión Europea, además de la Ley de Defensa del Consumidor.",
+        "El antecedente inmediato es de diciembre de 2025. Según informó entonces El Cronista con datos del Centro Despachantes de Aduana, desde el 15 de ese mes el Sistema Informático Malvina empezó a exigir para estas dos posiciones un documento adicional, identificado como AUTO-ROPA-USADA y gestionado por la Subsecretaría de Política Industrial, porque ya no alcanzaba con el certificado de desinfección. En esa nota, la fundación textil ProTejer estimaba que entre enero y octubre de 2025 habían entrado ropa usada por USD 3.732.384 FOB y 3.521.456 kilos, con 84% del volumen por la aduana de Jujuy y Chile como principal procedencia.",
+        "## Qué tiene que certificar el exportador en origen",
+        "El Anexo II detalla los tratamientos. Las prendas deben lavarse a más de 71 °C durante más de 25 minutos, contados desde que toda la carga alcanza esa temperatura, según la norma australiana y neozelandesa AS/NZS 4146. También se exige eliminar insectos y ácaros con procesos de amplio espectro, con mención expresa a las chinches de cama, y que el textil termine con un pH de entre 5,5 y 7. Para prendas delicadas se admite la desinfección química, pero si se usa una sustancia distinta del hipoclorito de sodio debe tener registro vigente ante organismos como la EPA de Estados Unidos o el Instituto Robert Koch de Alemania.",
+        "El secado tiene que superar los 60 °C; si el textil no lo tolera, se acepta radiación ultravioleta u otro método que alcance costuras y pliegues. Después, la mercadería debe empaquetarse en forma hermética y rotularse según el tipo de prenda y si está destinada a niños, niñas y adolescentes o a adultos. Todo eso lo acredita un certificado emitido por un organismo de certificación de producto acreditado bajo la norma ISO/IEC 17065. Elonce indica que ese certificado debe estar validado previamente por el Organismo Argentino de Acreditación, mientras que iProfesional habla de organismos de países de alta vigilancia sanitaria y técnica.",
+        "## Qué cambia para importadores y despachantes",
+        "El importador debe iniciar en la plataforma Trámites a Distancia la «Solicitud para la importación de ropa usada» antes del embarque y por cada operación. Allí declara bajo juramento que la mercadería está en condiciones de uso y no proviene de establecimientos excluidos, y carga sus datos, CUIT, actividad, domicilio, documentación societaria, origen, destino y fecha estimada de embarque. La Dirección Nacional de Gestión y Control Normativo evalúa el pedido y la Subsecretaría de Defensa del Consumidor y Lealtad Comercial notifica el resultado. Los papeles deben conservarse durante 24 meses.",
+        "Si hay observaciones, el importador tiene 10 días hábiles para corregirlas; según Elonce, ese plazo puede ampliarse y, si no responde, el trámite se archiva como desistido. Si la presentación está completa y pasan 10 días hábiles sin respuesta, la operación queda habilitada. Desde la conformidad hay 90 días hábiles para despachar la mercadería.",
+        "## Controles al arribo y sanciones",
+        "Si al llegar la carga aparecen inconsistencias documentales o físicas, el importador debe reembarcarla a origen dentro de los 30 días corridos y a su costo, sin perjuicio de las acciones penales, sanitarias o aduaneras que correspondan. Quien reincida queda impedido de iniciar nuevos trámites durante 36 meses desde la notificación, y la Dirección Nacional informa esa situación a la Dirección General de Aduanas de ARCA.",
+        "## Qué falta definir",
+        "Voces Críticas informó que la resolución rige desde el jueves 12 de noviembre; iProfesional también ubica el inicio en un día 12, pero menciona el mes de septiembre, una fecha que no coincide con la de publicación. Voces Críticas señala además que algunos mecanismos de intercambio de información con la Aduana dependen de reglamentaciones complementarias de ARCA, que todavía no se conocen. Tampoco está claro si el documento AUTO-ROPA-USADA que pide hoy el sistema aduanero será reemplazado por la autorización de TAD o convivirá con ella: ninguna de las fuentes consultadas lo aclara."
+      ]
     },
     {
       "id": "el-mercado-del-cobre-enfrenta-senales-contradictorias-superavit-aranceles-y-exce",
@@ -1947,6 +2920,13 @@
           "url": "https://www.elinversorenergetico.com/exportaciones-mineras-de-argentina-marcan-record-de-us-4-742-millones-en-2026/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "iProfesional",
+          "type": "También publicó esta noticia",
+          "url": "https://www.iprofesional.com/energia/468863-exportaciones-mineras-alcanzan-record-de-6720-millones-dolares-septiembre-2026",
+          "alsoIn": true,
+          "title": "Exportaciones mineras alcanzan récord de u$s6.720 millones a septiembre"
         }
       ],
       "gnTried": "2026-11-11T18:43:00Z",
@@ -1960,7 +2940,14 @@
         "at": "2026-11-11T18:50:00-03:00",
         "basedOn": "https://www.elinversorenergetico.com/exportaciones-mineras-de-argentina-marcan-record-de-us-4-742-millones-en-2026/",
         "words": 140
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOVdzOGhZQ0NlSFY2VThRRHVYRGk2cVY2a3loc0NVYXAycGVDTTVvU2ZKNFZyMUhCNmtzUy0zRlZ3bmd1NjhxbU9TYjF3c3BkQ3YtVHZRZVBTTUI3bURSZENvQnBIZ1RLRmIyYkJya1hoN2JNT3RLOWtKNWthLWRURnVWQzk1MFNkcjhDdnZTT2E4U2didmtUaGNxa0d4V0c2a2JZOFpLb0lqYWttZHlMMkg5eXk2blFjY0wtRlBQTdIBxAFBVV95cUxQNzZnUXA0dVBmWTNxOUdxcnV0dnE3bGpDaFlxZ0UwTE5mYTFmVFhERGEtekE4WGlPVk1wTnZyazY4R09oZnZRRTRoZWpTV2RYVFV1Z0JKTHc2Vm13WXQxRjh2SXZNVnY0Z3dtaEI4amp5OXNsTXhHV1NCSHcwcFFyWGFmSS1Dbi1YOHFYc3RLLUotY3dpbWFfWmdNVGFNOFNPdzU4UmN0V25MRmFEaE1rTHFzY19ybzNiR09pNGtSa0lIVFlJ",
+        "https://www.iprofesional.com/energia/468863-exportaciones-mineras-alcanzan-record-de-6720-millones-dolares-septiembre-2026"
+      ],
+      "mergedIds": [
+        "exportaciones-mineras-alcanzan-record-de-u-s6-720-millones-a-septiembre"
+      ]
     },
     {
       "id": "portcastello-afianza-alianza-comercial-con-turquia-al-superar-2-millones-de-tone",
@@ -2540,6 +3527,147 @@
       ],
       "absorbs": [
         "lula-aumenta-los-aranceles-para-importar-neumaticos-a-causa-de-los-chinos"
+      ]
+    },
+    {
+      "id": "decreto-1350-2026-paso-de-los-libres-cotecar-concesion-20-anos-iniciativa-privada",
+      "date": "2026-11-11",
+      "kind": "noticia",
+      "title": "Paso de los Libres: el Gobierno declaró de interés público la concesión del paso de cargas con Brasil por 20 años",
+      "summary": "El Decreto 1350/2026 habilita a licitar la operación y modernización del Centro de Fronteras Paso de los Libres (COTECAR y Área de Control Integrado) sobre la base de la única de ocho iniciativas privadas que superó la admisibilidad. Las obras las financiaría el concesionario, sin fondos públicos.",
+      "topics": [
+        "Argentina",
+        "Mercosur",
+        "Logística",
+        "Aduanas"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil"
+      ],
+      "tags": [
+        "Paso de los Libres",
+        "COTECAR",
+        "Decreto 1350/2026",
+        "Iniciativa privada",
+        "Concesiones",
+        "Uruguayana",
+        "Pasos fronterizos"
+      ],
+      "visual": "truck",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "Por Paso de los Libres pasa buena parte del comercio por camión con Brasil. Si la licitación prospera, la playa de camiones, el pesaje, la inspección no intrusiva y los servicios para choferes quedarán a cargo de un operador privado durante 20 años.",
+      "argentinaImpact": {
+        "change": "Se declaró de interés público la iniciativa privada para concesionar por 20 años, prorrogables por 5, el COTECAR y el Área de Control Integrado de Paso de los Libres; la Jefatura de Gabinete deberá armar los pliegos y llamar a licitación pública.",
+        "who": "Transportistas de cargas, exportadores e importadores que operan con Brasil por Corrientes, despachantes y los organismos de control que trabajan en el paso.",
+        "sectors": [
+          "Transporte de cargas por carretera",
+          "Logística"
+        ],
+        "flows": {
+          "importaciones": true,
+          "exportaciones": true,
+          "logistica": true,
+          "aranceles": false
+        }
+      },
+      "keyData": [
+        [
+          "Plazo de la concesión",
+          "20 años, prorrogables por 5"
+        ],
+        [
+          "Norma",
+          "Decreto 1350/2026 (BO del 11/11/2026)"
+        ],
+        [
+          "Propuestas presentadas",
+          "8 (7 desestimadas en admisibilidad)"
+        ],
+        [
+          "Grupo promotor",
+          "Empresa General Urquiza, Servicios Logísticos Integrados y Da Fré Obras Civiles"
+        ],
+        [
+          "Superficie del complejo",
+          "94 hectáreas"
+        ],
+        [
+          "Parque solar previsto",
+          "1 MW de capacidad inicial"
+        ],
+        [
+          "Fondos públicos para las obras",
+          "ninguno"
+        ]
+      ],
+      "explainer": {
+        "what": "El Decreto 1350/2026 declaró de interés público la iniciativa privada de un grupo de tres empresas para concesionar por 20 años, prorrogables por 5, el Centro de Fronteras Paso de los Libres, con su terminal de cargas (COTECAR) y su Área de Control Integrado.",
+        "why": "Es uno de los pasos de camiones más importantes con Brasil y su infraestructura (pavimento, pesaje, escáneres, playas) pasaría a mejorarse y operarse con inversión privada, sin fondos públicos.",
+        "who": "Transportistas y operadores de comercio exterior que cruzan a Uruguayana, despachantes y organismos de control del paso.",
+        "products": [
+          "Cargas por camión entre Argentina y Brasil"
+        ],
+        "next": "La Jefatura de Gabinete debe elaborar y aprobar los pliegos, con intervención previa del Ministerio de Economía, y convocar a una licitación pública; el concesionario saldrá de esa licitación.",
+        "nextSource": {
+          "name": "CIRA (texto del Decreto 1350/2026)",
+          "url": "https://www.cira.org.ar/es/servicios/normativas-servicios/decreto/decreto-1350-2026/"
+        }
+      },
+      "story": "logistica-regional",
+      "absorbs": [
+        "el-gobierno-habilito-la-unica-propuesta-para-concesionar-la-segunda-aduana-terre",
+        "el-gobierno-impulsa-la-concesion-del-centro-de-fronteras-paso-de-los-libres"
+      ],
+      "sources": [
+        {
+          "name": "CIRA (texto del Decreto 1350/2026)",
+          "type": "Cámara empresaria · texto oficial",
+          "url": "https://www.cira.org.ar/es/servicios/normativas-servicios/decreto/decreto-1350-2026/",
+          "primary": true
+        },
+        {
+          "name": "El Litoral",
+          "type": "Medio de comunicación",
+          "url": "https://www.ellitoral.com.ar/nacional/2026-11-11-11-30-0-el-gobierno-avanza-con-la-concesion-privada-del-complejo-fronterizo-de-paso-de-los-libres"
+        },
+        {
+          "name": "Perfil",
+          "type": "Medio de comunicación",
+          "url": "https://perfil.com/nea/el-gobierno-avanza-con-la-concesion-privada-en-paso-de-los-libres-el-plan-para-modernizar-el-cotecar-ayAX25b8szHc"
+        },
+        {
+          "name": "Economis",
+          "type": "Medio de comunicación",
+          "url": "https://economis.com.ar/declaran-de-interes-publico-la-concesion-del-cotecar-de-paso-de-los-libres/"
+        },
+        {
+          "name": "El Cronista (febrero de 2025)",
+          "type": "Medio de comunicación",
+          "url": "https://www.cronista.com/economia-politica/centro-de-fronteras-paso-de-los-libres-el-gobierno-abrio-los-sobres-para-el-desarrollo-del-complejo-terminal-de-cargas"
+        },
+        {
+          "name": "Letra P (octubre de 2024)",
+          "type": "Medio de comunicación",
+          "url": "https://www.letrap.com.ar/economia/javier-milei-activo-un-resorte-la-ley-bases-y-concesiona-25-anos-un-paso-fronterizo-clave-brasil-n5411788"
+        }
+      ],
+      "body": [
+        "El Gobierno nacional publicó este miércoles 11 de noviembre en el Boletín Oficial el Decreto 1350/2026, firmado el 6 de noviembre por Javier Milei y Diego Santilli, que declara de interés público la iniciativa privada para concesionar el Centro de Fronteras Paso de los Libres, en Corrientes, frente a la ciudad brasileña de Uruguayana. La concesión abarca el uso, la explotación, la operación y la administración del Complejo Terminal de Cargas (COTECAR) y del Área de Control Integrado (ACI), e incluye su ampliación, puesta en valor y modernización.",
+        "El plazo previsto es de 20 años, prorrogables por otros 5, y la concesión será onerosa. Según el texto del decreto, que reproduce la Cámara de Importadores (CIRA), el futuro concesionario financiará la totalidad de las inversiones y asumirá el riesgo empresario, sin que el Estado aporte fondos públicos para las obras. La declaración no adjudica nada: quién opere el paso saldrá de una licitación pública.",
+        "## Una sola propuesta en pie",
+        "El proceso empezó con la Resolución 112 de la Vicejefatura de Gabinete del Interior, del 8 de octubre de 2024, que convocó a presentar iniciativas privadas en el marco del artículo 4 de la Ley 17.520, sustituido por la Ley 27.742, y del Decreto 713/2024, que reglamenta ese régimen. Una segunda resolución, la 172 del 9 de diciembre de 2024, extendió el plazo hasta el 3 de febrero de 2025. El 10 de febrero de ese año, según informó El Cronista, se abrieron los sobres en un acto encabezado por el vicejefe de Gabinete del Interior, Lisandro Catalán.",
+        "De acuerdo con los considerandos, llegaron ocho propuestas y siete quedaron afuera en la etapa de admisibilidad. La única elegible fue la de un grupo promotor integrado por Empresa General Urquiza S.R.L., Servicios Logísticos Integrados S.R.L. y Da Fré Obras Civiles S.A. Ese grupo presentó dos alternativas, pero la garantía de mantenimiento de oferta solo cubría la primera, por lo que fue la única evaluada y la que ahora se declara de interés público. La evaluación quedó a cargo de la Dirección Nacional de Asuntos Técnicos de Fronteras.",
+        "## Qué obras y servicios prevé el proyecto",
+        "El proyecto incluye recuperar las áreas operativas, repavimentar calzadas, renovar iluminación y señalización y rehabilitar el Centro de Control Operativo. También prevé actualizar los sistemas de pesaje, la protección contra incendios y la seguridad perimetral, e incorporar tecnología de inspección no intrusiva, que permite revisar la carga sin abrir los vehículos. Los edificios del ACI se pondrían en valor y la terminal de ómnibus se trasladaría dentro del mismo predio, que según El Litoral y Perfil ocupa 94 hectáreas.",
+        "Para los choferes se proyectan alojamiento, áreas comerciales, estación de servicio, taller mecánico, gomería y lavadero con reutilización de agua, además de una unidad de atención médica rápida, espacios deportivos y transporte interno con minibuses. El plan suma un parque solar fotovoltaico de 1 MW de capacidad inicial, ampliable, para abastecer al complejo y volcar excedentes a la red. Ninguna de las fuentes consultadas informa el monto de la inversión comprometida.",
+        "## Cuánto tránsito mueve el paso",
+        "Las cifras de tránsito varían según la fuente y el momento. Perfil habla de alrededor de 600 camiones por día. En febrero de 2025, el Gobierno destacaba que circulaban en promedio más de mil camiones diarios, que la playa tiene capacidad para unos 900 y que se trata del primer paso fronterizo del interior y de la segunda aduana en importancia del país, según recogió El Cronista. Al lanzarse la convocatoria, Letra P informaba un promedio de 1.547.031 vehículos por año, de los cuales 13,7% eran camiones, y que el complejo funciona desde 1982 bajo gestión estatal.",
+        "En el predio trabajan Gendarmería, Migraciones, la Aduana, el SENASA, la ANMAT, el INAL y la CNRT, según la descripción de 2024. El decreto se refiere a la infraestructura y los servicios del complejo y no menciona cambios en las funciones de esos organismos.",
+        "## Qué sigue",
+        "El decreto encarga a la Jefatura de Gabinete conducir la selección del concesionario y elaborar y aprobar los pliegos de bases y condiciones particulares, con intervención previa del Ministerio de Economía. La licitación deberá fijar las condiciones definitivas de inversión, operación, mantenimiento y reinversión, la distribución de riesgos, las garantías, los indicadores de desempeño y las penalidades. No hay fecha para el llamado.",
+        "Cuando se abrió la convocatoria, Letra P describía las ventajas que el régimen da al autor de la iniciativa en la licitación posterior y mencionaba un plazo de 25 años; el proyecto declarado ahora fija 20 años con una prórroga posible de 5. El decreto tampoco detalla las tarifas que podrá cobrar el operador, un punto que interesa a los transportistas y que debería quedar definido en los pliegos."
       ]
     },
     {
@@ -7715,12 +8843,25 @@
           "url": "https://portalportuario.cl/gobierno-anuncia-proyecto-de-ley-para-contener-alzas-en-precios-del-combustible/",
           "primary": true,
           "author": "Luis Alonso"
+        },
+        {
+          "name": "PortalPortuario",
+          "type": "También publicó esta noticia",
+          "url": "https://portalportuario.cl/gobierno-presentara-proyecto-de-ley-para-congelar-precios-del-combustible-hasta-febrero-de-2027/",
+          "alsoIn": true,
+          "title": "Gobierno presentará proyecto de ley para congelar precios del combustible hasta febrero de 2027"
         }
       ],
       "digestSkip": {
         "at": "2026-11-09T21:55:27-03:00",
         "reason": "fuera de tema (precios internos de combustibles en Chile)"
-      }
+      },
+      "aliasUrls": [
+        "https://portalportuario.cl/gobierno-presentara-proyecto-de-ley-para-congelar-precios-del-combustible-hasta-febrero-de-2027"
+      ],
+      "mergedIds": [
+        "gobierno-presentara-proyecto-de-ley-para-congelar-precios-del-combustible-hasta"
+      ]
     },
     {
       "id": "explotaron-las-exportaciones-de-yerba-mate",
@@ -11463,7 +12604,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-11-11T02:47:19Z",
+      "gnTried": "2026-11-12T01:32:20Z",
       "digestSkip": {
         "at": "2026-11-08T12:00:00-03:00",
         "reason": "fuente no legible (enlace de Google Noticias demasiado largo para la herramienta) y sin otro medio con la misma noticia"
@@ -136953,292 +138094,17 @@
         }
       },
       "updated": "2026-10-21T12:00:00-03:00"
-    },
-    {
-      "id": "resolucion-461-2026-ropa-usada-importacion-certificacion-prohibe-calzado-ropa-interior",
-      "date": "2026-11-11",
-      "datetime": "2026-11-11T09:40:00-03:00",
-      "kind": "noticia",
-      "title": "Ropa usada: la Resolución 461/2026 exige certificación previa por cada embarque y prohíbe importar calzado y ropa interior",
-      "summary": "La Secretaría de Industria y Comercio fijó un procedimiento para importar prendas usadas de las posiciones 6309.00.10 y 6309.00.90: trámite en TAD antes de embarcar, certificado de un organismo acreditado con lavado a más de 71 °C, reembarco en 30 días si algo no coincide y 36 meses de bloqueo a los reincidentes.",
-      "topics": [
-        "Argentina",
-        "Importaciones",
-        "Aduanas",
-        "Regulaciones"
-      ],
-      "countries": [
-        "Argentina",
-        "Chile"
-      ],
-      "tags": [
-        "Ropa usada",
-        "Resolución 461/2026",
-        "Textiles",
-        "Bienes usados",
-        "TAD",
-        "ISO/IEC 17065",
-        "NCM 6309"
-      ],
-      "visual": "textile",
-      "impact": 2,
-      "affectsArgentina": true,
-      "argentinaNote": "Quien importe ropa usada en fardos o a granel tiene que tramitar una autorización por cada operación antes del embarque y presentar un certificado de lavado y desinfección emitido por un organismo acreditado. El calzado y la ropa interior usados quedan fuera, y los incumplimientos se pagan con el reembarco de la carga y, si se repiten, con tres años sin poder importar.",
-      "argentinaImpact": {
-        "change": "La importación de prendas usadas (NCM 6309.00.10 y 6309.00.90) pasa a requerir un trámite previo por operación en TAD con certificación de un organismo acreditado bajo ISO/IEC 17065; se prohíben el calzado y la ropa interior usados.",
-        "who": "Importadores de ropa usada, despachantes de aduana, organismos certificadores y comercios que venden prendas de segunda mano importadas.",
-        "sectors": [
-          "Textil e indumentaria",
-          "Comercio minorista"
-        ],
-        "flows": {
-          "importaciones": true,
-          "exportaciones": false,
-          "logistica": true,
-          "aranceles": false
-        }
-      },
-      "keyData": [
-        [
-          "Norma",
-          "Resolución 461/2026 (Secretaría de Industria y Comercio)"
-        ],
-        [
-          "Posiciones alcanzadas",
-          "NCM 6309.00.10 y 6309.00.90"
-        ],
-        [
-          "Prohibidos",
-          "calzado y ropa interior usados; textiles hospitalarios"
-        ],
-        [
-          "Lavado exigido",
-          "más de 71 °C durante más de 25 minutos"
-        ],
-        [
-          "Plazo para despachar tras la conformidad",
-          "90 días hábiles"
-        ],
-        [
-          "Si la carga no coincide",
-          "reembarco en 30 días corridos"
-        ],
-        [
-          "Sanción por reiteración",
-          "36 meses sin poder importar"
-        ]
-      ],
-      "explainer": {
-        "what": "El Gobierno publicó la Resolución 461/2026, que obliga a tramitar en TAD una autorización por cada embarque de ropa usada, con certificado de lavado y desinfección de un organismo acreditado, y prohíbe importar calzado y ropa interior usados.",
-        "why": "Desde diciembre de 2025 el sistema aduanero ya pedía un documento extra para estas posiciones; ahora hay requisitos técnicos detallados, plazos y sanciones: reembarco en 30 días corridos ante inconsistencias y 36 meses de bloqueo a quien reincida.",
-        "who": "Importadores de ropa usada, despachantes, organismos certificadores de los países de origen y comercios de prendas de segunda mano.",
-        "products": [
-          "Prendas de vestir usadas",
-          "Complementos de vestir usados",
-          "Trapos y textiles usados en fardos (NCM 6309)"
-        ],
-        "next": "Según Voces Críticas, la norma rige desde el jueves 12 de noviembre, aunque parte del intercambio de información con la Aduana depende de reglamentaciones complementarias de ARCA.",
-        "nextSource": {
-          "name": "Voces Críticas",
-          "url": "https://www.vocescriticas.com/noticias/2026/11/11/225731-cambian-las-reglas-para-importar-ropa-usada-en-argentina-que-productos-no-podran-ingresar-al-pais"
-        }
-      },
-      "story": "bienes-usados",
-      "absorbs": [
-        "argentina-establece-nuevos-requisitos-para-importar-prendas-y-articulos-textiles"
-      ],
-      "sources": [
-        {
-          "name": "iProfesional",
-          "type": "Medio de comunicación",
-          "url": "https://www.iprofesional.com/negocios/468783-importacion-de-ropa-usada-el-gobierno-prohibe-calzado-y-ropa-interior",
-          "primary": true
-        },
-        {
-          "name": "Elonce",
-          "type": "Medio de comunicación",
-          "url": "https://www.elonce.com/sociedad/establecieron-nuevos-requisitos-para-la-importacion-de-ropa-usada.htm"
-        },
-        {
-          "name": "Voces Críticas",
-          "type": "Medio de comunicación",
-          "url": "https://www.vocescriticas.com/noticias/2026/11/11/225731-cambian-las-reglas-para-importar-ropa-usada-en-argentina-que-productos-no-podran-ingresar-al-pais"
-        },
-        {
-          "name": "El Cronista (diciembre de 2025)",
-          "type": "Medio de comunicación",
-          "url": "https://www.cronista.com/economia-politica/alerta-por-importaciones-aduana-endurece-los-controles-tras-un-salto-exponencial-de-estos-productos"
-        }
-      ],
-      "body": [
-        "La Secretaría de Industria, Comercio y de la Pequeña y Mediana Empresa publicó este miércoles 11 de noviembre en el Boletín Oficial la Resolución 461/2026, que fija un procedimiento nuevo para importar prendas, complementos de vestir y sus partes usados, clasificados en las posiciones arancelarias NCM 6309.00.10 y 6309.00.90 y que llegan a granel, en fardos, sacos o envases similares. Según iProfesional, la firmó Pablo Agustín Lavigne, secretario de Coordinación de Producción, en ejercicio de las competencias del área.",
-        "La norma no cierra la importación de ropa usada, pero la condiciona a un trámite previo por cada operación, a un certificado técnico emitido en origen por un organismo acreditado y a controles al arribo con sanciones concretas. Además prohíbe en forma expresa el ingreso de calzado y ropa interior usados, cualquiera sea el tratamiento de limpieza que hayan recibido, y de los textiles que provengan de hospitales, sanatorios o veterinarias o que hayan estado en contacto con fluidos de personas o animales.",
-        "## Cómo se llegó hasta acá",
-        "Los considerandos, citados por iProfesional, recuerdan que la importación de ropa usada tiene restricciones desde 1991: el Decreto 2112/2010 la limitó por cinco años y el Decreto 333/2017 prorrogó el régimen hasta el 15 de mayo de 2022. La resolución se apoya en un informe de la Dirección Nacional de Control de Enfermedades Transmisibles del Ministerio de Salud y en un análisis de la Dirección de Industria Sostenible sobre cómo regulan este comercio Estados Unidos, Australia, Nueva Zelanda y la Unión Europea, además de la Ley de Defensa del Consumidor.",
-        "El antecedente inmediato es de diciembre de 2025. Según informó entonces El Cronista con datos del Centro Despachantes de Aduana, desde el 15 de ese mes el Sistema Informático Malvina empezó a exigir para estas dos posiciones un documento adicional, identificado como AUTO-ROPA-USADA y gestionado por la Subsecretaría de Política Industrial, porque ya no alcanzaba con el certificado de desinfección. En esa nota, la fundación textil ProTejer estimaba que entre enero y octubre de 2025 habían entrado ropa usada por USD 3.732.384 FOB y 3.521.456 kilos, con 84% del volumen por la aduana de Jujuy y Chile como principal procedencia.",
-        "## Qué tiene que certificar el exportador en origen",
-        "El Anexo II detalla los tratamientos. Las prendas deben lavarse a más de 71 °C durante más de 25 minutos, contados desde que toda la carga alcanza esa temperatura, según la norma australiana y neozelandesa AS/NZS 4146. También se exige eliminar insectos y ácaros con procesos de amplio espectro, con mención expresa a las chinches de cama, y que el textil termine con un pH de entre 5,5 y 7. Para prendas delicadas se admite la desinfección química, pero si se usa una sustancia distinta del hipoclorito de sodio debe tener registro vigente ante organismos como la EPA de Estados Unidos o el Instituto Robert Koch de Alemania.",
-        "El secado tiene que superar los 60 °C; si el textil no lo tolera, se acepta radiación ultravioleta u otro método que alcance costuras y pliegues. Después, la mercadería debe empaquetarse en forma hermética y rotularse según el tipo de prenda y si está destinada a niños, niñas y adolescentes o a adultos. Todo eso lo acredita un certificado emitido por un organismo de certificación de producto acreditado bajo la norma ISO/IEC 17065. Elonce indica que ese certificado debe estar validado previamente por el Organismo Argentino de Acreditación, mientras que iProfesional habla de organismos de países de alta vigilancia sanitaria y técnica.",
-        "## Qué cambia para importadores y despachantes",
-        "El importador debe iniciar en la plataforma Trámites a Distancia la «Solicitud para la importación de ropa usada» antes del embarque y por cada operación. Allí declara bajo juramento que la mercadería está en condiciones de uso y no proviene de establecimientos excluidos, y carga sus datos, CUIT, actividad, domicilio, documentación societaria, origen, destino y fecha estimada de embarque. La Dirección Nacional de Gestión y Control Normativo evalúa el pedido y la Subsecretaría de Defensa del Consumidor y Lealtad Comercial notifica el resultado. Los papeles deben conservarse durante 24 meses.",
-        "Si hay observaciones, el importador tiene 10 días hábiles para corregirlas; según Elonce, ese plazo puede ampliarse y, si no responde, el trámite se archiva como desistido. Si la presentación está completa y pasan 10 días hábiles sin respuesta, la operación queda habilitada. Desde la conformidad hay 90 días hábiles para despachar la mercadería.",
-        "## Controles al arribo y sanciones",
-        "Si al llegar la carga aparecen inconsistencias documentales o físicas, el importador debe reembarcarla a origen dentro de los 30 días corridos y a su costo, sin perjuicio de las acciones penales, sanitarias o aduaneras que correspondan. Quien reincida queda impedido de iniciar nuevos trámites durante 36 meses desde la notificación, y la Dirección Nacional informa esa situación a la Dirección General de Aduanas de ARCA.",
-        "## Qué falta definir",
-        "Voces Críticas informó que la resolución rige desde el jueves 12 de noviembre; iProfesional también ubica el inicio en un día 12, pero menciona el mes de septiembre, una fecha que no coincide con la de publicación. Voces Críticas señala además que algunos mecanismos de intercambio de información con la Aduana dependen de reglamentaciones complementarias de ARCA, que todavía no se conocen. Tampoco está claro si el documento AUTO-ROPA-USADA que pide hoy el sistema aduanero será reemplazado por la autorización de TAD o convivirá con ella: ninguna de las fuentes consultadas lo aclara."
-      ]
-    },
-    {
-      "id": "decreto-1350-2026-paso-de-los-libres-cotecar-concesion-20-anos-iniciativa-privada",
-      "date": "2026-11-11",
-      "kind": "noticia",
-      "title": "Paso de los Libres: el Gobierno declaró de interés público la concesión del paso de cargas con Brasil por 20 años",
-      "summary": "El Decreto 1350/2026 habilita a licitar la operación y modernización del Centro de Fronteras Paso de los Libres (COTECAR y Área de Control Integrado) sobre la base de la única de ocho iniciativas privadas que superó la admisibilidad. Las obras las financiaría el concesionario, sin fondos públicos.",
-      "topics": [
-        "Argentina",
-        "Mercosur",
-        "Logística",
-        "Aduanas"
-      ],
-      "countries": [
-        "Argentina",
-        "Brasil"
-      ],
-      "tags": [
-        "Paso de los Libres",
-        "COTECAR",
-        "Decreto 1350/2026",
-        "Iniciativa privada",
-        "Concesiones",
-        "Uruguayana",
-        "Pasos fronterizos"
-      ],
-      "visual": "truck",
-      "impact": 2,
-      "affectsArgentina": true,
-      "argentinaNote": "Por Paso de los Libres pasa buena parte del comercio por camión con Brasil. Si la licitación prospera, la playa de camiones, el pesaje, la inspección no intrusiva y los servicios para choferes quedarán a cargo de un operador privado durante 20 años.",
-      "argentinaImpact": {
-        "change": "Se declaró de interés público la iniciativa privada para concesionar por 20 años, prorrogables por 5, el COTECAR y el Área de Control Integrado de Paso de los Libres; la Jefatura de Gabinete deberá armar los pliegos y llamar a licitación pública.",
-        "who": "Transportistas de cargas, exportadores e importadores que operan con Brasil por Corrientes, despachantes y los organismos de control que trabajan en el paso.",
-        "sectors": [
-          "Transporte de cargas por carretera",
-          "Logística"
-        ],
-        "flows": {
-          "importaciones": true,
-          "exportaciones": true,
-          "logistica": true,
-          "aranceles": false
-        }
-      },
-      "keyData": [
-        [
-          "Plazo de la concesión",
-          "20 años, prorrogables por 5"
-        ],
-        [
-          "Norma",
-          "Decreto 1350/2026 (BO del 11/11/2026)"
-        ],
-        [
-          "Propuestas presentadas",
-          "8 (7 desestimadas en admisibilidad)"
-        ],
-        [
-          "Grupo promotor",
-          "Empresa General Urquiza, Servicios Logísticos Integrados y Da Fré Obras Civiles"
-        ],
-        [
-          "Superficie del complejo",
-          "94 hectáreas"
-        ],
-        [
-          "Parque solar previsto",
-          "1 MW de capacidad inicial"
-        ],
-        [
-          "Fondos públicos para las obras",
-          "ninguno"
-        ]
-      ],
-      "explainer": {
-        "what": "El Decreto 1350/2026 declaró de interés público la iniciativa privada de un grupo de tres empresas para concesionar por 20 años, prorrogables por 5, el Centro de Fronteras Paso de los Libres, con su terminal de cargas (COTECAR) y su Área de Control Integrado.",
-        "why": "Es uno de los pasos de camiones más importantes con Brasil y su infraestructura (pavimento, pesaje, escáneres, playas) pasaría a mejorarse y operarse con inversión privada, sin fondos públicos.",
-        "who": "Transportistas y operadores de comercio exterior que cruzan a Uruguayana, despachantes y organismos de control del paso.",
-        "products": [
-          "Cargas por camión entre Argentina y Brasil"
-        ],
-        "next": "La Jefatura de Gabinete debe elaborar y aprobar los pliegos, con intervención previa del Ministerio de Economía, y convocar a una licitación pública; el concesionario saldrá de esa licitación.",
-        "nextSource": {
-          "name": "CIRA (texto del Decreto 1350/2026)",
-          "url": "https://www.cira.org.ar/es/servicios/normativas-servicios/decreto/decreto-1350-2026/"
-        }
-      },
-      "story": "logistica-regional",
-      "absorbs": [
-        "el-gobierno-habilito-la-unica-propuesta-para-concesionar-la-segunda-aduana-terre",
-        "el-gobierno-impulsa-la-concesion-del-centro-de-fronteras-paso-de-los-libres"
-      ],
-      "sources": [
-        {
-          "name": "CIRA (texto del Decreto 1350/2026)",
-          "type": "Cámara empresaria · texto oficial",
-          "url": "https://www.cira.org.ar/es/servicios/normativas-servicios/decreto/decreto-1350-2026/",
-          "primary": true
-        },
-        {
-          "name": "El Litoral",
-          "type": "Medio de comunicación",
-          "url": "https://www.ellitoral.com.ar/nacional/2026-11-11-11-30-0-el-gobierno-avanza-con-la-concesion-privada-del-complejo-fronterizo-de-paso-de-los-libres"
-        },
-        {
-          "name": "Perfil",
-          "type": "Medio de comunicación",
-          "url": "https://perfil.com/nea/el-gobierno-avanza-con-la-concesion-privada-en-paso-de-los-libres-el-plan-para-modernizar-el-cotecar-ayAX25b8szHc"
-        },
-        {
-          "name": "Economis",
-          "type": "Medio de comunicación",
-          "url": "https://economis.com.ar/declaran-de-interes-publico-la-concesion-del-cotecar-de-paso-de-los-libres/"
-        },
-        {
-          "name": "El Cronista (febrero de 2025)",
-          "type": "Medio de comunicación",
-          "url": "https://www.cronista.com/economia-politica/centro-de-fronteras-paso-de-los-libres-el-gobierno-abrio-los-sobres-para-el-desarrollo-del-complejo-terminal-de-cargas"
-        },
-        {
-          "name": "Letra P (octubre de 2024)",
-          "type": "Medio de comunicación",
-          "url": "https://www.letrap.com.ar/economia/javier-milei-activo-un-resorte-la-ley-bases-y-concesiona-25-anos-un-paso-fronterizo-clave-brasil-n5411788"
-        }
-      ],
-      "body": [
-        "El Gobierno nacional publicó este miércoles 11 de noviembre en el Boletín Oficial el Decreto 1350/2026, firmado el 6 de noviembre por Javier Milei y Diego Santilli, que declara de interés público la iniciativa privada para concesionar el Centro de Fronteras Paso de los Libres, en Corrientes, frente a la ciudad brasileña de Uruguayana. La concesión abarca el uso, la explotación, la operación y la administración del Complejo Terminal de Cargas (COTECAR) y del Área de Control Integrado (ACI), e incluye su ampliación, puesta en valor y modernización.",
-        "El plazo previsto es de 20 años, prorrogables por otros 5, y la concesión será onerosa. Según el texto del decreto, que reproduce la Cámara de Importadores (CIRA), el futuro concesionario financiará la totalidad de las inversiones y asumirá el riesgo empresario, sin que el Estado aporte fondos públicos para las obras. La declaración no adjudica nada: quién opere el paso saldrá de una licitación pública.",
-        "## Una sola propuesta en pie",
-        "El proceso empezó con la Resolución 112 de la Vicejefatura de Gabinete del Interior, del 8 de octubre de 2024, que convocó a presentar iniciativas privadas en el marco del artículo 4 de la Ley 17.520, sustituido por la Ley 27.742, y del Decreto 713/2024, que reglamenta ese régimen. Una segunda resolución, la 172 del 9 de diciembre de 2024, extendió el plazo hasta el 3 de febrero de 2025. El 10 de febrero de ese año, según informó El Cronista, se abrieron los sobres en un acto encabezado por el vicejefe de Gabinete del Interior, Lisandro Catalán.",
-        "De acuerdo con los considerandos, llegaron ocho propuestas y siete quedaron afuera en la etapa de admisibilidad. La única elegible fue la de un grupo promotor integrado por Empresa General Urquiza S.R.L., Servicios Logísticos Integrados S.R.L. y Da Fré Obras Civiles S.A. Ese grupo presentó dos alternativas, pero la garantía de mantenimiento de oferta solo cubría la primera, por lo que fue la única evaluada y la que ahora se declara de interés público. La evaluación quedó a cargo de la Dirección Nacional de Asuntos Técnicos de Fronteras.",
-        "## Qué obras y servicios prevé el proyecto",
-        "El proyecto incluye recuperar las áreas operativas, repavimentar calzadas, renovar iluminación y señalización y rehabilitar el Centro de Control Operativo. También prevé actualizar los sistemas de pesaje, la protección contra incendios y la seguridad perimetral, e incorporar tecnología de inspección no intrusiva, que permite revisar la carga sin abrir los vehículos. Los edificios del ACI se pondrían en valor y la terminal de ómnibus se trasladaría dentro del mismo predio, que según El Litoral y Perfil ocupa 94 hectáreas.",
-        "Para los choferes se proyectan alojamiento, áreas comerciales, estación de servicio, taller mecánico, gomería y lavadero con reutilización de agua, además de una unidad de atención médica rápida, espacios deportivos y transporte interno con minibuses. El plan suma un parque solar fotovoltaico de 1 MW de capacidad inicial, ampliable, para abastecer al complejo y volcar excedentes a la red. Ninguna de las fuentes consultadas informa el monto de la inversión comprometida.",
-        "## Cuánto tránsito mueve el paso",
-        "Las cifras de tránsito varían según la fuente y el momento. Perfil habla de alrededor de 600 camiones por día. En febrero de 2025, el Gobierno destacaba que circulaban en promedio más de mil camiones diarios, que la playa tiene capacidad para unos 900 y que se trata del primer paso fronterizo del interior y de la segunda aduana en importancia del país, según recogió El Cronista. Al lanzarse la convocatoria, Letra P informaba un promedio de 1.547.031 vehículos por año, de los cuales 13,7% eran camiones, y que el complejo funciona desde 1982 bajo gestión estatal.",
-        "En el predio trabajan Gendarmería, Migraciones, la Aduana, el SENASA, la ANMAT, el INAL y la CNRT, según la descripción de 2024. El decreto se refiere a la infraestructura y los servicios del complejo y no menciona cambios en las funciones de esos organismos.",
-        "## Qué sigue",
-        "El decreto encarga a la Jefatura de Gabinete conducir la selección del concesionario y elaborar y aprobar los pliegos de bases y condiciones particulares, con intervención previa del Ministerio de Economía. La licitación deberá fijar las condiciones definitivas de inversión, operación, mantenimiento y reinversión, la distribución de riesgos, las garantías, los indicadores de desempeño y las penalidades. No hay fecha para el llamado.",
-        "Cuando se abrió la convocatoria, Letra P describía las ventajas que el régimen da al autor de la iniciativa en la licitación posterior y mencionaba un plazo de 25 años; el proyecto declarado ahora fija 20 años con una prórroga posible de 5. El decreto tampoco detalla las tarifas que podrá cobrar el operador, un punto que interesa a los transportistas y que debería quedar definido en los pliegos."
-      ]
     }
   ],
   "ingestion": {
-    "ranAt": "2026-11-11T18:43:00Z",
+    "ranAt": "2026-11-12T01:32:20Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
         "url": "https://www.wto.org/library/rss/latest_news_s.xml",
         "ok": true,
         "items": 8,
-        "added": 2,
+        "added": 0,
         "updated": 0,
         "skipped": 1
       },
@@ -137247,7 +138113,7 @@
         "url": "https://www.aduananews.com/feed/",
         "ok": true,
         "items": 12,
-        "added": 2,
+        "added": 1,
         "updated": 0,
         "skipped": 2
       },
@@ -137256,24 +138122,24 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 9,
+        "added": 11,
         "updated": 0,
-        "skipped": 6
+        "skipped": 4
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 23,
+        "items": 24,
         "added": 2,
         "updated": 0,
-        "skipped": 10
+        "skipped": 14
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 24,
+        "items": 25,
         "added": 4,
         "updated": 0,
         "skipped": 15
@@ -137282,17 +138148,17 @@
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 44,
+        "items": 51,
         "added": 4,
         "updated": 0,
-        "skipped": 18
+        "skipped": 25
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 25,
-        "added": 2,
+        "items": 23,
+        "added": 1,
         "updated": 0,
         "skipped": 10
       },
@@ -137300,19 +138166,19 @@
         "source": "Google Noticias · Aranceles y comercio internacional",
         "url": "https://news.google.com/rss/search?q=(aranceles+OR+%22guerra+comercial%22+OR+%22acuerdo+comercial%22)+when:1d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 44,
+        "items": 59,
         "added": 4,
         "updated": 0,
-        "skipped": 30
+        "skipped": 48
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 55,
+        "items": 59,
         "added": 4,
         "updated": 0,
-        "skipped": 34
+        "skipped": 38
       }
     ],
     "curatedDuplicates": [
@@ -137327,90 +138193,67 @@
         "curated": "caputo-uia-saldos-exportacion-reintegros-iva-deudas-aduaneras-pymes-embargos-mayo-2027"
       },
       {
-        "title": "RIGI: dos tercios de las importaciones podrían ser abastecidos por la industria argentina",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSUdwNjVRclY1ZFoya3NBNnNiU1NGT0lwWUdQZTNhb0lFWjk1RUFKeHNrZ0ptT2V5aGk5dUN4N1lVLW4ycFFRb1dReE5ELU9obFM1Z3VweEQ1MEN2N0tqZTI2U2xNXzNsSjJJOVZfYXhta3g1cFlBRHNPcUl0dzhtd1VPVmdVWUxsdWJDWHJLblk1QzFiSzFyTGJMM2xnYmtVWVZTeWNrbUNxUDRVUkJfU210VXFaYWdkRGpuM2duMF9qdmNaR2ozVjZ3cC1OcUVPT29qYjZMcXFoOHdpcmxlMkluYWtBWGc?oc=5",
-        "curated": "rigi-importaciones-542-millones-cipibic-67-por-ciento-produccion-local-china-40"
-      },
-      {
-        "title": "RIGI: advierten que dos tercios de las importaciones pueden ser abastecidas por la industria local",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcDQ2b0hEcXFNRWhzWUVFdHFBR2lfb3RjcTBmR01Yb3RFTHVtZmJEN1V3Q0J3d0k2UzdSVDZXQ2ZRNVJORDFmWGtYenZzVWRTc3VrcW1MNjJVcDhtV3dSeEpqQ2pqQ3VyZi1NZWo1ZTBzLXFCblFyNy1qZGtMeUllNEtnd213WUFMVENpM3I3TUM1OW5TLVIxeWE3UkZoa0R2YWl6T2ZwV09GNWRuNE1RMDMzRnlMcHYwdkpCRENzSm5EVXc?oc=5",
-        "curated": "rigi-importaciones-542-millones-cipibic-67-por-ciento-produccion-local-china-40"
-      },
-      {
-        "title": "El déficit comercial con Brasil fue de US$ 270 millones en octubre por la caída de importaciones",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSS01WXozZHoxcmJIek9ydE5IeUlxUWlTR3ZONUpWeGt4VjIzY0ZZTUhnR3JISDFGbE5yb3ZpRExKYlJBMXlsd09QY1BqYmdrYnRNWWZFNFB2ZHdQYzlEcjk2eDhTcWpWMTR6VHV1OXh6NkRaZmpTYkw1YjFCUFljMXlpMVZiYjBsS0p3dEhjZG5aNndIZDVkV2ZGR012SGp6enIyQjNoM1E2VkFiTmwwcS0yNjl4bTNjUmxaYUw1Nmx0MlFEbHlDT2FB?oc=5",
-        "curated": "brasil-superavit-octubre-2026-9318-millones-mdic-petroleo-argentina-cae"
-      },
-      {
-        "title": "RIGI: advierten que dos tercios de las importaciones podrían abastecerse con producción nacional",
-        "url": "https://www.tiempofueguino.com/rigi-advierten-que-dos-tercios-de-las-importaciones-podrian-abastecerse-con-produccion-nacional/",
-        "curated": "rigi-importaciones-542-millones-cipibic-67-por-ciento-produccion-local-china-40"
-      },
-      {
-        "title": "Lula aumenta los aranceles para importar neumáticos a causa de los chinos",
-        "url": "https://eleconomista.com.ar/autos/lula-aumenta-aranceles-importar-neumaticos-causa-chinos-n99581",
-        "curated": "brasil-arancel-neumaticos-autos-30-por-ciento-hasta-noviembre-2027-anip-importados-70"
-      },
-      {
         "title": "Aumentaron las exportaciones a Europa ante la fuerte caída de China",
-        "url": "https://www.cronista.com/uruguay/economia-uy/aumentaron-las-exportaciones-a-europa-ante-la-fuerte-caida-de-china/",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaEtwZExSUlBHNHBaTkE4UEZ0TjJZWEVla3dQUnFUY2RPdXRBNE0tZG51LTlIMno4RlAyakpmME91eHpkdEd6TXBaTVQ3YXR1Uy1LLXJCck8tY1NmVW9oRFl4TDhRcWpiUEFoUm5CVnBad0I2TVVtWnBwWWtDYV9ZZjhQUE5scGpmb09fczRybGJ0YVlPSldxYk1YUWJhalJ2RFk2X3Nia2JSR3hUOHNxaTJBY9IBzgFBVV95cUxPQl9fQnFXcWV3eHVJVk9qRS1aM19fRGxSbV90YUw5QVBPUDJlVTdFaVlfdkV3dTlGMXpJTEVWSGppWE1vSFRUd3hPczNZZVpvRFVxV09YRlBsV1JIc2VCYWJMb0N4a2NYYzdxWGJoUGVBaHZzOEJqUDBGaWZlc3piWDFjUXFHOWVLQlowczVHb3VZOWh0elV1RGhiZVVaWmtEMzFVMVFyZlA5UU5vZHEzYmpBWTJYbE94aTVacGMtaXlyU0FCLUt2N2JhazhnUQ?oc=5",
         "curated": "uruguay-exportaciones-octubre-2026-1089-millones-ue-primer-destino-china-37"
+      },
+      {
+        "title": "Argentina establece nuevos requisitos para importar prendas y artículos textiles usados",
+        "url": "https://aduananews.com/argentina-establece-nuevos-requisitos-para-importar-prendas-y-articulos-textiles-usados/?utm_source=rss&utm_medium=rss&utm_campaign=argentina-establece-nuevos-requisitos-para-importar-prendas-y-articulos-textiles-usados",
+        "curated": "resolucion-461-2026-ropa-usada-importacion-certificacion-prohibe-calzado-ropa-interior"
+      },
+      {
+        "title": "El Gobierno habilitó la única propuesta para concesionar la segunda aduana terrestre del país",
+        "url": "https://www.infobae.com/economia/2026/11/11/el-gobierno-habilito-la-unica-propuesta-para-concesionar-la-segunda-aduana-terrestre-del-pais/",
+        "curated": "decreto-1350-2026-paso-de-los-libres-cotecar-concesion-20-anos-iniciativa-privada"
+      },
+      {
+        "title": "El Gobierno impulsa la concesión del Centro de Fronteras Paso de los Libres",
+        "url": "https://aduananews.com/el-gobierno-impulsa-la-concesion-del-centro-de-fronteras-paso-de-los-libres/?utm_source=rss&utm_medium=rss&utm_campaign=el-gobierno-impulsa-la-concesion-del-centro-de-fronteras-paso-de-los-libres",
+        "curated": "decreto-1350-2026-paso-de-los-libres-cotecar-concesion-20-anos-iniciativa-privada"
+      },
+      {
+        "title": "El 67% de las importaciones del RIGI podría abastecerse con producción nacional",
+        "url": "https://www.mendozapost.com/memo/el-67-de-las-importaciones-del-rigi-podria-abastecerse-con-produccion-nacional-7317/",
+        "curated": "rigi-importaciones-542-millones-cipibic-67-por-ciento-produccion-local-china-40"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "de-uruguay-a-la-union-europea-como-fueron-las-exportaciones-en-los-primeros-seis",
+        "main": "gobierno-anuncia-proyecto-de-ley-para-contener-alzas-en-precios-del-combustible",
         "merged": [
-          "el-acuerdo-ue-mercosur-seis-meses-despues-ganadores-afectados-y-la-incognita-del"
+          "gobierno-presentara-proyecto-de-ley-para-congelar-precios-del-combustible-hasta"
         ]
       },
       {
-        "main": "diputados-impulsan-adecuaciones-sanitarias-y-comerciales-para-potenciar-las--2",
+        "main": "exportaciones-mineras-de-argentina-marcan-record-de-us-4-742-millones-en-2026",
         "merged": [
-          "diputados-impulsan-adecuaciones-sanitarias-y-comerciales-para-potenciar-las-expo"
+          "exportaciones-mineras-alcanzan-record-de-u-s6-720-millones-a-septiembre"
         ]
       },
       {
-        "main": "en-una-decada-las-exportaciones-se-multiplicaron-por-siete-por-la-produccion-de",
+        "main": "arancel-del-83-a-las-llantas-chinas-podria-encarecer-pasajes-y-fletes-en-colombi",
         "merged": [
-          "vaca-muerta-impulso-un-salto-historico-de-las-exportaciones-de-petroleo-argentin"
+          "eventual-arancel-del-83-a-las-llantas-chinas-podria-encarecer-los-pasajes-de-bus"
         ]
       },
       {
-        "main": "guatemala-autoriza-la-importacion-de-otras-60-mil-toneladas-de-maiz-sin-arancele",
+        "main": "mexico-confirma-restricciones-para-importar-acero-asiatico-mientras-avanzan-nego",
         "merged": [
-          "el-gobierno-de-guatemala-amplia-a-175-mil-toneladas-el-cupo-de-maiz-blanco-sin-a"
-        ]
-      },
-      {
-        "main": "san-juan-el-motor-metalifero-de-la-argentina-liderazgo-exportador-cartera-de-meg",
-        "merged": [
-          "san-juan-el-motor-metalifero-de-la-argentina-liderazgo-exportador-cartera-de-2"
-        ]
-      },
-      {
-        "main": "por-el-record-de-importaciones-de-shein-y-temu-abriran-una-terminal-especial-en",
-        "merged": [
-          "por-el-record-de-importaciones-de-shein-y-temu-abriran-una-terminal-especial-2"
-        ]
-      },
-      {
-        "main": "camport-expresa-preocupacion-por-efectos-del-paro-camionero-en-cadena-logistica",
-        "merged": [
-          "crcp-expresa-preocupacion-por-consecuencias-de-paro-transportista-sobre-economia"
+          "mexico-reduce-30-las-importaciones-de-acero-asiatico"
         ]
       }
     ],
     "googleNews": {
-      "pending": 21,
-      "resolved": 20,
-      "withSummary": 15,
+      "pending": 20,
+      "resolved": 19,
+      "withSummary": 17,
       "withPhoto": 0,
       "failed": 1,
-      "duplicates": 2
+      "duplicates": 0
     },
-    "noRead": 1
+    "noRead": 0
   },
   "stories": [
     {
