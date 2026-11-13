@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-11-13T07:56:54Z",
+  "updatedAt": "2026-11-13T17:12:57Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -142,7 +142,7 @@
       "obsDate": "2026-11-12",
       "change": "-0,2% vs. día hábil anterior",
       "trend": "down",
-      "checkedAt": "2026-11-13T07:58:05Z",
+      "checkedAt": "2026-11-13T17:14:20Z",
       "history": [
         [
           "2026-09-28",
@@ -267,27 +267,27 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-13T07:58:05Z"
+      "lastAttempt": "2026-11-13T17:14:20Z"
     },
     {
       "id": "soja",
       "label": "Soja · precio pizarra Rosario",
-      "value": "$ 545.000/t",
-      "period": "Rosario · 11 nov 2026 · US$ 355,05/t",
+      "value": "$ 540.000/t",
+      "period": "Rosario · 12 nov 2026 · US$ 351,45/t",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "group": "Mercados",
-      "obsDate": "2026-11-11",
-      "change": "+1,9% vs. pizarra anterior",
-      "trend": "up",
+      "obsDate": "2026-11-12",
+      "change": "-0,9% vs. pizarra anterior",
+      "trend": "down",
       "_last": {
+        "date": "2026-11-12",
+        "ars": 540000.0
+      },
+      "checkedAt": "2026-11-13T17:14:20Z",
+      "_prev": {
         "date": "2026-11-11",
         "ars": 545000.0
-      },
-      "checkedAt": "2026-11-13T07:58:06Z",
-      "_prev": {
-        "date": "2026-11-05",
-        "ars": 535000.0
       },
       "history": [
         [
@@ -389,11 +389,15 @@
         [
           "2026-11-11",
           545000.0
+        ],
+        [
+          "2026-11-12",
+          540000.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-13T07:58:06Z"
+      "lastAttempt": "2026-11-13T17:14:20Z"
     },
     {
       "id": "brent",
@@ -406,7 +410,7 @@
       "obsDate": "2026-11-11",
       "change": "+2,2% vs. día anterior",
       "trend": "up",
-      "checkedAt": "2026-11-13T07:58:09Z",
+      "checkedAt": "2026-11-13T17:14:22Z",
       "history": [
         [
           "2026-10-01",
@@ -531,26 +535,26 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-11-13T07:58:09Z"
+      "lastAttempt": "2026-11-13T17:14:22Z"
     },
     {
       "id": "maiz",
       "label": "Maíz · precio pizarra Rosario",
-      "value": "$ 275.000/t",
+      "value": "$ 275.800/t",
       "group": "Mercados",
-      "period": "Rosario · 11 nov 2026 · US$ 179,15/t",
-      "obsDate": "2026-11-11",
-      "change": "0,0% vs. pizarra anterior",
-      "trend": "flat",
+      "period": "Rosario · 12 nov 2026 · US$ 179,50/t",
+      "obsDate": "2026-11-12",
+      "change": "+0,3% vs. pizarra anterior",
+      "trend": "up",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
-        "date": "2026-11-11",
-        "ars": 275000.0
+        "date": "2026-11-12",
+        "ars": 275800.0
       },
-      "checkedAt": "2026-11-13T07:58:09Z",
+      "checkedAt": "2026-11-13T17:14:22Z",
       "_prev": {
-        "date": "2026-11-05",
+        "date": "2026-11-11",
         "ars": 275000.0
       },
       "history": [
@@ -653,31 +657,35 @@
         [
           "2026-11-11",
           275000.0
+        ],
+        [
+          "2026-11-12",
+          275800.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-13T07:58:09Z"
+      "lastAttempt": "2026-11-13T17:14:22Z"
     },
     {
       "id": "trigo",
       "label": "Trigo · precio pizarra Rosario",
-      "value": "$ 299.500/t",
+      "value": "$ 288.900/t",
       "group": "Mercados",
-      "period": "Rosario · 11 nov 2026 · US$ 195,11/t",
-      "obsDate": "2026-11-11",
-      "change": "-5,4% vs. pizarra anterior",
+      "period": "Rosario · 12 nov 2026 · US$ 188,02/t",
+      "obsDate": "2026-11-12",
+      "change": "-3,5% vs. pizarra anterior",
       "trend": "down",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
+        "date": "2026-11-12",
+        "ars": 288900.0
+      },
+      "checkedAt": "2026-11-13T17:14:22Z",
+      "_prev": {
         "date": "2026-11-11",
         "ars": 299500.0
-      },
-      "checkedAt": "2026-11-13T07:58:09Z",
-      "_prev": {
-        "date": "2026-11-05",
-        "ars": 316519.0
       },
       "history": [
         [
@@ -779,14 +787,807 @@
         [
           "2026-11-11",
           299500.0
+        ],
+        [
+          "2026-11-12",
+          288900.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-13T07:58:09Z"
+      "lastAttempt": "2026-11-13T17:14:22Z"
     }
   ],
   "items": [
+    {
+      "id": "puerto-de-hamburgo-maneja-84-5-millones-de-toneladas-en-volumen-de-carga-a-septi",
+      "datetime": "2026-11-13T17:00:41Z",
+      "date": "2026-11-13",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "Puerto de Hamburgo maneja 84,5 millones de toneladas en volumen de carga a septiembre de 2026",
+      "summary": "El Puerto de Hamburgo informó que el volumen total de carga alcanzó los 84,5 millones de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/puerto-de-hamburgo-maneja-845-millones-de-toneladas-en-volumen-de-carga-a-septiembre-de-2026/",
+          "primary": true,
+          "author": "cmeza"
+        }
+      ]
+    },
+    {
+      "id": "la-naviera-cma-cgm-se-impulsa-gracias-a-la-solida-demanda-y-a-los-elevados-flete",
+      "datetime": "2026-11-13T16:56:31Z",
+      "date": "2026-11-13",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "La naviera CMA CGM se impulsa gracias a la sólida demanda y a los elevados fletes",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "MarketScreener España",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://es.marketscreener.com/noticias/la-naviera-cma-cgm-se-impulsa-gracias-a-la-s-lida-demanda-y-a-los-elevados-fletes-ce785ed9d08afe25",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-13T17:12:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaDdaTmxkSU9hcTk0bDlHVVV2YVVaT0VwZ3VaUG5jNWp0SE8yLXVUZ1ZsNGxHcHdLel9ZamNTOEwwQWJLMDVSRXFBcENCTEhDd3hOT2tkWUI0QzIta0gyT3VBTmNGdkpUM0FzUFRwVXFFYTJiNFl1ZVdaanRwUVVFS3RGTXVVVnhZYV9NNklVcUVuVVE2Sy1GdU1xTjlfaE42NUdvY2trRklGdHVUWm9MdE5jTXA1bnZlU0NxaGlRUDZtbUpTV2pINnBGUjNSTVllWldv?oc=5",
+      "digestSkip": {
+        "at": "2026-11-13T17:12:57Z",
+        "auto": "no-read",
+        "reason": "medio sin lectura automática (NO_READ_DOMAINS) y sin otro medio con la misma noticia"
+      }
+    },
+    {
+      "id": "trump-amenaza-con-duplicar-aranceles-a-mexico-y-sheinbaum-responde-ya-no-hay-nin",
+      "datetime": "2026-11-13T16:43:31Z",
+      "date": "2026-11-13",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "Trump amenaza con duplicar aranceles a México y Sheinbaum responde: \"Ya no hay ninguna caravana en tránsito a EU\"",
+      "summary": "La presidenta de México asegura que autoridades locales \"lograron disuadir a un colectivo de migrantes que había empezado a marchar el martes pasado\"",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Latinoamérica",
+        "Estados Unidos",
+        "Europa"
+      ],
+      "countries": [
+        "México",
+        "Estados Unidos",
+        "Unión Europea"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "viveusa.mx",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.viveusa.mx/noticias/trump-amenaza-con-duplicar-aranceles-a-mexico-y-sheinbaum-responde-ya-no-hay-ninguna-caravana-en-transito-a-eu/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-13T17:12:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaGFsVUZHTUVudVQwNGVyYkhzZUZkV0oyUWtZTFlDNi03SWJxZ18way1VMjhOdy1zbDRpZU5udzM0RFJkNWlOcjdtNDJOU2FJSVRwZ21OWktlQVJUWUxlZzVyV01OLUpPdkxaUWNDVl9fTkxrRzZpcTJxc0xaeDBob2NVQ0tGekNxaWdxd1FHc0ZkeHhmU3V2dE9zbnNPN3BTOVVaTElXVEJFS3J5RHFRSFVFaDYyejF1UjVXVk1JRlY4aXFSWHQxZTBrdHJZd3NfVzdQQjZtUEE3X3PSAe8BQVVfeXFMT1RyRXZLZmVKNUlnbktkLVB4aWRpWERuSGRZaTBxaWc2aVpnT0hGU0tRQ2YtUDJudHZ0Q2U5WVFVRjVnVmZnM25TeHN4ZjhyRE5FTWxzX29ldnBYR1l2UkFkZVZIOU5JZ0xtZVBnXzVITktzYXBuOEJzS2ZCOUoxNkNkYnZyVGk0bHdWbThzQWZWYUFCQlZ0SnMwdndxcmpDN0J4UWdtTUMtVC13Ukg3RmJCM2gxdmJCaDR0UlhSQ0ZYb05PUWtGa3VNOFB5emR3Z2UyLVNfZzNVZG82TDdneklDQWpOeU1WVHh1RWZETG8?oc=5"
+    },
+    {
+      "id": "petroleo-desplaza-a-la-harina-de-soja-como-principal-producto-de-exportacion-de",
+      "datetime": "2026-11-13T16:32:00Z",
+      "date": "2026-11-13",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "Petróleo desplaza a la harina de soja como principal producto de exportación de Argentina",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Soja",
+        "Energía"
+      ],
+      "visual": "energy",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Infobae",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.infobae.com/america/agencias/2026/11/13/petroleo-desplaza-a-la-harina-de-soja-como-principal-producto-de-exportacion-de-argentina/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-13T17:12:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUlNLUFZUY0tPaDdWcHdxbDAwRjhyeFdQb2ZVM29vV3ZZU0tuTWZENTIwTllIV1pPTThuZlFOWS1Qb1laS1Zqc2RxdTNIczQzbmQzSDNVM3AzVFdtUTZoei12RHluTEVINnhCRlVuTFA5ZGhkcGZpWnZLczhQYzlFY0NLV0JwR2o4VFhsZWttQTNUallhc0locnBJaHBvWjFOOHNwU19ySkNNMUdOQkEyVGlrWW13ZFVtcU9xOVp6SjJkRlZCRmpVaXV6ZEM2ajU4Uk9qSVZkcGF0QdIB9AFBVV95cUxOVEE3amVRU3dUS1BPV1RoVWxlY0hBdVI4RzhYV25KOXowU0NObzdzOXZrdDFuUkhmREhmcFJZQVM4Yk82bUpuUDRabVprejN5OEpSS01JZWdTMXV4SjFVNU0ydlRKdWROeHlqaDhMaktCMlpOTks0WVA1T0F1Tmh3NDhJb2NKdDFOLXM5R3JZdWgyaVBlMEZLR296OUhTWTlLdGtBQXBiR3NoUEJyQ2NlWjVsai1XUU9TQU1sQzVjOEJFbXppWTN4VENUWDFTUF9hbWFpQ0N2MXBYSWRBUzhodzh6Z3RURWh4Nzh6Ql9SeG16UFpV?oc=5"
+    },
+    {
+      "id": "chile-impulsa-nuevas-oportunidades-comerciales-para-alimentos-en-indonesia-y-vie",
+      "datetime": "2026-11-13T16:30:41Z",
+      "date": "2026-11-13",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "Chile impulsa nuevas oportunidades comerciales para alimentos en Indonesia y Vietnam",
+      "summary": "Chile está impulsando la generación de nuevas oportunidades comerciales para alimentos chilenos en los mercados internacionales…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Latinoamérica",
+        "Asia"
+      ],
+      "countries": [
+        "Chile",
+        "Vietnam",
+        "Indonesia"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/chile-impulsa-nuevas-oportunidades-comerciales-para-alimentos-en-indonesia-y-vietnam/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "se-actualizaran-los-aranceles-de-dni-y-pasaportes",
+      "datetime": "2026-11-13T16:16:00Z",
+      "date": "2026-11-13",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "Se actualizarán los aranceles de DNI y pasaportes",
+      "summary": "La Subsecretaría de Gobierno y Asuntos Registrales de Santa Cruz informa que, a partir del 26 de noviembre, entrará en vigencia la actualización de los aranceles correspondientes a los trámites de DNI y pasaportes, establecidos por el Registro Nacional de las Personas (RENAPER).",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Tiempo Sur",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.tiemposur.com.ar/info-general/se-actualizaran-los-aranceles-de-dni-y-pasaportes",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "La Opinión Austral",
+          "type": "También publicó esta noticia",
+          "url": "https://laopinionaustral.com.ar/argentina/se-actualizan-los-aranceles-de-dni-y-pasaportes-cuanto-costaran-los-tramites-desde-el-26-de-noviembre-731735.html",
+          "alsoIn": true,
+          "title": "Se actualizan los aranceles de DNI y pasaportes: cuánto costarán los trámites desde el 26 de noviembre"
+        }
+      ],
+      "gnTried": "2026-11-13T17:12:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONlBqNDNSRWFEdUktSEoweFZuNzRyRmhZR2kyeGFaRDVvUlJhM0Rla1EybGRqWU1iTG56VVp5RlhRclRhZjNIMTlMUUlDNnNvS2IxTzhpMi10UWxxMlZFS2dTbU1PUlJmR29MNWlab2JEYUxtdVh1MVNqdF9rTVBDMXhMWHFPTFRNN1Z5S0lKV2xuMnVqeVHSAZsBQVVfeXFMTkJCQnRsNlVadHRfcUFKN3NMY0lPX054RG1NbDN2R0VGNS1uUnhXeWZuVW9pMGVJa2wtYVIxRllNYWhnZnFfeTdBbjdianJ0SWh4MmpjQlRnU044ckVlRklUalZWQndtaTJOQUpsQTVGUi1JLWxzSkJJUHNPLVpsSFV4YnFjOWFOQWhaNElvVVJVdm5nNzRRTjFveUU?oc=5",
+      "aliasUrls": [
+        "https://laopinionaustral.com.ar/argentina/se-actualizan-los-aranceles-de-dni-y-pasaportes-cuanto-costaran-los-tramites-desde-el-26-de-noviembre-731735.html",
+        "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPU08yQTRyamxPTnMtUmhraXJ5bmRCVkV6TmpLbEQ5QTFhamZhal9BV21sYmMwTDR6b01UdU13a0hrOW9RNm5QeEV1Z2R4Mzh6UGRrU283SGx0VU9lc3M3V3kxZlgtYUkwWjUzZkFPdlE0NThGc3RuMzhUc2RwQy1admoyNUNwLXhKZEtYcVk0XzB5QVlobnI1SE5BSGN3U0dEejF0bll5bmwzeU15UXM0RXl5Wm9CMFBEellHb2NySHpKNEVpMzBaUTdteWxDNGk0RmF2aUw5YWh5M3JtWjB4QWJRQ05pSUR2YVJr"
+      ],
+      "mergedIds": [
+        "se-actualizan-los-aranceles-de-dni-y-pasaportes-cuanto-costaran-los-tramites-des"
+      ]
+    },
+    {
+      "id": "naviera-ultratug-donara-remolcador-ultramar-a-uach-noticias-uach",
+      "datetime": "2026-11-13T16:13:00Z",
+      "date": "2026-11-13",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "Naviera Ultratug donará remolcador Ultramar a UACh – Noticias UACh",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Universidad Austral de Chile",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://diario.uach.cl/naviera-ultratug-donara-remolcador-ultramar-a-uach/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-13T17:12:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wTFJrTll6cDExS1pHb01lMTRUNHlWd1JBSTVZTXZuRDh3alJTUFpZUGtscW1aZGlpa0VteHVxWkV0R3c3T2NrcVFNZUNfT3prRWJRREJKdEVYR2txc1l3bFdqUzdZT0FIV3VncThIbWJzbVVqOUMweURhLUZGRjA?oc=5"
+    },
+    {
+      "id": "argentina-ya-exporta-4-de-cada-10-barriles-de-petroleo-que-produce-y-el-shale-de",
+      "datetime": "2026-11-13T15:57:38Z",
+      "date": "2026-11-13",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "Argentina ya exporta 4 de cada 10 barriles de petróleo que produce y el shale de Vaca Muerta desplazó al Escalante",
+      "summary": "Según un informe de Faufena, con el ritmo actual de pozos y sin ampliación de la refinación, el porcentaje rondaría el 50% en 2027. El crudo de Vaca Muerta sale hoy por el Atlántico con Oldelval y hacia Chile con OTASA, y se sumará al oleoducto VMOS el año próximo.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Energía"
+      ],
+      "visual": "energy",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "ADNSUR",
+          "type": "Medio · vía Google Noticias",
+          "url": "http://www.adnsur.com.ar/pulso-energetico/argentina-ya-exporta-4-de-cada-10-barriles-de-petroleo-que-produce-y-el-shale-de-vaca-muerta-desplazo-al-escalante_a6af731e6ad47eda6c2ad3960",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-13T17:12:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQYkswVnRVeFZVWC1kWXFiejE2Qzl6bGVWZVFscmpNVXUzSkFtY3l3QjZfV1VyLUlwc1ZLTTdUdjBLS0NDMDhienhmOXZXRmRyR2hnZThILVBmM3hXY1NJMWRwTE1EZmN1dUNNS1hjVUg2TC03Z1RoaFJCWXRQT2hCSk02VXNvcTNpbG93WUpRVDRXMlVvMGg3M0dxa21qZVdBM3JEMEhBa3lvOFl2Q2tNRXJkbXV4SmlEV2pLcENVTzdDbjdBdWZ2N1FqaHpGcHV0X3M5NW9sVGcxTUpOMGFLS2lKMmJrejcyaUtCMjJrZUZxemxJb1NINmVfWkNrNHNZM1NmcE53NlJKUzFMa3FJ?oc=5"
+    },
+    {
+      "id": "confia-secretario-del-tesoro-que-eu-y-mexico-tendran-buen-acuerdo-comercial",
+      "datetime": "2026-11-13T15:49:18Z",
+      "date": "2026-11-13",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "Confía secretario del Tesoro que EU y México tendrán buen acuerdo comercial",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "Europa"
+      ],
+      "countries": [
+        "México",
+        "Unión Europea"
+      ],
+      "tags": [],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Xpectro FM",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://xpectrofm.com/confia-secretario-del-tesoro-que-eu-y-mexico-tendran-buen-acuerdo-comercial/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-13T17:12:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVXVWdXFnc0w3Vm9qSGpseG43S1ZKME1nMm1PaTBmVlVneC01ZHJjcGVGQjlsR0tvejdCTllmMUVmNnZxYkNNUTExQ3FrQUs5TEN6S3V0YW5UOTZvOHlZWmZyNEVXVXU2NDBfV2xaRllEall4U0gtQXc0ZGwzaF9UZ1hidE1MMmFLWUNoSDlEMXdCellGWWk3bm92dUJnRms?oc=5"
+    },
+    {
+      "id": "brasil-autoridad-portuaria-de-santos-recupera-su-sitio-web-tras-ciberataque",
+      "datetime": "2026-11-13T15:30:52Z",
+      "date": "2026-11-13",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "Brasil: Autoridad Portuaria de Santos recupera su sitio web tras ciberataque",
+      "summary": "La Autoridad Portuaria de Santos (APS), responsable de la gestión del Puerto de Santos, informó que…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Brasil"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/brasil-autoridad-portuaria-de-santos-recupera-su-sitio-web-tras-ciberataque/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "exportaciones-agro-argentinas-record-de-101-mt",
+      "datetime": "2026-11-13T15:18:03Z",
+      "date": "2026-11-13",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "Exportaciones agro argentinas: récord de 101 Mt",
+      "summary": "Las exportaciones agro argentinas superaron las 101 Mt entre enero y octubre, con récords en maíz, trigo, girasol y aceite de soja.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Agro"
+      ],
+      "visual": "agro",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Campo Directo",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://campodirecto.com.ar/las-exportaciones-agro-argentinas-superaron-los-100-mt-y-marcaron-un-record-historico/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-13T17:12:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNWM1VVdIOGxHV3ZOVmowQWxHS0V3ZFFUalptcDZ0bmtuZGw1RnZnaG1DS2dpalJTQ00wVkVNaGNaMUVKTElOdHAxRWl1QktKcU9XTUp5ck1rV1ZQTDdsSll4R3lENFVHQ1ZTNjhSNFdSeU5VVmoyZDNUcnZfTjRHM09ZWkRrSXdvYTZJMHhaTUlZUVhPRjhVbUl3czVrWVRkbC1uVFlZNGlLbThqYzlTS0Z3NzE?oc=5"
+    },
+    {
+      "id": "la-industria-del-software-argentino-alcanzo-un-record-de-exportaciones-de-usd-2",
+      "datetime": "2026-11-13T15:10:12Z",
+      "date": "2026-11-13",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "La industria del software argentino alcanzó un récord de exportaciones de USD 2.967 millones en 2026",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Tecnología COMEX"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "ITSitio",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.itsitio.com/ar/software/la-industria-del-software-argentino-alcanzo-un-record-de-exportaciones-de-usd-2-967-millones-en-2026/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-13T17:12:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQQ21rU0I2RG5Sbjd6NHd4RGJ5cGl1dWNyM3B3cTlyZXltOUJKbktjV0xnSzRpM09BUWI5MUJwNXlaM1ZUY2l2ZnVuaGFoOGFORnFDQUowMkVkUVJfMkR4aWpqU250Y3dkQkRmSmVBd3U3UFAwX2dOZnozQnlTUVUteW1EZjRpMUtGbXBhYjMzMkhYcURNdE1PUXR1TzNLdjMyQk0ySG5CNHBVcXFxM1pMLW03Yjc3STZ3a0F3WS1mR1FVWU5sTEFGMXgzVl8tSms4S2Rv?oc=5"
+    },
+    {
+      "id": "uruguay-ofrece-puerto-de-nueva-palmira-al-mercado-boliviano",
+      "datetime": "2026-11-13T15:00:55Z",
+      "date": "2026-11-13",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "Uruguay ofrece Puerto de Nueva Palmira al mercado boliviano",
+      "summary": "Uruguay ofreció al Puerto de Palmira como una alternativa para que el mercado boliviano pueda enviar sus exportaciones hacia el…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Uruguay",
+        "Bolivia"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/uruguay-ofrece-puerto-de-nueva-palmira-al-mercado-boliviano/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "advierten-sobre-posible-impacto-de-alzas-en-pasajes-y-fletes-de-carga",
+      "datetime": "2026-11-13T14:18:17Z",
+      "date": "2026-11-13",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "Advierten sobre posible impacto de alzas en pasajes y fletes de carga",
+      "summary": "DIARIO ECO/SANTO DOMINGO, RD.- Sectores vinculados al transporte advirtieron sobre la posibilidad de que se produzcan aumentos en las tarifas del transporte de pasajeros y de carga, debido a la interrupción de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Diario Eco",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://diarioeco.com.do/advierten-sobre-posible-impacto-de-alzas-en-pasajes-y-fletes-de-carga/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-13T17:12:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeGxrMGlESUtNc3p1MXVJZjlkMFZldmdlekowZzVTWXlMVFZyS0t6ZjQyTGtpbF9CS2d4RHVpTWk5Z2pwS2hXbVZ3WHdkdGFMbTMwUFEyWjV2T0l5TXhPdG41Mmw3UGpFa1ExT1RjNkdPdmxYYUZSSm5sZkc0RTVWRXduQXpsenlxYXl4M1NnV29jNkFGRmhIc0lxdw?oc=5"
+    },
+    {
+      "id": "boom-agroexportador-245-productos-argentinos-crecen-y-desafian-los-limites-del-c",
+      "datetime": "2026-11-13T14:13:12Z",
+      "date": "2026-11-13",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "Boom agroexportador: 245 productos argentinos crecen y desafían los límites del campo",
+      "summary": "El agro argentino suma 245 productos con exportaciones en alza. Girasol, carnes y economas regionales ganan terreno en un mercado cada vez ms competitivo.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Agro"
+      ],
+      "visual": "agro",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "AgroLatam",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.agrolatam.com/argentina/actualidad/agroexportaciones-argentina-245-productos-crecimiento-2026/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-13T17:12:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU0RIbVNpTURIMVI1SmppcXhSSVREUS1aLVNQTkw5N1JLVlctb0ZiTzByZVQzT3RKcV9Jc2lLZlI1VVVjZDlZcVJ3WTZjMVp1VDdTTU1sN2hfaUFyaGxQb3c3SHdNb2g3d2lDTS1vNi04Z1FtbUhZdG1yNUVqZWJXdnF3am4xdFFWejlEb0tsTjQ0Y2Z5dV94TG00Ukt3UjN6ZFJmNi1WM0JrUQ?oc=5"
+    },
+    {
+      "id": "desde-uruguay-piden-garantias-para-los-agricultores-en-el-acuerdo-ue-mercosur",
+      "datetime": "2026-11-13T14:03:00Z",
+      "date": "2026-11-13",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "Desde Uruguay piden garantías para los agricultores en el acuerdo UE-Mercosur",
+      "summary": "La Unión de Pequeños Agricultores y Ganaderos (UPA) defendió en Montevideo la apertura de mercados para el sector agroalimentario, acompañada de controles a las importaciones y mecanismos de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Uruguay",
+        "Unión Europea"
+      ],
+      "tags": [
+        "Mercosur",
+        "UE-Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "hortidaily.es",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.hortidaily.es/article/9892675/desde-uruguay-piden-garantias-para-los-agricultores-en-el-acuerdo-ue-mercosur/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-13T17:12:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTDEwMEo4RmVOVExMN3pfck5LNUhqLUFEOWZkY3Q1d1hiLWZhM1VubVRWQ2ZjcGpvNTYtN0doVVd6bkZsVUt2bUFLY0I2d1Y1ZFZlaU45QXJXWmNsUDQycTZYWEl6ZlhSR1R3QW8tc04yQTA2NlRDU2MyNlYtRzdwMDF1MkIya3pwVk5FWUpySVZLOXdremFlbTB4c1dQNFNQam5rcU5nc0hxNWswU2M0bGpWa2VKVk5leUVvaA?oc=5"
+    },
+    {
+      "id": "en-los-nueve-meses-del-ano-245-productos-agroindustriales-tuvieron-mejoras-en-su",
+      "datetime": "2026-11-13T13:56:27Z",
+      "date": "2026-11-13",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "En los nueve meses del año, 245 productos agroindustriales tuvieron mejoras en sus exportaciones",
+      "summary": "Representaron el 87% del monto exportado nacional y se destacaron el girasol, las reses de cordero congelada, lana sucia, porotos, crustáceos congelados, jugo de limón, cebada, carne bovina congelada y aceite de maní, entre otros.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Agro"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "La Gaceta",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.lagaceta.com.ar/nota/1162402/economia/nueve-meses-ano-245-productos-agroindustriales-tuvieron-mejoras-sus-exportaciones.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-13T17:12:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPaFlvVndqbGtrMHBVQU9FOEFNLVZ3d3FuTF9rM1JrV0JzdkdyajJiVXJYUm1LcVctZUhsNXlySWlKOVE1VGhhVm42NTVHMmFhUTlaWGw5bXNtdG4tTFFZX2NYbEJ4bWxaOThTLUlRTjRyY0VLRTBDRGhCYVhOWm4tdkVNb01ROF9IdEFKOHFXLTRhcnRZTGtnajRKYlZEa28xNkhsNmhqWmM4N21sX1lPaXNKcHRUOGlzeEhtcmo5cGIxZzY2Qk90TktxXzhGeGlLemfSAdcBQVVfeXFMT3hBcFRYNFhCZ2ZWQ2dmMEI4bWdfd2hMRkJmNFd2dHQ0WTdNWkpKSmY1WHh5YXVDcmdnanJIYXdZckIyNU5zaVlpTDRxYktuUVp5bmJxOFlDR3laSHBXMGhPQUc5ZlRuanBRVzNFdjUyTjZZSE0wWkI5eE83QmJfTlNoNWlNVFYyWTFsWkQtZzV2NXJxWmpqZ1gwU012XzJRTGdyUFFCZDNScHNDa0ItamJ5ZEJDMWJNQTlaUWFrNHNrdzBMUTJGaEhOeUNwVWpYWlRrdGd2eGc?oc=5"
+    },
+    {
+      "id": "peru-puerto-de-matarani-desembarca-cargamento-de-hierros-y-metales-para-mercado",
+      "datetime": "2026-11-13T13:30:10Z",
+      "date": "2026-11-13",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "Perú: Puerto de Matarani desembarca cargamento de hierros y metales para mercado boliviano",
+      "summary": "El Puerto de Matarani, ubicado en el departamento peruano de Arequipa, desembarcó un cargamento consistente en…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Bolivia",
+        "Perú"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/peru-puerto-de-matarani-desembarca-cargamento-de-hierros-y-metales-para-mercado-boliviano/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "el-parlamento-aleman-aprueba-la-ley-para-ratificar-el-acuerdo-ue-mercosur",
+      "datetime": "2026-11-13T13:03:00Z",
+      "date": "2026-11-13",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "El Parlamento alemán aprueba la ley para ratificar el acuerdo UE-Mercosur",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Unión Europea"
+      ],
+      "tags": [
+        "Mercosur",
+        "UE-Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Infobae",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.infobae.com/america/agencias/2026/11/13/el-parlamento-aleman-aprueba-la-ley-para-ratificar-el-acuerdo-ue-mercosur/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-13T17:12:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeklhVmFPOGIwcllxUk44YmlvVXNCQXJCU3hVNGliSGZJNENPdE9wOXY4UGN1bER6WklYMUpWMEpqSGpHdXI0WGVHcXdnQnZ6N05NdEdteVVQQkhqY0VVcDJBVy1lX25wS2M1LXpyQVZpZlRhb21OWmRwTDVWQk83WGNfZlFqWUdPMmk2TEZsZlY0R3Q5MElETlZKN3hPQ3dSMUFoTlpld2pUQ3RPNUpoMHlKYjd2Q2U4c3BfYlowTEFRZ0Ns0gHfAUFVX3lxTE5GSE95NWNkWU02eS1wZ3ZvVlFZVW5jZWttS3E3cllhZFMyZ2t4VVNpS09NRVVaS2E5TkttaXkxM2s0X0hGb0JwMnJ2VzRyVTh1TTA2OE5LTV9CWTRqU2xfbElxakYxRXZMb3AyaXk4am5oOTQwaWx4TDg2c1E2bXJ2MWR6bTVnbExKRHN2dVh1SS12NHFQR1R5bS11M1pTcC1LNXFMNVRaUXB6RU56THFLUFBiX25HODVIdFRJaGp4WllkaWF2YzB3UHRBTlN1T19rRENoSC14OXhEOXVUdWs?oc=5"
+    },
+    {
+      "id": "contrabando-y-subfacturacion-de-importaciones-cuestan-a-argentina-us-2-800-millo",
+      "datetime": "2026-11-13T09:05:00Z",
+      "date": "2026-11-13",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "Contrabando y subfacturación de importaciones cuestan a Argentina US$2.800 millones en ingresos fiscales",
+      "summary": "El país ocupa el puesto 120 de 158 en un ranking de comercio ilícito sectorial. Además, este comercio muestra una tendencia al alza.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Importaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Bloomberg Línea",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/contrabando-y-subfacturacion-de-importaciones-cuestan-a-argentina-us2800-millones-en-ingresos-fiscales/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-13T17:12:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPSjZkT2hjYUU4bmdOUHVidWc2b2laV25oUGp5STRoMFdKOHlBS2hNNGNCRkxKSlRtelJodmJ0RkZFTC13NE5JeTlieG0ya1hWRWNXaFZvMnZkU3N4ZDZqQ0Fwb2U1RjFfMXpBRmI3SjdRSHRNRzhkSUFjb1lDNWdiSk5oT0E5X0tEYkZaSnQtS0Frc3doek83aFE3dEljMW9vd0RMQkZWMjNPbjNRQ2RPb1JzblpUTmZqZ21zUTgxZmtzWXI4aFl1eDFqN2NfX2x4QXJOQzZWb3FqY0dJbGpPS1BUQUlwcDdhLTBKd0g3a9IBgwJBVV95cUxPWFBZYWV3ZHR2VFVnNm9WV3RIYUNlamdDeWU0Zk53T1hRVU9veW14NDFpTEZmckZDZmpWRk5YaXZSWGxkYU1sNzc5RzM4WEVyY3NfNnlKVXNCcEhpSmwxVjVJUzNFMEVyenVWcnFKUWhKRXk2NzYwNERVNE84OEluSXBEWTRhMkVyMUkxYVdPbTBKRk5HNGFjTTNqSENqQ2d4U2VndEdRV1pPRVVFcTB4N3BiRHQtd1V0b2tmZzVVYzRBUE9icC13cnl5UkhrZTJwcDJwUDY5XzFGUFJzOTVVTW14TWgtNnNJZlROVGc1dmhiSGI5RWxQU1pGMS01MHVROHJR?oc=5"
+    },
+    {
+      "id": "la-inteligencia-artificial-desnaturaliza-la-funcion-aduanera",
+      "datetime": "2026-11-13T08:00:00Z",
+      "date": "2026-11-13",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "¿La inteligencia artificial desnaturaliza la función aduanera?",
+      "summary": "1.El dilema aduanero en la era de los algoritmos Sostengo, desde el comienzo, la idea que este artículo se propone demostrar: la inteligencia artificial no desnaturaliza, por sí misma, la función aduanera; lo que la desnaturaliza es el modo en que se lleva adelante su implementación, cuando prescinde de los…",
+      "body": [
+        "1.El dilema aduanero en la era de los algoritmos Sostengo, desde el comienzo, la idea que este artículo se propone demostrar: la inteligencia artificial no desnaturaliza, por sí misma, la función aduanera; lo que la desnaturaliza es el modo en que se lleva adelante su implementación, cuando prescinde de los presupuestos jurídicos que preservan el…"
+      ],
+      "keyData": [],
+      "topics": [
+        "Aduanas",
+        "Tecnología COMEX"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 2,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Aduana News",
+      "sources": [
+        {
+          "name": "Aduana News",
+          "type": "Medio especializado · Argentina",
+          "url": "https://aduananews.com/la-inteligencia-artificial-desnaturaliza-la-funcion-aduanera/?utm_source=rss&utm_medium=rss&utm_campaign=la-inteligencia-artificial-desnaturaliza-la-funcion-aduanera",
+          "primary": true,
+          "author": "Dr. Claudio Augusto Gonçalvez Pereira"
+        }
+      ]
+    },
     {
       "id": "revision-del-t-mec-esta-por-concluir-aranceles-al-acero-y-autos-centran-negociac",
       "datetime": "2026-11-13T07:17:05Z",
@@ -885,10 +1686,11 @@
       "keyData": [],
       "topics": [
         "Transporte aéreo",
-        "Puertos"
+        "Puertos",
+        "Europa"
       ],
       "countries": [
-        "Global"
+        "Alemania"
       ],
       "tags": [],
       "visual": "plane",
@@ -964,46 +1766,6 @@
       }
     },
     {
-      "id": "mas-aranceles-por-caravana-presupuesto-historico-para-2027-escandalo-de-nvidia-v",
-      "datetime": "2026-11-13T07:00:00Z",
-      "date": "2026-11-13",
-      "firstSeen": "2026-11-13T07:56:54Z",
-      "title": "Más aranceles por caravana|Presupuesto histórico para 2027|Escándalo de NVIDIA|¿Vida en Marte?",
-      "summary": "Trump amenaza con más aranceles a México por caravana migrante; Aprueban presupuesto histórico para 2027; El escándalo de espionaje que sacude a NVIDIA; ¿Encontró la NASA la vida en Marte?",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Aranceles"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [
-        "Aranceles"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
-      "sources": [
-        {
-          "name": "N+",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.nmas.com.mx/sociedad/mas-aranceles-por-caravanapresupuesto-historico-para-2027escandalo-de-nvidiavida-en-marte/?media=audio",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-13T07:56:54Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdmk0a292a05laXNqWkJya2JzTkZqUUJqNHNhX1h4VE5GU2o3QWE4T3RxWXlRWUhiZUZHTnhISWZVY0ZVcDd1UlJZQ3ZlQk5wbTRhZ2hOS2IwRnBLa05CdU40aVpMbjdpa2JXRS1FQ3BtUVc2ZVpsN1B1dE5MaXUwdDBrYWNmUGo3UkszR3psU0Y4eThfQkgzN2R0MU1CbXNSRjdnSXE3clhDWUFiYlFpcjllLTc5cFd4OW45SWFvR1ZzMlQyMzdacjlQN3VuVTRO?oc=5",
-      "digestSkip": {
-        "at": "2026-11-13T06:56:56-03:00",
-        "reason": "repite una nota de la redacción (amenaza arancelaria de Trump a México por las caravanas)"
-      }
-    },
-    {
       "id": "costa-rica-ecuador-un-acuerdo-comercial-que-debemos-aprender-a-aprovechar",
       "datetime": "2026-11-13T06:49:00Z",
       "date": "2026-11-13",
@@ -1068,7 +1830,8 @@
         "Unión Europea"
       ],
       "tags": [
-        "Mercosur"
+        "Mercosur",
+        "UE-Mercosur"
       ],
       "visual": "treaty",
       "impact": 1,
@@ -1191,7 +1954,8 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Transporte marítimo"
+        "Transporte marítimo",
+        "Puertos"
       ],
       "countries": [
         "Global"
@@ -1231,13 +1995,15 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Logística"
+        "Logística",
+        "Transporte marítimo"
       ],
       "countries": [
         "Global"
       ],
       "tags": [
-        "Fletes"
+        "Fletes",
+        "Energía"
       ],
       "visual": "ship",
       "impact": 1,
@@ -1252,6 +2018,13 @@
           "url": "http://www.mundomaritimo.cl/noticias/disponibilidad-de-tanqueros-disminuye-por-operaciones-sts-en-medio-oriente-y-presiona-los-fletes",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Logística 360 Chile",
+          "type": "También publicó esta noticia",
+          "url": "https://logistica360chile.cl/disponibilidad-de-buques-tanqueros-cae-por-operaciones-ship-to-ship-en-medio-oriente-y-presiona-al-alza-los-fletes-internacionales/",
+          "alsoIn": true,
+          "title": "Disponibilidad de buques tanqueros cae por operaciones Ship-to-Ship en Medio Oriente y presiona al alza los fletes internacionales"
         }
       ],
       "gnTried": "2026-11-13T07:56:54Z",
@@ -1266,7 +2039,48 @@
         "at": "2026-11-13T06:56:56-03:00",
         "basedOn": "https://www.mundomaritimo.cl/noticias/disponibilidad-de-tanqueros-disminuye-por-operaciones-sts-en-medio-oriente-y-presiona-los-fletes",
         "words": 197
-      }
+      },
+      "aliasUrls": [
+        "https://logistica360chile.cl/disponibilidad-de-buques-tanqueros-cae-por-operaciones-ship-to-ship-en-medio-oriente-y-presiona-al-alza-los-fletes-internacionales",
+        "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOU0FGMnZSWmU3RDNqbU1ibWtKNm85cXg4TUVVYk9IUmNrN1V3THExcXNJWWo4OE5MbzRKdll1SnpCUTlFb0lNT052U1Bnd0prdW9UYVlZZ3NMaDg4UDkybVpEdTlJVE9kV0pUd0pXaTdEb1VNdjFJczNvV2p0NXktb3MzNTVPcVlMc1dwQ3RLd3hSMnBqaXl6ZDJFeDNfWGZ6bWgyMm5sQkltVEt1Skp3a1llUkp6aTNGX3RWQ1NCLURWbDRTbmVLbkplQ082ZGJOZFp1QkU0YW5iek1Id0xZTmdQREQtRzAxTzRUUS1mOUY4Zw"
+      ],
+      "mergedIds": [
+        "disponibilidad-de-buques-tanqueros-cae-por-operaciones-ship-to-ship-en-medio-ori"
+      ]
+    },
+    {
+      "id": "protextil-2026-el-derrumbe-del-sector-no-encuentra-piso-presionado-por-la-caida",
+      "datetime": "2026-11-13T04:29:00Z",
+      "date": "2026-11-13",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "ProTextil 2026: el derrumbe del sector no encuentra piso presionado por la caída de las ventas, el boom importador y el contrabando",
+      "summary": "industria textil, crisis textil, importaciones de ropa, Pro Tejer, empleo industrial, cierres de empresas, economía argentina",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "textile",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "El Economista - Últimas noticias económicas y financieras",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://eleconomista.com.ar/economia/protextil-2026-derrumbe-sector-encuentra-piso-presionado-caida-ventas-boom-importador-contrabando-n99639",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-13T17:12:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZnc4S3dRQ2JwRWNkMVZWc1JFZkNORnQ5ZzhpZHpHeHBmeDFYQnF3eFJhSmprdlFJbG5BRVZ1SDJZLUtZdjV2QUo5RUJtcHBmaDNmaGtNNXdPd0NjWXhpcEl6VGlOcUpkWFM5ZVM5TzZaLUZEQXJOeWhESXQ0dFJGMnRVSl9CaHl4VWpKdXJPMkdVUVdOZXFTNWEtMnBNa0l6VGNHZXd0VXgtNGUwRmJGOFdZdFRGWTlYOTJuT1ZpUzFXX1RCVHNhNm1JazE1Q250RkhRcElmb1rSAd4BQVVfeXFMTTY5UnNEUG56bV9zR2NkdjBhSFBNTXZkZ0xtcmEta0NhYnNGQzFuMFpPYWFMbnZHa2pzdzZUQkQwMUVkZnRfTmFJbXJ3dHhtREI5TEhKR2JzZ09aZ3BkTHlKT2UwQUNxUHFpczF1eVhVbXhVNXBNaVE3S0tfUUR1OUZFSGhfdTd6cUlKWHgxYXpQZm45Mkx3eU8zZk41VWhob1F2VllOZEdZSVZIcGctNGpjWGgwV2V4cXhqVDdrcmNGem5ZYkhmRlJleXZyNnJUcEpXdUpuQVNYeFA2Tk13?oc=5"
     },
     {
       "id": "exportaciones-surcoreanas-se-duplican-en-primeros-dias-de-noviembre",
@@ -1322,6 +2136,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Aranceles",
         "Tratados y acuerdos",
         "Mercosur",
         "Europa"
@@ -1331,10 +2146,11 @@
       ],
       "tags": [
         "Mercosur",
-        "UE-Mercosur"
+        "UE-Mercosur",
+        "Medidas comerciales"
       ],
       "visual": "treaty",
-      "impact": 1,
+      "impact": 2,
       "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
@@ -1499,6 +2315,40 @@
       }
     },
     {
+      "id": "irlanda-hace-una-contribucion-de-eur-200-000-para-impulsar-las-oportunidades-com",
+      "datetime": "2026-11-13T00:00:00Z",
+      "date": "2026-11-12",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "Irlanda hace una contribución de EUR 200.000 para impulsar las oportunidades comerciales de los países en desarrollo",
+      "summary": "Irlanda hace una contribución de EUR 200.000 (unos CHF 185.000) al Fondo para la Aplicación de Normas y el Fomento del Comercio (STDF) en 2026, destinada a fortalecer la capacidad de los países en desarrollo y los países menos adelantados en la esfera sanitaria y fitosanitaria. La contribución respaldará las…",
+      "body": [
+        "Irlanda hace una contribución de EUR 200.000 (unos CHF 185.000) al Fondo para la Aplicación de Normas y el Fomento del Comercio (STDF) en 2026, destinada a fortalecer la capacidad de los países en desarrollo y los países menos adelantados en la esfera sanitaria y fitosanitaria. La contribución respaldará las actividades del STDF que ayudan a los países a cumplir las normas internacionales sobre inocuidad de los alimentos, sanidad animal y preservación de los vegetales, y que facilitan el comercio seguro e inclusivo."
+      ],
+      "keyData": [],
+      "topics": [
+        "Europa"
+      ],
+      "countries": [
+        "Irlanda"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "OMC · Organización Mundial del Comercio",
+      "sources": [
+        {
+          "name": "OMC · Organización Mundial del Comercio",
+          "type": "Organismo internacional",
+          "url": "https://www.wto.org/spanish/news_s/pres26_s/pr998_551_s.htm",
+          "primary": true,
+          "author": ""
+        }
+      ]
+    },
+    {
       "id": "preocupaciones-por-aranceles-de-la-seccion-232-superan-a-las-que-genera-la-revis",
       "datetime": "2026-11-12T23:46:35Z",
       "date": "2026-11-12",
@@ -1576,52 +2426,6 @@
       "digestSkip": {
         "at": "2026-11-12T22:30:00-03:00",
         "reason": "fuera de tema (cruceros)"
-      }
-    },
-    {
-      "id": "las-exportaciones-de-vino-se-dispararon-19-en-octubre-pero-a-un-precio-mas-bajo",
-      "datetime": "2026-11-12T23:16:34Z",
-      "date": "2026-11-12",
-      "firstSeen": "2026-11-13T00:23:50Z",
-      "title": "Las exportaciones de vino se dispararon 19% en octubre pero a un precio más bajo",
-      "summary": "El repunte se dio tanto en los envíos de vino fraccionado como en las ventas a granel. Cuáles fueron los principales destinos y cuánto pagaron por los productos argentinos.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "wine",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Radio Cafayate",
-          "type": "Medio · vía Google Noticias",
-          "url": "http://www.radiocafayate.com/?p=77893",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-13T00:23:50Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvZkZpZkJRMVJ2b2lfcU9PU25oc2U1VmNyb2VodUhqVzBhYjZEeDE2eU92Ym8xWDlmLTRqZ1BDMEhVdVNaNHZLU0hoazZUZw?oc=5",
-      "digest": {
-        "lead": "Las exportaciones argentinas de vino sumaron USD 68,1 millones en octubre, 19,3% más que un año antes, con 21,8 millones de litros (+28%), aunque el precio promedio bajó 6,8%, según datos provisorios del INV que publicó Radio Cafayate.",
-        "body": [
-          "El litro exportado promedió USD 3,12, contra USD 3,34 en octubre de 2025. El vino fraccionado aportó 14,7 millones de litros (+10,9%) y USD 62,7 millones, con un precio de USD 4,26 por litro. El granel casi se duplicó: 7,1 millones de litros (+87,8%) por USD 5,3 millones, a unos USD 0,75 por litro, empujado sobre todo por los blancos.",
-          "Por valor, Estados Unidos fue el primer destino, con USD 18,4 millones; el Reino Unido compró 5,1 millones de litros, mayormente a granel, y le siguieron Brasil y Canadá.",
-          "En los diez meses del año los envíos llegan a 169,2 millones de litros (+5,4%), pero el valor cae 2,6%, a USD 540,4 millones, con un precio medio de USD 3,19 por litro (-7,6%). Según la nota, la mejora de septiembre y octubre no alcanzó a compensar las fuertes bajas de julio y agosto."
-        ],
-        "at": "2026-11-12T22:30:00-03:00",
-        "basedOn": "https://www.radiocafayate.com/?p=77893",
-        "words": 181
       }
     },
     {
@@ -2878,7 +3682,9 @@
       "countries": [
         "Argentina"
       ],
-      "tags": [],
+      "tags": [
+        "Carne"
+      ],
       "visual": "livestock",
       "impact": 1,
       "affectsArgentina": true,
@@ -2906,6 +3712,44 @@
         "basedOn": "https://elregionaldigital.com.ar/uno-de-los-caminos-un-especialista-aseguro-que-la-exportacion-es-lo-que-le-va-a-dar-futuro-a-la-ganaderia-argentina/",
         "words": 199
       }
+    },
+    {
+      "id": "tratado-de-libre-comercio-entre-el-mercosur-y-los-estados-del-efta-preguntas-fre",
+      "datetime": "2026-11-12T16:33:13Z",
+      "date": "2026-11-12",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "Tratado de Libre Comercio entre el Mercosur y los Estados del EFTA: Preguntas frecuentes para la importación",
+      "summary": "La Gerencia del Área Gestión de Comercio Exterior de la Dirección Nacional de Aduanas compartió un comunicado con información sobre la implementación",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones",
+        "Tratados y acuerdos",
+        "Mercosur"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Gobierno de Uruguay",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.gub.uy/ministerio-economia-finanzas/comunicacion/noticias/tratado-libre-comercio-entre-mercosur-estados-del-efta-preguntas-frecuentes",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-13T17:12:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxON2s4dmt2YXBBY28yQ19rQmYyX2tEWWxSbUx0VUhLQ2k1NGc4ZW9uczM1b3NmbTVHY3FIYVRXWU4xSEtrS01oR3ZYNjlIWDkwMHE0YjhvZS1tLWpmUEJ3VTl3MWFVVDZwVTcyRU9tT09DT0ZtZEhITzMzWVJCT3pVVmFRRUJscnRDcDg1d1MxaFYwMGxySEVXc2JTSHNrbnlNc3luWU1ndEhnZERGT3lKeW9Ua1pIeUI1WjBvd0puTV9SbFN5Qk1sbU5rbzM5WVZFQjF2R0VmWDNtNnl3dlE?oc=5"
     },
     {
       "id": "mexico-haneza-prepara-tercera-posicion-de-atraque-en-puerto-de-manzanillo",
@@ -3361,57 +4205,6 @@
       ]
     },
     {
-      "id": "argentina-exportara-gas-a-chile-por-al-menos-35-anos",
-      "datetime": "2026-11-12T14:13:28Z",
-      "date": "2026-11-12",
-      "firstSeen": "2026-11-13T07:56:54Z",
-      "title": "Argentina exportará gas a Chile por al menos 35 años",
-      "summary": "GasAndes adjudicó capacidad de transporte a seis empresas de ambos países. El acuerdo permitirá sostener las exportaciones de gas de Vaca Muerta a largo plazo",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Latinoamérica"
-      ],
-      "countries": [
-        "Argentina",
-        "Chile"
-      ],
-      "tags": [
-        "Energía"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "bardeo.news",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://bardeo.news/economia/argentina-exportara-gas-a-chile-por-al-menos-35-anos_a6af5c780d5fb7942a0930f5a",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-13T07:56:54Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMHduTnZyUXZOdWNXcno4VFVYRHFubEozcExDUGtJeGxfSFo1LWRGRm82ZmxsLU8wU0JmMW9jSTJNNVhrWmV4cmlkc1lrY1NhQzNRQnNFNmhFeDVITnFnOVZSTVZCYmx3ZnNqRnI0WVk2ejU1WmtsQU9WT2ppTWlhQURhU0tIcEI2QXY0WXpnWU9PNmNTZ2UtcEwyMXpSeWRUeHUwd3dhcjAtVjjSAboBQVVfeXFMTUZvdk45SUY5RlZMeHhHeFV4WDZLbjlNV3BtMmdQSGhPdjA5UUtfYzZSbkI3N0Zxdk9wb2R3MG4wVnRUSzlhM2F2OS0taGNJQnpiMHdFWE9hc3RaN1VtWnJoa21LOG5PUm9sTHc5S1doc1NXUk5XOG11RlI2aG5lN0NsRk8zTXVqaFcxWjV5cVBEQm9zODFIb3FBTl9nNzdjbE9ZN2dkLTRaZHNuc09KbVFZRWZNTk9WVjZR?oc=5",
-      "digest": {
-        "lead": "GasAndes, el gasoducto que une Mendoza con el centro de Chile, adjudicó a seis empresas capacidad firme de transporte por plazos de entre tres y 35 años, lo que da previsibilidad a las exportaciones de gas de Vaca Muerta, informó Bardeo.news.",
-        "body": [
-          "La empresa ofreció 4,8 millones de metros cúbicos diarios de capacidad en cada país: el tramo argentino se adjudicó al 100% y el chileno, al 50%. La mayor parte del volumen quedó comprometida por entre 10 y 35 años.",
-          "El cambio de fondo es que buena parte del gas hacia Chile viajaba con contratos interrumpibles: antes de la licitación, solo entre el 25% y el 30% de la operación tenía respaldo firme, y ahora esa proporción ronda el 80%. El gerente general, Santiago Romero, dijo a Diario Financiero que era «la pieza que faltaba». En julio, según el ENARGAS, se exportaron en promedio 8,14 millones de m³ diarios a Chile, 6,24 millones por GasAndes.",
-          "El gas llega desde Neuquén por la red de TGN, que en 2025 ya había adjudicado casi cinco millones de m³ diarios firmes para exportación. En Chile se usa sobre todo para generar electricidad."
-        ],
-        "at": "2026-11-13T06:56:56-03:00",
-        "basedOn": "https://bardeo.news/economia/argentina-exportara-gas-a-chile-por-al-menos-35-anos_a6af5c780d5fb7942a0930f5a",
-        "words": 189,
-        "flag": "curar"
-      }
-    },
-    {
       "id": "creemos-firmemente-en-este-acuerdo-una-lectura-desde-italia-sobre-el-mercosur-y",
       "datetime": "2026-11-12T14:00:00Z",
       "date": "2026-11-12",
@@ -3560,6 +4353,138 @@
         "basedOn": "https://prensamercosur.org/2026/11/12/el-expresidente-del-gobierno-italiano-reivindica-el-acuerdo-ue-mercosur-como-una-oportunidad-para-construir-una-asociacion-geopolitica-capaz-de-responder-a-los-grandes-cambios-de-la-economia-mundial/",
         "words": 182
       }
+    },
+    {
+      "id": "gasandes-open-season-contratos-firmes-35-anos-gas-argentino-chile-4-8-mmm3",
+      "date": "2026-11-12",
+      "datetime": "2026-11-12T08:57:00-03:00",
+      "kind": "noticia",
+      "title": "GasAndes adjudicó transporte firme por hasta 35 años para exportar gas argentino a Chile",
+      "summary": "En su primer open season en la Argentina, el gasoducto que une Mendoza con Santiago ofreció 4,8 millones de m³ diarios: el tramo argentino se adjudicó completo y el chileno, cerca de la mitad, a seis empresas con contratos de 3 a 35 años. La capacidad con contrato firme pasó de 25–30% a cerca de 80%.",
+      "topics": [
+        "Argentina",
+        "Latinoamérica",
+        "Exportaciones",
+        "Empresas",
+        "Logística"
+      ],
+      "countries": [
+        "Argentina",
+        "Chile"
+      ],
+      "tags": [
+        "GasAndes",
+        "Gas natural",
+        "Vaca Muerta",
+        "Open season",
+        "GNL",
+        "CGC",
+        "Ecogas"
+      ],
+      "visual": "energy",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "Las exportaciones de gas a Chile por el corredor de Mendoza dejan de depender sobre todo de transporte interrumpible y pasan a tener capacidad firme de largo plazo, uno de los requisitos para contratos de venta estables.",
+      "argentinaImpact": {
+        "change": "GasAndes adjudicó el 100% de 4,8 millones de m³/día en el tramo argentino y cerca de la mitad en el chileno, con contratos de 3 a 35 años; la capacidad firme del ducto ronda ahora el 80%.",
+        "who": "Productoras de gas de Vaca Muerta que exportan a Chile, comercializadoras, la distribuidora de Cuyo y consumidores industriales y eléctricos del centro de Chile.",
+        "sectors": [
+          "Energía",
+          "Gas natural"
+        ],
+        "flows": {
+          "importaciones": false,
+          "exportaciones": true,
+          "logistica": true,
+          "aranceles": false
+        }
+      },
+      "body": [
+        "GasAndes, el gasoducto que lleva gas desde La Mora, en Mendoza, hasta Santiago de Chile, cerró su primer open season en territorio argentino con contratos de transporte firme por plazos de entre 3 y 35 años. La empresa puso a disposición 4,8 millones de metros cúbicos diarios en cada país: del lado argentino se adjudicó el 100% de esa capacidad y del lado chileno, alrededor de la mitad, según informó Diario Financiero y reprodujeron iProfesional, LM Neuquén y Eolo Media entre el 11 y el 12 de noviembre.",
+        "Alrededor de diez compañías mostraron interés y seis obtuvieron capacidad. GasAndes no difundió sus nombres. Según su gerente general, Santiago Romero, se trata de firmas que participan directamente en la exportación de gas argentino a Chile y en su importación del lado chileno. El contrato de 35 años es el más largo en la historia de la transportadora, y la mayor parte del volumen quedó en bloques de 10 a 35 años.",
+        "## De transporte interrumpible a capacidad firme",
+        "El cambio más relevante para el negocio exportador es la proporción de capacidad con contrato firme. Hasta ahora solo entre el 25% y el 30% de la capacidad operativa del ducto tenía ese respaldo; con los nuevos contratos ronda el 80%, de acuerdo con las cuatro fuentes consultadas. Desde que la Argentina retomó los envíos de gas a Chile, en 2018, GasAndes había trabajado mayormente con transporte interrumpible, que puede cortarse cuando el sistema no tiene capacidad disponible.",
+        "Romero describió el resultado como la pieza que faltaba para consolidar la integración energética entre los dos países. La convocatoria, la recepción de ofertas y la adjudicación se hicieron entre fines de abril y fines de junio de 2026, según LM Neuquén y Eolo Media. Las fuentes no coinciden en el orden de la puesta en marcha: iProfesional indica que los contratos empezaron a operar en julio en la Argentina y en agosto en Chile, mientras que LM Neuquén y Eolo Media sostienen lo inverso y atribuyen la demora argentina a los tiempos de la autorización regulatoria local.",
+        "## Por qué Chile tomó menos capacidad",
+        "En Chile la empresa ya hacía procesos anuales de asignación desde hace tres años, con bases y modelos de contrato aprobados. En la Argentina no había antecedentes desde la construcción del ducto, por lo que hubo que redactar los documentos y esperar el visto bueno del regulador, explicó la compañía a LM Neuquén. Los dos procesos fueron independientes: el tramo argentino representa cerca de dos tercios del trazado y el chileno, un tercio. Según la empresa, los clientes chilenos, sin certeza sobre su uso futuro, prefirieron asegurar solo una parte.",
+        "Del lado chileno, el gas argentino se usa sobre todo para generar electricidad y, en menor medida, en la industria. La demanda residencial de Chile todavía se apoya en el GNL importado, por seguridad de suministro, confiabilidad y contratos vigentes, de acuerdo con la misma fuente. En la Argentina, la Distribuidora de Gas Cuyana, del grupo Ecogas, contrató capacidad firme para abastecer San Rafael mediante un nuevo punto de derivación: es el primer cliente local de GasAndes en el país desde la habilitación del ducto, en 1997.",
+        "## El gasoducto y el tramo que lo alimenta",
+        "Según iProfesional, GasAndes tiene 463,36 kilómetros, una capacidad de transporte de 10,5 millones de m³ diarios y cruza la cordillera por el sector del Paso Maipo, a unos 3.700 metros de altura. Lo controlan en partes iguales, con 43,5% cada una, la Compañía General de Combustibles (CGC, del grupo Corporación América) y Aprovisionadora Global de Energía, subsidiaria de Naturgy; AES Andes tiene el 13% restante.",
+        "El gas llega a La Mora por el sistema de TGN desde Neuquén. En diciembre de 2025, TGN hizo su propio open season para ese tramo, desde Tratayén, con 4,8 millones de m³ diarios: Pluspetrol ofertó 4,1 millones en firme por 52 años a partir del 1 de enero de 2026 y Ecogas, 700.000 m³ para la demanda de Mendoza, según EconoJournal y LM Neuquén. En ese momento la adjudicación final dependía de que el Enargas validara la propuesta de Ecogas. LM Neuquén informó ahora que ese transportista adjudicó casi 5 millones de m³ diarios de transporte firme para exportación, con lo que un cliente en Santiago puede contratar suministro firme desde la Argentina en todo el recorrido.",
+        "## GNL por el Pacífico y nuevas convocatorias",
+        "La mayor capacidad firme se conecta con un proyecto que CGC viene planteando: exportar GNL a Asia desde la costa chilena, con dos trenes de licuefacción, una inversión estimada en torno a USD 2.600 millones y un socio local, aprovechando las redes de TGN y GasAndes, según iProfesional. Romero dijo que GasAndes debería definir en dos o tres años si hace falta ampliar el ducto para un proyecto de licuefacción en Chile, y que ve viable lanzar nuevos open seasons en los próximos años porque hay contratos que vencen. Ninguna de las fuentes informó tarifas ni volúmenes por empresa de los nuevos contratos."
+      ],
+      "keyData": [
+        [
+          "Capacidad ofrecida por país",
+          "4,8 millones de m³/día"
+        ],
+        [
+          "Adjudicado en Argentina / Chile",
+          "100% / alrededor de 50%"
+        ],
+        [
+          "Plazo de los contratos",
+          "De 3 a 35 años"
+        ],
+        [
+          "Empresas adjudicatarias",
+          "6 (de unas 10 interesadas)"
+        ],
+        [
+          "Capacidad con contrato firme",
+          "Antes 25–30%, ahora cerca de 80%"
+        ],
+        [
+          "Capacidad total de GasAndes",
+          "10,5 millones de m³/día · 463,36 km"
+        ]
+      ],
+      "explainer": {
+        "what": "GasAndes adjudicó a seis empresas transporte firme de gas desde Mendoza hacia Chile por plazos de 3 a 35 años, con el 100% de 4,8 millones de m³ diarios asignado en el tramo argentino.",
+        "why": "La capacidad firme del ducto pasó de 25–30% a cerca de 80%, lo que da previsibilidad de largo plazo a las exportaciones de gas de Vaca Muerta a Chile.",
+        "who": "Productoras y comercializadoras de gas que exportan a Chile, generadoras e industrias chilenas y la distribuidora de Cuyo.",
+        "products": [
+          "Gas natural"
+        ],
+        "next": "GasAndes debería definir en dos o tres años si amplía el ducto para un proyecto de licuefacción en Chile y ve viables nuevos open seasons por contratos que vencen.",
+        "nextSource": {
+          "name": "LM Neuquén (Más Energía)",
+          "url": "https://mase.lmneuquen.com/gas/gasandes-firmo-contratos-35-anos-llevar-gas-vaca-muerta-chile-n1260846"
+        }
+      },
+      "sources": [
+        {
+          "name": "iProfesional",
+          "type": "Medio de comunicación",
+          "url": "https://www.iprofesional.com/energia/468893-adjudican-capacidad-por-35-anos-para-llevar-gas-a-chile-y-abre-las-puertas-al-gnl",
+          "primary": true
+        },
+        {
+          "name": "LM Neuquén (Más Energía)",
+          "type": "Medio especializado",
+          "url": "https://mase.lmneuquen.com/gas/gasandes-firmo-contratos-35-anos-llevar-gas-vaca-muerta-chile-n1260846"
+        },
+        {
+          "name": "Eolo Media",
+          "type": "Medio especializado",
+          "url": "https://eolomedia.com.ar/el-gas-de-vaca-muerta-llega-a-chile-con-contratos-firmes-de-35-anos/"
+        },
+        {
+          "name": "EconoJournal (open season de TGN, diciembre de 2025)",
+          "type": "Medio especializado",
+          "url": "https://econojournal.com.ar/destacada/pluspetrol-gasoducto-gas-tgn-chile/"
+        },
+        {
+          "name": "LM Neuquén (open season de TGN, diciembre de 2025)",
+          "type": "Medio especializado",
+          "url": "https://mase.lmneuquen.com/gas/apuesta-historica-vaca-muerta-pluspetrol-oferto-exportar-gas-chile-52-anos-n1221764"
+        }
+      ],
+      "story": "energia-mineria",
+      "absorbs": [
+        "argentina-exportara-gas-a-chile-por-al-menos-35-anos"
+      ]
     },
     {
       "id": "euroports-rauma-se-suma-a-red-portchain-connect",
@@ -4186,20 +5111,19 @@
       }
     },
     {
-      "id": "alerta-en-el-mercosur-los-autos-chinos-desplazan-a-la-produccion-regional-y-cae",
-      "datetime": "2026-11-12T04:54:00Z",
+      "id": "brasil-importaciones-autos-9420-millones-china-66-5-argentina-11-3-deficit-automotor-5530",
       "date": "2026-11-12",
-      "firstSeen": "2026-11-12T11:07:55Z",
-      "title": "Alerta en el Mercosur: los autos chinos desplazan a la producción regional y cae el comercio entre Argentina y Brasil",
-      "summary": "Las exportaciones argentinas al mercado brasileño bajaron 7,8%, mientras que las ventas en sentido inverso también retrocedieron. El fuerte crecimiento de las importaciones asiáticas encendió las alarmas en las automotrices de ambos países",
-      "body": [],
-      "keyData": [],
+      "datetime": "2026-11-12T01:54:00-03:00",
+      "kind": "analisis",
+      "title": "Los autos chinos ya son dos de cada tres importados en Brasil y la Argentina pierde terreno en su principal mercado",
+      "summary": "Brasil importó autos por un récord de USD 9.420 millones (+76,7%) y China explica el 66,5%, contra 11,3% de la Argentina. Entre enero y septiembre el déficit automotor brasileño llegó a USD 5.530 millones y las ventas argentinas de autos a Brasil caen 7,8% en diez meses.",
       "topics": [
         "Argentina",
+        "Mercosur",
+        "China",
         "Importaciones",
         "Exportaciones",
-        "Latinoamérica",
-        "Mercosur"
+        "Empresas"
       ],
       "countries": [
         "Argentina",
@@ -4207,51 +5131,130 @@
         "China"
       ],
       "tags": [
-        "Mercosur",
-        "Autos"
+        "Industria automotriz",
+        "Vehículos",
+        "Autos eléctricos",
+        "MDIC",
+        "ADEFA",
+        "Abeceb",
+        "Comercio bilateral"
       ],
       "visual": "auto",
-      "impact": 1,
+      "impact": 2,
       "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
+      "argentinaNote": "Brasil es el destino de más de 60% de los autos que exporta la Argentina, y allí los vehículos chinos ya ganan participación frente a los fabricados en el Mercosur, mientras también crecen en el mercado argentino.",
+      "argentinaImpact": {
+        "change": "China explica el 66,5% de las importaciones brasileñas de autos y la Argentina el 11,3%; las ventas argentinas de autos a Brasil bajan 7,8% en enero–octubre y las compras argentinas de autos chinos se triplicaron en nueve meses.",
+        "who": "Terminales automotrices y autopartistas exportadoras, importadores de vehículos y concesionarios.",
+        "sectors": [
+          "Automotriz",
+          "Autopartes"
+        ],
+        "flows": {
+          "importaciones": true,
+          "exportaciones": true,
+          "logistica": false,
+          "aranceles": true
+        }
+      },
+      "body": [
+        "Brasil importó automóviles por USD 9.420 millones en los primeros nueve meses de 2026, un récord para el período y un 76,7% más que un año antes, según datos del Ministerio de Desarrollo, Industria, Comercio y Servicios (MDIC) que difundieron Valor Econômico y O Globo y analizaron Infobae y Reporte Asia. China explica el 66,5% de esas compras y la Argentina, que hasta hace poco era el principal proveedor, quedó segunda con el 11,3%.",
+        "Entre enero y septiembre, los autos chinos que entraron a Brasil sumaron USD 6.260 millones, frente a USD 2.360 millones en el mismo período de 2025. Con ese salto, el sector automotor brasileño acumuló un déficit comercial de USD 5.530 millones, un 835% más que los USD 591 millones de un año antes, de acuerdo con Reporte Asia y el sitio de la AAACI, que retomaron las publicaciones brasileñas.",
+        "## Brasil vende menos a la Argentina",
+        "El deterioro también corre en sentido inverso. Las exportaciones brasileñas de autos cayeron 18% y la Argentina, que absorbe el 54,6% de ellas, compró vehículos brasileños por USD 2.140 millones entre enero y septiembre, 30% menos que un año antes, según Reporte Asia con base en datos oficiales. En el mismo lapso llegaron a la Argentina autos chinos por USD 916,8 millones, contra USD 292,6 millones en 2025, de acuerdo con datos del gobierno argentino citados por Infobae.",
+        "Para octubre, la consultora Abeceb registró que las compras argentinas de autos de pasajeros a Brasil sumaron USD 225 millones, 27,9% menos que en octubre de 2025, y que las ventas argentinas de autos de pasajeros a ese país bajaron 17,9%, a USD 153,4 millones, según Perfil. Los envíos de vehículos comerciales y utilitarios a Brasil cayeron 22,2%, a USD 279,3 millones. Es el mismo mes en el que el déficit bilateral total con Brasil fue de USD 270 millones, como informó Comexplora.",
+        "## Lo que pierde la Argentina en su mercado principal",
+        "Infobae señala que las ventas de autos argentinos a Brasil retrocedieron 7,8% en los primeros diez meses del año, aunque no aclara si la variación es en unidades o en dólares. Según ADEFA, Brasil recibió 144.709 de los 230.865 vehículos exportados entre enero y octubre, el 62,7% del total; un año antes esa participación era de 68,5%, según Infobae. La producción local acumula 360.444 unidades en diez meses, 15,5% menos.",
+        "Los precios también juegan. El índice Icomex de la FGV Ibre muestra que, entre enero y septiembre, los bienes durables que Brasil compró a China bajaron 5,4% de precio y subieron 123,3% en volumen, mientras que los comprados a la Argentina se encarecieron 1,1% y los de la Unión Europea, 13,6%, según Reporte Asia e Infobae.",
+        "## Los aranceles y el mercado argentino",
+        "Brasil viene subiendo el arancel a los autos electrificados importados: tras escalones de 25% y 30% según la tecnología en el primer semestre, desde julio de 2026 se aplica el 35% del arancel externo común, según Infobae. Aun así, las compras a China siguieron creciendo. En la Argentina, los importados explican el 68% de los patentamientos y la producción nacional quedó con una participación de 32%, frente a 56% en 2024, según datos de ADEFA citados por Perfil. Infobae recuerda que el cupo de 50.000 híbridos y eléctricos con arancel cero permitió el ingreso de casi 90.000 vehículos chinos desde 2025; para el cupo 2027, regulado por la Disposición 451/2026, el plazo para presentar solicitudes vence el 17 de noviembre.",
+        "## Qué dicen los analistas",
+        "Según Reporte Asia, el presidente de la Asociación de Comercio Exterior de Brasil (AEB), José Augusto de Castro, atribuye el cambio a que las restricciones de Estados Unidos y la Unión Europea empujaron a China hacia otros mercados. Rafael Cagnin, economista jefe del Iedi, considera que el avance chino es estructural y plantea atraer plantas de esas marcas a Brasil, y Welber Barral, de BMJ, advierte que la presencia china en otros mercados sudamericanos limita la posibilidad de compensar lo que Brasil pierde en la Argentina.",
+        "Del lado argentino, Andrés Civetta, de Abeceb, prevé que el país se especialice aún más en vehículos comerciales livianos y que el comercio bilateral con Brasil se mantenga relativamente estable, según Perfil. El presidente de ADEFA, Rodrigo Pérez Graziano, pidió seguir trabajando en competitividad y en el acceso a mercados externos. Infobae no precisa el período de algunas de las cifras brasileñas; AAACI y Reporte Asia las ubican en enero–septiembre."
+      ],
+      "keyData": [
+        [
+          "Importaciones de autos de Brasil, ene–sep 2026",
+          "USD 9.420 millones (+76,7%)"
+        ],
+        [
+          "Participación de China / Argentina",
+          "66,5% / 11,3%"
+        ],
+        [
+          "Autos chinos importados por Brasil, ene–sep",
+          "USD 6.260 millones (vs. 2.360 en 2025)"
+        ],
+        [
+          "Déficit automotor de Brasil, ene–sep",
+          "USD 5.530 millones (+835%)"
+        ],
+        [
+          "Compras argentinas de autos brasileños, ene–sep",
+          "USD 2.140 millones (−30%)"
+        ],
+        [
+          "Autos chinos importados por Argentina, ene–sep",
+          "USD 916,8 millones (vs. 292,6 millones)"
+        ],
+        [
+          "Ventas argentinas de autos a Brasil, ene–oct",
+          "−7,8% (Infobae)"
+        ]
+      ],
+      "explainer": {
+        "what": "Brasil importó autos por un récord de USD 9.420 millones en nueve meses y China ya explica el 66,5% de esas compras, contra el 11,3% de la Argentina.",
+        "why": "Brasil es el principal mercado de los autos argentinos y allí los vehículos chinos desplazan a la producción del Mercosur, mientras el comercio automotor bilateral se achica en ambas direcciones.",
+        "who": "Terminales y autopartistas exportadoras de la Argentina y Brasil, importadores de vehículos y concesionarios.",
+        "products": [
+          "Automóviles",
+          "Vehículos utilitarios",
+          "Autos híbridos y eléctricos"
+        ],
+        "next": "El plazo para pedir unidades del cupo 2027 de 50.000 autos híbridos y eléctricos con arancel cero vence el 17 de noviembre.",
+        "nextSource": {
+          "name": "CIRA (Disposición 451/2026)",
+          "url": "https://www.cira.org.ar/es/servicios/normativas-servicios/disposicion/disposicion-451-2026/"
+        }
+      },
       "sources": [
         {
           "name": "Infobae",
-          "type": "Medio · vía Google Noticias",
+          "type": "Medio de comunicación",
           "url": "https://www.infobae.com/economia/2026/11/12/alerta-en-el-mercosur-los-autos-chinos-desplazan-a-la-produccion-regional-y-cae-el-comercio-entre-argentina-y-brasil/",
-          "primary": true,
-          "author": ""
+          "primary": true
         },
         {
-          "name": "Perfil",
-          "type": "También publicó esta noticia",
-          "url": "https://www.perfil.com/economia/los-autos-chinos-desplazan-a-la-produccion-mercosur-y-golpean-la-industria-nacional-como-al-comercio-bilateral-con-brasil-aaOFD6t3z24s",
-          "alsoIn": true,
-          "title": "Los autos chinos desplazan a la producción Mercosur y golpean la industria nacional como al comercio bilateral con Brasil"
+          "name": "Reporte Asia",
+          "type": "Medio especializado",
+          "url": "https://reporteasia.com/destacado/2026/11/07/autos-chinos-disparan-835-deficit-automotor-brasil/"
+        },
+        {
+          "name": "Perfil (datos de Abeceb y ADEFA)",
+          "type": "Medio de comunicación",
+          "url": "https://www.perfil.com/economia/los-autos-chinos-desplazan-a-la-produccion-mercosur-y-golpean-la-industria-nacional-como-al-comercio-bilateral-con-brasil-aaOFD6t3z24s"
+        },
+        {
+          "name": "AAACI",
+          "type": "Entidad sectorial",
+          "url": "https://aaaci.org.ar/problema-para-lula-por-china-y-argentina-la-industria-automotriz-brasilena-tiene-el-mayor-deficit-comercial-de-su-historia/"
+        },
+        {
+          "name": "CIRA (Disposición 451/2026)",
+          "type": "Cámara sectorial",
+          "url": "https://www.cira.org.ar/es/servicios/normativas-servicios/disposicion/disposicion-451-2026/"
         }
       ],
-      "gnTried": "2026-11-12T11:07:55Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbElpQ2ZKcE41bm53aUNOQ2FYZjFqQ3JLaXh6NU1DR3lCWjdPbnAtb1d0RERVNXBkUmxfc3J5TTRHekZQa2NQUm5TbXR3NnVJNm5WQWZscnEwMFBoS2Y1UFFsMUNKYjQtQk9LT25UM09IcVpibTlybTVabmFLNGktcVAzNHlicGxxRFE4WFpqaW8tUlY4RFNDTG9uU1pUVDBpX0dwR01UaTc1TjBvM2tEdTVIUTEyZzg3SmEwTDVBWlUyNXpkZC1CODdvR2VCX0M0emw0VW9FTzVLb1pMLTBrN0gtM1lESHRoNDRKeEhUeEhlRUHSAY4CQVVfeXFMTUtaU3FVN2lpR3lYREl3R2ZfU1o0R2otbTE4QjdiY2p3cnA0MGxpd1NLdlJ3ZTFLQXA1MVRCUXduTFQyb3h4N0R0X0pZc05oeWZ5dUdmR002TjVpTnlvSmx1c0F2NHQ1Zk4wTjg3dEEzaWtTUjYtSW5oYmNIcGJEcmx3eHJxb0ctaXNRQlBTc0lRZnFCTG5lY0JQV2ZNeml0SzJCSjZ2SUFSYjVXZndLelFzM3dJSE9UQkxvcmYzdEotVHZQZmU2N204Y0Vqcy1FT3YwVkprN205ZFNrNFdnM0VwTlBva3hHb3lJZWFHVS14b3Y0a0JsaW1OTWZDbVE1NVNiT1MwX2ZCTE90MGhB?oc=5",
-      "digest": {
-        "lead": "Brasil importó autos por un récord de USD 9.420 millones en lo que va de 2026, un 76,7% más, y China ya explica el 66,5% de esas compras, mientras la Argentina quedó segunda con 11,3%, según un análisis de Infobae con datos oficiales.",
-        "body": [
-          "Las compras brasileñas de autos chinos sumaron USD 6.260 millones, contra 2.360 millones en 2025. Las exportaciones argentinas de vehículos a Brasil caen 7,8% en diez meses y el peso de ese mercado en las ventas externas del sector bajó de 68,5% a 62,7%.",
-          "En sentido inverso, la Argentina importó autos chinos por USD 916,8 millones, frente a 292,6 millones un año antes, y redujo 30% las compras a Brasil. La relación entre unidades brasileñas y chinas pasó de 10 a 1 a 2 a 1.",
-          "El artículo recuerda que para 2027 habrá un cupo de 50.000 híbridos y eléctricos sin arancel, y que Brasil subió el gravamen a esos vehículos hasta 35% desde julio de 2026."
-        ],
-        "at": "2026-11-12T19:40:00-03:00",
-        "basedOn": "https://www.infobae.com/economia/2026/11/12/alerta-en-el-mercosur-los-autos-chinos-desplazan-a-la-produccion-regional-y-cae-el-comercio-entre-argentina-y-brasil/",
-        "flag": "curar",
-        "words": 160
-      },
-      "aliasUrls": [
-        "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNaXY1MDY3SjA0OGEyeHRZWEJDOEhkVy1sTWM4VGY2RC1uVXdELUxhd0NtSjRzNDJDMDlaRGxLTjRCNTNsMjdINHNHamNKZkhFUjdaNEZaMi10TUdKZFNqbTZsWktMQUxOMGhwcG16Y3lpeGp1OXdDM3IxNjJaYmJyMHpvbnNFdVlzMXhkS05jbFZ1QjlLUDl5Q0ZiWUFIYXBtWkNEbjNWWXZqX2ZwYW1ITW9GOXZ5NGdfeG9iOUd1bUFWRThzTFpMS3dnY0gycS1sR0FmazV0OEhqVFAyOXZZc2YxU0xIeTVyekw0aFNYVHo4ejFYZF9keFpR",
-        "https://www.perfil.com/economia/los-autos-chinos-desplazan-a-la-produccion-mercosur-y-golpean-la-industria-nacional-como-al-comercio-bilateral-con-brasil-aaOFD6t3z24s"
+      "deadlines": [
+        {
+          "date": "2026-11-17",
+          "label": "Argentina: cierra a las 23:59 la presentación de solicitudes para el cupo 2027 de 50.000 autos híbridos y eléctricos con arancel cero (Disposición 451/2026)",
+          "url": "https://www.cira.org.ar/es/servicios/normativas-servicios/disposicion/disposicion-451-2026/"
+        }
       ],
-      "mergedIds": [
-        "los-autos-chinos-desplazan-a-la-produccion-mercosur-y-golpean-la-industria-nacio"
+      "story": "autos",
+      "absorbs": [
+        "alerta-en-el-mercosur-los-autos-chinos-desplazan-a-la-produccion-regional-y-cae"
       ]
     },
     {
@@ -5700,6 +6703,40 @@
         "basedOn": "https://portalportuario.cl/puerto-de-le-havre-inicia-desmantelamiento-de-grua-grn14/",
         "words": 129
       }
+    },
+    {
+      "id": "avanza-la-concesion-de-la-segunda-aduana-terrestre-del-pais",
+      "datetime": "2026-11-11T22:43:50Z",
+      "date": "2026-11-11",
+      "firstSeen": "2026-11-13T17:12:57Z",
+      "title": "Avanza la concesión de la segunda aduana terrestre del país",
+      "summary": "Luego de más de dos años, el Ejecutivo firmó un decreto que habilita la licitación del paso fronterizo terrestre más importante del interior del país, por donde circulan más de 200.000 camiones al año.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aduanas"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 2,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Radio Sudamericana",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.radiosudamericana.com/nota/sociedad/352599-Avanza-la-concesion-de-la-segunda-aduana-terrestre-del-pais.htm",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-13T17:12:57Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWkNFalBneDMtRHNkZERqZUF6S3VndjBUNVBtdUdoVDc0eUVjM045Z3ItMklKRFZrRmFWYm1kUHRXOU8wcVVVWkpKQm5KSHFrazhOVG42cG0xWFpNb3pYdHZYcktGaWdOUDBlV212RG8wdG40dTZyMXBjUi1yMFl3WER5RVJzN0tRSUFlSWtsNGV1amlZMGE3d0tmWGVaaEdiUi05TzlqZ3M2c2tHYmo0dG8zYTJud9IBuAFBVV95cUxORzNOWFVrbmtfbmNsbEI0SEo0NVp2VldvODZCaGlkRGNzZXJITHl0NUdrRFZtc19aUzd6NnNFd3RWWDRzelhRdzRfamRfQmxieTFNT3pISG1sNFZBVkY2bnR0T0lXR3RXVWRZM2NMQ3dNc25qZldXV3FyZDZ1MEdicmVqUUNMOUFlYnVZaksyRWN1c2JDOGRVWEk1eGZSdDdSVWFYaTN6N1M0bmNocEdYclVCQk0wTXdM?oc=5"
     },
     {
       "id": "portcastello-refuerza-vinculos-con-navieras-turcas-en-logitrans-y-busca-nuevas-r",
@@ -7592,59 +8629,6 @@
       }
     },
     {
-      "id": "milei-busca-empresa-que-maneje-la-segunda-aduana-terrestre-mas-importante-del-pa",
-      "datetime": "2026-11-11T08:00:00Z",
-      "date": "2026-11-11",
-      "firstSeen": "2026-11-13T07:56:54Z",
-      "title": "Milei busca empresa que maneje la segunda aduana terrestre más importante del país",
-      "summary": "El Gobierno avanza con una concesión para modernizar y administrar un estratégico complejo fronterizo por el que circulan más de 1.000 camiones al día",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Aduanas"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 2,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
-      "sources": [
-        {
-          "name": "iProfesional",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.iprofesional.com/politica/469001-javier-milei-busca-empresa-que-maneje-la-segunda-aduana-terrestre-argentina-mas-importante",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "Política Argentina",
-          "type": "También publicó esta noticia",
-          "url": "https://www.politicargentina.com/notas/202611/77109-milei-avanza-con-la-privatizacion-de-paso-de-los-libres-la-segunda-aduana-terrestre-mas-importante-del-pais.html",
-          "alsoIn": true,
-          "title": "Milei avanza con la privatización de Paso de los Libres, la segunda aduana terrestre más importante del país"
-        }
-      ],
-      "gnTried": "2026-11-13T07:56:54Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRE1kM21Hd0VpSEFYUDF3LXFOcDJjSDlnNjJHSGJLZ3JSQzRrWHhoNzNoVE1XMXlMVlFxanlDejhSbG9yNGd6WDJQQXlxQXBGTkJmcEhuVU85M0Nudk96d25PN3AwMndSQ3JXWmVsYlhiRGdMLTZRUGdPZnd4NWI2WTBmc3dXUlVGdmxZZFZLT2k4RElSQS1hSUdEZkNEOFMzb056djFubGNSNFRpMTJ4MFJOSmNKaEd0WkRMTk9rSTZIMlRXRmx1djFUY2Rzb1hO0gHWAUFVX3lxTFBoQWY0bHpnczZ3MHkwMElZaDdTbFA1T3VtbnZkYU9kQWU1RGxDcVZUQWRzb1dXZmF5Qm4yR1BJclNCbXMxc0lpMXl3ZEozeEx0dXhkcktQeDRHOE5VMFdGSjN1NmMyNTRDMXZVc2VNYnl2WWVRSzJkVjdrUHJOZjVOWHJxUGRYakRuWWNnaDVoWUZZRlJwQmxLLWwxTWNMRjRuTV9yTzlOU1dUME9RUG9WNWF1N002SjkxaU4waldialNhRkdaZVpWNlNFUUxCUF9nMTVmZkE?oc=5",
-      "aliasUrls": [
-        "https://news.google.com/rss/articles/CBMi9wFBVV95cUxObWJjTlNxRkpLWmhmR1lKaGJUUXNCVUpwMzkxZHU4VThQcWpUOUtJZW5lVktBZGRjN1ZVRFBVWnh5MlFHT0sxQUJaNGFpTmkzVnVBRDZVN29PYkdYZHFTRXIwbkIwblRVSlYzcUFLeHozNHNlak9qaW9HTURUZzdEVDg0Umk5alNpeHJ1bDBTMTJQYThvUm0xN1V0WDdrS3dYSExmd3gxbUg5dUkwQUwxanMxbXpIOEo3MlUyYmZKSk84V1VLcHdyd0lqUEhlSzFDNGRRS0Yxczk3ZmdVSy1kblVyLThEaHd3WGcySExSdzgySnZ5UWN3",
-        "https://www.politicargentina.com/notas/202611/77109-milei-avanza-con-la-privatizacion-de-paso-de-los-libres-la-segunda-aduana-terrestre-mas-importante-del-pais.html"
-      ],
-      "mergedIds": [
-        "milei-avanza-con-la-privatizacion-de-paso-de-los-libres-la-segunda-aduana-terres"
-      ],
-      "digestSkip": {
-        "at": "2026-11-13T06:56:56-03:00",
-        "reason": "repite una nota de la redacción (concesión del Centro de Fronteras de Paso de los Libres)"
-      }
-    },
-    {
       "id": "desafios-e-implementacion-del-acuerdo-mercosur-ue",
       "datetime": "2026-11-11T08:00:00Z",
       "date": "2026-11-11",
@@ -7930,6 +8914,124 @@
         "basedOn": "https://portalportuario.cl/acuerdan-desarrollar-terminal-de-exportacion-en-recinto-fiscal-bahia-de-algeciras",
         "words": 176
       }
+    },
+    {
+      "id": "exportaciones-vino-octubre-2026-inv-68-1-millones-19-3-granel-87-8",
+      "date": "2026-11-11",
+      "datetime": "2026-11-11T00:27:00-03:00",
+      "kind": "datos",
+      "title": "El vino exportó USD 68,1 millones en octubre, 19,3% más, pero el acumulado del año sigue 2,6% abajo",
+      "summary": "Según datos provisorios del INV, en octubre salieron 218.481 hectolitros de vino (+28%), con el granel en alza de 87,8%. El precio promedio bajó a USD 3,12 por litro y en diez meses el valor FOB del vino suma USD 540,4 millones, 2,6% menos que en 2025.",
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina",
+        "Reino Unido",
+        "Estados Unidos",
+        "Brasil",
+        "Canadá"
+      ],
+      "tags": [
+        "Vino",
+        "Mosto concentrado",
+        "INV",
+        "Economías regionales",
+        "Vitivinicultura"
+      ],
+      "visual": "wine",
+      "impact": 1,
+      "affectsArgentina": true,
+      "argentinaNote": "Las bodegas venden más litros que en 2025, pero a precios más bajos: el valor exportado del año sigue por debajo del de 2025 pese al repunte de septiembre y octubre.",
+      "argentinaImpact": {
+        "change": "Octubre cerró con USD 68,1 millones FOB (+19,3%) y 218.481 hl (+28%); en enero–octubre el vino suma USD 540,4 millones (−2,6%) con 5,4% más volumen.",
+        "who": "Bodegas exportadoras, elaboradores de mosto concentrado y economías regionales de Cuyo y el Noroeste.",
+        "sectors": [
+          "Vitivinicultura"
+        ],
+        "flows": {
+          "importaciones": false,
+          "exportaciones": true,
+          "logistica": false,
+          "aranceles": false
+        }
+      },
+      "body": [
+        "Las exportaciones argentinas de vino sumaron USD 68,1 millones FOB en octubre de 2026, un 19,3% más que en el mismo mes de 2025, con 218.481 hectolitros embarcados, un 28% más, según datos provisorios del Instituto Nacional de Vitivinicultura (INV) publicados por Los Andes, LM Neuquén e Infobae. Como el volumen creció más que la facturación, el precio promedio cayó a USD 3,12 por litro, frente a USD 3,34 un año antes.",
+        "Los datos del INV toman las operaciones registradas al 2 de noviembre y pueden cambiar por presentaciones tardías o rectificaciones, aclaró LM Neuquén.",
+        "## Fraccionado y granel",
+        "El vino fraccionado, que concentra el grueso del negocio, exportó 147.287 hectolitros (+10,9%) por USD 62,7 millones (+16,1%), con un precio de USD 4,26 por litro, 4,7% más que un año antes según Infobae. La botella explicó el 97,8% del volumen fraccionado y el tetra brik cayó 62,8%.",
+        "El salto mayor fue del granel: 71.195 hectolitros, 87,8% más que los 37.919 de octubre de 2025, por USD 5,3 millones (+76,2%). Los blancos a granel crecieron 260,5% y los tintos, 69,4%. Infobae calcula un precio de USD 0,75 por litro para el granel del mes, 6,2% menos que un año antes.",
+        "## Destinos y variedades",
+        "Por valor, Estados Unidos fue el principal destino, con USD 18,4 millones y 45.027 hectolitros, casi todo fraccionado. El Reino Unido fue el primero por volumen, con 51.277 hectolitros y USD 9,7 millones, y le siguieron Brasil, con 25.110 hectolitros y USD 9,4 millones, y Canadá, con 16.454 hectolitros y USD 5 millones, según LM Neuquén e Infobae. El Malbec representó el 69,2% del volumen de varietales, con 128.916 hectolitros y USD 39,7 millones, y Mendoza originó el 91,9% de lo exportado.",
+        "## El acumulado del año",
+        "Entre enero y octubre se exportaron 1.691.647 hectolitros de vino, 5,4% más que en 2025, pero el valor FOB bajó 2,6%, a USD 540,4 millones, y el precio promedio cayó 7,6%, a USD 3,19 por litro. El fraccionado acumula 1.215.624 hectolitros (−2,1%) y USD 502,8 millones (−3,3%); el granel, 476.023 hectolitros (+30,6%) y USD 37,6 millones (+7,4%), con un precio que bajó 17,8%, a USD 0,79 por litro. Según Sitio Andino, el granel pasó de cerca de 22,7% a 28,1% del volumen exportado; Infobae recuerda que julio y agosto habían cerrado con caídas de 43,8% y 27,3% en valor.",
+        "El mosto concentrado exportó 8.960 toneladas en octubre (+4,5%) por USD 12,1 millones, casi sin cambios. En diez meses suma 81.355 toneladas (+18,2%) y USD 111,6 millones (+8,1%), con un precio 8,5% menor. Sumando vino y mosto, el sector facturó USD 658 millones entre enero y octubre, 1% menos que un año antes. En septiembre, como informó Comexplora, el volumen de vino había crecido 24,2%."
+      ],
+      "keyData": [
+        [
+          "Vino exportado, octubre 2026",
+          "USD 68,1 millones FOB (+19,3% i.a.)"
+        ],
+        [
+          "Volumen, octubre",
+          "218.481 hl (+28%)"
+        ],
+        [
+          "Precio promedio, octubre",
+          "USD 3,12 por litro (vs. 3,34)"
+        ],
+        [
+          "Granel, octubre",
+          "71.195 hl (+87,8%) · USD 5,3 millones (+76,2%)"
+        ],
+        [
+          "Vino, enero–octubre",
+          "1.691.647 hl (+5,4%) · USD 540,4 millones (−2,6%)"
+        ],
+        [
+          "Mosto concentrado, enero–octubre",
+          "81.355 t (+18,2%) · USD 111,6 millones (+8,1%)"
+        ]
+      ],
+      "explainer": {
+        "what": "Argentina exportó vino por USD 68,1 millones en octubre, 19,3% más que un año antes, con 28% más volumen, según datos provisorios del INV.",
+        "why": "El sector vende más litros, sobre todo a granel, pero a menor precio: en diez meses el valor FOB del vino sigue 2,6% por debajo de 2025.",
+        "who": "Bodegas exportadoras, elaboradores de mosto concentrado y las economías regionales vitivinícolas.",
+        "products": [
+          "Vino fraccionado",
+          "Vino a granel",
+          "Mosto concentrado"
+        ]
+      },
+      "sources": [
+        {
+          "name": "Infobae (datos del INV)",
+          "type": "Medio de comunicación",
+          "url": "https://www.infobae.com/economia/2026/11/11/las-exportaciones-de-vino-se-dispararon-19-en-octubre-pero-aun-siguen-en-terreno-negativo-en-el-acumulado-del-ano/",
+          "primary": true
+        },
+        {
+          "name": "Los Andes (informe del INV)",
+          "type": "Medio de comunicación · Mendoza",
+          "url": "https://www.losandes.com.ar/economia/el-vino-granel-volvio-impulsar-las-exportaciones-vitivinicolas-octubre-n6013303"
+        },
+        {
+          "name": "LM Neuquén (Más Producción)",
+          "type": "Medio especializado",
+          "url": "https://masp.lmneuquen.com/vitivinicultura/las-exportaciones-vino-vuelan-suben-28-octubre-n1260462"
+        },
+        {
+          "name": "Sitio Andino",
+          "type": "Medio de comunicación · Mendoza",
+          "url": "https://www.sitioandino.com.ar/economia/exportaciones-la-foto-octubre-esconde-la-crisis-del-vino-argentino-n5733601"
+        }
+      ],
+      "story": "agroexportacion",
+      "absorbs": [
+        "las-exportaciones-de-vino-se-dispararon-19-en-octubre-pero-a-un-precio-mas-bajo"
+      ]
     },
     {
       "id": "brasil-arancel-neumaticos-autos-30-por-ciento-hasta-noviembre-2027-anip-importados-70",
@@ -9706,12 +10808,21 @@
           "url": "https://www.mercosur.int/primera-reunion-del-comite-de-comercio-del-acuerdo-interino-de-comercio-entre-el-mercosur-y-la-union-europea",
           "alsoIn": true,
           "title": "Primera reunión del Comité de Comercio del Acuerdo Interino de Comercio entre el MERCOSUR y la Unión Europea"
+        },
+        {
+          "name": "Prensa Mercosur",
+          "type": "También publicó esta noticia",
+          "url": "https://prensamercosur.org/2026/11/13/primera-reunion-del-comite-de-comercio-del-acuerdo-interino-de-comercio-entre-el-mercosur-y-la-union-europea/",
+          "alsoIn": true,
+          "title": "Primera reunión del Comité de Comercio del Acuerdo Interino de Comercio entre el MERCOSUR y la Unión Europea"
         }
       ],
       "gnTried": "2026-11-10T21:17:40Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTFBCTFRUU2FoNHJDN2RjcXRyODRVMDFOWU9jb3FhTGFtaVZBZFcyMENKLUlCRU43UElDcTFEUm14VmpzZEYybGpkeERvWktmUjhDNWpQeldzTWN4bUpiemFFcGtvMEpCakR2WExiVTFWcEhJRVFLMllic1hQN2U1aXNPU2p0ZXYwUkpRV0tWYXNVcWI2R1RnVHVVY05mSTFuNjhNd0pjUWlJdlpsSzJDUFp3TnBnRjZmenFOSGxqM2NlVDktZ2xBUThWenRBRTc0ci1ZRFhWSk1hRnV4R0NDU0Etd3BRUQ?oc=5",
       "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPdnVTbV9VQXJOUGxRaFEyZk00U3JFeWJDelJWNkxQb0hKUUtmTjBvbkl1MGc1Y2xqNTdGMjdCa3YxeGNaLVd0bDJwVkM1TzdiSmJsV2VrYmxWck41ZDljYmxYbEplOWJEdEc4Y0NQZ1NMWXREVGVIM181TmxINlB3MElrcjRGdUFoOEJNSHE2Uk1kcW1OYUtwcVVGRXI5Yi1HcWhRd0lOcmk4eEhVQmltNERWbG9Ic0xabXhCT1BzVWh4d0tOaXZMSEM5bXBsNTBQekJ0eUx1RDVFMmFHZlRPSQ",
         "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSEtyLV8xdWhUZUpVSkJ4S2RyNF9WVUNFQVFzVy1PQ2JyVEV0M0tvZGFIN1U2QUduN255cDMtWTFzNnJBTUU4SEFjMjA4OWw1ZzF1YURnYmE2SW1ZczMxWHBHWjFNa0JrTUxIeWphUTd5TmFTOHlQb1FRYTJ1S2hXTEFoZE1KaU4tRDRydVRxX2xsalN6Zm1CdE03bXl2dVVJR2ROSDFJRC1ZbjRFY19BR3k0S2pCeEkxRjJpZXZQeS1kZm9LdFBRSl92bWxSUQ",
+        "https://prensamercosur.org/2026/11/13/primera-reunion-del-comite-de-comercio-del-acuerdo-interino-de-comercio-entre-el-mercosur-y-la-union-europea",
         "https://www.mercosur.int/primera-reunion-del-comite-de-comercio-del-acuerdo-interino-de-comercio-entre-el-mercosur-y-la-union-europea"
       ],
       "mergedIds": [
@@ -132276,7 +133387,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-11-12T18:55:41Z"
+      "gnTried": "2026-11-13T17:12:57Z"
     },
     {
       "id": "portcastello-presenta-estrategia-para-albergar-hub-industrial-de-energia-eolica",
@@ -142740,414 +143851,17 @@
         }
       },
       "updated": "2026-10-21T12:00:00-03:00"
-    },
-    {
-      "id": "gasandes-open-season-contratos-firmes-35-anos-gas-argentino-chile-4-8-mmm3",
-      "date": "2026-11-12",
-      "datetime": "2026-11-12T08:57:00-03:00",
-      "kind": "noticia",
-      "title": "GasAndes adjudicó transporte firme por hasta 35 años para exportar gas argentino a Chile",
-      "summary": "En su primer open season en la Argentina, el gasoducto que une Mendoza con Santiago ofreció 4,8 millones de m³ diarios: el tramo argentino se adjudicó completo y el chileno, cerca de la mitad, a seis empresas con contratos de 3 a 35 años. La capacidad con contrato firme pasó de 25–30% a cerca de 80%.",
-      "topics": [
-        "Argentina",
-        "Latinoamérica",
-        "Exportaciones",
-        "Empresas",
-        "Logística"
-      ],
-      "countries": [
-        "Argentina",
-        "Chile"
-      ],
-      "tags": [
-        "GasAndes",
-        "Gas natural",
-        "Vaca Muerta",
-        "Open season",
-        "GNL",
-        "CGC",
-        "Ecogas"
-      ],
-      "visual": "energy",
-      "impact": 2,
-      "affectsArgentina": true,
-      "argentinaNote": "Las exportaciones de gas a Chile por el corredor de Mendoza dejan de depender sobre todo de transporte interrumpible y pasan a tener capacidad firme de largo plazo, uno de los requisitos para contratos de venta estables.",
-      "argentinaImpact": {
-        "change": "GasAndes adjudicó el 100% de 4,8 millones de m³/día en el tramo argentino y cerca de la mitad en el chileno, con contratos de 3 a 35 años; la capacidad firme del ducto ronda ahora el 80%.",
-        "who": "Productoras de gas de Vaca Muerta que exportan a Chile, comercializadoras, la distribuidora de Cuyo y consumidores industriales y eléctricos del centro de Chile.",
-        "sectors": [
-          "Energía",
-          "Gas natural"
-        ],
-        "flows": {
-          "importaciones": false,
-          "exportaciones": true,
-          "logistica": true,
-          "aranceles": false
-        }
-      },
-      "body": [
-        "GasAndes, el gasoducto que lleva gas desde La Mora, en Mendoza, hasta Santiago de Chile, cerró su primer open season en territorio argentino con contratos de transporte firme por plazos de entre 3 y 35 años. La empresa puso a disposición 4,8 millones de metros cúbicos diarios en cada país: del lado argentino se adjudicó el 100% de esa capacidad y del lado chileno, alrededor de la mitad, según informó Diario Financiero y reprodujeron iProfesional, LM Neuquén y Eolo Media entre el 11 y el 12 de noviembre.",
-        "Alrededor de diez compañías mostraron interés y seis obtuvieron capacidad. GasAndes no difundió sus nombres. Según su gerente general, Santiago Romero, se trata de firmas que participan directamente en la exportación de gas argentino a Chile y en su importación del lado chileno. El contrato de 35 años es el más largo en la historia de la transportadora, y la mayor parte del volumen quedó en bloques de 10 a 35 años.",
-        "## De transporte interrumpible a capacidad firme",
-        "El cambio más relevante para el negocio exportador es la proporción de capacidad con contrato firme. Hasta ahora solo entre el 25% y el 30% de la capacidad operativa del ducto tenía ese respaldo; con los nuevos contratos ronda el 80%, de acuerdo con las cuatro fuentes consultadas. Desde que la Argentina retomó los envíos de gas a Chile, en 2018, GasAndes había trabajado mayormente con transporte interrumpible, que puede cortarse cuando el sistema no tiene capacidad disponible.",
-        "Romero describió el resultado como la pieza que faltaba para consolidar la integración energética entre los dos países. La convocatoria, la recepción de ofertas y la adjudicación se hicieron entre fines de abril y fines de junio de 2026, según LM Neuquén y Eolo Media. Las fuentes no coinciden en el orden de la puesta en marcha: iProfesional indica que los contratos empezaron a operar en julio en la Argentina y en agosto en Chile, mientras que LM Neuquén y Eolo Media sostienen lo inverso y atribuyen la demora argentina a los tiempos de la autorización regulatoria local.",
-        "## Por qué Chile tomó menos capacidad",
-        "En Chile la empresa ya hacía procesos anuales de asignación desde hace tres años, con bases y modelos de contrato aprobados. En la Argentina no había antecedentes desde la construcción del ducto, por lo que hubo que redactar los documentos y esperar el visto bueno del regulador, explicó la compañía a LM Neuquén. Los dos procesos fueron independientes: el tramo argentino representa cerca de dos tercios del trazado y el chileno, un tercio. Según la empresa, los clientes chilenos, sin certeza sobre su uso futuro, prefirieron asegurar solo una parte.",
-        "Del lado chileno, el gas argentino se usa sobre todo para generar electricidad y, en menor medida, en la industria. La demanda residencial de Chile todavía se apoya en el GNL importado, por seguridad de suministro, confiabilidad y contratos vigentes, de acuerdo con la misma fuente. En la Argentina, la Distribuidora de Gas Cuyana, del grupo Ecogas, contrató capacidad firme para abastecer San Rafael mediante un nuevo punto de derivación: es el primer cliente local de GasAndes en el país desde la habilitación del ducto, en 1997.",
-        "## El gasoducto y el tramo que lo alimenta",
-        "Según iProfesional, GasAndes tiene 463,36 kilómetros, una capacidad de transporte de 10,5 millones de m³ diarios y cruza la cordillera por el sector del Paso Maipo, a unos 3.700 metros de altura. Lo controlan en partes iguales, con 43,5% cada una, la Compañía General de Combustibles (CGC, del grupo Corporación América) y Aprovisionadora Global de Energía, subsidiaria de Naturgy; AES Andes tiene el 13% restante.",
-        "El gas llega a La Mora por el sistema de TGN desde Neuquén. En diciembre de 2025, TGN hizo su propio open season para ese tramo, desde Tratayén, con 4,8 millones de m³ diarios: Pluspetrol ofertó 4,1 millones en firme por 52 años a partir del 1 de enero de 2026 y Ecogas, 700.000 m³ para la demanda de Mendoza, según EconoJournal y LM Neuquén. En ese momento la adjudicación final dependía de que el Enargas validara la propuesta de Ecogas. LM Neuquén informó ahora que ese transportista adjudicó casi 5 millones de m³ diarios de transporte firme para exportación, con lo que un cliente en Santiago puede contratar suministro firme desde la Argentina en todo el recorrido.",
-        "## GNL por el Pacífico y nuevas convocatorias",
-        "La mayor capacidad firme se conecta con un proyecto que CGC viene planteando: exportar GNL a Asia desde la costa chilena, con dos trenes de licuefacción, una inversión estimada en torno a USD 2.600 millones y un socio local, aprovechando las redes de TGN y GasAndes, según iProfesional. Romero dijo que GasAndes debería definir en dos o tres años si hace falta ampliar el ducto para un proyecto de licuefacción en Chile, y que ve viable lanzar nuevos open seasons en los próximos años porque hay contratos que vencen. Ninguna de las fuentes informó tarifas ni volúmenes por empresa de los nuevos contratos."
-      ],
-      "keyData": [
-        [
-          "Capacidad ofrecida por país",
-          "4,8 millones de m³/día"
-        ],
-        [
-          "Adjudicado en Argentina / Chile",
-          "100% / alrededor de 50%"
-        ],
-        [
-          "Plazo de los contratos",
-          "De 3 a 35 años"
-        ],
-        [
-          "Empresas adjudicatarias",
-          "6 (de unas 10 interesadas)"
-        ],
-        [
-          "Capacidad con contrato firme",
-          "Antes 25–30%, ahora cerca de 80%"
-        ],
-        [
-          "Capacidad total de GasAndes",
-          "10,5 millones de m³/día · 463,36 km"
-        ]
-      ],
-      "explainer": {
-        "what": "GasAndes adjudicó a seis empresas transporte firme de gas desde Mendoza hacia Chile por plazos de 3 a 35 años, con el 100% de 4,8 millones de m³ diarios asignado en el tramo argentino.",
-        "why": "La capacidad firme del ducto pasó de 25–30% a cerca de 80%, lo que da previsibilidad de largo plazo a las exportaciones de gas de Vaca Muerta a Chile.",
-        "who": "Productoras y comercializadoras de gas que exportan a Chile, generadoras e industrias chilenas y la distribuidora de Cuyo.",
-        "products": [
-          "Gas natural"
-        ],
-        "next": "GasAndes debería definir en dos o tres años si amplía el ducto para un proyecto de licuefacción en Chile y ve viables nuevos open seasons por contratos que vencen.",
-        "nextSource": {
-          "name": "LM Neuquén (Más Energía)",
-          "url": "https://mase.lmneuquen.com/gas/gasandes-firmo-contratos-35-anos-llevar-gas-vaca-muerta-chile-n1260846"
-        }
-      },
-      "sources": [
-        {
-          "name": "iProfesional",
-          "type": "Medio de comunicación",
-          "url": "https://www.iprofesional.com/energia/468893-adjudican-capacidad-por-35-anos-para-llevar-gas-a-chile-y-abre-las-puertas-al-gnl",
-          "primary": true
-        },
-        {
-          "name": "LM Neuquén (Más Energía)",
-          "type": "Medio especializado",
-          "url": "https://mase.lmneuquen.com/gas/gasandes-firmo-contratos-35-anos-llevar-gas-vaca-muerta-chile-n1260846"
-        },
-        {
-          "name": "Eolo Media",
-          "type": "Medio especializado",
-          "url": "https://eolomedia.com.ar/el-gas-de-vaca-muerta-llega-a-chile-con-contratos-firmes-de-35-anos/"
-        },
-        {
-          "name": "EconoJournal (open season de TGN, diciembre de 2025)",
-          "type": "Medio especializado",
-          "url": "https://econojournal.com.ar/destacada/pluspetrol-gasoducto-gas-tgn-chile/"
-        },
-        {
-          "name": "LM Neuquén (open season de TGN, diciembre de 2025)",
-          "type": "Medio especializado",
-          "url": "https://mase.lmneuquen.com/gas/apuesta-historica-vaca-muerta-pluspetrol-oferto-exportar-gas-chile-52-anos-n1221764"
-        }
-      ],
-      "story": "energia-mineria",
-      "absorbs": [
-        "argentina-exportara-gas-a-chile-por-al-menos-35-anos"
-      ]
-    },
-    {
-      "id": "brasil-importaciones-autos-9420-millones-china-66-5-argentina-11-3-deficit-automotor-5530",
-      "date": "2026-11-12",
-      "datetime": "2026-11-12T01:54:00-03:00",
-      "kind": "analisis",
-      "title": "Los autos chinos ya son dos de cada tres importados en Brasil y la Argentina pierde terreno en su principal mercado",
-      "summary": "Brasil importó autos por un récord de USD 9.420 millones (+76,7%) y China explica el 66,5%, contra 11,3% de la Argentina. Entre enero y septiembre el déficit automotor brasileño llegó a USD 5.530 millones y las ventas argentinas de autos a Brasil caen 7,8% en diez meses.",
-      "topics": [
-        "Argentina",
-        "Mercosur",
-        "China",
-        "Importaciones",
-        "Exportaciones",
-        "Empresas"
-      ],
-      "countries": [
-        "Argentina",
-        "Brasil",
-        "China"
-      ],
-      "tags": [
-        "Industria automotriz",
-        "Vehículos",
-        "Autos eléctricos",
-        "MDIC",
-        "ADEFA",
-        "Abeceb",
-        "Comercio bilateral"
-      ],
-      "visual": "auto",
-      "impact": 2,
-      "affectsArgentina": true,
-      "argentinaNote": "Brasil es el destino de más de 60% de los autos que exporta la Argentina, y allí los vehículos chinos ya ganan participación frente a los fabricados en el Mercosur, mientras también crecen en el mercado argentino.",
-      "argentinaImpact": {
-        "change": "China explica el 66,5% de las importaciones brasileñas de autos y la Argentina el 11,3%; las ventas argentinas de autos a Brasil bajan 7,8% en enero–octubre y las compras argentinas de autos chinos se triplicaron en nueve meses.",
-        "who": "Terminales automotrices y autopartistas exportadoras, importadores de vehículos y concesionarios.",
-        "sectors": [
-          "Automotriz",
-          "Autopartes"
-        ],
-        "flows": {
-          "importaciones": true,
-          "exportaciones": true,
-          "logistica": false,
-          "aranceles": true
-        }
-      },
-      "body": [
-        "Brasil importó automóviles por USD 9.420 millones en los primeros nueve meses de 2026, un récord para el período y un 76,7% más que un año antes, según datos del Ministerio de Desarrollo, Industria, Comercio y Servicios (MDIC) que difundieron Valor Econômico y O Globo y analizaron Infobae y Reporte Asia. China explica el 66,5% de esas compras y la Argentina, que hasta hace poco era el principal proveedor, quedó segunda con el 11,3%.",
-        "Entre enero y septiembre, los autos chinos que entraron a Brasil sumaron USD 6.260 millones, frente a USD 2.360 millones en el mismo período de 2025. Con ese salto, el sector automotor brasileño acumuló un déficit comercial de USD 5.530 millones, un 835% más que los USD 591 millones de un año antes, de acuerdo con Reporte Asia y el sitio de la AAACI, que retomaron las publicaciones brasileñas.",
-        "## Brasil vende menos a la Argentina",
-        "El deterioro también corre en sentido inverso. Las exportaciones brasileñas de autos cayeron 18% y la Argentina, que absorbe el 54,6% de ellas, compró vehículos brasileños por USD 2.140 millones entre enero y septiembre, 30% menos que un año antes, según Reporte Asia con base en datos oficiales. En el mismo lapso llegaron a la Argentina autos chinos por USD 916,8 millones, contra USD 292,6 millones en 2025, de acuerdo con datos del gobierno argentino citados por Infobae.",
-        "Para octubre, la consultora Abeceb registró que las compras argentinas de autos de pasajeros a Brasil sumaron USD 225 millones, 27,9% menos que en octubre de 2025, y que las ventas argentinas de autos de pasajeros a ese país bajaron 17,9%, a USD 153,4 millones, según Perfil. Los envíos de vehículos comerciales y utilitarios a Brasil cayeron 22,2%, a USD 279,3 millones. Es el mismo mes en el que el déficit bilateral total con Brasil fue de USD 270 millones, como informó Comexplora.",
-        "## Lo que pierde la Argentina en su mercado principal",
-        "Infobae señala que las ventas de autos argentinos a Brasil retrocedieron 7,8% en los primeros diez meses del año, aunque no aclara si la variación es en unidades o en dólares. Según ADEFA, Brasil recibió 144.709 de los 230.865 vehículos exportados entre enero y octubre, el 62,7% del total; un año antes esa participación era de 68,5%, según Infobae. La producción local acumula 360.444 unidades en diez meses, 15,5% menos.",
-        "Los precios también juegan. El índice Icomex de la FGV Ibre muestra que, entre enero y septiembre, los bienes durables que Brasil compró a China bajaron 5,4% de precio y subieron 123,3% en volumen, mientras que los comprados a la Argentina se encarecieron 1,1% y los de la Unión Europea, 13,6%, según Reporte Asia e Infobae.",
-        "## Los aranceles y el mercado argentino",
-        "Brasil viene subiendo el arancel a los autos electrificados importados: tras escalones de 25% y 30% según la tecnología en el primer semestre, desde julio de 2026 se aplica el 35% del arancel externo común, según Infobae. Aun así, las compras a China siguieron creciendo. En la Argentina, los importados explican el 68% de los patentamientos y la producción nacional quedó con una participación de 32%, frente a 56% en 2024, según datos de ADEFA citados por Perfil. Infobae recuerda que el cupo de 50.000 híbridos y eléctricos con arancel cero permitió el ingreso de casi 90.000 vehículos chinos desde 2025; para el cupo 2027, regulado por la Disposición 451/2026, el plazo para presentar solicitudes vence el 17 de noviembre.",
-        "## Qué dicen los analistas",
-        "Según Reporte Asia, el presidente de la Asociación de Comercio Exterior de Brasil (AEB), José Augusto de Castro, atribuye el cambio a que las restricciones de Estados Unidos y la Unión Europea empujaron a China hacia otros mercados. Rafael Cagnin, economista jefe del Iedi, considera que el avance chino es estructural y plantea atraer plantas de esas marcas a Brasil, y Welber Barral, de BMJ, advierte que la presencia china en otros mercados sudamericanos limita la posibilidad de compensar lo que Brasil pierde en la Argentina.",
-        "Del lado argentino, Andrés Civetta, de Abeceb, prevé que el país se especialice aún más en vehículos comerciales livianos y que el comercio bilateral con Brasil se mantenga relativamente estable, según Perfil. El presidente de ADEFA, Rodrigo Pérez Graziano, pidió seguir trabajando en competitividad y en el acceso a mercados externos. Infobae no precisa el período de algunas de las cifras brasileñas; AAACI y Reporte Asia las ubican en enero–septiembre."
-      ],
-      "keyData": [
-        [
-          "Importaciones de autos de Brasil, ene–sep 2026",
-          "USD 9.420 millones (+76,7%)"
-        ],
-        [
-          "Participación de China / Argentina",
-          "66,5% / 11,3%"
-        ],
-        [
-          "Autos chinos importados por Brasil, ene–sep",
-          "USD 6.260 millones (vs. 2.360 en 2025)"
-        ],
-        [
-          "Déficit automotor de Brasil, ene–sep",
-          "USD 5.530 millones (+835%)"
-        ],
-        [
-          "Compras argentinas de autos brasileños, ene–sep",
-          "USD 2.140 millones (−30%)"
-        ],
-        [
-          "Autos chinos importados por Argentina, ene–sep",
-          "USD 916,8 millones (vs. 292,6 millones)"
-        ],
-        [
-          "Ventas argentinas de autos a Brasil, ene–oct",
-          "−7,8% (Infobae)"
-        ]
-      ],
-      "explainer": {
-        "what": "Brasil importó autos por un récord de USD 9.420 millones en nueve meses y China ya explica el 66,5% de esas compras, contra el 11,3% de la Argentina.",
-        "why": "Brasil es el principal mercado de los autos argentinos y allí los vehículos chinos desplazan a la producción del Mercosur, mientras el comercio automotor bilateral se achica en ambas direcciones.",
-        "who": "Terminales y autopartistas exportadoras de la Argentina y Brasil, importadores de vehículos y concesionarios.",
-        "products": [
-          "Automóviles",
-          "Vehículos utilitarios",
-          "Autos híbridos y eléctricos"
-        ],
-        "next": "El plazo para pedir unidades del cupo 2027 de 50.000 autos híbridos y eléctricos con arancel cero vence el 17 de noviembre.",
-        "nextSource": {
-          "name": "CIRA (Disposición 451/2026)",
-          "url": "https://www.cira.org.ar/es/servicios/normativas-servicios/disposicion/disposicion-451-2026/"
-        }
-      },
-      "sources": [
-        {
-          "name": "Infobae",
-          "type": "Medio de comunicación",
-          "url": "https://www.infobae.com/economia/2026/11/12/alerta-en-el-mercosur-los-autos-chinos-desplazan-a-la-produccion-regional-y-cae-el-comercio-entre-argentina-y-brasil/",
-          "primary": true
-        },
-        {
-          "name": "Reporte Asia",
-          "type": "Medio especializado",
-          "url": "https://reporteasia.com/destacado/2026/11/07/autos-chinos-disparan-835-deficit-automotor-brasil/"
-        },
-        {
-          "name": "Perfil (datos de Abeceb y ADEFA)",
-          "type": "Medio de comunicación",
-          "url": "https://www.perfil.com/economia/los-autos-chinos-desplazan-a-la-produccion-mercosur-y-golpean-la-industria-nacional-como-al-comercio-bilateral-con-brasil-aaOFD6t3z24s"
-        },
-        {
-          "name": "AAACI",
-          "type": "Entidad sectorial",
-          "url": "https://aaaci.org.ar/problema-para-lula-por-china-y-argentina-la-industria-automotriz-brasilena-tiene-el-mayor-deficit-comercial-de-su-historia/"
-        },
-        {
-          "name": "CIRA (Disposición 451/2026)",
-          "type": "Cámara sectorial",
-          "url": "https://www.cira.org.ar/es/servicios/normativas-servicios/disposicion/disposicion-451-2026/"
-        }
-      ],
-      "deadlines": [
-        {
-          "date": "2026-11-17",
-          "label": "Argentina: cierra a las 23:59 la presentación de solicitudes para el cupo 2027 de 50.000 autos híbridos y eléctricos con arancel cero (Disposición 451/2026)",
-          "url": "https://www.cira.org.ar/es/servicios/normativas-servicios/disposicion/disposicion-451-2026/"
-        }
-      ],
-      "story": "autos",
-      "absorbs": [
-        "alerta-en-el-mercosur-los-autos-chinos-desplazan-a-la-produccion-regional-y-cae"
-      ]
-    },
-    {
-      "id": "exportaciones-vino-octubre-2026-inv-68-1-millones-19-3-granel-87-8",
-      "date": "2026-11-11",
-      "datetime": "2026-11-11T00:27:00-03:00",
-      "kind": "datos",
-      "title": "El vino exportó USD 68,1 millones en octubre, 19,3% más, pero el acumulado del año sigue 2,6% abajo",
-      "summary": "Según datos provisorios del INV, en octubre salieron 218.481 hectolitros de vino (+28%), con el granel en alza de 87,8%. El precio promedio bajó a USD 3,12 por litro y en diez meses el valor FOB del vino suma USD 540,4 millones, 2,6% menos que en 2025.",
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina",
-        "Reino Unido",
-        "Estados Unidos",
-        "Brasil",
-        "Canadá"
-      ],
-      "tags": [
-        "Vino",
-        "Mosto concentrado",
-        "INV",
-        "Economías regionales",
-        "Vitivinicultura"
-      ],
-      "visual": "wine",
-      "impact": 1,
-      "affectsArgentina": true,
-      "argentinaNote": "Las bodegas venden más litros que en 2025, pero a precios más bajos: el valor exportado del año sigue por debajo del de 2025 pese al repunte de septiembre y octubre.",
-      "argentinaImpact": {
-        "change": "Octubre cerró con USD 68,1 millones FOB (+19,3%) y 218.481 hl (+28%); en enero–octubre el vino suma USD 540,4 millones (−2,6%) con 5,4% más volumen.",
-        "who": "Bodegas exportadoras, elaboradores de mosto concentrado y economías regionales de Cuyo y el Noroeste.",
-        "sectors": [
-          "Vitivinicultura"
-        ],
-        "flows": {
-          "importaciones": false,
-          "exportaciones": true,
-          "logistica": false,
-          "aranceles": false
-        }
-      },
-      "body": [
-        "Las exportaciones argentinas de vino sumaron USD 68,1 millones FOB en octubre de 2026, un 19,3% más que en el mismo mes de 2025, con 218.481 hectolitros embarcados, un 28% más, según datos provisorios del Instituto Nacional de Vitivinicultura (INV) publicados por Los Andes, LM Neuquén e Infobae. Como el volumen creció más que la facturación, el precio promedio cayó a USD 3,12 por litro, frente a USD 3,34 un año antes.",
-        "Los datos del INV toman las operaciones registradas al 2 de noviembre y pueden cambiar por presentaciones tardías o rectificaciones, aclaró LM Neuquén.",
-        "## Fraccionado y granel",
-        "El vino fraccionado, que concentra el grueso del negocio, exportó 147.287 hectolitros (+10,9%) por USD 62,7 millones (+16,1%), con un precio de USD 4,26 por litro, 4,7% más que un año antes según Infobae. La botella explicó el 97,8% del volumen fraccionado y el tetra brik cayó 62,8%.",
-        "El salto mayor fue del granel: 71.195 hectolitros, 87,8% más que los 37.919 de octubre de 2025, por USD 5,3 millones (+76,2%). Los blancos a granel crecieron 260,5% y los tintos, 69,4%. Infobae calcula un precio de USD 0,75 por litro para el granel del mes, 6,2% menos que un año antes.",
-        "## Destinos y variedades",
-        "Por valor, Estados Unidos fue el principal destino, con USD 18,4 millones y 45.027 hectolitros, casi todo fraccionado. El Reino Unido fue el primero por volumen, con 51.277 hectolitros y USD 9,7 millones, y le siguieron Brasil, con 25.110 hectolitros y USD 9,4 millones, y Canadá, con 16.454 hectolitros y USD 5 millones, según LM Neuquén e Infobae. El Malbec representó el 69,2% del volumen de varietales, con 128.916 hectolitros y USD 39,7 millones, y Mendoza originó el 91,9% de lo exportado.",
-        "## El acumulado del año",
-        "Entre enero y octubre se exportaron 1.691.647 hectolitros de vino, 5,4% más que en 2025, pero el valor FOB bajó 2,6%, a USD 540,4 millones, y el precio promedio cayó 7,6%, a USD 3,19 por litro. El fraccionado acumula 1.215.624 hectolitros (−2,1%) y USD 502,8 millones (−3,3%); el granel, 476.023 hectolitros (+30,6%) y USD 37,6 millones (+7,4%), con un precio que bajó 17,8%, a USD 0,79 por litro. Según Sitio Andino, el granel pasó de cerca de 22,7% a 28,1% del volumen exportado; Infobae recuerda que julio y agosto habían cerrado con caídas de 43,8% y 27,3% en valor.",
-        "El mosto concentrado exportó 8.960 toneladas en octubre (+4,5%) por USD 12,1 millones, casi sin cambios. En diez meses suma 81.355 toneladas (+18,2%) y USD 111,6 millones (+8,1%), con un precio 8,5% menor. Sumando vino y mosto, el sector facturó USD 658 millones entre enero y octubre, 1% menos que un año antes. En septiembre, como informó Comexplora, el volumen de vino había crecido 24,2%."
-      ],
-      "keyData": [
-        [
-          "Vino exportado, octubre 2026",
-          "USD 68,1 millones FOB (+19,3% i.a.)"
-        ],
-        [
-          "Volumen, octubre",
-          "218.481 hl (+28%)"
-        ],
-        [
-          "Precio promedio, octubre",
-          "USD 3,12 por litro (vs. 3,34)"
-        ],
-        [
-          "Granel, octubre",
-          "71.195 hl (+87,8%) · USD 5,3 millones (+76,2%)"
-        ],
-        [
-          "Vino, enero–octubre",
-          "1.691.647 hl (+5,4%) · USD 540,4 millones (−2,6%)"
-        ],
-        [
-          "Mosto concentrado, enero–octubre",
-          "81.355 t (+18,2%) · USD 111,6 millones (+8,1%)"
-        ]
-      ],
-      "explainer": {
-        "what": "Argentina exportó vino por USD 68,1 millones en octubre, 19,3% más que un año antes, con 28% más volumen, según datos provisorios del INV.",
-        "why": "El sector vende más litros, sobre todo a granel, pero a menor precio: en diez meses el valor FOB del vino sigue 2,6% por debajo de 2025.",
-        "who": "Bodegas exportadoras, elaboradores de mosto concentrado y las economías regionales vitivinícolas.",
-        "products": [
-          "Vino fraccionado",
-          "Vino a granel",
-          "Mosto concentrado"
-        ]
-      },
-      "sources": [
-        {
-          "name": "Infobae (datos del INV)",
-          "type": "Medio de comunicación",
-          "url": "https://www.infobae.com/economia/2026/11/11/las-exportaciones-de-vino-se-dispararon-19-en-octubre-pero-aun-siguen-en-terreno-negativo-en-el-acumulado-del-ano/",
-          "primary": true
-        },
-        {
-          "name": "Los Andes (informe del INV)",
-          "type": "Medio de comunicación · Mendoza",
-          "url": "https://www.losandes.com.ar/economia/el-vino-granel-volvio-impulsar-las-exportaciones-vitivinicolas-octubre-n6013303"
-        },
-        {
-          "name": "LM Neuquén (Más Producción)",
-          "type": "Medio especializado",
-          "url": "https://masp.lmneuquen.com/vitivinicultura/las-exportaciones-vino-vuelan-suben-28-octubre-n1260462"
-        },
-        {
-          "name": "Sitio Andino",
-          "type": "Medio de comunicación · Mendoza",
-          "url": "https://www.sitioandino.com.ar/economia/exportaciones-la-foto-octubre-esconde-la-crisis-del-vino-argentino-n5733601"
-        }
-      ],
-      "story": "agroexportacion",
-      "absorbs": [
-        "las-exportaciones-de-vino-se-dispararon-19-en-octubre-pero-a-un-precio-mas-bajo"
-      ]
     }
   ],
   "ingestion": {
-    "ranAt": "2026-11-13T07:56:54Z",
+    "ranAt": "2026-11-13T17:12:57Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
         "url": "https://www.wto.org/library/rss/latest_news_s.xml",
         "ok": true,
-        "items": 8,
-        "added": 0,
+        "items": 9,
+        "added": 1,
         "updated": 0,
         "skipped": 1
       },
@@ -143156,7 +143870,7 @@
         "url": "https://www.aduananews.com/feed/",
         "ok": true,
         "items": 12,
-        "added": 0,
+        "added": 1,
         "updated": 0,
         "skipped": 5
       },
@@ -143165,45 +143879,45 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 9,
+        "added": 5,
         "updated": 0,
-        "skipped": 5
+        "skipped": 10
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
         "items": 26,
-        "added": 1,
+        "added": 2,
         "updated": 0,
-        "skipped": 19
+        "skipped": 20
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 36,
-        "added": 2,
+        "items": 35,
+        "added": 3,
         "updated": 0,
-        "skipped": 27
+        "skipped": 24
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 54,
+        "items": 55,
         "added": 4,
         "updated": 0,
-        "skipped": 31
+        "skipped": 33
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 23,
+        "items": 18,
         "added": 4,
         "updated": 0,
-        "skipped": 10
+        "skipped": 5
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
@@ -143212,16 +143926,16 @@
         "items": 100,
         "added": 4,
         "updated": 0,
-        "skipped": 91
+        "skipped": 89
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 77,
+        "items": 69,
         "added": 4,
         "updated": 0,
-        "skipped": 49
+        "skipped": 48
       }
     ],
     "curatedDuplicates": [
@@ -143252,8 +143966,13 @@
       },
       {
         "title": "Más de 50 productos argentinos ocupan los primeros puestos como exportadores mundiales",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQ0NBOGNmdkpfRi1lcUMtMFRKUUJFSWZZaFRURlk1NFp0RXR4bF8yeUFmWkYtTE1KVllwb2ZOVVZWNTUwYW5mc3poOW9JNi10dTBqN2E4b0MtcnRmVDZwd2Etd1pRcjdSNktQTVpJdmhYMjRTNm1kcC00aVlOdFNRa0RORnY3ei1KeVltcFVKc1JIVVhJZ2w5MGlKb0NmYkI5aXBUY0I2RkNrajhIZC11RWZvQUZsQVdxVnNvcHBORUU4WGJUMkozUXBJV3djSmMzeWpTYlBB0gHWAUFVX3lxTFBDQ0E4Y2Z2Sl9GLWVxQy0wVEpRQkVJZlloVFRGWTU0WnRFdHhsXzJ5QWZaRi1MTUpWWXBvZk5VVlY1NTBhbmZzemg5b0k2LXR1MGo3YThvQy1ydGZUNnB3YS13WlFyN1I2S1BNWkl2aFgyNFM2bWRwLTRpWU50U1FrRE5Gdjd6LUp5WW1wVUpzUkhVWElnbDkwaUpvQ2ZiQjlpcFRjQjZGQ2tqOEhkLXVFZm9BRmxBV3FWc29wcE5FRThYYlQySjNRcElXd2NKYzN5alNiUEE?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPXy1tdkFMSEdsQjMzVjdfdElCRWZpaGU2UWNsVGF3cHM4UHNDZ1FtYWNPSFZ6U3A5a3YzUVdjN0MyQ084Ti1hdW96MDBlZDhJb25aNkt0ZkdscVY5aS01dk5hSllXV3VYOUoxMXJuQVRaZTdMTHhJclFkUWdudk5xenBndzhKUE9hX0J1V3hyeGMtQW1ZTHpfa3d3MnNRRVBSTlVXQ3V3cE1rOUxVVFk1SlIxT2Zsb1pfUHA0ZkNjYWR4b0pqQjNTNDlCSjZwenIt0gHWAUFVX3lxTFBDQ0E4Y2Z2Sl9GLWVxQy0wVEpRQkVJZlloVFRGWTU0WnRFdHhsXzJ5QWZaRi1MTUpWWXBvZk5VVlY1NTBhbmZzemg5b0k2LXR1MGo3YThvQy1ydGZUNnB3YS13WlFyN1I2S1BNWkl2aFgyNFM2bWRwLTRpWU50U1FrRE5Gdjd6LUp5WW1wVUpzUkhVWElnbDkwaUpvQ2ZiQjlpcFRjQjZGQ2tqOEhkLXVFZm9BRmxBV3FWc29wcE5FRThYYlQySjNRcElXd2NKYzN5alNiUEE?oc=5",
         "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
+      },
+      {
+        "title": "Alerta en el Mercosur: los autos chinos desplazan a la producción regional y cae el comercio entre Argentina y Brasil",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbElpQ2ZKcE41bm53aUNOQ2FYZjFqQ3JLaXh6NU1DR3lCWjdPbnAtb1d0RERVNXBkUmxfc3J5TTRHekZQa2NQUm5TbXR3NnVJNm5WQWZscnEwMFBoS2Y1UFFsMUNKYjQtQk9LT25UM09IcVpibTlybTVabmFLNGktcVAzNHlicGxxRFE4WFpqaW8tUlY4RFNDTG9uU1pUVDBpX0dwR01UaTc1TjBvM2tEdTVIUTEyZzg3SmEwTDVBWlUyNXpkZC1CODdvR2VCX0M0emw0VW9FTzVLb1pMLTBrN0gtM1lESHRoNDRKeEhUeEhlRUHSAY4CQVVfeXFMTUtaU3FVN2lpR3lYREl3R2ZfU1o0R2otbTE4QjdiY2p3cnA0MGxpd1NLdlJ3ZTFLQXA1MVRCUXduTFQyb3h4N0R0X0pZc05oeWZ5dUdmR002TjVpTnlvSmx1c0F2NHQ1Zk4wTjg3dEEzaWtTUjYtSW5oYmNIcGJEcmx3eHJxb0ctaXNRQlBTc0lRZnFCTG5lY0JQV2ZNeml0SzJCSjZ2SUFSYjVXZndLelFzM3dJSE9UQkxvcmYzdEotVHZQZmU2N204Y0Vqcy1FT3YwVkprN205ZFNrNFdnM0VwTlBva3hHb3lJZWFHVS14b3Y0a0JsaW1OTWZDbVE1NVNiT1MwX2ZCTE90MGhB?oc=5",
+        "curated": "brasil-importaciones-autos-9420-millones-china-66-5-argentina-11-3-deficit-automotor-5530"
       },
       {
         "title": "Argentina suma ocho meses de crecimiento de las exportaciones a Brasil: qué productos impulsaron las ventas",
@@ -143266,14 +143985,14 @@
         "curated": "argentina-brasil-octubre-2026-exportaciones-1260-deficit-270-acumulado-1956-abeceb-cac"
       },
       {
-        "title": "Argentina establece nuevos requisitos para importar prendas y artículos textiles usados",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUDV1MkJLWXg0YzV3WHJ2WmlJUnlPMjVsSldKNG9ndkpocWdKVnpEdnNVUlMtcV9sbEVISTFvandxeXBkNnFhU1pYN0JDMVdHOHlQSXlXTHlKaklXYWN1VXhLVUVRRHZibjhqSkVnbGxQQXJ2MThIYWo2Umk2NUNVVXJ6T2VmaFpKTWNYaGFJODBQZFo1N1hfLUQ0MVhzMFBjQ1VfYW9aV3VGbmRGNUhwag?oc=5",
-        "curated": "resolucion-461-2026-ropa-usada-importacion-certificacion-prohibe-calzado-ropa-interior"
-      },
-      {
         "title": "Por la caída de las importaciones, este año la Argentina reducirá a la mitad su déficit comercial con Brasil",
         "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdDZTQS1WQlMwWk1nbjFwNVhqVDZJV1pxaWpSdmNFakh5ZGIzZmZndVYxYVNFcEJrQzlDRnU5cnkzRERMeTh5Q1JUSmIxSlh1ZVBPTDlnYVJ3WGpSRmxyeEIxVXMzckNiUFBsNTRIdi1FY3dIUzJobjhWN3VGUG9Zckw2UmxYQnFZT05tX2ZsSFdSYk14cTh0d1RQM0Y2V1EtcU5XdVowd1YtSWJHMHA4MTBGSXBJdjFzUnVFaDN3Z2RkRGVoLWx2Y183QjNlRDBNRUh3NDVR0gHwAUFVX3lxTE1fY29pQTBLMVRPdzBnUjJQZnRualB6X0pDSXV5d0Izd0taT3N2NXRaUFJOd05xeW1OMTZYZnpJakJrVDVjTTJ4ZHJpTnBIU1FzcjFsRFIySm1FOGFCamhzaWNoQ1dJaE1NVDlLSFlaRzZwZUhnVGlnUXRnZk9LWXRPbEhVaVQtUHd6WEdQOHI3b1N3OFFCeXJBV2plLUZWeVkzNWp3R3lqb0gweS0tZmYtMWdueVdSNVJFaGEzWGRJc1pld24wYVkzS2xXMHhPekMzVHYyT1NKS2xmYkJhVGJUR0l3c1JEdGo3WkRiUzdhUg?oc=5",
         "curated": "argentina-brasil-octubre-2026-exportaciones-1260-deficit-270-acumulado-1956-abeceb-cac"
+      },
+      {
+        "title": "Alerta en el Mercosur: los autos chinos desplazan a la producción regional y cae el comercio entre Argentina y Brasil",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbElpQ2ZKcE41bm53aUNOQ2FYZjFqQ3JLaXh6NU1DR3lCWjdPbnAtb1d0RERVNXBkUmxfc3J5TTRHekZQa2NQUm5TbXR3NnVJNm5WQWZscnEwMFBoS2Y1UFFsMUNKYjQtQk9LT25UM09IcVpibTlybTVabmFLNGktcVAzNHlicGxxRFE4WFpqaW8tUlY4RFNDTG9uU1pUVDBpX0dwR01UaTc1TjBvM2tEdTVIUTEyZzg3SmEwTDVBWlUyNXpkZC1CODdvR2VCX0M0emw0VW9FTzVLb1pMLTBrN0gtM1lESHRoNDRKeEhUeEhlRUHSAY4CQVVfeXFMTUtaU3FVN2lpR3lYREl3R2ZfU1o0R2otbTE4QjdiY2p3cnA0MGxpd1NLdlJ3ZTFLQXA1MVRCUXduTFQyb3h4N0R0X0pZc05oeWZ5dUdmR002TjVpTnlvSmx1c0F2NHQ1Zk4wTjg3dEEzaWtTUjYtSW5oYmNIcGJEcmx3eHJxb0ctaXNRQlBTc0lRZnFCTG5lY0JQV2ZNeml0SzJCSjZ2SUFSYjVXZndLelFzM3dJSE9UQkxvcmYzdEotVHZQZmU2N204Y0Vqcy1FT3YwVkprN205ZFNrNFdnM0VwTlBva3hHb3lJZWFHVS14b3Y0a0JsaW1OTWZDbVE1NVNiT1MwX2ZCTE90MGhB?oc=5",
+        "curated": "brasil-importaciones-autos-9420-millones-china-66-5-argentina-11-3-deficit-automotor-5530"
       },
       {
         "title": "Argentina aumentó sus exportaciones a Brasil, pero mantiene un déficit comercial de casi US$2.000 millones en 2026",
@@ -143281,102 +144000,63 @@
         "curated": "argentina-brasil-octubre-2026-exportaciones-1260-deficit-270-acumulado-1956-abeceb-cac"
       },
       {
-        "title": "Argentina establece nuevos requisitos para importar prendas y artículos textiles usados",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUDV1MkJLWXg0YzV3WHJ2WmlJUnlPMjVsSldKNG9ndkpocWdKVnpEdnNVUlMtcV9sbEVISTFvandxeXBkNnFhU1pYN0JDMVdHOHlQSXlXTHlKaklXYWN1VXhLVUVRRHZibjhqSkVnbGxQQXJ2MThIYWo2Umk2NUNVVXJ6T2VmaFpKTWNYaGFJODBQZFo1N1hfLUQ0MVhzMFBjQ1VfYW9aV3VGbmRGNUhwag?oc=5",
-        "curated": "resolucion-461-2026-ropa-usada-importacion-certificacion-prohibe-calzado-ropa-interior"
+        "title": "Los autos chinos desplazan a la producción Mercosur y golpean la industria nacional como al comercio bilateral con…",
+        "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNaXY1MDY3SjA0OGEyeHRZWEJDOEhkVy1sTWM4VGY2RC1uVXdELUxhd0NtSjRzNDJDMDlaRGxLTjRCNTNsMjdINHNHamNKZkhFUjdaNEZaMi10TUdKZFNqbTZsWktMQUxOMGhwcG16Y3lpeGp1OXdDM3IxNjJaYmJyMHpvbnNFdVlzMXhkS05jbFZ1QjlLUDl5Q0ZiWUFIYXBtWkNEbjNWWXZqX2ZwYW1ITW9GOXZ5NGdfeG9iOUd1bUFWRThzTFpMS3dnY0gycS1sR0FmazV0OEhqVFAyOXZZc2YxU0xIeTVyekw0aFNYVHo4ejFYZF9keFpR?oc=5",
+        "curated": "brasil-importaciones-autos-9420-millones-china-66-5-argentina-11-3-deficit-automotor-5530"
       },
       {
-        "title": "Gobierno habilita licitación de la segunda aduana terrestre del país tras dos años de espera",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMUtaUmM5aDdLVXg4bU11Z3pJLWh3alJ3Z3BMbm5lNndxYlVFVU41TTc3QWlmVXRlbnJXVVZxVF9BendSc25MUmhZYnJsckZ2N1NJS2JjZmlWZXNicFI3c2F0WjN4ZG02Q1N1RnkxTlBUUVp6TU1QSXFQX19uRG5xbWx5ZWMtRWRtV0VTeXh5XzBaTWpQNGZCTnZsOHEyWWJfZ0V1d0JXN3c4UlNZQW10Zmtka2FSSS1JNXpnZjQ3Y0hPT3BjNTNZ?oc=5",
-        "curated": "decreto-1350-2026-paso-de-los-libres-cotecar-concesion-20-anos-iniciativa-privada"
-      },
-      {
-        "title": "El Gobierno habilitó la única propuesta para concesionar la segunda aduana terrestre del país",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRmxIa0lJc0hXYkhIZEN2cmxibHZMa25KZmZXeWFLdks2ZnhpMW9NY3lINnZxQWVReHNXVE41Z1FWek9kWk9DYS05VEZEMDVwU3l1MmVKQTc0eGQ4dTdCNmx4R2ZJaDhDc2xqLVhEVm9vdWdrRmVKUzdYTjZOSnFMUm9DNTdKVURiOTE0c3BtbVdZVkdmZUxXNklvR0lvbTZ3bHdwdWRsSm9qOFFnSUM1dXRBQmhVS0trOU5SWFpodVVNSDhEV3ZuUGNNY2g5REdTS1FfdtIB7wFBVV95cUxOX0VXOUZZV29EZWpWN2ctNElNSWR1d2hFbVNJaEx3amhKMHNHaUdod2U0SHdxTkZVdWpRWXJBQzN2dmRSWTBhdk9weV80UVdDSmFJNWxUM2JZWkNxWmktNGZ5azNxMFZpcGhvLTJJMWwzODJJSG9fWGRiYVRCSThqNlZUYUhEMlhuYjZ0SURnNHdsaEZIa2lxN3V1ajY3b3ctdlE5VVh4YjhEMjl1R3VmT1NWb2tkRDdtRDVlcHZXU0E2Rm8xTGRBZzVCZC1oWmc2MnFpMTNYd3djVVVEUmdNWTl1NkdBdEFLZ3dHeldIVQ?oc=5",
-        "curated": "decreto-1350-2026-paso-de-los-libres-cotecar-concesion-20-anos-iniciativa-privada"
-      },
-      {
-        "title": "El 67% de las importaciones del RIGI podría abastecerse con producción nacional",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOY25hNVNMd1VPTWtiODVrM2FjZDVoU1hxd3NIVE0wX1ZXNXpjMHFPY2xfYUctdkk1c2VLVGhMUENJOTJyZ0VpSHM2R2Fhc2FocmZMeTZxQzg5aTR5Z3pObktPdElEd2Nya3BySjVPSTI1RUxONkRYaFV5QnZJMmg0V2xQd08tTEFQQUI0ZHA5dzluZG5SZ29PNU5aSGlkQWFqd2publJjNGFoWVh5T0I4dy1hTFNrdEd10gGzAUFVX3lxTE9sRUdCa0VnNG9tNndoVHQ3di1yb1Fnb1pXckxhUWxQSk0xcmN5MHh2WXF4RC1uQnhJcGdLRG5aV1NWTHJNOWowaV9fR0F4QUdqbnRMUGdHTUhmMXk1NmxGbXMxSFVJWU96aFc1VmdZN2o3VC1rWUxtQlJnUE1ocXM0eW5LOHh1dnlBM0tXcklTSjF6Rk95MVJsTXZxaThhd0pzOGdCWDc5MEl5LWJ4OGMwN0ZR?oc=5",
-        "curated": "rigi-importaciones-542-millones-cipibic-67-por-ciento-produccion-local-china-40"
-      },
-      {
-        "title": "Centro Despachantes de Aduana de la Republica Argentina - Cronogramas operativos: Feriados visita del Papa",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4RV94TjE3LXhKTjlzdFdTb29oOXFpZUFITWhCY0Rlc1BpS0tWRW1BQnZ2UzZELTg4SFhRX3hMTkNzX2RSYmpjb0xnMUs4YTg3UmtwZWVWVkNkakhrTGhj?oc=5",
-        "curated": "feriados-visita-papa-leon-xiv-9-10-11-noviembre-cinco-dias-sin-bancos-comercio-exterior"
-      },
-      {
-        "title": "Más de 50 productos argentinos ocupan los primeros puestos como exportadores mundiales",
-        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPXy1tdkFMSEdsQjMzVjdfdElCRWZpaGU2UWNsVGF3cHM4UHNDZ1FtYWNPSFZ6U3A5a3YzUVdjN0MyQ084Ti1hdW96MDBlZDhJb25aNkt0ZkdscVY5aS01dk5hSllXV3VYOUoxMXJuQVRaZTdMTHhJclFkUWdudk5xenBndzhKUE9hX0J1V3hyeGMtQW1ZTHpfa3d3MnNRRVBSTlVXQ3V3cE1rOUxVVFk1SlIxT2Zsb1pfUHA0ZkNjYWR4b0pqQjNTNDlCSjZwenIt0gHWAUFVX3lxTFBDQ0E4Y2Z2Sl9GLWVxQy0wVEpRQkVJZlloVFRGWTU0WnRFdHhsXzJ5QWZaRi1MTUpWWXBvZk5VVlY1NTBhbmZzemg5b0k2LXR1MGo3YThvQy1ydGZUNnB3YS13WlFyN1I2S1BNWkl2aFgyNFM2bWRwLTRpWU50U1FrRE5Gdjd6LUp5WW1wVUpzUkhVWElnbDkwaUpvQ2ZiQjlpcFRjQjZGQ2tqOEhkLXVFZm9BRmxBV3FWc29wcE5FRThYYlQySjNRcElXd2NKYzN5alNiUEE?oc=5",
-        "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
-      },
-      {
-        "title": "Por la caída de las importaciones, este año la Argentina reducirá a la mitad su déficit comercial con Brasil",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdDZTQS1WQlMwWk1nbjFwNVhqVDZJV1pxaWpSdmNFakh5ZGIzZmZndVYxYVNFcEJrQzlDRnU5cnkzRERMeTh5Q1JUSmIxSlh1ZVBPTDlnYVJ3WGpSRmxyeEIxVXMzckNiUFBsNTRIdi1FY3dIUzJobjhWN3VGUG9Zckw2UmxYQnFZT05tX2ZsSFdSYk14cTh0d1RQM0Y2V1EtcU5XdVowd1YtSWJHMHA4MTBGSXBJdjFzUnVFaDN3Z2RkRGVoLWx2Y183QjNlRDBNRUh3NDVR0gHwAUFVX3lxTE1fY29pQTBLMVRPdzBnUjJQZnRualB6X0pDSXV5d0Izd0taT3N2NXRaUFJOd05xeW1OMTZYZnpJakJrVDVjTTJ4ZHJpTnBIU1FzcjFsRFIySm1FOGFCamhzaWNoQ1dJaE1NVDlLSFlaRzZwZUhnVGlnUXRnZk9LWXRPbEhVaVQtUHd6WEdQOHI3b1N3OFFCeXJBV2plLUZWeVkzNWp3R3lqb0gweS0tZmYtMWdueVdSNVJFaGEzWGRJc1pld24wYVkzS2xXMHhPekMzVHYyT1NKS2xmYkJhVGJUR0l3c1JEdGo3WkRiUzdhUg?oc=5",
-        "curated": "argentina-brasil-octubre-2026-exportaciones-1260-deficit-270-acumulado-1956-abeceb-cac"
-      },
-      {
-        "title": "Trump endurece su discurso en varios frentes, entre ellos la guerra con Irán y duplicarle los aranceles a México",
-        "url": "https://www.univision.com/noticias/linea-de-fuego/trump-endurece-su-discurso-en-varios-frentes-entre-ellos-la-guerra-con-iran-y-duplicarle-los-aranceles-a-mexico-video",
+        "title": "Claudia Sheinbaum le responde a Donald Trump tras amenaza de aranceles por paso de migrantes en la frontera",
+        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQUDBhcV93d3pVNm4yLS1nVnEtSXpMSkR0QXRzSnlQUmdSS25kSHJlVkV2VkR3eWpHQlJKTVpweUR1WFQ0Mkc4TTJTQ1RqcjFmV2dsOWRjWDBoaEJIVmNrQy1way1kbG9sRzRnbXBla3UyWHJPaFdnSWNCT0VESktUVzZhNDhXcGg4RmVUZnFLaVE0UktYblo1UW16SW9LUVhOQ0g3N0htcC1kTWRjWHNfc09LN28xQTFicTM2dVFjNnhxcm4yaDBudVhsVUVrMG1yb0R0MGcwNGFtMzJpT09PNnNISTdOYk9k0gHuAUFVX3lxTE5sOWNoYkFadVJKYmx5M0JiQVJrVGRfQ2k3a1pOQ2hRT1RITG1BLXBnS0RteFJCNlE4TlkzZ3JBWnFZSE9oSGtDSDZCZTdhamhyR0VIcVlUM1JwVVp4U1ZYMEFOb1hTX1hWRk5XOHZtLTVEQm04TnE0NVhKSXBxQ2YxRnh0bm1fQVYzMFJ3dXpnUVg2Rnh0N2MxaVl1ZjhJRnd1aTFXUkN0dF9TVkNvV2piRkw3VnlKdVduelJ3dk1yMUI3YXhjdkJpU0tUck8wby1ZQWo2eGM2NHljYmJZbE5DTzJtaHdlV0ZSbExwMkE?oc=5",
         "curated": "trump-amenaza-duplicar-aranceles-mexico-caravanas-migrantes-sheinbaum-tmec"
       },
       {
-        "title": "Caravana migrante seguirá rumbo a EU pese a amenaza de Trump de imponer aranceles a México",
-        "url": "https://oem.com.mx/diariodelsur/local/caravana-migrante-seguira-rumbo-a-eu-pese-a-amenaza-de-trump-de-imponer-aranceles-a-mexico-33098303",
+        "title": "Más aranceles por caravana|Presupuesto histórico para 2027|Escándalo de NVIDIA|¿Vida en Marte?",
+        "url": "https://www.nmas.com.mx/sociedad/mas-aranceles-por-caravanapresupuesto-historico-para-2027escandalo-de-nvidiavida-en-marte/?media=audio",
         "curated": "trump-amenaza-duplicar-aranceles-mexico-caravanas-migrantes-sheinbaum-tmec"
+      },
+      {
+        "title": "Las exportaciones de vino se dispararon 19% en octubre pero a un precio más bajo",
+        "url": "http://www.radiocafayate.com/?p=77893",
+        "curated": "exportaciones-vino-octubre-2026-inv-68-1-millones-19-3-granel-87-8"
+      },
+      {
+        "title": "Argentina exportará gas a Chile por al menos 35 años",
+        "url": "https://bardeo.news/economia/argentina-exportara-gas-a-chile-por-al-menos-35-anos_a6af5c780d5fb7942a0930f5a",
+        "curated": "gasandes-open-season-contratos-firmes-35-anos-gas-argentino-chile-4-8-mmm3"
+      },
+      {
+        "title": "Milei busca empresa que maneje la segunda aduana terrestre más importante del país",
+        "url": "https://www.iprofesional.com/politica/469001-javier-milei-busca-empresa-que-maneje-la-segunda-aduana-terrestre-argentina-mas-importante",
+        "curated": "decreto-1350-2026-paso-de-los-libres-cotecar-concesion-20-anos-iniciativa-privada"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "navieras-invierten-mas-de-us-200-mil-millones-en-buques-de-combustible-dual-mien",
+        "main": "primera-reunion-del-comite-de-comercio-en-el-marco-del-acuerdo-interino-de-comer",
         "merged": [
-          "msc-proyecta-superar-4-millones-de-teu-de-capacidad-con-sus-buques-de-combustibl"
+          "primera-reunion-del-comite-de-comercio-del-acuerdo-interino-de-comercio-entre-el"
         ]
       },
       {
-        "main": "milei-busca-empresa-que-maneje-la-segunda-aduana-terrestre-mas-importante-del-pa",
+        "main": "disponibilidad-de-tanqueros-disminuye-por-operaciones-ship-to-ship-en-medio-orie",
         "merged": [
-          "milei-avanza-con-la-privatizacion-de-paso-de-los-libres-la-segunda-aduana-terres"
+          "disponibilidad-de-buques-tanqueros-cae-por-operaciones-ship-to-ship-en-medio-ori"
         ]
       },
       {
-        "main": "acapara-asia-crudo-africano-y-brasileno-ante-caida-de-fletes",
+        "main": "se-actualizaran-los-aranceles-de-dni-y-pasaportes",
         "merged": [
-          "petroleo-africano-y-brasileno-gana-terreno-en-asia-por-caida-de-los-fletes"
-        ]
-      },
-      {
-        "main": "en-argentina-las-exportaciones-equinas-crecieron-14",
-        "merged": [
-          "las-exportaciones-equinas-crecieron-14-interanual"
-        ]
-      },
-      {
-        "main": "alerta-en-el-mercosur-los-autos-chinos-desplazan-a-la-produccion-regional-y-cae",
-        "merged": [
-          "los-autos-chinos-desplazan-a-la-produccion-mercosur-y-golpean-la-industria-nacio"
-        ]
-      },
-      {
-        "main": "caputo-destaco-el-crecimiento-de-las-exportaciones-pymes-el-mayor-valor-en-13-an",
-        "merged": [
-          "caputo-informo-que-las-exportaciones-pymes-crecieron-22-9-hasta-octubre"
-        ]
-      },
-      {
-        "main": "restriccion-de-ingreso-de-camiones-a-puerto-de-iquique-persiste-en-nueva-jornada",
-        "merged": [
-          "puerto-de-iquique-queda-con-acceso-libre-para-ingreso-de-camiones-tras-fin-de-pa"
+          "se-actualizan-los-aranceles-de-dni-y-pasaportes-cuanto-costaran-los-tramites-des"
         ]
       }
     ],
     "googleNews": {
-      "pending": 19,
-      "resolved": 19,
-      "withSummary": 17,
+      "pending": 22,
+      "resolved": 21,
+      "withSummary": 15,
       "withPhoto": 0,
-      "failed": 0,
+      "failed": 1,
       "duplicates": 0
     },
     "noRead": 1
