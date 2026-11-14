@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-11-14T03:15:27Z",
+  "updatedAt": "2026-11-14T10:33:30Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -267,7 +267,8 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-14T03:16:17Z"
+      "lastAttempt": "2026-11-14T10:34:32Z",
+      "lastError": "HTTP Error 500: Internal Server Error"
     },
     {
       "id": "soja",
@@ -284,7 +285,7 @@
         "date": "2026-11-12",
         "ars": 540000.0
       },
-      "checkedAt": "2026-11-14T03:16:18Z",
+      "checkedAt": "2026-11-14T10:34:49Z",
       "_prev": {
         "date": "2026-11-11",
         "ars": 545000.0
@@ -397,7 +398,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-14T03:16:18Z"
+      "lastAttempt": "2026-11-14T10:34:49Z"
     },
     {
       "id": "brent",
@@ -410,7 +411,7 @@
       "obsDate": "2026-11-11",
       "change": "+2,2% vs. día anterior",
       "trend": "up",
-      "checkedAt": "2026-11-14T03:16:20Z",
+      "checkedAt": "2026-11-14T10:34:51Z",
       "history": [
         [
           "2026-10-01",
@@ -535,7 +536,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-11-14T03:16:20Z"
+      "lastAttempt": "2026-11-14T10:34:51Z"
     },
     {
       "id": "maiz",
@@ -552,7 +553,7 @@
         "date": "2026-11-12",
         "ars": 275800.0
       },
-      "checkedAt": "2026-11-14T03:16:20Z",
+      "checkedAt": "2026-11-14T10:34:51Z",
       "_prev": {
         "date": "2026-11-11",
         "ars": 275000.0
@@ -665,7 +666,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-14T03:16:20Z"
+      "lastAttempt": "2026-11-14T10:34:51Z"
     },
     {
       "id": "trigo",
@@ -682,7 +683,7 @@
         "date": "2026-11-12",
         "ars": 288900.0
       },
-      "checkedAt": "2026-11-14T03:16:20Z",
+      "checkedAt": "2026-11-14T10:34:51Z",
       "_prev": {
         "date": "2026-11-11",
         "ars": 299500.0
@@ -795,16 +796,304 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-14T03:16:20Z"
+      "lastAttempt": "2026-11-14T10:34:51Z"
     }
   ],
   "items": [
+    {
+      "id": "eeuu-y-china-avanzan-en-un-pacto-que-dejara-al-90-de-los-productos-afectados-sin",
+      "datetime": "2026-11-14T10:28:53Z",
+      "date": "2026-11-14",
+      "firstSeen": "2026-11-14T10:33:30Z",
+      "title": "EEUU y China avanzan en un pacto que dejará al 90% de los productos afectados sin aranceles",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Estados Unidos",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "Estados Unidos",
+        "China"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos",
+        "China"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "El Economista",
+          "type": "Medio · vía Google Noticias",
+          "url": "http://www.eleconomista.es/economia/noticias/14027868/11/26/eeuu-y-china-avanzan-en-un-pacto-que-dejara-al-90-de-los-productos-afectados-sin-aranceles.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-14T10:33:30Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOeHVvZTA0bGlPOW1yWlJpS0E3SU54QnotcUk1VFRCY3NpMDlfVThSSWZCTGN3SElEVktzcHBWTjg5NGpDakdQS1FXT3RXTndqUzAzU19PaVZQbjY0SHl4aVoxRHhQVTNUaDFFM2g4M0NfWEY2dFRlSkRINzA0al94eGF0NkdfNTc5N0FVZFBudUVWMWVNUF9VVktJYkVXdzFmRkNQMW13WHBMRkg3NFpHVThZTmNLeVcxYnU3a2w5SmRlclpBQjZXM3pINEhNVTB1WDh6UWlleDBmUDZWYTAySkp3MUhpSWpIeTlV?oc=5"
+    },
+    {
+      "id": "ee-uu-y-china-activan-un-nuevo-canal-de-dialogo-comercial-discuten-aranceles-y-p",
+      "datetime": "2026-11-14T10:05:12Z",
+      "date": "2026-11-14",
+      "firstSeen": "2026-11-14T10:33:30Z",
+      "title": "EE. UU. y China activan un nuevo canal de diálogo comercial: discuten aranceles y productos agrícolas",
+      "summary": "Ante la próxima cumbre del Foro de Cooperación Económica Asia-Pacífico (APEC), Estados Unidos y China celebraron de manera virtual la primera reunión de su comité comercial. Ambas partes debatieron medidas para reducir los aranceles sobre importaciones del otro país, por un valor aproximado de 30 mil millones de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "China"
+      ],
+      "tags": [
+        "Aranceles",
+        "China"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "재경일보",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://news.jkn.co.kr/editions/spanish/post/1093435",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-14T10:33:30Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tN2J6b1h6azhvNlBQZ2NacGxrRVE3bXlSTXN5SjIxcHFjN2JmbEcxLTdFaGpGRFRiMVNqQlEzYkk4eGlCenFIVjlQaUZtZkh5S0poWms1WE11NzF5Z3k5d1R3?oc=5"
+    },
+    {
+      "id": "empresa-argentina-ipesasilo-duplica-exportaciones-de-silobolsas-y-proyecta-creci",
+      "datetime": "2026-11-14T09:32:30Z",
+      "date": "2026-11-14",
+      "firstSeen": "2026-11-14T10:33:30Z",
+      "title": "Empresa argentina IpesaSilo duplica exportaciones de silobolsas y proyecta crecimiento global",
+      "summary": "Argentina | IpesaSilo, una empresa argentina, ha logrado duplicar sus exportaciones de silobolsas en el último año, alcanzando un crecimiento superior al 120%. La compañía proyecta vender entre 200.000 y 250.000 unidades en más de 60 países para el cierre de 2026. Mariano Klass, presidente de IpesaSilo, destacó que…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "crprensa.com",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://crprensa.com/2026/11/14/empresa-argentina-ipesasilo-duplica-exportaciones-de-silobolsas-y-proyecta-crecimiento-global/",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "La Nación",
+          "type": "También publicó esta noticia",
+          "url": "https://www.lanacion.com.ar/economia/campo/de-un-sachet-a-mas-de-60-paises-la-empresa-argentina-que-duplico-sus-exportaciones-de-silobolsas-y-nid14112026/",
+          "alsoIn": true,
+          "title": "De un sachet a más de 60 países: la empresa argentina que duplicó las exportaciones de silobolsas y ahora va por otro hito"
+        }
+      ],
+      "gnTried": "2026-11-14T10:33:30Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaHJoR1dQcDhkRjhpVTJXSVlTd2xPeVBDY01LV0pybGFfZ1k4Y01Fa0xTdG9hRkgyVTh0M3FvNVJGTUVESUNNZV9wTnZITDNoc3hrNkp1c3c1LXUtZW9BbDN3QVlNSm5hSzdVZGpFOTFIQkk2bkpkd3J1dGFabkJ1S2FiY2FsTFkzNlFkWXZ2eklnQlZqNzdjVjFuV3dyZFNtMFVUNGNpVGtDRFdWUnk1eGxZd0o4NVZtODhodGhSS1d5OWZE?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOX3NaNzNTMk9xSGtyUDUxLUZhZkUtVTNsa1A3bHJPaHR0dWJtN3FOLS1McVRkaHkwSlR5NWdDTWpsaW5ZeEJkY1A1THFaem5nMGRPVzNWRVRxODMycTVZUkwwalhNMzNLaFZOLTNaUlc4c1g5U2p2b0VjVGw5LUlPa3REVFN5WXVpeGhMY0RVQnVtR0gtVGJvV01KRmRkZTNLVlNpUXZnN3EtaFF5ZGF0alNuVjNua0xkUlJ0eVNKc2V1Q0tUbGRDQVNlbzY2S2tMUmF6a2o3eUhnNXRYTzVjX1RoaVRseURqWXc",
+        "https://www.lanacion.com.ar/economia/campo/de-un-sachet-a-mas-de-60-paises-la-empresa-argentina-que-duplico-sus-exportaciones-de-silobolsas-y-nid14112026"
+      ],
+      "mergedIds": [
+        "de-un-sachet-a-mas-de-60-paises-la-empresa-argentina-que-duplico-las-exportacion"
+      ]
+    },
+    {
+      "id": "perspectiva-del-dow-jones-los-comentarios-de-trump-sobre-aranceles-a-mexico-pone",
+      "datetime": "2026-11-14T08:25:06Z",
+      "date": "2026-11-14",
+      "firstSeen": "2026-11-14T10:33:30Z",
+      "title": "Perspectiva del Dow Jones: los comentarios de Trump sobre aranceles a México ponen a prueba el repunte",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Latinoamérica",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "México",
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "FXEmpire",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.fxempire.es/forecasts/article/perspectiva-del-dow-jones-las-declaraciones-de-trump-sobre-aranceles-a-mexico-ponen-a-prueba-el-repunte-305362",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-14T10:33:30Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNXJlWk55TF92VmYtUk9SSDE5djN4c1RiOE9kcXNXNEJSdFFTRm8wVWY3d3lrd0xOZ1RiUVhjLTJSOFV3cXdlcnZ5ay0zdktrem5QdHhVa3BaWW42ODFha2h0Si1FaDZVYkwtVDBaZzItNWpBbWV4d1FiSFJnTU1QVHU3dW12dVpBbzR0MTF2VnEzOW84STA3THV3emxUbHQycERla0JhOWJYejRKM21JNTlLT0JKVUZoOGdIZk82VnBuanFRT2NNaU15N2lOdFR5UktKNHZNMEhCYUI0djRSbjJyVEp5SWM?oc=5"
+    },
+    {
+      "id": "record-historico-de-exportaciones-argentina-envia-mas-de-106-millones-de-barrile",
+      "datetime": "2026-11-14T08:11:55Z",
+      "date": "2026-11-14",
+      "firstSeen": "2026-11-14T10:33:30Z",
+      "title": "Récord histórico de exportaciones: Argentina envía más de 106 millones de barriles de petróleo en diez meses",
+      "summary": "Las exportaciones de crudo argentino alcanzaron un récord histórico de 106,25 millones de barriles entre enero y octubre de 2026, superando los 90,2 millones de",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Energía"
+      ],
+      "visual": "energy",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "ZapalaYa",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://zapalaya.com.ar/vaca-muerta/record-historico-de-exportaciones-argentina-envia-mas-de-106-millones-de-barriles-de-petroleo-en-diez-meses",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-14T10:33:30Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTEJicGgwWk1Uald0VGo0bzVobjRmOFgxU1dmck9KUWVFcHRiU3dQakE1UmdwOWJFdTRXVXpmZGVxeVJSZzg2cjJPY0J5em5HZjVIYmxDSE1OWlVpTnkyVGt2QkZxMzV3d3NMeXVlVlJROXY3ejVPRHEzdGJPNC00cjJjMUpmM2hJUi12ZU1sVnF1aER1b2VxQUhHb2lFM052Q01HaENxbjBIdjcyX3pJdDJicklja3oxU3dQNVcya2w4c2VwMV9iQk1VRWhZOXdFblNGam54Z2I2Yjg?oc=5"
+    },
+    {
+      "id": "china-y-estados-unidos-abordan-los-aranceles-y-el-comercio-agricola-antes-del-en",
+      "datetime": "2026-11-14T08:02:16Z",
+      "date": "2026-11-14",
+      "firstSeen": "2026-11-14T10:33:30Z",
+      "title": "China y Estados Unidos abordan los aranceles y el comercio agrícola antes del encuentro entre Xi y Trump",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Estados Unidos",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "Estados Unidos",
+        "China"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos",
+        "China"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "MarketScreener España",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://es.marketscreener.com/noticias/china-y-estados-unidos-abordan-los-aranceles-y-el-comercio-agr-cola-antes-del-encuentro-entre-xi-y-t-ce785ededb8fff22",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-14T10:33:30Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOeDJPR21KSVJTSENiSGdrdF91T1J3YUpjVWJQaUZOVXA2XzNXdWxkM1gxWnVVT193bG11THd1azItbmo1NXloRjZUdWtmV25BTnMxeEo0NXBZUVB5czJ0Z0V3NHBZY1dWeEVSQldfMUw0LTlIc0Y4OGFNbzFDMXhPdFVhbndLZVBaOTV1X3VEemZCdGJiRmlqaXRRc3hhcHdqd2ZmZ2ZlYnRSY0hrcTJMdjU1cThnWDVDNTg5SUNmanZsZlIzU3NENjJlM3FlaDFicWVfTmtKcFUydWVpSl9oSkRvb0twY1ZkcjhsYg?oc=5",
+      "digestSkip": {
+        "at": "2026-11-14T10:33:30Z",
+        "auto": "no-read",
+        "reason": "medio sin lectura automática (NO_READ_DOMAINS) y sin otro medio con la misma noticia"
+      }
+    },
+    {
+      "id": "el-presidente-de-balearia-propone-bonificar-a-las-navieras-que-lideran-la-transi",
+      "datetime": "2026-11-14T06:39:55Z",
+      "date": "2026-11-14",
+      "firstSeen": "2026-11-14T10:33:30Z",
+      "title": "El presidente de Baleària propone bonificar a las navieras que lideran la transición energética en el transporte marítimo",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Puente de Mando",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.puentedemando.com/el-presidente-de-balearia-propone-bonificar-a-las-navieras-que-lideran-la-transicion-energetica-en-el-transporte-maritimo/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-14T10:33:30Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNNjBlS1g2ZEFlRi0xbWdsblhxdFJFUEZsazM3ZG96RXVCbW0tcTMySkR6YTV5U3ZjcUVHVTNZWFJ2WUFyekt4QlFRV1dHWWotX1h3WTZXWGlhangxOFl5bXVack1NT3VQUmZET2J6RDNNNkNTaV9YNUZtdjNpcXZjVEZQMkdwam41eFV5TGhPMGRGVmpfdHdXRUpFdGpLYVVUZzlyQno2U3NJNWJUX1AwV3FNQlJRLVB0RG9fb1daUFlscjFLS08teDZLODBRMmlEYkRFZUIzeVFXWHVhNnpmdW1La2V0ZjA?oc=5"
+    },
     {
       "id": "el-museo-de-la-aduana-participara-en-la-noche-de-los-museos-2026",
       "datetime": "2026-11-14T02:50:37Z",
       "date": "2026-11-13",
       "firstSeen": "2026-11-14T03:15:27Z",
-      "title": "El Museo de la Aduana participará en La Noche de los Museos 2026",
+      "title": "Este sábado, la Aduana abre sus puertas en La Noche de los Museos 2026",
       "summary": "La 22.ª edición se realizará el sábado 14 de noviembre, con entrada libre y gratuita. Habrá exposiciones, espectáculos, talleres y visitas guiadas en distintos barrios porteños. El Museo de la Aduana participará de la iniciativa y abrirá sus puertas de 19:00 a 02:00, en su sede de Azopardo 350, en el barrio de…",
       "body": [
         "La 22.ª edición se realizará el sábado 14 de noviembre, con entrada libre y gratuita. Habrá exposiciones, espectáculos, talleres y visitas guiadas en distintos barrios porteños. El Museo de la Aduana participará de la iniciativa y abrirá sus puertas de 19:00 a 02:00, en su sede de Azopardo 350, en el barrio de Monserrat. La…"
@@ -838,7 +1127,8 @@
       "digestSkip": {
         "at": "2026-11-14T01:30:00-03:00",
         "reason": "fuera de tema (aviso de evento cultural)"
-      }
+      },
+      "updated": "2026-11-14T10:33:30Z"
     },
     {
       "id": "mexico-descarta-acuerdo-comercial-con-china-buscara-estabilidad-en-la-apec-ebrar",
@@ -1172,49 +1462,6 @@
       }
     },
     {
-      "id": "washington-exige-a-mexico-frenar-caravana-migrante-bajo-amenaza-de-aranceles",
-      "datetime": "2026-11-13T23:31:22Z",
-      "date": "2026-11-13",
-      "firstSeen": "2026-11-14T03:15:27Z",
-      "title": "Washington exige a México frenar caravana migrante bajo amenaza de aranceles",
-      "summary": "Mientras miles de migrantes avanzan por territorio mexicano, la Casa Blanca advierte sobre sanciones económicas si no se contiene el flujo hacia la frontera.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Aranceles",
-        "Latinoamérica",
-        "Estados Unidos"
-      ],
-      "countries": [
-        "México",
-        "Estados Unidos"
-      ],
-      "tags": [
-        "Aranceles"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
-      "sources": [
-        {
-          "name": "HSB Noticias",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://hsbnoticias.com/noticias/washington-exige-a-mexico-frenar-caravana-migrante-bajo-amenaza-de-aranceles",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-14T03:15:27Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVnBtNWJtamMwbzVSQ01kNDNjeTFaMDRPQ1JvWXB4OXhScUdMWWJOUFA2ZDFGdk9IZWMtQnp1ek5fRkNtcWdBSWxBcW5QVTBGZXpoTDQtaHR3ZlFYT21ldC15MmtwcDNHUk9yWWluY3FKQjNhVFctSFBZbWk1a1Jtd1RzMnFzVUVtZEx4VTJ5N1d2QTZ2VGhzS25qaG56UC11TkUxMHhFRHdtc1JCX3c?oc=5",
-      "digestSkip": {
-        "at": "2026-11-14T01:30:00-03:00",
-        "reason": "repite una nota de la redacción (amenaza arancelaria de Trump por las caravanas)"
-      }
-    },
-    {
       "id": "brasil-estudiaran-construccion-de-red-de-oleoductos-en-puerto-de-acu",
       "datetime": "2026-11-13T23:30:44Z",
       "date": "2026-11-13",
@@ -1259,45 +1506,6 @@
         "at": "2026-11-14T01:30:00-03:00",
         "basedOn": "https://portalportuario.cl/brasil-estudiaran-construccion-de-red-de-oleoductos-en-puerto-de-acu",
         "words": 144
-      }
-    },
-    {
-      "id": "las-exportaciones-de-vino-argentino-crecieron-un-28-en-octubre-y-san-juan-se-afi",
-      "datetime": "2026-11-13T23:21:00Z",
-      "date": "2026-11-13",
-      "firstSeen": "2026-11-14T03:15:27Z",
-      "title": "Las exportaciones de vino argentino crecieron un 28% en octubre y San Juan se afianza como segundo polo exportador",
-      "summary": "Según los datos oficiales del Instituto Nacional de Vitivinicultura (INV), los envíos al exterior sumaron 68,09 millones de dólares FOB durante el décimo mes del año.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "wine",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Diario de Cuyo",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.diariodecuyo.com.ar/economia/las-exportaciones-vino-argentino-crecieron-un-28-octubre-y-san-juan-se-afianza-como-segundo-polo-exportador-n6588539",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-14T03:15:27Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPYWw1NVJaR1FjMlYyckg4NGlwZGtUUGk1alFZbjhEdThmc2dmUURXMHFBYUxoVjNBc05talZENmdidjlDS3hxLWZuQ1pVV0lQWTBMNDh0T3hzeEd6b0J1ZnpydlNZeDJtdW8xdHliRDVHWUJlZk1PZk1QZVpHNUU0aXV4UllOREU4RW8xby15U3RicXVRZEd2azBYMVR4WlhKcUMyNWpkbXVuUFNEMG5BT1RyQUxDcHQ0SlJMYU50R0hvaE1fUkNnYlFKSnBVY1hSaEs3WWdLTTFCY094OWRfOC1IRzhzZ0F5UDJQN1NIVmE5QlE?oc=5",
-      "digestSkip": {
-        "at": "2026-11-14T01:30:00-03:00",
-        "reason": "repite una nota de la redacción (exportaciones de vino de octubre, INV)"
       }
     },
     {
@@ -1652,16 +1860,26 @@
           "url": "https://www.diarioderivera.com.ar/2026/11/13/la-provincia-fijo-un-aumento-del-16-para-los-fletes-de-granos-y-genero-el-rechazo-del-campo/",
           "alsoIn": true,
           "title": "La Provincia fijó un aumento del 16% para los fletes de granos y generó el rechazo del campo."
+        },
+        {
+          "name": "Diario El Día de La Plata",
+          "type": "También publicó esta noticia",
+          "url": "https://www.eldia.com/politica-y-economia/reclamo-del-campo-a-la-provincia-por-la-suba-del-16-en-los-fletes-de-granos-politica-y-economia_1794629933",
+          "alsoIn": true,
+          "title": "Reclamo del campo a la Provincia por la suba del 16% en los fletes de granos"
         }
       ],
       "gnTried": "2026-11-13T22:38:47Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQR0ZjMXVWVEd3U1J6YkdmalllbFR5M0RHRTlrVGRpdFVJSzN0dVRPYTNjWGxTY1lENUtZUkVPaF93V1ZCY2M2NWRYZzdYVHJVMEpudXZFNzBPbWlvVjUyZFNESk80VHRjaDBXNzNWRUxrVGRlWWNXQ2tRZ0p5WlpnMFM1bGlwVTdBZEhBOUt0RWt3bEtDQXFhc2oyd0xyWjI5UzU1VFhkRUNDRF9heTh1MG1lY1BCYmRkekdnWWg4eWtTR1k2TXFN0gHbAUFVX3lxTE9qSkxLR29iWFFpSVBBckI4emhEYUNxVkNob3Z6VVZfVjNPWDJhWUhPWkhuTVJRZlRfVjk2ZjJZcGlUVy1sZWRIRG83bVdybFN2cktkMkZieGl3M0laSk1HeDFJRFdsTkRRMFR1c0RSTWRhQV91VDZxWHJsVElOZkMzT1l4eXZaR1hnMlMyQmwtZms3RFJUTWtCejl1dDJBSFZhTWNTX1VhRGc1M0VvRDJUcUE0Q2FjRnJ5d2R3bjJBcFlNLXNIUElwZHVrTGh5YnR6b3ItOXBUcmNNSQ?oc=5",
       "aliasUrls": [
         "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWkRuNHl1N2xOWWV5MHR1SnN3Nkl1OWttVUl0bDZzR1FCT3F2M25lU05xeUlZUE01ZHpkb1NFU0NqeFF5dDRHWlA2Q0pSUXhnd0hJaHIzNEJ0anlYcEM0TmJHOGRVVVF0TDVPU2FUbHV3bUF3WUg0RGZsQ1gyNlM0NllzODBaTHpORElhUmxVb01mSmNYQmpwcmJQWEVreVZlSVR2UXF4NWJBbW1ia0VNMkdXcHJtenVvXzh1X20xOFVOZ1B6NVhobUNlSFkxamlGWV9F",
-        "https://www.diarioderivera.com.ar/2026/11/13/la-provincia-fijo-un-aumento-del-16-para-los-fletes-de-granos-y-genero-el-rechazo-del-campo"
+        "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNbVZ4eGxCbXlPcHBRanF2SEt3dUlOdEgzZm9zcy1Kek9USGNFZmN5Z1hPWHBQcnVtTFFLSUhrbWVFNVd0NWJURTVxSmhPdUtZcWJtVGROTWM2cTlMWU1HQUpUYVk0M1JwU0tLRzBXMWhtN0JaUUFMbUtnZlhRU0tIbkNfR1BQQ25nR2ZTZWZzd0R6aDNnSGIySUV4U1dNY0NycmJsNFNuSExJSWFQYUc0NFduVlZ5blNvMTRSU0FETEtzMmRNYVhIZXV3UlktUVFxZ0RhQ0ZUb1MtYXVaaGYzT1Jn",
+        "https://www.diarioderivera.com.ar/2026/11/13/la-provincia-fijo-un-aumento-del-16-para-los-fletes-de-granos-y-genero-el-rechazo-del-campo",
+        "https://www.eldia.com/politica-y-economia/reclamo-del-campo-a-la-provincia-por-la-suba-del-16-en-los-fletes-de-granos-politica-y-economia_1794629933"
       ],
       "mergedIds": [
-        "la-provincia-fijo-un-aumento-del-16-para-los-fletes-de-granos-y-genero-el-rechaz"
+        "la-provincia-fijo-un-aumento-del-16-para-los-fletes-de-granos-y-genero-el-rechaz",
+        "reclamo-del-campo-a-la-provincia-por-la-suba-del-16-en-los-fletes-de-granos"
       ],
       "digestSkip": {
         "at": "2026-11-14T06:55:00-03:00",
@@ -1753,6 +1971,42 @@
         "words": 189,
         "flag": "curar"
       }
+    },
+    {
+      "id": "el-campo-estallo-contra-el-aumento-de-los-fletes-dispuesto-por-kicillof",
+      "datetime": "2026-11-13T20:54:56Z",
+      "date": "2026-11-13",
+      "firstSeen": "2026-11-14T10:33:30Z",
+      "title": "El campo estalló contra el aumento de los fletes dispuesto por Kicillof",
+      "summary": "Carbap, Coninagro y el Centro de Acopiadores cuestionaron la decisión del Ministerio de Transporte bonaerense de imponer una suba del 16% en la tarif",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Infomiba",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://infomiba.com.ar/nota/59620/el-campo-estallo-contra-el-aumento-de-los-fletes-dispuesto-por-kicillof/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-14T10:33:30Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT0NfSU9QRkt5S3FFNkRDeWtQNzNpSGdqejVmbDl1NmxRQmZ0c09GNkVma1hGVXNfVTVzWnp1eUppZnVfb2xfcnFpOTI5TldNWlp3SFhZcEg0Znlyb1lwS25iMnpTbjVveWRnbEJMeXhYb0ROejFaUXJlQk8xR19icHQ0Zlo1Sm4zQWpKM0RkQzBlSGxmeGxtcXlRcEpxbS1ua1IwYTF2THR6cVU?oc=5"
     },
     {
       "id": "argentina-la-industria-entre-el-avance-de-las-importaciones-y-la-presion-del-dol",
@@ -2345,45 +2599,38 @@
       }
     },
     {
-      "id": "por-octavo-mes-consecutivo-crecieron-las-exportaciones-argentinas-a-brasil",
-      "datetime": "2026-11-13T17:47:34Z",
+      "id": "balearia-pide-bonificaciones-para-las-navieras-que-inviertan-en-descarbonizacion",
+      "datetime": "2026-11-13T17:26:00Z",
       "date": "2026-11-13",
-      "firstSeen": "2026-11-14T03:15:27Z",
-      "title": "Por octavo mes consecutivo crecieron las exportaciones argentinas a Brasil",
-      "summary": "El comercio bilateral entre Argentina y Brasil fue de US$2790 millones en octubre, un 3% inferior al valor obtenido en el mismo mes de 2025, cuando había sido de US$2877 millones. Asimismo…",
+      "firstSeen": "2026-11-14T10:33:30Z",
+      "title": "Baleària pide bonificaciones para las navieras que inviertan en descarbonización",
+      "summary": "El presidente de la compañía, Adolfo Utor, reclama en un congreso celebrado en Gran Canaria que la regulación premie las inversiones sostenibles y tenga en c...",
       "body": [],
       "keyData": [],
       "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Latinoamérica"
+        "Transporte marítimo"
       ],
       "countries": [
-        "Argentina",
-        "Brasil"
+        "Global"
       ],
       "tags": [],
-      "visual": "customs",
+      "visual": "ship",
       "impact": 1,
-      "affectsArgentina": true,
+      "affectsArgentina": false,
       "kind": "noticia",
       "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
+      "feed": "Google Noticias · Logística y fletes",
       "sources": [
         {
-          "name": "flipr.news",
+          "name": "Atlántico Hoy",
           "type": "Medio · vía Google Noticias",
-          "url": "https://flipr.com.ar/nacionales/gremios/serindustria/por-octavo-mes-consecutivo-crecieron-las-exportaciones-argentinas-a-brasil/",
+          "url": "https://www.atlanticohoy.com/empresas/balearia-pide-bonificaciones-navieras-inviertan-en-descarbonizacion_1570006_102.html",
           "primary": true,
           "author": ""
         }
       ],
-      "gnTried": "2026-11-14T03:15:27Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQUhPZnU1dE5WdmloNVlhQWVCVlhxa0RWMnZla2NBdGw0YXhqM3IwSTFaTm1NRWdJN2NoRzBwZ2YwME9LODgtNktfQ0NJQ1pEQ3BxLVZTY05DX0pXbWtqcTJodjZPd3hZbFZyZ2F6TF9HblpBQVRiNHd0UWhOckdRbThxZjYxdllXZXRoQzhTbWQ0cVl4dTZZNXMyRllNQlBVVkI3bnV6ancxbzRiYkJ3aTZ5Y0M4aDQyZEVuWlJxWlA1U3Q1U0M0?oc=5",
-      "digestSkip": {
-        "at": "2026-11-14T01:30:00-03:00",
-        "reason": "repite una nota de la redacción (comercio con Brasil en octubre)"
-      }
+      "gnTried": "2026-11-14T10:33:30Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNejBlY2VWYXNXT0VaWm92VHdDTTBCOWVhOUhOR2lyT0h1MWpnZ1Rmb3oxOEk4bUZwVEZ0WVBuQTRJanBmZDlwVkNDOGR3eHlTcXJTQ0Q5WlNWSHVHOHBvUXhQa3VDMExxMURlOTlYSTJRYzh5LW9WeXg2VExLT09sbzh2aEE3cUwyY1RZaHpFQnk0XzlCbm9mTDJ2blhSU0dUTVBjbGN6MFNPdmdsOTZxQWh5V2pqMkhhc0VuRGtmSQ?oc=5"
     },
     {
       "id": "la-industria-se-parte-en-tres-donde-presiona-el-dolar-y-quienes-resisten-por-las",
@@ -2564,6 +2811,13 @@
           "url": "https://bichosdecampo.com/el-final-de-una-era-la-harina-de-soja-ya-no-es-el-principal-producto-que-exporta-argentina-tras-ser-superada-por-el-petroleo/",
           "alsoIn": true,
           "title": "El final de una era: La harina de soja ya no es el principal producto que exporta Argentina, tras ser superada por el petróleo"
+        },
+        {
+          "name": "Revista Chacra",
+          "type": "También publicó esta noticia",
+          "url": "https://www.revistachacra.com.ar/portada/el-petroleo-destrono-a-la-harina-de-soja-en-las-exportaciones-argentinas-6905/",
+          "alsoIn": true,
+          "title": "El petróleo destronó a la harina de soja en las exportaciones argentinas"
         }
       ],
       "gnTried": "2026-11-13T17:12:57Z",
@@ -2583,10 +2837,13 @@
       "aliasUrls": [
         "https://bichosdecampo.com/el-final-de-una-era-la-harina-de-soja-ya-no-es-el-principal-producto-que-exporta-argentina-tras-ser-superada-por-el-petroleo",
         "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWlA2TGRaOTBrNGEwNDkzcko4ekVmOTVLbmhWdnQ2YXZOdmNRTlEwWlVvWC1uaG96S2JxejZJMG5yUzU4bHA2cjdTT3FQOHJfN2RjREpIMHlhM09WMkhpakJvTy03QzQyRE1WLXFHRkFSSlkzM1lyOThQeGtzRDU3MmtSaFdqb285S2tWS244QTVYcWFiUGhsN2FqODZaeDZLUHNvZ0dmRkZtTmlVLVNTMlUyazEwU3JLRnJybmxfV2dsYkRJNjZZSTN6Zjc4bkRVcC1vclQ5S2NJRnlQSUw3ekw0bXBRdw",
-        "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOVEE3amVRU3dUS1BPV1RoVWxlY0hBdVI4RzhYV25KOXowU0NObzdzOXZrdDFuUkhmREhmcFJZQVM4Yk82bUpuUDRabVprejN5OEpSS01JZWdTMXV4SjFVNU0ydlRKdWROeHlqaDhMaktCMlpOTks0WVA1T0F1Tmh3NDhJb2NKdDFOLXM5R3JZdWgyaVBlMEZLR296OUhTWTlLdGtBQXBiR3NoUEJyQ2NlWjVsai1XUU9TQU1sQzVjOEJFbXppWTN4VENUWDFTUF9hbWFpQ0N2MXBYSWRBUzhodzh6Z3RURWh4Nzh6Ql9SeG16UFpV0gH0AUFVX3lxTE5UQTdqZVFTd1RLUE9XVGhVbGVjSEF1UjhHOFhXbko5ejBTQ05vN3M5dmt0MW5SSGZESGZwUllBUzhiTzZtSm5QNFptWmt6M3k4SlJLTUllZ1MxdXhKMVU1TTJ2VEp1ZE54eWpoOExqS0IyWk5OSzRZUDVPQXVOaHc0OElvY0p0MU4tczlHcll1aDJpUGUwRktHb3o5SFNZOUt0a0FBcGJHc2hQQnJDY2VaNWxqLVdRT1NBTWxDNWM4QkVtemlZM3hUQ1RYMVNQX2FtYWlDQ3YxcFhJZEFTOGh3OHpndFRFaHg3OHpCX1J4bXpQWlU"
+        "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOVEE3amVRU3dUS1BPV1RoVWxlY0hBdVI4RzhYV25KOXowU0NObzdzOXZrdDFuUkhmREhmcFJZQVM4Yk82bUpuUDRabVprejN5OEpSS01JZWdTMXV4SjFVNU0ydlRKdWROeHlqaDhMaktCMlpOTks0WVA1T0F1Tmh3NDhJb2NKdDFOLXM5R3JZdWgyaVBlMEZLR296OUhTWTlLdGtBQXBiR3NoUEJyQ2NlWjVsai1XUU9TQU1sQzVjOEJFbXppWTN4VENUWDFTUF9hbWFpQ0N2MXBYSWRBUzhodzh6Z3RURWh4Nzh6Ql9SeG16UFpV0gH0AUFVX3lxTE5UQTdqZVFTd1RLUE9XVGhVbGVjSEF1UjhHOFhXbko5ejBTQ05vN3M5dmt0MW5SSGZESGZwUllBUzhiTzZtSm5QNFptWmt6M3k4SlJLTUllZ1MxdXhKMVU1TTJ2VEp1ZE54eWpoOExqS0IyWk5OSzRZUDVPQXVOaHc0OElvY0p0MU4tczlHcll1aDJpUGUwRktHb3o5SFNZOUt0a0FBcGJHc2hQQnJDY2VaNWxqLVdRT1NBTWxDNWM4QkVtemlZM3hUQ1RYMVNQX2FtYWlDQ3YxcFhJZEFTOGh3OHpndFRFaHg3OHpCX1J4bXpQWlU",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOU9VSWpJOWwzbjlWQ3JVbVdlNWVwZDdNNGxpcmN4VW5XOFVYSFVUc3hLRkJnT1lRMk1kR3dScFRzMmEtUUlGdWNLd200VGtJZ0o2bTFXQk9Bc2F4RExRdzY0aEYybmlaWXppYUhUNjBYb0hLTzNJUGFCZkNXc0Nob1dSYzFCRUJCVkxHWThmcWY4WlNwYnlNNEJ6MWU2cDV0WTlqcU5jTXVCTlVIdksxcDkwNFc4LVViVGxr0gG3AUFVX3lxTFB2T3lPaDd6WmtxaVQ2dlBpMjBYSVY1a2JKalVGeDJnaG91Y1RVeEEyZkxHXzFlSElmdURVbF93QW1fUThQUWFWTjh2T2haRk9ONEItRzBlbmFpZ2ZvSmkzUjlvNzRGQVIzOHRaa2hDbGIwc18zaDNuSXlncWRRZmNHWV80ZXJRejE2aFFuTjIwS1psVHB3OXpJdk1Xb01scm5sc3RtOTJzM25IWTlNQkp0SHNvVkVHUQ",
+        "https://www.revistachacra.com.ar/portada/el-petroleo-destrono-a-la-harina-de-soja-en-las-exportaciones-argentinas-6905"
       ],
       "mergedIds": [
-        "el-final-de-una-era-la-harina-de-soja-ya-no-es-el-principal-producto-que-exporta"
+        "el-final-de-una-era-la-harina-de-soja-ya-no-es-el-principal-producto-que-exporta",
+        "el-petroleo-destrono-a-la-harina-de-soja-en-las-exportaciones-argentinas"
       ]
     },
     {
@@ -2768,6 +3025,13 @@
           "url": "https://www.adnsur.com.ar/pulso-energetico/argentina-ya-exporta-4-de-cada-10-barriles-de-petroleo-que-produce-y-el-shale-de-vaca-muerta-desplazo-al-escalante_a6af731e6ad47eda6c2ad3960",
           "alsoIn": true,
           "title": "Argentina ya exporta 4 de cada 10 barriles de petróleo que produce y el shale de Vaca Muerta desplazó al Escalante"
+        },
+        {
+          "name": "ZapalaYa",
+          "type": "También publicó esta noticia",
+          "url": "https://zapalaya.com.ar/vaca-muerta/exportaciones-de-petroleo-en-argentina-alcanzan-los-100-millones-de-barriles-gracias-a-vaca-muerta",
+          "alsoIn": true,
+          "title": "Exportaciones de petróleo en Argentina alcanzan los 100 millones de barriles gracias a Vaca Muerta"
         }
       ],
       "gnTried": "2026-11-13T17:12:57Z",
@@ -2785,10 +3049,13 @@
       },
       "aliasUrls": [
         "https://news.google.com/rss/articles/CBMikAJBVV95cUxQTnRaZEE5YTVDamduX1JONWxCVlFYbWRsUzQwWXNTRldtcDhGV0JpdEJ1ZE1yVERfa2NrMC12eThGeEpHelA4b05NSF8xeGg2TTJ4V0RLSTA4aC1KdklVWnZpRzU0cTlNQi11UVdWY0Z0ZlF5NkN1Z2FkaVV2dTl5b1I2c2pqenhvSjlscW1Mc0pzNTZKSWlXZlZ2ZUlYREwwdlRHeHpWMlVqS0JlUTI0ZHZ6M2hRcHlkbzZiNEg0VFpzMGhwVXVVTzR5ejFjcVJaX045LTQ2Sm16aERGRWliOV9RTHZFRG1aWW0xdF9yMFpQY0wyc0c2U2hLUzBMX1FVdWRpZ1J3QzR3LXFwUHZPbA",
-        "https://www.adnsur.com.ar/pulso-energetico/argentina-ya-exporta-4-de-cada-10-barriles-de-petroleo-que-produce-y-el-shale-de-vaca-muerta-desplazo-al-escalante_a6af731e6ad47eda6c2ad3960"
+        "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSThLQkpxNVVGWDRWWVR0QWc3SDl3eGZEalZ6dUlaelFlY09IWXB1Z3FrLXMwMG4yRlI5b2hGSUIyZnNyTko2b2U4TVNNZTQwLUctTnlOQ0tlSm9NcjVKTS00M2RuYnpFQ1lWUUNvU1JtWGZpS3J6ZEdKUS1rN1hSSVpOd2FpTkJEaWJ1V2tobWtFQ2JjS1VJQXAxWDE3V3hMc1hFa2V3Wmh3R3ZCNWpUTVl1bF9nMlhUMWwwTmpJQ2NSQlBHN0hsc0VwQThaTVU",
+        "https://www.adnsur.com.ar/pulso-energetico/argentina-ya-exporta-4-de-cada-10-barriles-de-petroleo-que-produce-y-el-shale-de-vaca-muerta-desplazo-al-escalante_a6af731e6ad47eda6c2ad3960",
+        "https://zapalaya.com.ar/vaca-muerta/exportaciones-de-petroleo-en-argentina-alcanzan-los-100-millones-de-barriles-gracias-a-vaca-muerta"
       ],
       "mergedIds": [
-        "argentina-ya-exporta-4-de-cada-10-barriles-de-petroleo-que-produce-y-el-shal-2"
+        "argentina-ya-exporta-4-de-cada-10-barriles-de-petroleo-que-produce-y-el-shal-2",
+        "exportaciones-de-petroleo-en-argentina-alcanzan-los-100-millones-de-barriles-gra"
       ]
     },
     {
@@ -4211,6 +4478,41 @@
         "basedOn": "https://portalportuario.cl/exportaciones-paraguayas-superan-los-usd-17-000-millones-al-cierre-de-octubre",
         "words": 180
       }
+    },
+    {
+      "id": "milei-avanza-con-la-privatizacion-de-paso-de-los-libres-la-segunda-aduana-terres",
+      "datetime": "2026-11-13T01:05:30Z",
+      "date": "2026-11-12",
+      "firstSeen": "2026-11-14T10:33:30Z",
+      "title": "Milei avanza con la privatización de Paso de los Libres, la segunda aduana terrestre más importante del país",
+      "summary": "El proyecto contempla una concesin por 20 aos, con posibilidad de prorrogarla otros cinco, durante los cuales el futuro operador privado quedar a cargo de las inversiones, el mantenimiento y el funcionamiento del complejo.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Aduanas"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 2,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Política Argentina",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.politicargentina.com/notas/202611/77109-milei-avanza-con-la-privatizacion-de-paso-de-los-libres-la-segunda-aduana-terrestre-mas-importante-del-pais.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-14T10:33:30Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxObWJjTlNxRkpLWmhmR1lKaGJUUXNCVUpwMzkxZHU4VThQcWpUOUtJZW5lVktBZGRjN1ZVRFBVWnh5MlFHT0sxQUJaNGFpTmkzVnVBRDZVN29PYkdYZHFTRXIwbkIwblRVSlYzcUFLeHozNHNlak9qaW9HTURUZzdEVDg0Umk5alNpeHJ1bDBTMTJQYThvUm0xN1V0WDdrS3dYSExmd3gxbUg5dUkwQUwxanMxbXpIOEo3MlUyYmZKSk84V1VLcHdyd0lqUEhlSzFDNGRRS0Yxczk3ZmdVSy1kblVyLThEaHd3WGcySExSdzgySnZ5UWN3?oc=5"
     },
     {
       "id": "irlanda-hace-una-contribucion-de-eur-200-000-para-impulsar-las-oportunidades-com",
@@ -145811,7 +146113,7 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-11-14T03:15:27Z",
+    "ranAt": "2026-11-14T10:33:30Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
@@ -145827,8 +146129,8 @@
         "url": "https://www.aduananews.com/feed/",
         "ok": true,
         "items": 12,
-        "added": 1,
-        "updated": 0,
+        "added": 0,
+        "updated": 1,
         "skipped": 5
       },
       {
@@ -145836,7 +146138,7 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 6,
+        "added": 0,
         "updated": 0,
         "skipped": 6
       },
@@ -145844,25 +146146,25 @@
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 26,
+        "items": 24,
         "added": 1,
         "updated": 0,
-        "skipped": 17
+        "skipped": 15
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 33,
-        "added": 2,
+        "items": 29,
+        "added": 1,
         "updated": 0,
-        "skipped": 23
+        "skipped": 19
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 48,
+        "items": 52,
         "added": 4,
         "updated": 0,
         "skipped": 26
@@ -145871,28 +146173,28 @@
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 19,
+        "items": 22,
         "added": 0,
         "updated": 0,
-        "skipped": 3
+        "skipped": 7
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
         "url": "https://news.google.com/rss/search?q=(aranceles+OR+%22guerra+comercial%22+OR+%22acuerdo+comercial%22)+when:1d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 90,
+        "items": 74,
         "added": 4,
         "updated": 0,
-        "skipped": 77
+        "skipped": 61
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 76,
+        "items": 68,
         "added": 4,
         "updated": 0,
-        "skipped": 53
+        "skipped": 46
       }
     ],
     "curatedDuplicates": [
@@ -145922,8 +146224,8 @@
         "curated": "caputo-uia-saldos-exportacion-reintegros-iva-deudas-aduaneras-pymes-embargos-mayo-2027"
       },
       {
-        "title": "Las exportaciones de vino crecieron 28% y San Juan lideró el mosto",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVUpiamJTUUhQQjQ2V2M1U2l6d3p1ZS0xeFdBOWE3TVBoajNxMWR2cjl4TTF3UXVocHNzcWsyZmdpc2toSVNDVWtrSGNZRi1rN1hPbGllMV9MbFdTYmdxS21xUGJ5TWdZOExLUFJkQXJEaHVXa1dsLV9Gd01FRGJuTHkyZ2UxQXAxaXZwU25PVXhiRWFaN0MtU3FWYjZCanJHcFE?oc=5",
+        "title": "El Mercado exterior de vinos y mostos de Argentina: comportamiento exportador y balance provincial a octubre de 2026",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVUlaTHhjOFNoTXc1Unl2eUVmb0NnMFVVZC1TTTZsTVhfMTRUMmdtRmlLVU1iTHRYUU9vMUZiam12dzMzc3Y0NGVEVGhQZ0pXUDVlTkw2YzA3dGc5SXBVN3lqZkpCbzdBNFRxdkx1ek1jeHFYa0dORTd5R0VXVDRua3VNSVJnaUpEQ1p5NERUelhsVExsX2dlYVVwMHIyUVFfNy1OQ3NRTHM3SkEtZW9ZNWQ4M3VvNjVTRzBtcGNRdTJjTVUwTWhuUkE5U1F5OW5oR3E3LXJWbC02bjBuaVlkaGhXMUFyOFRJaHkxbjlaNEc?oc=5",
         "curated": "exportaciones-vino-octubre-2026-inv-68-1-millones-19-3-granel-87-8"
       },
       {
@@ -145932,19 +146234,14 @@
         "curated": "argentina-52-productos-agroindustriales-top-20-exportadores-mundiales-2025-sagyp-comtrade"
       },
       {
-        "title": "Alerta en el Mercosur: los autos chinos desplazan a la producción regional y cae el comercio entre Argentina y Brasil",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbElpQ2ZKcE41bm53aUNOQ2FYZjFqQ3JLaXh6NU1DR3lCWjdPbnAtb1d0RERVNXBkUmxfc3J5TTRHekZQa2NQUm5TbXR3NnVJNm5WQWZscnEwMFBoS2Y1UFFsMUNKYjQtQk9LT25UM09IcVpibTlybTVabmFLNGktcVAzNHlicGxxRFE4WFpqaW8tUlY4RFNDTG9uU1pUVDBpX0dwR01UaTc1TjBvM2tEdTVIUTEyZzg3SmEwTDVBWlUyNXpkZC1CODdvR2VCX0M0emw0VW9FTzVLb1pMLTBrN0gtM1lESHRoNDRKeEhUeEhlRUHSAY4CQVVfeXFMTUtaU3FVN2lpR3lYREl3R2ZfU1o0R2otbTE4QjdiY2p3cnA0MGxpd1NLdlJ3ZTFLQXA1MVRCUXduTFQyb3h4N0R0X0pZc05oeWZ5dUdmR002TjVpTnlvSmx1c0F2NHQ1Zk4wTjg3dEEzaWtTUjYtSW5oYmNIcGJEcmx3eHJxb0ctaXNRQlBTc0lRZnFCTG5lY0JQV2ZNeml0SzJCSjZ2SUFSYjVXZndLelFzM3dJSE9UQkxvcmYzdEotVHZQZmU2N204Y0Vqcy1FT3YwVkprN205ZFNrNFdnM0VwTlBva3hHb3lJZWFHVS14b3Y0a0JsaW1OTWZDbVE1NVNiT1MwX2ZCTE90MGhB?oc=5",
-        "curated": "brasil-importaciones-autos-9420-millones-china-66-5-argentina-11-3-deficit-automotor-5530"
-      },
-      {
         "title": "Por la caída de las importaciones, este año la Argentina reducirá a la mitad su déficit comercial con Brasil",
         "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdDZTQS1WQlMwWk1nbjFwNVhqVDZJV1pxaWpSdmNFakh5ZGIzZmZndVYxYVNFcEJrQzlDRnU5cnkzRERMeTh5Q1JUSmIxSlh1ZVBPTDlnYVJ3WGpSRmxyeEIxVXMzckNiUFBsNTRIdi1FY3dIUzJobjhWN3VGUG9Zckw2UmxYQnFZT05tX2ZsSFdSYk14cTh0d1RQM0Y2V1EtcU5XdVowd1YtSWJHMHA4MTBGSXBJdjFzUnVFaDN3Z2RkRGVoLWx2Y183QjNlRDBNRUh3NDVR0gHwAUFVX3lxTE1fY29pQTBLMVRPdzBnUjJQZnRualB6X0pDSXV5d0Izd0taT3N2NXRaUFJOd05xeW1OMTZYZnpJakJrVDVjTTJ4ZHJpTnBIU1FzcjFsRFIySm1FOGFCamhzaWNoQ1dJaE1NVDlLSFlaRzZwZUhnVGlnUXRnZk9LWXRPbEhVaVQtUHd6WEdQOHI3b1N3OFFCeXJBV2plLUZWeVkzNWp3R3lqb0gweS0tZmYtMWdueVdSNVJFaGEzWGRJc1pld24wYVkzS2xXMHhPekMzVHYyT1NKS2xmYkJhVGJUR0l3c1JEdGo3WkRiUzdhUg?oc=5",
         "curated": "argentina-brasil-octubre-2026-exportaciones-1260-deficit-270-acumulado-1956-abeceb-cac"
       },
       {
-        "title": "Alerta en el Mercosur: los autos chinos desplazan a la producción regional y cae el comercio entre Argentina y Brasil",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbElpQ2ZKcE41bm53aUNOQ2FYZjFqQ3JLaXh6NU1DR3lCWjdPbnAtb1d0RERVNXBkUmxfc3J5TTRHekZQa2NQUm5TbXR3NnVJNm5WQWZscnEwMFBoS2Y1UFFsMUNKYjQtQk9LT25UM09IcVpibTlybTVabmFLNGktcVAzNHlicGxxRFE4WFpqaW8tUlY4RFNDTG9uU1pUVDBpX0dwR01UaTc1TjBvM2tEdTVIUTEyZzg3SmEwTDVBWlUyNXpkZC1CODdvR2VCX0M0emw0VW9FTzVLb1pMLTBrN0gtM1lESHRoNDRKeEhUeEhlRUHSAY4CQVVfeXFMTUtaU3FVN2lpR3lYREl3R2ZfU1o0R2otbTE4QjdiY2p3cnA0MGxpd1NLdlJ3ZTFLQXA1MVRCUXduTFQyb3h4N0R0X0pZc05oeWZ5dUdmR002TjVpTnlvSmx1c0F2NHQ1Zk4wTjg3dEEzaWtTUjYtSW5oYmNIcGJEcmx3eHJxb0ctaXNRQlBTc0lRZnFCTG5lY0JQV2ZNeml0SzJCSjZ2SUFSYjVXZndLelFzM3dJSE9UQkxvcmYzdEotVHZQZmU2N204Y0Vqcy1FT3YwVkprN205ZFNrNFdnM0VwTlBva3hHb3lJZWFHVS14b3Y0a0JsaW1OTWZDbVE1NVNiT1MwX2ZCTE90MGhB?oc=5",
-        "curated": "brasil-importaciones-autos-9420-millones-china-66-5-argentina-11-3-deficit-automotor-5530"
+        "title": "Por Vaca Muerta, las exportaciones de petróleo superan los 100 millones de barriles en lo que va del año",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxObDRycUtpTnppZjhqSV9xbkhha0JJZGU0d0daa21mY1RNWnp3MnBmZ1dMMV9ySFdyT2xXQU9ESlYtc0FtUmUtTmZKVkdFSTE4V2tMbDUzVVNWdnVsR0VaMjV0VVBQR2dpNHZNdzVzRDVuUDJaelN5WmV4NnR0UnBxM0NWb1NJSzF2OTBsZnNnT05DZWJMTkZRcVZMMnNOZ3hBb0xzNU0yRFFCS1ZKQmVoekhJeGVqQ2VRMlNuWXVZYnBVQXVlZEZQaGh5V1VmZVM2QlB1dWg5REQwVk1vVFRNRzF30gHqAUFVX3lxTE9uQXRpQjRINTI4OW1HcTlheUEwdmNXaFg1eWRZOVI2cTJhRzl1RGl2bjZlUC10azRHd29oMC1fNHZLemc0Vktwb0dNWldualpoeW1iWXFPZVZYVEVfUjBIdUNnZ0dpRnVrRXl1MTgzYmZhcGZCMjRNY0lmMWlHYm5RcFFpTVJQTkFDZUNMVzhBcHg0eUpHSlVQMEVvemZIVWhKaGhYR1pfbUY2T00waVpVWjBDaXBiaExYWU84T1RMSUdYZkZLTVdnN0dIaC1WelEtTHVxWUtJZEJZeDFJQ24zLWc0WmI4S2dTUQ?oc=5",
+        "curated": "gasandes-open-season-contratos-firmes-35-anos-gas-argentino-chile-4-8-mmm3"
       },
       {
         "title": "Los autos chinos desplazan a la producción Mercosur y golpean la industria nacional como al comercio bilateral con…",
@@ -145953,44 +146250,66 @@
       },
       {
         "title": "Alerta en el Mercosur: los autos chinos desplazan a la producción regional y cae el comercio entre Argentina y Brasil",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbElpQ2ZKcE41bm53aUNOQ2FYZjFqQ3JLaXh6NU1DR3lCWjdPbnAtb1d0RERVNXBkUmxfc3J5TTRHekZQa2NQUm5TbXR3NnVJNm5WQWZscnEwMFBoS2Y1UFFsMUNKYjQtQk9LT25UM09IcVpibTlybTVabmFLNGktcVAzNHlicGxxRFE4WFpqaW8tUlY4RFNDTG9uU1pUVDBpX0dwR01UaTc1TjBvM2tEdTVIUTEyZzg3SmEwTDVBWlUyNXpkZC1CODdvR2VCX0M0emw0VW9FTzVLb1pMLTBrN0gtM1lESHRoNDRKeEhUeEhlRUHSAY4CQVVfeXFMTUtaU3FVN2lpR3lYREl3R2ZfU1o0R2otbTE4QjdiY2p3cnA0MGxpd1NLdlJ3ZTFLQXA1MVRCUXduTFQyb3h4N0R0X0pZc05oeWZ5dUdmR002TjVpTnlvSmx1c0F2NHQ1Zk4wTjg3dEEzaWtTUjYtSW5oYmNIcGJEcmx3eHJxb0ctaXNRQlBTc0lRZnFCTG5lY0JQV2ZNeml0SzJCSjZ2SUFSYjVXZndLelFzM3dJSE9UQkxvcmYzdEotVHZQZmU2N204Y0Vqcy1FT3YwVkprN205ZFNrNFdnM0VwTlBva3hHb3lJZWFHVS14b3Y0a0JsaW1OTWZDbVE1NVNiT1MwX2ZCTE90MGhB?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNWkRMT1JfZC01dnRHa0dJVnVUVnE1aGxmQW1Mb1A2d2hreG5iVHh0STRvMUk0bFNFbzR4MENlbTNTLURJNmFlbTdJR2h2UzM0bXZkZTN2czBMb2NyeGJpbmJSUVd6dEJHWXBuTlFydURySW4xXzFoWHR4Y2FPTFBDNGxYUnRfVXRhTldwdU15Tldnbl9mcnk2QUNBMnRQZXExX2lqZ3JWOUEzZzQ3ZW1OdUhsbExud3ptbHZKNGdIUUZyVUZmeVVFV2RzMzF5bW5UWk91WGsyWWFVZDZVN19vZg?oc=5",
         "curated": "brasil-importaciones-autos-9420-millones-china-66-5-argentina-11-3-deficit-automotor-5530"
       },
       {
         "title": "Tarifas de transporte marítimo de contenedores caen 2% ante debilitamiento de la demanda",
-        "url": "https://portalportuario.cl/tarifas-de-transporte-maritimo-de-contenedores-caen-2-ante-debilitamiento-de-la-demanda/",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSlQ4U0RMYi1zOE53NUUyX2hlVnRGUV9NSXBqSmMzS0doNjBtMWxXcU9TdHJqVnBQMHBzMVBmOHV0YXBQUF9VRXBpdjBOcThDN3k4eFA2SDIyQlhIeDE4UnAzRVFod1hjQWt2TS10a3VxTVRiaWRUQjlZTGloWENBeldkU1FoMUdHYkh2T1d6WGstazd2azBTd0dPR19uY2RaYVlPYmp0ZF9CVEZQRDlVZXlPcTNUUQ?oc=5",
         "curated": "drewry-wci-baja-2-12-noviembre-4305"
       },
       {
-        "title": "El Mercado exterior de vinos y mostos de Argentina: comportamiento exportador y balance provincial a octubre de 2026",
-        "url": "https://www.diarioelzondasj.com.ar/economia/el-mercado-exterior-de-vinos-y-mostos-de-argentina-comportamiento-exportador-y-balance-provincial-a-octubre-de-2026",
+        "title": "Washington exige a México frenar caravana migrante bajo amenaza de aranceles",
+        "url": "https://hsbnoticias.com/noticias/washington-exige-a-mexico-frenar-caravana-migrante-bajo-amenaza-de-aranceles",
+        "curated": "trump-amenaza-duplicar-aranceles-mexico-caravanas-migrantes-sheinbaum-tmec"
+      },
+      {
+        "title": "Las exportaciones de vino argentino crecieron un 28% en octubre y San Juan se afianza como segundo polo exportador",
+        "url": "https://www.diariodecuyo.com.ar/economia/las-exportaciones-vino-argentino-crecieron-un-28-octubre-y-san-juan-se-afianza-como-segundo-polo-exportador-n6588539",
         "curated": "exportaciones-vino-octubre-2026-inv-68-1-millones-19-3-granel-87-8"
+      },
+      {
+        "title": "Por octavo mes consecutivo crecieron las exportaciones argentinas a Brasil",
+        "url": "https://flipr.com.ar/nacionales/gremios/serindustria/por-octavo-mes-consecutivo-crecieron-las-exportaciones-argentinas-a-brasil/",
+        "curated": "argentina-brasil-octubre-2026-exportaciones-1260-deficit-270-acumulado-1956-abeceb-cac"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "perspectivas-favorables-en-el-complejo-sojero-podemos-tener-el-mejor-ano-de-expo",
+        "main": "argentina-ya-exporta-4-de-cada-10-barriles-de-petroleo-que-produce-y-el-shale-de",
         "merged": [
-          "petroleo-supera-a-la-harina-de-soja-en-las-exportaciones-argentinas"
+          "exportaciones-de-petroleo-en-argentina-alcanzan-los-100-millones-de-barriles-gra"
         ]
       },
       {
-        "main": "argentina-ya-exporta-4-de-cada-10-barriles-de-petroleo-que-produce-y-el-shale-de",
+        "main": "petroleo-desplaza-a-la-harina-de-soja-como-principal-producto-de-exportacion-de",
         "merged": [
-          "argentina-ya-exporta-4-de-cada-10-barriles-de-petroleo-que-produce-y-el-shal-2"
+          "el-petroleo-destrono-a-la-harina-de-soja-en-las-exportaciones-argentinas"
+        ]
+      },
+      {
+        "main": "el-campo-rechazo-el-aumento-del-16-en-los-fletes-de-granos-fijado-por-el-gobiern",
+        "merged": [
+          "reclamo-del-campo-a-la-provincia-por-la-suba-del-16-en-los-fletes-de-granos"
+        ]
+      },
+      {
+        "main": "empresa-argentina-ipesasilo-duplica-exportaciones-de-silobolsas-y-proyecta-creci",
+        "merged": [
+          "de-un-sachet-a-mas-de-60-paises-la-empresa-argentina-que-duplico-las-exportacion"
         ]
       }
     ],
     "googleNews": {
-      "pending": 15,
-      "resolved": 15,
-      "withSummary": 9,
+      "pending": 14,
+      "resolved": 14,
+      "withSummary": 10,
       "withPhoto": 0,
       "failed": 0,
-      "duplicates": 1
+      "duplicates": 0
     },
-    "noRead": 0
+    "noRead": 1
   },
   "stories": [
     {
