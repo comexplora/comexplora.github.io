@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-11-15T02:39:19Z",
+  "updatedAt": "2026-11-15T10:52:18Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -267,7 +267,8 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-15T02:40:50Z"
+      "lastAttempt": "2026-11-15T10:53:00Z",
+      "lastError": "HTTP Error 500: Internal Server Error"
     },
     {
       "id": "soja",
@@ -284,7 +285,7 @@
         "date": "2026-11-12",
         "ars": 540000.0
       },
-      "checkedAt": "2026-11-15T02:40:51Z",
+      "checkedAt": "2026-11-15T10:53:16Z",
       "_prev": {
         "date": "2026-11-11",
         "ars": 545000.0
@@ -397,7 +398,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-15T02:40:51Z"
+      "lastAttempt": "2026-11-15T10:53:16Z"
     },
     {
       "id": "brent",
@@ -410,7 +411,7 @@
       "obsDate": "2026-11-11",
       "change": "+2,2% vs. día anterior",
       "trend": "up",
-      "checkedAt": "2026-11-15T02:40:54Z",
+      "checkedAt": "2026-11-15T10:53:19Z",
       "history": [
         [
           "2026-10-01",
@@ -535,7 +536,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-11-15T02:40:54Z"
+      "lastAttempt": "2026-11-15T10:53:19Z"
     },
     {
       "id": "maiz",
@@ -552,7 +553,7 @@
         "date": "2026-11-12",
         "ars": 275800.0
       },
-      "checkedAt": "2026-11-15T02:40:54Z",
+      "checkedAt": "2026-11-15T10:53:19Z",
       "_prev": {
         "date": "2026-11-11",
         "ars": 275000.0
@@ -665,7 +666,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-15T02:40:54Z"
+      "lastAttempt": "2026-11-15T10:53:19Z"
     },
     {
       "id": "trigo",
@@ -682,7 +683,7 @@
         "date": "2026-11-12",
         "ars": 288900.0
       },
-      "checkedAt": "2026-11-15T02:40:54Z",
+      "checkedAt": "2026-11-15T10:53:19Z",
       "_prev": {
         "date": "2026-11-11",
         "ars": 299500.0
@@ -795,10 +796,120 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-15T02:40:54Z"
+      "lastAttempt": "2026-11-15T10:53:19Z"
     }
   ],
   "items": [
+    {
+      "id": "gobierno-prepara-desregulacion-para-exportadores-y-busca-sumar-pymes-al-rigi",
+      "datetime": "2026-11-15T10:41:15Z",
+      "date": "2026-11-15",
+      "firstSeen": "2026-11-15T10:52:18Z",
+      "title": "Gobierno prepara desregulación para exportadores y busca sumar PyMEs al RIGI",
+      "summary": "Antes de fin de año lanzarán una plataforma digital que simplifica la importación temporaria de insumos para exportar, con certificaciones más rápidas…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "prensalibreonline.com.ar",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://prensalibreonline.com.ar/economia/gobierno-prepara-desregulacion-para-exportadores-y-busca-sumar-pymes",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-15T10:52:18Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPT3RHdmgwWFZrR3d2VDVyUnBXV0pGV09tNDBncTFqUEx1aTd6cFFSdVhyQ3pPQUk5UjVJLXYwcFVLWE1qNTVUSmdDdDZ4TGtHVm5IZ2F6a3M3akU5QjR2ZGxuTm5GUVhQeFdSbWRfemRVVGtpUHYySTl6TU5BN2JEajRBVFVGenNYR2VWREx3X1NKWTlTV0s0ajVVVkpmZ2lXamx3U2E5WS1SUnBMaGo0?oc=5"
+    },
+    {
+      "id": "la-declaracion-aduanera-la-modificacion-del-codigo-aduanero-de-la-union-europea",
+      "datetime": "2026-11-15T08:00:00Z",
+      "date": "2026-11-15",
+      "firstSeen": "2026-11-15T10:52:18Z",
+      "title": "La declaración aduanera, la modificación del “Código Aduanero de la Unión Europea” – las tendencias del criterio europeo y los criterios que prevalecen en América del Sur",
+      "summary": "Introducción El objetivo de este estudio es analizar la reciente reforma aduanera europea y algunas de sus repercusiones jurídicas respecto de las garantías de los administrados y demás usuarios de dichos servicios aduaneros, en el ámbito de la codificación del sistema de la Unión Aduanera Europea, cuyas autoridades…",
+      "body": [
+        "Introducción El objetivo de este estudio es analizar la reciente reforma aduanera europea y algunas de sus repercusiones jurídicas respecto de las garantías de los administrados y demás usuarios de dichos servicios aduaneros, en el ámbito de la codificación del sistema de la Unión Aduanera Europea, cuyas autoridades aduaneras parecen tener como misión proteger los…"
+      ],
+      "keyData": [],
+      "topics": [
+        "Aduanas",
+        "Europa"
+      ],
+      "countries": [
+        "Unión Europea"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Aduana News",
+      "sources": [
+        {
+          "name": "Aduana News",
+          "type": "Medio especializado · Argentina",
+          "url": "https://aduananews.com/la-declaracion-aduanera-la-modificacion-del-codigo-aduanero-de-la-union-europea-las-tendencias-del-criterio-europeo-y-los-criterios-que-prevalecen-en-america-del-sur/?utm_source=rss&utm_medium=rss&utm_campaign=la-declaracion-aduanera-la-modificacion-del-codigo-aduanero-de-la-union-europea-las-tendencias-del-criterio-europeo-y-los-criterios-que-prevalecen-en-america-del-sur",
+          "primary": true,
+          "author": "Dra. Raquel Segalla Reis"
+        }
+      ]
+    },
+    {
+      "id": "bruselas-y-londres-estudian-retrasar-los-aranceles-a-coches-electricos-por-la-pr",
+      "datetime": "2026-11-15T07:22:18Z",
+      "date": "2026-11-15",
+      "firstSeen": "2026-11-15T10:52:18Z",
+      "title": "Bruselas y Londres estudian retrasar los aranceles a coches eléctricos por la presión china",
+      "summary": "ACEA cifra en el 82% los eléctricos afectados por el arancel del 10% y pide retrasarlo a 2030. La cumbre del 20 de noviembre abre la negociación.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "China",
+        "Asia",
+        "Europa"
+      ],
+      "countries": [
+        "China",
+        "Unión Europea"
+      ],
+      "tags": [
+        "Aranceles",
+        "China"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Motor16",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.motor16.com/industria/aranceles-coches-electricos-ue-reino-unido/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-15T10:52:18Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNOElEZEJkUkJPRlZVUEhUSEpFY1dnNEs0QkJra0ljak9JNWRUa3BUMUlMcUxnTkdQYVB2MnhlVUF4cWtkdDF6ckg3eXVjaWZfVF9OTkJ5Uk51MUFrWWEyNUduWVFieTFNbU5nN0lRekZlX21aUzRINDVfQzF4bEtNWktEQQ?oc=5"
+    },
     {
       "id": "una-de-las-navieras-mas-grandes-del-mundo-amplio-su-infraestructura-en-uruguay-m",
       "datetime": "2026-11-15T01:32:29Z",
@@ -924,48 +1035,6 @@
       ],
       "gnTried": "2026-11-15T02:39:19Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPODBOMmZYR3FmY0ZCVVhjQmF4UWdWa3R5M1FIRkpLRHYyQ0RiVW80Mkc3SEI3UVlPSlpUcTdReWFwb0pZQnhiS1JGT0ZKY1hsT0YtWkk2ZW9IOVhHX2tTUjhOaG02RTQ2UHdncnpxVlJUcHR3eDBnakdXYVBoNVZXbVhJejBNRW1kRklXV2hpNDR2eXlVQmhucUZZVTlPa2ZkdUladWZVbVE2aVRUeUNoWUE1WjdPTEtMSWcxMGRhSnFvOXpi?oc=5",
-      "digestSkip": {
-        "at": "2026-11-15T00:55:00-03:00",
-        "reason": "repite el mismo hecho que la nota de Infobae (declaraciones de Carney del 14/11 sobre el acuerdo con EE.UU.)"
-      }
-    },
-    {
-      "id": "mark-carney-afirma-que-canada-avanza-hacia-un-acuerdo-comercial-con-eu",
-      "datetime": "2026-11-15T00:12:09Z",
-      "date": "2026-11-14",
-      "firstSeen": "2026-11-15T02:39:19Z",
-      "title": "Mark Carney afirma que Canadá avanza hacia un acuerdo comercial con EU",
-      "summary": "Canadá busca ampliar sus mercados internacionales mientras intenta resolver las diferencias comerciales que mantiene con Estados Unidos. El primer ministro",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Tratados y acuerdos",
-        "Europa"
-      ],
-      "countries": [
-        "Canadá",
-        "Unión Europea"
-      ],
-      "tags": [
-        "Carne"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
-      "sources": [
-        {
-          "name": "eltiempomx.com",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://eltiempomx.com/noticia/2026/mark-carney-afirma-que-canada-avanza-hacia-un-acuerdo-comercial-con-eu.html",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-15T02:39:19Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQelYybUFDSDI4Sy1CYlVQZ1NyUm9zYmVMQ3pDckFEd2tFaVRZZW5XaEhKLUYzSEpKNnhfZFExd05aZVBvcU9nalI5TWRXeHZMWG1JenpVTWVKNWtKX0hmX1ZGcGEzUWY4dGZTUkE0TXFxWVlYMnNhTkloNGJWcXdGcDhnbFZwUVRQeTJIcnVNWWVtYmZXUWFrZ0lGQXZHV0JzVXRPTzJzbjZVeHpDNWItdNIBpAFBVV95cUxQWkNPQUNsSmxDb1M0T3VPWktKLWJFRTNWSVFTZ2JFc1ZFeXRMTUpHak0wRzdIOThKbXAwSlVtbFFrUzBuLXRLVW91WWNMcVNiM3RTTU9vNXNZMzdKT3JIMmVpVXpnak5Sd1poQnd0YnNLMUg4SUN0eERIdG13SmRZdDRtWlJRTTNkY1NkRmp2OGIxeWc0Q1J1OTJhR25wNWFvWVJmSw?oc=5",
       "digestSkip": {
         "at": "2026-11-15T00:55:00-03:00",
         "reason": "repite el mismo hecho que la nota de Infobae (declaraciones de Carney del 14/11 sobre el acuerdo con EE.UU.)"
@@ -1399,6 +1468,48 @@
       }
     },
     {
+      "id": "estados-unidos-y-china-abordaron-la-aplicacion-de-una-reduccion-reciproca-de-ara",
+      "datetime": "2026-11-14T16:30:21Z",
+      "date": "2026-11-14",
+      "firstSeen": "2026-11-15T10:52:18Z",
+      "title": "Estados Unidos y China abordaron la aplicación de una reducción recíproca de aranceles",
+      "summary": "El Consejo de Comercio bilateral se reunió por videoconferencia antes de la cumbre de APEC, donde Trump y Xi Jinping tendrán un encuentro. Beijing indicó que mantuvieron intercambios \"francos\" y \"constructivos\"",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Estados Unidos",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "Estados Unidos",
+        "China"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos",
+        "China"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Reconquista Radios",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://reconquistaradios.com.ar/a-nota/232336/estados-unidos-y-china-abordaron-la-aplicacion-de-una-reduccion-reciproca-de-aranceles",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-15T10:52:18Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcGMyVmluTkVfY2hoMlMwOTIxem9WUmxLaWNSZ25DWVpFUGhxMWU5STlCbmFtQVhfMnhjYl9tSFlHZGZ1YzBDXzlUa25DNnBPekFWNzdoMEVFek0zaGc0NGRRUUNZVVJWT3hQLXA3MDlSX3JhcGRGeVpOMjhGWnJ0OXYxd04wcF9jeW9SMldWdGxqczhTUU0wSUNCMnk1YjN6RVd4TzZ6TGVyMmZQWXFycWxzUU91cm1EZ29BVjBpM0h4MG1FdjNkSFRnZEc1QQ?oc=5"
+    },
+    {
       "id": "naviera-wallenius-sol-cambia-su-nombre-a-wallenius-link",
       "datetime": "2026-11-14T16:00:36Z",
       "date": "2026-11-14",
@@ -1690,6 +1801,56 @@
         "retry": true,
         "tries": 3
       }
+    },
+    {
+      "id": "canada-y-ee-uu-avanzan-hacia-un-acuerdo-comercial-dice-carney",
+      "datetime": "2026-11-14T14:02:32Z",
+      "date": "2026-11-14",
+      "firstSeen": "2026-11-15T10:52:18Z",
+      "title": "Canadá y EE. UU. avanzan hacia un acuerdo comercial, dice Carney",
+      "summary": "Canadá y Estados Unidos aún no han alcanzado un acuerdo comercial, pero Mark Carney afirma que los 2 países avanzan hacia uno.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos"
+      ],
+      "countries": [
+        "Canadá"
+      ],
+      "tags": [
+        "Carne"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "mezha.net",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://mezha.net/es/news/mezha-1359ede2fb18d25e368327f3_canada-y-ee-uu-avanzan-hacia/",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "eltiempomx.com",
+          "type": "También publicó esta noticia",
+          "url": "https://eltiempomx.com/noticia/2026/mark-carney-afirma-que-canada-avanza-hacia-un-acuerdo-comercial-con-eu.html",
+          "alsoIn": true,
+          "title": "Mark Carney afirma que Canadá avanza hacia un acuerdo comercial con EU"
+        }
+      ],
+      "gnTried": "2026-11-15T10:52:18Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUEVjRlF0YmVZZ0dULUVCVGxMd1NKcUpSM0x2ZHVrOWVTWWtENHVfR045eEp5OVJhOUtubm9sdUVJZzA4WTFNZWFyRWg5OVlvaXNnOWZWVVlLd3UtUFN3VEVwSnB2Ul95VlJRTmRscXltbDFYQXIzMnFiLXZmazczZmNOT1lqX1plUk9NdTVhWQ?oc=5",
+      "aliasUrls": [
+        "https://eltiempomx.com/noticia/2026/mark-carney-afirma-que-canada-avanza-hacia-un-acuerdo-comercial-con-eu.html",
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxQelYybUFDSDI4Sy1CYlVQZ1NyUm9zYmVMQ3pDckFEd2tFaVRZZW5XaEhKLUYzSEpKNnhfZFExd05aZVBvcU9nalI5TWRXeHZMWG1JenpVTWVKNWtKX0hmX1ZGcGEzUWY4dGZTUkE0TXFxWVlYMnNhTkloNGJWcXdGcDhnbFZwUVRQeTJIcnVNWWVtYmZXUWFrZ0lGQXZHV0JzVXRPTzJzbjZVeHpDNWItdNIBpAFBVV95cUxQWkNPQUNsSmxDb1M0T3VPWktKLWJFRTNWSVFTZ2JFc1ZFeXRMTUpHak0wRzdIOThKbXAwSlVtbFFrUzBuLXRLVW91WWNMcVNiM3RTTU9vNXNZMzdKT3JIMmVpVXpnak5Sd1poQnd0YnNLMUg4SUN0eERIdG13SmRZdDRtWlJRTTNkY1NkRmp2OGIxeWc0Q1J1OTJhR25wNWFvWVJmSw"
+      ],
+      "mergedIds": [
+        "mark-carney-afirma-que-canada-avanza-hacia-un-acuerdo-comercial-con-eu"
+      ]
     },
     {
       "id": "andres-rohde-ponce-presento-introduccion-al-derecho-aduanero-edicion-2026",
@@ -2025,6 +2186,45 @@
       }
     },
     {
+      "id": "negociadores-de-china-y-ee-uu-preparan-el-terreno-para-una-rebaja-mutua-de-aranc",
+      "datetime": "2026-11-14T12:56:04Z",
+      "date": "2026-11-14",
+      "firstSeen": "2026-11-15T10:52:18Z",
+      "title": "Negociadores de China y EE UU preparan el terreno para una rebaja mutua de aranceles",
+      "summary": "La reunión tuvo lugar este viernes por videoconferencia y permitió a ambas delegaciones mantener intercambios \"francos, profundos y constructivos\" sobre aranceles, comercio agrícola y otros asuntos de interés común, informó este sábado el Ministerio de Comercio chino",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "China"
+      ],
+      "tags": [
+        "Aranceles",
+        "China"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "La Razón",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.larazon.es/internacional/negociadores-china-preparan-terreno-rebaja-mutua-aranceles_202611146af85a6403bbf30bb04c32d6.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-15T10:52:18Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMFMzRTZFV3p2ZWdoS3lsWHV4ajFuMzRmNVJzTmJpRDVUSEFPeDU5TmdjTUR1dTNWcWlFWE4tNDR4RVhLZlRkTzRYdnE1RHhjR0pkel9TYlJrZXVNNTJEaUh1UmhlOTlvazhkamg0NnhHa01lR2xLdnk2MFA3allvTThNOWJXS2c0VktuM1Ata21tNWJycjlWMkZlbFktZ3ZIc0VrNUFlc0VuN3hhNEc2TWpQZ3FtSHZBV2NUQ09Ob2pZelZ5OUg5QWUxU1E3QdIB4gFBVV95cUxQZ1lETHRUQmZGLV9oUmkwXzVBbnZIQjhZY1BTZEJyZHhVMm42N2d2cnhCLV9Ib2RZUDFiZ0E2VVZCWmJWc3o2Vjl6LVZVZVI3R3BSZTJBSjhyeHp0dnU0STRXY1M1RjA4U05KVktveEdLaER5Zm1qU2JlamFocjBPMWgtWldHVkp0cjZzcy01S2JIbmwwbTc5ZWQ0aV9wc2Q0dDIxbTdWZTRCaENNSEZhX0VqX3JnNkxQRXd6WTNIMGNUaDJsNGxObWxPbjY0TENGRlZLdHAzdFJRMlA1UzM5UTNn?oc=5"
+    },
+    {
       "id": "peru-y-tailandia-firmaran-historico-acuerdo-comercial-en-china-estos-sectores-se",
       "datetime": "2026-11-14T12:49:37Z",
       "date": "2026-11-14",
@@ -2284,7 +2484,11 @@
       "countries": [
         "Argentina"
       ],
-      "tags": [],
+      "tags": [
+        "Carne",
+        "Autos",
+        "Agro"
+      ],
       "visual": "customs",
       "impact": 1,
       "affectsArgentina": true,
@@ -4467,6 +4671,41 @@
           "url": "https://www.infobae.com/economia/2026/11/14/el-petroleo-supero-a-la-harina-de-soja-y-paso-a-ser-el-principal-producto-de-exportacion-de-la-argentina/",
           "alsoIn": true,
           "title": "El petróleo superó a la harina de soja y pasó a ser el principal producto de exportación de la Argentina"
+        },
+        {
+          "name": "Ambito",
+          "type": "También publicó esta noticia",
+          "url": "https://www.ambito.com/economia/exportaciones-lo-que-va-del-2026-el-petroleo-destrono-la-soja-como-principal-producto-n6345334",
+          "alsoIn": true,
+          "title": "Exportaciones: en lo que va del 2026, el petróleo destronó a la soja como principal producto"
+        },
+        {
+          "name": "El Intransigente",
+          "type": "También publicó esta noticia",
+          "url": "https://elintransigente.com/2026/11/14/petroleo-desplazo-harina-soja-lidero-exportaciones-argentina-2026/",
+          "alsoIn": true,
+          "title": "El petróleo desplazó a la harina de soja y lideró las exportaciones de Argentina en 2026"
+        },
+        {
+          "name": "El Comodorense",
+          "type": "También publicó esta noticia",
+          "url": "https://www.elcomodorense.net/el-petroleo-desplazo-a-la-soja-y-se-convirtio-en-el-principal-producto-de-exportacion-de-argentina/",
+          "alsoIn": true,
+          "title": "El petróleo desplazó a la soja y se convirtió en el principal producto de exportación de Argentina"
+        },
+        {
+          "name": "» Cholila Online",
+          "type": "También publicó esta noticia",
+          "url": "https://cholilaonline.ar/2026/11/vaca-muerta-petroleo-supero-soja-principal-exportacion-argentina.html",
+          "alsoIn": true,
+          "title": "El petróleo desplazó a la soja como principal exportación argentina"
+        },
+        {
+          "name": "EntreMedios",
+          "type": "También publicó esta noticia",
+          "url": "https://entremediosweb.com/el-petroleo-desplazo-a-la-soja-como-principal-producto-de-exportacion-de-la-argentina/",
+          "alsoIn": true,
+          "title": "El petróleo desplazó a la soja como principal producto de exportación de la Argentina"
         }
       ],
       "gnTried": "2026-11-13T17:12:57Z",
@@ -4486,12 +4725,22 @@
       },
       "aliasUrls": [
         "https://bichosdecampo.com/el-final-de-una-era-la-harina-de-soja-ya-no-es-el-principal-producto-que-exporta-argentina-tras-ser-superada-por-el-petroleo",
+        "https://cholilaonline.ar/2026/11/vaca-muerta-petroleo-supero-soja-principal-exportacion-argentina.html",
         "https://economis.com.ar/petroleo-lidera-las-exportaciones-argentinas",
+        "https://elintransigente.com/2026/11/14/petroleo-desplazo-harina-soja-lidero-exportaciones-argentina-2026",
+        "https://entremediosweb.com/el-petroleo-desplazo-a-la-soja-como-principal-producto-de-exportacion-de-la-argentina",
         "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNLXRmdmpuZHYxMmlfd0N6MXBGQnVrODZYVTRZNGVMTGt1bFI2dmtORDhqTWd0MnRjXzVDcnN2ZEpaSWZPLU16ZTJaeHVVSDhJQlVpTFBjTzV3RFZFcERJSnBORnhiVGtnOFZhVTA5MzBoU0hldHd4cm84azc4T1IwR0lpTndUblR6WkRFU3VsUTAwY0JFc1NFYmsxdndxUmRZcjlCbmR4WkxEVzFyR3ZGdGhrMW1NY1N6TTdRZ29NNFFvdm5ncUJlVFR3VG1zODdZLTdUTW9jRzAwZnZMYVZkV3lSVQ",
         "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWlA2TGRaOTBrNGEwNDkzcko4ekVmOTVLbmhWdnQ2YXZOdmNRTlEwWlVvWC1uaG96S2JxejZJMG5yUzU4bHA2cjdTT3FQOHJfN2RjREpIMHlhM09WMkhpakJvTy03QzQyRE1WLXFHRkFSSlkzM1lyOThQeGtzRDU3MmtSaFdqb285S2tWS244QTVYcWFiUGhsN2FqODZaeDZLUHNvZ0dmRkZtTmlVLVNTMlUyazEwU3JLRnJybmxfV2dsYkRJNjZZSTN6Zjc4bkRVcC1vclQ5S2NJRnlQSUw3ekw0bXBRdw",
         "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOVEE3amVRU3dUS1BPV1RoVWxlY0hBdVI4RzhYV25KOXowU0NObzdzOXZrdDFuUkhmREhmcFJZQVM4Yk82bUpuUDRabVprejN5OEpSS01JZWdTMXV4SjFVNU0ydlRKdWROeHlqaDhMaktCMlpOTks0WVA1T0F1Tmh3NDhJb2NKdDFOLXM5R3JZdWgyaVBlMEZLR296OUhTWTlLdGtBQXBiR3NoUEJyQ2NlWjVsai1XUU9TQU1sQzVjOEJFbXppWTN4VENUWDFTUF9hbWFpQ0N2MXBYSWRBUzhodzh6Z3RURWh4Nzh6Ql9SeG16UFpV0gH0AUFVX3lxTE5UQTdqZVFTd1RLUE9XVGhVbGVjSEF1UjhHOFhXbko5ejBTQ05vN3M5dmt0MW5SSGZESGZwUllBUzhiTzZtSm5QNFptWmt6M3k4SlJLTUllZ1MxdXhKMVU1TTJ2VEp1ZE54eWpoOExqS0IyWk5OSzRZUDVPQXVOaHc0OElvY0p0MU4tczlHcll1aDJpUGUwRktHb3o5SFNZOUt0a0FBcGJHc2hQQnJDY2VaNWxqLVdRT1NBTWxDNWM4QkVtemlZM3hUQ1RYMVNQX2FtYWlDQ3YxcFhJZEFTOGh3OHpndFRFaHg3OHpCX1J4bXpQWlU",
         "https://news.google.com/rss/articles/CBMieEFVX3lxTE1QMFo1eFhESGsyUDIyaG9mYjg1eUxkcmtKVFZEZkUwNjVxLXZXcEt3bXM4ZVN6T2paOWtyU0YzRk95eUdrWHU4bWJNNHdyR3QweE13dzI2TW5SbF9KY3ZoZVBJUHVrUTRlc1FRN0tod2RrdFJEcFMxNA",
+        "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdFFkb0lFSF9VbUtpdkhDUmJOZEVOMFRoa2I4T3BnWjFIZWVPSFFyd3dyTkdac1d1TDYyQkRWRWdLUlVvVGcxTTdnZ1FLWDVqMWNNaGZaM254Y0VvQmdPWXVTcWd4ZlVHN0RSOVVraGZRTWYtdzczSGU1emctVXJOT2kwTmt1WDJRbHJlTlRkYmJNYkVucHNMUDFXYTNHWXRKeVk1Tg",
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQc0lBVTU2d1kxZnk3ZFV5SngyYk44VlhCSl9GZC0ta3VnREJ5OHNPTUVWSElVRzRjUDg1UF80NHF5QzlTcGZNYTRrTDR4cTdXQ1lmamNycGFCbnBSR0U5YXViNEhITm1WLW1ucTZobW5CNk1XWFpqMkNmRXd0LWJXU2VZM0JXclFWQjU2VXk3c3FhbWlTa04wWnV5ZDdZYU1xYTR6dC1aVHM",
+        "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYnc4ZFdHNmZlZmFBbjBRclFuajNLRTFFRldraFpYdXVGWlZvaEQwQzQ1Sjk1TF9fZ3lBVHVrSGFZd0RJaEQyelhBZnVhdVNGSGtsMkZrSl9lS1NVWjlBZnhyQmJ5V081ZW53S2FnZm1qNjR5UHZGUzI0UzdoRXRHem9lOVdoN29lQjRxTlR5ejJROU5BbGc0bDBaekc0dWJPOHBKLUdaU1RkVENyVXZ2Y2hxYw",
         "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOU9VSWpJOWwzbjlWQ3JVbVdlNWVwZDdNNGxpcmN4VW5XOFVYSFVUc3hLRkJnT1lRMk1kR3dScFRzMmEtUUlGdWNLd200VGtJZ0o2bTFXQk9Bc2F4RExRdzY0aEYybmlaWXppYUhUNjBYb0hLTzNJUGFCZkNXc0Nob1dSYzFCRUJCVkxHWThmcWY4WlNwYnlNNEJ6MWU2cDV0WTlqcU5jTXVCTlVIdksxcDkwNFc4LVViVGxr0gG3AUFVX3lxTFB2T3lPaDd6WmtxaVQ2dlBpMjBYSVY1a2JKalVGeDJnaG91Y1RVeEEyZkxHXzFlSElmdURVbF93QW1fUThQUWFWTjh2T2haRk9ONEItRzBlbmFpZ2ZvSmkzUjlvNzRGQVIzOHRaa2hDbGIwc18zaDNuSXlncWRRZmNHWV80ZXJRejE2aFFuTjIwS1psVHB3OXpJdk1Xb01scm5sc3RtOTJzM25IWTlNQkp0SHNvVkVHUQ",
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZmtsYjd1NEl5ZTdPaFVNTF9yelpUNDlJb195b1FQa3pIeXJQRnBUdmwyZ2FSb3hsM29Yb3VEQ1JWaHQ4b0VCOU1DSld0eFRneDFTcm50NkZpakpLRnA5Y2RqODNNdFR4TlA0eEg3RXBjMXNUMFFGa1hUZzNGTGZnV1RGVXEwUnJoZWY3M2Y1djRJQVVxelZaT3d4UVMyNWhqdjBSNTJXWGFhMElid2lGZmEzLVlnaXdPVDRxUEhrTzBHRjlIZVhHeQ",
+        "https://news.google.com/rss/articles/CBMiygFBVV95cUxPU2hMTmpmOEJlN1o5Skt4d2Z0Vl9LeURxNnE3MnBfRlFtZDRyWkxEeUdGc25LclVJTFAyXzZ3QmI0d1ROcmVpRkdJYVJDNDJQdm0xSkF3VHpfcENSNUxsaEcxQ2RKOHRQVWhGaHkzaDFzUmExdGJ5NG5qeG1faXNGbGw0b1JtQ2lyT1NZWXJ6YzBlb05qVTFLU3lYNGdIM3A1VkhEWlZoWWRoRkY1TGc3UDFJSS1ya0lRcTdNemRWeUdTbTJrSjBoeHVR0gHKAUFVX3lxTE9TaExOamY4QmU3WjlKS3h3ZnRWX0t5RHE2cTcycF9GUW1kNHJaTER5R0ZzbktyVUlMUDJfNndCYjR3VE5yZWlGR0lhUkM0MlB2bTFKQXdUel9wQ1I1TGxoRzFDZEo4dFBVaEZoeTNoMXNSYTF0Ynk0bmp4bV9pc0ZsbDRvUm1DaXJPU1lZcnpjMGVvTmpVMUtTeVg0Z0gzcDVWSERaVmhZZGhGRjVMZzdQMUlJLXJrSVFxN016ZFZ5R1NtMmtKMGh4dVE",
+        "https://www.ambito.com/economia/exportaciones-lo-que-va-del-2026-el-petroleo-destrono-la-soja-como-principal-producto-n6345334",
+        "https://www.elcomodorense.net/el-petroleo-desplazo-a-la-soja-y-se-convirtio-en-el-principal-producto-de-exportacion-de-argentina",
         "https://www.infobae.com/economia/2026/11/14/el-petroleo-supero-a-la-harina-de-soja-y-paso-a-ser-el-principal-producto-de-exportacion-de-la-argentina",
         "https://www.revistachacra.com.ar/portada/el-petroleo-destrono-a-la-harina-de-soja-en-las-exportaciones-argentinas-6905"
       ],
@@ -4499,7 +4748,12 @@
         "el-final-de-una-era-la-harina-de-soja-ya-no-es-el-principal-producto-que-exporta",
         "el-petroleo-destrono-a-la-harina-de-soja-en-las-exportaciones-argentinas",
         "el-petroleo-desplazo-a-la-harina-de-soja-y-lidera-las-exportaciones-argentinas",
-        "el-petroleo-supero-a-la-harina-de-soja-y-paso-a-ser-el-principal-producto-de-exp"
+        "el-petroleo-supero-a-la-harina-de-soja-y-paso-a-ser-el-principal-producto-de-exp",
+        "exportaciones-en-lo-que-va-del-2026-el-petroleo-destrono-a-la-soja-como-principa",
+        "el-petroleo-desplazo-a-la-harina-de-soja-y-lidero-las-exportaciones-de-argentina",
+        "el-petroleo-desplazo-a-la-soja-y-se-convirtio-en-el-principal-producto-de-export",
+        "el-petroleo-desplazo-a-la-soja-como-principal-exportacion-argentina",
+        "el-petroleo-desplazo-a-la-soja-como-principal-producto-de-exportacion-de-la-arge"
       ]
     },
     {
@@ -8529,6 +8783,13 @@
           "url": "https://monclova.com/nacional/preven-aumento-en-costo-de-fletes-tras-reforma-laboral-transportistas-buscan-acuerdo-con-gobierno-federal",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Periódico Zócalo",
+          "type": "También publicó esta noticia",
+          "url": "https://www.zocalo.com.mx/preven-aumento-en-fletes-por-la-reforma-laboral/",
+          "alsoIn": true,
+          "title": "Prevén aumento en fletes por la reforma laboral"
         }
       ],
       "gnTried": "2026-11-13T00:23:50Z",
@@ -8547,7 +8808,14 @@
           "url": "https://www.zocalo.com.mx/preven-aumento-en-costo-de-fletes-tras-reforma-laboral-transportistas-buscan-acuerdo-con-gobierno-federal",
           "title": "Prevén aumento en costo de fletes tras reforma laboral; transportistas buscan acuerdo con Gobierno federal"
         }
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aSUtZSk5xcHNzUmVzVk9LZHVSc19KcnQzU1BweGxDLXp5dXVCRjNZWldVa043VFJWeFBjT1lMa2hVaXBDZ0g0bTUzX3E2a2JxYVRnUU5Yb3pOMG1LbW45eS1xbUVvMUlZb3JMQXl3b29jVV9xdlF3ajJicVQwY0U",
+        "https://www.zocalo.com.mx/preven-aumento-en-fletes-por-la-reforma-laboral"
+      ],
+      "mergedIds": [
+        "preven-aumento-en-fletes-por-la-reforma-laboral"
+      ]
     },
     {
       "id": "restriccion-de-ingreso-de-camiones-a-puerto-de-iquique-persiste-en-nueva-jornada",
@@ -148264,7 +148532,7 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-11-15T02:39:19Z",
+    "ranAt": "2026-11-15T10:52:18Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
@@ -148280,16 +148548,16 @@
         "url": "https://www.aduananews.com/feed/",
         "ok": true,
         "items": 12,
-        "added": 0,
+        "added": 1,
         "updated": 0,
-        "skipped": 5
+        "skipped": 4
       },
       {
         "source": "PortalPortuario",
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 3,
+        "added": 0,
         "updated": 0,
         "skipped": 8
       },
@@ -148297,55 +148565,55 @@
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 26,
-        "added": 4,
+        "items": 24,
+        "added": 2,
         "updated": 0,
-        "skipped": 12
+        "skipped": 9
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 25,
-        "added": 1,
+        "items": 26,
+        "added": 0,
         "updated": 0,
-        "skipped": 14
+        "skipped": 17
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 52,
+        "items": 54,
         "added": 4,
         "updated": 0,
-        "skipped": 19
+        "skipped": 18
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 24,
-        "added": 1,
+        "items": 23,
+        "added": 0,
         "updated": 0,
-        "skipped": 14
+        "skipped": 15
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
         "url": "https://news.google.com/rss/search?q=(aranceles+OR+%22guerra+comercial%22+OR+%22acuerdo+comercial%22)+when:1d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 75,
+        "items": 84,
         "added": 4,
         "updated": 0,
-        "skipped": 61
+        "skipped": 69
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 47,
-        "added": 4,
+        "items": 35,
+        "added": 1,
         "updated": 0,
-        "skipped": 28
+        "skipped": 20
       }
     ],
     "curatedDuplicates": [
@@ -148370,19 +148638,19 @@
         "curated": "decreto-1350-2026-paso-de-los-libres-cotecar-concesion-20-anos-iniciativa-privada"
       },
       {
-        "title": "Argentina: anuncian alivio fiscal para deudas aduaneras",
-        "url": "https://aduananews.com/anuncian-alivio-fiscal-para-deudas-aduaneras/?utm_source=rss&utm_medium=rss&utm_campaign=anuncian-alivio-fiscal-para-deudas-aduaneras",
-        "curated": "caputo-uia-saldos-exportacion-reintegros-iva-deudas-aduaneras-pymes-embargos-mayo-2027"
-      },
-      {
-        "title": "Contrabando y subfacturación de importaciones cuestan a Argentina US$2.800 millones en ingresos fiscales",
-        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPSjZkT2hjYUU4bmdOUHVidWc2b2laV25oUGp5STRoMFdKOHlBS2hNNGNCRkxKSlRtelJodmJ0RkZFTC13NE5JeTlieG0ya1hWRWNXaFZvMnZkU3N4ZDZqQ0Fwb2U1RjFfMXpBRmI3SjdRSHRNRzhkSUFjb1lDNWdiSk5oT0E5X0tEYkZaSnQtS0Frc3doek83aFE3dEljMW9vd0RMQkZWMjNPbjNRQ2RPb1JzblpUTmZqZ21zUTgxZmtzWXI4aFl1eDFqN2NfX2x4QXJOQzZWb3FqY0dJbGpPS1BUQUlwcDdhLTBKd0g3a9IBgwJBVV95cUxPWFBZYWV3ZHR2VFVnNm9WV3RIYUNlamdDeWU0Zk53T1hRVU9veW14NDFpTEZmckZDZmpWRk5YaXZSWGxkYU1sNzc5RzM4WEVyY3NfNnlKVXNCcEhpSmwxVjVJUzNFMEVyenVWcnFKUWhKRXk2NzYwNERVNE84OEluSXBEWTRhMkVyMUkxYVdPbTBKRk5HNGFjTTNqSENqQ2d4U2VndEdRV1pPRVVFcTB4N3BiRHQtd1V0b2tmZzVVYzRBUE9icC13cnl5UkhrZTJwcDJwUDY5XzFGUFJzOTVVTW14TWgtNnNJZlROVGc1dmhiSGI5RWxQU1pGMS01MHVROHJR?oc=5",
-        "curated": "contrabando-subfacturacion-map-latam-2855-millones-perfumes-celulares-juguetes-tracit-120"
+        "title": "El Mercado exterior de vinos y mostos de Argentina: comportamiento exportador y balance provincial a octubre de 2026",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVUlaTHhjOFNoTXc1Unl2eUVmb0NnMFVVZC1TTTZsTVhfMTRUMmdtRmlLVU1iTHRYUU9vMUZiam12dzMzc3Y0NGVEVGhQZ0pXUDVlTkw2YzA3dGc5SXBVN3lqZkpCbzdBNFRxdkx1ek1jeHFYa0dORTd5R0VXVDRua3VNSVJnaUpEQ1p5NERUelhsVExsX2dlYVVwMHIyUVFfNy1OQ3NRTHM3SkEtZW9ZNWQ4M3VvNjVTRzBtcGNRdTJjTVUwTWhuUkE5U1F5OW5oR3E3LXJWbC02bjBuaVlkaGhXMUFyOFRJaHkxbjlaNEc?oc=5",
+        "curated": "exportaciones-vino-octubre-2026-inv-68-1-millones-19-3-granel-87-8"
       },
       {
         "title": "El Parlamento alemán aprueba la ley para ratificar el acuerdo UE-Mercosur",
         "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeklhVmFPOGIwcllxUk44YmlvVXNCQXJCU3hVNGliSGZJNENPdE9wOXY4UGN1bER6WklYMUpWMEpqSGpHdXI0WGVHcXdnQnZ6N05NdEdteVVQQkhqY0VVcDJBVy1lX25wS2M1LXpyQVZpZlRhb21OWmRwTDVWQk83WGNfZlFqWUdPMmk2TEZsZlY0R3Q5MElETlZKN3hPQ3dSMUFoTlpld2pUQ3RPNUpoMHlKYjd2Q2U4c3BfYlowTEFRZ0Ns0gHfAUFVX3lxTE5GSE95NWNkWU02eS1wZ3ZvVlFZVW5jZWttS3E3cllhZFMyZ2t4VVNpS09NRVVaS2E5TkttaXkxM2s0X0hGb0JwMnJ2VzRyVTh1TTA2OE5LTV9CWTRqU2xfbElxakYxRXZMb3AyaXk4am5oOTQwaWx4TDg2c1E2bXJ2MWR6bTVnbExKRHN2dVh1SS12NHFQR1R5bS11M1pTcC1LNXFMNVRaUXB6RU56THFLUFBiX25HODVIdFRJaGp4WllkaWF2YzB3UHRBTlN1T19rRENoSC14OXhEOXVUdWs?oc=5",
         "curated": "alemania-bundestag-aprueba-ley-ratificacion-acuerdo-asociacion-ue-mercosur"
+      },
+      {
+        "title": "Trump amenaza con duplicar aranceles a México por una caravana que aún no llega a la frontera",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQS1Vfcjk0TWl0dm5aSkpLbElVN2ZLXzgxbTg4TU9PSThwSk41OXFEeHVfMnZ1RWtOdVIwd3Nla1FkNDJKZTM1Wk1CeWVFT1kya3dkU0lxcWk2TFFkSnJQVnViYTh5NXVnbzdRSmJsaUIyMXpKOFdNWmM1djl5ZmFYeks2eEthc1JnUkp4a0Rva3JfNXcyeHRrbjVtZWU5ekFJZFlDRTctMFpIcm9qWnZNcTdJWHBFNFRWdFIteHJqaS1vWTVXVkE?oc=5",
+        "curated": "trump-amenaza-duplicar-aranceles-mexico-caravanas-migrantes-sheinbaum-tmec"
       },
       {
         "title": "Trump amenaza con duplicar aranceles a México por caravanas migrantes",
@@ -148411,7 +148679,7 @@
       },
       {
         "title": "Reclamo del campo a la Provincia por la suba del 16% en los fletes de granos",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPU29SM1RoTlYwX1AzSW8zVjBpSUxzeFpHU01Rd2hTbmNZYmpNVVljZVI5cmg1VXFZM1VMUWQ1Vk14VjBSYWFiWlMzaW1JTU16cHBNOTExZ0RpVzdsLUNLbk53SFlPQzZUcEtwcnNuWXhUWmd5c3huZmpiamlzMklzZ0NRX3ZjVzBlRDJCOFhLM19Fay15OUItNlFWQ05KSUVGU052Z0hCS1p2T0hZamlFU2h5emc0YjJVck1oUUNpQ1dsUGhaRFA0ODI2bUc2NF9EcnVyUkM1Vzc5cUp4OGg4QUlHdmJCZHM?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNbVZ4eGxCbXlPcHBRanF2SEt3dUlOdEgzZm9zcy1Kek9USGNFZmN5Z1hPWHBQcnVtTFFLSUhrbWVFNVd0NWJURTVxSmhPdUtZcWJtVGROTWM2cTlMWU1HQUpUYVk0M1JwU0tLRzBXMWhtN0JaUUFMbUtnZlhRU0tIbkNfR1BQQ25nR2ZTZWZzd0R6aDNnSGIySUV4U1dNY0NycmJsNFNuSExJSWFQYUc0NFduVlZ5blNvMTRSU0FETEtzMmRNYVhIZXV3UlktUVFxZ0RhQ0ZUb1MtYXVaaGYzT1Jn?oc=5",
         "curated": "buenos-aires-laudo-16-por-ciento-tarifa-referencia-fletes-granos-carbap-coninagro-acopiadores"
       },
       {
@@ -148435,11 +148703,6 @@
         "curated": "buenos-aires-laudo-16-por-ciento-tarifa-referencia-fletes-granos-carbap-coninagro-acopiadores"
       },
       {
-        "title": "Tarifas de transporte marítimo de contenedores caen 2% ante debilitamiento de la demanda",
-        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSlQ4U0RMYi1zOE53NUUyX2hlVnRGUV9NSXBqSmMzS0doNjBtMWxXcU9TdHJqVnBQMHBzMVBmOHV0YXBQUF9VRXBpdjBOcThDN3k4eFA2SDIyQlhIeDE4UnAzRVFod1hjQWt2TS10a3VxTVRiaWRUQjlZTGloWENBeldkU1FoMUdHYkh2T1d6WGstazd2azBTd0dPR19uY2RaYVlPYmp0ZF9CVEZQRDlVZXlPcTNUUQ?oc=5",
-        "curated": "drewry-wci-baja-2-12-noviembre-4305"
-      },
-      {
         "title": "Tres entidades del agro rechazaron el aumento impuesto por el gobierno de Buenos Aires a los fletes de granos",
         "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQjExek1ZckxFWGN0UE0xejNEbkhMU2llMVhmVGJKV1M0bHFBVElUYXp6d3JxNUZ0WU1JS2ZYR2x3aWQ2alpIdDVYV3hHcWowQU13anNxSktoT3l3SHEzYjk3ZUJJeFNCT3A5X1A0ZEZ3SDZPSEJKQVJ3TE91Z2hoYmdpLTZMMTJlNXc0Y2V2MWlyb29LRC1FN1B2dndCRmV0OUdJTTMwMUgzRWtBWnpnM0VtM2V5RlFmaWZnbXRwbUlSVkU1dTlGczFrTlZrTXFGUVE?oc=5",
         "curated": "buenos-aires-laudo-16-por-ciento-tarifa-referencia-fletes-granos-carbap-coninagro-acopiadores"
@@ -148453,59 +148716,35 @@
     "excluded": 0,
     "grouped": [
       {
-        "main": "perspectivas-favorables-en-el-complejo-sojero-podemos-tener-el-mejor-ano-de-expo",
+        "main": "preven-aumento-en-costo-de-fletes-tras-reforma-laboral-transportistas-buscan-acu",
         "merged": [
-          "el-petroleo-supero-a-la-harina-de-soja-como-principal-producto-de-exportacion-de",
-          "el-petroleo-supero-a-la-harina-de-soja-y-paso-a-ser-el-principal-producto-de-exp",
-          "el-petroleo-desplaza-a-la-harina-de-soja-como-principal-exportacion-argentina-en",
-          "el-petroleo-supero-a-la-harina-de-soja-y-lidera-las-exportaciones-argentinas",
-          "exportaciones-en-lo-que-va-del-2026-el-petroleo-destrono-a-la-soja-como-principa"
+          "preven-aumento-en-fletes-por-la-reforma-laboral"
         ]
       },
       {
-        "main": "la-logistica-busca-su-adaptacion-a-la-intensa-disputa-global-por-la-hegemonia-ma",
+        "main": "petroleo-desplaza-a-la-harina-de-soja-como-principal-producto-de-exportacion-de",
         "merged": [
-          "la-logistica-busca-su-adaptacion-a-la-intensa-disputa-global-por-la-hegemoni-2"
+          "exportaciones-en-lo-que-va-del-2026-el-petroleo-destrono-a-la-soja-como-principa",
+          "el-petroleo-desplazo-a-la-harina-de-soja-y-lidero-las-exportaciones-de-argentina",
+          "el-petroleo-desplazo-a-la-soja-y-se-convirtio-en-el-principal-producto-de-export",
+          "el-petroleo-desplazo-a-la-soja-como-principal-exportacion-argentina",
+          "el-petroleo-desplazo-a-la-soja-como-principal-producto-de-exportacion-de-la-arge"
         ]
       },
       {
-        "main": "foro-empresarial-mercosur-ue-2-de-diciembre-en-punta-del-este-news-and-statistic",
+        "main": "canada-y-ee-uu-avanzan-hacia-un-acuerdo-comercial-dice-carney",
         "merged": [
-          "primer-foro-empresarial-mercosur-union-europea-2-de-diciembre"
-        ]
-      },
-      {
-        "main": "empresa-argentina-ipesasilo-duplica-exportaciones-de-silobolsas-y-proyecta-creci",
-        "merged": [
-          "ipesasilo-de-un-sachet-a-mas-de-60-paises-la-argentina-que-duplico-exportaciones"
-        ]
-      },
-      {
-        "main": "las-exportaciones-argentinas-marcaron-un-record-de-usd-27-756-millones-en-el-ter",
-        "merged": [
-          "las-exportaciones-agroindustriales-argentinas-superaron-las-100-millones-de-tone"
-        ]
-      },
-      {
-        "main": "canada-no-aceptara-un-acuerdo-comercial-con-eeuu-que-ponga-en-riesgo-industr-2",
-        "merged": [
-          "canada-no-aceptara-un-acuerdo-comercial-con-eeuu-que-ponga-en-riesgo-industria-a"
-        ]
-      },
-      {
-        "main": "viajaba-a-bariloche-para-los-15-de-su-nieta-y-quedo-varada-por-el-cierre-de-la-a",
-        "merged": [
-          "viajaba-a-bariloche-para-los-15-de-su-nieta-y-quedo-varada-por-el-cierre-de--2"
+          "mark-carney-afirma-que-canada-avanza-hacia-un-acuerdo-comercial-con-eu"
         ]
       }
     ],
     "googleNews": {
-      "pending": 18,
-      "resolved": 18,
-      "withSummary": 14,
+      "pending": 11,
+      "resolved": 11,
+      "withSummary": 11,
       "withPhoto": 0,
       "failed": 0,
-      "duplicates": 1
+      "duplicates": 0
     },
     "noRead": 0
   },
