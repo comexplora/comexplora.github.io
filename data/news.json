@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-11-16T07:58:38Z",
+  "updatedAt": "2026-11-16T19:36:31Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -142,7 +142,7 @@
       "obsDate": "2026-11-13",
       "change": "+0,2% vs. día hábil anterior",
       "trend": "up",
-      "checkedAt": "2026-11-16T07:59:39Z",
+      "checkedAt": "2026-11-16T19:37:33Z",
       "history": [
         [
           "2026-09-29",
@@ -267,27 +267,27 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-16T07:59:39Z"
+      "lastAttempt": "2026-11-16T19:37:33Z"
     },
     {
       "id": "soja",
       "label": "Soja · precio pizarra Rosario",
-      "value": "$ 540.000/t",
-      "period": "Rosario · 12 nov 2026 · US$ 351,45/t",
+      "value": "$ 545.000/t",
+      "period": "Rosario · 13 nov 2026 · US$ 355,16/t",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "group": "Mercados",
-      "obsDate": "2026-11-12",
-      "change": "-0,9% vs. pizarra anterior",
-      "trend": "down",
+      "obsDate": "2026-11-13",
+      "change": "+0,9% vs. pizarra anterior",
+      "trend": "up",
       "_last": {
+        "date": "2026-11-13",
+        "ars": 545000.0
+      },
+      "checkedAt": "2026-11-16T19:37:34Z",
+      "_prev": {
         "date": "2026-11-12",
         "ars": 540000.0
-      },
-      "checkedAt": "2026-11-16T07:59:40Z",
-      "_prev": {
-        "date": "2026-11-11",
-        "ars": 545000.0
       },
       "history": [
         [
@@ -393,11 +393,15 @@
         [
           "2026-11-12",
           540000.0
+        ],
+        [
+          "2026-11-13",
+          545000.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-16T07:59:40Z"
+      "lastAttempt": "2026-11-16T19:37:34Z"
     },
     {
       "id": "brent",
@@ -410,7 +414,7 @@
       "obsDate": "2026-11-11",
       "change": "+2,2% vs. día anterior",
       "trend": "up",
-      "checkedAt": "2026-11-16T07:59:43Z",
+      "checkedAt": "2026-11-16T19:37:37Z",
       "history": [
         [
           "2026-10-01",
@@ -535,27 +539,27 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-11-16T07:59:43Z"
+      "lastAttempt": "2026-11-16T19:37:37Z"
     },
     {
       "id": "maiz",
       "label": "Maíz · precio pizarra Rosario",
-      "value": "$ 275.800/t",
+      "value": "$ 269.300/t",
       "group": "Mercados",
-      "period": "Rosario · 12 nov 2026 · US$ 179,50/t",
-      "obsDate": "2026-11-12",
-      "change": "+0,3% vs. pizarra anterior",
-      "trend": "up",
+      "period": "Rosario · 13 nov 2026 · US$ 175,50/t (estimado)",
+      "obsDate": "2026-11-13",
+      "change": "-2,4% vs. pizarra anterior",
+      "trend": "down",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
+        "date": "2026-11-13",
+        "ars": 269300.0
+      },
+      "checkedAt": "2026-11-16T19:37:37Z",
+      "_prev": {
         "date": "2026-11-12",
         "ars": 275800.0
-      },
-      "checkedAt": "2026-11-16T07:59:43Z",
-      "_prev": {
-        "date": "2026-11-11",
-        "ars": 275000.0
       },
       "history": [
         [
@@ -661,31 +665,35 @@
         [
           "2026-11-12",
           275800.0
+        ],
+        [
+          "2026-11-13",
+          269300.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-16T07:59:43Z"
+      "lastAttempt": "2026-11-16T19:37:37Z"
     },
     {
       "id": "trigo",
       "label": "Trigo · precio pizarra Rosario",
-      "value": "$ 288.900/t",
+      "value": "$ 284.000/t",
       "group": "Mercados",
-      "period": "Rosario · 12 nov 2026 · US$ 188,02/t",
-      "obsDate": "2026-11-12",
-      "change": "-3,5% vs. pizarra anterior",
+      "period": "Rosario · 13 nov 2026 · US$ 185,08/t",
+      "obsDate": "2026-11-13",
+      "change": "-1,7% vs. pizarra anterior",
       "trend": "down",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
+        "date": "2026-11-13",
+        "ars": 284000.0
+      },
+      "checkedAt": "2026-11-16T19:37:37Z",
+      "_prev": {
         "date": "2026-11-12",
         "ars": 288900.0
-      },
-      "checkedAt": "2026-11-16T07:59:43Z",
-      "_prev": {
-        "date": "2026-11-11",
-        "ars": 299500.0
       },
       "history": [
         [
@@ -791,297 +799,682 @@
         [
           "2026-11-12",
           288900.0
+        ],
+        [
+          "2026-11-13",
+          284000.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-16T07:59:43Z"
+      "lastAttempt": "2026-11-16T19:37:37Z"
     }
   ],
   "items": [
     {
-      "id": "bcr-exportaciones-agro-enero-octubre-2026-101-millones-toneladas-record",
-      "date": "2026-11-15",
-      "datetime": "2026-11-15T19:59:00-03:00",
-      "kind": "datos",
-      "title": "La agroindustria superó por primera vez los 100 millones de toneladas exportadas en diez meses, según la BCR",
-      "summary": "Entre enero y octubre salieron más de 101 millones de toneladas de granos y subproductos, unas 10 millones más que el récord previo para el período. Maíz, trigo, girasol y aceite de soja explican el salto; el crudo ya superó a la harina de soja en dólares.",
+      "id": "aranceles-al-doble-serian-desastrosos-para-coahuila-canacintra",
+      "datetime": "2026-11-16T19:22:06Z",
+      "date": "2026-11-16",
+      "firstSeen": "2026-11-16T19:36:31Z",
+      "title": "Aranceles al doble serían desastrosos para Coahuila: CANACINTRA",
+      "summary": "",
+      "body": [],
+      "keyData": [],
       "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Economía internacional"
+        "Aranceles"
       ],
       "countries": [
-        "Argentina"
+        "Global"
       ],
       "tags": [
-        "Granos",
-        "Maíz",
-        "Trigo",
-        "Soja",
-        "Girasol",
-        "BCR",
-        "Agroexportación"
+        "Aranceles"
       ],
-      "visual": "grain",
-      "impact": 2,
-      "affectsArgentina": true,
-      "argentinaNote": "Confirma que 2026 es un año récord en volumen para la exportación agroindustrial, aunque en dólares el liderazgo de la harina de soja pasó al petróleo crudo.",
-      "argentinaImpact": {
-        "change": "Las exportaciones de granos y subproductos superaron por primera vez los 100 millones de toneladas en diez meses.",
-        "who": "Exportadores de granos, aceiteras, acopiadores, transportistas y terminales portuarias.",
-        "sectors": [
-          "Agroindustria",
-          "Logística portuaria"
-        ],
-        "flows": {
-          "importaciones": false,
-          "exportaciones": true,
-          "logistica": true,
-          "aranceles": false
-        }
-      },
-      "body": [
-        "La Argentina exportó más de 101 millones de toneladas (Mt) de granos y subproductos entre enero y octubre de 2026, según un informe de la Bolsa de Comercio de Rosario (BCR) que difundieron Infobae, Economis e Informe Digital. Es la primera vez que la serie supera los 100 Mt en ese período: el volumen queda unos 10 Mt por encima del récord previo y 13% arriba del año anterior.",
-        "El dato sigue la línea del informe de la BCR que Comexplora reseñó el 9 de octubre, cuando el acumulado a septiembre rondaba los 88,9 Mt, casi 10% más que en 2025, con trigo y girasol muy por encima del promedio y un segundo semestre fuerte para el maíz y la harina de soja.",
-        "## Los productos",
-        "El maíz es el principal aporte: unos 37,1 Mt en diez meses, 8,7 Mt más que en igual período. Las fuentes no coinciden en el año de comparación: Infobae e Informe Digital mencionan 2024, mientras Economis lo compara con el año pasado. Según la agencia marítima NABSA, citada por Economis, en octubre se embarcaron 3,97 Mt del cereal, el valor más alto para ese mes.",
-        "El trigo sumó 14,5 Mt exportadas, 45% más que un año antes, y el complejo girasol superó los 6,7 Mt, más del doble del promedio de las últimas campañas. En el complejo soja, los envíos de octubre crecieron 14% frente a septiembre: el poroto llegó a 1,2 Mt, el segundo valor del año, y el aceite superó las 544.900 toneladas, 30% más de lo habitual para la fecha. En diez meses, el aceite de soja acumula más de 5,1 Mt, 15% por encima del promedio de cinco años.",
-        "## Toneladas y dólares",
-        "El informe mide volumen y no valor. En dólares, el liderazgo cambió de manos: según Infobae e Informe Digital, el petróleo crudo exportó USD 7.753 millones entre enero y septiembre, 58,6% más que un año antes, y desplazó a la harina de soja, que sumó USD 6.971 millones, con una suba de 7,4%. El monto del crudo coincide con el que informó El Economista a partir de la consultora Economía y Energía.",
-        "En la comercialización interna, la Secretaría de Agricultura registraba hasta la semana del 4 de noviembre negocios por más de 110,4 Mt de soja, maíz, trigo, girasol y sorgo, 14% más que un año antes, según Informe Digital.",
-        "## Los precios",
-        "Economis agrega el contexto de mercado que acompaña al informe. El reporte WASDE de noviembre del Departamento de Agricultura de EE.UU. subió en 2 Mt, a 40 Mt, la proyección de exportaciones argentinas de maíz para 2026/27, y el cereal cotizaba en Chicago cerca de USD 176 por tonelada, 18% debajo del máximo de fines de septiembre; en el mercado local, la pizarra rondó los USD 180. En trigo, las proyecciones de exportación conjunta de Rusia y Ucrania para 2026/27 bajaron de 62 a 50,5 Mt entre julio y noviembre.",
-        "Las fuentes no informan el volumen proyectado para el año completo ni cuánto aportó cada puerto. La cifra total es una estimación de la BCR sobre embarques de granos y subproductos, no un dato oficial del INDEC."
-      ],
-      "keyData": [
-        [
-          "Exportaciones enero–octubre",
-          "Más de 101 Mt de granos y subproductos"
-        ],
-        [
-          "Frente al récord previo",
-          "Unos +10 Mt (+13% interanual)"
-        ],
-        [
-          "Maíz",
-          "≈ 37,1 Mt (+8,7 Mt)"
-        ],
-        [
-          "Trigo",
-          "14,5 Mt (+45%)"
-        ],
-        [
-          "Complejo girasol",
-          "Más de 6,7 Mt"
-        ],
-        [
-          "Aceite de soja",
-          "Más de 5,1 Mt (+15% sobre el promedio de 5 años)"
-        ],
-        [
-          "Crudo vs. harina de soja (ene–sep, USD)",
-          "7.753 M (+58,6%) vs. 6.971 M (+7,4%)"
-        ]
-      ],
-      "explainer": {
-        "what": "La Argentina exportó más de 101 millones de toneladas de granos y subproductos entre enero y octubre de 2026, un récord según la Bolsa de Comercio de Rosario.",
-        "why": "Es la primera vez que se superan los 100 millones de toneladas en diez meses, unos 10 millones más que el récord previo, con maíz, trigo, girasol y aceite de soja como motores.",
-        "who": "Exportadores y acopiadores de granos, aceiteras, transportistas y terminales portuarias.",
-        "products": [
-          "Maíz",
-          "Trigo",
-          "Girasol",
-          "Poroto de soja",
-          "Aceite de soja",
-          "Harina de soja"
-        ],
-        "next": "El WASDE de noviembre elevó a 40 millones de toneladas la proyección de exportaciones argentinas de maíz para 2026/27.",
-        "nextSource": {
-          "name": "Economis",
-          "url": "https://economis.com.ar/exportaciones-agroindustriales-superaron-las-100-millones-de-toneladas/"
-        }
-      },
-      "story": "agroexportacion",
-      "absorbs": [
-        "rompiendo-la-barrera-de-las-100-mt-las-exportaciones-agro-argentinas-hacen-histo"
-      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
       "sources": [
         {
-          "name": "Infobae",
-          "type": "Medio de comunicación",
-          "url": "https://www.infobae.com/economia/2026/11/15/record-historico-de-las-exportaciones-del-agro-en-diez-meses-superaron-los-100-millones-de-toneladas/",
-          "primary": true
+          "name": "Capital Coahuila",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNc1ZiS25sQXJnUThWT3R2bU96aE1CT1JqM3kybjdfTHd6LVBBYUlPTFMxWjdRaFBaZDlScHhvTC02VENaa3lhbUlDeUF1U0U5ajRGTXp4VVNlUjU3Wk9lbHJhZ2RhamMtZ1JDaC1ERldKWTRPLTV6ankzMmxQY0dTSTFuWmQyUUk?oc=5",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-16T19:36:31Z"
+    },
+    {
+      "id": "reitera-trump-amago-de-fuertes-aranceles-a-mexico-si-no-detiene-avance-de-carava",
+      "datetime": "2026-11-16T19:18:35Z",
+      "date": "2026-11-16",
+      "firstSeen": "2026-11-16T19:36:31Z",
+      "title": "Reitera Trump amago de 'fuertes aranceles' a México si no detiene avance de caravana migrante",
+      "summary": "El expresidente volvió a elevar la presión sobre México en medio de la discusión por la caravana migrante y la política fronteriza",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Latinoamérica",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "México",
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Diario de México",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.diariodemexico.com/mundo/reitera-trump-amago-fuertes-aranceles-mexico-si-no-detiene-avance-caravana-migrante",
+          "primary": true,
+          "author": ""
         },
         {
-          "name": "Economis",
-          "type": "Medio especializado",
-          "url": "https://economis.com.ar/exportaciones-agroindustriales-superaron-las-100-millones-de-toneladas/"
+          "name": "Quadratín Michoacán",
+          "type": "También publicó esta noticia",
+          "url": "https://www.quadratin.com.mx/internacionales/advierte-trump-a-mexico-con-aranceles-si-no-frena-caravanas-migrantes/",
+          "alsoIn": true,
+          "title": "Advierte Trump a México con aranceles si no frena caravanas migrantes"
         },
         {
-          "name": "Informe Digital",
-          "type": "Medio de comunicación",
-          "url": "https://informedigital.com.ar/el-agro-marco-un-record-y-supero-las-101-millones-de-toneladas/"
-        },
+          "name": "atiemponoticias.mx",
+          "type": "También publicó esta noticia",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZnFWbE5LZWVBemdwN1BDa1BxeWpfYU1pTXo5MXpZdWY2S0NHOVdWQlF1NGdYb0stS1ZtTWZjQTlmSlAyTThRR0N6YUhxbzNiMUs0UGh6djhGT0c1TDBiRHJZSlFkN01rWGVnd2MwRWdQYnM1OWxIdjV5UUJmNEdHM2ctOGlXd193SGxrbmlDR1RTcjNWdW1JTkNwbFZSLVlvbmxPbWRhZUJqamF4c0VQbklPdjdycEw0M0E?oc=5",
+          "alsoIn": true,
+          "title": "Trump vuelve a amenazar a México con aranceles si no frena caravana migrante"
+        }
+      ],
+      "gnTried": "2026-11-16T19:36:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOejJBRVZXR25qMngzbFI3akpDMzgwTEFLUzNza0RYQXFLbkQ5VE9mVFFHUnBFeEpnMkN6YmlyNDhtY0tjeFVCaXlGdElUUVJleG9GYVZmeC1VcWt3Q3d3eW9uV3FXaG5Fb2pYUWRoY01MSzNnS2paMkJlcnhQOVczZUlLMEZwWHloY18xTWdkUEpoQWFVUjgxdUhkMjgzTlRnODI4aHR5NEw3WWhLS3pYS3RwX3BxSlJPUGJqVdIBwgFBVV95cUxNdGFCbXZxTC1WeUZGR0xvSHdCck8yV0dnZ2dkc3VtYXJrSGNFb1JFQWxhRXhBSDhIWExfUVh6dDVROTNRd1lLbVJIOGlLcHdqZnFpQU5vUExtYjI0cFRwaHpZSzE5NDBfUjZlSTdmTjdsNU9xMEFTQ0VQdzRiMWQtWkNhZ0VBdEhpZGJRbGR3TFo1OEhEalNTenRuX25BZGtRS3lDTFlESjdzTmx5RHc1RE90RTBQU29qOF9yNmtjdV9OUQ?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxOV0UxNThGUmM2V083a2Z2MzN5LTZwUnlqQ0t4S3lUeXN4UkN5b2t0VE5scWRDQWUwNXppU2h1UzVDaGE3OGRiQ1k0czQ4eGtmb3cyOVFiQWtiNzBWb2YyVkE0YU96a0hhR2JuMUNBWk0tMm1KdXNVblZjakN0M1RrYkJTcERwZ0ZUalVCcUFKQWFnU004MnhIUTVSSmNua3Qxb2tWRWY3WkhLMVZCU05LOXFLMS03dw",
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZnFWbE5LZWVBemdwN1BDa1BxeWpfYU1pTXo5MXpZdWY2S0NHOVdWQlF1NGdYb0stS1ZtTWZjQTlmSlAyTThRR0N6YUhxbzNiMUs0UGh6djhGT0c1TDBiRHJZSlFkN01rWGVnd2MwRWdQYnM1OWxIdjV5UUJmNEdHM2ctOGlXd193SGxrbmlDR1RTcjNWdW1JTkNwbFZSLVlvbmxPbWRhZUJqamF4c0VQbklPdjdycEw0M0E",
+        "https://www.quadratin.com.mx/internacionales/advierte-trump-a-mexico-con-aranceles-si-no-frena-caravanas-migrantes"
+      ],
+      "mergedIds": [
+        "advierte-trump-a-mexico-con-aranceles-si-no-frena-caravanas-migrantes",
+        "trump-vuelve-a-amenazar-a-mexico-con-aranceles-si-no-frena-caravana-migrante"
+      ]
+    },
+    {
+      "id": "brasil-puerto-de-itajai-eleva-nivel-de-seguridad-digital",
+      "datetime": "2026-11-16T19:00:13Z",
+      "date": "2026-11-16",
+      "firstSeen": "2026-11-16T19:36:31Z",
+      "title": "Brasil: Puerto de Itajaí eleva nivel de seguridad digital",
+      "summary": "La Superintendencia del Puerto de Itajaí (SPI) elevó el nivel de ciberseguridad de la institución. La…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Brasil"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
         {
-          "name": "El Economista: exportaciones de petróleo (Economía y Energía)",
-          "type": "Medio de comunicación",
-          "url": "https://eleconomista.com.ar/energia/ormuz-le-dio-mas-dolares-petroleo-argentino-pero-gas-sigue-siendo-cuenta-pendiente-n99399"
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/brasil-puerto-de-itajai-eleva-nivel-de-seguridad-digital/",
+          "primary": true,
+          "author": "Periodista 4"
         }
       ]
     },
     {
-      "id": "decreto-1366-2026-rigi-proveedor-local-capital-extranjero-ute-cesiones-divisas",
+      "id": "crudo-de-africa-occidental-mercado-en-calma-y-los-fletes-comienzan-a-caer",
+      "datetime": "2026-11-16T18:44:22Z",
       "date": "2026-11-16",
+      "firstSeen": "2026-11-16T19:36:31Z",
+      "title": "Crudo de África Occidental: mercado en calma y los fletes comienzan a caer",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "tanker",
+      "impact": 1,
+      "affectsArgentina": false,
       "kind": "noticia",
-      "title": "RIGI: el Decreto 1366/2026 deja de mirar el origen del capital para definir quién es proveedor local",
-      "summary": "El Gobierno cambió la reglamentación del régimen de grandes inversiones: una empresa constituida y domiciliada en el país cuenta como proveedor local aunque sus accionistas sean extranjeros. También flexibiliza la cesión de participaciones en UTE, el paso de sucursales a sociedades y el cómputo de divisas para cobros de exportación.",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "MarketScreener España",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://es.marketscreener.com/noticias/crudo-de-frica-occidental-mercado-en-calma-y-los-fletes-comienzan-a-caer-ce785edfdd8df223",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-16T19:36:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPeUNhQ09HYWtHODdfN0NkT3c1ZkQtSkdPQjFWM0diNXVIU3BabDBoTnRCSHpCaG45eTRfNmRMeGlleFR0d1o5QWJGQjkwbnRGR2oxTXVjaEVWQ1hKSWJwR3RxNDhlT0JJbVFVUlJzeC10NGFuZnpXTkJmZS1GUENBQ0lJLWxvVWZHaWx1bVNHc19YYWQ5SjNQYlFCYllIQlAxRmlZT3Z5ZWhTOVZXQkJjN1ZUSzhjbGZvenZQN1RMRTFiNUg5dGlz?oc=5",
+      "digestSkip": {
+        "at": "2026-11-16T19:36:31Z",
+        "auto": "no-read",
+        "reason": "medio sin lectura automática (NO_READ_DOMAINS) y sin otro medio con la misma noticia"
+      }
+    },
+    {
+      "id": "la-industria-del-software-marco-un-record-de-exportaciones-y-se-acerca-a-los-usd",
+      "datetime": "2026-11-16T18:11:10Z",
+      "date": "2026-11-16",
+      "firstSeen": "2026-11-16T19:36:31Z",
+      "title": "La industria del software marcó un récord de exportaciones y se acerca a los USD 3.000 millones",
+      "summary": "Según el último informe del OPSSI de CESSI, las ventas al exterior crecieron un 10,6% interanual y alcanzaron USD 2.967 millones en los doce meses a junio. El sector suma 162.708 empleos registrados",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Tecnología COMEX"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "CanalAR",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.canal-ar.com.ar/34665-La-industria-del-software-marco-un-record-de-exportaciones-y-se-acerca-a-los-USD-3-000-millones.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-16T19:36:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUXNsSnhSOUR0UFZaRTZhbURqQXpMTGRUNGpTb0FyTFhfTVJWMlpGSmVnWGpGcVpBRVVodC1taUFXeU5pMFJzM0ZLcWxRUHphR2hIWFFmMTR2Sl9XWkxMTTcydktxWGNCcU80QzdyZTFTNzd6Z0g4TFZQS21KclZhVnZ1Z1M2Y2ctTm1nRVdSUDk5OW9TQXNGX0ZKeWFQM3A5cXJWWUh6MjdDLU5tNlRGZnA4cmxhMjZ4b242b1o5aDcwekpOUTIwSngzQklCeHc?oc=5"
+    },
+    {
+      "id": "canciller-francisco-perez-busca-incentivar-inversiones-vietnamitas-en-chile",
+      "datetime": "2026-11-16T18:00:21Z",
+      "date": "2026-11-16",
+      "firstSeen": "2026-11-16T19:36:31Z",
+      "title": "Canciller Francisco Pérez busca incentivar inversiones vietnamitas en Chile",
+      "summary": "El canciller chileno, Francisco Pérez, encabezó el encuentro “Chose Chile: una alianza para el comercio y…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Latinoamérica",
+        "Asia"
+      ],
+      "countries": [
+        "Chile",
+        "Vietnam"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/canciller-francisco-perez-busca-incentivar-inversiones-vietnamitas-en-chile/",
+          "primary": true,
+          "author": "Gabriel"
+        }
+      ]
+    },
+    {
+      "id": "orsi-se-reunio-con-pedro-sanchez-el-acuerdo-mercosur-union-europea-fue-tema-cent",
+      "datetime": "2026-11-16T17:37:28Z",
+      "date": "2026-11-16",
+      "firstSeen": "2026-11-16T19:36:31Z",
+      "title": "Orsi se reunió con Pedro Sánchez: el acuerdo Mercosur-Unión Europea fue tema central",
+      "summary": "“España y Uruguay compartimos una sólida relación y la voluntad de seguir reforzando nuestros vínculos”, destacó el presidente español en redes sociales.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Unión Europea"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "la diaria",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://ladiaria.com.uy/politica/articulo/2026/11/orsi-se-reunio-con-pedro-sanchez-el-acuerdo-mercosur-union-europea-fue-tema-central/",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "subrayado.com.uy",
+          "type": "También publicó esta noticia",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeFBMeUxxMXF1bUFVbGdQcW9PTEtFMHpvdThSYllxWXdDc2VyeTdfN0s4R3luclk3bl9zTmRDTnJLZ2plbUNsTklQWUExa08tbVR2QVMwaEhsc0Z4NlB1WHRXWUdZUjNXX1cwRzNlNTIxY1daa0NIUmFJUUtvT1lQVm9Zcnl4QUo1eE9BY1FQR01aVDB2WmRIdnhLMm5vMHlJY2V2LXlXU3I4Qm90bkM4dWpYdG94b0FwbkltSDZraUxaZnlZS1ZnUW5Mb9IB0AFBVV95cUxNbUpkazBja0N4emlUMEVRa3RTNjBnQzdHcmFFQ1A5b0RLbjdhb21nMFg0RUVfQmhTMk1BeGxUR1I1cXphRzUxTWFWWFl2NkplbU1DNFprVzBTVGdLN2dOQmEzazNJVno3dmtyRlFpa0E4U3ZkdV9jeVozU2VrcWpkX2tYRWNoWnFvWE1UQWpGblJCNUlNeG5Tb2xyZlNiekk4Vnl0aGY4eUMxWmpzeElBWEdtbXpaR3JjbHhGMTNIQWJ2NWtfb2NJRngyRUNwVWZt?oc=5",
+          "alsoIn": true,
+          "title": "Orsi se reunió con Pedro Sánchez; hablaron del comercio entre países con el acuerdo Mercosur y Unión Europea"
+        },
+        {
+          "name": "El Observador",
+          "type": "También publicó esta noticia",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQTFVwWWNTSWVDT3pHLXIwenRSdC0yOVJ0bzNocFkwLUs0cHRuODVnZHF3M2luUTJ1RjQzNnR1cmRuU1NRSElEUzNXa3RuTTVXcWpkd2ZiMHZJNkdSYlB1eFNsWUsyZUFOWWdvTXlJbWg2Y3g5ODl6RENSRXBrbzhrWTNQTVc1YWlpQm5UcUYwN0YwdWc5bVpDa18zQjRBeFdEeTRYLXZNbVp3dWRsYW1TVXZUb05ZU1Q3aFExdV9TWFJEeDNRTHdSWFpadDVFRVQ5dm1pcWxsV2xlMm5lZkNvUk4xN2p0eXZta2lBX19ZNWV0bklXVnlQMlVJQ05nNGF4SUHSAYcCQVVfeXFMUDByY05STWxoNTVqSllvRHYwU1B6ekEzWVlpX08ybVU5Y1N1OEplMUd6eExpVzF2UFVjenAzM0dCOEpmQnRpTmZoU21lQ3JCVTJmcVc2MGl6WW1fRWNRSF9WLXE5eUx3cWtnRGtxbTRkR0xWa3U1OFNHenFSN2VudXZGOXNuMnpSeDFySVNOWjZlSU5nQUlWOW02VkdDT0VJUEFhc2tDTGh5WGVOYl9MUEJQTzl1OHhxTldMckZvaHl4Z3NJSjdLUlFyRThKamdWMEtrN0tQcFFLTHVna3Q0a0FGZVdOd3Y1ZFVTZmZOd0hYMkwwZTM2UjVXZ282RG1WTXFjTEJkOUU?oc=5",
+          "alsoIn": true,
+          "title": "Orsi se reunió con Pedro Sánchez en Madrid y destacó que el acuerdo Mercosur-UE \"ya está dando sus frutos\""
+        },
+        {
+          "name": "teledoce.com",
+          "type": "También publicó esta noticia",
+          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOVG1ESGZzLWFZdUY4cDlzS3BlSjRSNlFjOXBhWlYzdnR2MTZmNDQzb0JTWm5kRWJwZ0YzeU93b3FrV3ViOUg2QV9POWxRcGttLTNHM1VfeFBfY3FEVWEzYXpDT1BRYVN4R0dXbHZQSEF5aWN5OWE0RDVmbVBWRVNnaXhHQl94U1dkcWNwLXJCWFdPV2pQUk1wd3JlaDR3NnFBSklMem9sZ0FsVmtFUjlNZkdNN21oSHJXTGVRSEhiZ3RfUGVCUEtzc0N3eW1KaGwwWWlkazhwREYtVzdvX2NTLVQxcC0ybTZKYkVsel9LenVtZmtRbzdSd2RB0gH_AUFVX3lxTE1hRVBKY3lBaFVJQnZoVElFaVhNRlFVOEVpbDRXTXhhUW1qT2xDN3FqalBrVlE2ODV4RGpEM2NPMkxPZXhDOTZ5dlJvRkJPMG12WXlwMkU4MVpPVGs1R0JoRy1rNUpCRXV2Z3YyUXVjYkhWWDhmakpELXpldFZhc0l5T29IM0NQRktacF93Tk12VTBMYzBHUHNCa3Z5blRxWmdYb1ZhQ0wwdGFQNnFmNXotaEVsYTZNdXlLdFQzcUd4aXQwa09Jdnk3Q1d0bVV3dV9qcFZsLWtIdXgyU2JsLTFfQ25BNnloemJVSll5RUZVYXNkTEhxOWJoY0pNeTRxRQ?oc=5",
+          "alsoIn": true,
+          "title": "Orsi se reunió con Pedro Sánchez: \"El acuerdo entre el Mercosur y la Unión Europea ocupó un lugar"
+        }
+      ],
+      "gnTried": "2026-11-16T19:36:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQQUlxWlg5d1h3UU82VkF0ZS12VVJtY0NiTnpMbjlQMnhnX3hLR2ZJQWs1Zm5XSHItMUpvM0kzcmcyOUhuUU55Z0hmVWdRU2tXSHp1empHOG8yOGg2T2NlRHB1VW1ObGJ0RXRnU0hTcHNnZ3JGcFM3NTBFUllqbEF1Zkc1V1FVLWp2bjFWZl81VU9IRHI1SDBWUktxOFlFNkV1ZlRZT2VNS1kxTnA1OHdfeDY1M3dHN0FjanFHQXRDTkNvVUcweDljVWd2ek1vOW_SAd8BQVVfeXFMUGE3c3FCZENwbFU5SWtzMEdLZGlJbVJ6LTdoN2ZRNjJSN1IyUzVkYkFzVUFDcndvaTFDaHIzS0RpMzFDNk5zYjBUWU50ck1rZnFpNHZLbmVndnU4dkgwY0FCSDNFWm0xS0tYcm8zb1dmTGYxVGFJcnc5M201TW42dkVsV2RIWG50NlREUGdfbHFocVZ1UzJNWklZemd0c1FHci11LXpZdEt2YlRTczdwdEgzblZTcGlqUGhqOU8wS0dBMkhhY0xQUHdRVTRxNU41S1ZqOTkzMUJ6aTBHQmxXYw?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOVG1ESGZzLWFZdUY4cDlzS3BlSjRSNlFjOXBhWlYzdnR2MTZmNDQzb0JTWm5kRWJwZ0YzeU93b3FrV3ViOUg2QV9POWxRcGttLTNHM1VfeFBfY3FEVWEzYXpDT1BRYVN4R0dXbHZQSEF5aWN5OWE0RDVmbVBWRVNnaXhHQl94U1dkcWNwLXJCWFdPV2pQUk1wd3JlaDR3NnFBSklMem9sZ0FsVmtFUjlNZkdNN21oSHJXTGVRSEhiZ3RfUGVCUEtzc0N3eW1KaGwwWWlkazhwREYtVzdvX2NTLVQxcC0ybTZKYkVsel9LenVtZmtRbzdSd2RB0gH_AUFVX3lxTE1hRVBKY3lBaFVJQnZoVElFaVhNRlFVOEVpbDRXTXhhUW1qT2xDN3FqalBrVlE2ODV4RGpEM2NPMkxPZXhDOTZ5dlJvRkJPMG12WXlwMkU4MVpPVGs1R0JoRy1rNUpCRXV2Z3YyUXVjYkhWWDhmakpELXpldFZhc0l5T29IM0NQRktacF93Tk12VTBMYzBHUHNCa3Z5blRxWmdYb1ZhQ0wwdGFQNnFmNXotaEVsYTZNdXlLdFQzcUd4aXQwa09Jdnk3Q1d0bVV3dV9qcFZsLWtIdXgyU2JsLTFfQ25BNnloemJVSll5RUZVYXNkTEhxOWJoY0pNeTRxRQ",
+        "https://news.google.com/rss/articles/CBMiggJBVV95cUxQTFVwWWNTSWVDT3pHLXIwenRSdC0yOVJ0bzNocFkwLUs0cHRuODVnZHF3M2luUTJ1RjQzNnR1cmRuU1NRSElEUzNXa3RuTTVXcWpkd2ZiMHZJNkdSYlB1eFNsWUsyZUFOWWdvTXlJbWg2Y3g5ODl6RENSRXBrbzhrWTNQTVc1YWlpQm5UcUYwN0YwdWc5bVpDa18zQjRBeFdEeTRYLXZNbVp3dWRsYW1TVXZUb05ZU1Q3aFExdV9TWFJEeDNRTHdSWFpadDVFRVQ5dm1pcWxsV2xlMm5lZkNvUk4xN2p0eXZta2lBX19ZNWV0bklXVnlQMlVJQ05nNGF4SUHSAYcCQVVfeXFMUDByY05STWxoNTVqSllvRHYwU1B6ekEzWVlpX08ybVU5Y1N1OEplMUd6eExpVzF2UFVjenAzM0dCOEpmQnRpTmZoU21lQ3JCVTJmcVc2MGl6WW1fRWNRSF9WLXE5eUx3cWtnRGtxbTRkR0xWa3U1OFNHenFSN2VudXZGOXNuMnpSeDFySVNOWjZlSU5nQUlWOW02VkdDT0VJUEFhc2tDTGh5WGVOYl9MUEJQTzl1OHhxTldMckZvaHl4Z3NJSjdLUlFyRThKamdWMEtrN0tQcFFLTHVna3Q0a0FGZVdOd3Y1ZFVTZmZOd0hYMkwwZTM2UjVXZ282RG1WTXFjTEJkOUU",
+        "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeFBMeUxxMXF1bUFVbGdQcW9PTEtFMHpvdThSYllxWXdDc2VyeTdfN0s4R3luclk3bl9zTmRDTnJLZ2plbUNsTklQWUExa08tbVR2QVMwaEhsc0Z4NlB1WHRXWUdZUjNXX1cwRzNlNTIxY1daa0NIUmFJUUtvT1lQVm9Zcnl4QUo1eE9BY1FQR01aVDB2WmRIdnhLMm5vMHlJY2V2LXlXU3I4Qm90bkM4dWpYdG94b0FwbkltSDZraUxaZnlZS1ZnUW5Mb9IB0AFBVV95cUxNbUpkazBja0N4emlUMEVRa3RTNjBnQzdHcmFFQ1A5b0RLbjdhb21nMFg0RUVfQmhTMk1BeGxUR1I1cXphRzUxTWFWWFl2NkplbU1DNFprVzBTVGdLN2dOQmEzazNJVno3dmtyRlFpa0E4U3ZkdV9jeVozU2VrcWpkX2tYRWNoWnFvWE1UQWpGblJCNUlNeG5Tb2xyZlNiekk4Vnl0aGY4eUMxWmpzeElBWEdtbXpaR3JjbHhGMTNIQWJ2NWtfb2NJRngyRUNwVWZt"
+      ],
+      "mergedIds": [
+        "orsi-se-reunio-con-pedro-sanchez-hablaron-del-comercio-entre-paises-con-el-acuer",
+        "orsi-se-reunio-con-pedro-sanchez-en-madrid-y-destaco-que-el-acuerdo-mercosur-ue",
+        "orsi-se-reunio-con-pedro-sanchez-el-acuerdo-entre-el-mercosur-y-la-union-europea"
+      ]
+    },
+    {
+      "id": "peru-mtc-convoca-a-concurso-publico-estudio-de-preinversion-para-proyecto-ferroc",
+      "datetime": "2026-11-16T17:30:44Z",
+      "date": "2026-11-16",
+      "firstSeen": "2026-11-16T19:36:31Z",
+      "title": "Perú: MTC convoca a concurso público estudio de preinversión para proyecto Ferrocarril Barranca-Trujillo",
+      "summary": "El Ministerio de Transportes y Comunicaciones de Perú (MTC) inició la convocatoria para el estudio de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Perú"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/peru-mtc-convoca-a-concurso-publico-estudio-de-preinversion-para-proyecto-ferrocarril-barranca-trujillo/",
+          "primary": true,
+          "author": "Gabriel"
+        }
+      ]
+    },
+    {
+      "id": "naviera-one-regresa-al-canal-de-suez-con-portacontenedores-de-8-110-teu",
+      "datetime": "2026-11-16T17:08:30Z",
+      "date": "2026-11-16",
+      "firstSeen": "2026-11-16T19:36:31Z",
+      "title": "Naviera ONE regresa al Canal de Suez con portacontenedores de 8.110 TEU",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Egipto"
+      ],
+      "tags": [
+        "Contenedores"
+      ],
+      "visual": "container",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Revista Digital Minera REDIMIN",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNTdpcUk1d0hKR0Y2ajlLSldkVTdObVdCai1RWVNZbk9xa3cxUjFwNEFleDZscjRtc1BtZEVOYTRiN0dITnZuQXEyOFdobWxYQ3BFakI5RU45NmVxR19kM2J3ME5TNW40N0R0R1drVzlsQlFUdFBBQm54NVRTRE1oRHBPaVVVWFhzRWNHb21DWDBtWnRCbGRfWk13?oc=5",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-16T19:36:31Z"
+    },
+    {
+      "id": "navieras-globales-elevan-seguros-y-vigilan-transito-petrolero-en-ormuz",
+      "datetime": "2026-11-16T17:01:50Z",
+      "date": "2026-11-16",
+      "firstSeen": "2026-11-16T19:36:31Z",
+      "title": "Navieras globales elevan seguros y vigilan tránsito petrolero en Ormuz",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Energía"
+      ],
+      "visual": "tanker",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "HSB Noticias",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNR2VzQ3RLRHoweE9xLVIxWFNZclNMRDFwa2VYR2lnREFMSElCLV8wLUdGanhYenBFdnJ4RGM4cVhqQ0hmNU93a2FjUE9qLWpOWVdyTzJnbUhDTGhvWXF6Rm91WWgzYl9wd3B0Nl8tVXdiU2JKTEhKb0RnTHdSU1NiczN3ZDA3Q0tzUE1URU4tM0RKUUozS0xEQWd0T2VUWXhUTXlyWkxR?oc=5",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-16T19:36:31Z"
+    },
+    {
+      "id": "via-brasil-gana-licitacion-por-corredor-logistico-que-conecta-produccion-agricol",
+      "datetime": "2026-11-16T16:18:42Z",
+      "date": "2026-11-16",
+      "firstSeen": "2026-11-16T19:36:31Z",
+      "title": "Via Brasil gana licitación por corredor logístico que conecta producción agrícola con puertos del Arco Norte",
+      "summary": "La concesionaria Via Brasil, perteneciente al Grupo Conasa, se adjudicó la licitación para la optimización de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Brasil"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/via-brasil-gana-licitacion-por-corredor-logistico-que-conecta-produccion-agricola-con-puertos-del-arco-norte/",
+          "primary": true,
+          "author": "admin"
+        }
+      ]
+    },
+    {
+      "id": "el-indice-del-baltico-cede-terreno-por-el-descenso-de-los-fletes-de-los-buques-c",
+      "datetime": "2026-11-16T16:11:50Z",
+      "date": "2026-11-16",
+      "firstSeen": "2026-11-16T19:36:31Z",
+      "title": "El índice del Báltico cede terreno por el descenso de los fletes de los buques capesize y panamax",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Transporte marítimo",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Panamá"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "MarketScreener España",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://es.marketscreener.com/noticias/el-ndice-del-b-ltico-cede-terreno-por-el-descenso-de-los-fletes-de-los-buques-capesize-y-panamax-ce785edfda8bf623",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-16T19:36:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPS08xZ3Q4SEtnNFRXVkZTRVpROUVLd3hFSkx3MEhtR19mb3RRM3l6Q1pxZ3pfS1JjNmxNd2EtQ1ItM0diTktFelh2a0lwRV9CNkxtSTFQQV9IOVVUU0FUZERhNUdCaTZOYTdEMks5VXVsbVpVamFGS1lndTNsUXNQemVVWXFqc1AzamE2ZUlQMmJnVUZfZ3ozYV9WMlNielBkZnBYYW9neDB0djB1b3k0OEJucUNlU3JEZW5Rd19tbnN2MXY2cGRzbklac1hESS1fdlpILVhyb19FOWdscGF4OWdsb3hQN2c?oc=5",
+      "digestSkip": {
+        "at": "2026-11-16T19:36:31Z",
+        "auto": "no-read",
+        "reason": "medio sin lectura automática (NO_READ_DOMAINS) y sin otro medio con la misma noticia"
+      }
+    },
+    {
+      "id": "el-petroleo-destrono-a-la-harina-de-soja-como-el-principal-producto-de-exportaci",
+      "datetime": "2026-11-16T14:42:07Z",
+      "date": "2026-11-16",
+      "firstSeen": "2026-11-16T19:36:31Z",
+      "title": "El petróleo destronó a la harina de soja como el principal producto de exportación de Argentina",
+      "summary": "Diario Primera Hora - Portal de Noticias - Goya - Corrientes - Argentina",
+      "body": [],
+      "keyData": [],
       "topics": [
         "Argentina",
-        "Importaciones",
-        "Regulaciones",
-        "Empresas"
+        "Exportaciones"
       ],
       "countries": [
         "Argentina"
       ],
       "tags": [
-        "RIGI",
-        "Decreto 1366/2026",
-        "Decreto 749/2024",
-        "Proveedores locales",
-        "Ley 27.742",
-        "PEELP",
-        "Compre local"
+        "Soja",
+        "Energía"
       ],
       "visual": "energy",
-      "impact": 2,
+      "impact": 1,
       "affectsArgentina": true,
-      "argentinaNote": "Cambia quién puede contarse como proveedor local de los proyectos RIGI, que tienen que destinar al menos 20% de su inversión a ese tipo de proveedores y que importan con beneficios aduaneros. Las filiales de empresas extranjeras radicadas en el país pasan a competir en esa categoría con las de capital nacional.",
-      "argentinaImpact": {
-        "change": "Para el RIGI, una persona jurídica es proveedor local si está constituida y domiciliada en el país, sin importar la nacionalidad de sus accionistas ni la composición de su capital; los bienes tienen que cumplir el criterio de origen del Mercosur.",
-        "who": "Proveedores de bienes y servicios de los grandes proyectos (minería, energía, infraestructura), filiales de empresas extranjeras radicadas en el país, industria de bienes de capital y vehículos de proyecto adheridos al RIGI.",
-        "sectors": [
-          "Minería",
-          "Petróleo y gas",
-          "Bienes de capital",
-          "Construcción e ingeniería"
-        ],
-        "flows": {
-          "importaciones": true,
-          "exportaciones": true,
-          "logistica": false,
-          "aranceles": false
-        }
-      },
-      "body": [
-        "El Gobierno modificó la reglamentación del Régimen de Incentivo para Grandes Inversiones (RIGI) con el Decreto 1366/2026, que salió en el Boletín Oficial el lunes 16 de noviembre y rige desde ese mismo día. Lo firmaron el 13 de noviembre el presidente Javier Milei, el jefe de Gabinete, Diego Santilli, y el ministro de Economía, Luis Caputo, y cambia cuatro artículos del Anexo I del Decreto 749/2024, que reglamenta el régimen creado por la Ley 27.742, según el texto que reproduce el sitio Contadores en Red.",
-        "El cambio más visible es la definición de proveedor local: a partir de ahora, una empresa cuenta como tal si está constituida y tiene domicilio en la Argentina, sin que importen la nacionalidad o la residencia de sus accionistas ni cómo está compuesto su capital. Ámbito y Noticias NQN lo resumieron como la habilitación de firmas con accionistas extranjeros para entrar en esa categoría.",
-        "## Quién cuenta como proveedor local",
-        "El nuevo inciso f del artículo 3 define como proveedores locales a las personas humanas con domicilio fiscal en el país y a las personas jurídicas constituidas y domiciliadas en la Argentina que presten servicios o vendan bienes a uno o más vehículos de proyecto (VPU) adheridos. Para los bienes, se exige que cumplan los criterios de origen nacional del Mercosur del Anexo I del ACE 18, y la autoridad de aplicación tiene que precisar la metodología.",
-        "Los considerandos explican que la experiencia de aplicación aconsejó ajustes puntuales y que el objetivo es favorecer que las empresas radicadas en el país se integren a las cadenas de suministro de los proyectos, de modo que el capital no sea por sí solo un impedimento. La regla anterior sí miraba a los dueños: en 2025, un especialista de EY explicaba a iProfesional que, para ser considerado local, un proveedor tenía que tener más de la mitad de su capital en manos argentinas.",
-        "## Por qué pesa en las compras de los proyectos",
-        "La definición importa porque el RIGI no limita las importaciones de los proyectos, que además tienen beneficios aduaneros, pero sí les pide destinar como mínimo 20% de la inversión a pagos a proveedores locales (artículo 49 del Decreto 749/2024, según El Cronista). El decreto no toca ese porcentaje: lo que cambia es quién puede sumarse para cumplirlo.",
-        "El tema venía en discusión. Como contó Comexplora el 10 de noviembre, un relevamiento de la cámara de bienes de capital CIPIBIC calculó que los proyectos aprobados importaron USD 542,2 millones hasta septiembre y que el 66,9% correspondía a posiciones arancelarias con producción nacional acreditada. Desde el lado crítico, Alejandro Rodríguez, director del Instituto Consenso Federal, sostuvo en Radio Altos, según Frente a Cano, que el cambio favorece a las multinacionales en el cupo pensado para la industria argentina y que se hizo sin pasar por el Congreso.",
-        "## Cesiones, fusiones y sucursales",
-        "El decreto reescribe también el artículo 62, sobre adquisiciones y reorganizaciones. Un VPU no puede comprar un proyecto que no esté en el RIGI, y una fusión entre dos o más proyectos adheridos necesita aprobación previa. Cualquier tercero puede comprar acciones de un VPU, pero esa compra no se computa como inversión en activos computables.",
-        "Los integrantes de una UTE u otro contrato asociativo pueden ceder total o parcialmente su participación o sumar socios: deben informarlo dentro de los 15 días corridos de inscripto el cambio en el Registro Público, y la autoridad de aplicación tiene 30 días corridos para observarlo; si no lo hace, queda aprobado. El cedente sigue respondiendo en forma solidaria. Las sucursales dedicadas, con autorización previa, pueden pasar el proyecto completo a una sociedad anónima o a una SAU, por escisión o por transferencia de fondo de comercio, sin que eso implique una nueva adhesión ni cambie la fecha de adhesión original.",
-        "## Divisas de exportación y plazo de inversión",
-        "El nuevo inciso c del artículo 100 se refiere a la facultad del Banco Central de condicionar el acceso al mercado de cambios de los VPU a los cobros de exportaciones. Ahora también se computan las divisas que ingresen como aportes o deudas externas de los socios de una UTE, de los accionistas directos o indirectos y de la casa matriz de una sucursal, en la proporción destinada al proyecto y con registro y trazabilidad. El texto aclara que esa condición no puede aplicarse a los pagos de intereses de deudas financieras ni a los dividendos.",
-        "El inciso i del artículo 47 fija ahora la fecha límite para que un VPU alcance el monto mínimo de inversión en activos computables y agrega que esa fecha no debe ser ajena a las prácticas del sector. Los considerandos vinculan el ajuste con los Proyectos de Exportación Estratégica de Largo Plazo (PEELP), cuyos compromisos se miden por etapas, aunque el artículo alcanza a todos los proyectos.",
-        "## Lo que no cambia",
-        "El decreto no modifica el plazo para adherir al régimen ni los montos mínimos por sector, que se habían ajustado con el Decreto 105/2026 de febrero, cuando la adhesión se extendió hasta el 8 de julio de 2027, según el estudio O'Farrell. Tampoco cambia el porcentaje mínimo de compras locales ni los beneficios aduaneros para importar bienes. Queda pendiente que la autoridad de aplicación precise cómo se acreditará el origen Mercosur de los bienes que vendan los proveedores locales."
-      ],
-      "keyData": [
-        [
-          "Norma",
-          "Decreto 1366/2026 (BO 16/11/2026, vigente desde la publicación)"
-        ],
-        [
-          "Modifica",
-          "Arts. 3 inc. f, 47 inc. i, 62 y 100 inc. c del Anexo I del Decreto 749/2024"
-        ],
-        [
-          "Proveedor local",
-          "Constituido y domiciliado en el país, sin importar el origen del capital"
-        ],
-        [
-          "Bienes",
-          "Criterio de origen Mercosur (ACE 18)"
-        ],
-        [
-          "Cesiones en UTE",
-          "Aviso en 15 días corridos; observación en 30 días"
-        ],
-        [
-          "Compromiso de compras locales",
-          "20% de la inversión (sin cambios)"
-        ],
-        [
-          "Importaciones RIGI a septiembre (CIPIBIC)",
-          "USD 542,2 M; 66,9% con producción local"
-        ]
-      ],
-      "explainer": {
-        "what": "El Decreto 1366/2026 cambió la reglamentación del RIGI: una empresa constituida y domiciliada en el país cuenta como proveedor local aunque sus accionistas sean extranjeros.",
-        "why": "Los proyectos del RIGI deben destinar al menos 20% de su inversión a proveedores locales; el decreto no cambia ese piso pero amplía quién puede cubrirlo, en medio del debate por los USD 542,2 millones que importaron hasta septiembre.",
-        "who": "Proveedores de bienes y servicios de grandes proyectos, filiales de empresas extranjeras radicadas en el país, fabricantes locales de bienes de capital y empresas adheridas al RIGI.",
-        "products": [
-          "Bienes de capital",
-          "Servicios de ingeniería y construcción",
-          "Equipos para minería y energía"
-        ],
-        "next": "La autoridad de aplicación tiene que precisar la metodología para acreditar el origen Mercosur de los bienes de los proveedores locales.",
-        "nextSource": {
-          "name": "Contadores en Red (texto del Decreto 1366/2026)",
-          "url": "https://contadoresenred.com/rigi-cambios-en-la-reglamentacion/"
-        }
-      },
-      "story": "energia-mineria",
-      "deadlines": [
-        {
-          "date": "2027-07-08",
-          "label": "RIGI: vence el plazo para adherir al régimen de grandes inversiones (prórroga del Decreto 105/2026)",
-          "url": "https://www.estudio-ofarrell.com/modificaciones-a-la-reglamentacion-regimen-de-incentivo-a-las-grandes-inversiones-rigi/"
-        }
-      ],
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
       "sources": [
         {
-          "name": "Contadores en Red (texto del Decreto 1366/2026)",
-          "type": "Medio especializado",
-          "url": "https://contadoresenred.com/rigi-cambios-en-la-reglamentacion/",
-          "primary": true
-        },
-        {
-          "name": "Ámbito",
-          "type": "Medio de comunicación",
-          "url": "https://www.ambito.com/energia/cambios-el-rigi-habilitan-algunas-empresas-extranjeras-como-proveedoras-locales-n6345529"
-        },
-        {
-          "name": "Noticias NQN",
-          "type": "Medio de comunicación",
-          "url": "https://www.noticiasnqn.com.ar/noticias/2026/11/16/360945-el-gobierno-modifico-el-rigi-y-amplio-quienes-pueden-ser-proveedores-locales"
-        },
-        {
-          "name": "Primera Edición",
-          "type": "Medio de comunicación",
-          "url": "https://www.primeraedicion.com.ar/nota/101160615/rigi-modifican-criterios-para-definir-a-proveedores-locales/"
-        },
-        {
-          "name": "Frente a Cano: la crítica de Alejandro Rodríguez",
-          "type": "Medio de comunicación",
-          "url": "https://frenteacano.com.ar/acusan-a-milei-de-alterar-discrecionalmente-las-reglas-del-rigi/"
-        },
-        {
-          "name": "iProfesional (2025): proveedores locales y capital",
-          "type": "Medio de comunicación",
-          "url": "https://www.iprofesional.com/impuestos/423265-rigi-que-certificaran-pymes-proveedores-locales"
-        },
-        {
-          "name": "Estudio O'Farrell: Decreto 105/2026",
-          "type": "Estudio jurídico",
-          "url": "https://www.estudio-ofarrell.com/modificaciones-a-la-reglamentacion-regimen-de-incentivo-a-las-grandes-inversiones-rigi/"
+          "name": "Diario Primera Hora",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.diarioprimerahora.com/nacionales/112336-el-petroleo-destrono-a-la-harina-de-soja-como-el-principal-producto-de-exportacion-de-argentina",
+          "primary": true,
+          "author": ""
         }
+      ],
+      "gnTried": "2026-11-16T19:36:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYllhQ3phR0c0eGdicFRNZ0ZmVS1hdmYyWTM2dHpJazVpbTF0TGZmelRnckhuNW54dWJONkhWUjV3Yk8yVWVoZHRfREs2OUw4OG1Tejc1TXRWMHZ2U2d2TTEtSUJqX0hGR1dLcHdSZXM0c296eF9RNUlCVlFGWHdSMklHajhBaG11eHNnNEh3N0psZkdUTEVsbm5VMUtJeGZzaW1KcGJBU0dlbVdqdmZmMDB2dDRkUzVha0Z2VFRhY0dQd1dadTVfNHNzOUgzYVIzQVh2dDZYOUhUWGpZdzZKVA?oc=5"
+    },
+    {
+      "id": "las-exportaciones-de-argentina-cambiaron-de-lider-el-petroleo-supero-a-la-harina",
+      "datetime": "2026-11-16T12:48:40Z",
+      "date": "2026-11-16",
+      "firstSeen": "2026-11-16T19:36:31Z",
+      "title": "Las exportaciones de Argentina cambiaron de líder: el petróleo superó a la harina de soja",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Soja",
+        "Energía"
+      ],
+      "visual": "energy",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "elonce.com",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdTRyeUFkamJNd0EwdExXa3VCRElFOGVpLTJLV01tUTR3X3lkLVpSX0pUNDN4M1hkMFFWeWcxcktNNkpVNjdEUHE2QmVpQnB3TEU4eWNpamxmcm02OGtueTdITk91TDNWU3hsWHRjUkM1Yl9JU0xJZkl5RHg1elR3T2hKRTB4eGxVc3ZvWXZlZDJsR1NaTU5BOHlPQXF6c0N0UFRYdVNFbUNmSUtNalZCOHdIRDJUZUhTZHc00gG7AUFVX3lxTE51NHJ5QWRqYk13QTB0TFdrdUJESUU4ZWktMktXTW1RNHdfeWQtWlJfSlQ0M3gzWGQwUVZ5ZzFyS002SlU2N0RQcTZCZWlCcHdMRTh5Y2lqbGZybTY4a255N0hOT3VMM1ZTeGxYdGNSQzViX0lTTElmSXlEeDV6VHdPaEpFMHh4bFVzdm9ZdmVkMmxHU1pNTkE4eU9BcXpzQ3RQVFh1U0VtQ2ZJS01qVkI4d0hEMlRlSFNkdzQ?oc=5",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-16T19:36:31Z"
+    },
+    {
+      "id": "un-real-mas-debil-complica-al-agro-argentino-brasil-gana-terreno-en-la-carrera-e",
+      "datetime": "2026-11-16T12:09:00Z",
+      "date": "2026-11-16",
+      "firstSeen": "2026-11-16T19:36:31Z",
+      "title": "Un real más débil complica al agro argentino: Brasil gana terreno en la carrera exportadora",
+      "summary": "La depreciación del real brasileño modifica los precios relativos en la región y comienza a generar preocupación entre los sectores exportadores argentinos",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil"
+      ],
+      "tags": [
+        "Agro"
+      ],
+      "visual": "agro",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Rosario3",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.rosario3.com/ecos365/noticias/Un-real-mas-debil-complica-al-agro-argentino-Brasil-gana-terreno-en-la-carrera-exportadora-20261116-0006.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-16T19:36:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZWJDUmlaWXZiVk1QWnlHVWhpVGJMa3d3RW14TkR0djlVMlV2RUZQRXhoRWhhMEhqQjFkYkNoZS1ZVy16OUg5WlI3UzhyVFYxMkliZzVjZ2ZKZWRXQk9BYnpQODZuTXBwLUFFVVFpUjBzOHdGbmpQRk5aSTlaWHZJWXdPdGVWX28wUmdhS0x4Q2FpZ3lDams3ZUNLalcydmtZalJsdkZxd2tjdndxeEFmR0x1U040blBnS2R2RlNCUmlDN19nUXRJRUF5enpadFpSZ0hwUnE1R3RYVklvM3Y0RDl5c01jZw?oc=5"
+    },
+    {
+      "id": "vaca-muerta-impulsa-un-cambio-historico-argentina-ya-exporta-mas-petroleo-que-ha",
+      "datetime": "2026-11-16T11:20:02Z",
+      "date": "2026-11-16",
+      "firstSeen": "2026-11-16T19:36:31Z",
+      "title": "Vaca Muerta impulsa un cambio histórico: Argentina ya exporta más petróleo que harina de soja",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Soja",
+        "Energía"
+      ],
+      "visual": "energy",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "Alerta Digital",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNeW5QM0tmQTl2NXRfQjJRUG1YWDdqV2FKdEpnTHJ4RDYzMHpSWWk5UzJHMGNsQ0lQZ3pjMGlkcGpWbnA3Sl9UMi1lcmFWRDczbnpwRHlSV0NEZVNoVkRLVkEtallNLVMyUTRkOEpqMkc0VzlESnR0T3RYeTZQeWtWcXdIRy02NGNRbHBxQzBtcy1BUDFabFJHN2pYdmE2eVpSWnZlUndZUENaeVdLc2h2R1FvVnpGcTE1MkFqYzZrZWVKcWp2ZzJWaXE3bzJnZzdvRHlIM2dXd0Q5WTFRUlRPU0NOZ0hpQUHSAecBQVVfeXFMTXluUDNLZkE5djV0X0IyUVBtWFg3aldhSnRKZ0xyeEQ2MzB6UllpOVMyRzBjbENJUGd6YzBpZHBqVm5wN0pfVDItZXJhVkQ3M256cER5UldDRGVTaFZES1ZBLWpZTS1TMlE0ZDhKajJHNFc5REp0dE90WHk2UHlrVnF3SEctNjRjUWxwcUMwbXMtQVAxWmxSRzdqWHZhNnlaUlp2ZVJ3WVBDWnlXS3NodkdRb1Z6RnExNTJBamM2a2VlSnFqdmcyVmlxN28yZ2c3b0R5SDNnV3dEOVkxUVJUT1NDTmdIaUFB?oc=5",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Minuto Neuquén",
+          "type": "También publicó esta noticia",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNQXJGNzg1cHItYm9Qc3RvOXptM0dVUDBvQ0ZCOFRVYlQxdDVLY2E2ODY3SWNkWVlPUEtKeHhqdjJlX2o0enU2MmxnaTJHNHR1QklPWGVHNU5rZWlVakVKWmlUenYxWmJCWFF0akw5b1JnNEdWbnVzS0FrWTdlb0dVUmtwX0lwS3Ntenl0Z0R1NDkxeXZhRVo3NF9xQ0hsZHNSWmEwV09mcXpQa0wyMGRQbnVORFJHSGUwLXR5VmlKQ25FUU0wdlJtRnFiUDB5dWgwcWpOU3dTN2RIdTZ5UkRVMU9HWEZ1bDR4VThOTGdodDA0ZlVO?oc=5",
+          "alsoIn": true,
+          "title": "Récord histórico: el petróleo superó a la harina de soja y pasó a liderar las exportaciones argentinas"
+        },
+        {
+          "name": "qpasó",
+          "type": "También publicó esta noticia",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRTQybXJVU29hSmdIOTF1Mk9iYXJLZVVwcWNndTBJRDAySXlfTnVNUEhJRXZQVTVVUndmNWwyZmplZ2VRcFlDdWJWZDVCdk50b3I4c1h3Z251aTlKekFYYm9mOVFycTE2SE5GdlhfcnlkckVKaHF2Z1QyUWp3Z1VXSzNpY2prN2paaFlSV2dQTkM2LXZzOWIxcWpzNkVFR3VGTUR3YnlRWkR0c0NLVEgzcVBQR0FqQ1hMWUJWRmZ4d0VfSUVhR3lVUXZfdEJlNWxGckNZ?oc=5",
+          "alsoIn": true,
+          "title": "El petróleo superó a la harina de soja y se convirtió en el principal producto de exportación de Argentina"
+        }
+      ],
+      "gnTried": "2026-11-16T19:36:31Z",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRTQybXJVU29hSmdIOTF1Mk9iYXJLZVVwcWNndTBJRDAySXlfTnVNUEhJRXZQVTVVUndmNWwyZmplZ2VRcFlDdWJWZDVCdk50b3I4c1h3Z251aTlKekFYYm9mOVFycTE2SE5GdlhfcnlkckVKaHF2Z1QyUWp3Z1VXSzNpY2prN2paaFlSV2dQTkM2LXZzOWIxcWpzNkVFR3VGTUR3YnlRWkR0c0NLVEgzcVBQR0FqQ1hMWUJWRmZ4d0VfSUVhR3lVUXZfdEJlNWxGckNZ",
+        "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNQXJGNzg1cHItYm9Qc3RvOXptM0dVUDBvQ0ZCOFRVYlQxdDVLY2E2ODY3SWNkWVlPUEtKeHhqdjJlX2o0enU2MmxnaTJHNHR1QklPWGVHNU5rZWlVakVKWmlUenYxWmJCWFF0akw5b1JnNEdWbnVzS0FrWTdlb0dVUmtwX0lwS3Ntenl0Z0R1NDkxeXZhRVo3NF9xQ0hsZHNSWmEwV09mcXpQa0wyMGRQbnVORFJHSGUwLXR5VmlKQ25FUU0wdlJtRnFiUDB5dWgwcWpOU3dTN2RIdTZ5UkRVMU9HWEZ1bDR4VThOTGdodDA0ZlVO"
+      ],
+      "mergedIds": [
+        "record-historico-el-petroleo-supero-a-la-harina-de-soja-y-paso-a-liderar-las-exp",
+        "el-petroleo-supero-a-la-harina-de-soja-y-se-convirtio-en-el-principal-producto-d"
       ]
     },
     {
@@ -1315,13 +1708,16 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Aranceles",
         "Logística",
         "Transporte marítimo"
       ],
       "countries": [
         "Global"
       ],
-      "tags": [],
+      "tags": [
+        "Aranceles"
+      ],
       "visual": "parcel",
       "impact": 1,
       "affectsArgentina": false,
@@ -1391,6 +1787,160 @@
       }
     },
     {
+      "id": "decreto-1366-2026-rigi-proveedor-local-capital-extranjero-ute-cesiones-divisas",
+      "date": "2026-11-16",
+      "kind": "noticia",
+      "title": "RIGI: el Decreto 1366/2026 deja de mirar el origen del capital para definir quién es proveedor local",
+      "summary": "El Gobierno cambió la reglamentación del régimen de grandes inversiones: una empresa constituida y domiciliada en el país cuenta como proveedor local aunque sus accionistas sean extranjeros. También flexibiliza la cesión de participaciones en UTE, el paso de sucursales a sociedades y el cómputo de divisas para cobros de exportación.",
+      "topics": [
+        "Argentina",
+        "Importaciones",
+        "Regulaciones",
+        "Empresas"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "RIGI",
+        "Decreto 1366/2026",
+        "Decreto 749/2024",
+        "Proveedores locales",
+        "Ley 27.742",
+        "PEELP",
+        "Compre local"
+      ],
+      "visual": "energy",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "Cambia quién puede contarse como proveedor local de los proyectos RIGI, que tienen que destinar al menos 20% de su inversión a ese tipo de proveedores y que importan con beneficios aduaneros. Las filiales de empresas extranjeras radicadas en el país pasan a competir en esa categoría con las de capital nacional.",
+      "argentinaImpact": {
+        "change": "Para el RIGI, una persona jurídica es proveedor local si está constituida y domiciliada en el país, sin importar la nacionalidad de sus accionistas ni la composición de su capital; los bienes tienen que cumplir el criterio de origen del Mercosur.",
+        "who": "Proveedores de bienes y servicios de los grandes proyectos (minería, energía, infraestructura), filiales de empresas extranjeras radicadas en el país, industria de bienes de capital y vehículos de proyecto adheridos al RIGI.",
+        "sectors": [
+          "Minería",
+          "Petróleo y gas",
+          "Bienes de capital",
+          "Construcción e ingeniería"
+        ],
+        "flows": {
+          "importaciones": true,
+          "exportaciones": true,
+          "logistica": false,
+          "aranceles": false
+        }
+      },
+      "body": [
+        "El Gobierno modificó la reglamentación del Régimen de Incentivo para Grandes Inversiones (RIGI) con el Decreto 1366/2026, que salió en el Boletín Oficial el lunes 16 de noviembre y rige desde ese mismo día. Lo firmaron el 13 de noviembre el presidente Javier Milei, el jefe de Gabinete, Diego Santilli, y el ministro de Economía, Luis Caputo, y cambia cuatro artículos del Anexo I del Decreto 749/2024, que reglamenta el régimen creado por la Ley 27.742, según el texto que reproduce el sitio Contadores en Red.",
+        "El cambio más visible es la definición de proveedor local: a partir de ahora, una empresa cuenta como tal si está constituida y tiene domicilio en la Argentina, sin que importen la nacionalidad o la residencia de sus accionistas ni cómo está compuesto su capital. Ámbito y Noticias NQN lo resumieron como la habilitación de firmas con accionistas extranjeros para entrar en esa categoría.",
+        "## Quién cuenta como proveedor local",
+        "El nuevo inciso f del artículo 3 define como proveedores locales a las personas humanas con domicilio fiscal en el país y a las personas jurídicas constituidas y domiciliadas en la Argentina que presten servicios o vendan bienes a uno o más vehículos de proyecto (VPU) adheridos. Para los bienes, se exige que cumplan los criterios de origen nacional del Mercosur del Anexo I del ACE 18, y la autoridad de aplicación tiene que precisar la metodología.",
+        "Los considerandos explican que la experiencia de aplicación aconsejó ajustes puntuales y que el objetivo es favorecer que las empresas radicadas en el país se integren a las cadenas de suministro de los proyectos, de modo que el capital no sea por sí solo un impedimento. La regla anterior sí miraba a los dueños: en 2025, un especialista de EY explicaba a iProfesional que, para ser considerado local, un proveedor tenía que tener más de la mitad de su capital en manos argentinas.",
+        "## Por qué pesa en las compras de los proyectos",
+        "La definición importa porque el RIGI no limita las importaciones de los proyectos, que además tienen beneficios aduaneros, pero sí les pide destinar como mínimo 20% de la inversión a pagos a proveedores locales (artículo 49 del Decreto 749/2024, según El Cronista). El decreto no toca ese porcentaje: lo que cambia es quién puede sumarse para cumplirlo.",
+        "El tema venía en discusión. Como contó Comexplora el 10 de noviembre, un relevamiento de la cámara de bienes de capital CIPIBIC calculó que los proyectos aprobados importaron USD 542,2 millones hasta septiembre y que el 66,9% correspondía a posiciones arancelarias con producción nacional acreditada. Desde el lado crítico, Alejandro Rodríguez, director del Instituto Consenso Federal, sostuvo en Radio Altos, según Frente a Cano, que el cambio favorece a las multinacionales en el cupo pensado para la industria argentina y que se hizo sin pasar por el Congreso.",
+        "## Cesiones, fusiones y sucursales",
+        "El decreto reescribe también el artículo 62, sobre adquisiciones y reorganizaciones. Un VPU no puede comprar un proyecto que no esté en el RIGI, y una fusión entre dos o más proyectos adheridos necesita aprobación previa. Cualquier tercero puede comprar acciones de un VPU, pero esa compra no se computa como inversión en activos computables.",
+        "Los integrantes de una UTE u otro contrato asociativo pueden ceder total o parcialmente su participación o sumar socios: deben informarlo dentro de los 15 días corridos de inscripto el cambio en el Registro Público, y la autoridad de aplicación tiene 30 días corridos para observarlo; si no lo hace, queda aprobado. El cedente sigue respondiendo en forma solidaria. Las sucursales dedicadas, con autorización previa, pueden pasar el proyecto completo a una sociedad anónima o a una SAU, por escisión o por transferencia de fondo de comercio, sin que eso implique una nueva adhesión ni cambie la fecha de adhesión original.",
+        "## Divisas de exportación y plazo de inversión",
+        "El nuevo inciso c del artículo 100 se refiere a la facultad del Banco Central de condicionar el acceso al mercado de cambios de los VPU a los cobros de exportaciones. Ahora también se computan las divisas que ingresen como aportes o deudas externas de los socios de una UTE, de los accionistas directos o indirectos y de la casa matriz de una sucursal, en la proporción destinada al proyecto y con registro y trazabilidad. El texto aclara que esa condición no puede aplicarse a los pagos de intereses de deudas financieras ni a los dividendos.",
+        "El inciso i del artículo 47 fija ahora la fecha límite para que un VPU alcance el monto mínimo de inversión en activos computables y agrega que esa fecha no debe ser ajena a las prácticas del sector. Los considerandos vinculan el ajuste con los Proyectos de Exportación Estratégica de Largo Plazo (PEELP), cuyos compromisos se miden por etapas, aunque el artículo alcanza a todos los proyectos.",
+        "## Lo que no cambia",
+        "El decreto no modifica el plazo para adherir al régimen ni los montos mínimos por sector, que se habían ajustado con el Decreto 105/2026 de febrero, cuando la adhesión se extendió hasta el 8 de julio de 2027, según el estudio O'Farrell. Tampoco cambia el porcentaje mínimo de compras locales ni los beneficios aduaneros para importar bienes. Queda pendiente que la autoridad de aplicación precise cómo se acreditará el origen Mercosur de los bienes que vendan los proveedores locales."
+      ],
+      "keyData": [
+        [
+          "Norma",
+          "Decreto 1366/2026 (BO 16/11/2026, vigente desde la publicación)"
+        ],
+        [
+          "Modifica",
+          "Arts. 3 inc. f, 47 inc. i, 62 y 100 inc. c del Anexo I del Decreto 749/2024"
+        ],
+        [
+          "Proveedor local",
+          "Constituido y domiciliado en el país, sin importar el origen del capital"
+        ],
+        [
+          "Bienes",
+          "Criterio de origen Mercosur (ACE 18)"
+        ],
+        [
+          "Cesiones en UTE",
+          "Aviso en 15 días corridos; observación en 30 días"
+        ],
+        [
+          "Compromiso de compras locales",
+          "20% de la inversión (sin cambios)"
+        ],
+        [
+          "Importaciones RIGI a septiembre (CIPIBIC)",
+          "USD 542,2 M; 66,9% con producción local"
+        ]
+      ],
+      "explainer": {
+        "what": "El Decreto 1366/2026 cambió la reglamentación del RIGI: una empresa constituida y domiciliada en el país cuenta como proveedor local aunque sus accionistas sean extranjeros.",
+        "why": "Los proyectos del RIGI deben destinar al menos 20% de su inversión a proveedores locales; el decreto no cambia ese piso pero amplía quién puede cubrirlo, en medio del debate por los USD 542,2 millones que importaron hasta septiembre.",
+        "who": "Proveedores de bienes y servicios de grandes proyectos, filiales de empresas extranjeras radicadas en el país, fabricantes locales de bienes de capital y empresas adheridas al RIGI.",
+        "products": [
+          "Bienes de capital",
+          "Servicios de ingeniería y construcción",
+          "Equipos para minería y energía"
+        ],
+        "next": "La autoridad de aplicación tiene que precisar la metodología para acreditar el origen Mercosur de los bienes de los proveedores locales.",
+        "nextSource": {
+          "name": "Contadores en Red (texto del Decreto 1366/2026)",
+          "url": "https://contadoresenred.com/rigi-cambios-en-la-reglamentacion/"
+        }
+      },
+      "story": "energia-mineria",
+      "deadlines": [
+        {
+          "date": "2027-07-08",
+          "label": "RIGI: vence el plazo para adherir al régimen de grandes inversiones (prórroga del Decreto 105/2026)",
+          "url": "https://www.estudio-ofarrell.com/modificaciones-a-la-reglamentacion-regimen-de-incentivo-a-las-grandes-inversiones-rigi/"
+        }
+      ],
+      "sources": [
+        {
+          "name": "Contadores en Red (texto del Decreto 1366/2026)",
+          "type": "Medio especializado",
+          "url": "https://contadoresenred.com/rigi-cambios-en-la-reglamentacion/",
+          "primary": true
+        },
+        {
+          "name": "Ámbito",
+          "type": "Medio de comunicación",
+          "url": "https://www.ambito.com/energia/cambios-el-rigi-habilitan-algunas-empresas-extranjeras-como-proveedoras-locales-n6345529"
+        },
+        {
+          "name": "Noticias NQN",
+          "type": "Medio de comunicación",
+          "url": "https://www.noticiasnqn.com.ar/noticias/2026/11/16/360945-el-gobierno-modifico-el-rigi-y-amplio-quienes-pueden-ser-proveedores-locales"
+        },
+        {
+          "name": "Primera Edición",
+          "type": "Medio de comunicación",
+          "url": "https://www.primeraedicion.com.ar/nota/101160615/rigi-modifican-criterios-para-definir-a-proveedores-locales/"
+        },
+        {
+          "name": "Frente a Cano: la crítica de Alejandro Rodríguez",
+          "type": "Medio de comunicación",
+          "url": "https://frenteacano.com.ar/acusan-a-milei-de-alterar-discrecionalmente-las-reglas-del-rigi/"
+        },
+        {
+          "name": "iProfesional (2025): proveedores locales y capital",
+          "type": "Medio de comunicación",
+          "url": "https://www.iprofesional.com/impuestos/423265-rigi-que-certificaran-pymes-proveedores-locales"
+        },
+        {
+          "name": "Estudio O'Farrell: Decreto 105/2026",
+          "type": "Estudio jurídico",
+          "url": "https://www.estudio-ofarrell.com/modificaciones-a-la-reglamentacion-regimen-de-incentivo-a-las-grandes-inversiones-rigi/"
+        }
+      ]
+    },
+    {
       "id": "derriban-aranceles-carga-aerea-mexico-china",
       "datetime": "2026-11-16T02:55:00Z",
       "date": "2026-11-15",
@@ -1400,11 +1950,11 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Importaciones",
         "Aranceles",
         "Transporte aéreo",
         "Latinoamérica",
-        "China",
-        "Asia"
+        "China"
       ],
       "countries": [
         "México",
@@ -1448,6 +1998,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Importaciones"
       ],
       "countries": [
@@ -1489,13 +2040,17 @@
       "keyData": [],
       "topics": [
         "Aranceles",
-        "Latinoamérica"
+        "Latinoamérica",
+        "China",
+        "Asia"
       ],
       "countries": [
-        "México"
+        "México",
+        "China"
       ],
       "tags": [
-        "Aranceles"
+        "Aranceles",
+        "China"
       ],
       "visual": "tech",
       "impact": 1,
@@ -1659,6 +2214,137 @@
         "retry": true,
         "tries": 3
       }
+    },
+    {
+      "id": "bcr-exportaciones-agro-enero-octubre-2026-101-millones-toneladas-record",
+      "date": "2026-11-15",
+      "datetime": "2026-11-15T19:59:00-03:00",
+      "kind": "datos",
+      "title": "La agroindustria superó por primera vez los 100 millones de toneladas exportadas en diez meses, según la BCR",
+      "summary": "Entre enero y octubre salieron más de 101 millones de toneladas de granos y subproductos, unas 10 millones más que el récord previo para el período. Maíz, trigo, girasol y aceite de soja explican el salto; el crudo ya superó a la harina de soja en dólares.",
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Economía internacional"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Granos",
+        "Maíz",
+        "Trigo",
+        "Soja",
+        "Girasol",
+        "BCR",
+        "Agroexportación"
+      ],
+      "visual": "grain",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "Confirma que 2026 es un año récord en volumen para la exportación agroindustrial, aunque en dólares el liderazgo de la harina de soja pasó al petróleo crudo.",
+      "argentinaImpact": {
+        "change": "Las exportaciones de granos y subproductos superaron por primera vez los 100 millones de toneladas en diez meses.",
+        "who": "Exportadores de granos, aceiteras, acopiadores, transportistas y terminales portuarias.",
+        "sectors": [
+          "Agroindustria",
+          "Logística portuaria"
+        ],
+        "flows": {
+          "importaciones": false,
+          "exportaciones": true,
+          "logistica": true,
+          "aranceles": false
+        }
+      },
+      "body": [
+        "La Argentina exportó más de 101 millones de toneladas (Mt) de granos y subproductos entre enero y octubre de 2026, según un informe de la Bolsa de Comercio de Rosario (BCR) que difundieron Infobae, Economis e Informe Digital. Es la primera vez que la serie supera los 100 Mt en ese período: el volumen queda unos 10 Mt por encima del récord previo y 13% arriba del año anterior.",
+        "El dato sigue la línea del informe de la BCR que Comexplora reseñó el 9 de octubre, cuando el acumulado a septiembre rondaba los 88,9 Mt, casi 10% más que en 2025, con trigo y girasol muy por encima del promedio y un segundo semestre fuerte para el maíz y la harina de soja.",
+        "## Los productos",
+        "El maíz es el principal aporte: unos 37,1 Mt en diez meses, 8,7 Mt más que en igual período. Las fuentes no coinciden en el año de comparación: Infobae e Informe Digital mencionan 2024, mientras Economis lo compara con el año pasado. Según la agencia marítima NABSA, citada por Economis, en octubre se embarcaron 3,97 Mt del cereal, el valor más alto para ese mes.",
+        "El trigo sumó 14,5 Mt exportadas, 45% más que un año antes, y el complejo girasol superó los 6,7 Mt, más del doble del promedio de las últimas campañas. En el complejo soja, los envíos de octubre crecieron 14% frente a septiembre: el poroto llegó a 1,2 Mt, el segundo valor del año, y el aceite superó las 544.900 toneladas, 30% más de lo habitual para la fecha. En diez meses, el aceite de soja acumula más de 5,1 Mt, 15% por encima del promedio de cinco años.",
+        "## Toneladas y dólares",
+        "El informe mide volumen y no valor. En dólares, el liderazgo cambió de manos: según Infobae e Informe Digital, el petróleo crudo exportó USD 7.753 millones entre enero y septiembre, 58,6% más que un año antes, y desplazó a la harina de soja, que sumó USD 6.971 millones, con una suba de 7,4%. El monto del crudo coincide con el que informó El Economista a partir de la consultora Economía y Energía.",
+        "En la comercialización interna, la Secretaría de Agricultura registraba hasta la semana del 4 de noviembre negocios por más de 110,4 Mt de soja, maíz, trigo, girasol y sorgo, 14% más que un año antes, según Informe Digital.",
+        "## Los precios",
+        "Economis agrega el contexto de mercado que acompaña al informe. El reporte WASDE de noviembre del Departamento de Agricultura de EE.UU. subió en 2 Mt, a 40 Mt, la proyección de exportaciones argentinas de maíz para 2026/27, y el cereal cotizaba en Chicago cerca de USD 176 por tonelada, 18% debajo del máximo de fines de septiembre; en el mercado local, la pizarra rondó los USD 180. En trigo, las proyecciones de exportación conjunta de Rusia y Ucrania para 2026/27 bajaron de 62 a 50,5 Mt entre julio y noviembre.",
+        "Las fuentes no informan el volumen proyectado para el año completo ni cuánto aportó cada puerto. La cifra total es una estimación de la BCR sobre embarques de granos y subproductos, no un dato oficial del INDEC."
+      ],
+      "keyData": [
+        [
+          "Exportaciones enero–octubre",
+          "Más de 101 Mt de granos y subproductos"
+        ],
+        [
+          "Frente al récord previo",
+          "Unos +10 Mt (+13% interanual)"
+        ],
+        [
+          "Maíz",
+          "≈ 37,1 Mt (+8,7 Mt)"
+        ],
+        [
+          "Trigo",
+          "14,5 Mt (+45%)"
+        ],
+        [
+          "Complejo girasol",
+          "Más de 6,7 Mt"
+        ],
+        [
+          "Aceite de soja",
+          "Más de 5,1 Mt (+15% sobre el promedio de 5 años)"
+        ],
+        [
+          "Crudo vs. harina de soja (ene–sep, USD)",
+          "7.753 M (+58,6%) vs. 6.971 M (+7,4%)"
+        ]
+      ],
+      "explainer": {
+        "what": "La Argentina exportó más de 101 millones de toneladas de granos y subproductos entre enero y octubre de 2026, un récord según la Bolsa de Comercio de Rosario.",
+        "why": "Es la primera vez que se superan los 100 millones de toneladas en diez meses, unos 10 millones más que el récord previo, con maíz, trigo, girasol y aceite de soja como motores.",
+        "who": "Exportadores y acopiadores de granos, aceiteras, transportistas y terminales portuarias.",
+        "products": [
+          "Maíz",
+          "Trigo",
+          "Girasol",
+          "Poroto de soja",
+          "Aceite de soja",
+          "Harina de soja"
+        ],
+        "next": "El WASDE de noviembre elevó a 40 millones de toneladas la proyección de exportaciones argentinas de maíz para 2026/27.",
+        "nextSource": {
+          "name": "Economis",
+          "url": "https://economis.com.ar/exportaciones-agroindustriales-superaron-las-100-millones-de-toneladas/"
+        }
+      },
+      "story": "agroexportacion",
+      "absorbs": [
+        "rompiendo-la-barrera-de-las-100-mt-las-exportaciones-agro-argentinas-hacen-histo"
+      ],
+      "sources": [
+        {
+          "name": "Infobae",
+          "type": "Medio de comunicación",
+          "url": "https://www.infobae.com/economia/2026/11/15/record-historico-de-las-exportaciones-del-agro-en-diez-meses-superaron-los-100-millones-de-toneladas/",
+          "primary": true
+        },
+        {
+          "name": "Economis",
+          "type": "Medio especializado",
+          "url": "https://economis.com.ar/exportaciones-agroindustriales-superaron-las-100-millones-de-toneladas/"
+        },
+        {
+          "name": "Informe Digital",
+          "type": "Medio de comunicación",
+          "url": "https://informedigital.com.ar/el-agro-marco-un-record-y-supero-las-101-millones-de-toneladas/"
+        },
+        {
+          "name": "El Economista: exportaciones de petróleo (Economía y Energía)",
+          "type": "Medio de comunicación",
+          "url": "https://eleconomista.com.ar/energia/ormuz-le-dio-mas-dolares-petroleo-argentino-pero-gas-sigue-siendo-cuenta-pendiente-n99399"
+        }
+      ]
     },
     {
       "id": "buque-zarpa-desde-puerto-de-matamoros-rumbo-a-brasil-con-2-mil-toneladas-de-trif",
@@ -2170,13 +2856,18 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Aranceles"
+        "Aranceles",
+        "Impuestos",
+        "Latinoamérica",
+        "Estados Unidos"
       ],
       "countries": [
-        "Global"
+        "México",
+        "Estados Unidos"
       ],
       "tags": [
-        "Aranceles"
+        "Aranceles",
+        "Estados Unidos"
       ],
       "visual": "customs",
       "impact": 1,
@@ -3627,6 +4318,13 @@
           "url": "https://www.ellitoral.com/puerto-negocios/harinadesoja-superavitenergetico-petroleocrudo-exportaciones-vacamuerta-bcra-brent-balanzacomercial_0_IQBnH1mxUt.html",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Ruralnet",
+          "type": "También publicó esta noticia",
+          "url": "https://ruralnet.com.ar/petroleo-lider-exportaciones-argentinas/",
+          "alsoIn": true,
+          "title": "El petróleo lidera las exportaciones argentinas"
         }
       ],
       "gnTried": "2026-11-14T17:07:54Z",
@@ -3634,7 +4332,14 @@
       "digestSkip": {
         "at": "2026-11-14T15:30:00-03:00",
         "reason": "repite el mismo hecho que la nota de Infobae (petróleo desplaza a la harina de soja, US$ 7.753 millones)"
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMickFVX3lxTE9lZk4yNjF4bmlUbzZzcHhDakpkMFJpcXZwNHBaNUg0S0k1TlRJcVVyNXNQT2RsS25GOVdCME56RVFvNDhNMzFTd1N6S1RVWmQ5dEJ4YU1sYzNUMy1WRjVKUXFmTGROcHRjb3UyNFpxaGJrdw",
+        "https://ruralnet.com.ar/petroleo-lider-exportaciones-argentinas"
+      ],
+      "mergedIds": [
+        "el-petroleo-lidera-las-exportaciones-argentinas"
+      ]
     },
     {
       "id": "las-exportaciones-de-petroleo-marcan-un-hito-en-el-comercio-argentino",
@@ -3925,52 +4630,6 @@
         "reason": "no se encontró una versión legible",
         "retry": true,
         "tries": 3
-      }
-    },
-    {
-      "id": "rompiendo-la-barrera-de-las-100-mt-las-exportaciones-agro-argentinas-hacen-histo",
-      "datetime": "2026-11-14T12:45:31Z",
-      "date": "2026-11-14",
-      "firstSeen": "2026-11-14T21:29:50Z",
-      "title": "Rompiendo la barrera de las 100 Mt: las exportaciones agro argentinas hacen historia",
-      "summary": "Entre enero y octubre se exportaron más de 100 Mt de los principales granos y subproductos. El WASDE dio un respiro a los precios tras semanas de caída en Chicago. Las negociaciones diplomáticas entre Rusia y Ucrania, en el centro de la escena geopolítica.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Tratados y acuerdos",
-        "Geopolítica y comercio",
-        "Europa"
-      ],
-      "countries": [
-        "Argentina",
-        "Rusia",
-        "Ucrania"
-      ],
-      "tags": [
-        "Agro"
-      ],
-      "visual": "agro",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Primicias Rurales",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.ruralprimicias.com.ar/rompiendo-la-barrera-de-las-100-mt-las-exportaciones-agro-argentinas-hacen-historia/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-14T21:29:50Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdE9HMS1GM2Q5WThtbFczUzRMWWd2WkxxdmJiNDFQN2x2WUl0OE5nX0pIblZoZjBfS3c3TmpRZS1rU0MxU1cxN3lfal9DZ00zTGd0UjRGWUNYY3d4emJBUmlmWkMxVkYxQ0tJUGdMbDN0amJ0Ulphay02NmJ4RzNuempMdEdqNmdKT1prQklmRktraEFzS0hOaDJfdWdjY0ZtSHV3QV9xeldwckRtblMxRTZfQ3d4WU90bVE?oc=5",
-      "digestSkip": {
-        "at": "2026-11-14T18:46:00-03:00",
-        "reason": "repite el mismo hecho que la nota de Campo Directo"
       }
     },
     {
@@ -24856,7 +25515,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-11-15T17:43:23Z",
+      "gnTried": "2026-11-16T19:36:31Z",
       "digestSkip": {
         "at": "2026-11-08T12:00:00-03:00",
         "reason": "fuente no legible (enlace de Google Noticias demasiado largo para la herramienta) y sin otro medio con la misma noticia"
@@ -139859,7 +140518,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-11-15T17:43:23Z"
+      "gnTried": "2026-11-16T19:36:31Z"
     },
     {
       "id": "portcastello-presenta-estrategia-para-albergar-hub-industrial-de-energia-eolica",
@@ -150326,7 +150985,7 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-11-16T07:58:38Z",
+    "ranAt": "2026-11-16T19:36:31Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
@@ -150342,8 +151001,8 @@
         "url": "https://www.aduananews.com/feed/",
         "ok": true,
         "items": 12,
-        "added": 1,
-        "updated": 1,
+        "added": 0,
+        "updated": 0,
         "skipped": 4
       },
       {
@@ -150351,63 +151010,60 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 1,
+        "added": 4,
         "updated": 0,
-        "skipped": 9
+        "skipped": 11
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 15,
-        "added": 3,
+        "items": 13,
+        "added": 4,
         "updated": 0,
         "skipped": 2
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
-        "ok": true,
-        "items": 28,
-        "added": 1,
-        "updated": 0,
-        "skipped": 19
+        "ok": false,
+        "error": "HTTP Error 429: Too Many Requests"
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 52,
+        "items": 60,
         "added": 4,
         "updated": 0,
-        "skipped": 14
+        "skipped": 35
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
         "items": 26,
-        "added": 0,
+        "added": 4,
         "updated": 0,
-        "skipped": 21
+        "skipped": 20
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
         "url": "https://news.google.com/rss/search?q=(aranceles+OR+%22guerra+comercial%22+OR+%22acuerdo+comercial%22)+when:1d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 30,
+        "items": 100,
         "added": 4,
         "updated": 0,
-        "skipped": 18
+        "skipped": 94
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 25,
+        "items": 34,
         "added": 4,
         "updated": 0,
-        "skipped": 12
+        "skipped": 25
       }
     ],
     "curatedDuplicates": [
@@ -150432,48 +151088,56 @@
         "curated": "decreto-1350-2026-paso-de-los-libres-cotecar-concesion-20-anos-iniciativa-privada"
       },
       {
-        "title": "Alemania aprueba ley para ratificar el acuerdo UE-Mercosur",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcGIxOUdsbjhjcXRmR1JPWjB0cHZRWXFBQjBJMlg0alhNczJSbENlYlRpMUVmZDcxMGRGUWRWbXJyVHh4YlVFeDFzbXM2Y3R5c29saVpmRWM3QTJBUTZhTHZRbm84VHZmdW1TOVR0TjMta1ViZWxRY0VzdjFhTWx4b3lrWmRyZFhQMzROQ0Zn0gGbAUFVX3lxTFBIell5NnloRXFFa0JpX21WTGlWbHlmUlRpOVMta0RQR0RNQ0JWZ2hsNlpmenJQc2JTd0tUNm8wRjNvRERCa29yd3V4ZmNoU3VLRldUdmlXM09rdHU5V1ozWnljVzhFSHFEMUlDZmxsTDZlYVlid2pjdE1fOUxDUk9NbnlubTNIVG05N0FzNllxTmZ1SU5ERUtLTlZ3?oc=5",
-        "curated": "alemania-bundestag-aprueba-ley-ratificacion-acuerdo-asociacion-ue-mercosur"
+        "title": "Exportaciones argentinas: el petróleo superó a la harina de soja",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWExmdXd1TTQ5M2hUUWttZnU1VDdoU2VadDVqQ255WjhpazgzNWdzX1J4ZmUxT0tvelBRdmR5SndTUDh6aFFmWTJhNUNTbTlTZ0RiZjNpOVdtcjdDamFvQTVmdXFfVjRLdWZ6cWg2a3dWZGZSZE9xR1NRWmE2N19NS1dPYk1GSHpOeGlWWkJPRUg5b2laSnRGVjlxc0ZSWWQ3cjFTWGp3SWFWd2NnLVJR?oc=5",
+        "curated": "bcr-exportaciones-agro-enero-octubre-2026-101-millones-toneladas-record"
       },
       {
-        "title": "Trump amenaza con duplicar aranceles a México por avance de caravana migrante",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNa2dPeXJydE1CZWRVeUpvSUFQS1NKd1FzVXlRSUJhOV9wc1dBTFBuMUZzZXFZLXdQMU43Sm9sbWt5cFAyNDZKVGVFbE44V3M2N2l6RWwxcGZpR1psSllsZ2lhUnpyanJ0V0FCcXRMcXQ0Q1VGcDMxZHlONWowbXRJSHFsYnh4X3VmcDNDSmxKVWVPSlpXanI3MDM5cDVqZEJUbkxxYzBPb21oWTRGQk1r?oc=5",
-        "curated": "trump-amenaza-duplicar-aranceles-mexico-caravanas-migrantes-sheinbaum-tmec"
-      },
-      {
-        "title": "La demanda de carga aérea se acelera en septiembre, con un aumento del 7,7%.",
-        "url": "https://mercojuris.com/la-demanda-de-carga-aerea-se-acelera-en-septiembre-con-un-aumento-del-77/",
-        "curated": "iata-carga-aerea-septiembre-2026-7-7-por-ciento-combustible"
+        "title": "Rompiendo la barrera de las 100 Mt: las exportaciones agro argentinas hacen historia",
+        "url": "https://www.ruralprimicias.com.ar/rompiendo-la-barrera-de-las-100-mt-las-exportaciones-agro-argentinas-hacen-historia/",
+        "curated": "bcr-exportaciones-agro-enero-octubre-2026-101-millones-toneladas-record"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "petroleo-desplaza-a-la-harina-de-soja-como-principal-producto-de-exportacion-de",
+        "main": "las-exportaciones-de-petroleo-crecieron-58-6-y-lideraron-el-intercambio-comercia",
         "merged": [
-          "el-petroleo-crudo-supero-a-la-harina-de-soja-y-lidera-las-exportaciones-de-argen",
-          "el-petroleo-destrono-a-la-harina-de-soja-y-lidera-el-ranking-de-exportaciones",
-          "impulsado-por-vaca-muerta-el-petroleo-paso-a-la-harina-de-soja-y-ya-es-el-princi",
-          "impulso-de-vaca-muerta-el-petroleo-supera-a-la-harina-de-soja-en-exportaciones-a"
+          "el-petroleo-lidera-las-exportaciones-argentinas"
         ]
       },
       {
-        "main": "canada-y-estados-unidos-reanudan-negociaciones-carney-ve-posible-un-acuerdo-come",
+        "main": "vaca-muerta-impulsa-un-cambio-historico-argentina-ya-exporta-mas-petroleo-que-ha",
         "merged": [
-          "canada-asegura-que-ve-posible-un-acuerdo-comercial-bilateral-con-trump"
+          "record-historico-el-petroleo-supero-a-la-harina-de-soja-y-paso-a-liderar-las-exp",
+          "el-petroleo-supero-a-la-harina-de-soja-y-se-convirtio-en-el-principal-producto-d"
+        ]
+      },
+      {
+        "main": "orsi-se-reunio-con-pedro-sanchez-el-acuerdo-mercosur-union-europea-fue-tema-cent",
+        "merged": [
+          "orsi-se-reunio-con-pedro-sanchez-hablaron-del-comercio-entre-paises-con-el-acuer",
+          "orsi-se-reunio-con-pedro-sanchez-en-madrid-y-destaco-que-el-acuerdo-mercosur-ue",
+          "orsi-se-reunio-con-pedro-sanchez-el-acuerdo-entre-el-mercosur-y-la-union-europea"
+        ]
+      },
+      {
+        "main": "reitera-trump-amago-de-fuertes-aranceles-a-mexico-si-no-detiene-avance-de-carava",
+        "merged": [
+          "advierte-trump-a-mexico-con-aranceles-si-no-frena-caravanas-migrantes",
+          "trump-vuelve-a-amenazar-a-mexico-con-aranceles-si-no-frena-caravana-migrante"
         ]
       }
     ],
     "googleNews": {
-      "pending": 16,
-      "resolved": 16,
-      "withSummary": 16,
+      "pending": 22,
+      "resolved": 9,
+      "withSummary": 6,
       "withPhoto": 0,
-      "failed": 0,
+      "failed": 13,
       "duplicates": 0
     },
-    "noRead": 0
+    "noRead": 2
   },
   "stories": [
     {
