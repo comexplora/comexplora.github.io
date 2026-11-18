@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-11-18T04:20:27Z",
+  "updatedAt": "2026-11-18T13:57:59Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -142,7 +142,7 @@
       "obsDate": "2026-11-17",
       "change": "+0,2% vs. día hábil anterior",
       "trend": "up",
-      "checkedAt": "2026-11-18T04:21:17Z",
+      "checkedAt": "2026-11-18T13:59:15Z",
       "history": [
         [
           "2026-10-01",
@@ -267,26 +267,26 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-18T04:21:17Z"
+      "lastAttempt": "2026-11-18T13:59:15Z"
     },
     {
       "id": "soja",
       "label": "Soja · precio pizarra Rosario",
-      "value": "$ 545.000/t",
-      "period": "Rosario · 16 nov 2026 · US$ 353,44/t",
+      "value": "$ 550.000/t",
+      "period": "Rosario · 17 nov 2026 · US$ 356,45/t",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "group": "Mercados",
-      "obsDate": "2026-11-16",
-      "change": "0,0% vs. pizarra anterior",
-      "trend": "flat",
+      "obsDate": "2026-11-17",
+      "change": "+0,9% vs. pizarra anterior",
+      "trend": "up",
       "_last": {
-        "date": "2026-11-16",
-        "ars": 545000.0
+        "date": "2026-11-17",
+        "ars": 550000.0
       },
-      "checkedAt": "2026-11-18T04:21:17Z",
+      "checkedAt": "2026-11-18T13:59:15Z",
       "_prev": {
-        "date": "2026-11-13",
+        "date": "2026-11-16",
         "ars": 545000.0
       },
       "history": [
@@ -401,11 +401,15 @@
         [
           "2026-11-16",
           545000.0
+        ],
+        [
+          "2026-11-17",
+          550000.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-18T04:21:17Z"
+      "lastAttempt": "2026-11-18T13:59:15Z"
     },
     {
       "id": "brent",
@@ -418,7 +422,7 @@
       "obsDate": "2026-11-11",
       "change": "+2,2% vs. día anterior",
       "trend": "up",
-      "checkedAt": "2026-11-18T04:21:20Z",
+      "checkedAt": "2026-11-18T13:59:17Z",
       "history": [
         [
           "2026-10-01",
@@ -543,27 +547,27 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-11-18T04:21:20Z"
+      "lastAttempt": "2026-11-18T13:59:17Z"
     },
     {
       "id": "maiz",
       "label": "Maíz · precio pizarra Rosario",
-      "value": "$ 271.400/t",
+      "value": "$ 268.500/t",
       "group": "Mercados",
-      "period": "Rosario · 16 nov 2026 · US$ 176,01/t",
-      "obsDate": "2026-11-16",
-      "change": "+0,8% vs. pizarra anterior",
-      "trend": "up",
+      "period": "Rosario · 17 nov 2026 · US$ 174,01/t",
+      "obsDate": "2026-11-17",
+      "change": "-1,1% vs. pizarra anterior",
+      "trend": "down",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
+        "date": "2026-11-17",
+        "ars": 268500.0
+      },
+      "checkedAt": "2026-11-18T13:59:17Z",
+      "_prev": {
         "date": "2026-11-16",
         "ars": 271400.0
-      },
-      "checkedAt": "2026-11-18T04:21:20Z",
-      "_prev": {
-        "date": "2026-11-13",
-        "ars": 269300.0
       },
       "history": [
         [
@@ -677,31 +681,35 @@
         [
           "2026-11-16",
           271400.0
+        ],
+        [
+          "2026-11-17",
+          268500.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-18T04:21:20Z"
+      "lastAttempt": "2026-11-18T13:59:17Z"
     },
     {
       "id": "trigo",
       "label": "Trigo · precio pizarra Rosario",
-      "value": "$ 285.270/t",
+      "value": "$ 285.455/t",
       "group": "Mercados",
-      "period": "Rosario · 16 nov 2026 · US$ 185,00/t",
-      "obsDate": "2026-11-16",
-      "change": "+0,4% vs. pizarra anterior",
+      "period": "Rosario · 17 nov 2026 · US$ 185,00/t",
+      "obsDate": "2026-11-17",
+      "change": "+0,1% vs. pizarra anterior",
       "trend": "up",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
+        "date": "2026-11-17",
+        "ars": 285455.0
+      },
+      "checkedAt": "2026-11-18T13:59:17Z",
+      "_prev": {
         "date": "2026-11-16",
         "ars": 285270.0
-      },
-      "checkedAt": "2026-11-18T04:21:20Z",
-      "_prev": {
-        "date": "2026-11-13",
-        "ars": 284000.0
       },
       "history": [
         [
@@ -815,281 +823,606 @@
         [
           "2026-11-16",
           285270.0
+        ],
+        [
+          "2026-11-17",
+          285455.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-18T04:21:20Z"
+      "lastAttempt": "2026-11-18T13:59:17Z"
     }
   ],
   "items": [
     {
-      "id": "ocde-acero-america-latina-importaciones-47-por-ciento-55-4-millones-toneladas-china-21-6",
-      "date": "2026-11-17",
-      "kind": "analisis",
-      "title": "La OCDE calcula que las importaciones de acero de seis países latinoamericanos, Argentina incluida, crecieron 47% desde 2019",
-      "summary": "Un estudio de la OCDE suma el acero que entra en forma directa y el que llega dentro de máquinas, vehículos y electrodomésticos: en Brasil, México, Argentina, Colombia, Chile y Perú pasó de 37,6 a 55,4 millones de toneladas entre 2019 y 2025. China duplicó con creces sus envíos y las acerías de la región trabajan al 60% de su capacidad.",
-      "body": [
-        "La Organización para la Cooperación y el Desarrollo Económicos (OCDE) publicó el estudio «Latin America's absorption of global steel excess capacity», dentro de su serie de documentos de política de ciencia, tecnología e industria, que mide cuánto del exceso mundial de acero termina en América Latina. La conclusión central es que las importaciones directas e indirectas de acero de las seis principales economías siderúrgicas de la región subieron 47% entre 2019 y 2025: de 37,6 a 55,4 millones de toneladas. Según la cobertura de la agencia EFE, los seis países analizados son Brasil, México, Argentina, Colombia, Chile y Perú.",
-        "El informe se difundió el martes 17 de noviembre, según EFE; la ficha de la publicación en el sitio de la OCDE lleva fecha del 16. Su aporte principal es que no se limita a contar las toneladas de chapas, barras o tubos que cruzan la aduana: también estima el acero que llega incorporado en productos manufacturados, y ese componente indirecto explica alrededor del 40% del total.",
-        "## Qué mide el estudio",
-        "Para llegar a esas cifras, la OCDE combinó las estadísticas convencionales de comercio con sus tablas insumo-producto entre países (ICIO, por su sigla en inglés), que permiten seguir el acero contenido en máquinas, vehículos y electrodomésticos importados, según el resumen del trabajo y la nota de EFE. El estudio también analiza si el acero llega a la región por medio de terceros países que procesan material de otro origen, y concluye que ese canal de transmisión es comparativamente limitado.",
-        "La distinción importa para los importadores y para la industria local. Una medida de defensa comercial sobre un laminado afecta solo una parte del flujo: el resto entra como insumo de bienes terminados, con otras posiciones arancelarias y otros proveedores. Por eso la OCDE habla de absorción del exceso de capacidad global, y no solo de importaciones siderúrgicas en sentido estricto.",
-        "## Los números del informe",
-        "China es, por lejos, el proveedor dominante. Según el resumen de la OCDE, sus envíos directos e indirectos a esas economías se duplicaron con creces entre 2019 y 2025, y la nota de EFE precisa que llegaron a 21,6 millones de toneladas el año pasado. Los países del sudeste asiático también ganaron terreno, sobre todo en México, Brasil y Colombia.",
-        "Siempre según la cobertura de EFE, la penetración de las importaciones en el consumo de esos seis mercados pasó de 33,8% en 2019 a 40,3% en 2025, y las acerías latinoamericanas operan hoy a apenas el 60% de su capacidad. El intercambio de acero entre los propios países del grupo cayó 45% en el mismo período, con Brasil y México como los exportadores más perjudicados. La OCDE vincula la mayor penetración de importaciones con esa baja utilización de la capacidad instalada y con el debilitamiento del comercio intrarregional.",
-        "## El exceso de capacidad mundial",
-        "El estudio se apoya en un diagnóstico que la OCDE viene repitiendo. En su Steel Outlook 2026, presentado el 4 de junio, proyectó que el exceso de capacidad siderúrgica mundial llegará a 745 millones de toneladas en 2028, 319 millones más que toda la producción actual de los países de la OCDE. Hasta ese año podrían sumarse hasta 139 millones de toneladas de capacidad nueva, un aumento de 5,7% respecto de 2025, mientras que la demanda crecería apenas alrededor de 0,9% por año.",
-        "En ese informe de junio, la organización señaló que en 2024 la siderúrgica china mediana recibió subsidios 15 veces mayores, en proporción a sus activos, que los productores de otros países, frente a 10 veces en 2023. Las exportaciones chinas de acero alcanzaron el récord de 131 millones de toneladas en 2025, 153% más que en 2020 y por encima de toda la producción de la Unión Europea. La OCDE también advirtió por un aumento de la elusión de derechos antidumping y compensatorios, con envíos chinos de semiterminados al sudeste asiático que crecieron 300% en 2025.",
-        "## Qué propone la OCDE",
-        "Según EFE, la OCDE atribuye buena parte del exceso global a los subsidios y otras políticas públicas de China, y a una demanda interna china débil que empuja a sus productores a buscar mercados externos. Advierte que esa presión, sumada a los altos costos de energía y logística de la región, eleva los riesgos para la competitividad industrial latinoamericana. Como respuesta, el estudio pide atacar las causas de fondo con más coordinación internacional y con los marcos plurilaterales existentes, y la cobertura de EFE agrega el pedido de instrumentos de defensa comercial más firmes.",
-        "Uno de esos marcos es el Foro Global sobre el Exceso de Capacidad Siderúrgica, que junto con el Comité del Acero de la OCDE trabaja con 28 grandes economías productoras que representan casi el 70% del comercio mundial de acero, según el comunicado de junio.",
-        "## Qué implica para la Argentina",
-        "La Argentina integra el grupo de seis economías estudiadas, pero ni el resumen de la OCDE ni las notas de EFE consultadas detallan cifras por país, de modo que el estudio no permite saber cuánto creció el acero importado en el mercado argentino ni qué parte llegó dentro de bienes terminados. Lo que sí muestra es la tendencia regional: más acero chino y asiático, menos comercio siderúrgico entre los vecinos y plantas con capacidad ociosa.",
-        "El trabajo llega mientras otros mercados endurecen sus barreras. Comexplora informó el 16 de noviembre que la Unión Europea aplicó derechos antidumping definitivos al acero laminado en frío de India, Japón, Taiwán, Turquía y Vietnam, y en septiembre que fijó una salvaguardia provisional para ciertos laminados de acero magnético. El diagnóstico de la OCDE es que la débil demanda interna de China empuja a sus productores a buscar mercados externos."
-      ],
-      "keyData": [
-        [
-          "Importaciones de acero de seis economías (2025)",
-          "55,4 millones de t (+47% vs. 2019)"
-        ],
-        [
-          "Nivel de 2019",
-          "37,6 millones de t"
-        ],
-        [
-          "Acero incorporado en manufacturas",
-          "alrededor del 40% del total"
-        ],
-        [
-          "Envíos de China (2025)",
-          "21,6 millones de t, más del doble que en 2019"
-        ],
-        [
-          "Penetración de importaciones",
-          "de 33,8% (2019) a 40,3% (2025)"
-        ],
-        [
-          "Uso de la capacidad de las acerías",
-          "60%"
-        ],
-        [
-          "Comercio de acero entre los seis",
-          "−45% (2019–2025)"
-        ]
-      ],
-      "explainer": {
-        "what": "Un estudio de la OCDE calculó que las importaciones directas e indirectas de acero de Brasil, México, Argentina, Colombia, Chile y Perú crecieron 47% entre 2019 y 2025, hasta 55,4 millones de toneladas.",
-        "why": "Muestra que la región absorbe parte del exceso mundial de acero, sobre todo chino, también a través de máquinas, vehículos y electrodomésticos, mientras sus acerías trabajan al 60% de su capacidad y el comercio siderúrgico entre vecinos cayó 45%.",
-        "who": "Siderúrgicas y metalúrgicas de la región, importadores de acero y de bienes con alto contenido de acero, y los organismos que aplican medidas de defensa comercial.",
-        "products": [
-          "Acero laminado y semiterminado",
-          "Maquinaria",
-          "Vehículos",
-          "Electrodomésticos"
-        ]
-      },
+      "id": "china-supera-a-la-argentina-en-autos-importados-vendidos-en-brasil",
+      "datetime": "2026-11-18T13:38:37Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T13:57:59Z",
+      "title": "China supera a la Argentina en autos importados vendidos en Brasil",
+      "summary": "El auge de los eléctricos suma mercado a las marcas asiáticas mientras que las locales pierden terreno en el destino que sostiene sus exportaciones",
+      "body": [],
+      "keyData": [],
       "topics": [
+        "Argentina",
+        "Importaciones",
         "Latinoamérica",
         "China",
-        "Importaciones",
-        "Argentina",
-        "Economía internacional"
+        "Asia"
       ],
       "countries": [
         "Argentina",
         "Brasil",
-        "México",
-        "Colombia",
-        "Chile",
-        "Perú",
         "China"
       ],
       "tags": [
-        "Acero",
-        "OCDE",
-        "Exceso de capacidad",
-        "Siderurgia",
-        "Defensa comercial"
+        "Autos",
+        "China"
       ],
-      "visual": "steel",
-      "impact": 2,
+      "visual": "auto",
+      "impact": 1,
       "affectsArgentina": true,
-      "argentinaNote": "La Argentina es una de las seis economías del estudio. La OCDE no publicó en lo consultado cifras propias del país, pero describe un mercado regional con más acero chino, también dentro de bienes importados, y menos ventas siderúrgicas entre vecinos.",
-      "argentinaImpact": {
-        "change": "El estudio de la OCDE ubica a la Argentina entre los seis mercados latinoamericanos donde el acero importado, directo e incorporado en manufacturas, creció 47% entre 2019 y 2025.",
-        "who": "Siderúrgicas, metalúrgicas, importadores de acero y de bienes con contenido siderúrgico.",
-        "sectors": [
-          "Siderurgia",
-          "Metalmecánica",
-          "Automotriz"
-        ],
-        "flows": {
-          "importaciones": true,
-          "exportaciones": false,
-          "logistica": false,
-          "aranceles": false
-        }
-      },
-      "absorbs": [
-        "ocde-alerta-de-exceso-de-acero-chino-en-america-latina-donde-importaciones-crece"
-      ],
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
       "sources": [
         {
-          "name": "OCDE — Latin America's absorption of global steel excess capacity",
-          "type": "Organismo internacional",
-          "url": "https://www.oecd.org/en/publications/latin-america-s-absorption-of-global-steel-excess-capacity_11f2d5b6-en.html",
-          "primary": true
+          "name": "iProfesional",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.iprofesional.com/negocios/469407-china-supera-a-la-argentina-en-autos-importados-vendidos-en-brasil",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-18T13:57:59Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLU1YaGtqMG9GelpBYTRqRWFHRWs5UVFLanozQlAxVUVLYWdUVWRpbTI0OUZoNWFOT0dTaEkybHV3VTYzN2J2ZUNLUDF6SmF3dG5OZ1FSeGdoUGpTZzBhRTJ2NVVyY1JLaGpVZXRnb1hGMzVOd2Exd09sZGlxTEdwQUdUY1RUWTJTalFDcFRDQW0ybkVsM1NQZy14S2RVcFdNTWVzRDlwQ21lQ0pEbzhzSNIBtgFBVV95cUxOdExEVloxY2RUT1A3TDNXcVlva1hsTWZLSGJ2amFka1RHckJVcEIwUXRHUzJoMXo2Z0ZPdFd5NndFT0N5MkdkX2xnOVBMVXFJdE4tUENQeVJWXy1WTnZreko3aDRBbjRETHFYS0lmWlpLSmU4T0RkWTRzR1R1U25mb3g4dWl0WVBVcGQ2NGpvVVVYOWRUVEx1eWQ3ZG9XN2J5TVFRTDRaejN3bk1VTl9qLUF1Rm1kdw?oc=5"
+    },
+    {
+      "id": "sheinbaum-y-trump-se-reunen-en-china-en-medio-de-amenazas-de-nuevos-aranceles-a",
+      "datetime": "2026-11-18T13:38:21Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T13:57:59Z",
+      "title": "Sheinbaum y Trump se reúnen en China en medio de amenazas de nuevos aranceles a México",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Latinoamérica",
+        "Estados Unidos",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "México",
+        "Estados Unidos",
+        "China"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos",
+        "China"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "El Heraldo de Saltillo",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://elheraldodesaltillo.mx/2026/11/18/sheinbaum-y-trump-se-reunen-en-china-en-medio-de-amenazas-de-nuevos-aranceles-a-mexico/",
+          "primary": true,
+          "author": ""
         },
         {
-          "name": "ABC Color (EFE)",
-          "type": "Medio de comunicación",
-          "url": "https://www.abc.com.py/internacionales/2026/11/17/ocde-alerta-de-exceso-de-acero-chino-en-america-latina-donde-importaciones-crecen-un-47/"
+          "name": "Demócrata",
+          "type": "También publicó esta noticia",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdkxKU0ZnU2c1QjJNdW9BOGJESTV3cGZaQzdDekFGMGFyYlhQVGxEdjR1T2xIcXdqejBIZWItSW1Ma3c2YnBmLTJUeXNnM012OTBKMG1rVExKUnpCRnpVbkt3dXNFd2I1TDJrcWNFRFhkWmt0S1JiV3F2akhHb3AzX2tIU2xrYjRNSEd1TTZZZUxrdjNJRUN3QjliTnFnX2RFS3hESlNvR2gzSFpma1paX3hMb3FnREwyTWpPT0tyaGgwY3k5eXhGd9IBzgFBVV95cUxQV0xaWTZsUmMzbXVuajlleVF1TTVReW5mOElhYkZGUDhxb2g1UmNGdXB3LVUya3VSdWRyTjBZTGl1dWVtUUpmX0x1LW9QOER0aEZkc2FXNDV4YldVNWpMZlk4WE5OdHptZUh3RWRmX3ZLRTF6dlpsWXhPelhrUmE0ODZsM3BLVU9uV3NJLVJsQ0xhejUxUkN2dTltcm1xcEdpVm5rRkpPLWROMTZfWG5SVTZtSmxYd3RJQlk2S2RYeEh1bXZKZUZfUmU0bTRBQQ?oc=5",
+          "alsoIn": true,
+          "title": "Sheinbaum resalta una muy buena reunión con Trump pese a las amenazas de nuevos aranceles"
+        }
+      ],
+      "gnTried": "2026-11-18T13:57:59Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPa3FoaTUwODE2VmpZVVNBZlc0WHZpWG9Yd29uWDhSenNkZk54ZW9YdjI4dE9sQkc3RkVtRXNWRldaT2tqaF9rNGJRQ21tODd5ZU5HSGVHZS1Gcm1oQU1fdWpnM2Nuc3VjeU05YWh3V0w5WEtqLUVlbXhQaTAtXzFwM1VkQ3g1RHdoRDl0TDlNY1VLRm9YZENWRXI3RTh3c0stS1h4c2VHVjNrV0tfUHo3b0hkTUVYeXQ3bmZzVl9aNHNRN1Nwb2NEWA?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdkxKU0ZnU2c1QjJNdW9BOGJESTV3cGZaQzdDekFGMGFyYlhQVGxEdjR1T2xIcXdqejBIZWItSW1Ma3c2YnBmLTJUeXNnM012OTBKMG1rVExKUnpCRnpVbkt3dXNFd2I1TDJrcWNFRFhkWmt0S1JiV3F2akhHb3AzX2tIU2xrYjRNSEd1TTZZZUxrdjNJRUN3QjliTnFnX2RFS3hESlNvR2gzSFpma1paX3hMb3FnREwyTWpPT0tyaGgwY3k5eXhGd9IBzgFBVV95cUxQV0xaWTZsUmMzbXVuajlleVF1TTVReW5mOElhYkZGUDhxb2g1UmNGdXB3LVUya3VSdWRyTjBZTGl1dWVtUUpmX0x1LW9QOER0aEZkc2FXNDV4YldVNWpMZlk4WE5OdHptZUh3RWRmX3ZLRTF6dlpsWXhPelhrUmE0ODZsM3BLVU9uV3NJLVJsQ0xhejUxUkN2dTltcm1xcEdpVm5rRkpPLWROMTZfWG5SVTZtSmxYd3RJQlk2S2RYeEh1bXZKZUZfUmU0bTRBQQ"
+      ],
+      "mergedIds": [
+        "sheinbaum-resalta-una-muy-buena-reunion-con-trump-pese-a-las-amenazas-de-nuevos"
+      ]
+    },
+    {
+      "id": "el-gobierno-aumento-2-2-los-aranceles-de-las-prestaciones-por-discapacidad",
+      "datetime": "2026-11-18T13:35:08Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T13:57:59Z",
+      "title": "El Gobierno aumentó 2,2% los aranceles de las prestaciones por discapacidad",
+      "summary": "El Gobierno aumentó 2,2% los aranceles por discapacidad desde noviembre. Los nuevos valores y el adicional para la Patagonia.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "AHORA Mar del Plata",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://ahoramardelplata.com.ar/4/gobierno-aumento-aranceles-prestaciones-discapacidad",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-18T13:57:59Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRFBPbWpzdEhfOWpScFVRTzVycHV3RmZRSnNKMGlteUo1X0NIdUhxTGVMQlFRaFdmdl9BdVFwMy1zWG9BemhhNTgzZFEydXFtLW9GelUzdEdWYno3R01hRXpWMFNHbG4wZ3JKeXpCOWZ4YTBTRDBvZU9OZGVTTERaQm5CZzFtMVVZRlBESnZTcw?oc=5"
+    },
+    {
+      "id": "aranceles-para-discapacidad-suben-2-20-desde-noviembre",
+      "datetime": "2026-11-18T13:31:32Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T13:57:59Z",
+      "title": "Aranceles para discapacidad suben 2,20% desde noviembre",
+      "summary": "El Gobierno subió 2,20% los aranceles de prestaciones para personas con discapacidad según la Resolución 3715/2026. Revisá los nuevos valores por categoría",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "El Esquiu",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.elesquiu.com/nacionales/2026/11/18/discapacidad-aumentan-220-los-aranceles-desde-noviembre-603872.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-18T13:57:59Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdTF0bnpFa1hlNlpxZ1hhZUVsZUZjS25odnZfVlk2Z1lGbk1MajZielFaOU9DX1RHdC1qZ01xSDdpOWpOeklnRzhBQzRycTBKaHp3eHJBN1FTalJXMVlHTWlsdU1PRUpqRWdnWnE5Nnpla3ZWbzV5amc3OVhvcHNKb29KT19JaEVoRlF6Zm9QaWNDN1dIZnV0cF93VUx4Tm5BUUU0Qmd1VFNPSUZTUXB1Q1AwbU0?oc=5"
+    },
+    {
+      "id": "barajas-pierde-un-11-7-en-carga-aerea-en-el-tercer-trimestre-frente-al-crecimien",
+      "datetime": "2026-11-18T12:51:00Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T13:57:59Z",
+      "title": "Barajas pierde un 11,7% en carga aérea en el tercer trimestre, frente al crecimiento de sus rivales europeos",
+      "summary": "El aeropuerto Adolfo Suárez Madrid-Baraja gestionó 582.267 toneladas de mercancías entre enero y septiembre, un 3,7% menos en comparación con el mismo periodo del año pasado, mientras que la ...",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte aéreo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "plane",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "PressDigital",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.pressdigital.es/articulo/economia/2026-11-18/6096612-barajas-pierde-117-carga-aerea-tercer-trimestre-frente-crecimiento-rivales-europeos",
+          "primary": true,
+          "author": ""
         },
         {
-          "name": "Forbes México (con información de EFE)",
-          "type": "Medio de comunicación",
-          "url": "https://forbes.com.mx/ocde-alerta-de-exceso-de-acero-chino-en-latinoamerica-donde-importaciones-crecen-un-47/"
-        },
+          "name": "Demócrata",
+          "type": "También publicó esta noticia",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRjNfTEttODZ3MlhBeEZUYVpXS2dqWFU3NGxmdVN6amUwamg3LXNhSEFiWjcxblo2dDZCdXhSMHJfeGNFbnNJZFRtXzR2RUVrQlJpQVRxNnFqRGRKcG5YZUJsNnVVaEdUaEl2Vi1UV2drTzhVT2ZNTXRTbHIza1RsMHZDM2VCT0hPZElzeHBrNl9lMmVLSzVWZTZJQWd2aFR1MmMzSEdrZW1JbFM4LXBtTUE5WVRPTnRSWTNaR182Q004bGppdGpxWDIta00xSEHSAdQBQVVfeXFMT1hxRHFZMkZBLXBSVGozZV9zSEdIMlpRVHc5THRpNG9UbnRZS3dCRURjdzZNV3lXaE4xZWpCeHYzN1F2R1ZOcVctVkhCMFBZVUN5WU5UaFJ4VjRXR0dRQ19qZ1djaEV3dVpPQmtndEgxbjV6UDVXVWx6NkVPSHh4RHk4RDJxZkF4NWpTdDVYMkNyU01EU2NxbThOcjJ6ZzU3cGg2UWpsRk93OUNwbkkxMDJTY0ZUMmJqZVg5eWY3TkFFRWFUMDhVX0h5VWFqMjJTS3U5VjY?oc=5",
+          "alsoIn": true,
+          "title": "Barajas se deja un 11,7% en carga aérea en el tercer trimestre mientras sus rivales europeos avanzan"
+        }
+      ],
+      "gnTried": "2026-11-18T13:57:59Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNRmY4Q1dUSkFLaEVSakF3anc0RmdTdHZNUzRNTk9RaHhUSC12dlVrMGVzWE1XYW1DN3JJbGdEbU9MMXd6cEJkNUF5emdCcUJKaDJqeFJwcmo2eW5lSldGXzZ2MzlST2VNNlN2Nm5GWG45LWFFYlFXamxMa1RnbWgtX0VrMU9nMG9ibjFzZjBGbXNfYjR0UUs3WGRieGMwUGF0Qkw2c0Rsa1VwMFFSVXF6UWlHTjM2R0EzSnZzLTFWNVpnUm1HcmVFb3JQNjE3TDVtVXZtTHExZXRNUVVDdHZmaXV3?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRjNfTEttODZ3MlhBeEZUYVpXS2dqWFU3NGxmdVN6amUwamg3LXNhSEFiWjcxblo2dDZCdXhSMHJfeGNFbnNJZFRtXzR2RUVrQlJpQVRxNnFqRGRKcG5YZUJsNnVVaEdUaEl2Vi1UV2drTzhVT2ZNTXRTbHIza1RsMHZDM2VCT0hPZElzeHBrNl9lMmVLSzVWZTZJQWd2aFR1MmMzSEdrZW1JbFM4LXBtTUE5WVRPTnRSWTNaR182Q004bGppdGpxWDIta00xSEHSAdQBQVVfeXFMT1hxRHFZMkZBLXBSVGozZV9zSEdIMlpRVHc5THRpNG9UbnRZS3dCRURjdzZNV3lXaE4xZWpCeHYzN1F2R1ZOcVctVkhCMFBZVUN5WU5UaFJ4VjRXR0dRQ19qZ1djaEV3dVpPQmtndEgxbjV6UDVXVWx6NkVPSHh4RHk4RDJxZkF4NWpTdDVYMkNyU01EU2NxbThOcjJ6ZzU3cGg2UWpsRk93OUNwbkkxMDJTY0ZUMmJqZVg5eWY3TkFFRWFUMDhVX0h5VWFqMjJTS3U5VjY"
+      ],
+      "mergedIds": [
+        "barajas-se-deja-un-11-7-en-carga-aerea-en-el-tercer-trimestre-mientras-sus-rival"
+      ]
+    },
+    {
+      "id": "el-conflicto-por-los-fletes-de-granos-vuelve-a-poner-en-alerta-a-puerto-quequen",
+      "datetime": "2026-11-18T12:32:07Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T13:57:59Z",
+      "title": "El conflicto por los fletes de granos vuelve a poner en alerta a Puerto Quequén: ¿Pueden repetirse los bloqueos?",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Logística",
+        "Puertos",
+        "Geopolítica y comercio"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Fletes",
+        "Agro",
+        "Puertos"
+      ],
+      "visual": "grain",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
         {
-          "name": "UDG TV (EFE)",
-          "type": "Medio de comunicación",
-          "url": "https://udgtv.com/noticias/ocde-informa-aumento-importaciones-acero-en-latinoamerica/338016"
-        },
+          "name": "Diario Cuatro Vientos",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.diario4v.com/nota/54005/el-conflicto-por-los-fletes-de-granos-vuelve-a-poner-en-alerta-a-puerto-quequen-pueden-repetirse-los-bloqueos/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-18T13:57:59Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPM1dSVDdWYnBqWHV5b3JxSWNqWFo1emx6eFlCWWVhOXFTNDFubUNTSk1XdEl3ZzZwX1l5UzZoTmhxTFpIMDNIbnR3R1diQTgtTERJRFNscFZYYS04bDJGNWhCM1prTjZnN3I2UUxKQzkwWlRFRDFRdHZkbTlFQ0lLV3k0TlhfRE9rc2FvVTdhR25wN3MxZHhVZGluYnFZenJ0WkVlMEZKZG90Y2hwd3VmZWpjTmhnckY1eXBfX1lVY2hZcktqUjUzSkwzekxRVUQ0T1N5d3ZLd192RkwwMnpR?oc=5"
+    },
+    {
+      "id": "el-gobierno-bonaerense-fijo-un-aumento-del-16-en-los-fletes-de-granos-y-desato-e",
+      "datetime": "2026-11-18T12:29:24Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T13:57:59Z",
+      "title": "El Gobierno bonaerense fijó un aumento del 16% en los fletes de granos y desató el rechazo del campo",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes",
+        "Agro"
+      ],
+      "visual": "grain",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
         {
-          "name": "OCDE — comunicado del Steel Outlook 2026 (4 de junio)",
-          "type": "Organismo internacional",
-          "url": "https://www.oecd.org/es/about/news/press-releases/2026/06/steel-excess-capacity-continues-to-weigh-on-global-markets-with-subsidies-increasingly-undermining-fair-competition.html"
+          "name": "Diario Cuatro Vientos",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.diario4v.com/nota/54004/el-gobierno-bonaerense-fijo-un-aumento-del-16-en-los-fletes-de-granos-y-desato-el-rechazo-del-campo/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-18T13:57:59Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcEIxNm1XVnYzdVMzUXQxRVFkOEkwWjhadXpfcmYzNExHX2dTWE5QUHRXMTdfaUZBVlE5dVg2THN0SzVyOGtCN2JGZy03NkJyY29Jb0Q3dEFfYjc0c3l5ajY1LTNKVE5QNnhBV2tYZ0IwVFZKak0yTXZxLTd4Ni1uUUFSeUM0U0lCYy0tQ1p1bnA4Y25KMzV4N0RadlFUd3g0TE1PN285V0JpQmZhbEptQ1k3YkV1SlhzdWFRRWg2SVB3X1JJcklhZXlrZWFSakFER1E?oc=5"
+    },
+    {
+      "id": "una-excepcion-para-los-cerdos-que-llego-a-su-fin-a-pedido-de-la-cadena-porcina-s",
+      "datetime": "2026-11-18T11:51:56Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T13:57:59Z",
+      "title": "Una excepción para los cerdos que llegó a su fin: A pedido de la cadena porcina, Senasa prohibió la ractopamina como promotor de crecimiento para proteger las exportaciones",
+      "summary": "Durante casi 15 años, los cerdos tuvieron un permiso especial que no regía para el resto de los animales de",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Bichos de Campo",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://bichosdecampo.com/una-excepcion-para-los-cerdos-que-llego-a-su-fin-a-pedido-de-la-cadena-porcina-senasa-prohibio-la-ractopamina-como-promotor-de-crecimiento-para-proteger-las-exportaciones/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-18T13:57:59Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQYWVLXzY0SnNDX1ROLWJHN2RVUU5Kam5PZzJ4UzVzY0ZzQ2RvcE5WdS1yRFR0V1lsR290R2U4Q2FjVEFiSnpual9TNmc3aDJJam1EeHhuSTFjdU8tZzFiSll2c0ZJc1lXVWlCT0ltd05IR0JvbVlmQlpYd2ZCVG1NR3ZGSmZRVFFyMHF3ZGNSUnJlcXNuaFhsNUpuWHZXUlI3MUlndWp1MjdtRWdoLUF3UUZRRXpjbmJ1UGpmbVFjb1hHaDQ2Tjlfd3h3Ukp1d01vcXpiSVljRnd6eEdSN0ZWeGd3eFFFb01PbjBtMHhfanhTZjdZb042all5YWxfdk1kZEIxcm9MQnZ2TVVnejA1ampLa3c2U3NXNHpraXA5bnlXMDg?oc=5"
+    },
+    {
+      "id": "movimiento-total-en-puerto-de-la-bahia-de-cadiz-crece-2-4-hasta-octubre",
+      "datetime": "2026-11-18T11:00:22Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T13:57:59Z",
+      "title": "Movimiento total en Puerto de la Bahía de Cádiz crece 2,4% hasta octubre",
+      "summary": "El movimiento total general en el Puerto de la Bahía de Cádiz fue de 4.765.926 toneladas…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/movimiento-total-en-puerto-de-la-bahia-de-cadiz-crece-24-hasta-octubre/",
+          "primary": true,
+          "author": "Diego Hermosilla"
         }
       ]
     },
     {
-      "id": "suez-one-continuity-premier-alliance-gemini-evergreen-regreso-drewry-52-cancelaciones",
-      "date": "2026-11-17",
+      "id": "el-usda-recorto-2-3-millones-de-toneladas-los-stocks-de-maiz-en-ee-uu-y-argentin",
+      "datetime": "2026-11-18T10:01:35Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T13:57:59Z",
+      "title": "El USDA recortó 2,3 millones de toneladas los stocks de maíz en EE.UU. y Argentina mira el impacto en sus exportaciones",
+      "summary": "Tras una caída cercana al 20% en el maíz y del 10% en la soja, el último informe del Departamento de Agricultura de Estados Unidos (USDA) impulsó un rebote en Chicago. (NAP)Los mercados de granos comienzan a mostrar señales de recuperación luego de un período marcado por fuertes bajas. El último reporte del…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Argentina",
+        "Estados Unidos"
+      ],
+      "tags": [],
+      "visual": "grain",
+      "impact": 1,
+      "affectsArgentina": true,
       "kind": "noticia",
-      "title": "Suez: ONE volvió al canal con el servicio FE1 y se suman Gemini y Evergreen, mientras Drewry prevé 52 viajes cancelados hasta diciembre",
-      "summary": "El portacontenedores ONE Continuity cruzó el canal el 15 de noviembre y la Autoridad del Canal anunció que otros tres servicios de la Premier Alliance dejarán el cabo de Buena Esperanza. Maersk y Hapag-Lloyd devuelven tres servicios Asia–Europa y Evergreen desviará ocho buques, mientras las navieras cancelan 7% de los viajes Este–Oeste.",
-      "body": [
-        "El domingo 15 de noviembre, el portacontenedores ONE Continuity, de 8.110 TEU, 320 metros de eslora y 46 de manga, cruzó el canal de Suez en el convoy sur, en un viaje de Singapur a los Países Bajos, según informó la Autoridad del Canal de Suez (SCA). El buque opera el servicio FE1 de la Premier Alliance, que integran ONE, HMM y Yang Ming y que une el Lejano Oriente con el norte de Europa.",
-        "El presidente de la SCA, el almirante Ossama Rabiee, dijo que el canal está en condiciones de operar a plena capacidad con los grandes portacontenedores que regresan y anunció que otros tres servicios de la Premier Alliance volverán a usar la vía en lugar de rodear África por el cabo de Buena Esperanza. Según Kuehne+Nagel, la Autoridad no identificó esos servicios ni dijo cuándo empezarán a cruzar.",
-        "## Cómo se llegó hasta acá",
-        "Las líneas de contenedores empezaron a desviar sus servicios por el sur de África en diciembre de 2023, después de los ataques de los hutíes contra buques en el mar Rojo. El regreso empezó a tomar forma el 6 de julio de 2026, cuando la alianza Gemini anunció que su servicio AE15/SE3 entre Asia y el Mediterráneo volvería al canal, y desde entonces se sumaron cambios de ruta de las otras alianzas. Según BIMCO, con datos de Clarksons, en las dos primeras semanas de octubre pasaron por el canal en promedio 753.000 TEU semanales, frente a 1.457.000 en igual período de 2023: por primera vez desde el inicio de la crisis se superó la mitad del nivel previo.",
-        "La Premier Alliance era la última gran alianza que seguía evitando el mar Rojo en su red Asia–norte de Europa. A comienzos de octubre anunció que el FE1 volvería a Suez con una rotación que arrancó el 17 de octubre en Laem Chabang (Tailandia), precisamente con el ONE Continuity, y con llegada a Róterdam prevista para el 19 de noviembre, según El Mercantil y ShipUniverse.",
-        "## Quiénes más vuelven",
-        "Según el resumen de mercado de Kuehne+Nagel publicado el 17 de noviembre, la alianza Gemini, de Maersk y Hapag-Lloyd, devuelve al canal sus servicios AE1, AE2 y AE3 entre Asia y Europa, con tiempos de navegación más cortos, de acuerdo con un aviso de Maersk a sus clientes. Evergreen, por su parte, enviará por Suez ocho buques de sus rutas Asia–Europa, según la consultora Alphaliner, aunque por ahora no se trata de un cambio permanente de su red sino de viajes que se gestionan uno por uno.",
-        "El primero de esos buques de Evergreen, el Ever Eon, de 16.556 TEU, ya cruzó el canal en un viaje entre Róterdam y Singapur, y otros tres pasarán antes de fin de año, según el mismo informe. Sus socios de la Ocean Alliance, Cosco y OOCL, ya usaban la vía. MSC, en tanto, prevé lanzar a fines de noviembre un servicio nuevo entre el norte de India y el mar Rojo.",
-        "La diferencia de recorrido explica el interés de las navieras. Según un ejemplo de la UNCTAD citado por ShipUniverse, el trayecto Shenzhen–Róterdam por Suez es de unas 10.000 millas náuticas y 31 días, contra unas 13.000 millas y 41 días por el cabo.",
-        "## Qué recomiendan a los cargadores",
-        "Kuehne+Nagel aconseja a sus clientes planificar con un uso creciente del canal, pero sin dar por hecho que los servicios ya se normalizaron. Recomienda verificar la ruta real de los embarques críticos y recalcular los plazos de entrega tráfico por tráfico, porque cada servicio tiene un recorrido distinto y los itinerarios pueden cambiar con poco aviso. También advierte que la congestión se está trasladando a algunos puertos de entrada clave, en especial en Europa.",
-        "## Fletes en baja y viajes cancelados",
-        "El regreso coincide con un mercado de tarifas a la baja. En octubre, como informó Comexplora, Drewry consideraba que un retorno a Suez más rápido de lo previsto era el mayor riesgo para la recuperación de las tarifas. El World Container Index de Drewry cayó 2% en la semana al 12 de noviembre, hasta USD 4.305 por contenedor de 40 pies, con bajas de 1% en Asia–Europa y de 2% en el transpacífico y una suba de 1% en el transatlántico.",
-        "Para sostener los precios, las navieras recortan salidas. El Cancelled Sailings Tracker de Drewry del 13 de noviembre prevé 52 viajes cancelados en los principales tráficos Este–Oeste entre la semana 47 (16 al 22 de noviembre) y la semana 51 (15 al 21 de diciembre), sobre 716 programados: una tasa de 7%. La mitad corresponde a Asia–norte de Europa y Mediterráneo, 31% al transpacífico hacia el este y 19% al transatlántico. Drewry estima que se concretará el 93% de las salidas previstas y que Gemini tendrá la menor tasa de cancelaciones, de 1%."
-      ],
-      "keyData": [
-        [
-          "Viajes cancelados previstos (semanas 47 a 51)",
-          "52 de 716 (7%)"
-        ],
-        [
-          "Buque que volvió a Suez",
-          "ONE Continuity, 8.110 TEU (15 de noviembre)"
-        ],
-        [
-          "Servicios de la Premier Alliance que se suman",
-          "otros 3, sin fecha informada"
-        ],
-        [
-          "Gemini (Maersk y Hapag-Lloyd)",
-          "vuelven AE1, AE2 y AE3"
-        ],
-        [
-          "Evergreen",
-          "8 buques Asia–Europa por Suez"
-        ],
-        [
-          "Tránsito semanal por Suez (1.ª quincena de octubre)",
-          "753.000 TEU vs. 1.457.000 en 2023"
-        ],
-        [
-          "Drewry WCI (12 de noviembre)",
-          "USD 4.305 por FEU (−2%)"
-        ]
-      ],
-      "explainer": {
-        "what": "El portacontenedores ONE Continuity cruzó el canal de Suez el 15 de noviembre con el servicio FE1 de la Premier Alliance, y otras navieras, como Maersk, Hapag-Lloyd y Evergreen, también devuelven servicios a esa ruta.",
-        "why": "La vuelta al canal acorta los viajes entre Asia y Europa respecto del rodeo por el cabo de Buena Esperanza y suma capacidad en un mercado con fletes en baja: Drewry prevé 52 viajes cancelados entre mediados de noviembre y diciembre.",
-        "who": "Importadores y exportadores que operan cargas entre Asia, Europa y el Mediterráneo, transitarios y navieras.",
-        "products": [
-          "Carga en contenedores"
-        ],
-        "next": "Según Kuehne+Nagel, otros tres buques de Evergreen pasarán por Suez antes de fin de año, y la Autoridad del Canal anunció la vuelta de tres servicios más de la Premier Alliance, sin fecha.",
-        "nextSource": {
-          "name": "Kuehne+Nagel",
-          "url": "https://mykn.kuehne-nagel.com/news/article/more-container-services-return-to-the-suez"
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Noticias AgroPecuarias",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.noticiasagropecuarias.com/2026/11/18/el-usda-recorto-23-millones-de-toneladas-los-stocks-de-maiz-en-ee-uu-y-argentina-mira-el-impacto-en-sus-exportaciones/",
+          "primary": true,
+          "author": ""
         }
-      },
+      ],
+      "gnTried": "2026-11-18T13:57:59Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOSldtT3dmdF9jUUxlUlhmRkU4VF9XN2J2NFo4UklBaDdpR0dIQ1h4YWw1NHpTVzJBVUZXLThoVzFJRVpkSEJmSjNuLXlHWFN6Z3dVdTk2V0pWMFdoRUV2eDJDY1ZKXzJ0YjdLaXkzYkdwME1fZy1xRUFFTklKLW94T0QzWU9HYWZzTWVSZGpVdXpiX3NabzFsWFFnTWU1VnhCRFBnc2VBNmFrVWVENHpsM3NNUmhfQmdDS3l6TEp5c05ZVXVzVDlqM2ZaRzRnOUhkNEtsTGoyeWJ1U0lCdnhMLUVCWVJnX19HSVJiV3lESDdmZFV5Uzl3RUdjaw?oc=5"
+    },
+    {
+      "id": "pelindo-busca-aportar-a-eficiencia-en-logistica-alimentaria-en-indonesia",
+      "datetime": "2026-11-18T10:00:34Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T13:57:59Z",
+      "title": "Pelindo busca aportar a eficiencia en logística alimentaria en Indonesia",
+      "summary": "PT Pelabuhan Indonesia (Persero) o Pelindo continúa fortaleciendo su papel en el apoyo al programa nacional…",
+      "body": [],
+      "keyData": [],
       "topics": [
         "Logística",
-        "Transporte marítimo",
-        "Asia",
+        "Asia"
+      ],
+      "countries": [
+        "Indonesia"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/pelindo-busca-aportar-a-eficiencia-en-logistica-alimentaria-en-indonesia/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "industria-argentina-caida-del-12-al-19-para-sectores-expuestos-a-importaciones-y",
+      "datetime": "2026-11-18T10:00:00Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T13:57:59Z",
+      "title": "Industria Argentina: Caída del 12% al 19% para sectores expuestos a importaciones y mercado interno, exportadores resisten",
+      "summary": "Un informe de la UBA divide la industria en tres bloques según su exposición al comercio exterior y al mercado interno, revelando caídas del 12% al 19% para dos de ellos, mientras los exportadores muestran resistencia.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Importaciones",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Rosario Finanzas",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://rosariofinanzas.ar/noticias/industria-argentina-caida-del-12-al-19-para-sectores-expuestos-a-importaciones-y-mercado-interno-exportadores-resisten",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "treslineas.com.ar",
+          "type": "También publicó esta noticia",
+          "url": "https://www.treslineas.com.ar/caras-industria-expuestos-importaciones-mercado-interno-caen-entre-mientras-exportadores-resisten-n-1766220.html",
+          "alsoIn": true,
+          "title": "Las 3 caras de la industria: expuestos a importaciones y al mercado interno caen entre 12% y 19%, mientras exportadores resisten"
+        }
+      ],
+      "gnTried": "2026-11-18T13:57:59Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOWDVXQWQyWWJHbjBoS0JHSENRNUs3RG5yandueERfUEcwYUM5dmExOXNweld2cjY1V1JpaWtvb05CVVo2bUl6UHpZcWtpc0VwRGhXdUpVNEFHRmRkNTdQMGFJcnZod2YyUVlXUVhweXhSNTNic0p4TFRlbTBsNTJSR1hwdS1vVWd4MzFmMVFNRGRBMEFtRTZNMlZZZnlWeWRNUmRQb3BybjdycEpPb2tjdnc5TFRtNkdybFNKal9MR3ZOd3MzUHplb1hLeG5JZmYxamlaelRZU01WV2pLRlVSOGFPdGxzdDU1T0E?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQVlWb1VOVW5uYjRqcGFrMkx0VXpSVFBGU19UNEo5UHoyQzhRdV90SHJ1Sy01Y2VfYURnNm5acko5am56bzB2ay1aZHJ2bDhrWW92N3I0M29FMXM0dTJWLVl5MVRFbUVZUVZjaU1SYjk2Si15WUxDRkp0ZldXX0lnV2dueVpKSnNDYjFnZ2tyYmVpLXZTYW85dHQwNEY0UnB6SG9IVVFVTU5HSjFzSUxHbEkxTkVEWTBDbWhMYi1ISUI0RnRTUTN5WmV0ZGlHYlBLdmhLbWRDd292UQ",
+        "https://www.treslineas.com.ar/caras-industria-expuestos-importaciones-mercado-interno-caen-entre-mientras-exportadores-resisten-n-1766220.html"
+      ],
+      "mergedIds": [
+        "las-3-caras-de-la-industria-expuestos-a-importaciones-y-al-mercado-interno-caen"
+      ]
+    },
+    {
+      "id": "con-una-inversion-de-us-32-millones-tetra-pak-apuesta-a-su-planta-de-la-rioja-pa",
+      "datetime": "2026-11-18T09:59:00Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T13:57:59Z",
+      "title": "Con una inversión de US$ 32 millones, Tetra Pak apuesta a su planta de La Rioja para escalar exportaciones en la región",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Forbes Argentina",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQRmJaa2NodDl4cU1Ebmw1X3FTVUZpazVUdkk5MnJTN1VyNzZueVgxcF9LSmwwZUVNaTU5VTZrQ1EtY05mb2tCM18xR21oekNfQUZPQVB1U29DUVpFOGd4OEJDRTVaV3V3ak5nb1AtV2MzcmdLOC1wUW9ibUVLbk4tNkhqOHhwS25ibUNCUWVfbWd0UXhYZTBxTWM5STVSOWxFcm1ERWRVRGlJN0xqS1RBWFd0RUhWaGNqTEVlN1hCYkswZEdVRlJzS1VfNkF3LWxCQUJZcWJYRFhrUUNWZElxZ2dR0gHiAUFVX3lxTFBGYlprY2h0OXhxTURubDVfcVNVRmlrNVR2STkyclM3VXI3Nm55WDFwX0tKbDBlRU1pNTlVNmtDUS1jTmZva0IzXzFHbWh6Q19BRk9BUHVTb0NRWkU4Z3g4QkNFNVpXdXdqTmdvUC1XYzNyZ0s4LXBRb2JtRUtuTi02SGo4eHBLbmJtQ0JRZV9tZ3RReFhlMHFNYzlJNVI5bEVybURFZFVEaUk3TGpLVEFYV3RFSFZoY2pMRWU3WEJiSzBkR1VGUnNLVV82QXctbEJBQllxYlhEWGtRQ1ZkSXFnZ1E?oc=5",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-18T13:57:59Z"
+    },
+    {
+      "id": "con-el-acuerdo-vigente-espana-y-el-mercosur-aceleran-el-comercio-crece-un-20-per",
+      "datetime": "2026-11-18T09:19:00Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T13:57:59Z",
+      "title": "Con el acuerdo vigente, España y el Mercosur aceleran: el comercio crece un 20%, pero el bloque sudamericano exporta casi tres veces más",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Tratados y acuerdos",
+        "Mercosur",
         "Europa"
       ],
       "countries": [
-        "Egipto",
-        "China",
-        "Países Bajos",
-        "Singapur"
+        "España"
       ],
       "tags": [
-        "Canal de Suez",
-        "Mar Rojo",
-        "Premier Alliance",
-        "Gemini",
-        "Evergreen",
-        "Blank sailings",
-        "Drewry"
+        "Mercosur"
       ],
-      "visual": "container",
-      "impact": 2,
-      "affectsArgentina": false,
-      "story": "fletes-contenedores",
-      "absorbs": [
-        "canal-de-suez-naviera-one-retoma-sus-transitos-y-otros-tres-servicios-volverian",
-        "las-navieras-reactivan-gradualmente-rutas-por-suez",
-        "evergreen-vuelve-a-canal-de-suez-con-transito-de-portacontenedores"
-      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
       "sources": [
         {
-          "name": "Autoridad del Canal de Suez (SCA)",
-          "type": "Organismo oficial",
-          "url": "https://www.suezcanal.gov.eg/English/MediaCenter/News/Pages/Sca_15-11-2026.aspx",
-          "primary": true
-        },
+          "name": "El Observador",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOei1IN0dJZV9RZmowUDdsOFd5cmlIM1ljaEdVZVJCeVk2MkxwVXZKWW0tQ1lxeEZkXzZKakVHb01OaWZ4Um9YVWVhMWl6UFprcTJrRGlFMVpodjNCVEt6LXRxTmVKb0JwRW9nS0N4elZvMkt5TEczZ000T090dkhncDBrR2txVDY5d3k5ZFpsRG5aaEtFSnlvX0I4dlRGOVBfTzJPeWZrLVZCRWtDLXhhLXFsNzNkZDJoZkxUTEl1WV9MVXp4V1NqVXhSd0ZYcEZLblozVXg4Yzc2SWRvNEpvdVNqbWhCdXF0TEVuQmZkZnZWUURnRk44TERsUHRnOWt3RzZtRWRvYWhGeHRmR2gycUxGV0dramlzTmZ3UVF6STdfSnR3d3VN0gGsAkFVX3lxTE94SW5ydXdtVkpDN1VacnNYdFdoZW1feEVUUVdtR3RSTlpqR3FXZnA1QXVDTmloM3pKYXAxVjNVTVFGc1p2U1pTQnFrRk9GOE1uSUExZk9jUzdVa1hxQlRzdXhHU3JCVERfcWtNYkUyWG5OUHBRNmVTTXIzVjB2elQ5bVd4RzlRcmlQaXhGU2Z1WWRrS3l2Q2E3VndteUNlQ29VTlBZT0wxODM5M3JZZ0lndXpqeEhyRzV2THNvNjZfeFA2QjVnLVAwdFFEUjBTSDI1c3V1WVNzUEcwNDdIbGU0Z3dkUkpNR0pmeUFpeks2RzhQZkRTendrYzQ3N0pxZ05zdGRqa1FMMUZ6akdmNjVySTFwNk5rVENKYmpqaXl3SDlfZkh5NFB3QkVXNA?oc=5",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-18T13:57:59Z"
+    },
+    {
+      "id": "los-codigos-no-se-escriben-en-soledad-apuntes-para-una-reforma-necesaria-del-cod",
+      "datetime": "2026-11-18T08:00:00Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T13:57:59Z",
+      "title": "Los códigos no se escriben en soledad. Apuntes para una reforma -necesaria- del Código Aduanero",
+      "summary": "Nota de la Redacción. El presente artículo se publica a solicitud de su autor, en el marco del pluralismo de opiniones y el debate académico. Las consideraciones y propuestas formuladas son de su exclusiva responsabilidad y no reflejan la posición editorial de este medio. I. Una fotografía de grupo Se ha dicho hace…",
+      "body": [
+        "Nota de la Redacción. El presente artículo se publica a solicitud de su autor, en el marco del pluralismo de opiniones y el debate académico. Las consideraciones y propuestas formuladas son de su exclusiva responsabilidad y no reflejan la posición editorial de este medio. I. Una fotografía de grupo Se ha dicho hace poco, con…"
+      ],
+      "keyData": [],
+      "topics": [
+        "Aduanas"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 2,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Aduana News",
+      "sources": [
         {
-          "name": "Kuehne+Nagel",
-          "type": "Empresa logística",
-          "url": "https://mykn.kuehne-nagel.com/news/article/more-container-services-return-to-the-suez",
-          "author": "Manal Barakat"
-        },
-        {
-          "name": "Drewry — Cancelled Sailings Tracker (13 de noviembre)",
-          "type": "Consultora",
-          "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/cancelled-sailings-tracker"
-        },
-        {
-          "name": "BIMCO",
-          "type": "Organización del sector",
-          "url": "https://www.bimco.org/news-insights/market-analysis/shipping-number-of-the-week/2026/1014-snow/"
-        },
-        {
-          "name": "El Mercantil",
-          "type": "Medio especializado",
-          "url": "https://elmercantil.com/2026/10/01/la-premier-alliance-devuelve-servicios-al-mar-rojo-y-msc-se-pertrecha-contra-la-pirateria/"
-        },
-        {
-          "name": "ShipUniverse",
-          "type": "Medio especializado",
-          "url": "https://www.shipuniverse.com/?p=21251"
+          "name": "Aduana News",
+          "type": "Medio especializado · Argentina",
+          "url": "https://aduananews.com/los-codigos-no-se-escriben-en-soledad-apuntes-para-una-reforma-necesaria-del-codigo-aduanero/?utm_source=rss&utm_medium=rss&utm_campaign=los-codigos-no-se-escriben-en-soledad-apuntes-para-una-reforma-necesaria-del-codigo-aduanero",
+          "primary": true,
+          "author": "Mg. Christian Gonzalez Palazzo"
         }
       ]
     },
@@ -1104,10 +1437,10 @@
       "keyData": [],
       "topics": [
         "Tratados y acuerdos",
+        "Puertos",
         "Latinoamérica",
         "Estados Unidos",
-        "China",
-        "Asia"
+        "China"
       ],
       "countries": [
         "Perú",
@@ -1235,7 +1568,7 @@
       "datetime": "2026-11-18T03:02:32Z",
       "date": "2026-11-18",
       "firstSeen": "2026-11-18T04:20:27Z",
-      "title": "Pekín y Ottawa recortan aranceles a medida que China busca acercarse a las potencias medias",
+      "title": "Pekín y Ottawa recortan aranceles. China tras potencias medias",
       "summary": "",
       "body": [],
       "keyData": [],
@@ -1272,7 +1605,8 @@
         "reason": "no se encontró una versión legible",
         "retry": true,
         "tries": 1
-      }
+      },
+      "updated": "2026-11-18T13:57:59Z"
     },
     {
       "id": "aranceles-ia-y-empleos-los-retos-que-sacudiran-a-la-industria-automotriz",
@@ -1546,6 +1880,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Exportaciones",
         "Tratados y acuerdos",
         "Latinoamérica",
         "Mercosur"
@@ -1569,6 +1904,13 @@
           "url": "https://www.ambito.com/uruguay/el-51-las-empresas-as-explora-oportunidades-europa-el-acuerdo-el-mercosur-n6346391",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Montevideo Portal",
+          "type": "También publicó esta noticia",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUzVHcXpaZFNTRTMyeTA5WW9EWktmR3NDcTF4N01kUGdJV0hmaFlGanEtYXc0SXVJRV96V3hDZVIyQk1IbGxHYWZaU0dHZW1mQTBfSlpWa2pGWmdwMUwzU09nNEVkRjJjT0tHWDRjWVl0Y2duVlRCMDNCemxyYTRIdUhuQi13Q0hSNnZiVVVqWlpiWEpvUDhRWVdETERaX3loN1FIUC1MSWRVcUlOSk9pb2Rpc3gxZkVabE1Udm1iWGF5cWNlTE8wYm9nWG9ielZBVEZYVTNKYnRad9IB_gFBVV95cUxPVXFfMTBfTEhRSUlJMzlWZTNlNTQyZjBaRF9BOGRfTFFPQXNaQk9KdWhBcjFoQXhVOGVkcmJFV3VRVWRqZ3BpdjhhelZtajFjVVhia2hBUGp0TF91d2owYU9pT2VrZUhGU3RlVTRtanRIUHJmUDh1OThzT1FUYTVIcDY2Rm9xSlZWRDVobjkzNkVQejByTno0MmJHbnlkc0xKeDV2SEtuLVh5Mlk1b01QLU9HNGk0Z0c2aUJPOXNkSHhJa3JBNkpuNUdqY2VUNm9pUUhlU0hwY280RmFERlAwR1hNR3VBNFRqQVBzNVp4SEZmdjJXOVJzUFozSGhEZw?oc=5",
+          "alsoIn": true,
+          "title": "Acuerdo UE-Mercosur: el 51% de las empresas uruguayas ya explora negocios en Europa"
         }
       ],
       "gnTried": "2026-11-18T04:20:27Z",
@@ -1578,45 +1920,50 @@
         "reason": "no se encontró una versión legible",
         "retry": true,
         "tries": 1
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUzVHcXpaZFNTRTMyeTA5WW9EWktmR3NDcTF4N01kUGdJV0hmaFlGanEtYXc0SXVJRV96V3hDZVIyQk1IbGxHYWZaU0dHZW1mQTBfSlpWa2pGWmdwMUwzU09nNEVkRjJjT0tHWDRjWVl0Y2duVlRCMDNCemxyYTRIdUhuQi13Q0hSNnZiVVVqWlpiWEpvUDhRWVdETERaX3loN1FIUC1MSWRVcUlOSk9pb2Rpc3gxZkVabE1Udm1iWGF5cWNlTE8wYm9nWG9ielZBVEZYVTNKYnRad9IB_gFBVV95cUxPVXFfMTBfTEhRSUlJMzlWZTNlNTQyZjBaRF9BOGRfTFFPQXNaQk9KdWhBcjFoQXhVOGVkcmJFV3VRVWRqZ3BpdjhhelZtajFjVVhia2hBUGp0TF91d2owYU9pT2VrZUhGU3RlVTRtanRIUHJmUDh1OThzT1FUYTVIcDY2Rm9xSlZWRDVobjkzNkVQejByTno0MmJHbnlkc0xKeDV2SEtuLVh5Mlk1b01QLU9HNGk0Z0c2aUJPOXNkSHhJa3JBNkpuNUdqY2VUNm9pUUhlU0hwY280RmFERlAwR1hNR3VBNFRqQVBzNVp4SEZmdjJXOVJzUFozSGhEZw",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONlJOT3hFdzkteU9OTUczaWNKVjlsUlNuUUoxemNrWWZJRlBRelptWWJacmRmRlhFOGZjVk8zRVhJQnpfLWctWHhDR0NicjZZbkJUOGY5alFyZnIyZTJtUWNGVjA5dU1DUkdCLXJnT2N0OWh4Z2lOY195NGE3VHpjdWluSWlzVi1YUU1DLXZPRTgtR1F3ZDFIV1FTNGttc0FyazFWYVBQMnNzNkU3Z005dWhpazdpaXQ40gG4AUFVX3lxTE42Uk5PeEV3OS15T05NRzNpY0pWOWxSU25RSjF6Y2tZZklGUFF6Wm1ZYlpyZGZGWEU4ZmNWTzNFWElCel8tZy1YeENHQ2JyNlluQlQ4ZjlqUXJmcjJlMm1RY0ZWMDl1TUNSR0ItcmdPY3Q5aHhnaU5jX3k0YTdUemN1aW5JaXNWLVhRTUMtdk9FOC1HUXdkMUhXUVM0a21zQXJrMVZhUFAyc3M2RTdnTTl1aGlrN2lpdDg"
+      ],
+      "mergedIds": [
+        "acuerdo-ue-mercosur-el-51-de-las-empresas-uruguayas-ya-explora-negocios-en-europ"
+      ]
     },
     {
-      "id": "se-actualizo-procedimiento-para-supervisar-tratamientos-de-fumigacion-oficial-en",
-      "datetime": "2026-11-17T23:05:08Z",
+      "id": "mercosur-efta-archivos",
+      "datetime": "2026-11-17T23:01:21Z",
       "date": "2026-11-17",
-      "firstSeen": "2026-11-18T04:20:27Z",
-      "title": "Se actualizó procedimiento para supervisar tratamientos de fumigación oficial en el comercio exterior",
+      "firstSeen": "2026-11-18T13:57:59Z",
+      "title": "Mercosur-EFTA archivos",
       "summary": "",
       "body": [],
       "keyData": [],
       "topics": [
-        "Argentina"
+        "Mercosur"
       ],
       "countries": [
-        "Argentina"
+        "Global"
       ],
-      "tags": [],
-      "visual": "globe",
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
       "impact": 1,
       "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
-      "feed": "Google Noticias · Comercio exterior Argentina",
+      "feed": "Google Noticias · Mercosur",
       "sources": [
         {
-          "name": "Data Portuaria",
+          "name": "Parlamentario",
           "type": "Medio · vía Google Noticias",
-          "url": "https://dataportuaria.com/es/argentina/comercio-exterior/se-actualizo-procedimiento-para-supervisar-tratamientos-de-fumigacion-oficial-en-el-comercio-exterior-557925",
+          "url": "https://www.parlamentario.com/tag/mercosur-efta/",
           "primary": true,
           "author": ""
         }
       ],
-      "gnTried": "2026-11-18T04:20:27Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNaVhIdmxfV245Y29lUzNKSmtGV2kxcmV0RkxrUTNWdFcxZTRQV294Nk5EVFFaSF9sYmJsV0swWXduWVlFVkNiQzdlVWxjVUxNeUNNYkRnNjZGVXFzcnN2SWxvM2dlVGJtUzdNdlhEYzZGOWZEOE91ZEh6VmVPYlc4WDktNFdtM2ZILWFoYnVKM0hvRDIxaWR6YVA3QXB6NGNqLTljT05ZMW9QQVVQMHNNeU5rQmVaSzFCZXZkcnpWNGdyMlc0WU5hY2N3ZlI5MVg5TG0yRDNETGRERTFKdmNQaTltRldrQ05haWZHeG1YNHNfLUlUWUNmMQ?oc=5",
-      "digestSkip": {
-        "at": "2026-11-18T03:52:25-03:00",
-        "reason": "repite una nota de la redacción (SENASA, Resolución 955/2026 sobre fumigaciones oficiales)"
-      }
+      "gnTried": "2026-11-18T13:57:59Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jSXhzUnRkRGp6M2JJV1NhUFJMZEZ0aGg5Y2FVV3hrN09vY1MwS3J6VmhuLVQyTVVFOENJVDJaTjV3UmVQRUxtVnJaa3RjN2IzZkJtYzRPQVM0SmtJ?oc=5"
     },
     {
       "id": "karina-reunio-a-la-mesa-politica-y-confirmo-que-enviara-al-congreso-el-acuerdo-c",
@@ -2576,48 +2923,6 @@
       }
     },
     {
-      "id": "el-petroleo-desplazo-a-la-soja-y-se-convirtio-en-el-principal-producto-de-export",
-      "datetime": "2026-11-17T17:09:47Z",
-      "date": "2026-11-17",
-      "firstSeen": "2026-11-18T04:20:27Z",
-      "title": "El petróleo desplazó a la soja y se convirtió en el principal producto de exportación de Argentina",
-      "summary": "BUENOS AIRES (Uypress) – Por primera vez en más de dos décadas, el petróleo crudo se convirtió en el principal producto individual de exportación de Argentina, desplazando a la harina de soja, que durante años encabezó las ventas externas del país. El cambio refleja el crecimiento de la producción de hidrocarburos…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Soja",
-        "Energía"
-      ],
-      "visual": "energy",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "uy press",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.uypress.net/Internacionales/El-petroleo-desplazo-a-la-soja-y-se-convirtio-en-el-principal-producto-de-exportacion-de-Argentina-uc157929",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-18T04:20:27Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTUlGS1pHbzAxaGpmWmU0UUNEZUoyWXJvUWtmNlROZkRfNmZKNFpJU1U2WmFTMThHazlka3dTS21KUnJDRFZHdnV6Rm5uMWtuNF9INGZBOXZCSlFXZ21iYTdSVGNmV0V1SU96QnhCcFFWWGlHUVl4azAwVG5ObHg1amtlN0dHeUtNZmliMjdBLWhQM3NWT3dyVFpvQ0QzZzZELXRWQXkxZDVaMHZ5TW0waVN0eWtHc0FlYTl3b2lIQTFKTTJNTHh4c1pOUVVkQjVEbHU4a3pXMDFVWmhBZ19vZQ?oc=5",
-      "digestSkip": {
-        "at": "2026-11-18T03:52:25-03:00",
-        "reason": "repite una nota de la redacción (BCR: saldo energético récord y el crudo por encima de la harina de soja)"
-      }
-    },
-    {
       "id": "carga-aerea-de-barajas-cae-11-7-y-enciende-alertas-sobre-su-desempeno-logistico",
       "datetime": "2026-11-17T16:08:01Z",
       "date": "2026-11-17",
@@ -2711,60 +3016,6 @@
       }
     },
     {
-      "id": "ocde-alerta-de-exceso-de-acero-chino-en-america-latina-donde-importaciones-crece",
-      "datetime": "2026-11-17T15:17:00Z",
-      "date": "2026-11-17",
-      "firstSeen": "2026-11-17T22:52:45Z",
-      "title": "OCDE alerta de exceso de acero chino en América Latina, donde importaciones crecen un 47 %",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Importaciones",
-        "China",
-        "Asia"
-      ],
-      "countries": [
-        "China"
-      ],
-      "tags": [
-        "Acero"
-      ],
-      "visual": "steel",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
-      "sources": [
-        {
-          "name": "Infobae",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYWYzT2hxVVFndGppbEg1WkZrd05OUTY1UTVzOXh2bHBKbndreFVqSDhKa0dadE1fU3JwQXdlOXVPR2s5czJYRTZJRExaV0h2UGRfM2hhRGNhV3FHdThtMG9SeF9OdDc2akU1Rkt0MFBKbWJnVmJrNF9qbjhTMTBzWDhuLWMtSnFFdlUyaU5GdVJySFJNV2k1V1JjazZ0cVltY1Z2djRBS2ZkN0RIMlhLVEk5X3JhZXJIQk5aY3d6THBxaHowNFVaamtxamNQTkhpSnVGeXdFQdIB8gFBVV95cUxQaE9lNllFdjg2S3p3S1dJRW95NnUyaXh6TFhDa2hyVWNRUVZDLWhtRjR0SVZhYklBeS1XZk54NFRSMjdSQkhlamMydVNjYU5nSHcxblV0Y2xFbEJQcjAtNHQ0dmk2TXNSeGJKcXJCZ0QyUFRkUXBRa2VJRklNN0Z1bnRCblJQQWRpYkJaRThRdHJVZ2tyTG1VZ0JDdV9RY2NGZEREcXlSMzNSczFEYVZCZFE4VGNGN1ZvMllNdjA5M1VuT0pKWXV0VEJxNWMxMVpLVm45RWl3R2k0VURCOVR3QjJQeGVLcDg1SzFlSkpaRmhkdw?oc=5",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-17T22:52:45Z",
-      "digest": {
-        "lead": "Las importaciones directas e indirectas de acero de los seis mayores productores latinoamericanos, entre ellos la Argentina, crecieron 47% entre 2019 y 2025, hasta 55,4 millones de toneladas, según un informe de la OCDE publicado el 17 de noviembre, informa Infobae con EFE.",
-        "body": [
-          "El estudio abarca a Brasil, México, Argentina, Colombia, Chile y Perú. Cerca del 40% de ese acero llega incorporado en bienes manufacturados como maquinaria, vehículos y electrodomésticos. China es el principal proveedor: sus envíos directos e indirectos a esos países se duplicaron con creces y llegaron a 21,6 millones de toneladas en 2025, y también ganaron terreno los países del sudeste asiático.",
-          "La penetración de importaciones pasó del 33,8% al 40,3% en ese período, las acerías de la región operan al 60% de su capacidad y el comercio de acero entre países latinoamericanos cayó 45%, con Brasil y México como los exportadores más afectados.",
-          "La OCDE atribuye la sobrecapacidad mundial en buena medida a los subsidios chinos y pide más coordinación internacional y herramientas de defensa comercial más firmes."
-        ],
-        "at": "2026-11-17T21:50:00-03:00",
-        "basedOn": "https://www.infobae.com/america/agencias/2026/11/17/ocde-alerta-de-exceso-de-acero-chino-en-america-latina-donde-importaciones-crecen-un-47/",
-        "basedOnSource": {
-          "name": "Infobae",
-          "url": "https://www.infobae.com/america/agencias/2026/11/17/ocde-alerta-de-exceso-de-acero-chino-en-america-latina-donde-importaciones-crecen-un-47/",
-          "title": "OCDE alerta de exceso de acero chino en América Latina, donde importaciones crecen un 47 %"
-        },
-        "flag": "curar",
-        "words": 172
-      }
-    },
-    {
       "id": "que-temas-comerciales-y-economicos-marcaran-la-cumbre-de-apec-en-china",
       "datetime": "2026-11-17T15:04:00Z",
       "date": "2026-11-17",
@@ -2811,51 +3062,6 @@
         "at": "2026-11-18T03:52:25-03:00",
         "basedOn": "https://aduananews.com/que-temas-comerciales-y-economicos-marcaran-la-cumbre-de-apec-en-china/",
         "words": 194
-      }
-    },
-    {
-      "id": "las-navieras-reactivan-gradualmente-rutas-por-suez",
-      "datetime": "2026-11-17T14:49:20Z",
-      "date": "2026-11-17",
-      "firstSeen": "2026-11-18T04:20:27Z",
-      "title": "Las navieras reactivan gradualmente rutas por Suez",
-      "summary": "Las navieras reactivan gradualmente la ruta de Suez, sujetas a la evolución de la seguridad en el mar Rojo.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Transporte marítimo"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [],
-      "visual": "ship",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Logística y fletes",
-      "sources": [
-        {
-          "name": "Gaceta Náutica",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.gacetanautica.es/2026/11/17/las-grandes-navieras-apuestan-por-su-regreso-al-canal-de-suez/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-18T04:20:27Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQzE5S0U5ODBuQjBDdHdKOTRueHAyVmJ5WnZqNHVwVXlBRUV1R1JvWnhUaFB6R2wwZ25fcm92THNzSEoxOXN1NzFCLWlZbXJTVFgyb3hvZmNEZjBDQV80TEZlQy1aWGdldHpaZUJnTVY2a1VvNDUwRU9NOVdzUlg1QjBmWWJsZnhsQ0tBQWZLODhETlhVWm41WEwxMUFYNC0yUDI0LQ?oc=5",
-      "digest": {
-        "lead": "Maersk, Hapag-Lloyd y ONE comenzaron a volver de forma escalonada al canal de Suez tras casi tres años de desvíos por el cabo de Buena Esperanza a raíz de los ataques hutíes en el mar Rojo, informó Gaceta Náutica.",
-        "body": [
-          "ONE retomó el tránsito el 15 de noviembre con el ONE Continuity, de 8.110 TEU, en el servicio FE1 de la Premier Alliance, que comparte con HMM y Yang Ming. Al día siguiente, Maersk y Hapag-Lloyd anunciaron que tres servicios conjuntos regresarán a esa vía: el Mary Maersk el 4 de diciembre, el Alette Maersk el 20 de diciembre y el Damietta Express el 14 de enero.",
-          "El medio recuerda que rodear África suma entre 10 y 15 días a algunos trayectos entre Asia y Europa y exige más buques para sostener las frecuencias. Citando a la UNCTAD, el índice de fletes de contenedores desde China subió 120 % entre octubre de 2023 y junio de 2024; según la OCDE, el desvío cuesta unos US$1,7 millones extra por viaje a un portacontenedores mediano.",
-          "La nota aclara que el retorno depende de la seguridad en el mar Rojo y que todavía «no equivale a una normalización completa»."
-        ],
-        "at": "2026-11-18T03:52:25-03:00",
-        "basedOn": "https://www.gacetanautica.es/2026/11/17/las-grandes-navieras-apuestan-por-su-regreso-al-canal-de-suez/",
-        "words": 195
       }
     },
     {
@@ -3889,6 +4095,276 @@
       }
     },
     {
+      "id": "ocde-acero-america-latina-importaciones-47-por-ciento-55-4-millones-toneladas-china-21-6",
+      "date": "2026-11-17",
+      "kind": "analisis",
+      "title": "La OCDE calcula que las importaciones de acero de seis países latinoamericanos, Argentina incluida, crecieron 47% desde 2019",
+      "summary": "Un estudio de la OCDE suma el acero que entra en forma directa y el que llega dentro de máquinas, vehículos y electrodomésticos: en Brasil, México, Argentina, Colombia, Chile y Perú pasó de 37,6 a 55,4 millones de toneladas entre 2019 y 2025. China duplicó con creces sus envíos y las acerías de la región trabajan al 60% de su capacidad.",
+      "body": [
+        "La Organización para la Cooperación y el Desarrollo Económicos (OCDE) publicó el estudio «Latin America's absorption of global steel excess capacity», dentro de su serie de documentos de política de ciencia, tecnología e industria, que mide cuánto del exceso mundial de acero termina en América Latina. La conclusión central es que las importaciones directas e indirectas de acero de las seis principales economías siderúrgicas de la región subieron 47% entre 2019 y 2025: de 37,6 a 55,4 millones de toneladas. Según la cobertura de la agencia EFE, los seis países analizados son Brasil, México, Argentina, Colombia, Chile y Perú.",
+        "El informe se difundió el martes 17 de noviembre, según EFE; la ficha de la publicación en el sitio de la OCDE lleva fecha del 16. Su aporte principal es que no se limita a contar las toneladas de chapas, barras o tubos que cruzan la aduana: también estima el acero que llega incorporado en productos manufacturados, y ese componente indirecto explica alrededor del 40% del total.",
+        "## Qué mide el estudio",
+        "Para llegar a esas cifras, la OCDE combinó las estadísticas convencionales de comercio con sus tablas insumo-producto entre países (ICIO, por su sigla en inglés), que permiten seguir el acero contenido en máquinas, vehículos y electrodomésticos importados, según el resumen del trabajo y la nota de EFE. El estudio también analiza si el acero llega a la región por medio de terceros países que procesan material de otro origen, y concluye que ese canal de transmisión es comparativamente limitado.",
+        "La distinción importa para los importadores y para la industria local. Una medida de defensa comercial sobre un laminado afecta solo una parte del flujo: el resto entra como insumo de bienes terminados, con otras posiciones arancelarias y otros proveedores. Por eso la OCDE habla de absorción del exceso de capacidad global, y no solo de importaciones siderúrgicas en sentido estricto.",
+        "## Los números del informe",
+        "China es, por lejos, el proveedor dominante. Según el resumen de la OCDE, sus envíos directos e indirectos a esas economías se duplicaron con creces entre 2019 y 2025, y la nota de EFE precisa que llegaron a 21,6 millones de toneladas el año pasado. Los países del sudeste asiático también ganaron terreno, sobre todo en México, Brasil y Colombia.",
+        "Siempre según la cobertura de EFE, la penetración de las importaciones en el consumo de esos seis mercados pasó de 33,8% en 2019 a 40,3% en 2025, y las acerías latinoamericanas operan hoy a apenas el 60% de su capacidad. El intercambio de acero entre los propios países del grupo cayó 45% en el mismo período, con Brasil y México como los exportadores más perjudicados. La OCDE vincula la mayor penetración de importaciones con esa baja utilización de la capacidad instalada y con el debilitamiento del comercio intrarregional.",
+        "## El exceso de capacidad mundial",
+        "El estudio se apoya en un diagnóstico que la OCDE viene repitiendo. En su Steel Outlook 2026, presentado el 4 de junio, proyectó que el exceso de capacidad siderúrgica mundial llegará a 745 millones de toneladas en 2028, 319 millones más que toda la producción actual de los países de la OCDE. Hasta ese año podrían sumarse hasta 139 millones de toneladas de capacidad nueva, un aumento de 5,7% respecto de 2025, mientras que la demanda crecería apenas alrededor de 0,9% por año.",
+        "En ese informe de junio, la organización señaló que en 2024 la siderúrgica china mediana recibió subsidios 15 veces mayores, en proporción a sus activos, que los productores de otros países, frente a 10 veces en 2023. Las exportaciones chinas de acero alcanzaron el récord de 131 millones de toneladas en 2025, 153% más que en 2020 y por encima de toda la producción de la Unión Europea. La OCDE también advirtió por un aumento de la elusión de derechos antidumping y compensatorios, con envíos chinos de semiterminados al sudeste asiático que crecieron 300% en 2025.",
+        "## Qué propone la OCDE",
+        "Según EFE, la OCDE atribuye buena parte del exceso global a los subsidios y otras políticas públicas de China, y a una demanda interna china débil que empuja a sus productores a buscar mercados externos. Advierte que esa presión, sumada a los altos costos de energía y logística de la región, eleva los riesgos para la competitividad industrial latinoamericana. Como respuesta, el estudio pide atacar las causas de fondo con más coordinación internacional y con los marcos plurilaterales existentes, y la cobertura de EFE agrega el pedido de instrumentos de defensa comercial más firmes.",
+        "Uno de esos marcos es el Foro Global sobre el Exceso de Capacidad Siderúrgica, que junto con el Comité del Acero de la OCDE trabaja con 28 grandes economías productoras que representan casi el 70% del comercio mundial de acero, según el comunicado de junio.",
+        "## Qué implica para la Argentina",
+        "La Argentina integra el grupo de seis economías estudiadas, pero ni el resumen de la OCDE ni las notas de EFE consultadas detallan cifras por país, de modo que el estudio no permite saber cuánto creció el acero importado en el mercado argentino ni qué parte llegó dentro de bienes terminados. Lo que sí muestra es la tendencia regional: más acero chino y asiático, menos comercio siderúrgico entre los vecinos y plantas con capacidad ociosa.",
+        "El trabajo llega mientras otros mercados endurecen sus barreras. Comexplora informó el 16 de noviembre que la Unión Europea aplicó derechos antidumping definitivos al acero laminado en frío de India, Japón, Taiwán, Turquía y Vietnam, y en septiembre que fijó una salvaguardia provisional para ciertos laminados de acero magnético. El diagnóstico de la OCDE es que la débil demanda interna de China empuja a sus productores a buscar mercados externos."
+      ],
+      "keyData": [
+        [
+          "Importaciones de acero de seis economías (2025)",
+          "55,4 millones de t (+47% vs. 2019)"
+        ],
+        [
+          "Nivel de 2019",
+          "37,6 millones de t"
+        ],
+        [
+          "Acero incorporado en manufacturas",
+          "alrededor del 40% del total"
+        ],
+        [
+          "Envíos de China (2025)",
+          "21,6 millones de t, más del doble que en 2019"
+        ],
+        [
+          "Penetración de importaciones",
+          "de 33,8% (2019) a 40,3% (2025)"
+        ],
+        [
+          "Uso de la capacidad de las acerías",
+          "60%"
+        ],
+        [
+          "Comercio de acero entre los seis",
+          "−45% (2019–2025)"
+        ]
+      ],
+      "explainer": {
+        "what": "Un estudio de la OCDE calculó que las importaciones directas e indirectas de acero de Brasil, México, Argentina, Colombia, Chile y Perú crecieron 47% entre 2019 y 2025, hasta 55,4 millones de toneladas.",
+        "why": "Muestra que la región absorbe parte del exceso mundial de acero, sobre todo chino, también a través de máquinas, vehículos y electrodomésticos, mientras sus acerías trabajan al 60% de su capacidad y el comercio siderúrgico entre vecinos cayó 45%.",
+        "who": "Siderúrgicas y metalúrgicas de la región, importadores de acero y de bienes con alto contenido de acero, y los organismos que aplican medidas de defensa comercial.",
+        "products": [
+          "Acero laminado y semiterminado",
+          "Maquinaria",
+          "Vehículos",
+          "Electrodomésticos"
+        ]
+      },
+      "topics": [
+        "Latinoamérica",
+        "China",
+        "Importaciones",
+        "Argentina",
+        "Economía internacional"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil",
+        "México",
+        "Colombia",
+        "Chile",
+        "Perú",
+        "China"
+      ],
+      "tags": [
+        "Acero",
+        "OCDE",
+        "Exceso de capacidad",
+        "Siderurgia",
+        "Defensa comercial"
+      ],
+      "visual": "steel",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "La Argentina es una de las seis economías del estudio. La OCDE no publicó en lo consultado cifras propias del país, pero describe un mercado regional con más acero chino, también dentro de bienes importados, y menos ventas siderúrgicas entre vecinos.",
+      "argentinaImpact": {
+        "change": "El estudio de la OCDE ubica a la Argentina entre los seis mercados latinoamericanos donde el acero importado, directo e incorporado en manufacturas, creció 47% entre 2019 y 2025.",
+        "who": "Siderúrgicas, metalúrgicas, importadores de acero y de bienes con contenido siderúrgico.",
+        "sectors": [
+          "Siderurgia",
+          "Metalmecánica",
+          "Automotriz"
+        ],
+        "flows": {
+          "importaciones": true,
+          "exportaciones": false,
+          "logistica": false,
+          "aranceles": false
+        }
+      },
+      "absorbs": [
+        "ocde-alerta-de-exceso-de-acero-chino-en-america-latina-donde-importaciones-crece"
+      ],
+      "sources": [
+        {
+          "name": "OCDE — Latin America's absorption of global steel excess capacity",
+          "type": "Organismo internacional",
+          "url": "https://www.oecd.org/en/publications/latin-america-s-absorption-of-global-steel-excess-capacity_11f2d5b6-en.html",
+          "primary": true
+        },
+        {
+          "name": "ABC Color (EFE)",
+          "type": "Medio de comunicación",
+          "url": "https://www.abc.com.py/internacionales/2026/11/17/ocde-alerta-de-exceso-de-acero-chino-en-america-latina-donde-importaciones-crecen-un-47/"
+        },
+        {
+          "name": "Forbes México (con información de EFE)",
+          "type": "Medio de comunicación",
+          "url": "https://forbes.com.mx/ocde-alerta-de-exceso-de-acero-chino-en-latinoamerica-donde-importaciones-crecen-un-47/"
+        },
+        {
+          "name": "UDG TV (EFE)",
+          "type": "Medio de comunicación",
+          "url": "https://udgtv.com/noticias/ocde-informa-aumento-importaciones-acero-en-latinoamerica/338016"
+        },
+        {
+          "name": "OCDE — comunicado del Steel Outlook 2026 (4 de junio)",
+          "type": "Organismo internacional",
+          "url": "https://www.oecd.org/es/about/news/press-releases/2026/06/steel-excess-capacity-continues-to-weigh-on-global-markets-with-subsidies-increasingly-undermining-fair-competition.html"
+        }
+      ]
+    },
+    {
+      "id": "suez-one-continuity-premier-alliance-gemini-evergreen-regreso-drewry-52-cancelaciones",
+      "date": "2026-11-17",
+      "kind": "noticia",
+      "title": "Suez: ONE volvió al canal con el servicio FE1 y se suman Gemini y Evergreen, mientras Drewry prevé 52 viajes cancelados hasta diciembre",
+      "summary": "El portacontenedores ONE Continuity cruzó el canal el 15 de noviembre y la Autoridad del Canal anunció que otros tres servicios de la Premier Alliance dejarán el cabo de Buena Esperanza. Maersk y Hapag-Lloyd devuelven tres servicios Asia–Europa y Evergreen desviará ocho buques, mientras las navieras cancelan 7% de los viajes Este–Oeste.",
+      "body": [
+        "El domingo 15 de noviembre, el portacontenedores ONE Continuity, de 8.110 TEU, 320 metros de eslora y 46 de manga, cruzó el canal de Suez en el convoy sur, en un viaje de Singapur a los Países Bajos, según informó la Autoridad del Canal de Suez (SCA). El buque opera el servicio FE1 de la Premier Alliance, que integran ONE, HMM y Yang Ming y que une el Lejano Oriente con el norte de Europa.",
+        "El presidente de la SCA, el almirante Ossama Rabiee, dijo que el canal está en condiciones de operar a plena capacidad con los grandes portacontenedores que regresan y anunció que otros tres servicios de la Premier Alliance volverán a usar la vía en lugar de rodear África por el cabo de Buena Esperanza. Según Kuehne+Nagel, la Autoridad no identificó esos servicios ni dijo cuándo empezarán a cruzar.",
+        "## Cómo se llegó hasta acá",
+        "Las líneas de contenedores empezaron a desviar sus servicios por el sur de África en diciembre de 2023, después de los ataques de los hutíes contra buques en el mar Rojo. El regreso empezó a tomar forma el 6 de julio de 2026, cuando la alianza Gemini anunció que su servicio AE15/SE3 entre Asia y el Mediterráneo volvería al canal, y desde entonces se sumaron cambios de ruta de las otras alianzas. Según BIMCO, con datos de Clarksons, en las dos primeras semanas de octubre pasaron por el canal en promedio 753.000 TEU semanales, frente a 1.457.000 en igual período de 2023: por primera vez desde el inicio de la crisis se superó la mitad del nivel previo.",
+        "La Premier Alliance era la última gran alianza que seguía evitando el mar Rojo en su red Asia–norte de Europa. A comienzos de octubre anunció que el FE1 volvería a Suez con una rotación que arrancó el 17 de octubre en Laem Chabang (Tailandia), precisamente con el ONE Continuity, y con llegada a Róterdam prevista para el 19 de noviembre, según El Mercantil y ShipUniverse.",
+        "## Quiénes más vuelven",
+        "Según el resumen de mercado de Kuehne+Nagel publicado el 17 de noviembre, la alianza Gemini, de Maersk y Hapag-Lloyd, devuelve al canal sus servicios AE1, AE2 y AE3 entre Asia y Europa, con tiempos de navegación más cortos, de acuerdo con un aviso de Maersk a sus clientes. Evergreen, por su parte, enviará por Suez ocho buques de sus rutas Asia–Europa, según la consultora Alphaliner, aunque por ahora no se trata de un cambio permanente de su red sino de viajes que se gestionan uno por uno.",
+        "El primero de esos buques de Evergreen, el Ever Eon, de 16.556 TEU, ya cruzó el canal en un viaje entre Róterdam y Singapur, y otros tres pasarán antes de fin de año, según el mismo informe. Sus socios de la Ocean Alliance, Cosco y OOCL, ya usaban la vía. MSC, en tanto, prevé lanzar a fines de noviembre un servicio nuevo entre el norte de India y el mar Rojo.",
+        "La diferencia de recorrido explica el interés de las navieras. Según un ejemplo de la UNCTAD citado por ShipUniverse, el trayecto Shenzhen–Róterdam por Suez es de unas 10.000 millas náuticas y 31 días, contra unas 13.000 millas y 41 días por el cabo.",
+        "## Qué recomiendan a los cargadores",
+        "Kuehne+Nagel aconseja a sus clientes planificar con un uso creciente del canal, pero sin dar por hecho que los servicios ya se normalizaron. Recomienda verificar la ruta real de los embarques críticos y recalcular los plazos de entrega tráfico por tráfico, porque cada servicio tiene un recorrido distinto y los itinerarios pueden cambiar con poco aviso. También advierte que la congestión se está trasladando a algunos puertos de entrada clave, en especial en Europa.",
+        "## Fletes en baja y viajes cancelados",
+        "El regreso coincide con un mercado de tarifas a la baja. En octubre, como informó Comexplora, Drewry consideraba que un retorno a Suez más rápido de lo previsto era el mayor riesgo para la recuperación de las tarifas. El World Container Index de Drewry cayó 2% en la semana al 12 de noviembre, hasta USD 4.305 por contenedor de 40 pies, con bajas de 1% en Asia–Europa y de 2% en el transpacífico y una suba de 1% en el transatlántico.",
+        "Para sostener los precios, las navieras recortan salidas. El Cancelled Sailings Tracker de Drewry del 13 de noviembre prevé 52 viajes cancelados en los principales tráficos Este–Oeste entre la semana 47 (16 al 22 de noviembre) y la semana 51 (15 al 21 de diciembre), sobre 716 programados: una tasa de 7%. La mitad corresponde a Asia–norte de Europa y Mediterráneo, 31% al transpacífico hacia el este y 19% al transatlántico. Drewry estima que se concretará el 93% de las salidas previstas y que Gemini tendrá la menor tasa de cancelaciones, de 1%."
+      ],
+      "keyData": [
+        [
+          "Viajes cancelados previstos (semanas 47 a 51)",
+          "52 de 716 (7%)"
+        ],
+        [
+          "Buque que volvió a Suez",
+          "ONE Continuity, 8.110 TEU (15 de noviembre)"
+        ],
+        [
+          "Servicios de la Premier Alliance que se suman",
+          "otros 3, sin fecha informada"
+        ],
+        [
+          "Gemini (Maersk y Hapag-Lloyd)",
+          "vuelven AE1, AE2 y AE3"
+        ],
+        [
+          "Evergreen",
+          "8 buques Asia–Europa por Suez"
+        ],
+        [
+          "Tránsito semanal por Suez (1.ª quincena de octubre)",
+          "753.000 TEU vs. 1.457.000 en 2023"
+        ],
+        [
+          "Drewry WCI (12 de noviembre)",
+          "USD 4.305 por FEU (−2%)"
+        ]
+      ],
+      "explainer": {
+        "what": "El portacontenedores ONE Continuity cruzó el canal de Suez el 15 de noviembre con el servicio FE1 de la Premier Alliance, y otras navieras, como Maersk, Hapag-Lloyd y Evergreen, también devuelven servicios a esa ruta.",
+        "why": "La vuelta al canal acorta los viajes entre Asia y Europa respecto del rodeo por el cabo de Buena Esperanza y suma capacidad en un mercado con fletes en baja: Drewry prevé 52 viajes cancelados entre mediados de noviembre y diciembre.",
+        "who": "Importadores y exportadores que operan cargas entre Asia, Europa y el Mediterráneo, transitarios y navieras.",
+        "products": [
+          "Carga en contenedores"
+        ],
+        "next": "Según Kuehne+Nagel, otros tres buques de Evergreen pasarán por Suez antes de fin de año, y la Autoridad del Canal anunció la vuelta de tres servicios más de la Premier Alliance, sin fecha.",
+        "nextSource": {
+          "name": "Kuehne+Nagel",
+          "url": "https://mykn.kuehne-nagel.com/news/article/more-container-services-return-to-the-suez"
+        }
+      },
+      "topics": [
+        "Logística",
+        "Transporte marítimo",
+        "Asia",
+        "Europa"
+      ],
+      "countries": [
+        "Egipto",
+        "China",
+        "Países Bajos",
+        "Singapur"
+      ],
+      "tags": [
+        "Canal de Suez",
+        "Mar Rojo",
+        "Premier Alliance",
+        "Gemini",
+        "Evergreen",
+        "Blank sailings",
+        "Drewry"
+      ],
+      "visual": "container",
+      "impact": 2,
+      "affectsArgentina": false,
+      "story": "fletes-contenedores",
+      "absorbs": [
+        "canal-de-suez-naviera-one-retoma-sus-transitos-y-otros-tres-servicios-volverian",
+        "las-navieras-reactivan-gradualmente-rutas-por-suez",
+        "evergreen-vuelve-a-canal-de-suez-con-transito-de-portacontenedores"
+      ],
+      "sources": [
+        {
+          "name": "Autoridad del Canal de Suez (SCA)",
+          "type": "Organismo oficial",
+          "url": "https://www.suezcanal.gov.eg/English/MediaCenter/News/Pages/Sca_15-11-2026.aspx",
+          "primary": true
+        },
+        {
+          "name": "Kuehne+Nagel",
+          "type": "Empresa logística",
+          "url": "https://mykn.kuehne-nagel.com/news/article/more-container-services-return-to-the-suez",
+          "author": "Manal Barakat"
+        },
+        {
+          "name": "Drewry — Cancelled Sailings Tracker (13 de noviembre)",
+          "type": "Consultora",
+          "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/cancelled-sailings-tracker"
+        },
+        {
+          "name": "BIMCO",
+          "type": "Organización del sector",
+          "url": "https://www.bimco.org/news-insights/market-analysis/shipping-number-of-the-week/2026/1014-snow/"
+        },
+        {
+          "name": "El Mercantil",
+          "type": "Medio especializado",
+          "url": "https://elmercantil.com/2026/10/01/la-premier-alliance-devuelve-servicios-al-mar-rojo-y-msc-se-pertrecha-contra-la-pirateria/"
+        },
+        {
+          "name": "ShipUniverse",
+          "type": "Medio especializado",
+          "url": "https://www.shipuniverse.com/?p=21251"
+        }
+      ]
+    },
+    {
       "id": "senado-cabotaje-marina-mercante-admision-temporaria-buques-extranjeros-dictamen-gremios-paro",
       "date": "2026-11-17",
       "kind": "noticia",
@@ -4526,6 +5002,45 @@
       }
     },
     {
+      "id": "se-multiplican-las-nuevas-medidas-restrictivas-del-comercio-pero-los-miembros-de",
+      "datetime": "2026-11-17T00:00:00Z",
+      "date": "2026-11-16",
+      "firstSeen": "2026-11-18T13:57:59Z",
+      "title": "Se multiplican las nuevas medidas restrictivas del comercio, pero los Miembros de la OMC intensifican sus esfuerzos de facilitación del comercio",
+      "summary": "El ritmo de introducción de nuevos aranceles y otras medidas no facilitadoras aumentó considerablemente en el primer semestre de 2026, a la vez que el volumen acumulado de tales medidas alcanzó un nivel récord, según la última revista general anual de la Directora General de la OMC sobre la evolución del entorno…",
+      "body": [
+        "El ritmo de introducción de nuevos aranceles y otras medidas no facilitadoras aumentó considerablemente en el primer semestre de 2026, a la vez que el volumen acumulado de tales medidas alcanzó un nivel récord, según la última revista general anual de la Directora General de la OMC sobre la evolución del entorno comercial internacional. Al mismo tiempo, los Miembros de la OMC introdujeron un número significativo de medidas de facilitación del comercio, lo que contribuyó a mantener los flujos comerciales mundiales a pesar del aumento de las tensiones geopolíticas y la incertidumbre económica."
+      ],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Geopolítica y comercio",
+        "Economía internacional"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "OMC",
+        "Aranceles"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "OMC · Organización Mundial del Comercio",
+      "sources": [
+        {
+          "name": "OMC · Organización Mundial del Comercio",
+          "type": "Organismo internacional",
+          "url": "https://www.wto.org/spanish/news_s/news26_s/tmwto_17nov26_552_s.htm",
+          "primary": true,
+          "author": ""
+        }
+      ]
+    },
+    {
       "id": "peru-agroexportaciones-registran-un-crecimiento-interanual-del-1-2-durante-perio",
       "datetime": "2026-11-16T23:30:53Z",
       "date": "2026-11-16",
@@ -4744,69 +5259,6 @@
       }
     },
     {
-      "id": "canal-de-suez-naviera-one-retoma-sus-transitos-y-otros-tres-servicios-volverian",
-      "datetime": "2026-11-16T21:00:56Z",
-      "date": "2026-11-16",
-      "firstSeen": "2026-11-17T03:53:29Z",
-      "title": "Canal de Suez: naviera ONE retoma sus tránsitos y otros tres servicios volverían a la ruta",
-      "summary": "El regreso del buque ONE CONTINUITY marca la reanudación de las operaciones de la compañía por esta vía marítima. La medida permitiría reducir distancias, tiempos de tránsito y consumo de combustible en las conexiones entre Asia y Europa.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Transporte marítimo"
-      ],
-      "countries": [
-        "Egipto"
-      ],
-      "tags": [],
-      "visual": "ship",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Logística y fletes",
-      "sources": [
-        {
-          "name": "Portal Frutícola",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.portalfruticola.com/noticias/2026/11/16/one-canal-suez/",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "Revista Digital Minera REDIMIN",
-          "type": "También publicó esta noticia",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNTdpcUk1d0hKR0Y2ajlLSldkVTdObVdCai1RWVNZbk9xa3cxUjFwNEFleDZscjRtc1BtZEVOYTRiN0dITnZuQXEyOFdobWxYQ3BFakI5RU45NmVxR19kM2J3ME5TNW40N0R0R1drVzlsQlFUdFBBQm54NVRTRE1oRHBPaVVVWFhzRWNHb21DWDBtWnRCbGRfWk13?oc=5",
-          "alsoIn": true,
-          "title": "Naviera ONE regresa al Canal de Suez con portacontenedores de 8.110 TEU"
-        }
-      ],
-      "gnTried": "2026-11-17T03:53:29Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1xT002cE9sX2V1a3JjSGswWXI2WTBxeXA3VEhPZ1dud2ViQWNMMGVvX3R5R3QxanZsR3ZNbnAweVFzY3hSUEZMQXhuN21WNjlHZVlvR1R6aUoxWS04cjN1Q3AtZ0NHX3pjOFdsdTZHN0pYbktiT2c?oc=5",
-      "aliasUrls": [
-        "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNTdpcUk1d0hKR0Y2ajlLSldkVTdObVdCai1RWVNZbk9xa3cxUjFwNEFleDZscjRtc1BtZEVOYTRiN0dITnZuQXEyOFdobWxYQ3BFakI5RU45NmVxR19kM2J3ME5TNW40N0R0R1drVzlsQlFUdFBBQm54NVRTRE1oRHBPaVVVWFhzRWNHb21DWDBtWnRCbGRfWk13"
-      ],
-      "mergedIds": [
-        "naviera-one-regresa-al-canal-de-suez-con-portacontenedores-de-8-110-teu"
-      ],
-      "digest": {
-        "lead": "Ocean Network Express (ONE) volvió a cruzar el Canal de Suez el domingo 15 de noviembre con el ONE Continuity, un buque de 8.110 contenedores que navegaba de Singapur hacia los Países Bajos, informa ME Observer.",
-        "body": [
-          "El barco, de 320 metros de eslora, opera en el servicio FE1 de la Premier Alliance, que integran ONE, la surcoreana HMM y la taiwanesa Yang Ming. Según la consultora Alphaliner, pasar por Suez acorta la rotación completa de ese servicio de 13 a 11 semanas frente a la ruta por el cabo de Buena Esperanza, lo que podría ahorrar buques y combustible.",
-          "El presidente de la Autoridad del Canal de Suez, Osama Rabie, anticipó que otros tres servicios de la alianza volverían a la vía y aseguró que el canal está preparado para recibir más tráfico de contenedores. Según cifras de ese organismo, los ingresos del canal subieron 94% interanual en octubre, a USD 724 millones, y los tránsitos crecieron 32%, a 1.490 buques.",
-          "El medio aclara que la recuperación es despareja: las navieras recuperan de a poco las rutas abandonadas tras los ataques en el mar Rojo de fines de 2023, y una vuelta plena depende de la seguridad en esa zona."
-        ],
-        "at": "2026-11-17T19:30:00-03:00",
-        "basedOn": "https://meobserver.news/?p=192455",
-        "words": 200,
-        "basedOnSource": {
-          "name": "ME Observer",
-          "url": "https://meobserver.news/?p=192455",
-          "title": "ONE Returns to Suez Canal as Egypt's Shipping Recovery Accelerates"
-        }
-      }
-    },
-    {
       "id": "argentina-lng-ypf-proyecta-hasta-40-000-trabajadores-en-el-pico-de-construcc-2",
       "datetime": "2026-11-16T20:45:04Z",
       "date": "2026-11-16",
@@ -4871,6 +5323,41 @@
           "title": "El megaproyecto de Argentina LNG movilizará hasta 40.000 puestos en la costa de Río Negro"
         }
       }
+    },
+    {
+      "id": "el-girasol-argentino-crecio-un-82-en-exportaciones-y-ya-supera-los-us-3-000-mill",
+      "datetime": "2026-11-16T20:12:52Z",
+      "date": "2026-11-16",
+      "firstSeen": "2026-11-18T13:57:59Z",
+      "title": "El girasol argentino creció un 82% en exportaciones y ya supera los US$ 3.000 millones",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Perfil",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.perfil.com/canal-e/el-girasol-argentino-crecio-un-82-en-exportaciones-y-ya-supera-los-us-3.000-millones-a2A1b4b1l6Cd",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-18T13:57:59Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYkRRbkpIOHpCemJFMmk0YWx1dmJ1NVBVVlRyN1BxdnUyT3BjcUNRU05hbS1RRFNrbG5yQ2Nidlo5WFBWNmx1SVRhcUNzUnNuTzNMWjZrY0FkY2xob0RYcWs5VEozbHc2TlFlcWEzS2xtRnZ6LVU2YjRERjNOOGtBOWNBV1NudElDLXBnNnRyZHU1V1BnejFEcG5kVE1pN0VPMUtkcEZ3U2QxTEE5SzBmeE9MRDZ0c1ZOZ2xmeXI1Um5oYnN1eTJSRV9sQ2g2OHRFY0VsNmxpWmFUeF9lbkd4TA?oc=5"
     },
     {
       "id": "aranceles-al-doble-serian-desastrosos-para-coahuila-canacintra",
@@ -5303,6 +5790,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Exportaciones",
         "Economía internacional",
         "Latinoamérica",
         "Mercosur"
@@ -5742,6 +6230,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Aduanas"
       ],
       "countries": [
@@ -5761,6 +6250,20 @@
           "url": "https://estadodealerta.com.ar/supara-acompano-a-los-trabajadores-de-la-aduana-de-oran-tras-el-devastador-incendio/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "La hora de salta",
+          "type": "También publicó esta noticia",
+          "url": "https://www.lahoradesalta.com.ar/supara-tomo-conocimiento-de-la-situacion-que-atraviesan-los-trabajadores-de-la-aduana-de-oran-tras-el-incendio/",
+          "alsoIn": true,
+          "title": "SUPARA tomó conocimiento de la situación que atraviesan los trabajadores de la Aduana de Orán tras el incendio"
+        },
+        {
+          "name": "Enfoque Sindical |",
+          "type": "También publicó esta noticia",
+          "url": "https://enfoquesindical.org/articulo/noticias/tras-el-devastador-incendio-en-la-aduana-de-oran-supara-reclamo-recuperar-las",
+          "alsoIn": true,
+          "title": "Tras el devastador incendio en la Aduana de Orán, SUPARA reclamó recuperar las condiciones de trabajo"
         }
       ],
       "gnTried": "2026-11-18T04:20:27Z",
@@ -5768,7 +6271,17 @@
       "digestSkip": {
         "at": "2026-11-18T03:52:25-03:00",
         "reason": "fuera de tema (actividad gremial tras un incendio)"
-      }
+      },
+      "aliasUrls": [
+        "https://enfoquesindical.org/articulo/noticias/tras-el-devastador-incendio-en-la-aduana-de-oran-supara-reclamo-recuperar-las",
+        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPc2RHSnFDSHJSYktqeGNtWllSQURNQ0U0R256Q2kyazRDcEVnRWFYV3hzNmQzd2ZlbTl0MVctSTZ6SUhreGR5SzFIYUxGcUJnN0h0SFVHNTB1cGpOcGVITkJWRzV5bS1UMHdpRlJVMzhYRUlBZHJ4VElibk1iNkV1OFVsaWpNS2NQQ0ZNVll1TEVoYmFwNE1lV1VwZGlZOWxzRVBUS2VZWVliMUdqb3FOYjlXTmFtRjJBdGJ6VmdqNE9CRTFpSC1OWWxpbWF0UGNvRFJqTkhTS0k5WW5K",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcF9Ud2dRUkQtVkdYeFJhdzdaMXIwQmhfOFVXS0FvNWJlU2ZfM2k0ZzdCLU5xdDBpQVNtejhYcUVFYmZ3Y3FkM3dGanJuNmgwdExId1VEeUJQTG40WXprb0E4RUtpeXp4NDFKQ21OaHdaRFBhX1FrTVVudjJEM3Q0Y3pGX1FuQVF2dDBjMWhTcjE3M2JlRkxUYVNLUTl1QXdzYnV5d29uTlZJTVlfZ0N6YTM3MmlHRjVhSEpTYjRFYVE",
+        "https://www.lahoradesalta.com.ar/supara-tomo-conocimiento-de-la-situacion-que-atraviesan-los-trabajadores-de-la-aduana-de-oran-tras-el-incendio"
+      ],
+      "mergedIds": [
+        "supara-tomo-conocimiento-de-la-situacion-que-atraviesan-los-trabajadores-de-la-a",
+        "tras-el-devastador-incendio-en-la-aduana-de-oran-supara-reclamo-recuperar-las-co"
+      ]
     },
     {
       "id": "el-salvador-y-ee-uu-suscribieron-un-acuerdo-para-fortalecer-la-seguridad-de-la-c",
@@ -7946,52 +8459,6 @@
       }
     },
     {
-      "id": "la-industria-del-calzado-en-el-precipicio-vence-antidumping-que-bloquea-importac",
-      "datetime": "2026-11-15T13:25:00Z",
-      "date": "2026-11-15",
-      "firstSeen": "2026-11-15T17:43:23Z",
-      "title": "La industria del calzado, en el precipicio: vence antidumping que bloquea importaciones baratas de China",
-      "summary": "El 14 de diciembre finaliza una barrera que impide el ingreso de zapatos de menos de u$s 15,80. La baja del consumo y la apertura, combo letal.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Importaciones",
-        "Aranceles",
-        "China",
-        "Asia"
-      ],
-      "countries": [
-        "China"
-      ],
-      "tags": [
-        "Medidas comerciales",
-        "China"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
-      "sources": [
-        {
-          "name": "Letra P",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.letrap.com.ar/letrae/economia-finanzas/la-industria-del-calzado-el-precipicio-vence-antidumping-que-bloquea-importaciones-baratas-china-n5428198",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-15T17:43:23Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNa2FYeHJOZVdwYXR5cFRzR0hnUUdRYVVMOVgwOEdTcm1Pa1h3UmlsNl9lWW1sZmhxLTMxZEFnM1VfeEdwVEJjanQ0bWNfQUFoNVg2WDFzRVVnSW5pOFcybmhWYlJXQWw1WGVXYnVxWDdDSk9RVEl0d0FBNW5lUFdxRDFPTHU5Y29VbC1lLTd3N3RlZzJCN0Z5bUlrOHRwVkxWS1EwUXV4eld6STJJSzF0akltOVdGNzFwVGowZkNxV2dIU1lqS2VYN2tJQmFoZ0k4SUNVYk9TWWRtOXQ2VkluTm5MRy1ERTNLU3ZyQg?oc=5",
-      "digestSkip": {
-        "at": "2026-11-16T07:20:00-03:00",
-        "reason": "no se encontró una versión legible",
-        "retry": true,
-        "tries": 3
-      }
-    },
-    {
       "id": "gobierno-prepara-desregulacion-para-exportadores-y-busca-sumar-pymes-al-rigi",
       "datetime": "2026-11-15T10:41:15Z",
       "date": "2026-11-15",
@@ -9482,49 +9949,6 @@
       ],
       "gnTried": "2026-11-14T17:07:54Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQNWl4NlVaZUJxaTl4Q0F0S0xGQWtqMEl3LWtubVI1SWxrcTZYbU5oU1R1UjlVcm1ZcEZ2bGhpOVBuVmo3RVlNVDlYcGp4VUQ1UmNEY0dRdFBvNDhsOGY4ek9wRzI5bGVzZkVUWVNvdUtpeTEzalZ4VHpzc3k0UDV0SEpGSkNvMkI5VkI0MHJtNWFsYkZjZnM0UHJIVDFacWZRNTVPZ2tFc2ZEX0h0Z1Z3OWszSXlxNDY5a2RqS0U4dXNSQnNUd3Y3czBFeHVwVkFMR0kwd0JRN0RxdjB0dUpOSXh6bVNhczdsR0VBbDBRX3B6TUJuZDl3M3FxeFpyRm5lZVpJZ0VKZGg1Mzg?oc=5",
-      "digestSkip": {
-        "at": "2026-11-15T06:43:55-03:00",
-        "reason": "no se encontró una versión legible",
-        "retry": true,
-        "tries": 3
-      }
-    },
-    {
-      "id": "navieras-cancelan-52-viajes-para-frenar-la-caida-de-los-fletes-maritimos",
-      "datetime": "2026-11-14T12:48:26Z",
-      "date": "2026-11-14",
-      "firstSeen": "2026-11-14T17:07:54Z",
-      "title": "Navieras cancelan 52 viajes para frenar la caída de los fletes marítimos",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Logística",
-        "Transporte marítimo"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [
-        "Fletes"
-      ],
-      "visual": "ship",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Logística y fletes",
-      "sources": [
-        {
-          "name": "MasContainer",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://mascontainer.com/navieras-cancelan-52-viajes-para-frenar-la-caida-de-los-fletes-maritimos/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-14T17:07:54Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSHNVakVLTTJlcDBMZHhIcWxnQnBLVnNNRkdjZC1WSEo3UVhqUm03WXNjR2dwdGkwYVh2b3Y3VVZqT3pPNlVwNGV1S0VSNEFYNUVNNl8weHZRVXA5VGR5ZTE4N1ZJMG84cnMtVm05eV8xNF9BRWM2Sk9kSWZMZktSSm5GNEpJTGZlZy1pV0RYdUU0V190VzBkN1VWYm94Vlk?oc=5",
       "digestSkip": {
         "at": "2026-11-15T06:43:55-03:00",
         "reason": "no se encontró una versión legible",
@@ -25476,6 +25900,40 @@
       }
     },
     {
+      "id": "la-directora-general-elogia-la-labor-del-comite-de-obstaculos-tecnicos-al-comerc",
+      "datetime": "2026-11-10T00:00:00Z",
+      "date": "2026-11-09",
+      "firstSeen": "2026-11-18T13:57:59Z",
+      "title": "La Directora General elogia la labor del Comité de Obstáculos Técnicos al Comercio en su 100ª reunión",
+      "summary": "En la reunión que celebró del 10 al 13 de noviembre, el Comité de Obstáculos Técnicos al Comercio (OTC) examinó nuevos temas reglamentarios, como la fabricación aditiva y las normas interoperables en materia de datos, debatió sobre 79 preocupaciones comerciales y adoptó directrices destinadas a facilitar el…",
+      "body": [
+        "En la reunión que celebró del 10 al 13 de noviembre, el Comité de Obstáculos Técnicos al Comercio (OTC) examinó nuevos temas reglamentarios, como la fabricación aditiva y las normas interoperables en materia de datos, debatió sobre 79 preocupaciones comerciales y adoptó directrices destinadas a facilitar el intercambio voluntario de información entre los Miembros de la OMC por medio de las notificaciones. \"Gran parte del valor que esta Organización aporta a sus Miembros se deriva del trabajo discreto, regular y concreto que los Miembros llevan a cabo aquí en Ginebra\", declaró la Directora General en su intervención ante el Comité en su 100ª reunión."
+      ],
+      "keyData": [],
+      "topics": [
+        "Economía internacional"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "OMC · Organización Mundial del Comercio",
+      "sources": [
+        {
+          "name": "OMC · Organización Mundial del Comercio",
+          "type": "Organismo internacional",
+          "url": "https://www.wto.org/spanish/news_s/news26_s/tbt_10nov26_554_s.htm",
+          "primary": true,
+          "author": ""
+        }
+      ]
+    },
+    {
       "id": "puertos-de-turquia-movilizan-457-4-millones-de-toneladas-de-carga-de-enero-a-oct",
       "datetime": "2026-11-09T23:30:26Z",
       "date": "2026-11-09",
@@ -28046,54 +28504,6 @@
       "digestSkip": {
         "at": "2026-11-10T00:55:00-03:00",
         "reason": "repite el mismo hecho que la nota de La Jornada de Oriente (seis inversiones frenadas en Puebla)"
-      }
-    },
-    {
-      "id": "evergreen-vuelve-a-canal-de-suez-con-transito-de-portacontenedores",
-      "datetime": "2026-11-08T20:00:56Z",
-      "date": "2026-11-08",
-      "firstSeen": "2026-11-08T21:16:39Z",
-      "title": "Evergreen vuelve a Canal de Suez con tránsito de portacontenedores",
-      "summary": "Evergreen retornó al Canal de Suez, tras completar el tránsito del portacontenedores Ever Eon por la…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Transporte marítimo"
-      ],
-      "countries": [
-        "Egipto"
-      ],
-      "tags": [
-        "Contenedores"
-      ],
-      "visual": "container",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/evergreen-vuelve-a-canal-de-suez-con-transito-de-portacontenedores/",
-          "primary": true,
-          "author": "Periodista 4"
-        }
-      ],
-      "aliasUrls": [
-        "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT1VMWnY4cFo4cjByUC1SOW14WUFSMkJnd1VfTHhmU01KVkJJNmUyNEdxMmZsS2dqYUlQQjNrcnlHU2JfYnc0VnpKaWNFQUJoVmxVNkw5T3dMRUswWVlBNzRDVGh6WVdtUC1nVGtFM0FSTWRobF9TcXk5UjJkVzFNREJHblVtRWZGZUN6MkIzcm5BZ0V5TVQ3cmFR"
-      ],
-      "digest": {
-        "lead": "La naviera taiwanesa Evergreen volvió a usar el Canal de Suez con el tránsito del portacontenedores Ever Eon, que integró un convoy hacia el norte en un viaje de los Países Bajos a Singapur, informó PortalPortuario.",
-        "body": [
-          "El buque mide 369 metros de eslora y 53,6 de manga, y opera en el servicio NEU de Ocean Alliance, que une puertos del Lejano Oriente con el noroeste de Europa. Por tratarse del primer paso de esa nave por el canal, la Autoridad del Canal de Suez aplicó su protocolo habitual: su presidente, Ossama Rabie, envió personal a bordo para recibir a la tripulación y entregar un obsequio al capitán.",
-          "Rabie presentó el regreso de Evergreen como una señal de recuperación gradual del comercio entre Oriente y Occidente y dijo que la línea planea retomar más viajes por la vía en los próximos meses, tras casi tres años de interrupción desde el inicio de la crisis del Mar Rojo.",
-          "Según el funcionario, el canal ya recuperó servicios de otras navieras de la ruta Europa–Asia: CMA CGM, Maersk, MSC, Hapag-Lloyd y Cosco, además de Evergreen."
-        ],
-        "at": "2026-11-10T00:55:00-03:00",
-        "basedOn": "https://portalportuario.cl/evergreen-vuelve-a-canal-de-suez-con-transito-de-portacontenedores",
-        "words": 181
       }
     },
     {
@@ -155455,16 +155865,16 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-11-18T04:20:27Z",
+    "ranAt": "2026-11-18T13:57:59Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
         "url": "https://www.wto.org/library/rss/latest_news_s.xml",
         "ok": true,
-        "items": 8,
-        "added": 0,
+        "items": 7,
+        "added": 2,
         "updated": 0,
-        "skipped": 1
+        "skipped": 0
       },
       {
         "source": "Aduana News",
@@ -155480,71 +155890,66 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 6,
+        "added": 2,
         "updated": 0,
-        "skipped": 8
+        "skipped": 10
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 19,
-        "added": 3,
+        "items": 24,
+        "added": 1,
         "updated": 0,
-        "skipped": 13
+        "skipped": 19
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 24,
-        "added": 1,
+        "items": 22,
+        "added": 4,
         "updated": 0,
-        "skipped": 16
+        "skipped": 14
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 58,
+        "items": 59,
         "added": 4,
         "updated": 0,
-        "skipped": 45
+        "skipped": 43
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 18,
+        "items": 19,
         "added": 4,
         "updated": 0,
-        "skipped": 2
+        "skipped": 1
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
         "url": "https://news.google.com/rss/search?q=(aranceles+OR+%22guerra+comercial%22+OR+%22acuerdo+comercial%22)+when:1d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 99,
+        "items": 100,
         "added": 4,
-        "updated": 0,
-        "skipped": 88
+        "updated": 1,
+        "skipped": 92
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 62,
+        "items": 60,
         "added": 4,
         "updated": 0,
-        "skipped": 44
+        "skipped": 39
       }
     ],
     "curatedDuplicates": [
-      {
-        "title": "La UE inicia una investigación en materia de salvaguardias relativa a determinados vehículos híbridos nuevos",
-        "url": "https://www.wto.org/spanish/news_s/news26_s/safe_eec_02nov26_536_s.htm",
-        "curated": "ue-investigacion-salvaguardia-vehiculos-hibridos-importaciones-1-4-millones-cupo-china"
-      },
       {
         "title": "Las ventas argentinas a Brasil crecieron un 1,8% interanual en octubre",
         "url": "https://aduananews.com/las-ventas-argentinas-a-brasil-crecieron-un-18-interanual-en-octubre/?utm_source=rss&utm_medium=rss&utm_campaign=las-ventas-argentinas-a-brasil-crecieron-un-18-interanual-en-octubre",
@@ -155559,6 +155964,16 @@
         "title": "El Gobierno impulsa la concesión del Centro de Fronteras Paso de los Libres",
         "url": "https://aduananews.com/el-gobierno-impulsa-la-concesion-del-centro-de-fronteras-paso-de-los-libres/?utm_source=rss&utm_medium=rss&utm_campaign=el-gobierno-impulsa-la-concesion-del-centro-de-fronteras-paso-de-los-libres",
         "curated": "decreto-1350-2026-paso-de-los-libres-cotecar-concesion-20-anos-iniciativa-privada"
+      },
+      {
+        "title": "El petróleo desplazó a la harina de soja y lidera las exportaciones argentinas",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1QMFo1eFhESGsyUDIyaG9mYjg1eUxkcmtKVFZEZkUwNjVxLXZXcEt3bXM4ZVN6T2paOWtyU0YzRk95eUdrWHU4bWJNNHdyR3QweE13dzI2TW5SbF9KY3ZoZVBJUHVrUTRlc1FRN0tod2RrdFJEcFMxNA?oc=5",
+        "curated": "bcr-saldo-energetico-enero-septiembre-2026-9427-millones-record-44-5-superavit-crudo-harina-soja"
+      },
+      {
+        "title": "Se actualizó procedimiento para supervisar tratamientos de fumigación oficial en el comercio exterior",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CWUE2cWVfMDY3MU1GaElMdGVkODBlWWZlamVaZ0VNa0VlTGRSTGhfczhUaEEzcEhYV2pmbGZ6N1YtcVRIR1RnTl9DNmNmNDZjaW1hUkRSUjNSdUhpbFpR?oc=5",
+        "curated": "senasa-resolucion-955-2026-fumigaciones-oficiales-comercio-internacional-granos-bodegas-fosfina"
       },
       {
         "title": "Fumigación en comercio exterior: nuevas reglas del SENASA",
@@ -155581,95 +155996,107 @@
         "curated": "bcr-saldo-energetico-enero-septiembre-2026-9427-millones-record-44-5-superavit-crudo-harina-soja"
       },
       {
-        "title": "Las exportaciones de Argentina cambiaron de líder: el petróleo superó a la harina de soja",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdTRyeUFkamJNd0EwdExXa3VCRElFOGVpLTJLV01tUTR3X3lkLVpSX0pUNDN4M1hkMFFWeWcxcktNNkpVNjdEUHE2QmVpQnB3TEU4eWNpamxmcm02OGtueTdITk91TDNWU3hsWHRjUkM1Yl9JU0xJZkl5RHg1elR3T2hKRTB4eGxVc3ZvWXZlZDJsR1NaTU5BOHlPQXF6c0N0UFRYdVNFbUNmSUtNalZCOHdIRDJUZUhTZHc00gG7AUFVX3lxTE51NHJ5QWRqYk13QTB0TFdrdUJESUU4ZWktMktXTW1RNHdfeWQtWlJfSlQ0M3gzWGQwUVZ5ZzFyS002SlU2N0RQcTZCZWlCcHdMRTh5Y2lqbGZybTY4a255N0hOT3VMM1ZTeGxYdGNSQzViX0lTTElmSXlEeDV6VHdPaEpFMHh4bFVzdm9ZdmVkMmxHU1pNTkE4eU9BcXpzQ3RQVFh1U0VtQ2ZJS01qVkI4d0hEMlRlSFNkdzQ?oc=5",
+        "title": "El petróleo desplazó a la harina de soja y se convirtió en el principal producto de exportación argentino",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9lZk4yNjF4bmlUbzZzcHhDakpkMFJpcXZwNHBaNUg0S0k1TlRJcVVyNXNQT2RsS25GOVdCME56RVFvNDhNMzFTd1N6S1RVWmQ5dEJ4YU1sYzNUMy1WRjVKUXFmTGROcHRjb3UyNFpxaGJrdw?oc=5",
         "curated": "bcr-saldo-energetico-enero-septiembre-2026-9427-millones-record-44-5-superavit-crudo-harina-soja"
       },
       {
-        "title": "Un real más débil complica al agro argentino: Brasil gana terreno en la carrera exportadora",
-        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNZWJDUmlaWXZiVk1QWnlHVWhpVGJMa3d3RW14TkR0djlVMlV2RUZQRXhoRWhhMEhqQjFkYkNoZS1ZVy16OUg5WlI3UzhyVFYxMkliZzVjZ2ZKZWRXQk9BYnpQODZuTXBwLUFFVVFpUjBzOHdGbmpQRk5aSTlaWHZJWXdPdGVWX28wUmdhS0x4Q2FpZ3lDams3ZUNLalcydmtZalJsdkZxd2tjdndxeEFmR0x1U040blBnS2R2RlNCUmlDN19nUXRJRUF5enpadFpSZ0hwUnE1R3RYVklvM3Y0RDl5c01jZw?oc=5",
-        "curated": "real-debil-brasil-competitividad-argentina-harina-soja-4-4-por-ciento-dolar-5-67-reales"
-      },
-      {
-        "title": "Récord histórico: el petróleo destronó a la harina de soja como líder exportador",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUWc4Z094TVhTNTZ2WHNLOFZLWTB0V0s5S2FGWEYtMVJSc2gydUl4VkVBbTZvSDVQM2x6UERsQ2Y2aF9ic3R1XzVqSWFLbG90bFRDencxVGd2MEtnYWMya3p1VkRmN05uWV9TMHBrQlBVckxoT1ZrZXd1NnRCRjlHYUk5M29GLTBHSDlzX0NjVF9VSFV2Q0RrakVPT3FEZ3JEYjA4NjJFS3ZIX1pqS2VQbGNUYmhWQTRjOFhHTFY2UdIBxAFBVV95cUxQUThPZE5FazhJb2c5NDFpeGRBckVib3I2UWozSEFmbXNOanRpYVlmbi01NjVlNTllMm9nSTZZM3h5QUJaMzBmd2tmNHlYdzVaRVpFYWZ0ZS16V3BpOUc5am5sX2dUWlI4SGNjbzF5OVYzRENNS0dnZ1VlWWtYSDRwWlZBQjczd2pFVG9qLXlLYmk1LXdESi1RaU5hRUcwdVhTWTFicVBnYWRYYThOT3FFdThHUWlzVWx5d09TS1MxNDE5R2dD?oc=5",
+        "title": "El petróleo destronó a la harina de soja como el principal producto de exportación de la Argentina",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQQ3NlTGhrS1Y5c2cxR3RoU0N1UjhyRTZkWmtvazNRSVhkV001VDhYUk1NU21OVlF2Z0JmX3UydEhMRzMzcjU5QTFuZVZ5d2JDTG9zV1lvOXRlOVlqRDZhNlh0bzRsQWVWSmlKazJ5Nnd2LWxLcHlyRnVBeHFMNUtWeWpBT2ZjMzFkWWtPMGwydnJNRU5zVWR2cGVCS1ZWSjJxeF84NXF5bmFXRFY1STdabG9CaVhyUThfdEs2TU1BVUlTN0NLb2hvdjFCNFlVZ3VUOHREMmhPUlpqSDNTX09iNGdDSm84aGNYVGlpTzVjbkZhaVha0gH6AUFVX3lxTFBrT3RVSElFQTdzRS1VVHZlRzNzV1JEVGI3RHN5TUxqNi1mT25WV0NzcmhacEhLNF9Xak0xTGUzWG9feG5jY0lublBGcEYyWDV5eFZfNVJHLXgwejZ1djFNWEhMUGtOMVRqanFWREZ2OWdiVU9QWTlmVG9nODFBWDVZNkpIMkQzc1BiaTJQdlRWejV1Y0lJY3NjdXdHbnphMVVJQURVRnJDMlZfOXNTWU80dGRkVEJYY2JfQ3RRUDhZLUJCYlFreFVKTFRTcDdkLVFGd25Pc2tJbV9xNDAzSVFjczJRVlkxeW1ZRml5OWhxRGM4dVU1TGFOMnc?oc=5",
         "curated": "bcr-saldo-energetico-enero-septiembre-2026-9427-millones-record-44-5-superavit-crudo-harina-soja"
       },
       {
-        "title": "Vaca Muerta impulsa un cambio histórico: Argentina ya exporta más petróleo que harina de soja",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNeW5QM0tmQTl2NXRfQjJRUG1YWDdqV2FKdEpnTHJ4RDYzMHpSWWk5UzJHMGNsQ0lQZ3pjMGlkcGpWbnA3Sl9UMi1lcmFWRDczbnpwRHlSV0NEZVNoVkRLVkEtallNLVMyUTRkOEpqMkc0VzlESnR0T3RYeTZQeWtWcXdIRy02NGNRbHBxQzBtcy1BUDFabFJHN2pYdmE2eVpSWnZlUndZUENaeVdLc2h2R1FvVnpGcTE1MkFqYzZrZWVKcWp2ZzJWaXE3bzJnZzdvRHlIM2dXd0Q5WTFRUlRPU0NOZ0hpQUHSAecBQVVfeXFMTXluUDNLZkE5djV0X0IyUVBtWFg3aldhSnRKZ0xyeEQ2MzB6UllpOVMyRzBjbENJUGd6YzBpZHBqVm5wN0pfVDItZXJhVkQ3M256cER5UldDRGVTaFZES1ZBLWpZTS1TMlE0ZDhKajJHNFc5REp0dE90WHk2UHlrVnF3SEctNjRjUWxwcUMwbXMtQVAxWmxSRzdqWHZhNnlaUlp2ZVJ3WVBDWnlXS3NodkdRb1Z6RnExNTJBamM2a2VlSnFqdmcyVmlxN28yZ2c3b0R5SDNnV3dEOVkxUVJUT1NDTmdIaUFB?oc=5",
+        "title": "El petróleo desplazó a la harina de soja y lidera las exportaciones argentinas",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1QMFo1eFhESGsyUDIyaG9mYjg1eUxkcmtKVFZEZkUwNjVxLXZXcEt3bXM4ZVN6T2paOWtyU0YzRk95eUdrWHU4bWJNNHdyR3QweE13dzI2TW5SbF9KY3ZoZVBJUHVrUTRlc1FRN0tod2RrdFJEcFMxNA?oc=5",
         "curated": "bcr-saldo-energetico-enero-septiembre-2026-9427-millones-record-44-5-superavit-crudo-harina-soja"
       },
       {
-        "title": "Vaca muerta cambia el perfil exportador de Argentina: ya se vende más petróleo que harina de soja",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQbG5LdEFWanlMQldMU3lkYkowY0NPeHFaTVJFVWh2UG9MZzBESzRKQzRKLTJJaFJOZXdpVHpWZlk2dngzY3I2OXJfZnFBU3NTS3cxTkE3YTR2YmlBSTNDbV9ISnNFLVdpLWxiUC01eXZxcTlMUzdUVFBHWUU1OEF1MTR6U0JrOWF1RVIweGJuS2VjSkJvSk1hYnIwRkJkUEFXSWVPZExlRnVrVWVVMnlTenFYX2pmdmtBbzFXOFVtTkt6MGhKcFlOcmhUZGFVUHRNSjhVVWdOVzVnNU9wSzNpZ0ZRenDSAeQBQVVfeXFMUGxuS3RBVmp5TEJXTFN5ZGJKMGNDT3hxWk1SRVVodlBvTGcwREs0SkM0Si0ySWhSTmV3aVR6VmZZNnZ4M2NyNjlyX2ZxQVNzU0t3MU5BN2E0dmJpQUkzQ21fSEpzRS1XaS1sYlAtNXl2cXE5TFM3VFRQR1lFNThBdTE0elNCazlhdUVSMHhibktlY0pCb0pNYWJyMEZCZFBBV0llT2RMZUZ1a1VlVTJ5U3pxWF9qZnZrQW8xVzhVbU5LejBoSnBZTnJoVGRhVVB0TUo4VVVnTlc1ZzVPcEszaWdGUXpw?oc=5",
+        "title": "El petróleo destronó a la harina de soja como el principal producto de exportación de la Argentina",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeTRxelk4b2VrdklMMWd1VGIzZVYzUm9ha1VJRzdHZE1ENi1mNzRvTkpxc3ptb2RicU15ZDZlQmFjYVh4dnpOTmVTcnZ4WjhBTFdyRmo1b2s0T29Fd3pWUVhXaUs0aDhFS1hoMWxENW1lSEdXZkdzTU1XdEpBbExhcVFhUkxDblZrY3ZHWnJHdWxSSjZkb2VSQkFBZFk1aTI2ZFFKdlNXUVhxaDJIUmJ0R2FqalltSEFIVFB6cVJLU0FObkhLbGxzRE9UbEE?oc=5",
         "curated": "bcr-saldo-energetico-enero-septiembre-2026-9427-millones-record-44-5-superavit-crudo-harina-soja"
-      },
-      {
-        "title": "Gremios y navieras rechazan la apertura del cabotaje a poco de tratarse el tema en el Senado",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNVV1N3drYkxVSTJLcFpHSlBUaU4ydklXeXg3Ni1NdUxTNExSSks4dkVTQU1HZ3ZpUWExWUpROW9CZFhCUmt2aUI1QkVydWo5SWNQMmR0b2loNEd3cFNaN01GUExCQVdqLVp5MG8zRGp6ZmhPMVVBQUtUSDBWSGJrNFY1VE9RRTRFYU9xZHA0MEdiUWdhZGdfQzFHeFJYdDhTcmFvejhHTVRWSlBtZnNMM1ZKLXltUzJ4bHVrTnNNS1BfTFN2RlJzdGZRNkd5ZTFwX210Z3RRVUs?oc=5",
-        "curated": "senado-cabotaje-marina-mercante-admision-temporaria-buques-extranjeros-dictamen-gremios-paro"
       },
       {
         "title": "Se actualizó procedimiento para supervisar tratamientos de fumigación oficial en el comercio exterior",
-        "url": "https://www.argentina.gob.ar/noticias/se-actualizo-procedimiento-para-supervisar-tratamientos-de-fumigacion-oficial-en-el",
+        "url": "https://dataportuaria.com/es/argentina/comercio-exterior/se-actualizo-procedimiento-para-supervisar-tratamientos-de-fumigacion-oficial-en-el-comercio-exterior-557925",
         "curated": "senasa-resolucion-955-2026-fumigaciones-oficiales-comercio-internacional-granos-bodegas-fosfina"
       },
       {
-        "title": "SENASA simplifica y moderniza los controles fitosanitarios de exportacion de productos vegetales",
-        "url": "http://www.cda.org.ar/detalle_noticia.php?id=42864",
-        "curated": "senasa-resolucion-952-2026-control-fitosanitario-exportaciones-vegetales-destino-cepvp-cert-pov"
+        "title": "El petróleo desplazó a la soja y se convirtió en el principal producto de exportación de Argentina",
+        "url": "https://www.uypress.net/Internacionales/El-petroleo-desplazo-a-la-soja-y-se-convirtio-en-el-principal-producto-de-exportacion-de-Argentina-uc157929",
+        "curated": "bcr-saldo-energetico-enero-septiembre-2026-9427-millones-record-44-5-superavit-crudo-harina-soja"
+      },
+      {
+        "title": "OCDE alerta de exceso de acero chino en América Latina, donde importaciones crecen un 47 %",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYWYzT2hxVVFndGppbEg1WkZrd05OUTY1UTVzOXh2bHBKbndreFVqSDhKa0dadE1fU3JwQXdlOXVPR2s5czJYRTZJRExaV0h2UGRfM2hhRGNhV3FHdThtMG9SeF9OdDc2akU1Rkt0MFBKbWJnVmJrNF9qbjhTMTBzWDhuLWMtSnFFdlUyaU5GdVJySFJNV2k1V1JjazZ0cVltY1Z2djRBS2ZkN0RIMlhLVEk5X3JhZXJIQk5aY3d6THBxaHowNFVaamtxamNQTkhpSnVGeXdFQdIB8gFBVV95cUxQaE9lNllFdjg2S3p3S1dJRW95NnUyaXh6TFhDa2hyVWNRUVZDLWhtRjR0SVZhYklBeS1XZk54NFRSMjdSQkhlamMydVNjYU5nSHcxblV0Y2xFbEJQcjAtNHQ0dmk2TXNSeGJKcXJCZ0QyUFRkUXBRa2VJRklNN0Z1bnRCblJQQWRpYkJaRThRdHJVZ2tyTG1VZ0JDdV9RY2NGZEREcXlSMzNSczFEYVZCZFE4VGNGN1ZvMllNdjA5M1VuT0pKWXV0VEJxNWMxMVpLVm45RWl3R2k0VURCOVR3QjJQeGVLcDg1SzFlSkpaRmhkdw?oc=5",
+        "curated": "ocde-acero-america-latina-importaciones-47-por-ciento-55-4-millones-toneladas-china-21-6"
+      },
+      {
+        "title": "Las navieras reactivan gradualmente rutas por Suez",
+        "url": "https://www.gacetanautica.es/2026/11/17/las-grandes-navieras-apuestan-por-su-regreso-al-canal-de-suez/",
+        "curated": "suez-one-continuity-premier-alliance-gemini-evergreen-regreso-drewry-52-cancelaciones"
+      },
+      {
+        "title": "Canal de Suez: naviera ONE retoma sus tránsitos y otros tres servicios volverían a la ruta",
+        "url": "https://www.portalfruticola.com/noticias/2026/11/16/one-canal-suez/",
+        "curated": "suez-one-continuity-premier-alliance-gemini-evergreen-regreso-drewry-52-cancelaciones"
+      },
+      {
+        "title": "La industria del calzado, en el precipicio: vence antidumping que bloquea importaciones baratas de China",
+        "url": "https://www.letrap.com.ar/letrae/economia-finanzas/la-industria-del-calzado-el-precipicio-vence-antidumping-que-bloquea-importaciones-baratas-china-n5428198",
+        "curated": "calzado-malasia-origen-desconocido-el-dante-indumentaria-pampeana-multas-antidumping-china-14-diciembre"
+      },
+      {
+        "title": "Navieras cancelan 52 viajes para frenar la caída de los fletes marítimos",
+        "url": "https://mascontainer.com/navieras-cancelan-52-viajes-para-frenar-la-caida-de-los-fletes-maritimos/",
+        "curated": "suez-one-continuity-premier-alliance-gemini-evergreen-regreso-drewry-52-cancelaciones"
+      },
+      {
+        "title": "Evergreen vuelve a Canal de Suez con tránsito de portacontenedores",
+        "url": "https://portalportuario.cl/evergreen-vuelve-a-canal-de-suez-con-transito-de-portacontenedores/",
+        "curated": "suez-one-continuity-premier-alliance-gemini-evergreen-regreso-drewry-52-cancelaciones"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "comercio-exterior-y-el-vinculo-bilateral-con-estados-unidos",
+        "main": "supara-acompano-a-los-trabajadores-de-la-aduana-de-oran-tras-el-devastador-incen",
         "merged": [
-          "comercio-exterior-y-el-vinculo-bilateral-con-estados-unidos-2"
+          "supara-tomo-conocimiento-de-la-situacion-que-atraviesan-los-trabajadores-de-la-a",
+          "tras-el-devastador-incendio-en-la-aduana-de-oran-supara-reclamo-recuperar-las-co"
         ]
       },
       {
-        "main": "lineas-navieras-elevan-sus-proyecciones-financieras-para-2026-pero-tarifas-spot",
+        "main": "el-51-de-las-empresas-uruguayas-explora-oportunidades-en-europa-ante-el-acuerdo",
         "merged": [
-          "mundomaritimo-lineas-navieras-elevan-sus-proyecciones-financieras-para-2026-pero"
+          "acuerdo-ue-mercosur-el-51-de-las-empresas-uruguayas-ya-explora-negocios-en-europ"
         ]
       },
       {
-        "main": "orsi-se-reunio-con-pedro-sanchez-el-acuerdo-mercosur-union-europea-fue-tema-cent",
+        "main": "industria-argentina-caida-del-12-al-19-para-sectores-expuestos-a-importaciones-y",
         "merged": [
-          "con-el-acuerdo-mercosur-ue-como-eje-yamandu-orsi-se-reunio-con-pedro-sanchez",
-          "orsi-y-sanchez-analizan-el-acuerdo-entre-mercosur-y-la-ue-en-madrid",
-          "sanchez-y-orsi-refuerzan-en-madrid-su-apuesta-por-acercar-espana-y-uruguay-y-res",
-          "sanchez-y-orsi-reafirman-compromiso-de-estrechar-los-lazos-entre-paises-y-destac"
+          "las-3-caras-de-la-industria-expuestos-a-importaciones-y-al-mercado-interno-caen"
         ]
       },
       {
-        "main": "vaca-muerta-la-oportunidad-historica-para-cambiar-la-matriz-exportadora-argentin",
+        "main": "barajas-pierde-un-11-7-en-carga-aerea-en-el-tercer-trimestre-frente-al-crecimien",
         "merged": [
-          "asi-es-argentina-lng-el-megaproyecto-de-u-s51-000-millones-para-exportar-gas-de"
+          "barajas-se-deja-un-11-7-en-carga-aerea-en-el-tercer-trimestre-mientras-sus-rival"
         ]
       },
       {
-        "main": "las-exportaciones-argentinas-crecieron-24-4-en-el-semestre-el-bid-pone-al-petrol",
+        "main": "sheinbaum-y-trump-se-reunen-en-china-en-medio-de-amenazas-de-nuevos-aranceles-a",
         "merged": [
-          "las-exportaciones-argentinas-crecieron-24-4-en-el-semestre-el-bid-pone-al-pe-2"
-        ]
-      },
-      {
-        "main": "karina-reunio-a-la-mesa-politica-y-confirmo-que-enviara-al-congreso-el-acuerdo-c",
-        "merged": [
-          "karina-milei-reunio-a-la-mesa-politica-de-lla-y-confirmo-que-enviara-al-congreso"
+          "sheinbaum-resalta-una-muy-buena-reunion-con-trump-pese-a-las-amenazas-de-nuevos"
         ]
       }
     ],
     "googleNews": {
       "pending": 21,
-      "resolved": 17,
-      "withSummary": 15,
+      "resolved": 16,
+      "withSummary": 9,
       "withPhoto": 0,
-      "failed": 4,
-      "duplicates": 0
+      "failed": 5,
+      "duplicates": 1
     },
     "noRead": 0
   },
