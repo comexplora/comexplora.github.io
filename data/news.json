@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-11-18T13:57:59Z",
+  "updatedAt": "2026-11-18T22:36:16Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -134,20 +134,16 @@
     {
       "id": "tc-mayorista",
       "label": "Tipo de cambio mayorista ARS/USD",
-      "value": "$ 1.552,26",
-      "period": "Com. A 3500 · 17 nov 2026",
+      "value": "$ 1.558,24",
+      "period": "Com. A 3500 · 18 nov 2026",
       "source": "BCRA",
       "url": "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp",
       "group": "Mercados",
-      "obsDate": "2026-11-17",
-      "change": "+0,2% vs. día hábil anterior",
+      "obsDate": "2026-11-18",
+      "change": "+0,4% vs. día hábil anterior",
       "trend": "up",
-      "checkedAt": "2026-11-18T13:59:15Z",
+      "checkedAt": "2026-11-18T22:38:06Z",
       "history": [
-        [
-          "2026-10-01",
-          1523.2254
-        ],
         [
           "2026-10-02",
           1523.0868
@@ -263,11 +259,15 @@
         [
           "2026-11-17",
           1552.2627
+        ],
+        [
+          "2026-11-18",
+          1558.2427
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-18T13:59:15Z"
+      "lastAttempt": "2026-11-18T22:38:06Z"
     },
     {
       "id": "soja",
@@ -284,7 +284,7 @@
         "date": "2026-11-17",
         "ars": 550000.0
       },
-      "checkedAt": "2026-11-18T13:59:15Z",
+      "checkedAt": "2026-11-18T22:38:06Z",
       "_prev": {
         "date": "2026-11-16",
         "ars": 545000.0
@@ -409,37 +409,21 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-18T13:59:15Z"
+      "lastAttempt": "2026-11-18T22:38:06Z"
     },
     {
       "id": "brent",
       "label": "Petróleo Brent",
-      "value": "USD 92,14",
-      "period": "Barril, spot · 11 nov 2026 · la EIA publica los miércoles",
+      "value": "USD 92,94",
+      "period": "Barril, spot · 17 nov 2026 · la EIA publica los miércoles",
       "source": "EIA (vía FRED)",
       "url": "https://fred.stlouisfed.org/series/DCOILBRENTEU",
       "group": "Mercados",
-      "obsDate": "2026-11-11",
-      "change": "+2,2% vs. día anterior",
-      "trend": "up",
-      "checkedAt": "2026-11-18T13:59:17Z",
+      "obsDate": "2026-11-17",
+      "change": "0,0% vs. día anterior",
+      "trend": "flat",
+      "checkedAt": "2026-11-18T22:38:09Z",
       "history": [
-        [
-          "2026-10-01",
-          114.82
-        ],
-        [
-          "2026-10-02",
-          135.51
-        ],
-        [
-          "2026-10-05",
-          125.51
-        ],
-        [
-          "2026-10-06",
-          125.44
-        ],
         [
           "2026-10-07",
           126.0
@@ -543,11 +527,27 @@
         [
           "2026-11-11",
           92.14
+        ],
+        [
+          "2026-11-12",
+          95.42
+        ],
+        [
+          "2026-11-13",
+          95.17
+        ],
+        [
+          "2026-11-16",
+          92.9
+        ],
+        [
+          "2026-11-17",
+          92.94
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-11-18T13:59:17Z"
+      "lastAttempt": "2026-11-18T22:38:09Z"
     },
     {
       "id": "maiz",
@@ -564,7 +564,7 @@
         "date": "2026-11-17",
         "ars": 268500.0
       },
-      "checkedAt": "2026-11-18T13:59:17Z",
+      "checkedAt": "2026-11-18T22:38:09Z",
       "_prev": {
         "date": "2026-11-16",
         "ars": 271400.0
@@ -689,7 +689,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-18T13:59:17Z"
+      "lastAttempt": "2026-11-18T22:38:09Z"
     },
     {
       "id": "trigo",
@@ -706,7 +706,7 @@
         "date": "2026-11-17",
         "ars": 285455.0
       },
-      "checkedAt": "2026-11-18T13:59:17Z",
+      "checkedAt": "2026-11-18T22:38:09Z",
       "_prev": {
         "date": "2026-11-16",
         "ars": 285270.0
@@ -831,138 +831,806 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-18T13:59:17Z"
+      "lastAttempt": "2026-11-18T22:38:09Z"
     }
   ],
   "items": [
     {
-      "id": "senasa-resolucion-956-2026-prohibe-ractopamina-cerdos-beta-agonistas-exportaciones-porcinas",
+      "id": "bate-record-de-exportaciones-pero-la-industria-local-se-hunde-un-informe-revela",
+      "datetime": "2026-11-18T22:04:55Z",
       "date": "2026-11-18",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "Bate récord de exportaciones pero la industria local se hunde: un informe revela la profunda disparidad de la economía argentina",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
       "kind": "noticia",
-      "title": "SENASA prohíbe la ractopamina en cerdos: se termina la única excepción a la veda de promotores de crecimiento, a pedido de la cadena porcina",
-      "summary": "La Resolución 956/2026, vigente desde su publicación el 18 de noviembre, prohíbe en todo el país usar y vender productos veterinarios promotores de crecimiento con sustancias beta-agonistas o tireostáticas y deroga la Resolución 148/2006. Así cae el permiso que existía desde 2011 para la ractopamina en porcinos, una sustancia no autorizada en la Unión Europea, según el SENASA.",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "El Destape",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMDdIdDVjc3ZteFp0WTk5SWZuVjJTejdyclZuNFhqYVZ4dDAydDdPV0ZIQmY1dXk0czZZczdwdk0tMDI4UThXdndwclNzOFp1M2hTTE9zeW9aRTExcDlWU3g4X3ZldWxrS1NRTlZNUnIwdzJHU2hPMlVBWTBWdXA2VnhXRE5sYWtIY1g2TjJVb19ncnYyejhTSl9jZ1FqQ0syZ0NRR2czT3lLWG16Vjl1NHNJZ3h6QTVmdEZ4R3BfVk9UaWhwbHB4RTk2eXFERWtUaWF0aGZjVEMtWWJqUWszRFN1ZktTNUl30gH8AUFVX3lxTFBRLWhQTTBRTHhOSGlCeFFtLWpDWkRPUTA5RE1QWmlBUkZBQXZFd01qNUxNMzZXNU1rQ0ViWmdJYW9feGFxWUgzM1R5RHRWTW84YzRuRVk5aXVBa1ZSeXlTR2w1ZFBTQkgyalVkS3JvamJiLW81WTZib2Y1Y2ZWZVhuakN5T2hJSnc3X0hkbU1sdjQ3WVNtOGkxRGxNYXVmS21ISjRydlpLa0VJUmd4NFJBeGZOcWVrWXBBQ1RhQWs1Yloxc2VXMVlhd2NGV1JkSUVTUW40RHRSZURINFh5cEhxeDVjLXhSWkdrVzNlcml0cnZrWkhTMWFLb3VCXw?oc=5",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-18T22:36:16Z"
+    },
+    {
+      "id": "panama-presenta-denuncia-penal-en-marco-de-disputa-por-puertos-ligados-a-filial",
+      "datetime": "2026-11-18T22:00:13Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "Panamá presenta denuncia penal en marco de disputa por puertos ligados a filial de CK Hutchison",
+      "summary": "El Contralor General de Panamá presentó una denuncia penal por presuntas irregularidades detectadas durante una…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Panamá"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/panama-presenta-denuncia-penal-en-marco-de-disputa-por-puertos-ligados-a-filial-de-ck-hutchison/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "xi-jinping-desafia-al-proteccionismo-en-apec-aranceles-contra-china-pueden-encar",
+      "datetime": "2026-11-18T22:00:00Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "Xi Jinping desafía al proteccionismo en APEC: aranceles contra China pueden encarecer productos en México, advierte experto IBERO",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Latinoamérica",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "México",
+        "China"
+      ],
+      "tags": [
+        "Aranceles",
+        "China"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Prensa Ibero",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://prensa.ibero.mx/es-MX/nota/xi-jinping-desafia-al-proteccionismo-en-apec-aranceles-contra-china-pueden-encarecer-productos-en-mexico-advierte-experto-ibero",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-18T22:36:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPNDVudjZzNGVjYnYtLU4xS0hWWG1RcHI4Q1h2YmRvenNqclA0ZExBWUU0azV6SERBSzRMVGxqY29QUVA3NU5mTkdKaUY1UlJxVmtCRldldVduWUVmdWxHVFlFVkdFenBUT1NuemYzRDVfT0lMaHFDWWtPcTJEekNhdmJ4aXRZdjRDdXA2Z2dxLUxpUTFxaXFOT1d2Nm9WRlFoYWtNRVI4ZkhHS1JUZjF6V2c2VGkxTmJjS1JrLW02LUdtMFVmYzYtVUsyV2FpeDVLVU9ySlR4blJQTlpiMjQ3NklkT2ZjOGFaLVBPVQ?oc=5"
+    },
+    {
+      "id": "puerto-antofagasta-reune-a-autoridades-y-operadores-en-encuentro-sobre-futuro-lo",
+      "datetime": "2026-11-18T21:57:04Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "Puerto Antofagasta reúne a autoridades y operadores en encuentro sobre futuro logístico de la región",
+      "summary": "Puerto Antofagasta fortaleció la coordinación entre el sector público y las empresas de la cadena logística…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Chile"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/puerto-antofagasta-reune-a-autoridades-y-operadores-en-encuentro-sobre-futuro-logistico-de-la-region/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "ceo-de-gen-visita-obras-de-nueva-planta-astillado-en-terminal-calbuco",
+      "datetime": "2026-11-18T21:50:11Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "CEO de GEN visita obras de nueva planta astillado en Terminal Calbuco",
+      "summary": "El CEO de Grupo Empresas Navieras (GEN), Felipe Arriaga, en compañía del gerente general de Portuaria…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/ceo-de-gen-visita-obras-de-nueva-planta-astillado-en-terminal-calbuco/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "calendario-de-adviento-de-diana-fletes-precio-que-contiene-y-donde-comprarlo",
+      "datetime": "2026-11-18T21:10:00Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "Calendario de adviento de Diana Fletes: precio, qué contiene y dónde comprarlo",
+      "summary": "Conoce cuánto cuesta el calendario de adviento de Diana Fletes, dónde comprarlo y los 31 productos de belleza que incluye para Navidad.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Milenio",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.milenio.com/estilo/calendario-adviento-diana-fletes-precio-que-contiene-donde-comprarlo",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-18T22:36:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLS1QRm5kNmV0WnlrVEpDTTVQUUNwYlhiN213dmx2QnIweVd0SmZWYm9mVEw1OG9BVDllYjZ4LXhwYk5Gbml6a280VzZOaG9laFhHSDVyd2VOTkwzTllqZ0t2OXh2SkVaQVNFOHF4TkVpSVJ4Y3BCSU1rN2Z0YVBtTEZ6TU1CSVdia19rQmNPSXdyWkJqWUc1NzdhWjVMdjhL0gGgAUFVX3lxTFBzQUNKMWZkMWt1NjgySDUzVXVpZXoxbXBuMDhKSkp5a0tza1FERTh1blI4MmtQSVZYazE4OHEwaDFJRFRmdk5xdFIyQXJCcE9nRURsZUlWOFhsdXZRX0l6NTNzSmk4LTBYd2RmekRISURQTWtxbWJib2FRRll6aXplY1JUQUl0cVNPYkRMWmlvTGNUT05UbzNlN2wzUi1mY0U?oc=5",
+      "digestSkip": {
+        "at": "2026-11-18T22:36:16Z",
+        "auto": "no-read",
+        "reason": "medio sin lectura automática (NO_READ_DOMAINS) y sin otro medio con la misma noticia"
+      }
+    },
+    {
+      "id": "lo-que-faltaba-lula-devalua-y-encarece-las-exportaciones-de-las-automotrices-arg",
+      "datetime": "2026-11-18T21:04:13Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "Lo que faltaba: Lula devalúa y encarece las exportaciones de las automotrices argentinas a Brasil",
+      "summary": "En un escenario complejo para la industria automotriz argentina, con un mercado interno en baja, se suma un nuevo problema: la devaluación de Brasil. Desde el triunfo del presidente Lula Da Silva el real viene en caída y acumula una depreciación de alrededor de 17%. Este es un dato positivo para la",
+      "body": [],
+      "keyData": [],
       "topics": [
         "Argentina",
         "Exportaciones",
-        "Importaciones",
-        "Regulaciones",
-        "Europa"
+        "Latinoamérica"
       ],
       "countries": [
         "Argentina",
-        "Brasil",
-        "Unión Europea"
+        "Brasil"
       ],
       "tags": [
-        "SENASA",
-        "Resolución 956/2026",
-        "Ractopamina",
-        "Carne porcina",
-        "Beta-agonistas",
-        "Promotores de crecimiento",
-        "CREHA"
+        "Autos"
       ],
-      "visual": "livestock",
-      "impact": 2,
+      "visual": "auto",
+      "impact": 1,
       "affectsArgentina": true,
-      "argentinaNote": "Desde el 18 de noviembre ningún productor puede usar ni comercializar en la Argentina productos veterinarios promotores de crecimiento con beta-agonistas o tireostáticos, incluida la ractopamina en cerdos. El SENASA lo justifica en la necesidad de no comprometer el posicionamiento internacional de la carne argentina en mercados como la Unión Europea. La norma no dice nada específico sobre la carne importada.",
-      "argentinaImpact": {
-        "change": "Se elimina la excepción que permitía la ractopamina como promotor de crecimiento en porcinos y queda una prohibición uniforme para todos los beta-agonistas y tireostáticos en el territorio nacional.",
-        "who": "Productores porcinos, frigoríficos y exportadores de carne de cerdo, fabricantes y distribuidores de productos veterinarios y de nutrición animal.",
-        "sectors": [
-          "Carne porcina",
-          "Productos veterinarios",
-          "Nutrición animal",
-          "Frigoríficos"
-        ],
-        "flows": {
-          "importaciones": false,
-          "exportaciones": true,
-          "logistica": false,
-          "aranceles": false
-        }
-      },
-      "keyData": [
-        [
-          "Norma",
-          "Resolución 956/2026 del SENASA (Boletín Oficial, 18 nov 2026)"
-        ],
-        [
-          "Vigencia",
-          "Desde su publicación, el 18 nov 2026"
-        ],
-        [
-          "Prohíbe",
-          "Uso y venta de promotores de crecimiento con beta-agonistas o tireostáticos"
-        ],
-        [
-          "Deroga",
-          "Resolución 148/2006 de la ex SAGPyA"
-        ],
-        [
-          "Excepción que cae",
-          "Ractopamina en porcinos, vigente desde 2011"
-        ],
-        [
-          "Exportaciones porcinas",
-          "11.075 t en enero–agosto de 2026 (+74%)"
-        ],
-        [
-          "Importaciones porcinas",
-          "43.672 t en enero–agosto de 2026 (+13,8%)"
-        ]
-      ],
-      "explainer": {
-        "what": "El SENASA prohibió con la Resolución 956/2026 el uso y la venta en todo el país de productos veterinarios promotores de crecimiento con beta-agonistas o tireostáticos, lo que elimina el permiso que tenía la ractopamina en cerdos desde 2011.",
-        "why": "Según el organismo, la ractopamina está prohibida o no autorizada en mercados de alto valor como la Unión Europea, y mantener la excepción podía comprometer el posicionamiento internacional de la carne argentina en un momento en que las exportaciones porcinas crecen.",
-        "who": "Productores y frigoríficos porcinos, exportadores de carne de cerdo y empresas de productos veterinarios y nutrición animal.",
-        "products": [
-          "Carne porcina",
-          "Productos veterinarios promotores de crecimiento",
-          "Ractopamina"
-        ]
-      },
-      "story": "agroexportacion",
-      "absorbs": [
-        "una-excepcion-para-los-cerdos-que-llego-a-su-fin-a-pedido-de-la-cadena-porcina-s"
-      ],
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
       "sources": [
         {
-          "name": "Boletín Oficial (Resolución 956/2026 del SENASA)",
-          "type": "Organismo oficial",
-          "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/350501/20261118",
-          "primary": true
-        },
-        {
-          "name": "Bichos de Campo (importaciones de cerdo y Resolución 1.458/2011)",
-          "type": "Medio especializado",
-          "url": "https://bichosdecampo.com/otro-exito-de-julian-dominguez-gracias-a-una-decision-que-tomo-en-2011-hoy-esta-ingresando-al-pais-gran-cantidad-de-carne-de-cerdos-brasilenos-tratados-con-un-farmaco-prohibido-por-160-paises/"
-        },
-        {
-          "name": "Bichos de Campo (datos de Pormag sobre el sector porcino)",
-          "type": "Medio especializado",
-          "url": "https://bichosdecampo.com/el-cerdo-se-agranda-en-argentina-la-produccion-de-carne-porcina-crecio-124-el-consumo-llego-a-un-record-y-las-exportaciones-saltaron-74/"
+          "name": "Horacio Alonso",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://arodarpost.com.ar/lo-que-faltaba-lula-devalua-y-encarece-las-exportaciones-de-las-automotrices-argentinas-a-brasil/",
+          "primary": true,
+          "author": ""
         }
       ],
-      "body": [
-        "El Servicio Nacional de Sanidad y Calidad Agroalimentaria (SENASA) publicó este miércoles 18 de noviembre en el Boletín Oficial la Resolución 956/2026, firmada el día anterior por su presidenta, María Beatriz Giraudo Gaviglio. La norma prohíbe en todo el territorio nacional el uso y la comercialización de productos veterinarios indicados como promotores de crecimiento que contengan sustancias beta-agonistas o sustancias con acción tireostática, y rige desde el mismo día de su publicación.",
-        "El efecto práctico más concreto es el fin de la única excepción que tenía esa prohibición: la ractopamina, un beta-agonista que se podía usar como promotor de crecimiento en cerdos. El cambio responde a un pedido de la propia cadena porcina, que planteó que el permiso chocaba con las exigencias de los mercados de exportación.",
-        "## Qué dice la norma",
-        "La resolución tiene cuatro artículos. El primero establece la prohibición para los productos veterinarios promotores de crecimiento que contengan beta-agonistas (inciso a) o tireostáticos (inciso b). El segundo deroga la Resolución 148 del 5 de abril de 2006 de la ex Secretaría de Agricultura, Ganadería, Pesca y Alimentos, que había extendido la veda a estos productos. El tercero fija la vigencia desde la publicación en el Boletín Oficial y el cuarto es de forma. El texto no establece un período de transición ni sanciones específicas.",
-        "En los considerandos, el SENASA explica que el objetivo es eliminar la excepción para la ractopamina en porcinos y derogar la normativa que habilitaba su ingreso bajo determinados límites de residuos, para que rija una prohibición uniforme. La resolución no aclara cómo se tratará la carne importada de animales tratados con esa sustancia: solo recuerda que el programa oficial de control de residuos, el CREHA Animal, previsto en la Resolución 458/2012 del SENASA, incluye la ractopamina en su plan de muestreo y toma muestras de bovinos, porcinos, equinos y ovinos faenados, tanto de producción local como de productos importados.",
-        "## Cómo se llegó hasta acá",
-        "Según el repaso que hace la propia resolución, la Argentina prohíbe desde la Resolución 447 de 2004 los productos veterinarios anabólicos en animales destinados al consumo humano. La Resolución 148/2006 extendió la veda a los promotores de crecimiento con beta-agonistas y tireostáticos, y en 2011 la Resolución 1.458 del entonces Ministerio de Agricultura, Ganadería y Pesca la modificó para admitir la ractopamina solo en cerdos.",
-        "De acuerdo con una nota de Bichos de Campo de junio de 2025, esa excepción se firmó durante la gestión de Julián Domínguez y quedaba atada a un programa de trazabilidad que debía separar a los animales tratados de los que no lo estaban, programa que según ese medio nunca se puso en marcha. En aquel artículo, el entonces secretario de Agricultura, Fernando Vilella, describía la situación de la sustancia como no prohibida pero tampoco aprobada.",
-        "## Por qué la cadena porcina pidió el cambio",
-        "La resolución detalla que el pedido llegó de la Federación Porcina Argentina (FPA), la Cámara Argentina de Empresas de Genética Porcina (CAEGP), la Cámara Argentina de la Industria de Chacinados y Carne de Cerdo (CAICHA), la Federación de Industrias Frigoríficas Regionales Argentinas (FIFRA) y la Cámara Argentina de Empresas de Nutrición Animal (CAENA). Las entidades argumentaron que había que cumplir con los requisitos de los mercados internacionales y acompañar el crecimiento exportador del sector.",
-        "El SENASA, por su parte, señala que los organismos regulatorios del mundo tienen criterios distintos sobre la ractopamina, que está prohibida o no autorizada en mercados de alto valor como la Unión Europea y en otros destinos que la norma llama estratégicos, sin nombrarlos. Mantener excepciones, sostiene, podía generar asimetrías regulatorias y comprometer el posicionamiento de la Argentina en el comercio internacional de carnes y productos cárnicos. También menciona que una prohibición sin excepciones simplifica la fiscalización.",
-        "La discusión tenía además un costado comercial ligado a las importaciones. En la nota de 2025, Bichos de Campo citó datos oficiales según los cuales entre enero y mayo de ese año habían entrado 24.303 toneladas de carne de cerdo brasileña, contra 3.939 toneladas un año antes. Daniel Fenoglio, de la FPA, sostenía entonces que la ractopamina le daba a los productores de Brasil una ventaja de costos de entre 5% y 10%, y que la sustancia estaba prohibida en 160 países, según los productores.",
-        "## Los números del sector",
-        "Según datos de la Secretaría de Agricultura procesados por la consultora Pormag y publicados por Bichos de Campo en septiembre, la producción argentina de carne porcina sumó 592.046 toneladas entre enero y agosto de 2026, 12,4% más que un año antes. Las exportaciones crecieron 74%, de 6.360 a 11.075 toneladas, por unos US$ 15,2 millones, y representaron 1,9% de la producción.",
-        "Las importaciones siguen muy por encima: 43.672 toneladas en el mismo período, con una suba de 13,8% y un valor de unos US$ 131,8 millones. Pormag estimó que la carne importada cubre 10,5% del consumo aparente. El mismo informe comparó precios de agosto: US$ 1,55 por kilo en la Argentina contra US$ 0,92 en Brasil.",
-        "## Qué falta saber",
-        "La resolución no menciona medidas sobre la carne importada de países donde la ractopamina está permitida, más allá del muestreo del programa CREHA. Tampoco detalla qué pasa con los productos veterinarios con estas sustancias que estén en stock. Ninguna de las fuentes consultadas informó hasta ahora la reacción de los fabricantes de esos productos ni plazos adicionales de reglamentación."
+      "gnTried": "2026-11-18T22:36:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSEdBbUlkYU1ZVmVFcGJsbHNFUG4zRG1jWW5yNzZMeUdqb0R2NUpybzRDWFMxMEdUblhrMHFXaDBjSGRySGFNS2hNQkM4bVQybl9IX2tIUUVSemRzSjNHaXlVbDEtbDAtNU9yQjBxc0Iza0hBRkZMUGFZWE9mM1h2ZnpsY2ZFTEcybjVNMjVGcjdsNV9kc09aQ1dNOUN6X2VPYUJrMGU3UTdSVFJmUFdNaUR4cktOQ2RGSXo0UVVlSDQ?oc=5"
+    },
+    {
+      "id": "green-tide-logistics-impulsa-el-transporte-maritimo-entre-mexico-eu-y-canada",
+      "datetime": "2026-11-18T20:58:55Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "Green Tide Logistics impulsa el transporte marítimo entre México, EU y Canadá",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Transporte marítimo",
+        "Latinoamérica",
+        "Europa"
+      ],
+      "countries": [
+        "México",
+        "Canadá",
+        "Unión Europea"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "24-horas",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://24-horas.mx/negocios/logistica-maritima-corta-distancia-mexico-eu/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-18T22:36:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9raUdZdTJSTUZXblZtQWtTOHZMbTd1SmlfUUg5Y3Y0T0JvdkJrSU12V2VFRkdNTUkxMUNSMG1fVXIzQzF4QjlTMVZ0U01FcXRQVjAtLUVoNlgtcTdjT2xteTZOYjNOalM1S3dUVDhrUU5UYU1mbGMzYmR1a2VNYjQ?oc=5"
+    },
+    {
+      "id": "la-oaci-debate-en-montreal-cambios-clave-para-la-carga-aerea",
+      "datetime": "2026-11-18T20:54:25Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "La OACI debate en Montreal cambios clave para la carga aérea",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte aéreo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "plane",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Identidad Correntina",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.identidadcorrentina.com.ar/noticia/46464_la-oaci-debate-en-montreal-cambios-clave-para-la-carga-area.htm",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-18T22:36:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPN0FRSjFONVBJcTVER250VkdCZkI3NWpZVXFjT0hsWXBocnJpTTFxV0UtSVlKX0dQd3RNLWhmSW9DejZ5a3A4dWsxWExxdjVVQUNTMFFrOXNxT2xHSmRLSEVLX1d3OWVzZUREOEFmVHhLTlFVdHFwUEkwMGVaZ0NUYlFfUzNrZV9rQ2thQmNoWVc4SzJkekFyR08yWTlSeU5yUHJPODk5ekZFQ25sTFBscmd6QUZhU1E?oc=5"
+    },
+    {
+      "id": "donald-trump-cara-a-cara-con-mexico-y-canada-en-china-aranceles-reclamos-y-negoc",
+      "datetime": "2026-11-18T20:37:36Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "Donald Trump, cara a cara con México y Canadá en China: aranceles, reclamos y negociaciones",
+      "summary": "El mandatario se reunió por separado con Sheinbaum y Carney antes de la cumbre de APEC. México destacó avances, mientras Canadá defendió su acercamiento a China.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "Estados Unidos",
+        "China"
+      ],
+      "countries": [
+        "México",
+        "Estados Unidos",
+        "Canadá",
+        "China"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos",
+        "China"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "MDZ Online",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.mdzol.com/mundo/2026/11/18/donald-trump-cara-a-cara-con-mexico-y-canada-en-china-aranceles-reclamos-y-negociaciones-1996351.html",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Radio Mitre",
+          "type": "También publicó esta noticia",
+          "url": "https://radiomitre.cienradios.com/internacionales/donald-trump-se-reunio-con-los-presidentes-de-mexico-y-canada-en-medio-de-la-disputa-por-los-aranceles/",
+          "alsoIn": true,
+          "title": "Donald Trump se reunió con los presidentes de México y Canadá en medio de la disputa por los aranceles"
+        }
+      ],
+      "gnTried": "2026-11-18T22:36:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxORk00M01EeV9ueTBkbGxEREFZQzdCWVNncVpNY3lkaTY2NGRQUkVCN05aTDBzcDJ2ZjAxclhtR2VaR010MHpTb1lMZXV6Tm1ROEVDSzdvc2tBcndGUnpSNTVfMjdOWWNXeGF1ZHZGYVduSGRfMU01T1JEeXJTY0tTNS1VTkkwSURvSXBlZ3ZLRXl1UnZKR2ZhLVhUVFlKcVdwZTVZSDBoTGdhN0poMnp4dzFvUUJzWGpLMWdlU3BpZmNsbVUtQzVEQ1VFM29BejdKR0tNT0Y1VQ?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPdTJXNEtfWE1PZnFwV0JxcVdmQmd1NmY3cVBZOHA5SGRWNGxkdXpJQmFiUl9IdlQ4SkQ1TTl5RG5ubmZ3Z25rSE1ua0ZCbmpIT25ycDZRZG9Wc0FyZExoVldtd0JlWWlnTTJHbThHYTlJQVk3ZVByTUVjanpObzN2OTlOTEUxbEZySEdnbGdVLVZjc2RpenlfLUdESGhuTWxfZlc2bUZPSUZ4SGduNXRGM0NQSi1UTThUeHc2RnlybFJZOUgxTGRiR1hDLW5xS0Jwckl2OUY2eTROWGx0RFZKODRNMEJSOVRD",
+        "https://radiomitre.cienradios.com/internacionales/donald-trump-se-reunio-con-los-presidentes-de-mexico-y-canada-en-medio-de-la-disputa-por-los-aranceles"
+      ],
+      "mergedIds": [
+        "donald-trump-se-reunio-con-los-presidentes-de-mexico-y-canada-en-medio-de-la-dis"
       ]
+    },
+    {
+      "id": "brasil-puerto-de-ilheus-suma-mas-de-usd-24-3-millones-en-inversiones",
+      "datetime": "2026-11-18T20:30:44Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "Brasil: Puerto de Ilhéus suma más de USD 24,3 millones en inversiones",
+      "summary": "El Puerto de Ilhéus está experimentando un período de nuevas inversiones, expansión de actividades y diversificación…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Brasil"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/brasil-puerto-de-ilheus-suma-mas-de-usd-243-millones-en-inversiones/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "rio-negro-busca-ampliar-sus-exportaciones-de-alimentos-con-19-empresas-en-una-fe",
+      "datetime": "2026-11-18T19:40:30Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "Río Negro busca ampliar sus exportaciones de alimentos con 19 empresas en una feria internacional",
+      "summary": "Productores y empresas rionegrinas participan de Argentina Alimenta 2026, en Buenos Aires, donde se realizan rondas de negocios con más de 40 compradores de 23 países. Frutas, vinos, pescados, mariscos y alimentos elaborados integran la oferta provincial para acceder a nuevos mercados. Río Negro participa con 19…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Diario Neuquino",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://diarioneuquino.com.ar/rio-negro-busca-ampliar-sus-exportaciones-de-alimentos-con-19-empresas-en-una-feria-internacional/",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Agrovalle",
+          "type": "También publicó esta noticia",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORk42SjY5S0VWcGp1VWVRS1FnLThiQ29udWRDd191bUZFbERBWGV4YmI5LWVrOV82T3ZZaUhpcTJkU0cwOHliQ3ZNaHZYY1BCUGw2cHk5dDR4bkhhTGp2cllmSkJoUUJQQzFXcVB5UFJQUFIxYzRSRFQwSmlJS0swcW1lRTA1NkJRRDJpLXJTNGdTcjhER3VZZENhSm40dG5COVhSeWFGaUYzc2lXSWt2TTVCdDNNQk9Eb3VYVEh2ejBJVjJTeVoxeGdlOA?oc=5",
+          "alsoIn": true,
+          "title": "Río Negro busca ampliar su mapa exportador: 19 empresas salen a conquistar nuevos mercados internacionales"
+        }
+      ],
+      "gnTried": "2026-11-18T22:36:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQckRWczRmSnh1allOYkhydGg0WlZ1YmRZNmhPcnQzNl9IQTd6bXlzZEVNUm54ajVfVlZjeXpXSk54SU05NFpzOG0tZ2J1SzVJLXNmTGVYOGhFSXJ0UXNSTF80cGp2NXMyZjNqU3dDVDZ5LVEzUFJncXNZdGliT0JNOXRjU1pmVmhJdzlVWDl4WEE0TGRzRk13RFJsRGhJRGdkeUpvd3Z3ZUVWS25WQS15ZWJtVURqZ0R3NXJHRklRVXVCRDcwd1U0?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMiywFBVV95cUxORk42SjY5S0VWcGp1VWVRS1FnLThiQ29udWRDd191bUZFbERBWGV4YmI5LWVrOV82T3ZZaUhpcTJkU0cwOHliQ3ZNaHZYY1BCUGw2cHk5dDR4bkhhTGp2cllmSkJoUUJQQzFXcVB5UFJQUFIxYzRSRFQwSmlJS0swcW1lRTA1NkJRRDJpLXJTNGdTcjhER3VZZENhSm40dG5COVhSeWFGaUYzc2lXSWt2TTVCdDNNQk9Eb3VYVEh2ejBJVjJTeVoxeGdlOA"
+      ],
+      "mergedIds": [
+        "rio-negro-busca-ampliar-su-mapa-exportador-19-empresas-salen-a-conquistar-nuevos"
+      ]
+    },
+    {
+      "id": "en-septiembre-tierra-del-fuego-realizo-exportaciones-por-usd-39-millones",
+      "datetime": "2026-11-18T19:30:35Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "En septiembre, Tierra del Fuego realizó exportaciones por USD 39 millones",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Data Portuaria",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://dataportuaria.com/es/argentina/comercio-exterior/en-septiembre-tierra-del-fuego-realizo-exportaciones-por-usd-39-millones",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-18T22:36:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQZEI4V0g1RkJLN1N5X1RhQzlxTFkydHN5SExtLUhfUGszRnhGNi1jeFlwcDVrOVladVFKY1hnc1F1Y21udHRzWjg2dXJJYW5ua0JOd3lRNUtrc3ZESTF0Vm5Ib0pJUlRhSFNSaHJhbzVUcFJsSXN5aUdyOVpzd2dKaHVMeWFsR1k4cE9jalJnNGUyNUE3Y3ZXdklWZkJPSVJVblZGSW1SQlRtVTV5cHhYYkM2Q3g3Vk5rLTlFVUV5VDIxTW1GaHpWZg?oc=5"
+    },
+    {
+      "id": "aumento-exportador-de-la-patagonia-el-mapa-comercial-del-primer-semestre-se-rede",
+      "datetime": "2026-11-18T19:25:53Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "Aumento exportador de la Patagonia: el mapa comercial del primer semestre se redefine con un crecimiento del 51,7%",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Data Portuaria",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://dataportuaria.com/es/argentina/comercio-exterior/aumento-exportador-de-la-patagonia-el-mapa-comercial-del-primer-semestre-se-redefine-con-un-crecimiento-del-51-7",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-18T22:36:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNMjY0NWFhbUFkT0JNNHJGM0ZLdTVaenNkbXVfR09wS1ktTzQ1Z0U4dkRzMVlGaS1pcHlRWk8zUFBxRXBjQzVmNUF0TkRFVFgxX2hXN3pSeUM3X2UwWTRjVlluRXp4N2dOUnRnT3U4QzVHOGlsTDdvR0hya2FpaWtrb2gyb1dtOXhFN01zT0tQTmUyZERXM0hXVjUxUnpfTVVoZDRGaWxSRG9yZTQzYS1aNldKTXRNSGc0QTh6VEoyV1NuMXpyay1GS0hfeWVsbHEwNWdranBpa2txN1h1Q0RPRmp2c1NNdmluWnowNGdLZHJBU0RGbk1NNFVnc1Iwdw?oc=5"
+    },
+    {
+      "id": "terminal-puerto-arica-completa-embarque-minero-utilizando-sistema-rotainer",
+      "datetime": "2026-11-18T19:00:09Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "Terminal Puerto Arica completa embarque minero utilizando sistema rotainer",
+      "summary": "Terminal Puerto Arica (TPA) completó el embarque de 21.500 toneladas de concentrado de zinc en la…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Chile"
+      ],
+      "tags": [
+        "Minería",
+        "Puertos"
+      ],
+      "visual": "mining",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/terminal-puerto-arica-completa-embarque-minero-utilizando-sistema-rotainer/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "argentina-al-frente-del-mercosur-mas-acuerdos-y-oportunidades-pero-tambien-mas-t",
+      "datetime": "2026-11-18T18:48:46Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "Argentina al frente del Mercosur: más acuerdos y oportunidades, pero también más tensiones",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Tratados y acuerdos",
+        "Mercosur"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Fundación Mediterránea",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://novedadeseconomicas.ieral.org/argentina-al-frente-del-mercosur/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-18T22:36:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBTN1AzUVU4N0hWQUU5WVR4M19tZS1XdWZJOGFzYkJSUm1wOTFqUjVBNFRmUDc5c3ZTLTBlTmRYN2hteldfM1RKOF9IRC1KLXpVeUZsemxZa2wwdDBRV29QSHhmQnRkdmp0d3ZNRC12Q3BvblNjNEhWYXBCaw?oc=5"
+    },
+    {
+      "id": "la-dga-elimino-la-exigencia-de-presentar-la-constancia-de-inscripcion-ante-la-dg",
+      "datetime": "2026-11-18T18:44:52Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "La DGA eliminó la exigencia de presentar la constancia de inscripción ante la DGI para la importación de bienes de uso",
+      "summary": "El Centro Despachantes de Aduana (CDA) informa a sus asociados que la Dirección General de Aduanas (DGA) eliminó la exigencia de presentar la constancia de inscripción del importador ante la Dirección General Impositiva (DGI) para aquellas mercaderías que se documenten como BIEN DE USO en las operaciones de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Centro Despachantes de Aduana (CDA)",
+          "type": "Medio · vía Google Noticias",
+          "url": "http://www.cda.org.ar/detalle_noticia.php?id=42870",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-18T22:36:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1PYjk5SEctZi1yOUJYQ0dwOU40MHJZLVVETjZJRDgzU2NTUmtBV3JvTTdSMFFTODZ0NEV3VFB2YWJoWHFNcUg1VURzR19PQWF3NXN0eENVV0cyU3RrZV9B?oc=5"
+    },
+    {
+      "id": "presidenta-del-peru-destaca-rol-de-puerto-de-chancay-para-fortalecer-vinculo-con",
+      "datetime": "2026-11-18T18:30:55Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "Presidenta del Perú destaca rol de Puerto de Chancay para fortalecer vínculo con China",
+      "summary": "La presidenta del Perú, Keiko Fujimori, destacó el rol que ha jugado el Puerto de Chancay…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "Perú",
+        "China"
+      ],
+      "tags": [
+        "Puertos",
+        "China"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/presidenta-del-peru-destaca-rol-de-puerto-de-chancay-para-fortalecer-vinculo-con-china/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "mercosur-firmara-un-acuerdo-para-crear-un-pasaporte-de-habilidades-que-acredite",
+      "datetime": "2026-11-18T17:59:01Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "Mercosur firmará un acuerdo para crear un “pasaporte de habilidades” que acredite estudios a los migrantes",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Mercosur"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "EL PAÍS Uruguay",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.elpais.com.uy/informacion/politica/mercosur-firmara-un-acuerdo-para-crear-un-pasaporte-de-habilidades-que-acredite-estudios-a-los-migrantes",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-18T22:36:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTGZoSDJEYTBkNWRVVTdTUEU2Z2pReGZxdUduUG9MT3d6d1FTTk1VcUNYUDlBNkY2WkxJMzJJNzZmcTNFTy1CdDhsR2FFLXo1WTFEWGdDZmZUV2ZqVDNQTDBOTURBT2RCazh3SVN5TVRrbkZuZ3JpeUtWTHVtUU5OQ2R1SFUyY0NxZ3ZFYmhtZzlWZm5xYjBLR3NnOS1yQkdNQjdXbV9NY3VuaTA2Qk1NZ0xVcHo5RTBUNDQ0WE5vU25UUUhSd1F3LXM3RlY4a0lLRnhrUHBoYkNQa3pJOU5UTi0tbWdkdw?oc=5"
+    },
+    {
+      "id": "las-proyecciones-de-la-cepal-destacan-el-avance-de-asia-en-el-comercio-regional",
+      "datetime": "2026-11-18T16:53:28Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "Las proyecciones de la CEPAL destacan el avance de Asia en el comercio regional",
+      "summary": "La creciente vinculación comercial entre América Latina y las economías asiáticas constituye uno de los aspectos destacados de las proyecciones para 2026 de la Comisión Económica para América Latina y el Caribe (CEPAL). El organismo prevé un mayor dinamismo de los intercambios con esos mercados, tanto en las…",
+      "body": [
+        "La creciente vinculación comercial entre América Latina y las economías asiáticas constituye uno de los aspectos destacados de las proyecciones para 2026 de la Comisión Económica para América Latina y el Caribe (CEPAL). El organismo prevé un mayor dinamismo de los intercambios con esos mercados, tanto en las exportaciones como en las importaciones. Según el…"
+      ],
+      "keyData": [],
+      "topics": [
+        "Importaciones",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Aduana News",
+      "sources": [
+        {
+          "name": "Aduana News",
+          "type": "Medio especializado · Argentina",
+          "url": "https://aduananews.com/las-proyecciones-de-la-cepal-destacan-el-avance-de-asia-en-el-comercio-regional/?utm_source=rss&utm_medium=rss&utm_campaign=las-proyecciones-de-la-cepal-destacan-el-avance-de-asia-en-el-comercio-regional",
+          "primary": true,
+          "author": "Aduana News"
+        }
+      ]
+    },
+    {
+      "id": "orsi-destaca-la-integracion-regional-y-propone-fortalecer-el-mercosur-como-terri",
+      "datetime": "2026-11-18T16:42:00Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "Orsi destaca la integración regional y propone fortalecer el Mercosur como territorio de oportunidades",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Mercosur"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Debate Uruguay",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.debate.com.uy/politica/orsi-destaca-la-integracion-regional-y-propone-fortalecer-el-mercosur-como-territorio-de-oportunidades-20261118-0017.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-18T22:36:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQaG4xeWhRZ0hmNzF1MHlfdEdEamxrcUpVTGotT2R2b2hxTjltekFWNXBsOFJuRkNpbzc2blRHYW1pRHlwZ0xDMVk0VTdvQnRqMEV0d3ExSzBFdkQ4dWpreU5aMVNJZmVkY2NXZEZfOV9YcU1VZXduNG5GWDlOekVGQ3E2QTZ4WlFRRjljMWstTWh5c19tZEt6YnhGRDg5RkstaHh5b2QwaENScFBEcjBzRk1pMkhVNmJCWHdYT0tqT3hoc1RsLW5fSkQ0N2IwblBJZEpIUFpnZFFDVHZfYW1HT0Y2NXNCXzE3aXRtTw?oc=5"
     },
     {
       "id": "china-supera-a-la-argentina-en-autos-importados-vendidos-en-brasil",
@@ -976,9 +1644,9 @@
       "topics": [
         "Argentina",
         "Importaciones",
+        "Exportaciones",
         "Latinoamérica",
-        "China",
-        "Asia"
+        "China"
       ],
       "countries": [
         "Argentina",
@@ -1136,7 +1804,8 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Aranceles"
+        "Aranceles",
+        "Regulaciones"
       ],
       "countries": [
         "Global"
@@ -1167,6 +1836,41 @@
       }
     },
     {
+      "id": "senasa-cambia-los-controles-para-exportar-vegetales-cuando-seran-obligatorios",
+      "datetime": "2026-11-18T13:15:59Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "SENASA cambia los controles para exportar vegetales: cuándo serán obligatorios",
+      "summary": "SENASA establece controles obligatorios y optativos para exportaciones vegetales. Conocé qué cambia con la Resolución 952/2026.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "Ruralnet",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://ruralnet.com.ar/senasa-controles-exportacion-vegetales/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-18T22:36:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTWXlRdWEwUDVkbEZ2UlR6WXZUd2w4WFZSNENrekFncUY1dEZXS2FPb2tWa2NDa2hTbnpSTzF2V281aDM0SUw1U3J1S29IVDB4cUFkTG1DWEdGcmtfMkRRb2lIelVGQlVJSi1Ka21QTnE?oc=5"
+    },
+    {
       "id": "barajas-pierde-un-11-7-en-carga-aerea-en-el-tercer-trimestre-frente-al-crecimien",
       "datetime": "2026-11-18T12:51:00Z",
       "date": "2026-11-18",
@@ -1176,10 +1880,12 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Transporte aéreo"
+        "Transporte aéreo",
+        "Puertos",
+        "Europa"
       ],
       "countries": [
-        "Global"
+        "España"
       ],
       "tags": [],
       "visual": "plane",
@@ -1265,88 +1971,6 @@
       }
     },
     {
-      "id": "el-gobierno-bonaerense-fijo-un-aumento-del-16-en-los-fletes-de-granos-y-desato-e",
-      "datetime": "2026-11-18T12:29:24Z",
-      "date": "2026-11-18",
-      "firstSeen": "2026-11-18T13:57:59Z",
-      "title": "El Gobierno bonaerense fijó un aumento del 16% en los fletes de granos y desató el rechazo del campo",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Logística"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [
-        "Fletes",
-        "Agro"
-      ],
-      "visual": "grain",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Logística y fletes",
-      "sources": [
-        {
-          "name": "Diario Cuatro Vientos",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.diario4v.com/nota/54004/el-gobierno-bonaerense-fijo-un-aumento-del-16-en-los-fletes-de-granos-y-desato-el-rechazo-del-campo/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-18T13:57:59Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcEIxNm1XVnYzdVMzUXQxRVFkOEkwWjhadXpfcmYzNExHX2dTWE5QUHRXMTdfaUZBVlE5dVg2THN0SzVyOGtCN2JGZy03NkJyY29Jb0Q3dEFfYjc0c3l5ajY1LTNKVE5QNnhBV2tYZ0IwVFZKak0yTXZxLTd4Ni1uUUFSeUM0U0lCYy0tQ1p1bnA4Y25KMzV4N0RadlFUd3g0TE1PN285V0JpQmZhbEptQ1k3YkV1SlhzdWFRRWg2SVB3X1JJcklhZXlrZWFSakFER1E?oc=5",
-      "digestSkip": {
-        "at": "2026-11-18T12:45:00-03:00",
-        "reason": "repite una nota de la redacción (laudo bonaerense de 16% en fletes de granos)"
-      }
-    },
-    {
-      "id": "una-excepcion-para-los-cerdos-que-llego-a-su-fin-a-pedido-de-la-cadena-porcina-s",
-      "datetime": "2026-11-18T11:51:56Z",
-      "date": "2026-11-18",
-      "firstSeen": "2026-11-18T13:57:59Z",
-      "title": "Una excepción para los cerdos que llegó a su fin: A pedido de la cadena porcina, Senasa prohibió la ractopamina como promotor de crecimiento para proteger las exportaciones",
-      "summary": "Durante casi 15 años, los cerdos tuvieron un permiso especial que no regía para el resto de los animales de",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Bichos de Campo",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://bichosdecampo.com/una-excepcion-para-los-cerdos-que-llego-a-su-fin-a-pedido-de-la-cadena-porcina-senasa-prohibio-la-ractopamina-como-promotor-de-crecimiento-para-proteger-las-exportaciones/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-18T13:57:59Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQYWVLXzY0SnNDX1ROLWJHN2RVUU5Kam5PZzJ4UzVzY0ZzQ2RvcE5WdS1yRFR0V1lsR290R2U4Q2FjVEFiSnpual9TNmc3aDJJam1EeHhuSTFjdU8tZzFiSll2c0ZJc1lXVWlCT0ltd05IR0JvbVlmQlpYd2ZCVG1NR3ZGSmZRVFFyMHF3ZGNSUnJlcXNuaFhsNUpuWHZXUlI3MUlndWp1MjdtRWdoLUF3UUZRRXpjbmJ1UGpmbVFjb1hHaDQ2Tjlfd3h3Ukp1d01vcXpiSVljRnd6eEdSN0ZWeGd3eFFFb01PbjBtMHhfanhTZjdZb042all5YWxfdk1kZEIxcm9MQnZ2TVVnejA1ampLa3c2U3NXNHpraXA5bnlXMDg?oc=5",
-      "digestSkip": {
-        "at": "2026-11-18T12:45:00-03:00",
-        "reason": "no se encontró una versión legible",
-        "retry": true,
-        "tries": 1
-      }
-    },
-    {
       "id": "movimiento-total-en-puerto-de-la-bahia-de-cadiz-crece-2-4-hasta-octubre",
       "datetime": "2026-11-18T11:00:22Z",
       "date": "2026-11-18",
@@ -1404,7 +2028,11 @@
         "Argentina",
         "Estados Unidos"
       ],
-      "tags": [],
+      "tags": [
+        "Soja",
+        "Agro",
+        "Estados Unidos"
+      ],
       "visual": "grain",
       "impact": 1,
       "affectsArgentina": true,
@@ -1648,6 +2276,59 @@
       }
     },
     {
+      "id": "argentina-el-grupo-mercado-comun-del-mercosur-celebro-su-141-reunion-ordinaria-e",
+      "datetime": "2026-11-18T04:54:55Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "Argentina — El Grupo Mercado Común del MERCOSUR celebró su 141.ª reunión ordinaria en Montevideo",
+      "summary": "Los días 11 y 12 de noviembre se realizó en Montevideo la 141.ª Reunión Ordinaria del Grupo Mercado Común (GMC), con la participación de las delegaciones de Argentina, Brasil, Paraguay y Uruguay. Bolivia participó en… | Noticias del MERCOSUR: política, economía y actualidad regional del Prensa Mercosur.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Latinoamérica",
+        "Mercosur"
+      ],
+      "countries": [
+        "Argentina",
+        "Uruguay"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Prensa Mercosur",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://prensamercosur.org/2026/11/17/argentina-el-grupo-mercado-comun-del-mercosur-celebro-su-141-a-reunion-ordinaria-en-montevideo/",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Mercojuris",
+          "type": "También publicó esta noticia",
+          "url": "https://mercojuris.com/la-comision-de-comercio-del-mercosur-se-reunio-en-montevideo/",
+          "alsoIn": true,
+          "title": "La Comisión de Comercio del MERCOSUR se reunió en Montevideo"
+        }
+      ],
+      "gnTried": "2026-11-18T22:36:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQcFVjWFBUSmg4VV90MEVNOXo3WkZkVUdmRFc0UmxkcUplbUZLbzZGeUhiVUIzeFFhQWFfNl83U0xnMUtTcEh2TzJBZXpMUlp1aTFIOWl1dDZ6Rll0c1ItVE1mVE40NVVDS2ZBS2t0TWNZd1ZKbmhZRlNoUmpzUnAtaVExX1pfeWFKMjJ0Vm03d1hrSk1pNHliRkw2NnRVMENhb2ZDcVFHRVVHOWZTakVJcXlSYXVyWWtjeDZyamdRZUhRS1V2dElnRlF5bkpOZw?oc=5",
+      "aliasUrls": [
+        "https://mercojuris.com/la-comision-de-comercio-del-mercosur-se-reunio-en-montevideo",
+        "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcjRBdFl0dGE2TXFoWWhERWdTTThWdldmaWRpVHFDM09vcUNYdmxMVGlwTEpkZkRXd2tOelE5QU1kX2tyamROZ2N2MjRsWk1KaXJDQU9iMFNmV25HbGZMRkVqekluRlN1X0pFNnhnNXU5Q3lTWDFjdG1QNmhEd1h0QzZsbzZfZ2VzcHdfUQ"
+      ],
+      "mergedIds": [
+        "la-comision-de-comercio-del-mercosur-se-reunio-en-montevideo"
+      ]
+    },
+    {
       "id": "china-mejora-su-acuerdo-comercial-con-peru-mientras-washington-lucha-por-preserv",
       "datetime": "2026-11-18T04:07:32Z",
       "date": "2026-11-18",
@@ -1828,6 +2509,135 @@
         "tries": 2
       },
       "updated": "2026-11-18T13:57:59Z"
+    },
+    {
+      "id": "senasa-resolucion-956-2026-prohibe-ractopamina-cerdos-beta-agonistas-exportaciones-porcinas",
+      "date": "2026-11-18",
+      "kind": "noticia",
+      "title": "SENASA prohíbe la ractopamina en cerdos: se termina la única excepción a la veda de promotores de crecimiento, a pedido de la cadena porcina",
+      "summary": "La Resolución 956/2026, vigente desde su publicación el 18 de noviembre, prohíbe en todo el país usar y vender productos veterinarios promotores de crecimiento con sustancias beta-agonistas o tireostáticas y deroga la Resolución 148/2006. Así cae el permiso que existía desde 2011 para la ractopamina en porcinos, una sustancia no autorizada en la Unión Europea, según el SENASA.",
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Importaciones",
+        "Regulaciones",
+        "Europa"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil",
+        "Unión Europea"
+      ],
+      "tags": [
+        "SENASA",
+        "Resolución 956/2026",
+        "Ractopamina",
+        "Carne porcina",
+        "Beta-agonistas",
+        "Promotores de crecimiento",
+        "CREHA"
+      ],
+      "visual": "livestock",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "Desde el 18 de noviembre ningún productor puede usar ni comercializar en la Argentina productos veterinarios promotores de crecimiento con beta-agonistas o tireostáticos, incluida la ractopamina en cerdos. El SENASA lo justifica en la necesidad de no comprometer el posicionamiento internacional de la carne argentina en mercados como la Unión Europea. La norma no dice nada específico sobre la carne importada.",
+      "argentinaImpact": {
+        "change": "Se elimina la excepción que permitía la ractopamina como promotor de crecimiento en porcinos y queda una prohibición uniforme para todos los beta-agonistas y tireostáticos en el territorio nacional.",
+        "who": "Productores porcinos, frigoríficos y exportadores de carne de cerdo, fabricantes y distribuidores de productos veterinarios y de nutrición animal.",
+        "sectors": [
+          "Carne porcina",
+          "Productos veterinarios",
+          "Nutrición animal",
+          "Frigoríficos"
+        ],
+        "flows": {
+          "importaciones": false,
+          "exportaciones": true,
+          "logistica": false,
+          "aranceles": false
+        }
+      },
+      "keyData": [
+        [
+          "Norma",
+          "Resolución 956/2026 del SENASA (Boletín Oficial, 18 nov 2026)"
+        ],
+        [
+          "Vigencia",
+          "Desde su publicación, el 18 nov 2026"
+        ],
+        [
+          "Prohíbe",
+          "Uso y venta de promotores de crecimiento con beta-agonistas o tireostáticos"
+        ],
+        [
+          "Deroga",
+          "Resolución 148/2006 de la ex SAGPyA"
+        ],
+        [
+          "Excepción que cae",
+          "Ractopamina en porcinos, vigente desde 2011"
+        ],
+        [
+          "Exportaciones porcinas",
+          "11.075 t en enero–agosto de 2026 (+74%)"
+        ],
+        [
+          "Importaciones porcinas",
+          "43.672 t en enero–agosto de 2026 (+13,8%)"
+        ]
+      ],
+      "explainer": {
+        "what": "El SENASA prohibió con la Resolución 956/2026 el uso y la venta en todo el país de productos veterinarios promotores de crecimiento con beta-agonistas o tireostáticos, lo que elimina el permiso que tenía la ractopamina en cerdos desde 2011.",
+        "why": "Según el organismo, la ractopamina está prohibida o no autorizada en mercados de alto valor como la Unión Europea, y mantener la excepción podía comprometer el posicionamiento internacional de la carne argentina en un momento en que las exportaciones porcinas crecen.",
+        "who": "Productores y frigoríficos porcinos, exportadores de carne de cerdo y empresas de productos veterinarios y nutrición animal.",
+        "products": [
+          "Carne porcina",
+          "Productos veterinarios promotores de crecimiento",
+          "Ractopamina"
+        ]
+      },
+      "story": "agroexportacion",
+      "absorbs": [
+        "una-excepcion-para-los-cerdos-que-llego-a-su-fin-a-pedido-de-la-cadena-porcina-s"
+      ],
+      "sources": [
+        {
+          "name": "Boletín Oficial (Resolución 956/2026 del SENASA)",
+          "type": "Organismo oficial",
+          "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/350501/20261118",
+          "primary": true
+        },
+        {
+          "name": "Bichos de Campo (importaciones de cerdo y Resolución 1.458/2011)",
+          "type": "Medio especializado",
+          "url": "https://bichosdecampo.com/otro-exito-de-julian-dominguez-gracias-a-una-decision-que-tomo-en-2011-hoy-esta-ingresando-al-pais-gran-cantidad-de-carne-de-cerdos-brasilenos-tratados-con-un-farmaco-prohibido-por-160-paises/"
+        },
+        {
+          "name": "Bichos de Campo (datos de Pormag sobre el sector porcino)",
+          "type": "Medio especializado",
+          "url": "https://bichosdecampo.com/el-cerdo-se-agranda-en-argentina-la-produccion-de-carne-porcina-crecio-124-el-consumo-llego-a-un-record-y-las-exportaciones-saltaron-74/"
+        }
+      ],
+      "body": [
+        "El Servicio Nacional de Sanidad y Calidad Agroalimentaria (SENASA) publicó este miércoles 18 de noviembre en el Boletín Oficial la Resolución 956/2026, firmada el día anterior por su presidenta, María Beatriz Giraudo Gaviglio. La norma prohíbe en todo el territorio nacional el uso y la comercialización de productos veterinarios indicados como promotores de crecimiento que contengan sustancias beta-agonistas o sustancias con acción tireostática, y rige desde el mismo día de su publicación.",
+        "El efecto práctico más concreto es el fin de la única excepción que tenía esa prohibición: la ractopamina, un beta-agonista que se podía usar como promotor de crecimiento en cerdos. El cambio responde a un pedido de la propia cadena porcina, que planteó que el permiso chocaba con las exigencias de los mercados de exportación.",
+        "## Qué dice la norma",
+        "La resolución tiene cuatro artículos. El primero establece la prohibición para los productos veterinarios promotores de crecimiento que contengan beta-agonistas (inciso a) o tireostáticos (inciso b). El segundo deroga la Resolución 148 del 5 de abril de 2006 de la ex Secretaría de Agricultura, Ganadería, Pesca y Alimentos, que había extendido la veda a estos productos. El tercero fija la vigencia desde la publicación en el Boletín Oficial y el cuarto es de forma. El texto no establece un período de transición ni sanciones específicas.",
+        "En los considerandos, el SENASA explica que el objetivo es eliminar la excepción para la ractopamina en porcinos y derogar la normativa que habilitaba su ingreso bajo determinados límites de residuos, para que rija una prohibición uniforme. La resolución no aclara cómo se tratará la carne importada de animales tratados con esa sustancia: solo recuerda que el programa oficial de control de residuos, el CREHA Animal, previsto en la Resolución 458/2012 del SENASA, incluye la ractopamina en su plan de muestreo y toma muestras de bovinos, porcinos, equinos y ovinos faenados, tanto de producción local como de productos importados.",
+        "## Cómo se llegó hasta acá",
+        "Según el repaso que hace la propia resolución, la Argentina prohíbe desde la Resolución 447 de 2004 los productos veterinarios anabólicos en animales destinados al consumo humano. La Resolución 148/2006 extendió la veda a los promotores de crecimiento con beta-agonistas y tireostáticos, y en 2011 la Resolución 1.458 del entonces Ministerio de Agricultura, Ganadería y Pesca la modificó para admitir la ractopamina solo en cerdos.",
+        "De acuerdo con una nota de Bichos de Campo de junio de 2025, esa excepción se firmó durante la gestión de Julián Domínguez y quedaba atada a un programa de trazabilidad que debía separar a los animales tratados de los que no lo estaban, programa que según ese medio nunca se puso en marcha. En aquel artículo, el entonces secretario de Agricultura, Fernando Vilella, describía la situación de la sustancia como no prohibida pero tampoco aprobada.",
+        "## Por qué la cadena porcina pidió el cambio",
+        "La resolución detalla que el pedido llegó de la Federación Porcina Argentina (FPA), la Cámara Argentina de Empresas de Genética Porcina (CAEGP), la Cámara Argentina de la Industria de Chacinados y Carne de Cerdo (CAICHA), la Federación de Industrias Frigoríficas Regionales Argentinas (FIFRA) y la Cámara Argentina de Empresas de Nutrición Animal (CAENA). Las entidades argumentaron que había que cumplir con los requisitos de los mercados internacionales y acompañar el crecimiento exportador del sector.",
+        "El SENASA, por su parte, señala que los organismos regulatorios del mundo tienen criterios distintos sobre la ractopamina, que está prohibida o no autorizada en mercados de alto valor como la Unión Europea y en otros destinos que la norma llama estratégicos, sin nombrarlos. Mantener excepciones, sostiene, podía generar asimetrías regulatorias y comprometer el posicionamiento de la Argentina en el comercio internacional de carnes y productos cárnicos. También menciona que una prohibición sin excepciones simplifica la fiscalización.",
+        "La discusión tenía además un costado comercial ligado a las importaciones. En la nota de 2025, Bichos de Campo citó datos oficiales según los cuales entre enero y mayo de ese año habían entrado 24.303 toneladas de carne de cerdo brasileña, contra 3.939 toneladas un año antes. Daniel Fenoglio, de la FPA, sostenía entonces que la ractopamina le daba a los productores de Brasil una ventaja de costos de entre 5% y 10%, y que la sustancia estaba prohibida en 160 países, según los productores.",
+        "## Los números del sector",
+        "Según datos de la Secretaría de Agricultura procesados por la consultora Pormag y publicados por Bichos de Campo en septiembre, la producción argentina de carne porcina sumó 592.046 toneladas entre enero y agosto de 2026, 12,4% más que un año antes. Las exportaciones crecieron 74%, de 6.360 a 11.075 toneladas, por unos US$ 15,2 millones, y representaron 1,9% de la producción.",
+        "Las importaciones siguen muy por encima: 43.672 toneladas en el mismo período, con una suba de 13,8% y un valor de unos US$ 131,8 millones. Pormag estimó que la carne importada cubre 10,5% del consumo aparente. El mismo informe comparó precios de agosto: US$ 1,55 por kilo en la Argentina contra US$ 0,92 en Brasil.",
+        "## Qué falta saber",
+        "La resolución no menciona medidas sobre la carne importada de países donde la ractopamina está permitida, más allá del muestreo del programa CREHA. Tampoco detalla qué pasa con los productos veterinarios con estas sustancias que estén en stock. Ninguna de las fuentes consultadas informó hasta ahora la reacción de los fabricantes de esos productos ni plazos adicionales de reglamentación."
+      ]
     },
     {
       "id": "aranceles-ia-y-empleos-los-retos-que-sacudiran-a-la-industria-automotriz",
@@ -2335,15 +3145,24 @@
           "url": "https://www.merca2.es/2026/11/17/cumbre-trump-xi-putin-shenzhen-2509271/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Diario El Norte - San Nicolás",
+          "type": "También publicó esta noticia",
+          "url": "https://diarioelnorte.com.ar/trump-negocio-con-mexico-y-canada-una-reduccion-de-aranceles-durante-la-cumbre-en-china/",
+          "alsoIn": true,
+          "title": "Trump negoció con México y Canadá una reducción de aranceles durante la cumbre en China"
         }
       ],
       "gnTried": "2026-11-17T22:52:45Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9SaUhvREhfRDdkQ0dXYmJkUU1tcEptcFRpLWdfVG1nQ2JnRTF2MXhwUmxWRG5mclQ5clBxcTFyNDFscGstYkN1cFc1MGtjSnlBaTRsLWJnMzFCeU9qU0drdV92Y1g1M1liMHVxR29XT3l6X3ZaaUFLakJxTlc?oc=5",
-      "digestSkip": {
-        "at": "2026-11-17T22:52:45Z",
-        "auto": "no-read",
-        "reason": "medio sin lectura automática (NO_READ_DOMAINS) y sin otro medio con la misma noticia"
-      }
+      "aliasUrls": [
+        "https://diarioelnorte.com.ar/trump-negocio-con-mexico-y-canada-una-reduccion-de-aranceles-durante-la-cumbre-en-china",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZmRTWTA3NTRXU0x0VnQzTWNORHhIQzdWNnRiTUhaZEpkLTZsX3JwVDM5X0hwakF0SGM2RGdTaS1GbU9tNGQtalg1Qmo1OU1nXzd0OFk3ZDMtUnItY1AtV2pFbFpZbGhlLXp5cWZMcU4xNnVUenVJeWw3RlNnWjZ3Y19vZUwydkQwbUxlRDFfTU9mSGlZb1gwMFpXdGR2WmNkc09pRHZfTktXYlUwYUtjNEdCYm9FNENv"
+      ],
+      "mergedIds": [
+        "trump-negocio-con-mexico-y-canada-una-reduccion-de-aranceles-durante-la-cumbre-e"
+      ]
     },
     {
       "id": "washington-advierte-de-que-el-prestamo-de-3-000-millones-a-airbus-rompe-la-tregu",
@@ -2467,7 +3286,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-11-17T22:52:45Z",
+      "gnTried": "2026-11-18T22:36:16Z",
       "digestSkip": {
         "at": "2026-11-17T21:50:00-03:00",
         "reason": "fuera de tema (aviso de evento)"
@@ -2504,7 +3323,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-11-17T22:52:45Z",
+      "gnTried": "2026-11-18T22:36:16Z",
       "digest": {
         "lead": "El gasto en combustible de las aerolíneas creció 79% interanual y ya explica casi cuatro de cada diez dólares de sus costos operativos, advirtió Peter Cerdá, vicepresidente regional de IATA para las Américas, en el IATA Cargo Day realizado en Colombia, según El Cronista.",
         "body": [
@@ -2879,7 +3698,7 @@
           "title": "Las exportaciones argentinas crecieron 24,4% en el semestre: el BID pone al petróleo y la minería como motores"
         }
       ],
-      "gnTried": "2026-11-17T22:52:45Z",
+      "gnTried": "2026-11-18T22:36:16Z",
       "digest": {
         "lead": "Las exportaciones de bienes de la Argentina crecieron 24,4% interanual en el primer semestre de 2026, apenas debajo de México (24,6%) y por encima del promedio regional (19,5%), según el Monitor de Comercio e Integración 2026 del BID, informa Shale24.",
         "body": [
@@ -3146,6 +3965,44 @@
         "retry": true,
         "tries": 3
       }
+    },
+    {
+      "id": "trigo-en-2027-importaciones-record-y-un-cuello-de-botella-en-los-puertos-de-bras",
+      "datetime": "2026-11-17T17:27:02Z",
+      "date": "2026-11-17",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "Trigo en 2027: importaciones récord y un cuello de botella en los puertos de Brasil",
+      "summary": "Brasil se prepara para importar volmenes rcord de trigo en 2027, con desafos logsticos y portuarios.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Brasil"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "grain",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "AgroLatam",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.agrolatam.com/nota/trigo-en-2027-importaciones-record-y-un-cuello-de-botella-en-los-puertos-de-brasil/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-18T22:36:16Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdkhLMUJqb2FLVHZNYjNLUFlBa0k4amwwekhLZmFQOG1sbnRrQXBjU1R5YnZyZGtmWFVEUndialh6N2FmSk9oLThSRFlhY2FYX1ZxeHFPb0FEaS1hVUIyN1JqbHA3TGxtMDFhdW0wVlg3SFNqdk4xY09OVEN2Q3k4aHdXaUhSRWFBRklsODFUc2Vydy0wZW4zUng4X29ycVRCc3U5SGNSNGd5Sjg2Z3BPQi1fZFfSAbMBQVVfeXFMT1dfQ2tsSE45Rkh5b0hjVl8wc1NrX25QODRVVlZwaktYa3dac3puUmVkUGpjLWNiQzlsZUZZVlVPLTVnMnRSS0JDMllLZ0kwN1hxUVJ4RkRnWUJqSEVVd0p6UzlESnJUSlFRRHFJU0V0WWVCLXAxNThhT0dqZmczaHdKWmdBZnZ2MlFZM05UZDNkYURlUW96TnFKa2R1OXBSaE5OZXR5SzhnTWYwX0E2aF8ta2c?oc=5"
     },
     {
       "id": "carga-aerea-de-barajas-cae-11-7-y-enciende-alertas-sobre-su-desempeno-logistico",
@@ -3742,6 +4599,13 @@
           "url": "https://www.indexbox.io/es/blog/fedex-opens-new-air-cargo-terminal-at-guangzhou-baiyun-international-airport/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Diario El Mundo",
+          "type": "También publicó esta noticia",
+          "url": "https://diario.elmundo.sv/economia/la-carga-aerea-supera-las-33800-toneladas-hasta-octubre-en-el-aeropuerto-internacional",
+          "alsoIn": true,
+          "title": "La carga aérea supera las 33,800 toneladas hasta octubre en el Aeropuerto Internacional"
         }
       ],
       "gnTried": "2026-11-17T14:23:55Z",
@@ -3760,7 +4624,14 @@
           "url": "https://www.stattimes.com/air-cargo/fedex-opens-45000-sq-m-cargo-terminal-in-guangzhou-1361309",
           "title": "FedEx opens 45,000-sq-m cargo terminal in Guangzhou"
         }
-      }
+      },
+      "aliasUrls": [
+        "https://diario.elmundo.sv/economia/la-carga-aerea-supera-las-33800-toneladas-hasta-octubre-en-el-aeropuerto-internacional",
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVTdWY3h3bnMyN2lOek8yMExSdVR6SnN4UTdrcjJzYVNrTnY5V0FSdC15bENBaHIzaGZEaFRKdlBiMG9ZYWZnS0RZSWhXbUQtdG9uSnpyaWx1a0hZVF9KOEhOY2JxR01oTjdEcTFpUmpyeUFjb29rSHdXdnNDc2w5bTQ1Vk5CLTFrUi1WUkpzS0tPaEc1VkJ1MWplNXYtTjdOeVJobUh4dkM1cXZvZXkzRk5uUnlpUnhLRTNTbkJ30gHIAUFVX3lxTFBsU0tialdBUm80M2NwckFaaVotTHlOTW5NbjJSWlFWVkhGSXY1eF9lWVJJbFNIN3JFa2ducVo3YWNsN3NRZ0kzYWlucldkM05sNS1zaEJjVHl5UGhVa1E4LTk5M3ZhLVY3NjhOY29acGg2YkpfaUFBOUE1LUhJZmVQTkxyMW1UWlVSSW95WGEzMGVVR3d2RUM0TVR2Mzdfci1idzdiQXNzRElkZWRnQlBuTEtDNWRsOWJsdWZrNHFSSTVONlZQNjAz"
+      ],
+      "mergedIds": [
+        "la-carga-aerea-supera-las-33-800-toneladas-hasta-octubre-en-el-aeropuerto-intern"
+      ]
     },
     {
       "id": "las-navieras-cancelan-mas-de-medio-centenar-de-rutas-este-oeste-para-frenar-la-c",
@@ -3803,45 +4674,6 @@
         "reason": "no se encontró una versión legible",
         "retry": true,
         "tries": 3
-      }
-    },
-    {
-      "id": "rio-negro-busca-ampliar-su-mapa-exportador-19-empresas-salen-a-conquistar-nuevos",
-      "datetime": "2026-11-17T12:07:49Z",
-      "date": "2026-11-17",
-      "firstSeen": "2026-11-18T04:20:27Z",
-      "title": "Río Negro busca ampliar su mapa exportador: 19 empresas salen a conquistar nuevos mercados internacionales",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Comercio exterior Argentina",
-      "sources": [
-        {
-          "name": "Agrovalle",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORk42SjY5S0VWcGp1VWVRS1FnLThiQ29udWRDd191bUZFbERBWGV4YmI5LWVrOV82T3ZZaUhpcTJkU0cwOHliQ3ZNaHZYY1BCUGw2cHk5dDR4bkhhTGp2cllmSkJoUUJQQzFXcVB5UFJQUFIxYzRSRFQwSmlJS0swcW1lRTA1NkJRRDJpLXJTNGdTcjhER3VZZENhSm40dG5COVhSeWFGaUYzc2lXSWt2TTVCdDNNQk9Eb3VYVEh2ejBJVjJTeVoxeGdlOA?oc=5",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-18T04:20:27Z",
-      "digestSkip": {
-        "at": "2026-11-18T12:45:00-03:00",
-        "reason": "no se encontró una versión legible",
-        "retry": true,
-        "tries": 2
       }
     },
     {
@@ -4121,7 +4953,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-11-17T22:52:45Z",
+      "gnTried": "2026-11-18T22:36:16Z",
       "digest": {
         "lead": "Pedro Sánchez recibió el lunes 16 de noviembre a Lula da Silva en la Moncloa, mientras Yamandú Orsi también pasaba por Madrid, seis meses después de que el acuerdo Unión Europea–Mercosur empezara a aplicarse en forma provisional, informa Estrella Digital.",
         "body": [
@@ -6507,6 +7339,20 @@
           "url": "https://enfoquesindical.org/articulo/noticias/tras-el-devastador-incendio-en-la-aduana-de-oran-supara-reclamo-recuperar-las",
           "alsoIn": true,
           "title": "Tras el devastador incendio en la Aduana de Orán, SUPARA reclamó recuperar las condiciones de trabajo"
+        },
+        {
+          "name": "Data Gremial",
+          "type": "También publicó esta noticia",
+          "url": "https://www.datagremial.com/informacion-general/daniel-malloti-recorrio-la-aduana-de-oran-tras-el-devastador-incendio-y-respaldo-a-los-trabajadores-damnificados-2026111718460",
+          "alsoIn": true,
+          "title": "Daniel Malloti recorrió la Aduana de Orán tras el devastador incendio y respaldó a los trabajadores damnificados"
+        },
+        {
+          "name": "Nuevo Diario de Salta",
+          "type": "También publicó esta noticia",
+          "url": "https://nuevodiariodesalta.com.ar/supara-recorrio-la-aduana-de-oran-y-acompano-a-los-trabajadores-afectados-por-el-incendio/",
+          "alsoIn": true,
+          "title": "SUPARA recorrió la Aduana de Orán y acompañó a los trabajadores afectados por el incendio"
         }
       ],
       "gnTried": "2026-11-18T04:20:27Z",
@@ -6518,12 +7364,18 @@
       "aliasUrls": [
         "https://enfoquesindical.org/articulo/noticias/tras-el-devastador-incendio-en-la-aduana-de-oran-supara-reclamo-recuperar-las",
         "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPc2RHSnFDSHJSYktqeGNtWllSQURNQ0U0R256Q2kyazRDcEVnRWFYV3hzNmQzd2ZlbTl0MVctSTZ6SUhreGR5SzFIYUxGcUJnN0h0SFVHNTB1cGpOcGVITkJWRzV5bS1UMHdpRlJVMzhYRUlBZHJ4VElibk1iNkV1OFVsaWpNS2NQQ0ZNVll1TEVoYmFwNE1lV1VwZGlZOWxzRVBUS2VZWVliMUdqb3FOYjlXTmFtRjJBdGJ6VmdqNE9CRTFpSC1OWWxpbWF0UGNvRFJqTkhTS0k5WW5K",
+        "https://news.google.com/rss/articles/CBMihAJBVV95cUxOVGhlbzZVN1VKdWpYTlRFNFhwSDI1WDNJa0w3bnFjM2kzQ0ppaW41eWJqMjhQc0VYNGNkTkVjWGdLM08tNzZWeFVuaXZ1ZGF3VDAwM2V2TUtKdzNvNEZfRXZEYUlXZ0VHMVhYaW5MT1NLWmEzajhIQVJqVl9Jby1kWjlucGZPWmFzWWdERmZGME5feklvOGFyQ0VPdG1zWWRmaF85WlpCQ0s5alF2TlduZlZkT3UySE81cmVUV0RDeFQ5Rm9oakRFRkRSZDZJcG1FY01BMHA3dmltX0hDWThBbmRrZHpZdmsxMFhVTldCQURCalNzTlFoR3RnMkJpdE1VVUJxSQ",
         "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcF9Ud2dRUkQtVkdYeFJhdzdaMXIwQmhfOFVXS0FvNWJlU2ZfM2k0ZzdCLU5xdDBpQVNtejhYcUVFYmZ3Y3FkM3dGanJuNmgwdExId1VEeUJQTG40WXprb0E4RUtpeXp4NDFKQ21OaHdaRFBhX1FrTVVudjJEM3Q0Y3pGX1FuQVF2dDBjMWhTcjE3M2JlRkxUYVNLUTl1QXdzYnV5d29uTlZJTVlfZ0N6YTM3MmlHRjVhSEpTYjRFYVE",
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYXpraDVOZ1NDa2FzNHJXbWhsaE1jc1FfNnFHNEZLZTdCanBlenhNM25sdjBvcGdTc3pmMEwyd3pocGpjVm55djNHUUQtM0JoLVZORVdVeWt6RVB1RzRZNXNJYjdnSm9aTzl0RXRwUG5UZ2tzQVdXSS05b0laZzVWeXpQdjdkN2V3QWZGZURrbzc0cmVrVTRmTGg0QkJHT1pRc21iOHlCbWU5WUJKU3p0X18waXdZUWNub1BJdlZ5aEQyZw",
+        "https://nuevodiariodesalta.com.ar/supara-recorrio-la-aduana-de-oran-y-acompano-a-los-trabajadores-afectados-por-el-incendio",
+        "https://www.datagremial.com/informacion-general/daniel-malloti-recorrio-la-aduana-de-oran-tras-el-devastador-incendio-y-respaldo-a-los-trabajadores-damnificados-2026111718460",
         "https://www.lahoradesalta.com.ar/supara-tomo-conocimiento-de-la-situacion-que-atraviesan-los-trabajadores-de-la-aduana-de-oran-tras-el-incendio"
       ],
       "mergedIds": [
         "supara-tomo-conocimiento-de-la-situacion-que-atraviesan-los-trabajadores-de-la-a",
-        "tras-el-devastador-incendio-en-la-aduana-de-oran-supara-reclamo-recuperar-las-co"
+        "tras-el-devastador-incendio-en-la-aduana-de-oran-supara-reclamo-recuperar-las-co",
+        "daniel-malloti-recorrio-la-aduana-de-oran-tras-el-devastador-incendio-y-respaldo",
+        "supara-recorrio-la-aduana-de-oran-y-acompano-a-los-trabajadores-afectados-por-el"
       ]
     },
     {
@@ -7902,6 +8754,46 @@
         "retry": true,
         "tries": 3
       }
+    },
+    {
+      "id": "dga-nordquist-el-comercio-mundial-se-esta-adaptando-no-retrocediendo-en-medio-de",
+      "datetime": "2026-11-16T00:00:00Z",
+      "date": "2026-11-15",
+      "firstSeen": "2026-11-18T22:36:16Z",
+      "title": "DGA Nordquist: El comercio mundial se está adaptando, no retrocediendo, en medio de una creciente incertidumbre",
+      "summary": "El 16 de noviembre, en el marco de la 16ª Conferencia Asiática de Logística, Transporte Marítimo y Aviación celebrada en Hong Kong, China, la Directora General Adjunta DJ Nordquist afirmó que el comercio mundial ha demostrado una notable resiliencia a pesar de las tensiones geopolíticas, las interrupciones en las…",
+      "body": [
+        "El 16 de noviembre, en el marco de la 16ª Conferencia Asiática de Logística, Transporte Marítimo y Aviación celebrada en Hong Kong, China, la Directora General Adjunta DJ Nordquist afirmó que el comercio mundial ha demostrado una notable resiliencia a pesar de las tensiones geopolíticas, las interrupciones en las cadenas de suministro y las restricciones comerciales, y que las empresas se están adaptando mediante la diversificación y nuevas alianzas comerciales. Tras destacar un crecimiento del comercio superior al previsto y la importancia que siguen teniendo las normas de la OMC, abogó por unas cadenas de suministro mundiales más resilientes e inclusivas, una mayor cooperación internacional y reformas que aseguren que el sistema multilateral de comercio siga siendo adecuado para afrontar los retos actuales. A continuación figura el texto de su discurso."
+      ],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Transporte marítimo",
+        "Geopolítica y comercio",
+        "Economía internacional",
+        "China"
+      ],
+      "countries": [
+        "China"
+      ],
+      "tags": [
+        "China"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "OMC · Organización Mundial del Comercio",
+      "sources": [
+        {
+          "name": "OMC · Organización Mundial del Comercio",
+          "type": "Organismo internacional",
+          "url": "https://www.wto.org/spanish/news_s/news26_s/ddgjn_16nov26_555_s.htm",
+          "primary": true,
+          "author": ""
+        }
+      ]
     },
     {
       "id": "alzas-de-hasta-15-en-fletes-elevan-costos-de-produccion",
@@ -30622,7 +31514,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-11-17T22:52:45Z",
+      "gnTried": "2026-11-18T22:36:16Z",
       "digestSkip": {
         "at": "2026-11-08T12:00:00-03:00",
         "reason": "fuente no legible (enlace de Google Noticias demasiado largo para la herramienta) y sin otro medio con la misma noticia"
@@ -145642,7 +146534,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-11-17T22:52:45Z"
+      "gnTried": "2026-11-18T22:36:16Z"
     },
     {
       "id": "portcastello-presenta-estrategia-para-albergar-hub-industrial-de-energia-eolica",
@@ -156109,14 +157001,14 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-11-18T13:57:59Z",
+    "ranAt": "2026-11-18T22:36:16Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
         "url": "https://www.wto.org/library/rss/latest_news_s.xml",
         "ok": true,
-        "items": 7,
-        "added": 2,
+        "items": 8,
+        "added": 1,
         "updated": 0,
         "skipped": 0
       },
@@ -156134,45 +157026,45 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 2,
+        "added": 6,
         "updated": 0,
-        "skipped": 10
+        "skipped": 9
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 24,
-        "added": 1,
+        "items": 25,
+        "added": 3,
         "updated": 0,
-        "skipped": 19
+        "skipped": 18
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 22,
+        "items": 24,
         "added": 4,
         "updated": 0,
-        "skipped": 14
+        "skipped": 12
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 59,
+        "items": 51,
         "added": 4,
         "updated": 0,
-        "skipped": 43
+        "skipped": 32
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 19,
+        "items": 20,
         "added": 4,
         "updated": 0,
-        "skipped": 1
+        "skipped": 4
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
@@ -156180,17 +157072,17 @@
         "ok": true,
         "items": 100,
         "added": 4,
-        "updated": 1,
-        "skipped": 92
+        "updated": 0,
+        "skipped": 93
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 60,
+        "items": 63,
         "added": 4,
         "updated": 0,
-        "skipped": 39
+        "skipped": 41
       }
     ],
     "curatedDuplicates": [
@@ -156210,9 +157102,19 @@
         "curated": "decreto-1350-2026-paso-de-los-libres-cotecar-concesion-20-anos-iniciativa-privada"
       },
       {
+        "title": "Nuevas reglas para las fumigaciones oficiales de cargas en el comercio exterior argentino",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPTE15bTlLbmFjZFF6WnBpZ3lVZTZfMVhNa0loSXdZOU10SHpKeGNJVkJ0RlM3V1RRRDlkY2V0SG4xalVkbmdNeEE1STBxLTRQRzlTU1lqNjdwTk5PdEdhWEd1ZUtTTDdMOUxOdW9iZ3JoZUFoOVRXYjU1M0pRdEk4aGZXTEVsX0pHelhYaUtBQ3BiNlk5bHJHZmt6UDMtd1RxOFl6Rk5FeEhoZzRyOGVwb0dlZFlDSTY2MmFkSFR6MjBDM2NWbktPdWZNMzBHOFFGXzRJS1ZjeVVLazNUbmtnWnNYd3BXLTDSAecBQVVfeXFMT0xNeW05S25hY2RRelpwaWd5VWU2XzFYTWtJaEl3WTlNdEh6SnhjSVZCdEZTN1dUUUQ5ZGNldEhuMWpVZG5nTXhBNUkwcS00UEc5U1NZajY3cE5OT3RHYVhHdWVLU0w3TDlMTnVvYmdyaGVBaDlUV2I1NTNKUXRJOGhmV0xFbF9KR3pYWGlLQUNwYjZZOWxyR2ZrelAzLXdUcThZekZORXhIaGc0cjhlcG9HZWRZQ0k2NjJhZEhUejIwQzNjVm5LT3VmTTMwRzhRRl80SUtWY3lVS2szVG5rZ1pzWHdwVy0w?oc=5",
+        "curated": "senasa-resolucion-955-2026-fumigaciones-oficiales-comercio-internacional-granos-bodegas-fosfina"
+      },
+      {
         "title": "El petróleo desplazó a la harina de soja y lidera las exportaciones argentinas",
         "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1QMFo1eFhESGsyUDIyaG9mYjg1eUxkcmtKVFZEZkUwNjVxLXZXcEt3bXM4ZVN6T2paOWtyU0YzRk95eUdrWHU4bWJNNHdyR3QweE13dzI2TW5SbF9KY3ZoZVBJUHVrUTRlc1FRN0tod2RrdFJEcFMxNA?oc=5",
         "curated": "bcr-saldo-energetico-enero-septiembre-2026-9427-millones-record-44-5-superavit-crudo-harina-soja"
+      },
+      {
+        "title": "Se actualizó procedimiento para supervisar tratamientos de fumigación oficial en el comercio exterior",
+        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNaVhIdmxfV245Y29lUzNKSmtGV2kxcmV0RkxrUTNWdFcxZTRQV294Nk5EVFFaSF9sYmJsV0swWXduWVlFVkNiQzdlVWxjVUxNeUNNYkRnNjZGVXFzcnN2SWxvM2dlVGJtUzdNdlhEYzZGOWZEOE91ZEh6VmVPYlc4WDktNFdtM2ZILWFoYnVKM0hvRDIxaWR6YVA3QXB6NGNqLTljT05ZMW9QQVVQMHNNeU5rQmVaSzFCZXZkcnpWNGdyMlc0WU5hY2N3ZlI5MVg5TG0yRDNETGRERTFKdmNQaTltRldrQ05haWZHeG1YNHNfLUlUWUNmMQ?oc=5",
+        "curated": "senasa-resolucion-955-2026-fumigaciones-oficiales-comercio-internacional-granos-bodegas-fosfina"
       },
       {
         "title": "Se actualizó procedimiento para supervisar tratamientos de fumigación oficial en el comercio exterior",
@@ -156240,64 +157142,14 @@
         "curated": "bcr-saldo-energetico-enero-septiembre-2026-9427-millones-record-44-5-superavit-crudo-harina-soja"
       },
       {
-        "title": "El petróleo desplazó a la harina de soja y se convirtió en el principal producto de exportación argentino",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9lZk4yNjF4bmlUbzZzcHhDakpkMFJpcXZwNHBaNUg0S0k1TlRJcVVyNXNQT2RsS25GOVdCME56RVFvNDhNMzFTd1N6S1RVWmQ5dEJ4YU1sYzNUMy1WRjVKUXFmTGROcHRjb3UyNFpxaGJrdw?oc=5",
-        "curated": "bcr-saldo-energetico-enero-septiembre-2026-9427-millones-record-44-5-superavit-crudo-harina-soja"
+        "title": "El Gobierno bonaerense fijó un aumento del 16% en los fletes de granos y desató el rechazo del campo",
+        "url": "https://www.diario4v.com/nota/54004/el-gobierno-bonaerense-fijo-un-aumento-del-16-en-los-fletes-de-granos-y-desato-el-rechazo-del-campo/",
+        "curated": "buenos-aires-laudo-16-por-ciento-tarifa-referencia-fletes-granos-carbap-coninagro-acopiadores"
       },
       {
-        "title": "El petróleo destronó a la harina de soja como el principal producto de exportación de la Argentina",
-        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQQ3NlTGhrS1Y5c2cxR3RoU0N1UjhyRTZkWmtvazNRSVhkV001VDhYUk1NU21OVlF2Z0JmX3UydEhMRzMzcjU5QTFuZVZ5d2JDTG9zV1lvOXRlOVlqRDZhNlh0bzRsQWVWSmlKazJ5Nnd2LWxLcHlyRnVBeHFMNUtWeWpBT2ZjMzFkWWtPMGwydnJNRU5zVWR2cGVCS1ZWSjJxeF84NXF5bmFXRFY1STdabG9CaVhyUThfdEs2TU1BVUlTN0NLb2hvdjFCNFlVZ3VUOHREMmhPUlpqSDNTX09iNGdDSm84aGNYVGlpTzVjbkZhaVha0gH6AUFVX3lxTFBrT3RVSElFQTdzRS1VVHZlRzNzV1JEVGI3RHN5TUxqNi1mT25WV0NzcmhacEhLNF9Xak0xTGUzWG9feG5jY0lublBGcEYyWDV5eFZfNVJHLXgwejZ1djFNWEhMUGtOMVRqanFWREZ2OWdiVU9QWTlmVG9nODFBWDVZNkpIMkQzc1BiaTJQdlRWejV1Y0lJY3NjdXdHbnphMVVJQURVRnJDMlZfOXNTWU80dGRkVEJYY2JfQ3RRUDhZLUJCYlFreFVKTFRTcDdkLVFGd25Pc2tJbV9xNDAzSVFjczJRVlkxeW1ZRml5OWhxRGM4dVU1TGFOMnc?oc=5",
-        "curated": "bcr-saldo-energetico-enero-septiembre-2026-9427-millones-record-44-5-superavit-crudo-harina-soja"
-      },
-      {
-        "title": "El petróleo desplazó a la harina de soja y lidera las exportaciones argentinas",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1QMFo1eFhESGsyUDIyaG9mYjg1eUxkcmtKVFZEZkUwNjVxLXZXcEt3bXM4ZVN6T2paOWtyU0YzRk95eUdrWHU4bWJNNHdyR3QweE13dzI2TW5SbF9KY3ZoZVBJUHVrUTRlc1FRN0tod2RrdFJEcFMxNA?oc=5",
-        "curated": "bcr-saldo-energetico-enero-septiembre-2026-9427-millones-record-44-5-superavit-crudo-harina-soja"
-      },
-      {
-        "title": "El petróleo destronó a la harina de soja como el principal producto de exportación de la Argentina",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeTRxelk4b2VrdklMMWd1VGIzZVYzUm9ha1VJRzdHZE1ENi1mNzRvTkpxc3ptb2RicU15ZDZlQmFjYVh4dnpOTmVTcnZ4WjhBTFdyRmo1b2s0T29Fd3pWUVhXaUs0aDhFS1hoMWxENW1lSEdXZkdzTU1XdEpBbExhcVFhUkxDblZrY3ZHWnJHdWxSSjZkb2VSQkFBZFk1aTI2ZFFKdlNXUVhxaDJIUmJ0R2FqalltSEFIVFB6cVJLU0FObkhLbGxzRE9UbEE?oc=5",
-        "curated": "bcr-saldo-energetico-enero-septiembre-2026-9427-millones-record-44-5-superavit-crudo-harina-soja"
-      },
-      {
-        "title": "Se actualizó procedimiento para supervisar tratamientos de fumigación oficial en el comercio exterior",
-        "url": "https://dataportuaria.com/es/argentina/comercio-exterior/se-actualizo-procedimiento-para-supervisar-tratamientos-de-fumigacion-oficial-en-el-comercio-exterior-557925",
-        "curated": "senasa-resolucion-955-2026-fumigaciones-oficiales-comercio-internacional-granos-bodegas-fosfina"
-      },
-      {
-        "title": "El petróleo desplazó a la soja y se convirtió en el principal producto de exportación de Argentina",
-        "url": "https://www.uypress.net/Internacionales/El-petroleo-desplazo-a-la-soja-y-se-convirtio-en-el-principal-producto-de-exportacion-de-Argentina-uc157929",
-        "curated": "bcr-saldo-energetico-enero-septiembre-2026-9427-millones-record-44-5-superavit-crudo-harina-soja"
-      },
-      {
-        "title": "OCDE alerta de exceso de acero chino en América Latina, donde importaciones crecen un 47 %",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNYWYzT2hxVVFndGppbEg1WkZrd05OUTY1UTVzOXh2bHBKbndreFVqSDhKa0dadE1fU3JwQXdlOXVPR2s5czJYRTZJRExaV0h2UGRfM2hhRGNhV3FHdThtMG9SeF9OdDc2akU1Rkt0MFBKbWJnVmJrNF9qbjhTMTBzWDhuLWMtSnFFdlUyaU5GdVJySFJNV2k1V1JjazZ0cVltY1Z2djRBS2ZkN0RIMlhLVEk5X3JhZXJIQk5aY3d6THBxaHowNFVaamtxamNQTkhpSnVGeXdFQdIB8gFBVV95cUxQaE9lNllFdjg2S3p3S1dJRW95NnUyaXh6TFhDa2hyVWNRUVZDLWhtRjR0SVZhYklBeS1XZk54NFRSMjdSQkhlamMydVNjYU5nSHcxblV0Y2xFbEJQcjAtNHQ0dmk2TXNSeGJKcXJCZ0QyUFRkUXBRa2VJRklNN0Z1bnRCblJQQWRpYkJaRThRdHJVZ2tyTG1VZ0JDdV9RY2NGZEREcXlSMzNSczFEYVZCZFE4VGNGN1ZvMllNdjA5M1VuT0pKWXV0VEJxNWMxMVpLVm45RWl3R2k0VURCOVR3QjJQeGVLcDg1SzFlSkpaRmhkdw?oc=5",
-        "curated": "ocde-acero-america-latina-importaciones-47-por-ciento-55-4-millones-toneladas-china-21-6"
-      },
-      {
-        "title": "Las navieras reactivan gradualmente rutas por Suez",
-        "url": "https://www.gacetanautica.es/2026/11/17/las-grandes-navieras-apuestan-por-su-regreso-al-canal-de-suez/",
-        "curated": "suez-one-continuity-premier-alliance-gemini-evergreen-regreso-drewry-52-cancelaciones"
-      },
-      {
-        "title": "Canal de Suez: naviera ONE retoma sus tránsitos y otros tres servicios volverían a la ruta",
-        "url": "https://www.portalfruticola.com/noticias/2026/11/16/one-canal-suez/",
-        "curated": "suez-one-continuity-premier-alliance-gemini-evergreen-regreso-drewry-52-cancelaciones"
-      },
-      {
-        "title": "La industria del calzado, en el precipicio: vence antidumping que bloquea importaciones baratas de China",
-        "url": "https://www.letrap.com.ar/letrae/economia-finanzas/la-industria-del-calzado-el-precipicio-vence-antidumping-que-bloquea-importaciones-baratas-china-n5428198",
-        "curated": "calzado-malasia-origen-desconocido-el-dante-indumentaria-pampeana-multas-antidumping-china-14-diciembre"
-      },
-      {
-        "title": "Navieras cancelan 52 viajes para frenar la caída de los fletes marítimos",
-        "url": "https://mascontainer.com/navieras-cancelan-52-viajes-para-frenar-la-caida-de-los-fletes-maritimos/",
-        "curated": "suez-one-continuity-premier-alliance-gemini-evergreen-regreso-drewry-52-cancelaciones"
-      },
-      {
-        "title": "Evergreen vuelve a Canal de Suez con tránsito de portacontenedores",
-        "url": "https://portalportuario.cl/evergreen-vuelve-a-canal-de-suez-con-transito-de-portacontenedores/",
-        "curated": "suez-one-continuity-premier-alliance-gemini-evergreen-regreso-drewry-52-cancelaciones"
+        "title": "Una excepción para los cerdos que llegó a su fin: A pedido de la cadena porcina, Senasa prohibió la ractopamina como…",
+        "url": "https://bichosdecampo.com/una-excepcion-para-los-cerdos-que-llego-a-su-fin-a-pedido-de-la-cadena-porcina-senasa-prohibio-la-ractopamina-como-promotor-de-crecimiento-para-proteger-las-exportaciones/",
+        "curated": "senasa-resolucion-956-2026-prohibe-ractopamina-cerdos-beta-agonistas-exportaciones-porcinas"
       }
     ],
     "excluded": 0,
@@ -156305,44 +157157,50 @@
       {
         "main": "supara-acompano-a-los-trabajadores-de-la-aduana-de-oran-tras-el-devastador-incen",
         "merged": [
-          "supara-tomo-conocimiento-de-la-situacion-que-atraviesan-los-trabajadores-de-la-a",
-          "tras-el-devastador-incendio-en-la-aduana-de-oran-supara-reclamo-recuperar-las-co"
+          "daniel-malloti-recorrio-la-aduana-de-oran-tras-el-devastador-incendio-y-respaldo",
+          "supara-recorrio-la-aduana-de-oran-y-acompano-a-los-trabajadores-afectados-por-el"
         ]
       },
       {
-        "main": "el-51-de-las-empresas-uruguayas-explora-oportunidades-en-europa-ante-el-acuerdo",
+        "main": "rio-negro-busca-ampliar-sus-exportaciones-de-alimentos-con-19-empresas-en-una-fe",
         "merged": [
-          "acuerdo-ue-mercosur-el-51-de-las-empresas-uruguayas-ya-explora-negocios-en-europ"
+          "rio-negro-busca-ampliar-su-mapa-exportador-19-empresas-salen-a-conquistar-nuevos"
         ]
       },
       {
-        "main": "industria-argentina-caida-del-12-al-19-para-sectores-expuestos-a-importaciones-y",
+        "main": "fedex-inaugura-una-nueva-terminal-de-carga-aerea-en-el-aeropuerto-internacional",
         "merged": [
-          "las-3-caras-de-la-industria-expuestos-a-importaciones-y-al-mercado-interno-caen"
+          "la-carga-aerea-supera-las-33-800-toneladas-hasta-octubre-en-el-aeropuerto-intern"
         ]
       },
       {
-        "main": "barajas-pierde-un-11-7-en-carga-aerea-en-el-tercer-trimestre-frente-al-crecimien",
+        "main": "la-cumbre-de-trump-xi-putin-en-shenzhen-aranceles-ucrania-e-iran-marcan-la-prime",
         "merged": [
-          "barajas-se-deja-un-11-7-en-carga-aerea-en-el-tercer-trimestre-mientras-sus-rival"
+          "trump-negocio-con-mexico-y-canada-una-reduccion-de-aranceles-durante-la-cumbre-e"
         ]
       },
       {
-        "main": "sheinbaum-y-trump-se-reunen-en-china-en-medio-de-amenazas-de-nuevos-aranceles-a",
+        "main": "argentina-el-grupo-mercado-comun-del-mercosur-celebro-su-141-reunion-ordinaria-e",
         "merged": [
-          "sheinbaum-resalta-una-muy-buena-reunion-con-trump-pese-a-las-amenazas-de-nuevos"
+          "la-comision-de-comercio-del-mercosur-se-reunio-en-montevideo"
+        ]
+      },
+      {
+        "main": "donald-trump-cara-a-cara-con-mexico-y-canada-en-china-aranceles-reclamos-y-negoc",
+        "merged": [
+          "donald-trump-se-reunio-con-los-presidentes-de-mexico-y-canada-en-medio-de-la-dis"
         ]
       }
     ],
     "googleNews": {
-      "pending": 21,
-      "resolved": 16,
-      "withSummary": 9,
+      "pending": 29,
+      "resolved": 22,
+      "withSummary": 12,
       "withPhoto": 0,
-      "failed": 5,
-      "duplicates": 1
+      "failed": 7,
+      "duplicates": 0
     },
-    "noRead": 0
+    "noRead": 1
   },
   "stories": [
     {
