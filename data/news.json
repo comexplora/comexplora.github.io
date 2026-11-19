@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-11-19T04:12:28Z",
+  "updatedAt": "2026-11-19T14:26:31Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -142,7 +142,7 @@
       "obsDate": "2026-11-18",
       "change": "+0,4% vs. día hábil anterior",
       "trend": "up",
-      "checkedAt": "2026-11-19T04:13:36Z",
+      "checkedAt": "2026-11-19T14:27:46Z",
       "history": [
         [
           "2026-10-02",
@@ -267,27 +267,27 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-19T04:13:36Z"
+      "lastAttempt": "2026-11-19T14:27:46Z"
     },
     {
       "id": "soja",
       "label": "Soja · precio pizarra Rosario",
       "value": "$ 550.000/t",
-      "period": "Rosario · 17 nov 2026 · US$ 356,45/t",
+      "period": "Rosario · 18 nov 2026 · US$ 354,72/t",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "group": "Mercados",
-      "obsDate": "2026-11-17",
-      "change": "+0,9% vs. pizarra anterior",
-      "trend": "up",
+      "obsDate": "2026-11-18",
+      "change": "0,0% vs. pizarra anterior",
+      "trend": "flat",
       "_last": {
-        "date": "2026-11-17",
+        "date": "2026-11-18",
         "ars": 550000.0
       },
-      "checkedAt": "2026-11-19T04:13:37Z",
+      "checkedAt": "2026-11-19T14:27:46Z",
       "_prev": {
-        "date": "2026-11-16",
-        "ars": 545000.0
+        "date": "2026-11-17",
+        "ars": 550000.0
       },
       "history": [
         [
@@ -405,11 +405,15 @@
         [
           "2026-11-17",
           550000.0
+        ],
+        [
+          "2026-11-18",
+          550000.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-19T04:13:37Z"
+      "lastAttempt": "2026-11-19T14:27:46Z"
     },
     {
       "id": "brent",
@@ -422,7 +426,7 @@
       "obsDate": "2026-11-17",
       "change": "0,0% vs. día anterior",
       "trend": "flat",
-      "checkedAt": "2026-11-19T04:13:40Z",
+      "checkedAt": "2026-11-19T14:27:48Z",
       "history": [
         [
           "2026-10-07",
@@ -547,27 +551,27 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-11-19T04:13:40Z"
+      "lastAttempt": "2026-11-19T14:27:48Z"
     },
     {
       "id": "maiz",
       "label": "Maíz · precio pizarra Rosario",
-      "value": "$ 268.500/t",
+      "value": "$ 271.000/t",
       "group": "Mercados",
-      "period": "Rosario · 17 nov 2026 · US$ 174,01/t",
-      "obsDate": "2026-11-17",
-      "change": "-1,1% vs. pizarra anterior",
-      "trend": "down",
+      "period": "Rosario · 18 nov 2026 · US$ 174,78/t",
+      "obsDate": "2026-11-18",
+      "change": "+0,9% vs. pizarra anterior",
+      "trend": "up",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
+        "date": "2026-11-18",
+        "ars": 271000.0
+      },
+      "checkedAt": "2026-11-19T14:27:48Z",
+      "_prev": {
         "date": "2026-11-17",
         "ars": 268500.0
-      },
-      "checkedAt": "2026-11-19T04:13:40Z",
-      "_prev": {
-        "date": "2026-11-16",
-        "ars": 271400.0
       },
       "history": [
         [
@@ -685,31 +689,35 @@
         [
           "2026-11-17",
           268500.0
+        ],
+        [
+          "2026-11-18",
+          271000.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-19T04:13:40Z"
+      "lastAttempt": "2026-11-19T14:27:48Z"
     },
     {
       "id": "trigo",
       "label": "Trigo · precio pizarra Rosario",
-      "value": "$ 285.455/t",
+      "value": "$ 286.850/t",
       "group": "Mercados",
-      "period": "Rosario · 17 nov 2026 · US$ 185,00/t",
-      "obsDate": "2026-11-17",
-      "change": "+0,1% vs. pizarra anterior",
+      "period": "Rosario · 18 nov 2026 · US$ 185,00/t",
+      "obsDate": "2026-11-18",
+      "change": "+0,5% vs. pizarra anterior",
       "trend": "up",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
+        "date": "2026-11-18",
+        "ars": 286850.0
+      },
+      "checkedAt": "2026-11-19T14:27:48Z",
+      "_prev": {
         "date": "2026-11-17",
         "ars": 285455.0
-      },
-      "checkedAt": "2026-11-19T04:13:40Z",
-      "_prev": {
-        "date": "2026-11-16",
-        "ars": 285270.0
       },
       "history": [
         [
@@ -827,14 +835,996 @@
         [
           "2026-11-17",
           285455.0
+        ],
+        [
+          "2026-11-18",
+          286850.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-19T04:13:40Z"
+      "lastAttempt": "2026-11-19T14:27:48Z"
     }
   ],
   "items": [
+    {
+      "id": "sheinbaum-revela-cuando-podria-firmarse-el-nuevo-acuerdo-comercial-entre-mexico",
+      "datetime": "2026-11-19T14:14:50Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "Sheinbaum revela cuándo podría firmarse el nuevo acuerdo comercial entre México y EE.UU.",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "México",
+        "Estados Unidos"
+      ],
+      "tags": [],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "La Radio del Sur",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.laradiodelsur.com.ve/sheinbaum-revela-cuando-podria-firmarse-el-nuevo-acuerdo-comercial-entre-mexico-y-ee-uu/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T14:26:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUkVqNVZCTzJab05yWFFKS19fSnQxWXRrUXBoSFA0eDhPNWxtRzB5V1pVekJfT3VoVTg3SWd4VEdiZjE2ZFF5SkFMb3FpLVkxdkpiZTNyUEJwQjZpSk5GZkNmUjVWV25PMDVlcWNMdFR2V1FFSG4wQWdsaFFRVWphTWcxdWUyNG52YkswWlZnWjNMMzJJUXVCOUVxTXdzQjVOc2lHbEtPZTZjVmg3TEtycVZMbUF1Q3U5V2hEOS1n?oc=5"
+    },
+    {
+      "id": "san-juan-actualiza-el-reglamento-de-su-zona-franca-para-adecuarlo-al-desarrollo",
+      "datetime": "2026-11-19T14:08:27Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "San Juan actualiza el reglamento de su Zona Franca para adecuarlo al desarrollo minero-industrial",
+      "summary": "El Ministerio de Economía aprobó un nuevo Reglamento de Funcionamiento y Operación de la Zona Franca de San Juan mediante la Resolución 2000/2026, publicada este jueves (19.11.2026). Ubicada en Campo Los Blanquitos, al oeste de San José de Jáchal, la Zona Franca comprende un predio de 110 hectáreas, con acceso directo…",
+      "body": [
+        "El Ministerio de Economía aprobó un nuevo Reglamento de Funcionamiento y Operación de la Zona Franca de San Juan mediante la Resolución 2000/2026, publicada este jueves (19.11.2026). Ubicada en Campo Los Blanquitos, al oeste de San José de Jáchal, la Zona Franca comprende un predio de 110 hectáreas, con acceso directo a la Ruta Nacional…"
+      ],
+      "keyData": [],
+      "topics": [
+        "Regulaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Minería"
+      ],
+      "visual": "mining",
+      "impact": 2,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Aduana News",
+      "sources": [
+        {
+          "name": "Aduana News",
+          "type": "Medio especializado · Argentina",
+          "url": "https://aduananews.com/san-juan-actualiza-la-zona-franca-de-jachal-para-impulsar-el-desarrollo-minero-industrial/?utm_source=rss&utm_medium=rss&utm_campaign=san-juan-actualiza-la-zona-franca-de-jachal-para-impulsar-el-desarrollo-minero-industrial",
+          "primary": true,
+          "author": "Aduana News"
+        }
+      ]
+    },
+    {
+      "id": "emap-implementa-sistema-de-seleccion-aleatoria-para-inspecciones-de-vehiculos",
+      "datetime": "2026-11-19T14:00:52Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "Emap implementa sistema de selección aleatoria para inspecciones de vehículos",
+      "summary": "La empresa Maranhense Port Administration Company SA (Emap) implementó un sistema de selección aleatoria para la…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Autos"
+      ],
+      "visual": "auto",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/emap-implementa-sistema-de-seleccion-aleatoria-para-inspecciones-de-vehiculos/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "el-crudo-venezolano-a-eeuu-cae-a-su-minimo-del-ano-por-el-flete",
+      "datetime": "2026-11-19T13:58:46Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "El crudo venezolano a EEUU cae a su mínimo del año por el flete",
+      "summary": "Las exportaciones de petróleo venezolano a las refinerías de Estados Unidos promediaron 274.000 barriles diarios en noviembre hasta el miércoles, el nivel más bajo del año, según datos preliminares...",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Fletes",
+        "Estados Unidos"
+      ],
+      "visual": "tanker",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Aporrea",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.aporrea.org/energia/n426343.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T14:26:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FWU9seWxNeU5ac0sxZWFoSEY5U09DcjF6X1lKMXIxVFV6eXhwTzVEYkZ2czlEMTJhTFhHYko2dFRKVjNrSEhNUjQ5blZCb1RTdVFmck9RSXFIU3M?oc=5"
+    },
+    {
+      "id": "sheinbaum-reporta-avances-comerciales-con-trump-y-buscara-acuerdo-sobre-arancele",
+      "datetime": "2026-11-19T13:54:58Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "Sheinbaum reporta avances comerciales con Trump y buscará acuerdo sobre aranceles en diciembre",
+      "summary": "Claudia Sheinbaum reportó avances en las negociaciones comerciales con Donald Trump tras su encuentro en China. México busca reducir aranceles a vehículos, acero y aluminio. Ambos gobiernos prevén …",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Tratados y acuerdos",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Sociedad Noticias",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://sociedad-noticias.com/2026/11/19/sheinbaum-reporta-avances-comerciales-con-trump-y-buscara-acuerdo-sobre-aranceles-en-diciembre/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T14:26:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQMmhpZG16NC1ZejA4ak5NRUY3THduS3YyZnpFTWhSTlp2Y0NKel9iaWdQSVlELWVyVVFZcDZEcVFTNmlDYVZUY0RHMnVVVDhNSXY2WGRtX3piMnd3SGpuR2UyRFhYcjFRdVM0X2Q2VVk3NUpodkRmWXNoNlZzU2xEbTdNbnRJcnVhSVJ3Y2JJU2tUNlYtZDRTT2hnZXZBX0dDYTNFZ2xxN3BtdkNXUWQwMVlPVkM0bnVXU0xTbzJlTjBIbktVNmlWQkpKVWpGWTlvWlE?oc=5"
+    },
+    {
+      "id": "estancia-gin-participo-en-argentina-exporta-y-avanza-en-su-estrategia-de-interna",
+      "datetime": "2026-11-19T13:52:00Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "Estancia Gin participó en Argentina Exporta y avanza en su estrategia de internacionalización",
+      "summary": "La empresa sanluiseña, con el acompañamiento del ministerio de Desarrollo Productivo Sustentable, finalizó el proceso de asistencia técnica del programa nacional destinado a preparar su ingreso a mercados internacionales.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "Agencia de Noticias San Luis",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://agenciasanluis.com/2026/11/19/1233234-estancia-gin-participo-en-argentina-exporta-y-avanza-en-su-estrategia-de-internacionalizacion/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T14:26:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZEdnVTljMVpGdFZGN1EwQkNhaHBSdmR6UFd4Z0c2UG9FZXdjX0NXSWE1NW5pSnUwX3Z6T25admxkUUh6MzZ6VmhpcXhQNUhxc19YWGI2bDBvQXp0QUNUN2xKYW5MTm1IUzBJTUtsYlFBVlZrcEpkclExMkg5VTJFZHI3cjJwZHlrTGYtYVh4el8yQjZGVWp5eWxHRVRXUHRkLVBhYUEtQ1E5WmZFclRBbWRVM3gtT1VnSmI1Tm4wVXdRRmNBdWh2ZGJ4OV83ek1aNVdfNEtXMA?oc=5"
+    },
+    {
+      "id": "presidente-kast-destaca-acuerdo-comercial-con-filipinas-y-nuevas-oportunidades-d",
+      "datetime": "2026-11-19T13:47:31Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "Presidente Kast destaca acuerdo comercial con Filipinas y nuevas oportunidades de inversión tras cumbre APEC 2026",
+      "summary": "El Presidente de la República, José Antonio Kast, realizó un balance de su participación en la Cumbre de Líderes del Foro de Cooperación Económica Asia-Pacífico (APEC) 2026, destacando los avances en relaciones internacionales, apertura de mercados y promoción de inversiones. El encuentro reunió a representantes de 21…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Asia"
+      ],
+      "countries": [
+        "Filipinas"
+      ],
+      "tags": [],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "El Martutino",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.elmartutino.cl/noticia/politica/presidente-kast-destaca-acuerdo-comercial-con-filipinas-y-nuevas-oportunidades-de-i",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T14:26:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOGJLaE83aHlWR2ZnUHJ0NjdoNk9UbU51UE02bm1MNjZoTTFKd1lFX3Vna2V1cDMwYTNXcnpLOXdBWFgyM1pQd3hBNjJwOGlSVmpicDljS05HeWVvT2FDSmtsMU1IUVBWZkQ5QnJpNUEwSzhEQm91VFgzWGRQbjV1WUlJbXV2V2xabTdTdEVLXzhKdFpOdm5YOVhKb09ob1JZZ25nNUVxb3dlZkd5RE9jVzJaWGxyc2ZfYU56ZHl3dWQ1UlByRUE?oc=5"
+    },
+    {
+      "id": "aranceles-de-25-reducen-ventas-anuales-de-motocicletas-en-mexico-indian-motorcyc",
+      "datetime": "2026-11-19T13:37:51Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "Aranceles de 25% reducen ventas anuales de motocicletas en México: Indian Motorcycle",
+      "summary": "Daniel Enríquez señala que los aranceles del 25% redujeron sus ventas totales en México, aunque creció la alta cilindrada.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Latinoamérica",
+        "Asia"
+      ],
+      "countries": [
+        "México",
+        "India"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Imagen Radio",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.imagenradio.com.mx/programas/imagen-empresarial/daniel-enriquez-indian-motorcycle-aranceles",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T14:26:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTHVqdTFQNHh4RU9CRW15WTBGOWtmRWFwWkJmdzhFVE8tOEFxZkVxM2tHb2lRZ25DSjhUSUtHZWZ5cHJxWUpFaUQ0TDkzUXNvTWVRTTZqYUJMcDZHSmZOQTJ3TVVkVTl2OVlxaElLZUxaX2ZELXowQ3A5LTZGNVhMejJ6a1dld25JcGk2bzhvc3l6S2R6R3ZHbXlnbkVCWW1LZTcxTTFR0gGrAUFVX3lxTE90NmwyUHJMX1VmZV8tZ1drajNlZWZLSEhoUE8wZVg5NEItaDhmTjlieGU4NTVWeGUtNGpwdmdTMTlIUXFBOGljeE5pUzRlU3FWb1I4cmQ0NTE0XzBtTl94M3lDbEpEZ0lNcS1GcHlBbTJtMVpmSFBNXzE4Yjc1NzRhTklIM1JTaFcwZExrZjdXQXFJVndfc2E3RlUyQzFXXzFLVjRsV3IteWx3OA?oc=5"
+    },
+    {
+      "id": "peru-realizan-primera-exportacion-de-uvas-desde-puerto-de-matarani-rumbo-a-phila",
+      "datetime": "2026-11-19T13:30:24Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "Perú: Realizan primera exportación de uvas desde Puerto de Matarani rumbo a Philadelphia y Rotterdam",
+      "summary": "Terminal Internacional del Sur (Tisur), concesionario del Puerto de Matarani, informó sobre la primera exportación de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Puertos",
+        "Latinoamérica",
+        "Europa"
+      ],
+      "countries": [
+        "Perú",
+        "Países Bajos"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/peru-realizan-primera-exportacion-de-uvas-desde-puerto-de-matarani-rumbo-a-philadelphia-y-rotterdam/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "exportaciones-de-corea-del-sur-superan-el-billon-de-dolares-por-primera-vez-impu",
+      "datetime": "2026-11-19T13:24:00Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "Exportaciones de Corea del Sur superan el billón de dólares por primera vez, impulsadas por la IA",
+      "summary": "Las exportaciones de Corea del Sur superaron por primera vez el billón de dólares, impulsadas por la demanda de semiconductores y computadoras ligada a la inversión en Inteligencia Artificial. El país asiático se suma así a Estados Unidos, China y Alemania en este selecto grupo.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Tecnología COMEX",
+        "Asia"
+      ],
+      "countries": [
+        "Corea del Sur"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Rosario Finanzas",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://rosariofinanzas.ar/noticias/exportaciones-de-corea-del-sur-superan-el-billon-de-dolares-por-primera-vez-impulsadas-por-la-ia",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T14:26:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOX3VoaXg5WE9EcEczelNMd3J2Xy1KVGtETHR3Zk1qbEhKM0NkeEozdmstVWVQeE9mc0NSSS1qWjIzZTJsLXc1ektIREVldXh3OUlqQ1NfY0lXUTZaQVRRNU54M2xZTG9uc0VrbEZSOG1EM3VZMXZsdS1ZSU02S19BdXg1amlEX3ZaaWxVdmZwUXNmZTUwMmhYTzMyTmtIdzNrQXN6bXFOZ1J1eUdPZEFERXp5bFNCTWxMXzVJVWZ4M3pWVWEyM01uaVBrVmg?oc=5"
+    },
+    {
+      "id": "crece-riesgo-de-huelga-en-puertos-de-los-angeles-y-long-beach-ante-estancamiento",
+      "datetime": "2026-11-19T13:00:46Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "Crece riesgo de huelga en puertos de Los Ángeles y Long Beach ante estancamiento en negociación con vigilantes",
+      "summary": "La Asociación Marítima del Pacífico (PMA), patronal de los puertos de Los Ángeles y Long…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Transporte marítimo",
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/crece-riesgo-de-huelga-en-puertos-de-los-angeles-y-long-beach-ante-estancamiento-en-negociacion-con-vigilantes/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "el-cobre-puede-ser-un-nuevo-motor-de-exportaciones-que-cedear-dan-exposicion",
+      "datetime": "2026-11-19T12:59:50Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "El cobre puede ser un nuevo motor de exportaciones: qué Cedear dan exposición",
+      "summary": "El país tiene siete grandes proyectos en distintas etapas de desarrollo que podrían convertir al metal en uno de los principales generadores de divisas. Un informe oficial proyecta exportaciones por casi u$s 19.000 millones para 2035. Qué alternativas existen alternativas para posicionarse en el mercado.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Minería"
+      ],
+      "visual": "mining",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "El Cronista",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.cronista.com/finanzas-mercados/el-cobre-puede-ser-un-nuevo-motor-de-exportaciones-que-cedear-dan-exposicion/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T14:26:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaDFqcTVaUzZqc3plNXFSazF6cmViODZMeWc0MmZmTjFUaEVoV25sTUozMEpITTFoa1dqckNFQVpvQ3VoaW40UVJXSTdhOGhNSGNBSVZCWTlPQ3BiRXdUR0JaWlNuQS03V2I2VF9jd3BRNHR5NFlzTlhFcDdPWTFUVlFOWUN3Y19UNi1oS3NoSVpjNU9yb2RxSC1iM3ZCZTlJM25NdVhTRUNmWlZSV0UzREJOV3lYVW1VdDZLd9IB1wFBVV95cUxQM19COUYzeEZYUzFsNzBfSVdWRUpuNmxxNXVPTHJFRVk5MVRsd0hiSmRkT3RHbUhxaGpTRWJUa3F0eDlJWDhWblBKRTFrVjZSeThJNjR6VzYwR0ctSDc5YV9JaXRRcWRxNktjZTVSV2t6MnhOcEdVNk1vTmkzcHpsTDF2aWFpWE10cFp2RHJaN0QtalFvT3phcllQWkl2TTRpUmJ2TFhiUkkxUWtyVlhmaF9CNjdaVmhUNG1FME1zU05uMXFTWndQZjd0Tmw4RHl3QTk0Qk9vRQ?oc=5"
+    },
+    {
+      "id": "mercosur-millones-para-construir-fronteras-modernas-pero-todavia-falta-derribar",
+      "datetime": "2026-11-19T12:57:16Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "Mercosur: Millones para construir fronteras modernas, pero todavía falta derribar los muros de la burocracia",
+      "summary": "El MERCOSUR busca consolidarse como uno de los grandes bloques económicos del mundo, negocia acuerdos comerciales con Europa, Asia y otros mercados | Noticias del MERCOSUR: política, economía y actualidad regional del Prensa Mercosur.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Mercosur"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Prensa Mercosur",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://prensamercosur.org/2026/11/19/mercosur-millones-para-construir-fronteras-modernas-pero-todavia-falta-derribar-los-muros-de-la-burocracia/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T14:26:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNWERuN0M1eTNkU0ZJdDV0UzdrYnU4SERiQTBLZGFRdF9jNEtlQVpQcVdvS19pU1pVdlZURXIxN3JXbFNXLUd4NGlWQUxuZkh5QktkX2NNTnNXVWNMbkJHcUlqMzRxMEJJN1Bockd3Yk5zOVZ5UDRLRXpDYkZ3VkUxQkxLUmtPUS0weVJ5YXhGTDQwenBhNEZHblp0cEY0Rzlncmt2UG5HcUttUS1tZkd2dWpfTVFFSnZ5SFFqNDI4SV92aWNQY0MwLU1Na1NuWHRKVERwb0JQMjZlOUFHSkE?oc=5"
+    },
+    {
+      "id": "el-dolar-cripto-gana-terreno-en-los-pagos-del-comercio-exterior",
+      "datetime": "2026-11-19T12:46:26Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "El dólar cripto gana terreno en los pagos del comercio exterior",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "Cripto247",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.cripto247.com/comunidad/el-d%C3%B3lar-cripto-gana-terreno-en-los-pagos-del-comercio-exterior",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T14:26:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQ2VYcUVUbmlvNUV2UVpRQ1R1VE9xS1YyZm1pU1ZQUmhSUkpaZ2lhMmExRGpVWTNLWjhhNzhEQU84YmwtcFpreWlpMXhEQzRKRzMza2JsM2IwRzJRRnhFU3ozeGhCazBIYjdyVXFqbFNPRFk3MUExSklpNHNzTU9OX0wxckEyYzNmLVRCX2l3T1hDclZKd2VkTm5jLVlVMWNTVVRtX2JfWQ?oc=5"
+    },
+    {
+      "id": "maersk-y-hapag-lloyd-aceleran-regreso-a-suez-y-aumentan-la-presion-sobre-los-fle",
+      "datetime": "2026-11-19T12:33:56Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "Maersk y Hapag-Lloyd aceleran regreso a Suez y aumentan la presión sobre los fletes",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "MasContainer",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://mascontainer.com/maersk-y-hapag-lloyd-aceleran-regreso-a-suez-y-aumentan-la-presion-sobre-los-fletes/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T14:26:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYzVudDRlbS0wQlFTN216azZacEh2WHdrcGx2NGV6V1JuVGJXd1llamNzM0xtNVJZdkpWc0ZXSGJ2bnBKcEk1RnpuVV94cUl4TURMQWJIbDcwLVNDWFEzVUItTmNjTU9FOEptVEhsUjJzaExDNGptSmxiXzFhRHd2TExIU0lPY0lXcjVHRGhBcFdkcXBJSlhtbllYZnMyY0hDUDBpNW1rZ0t4eFF3VFE?oc=5"
+    },
+    {
+      "id": "un-brasil-mas-barato-enciende-alertas-en-la-argentina-por-el-turismo-y-las-expor",
+      "datetime": "2026-11-19T12:33:34Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "Un Brasil más barato enciende alertas en la Argentina por el turismo y las exportaciones regionales",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Diario El Norte - San Nicolás",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://diarioelnorte.com.ar/un-brasil-mas-barato-enciende-alertas-en-la-argentina-por-el-turismo-y-las-exportaciones-regionales/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T14:26:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaVlwck8zcFVDUmM1aEVGU0lEWEhEaVBMa3I0VnhfY19zYXZoSFFxMDE1cTVsM0ZKTDl5dTlRZFlvREJaOFQtdW04Y0Z2MXZFX1JJem9NVDR5SzR0cjNtcmgwYktkLXFDc1BOa1ZkQk5kOGN1aHVPVERDbXBTRnZBbUUxcUhPUlREeU9HbkF3RjlpSHlPY0xQNjRDMjhhRHZRNUt6SzdieEU4MXY3STJDeHhBYVhPSjc2OEJ4VjZ3b1hDVXlsbEtYSg?oc=5"
+    },
+    {
+      "id": "precio-del-petroleo-sube-por-ataques-a-buques-en-medio-oriente-pese-a-previsione",
+      "datetime": "2026-11-19T12:30:15Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "Precio del petróleo sube por ataques a buques en Medio Oriente pese a previsiones de superávit",
+      "summary": "Los precios del petróleo repuntaban ligeramente el jueves 19 de noviembre tras las pérdidas de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Energía"
+      ],
+      "visual": "energy",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/precio-del-petroleo-sube-por-ataques-a-buques-en-medio-oriente-pese-a-previsiones-de-superavit/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "novillo-mercosur-brasil-abarata-su-hacienda-y-argentina-enfrenta-una-brecha-de-p",
+      "datetime": "2026-11-19T12:07:46Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "Novillo Mercosur: Brasil abarata su hacienda y Argentina enfrenta una brecha de precios cada vez mayor",
+      "summary": "El retroceso del real modifica la competencia ganadera regional. Mientras Brasil ofrece el novillo ms barato, Argentina sostiene valores superiores y enfrenta mayores desafos exportadores.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Latinoamérica",
+        "Mercosur"
+      ],
+      "countries": [
+        "Argentina",
+        "Brasil"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "livestock",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "AgroLatam",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.agrolatam.com/argentina/ganaderia/novillo-mercosur-brasil-abarata-su-hacienda-y-argentina-enfrenta-una-brecha-de-precios-cada-vez-mayor/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T14:26:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxONjhvbmszWGpVSi1YN3VUa3RROXJVeTVMTEF4YkZkTVlCR0NqeDJBNzYyVVFVS01nTFhBZlJ4S2RsQmozWHFKbklydTk5cE5oUVEzMS12ZU9QOWpmd0VYUnhCUmVwYVZRNmItU0JKOHYtZHctY2p0LTBVSjRMUmFvd241LWl4emNtMmNPZUF2Y0VmVjFvVV9VUHA0TEVsU2NELWVQMTVUNm95OUlvbUYxdThNRjVkNlotSExkT2t3cXdMdjV4TXp0eTdBYmFLMzFYbjNlZDJXWE1LZG9uWTBCTFB3?oc=5"
+    },
+    {
+      "id": "alerta-para-el-comercio-mundial-los-fletes-maritimos-siguen-altos-pese-al-regres",
+      "datetime": "2026-11-19T11:27:26Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "Alerta para el comercio mundial: los fletes marítimos siguen altos pese al regreso a Suez",
+      "summary": "Ms del 10% de la flota mundial de portacontenedores est afectada por la congestin. Amrica Latina enfrenta tarifas voltiles y restricciones de capacidad.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Transporte marítimo",
+        "Economía internacional"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "AgroLatam",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.agrolatam.com/actualidad-latam/alerta-para-el-comercio-mundial-los-fletes-maritimos-siguen-altos-pese-al-regreso-a-suez/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T14:26:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZzFPZml4dldtQ3d3YURfbjEzYTg3QUtmVDZDUVFwb2tCR3JjN2k4WmhWbkkzMFVhSHMyRzZlNVk4YlozeHNINVJUcmRMLVltZ19wczZPVWlPWkk3eDEyVlZWR3YwSVVoZ0F4UGpKR2FvS284R3B5ay1ZM3FBWEo5YklsZ0hfUW9XWjdSZGw1bUVBaXRMd0xyLXE5Szd3ajVrbnFMOU0tMVRSNThsQUJmTzBQRGRVdW1VVHMzZGlyTnVmN0VMNWdhQTE5Rlc?oc=5"
+    },
+    {
+      "id": "se-estabilizan-las-tarifas-de-fletes-maritimos",
+      "datetime": "2026-11-19T11:03:25Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "Se estabilizan las tarifas de fletes marítimos",
+      "summary": "El flete Asia-México cerraría 2026 en unos 4 mil dólares por contenedor, casi el doble que en 2025, prevé Eternity.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Reforma",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.reforma.com/se-estabilizan-las-tarifas-de-fletes-maritimos/ar3317258",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T14:26:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPclROaE02V0o3MVhfNDBFNTFYdm1pX0ZCdXA4WndfQ0cycG9tTEZXb3BMX0FWU0xnbThDOXlJeS1ENGRnaHNWdkp3YnRmVURoVDFsWEgxaGYwdGFaeUwzTFpSek1rTld2MXVGdU00NzJkbVZXWGUzSTZaQVdfZkFTelJpY1FVQmM?oc=5",
+      "digestSkip": {
+        "at": "2026-11-19T14:26:31Z",
+        "auto": "no-read",
+        "reason": "medio sin lectura automática (NO_READ_DOMAINS) y sin otro medio con la misma noticia"
+      }
+    },
+    {
+      "id": "milei-viajara-a-la-cumbre-del-mercosur-en-medio-de-sus-criticas-al-bloque-y-sin",
+      "datetime": "2026-11-19T09:34:10Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "Milei viajará a la cumbre del Mercosur en medio de sus críticas al bloque y sin Santiago Peña",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Mercosur"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "DataClave",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOTmwyenhQZFRMbjFuTkxNaEJMMWJkUC1MdGRaUXlGSmt5WFg5eGdFTjNOQm12SjloVTFBTmJ1N3YxaVRwVFNEWHo1b1hDTklWVjd5YUdZRVE4dWJmU3U5bXh5YXFFLXlXX2F4b2kxa1ZlbzhYSFZvUGtVSXk2VzVrMFdPbDZYdTZUdG1KZk1NY3dfYzZ6QzJIcVppcUIwbDRLZUlhQ3RxSG9iVEJUbmZSMFB6ZkpVUk5jZ2llcmxIdlNZTk1JM1J2dTJXc0VoYkxDdG1rckwyVldaU2ItOUgxbWZKSGE2VGZUWlHSAfgBQVVfeXFMTWxBeElxN1Y0czZCUk5IZklCeVg1akQzWGJ4cE1rX3NhNkhKNFoyZ25jWXdjZ3VjTDFBUkNHRnZVWXNnMk4wS0ROTWZEdlZJd1NuY0lzRDcxbnFaQ2lYNTUxUVFzNE0tbWlJaUtkS3psZ3l3cmI0QlBoVk1hS2lCT1phS1M1eEJSYkctb1NFcVVlNjR4SjY4SzI2MHBlUUJDUFNLdGZNcXVtTzdKZ2ZGd3pxdmNDU0dUbDRJY2hrZW43WVp3Z1B2aE9YNHNqVldiYmJXRFBJdEJ0OGZDRXhSb2ZPbUZsZVlmX0pZNXcxa053aGowUWJrc2o?oc=5",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T14:26:31Z"
+    },
+    {
+      "id": "chile-la-confianza-sanitaria-como-factor-de-competitividad-en-el-comercio-intern",
+      "datetime": "2026-11-19T08:05:47Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "Chile — La confianza sanitaria como factor de competitividad en el comercio internacional de alimentos",
+      "summary": "Por Fernando Matticoli, Director Comercial de CDV En el comercio internacional de alimentos, la competitividad de un país no depende únicamente de su capacidad productiva, sus costos o la calidad de sus productos. Existe un… | Noticias del MERCOSUR: política, economía y actualidad regional del Prensa Mercosur.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Chile"
+      ],
+      "tags": [],
+      "visual": "globe",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Prensa Mercosur",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://prensamercosur.org/2026/11/19/chile-la-confianza-sanitaria-como-factor-de-competitividad-en-el-comercio-internacional-de-alimentos/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T14:26:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNa0VxTlY0aDk2a0FNOGpDaXRhQ1Zrd3BvdFo2Nm9ZenlKRE50by1OU3FrUDdNVzBHMV9LRHJmeHVDRE9QTGcxejBrNnZjMEJXZHlDdHFZX3RjRWtpWlEyRW43OExzaUFjU1ZHbVdNcTZzamVaTnZGQ19xb0ZGTlV2eFllV3VuZTY4TElhR0RNLUdsM09SMDNMUDlQTzBmZlFLMlBocDRzOVBLZ2wtbDVQY0lseTdOcmZWMDhlMnNaODZ1eHFaemIyV1BuQUNfM3kya3piWWh3?oc=5"
+    },
+    {
+      "id": "gobiernos-de-union-europea-autorizan-firma-de-acuerdo-comercial-con-indonesia",
+      "datetime": "2026-11-19T08:00:16Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "Gobiernos de Unión Europea autorizan firma de acuerdo comercial con Indonesia",
+      "summary": "Los gobiernos de la Unión Europea (UE) autorizaron el miércoles la firma y…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Asia",
+        "Europa"
+      ],
+      "countries": [
+        "Indonesia",
+        "Unión Europea"
+      ],
+      "tags": [],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/gobiernos-de-union-europea-autorizan-firma-de-acuerdo-comercial-con-indonesia/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "australia-exime-a-su-mayor-estado-exportador-de-gnl-de-un-plan-de-reserva",
+      "datetime": "2026-11-19T07:00:31Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "Australia exime a su mayor estado exportador de GNL de un plan de reserva",
+      "summary": "El primer ministro de Australia Occidental, Roger Cook, afirmó que el Gobierno federal había acordado…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Oceanía"
+      ],
+      "countries": [
+        "Australia"
+      ],
+      "tags": [
+        "Energía"
+      ],
+      "visual": "tanker",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/australia-exime-a-su-mayor-estado-exportador-de-gnl-de-un-plan-de-reserva/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "economia-trump-crecimiento-desigualdad-y-efectos-en-el-comercio-internacional",
+      "datetime": "2026-11-19T06:00:43Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "Economía Trump: crecimiento, desigualdad y efectos en el comercio internacional",
+      "summary": "Las políticas más representativas de la administración incrementaron los gastos diarios de la población. Los aranceles generales elevaron los precios de los bienes de consumo en aproximadamente 2%, según la lo que representa un costo… | Noticias del MERCOSUR: política, economía y actualidad regional del Prensa…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Estados Unidos"
+      ],
+      "visual": "chart",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Prensa Mercosur",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://prensamercosur.org/2026/11/19/economia-trump-crecimiento-desigualdad-y-efectos-en-el-comercio-internacional/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T14:26:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRmNPY2R0SV8ybHA0NFRfUGFfWEc2M1p1bmxjRjV6RDRUV0lrNGNkcHNyaVJ6dldhblhqSWFpSXBCQTFQRDEzUE9jSWwza1ZpUUtVNGxFWFlObWU5Nnd1VEQtbEduMUlBQXJmaUJnUXZleWk2eTN1Z3d1N2FVRERJWlRUZ25jYi04X0tjRThIcm9GcTNGdDdBM20tUDV1SGhvNFlvR0dDNy1jY2NFOGJacENSRFlDQ2s?oc=5"
+    },
+    {
+      "id": "msc-suma-escalas-al-servicio-zephyr-entre-lejano-oriente-y-mar-rojo",
+      "datetime": "2026-11-19T06:00:11Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "MSC suma escalas al servicio Zephyr entre Lejano Oriente y mar Rojo",
+      "summary": "Mediterranean Shipping Company (MSC) ha comenzado a ampliar la extensión de su servicio Zephyr entre el…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/msc-suma-escalas-al-servicio-zephyr-entre-lejano-oriente-y-mar-rojo/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "el-ajo-pierde-terreno-frente-a-las-importaciones",
+      "datetime": "2026-11-19T05:30:00Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T14:26:31Z",
+      "title": "El ajo pierde terreno frente a las importaciones",
+      "summary": "La cosecha de 2026 quedará por debajo de una campaña normal por los bajos rendimientos y el retroceso de las exportaciones",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Diario de León",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.diariodeleon.es/monograficos/agro/261119/2103552/ajo-pierde-terreno-frente-importaciones.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T14:26:31Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPY3FabDZCMGVBSWd4d2xSdkdZenF1YXpMUFcwb2dMcWJoLURwV1Iya0kwaGtJRThXODdXNXVtRzJkRGhqR3dpY180dWh4eUJBUjgxamdHUjhkS1NnSUtqR29Qa2hhbnBjaHliSENCZVZLYXhnM1BMdWFuTzRMRGhfZzhLMl9McUg2bWdtTDVJcDViaEJrcG9EbTkxaXVrOFJGTzF2UkdjYmrSAa4BQVVfeXFMTjMwRzBkdS1yeXlEV2xaTDhSQ083VlEtWTQyX0hKN3BNWW04Q3ZmZDdWTFpKa0xSeTBqT09obHlMd3Y3SjZzTGwweVYxVDVzdGdBVE9wTUhySDdWNXIwWDZUODVDWDVBd0tzODZySTY0RUg4NGtGY0diOXBjZU5ULXFlSWdkSVlvT0VOYUZrT2ZibFpObmhybXZEa29pZUR0V05tZ3VyVmhTVnMxdHNB?oc=5"
+    },
     {
       "id": "muchos-productos-de-exportacion-vietnamitas-estan-sujetos-a-investigaciones-anti",
       "datetime": "2026-11-19T03:56:35Z",
@@ -853,6 +1843,7 @@
         "Vietnam"
       ],
       "tags": [
+        "Acero",
         "Medidas comerciales",
         "Aranceles"
       ],
@@ -889,10 +1880,13 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Exportaciones"
+        "Argentina",
+        "Exportaciones",
+        "Latinoamérica"
       ],
       "countries": [
-        "Argentina"
+        "Argentina",
+        "Brasil"
       ],
       "tags": [],
       "visual": "customs",
@@ -947,6 +1941,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
         "Exportaciones"
       ],
       "countries": [
@@ -1175,14 +2170,18 @@
       "topics": [
         "Tratados y acuerdos",
         "Latinoamérica",
-        "Estados Unidos"
+        "Estados Unidos",
+        "China",
+        "Asia"
       ],
       "countries": [
         "México",
-        "Estados Unidos"
+        "Estados Unidos",
+        "China"
       ],
       "tags": [
-        "Estados Unidos"
+        "Estados Unidos",
+        "China"
       ],
       "visual": "treaty",
       "impact": 1,
@@ -1281,7 +2280,8 @@
         "Unión Europea"
       ],
       "tags": [
-        "Aranceles"
+        "Aranceles",
+        "Estados Unidos"
       ],
       "visual": "customs",
       "impact": 1,
@@ -1316,6 +2316,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Logística",
         "Transporte aéreo",
         "Estados Unidos"
       ],
@@ -1409,10 +2410,13 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Exportaciones"
+        "Argentina",
+        "Exportaciones",
+        "Europa"
       ],
       "countries": [
-        "Argentina"
+        "Argentina",
+        "Italia"
       ],
       "tags": [
         "Energía"
@@ -1451,6 +2455,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Importaciones",
         "Exportaciones",
         "Latinoamérica",
         "Estados Unidos"
@@ -1459,7 +2464,9 @@
         "Venezuela",
         "Estados Unidos"
       ],
-      "tags": [],
+      "tags": [
+        "Estados Unidos"
+      ],
       "visual": "customs",
       "impact": 1,
       "affectsArgentina": false,
@@ -3046,59 +4053,6 @@
       }
     },
     {
-      "id": "el-conflicto-por-los-fletes-de-granos-vuelve-a-poner-en-alerta-a-puerto-quequen",
-      "datetime": "2026-11-18T12:32:07Z",
-      "date": "2026-11-18",
-      "firstSeen": "2026-11-18T13:57:59Z",
-      "title": "El conflicto por los fletes de granos vuelve a poner en alerta a Puerto Quequén: ¿Pueden repetirse los bloqueos?",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Logística",
-        "Puertos",
-        "Geopolítica y comercio"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Fletes",
-        "Agro",
-        "Puertos"
-      ],
-      "visual": "grain",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Logística y fletes",
-      "sources": [
-        {
-          "name": "Diario Cuatro Vientos",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.diario4v.com/nota/54005/el-conflicto-por-los-fletes-de-granos-vuelve-a-poner-en-alerta-a-puerto-quequen-pueden-repetirse-los-bloqueos/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-18T13:57:59Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPM1dSVDdWYnBqWHV5b3JxSWNqWFo1emx6eFlCWWVhOXFTNDFubUNTSk1XdEl3ZzZwX1l5UzZoTmhxTFpIMDNIbnR3R1diQTgtTERJRFNscFZYYS04bDJGNWhCM1prTjZnN3I2UUxKQzkwWlRFRDFRdHZkbTlFQ0lLV3k0TlhfRE9rc2FvVTdhR25wN3MxZHhVZGluYnFZenJ0WkVlMEZKZG90Y2hwd3VmZWpjTmhnckY1eXBfX1lVY2hZcktqUjUzSkwzekxRVUQ0T1N5d3ZLd192RkwwMnpR?oc=5",
-      "digest": {
-        "lead": "El gobierno bonaerense fijó por laudo una suba de 16% en las tarifas de referencia del flete de granos y reavivó la tensión entre transportistas y entidades rurales, con temor a nuevos bloqueos en Puerto Quequén, informó Diario Cuatro Vientos.",
-        "body": [
-          "La decisión del Ministerio de Transporte provincial llegó tras el fracaso de la negociación en la Comisión Asesora del Transporte de Cargas. CARBAP, Coninagro y el Centro de Acopiadores habían propuesto primero 8,3% y luego 11,5%, mientras FATRAC, ATCADE y FETRA aceptaban 15%. El campo cuestionó que se fijara un porcentaje superior al pedido del transporte. La Provincia respondió que actuó dentro de sus facultades, con estudios técnicos y por debajo de los valores que planteaban los transportistas.",
-          "El antecedente inquieta en Necochea y Quequén: en abril, protestas y cortes de transportistas autoconvocados paralizaron el puerto más de dos semanas, con demoras en el ingreso de camiones y en la carga de buques, hasta un acuerdo que también actualizó 16% las tarifas portuarias de referencia. Por ahora no hay convocatorias confirmadas a nuevos bloqueos ni anuncios formales de paro vinculados al laudo, aunque el medio no descarta que el conflicto vuelva a las rutas."
-        ],
-        "at": "2026-11-18T23:40:00-03:00",
-        "basedOn": "https://www.diario4v.com/nota/54005/el-conflicto-por-los-fletes-de-granos-vuelve-a-poner-en-alerta-a-puerto-quequen-pueden-repetirse-los-bloqueos/",
-        "words": 194,
-        "flag": "descartada",
-        "flagNote": "Mismo hecho que la nota curada del 13/11 sobre el laudo bonaerense del 16%; sin bloqueos confirmados."
-      }
-    },
-    {
       "id": "congreso-de-logistica-eje-en-puertos-comercio-exterior-y-seguridad-en-la-ruta-88",
       "datetime": "2026-11-18T11:00:39Z",
       "date": "2026-11-18",
@@ -3373,7 +4327,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-11-18T13:57:59Z",
+      "gnTried": "2026-11-19T14:26:31Z",
       "digest": {
         "lead": "Tetra Pak completó en La Rioja una inversión de 30,2 millones de euros, unos USD 31,8 millones, para modernizar la planta que cumple 40 años y convertirla en plataforma exportadora para América Latina, informó Forbes Argentina.",
         "body": [
@@ -3426,7 +4380,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-11-18T13:57:59Z",
+      "gnTried": "2026-11-19T14:26:31Z",
       "digestSkip": {
         "at": "2026-11-19T06:45:00-03:00",
         "reason": "no se encontró una versión legible",
@@ -6787,6 +7741,110 @@
       ]
     },
     {
+      "id": "omc-vigilancia-comercio-2026-restricciones-importacion-5-4-billones-21-3-por-ciento",
+      "date": "2026-11-17",
+      "kind": "datos",
+      "title": "OMC: las restricciones a la importación vigentes alcanzan a USD 5,4 billones, el 21,3% del comercio mundial, un récord",
+      "summary": "En su informe anual de vigilancia, la OMC contó 333 medidas restrictivas nuevas en el primer semestre de 2026, más que las 300 de todo 2025, que cubren el 8% de las importaciones mundiales. A la vez, las medidas que facilitan el comercio subieron a 466. Las investigaciones de defensa comercial llegaron a 36,3 por mes y el antidumping sigue siendo la herramienta más usada.",
+      "topics": [
+        "Economía internacional",
+        "Geopolítica y comercio",
+        "Aranceles",
+        "Importaciones",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "OMC",
+        "Vigilancia del comercio",
+        "Restricciones comerciales",
+        "Antidumping",
+        "Defensa comercial",
+        "Facilitación del comercio",
+        "Ormuz"
+      ],
+      "visual": "globe",
+      "impact": 2,
+      "affectsArgentina": false,
+      "body": [
+        "La Organización Mundial del Comercio (OMC) publicó el 17 de noviembre su revista anual sobre la evolución del comercio, el informe de vigilancia que firma la directora general, Ngozi Okonjo-Iweala. El dato que más resalta es el stock: las medidas de importación restrictivas o no facilitadoras que los gobiernos aplicaron desde 2009 y que siguen vigentes alcanzaban al 30 de junio de 2026 a importaciones por USD 5,4 billones (millones de millones), el 21,3% de las compras mundiales de bienes, el nivel más alto desde que el organismo empezó a llevar la cuenta.",
+        "El informe cubre todo 2025 y el primer semestre de 2026, y muestra dos movimientos a la vez: los miembros de la OMC aceleraron la adopción de aranceles y otras trabas, pero también sumaron más medidas para facilitar el intercambio que en cualquier período reciente.",
+        "## Más medidas en seis meses que en todo un año",
+        "Según el relevamiento, en 2025 los miembros adoptaron 1.229 medidas comerciales o vinculadas con el comercio, y en el primer semestre de 2026 se agregaron otras 1.048. Entre enero y junio de este año se registraron 333 medidas restrictivas o no facilitadoras, más que las 300 de todo 2025. Del lado opuesto, las medidas facilitadoras fueron 466 en el semestre, contra 391 en el año anterior completo.",
+        "La cobertura en dólares también es mayor del lado restrictivo. Las nuevas medidas que traban importaciones adoptadas en el primer semestre alcanzan a compras por USD 2,0 billones, el 8,0% de las importaciones mundiales, mientras que las que las facilitan cubren USD 1,3 billones, el 5,2%. En exportaciones, las restricciones nuevas alcanzan a USD 794.000 millones (3,2% de las ventas mundiales) y las facilitadoras, a un récord de USD 570.000 millones (2,3%), más de cinco veces el nivel de 2025. La OMC atribuye ese salto sobre todo a medidas temporarias que tomaron los gobiernos tras las perturbaciones en el estrecho de Ormuz.",
+        "## El stock de restricciones, en máximos",
+        "Además del flujo de medidas nuevas, el informe mide lo que queda en pie. Las restricciones a la importación acumuladas y vigentes llegan al 21,3% de las importaciones mundiales y las vinculadas con las exportaciones, a USD 1,5 billones, el 6,3% de las ventas externas globales. Ambos valores son los más altos de la serie, de acuerdo con la OMC.",
+        "Para dimensionar el cambio, la edición anterior del mismo informe, publicada en diciembre de 2025 y que medía el período de mediados de octubre de 2024 a mediados de octubre de 2025, ubicaba ese stock de restricciones a la importación en el 19,7% de las compras mundiales, según la reseña de Mercojuris. Ese informe había estimado que los aranceles y otras medidas de importación nuevas de ese período alcanzaban a USD 2,64 billones, el 11,1% de las importaciones mundiales. Los períodos de las dos ediciones no coinciden, por lo que la comparación de flujos no es directa; la del stock, en cambio, muestra que la proporción de comercio alcanzada por restricciones siguió subiendo.",
+        "## Defensa comercial: antidumping a ritmo récord",
+        "Las medidas de defensa comercial, como los derechos antidumping y compensatorios y las salvaguardias, son otro de los capítulos que crecen. En 2025 los miembros iniciaron 391 investigaciones, un promedio de 32,6 por mes, y en el primer semestre de 2026 abrieron 218, unas 36,3 por mes. En esos seis meses solo se dieron por terminadas 31 medidas, por lo que el número de derechos vigentes tiende a aumentar. El antidumping sigue siendo el instrumento más utilizado, según el organismo. En la edición de 2025, el promedio había sido de 32,3 inicios y 11,4 terminaciones por mes.",
+        "Para los operadores argentinos, el antidumping es una herramienta conocida en las dos direcciones. Del lado de las importaciones, la medida sobre el calzado de origen chino, con un valor FOB mínimo de USD 15,70 por par, vence el 14 de diciembre y la industria pide renovarla, como contó Comexplora el 29 de octubre. Del lado de las exportaciones, las investigaciones que se abren en los mercados de destino pueden terminar en derechos adicionales sobre los productos alcanzados.",
+        "## Servicios, subsidios y los sectores en disputa",
+        "En servicios el panorama es más favorable: el informe registra 130 medidas nuevas en 2025 y 52 en el primer semestre de 2026, en su mayoría orientadas a facilitar el comercio o a reforzar la regulación. En cambio, el apoyo económico estatal a la industria y al agro se mantiene en niveles históricamente altos y cada vez más ligado a objetivos de competitividad, resiliencia, seguridad de abastecimiento y clima, señala la OMC.",
+        "La directora general destacó que, aunque el stock de restricciones está en su máximo desde 2009, los miembros están intensificando la facilitación, algo que valoró, y pidió moderación a la hora de adoptar nuevas trabas. Mencionó como excepciones a los vehículos eléctricos y a las celdas fotovoltaicas, los dos sectores en los que las medidas restrictivas cubren más comercio que las facilitadoras.",
+        "## El contexto: un comercio que igual crece",
+        "El informe convive con un pronóstico de crecimiento. La OMC recuerda que en su actualización del 8 de octubre elevó al 3,9% la suba prevista del volumen del comercio de mercancías para 2026, desde el 1,9% que había estimado en marzo, y que recortó a 3,3% la de servicios comerciales, desde 4,8%. Es decir, el comercio mundial sigue en expansión, pero una porción creciente circula bajo aranceles, cupos, licencias u otras restricciones, y con una actividad de defensa comercial que no muestra señales de bajar."
+      ],
+      "keyData": [
+        [
+          "Stock de restricciones a la importación (30/6/2026)",
+          "USD 5,4 billones, 21,3% de las importaciones mundiales"
+        ],
+        [
+          "Medidas restrictivas nuevas",
+          "333 en enero–junio de 2026 (300 en todo 2025)"
+        ],
+        [
+          "Medidas facilitadoras nuevas",
+          "466 en enero–junio de 2026 (391 en 2025)"
+        ],
+        [
+          "Cobertura de nuevas restricciones a la importación",
+          "USD 2,0 billones, 8,0% de las importaciones mundiales"
+        ],
+        [
+          "Medidas que facilitan exportaciones",
+          "USD 570.000 millones (2,3%), récord"
+        ],
+        [
+          "Investigaciones de defensa comercial",
+          "218 en el semestre: 36,3 por mes (32,6 en 2025)"
+        ],
+        [
+          "Stock de restricciones a la exportación",
+          "USD 1,5 billones, 6,3% de las exportaciones mundiales"
+        ]
+      ],
+      "explainer": {
+        "what": "La OMC informó el 17 de noviembre que las restricciones a la importación vigentes cubren USD 5,4 billones, el 21,3% de las importaciones mundiales, el nivel más alto desde 2009.",
+        "why": "En el primer semestre de 2026 los miembros adoptaron 333 medidas restrictivas, más que en todo 2025, y abrieron investigaciones de defensa comercial a razón de 36,3 por mes: una porción creciente del comercio circula bajo aranceles y otras trabas, aunque también aumentaron las medidas facilitadoras, que fueron 466.",
+        "who": "Exportadores e importadores de todo el mundo, en especial los de sectores alcanzados por antidumping y salvaguardias, y los de vehículos eléctricos y celdas fotovoltaicas.",
+        "products": [
+          "Vehículos eléctricos",
+          "Celdas fotovoltaicas",
+          "Productos alcanzados por antidumping",
+          "Servicios"
+        ]
+      },
+      "sources": [
+        {
+          "name": "OMC (Organización Mundial del Comercio)",
+          "type": "Organismo internacional",
+          "url": "https://www.wto.org/english/news_e/news26_e/tmwto_17nov26_552_e.htm",
+          "primary": true
+        },
+        {
+          "name": "Mercojuris",
+          "type": "Medio especializado",
+          "url": "https://mercojuris.com/un-informe-de-la-omc-senala-un-aumento-importante-de-los-nuevos-aranceles-pero-tambien-medidas-que-facilitan-el-comercio-mundial/"
+        }
+      ],
+      "absorbs": [
+        "se-multiplican-las-nuevas-medidas-restrictivas-del-comercio-pero-los-miembros-de"
+      ]
+    },
+    {
       "id": "puerto-de-cadiz-amplia-sistema-de-gestion-ambiental-a-traves-de-certificacion-is",
       "datetime": "2026-11-17T02:59:45Z",
       "date": "2026-11-16",
@@ -7272,49 +8330,6 @@
       "digestSkip": {
         "at": "2026-11-17T04:05:00-03:00",
         "reason": "fuera de tema (nombramiento/representación de una sociedad de clasificación)"
-      }
-    },
-    {
-      "id": "se-multiplican-las-nuevas-medidas-restrictivas-del-comercio-pero-los-miembros-de",
-      "datetime": "2026-11-17T00:00:00Z",
-      "date": "2026-11-16",
-      "firstSeen": "2026-11-18T13:57:59Z",
-      "title": "Se multiplican las nuevas medidas restrictivas del comercio, pero los Miembros de la OMC intensifican sus esfuerzos de facilitación del comercio",
-      "summary": "El ritmo de introducción de nuevos aranceles y otras medidas no facilitadoras aumentó considerablemente en el primer semestre de 2026, a la vez que el volumen acumulado de tales medidas alcanzó un nivel récord, según la última revista general anual de la Directora General de la OMC sobre la evolución del entorno…",
-      "body": [
-        "El ritmo de introducción de nuevos aranceles y otras medidas no facilitadoras aumentó considerablemente en el primer semestre de 2026, a la vez que el volumen acumulado de tales medidas alcanzó un nivel récord, según la última revista general anual de la Directora General de la OMC sobre la evolución del entorno comercial internacional. Al mismo tiempo, los Miembros de la OMC introdujeron un número significativo de medidas de facilitación del comercio, lo que contribuyó a mantener los flujos comerciales mundiales a pesar del aumento de las tensiones geopolíticas y la incertidumbre económica."
-      ],
-      "keyData": [],
-      "topics": [
-        "Aranceles",
-        "Geopolítica y comercio",
-        "Economía internacional"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [
-        "OMC",
-        "Aranceles"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "OMC · Organización Mundial del Comercio",
-      "sources": [
-        {
-          "name": "OMC · Organización Mundial del Comercio",
-          "type": "Organismo internacional",
-          "url": "https://www.wto.org/spanish/news_s/news26_s/tmwto_17nov26_552_s.htm",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "digestSkip": {
-        "at": "2026-11-19T09:45:00-03:00",
-        "reason": "repite una nota de la redacción (informe de vigilancia del comercio de la OMC, 17/11)"
       }
     },
     {
@@ -10013,10 +11028,10 @@
       "datetime": "2026-11-16T00:00:00Z",
       "date": "2026-11-15",
       "firstSeen": "2026-11-18T22:36:16Z",
-      "title": "DGA Nordquist: El comercio mundial se está adaptando, no retrocediendo, en medio de una creciente incertidumbre",
+      "title": "DGA Nordquist: El comercio mundial se está adaptando, no retrocediendo",
       "summary": "El 16 de noviembre, en el marco de la 16ª Conferencia Asiática de Logística, Transporte Marítimo y Aviación celebrada en Hong Kong, China, la Directora General Adjunta DJ Nordquist afirmó que el comercio mundial ha demostrado una notable resiliencia a pesar de las tensiones geopolíticas, las interrupciones en las…",
       "body": [
-        "El 16 de noviembre, en el marco de la 16ª Conferencia Asiática de Logística, Transporte Marítimo y Aviación celebrada en Hong Kong, China, la Directora General Adjunta DJ Nordquist afirmó que el comercio mundial ha demostrado una notable resiliencia a pesar de las tensiones geopolíticas, las interrupciones en las cadenas de suministro y las restricciones comerciales, y que las empresas se están adaptando mediante la diversificación y nuevas alianzas comerciales. Tras destacar un crecimiento del comercio superior al previsto y la importancia que siguen teniendo las normas de la OMC, abogó por unas cadenas de suministro mundiales más resilientes e inclusivas, una mayor cooperación internacional y reformas que aseguren que el sistema multilateral de comercio siga siendo adecuado para afrontar los retos actuales. A continuación figura el texto de su discurso."
+        "El 16 de noviembre, en el marco de la 16ª Conferencia Asiática de Logística, Transporte Marítimo y Aviación celebrada en Hong Kong, China, la Directora General Adjunta DJ Nordquist afirmó que el comercio mundial ha demostrado una notable resiliencia a pesar de las tensiones geopolíticas, las interrupciones en las cadenas de suministro y las restricciones comerciales, y que las empresas se están adaptando mediante la diversificación y nuevas alianzas comerciales. Tras destacar un crecimiento del comercio superior al previsto y la importancia que siguen teniendo las normas de la OMC, la DGA abogó por unas cadenas de suministro mundiales más resilientes e inclusivas, una mayor cooperación internacional y reformas que aseguren que el sistema multilateral de comercio siga siendo adecuado para afrontar los retos actuales. A continuación figura el texto de su discurso."
       ],
       "keyData": [],
       "topics": [
@@ -10061,7 +11076,8 @@
           "url": "https://www.wto.org/english/news_e/news26_e/ddgjn_16nov26_555_e.htm",
           "title": "DDG Nordquist: Global trade is adapting, not retreating"
         }
-      }
+      },
+      "updated": "2026-11-19T14:26:31Z"
     },
     {
       "id": "alzas-de-hasta-15-en-fletes-elevan-costos-de-produccion",
@@ -158267,122 +159283,18 @@
         }
       },
       "updated": "2026-10-21T12:00:00-03:00"
-    },
-    {
-      "id": "omc-vigilancia-comercio-2026-restricciones-importacion-5-4-billones-21-3-por-ciento",
-      "date": "2026-11-17",
-      "kind": "datos",
-      "title": "OMC: las restricciones a la importación vigentes alcanzan a USD 5,4 billones, el 21,3% del comercio mundial, un récord",
-      "summary": "En su informe anual de vigilancia, la OMC contó 333 medidas restrictivas nuevas en el primer semestre de 2026, más que las 300 de todo 2025, que cubren el 8% de las importaciones mundiales. A la vez, las medidas que facilitan el comercio subieron a 466. Las investigaciones de defensa comercial llegaron a 36,3 por mes y el antidumping sigue siendo la herramienta más usada.",
-      "topics": [
-        "Economía internacional",
-        "Geopolítica y comercio",
-        "Aranceles",
-        "Importaciones",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [
-        "OMC",
-        "Vigilancia del comercio",
-        "Restricciones comerciales",
-        "Antidumping",
-        "Defensa comercial",
-        "Facilitación del comercio",
-        "Ormuz"
-      ],
-      "visual": "globe",
-      "impact": 2,
-      "affectsArgentina": false,
-      "body": [
-        "La Organización Mundial del Comercio (OMC) publicó el 17 de noviembre su revista anual sobre la evolución del comercio, el informe de vigilancia que firma la directora general, Ngozi Okonjo-Iweala. El dato que más resalta es el stock: las medidas de importación restrictivas o no facilitadoras que los gobiernos aplicaron desde 2009 y que siguen vigentes alcanzaban al 30 de junio de 2026 a importaciones por USD 5,4 billones (millones de millones), el 21,3% de las compras mundiales de bienes, el nivel más alto desde que el organismo empezó a llevar la cuenta.",
-        "El informe cubre todo 2025 y el primer semestre de 2026, y muestra dos movimientos a la vez: los miembros de la OMC aceleraron la adopción de aranceles y otras trabas, pero también sumaron más medidas para facilitar el intercambio que en cualquier período reciente.",
-        "## Más medidas en seis meses que en todo un año",
-        "Según el relevamiento, en 2025 los miembros adoptaron 1.229 medidas comerciales o vinculadas con el comercio, y en el primer semestre de 2026 se agregaron otras 1.048. Entre enero y junio de este año se registraron 333 medidas restrictivas o no facilitadoras, más que las 300 de todo 2025. Del lado opuesto, las medidas facilitadoras fueron 466 en el semestre, contra 391 en el año anterior completo.",
-        "La cobertura en dólares también es mayor del lado restrictivo. Las nuevas medidas que traban importaciones adoptadas en el primer semestre alcanzan a compras por USD 2,0 billones, el 8,0% de las importaciones mundiales, mientras que las que las facilitan cubren USD 1,3 billones, el 5,2%. En exportaciones, las restricciones nuevas alcanzan a USD 794.000 millones (3,2% de las ventas mundiales) y las facilitadoras, a un récord de USD 570.000 millones (2,3%), más de cinco veces el nivel de 2025. La OMC atribuye ese salto sobre todo a medidas temporarias que tomaron los gobiernos tras las perturbaciones en el estrecho de Ormuz.",
-        "## El stock de restricciones, en máximos",
-        "Además del flujo de medidas nuevas, el informe mide lo que queda en pie. Las restricciones a la importación acumuladas y vigentes llegan al 21,3% de las importaciones mundiales y las vinculadas con las exportaciones, a USD 1,5 billones, el 6,3% de las ventas externas globales. Ambos valores son los más altos de la serie, de acuerdo con la OMC.",
-        "Para dimensionar el cambio, la edición anterior del mismo informe, publicada en diciembre de 2025 y que medía el período de mediados de octubre de 2024 a mediados de octubre de 2025, ubicaba ese stock de restricciones a la importación en el 19,7% de las compras mundiales, según la reseña de Mercojuris. Ese informe había estimado que los aranceles y otras medidas de importación nuevas de ese período alcanzaban a USD 2,64 billones, el 11,1% de las importaciones mundiales. Los períodos de las dos ediciones no coinciden, por lo que la comparación de flujos no es directa; la del stock, en cambio, muestra que la proporción de comercio alcanzada por restricciones siguió subiendo.",
-        "## Defensa comercial: antidumping a ritmo récord",
-        "Las medidas de defensa comercial, como los derechos antidumping y compensatorios y las salvaguardias, son otro de los capítulos que crecen. En 2025 los miembros iniciaron 391 investigaciones, un promedio de 32,6 por mes, y en el primer semestre de 2026 abrieron 218, unas 36,3 por mes. En esos seis meses solo se dieron por terminadas 31 medidas, por lo que el número de derechos vigentes tiende a aumentar. El antidumping sigue siendo el instrumento más utilizado, según el organismo. En la edición de 2025, el promedio había sido de 32,3 inicios y 11,4 terminaciones por mes.",
-        "Para los operadores argentinos, el antidumping es una herramienta conocida en las dos direcciones. Del lado de las importaciones, la medida sobre el calzado de origen chino, con un valor FOB mínimo de USD 15,70 por par, vence el 14 de diciembre y la industria pide renovarla, como contó Comexplora el 29 de octubre. Del lado de las exportaciones, las investigaciones que se abren en los mercados de destino pueden terminar en derechos adicionales sobre los productos alcanzados.",
-        "## Servicios, subsidios y los sectores en disputa",
-        "En servicios el panorama es más favorable: el informe registra 130 medidas nuevas en 2025 y 52 en el primer semestre de 2026, en su mayoría orientadas a facilitar el comercio o a reforzar la regulación. En cambio, el apoyo económico estatal a la industria y al agro se mantiene en niveles históricamente altos y cada vez más ligado a objetivos de competitividad, resiliencia, seguridad de abastecimiento y clima, señala la OMC.",
-        "La directora general destacó que, aunque el stock de restricciones está en su máximo desde 2009, los miembros están intensificando la facilitación, algo que valoró, y pidió moderación a la hora de adoptar nuevas trabas. Mencionó como excepciones a los vehículos eléctricos y a las celdas fotovoltaicas, los dos sectores en los que las medidas restrictivas cubren más comercio que las facilitadoras.",
-        "## El contexto: un comercio que igual crece",
-        "El informe convive con un pronóstico de crecimiento. La OMC recuerda que en su actualización del 8 de octubre elevó al 3,9% la suba prevista del volumen del comercio de mercancías para 2026, desde el 1,9% que había estimado en marzo, y que recortó a 3,3% la de servicios comerciales, desde 4,8%. Es decir, el comercio mundial sigue en expansión, pero una porción creciente circula bajo aranceles, cupos, licencias u otras restricciones, y con una actividad de defensa comercial que no muestra señales de bajar."
-      ],
-      "keyData": [
-        [
-          "Stock de restricciones a la importación (30/6/2026)",
-          "USD 5,4 billones, 21,3% de las importaciones mundiales"
-        ],
-        [
-          "Medidas restrictivas nuevas",
-          "333 en enero–junio de 2026 (300 en todo 2025)"
-        ],
-        [
-          "Medidas facilitadoras nuevas",
-          "466 en enero–junio de 2026 (391 en 2025)"
-        ],
-        [
-          "Cobertura de nuevas restricciones a la importación",
-          "USD 2,0 billones, 8,0% de las importaciones mundiales"
-        ],
-        [
-          "Medidas que facilitan exportaciones",
-          "USD 570.000 millones (2,3%), récord"
-        ],
-        [
-          "Investigaciones de defensa comercial",
-          "218 en el semestre: 36,3 por mes (32,6 en 2025)"
-        ],
-        [
-          "Stock de restricciones a la exportación",
-          "USD 1,5 billones, 6,3% de las exportaciones mundiales"
-        ]
-      ],
-      "explainer": {
-        "what": "La OMC informó el 17 de noviembre que las restricciones a la importación vigentes cubren USD 5,4 billones, el 21,3% de las importaciones mundiales, el nivel más alto desde 2009.",
-        "why": "En el primer semestre de 2026 los miembros adoptaron 333 medidas restrictivas, más que en todo 2025, y abrieron investigaciones de defensa comercial a razón de 36,3 por mes: una porción creciente del comercio circula bajo aranceles y otras trabas, aunque también aumentaron las medidas facilitadoras, que fueron 466.",
-        "who": "Exportadores e importadores de todo el mundo, en especial los de sectores alcanzados por antidumping y salvaguardias, y los de vehículos eléctricos y celdas fotovoltaicas.",
-        "products": [
-          "Vehículos eléctricos",
-          "Celdas fotovoltaicas",
-          "Productos alcanzados por antidumping",
-          "Servicios"
-        ]
-      },
-      "sources": [
-        {
-          "name": "OMC (Organización Mundial del Comercio)",
-          "type": "Organismo internacional",
-          "url": "https://www.wto.org/english/news_e/news26_e/tmwto_17nov26_552_e.htm",
-          "primary": true
-        },
-        {
-          "name": "Mercojuris",
-          "type": "Medio especializado",
-          "url": "https://mercojuris.com/un-informe-de-la-omc-senala-un-aumento-importante-de-los-nuevos-aranceles-pero-tambien-medidas-que-facilitan-el-comercio-mundial/"
-        }
-      ],
-      "absorbs": [
-        "se-multiplican-las-nuevas-medidas-restrictivas-del-comercio-pero-los-miembros-de"
-      ]
     }
   ],
   "ingestion": {
-    "ranAt": "2026-11-19T04:12:28Z",
+    "ranAt": "2026-11-19T14:26:31Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
         "url": "https://www.wto.org/library/rss/latest_news_s.xml",
         "ok": true,
-        "items": 8,
+        "items": 7,
         "added": 0,
-        "updated": 0,
+        "updated": 1,
         "skipped": 0
       },
       {
@@ -158392,7 +159304,7 @@
         "items": 12,
         "added": 1,
         "updated": 0,
-        "skipped": 3
+        "skipped": 2
       },
       {
         "source": "PortalPortuario",
@@ -158401,43 +159313,43 @@
         "items": 15,
         "added": 7,
         "updated": 0,
-        "skipped": 8
+        "skipped": 7
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 24,
-        "added": 3,
+        "items": 25,
+        "added": 2,
         "updated": 0,
-        "skipped": 14
+        "skipped": 15
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 22,
-        "added": 2,
+        "items": 21,
+        "added": 1,
         "updated": 0,
-        "skipped": 13
+        "skipped": 14
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 56,
+        "items": 55,
         "added": 4,
         "updated": 0,
-        "skipped": 33
+        "skipped": 31
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 27,
+        "items": 28,
         "added": 4,
         "updated": 0,
-        "skipped": 10
+        "skipped": 12
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
@@ -158446,16 +159358,16 @@
         "items": 100,
         "added": 4,
         "updated": 0,
-        "skipped": 90
+        "skipped": 87
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 67,
+        "items": 66,
         "added": 4,
         "updated": 0,
-        "skipped": 46
+        "skipped": 47
       }
     ],
     "curatedDuplicates": [
@@ -158470,14 +159382,14 @@
         "curated": "resolucion-461-2026-ropa-usada-importacion-certificacion-prohibe-calzado-ropa-interior"
       },
       {
-        "title": "El Gobierno impulsa la concesión del Centro de Fronteras Paso de los Libres",
-        "url": "https://aduananews.com/el-gobierno-impulsa-la-concesion-del-centro-de-fronteras-paso-de-los-libres/?utm_source=rss&utm_medium=rss&utm_campaign=el-gobierno-impulsa-la-concesion-del-centro-de-fronteras-paso-de-los-libres",
-        "curated": "decreto-1350-2026-paso-de-los-libres-cotecar-concesion-20-anos-iniciativa-privada"
-      },
-      {
         "title": "Nuevas reglas para las fumigaciones oficiales de cargas en el comercio exterior argentino",
         "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPTE15bTlLbmFjZFF6WnBpZ3lVZTZfMVhNa0loSXdZOU10SHpKeGNJVkJ0RlM3V1RRRDlkY2V0SG4xalVkbmdNeEE1STBxLTRQRzlTU1lqNjdwTk5PdEdhWEd1ZUtTTDdMOUxOdW9iZ3JoZUFoOVRXYjU1M0pRdEk4aGZXTEVsX0pHelhYaUtBQ3BiNlk5bHJHZmt6UDMtd1RxOFl6Rk5FeEhoZzRyOGVwb0dlZFlDSTY2MmFkSFR6MjBDM2NWbktPdWZNMzBHOFFGXzRJS1ZjeVVLazNUbmtnWnNYd3BXLTDSAecBQVVfeXFMT0xNeW05S25hY2RRelpwaWd5VWU2XzFYTWtJaEl3WTlNdEh6SnhjSVZCdEZTN1dUUUQ5ZGNldEhuMWpVZG5nTXhBNUkwcS00UEc5U1NZajY3cE5OT3RHYVhHdWVLU0w3TDlMTnVvYmdyaGVBaDlUV2I1NTNKUXRJOGhmV0xFbF9KR3pYWGlLQUNwYjZZOWxyR2ZrelAzLXdUcThZekZORXhIaGc0cjhlcG9HZWRZQ0k2NjJhZEhUejIwQzNjVm5LT3VmTTMwRzhRRl80SUtWY3lVS2szVG5rZ1pzWHdwVy0w?oc=5",
         "curated": "senasa-resolucion-955-2026-fumigaciones-oficiales-comercio-internacional-granos-bodegas-fosfina"
+      },
+      {
+        "title": "SENASA cambia los controles para exportar vegetales: cuándo serán obligatorios",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTWXlRdWEwUDVkbEZ2UlR6WXZUd2w4WFZSNENrekFncUY1dEZXS2FPb2tWa2NDa2hTbnpSTzF2V281aDM0SUw1U3J1S29IVDB4cUFkTG1DWEdGcmtfMkRRb2lIelVGQlVJSi1Ka21QTnE?oc=5",
+        "curated": "senasa-resolucion-952-2026-control-fitosanitario-exportaciones-vegetales-destino-cepvp-cert-pov"
       },
       {
         "title": "El petróleo desplazó a la harina de soja y lidera las exportaciones argentinas",
@@ -158486,38 +159398,18 @@
       },
       {
         "title": "Se actualizó procedimiento para supervisar tratamientos de fumigación oficial en el comercio exterior",
-        "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNaVhIdmxfV245Y29lUzNKSmtGV2kxcmV0RkxrUTNWdFcxZTRQV294Nk5EVFFaSF9sYmJsV0swWXduWVlFVkNiQzdlVWxjVUxNeUNNYkRnNjZGVXFzcnN2SWxvM2dlVGJtUzdNdlhEYzZGOWZEOE91ZEh6VmVPYlc4WDktNFdtM2ZILWFoYnVKM0hvRDIxaWR6YVA3QXB6NGNqLTljT05ZMW9QQVVQMHNNeU5rQmVaSzFCZXZkcnpWNGdyMlc0WU5hY2N3ZlI5MVg5TG0yRDNETGRERTFKdmNQaTltRldrQ05haWZHeG1YNHNfLUlUWUNmMQ?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CWUE2cWVfMDY3MU1GaElMdGVkODBlWWZlamVaZ0VNa0VlTGRSTGhfczhUaEEzcEhYV2pmbGZ6N1YtcVRIR1RnTl9DNmNmNDZjaW1hUkRSUjNSdUhpbFpR?oc=5",
+        "curated": "senasa-resolucion-955-2026-fumigaciones-oficiales-comercio-internacional-granos-bodegas-fosfina"
+      },
+      {
+        "title": "Se actualizó procedimiento para supervisar tratamientos de fumigación oficial en el comercio exterior",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZW1iZXRJeUlhbVRxSVFKbml2NzZSaWVxOExzVGdaeU5RcVlmaC1fSzNjXzh2QlNHQmhsTUZTT0J6VllkOUNVbGRRLUF3SHBlMHRlYlNQb2k2cnZCYXNaNmlCT0dTS1NLTjNTYlQzdTV5NDNLRS0ySlRwc3p3QkYxeHlTQnUtT3YzclZGRG1HV1JtbW55eGlpaGpxV0lwY29VR0NaNWxyVXliVFlGZW43R3dUWmtjWm9kdzktTEdB?oc=5",
         "curated": "senasa-resolucion-955-2026-fumigaciones-oficiales-comercio-internacional-granos-bodegas-fosfina"
       },
       {
         "title": "Se actualizó procedimiento para supervisar tratamientos de fumigación oficial en el comercio exterior",
         "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CWUE2cWVfMDY3MU1GaElMdGVkODBlWWZlamVaZ0VNa0VlTGRSTGhfczhUaEEzcEhYV2pmbGZ6N1YtcVRIR1RnTl9DNmNmNDZjaW1hUkRSUjNSdUhpbFpR?oc=5",
         "curated": "senasa-resolucion-955-2026-fumigaciones-oficiales-comercio-internacional-granos-bodegas-fosfina"
-      },
-      {
-        "title": "Fumigación en comercio exterior: nuevas reglas del SENASA",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1hSjJXdWkybTRBMDJHM29nWVdjemtaMkFhSUNTS1VnVG4zT255aFR0NU54Rk5xVlNOY25oaUZPamJkMmdidE4zQmRubmNWUVJ4VjJpb1NsTWVEaGJxZGxqcEtkLTBTQzBiWE5YOElwRXpMLUpCVUF5WGVjUQ?oc=5",
-        "curated": "senasa-resolucion-955-2026-fumigaciones-oficiales-comercio-internacional-granos-bodegas-fosfina"
-      },
-      {
-        "title": "El Senasa actualizó las reglas para supervisar fumigaciones en el comercio exterior",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaWxWd1FlZmRVM0h0R2pYOUdzWFlLa2ZONFFrVUtSRDBhcXJfWlVmOGVhaW9sWWoxaEVyNWNlcWt1WWpoMXBkLXQzYm1UUUdmU28xLUVESHg0WF9YRUM0aXJOU2MzaVlqOUYxMl9Ca2FSQkVaVVNhZ0JmOW5TS2dnM2RNWVdaanJHYTBaTnZPZXhHS0xieVBkYy1ueUR2WHhCSWgwajJpTmpfd1loOExZR3JJdkxNXy1vXzh6dzBWLVpUQdIBugFBVV95cUxOZjBtRndVUmhLLVR3TkFNNzNMRXM0V0pTWS1talRYcnVJcFlCeVM5R1lhdWZvbDI2bjVHdGRsYTNHZE5XQzJIVEN3eDFFc0ZCeXl4R0lJLWJwbXZ4WVZhaWJhZURBemswbzcwaDI0QklVRWh4N0xJbTNVdXRISTA5Y0Y4S19YdGZocjRmc2lDX1hmaHEwRzhaTEtra01OTFdvbTE1ZGMxZVZiWjdHbzM5dUJVbWRCS1JWaVE?oc=5",
-        "curated": "senasa-resolucion-955-2026-fumigaciones-oficiales-comercio-internacional-granos-bodegas-fosfina"
-      },
-      {
-        "title": "El poder del campo: Argentina rompió un récord histórico de exportaciones agropecuarias",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUTl0aTM3THFmZWhnd25KNlIxUlo3elB6eWM4S01vZkRsTTZLcVpzc0p2cDdNZ1RGdFBCUVgzNnNQMTFMMUZzalJ2ekNaVzA5V25LSUFabExna3pUQkxXZzdnMkpkQmhPaGFhMWZtbm9vcE15QmM4cE9fdTE4MVFMajNCVGVTYmtlc1BaOEVkdWdiZXRhR21FbzJxVHhJWWJhZEpaWnJpZmFkdjZXb1gwdjRhS3B2VE5DOWp6bFQ4NHBEVnZYcWNNMkozdTRtdw?oc=5",
-        "curated": "bcr-exportaciones-agro-enero-octubre-2026-101-millones-toneladas-record"
-      },
-      {
-        "title": "Se actualizó procedimiento para supervisar tratamientos de fumigación oficial en el comercio exterior",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CWUE2cWVfMDY3MU1GaElMdGVkODBlWWZlamVaZ0VNa0VlTGRSTGhfczhUaEEzcEhYV2pmbGZ6N1YtcVRIR1RnTl9DNmNmNDZjaW1hUkRSUjNSdUhpbFpR?oc=5",
-        "curated": "senasa-resolucion-955-2026-fumigaciones-oficiales-comercio-internacional-granos-bodegas-fosfina"
-      },
-      {
-        "title": "OCDE alerta por aumento de acero chino en América Latina: importaciones crecen 47%",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWEp0bVVPbjVyV1h1YWJ3WXlOZmVabndYakItalk4U29GV0ZBS2I4WHV5M1o5ODJfS1JncXZXMVVOUzM1WWlvdFBJY2tnMldFT0dwODllRktoanhLdWVha2lDN0p5TFpydW1WcTVoVHk2SG1NZjZ2VDBnemhSc0NHdDFBbHM2bV9raEpHUkxJMm9OM0Z1OV9BVGw1SS0yNHdzd0tCR09HM2lzVkZiS1lhV1psbjFiLURFTjJhVUpR0gGyAUFVX3lxTE11a3BlWkdhNUNXQ1kyemd6RlJRU0pLdFJobS1CS3h0S1B3RmU2cUJwZ3FHYlRFa194cm9kMXNlUmNxY0dBNUNYNzQ1ZkpZUC0ybVB5LTltcXduQ3dMQ09zVE40X0tjSXJrQ01YSnBkX1V1elBaS1Y3cExpVmhSWG1Qc0ljMUNjUmFQZERycWhMd0Yza2dYbGlvT3MtaFhvLWNJMXhWeFZtTUlacDVoVk1nZXc?oc=5",
-        "curated": "ocde-acero-america-latina-importaciones-47-por-ciento-55-4-millones-toneladas-china-21-6"
       },
       {
         "title": "SENASA simplifica y moderniza los controles fitosanitarios de exportacion de productos vegetales",
@@ -158525,43 +159417,27 @@
         "curated": "senasa-resolucion-952-2026-control-fitosanitario-exportaciones-vegetales-destino-cepvp-cert-pov"
       },
       {
-        "title": "SENASA cambia los controles para exportar vegetales: cuándo serán obligatorios",
-        "url": "https://ruralnet.com.ar/senasa-controles-exportacion-vegetales/",
-        "curated": "senasa-resolucion-952-2026-control-fitosanitario-exportaciones-vegetales-destino-cepvp-cert-pov"
+        "title": "El conflicto por los fletes de granos vuelve a poner en alerta a Puerto Quequén: ¿Pueden repetirse los bloqueos?",
+        "url": "https://www.diario4v.com/nota/54005/el-conflicto-por-los-fletes-de-granos-vuelve-a-poner-en-alerta-a-puerto-quequen-pueden-repetirse-los-bloqueos/",
+        "curated": "buenos-aires-laudo-16-por-ciento-tarifa-referencia-fletes-granos-carbap-coninagro-acopiadores"
+      },
+      {
+        "title": "Se multiplican las nuevas medidas restrictivas del comercio, pero los Miembros de la OMC intensifican sus esfuerzos de…",
+        "url": "https://www.wto.org/spanish/news_s/news26_s/tmwto_17nov26_552_s.htm",
+        "curated": "omc-vigilancia-comercio-2026-restricciones-importacion-5-4-billones-21-3-por-ciento"
       }
     ],
     "excluded": 0,
-    "grouped": [
-      {
-        "main": "supara-acompano-a-los-trabajadores-de-la-aduana-de-oran-tras-el-devastador-incen",
-        "merged": [
-          "el-sindicato-de-aduaneros-recorrio-la-aduana-de-oran-tras-el-incendio-que-destru"
-        ]
-      },
-      {
-        "main": "orsi-se-reunio-con-pedro-sanchez-el-acuerdo-mercosur-union-europea-fue-tema-cent",
-        "merged": [
-          "lula-y-orsi-en-madrid-con-el-acuerdo-ue-mercosur-en-marcha",
-          "sanchez-y-orsi-reafirman-en-madrid-su-compromiso-de-estrechar-lazos-y-destacan-e",
-          "reunion-sobre-acuerdo-comercial-entre-mercosur-y-la-union-europea"
-        ]
-      },
-      {
-        "main": "impacto-de-la-devaluacion-del-real-en-el-turismo-y-exportaciones",
-        "merged": [
-          "la-devaluacion-del-real-abarata-fuerte-las-vacaciones-en-brasil-y-pone-en-riesgo"
-        ]
-      }
-    ],
+    "grouped": [],
     "googleNews": {
-      "pending": 22,
-      "resolved": 17,
+      "pending": 21,
+      "resolved": 18,
       "withSummary": 14,
       "withPhoto": 0,
-      "failed": 5,
-      "duplicates": 2
+      "failed": 3,
+      "duplicates": 0
     },
-    "noRead": 3
+    "noRead": 1
   },
   "stories": [
     {
