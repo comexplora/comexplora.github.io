@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-11-19T14:26:31Z",
+  "updatedAt": "2026-11-19T22:40:03Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -134,20 +134,16 @@
     {
       "id": "tc-mayorista",
       "label": "Tipo de cambio mayorista ARS/USD",
-      "value": "$ 1.558,24",
-      "period": "Com. A 3500 · 18 nov 2026",
+      "value": "$ 1.562,99",
+      "period": "Com. A 3500 · 19 nov 2026",
       "source": "BCRA",
       "url": "https://www.bcra.gob.ar/PublicacionesEstadisticas/Principales_variables.asp",
       "group": "Mercados",
-      "obsDate": "2026-11-18",
-      "change": "+0,4% vs. día hábil anterior",
+      "obsDate": "2026-11-19",
+      "change": "+0,3% vs. día hábil anterior",
       "trend": "up",
-      "checkedAt": "2026-11-19T14:27:46Z",
+      "checkedAt": "2026-11-19T22:41:15Z",
       "history": [
-        [
-          "2026-10-02",
-          1523.0868
-        ],
         [
           "2026-10-05",
           1519.2481
@@ -263,11 +259,15 @@
         [
           "2026-11-18",
           1558.2427
+        ],
+        [
+          "2026-11-19",
+          1562.9893
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-19T14:27:46Z"
+      "lastAttempt": "2026-11-19T22:41:15Z"
     },
     {
       "id": "soja",
@@ -284,7 +284,7 @@
         "date": "2026-11-18",
         "ars": 550000.0
       },
-      "checkedAt": "2026-11-19T14:27:46Z",
+      "checkedAt": "2026-11-19T22:41:16Z",
       "_prev": {
         "date": "2026-11-17",
         "ars": 550000.0
@@ -413,7 +413,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-19T14:27:46Z"
+      "lastAttempt": "2026-11-19T22:41:16Z"
     },
     {
       "id": "brent",
@@ -426,7 +426,7 @@
       "obsDate": "2026-11-17",
       "change": "0,0% vs. día anterior",
       "trend": "flat",
-      "checkedAt": "2026-11-19T14:27:48Z",
+      "checkedAt": "2026-11-19T22:41:19Z",
       "history": [
         [
           "2026-10-07",
@@ -551,7 +551,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-11-19T14:27:48Z"
+      "lastAttempt": "2026-11-19T22:41:19Z"
     },
     {
       "id": "maiz",
@@ -568,7 +568,7 @@
         "date": "2026-11-18",
         "ars": 271000.0
       },
-      "checkedAt": "2026-11-19T14:27:48Z",
+      "checkedAt": "2026-11-19T22:41:19Z",
       "_prev": {
         "date": "2026-11-17",
         "ars": 268500.0
@@ -697,7 +697,7 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-19T14:27:48Z"
+      "lastAttempt": "2026-11-19T22:41:19Z"
     },
     {
       "id": "trigo",
@@ -714,7 +714,7 @@
         "date": "2026-11-18",
         "ars": 286850.0
       },
-      "checkedAt": "2026-11-19T14:27:48Z",
+      "checkedAt": "2026-11-19T22:41:19Z",
       "_prev": {
         "date": "2026-11-17",
         "ars": 285455.0
@@ -843,10 +843,1033 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-19T14:27:48Z"
+      "lastAttempt": "2026-11-19T22:41:19Z"
     }
   ],
   "items": [
+    {
+      "id": "arabia-saudita-supera-a-emiratos-arabes-unidos-como-segundo-proveedor-petrolero",
+      "datetime": "2026-11-19T22:30:02Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "Arabia Saudita supera a Emiratos Árabes Unidos como segundo proveedor petrolero de India",
+      "summary": "Las importaciones petroleras de India desde Arabia Saudita superaron en octubre a las procedentes de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones",
+        "Asia"
+      ],
+      "countries": [
+        "India",
+        "Arabia Saudita",
+        "Emiratos Árabes Unidos"
+      ],
+      "tags": [
+        "Energía"
+      ],
+      "visual": "tanker",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/arabia-saudita-supera-a-emiratos-arabes-unidos-como-segundo-proveedor-petrolero-de-india/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "los-ministros-del-interior-y-de-seguridad-del-mercosur-firmaron-un-acuerdo-que-c",
+      "datetime": "2026-11-19T22:27:49Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "Los ministros del Interior y de Seguridad del Mercosur firmaron un acuerdo que consolida la cooperac",
+      "summary": "El ministro del Interior de Uruguay, Carlos Negro, resaltó que uno de los temas centrales para el bloque es la lucha contra el crimen organizado.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Mercosur"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Radio Monte Carlo CX20 AM930",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.radiomontecarlo.com.uy/2026/11/19/nacionales/los-ministros-del-interior-y-de-seguridad-del-mercosur-firmaron-un-acuerdo-que-consolida-la-cooperacion-en-zonas-fronterizas-y-el-intercambio-de-informacion/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T22:40:03Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNcHNaR1QtMkV3aUpXcjJ5NEtrbDNIUDNGcE94dHdCUDNxTnduZ0thQjQ1OHlYMDI1VXZaUTFxWDU0Q3pISjlxRFRYVFh6bFpDSTJCbFNCTTVrYUNFT2JsN1Zua0VCQ1MwbU4yeTdseU0xYWZqMzZhbmRqNFprT0w3S2RUWWsxT3JEeFlHc3ZaS3VIMlBuQzVDUFo0VUpkdWd3Sk5tS3lmZFB2ZkFYUi1Hd21pMDNnRVpiRi04X0hUUVI5RXZHdnBSZjZ5QmxnYkhERkhuQlM2NzB3cUtWbnJKNGJwZ1JyNUFqekZMUzRLakVSZDFZUm9CLVo1YXNQM3dabnUyWXB2VkVtV1FidVRPSjROVU5WM2M0RnV6VjVyaTBhanlDU3JNVmxGVmRKTWZJOERfQW41a21RQQ?oc=5"
+    },
+    {
+      "id": "industria-siderurgica-canadiense-cuestiona-acuerdo-comercial-con-china",
+      "datetime": "2026-11-19T22:21:28Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "Industria siderúrgica canadiense cuestiona acuerdo comercial con China",
+      "summary": "Toronto, Canadá.— La industria siderúrgica canadiense expresó su preocupación por el nuevo acuerdo comercial alcanzado entre Canadá y China, al considerar que las concesiones arancelarias anunciadas…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "Canadá",
+        "China"
+      ],
+      "tags": [
+        "Acero",
+        "China"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Frequency News",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.frequencynews.ca/news/industria-siderurgica-canadiense-cuestiona-acuerdo-comercial-con-china/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T22:40:03Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeWI3M1J5V0VLSmtZUHpSa3pHQ2VqcHVXYmVoZlFrM0dQcHRFMXdraVF5OS1ydTZIakh1QzdwMWJGRkZiS2VqNWQ2emV5T3p0WTYxNGNHTkpub0VoYXFrQWFCM1FoRWdqcm51TkJCcnlybW5KZnVxWVFSVVkxdFAya3VVRFdXMGQ0eWpBdjdhM282blR1R3QyaDRORHkwU0N5OTFkU3g3Smg?oc=5"
+    },
+    {
+      "id": "las-exportaciones-alcanzaron-el-record-de-us-10-000-millones-en-octubre-y-las-im",
+      "datetime": "2026-11-19T22:18:00Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "Las exportaciones alcanzaron el récord de US$10.000 millones en octubre y las importaciones retrocedieron",
+      "summary": "Las exportaciones argentinas alcanzaron los US$10.061 millones en octubre, un récord para ese mes, mientras que las importaciones cayeron 6,7% interanual en valor y 17,3% en volumen.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Los Andes",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.losandes.com.ar/economia/las-exportaciones-alcanzaron-el-record-us10000-millones-octubre-y-las-importaciones-retrocedieron-n6014955",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T22:40:03Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQUkNrbE5YUHppSDJtRlhRRTFuTUtoWktJd01adHgtdmdNeVdCWDBwNXlsaTBoMTM2Sjd3SUZkM1RBVlpZalBhR013ZmZoYmFjMExwNEhUSUpmVDZKc3Fmb0J1aHluRklFTTZHSnczbVVsZjF5VVNrYVJORUJlWTAwdXhJa1o5RUozMEtNeUxJTUl5cmNvTVpUbFpfTllId1VQVkp1bDNOSld6aGR2UGE4VFlXVFhfYmRxVHlJQ2t4eUZxY3V4WkwwVFBFZVNwdHNJU3k2RFNjczZnZlk?oc=5"
+    },
+    {
+      "id": "mexico-preve-avances-proximos-en-aranceles-con-eu-y-mantiene-un-plan-b-comercial",
+      "datetime": "2026-11-19T21:54:42Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "México prevé avances próximos en aranceles con EU y mantiene un “plan B” comercial: Concanaco",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Latinoamérica",
+        "Europa"
+      ],
+      "countries": [
+        "México",
+        "Unión Europea"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "El Sol de México",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://oem.com.mx/elsoldetijuana/local/mexico-preve-avances-proximos-en-aranceles-con-eu-y-mantiene-un-plan-b-comercial-concanaco-33217146",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T22:40:03Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPRHRycmY4MUVzN1lrM0N2aEF0VU9HSGdVSXhFUlQyX1pndVpfaDJkbWNwWGZINDZQSVRlSG1YYzh2QS1aMVdFcE9pNzdFNmFKNm1jR2M5SHVvQWJwSzB2UkdWYlZGTzZqZy1Zam5vdGo5UUtkNUsweVg4Zk9FNWdKUUFNWWdoSkdCMkpWRXRKbGx5SkZmMmE3RXlvcjJHQ29HTmJCZ0gwU3d2RElFZmtranBzNXYwelBnWGRmYkVPWXFqY1pXSTJhd1ctOWlldnNGX3AzcjRB?oc=5"
+    },
+    {
+      "id": "brasil-inician-movilizacion-para-obras-de-refuerzo-estructural-y-modernizacion-d",
+      "datetime": "2026-11-19T21:50:28Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "Brasil: Inician movilización para obras de refuerzo estructural y modernización del muelle de Ilha Barnabé en Puerto de Santos",
+      "summary": "La Autoridad Portuaria de Santos (APS) inició la movilización para las obras de recuperación y refuerzo…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Brasil"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/brasil-inician-movilizacion-para-obras-de-refuerzo-estructural-y-modernizacion-del-muelle-de-ilha-barnabe-en-puerto-de-santos/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "las-exportaciones-argentinas-alcanzaron-un-record-historico-en-octubre-y-superar",
+      "datetime": "2026-11-19T21:49:30Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "Las exportaciones argentinas alcanzaron un récord histórico en octubre y superaron los US$ 10.000 millones",
+      "summary": "Las ventas al exterior crecieron un 26,4% interanual y la balanza comercial registró un superávit de US$ 3.394 millones. El ministro de Economía, Luis Caputo, destacó el desempeño de la industria manufacturera y del sector energético.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Forbes Argentina",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.forbesargentina.com/money/las-exportaciones-argentinas-alcanzaron-record-historico-octubre-superaron-us-10000-millones-n102956",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "El Destape",
+          "type": "También publicó esta noticia",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMDdIdDVjc3ZteFp0WTk5SWZuVjJTejdyclZuNFhqYVZ4dDAydDdPV0ZIQmY1dXk0czZZczdwdk0tMDI4UThXdndwclNzOFp1M2hTTE9zeW9aRTExcDlWU3g4X3ZldWxrS1NRTlZNUnIwdzJHU2hPMlVBWTBWdXA2VnhXRE5sYWtIY1g2TjJVb19ncnYyejhTSl9jZ1FqQ0syZ0NRR2czT3lLWG16Vjl1NHNJZ3h6QTVmdEZ4R3BfVk9UaWhwbHB4RTk2eXFERWtUaWF0aGZjVEMtWWJqUWszRFN1ZktTNUl30gH8AUFVX3lxTFBRLWhQTTBRTHhOSGlCeFFtLWpDWkRPUTA5RE1QWmlBUkZBQXZFd01qNUxNMzZXNU1rQ0ViWmdJYW9feGFxWUgzM1R5RHRWTW84YzRuRVk5aXVBa1ZSeXlTR2w1ZFBTQkgyalVkS3JvamJiLW81WTZib2Y1Y2ZWZVhuakN5T2hJSnc3X0hkbU1sdjQ3WVNtOGkxRGxNYXVmS21ISjRydlpLa0VJUmd4NFJBeGZOcWVrWXBBQ1RhQWs1Yloxc2VXMVlhd2NGV1JkSUVTUW40RHRSZURINFh5cEhxeDVjLXhSWkdrVzNlcml0cnZrWkhTMWFLb3VCXw?oc=5",
+          "alsoIn": true,
+          "title": "Bate récord de exportaciones pero la industria local se hunde: un informe revela la profunda disparidad de la economía argentina"
+        },
+        {
+          "name": "Sitio Andino",
+          "type": "También publicó esta noticia",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRm8xRnNKMFh1cHhzTGtDbG9pT3MxTmdad2d0OUdDWjdlTXVoc1I4N1ZoMTlXbmljZHJMck9yNGk3MWU2eXg1ZkdNTW1NeVhOU3A5MERFUTNFeWE3ajZyYk9ITjVzT1BsRkJ4SFdldEJQOHhRa1JnaUFtUnMwTUxOMjVBVmNmeHd4c2FBNE1DQW5kUGc4LVJSb2FxRml5MUN5SXJpS1N6Z3hyeF9vLXJQUy0wVXBnMlU2SXlrcGI4eWtUYkZaT05TZFpBOFNVQ2FLQVpXUVJrSW3SAdgBQVVfeXFMT0ZvMUZzSjBYdXB4c0xrQ2xvaU9zMU5nWndndDlHQ1o3ZU11aHNSODdWaDE5V25pY2RyTHJPcjRpNzFlNnl4NWZHTU1tTXlYTlNwOTBERVEzRXlhN2o2cmJPSE41c09QbEZCeEhXZXRCUDh4UWtSZ2lBbVJzME1MTjI1QVZjZnh3eHNhQTRNQ0FuZFBnOC1SUm9hcUZpeTFDeUlyaUtTemd4cnhfby1yUFMtMFVwZzJVNkl5a3BiOHlrVGJGWk9OU2RaQThTVUNhS0FaV1FSa0lt?oc=5",
+          "alsoIn": true,
+          "title": "Récord de exportaciones en Argentina: superaron los US$ 10.000 millones y el superávit se disparó"
+        }
+      ],
+      "gnTried": "2026-11-19T22:40:03Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRExmaXJza2p5SWVlTE0zVDVQQWFMU3I0cU5ULWVpUjhwekx6UHliaXZhbDlwdGdhQ0RlVV9xc2VlSEZNM1RqeFJMS3dJQ2p0NHFSVkZTSUF6SElIU3ZuNXVYQ3pyajZvRDJjbzBNQkhtRGRxMVIxLUc5bmMySWlvd21uLUZmM3BHMFBONS1FQk83S0lQZjZaT3RiTzBaWEhQZDQ4czlOX0Jta0tvRzZyMlctOTJXWGFhVnFpTDk5VV84THBGMlRwNUNRUXJvQ1U2Y1BpcNIB2gFBVV95cUxQSnlYMWpCN0RjYmhJVEt4aFQ1dldMb1pwTHVoYTllQktFeExOQ0tTVVRraHl1amxaVFhoZzYtdndaVWptT01yNFViZzdqb2dxQmRzVFFCUFVuZmZjRXZiLWdGZjBDZGl6R1BYZ09SbDJlYWlEczBzejVhdExzWjBWUEc1ZnZ6NTlmcGtiLWtRTmJURkpwLUVzSWF6blNHcnNtakprMVBrRGs1OVFrdmZBVmxDNndTYXhpLVQ2Y3ZfX09NajFqOVhxbXdNcGJiNm1GMEFOVjItYUxqdw?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRm8xRnNKMFh1cHhzTGtDbG9pT3MxTmdad2d0OUdDWjdlTXVoc1I4N1ZoMTlXbmljZHJMck9yNGk3MWU2eXg1ZkdNTW1NeVhOU3A5MERFUTNFeWE3ajZyYk9ITjVzT1BsRkJ4SFdldEJQOHhRa1JnaUFtUnMwTUxOMjVBVmNmeHd4c2FBNE1DQW5kUGc4LVJSb2FxRml5MUN5SXJpS1N6Z3hyeF9vLXJQUy0wVXBnMlU2SXlrcGI4eWtUYkZaT05TZFpBOFNVQ2FLQVpXUVJrSW3SAdgBQVVfeXFMT0ZvMUZzSjBYdXB4c0xrQ2xvaU9zMU5nWndndDlHQ1o3ZU11aHNSODdWaDE5V25pY2RyTHJPcjRpNzFlNnl4NWZHTU1tTXlYTlNwOTBERVEzRXlhN2o2cmJPSE41c09QbEZCeEhXZXRCUDh4UWtSZ2lBbVJzME1MTjI1QVZjZnh3eHNhQTRNQ0FuZFBnOC1SUm9hcUZpeTFDeUlyaUtTemd4cnhfby1yUFMtMFVwZzJVNkl5a3BiOHlrVGJGWk9OU2RaQThTVUNhS0FaV1FSa0lt",
+        "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMDdIdDVjc3ZteFp0WTk5SWZuVjJTejdyclZuNFhqYVZ4dDAydDdPV0ZIQmY1dXk0czZZczdwdk0tMDI4UThXdndwclNzOFp1M2hTTE9zeW9aRTExcDlWU3g4X3ZldWxrS1NRTlZNUnIwdzJHU2hPMlVBWTBWdXA2VnhXRE5sYWtIY1g2TjJVb19ncnYyejhTSl9jZ1FqQ0syZ0NRR2czT3lLWG16Vjl1NHNJZ3h6QTVmdEZ4R3BfVk9UaWhwbHB4RTk2eXFERWtUaWF0aGZjVEMtWWJqUWszRFN1ZktTNUl30gH8AUFVX3lxTFBRLWhQTTBRTHhOSGlCeFFtLWpDWkRPUTA5RE1QWmlBUkZBQXZFd01qNUxNMzZXNU1rQ0ViWmdJYW9feGFxWUgzM1R5RHRWTW84YzRuRVk5aXVBa1ZSeXlTR2w1ZFBTQkgyalVkS3JvamJiLW81WTZib2Y1Y2ZWZVhuakN5T2hJSnc3X0hkbU1sdjQ3WVNtOGkxRGxNYXVmS21ISjRydlpLa0VJUmd4NFJBeGZOcWVrWXBBQ1RhQWs1Yloxc2VXMVlhd2NGV1JkSUVTUW40RHRSZURINFh5cEhxeDVjLXhSWkdrVzNlcml0cnZrWkhTMWFLb3VCXw"
+      ],
+      "mergedIds": [
+        "bate-record-de-exportaciones-pero-la-industria-local-se-hunde-un-informe-revela",
+        "record-de-exportaciones-en-argentina-superaron-los-us-10-000-millones-y-el-super"
+      ]
+    },
+    {
+      "id": "otro-record-de-exportaciones-usd-10-000-millones-en-octubre",
+      "datetime": "2026-11-19T21:40:30Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "Otro récord de exportaciones: USD 10.000 millones en octubre",
+      "summary": "Los productos vendidos al exterior crecieron un 26,4 % en comparación con 2025 y en los últimos 12 meses acumulan USD 102.943 millones, también récord",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "bardeo.news",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://bardeo.news/economia/otro-record-de-exportaciones--usd-10-000-millones-en-octubre_a6aff649ecd25aee28841a2c2",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T22:40:03Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWkh1dS1YcGFsS3ZITVFhNWxTUHFZQTN3Tjd6Vmo2LS14QXFpbmpJcVl0RHVRTkF3WGFlU1E4N2Q0c3NOeFR0Q1R6REp3aFp6WXFUY1Y4aFNUbC1oVmVITS1OUVd0anNISU92YklrWm9nTm5lNE5zWmhCejNFSXVINzJQcFBoV1pwMnlueHdUbERnUmdCR180V0ticTJBNEp3WnpucmtDTldGYVBOLWxaUHpBeEVlQdIBxAFBVV95cUxNZ2JFSFl1TTl1Zkw3MkYtbnQxZTdXQy1TWUl5dzdCcDk3aVdSaTlrRG1wUnlVY2RnanFXeVZSNGdQc25QMGVVRjYxUGtHWndlOGN1b0FLRm90Y1NMXzNLbGMyQUFHZjVBTUw1SUxJX3hlVTJoNDFHOVlxRDhMb2RoZDZIVjRoOXh6UjBtU2J0WEpKclBiMXZJVGJ6Tzd4Sm5XeEtlRC1WVm1nd0dadTc4QXltQlhNdFpUQ0pNdzNmbzhzeG5l?oc=5"
+    },
+    {
+      "id": "argentina-aprueban-plan-de-obras-estructurales-para-modernizacion-del-puerto-de",
+      "datetime": "2026-11-19T21:30:19Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "Argentina: Aprueban plan de obras estructurales para modernización del Puerto de Ushuaia",
+      "summary": "La Agencia Nacional de Puertos y Navegación (Anpyn) de Argentina determinó los próximos pasos en el…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Puertos"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/argentina-aprueban-plan-de-obras-estructurales-para-modernizacion-del-puerto-de-ushuaia/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "descarta-sheinbaum-acuerdo-comercial-con-china-por-ahora",
+      "datetime": "2026-11-19T21:26:45Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "Descarta sheinbaum acuerdo comercial con China, por ahora",
+      "summary": "Al aclarar que la estrategia de su Gobierno se centra en fortalecer la cooperación únicamente mediante memorándums de entendimiento con China, la presidenta Claudia Sheinbaum Pardo descartó por el momento un tratado comercial con ese país. Actualmente, las importaciones desde China rondan los 200 mil millones de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "China"
+      ],
+      "tags": [
+        "China"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Tribuna Campeche",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://tribunacampeche.com/19/descarta-sheinbaum-acuerdo-comercial-con-china-por-ahora/761184/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T22:40:03Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNTVxUkxyX09Fc0N6REtlX3UyUF81elJPT1VXakxrSERRX3djaERsSHEtU0pKT0RsRkJtakhnZ25tYnFJLVFzamdjUGMyOEg2aDVIZHQyWlJNeWctQ3pENU1fejRxM2ltRmR4bmlaWVJtMFVTVnp0WmdQb0RIbmY0N1o5emVGZUVWWEJWaFA3UjZEN1VuR1NKbmIwSQ?oc=5"
+    },
+    {
+      "id": "comision-de-relaciones-internacionales-mercosur-y-comercio-exterior",
+      "datetime": "2026-11-19T21:25:58Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "Comisión de Relaciones Internacionales, Mercosur y Comercio Exterior",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Mercosur"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "Legislatura de la Provincia de Córdoba",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://legislaturacba.gob.ar/eventos/comision-de-relaciones-internacionales-mercosur-y-comercio-exterior-5/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T22:40:03Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQ3lpVVZPZzE1X3VhV3E2WnNmSHFwZE5VcGFLSXc2YTMzaXV4dVMzV0dwWkZYU2FBRFM4SUdVTEc4d0tPbjk3aWZPMnJBdDk4VXozcVdCdzZsM24yZzlqekpDT1NzQTFVdnVIdURJZW93NGJfT29rOVRaYmo2ZEoweVJORzRnV2o5czlzVjV2eDVybnM5WmNOazcwbS1GaUZrUV83SktaaUFnTWpZ?oc=5"
+    },
+    {
+      "id": "efecto-milei-las-exportaciones-alcanzaron-un-nuevo-record-historico-en-octubre",
+      "datetime": "2026-11-19T21:07:13Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "Efecto Milei: Las exportaciones alcanzaron un nuevo récord histórico en octubre",
+      "summary": "Las exportaciones argentinas alcanzaron los 10.061 millones de dólares en octubre, creciendo un 26,4% interanual y superando el récord histórico registrado en septiembre.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "qpasó",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://qpaso.ar/noticias/derechadiario/politica/efecto-milei-exportaciones-alcanzaron-nuevo-record-historico-en-octubre",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T22:40:03Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcFRETU54NHJaMm9nMHVPTWtrS0k0MEU3NkRsWUw3MDFCSndMbzFBemVyT3MyWG9LTlF4M0dqUXdrWXM2OVpxQmotSFhaS0lScTdWbFJ2bDk0TFBPbGFkblZUZFBBZWVBb1dJc1ZQdGVpdHZsSDdDZlRhZGJoaFRhN3hfdUxkQ3RUbGNlRHlTTTdfaS16MjJtWVFuT0lmekJjQU9rdXIyNWRXT2diZFJDNUhLVzBJZFQ2WlRTTA?oc=5"
+    },
+    {
+      "id": "los-grandes-portacontenedores-que-conectan-india-con-europa-vuelven-al-canal-de",
+      "datetime": "2026-11-19T20:46:14Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "Los grandes portacontenedores que conectan India con Europa vuelven al Canal de Suez con escala en Algeciras",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Asia",
+        "Europa"
+      ],
+      "countries": [
+        "India",
+        "España",
+        "Egipto"
+      ],
+      "tags": [
+        "Contenedores"
+      ],
+      "visual": "container",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Diario Área Campo de Gibraltar",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.diarioarea.com/puerto-algeciras/grandes-portacontenedores-conectan-india-europa-algeciras-vuelven-canal-suez/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T22:40:03Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNHliR1Zsa1Utc1FsRi1tUk9Oc2xZd1JWVmlHQzloem1HRzJ3akxFMGtKd0U1YVVvZFVfbjVzbWFNeDBWaHQ1TmVpZzYtNi14VHRUSVdQcFRMS212YzYtdnphRHFBYVpjbGd6LV9iYmxhelpyQ25XcXF1YU1hOEV1TzlBVzJHQmdDRjhGcGZEQkltSFFYdFRUZGYtNVNYV1NYZWFiX1VDd3BaSnJCeTdIM3hyRlhWN1hMMi1LeUNB?oc=5"
+    },
+    {
+      "id": "tpa-participa-en-inauguracion-del-proyecto-mejoramiento-alumbrado-publico-acceso",
+      "datetime": "2026-11-19T20:35:12Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "TPA participa en inauguración del proyecto “Mejoramiento Alumbrado Público Acceso Ruta 5, Avenida Santiago Arata”",
+      "summary": "Por PortalPortuario Social Terminal Puerto Arica (TPA) participó en la inauguración del proyecto “Mejoramiento Alumbrado Público Acceso Ruta 5, Avenida…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Chile"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/tpa-participa-en-inauguracion-del-proyecto-mejoramiento-alumbrado-publico-acceso-ruta-5-avenida-santiago-arata/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "puertos-peruanos-aumentan-movimiento-de-carga-entre-enero-y-septiembre",
+      "datetime": "2026-11-19T20:30:39Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "Puertos peruanos aumentan movimiento de carga entre enero y septiembre",
+      "summary": "Los puertos del Perú movilizaron más de 101 millones 959 mil toneladas métricas de carga entre…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Perú"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/puertos-peruanos-aumentan-movimiento-de-carga-entre-enero-y-septiembre/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "richard-von-appen-asegura-que-montevideo-container-terminal-es-un-proyecto-funda",
+      "datetime": "2026-11-19T20:16:46Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "Richard von Appen asegura que Montevideo Container Terminal es un proyecto fundamental para Uruguay",
+      "summary": "Richard von Appen, presidente de la empresa chilena Neltume Ports, aseguró que Montevideo Container Terminal (MTC) es un proyecto fundamental…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Uruguay",
+        "Chile"
+      ],
+      "tags": [],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/richard-von-appen-asegura-que-montevideo-container-terminal-es-un-proyecto-fundamental-para-uruguay/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "la-xunta-confirma-que-solo-las-navieras-de-cangas-pidieron-la-subida-del-billete",
+      "datetime": "2026-11-19T20:00:54Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "La Xunta confirma que solo las navieras de Cangas pidieron la subida del billete",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Faro de Vigo",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTk42ckdOb3NFOXduMGkteGp1eU1SdXMyVHcxLVdZOHZyeWVkYmRLVWYtaDZrRTJiVlNNeVdaWkNWdkRzeDcxNTN1NmlDSnVGNGc4b1NRS2QxNE9BdEhEdW5MR0JBNHN4V29PZjBBUXFwa3N0RENRUU1wQ0xvTXVnNWl4WVJoN1pmYTRkSGstZGszZUtoamlSSjVERTRBSjY3U2Q40gGoAUFVX3lxTE5YekdBdkJ0T3dwUm54b3dzeXBYQ3pzdFRPb1d6RVN3OVFUci1aVkpkc25rckZWTTJndWJsS0Q1aVpsQUp3ak9FSGoyWU9pZTJSYy1MWEF0Zkl4eTZPNWI0RGJLaWY0aWpRMHg1Ni1tNXR2UHhwa0hBX2FoX3UxVmVGeDh5T3BNMlhNanp2YW1JSmE1TVE1WEh2a1RLMi05ZXVTV1hUYVNvRA?oc=5",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T22:40:03Z"
+    },
+    {
+      "id": "puerto-de-oakland-ve-descenso-de-2-5-en-movimiento-de-teu-durante-octubre",
+      "datetime": "2026-11-19T20:00:36Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "Puerto de Oakland ve descenso de 2,5% en movimiento de TEU durante octubre",
+      "summary": "El Puerto de Oakland gestionó 178.361 TEU en octubre de 2026, lo que supone un descenso…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Contenedores",
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/puerto-de-oakland-ve-descenso-de-25-en-movimiento-de-teu-durante-octubre/",
+          "primary": true,
+          "author": "cmeza"
+        }
+      ]
+    },
+    {
+      "id": "peru-coordinan-acciones-con-transportistas-para-mejorar-seguridad-y-accesos-a-pu",
+      "datetime": "2026-11-19T19:30:03Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "Perú: Coordinan acciones con transportistas para mejorar seguridad y accesos a Puerto del Callao",
+      "summary": "La Autoridad Portuaria Nacional (APN) del Perú, entidad adscrita al Ministerio de Transportes y Comunicaciones (MTC)…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Perú"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "truck",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/peru-coordinan-acciones-con-transportistas-para-mejorar-seguridad-y-accesos-a-puerto-del-callao/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "indec-ica-octubre-2026-exportaciones-record-10061-superavit-3394",
+      "date": "2026-11-19",
+      "datetime": "2026-11-19T16:29:45-03:00",
+      "kind": "noticia",
+      "title": "Las exportaciones marcan otro récord mensual, USD 10.061 millones en octubre, y el superávit comercial llega a USD 3.394 millones",
+      "summary": "Según el INDEC, las ventas externas crecieron 26,4% interanual, con combustibles y energía casi duplicándose (+93,9%) y el petróleo crudo como primer producto, mientras las importaciones bajaron 6,7%, a USD 6.668 millones, con cantidades 17,3% menores. Hubo déficit con China (USD 400 millones) y con Brasil (USD 156 millones).",
+      "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Importaciones",
+        "China"
+      ],
+      "countries": [
+        "Argentina",
+        "China",
+        "Brasil",
+        "Estados Unidos"
+      ],
+      "tags": [
+        "INDEC",
+        "Balanza comercial",
+        "ICA",
+        "Vaca Muerta",
+        "Petróleo",
+        "Términos del intercambio"
+      ],
+      "visual": "chart",
+      "impact": 3,
+      "affectsArgentina": true,
+      "argentinaNote": "Es el dato oficial del comercio de bienes de octubre: confirma el peso de la energía en las exportaciones y una nueva caída de las importaciones en cantidades, sobre todo de piezas para bienes de capital, bienes de consumo y autos.",
+      "argentinaImpact": {
+        "change": "Las exportaciones de octubre (USD 10.061 millones) superaron el récord de septiembre y el saldo comercial fue de USD 3.394 millones; las importaciones cayeron 17,3% en cantidades.",
+        "who": "Exportadores de energía, agroindustria e industria; importadores de insumos, bienes de capital, bienes de consumo y vehículos.",
+        "sectors": [
+          "Petróleo y gas",
+          "Complejo sojero",
+          "Maíz",
+          "Automotriz",
+          "Bienes de capital",
+          "Bienes de consumo"
+        ],
+        "flows": {
+          "importaciones": true,
+          "exportaciones": true,
+          "logistica": false,
+          "aranceles": false
+        }
+      },
+      "body": [
+        "El INDEC informó el jueves 19 de noviembre que las exportaciones argentinas de bienes sumaron USD 10.061 millones en octubre, 26,4% más que un año antes, y que las importaciones llegaron a USD 6.668 millones, con una baja de 6,7%. El resultado fue un superávit comercial de USD 3.394 millones, frente a USD 813 millones en octubre de 2025, según el detalle que publicaron El Cronista y Bloomberg Línea a partir del informe oficial.",
+        "Con ese número las ventas externas volvieron a marcar un máximo para un mes: superaron los USD 10.036 millones de septiembre, que habían sido los primeros por encima de USD 10.000 millones, como informó Comexplora el 19 de octubre. El ministro de Economía, Luis Caputo, lo destacó en sus redes. El saldo, en cambio, no es récord: según La Posta Diario, es el segundo más alto de la gestión actual, detrás de los USD 3.504 millones de mayo, que Perfil había calificado como histórico. El intercambio total sumó USD 16.729 millones, 10,7% más que un año atrás.",
+        "## Precios, cantidades y rubros",
+        "Buena parte de la suba vino por los precios. Según El Cronista, los precios de exportación aumentaron 19,7% interanual y los de importación 12,8%, de modo que los términos del intercambio mejoraron 6,1%. Con los precios de octubre de 2025, el saldo habría sido de USD 2.495 millones: la mejora de precios relativos aportó unos USD 514 millones. En las importaciones, las cantidades se hundieron 17,3%, un dato que El Destape lee como señal de una actividad interna débil.",
+        "Los cuatro grandes rubros de exportación crecieron. Combustibles y energía tuvo el salto más fuerte: USD 1.734 millones, 93,9% más que un año antes, con precios 56,2% más altos y cantidades 24,8% mayores. Las manufacturas de origen agropecuario (MOA) siguieron siendo el rubro principal, con USD 3.314 millones (+18,8%); los productos primarios sumaron USD 2.328 millones (+22,3%) y las manufacturas de origen industrial (MOI), USD 2.685 millones (+13,1%).",
+        "El petróleo crudo fue el primer producto del mes, con USD 1.169 millones, 121,7% más que en octubre de 2025. Detrás quedaron la harina y los pellets de soja (USD 910 millones), el maíz en grano (USD 887 millones), los porotos de soja (USD 577 millones) y el aceite de soja en bruto (USD 558 millones). Esos cinco productos explicaron el 40,8% de todo lo exportado, de acuerdo con El Cronista.",
+        "## Importaciones: menos piezas, consumo y autos",
+        "Por usos económicos, los bienes intermedios, el rubro más grande, sumaron USD 2.416 millones (+1,9%) y los bienes de capital, USD 1.378 millones (+2,9%). El resto bajó: las piezas y accesorios para bienes de capital cayeron 17,3% en valor, los bienes de consumo 11,3%, los vehículos automotores de pasajeros 24,2%, hasta USD 413 millones, y los combustibles y lubricantes 33,2%, con 34% menos de volumen. Según El Destape, en piezas y en bienes de consumo las cantidades retrocedieron 27,7% y 23,5%, respectivamente.",
+        "Para los importadores, el cuadro combina precios más altos con menos unidades: la baja de las compras de autos y de bienes de consumo se suma a la de los insumos para la producción, que El Destape y NewsDigitales asocian con la caída de la demanda interna. Es una interpretación de esos medios; el informe del INDEC solo presenta los números.",
+        "## China y Brasil, con saldo negativo",
+        "China fue el principal socio individual del mes: la Argentina le vendió USD 1.326 millones y le compró USD 1.726 millones, con un déficit de USD 400 millones. Con Brasil, las exportaciones fueron de USD 1.269 millones y las importaciones de USD 1.425 millones, con un rojo de USD 156 millones. Con Estados Unidos hubo superávit de USD 250 millones: ventas por USD 820 millones y compras por USD 570 millones, según El Cronista.",
+        "Por bloques, Bloomberg Línea informó que el Mercosur concentró el mayor intercambio, USD 3.577 millones, con un saldo positivo de USD 39 millones. Con la Unión Europea el comercio sumó USD 2.006 millones y dejó un superávit de USD 277 millones, y con la ASEAN, USD 1.543 millones, con un saldo a favor de USD 817 millones.",
+        "## Diez meses de 2026",
+        "Entre enero y octubre las exportaciones acumularon USD 87.328 millones, 22,1% más que en igual período de 2025, con precios 12,2% más altos y cantidades 8,9% mayores. Las importaciones sumaron USD 62.760 millones, 2,9% menos. El saldo acumulado llegó a USD 24.568 millones, contra USD 6.859 millones un año antes. Las exportaciones de combustibles y energía crecieron 57,2% en los diez meses.",
+        "En el acumulado, el déficit con China fue de USD 6.292 millones y el déficit con Brasil de USD 2.379 millones, mientras que con Estados Unidos hubo un superávit de USD 2.802 millones. Comexplora no pudo acceder al informe técnico del INDEC al cierre de esta nota: las cifras se tomaron de los medios que lo reprodujeron, que coinciden entre sí."
+      ],
+      "keyData": [
+        [
+          "Exportaciones de octubre",
+          "USD 10.061 M (+26,4% i.a.)"
+        ],
+        [
+          "Importaciones de octubre",
+          "USD 6.668 M (−6,7% i.a.)"
+        ],
+        [
+          "Saldo comercial",
+          "USD 3.394 M (oct. 2025: USD 813 M)"
+        ],
+        [
+          "Combustibles y energía",
+          "USD 1.734 M (+93,9% i.a.)"
+        ],
+        [
+          "Petróleo crudo",
+          "USD 1.169 M (+121,7% i.a.)"
+        ],
+        [
+          "Importaciones en cantidades",
+          "−17,3% i.a."
+        ],
+        [
+          "Saldo enero–octubre",
+          "USD 24.568 M"
+        ]
+      ],
+      "explainer": {
+        "what": "El INDEC informó que en octubre las exportaciones sumaron USD 10.061 millones, un nuevo máximo mensual, y que el superávit comercial fue de USD 3.394 millones.",
+        "why": "La energía sigue empujando el ingreso de divisas: combustibles y energía creció 93,9% y el petróleo crudo fue el primer producto. Del otro lado, las importaciones cayeron 17,3% en cantidades, con bajas en piezas para bienes de capital, bienes de consumo y autos.",
+        "who": "Exportadores de energía, del complejo sojero y de maíz; importadores de insumos, bienes de consumo y vehículos; y quienes siguen la oferta de divisas del comercio exterior.",
+        "products": [
+          "Petróleo crudo",
+          "Harina y pellets de soja",
+          "Maíz",
+          "Porotos de soja",
+          "Aceite de soja",
+          "Vehículos de pasajeros",
+          "Bienes de capital"
+        ]
+      },
+      "sources": [
+        {
+          "name": "El Cronista",
+          "type": "Medio de comunicación",
+          "url": "https://www.cronista.com/economia-politica/energia-y-menores-importaciones-las-claves-del-superavit-comercial-record-de-octubre/",
+          "primary": true
+        },
+        {
+          "name": "Bloomberg Línea",
+          "type": "Medio de comunicación",
+          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/exportaciones-argentinas-marcaron-record-en-octubre-y-el-superavit-comercial-supero-los-us3000-millones/",
+          "author": "Belén Escobar"
+        },
+        {
+          "name": "El Destape",
+          "type": "Medio de comunicación",
+          "url": "https://www.eldestapeweb.com/economia/importaciones-caen-compras-insumos-produccion-crecen-senales-recesion-20261119161943"
+        },
+        {
+          "name": "La Posta Diario",
+          "type": "Medio de comunicación",
+          "url": "https://lapostadiario.com/boom-exportador-el-superavit-comercial-supero-los-us3-000-millones-en-octubre-y-marca-otro-pico-bajo-milei/"
+        },
+        {
+          "name": "Perfil (dato de mayo de 2026)",
+          "type": "Medio de comunicación",
+          "url": "https://www.perfil.com/noticias/economia/la-balanza-comercial-registro-un-superavit-record-de-us-3504-millones-en-mayo-a40.phtml"
+        }
+      ],
+      "story": "balanza-argentina"
+    },
+    {
+      "id": "superavit-comercial-de-argentina-en-octubre-de-2026-exportaciones-suben-26-4-e-i",
+      "datetime": "2026-11-19T19:20:21Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "Superávit comercial de Argentina en octubre de 2026: exportaciones suben 26,4 % e importaciones caen 6,7 % - Noticias y Estadísticas",
+      "summary": "Argentina registró un superávit comercial de 3.394 millones de dólares en octubre de 2026, con exportaciones que subieron un 26,4 % por mayores precios y volúmenes e importaciones que cayeron un 6,7 %, impulsadas por combustibles y energía.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Importaciones",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "IndexBox",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.indexbox.io/es/blog/argentina-posts-usd-3394-million-october-trade-surplus-as-exports-rise-264/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T22:40:03Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd0V3NlpRQnJnaklwaTNwbzdBVHkwWDFzX192eE5FUEZ2YUV5cDk2M0NRZjE3TkJWWUZCR2N0NEFNcXlPNEhYZWZCNjJFc0pDZ1c0TXJoMW82Qk9QUFlldHVFMFZjWGxOOVA0eHJCVl92UXB5TTcyaUFZNmtqMnlIa255WVRfbkd0WEp1Y3dDaU05VmJkcUZYOS1Ra0Y1blBGZ01HcXVNckxaX1U?oc=5"
+    },
+    {
+      "id": "octubre-dejo-mas-dolares-por-exportaciones-pero-senales-de-una-recesion-profunda",
+      "datetime": "2026-11-19T19:12:28Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "Octubre dejó más dólares por exportaciones, pero señales de una recesión profunda",
+      "summary": "El intercambio comercial con el mundo muestra superávit récord por más ventas al exterior pero también por el desplome de las importaciones.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "NewsDigitales",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.newsdigitales.com/nota/350491/octubre-dejo-mas-dolares-por-exportaciones-pero-senales-de-una-recesion-profunda/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T22:40:03Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUGpwbEZUelJhN3lMZnV6bXVBejFiVnpDQlZwSmVmdWoxdFlVY29ndk9tQnE3djVCbkJVUjFqWVNUNlZFa3dDeUVvYUpaT0Fzc0FyZjZvZTVGTWJEN1MyOXFXSTNlX0dYVXVYYl9LNGY3SDY2eHN5M3BuNFEwajVNN0RvYVBDT1dDeG9iOVBUdkg5amtxZ19SLXJLNnF2Y1dZWHZCX01LekNUc2xkUmRzRk81X3o3RHktcnFHSTczUGM?oc=5"
+    },
+    {
+      "id": "msc-mejora-conexiones-maritimas-entre-asia-y-norteamerica",
+      "datetime": "2026-11-19T19:00:51Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "MSC mejora conexiones marítimas entre Asia y Norteamérica",
+      "summary": "Mediterranean Shipping Company (MSC) anunció que implementará mejoras en su red Asia-Pacífico Noroeste. Las modificaciones están…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/msc-mejora-conexiones-maritimas-entre-asia-y-norteamerica/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "dhl-acerca-el-acuerdo-ue-mercosur-a-las-pymes-espanolas",
+      "datetime": "2026-11-19T18:35:00Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "DHL acerca el acuerdo UE-Mercosur a las pymes españolas",
+      "summary": "DHL Express organiza encuentros en España para ayudar a las pymes a aprovechar las oportunidades comerciales y logísticas del acuerdo UE-Mercosur.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Mercosur",
+        "Europa"
+      ],
+      "countries": [
+        "Unión Europea"
+      ],
+      "tags": [
+        "Mercosur",
+        "UE-Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Infopuertos",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://infopuertos.com/dhl-express-pymes-oportunidades-acuerdo-ue-mercosur/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T22:40:03Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMHBLM3dwcE1MWVQyNmpKa0tHTHRma1JqX25aalRZS0RyNDVHcXpzM2MwRmxUbXFMcUNQTUlMQXRhc09vMHBEbnZYOFQ4VU9IWnFFYk5HSUExSkZjWi03Z3g0Snh2a2pRcXNCRTQxclU2U09qNFlNV1lpa1h0UFdlcWJB?oc=5"
+    },
+    {
+      "id": "mermas-compliance-y-costos-ocultos-los-desafios-de-modernizar-la-aduana-argentin",
+      "datetime": "2026-11-19T18:08:00Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "Mermas, compliance y costos ocultos: los desafíos de modernizar la aduana argentina en un mundo atravesado por conflictos bélicos",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Aduanas",
+        "Geopolítica y comercio"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 2,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "SL24",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZXBVWVNRYzNpVGZUZWpxSGplanNCZG9YT3lsenJyaVZQci1sMUtLQ1FueWZ0ZjJmUTZTODJEdV95Z1VfVGVsRFdpczJmczUtTm5uNWtYYXdrbi1lTjY0RE0yVDdnRXJzOVV1SlVJUjQzOTFFaXBVaUhlOTd0X2txcnBIZ1dzZ0lDZ2N2WEJLWGh0VzBKMC1ZX2xXcDBXQlM4Z2g1VkxLMU1ab0Z6cHd1dDhCdTc1MVVESGU2UjJBa09ZRmJ0REZrSG5JcllJVGpLdmx0MU1HYWNBYlAydkdwUlFR?oc=5",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T22:40:03Z"
+    },
     {
       "id": "sheinbaum-revela-cuando-podria-firmarse-el-nuevo-acuerdo-comercial-entre-mexico",
       "datetime": "2026-11-19T14:14:50Z",
@@ -985,6 +2008,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Exportaciones",
         "Logística",
         "Estados Unidos"
       ],
@@ -993,6 +2017,7 @@
       ],
       "tags": [
         "Fletes",
+        "Energía",
         "Estados Unidos"
       ],
       "visual": "tanker",
@@ -1040,12 +2065,19 @@
       "topics": [
         "Aranceles",
         "Tratados y acuerdos",
-        "Estados Unidos"
+        "Latinoamérica",
+        "Estados Unidos",
+        "China"
       ],
       "countries": [
-        "Estados Unidos"
+        "México",
+        "Estados Unidos",
+        "China"
       ],
       "tags": [
+        "Acero",
+        "Aluminio",
+        "Autos",
         "Aranceles",
         "Estados Unidos"
       ],
@@ -1152,6 +2184,13 @@
           "url": "https://www.elmartutino.cl/noticia/politica/presidente-kast-destaca-acuerdo-comercial-con-filipinas-y-nuevas-oportunidades-de-i",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Portal Innova",
+          "type": "También publicó esta noticia",
+          "url": "https://portalinnova.cl/chile-acuerdo-comercial-filipinas-cepa-apec-2026/",
+          "alsoIn": true,
+          "title": "Chile y Filipinas firman acuerdo comercial en APEC 2026"
         }
       ],
       "gnTried": "2026-11-19T14:26:31Z",
@@ -1161,7 +2200,14 @@
         "reason": "no se encontró una versión legible",
         "retry": true,
         "tries": 1
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fX1Nlc3NudUxMVzJwNjRmcTkxTmY0RGVfTU9wY1NxWjZseU1NSHZHUUIyYVJUVW1XY2NnSU1wcDNhSjF0UVlmR21vOG8wTzBlUnlONTJYSzl0TTRzdUl1SUM2cGlBY1lOLV9CbGpxTEpuaVE5SVVYLXRpVGRzUQ",
+        "https://portalinnova.cl/chile-acuerdo-comercial-filipinas-cepa-apec-2026"
+      ],
+      "mergedIds": [
+        "chile-y-filipinas-firman-acuerdo-comercial-en-apec-2026"
+      ]
     },
     {
       "id": "aranceles-de-25-reducen-ventas-anuales-de-motocicletas-en-mexico-indian-motorcyc",
@@ -1266,12 +2312,20 @@
       "topics": [
         "Exportaciones",
         "Tecnología COMEX",
+        "Estados Unidos",
+        "China",
         "Asia"
       ],
       "countries": [
-        "Corea del Sur"
+        "Estados Unidos",
+        "China",
+        "Corea del Sur",
+        "Alemania"
       ],
-      "tags": [],
+      "tags": [
+        "Estados Unidos",
+        "China"
+      ],
       "visual": "customs",
       "impact": 1,
       "affectsArgentina": false,
@@ -1295,6 +2349,40 @@
         "retry": true,
         "tries": 1
       }
+    },
+    {
+      "id": "y-la-ropa-esta-regalada-la-dura-critica-de-un-importante-empresario-textil-a-mil",
+      "datetime": "2026-11-19T13:21:00Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "\"¿Y LA ROPA ESTÁ REGALADA?\": la dura crítica de un importante empresario textil a Milei por las importaciones",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Importaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "textile",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "El Economista - Últimas noticias económicas y financieras",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQ2pFam9BcnNpSjI5ejM4ckNMbzRoU1ZwaXdZRm1jb1UwMDhQTGl5ZjVXYk1kamdScjA1ZF9PZE5zV3ZtTDhWX00yOGtOeHNXTktjSG12cUdDaGRLSk8tZnlULWsxbGxoVEZEbk1kSlJzLWJ5ekRHYi1zV0VwXzVBZUZxU09TM2dUUTRVRzJjNy0zWjBReHlELUU2TVJMZXd3bXdXUWlkSER1MmN1RC1DOUdMMExzMy14aG5LeFYzd1BzaEhR0gHKAUFVX3lxTE45Z1BLd01LZ3lpbVNXQU1SRXE5c2p5TnJhQ0FROXdGQUNVbVRIUk1wOXA4UzE1U2s2WnV1TV9Qd0ViTm9oOF9CZzNRanhwSFV0Wm56VE9oM2RnTnRDMS1vWkFGOTFCVUpzR05Wa1NIaDRyRGNjNTJYLWM3OWQxNjhaOGVCSEJjVHpQRnFIZlNPTThheXctRklSOGNSMDY1VDBCV0dGR0ljRlBPVVM0WFB4UEpDSlU2Uy1zc3U0Ni1IWGhENTQ5NzdHbFE?oc=5",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T22:40:03Z"
     },
     {
       "id": "crece-riesgo-de-huelga-en-puertos-de-los-angeles-y-long-beach-ante-estancamiento",
@@ -1400,6 +2488,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Tratados y acuerdos",
         "Mercosur"
       ],
       "countries": [
@@ -1473,45 +2562,161 @@
       }
     },
     {
-      "id": "maersk-y-hapag-lloyd-aceleran-regreso-a-suez-y-aumentan-la-presion-sobre-los-fle",
-      "datetime": "2026-11-19T12:33:56Z",
+      "id": "argentina-lng-directorio-ypf-aprueba-fid-firma-30-noviembre-eni-xrg",
       "date": "2026-11-19",
-      "firstSeen": "2026-11-19T14:26:31Z",
-      "title": "Maersk y Hapag-Lloyd aceleran regreso a Suez y aumentan la presión sobre los fletes",
-      "summary": "",
-      "body": [],
-      "keyData": [],
+      "datetime": "2026-11-19T09:37:28-03:00",
+      "kind": "noticia",
+      "title": "Argentina LNG: el directorio de YPF aprobó la decisión final de inversión y la firma con Eni y XRG pasa al lunes 30 de noviembre",
+      "summary": "La aprobación fue por unanimidad el 16 de noviembre, el mismo día en que se cerró el traspaso a Eni y XRG de acciones de la sociedad dueña de cinco áreas de Vaca Muerta. La firma del proyecto de USD 51.000 millones para exportar GNL, antes prevista para el 26, será en el Palacio Libertad.",
       "topics": [
-        "Logística",
-        "Transporte marítimo"
+        "Argentina",
+        "Exportaciones",
+        "Empresas"
       ],
       "countries": [
-        "Global"
+        "Argentina",
+        "Italia",
+        "Emiratos Árabes Unidos",
+        "Estados Unidos"
       ],
       "tags": [
-        "Fletes"
+        "YPF",
+        "Eni",
+        "XRG",
+        "ADNOC",
+        "GNL",
+        "Argentina LNG",
+        "Vaca Muerta",
+        "RIGI",
+        "Río Negro",
+        "Neuquén"
       ],
-      "visual": "ship",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Logística y fletes",
+      "visual": "energy",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "Acerca el compromiso de inversión del principal proyecto de exportación de gas natural licuado del país, que abre demanda de caños, servicios y logística desde 2027 y proyecta ventas externas por unos USD 10.000 millones anuales.",
+      "argentinaImpact": {
+        "change": "El directorio de YPF aprobó la decisión final de inversión de Argentina LNG y la firma con Eni y XRG quedó para el 30 de noviembre.",
+        "who": "Proveedores de la industria del gas, fabricantes de caños, empresas de servicios petroleros, importadores de equipos y operadores logísticos de Neuquén y Río Negro.",
+        "sectors": [
+          "Petróleo y gas",
+          "Siderurgia",
+          "Construcción",
+          "Logística"
+        ],
+        "flows": {
+          "importaciones": true,
+          "exportaciones": true,
+          "logistica": true,
+          "aranceles": false
+        }
+      },
+      "body": [
+        "El directorio de YPF aprobó por unanimidad la decisión final de inversión (FID, por su sigla en inglés) de Argentina LNG, el proyecto para exportar gas natural licuado de Vaca Muerta que la petrolera comparte con la italiana Eni y con XRG, la plataforma de inversiones internacionales de la emiratí ADNOC. Lo contó el presidente y CEO de la compañía, Horacio Marín, la noche del lunes 16 de noviembre, en una entrevista con Neura Media, después de una reunión de directorio de cinco horas, según Shale24 y La Vanguardia Noticias.",
+        "La firma entre los tres socios quedó para el lunes 30 de noviembre en el Palacio Libertad, en Buenos Aires, informaron El Cordillerano y El Monterizo el 19 de noviembre. Es una fecha posterior a la que había anunciado Marín a comienzos de octubre, el jueves 26 de noviembre, como informó Comexplora el 24 de octubre. Ninguna de las fuentes consultadas explica el cambio.",
+        "## El traspaso de acciones",
+        "El mismo 16 de noviembre se completó la venta a Eni y XRG de parte de la participación de YPF en UPCO ARLNG I, la sociedad titular de cinco áreas de Vaca Muerta destinadas al proyecto: Meseta Buena Esperanza I y II, Aguada Villanueva Norte y Las Tacanas I y II, según El Cordillerano. Tras el cierre, YPF queda con el 36% y cada una de sus socias con el 32%.",
+        "La operación necesitaba la autorización de la provincia del Neuquén, que la otorgó con los decretos 1861, 1862 y 1863, publicados el 13 de noviembre, de acuerdo con Shale24 y La Vanguardia Noticias. Según Shale24, el programa de la firma incluye un encuentro con la industria la noche anterior, la visita al presidente Javier Milei y la presencia del CEO de Eni, Claudio Descalzi.",
+        "## El proyecto, en números",
+        "De acuerdo con la solicitud de adhesión al Régimen de Incentivo para Grandes Inversiones (RIGI) presentada el 13 de agosto, la inversión suma USD 51.000 millones a lo largo de la vida útil del proyecto, según Shale24 y Border Periodismo. Marín detalló que unos USD 30.000 millones se invertirán en los primeros cuatro años para tener el gas listo para licuar, y que los costos operativos superarán los USD 20.000 millones. Las cifras de los medios no suman exactamente el total y ninguno aclara la diferencia.",
+        "La primera etapa prevé dos unidades flotantes de licuefacción (FLNG) de 6 millones de toneladas anuales cada una, ancladas en el golfo San Matías, frente a la costa de Río Negro. Shale24 informó que se conversa sobre una tercera unidad de la misma capacidad. Marín proyecta exportaciones por unos USD 200.000 millones en 20 años, con un piso de USD 10.000 millones por año, y en septiembre el proyecto recibió una oferta de financiamiento de hasta USD 6.000 millones del Banco de Exportaciones e Importaciones de Estados Unidos (EXIM).",
+        "## Qué significa para proveedores y logística",
+        "El proyecto incluye un gasoducto dedicado de unos 526 kilómetros desde Vaca Muerta hasta Punta Colorada, con un caño de 48 pulgadas, un poliducto paralelo de 24 pulgadas para los líquidos, una planta fraccionadora en Río Negro y una planta separadora en Cutral Co y Plaza Huincul, en el Neuquén, según El Cordillerano y El Monterizo. La provisión del caño de 48 pulgadas se repartió entre Grupo Cuñado, de España, y Corinth Pipeworks, de Grecia, mientras que el poliducto lo fabricará Tenaris en la Argentina.",
+        "Marín anticipó que la construcción del gasoducto podría empezar en febrero de 2027 si la FID se firma en plazo. YPF estimó en agosto unos 20.000 puestos de trabajo por año durante la obra, con picos de 40.000, y unos 8.000 en la etapa de operación. El gobernador neuquino, Rolando Figueroa, confirmó la fecha de la firma y destacó la planta separadora, con una inversión de más de USD 7.000 millones, según los mismos medios.",
+        "## Los compromisos con Río Negro",
+        "El acta acuerdo entre Río Negro, YPF y Argentina LNG, presentada en Viedma en febrero, activa compromisos desde la firma de la FID: un aporte comunitario de USD 25 millones y la puesta en operación del aeropuerto de San Antonio Oeste, de acuerdo con El Monterizo. Desde el inicio de la operación comercial se suman USD 24 millones por año para la comunidad y USD 10 millones anuales en cánones y tasas provinciales, además de la prioridad para trabajadores y proveedores rionegrinos que fijan las leyes provinciales 5804 y 5805. Según El Cordillerano, YPF prevé tener operativas las dos unidades flotantes en 2031."
+      ],
+      "keyData": [
+        [
+          "Inversión total (solicitud RIGI)",
+          "USD 51.000 M"
+        ],
+        [
+          "Firma de la decisión final de inversión",
+          "Lunes 30 de noviembre, Palacio Libertad"
+        ],
+        [
+          "Aprobación del directorio de YPF",
+          "16 de noviembre, por unanimidad"
+        ],
+        [
+          "Participaciones en UPCO ARLNG I",
+          "YPF 36%, Eni 32%, XRG 32%"
+        ],
+        [
+          "Capacidad de la primera etapa",
+          "2 unidades FLNG de 6 millones de t/año"
+        ],
+        [
+          "Exportaciones proyectadas",
+          "USD 200.000 M en 20 años (Marín)"
+        ],
+        [
+          "Aporte a Río Negro desde la FID",
+          "USD 25 M"
+        ]
+      ],
+      "explainer": {
+        "what": "El directorio de YPF aprobó por unanimidad el 16 de noviembre la decisión final de inversión de Argentina LNG, y la firma con Eni y XRG quedó para el lunes 30 de noviembre.",
+        "why": "Es el paso que compromete una inversión de USD 51.000 millones para exportar gas natural licuado de Vaca Muerta, con ventas externas proyectadas por USD 200.000 millones en 20 años y demanda de caños, equipos y servicios desde 2027.",
+        "who": "Proveedores de la industria del gas y fabricantes de caños, empresas de servicios, importadores de equipos, operadores logísticos y las provincias de Neuquén y Río Negro.",
+        "products": [
+          "Gas natural licuado",
+          "Gas natural",
+          "Caños de acero",
+          "Unidades flotantes de licuefacción"
+        ],
+        "next": "YPF, Eni y XRG prevén firmar la decisión final de inversión el lunes 30 de noviembre en el Palacio Libertad; Marín anticipó que la construcción del gasoducto podría empezar en febrero de 2027 si la firma se hace en plazo.",
+        "nextSource": {
+          "name": "El Cordillerano",
+          "url": "https://www.elcordillerano.com.ar/noticias/2026/11/19/274008-es-la-inversion-mas-grande-de-la-historia-ypf-eni-y-xrg-firman-decision-final-de-inversion-el-lunes-30"
+        }
+      },
       "sources": [
         {
-          "name": "MasContainer",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://mascontainer.com/maersk-y-hapag-lloyd-aceleran-regreso-a-suez-y-aumentan-la-presion-sobre-los-fletes/",
-          "primary": true,
-          "author": ""
+          "name": "El Monterizo",
+          "type": "Medio de comunicación",
+          "url": "https://elmonterizo.com/ypf-eni-y-xrg-firman-el-lunes-30-los-dos-compromisos-que-se-activan-para-rio-negro",
+          "primary": true
+        },
+        {
+          "name": "El Cordillerano",
+          "type": "Medio de comunicación",
+          "url": "https://www.elcordillerano.com.ar/noticias/2026/11/19/274008-es-la-inversion-mas-grande-de-la-historia-ypf-eni-y-xrg-firman-decision-final-de-inversion-el-lunes-30"
+        },
+        {
+          "name": "Shale24",
+          "type": "Medio especializado",
+          "url": "https://www.shale24.com/oil-gas/el-directorio-ypf-aprobo-unanimidad-fid-argentina-lng-completo-traspaso-acciones-eni-xrg-n2069",
+          "author": "Lucía Martínez"
+        },
+        {
+          "name": "La Vanguardia Noticias",
+          "type": "Medio de comunicación",
+          "url": "https://www.lavanguardianoticias.com.ar/nota-ypf-aprobo-por-unanimidad-la-inversion-final-de-argentina-lng-la-firma-sera-el-30-de-noviembre-en-el-palacio-libertad-123465"
+        },
+        {
+          "name": "Border Periodismo",
+          "type": "Medio de comunicación",
+          "url": "https://borderperiodismo.com/economia/ypf-prepara-la-firma-de-la-inversion-mas-grande-de-la-historia-del-pais-para-exportar-gnl/"
         }
       ],
-      "gnTried": "2026-11-19T14:26:31Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYzVudDRlbS0wQlFTN216azZacEh2WHdrcGx2NGV6V1JuVGJXd1llamNzM0xtNVJZdkpWc0ZXSGJ2bnBKcEk1RnpuVV94cUl4TURMQWJIbDcwLVNDWFEzVUItTmNjTU9FOEptVEhsUjJzaExDNGptSmxiXzFhRHd2TExIU0lPY0lXcjVHRGhBcFdkcXBJSlhtbllYZnMyY0hDUDBpNW1rZ0t4eFF3VFE?oc=5",
-      "digestSkip": {
-        "at": "2026-11-19T12:49:07-03:00",
-        "reason": "repite una nota de la redacción (regreso de navieras a Suez)"
-      }
+      "story": "energia-mineria",
+      "deadlines": [
+        {
+          "date": "2026-11-30",
+          "label": "YPF, Eni y XRG: firma prevista de la decisión final de inversión de Argentina LNG",
+          "url": "https://www.elcordillerano.com.ar/noticias/2026/11/19/274008-es-la-inversion-mas-grande-de-la-historia-ypf-eni-y-xrg-firman-decision-final-de-inversion-el-lunes-30"
+        },
+        {
+          "date": "2027-02",
+          "label": "Argentina LNG: podría empezar la construcción del gasoducto dedicado, solo si la decisión final de inversión se firma en plazo (según Marín)",
+          "url": "https://www.elcordillerano.com.ar/noticias/2026/11/19/274008-es-la-inversion-mas-grande-de-la-historia-ypf-eni-y-xrg-firman-decision-final-de-inversion-el-lunes-30"
+        }
+      ],
+      "absorbs": [
+        "ypf-prepara-la-firma-de-la-inversion-mas-grande-de-la-historia-del-pais-para-exp"
+      ]
     },
     {
       "id": "un-brasil-mas-barato-enciende-alertas-en-la-argentina-por-el-turismo-y-las-expor",
@@ -1609,6 +2814,7 @@
       "keyData": [],
       "topics": [
         "Argentina",
+        "Exportaciones",
         "Latinoamérica",
         "Mercosur"
       ],
@@ -1661,7 +2867,8 @@
         "Global"
       ],
       "tags": [
-        "Fletes"
+        "Fletes",
+        "Contenedores"
       ],
       "visual": "ship",
       "impact": 1,
@@ -1698,10 +2905,11 @@
       "keyData": [],
       "topics": [
         "Logística",
-        "Transporte marítimo"
+        "Transporte marítimo",
+        "Latinoamérica"
       ],
       "countries": [
-        "Global"
+        "México"
       ],
       "tags": [
         "Fletes"
@@ -1782,6 +2990,43 @@
       }
     },
     {
+      "id": "dhl-express-analizara-las-oportunidades-de-exportacion-que-abre-mercosur-para-la",
+      "datetime": "2026-11-19T09:11:37Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "DHL Express analizará las oportunidades de exportación que abre Mercosur para las empresas españolas",
+      "summary": "La compañía organizará del 23 al 27 de noviembre encuentros en Madrid, Barcelona, Valencia, Sevilla y Lisboa para abordar el potencial comercial de Argentina, Brasil, Paraguay y Uruguay.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Mercosur"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Ruta del Transporte",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.rutadeltransporte.com/supply-chain/dhl-express-analizara-las-oportunidades-de-exportacion-que-abre-mercosur-para-las-empresas-espanolas.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T22:40:03Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNdUw4T1k3Y0pZLWRtRmg1QnBualJoLW1qUkcwSjZnUnduanFEVUwteTJiZW5uZlU0TllleVBUV0ktaW9EVlZEOEhEU0E1Q2RBZ01SSFo3LTFyTXZxYWlUMThZQW4zbTVPLWl4eEg3X0g2bTRvSDI1QldBeUVHVVJ0SW1XOThSd1ZURkRacHBTaU9vSXNLZXVHNGROMHhMNkN2bjVoREtoZXRXM2Rpa0hKa3dteFZyVkJJbHMxQ2QzT1BJRXZvZnR2TzM0cUtOS0JuVjBDYVBkSkJ0NGhSRHFPblhYakNWZ0U?oc=5"
+    },
+    {
       "id": "chile-la-confianza-sanitaria-como-factor-de-competitividad-en-el-comercio-intern",
       "datetime": "2026-11-19T08:05:47Z",
       "date": "2026-11-19",
@@ -1791,15 +3036,18 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Latinoamérica"
+        "Latinoamérica",
+        "Mercosur"
       ],
       "countries": [
         "Chile"
       ],
-      "tags": [],
-      "visual": "globe",
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
       "impact": 1,
-      "affectsArgentina": false,
+      "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
       "feed": "Google Noticias · Mercosur",
@@ -1922,17 +3170,21 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Aranceles",
+        "Mercosur",
         "Estados Unidos"
       ],
       "countries": [
         "Estados Unidos"
       ],
       "tags": [
+        "Mercosur",
+        "Aranceles",
         "Estados Unidos"
       ],
       "visual": "chart",
-      "impact": 1,
-      "affectsArgentina": false,
+      "impact": 2,
+      "affectsArgentina": true,
       "kind": "noticia",
       "label": "Automática",
       "feed": "Google Noticias · Mercosur",
@@ -2012,7 +3264,8 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Importaciones"
+        "Importaciones",
+        "Exportaciones"
       ],
       "countries": [
         "Argentina"
@@ -2133,15 +3386,35 @@
           "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSUJOYWg2NlVoeGhqWU9zN1M0emdCbGhZTUFvN0tjdVQ3Zkd5cjdRX2c0eDJPczVLZnlFaE5ibTZNV2R4Mm5UdkJLQm03b3U5SWowR280emZmRWpmcFh4eHpTM0d6bU5WaHIzbTZUMF9mOGx5X1ZtQzM3aHB3WkFOSGdQNV9qM19ubkx1djh6aTF3azYwTncwb251NEc1MnJ6X3lhc3V0cGJWMGtLamM5aWR0b05jSE94S2FrM1BqR0luXzJsbjJ2LXNlMU1hb3NsNjJ3NkJ6VjBGOW8xYmx5LUppV3DSAeoBQVVfeXFMUHduWWVfcGNWVjJOSmVHZm9xMWw5WURPa2FSM3NwdUFCN2lzeWZxVXFUSkdlRUFZVmxwdHRfRjNGelBwT2QzdmxYbHhFVWRIbzdPVnZ0aGowN29uOVVROTgwUWtfeDNRMjl1Wk9mRndsemJ2ZnRzMXN2a0JpLUhjUWd1dGJRWld2Mnd6WVhBTXRXSlZmUDg4QUJKLTlRTXBvSDRNb29VTU5jTDNxWFI2N3dOal9SaHpfN01UUERtZ3U5enBtR05IQVlONFBmYl9NNkpfemE5b3JvMlExUE1LQTlmbTZaR2RLWHRR?oc=5",
           "alsoIn": true,
           "title": "La devaluación del real abarata fuerte las vacaciones en Brasil y pone en riesgo al 35% de las exportaciones regionales"
+        },
+        {
+          "name": "Punto Biz",
+          "type": "También publicó esta noticia",
+          "url": "https://puntobiz.com.ar/economia/la-devaluacion-del-real-complica-algunos-productos-argentinos-de-exportacion-2026111917520",
+          "alsoIn": true,
+          "title": "La devaluación del real complica algunos productos argentinos de exportación"
+        },
+        {
+          "name": "La Nación",
+          "type": "También publicó esta noticia",
+          "url": "https://www.lanacion.com.ar/economia/campo/la-devaluacion-del-real-amenaza-las-exportaciones-de-las-economias-regionales-argentinas-a-brasil-nid19112026/",
+          "alsoIn": true,
+          "title": "La devaluación del real amenaza las exportaciones de las economías regionales argentinas a Brasil"
         }
       ],
       "gnTried": "2026-11-19T04:12:28Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNjU4aEJtY3hNRkRDZTNzYXhmOXlUZnh5UXJLLXU2ZHVxT0hINEZTUEtIVEpleXFTV2xWRjFxMTFQdFlKVUpaY0RVb1RMRXY1a25PY2d5NTBiaHJrTU9SNHlBbnlCVkJOQl8zamplWmI0NUpxZ0l6RWFYT3Y2OHNkSS14U2Rwc2JwcVVJSUNJQUdEUjEybmNWdnNRLVp3cDY1c2NlZjVUak9HOHpidGZ5RGtXc24?oc=5",
       "aliasUrls": [
-        "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSUJOYWg2NlVoeGhqWU9zN1M0emdCbGhZTUFvN0tjdVQ3Zkd5cjdRX2c0eDJPczVLZnlFaE5ibTZNV2R4Mm5UdkJLQm03b3U5SWowR280emZmRWpmcFh4eHpTM0d6bU5WaHIzbTZUMF9mOGx5X1ZtQzM3aHB3WkFOSGdQNV9qM19ubkx1djh6aTF3azYwTncwb251NEc1MnJ6X3lhc3V0cGJWMGtLamM5aWR0b05jSE94S2FrM1BqR0luXzJsbjJ2LXNlMU1hb3NsNjJ3NkJ6VjBGOW8xYmx5LUppV3DSAeoBQVVfeXFMUHduWWVfcGNWVjJOSmVHZm9xMWw5WURPa2FSM3NwdUFCN2lzeWZxVXFUSkdlRUFZVmxwdHRfRjNGelBwT2QzdmxYbHhFVWRIbzdPVnZ0aGowN29uOVVROTgwUWtfeDNRMjl1Wk9mRndsemJ2ZnRzMXN2a0JpLUhjUWd1dGJRWld2Mnd6WVhBTXRXSlZmUDg4QUJKLTlRTXBvSDRNb29VTU5jTDNxWFI2N3dOal9SaHpfN01UUERtZ3U5enBtR05IQVlONFBmYl9NNkpfemE5b3JvMlExUE1LQTlmbTZaR2RLWHRR"
+        "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSUJOYWg2NlVoeGhqWU9zN1M0emdCbGhZTUFvN0tjdVQ3Zkd5cjdRX2c0eDJPczVLZnlFaE5ibTZNV2R4Mm5UdkJLQm03b3U5SWowR280emZmRWpmcFh4eHpTM0d6bU5WaHIzbTZUMF9mOGx5X1ZtQzM3aHB3WkFOSGdQNV9qM19ubkx1djh6aTF3azYwTncwb251NEc1MnJ6X3lhc3V0cGJWMGtLamM5aWR0b05jSE94S2FrM1BqR0luXzJsbjJ2LXNlMU1hb3NsNjJ3NkJ6VjBGOW8xYmx5LUppV3DSAeoBQVVfeXFMUHduWWVfcGNWVjJOSmVHZm9xMWw5WURPa2FSM3NwdUFCN2lzeWZxVXFUSkdlRUFZVmxwdHRfRjNGelBwT2QzdmxYbHhFVWRIbzdPVnZ0aGowN29uOVVROTgwUWtfeDNRMjl1Wk9mRndsemJ2ZnRzMXN2a0JpLUhjUWd1dGJRWld2Mnd6WVhBTXRXSlZmUDg4QUJKLTlRTXBvSDRNb29VTU5jTDNxWFI2N3dOal9SaHpfN01UUERtZ3U5enBtR05IQVlONFBmYl9NNkpfemE5b3JvMlExUE1LQTlmbTZaR2RLWHRR",
+        "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQWjQ1cHFXQU15c1RaM2Q3clBIQWVHNzhtNGRSMk9JYmoxRVAwTUJpYl9PSnZ3d1ZaV3lFdGQyV21YbEJrVXZMeUdNYktLRzdPZkxERUtWYWpLNkdJeVFkR1M1cm1qV1J4S2dkRjU3OC1zYWdMai1uZk52UkNaSUFPbHhZSVk2VXpIbUpPNXczaC1kc0IzU1R0STlMUEN4NWV4MWhUQjZWY1RvcU0zTEU5S1BTRjY3NEhSYmlXOEVuLXE4THR4dTRwbnl6X2w1YXhsc29vZV9QZVI5MXN2WV91QXU0bXVib0ZO",
+        "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYll5U3ZxemFUaGk3ZGJMNlFMUkdNODVlZ1NERktWZU1jMXVtb216bENJMGJTOEdlZWhZRWVUWTktRVlxSDlzeVJ2ckVKczRBS2doWmg3OUg5ZEpQYzBqZWtHcndHVnRHd0c1TlNwZEF2MXJXSkswLTJFSEYzNXdzRDc2Y2dXa0pja0VsZkFGZkF6VzA3alI5RWxDQWZ4QUg1TmtpVzZ0NEVWMUlDQmtLTF8zUUJaQ1FORTMwS1dsb0w",
+        "https://puntobiz.com.ar/economia/la-devaluacion-del-real-complica-algunos-productos-argentinos-de-exportacion-2026111917520",
+        "https://www.lanacion.com.ar/economia/campo/la-devaluacion-del-real-amenaza-las-exportaciones-de-las-economias-regionales-argentinas-a-brasil-nid19112026"
       ],
       "mergedIds": [
-        "la-devaluacion-del-real-abarata-fuerte-las-vacaciones-en-brasil-y-pone-en-riesgo"
+        "la-devaluacion-del-real-abarata-fuerte-las-vacaciones-en-brasil-y-pone-en-riesgo",
+        "la-devaluacion-del-real-complica-algunos-productos-argentinos-de-exportacion",
+        "la-devaluacion-del-real-amenaza-las-exportaciones-de-las-economias-regionales-ar"
       ],
       "digest": {
         "lead": "La depreciación del real tras la reelección de Lula da Silva abarata los viajes de los argentinos a Brasil, pero amenaza a las economías regionales, que envían allí el 35% de sus exportaciones, según informó HolaSalta Noticias.",
@@ -2154,6 +3427,42 @@
         "basedOn": "https://holasalta.com/post/la-devaluacion-del-real-en-brasil-impacta-en-el-turismo-y-las-exportaciones-argentinas/",
         "words": 199
       }
+    },
+    {
+      "id": "yamandu-orsi-llegara-a-punta-del-este-para-hablar-ante-unos-700-empresarios-de-e",
+      "datetime": "2026-11-19T03:28:08Z",
+      "date": "2026-11-19",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "Yamandú Orsi llegará a Punta del Este para hablar ante unos 700 empresarios de Europa y el Mercosur en una cumbre internacional",
+      "summary": "El presidente de la República, Yamandú Orsi, participará el próximo 2 de diciembre en el Primer Foro Empresarial MERCOSUR–Unión Europea, que se desarrollará en el Centro de Convenciones de Punta del E...",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Mercosur"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "FM Gente",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.fmgente.com.uy/noticias/yamandu-orsi-llegara-punta-este-84722.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-19T22:40:03Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTFdpUEV5d2NYRjFIeEpLb2lkWk5JSGJjLVlONThxbERneFAwaFdHakhib1hZYkpIQTBEWWQtQUxxcTdSN0VwTnlUbFNXdV9LY3NDSGZFcVZkRW84SzlSZ0NkZWxlLWxjNVlCeGxDUm91R3B4dGhDZGFwUUJ2eGRFbVhadS0?oc=5"
     },
     {
       "id": "de-un-emprendimiento-en-2001-a-exportar-a-mas-de-40-paises-la-historia-de-apolo",
@@ -2195,6 +3504,113 @@
         "retry": true,
         "tries": 2
       }
+    },
+    {
+      "id": "drewry-wci-baja-3-19-noviembre-4176-cuarta-semana",
+      "date": "2026-11-19",
+      "kind": "datos",
+      "title": "El índice mundial de fletes de contenedores baja 3% a USD 4.176 por FEU, cuarta caída seguida, con el transpacífico en mínimos de varias semanas",
+      "summary": "El World Container Index de Drewry retrocedió por cuarta semana: Shanghái–Nueva York cayó 9% y Shanghái–Los Ángeles 5%, mientras Shanghái–Génova subió 6%. La consultora prevé más bajas en el transpacífico y subas en Asia–Europa, donde las navieras anunciaron recargos de USD 1.000 a 1.600 por FEU para diciembre.",
+      "topics": [
+        "Transporte marítimo",
+        "Logística",
+        "Asia",
+        "China",
+        "Estados Unidos",
+        "Europa"
+      ],
+      "countries": [
+        "China",
+        "Estados Unidos",
+        "Países Bajos",
+        "Italia",
+        "Global"
+      ],
+      "tags": [
+        "Fletes",
+        "Contenedores",
+        "WCI",
+        "Drewry",
+        "Blank sailings",
+        "Suez",
+        "Recargos"
+      ],
+      "visual": "container",
+      "impact": 2,
+      "affectsArgentina": false,
+      "body": [
+        "El World Container Index (WCI) de Drewry bajó 3% en la medición del jueves 19 de noviembre y quedó en USD 4.176 por contenedor de 40 pies (FEU), según publicó la consultora en su sitio. Es la cuarta baja semanal seguida: el índice venía de USD 4.585 el 22 de octubre, USD 4.389 el 5 de noviembre y USD 4.305 el 12 de noviembre, como fue informando Comexplora. Aun así, Drewry calcula que sigue 126% por encima de un año atrás.",
+        "La caída se concentró en el transpacífico, donde las tarifas bajaron por séptima semana consecutiva por la demanda débil, de acuerdo con la consultora. En Asia–Europa el cuadro fue distinto: una ruta quedó estable y la otra subió.",
+        "## Las rutas, una por una",
+        "Shanghái–Nueva York tuvo la mayor baja de la semana: 9%, hasta USD 8.194 por FEU, su nivel más bajo en 15 semanas. Shanghái–Los Ángeles cedió 5% y quedó en USD 7.026, el valor más bajo en 12 semanas. Una semana antes, esas rutas estaban en USD 9.020 y USD 7.416.",
+        "En Asia–Europa, Shanghái–Génova subió 6%, a USD 4.436, después de tres semanas sin cambios, y Shanghái–Róterdam quedó prácticamente igual, en USD 3.496 (Drewry la informa sin variación; el 12 de noviembre figuraba en USD 3.504). El texto de esta edición no detalla los valores de los tramos de regreso ni los del Atlántico, y el índice intra-Asia (IACI) de la semana no estaba disponible en el sitio al cierre de esta nota.",
+        "## Cancelaciones y recargos",
+        "Las navieras siguen ajustando la oferta con cancelaciones de salidas (blank sailings). En el transpacífico hubo cuatro esta semana y ya hay diez anunciadas para la próxima. En Asia–Europa/Mediterráneo fueron cinco y hay cuatro previstas para la semana que viene, según el relevamiento de capacidad de Drewry.",
+        "Para Asia–Europa, muchas líneas anunciaron recargos de temporada alta (PSS) de entre USD 1.000 y 1.600 por FEU con vigencia en diciembre. Drewry espera que la demanda se fortalezca ese mes, antes del nuevo ciclo de contratos anuales y de los embarques previos al Año Nuevo Lunar.",
+        "Que esos aumentos se trasladen por completo está en duda. Según un informe de la consultora Sogese que publicó Cyprus Shipping News el 18 de noviembre, el escenario más probable es que las navieras consigan solo una parte de las subas anunciadas para noviembre: a comienzos de mes, las tarifas spot de Shanghái a Génova y a Róterdam seguían por debajo de las tarifas FAK publicadas por MSC y CMA CGM para el mes.",
+        "## Suez, congestión y riesgos",
+        "El regreso de servicios al canal de Suez sigue avanzando: Drewry contó 57 buques en tránsito la semana pasada, frente a 53 en el informe anterior. Por el estrecho de Ormuz, en cambio, cruzaron solo cuatro. La consultora advierte que la congestión creciente en los puertos del norte de Europa demora la devolución de contenedores vacíos a Asia y genera preocupación por una posible falta de equipos más adelante.",
+        "El informe de Sogese apunta en la misma dirección: el agrupamiento de llegadas por la reorganización de las rotaciones preocupa a los puertos de Róterdam y Amberes-Brujas, y Ormuz aparece como el principal riesgo, porque una escalada podría restar buena parte de la capacidad que vuelve por Suez. Drewry suma como riesgo los posibles conflictos laborales en los puertos de Los Ángeles y Long Beach.",
+        "## Qué espera Drewry y qué mirar desde la Argentina",
+        "Para el transpacífico, la consultora prevé nuevas bajas la semana próxima; para Asia–Europa, subas en las próximas semanas, y recomienda a los cargadores contar con volatilidad. El WCI no mide rutas hacia Sudamérica, pero es una referencia del mercado en el que se negocian los fletes desde Asia: lo que paga cada importador argentino depende de su contrato, de la ruta y del momento en que contrata."
+      ],
+      "keyData": [
+        [
+          "WCI compuesto",
+          "USD 4.176 / FEU (−3%)"
+        ],
+        [
+          "Shanghái → Nueva York",
+          "USD 8.194 (−9%)"
+        ],
+        [
+          "Shanghái → Los Ángeles",
+          "USD 7.026 (−5%)"
+        ],
+        [
+          "Shanghái → Génova",
+          "USD 4.436 (+6%)"
+        ],
+        [
+          "Shanghái → Róterdam",
+          "USD 3.496 (sin cambios)"
+        ],
+        [
+          "Recargos Asia–Europa para diciembre",
+          "USD 1.000–1.600 por FEU"
+        ],
+        [
+          "Variación interanual del WCI",
+          "+126%"
+        ]
+      ],
+      "explainer": {
+        "what": "El World Container Index de Drewry bajó 3% en la medición del 19 de noviembre y quedó en USD 4.176 por contenedor de 40 pies, su cuarta baja semanal seguida.",
+        "why": "Es una referencia habitual de los fletes spot: el transpacífico cae por la demanda débil (Shanghái–Nueva York, USD 8.194, −9%), mientras en Asia–Europa las navieras anuncian recargos de USD 1.000 a 1.600 por FEU para diciembre.",
+        "who": "Importadores y exportadores que contratan flete marítimo en contenedor, forwarders y navieras.",
+        "products": [
+          "Carga en contenedores"
+        ],
+        "next": "Drewry espera que las tarifas del transpacífico vuelvan a bajar la semana próxima y que las de Asia–Europa suban en las próximas semanas.",
+        "nextSource": {
+          "name": "Drewry – World Container Index",
+          "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
+        }
+      },
+      "sources": [
+        {
+          "name": "Drewry – World Container Index",
+          "type": "Consultora (fuente del dato)",
+          "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry",
+          "primary": true
+        },
+        {
+          "name": "Cyprus Shipping News (informe de Sogese)",
+          "type": "Medio especializado",
+          "url": "https://cyprusshippingnews.com/2026/11/18/carriers-may-secure-only-part-of-their-november-rate-increases-as-suez-returns-and-north-european-ports-brace-for-bunching-sogese-report-says/"
+        }
+      ],
+      "story": "fletes-contenedores"
     },
     {
       "id": "reino-unido-abp-finaliza-construccion-de-instalacion-de-almacenamiento-a-medida",
@@ -2625,57 +4041,6 @@
       }
     },
     {
-      "id": "ypf-prepara-la-firma-de-la-inversion-mas-grande-de-la-historia-del-pais-para-exp",
-      "datetime": "2026-11-19T00:37:41Z",
-      "date": "2026-11-18",
-      "firstSeen": "2026-11-19T04:12:28Z",
-      "title": "YPF prepara la firma de la inversión más grande de la historia del país para exportar GNL",
-      "summary": "El directorio de YPF aprobó por unanimidad la firma de la decisión final de inversión (FID) de Argentina LNG, el proyecto de exportación de GNL que la petrolera desarrolla con la italiana Eni y con XRG, la compañía de inversiones internacionales de ADNOC.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Europa"
-      ],
-      "countries": [
-        "Argentina",
-        "Italia"
-      ],
-      "tags": [
-        "Energía"
-      ],
-      "visual": "tanker",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Border Periodismo",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://borderperiodismo.com/economia/ypf-prepara-la-firma-de-la-inversion-mas-grande-de-la-historia-del-pais-para-exportar-gnl/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-19T04:12:28Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVlV1LTBTWkZlMklSeER6M3NnM0FscVdUX21tVm1MalZySmt0WU5veEdMSmRrQUtjZ19RbTRCNHpOVlU5VFFpeXZFTVlfNkpVcFpkWmlKYW1qdTRDSFJNdWVJTVhaVUQtZ1RjNXFYXzlxT0hMcDNyTWd2c3lxY1h6dmhZSmRFMjBoRFRJZlN0a3UwWTBqbnB6VUlsdThXdXhWUy1rVnVCZEl5VUlFZE84VjAwTnA4R2dwYkVIakRhU3ViYXhTeG1V?oc=5",
-      "digest": {
-        "lead": "El directorio de YPF aprobó por unanimidad firmar la decisión final de inversión de Argentina LNG, el proyecto de exportación de GNL que comparte con Eni y XRG; la firma está prevista para el 30 de noviembre en el Palacio Libertad, informó Border Periodismo.",
-        "body": [
-          "El mismo día de la aprobación se completó el traspaso a Eni y XRG de acciones de UPCO ARLNG I, titular de cinco áreas de Vaca Muerta, que Neuquén había habilitado por decretos del 13 de noviembre: YPF queda con el 36% y cada socio con el 32%.",
-          "Según la solicitud de adhesión al RIGI del 13 de agosto, la inversión suma USD 51.000 millones, con USD 30.000 millones en los primeros cuatro años y costos operativos de más de USD 20.000 millones. La primera etapa contempla dos unidades flotantes de licuefacción de 6 millones de toneladas anuales cada una frente a Río Negro, y se proyectan exportaciones por USD 200.000 millones en 20 años.",
-          "El CEO Horacio Marín la definió como la mayor inversión «de la historia de Argentina en un proyecto». En septiembre, llegó una oferta de financiamiento de hasta USD 6.000 millones del Banco de Exportaciones e Importaciones de Estados Unidos."
-        ],
-        "at": "2026-11-19T12:49:07-03:00",
-        "basedOn": "https://borderperiodismo.com/economia/ypf-prepara-la-firma-de-la-inversion-mas-grande-de-la-historia-del-pais-para-exportar-gnl/",
-        "words": 198,
-        "flag": "curar"
-      }
-    },
-    {
       "id": "bloomberg-venezuela-exporta-a-ee-uu-274-000-barriles-diarios-en-noviembre-la-cif",
       "datetime": "2026-11-19T00:15:36Z",
       "date": "2026-11-18",
@@ -2757,6 +4122,79 @@
         "at": "2026-11-19T03:46:19-03:00",
         "reason": "fuera de tema (renovación de directorio, nombramientos)"
       }
+    },
+    {
+      "id": "se-abre-el-plazo-de-inscripcion-para-el-programa-ejecutivo-ompi-omc-sobre-cuesti",
+      "datetime": "2026-11-19T00:00:00Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "Se abre el plazo de inscripción para el Programa Ejecutivo OMPI-OMC sobre Cuestiones de Propiedad Intelectual",
+      "summary": "La secretaría de la Organización Mundial de la Propiedad Intelectual (OMPI) y la Secretaría de la Organización Mundial del Comercio (OMC) ya han abierto el plazo de inscripción para el Programa Ejecutivo OMPI-OMC sobre Cuestiones de Propiedad Intelectual para Altos Funcionarios Gubernamentales. La actividad tendrá…",
+      "body": [
+        "La secretaría de la Organización Mundial de la Propiedad Intelectual (OMPI) y la Secretaría de la Organización Mundial del Comercio (OMC) ya han abierto el plazo de inscripción para el Programa Ejecutivo OMPI-OMC sobre Cuestiones de Propiedad Intelectual para Altos Funcionarios Gubernamentales. La actividad tendrá lugar del 1 al 12 de febrero de 2027 en las sedes de la OMPI y de la OMC en Ginebra (Suiza)."
+      ],
+      "keyData": [],
+      "topics": [
+        "Economía internacional",
+        "Europa"
+      ],
+      "countries": [
+        "Suiza"
+      ],
+      "tags": [
+        "OMC"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "OMC · Organización Mundial del Comercio",
+      "sources": [
+        {
+          "name": "OMC · Organización Mundial del Comercio",
+          "type": "Organismo internacional",
+          "url": "https://www.wto.org/spanish/news_s/news26_s/trip_19nov26_557_s.htm",
+          "primary": true,
+          "author": ""
+        }
+      ]
+    },
+    {
+      "id": "el-evento-anual-de-la-omc-dedicado-a-los-estudiantes-se-centra-en-los-fundamento",
+      "datetime": "2026-11-19T00:00:00Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "El evento anual de la OMC dedicado a los estudiantes se centra en los fundamentos del comercio",
+      "summary": "El 18 de noviembre más de 200 estudiantes se unieron a formuladores de políticas, directivos y líderes de opinión en la OMC para debatir sobre los fundamentos del comercio con ocasión del evento anual de la OMC sobre el comercio dedicado exclusivamente a estudiantes y titulado \"WTO 101: Trade Rules!\". Esta tercera…",
+      "body": [
+        "El 18 de noviembre más de 200 estudiantes se unieron a formuladores de políticas, directivos y líderes de opinión en la OMC para debatir sobre los fundamentos del comercio con ocasión del evento anual de la OMC sobre el comercio dedicado exclusivamente a estudiantes y titulado \"WTO 101: Trade Rules!\". Esta tercera edición del evento fue marco de animados debates sobre las cuestiones clave con que se enfrenta el sistema multilateral y sus consecuencias para la próxima generación."
+      ],
+      "keyData": [],
+      "topics": [
+        "Economía internacional"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "OMC"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "OMC · Organización Mundial del Comercio",
+      "sources": [
+        {
+          "name": "OMC · Organización Mundial del Comercio",
+          "type": "Organismo internacional",
+          "url": "https://www.wto.org/spanish/news_s/news26_s/stud_19nov26_558_s.htm",
+          "primary": true,
+          "author": ""
+        }
+      ]
     },
     {
       "id": "uruguay-destaco-el-papel-de-una-aduana-moderna-en-la-competitividad-y-el-desarro",
@@ -2936,46 +4374,6 @@
       "digestSkip": {
         "at": "2026-11-19T03:46:19-03:00",
         "reason": "fuera de tema (perfil personal)"
-      }
-    },
-    {
-      "id": "bate-record-de-exportaciones-pero-la-industria-local-se-hunde-un-informe-revela",
-      "datetime": "2026-11-18T22:04:55Z",
-      "date": "2026-11-18",
-      "firstSeen": "2026-11-18T22:36:16Z",
-      "title": "Bate récord de exportaciones pero la industria local se hunde: un informe revela la profunda disparidad de la economía argentina",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "El Destape",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMDdIdDVjc3ZteFp0WTk5SWZuVjJTejdyclZuNFhqYVZ4dDAydDdPV0ZIQmY1dXk0czZZczdwdk0tMDI4UThXdndwclNzOFp1M2hTTE9zeW9aRTExcDlWU3g4X3ZldWxrS1NRTlZNUnIwdzJHU2hPMlVBWTBWdXA2VnhXRE5sYWtIY1g2TjJVb19ncnYyejhTSl9jZ1FqQ0syZ0NRR2czT3lLWG16Vjl1NHNJZ3h6QTVmdEZ4R3BfVk9UaWhwbHB4RTk2eXFERWtUaWF0aGZjVEMtWWJqUWszRFN1ZktTNUl30gH8AUFVX3lxTFBRLWhQTTBRTHhOSGlCeFFtLWpDWkRPUTA5RE1QWmlBUkZBQXZFd01qNUxNMzZXNU1rQ0ViWmdJYW9feGFxWUgzM1R5RHRWTW84YzRuRVk5aXVBa1ZSeXlTR2w1ZFBTQkgyalVkS3JvamJiLW81WTZib2Y1Y2ZWZVhuakN5T2hJSnc3X0hkbU1sdjQ3WVNtOGkxRGxNYXVmS21ISjRydlpLa0VJUmd4NFJBeGZOcWVrWXBBQ1RhQWs1Yloxc2VXMVlhd2NGV1JkSUVTUW40RHRSZURINFh5cEhxeDVjLXhSWkdrVzNlcml0cnZrWkhTMWFLb3VCXw?oc=5",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-18T22:36:16Z",
-      "digestSkip": {
-        "at": "2026-11-19T15:55:00-03:00",
-        "reason": "no se encontró una versión legible",
-        "retry": true,
-        "tries": 3
       }
     },
     {
@@ -5730,7 +7128,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-11-18T22:36:16Z",
+      "gnTried": "2026-11-19T22:40:03Z",
       "digestSkip": {
         "at": "2026-11-17T21:50:00-03:00",
         "reason": "fuera de tema (aviso de evento)"
@@ -5767,7 +7165,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-11-18T22:36:16Z",
+      "gnTried": "2026-11-19T22:40:03Z",
       "digest": {
         "lead": "El gasto en combustible de las aerolíneas creció 79% interanual y ya explica casi cuatro de cada diez dólares de sus costos operativos, advirtió Peter Cerdá, vicepresidente regional de IATA para las Américas, en el IATA Cargo Day realizado en Colombia, según El Cronista.",
         "body": [
@@ -6106,7 +7504,7 @@
       "date": "2026-11-17",
       "firstSeen": "2026-11-17T22:52:45Z",
       "title": "Las exportaciones argentinas crecieron 24,4% en el semestre: el BID pone al petróleo y la minería como motores",
-      "summary": "",
+      "summary": "El Monitor de Comercio e Integración 2026 ubica a la Argentina apenas por debajo de México y por encima del promedio de América Latina y el Caribe (19,5%), en un semestre en que la región alcanzó su mayor peso histórico en las compras de Estados Unidos",
       "body": [],
       "keyData": [],
       "topics": [
@@ -6130,7 +7528,7 @@
         {
           "name": "Shale24",
           "type": "Medio · vía Google Noticias",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNjVuQ2p0bUh5MUZkdmVMazBsbTFLTjlhMmRpN2diZFNOdlZvSjgzdFpWak4weGhOaE5oenJlLXU1RGhoSmVfQVlNaFJ1VnZyVkV4UVVuNTZKcWNmTXJfdTVTY1k3ekozZEdQbkVNVTNmMXh1dmUzNjc0QlF5X293bVdVNzB4cHQ3am9reFFkRUZDc2lJeXBIc08tVExZcEdhRlRpXzFfMlVTRnIyTG1MQWd6RldSZHFlbUc0SUx1NnloNkJtNjVKVVVUOHnSAcwBQVVfeXFMTzY1bkNqdG1IeTFGZHZlTGswbG0xS045YTJkaTdnYmRTTnZWb0o4M3RaVmpOMHhoTmhOaHpyZS11NURoaEplX0FZTWhSdVZ2clZFeFFVbjU2SnFjZk1yX3U1U2NZN3pKM2RHUG5FTVUzZjF4dXZlMzY3NEJReV9vd21XVTcweHB0N2pva3hRZEVGQ3NpSXlwSHNPLVRMWXBHYUZUaV8xXzJVU0ZyMkxtTEFnekZXUmRxZW1HNElMdTZ5aDZCbTY1SlVVVDh5?oc=5",
+          "url": "https://www.shale24.com/mineria/las-exportaciones-argentinas-crecieron-244-semestre-bid-pone-petroleo-mineria-como-motores-n2077",
           "primary": true,
           "author": ""
         },
@@ -6142,7 +7540,7 @@
           "title": "Las exportaciones argentinas crecieron 24,4% en el semestre: el BID pone al petróleo y la minería como motores"
         }
       ],
-      "gnTried": "2026-11-18T22:36:16Z",
+      "gnTried": "2026-11-19T22:40:03Z",
       "digest": {
         "lead": "Las exportaciones de bienes de la Argentina crecieron 24,4% interanual en el primer semestre de 2026, apenas debajo de México (24,6%) y por encima del promedio regional (19,5%), según el Monitor de Comercio e Integración 2026 del BID, informa Shale24.",
         "body": [
@@ -6164,7 +7562,8 @@
       ],
       "mergedIds": [
         "las-exportaciones-argentinas-crecieron-24-4-en-el-semestre-el-bid-pone-al-pe-2"
-      ]
+      ],
+      "gnUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNjVuQ2p0bUh5MUZkdmVMazBsbTFLTjlhMmRpN2diZFNOdlZvSjgzdFpWak4weGhOaE5oenJlLXU1RGhoSmVfQVlNaFJ1VnZyVkV4UVVuNTZKcWNmTXJfdTVTY1k3ekozZEdQbkVNVTNmMXh1dmUzNjc0QlF5X293bVdVNzB4cHQ3am9reFFkRUZDc2lJeXBIc08tVExZcEdhRlRpXzFfMlVTRnIyTG1MQWd6RldSZHFlbUc0SUx1NnloNkJtNjVKVVVUOHnSAcwBQVVfeXFMTzY1bkNqdG1IeTFGZHZlTGswbG0xS045YTJkaTdnYmRTTnZWb0o4M3RaVmpOMHhoTmhOaHpyZS11NURoaEplX0FZTWhSdVZ2clZFeFFVbjU2SnFjZk1yX3U1U2NZN3pKM2RHUG5FTVUzZjF4dXZlMzY3NEJReV9vd21XVTcweHB0N2pva3hRZEVGQ3NpSXlwSHNPLVRMWXBHYUZUaV8xXzJVU0ZyMkxtTEFnekZXUmRxZW1HNElMdTZ5aDZCbTY1SlVVVDh5?oc=5"
     },
     {
       "id": "rio-negro-proyecta-mas-de-u-s30-000-millones-anuales-en-exportaciones-energetica",
@@ -6536,6 +7935,20 @@
           "url": "https://elmercantil.com/2026/11/17/el-puerto-de-malaga-y-el-gobierno-andaluz-sondearan-a-las-navieras-para-abrir-una-ruta-con-ceuta/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "101TV",
+          "type": "También publicó esta noticia",
+          "url": "https://www.101tv.es/malaga/un-ferry-directo-a-ceuta-desde-malaga-la-junta-de-andalucia-busca-naviera-para-abrir-la-ruta/",
+          "alsoIn": true,
+          "title": "Un ferry directo a Ceuta desde Málaga: la Junta de Andalucía busca naviera para abrir la ruta"
+        },
+        {
+          "name": "101tv Sevilla",
+          "type": "También publicó esta noticia",
+          "url": "https://101tvsevilla.es/la-conexion-maritima-entre-malaga-y-ceuta-queda-pendiente-de-las-navieras/",
+          "alsoIn": true,
+          "title": "La conexión marítima entre Málaga y Ceuta queda pendiente de las navieras"
         }
       ],
       "gnTried": "2026-11-17T22:52:45Z",
@@ -6549,7 +7962,17 @@
         "at": "2026-11-17T21:50:00-03:00",
         "basedOn": "https://elmercantil.com/2026/11/17/el-puerto-de-malaga-y-el-gobierno-andaluz-sondearan-a-las-navieras-para-abrir-una-ruta-con-ceuta/",
         "words": 113
-      }
+      },
+      "aliasUrls": [
+        "https://101tvsevilla.es/la-conexion-maritima-entre-malaga-y-ceuta-queda-pendiente-de-las-navieras",
+        "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMm1SNE12LTFjMndzcGJYZ013SHc2d1NSQnFHYk92eVRBVGNWVGtNZWIwc2Jpa0pKd09Jby0yZUNwNFlhWkpGM2hDZFpFS3FYQnphandRQklVN3RYZGxVTldOWUxGYjRUYVU2ck4yZkhMVlRqTUsxLS1qYTNHS0FxdzdBY1dBdUFTTFItekVGV2ZRcnF2dC1rbEVzdFZYWHc",
+        "https://news.google.com/rss/articles/CBMivgFBVV95cUxQYTE0cjR4OFN3QUY0a0pIWlFsOWN0cG9idGlOWnRqNzhOSlI2WHd6OVo5MVpRbHJOZ09UT29ndnFHSlQtM0FfNzA2M2s5NV9Ma29mWEhFTFY0WENwZ1BRLTFOc1k0TFBIdkxtZXhNWHpYYktRRlczRW9lOVJtV0xZX2EtSVdyS1k4R2pIbENsS2g0V0NyVEREUHpCeDkyYTVQb2JpczExc3JLZzhKTFB3NDJaT1NkU3NLUHJkME13",
+        "https://www.101tv.es/malaga/un-ferry-directo-a-ceuta-desde-malaga-la-junta-de-andalucia-busca-naviera-para-abrir-la-ruta"
+      ],
+      "mergedIds": [
+        "un-ferry-directo-a-ceuta-desde-malaga-la-junta-de-andalucia-busca-naviera-para-a",
+        "la-conexion-maritima-entre-malaga-y-ceuta-queda-pendiente-de-las-navieras"
+      ]
     },
     {
       "id": "que-temas-comerciales-y-economicos-marcaran-la-cumbre-de-apec-en-china",
@@ -11309,48 +12732,42 @@
       "updated": "2026-11-19T14:26:31Z"
     },
     {
-      "id": "alzas-de-hasta-15-en-fletes-elevan-costos-de-produccion",
-      "datetime": "2026-11-15T23:07:00Z",
+      "id": "el-consejo-del-comercio-de-mercancias-decide-modernizar-los-informes-sobre-las-n",
+      "datetime": "2026-11-16T00:00:00Z",
       "date": "2026-11-15",
-      "firstSeen": "2026-11-15T23:23:16Z",
-      "title": "Alzas de hasta 15% en fletes elevan costos de producción",
-      "summary": "Canacintra Coahuila Sureste advierte que el incremento de las tarifas de transporte se suma a los costos laborales, energéticos y arancelarios",
-      "body": [],
+      "firstSeen": "2026-11-19T22:40:03Z",
+      "title": "El Consejo del Comercio de Mercancías decide modernizar los informes sobre las notificaciones y examina preocupaciones comerciales",
+      "summary": "El Consejo del Comercio de Mercancías (CCM) de la OMC adoptó la decisión de mejorar los informes anuales sobre las notificaciones y el Portal de Notificaciones de la OMC. Asimismo, examinó un informe actualizado de la Secretaría en el que se indicaba que el 35% de las 241 preocupaciones comerciales planteadas en el…",
+      "body": [
+        "El Consejo del Comercio de Mercancías (CCM) de la OMC adoptó la decisión de mejorar los informes anuales sobre las notificaciones y el Portal de Notificaciones de la OMC. Asimismo, examinó un informe actualizado de la Secretaría en el que se indicaba que el 35% de las 241 preocupaciones comerciales planteadas en el Consejo entre 1995 y mayo de 2026 habían sido declaradas total o parcialmente resueltas. Los Miembros examinaron 38 preocupaciones comerciales, cinco de ellas planteadas por primera vez, y debatieron sobre varias cuestiones relativas a las renegociaciones arancelarias en virtud del artículo XXVIII del GATT."
+      ],
       "keyData": [],
       "topics": [
         "Aranceles",
-        "Logística"
+        "Tratados y acuerdos",
+        "Economía internacional"
       ],
       "countries": [
         "Global"
       ],
       "tags": [
-        "Fletes",
-        "Aranceles"
+        "OMC"
       ],
-      "visual": "ship",
+      "visual": "treaty",
       "impact": 1,
       "affectsArgentina": false,
       "kind": "noticia",
       "label": "Automática",
-      "feed": "Google Noticias · Logística y fletes",
+      "feed": "OMC · Organización Mundial del Comercio",
       "sources": [
         {
-          "name": "INFO7",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.info7.mx/coahuila/alzas-de-hasta-15-en-fletes-elevan-costos-de-produccion/7070208661",
+          "name": "OMC · Organización Mundial del Comercio",
+          "type": "Organismo internacional",
+          "url": "https://www.wto.org/spanish/news_s/news26_s/good_16nov26_556_s.htm",
           "primary": true,
           "author": ""
         }
-      ],
-      "gnTried": "2026-11-15T23:23:16Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORmE4ZERhN1hGam9CYnlpcVdlOV8wZjBTUS1mNkl5b0pRWWN2bDZjdnZ4QWRHN1QxaHF2VTg4SEN4RFRLbXg5aWlSZkZqS3h0SzJyWkR4dWVNRG5qUm5HNHBxMDhVa0hNTTRFZ1hrRjRFUnpCM3UtTDVUR19vdDZkeW9lT1o4VzAxVjRWOGhvc2Q0OHhJd05j?oc=5",
-      "digestSkip": {
-        "at": "2026-11-16T15:44:07-03:00",
-        "reason": "no se encontró una versión legible",
-        "retry": true,
-        "tries": 3
-      }
+      ]
     },
     {
       "id": "bcr-exportaciones-agro-enero-octubre-2026-101-millones-toneladas-record",
@@ -16387,6 +17804,13 @@
           "url": "https://diarioeco.com.do/advierten-sobre-posible-impacto-de-alzas-en-pasajes-y-fletes-de-carga/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "INFO7",
+          "type": "También publicó esta noticia",
+          "url": "https://www.info7.mx/coahuila/alzas-de-hasta-15-en-fletes-elevan-costos-de-produccion/7070208661",
+          "alsoIn": true,
+          "title": "Alzas de hasta 15% en fletes elevan costos de producción"
         }
       ],
       "gnTried": "2026-11-13T17:12:57Z",
@@ -16394,7 +17818,14 @@
       "digestSkip": {
         "at": "2026-11-13T15:50:00-03:00",
         "reason": "fuera de tema (tarifas de transporte interno en República Dominicana)"
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxORmE4ZERhN1hGam9CYnlpcVdlOV8wZjBTUS1mNkl5b0pRWWN2bDZjdnZ4QWRHN1QxaHF2VTg4SEN4RFRLbXg5aWlSZkZqS3h0SzJyWkR4dWVNRG5qUm5HNHBxMDhVa0hNTTRFZ1hrRjRFUnpCM3UtTDVUR19vdDZkeW9lT1o4VzAxVjRWOGhvc2Q0OHhJd05j",
+        "https://www.info7.mx/coahuila/alzas-de-hasta-15-en-fletes-elevan-costos-de-produccion/7070208661"
+      ],
+      "mergedIds": [
+        "alzas-de-hasta-15-en-fletes-elevan-costos-de-produccion"
+      ]
     },
     {
       "id": "boom-agroexportador-245-productos-argentinos-crecen-y-desafian-los-limites-del-c",
@@ -34028,7 +35459,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-11-18T22:36:16Z",
+      "gnTried": "2026-11-19T22:40:03Z",
       "digestSkip": {
         "at": "2026-11-08T12:00:00-03:00",
         "reason": "fuente no legible (enlace de Google Noticias demasiado largo para la herramienta) y sin otro medio con la misma noticia"
@@ -37179,46 +38610,6 @@
         "reason": "no se encontró una versión legible",
         "retry": true,
         "tries": 3
-      }
-    },
-    {
-      "id": "participacion-en-la-xxvii-reunion-de-ministras-y-altas-autoridades-de-la-mujer-d",
-      "datetime": "2026-11-06T16:07:02Z",
-      "date": "2026-11-06",
-      "firstSeen": "2026-11-06T16:52:42Z",
-      "title": "Participación en la XXVII Reunión de Ministras y Altas Autoridades de la Mujer del MERCOSUR",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Mercosur"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "IPPDH",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://ippdh.mercosur.int/participacion-en-la-xxvii-reunion-de-ministras-y-altas-autoridades-de-la-mujer-del-mercosur/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-06T16:52:42Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZnp6c3ktcDBaUENURW1uWkxQVVh3cGl1UGt6bEVTVzRzOW9WNDdEeDdvdHRFeHB2TVRZRnBieGpsU2R0Ri0xTVNyX2ZycURFSG1LVW90bWIyREtVQ0U3ZU85OGRObEFIMTBiQ0l4VEZKX01Xc2pzbGpxOHplN0R6THdaVm43Z3ZqcHdMY1dsN3VPTXFLUVE2WGJNT2FuWDd6UjJVNExaVU1iMHE2N1J4eUZBYzJPTEFmbmRF?oc=5",
-      "digestSkip": {
-        "at": "2026-11-06T16:05:00-03:00",
-        "reason": "fuera de tema (reunión de ministras de la Mujer del Mercosur)"
       }
     },
     {
@@ -61825,6 +63216,13 @@
           "url": "https://www.mercosur.int/reunion-de-ministras-y-altas-autoridades-de-la-mujer-del-mercosur-en-montevideo",
           "alsoIn": true,
           "title": "Reunión de ministras y altas autoridades de la mujer del MERCOSUR en Montevideo"
+        },
+        {
+          "name": "IPPDH",
+          "type": "También publicó esta noticia",
+          "url": "https://ippdh.mercosur.int/participacion-en-la-xxvii-reunion-de-ministras-y-altas-autoridades-de-la-mujer-del-mercosur/",
+          "alsoIn": true,
+          "title": "Participación en la XXVII Reunión de Ministras y Altas Autoridades de la Mujer del MERCOSUR"
         }
       ],
       "gnTried": "2026-10-29T22:08:01Z",
@@ -61834,11 +63232,14 @@
         "reason": "fuera de tema (reunión de autoridades de la mujer del Mercosur)"
       },
       "aliasUrls": [
+        "https://ippdh.mercosur.int/participacion-en-la-xxvii-reunion-de-ministras-y-altas-autoridades-de-la-mujer-del-mercosur",
         "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSHBzMzlfdmVzaVRRZDB3YndIcVFudWlCZlNva2NqMlQyUFZCamdaNEdtcjRSQmZXb0Jqd2dvTWFRelhNRmlPSDFmcE5NWjRZNWs4dE8xOWU1c2lOMm10T2pnOUhLZDJadjVGZkJ3TDNteW53S2xDcXFEVGRTTjE2ZmctNXk5TFpLblMzaTdKYWZFR3lDVTlPbjJUR0VlMFpzd3ZMOUppYw",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZnp6c3ktcDBaUENURW1uWkxQVVh3cGl1UGt6bEVTVzRzOW9WNDdEeDdvdHRFeHB2TVRZRnBieGpsU2R0Ri0xTVNyX2ZycURFSG1LVW90bWIyREtVQ0U3ZU85OGRObEFIMTBiQ0l4VEZKX01Xc2pzbGpxOHplN0R6THdaVm43Z3ZqcHdMY1dsN3VPTXFLUVE2WGJNT2FuWDd6UjJVNExaVU1iMHE2N1J4eUZBYzJPTEFmbmRF",
         "https://www.mercosur.int/reunion-de-ministras-y-altas-autoridades-de-la-mujer-del-mercosur-en-montevideo"
       ],
       "mergedIds": [
-        "reunion-de-ministras-y-altas-autoridades-de-la-mujer-del-mercosur-en-montevideo"
+        "reunion-de-ministras-y-altas-autoridades-de-la-mujer-del-mercosur-en-montevideo",
+        "participacion-en-la-xxvii-reunion-de-ministras-y-altas-autoridades-de-la-mujer-d"
       ]
     },
     {
@@ -149048,7 +150449,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-11-18T22:36:16Z"
+      "gnTried": "2026-11-19T22:40:03Z"
     },
     {
       "id": "portcastello-presenta-estrategia-para-albergar-hub-industrial-de-energia-eolica",
@@ -159512,431 +160913,26 @@
         }
       },
       "updated": "2026-10-21T12:00:00-03:00"
-    },
-    {
-      "id": "indec-ica-octubre-2026-exportaciones-record-10061-superavit-3394",
-      "date": "2026-11-19",
-      "datetime": "2026-11-19T16:29:45-03:00",
-      "kind": "noticia",
-      "title": "Las exportaciones marcan otro récord mensual, USD 10.061 millones en octubre, y el superávit comercial llega a USD 3.394 millones",
-      "summary": "Según el INDEC, las ventas externas crecieron 26,4% interanual, con combustibles y energía casi duplicándose (+93,9%) y el petróleo crudo como primer producto, mientras las importaciones bajaron 6,7%, a USD 6.668 millones, con cantidades 17,3% menores. Hubo déficit con China (USD 400 millones) y con Brasil (USD 156 millones).",
-      "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Importaciones",
-        "China"
-      ],
-      "countries": [
-        "Argentina",
-        "China",
-        "Brasil",
-        "Estados Unidos"
-      ],
-      "tags": [
-        "INDEC",
-        "Balanza comercial",
-        "ICA",
-        "Vaca Muerta",
-        "Petróleo",
-        "Términos del intercambio"
-      ],
-      "visual": "chart",
-      "impact": 3,
-      "affectsArgentina": true,
-      "argentinaNote": "Es el dato oficial del comercio de bienes de octubre: confirma el peso de la energía en las exportaciones y una nueva caída de las importaciones en cantidades, sobre todo de piezas para bienes de capital, bienes de consumo y autos.",
-      "argentinaImpact": {
-        "change": "Las exportaciones de octubre (USD 10.061 millones) superaron el récord de septiembre y el saldo comercial fue de USD 3.394 millones; las importaciones cayeron 17,3% en cantidades.",
-        "who": "Exportadores de energía, agroindustria e industria; importadores de insumos, bienes de capital, bienes de consumo y vehículos.",
-        "sectors": [
-          "Petróleo y gas",
-          "Complejo sojero",
-          "Maíz",
-          "Automotriz",
-          "Bienes de capital",
-          "Bienes de consumo"
-        ],
-        "flows": {
-          "importaciones": true,
-          "exportaciones": true,
-          "logistica": false,
-          "aranceles": false
-        }
-      },
-      "body": [
-        "El INDEC informó el jueves 19 de noviembre que las exportaciones argentinas de bienes sumaron USD 10.061 millones en octubre, 26,4% más que un año antes, y que las importaciones llegaron a USD 6.668 millones, con una baja de 6,7%. El resultado fue un superávit comercial de USD 3.394 millones, frente a USD 813 millones en octubre de 2025, según el detalle que publicaron El Cronista y Bloomberg Línea a partir del informe oficial.",
-        "Con ese número las ventas externas volvieron a marcar un máximo para un mes: superaron los USD 10.036 millones de septiembre, que habían sido los primeros por encima de USD 10.000 millones, como informó Comexplora el 19 de octubre. El ministro de Economía, Luis Caputo, lo destacó en sus redes. El saldo, en cambio, no es récord: según La Posta Diario, es el segundo más alto de la gestión actual, detrás de los USD 3.504 millones de mayo, que Perfil había calificado como histórico. El intercambio total sumó USD 16.729 millones, 10,7% más que un año atrás.",
-        "## Precios, cantidades y rubros",
-        "Buena parte de la suba vino por los precios. Según El Cronista, los precios de exportación aumentaron 19,7% interanual y los de importación 12,8%, de modo que los términos del intercambio mejoraron 6,1%. Con los precios de octubre de 2025, el saldo habría sido de USD 2.495 millones: la mejora de precios relativos aportó unos USD 514 millones. En las importaciones, las cantidades se hundieron 17,3%, un dato que El Destape lee como señal de una actividad interna débil.",
-        "Los cuatro grandes rubros de exportación crecieron. Combustibles y energía tuvo el salto más fuerte: USD 1.734 millones, 93,9% más que un año antes, con precios 56,2% más altos y cantidades 24,8% mayores. Las manufacturas de origen agropecuario (MOA) siguieron siendo el rubro principal, con USD 3.314 millones (+18,8%); los productos primarios sumaron USD 2.328 millones (+22,3%) y las manufacturas de origen industrial (MOI), USD 2.685 millones (+13,1%).",
-        "El petróleo crudo fue el primer producto del mes, con USD 1.169 millones, 121,7% más que en octubre de 2025. Detrás quedaron la harina y los pellets de soja (USD 910 millones), el maíz en grano (USD 887 millones), los porotos de soja (USD 577 millones) y el aceite de soja en bruto (USD 558 millones). Esos cinco productos explicaron el 40,8% de todo lo exportado, de acuerdo con El Cronista.",
-        "## Importaciones: menos piezas, consumo y autos",
-        "Por usos económicos, los bienes intermedios, el rubro más grande, sumaron USD 2.416 millones (+1,9%) y los bienes de capital, USD 1.378 millones (+2,9%). El resto bajó: las piezas y accesorios para bienes de capital cayeron 17,3% en valor, los bienes de consumo 11,3%, los vehículos automotores de pasajeros 24,2%, hasta USD 413 millones, y los combustibles y lubricantes 33,2%, con 34% menos de volumen. Según El Destape, en piezas y en bienes de consumo las cantidades retrocedieron 27,7% y 23,5%, respectivamente.",
-        "Para los importadores, el cuadro combina precios más altos con menos unidades: la baja de las compras de autos y de bienes de consumo se suma a la de los insumos para la producción, que El Destape y NewsDigitales asocian con la caída de la demanda interna. Es una interpretación de esos medios; el informe del INDEC solo presenta los números.",
-        "## China y Brasil, con saldo negativo",
-        "China fue el principal socio individual del mes: la Argentina le vendió USD 1.326 millones y le compró USD 1.726 millones, con un déficit de USD 400 millones. Con Brasil, las exportaciones fueron de USD 1.269 millones y las importaciones de USD 1.425 millones, con un rojo de USD 156 millones. Con Estados Unidos hubo superávit de USD 250 millones: ventas por USD 820 millones y compras por USD 570 millones, según El Cronista.",
-        "Por bloques, Bloomberg Línea informó que el Mercosur concentró el mayor intercambio, USD 3.577 millones, con un saldo positivo de USD 39 millones. Con la Unión Europea el comercio sumó USD 2.006 millones y dejó un superávit de USD 277 millones, y con la ASEAN, USD 1.543 millones, con un saldo a favor de USD 817 millones.",
-        "## Diez meses de 2026",
-        "Entre enero y octubre las exportaciones acumularon USD 87.328 millones, 22,1% más que en igual período de 2025, con precios 12,2% más altos y cantidades 8,9% mayores. Las importaciones sumaron USD 62.760 millones, 2,9% menos. El saldo acumulado llegó a USD 24.568 millones, contra USD 6.859 millones un año antes. Las exportaciones de combustibles y energía crecieron 57,2% en los diez meses.",
-        "En el acumulado, el déficit con China fue de USD 6.292 millones y el déficit con Brasil de USD 2.379 millones, mientras que con Estados Unidos hubo un superávit de USD 2.802 millones. Comexplora no pudo acceder al informe técnico del INDEC al cierre de esta nota: las cifras se tomaron de los medios que lo reprodujeron, que coinciden entre sí."
-      ],
-      "keyData": [
-        [
-          "Exportaciones de octubre",
-          "USD 10.061 M (+26,4% i.a.)"
-        ],
-        [
-          "Importaciones de octubre",
-          "USD 6.668 M (−6,7% i.a.)"
-        ],
-        [
-          "Saldo comercial",
-          "USD 3.394 M (oct. 2025: USD 813 M)"
-        ],
-        [
-          "Combustibles y energía",
-          "USD 1.734 M (+93,9% i.a.)"
-        ],
-        [
-          "Petróleo crudo",
-          "USD 1.169 M (+121,7% i.a.)"
-        ],
-        [
-          "Importaciones en cantidades",
-          "−17,3% i.a."
-        ],
-        [
-          "Saldo enero–octubre",
-          "USD 24.568 M"
-        ]
-      ],
-      "explainer": {
-        "what": "El INDEC informó que en octubre las exportaciones sumaron USD 10.061 millones, un nuevo máximo mensual, y que el superávit comercial fue de USD 3.394 millones.",
-        "why": "La energía sigue empujando el ingreso de divisas: combustibles y energía creció 93,9% y el petróleo crudo fue el primer producto. Del otro lado, las importaciones cayeron 17,3% en cantidades, con bajas en piezas para bienes de capital, bienes de consumo y autos.",
-        "who": "Exportadores de energía, del complejo sojero y de maíz; importadores de insumos, bienes de consumo y vehículos; y quienes siguen la oferta de divisas del comercio exterior.",
-        "products": [
-          "Petróleo crudo",
-          "Harina y pellets de soja",
-          "Maíz",
-          "Porotos de soja",
-          "Aceite de soja",
-          "Vehículos de pasajeros",
-          "Bienes de capital"
-        ]
-      },
-      "sources": [
-        {
-          "name": "El Cronista",
-          "type": "Medio de comunicación",
-          "url": "https://www.cronista.com/economia-politica/energia-y-menores-importaciones-las-claves-del-superavit-comercial-record-de-octubre/",
-          "primary": true
-        },
-        {
-          "name": "Bloomberg Línea",
-          "type": "Medio de comunicación",
-          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/exportaciones-argentinas-marcaron-record-en-octubre-y-el-superavit-comercial-supero-los-us3000-millones/",
-          "author": "Belén Escobar"
-        },
-        {
-          "name": "El Destape",
-          "type": "Medio de comunicación",
-          "url": "https://www.eldestapeweb.com/economia/importaciones-caen-compras-insumos-produccion-crecen-senales-recesion-20261119161943"
-        },
-        {
-          "name": "La Posta Diario",
-          "type": "Medio de comunicación",
-          "url": "https://lapostadiario.com/boom-exportador-el-superavit-comercial-supero-los-us3-000-millones-en-octubre-y-marca-otro-pico-bajo-milei/"
-        },
-        {
-          "name": "Perfil (dato de mayo de 2026)",
-          "type": "Medio de comunicación",
-          "url": "https://www.perfil.com/noticias/economia/la-balanza-comercial-registro-un-superavit-record-de-us-3504-millones-en-mayo-a40.phtml"
-        }
-      ],
-      "story": "balanza-argentina"
-    },
-    {
-      "id": "drewry-wci-baja-3-19-noviembre-4176-cuarta-semana",
-      "date": "2026-11-19",
-      "kind": "datos",
-      "title": "El índice mundial de fletes de contenedores baja 3% a USD 4.176 por FEU, cuarta caída seguida, con el transpacífico en mínimos de varias semanas",
-      "summary": "El World Container Index de Drewry retrocedió por cuarta semana: Shanghái–Nueva York cayó 9% y Shanghái–Los Ángeles 5%, mientras Shanghái–Génova subió 6%. La consultora prevé más bajas en el transpacífico y subas en Asia–Europa, donde las navieras anunciaron recargos de USD 1.000 a 1.600 por FEU para diciembre.",
-      "topics": [
-        "Transporte marítimo",
-        "Logística",
-        "Asia",
-        "China",
-        "Estados Unidos",
-        "Europa"
-      ],
-      "countries": [
-        "China",
-        "Estados Unidos",
-        "Países Bajos",
-        "Italia",
-        "Global"
-      ],
-      "tags": [
-        "Fletes",
-        "Contenedores",
-        "WCI",
-        "Drewry",
-        "Blank sailings",
-        "Suez",
-        "Recargos"
-      ],
-      "visual": "container",
-      "impact": 2,
-      "affectsArgentina": false,
-      "body": [
-        "El World Container Index (WCI) de Drewry bajó 3% en la medición del jueves 19 de noviembre y quedó en USD 4.176 por contenedor de 40 pies (FEU), según publicó la consultora en su sitio. Es la cuarta baja semanal seguida: el índice venía de USD 4.585 el 22 de octubre, USD 4.389 el 5 de noviembre y USD 4.305 el 12 de noviembre, como fue informando Comexplora. Aun así, Drewry calcula que sigue 126% por encima de un año atrás.",
-        "La caída se concentró en el transpacífico, donde las tarifas bajaron por séptima semana consecutiva por la demanda débil, de acuerdo con la consultora. En Asia–Europa el cuadro fue distinto: una ruta quedó estable y la otra subió.",
-        "## Las rutas, una por una",
-        "Shanghái–Nueva York tuvo la mayor baja de la semana: 9%, hasta USD 8.194 por FEU, su nivel más bajo en 15 semanas. Shanghái–Los Ángeles cedió 5% y quedó en USD 7.026, el valor más bajo en 12 semanas. Una semana antes, esas rutas estaban en USD 9.020 y USD 7.416.",
-        "En Asia–Europa, Shanghái–Génova subió 6%, a USD 4.436, después de tres semanas sin cambios, y Shanghái–Róterdam quedó prácticamente igual, en USD 3.496 (Drewry la informa sin variación; el 12 de noviembre figuraba en USD 3.504). El texto de esta edición no detalla los valores de los tramos de regreso ni los del Atlántico, y el índice intra-Asia (IACI) de la semana no estaba disponible en el sitio al cierre de esta nota.",
-        "## Cancelaciones y recargos",
-        "Las navieras siguen ajustando la oferta con cancelaciones de salidas (blank sailings). En el transpacífico hubo cuatro esta semana y ya hay diez anunciadas para la próxima. En Asia–Europa/Mediterráneo fueron cinco y hay cuatro previstas para la semana que viene, según el relevamiento de capacidad de Drewry.",
-        "Para Asia–Europa, muchas líneas anunciaron recargos de temporada alta (PSS) de entre USD 1.000 y 1.600 por FEU con vigencia en diciembre. Drewry espera que la demanda se fortalezca ese mes, antes del nuevo ciclo de contratos anuales y de los embarques previos al Año Nuevo Lunar.",
-        "Que esos aumentos se trasladen por completo está en duda. Según un informe de la consultora Sogese que publicó Cyprus Shipping News el 18 de noviembre, el escenario más probable es que las navieras consigan solo una parte de las subas anunciadas para noviembre: a comienzos de mes, las tarifas spot de Shanghái a Génova y a Róterdam seguían por debajo de las tarifas FAK publicadas por MSC y CMA CGM para el mes.",
-        "## Suez, congestión y riesgos",
-        "El regreso de servicios al canal de Suez sigue avanzando: Drewry contó 57 buques en tránsito la semana pasada, frente a 53 en el informe anterior. Por el estrecho de Ormuz, en cambio, cruzaron solo cuatro. La consultora advierte que la congestión creciente en los puertos del norte de Europa demora la devolución de contenedores vacíos a Asia y genera preocupación por una posible falta de equipos más adelante.",
-        "El informe de Sogese apunta en la misma dirección: el agrupamiento de llegadas por la reorganización de las rotaciones preocupa a los puertos de Róterdam y Amberes-Brujas, y Ormuz aparece como el principal riesgo, porque una escalada podría restar buena parte de la capacidad que vuelve por Suez. Drewry suma como riesgo los posibles conflictos laborales en los puertos de Los Ángeles y Long Beach.",
-        "## Qué espera Drewry y qué mirar desde la Argentina",
-        "Para el transpacífico, la consultora prevé nuevas bajas la semana próxima; para Asia–Europa, subas en las próximas semanas, y recomienda a los cargadores contar con volatilidad. El WCI no mide rutas hacia Sudamérica, pero es una referencia del mercado en el que se negocian los fletes desde Asia: lo que paga cada importador argentino depende de su contrato, de la ruta y del momento en que contrata."
-      ],
-      "keyData": [
-        [
-          "WCI compuesto",
-          "USD 4.176 / FEU (−3%)"
-        ],
-        [
-          "Shanghái → Nueva York",
-          "USD 8.194 (−9%)"
-        ],
-        [
-          "Shanghái → Los Ángeles",
-          "USD 7.026 (−5%)"
-        ],
-        [
-          "Shanghái → Génova",
-          "USD 4.436 (+6%)"
-        ],
-        [
-          "Shanghái → Róterdam",
-          "USD 3.496 (sin cambios)"
-        ],
-        [
-          "Recargos Asia–Europa para diciembre",
-          "USD 1.000–1.600 por FEU"
-        ],
-        [
-          "Variación interanual del WCI",
-          "+126%"
-        ]
-      ],
-      "explainer": {
-        "what": "El World Container Index de Drewry bajó 3% en la medición del 19 de noviembre y quedó en USD 4.176 por contenedor de 40 pies, su cuarta baja semanal seguida.",
-        "why": "Es una referencia habitual de los fletes spot: el transpacífico cae por la demanda débil (Shanghái–Nueva York, USD 8.194, −9%), mientras en Asia–Europa las navieras anuncian recargos de USD 1.000 a 1.600 por FEU para diciembre.",
-        "who": "Importadores y exportadores que contratan flete marítimo en contenedor, forwarders y navieras.",
-        "products": [
-          "Carga en contenedores"
-        ],
-        "next": "Drewry espera que las tarifas del transpacífico vuelvan a bajar la semana próxima y que las de Asia–Europa suban en las próximas semanas.",
-        "nextSource": {
-          "name": "Drewry – World Container Index",
-          "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
-        }
-      },
-      "sources": [
-        {
-          "name": "Drewry – World Container Index",
-          "type": "Consultora (fuente del dato)",
-          "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry",
-          "primary": true
-        },
-        {
-          "name": "Cyprus Shipping News (informe de Sogese)",
-          "type": "Medio especializado",
-          "url": "https://cyprusshippingnews.com/2026/11/18/carriers-may-secure-only-part-of-their-november-rate-increases-as-suez-returns-and-north-european-ports-brace-for-bunching-sogese-report-says/"
-        }
-      ],
-      "story": "fletes-contenedores"
-    },
-    {
-      "id": "argentina-lng-directorio-ypf-aprueba-fid-firma-30-noviembre-eni-xrg",
-      "date": "2026-11-19",
-      "datetime": "2026-11-19T09:37:28-03:00",
-      "kind": "noticia",
-      "title": "Argentina LNG: el directorio de YPF aprobó la decisión final de inversión y la firma con Eni y XRG pasa al lunes 30 de noviembre",
-      "summary": "La aprobación fue por unanimidad el 16 de noviembre, el mismo día en que se cerró el traspaso a Eni y XRG de acciones de la sociedad dueña de cinco áreas de Vaca Muerta. La firma del proyecto de USD 51.000 millones para exportar GNL, antes prevista para el 26, será en el Palacio Libertad.",
-      "topics": [
-        "Argentina",
-        "Exportaciones",
-        "Empresas"
-      ],
-      "countries": [
-        "Argentina",
-        "Italia",
-        "Emiratos Árabes Unidos",
-        "Estados Unidos"
-      ],
-      "tags": [
-        "YPF",
-        "Eni",
-        "XRG",
-        "ADNOC",
-        "GNL",
-        "Argentina LNG",
-        "Vaca Muerta",
-        "RIGI",
-        "Río Negro",
-        "Neuquén"
-      ],
-      "visual": "energy",
-      "impact": 2,
-      "affectsArgentina": true,
-      "argentinaNote": "Acerca el compromiso de inversión del principal proyecto de exportación de gas natural licuado del país, que abre demanda de caños, servicios y logística desde 2027 y proyecta ventas externas por unos USD 10.000 millones anuales.",
-      "argentinaImpact": {
-        "change": "El directorio de YPF aprobó la decisión final de inversión de Argentina LNG y la firma con Eni y XRG quedó para el 30 de noviembre.",
-        "who": "Proveedores de la industria del gas, fabricantes de caños, empresas de servicios petroleros, importadores de equipos y operadores logísticos de Neuquén y Río Negro.",
-        "sectors": [
-          "Petróleo y gas",
-          "Siderurgia",
-          "Construcción",
-          "Logística"
-        ],
-        "flows": {
-          "importaciones": true,
-          "exportaciones": true,
-          "logistica": true,
-          "aranceles": false
-        }
-      },
-      "body": [
-        "El directorio de YPF aprobó por unanimidad la decisión final de inversión (FID, por su sigla en inglés) de Argentina LNG, el proyecto para exportar gas natural licuado de Vaca Muerta que la petrolera comparte con la italiana Eni y con XRG, la plataforma de inversiones internacionales de la emiratí ADNOC. Lo contó el presidente y CEO de la compañía, Horacio Marín, la noche del lunes 16 de noviembre, en una entrevista con Neura Media, después de una reunión de directorio de cinco horas, según Shale24 y La Vanguardia Noticias.",
-        "La firma entre los tres socios quedó para el lunes 30 de noviembre en el Palacio Libertad, en Buenos Aires, informaron El Cordillerano y El Monterizo el 19 de noviembre. Es una fecha posterior a la que había anunciado Marín a comienzos de octubre, el jueves 26 de noviembre, como informó Comexplora el 24 de octubre. Ninguna de las fuentes consultadas explica el cambio.",
-        "## El traspaso de acciones",
-        "El mismo 16 de noviembre se completó la venta a Eni y XRG de parte de la participación de YPF en UPCO ARLNG I, la sociedad titular de cinco áreas de Vaca Muerta destinadas al proyecto: Meseta Buena Esperanza I y II, Aguada Villanueva Norte y Las Tacanas I y II, según El Cordillerano. Tras el cierre, YPF queda con el 36% y cada una de sus socias con el 32%.",
-        "La operación necesitaba la autorización de la provincia del Neuquén, que la otorgó con los decretos 1861, 1862 y 1863, publicados el 13 de noviembre, de acuerdo con Shale24 y La Vanguardia Noticias. Según Shale24, el programa de la firma incluye un encuentro con la industria la noche anterior, la visita al presidente Javier Milei y la presencia del CEO de Eni, Claudio Descalzi.",
-        "## El proyecto, en números",
-        "De acuerdo con la solicitud de adhesión al Régimen de Incentivo para Grandes Inversiones (RIGI) presentada el 13 de agosto, la inversión suma USD 51.000 millones a lo largo de la vida útil del proyecto, según Shale24 y Border Periodismo. Marín detalló que unos USD 30.000 millones se invertirán en los primeros cuatro años para tener el gas listo para licuar, y que los costos operativos superarán los USD 20.000 millones. Las cifras de los medios no suman exactamente el total y ninguno aclara la diferencia.",
-        "La primera etapa prevé dos unidades flotantes de licuefacción (FLNG) de 6 millones de toneladas anuales cada una, ancladas en el golfo San Matías, frente a la costa de Río Negro. Shale24 informó que se conversa sobre una tercera unidad de la misma capacidad. Marín proyecta exportaciones por unos USD 200.000 millones en 20 años, con un piso de USD 10.000 millones por año, y en septiembre el proyecto recibió una oferta de financiamiento de hasta USD 6.000 millones del Banco de Exportaciones e Importaciones de Estados Unidos (EXIM).",
-        "## Qué significa para proveedores y logística",
-        "El proyecto incluye un gasoducto dedicado de unos 526 kilómetros desde Vaca Muerta hasta Punta Colorada, con un caño de 48 pulgadas, un poliducto paralelo de 24 pulgadas para los líquidos, una planta fraccionadora en Río Negro y una planta separadora en Cutral Co y Plaza Huincul, en el Neuquén, según El Cordillerano y El Monterizo. La provisión del caño de 48 pulgadas se repartió entre Grupo Cuñado, de España, y Corinth Pipeworks, de Grecia, mientras que el poliducto lo fabricará Tenaris en la Argentina.",
-        "Marín anticipó que la construcción del gasoducto podría empezar en febrero de 2027 si la FID se firma en plazo. YPF estimó en agosto unos 20.000 puestos de trabajo por año durante la obra, con picos de 40.000, y unos 8.000 en la etapa de operación. El gobernador neuquino, Rolando Figueroa, confirmó la fecha de la firma y destacó la planta separadora, con una inversión de más de USD 7.000 millones, según los mismos medios.",
-        "## Los compromisos con Río Negro",
-        "El acta acuerdo entre Río Negro, YPF y Argentina LNG, presentada en Viedma en febrero, activa compromisos desde la firma de la FID: un aporte comunitario de USD 25 millones y la puesta en operación del aeropuerto de San Antonio Oeste, de acuerdo con El Monterizo. Desde el inicio de la operación comercial se suman USD 24 millones por año para la comunidad y USD 10 millones anuales en cánones y tasas provinciales, además de la prioridad para trabajadores y proveedores rionegrinos que fijan las leyes provinciales 5804 y 5805. Según El Cordillerano, YPF prevé tener operativas las dos unidades flotantes en 2031."
-      ],
-      "keyData": [
-        [
-          "Inversión total (solicitud RIGI)",
-          "USD 51.000 M"
-        ],
-        [
-          "Firma de la decisión final de inversión",
-          "Lunes 30 de noviembre, Palacio Libertad"
-        ],
-        [
-          "Aprobación del directorio de YPF",
-          "16 de noviembre, por unanimidad"
-        ],
-        [
-          "Participaciones en UPCO ARLNG I",
-          "YPF 36%, Eni 32%, XRG 32%"
-        ],
-        [
-          "Capacidad de la primera etapa",
-          "2 unidades FLNG de 6 millones de t/año"
-        ],
-        [
-          "Exportaciones proyectadas",
-          "USD 200.000 M en 20 años (Marín)"
-        ],
-        [
-          "Aporte a Río Negro desde la FID",
-          "USD 25 M"
-        ]
-      ],
-      "explainer": {
-        "what": "El directorio de YPF aprobó por unanimidad el 16 de noviembre la decisión final de inversión de Argentina LNG, y la firma con Eni y XRG quedó para el lunes 30 de noviembre.",
-        "why": "Es el paso que compromete una inversión de USD 51.000 millones para exportar gas natural licuado de Vaca Muerta, con ventas externas proyectadas por USD 200.000 millones en 20 años y demanda de caños, equipos y servicios desde 2027.",
-        "who": "Proveedores de la industria del gas y fabricantes de caños, empresas de servicios, importadores de equipos, operadores logísticos y las provincias de Neuquén y Río Negro.",
-        "products": [
-          "Gas natural licuado",
-          "Gas natural",
-          "Caños de acero",
-          "Unidades flotantes de licuefacción"
-        ],
-        "next": "YPF, Eni y XRG prevén firmar la decisión final de inversión el lunes 30 de noviembre en el Palacio Libertad; Marín anticipó que la construcción del gasoducto podría empezar en febrero de 2027 si la firma se hace en plazo.",
-        "nextSource": {
-          "name": "El Cordillerano",
-          "url": "https://www.elcordillerano.com.ar/noticias/2026/11/19/274008-es-la-inversion-mas-grande-de-la-historia-ypf-eni-y-xrg-firman-decision-final-de-inversion-el-lunes-30"
-        }
-      },
-      "sources": [
-        {
-          "name": "El Monterizo",
-          "type": "Medio de comunicación",
-          "url": "https://elmonterizo.com/ypf-eni-y-xrg-firman-el-lunes-30-los-dos-compromisos-que-se-activan-para-rio-negro",
-          "primary": true
-        },
-        {
-          "name": "El Cordillerano",
-          "type": "Medio de comunicación",
-          "url": "https://www.elcordillerano.com.ar/noticias/2026/11/19/274008-es-la-inversion-mas-grande-de-la-historia-ypf-eni-y-xrg-firman-decision-final-de-inversion-el-lunes-30"
-        },
-        {
-          "name": "Shale24",
-          "type": "Medio especializado",
-          "url": "https://www.shale24.com/oil-gas/el-directorio-ypf-aprobo-unanimidad-fid-argentina-lng-completo-traspaso-acciones-eni-xrg-n2069",
-          "author": "Lucía Martínez"
-        },
-        {
-          "name": "La Vanguardia Noticias",
-          "type": "Medio de comunicación",
-          "url": "https://www.lavanguardianoticias.com.ar/nota-ypf-aprobo-por-unanimidad-la-inversion-final-de-argentina-lng-la-firma-sera-el-30-de-noviembre-en-el-palacio-libertad-123465"
-        },
-        {
-          "name": "Border Periodismo",
-          "type": "Medio de comunicación",
-          "url": "https://borderperiodismo.com/economia/ypf-prepara-la-firma-de-la-inversion-mas-grande-de-la-historia-del-pais-para-exportar-gnl/"
-        }
-      ],
-      "story": "energia-mineria",
-      "deadlines": [
-        {
-          "date": "2026-11-30",
-          "label": "YPF, Eni y XRG: firma prevista de la decisión final de inversión de Argentina LNG",
-          "url": "https://www.elcordillerano.com.ar/noticias/2026/11/19/274008-es-la-inversion-mas-grande-de-la-historia-ypf-eni-y-xrg-firman-decision-final-de-inversion-el-lunes-30"
-        },
-        {
-          "date": "2027-02",
-          "label": "Argentina LNG: podría empezar la construcción del gasoducto dedicado, solo si la decisión final de inversión se firma en plazo (según Marín)",
-          "url": "https://www.elcordillerano.com.ar/noticias/2026/11/19/274008-es-la-inversion-mas-grande-de-la-historia-ypf-eni-y-xrg-firman-decision-final-de-inversion-el-lunes-30"
-        }
-      ],
-      "absorbs": [
-        "ypf-prepara-la-firma-de-la-inversion-mas-grande-de-la-historia-del-pais-para-exp"
-      ]
     }
   ],
   "ingestion": {
-    "ranAt": "2026-11-19T14:26:31Z",
+    "ranAt": "2026-11-19T22:40:03Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
         "url": "https://www.wto.org/library/rss/latest_news_s.xml",
         "ok": true,
         "items": 7,
-        "added": 0,
-        "updated": 1,
-        "skipped": 0
+        "added": 3,
+        "updated": 0,
+        "skipped": 1
       },
       {
         "source": "Aduana News",
         "url": "https://www.aduananews.com/feed/",
         "ok": true,
         "items": 12,
-        "added": 1,
+        "added": 0,
         "updated": 0,
         "skipped": 2
       },
@@ -159945,45 +160941,45 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 7,
+        "added": 9,
         "updated": 0,
-        "skipped": 7
+        "skipped": 6
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 25,
-        "added": 2,
+        "items": 30,
+        "added": 4,
         "updated": 0,
-        "skipped": 15
+        "skipped": 19
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 21,
-        "added": 1,
+        "items": 24,
+        "added": 4,
         "updated": 0,
-        "skipped": 14
+        "skipped": 16
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 55,
+        "items": 80,
         "added": 4,
-        "updated": 0,
-        "skipped": 31
+        "updated": 1,
+        "skipped": 53
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 28,
+        "items": 29,
         "added": 4,
         "updated": 0,
-        "skipped": 12
+        "skipped": 11
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
@@ -159992,19 +160988,24 @@
         "items": 100,
         "added": 4,
         "updated": 0,
-        "skipped": 87
+        "skipped": 88
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 66,
+        "items": 69,
         "added": 4,
         "updated": 0,
-        "skipped": 47
+        "skipped": 50
       }
     ],
     "curatedDuplicates": [
+      {
+        "title": "Se multiplican las nuevas medidas restrictivas del comercio, pero los Miembros de la OMC intensifican sus esfuerzos de…",
+        "url": "https://www.wto.org/spanish/news_s/news26_s/tmwto_17nov26_552_s.htm",
+        "curated": "omc-vigilancia-comercio-2026-restricciones-importacion-5-4-billones-21-3-por-ciento"
+      },
       {
         "title": "Las ventas argentinas a Brasil crecieron un 1,8% interanual en octubre",
         "url": "https://aduananews.com/las-ventas-argentinas-a-brasil-crecieron-un-18-interanual-en-octubre/?utm_source=rss&utm_medium=rss&utm_campaign=las-ventas-argentinas-a-brasil-crecieron-un-18-interanual-en-octubre",
@@ -160016,62 +161017,82 @@
         "curated": "resolucion-461-2026-ropa-usada-importacion-certificacion-prohibe-calzado-ropa-interior"
       },
       {
-        "title": "Nuevas reglas para las fumigaciones oficiales de cargas en el comercio exterior argentino",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPTE15bTlLbmFjZFF6WnBpZ3lVZTZfMVhNa0loSXdZOU10SHpKeGNJVkJ0RlM3V1RRRDlkY2V0SG4xalVkbmdNeEE1STBxLTRQRzlTU1lqNjdwTk5PdEdhWEd1ZUtTTDdMOUxOdW9iZ3JoZUFoOVRXYjU1M0pRdEk4aGZXTEVsX0pHelhYaUtBQ3BiNlk5bHJHZmt6UDMtd1RxOFl6Rk5FeEhoZzRyOGVwb0dlZFlDSTY2MmFkSFR6MjBDM2NWbktPdWZNMzBHOFFGXzRJS1ZjeVVLazNUbmtnWnNYd3BXLTDSAecBQVVfeXFMT0xNeW05S25hY2RRelpwaWd5VWU2XzFYTWtJaEl3WTlNdEh6SnhjSVZCdEZTN1dUUUQ5ZGNldEhuMWpVZG5nTXhBNUkwcS00UEc5U1NZajY3cE5OT3RHYVhHdWVLU0w3TDlMTnVvYmdyaGVBaDlUV2I1NTNKUXRJOGhmV0xFbF9KR3pYWGlLQUNwYjZZOWxyR2ZrelAzLXdUcThZekZORXhIaGc0cjhlcG9HZWRZQ0k2NjJhZEhUejIwQzNjVm5LT3VmTTMwRzhRRl80SUtWY3lVS2szVG5rZ1pzWHdwVy0w?oc=5",
-        "curated": "senasa-resolucion-955-2026-fumigaciones-oficiales-comercio-internacional-granos-bodegas-fosfina"
-      },
-      {
-        "title": "SENASA cambia los controles para exportar vegetales: cuándo serán obligatorios",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTWXlRdWEwUDVkbEZ2UlR6WXZUd2w4WFZSNENrekFncUY1dEZXS2FPb2tWa2NDa2hTbnpSTzF2V281aDM0SUw1U3J1S29IVDB4cUFkTG1DWEdGcmtfMkRRb2lIelVGQlVJSi1Ka21QTnE?oc=5",
-        "curated": "senasa-resolucion-952-2026-control-fitosanitario-exportaciones-vegetales-destino-cepvp-cert-pov"
-      },
-      {
-        "title": "El petróleo desplazó a la harina de soja y lidera las exportaciones argentinas",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1QMFo1eFhESGsyUDIyaG9mYjg1eUxkcmtKVFZEZkUwNjVxLXZXcEt3bXM4ZVN6T2paOWtyU0YzRk95eUdrWHU4bWJNNHdyR3QweE13dzI2TW5SbF9KY3ZoZVBJUHVrUTRlc1FRN0tod2RrdFJEcFMxNA?oc=5",
+        "title": "Récord de exportaciones y caída de las importaciones: el superávit comercial superó los US$ 3.300 millones",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNzRSR2FuYUJQY0d6T3NENWg3eVFMcHpfZDVRSDNzX2FVLVBIaUo5MXAxVDdOS1M4ZDdqZVlVSF9Yd1RwZkRYWGk2ZHZHLWFmTlRRbzlOam1yNUVaZEdTZ0EteC01Wmp4QUd4SGp1U0ZuRXVxWlNzNmlwTVRwYXRPWW5FbVNESk5TR3hSa0tmWm43V2ZJN2FlUDB1Q3k5Q2cwWWxhZ1ktaWVIeGx6TEhmQVdHeVA1ZjhoVEVZMjY1cU9BYkJq?oc=5",
         "curated": "bcr-saldo-energetico-enero-septiembre-2026-9427-millones-record-44-5-superavit-crudo-harina-soja"
       },
       {
-        "title": "Se actualizó procedimiento para supervisar tratamientos de fumigación oficial en el comercio exterior",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CWUE2cWVfMDY3MU1GaElMdGVkODBlWWZlamVaZ0VNa0VlTGRSTGhfczhUaEEzcEhYV2pmbGZ6N1YtcVRIR1RnTl9DNmNmNDZjaW1hUkRSUjNSdUhpbFpR?oc=5",
-        "curated": "senasa-resolucion-955-2026-fumigaciones-oficiales-comercio-internacional-granos-bodegas-fosfina"
+        "title": "Energía y menores importaciones: las claves del superávit comercial récord de octubre",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTjA2YUxFY002RjdjVmVMX3p4VjlxWS02eUVFSGRLVXNmaEhfQ0FtXzdOTklDLXNQQkRRbWgwaVRXU01XbFY4VGJ0el9CSDVLOWlRZ1A1b1pJOVpXM2FHb3BrTEQtTFRrVzRObjBjcjBHUzBhS183b3JIZnB2ME9wSjNxS2doeE1QVmhoNHp4MWI3TXcyUEswNkYwUk4wcHdMNXUtMlRLQ0N4Q3hWVmFmSFRCS1RtTDhKTVI3YnB5bF9wQnVDZjlV0gHiAUFVX3lxTE1Tel81Skc4R056VFQwLTJHcnBydjNyNGtmbHpvbGZmZDFhRFFWWnhvYUstVy1ITjRjQmhoNFVfMWV2Vnd0YS1zWmpHMkgzSXFHaHJoSUdwbEZfY2FIdVBIbUJJejBHMWg4LUJnTUo5NzZETzY4dzhNdDBieDhFQkp1WVd4QzNiN3F6bF9tYXJSeXlsMWhpNXVwSXpYNGpJMHptUEFmcWNCcjlXcTlhMjNfRTNieHdNRDFYRWxuSXREdi03U3RSTWJNWGhSNFlNQ0VNZ1BwQjRzNEpTQjBWRXhoaXc?oc=5",
+        "curated": "indec-ica-octubre-2026-exportaciones-record-10061-superavit-3394"
       },
       {
-        "title": "Se actualizó procedimiento para supervisar tratamientos de fumigación oficial en el comercio exterior",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZW1iZXRJeUlhbVRxSVFKbml2NzZSaWVxOExzVGdaeU5RcVlmaC1fSzNjXzh2QlNHQmhsTUZTT0J6VllkOUNVbGRRLUF3SHBlMHRlYlNQb2k2cnZCYXNaNmlCT0dTS1NLTjNTYlQzdTV5NDNLRS0ySlRwc3p3QkYxeHlTQnUtT3YzclZGRG1HV1JtbW55eGlpaGpxV0lwY29VR0NaNWxyVXliVFlGZW43R3dUWmtjWm9kdzktTEdB?oc=5",
-        "curated": "senasa-resolucion-955-2026-fumigaciones-oficiales-comercio-internacional-granos-bodegas-fosfina"
+        "title": "Vaca Muerta impulsó un récord de exportaciones y Argentina logró un superávit comercial de US$3.394 millones en octubre",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNUERrY29WRjZrZWxKY3Vtc3VKcXRJS09CLXVpN1FnVkVzN0pJcXZnRzFKLThfb3FTY0NFZXVkejhsNjhwVVJtNnJzdWR4YkFhMkx1SlozT0JZdGlYMmZic0UwTkxSSnFScXY3TEpiaGhhZHQ5Q1RSRENIV2xfV1p3bThkNUlMNWtUcnJmYkJ2b25iMTh1ZDVRWUo3cGhqLXJYYVFtM1p5anlMUHFxYWVoR2NLbWxfcGJkNGJsb1pPN2tBVWVlTVRKd0FldUJVcGtrMVo3b0szSXYyUFh2Mm5rQnZ0QQ?oc=5",
+        "curated": "indec-ica-octubre-2026-exportaciones-record-10061-superavit-3394"
       },
       {
-        "title": "Se actualizó procedimiento para supervisar tratamientos de fumigación oficial en el comercio exterior",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CWUE2cWVfMDY3MU1GaElMdGVkODBlWWZlamVaZ0VNa0VlTGRSTGhfczhUaEEzcEhYV2pmbGZ6N1YtcVRIR1RnTl9DNmNmNDZjaW1hUkRSUjNSdUhpbFpR?oc=5",
-        "curated": "senasa-resolucion-955-2026-fumigaciones-oficiales-comercio-internacional-granos-bodegas-fosfina"
+        "title": "Maersk y Hapag-Lloyd aceleran regreso a Suez y aumentan la presión sobre los fletes",
+        "url": "https://mascontainer.com/maersk-y-hapag-lloyd-aceleran-regreso-a-suez-y-aumentan-la-presion-sobre-los-fletes/",
+        "curated": "suez-one-continuity-premier-alliance-gemini-evergreen-regreso-drewry-52-cancelaciones"
       },
       {
-        "title": "SENASA simplifica y moderniza los controles fitosanitarios de exportacion de productos vegetales",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBUYWlnVTNRTFpfQkFaZmpFaHI2X0M0ZlpVbjVaZHBBeUZZRXdxSXBXV0I2V2M1Rk5QS1hxM1cxVzB4WU52WGFlLUNONUZpYS1mZXhPUXVXOFB3Z2NXLXQ0?oc=5",
-        "curated": "senasa-resolucion-952-2026-control-fitosanitario-exportaciones-vegetales-destino-cepvp-cert-pov"
-      },
-      {
-        "title": "El conflicto por los fletes de granos vuelve a poner en alerta a Puerto Quequén: ¿Pueden repetirse los bloqueos?",
-        "url": "https://www.diario4v.com/nota/54005/el-conflicto-por-los-fletes-de-granos-vuelve-a-poner-en-alerta-a-puerto-quequen-pueden-repetirse-los-bloqueos/",
-        "curated": "buenos-aires-laudo-16-por-ciento-tarifa-referencia-fletes-granos-carbap-coninagro-acopiadores"
-      },
-      {
-        "title": "Se multiplican las nuevas medidas restrictivas del comercio, pero los Miembros de la OMC intensifican sus esfuerzos de…",
-        "url": "https://www.wto.org/spanish/news_s/news26_s/tmwto_17nov26_552_s.htm",
-        "curated": "omc-vigilancia-comercio-2026-restricciones-importacion-5-4-billones-21-3-por-ciento"
+        "title": "YPF prepara la firma de la inversión más grande de la historia del país para exportar GNL",
+        "url": "https://borderperiodismo.com/economia/ypf-prepara-la-firma-de-la-inversion-mas-grande-de-la-historia-del-pais-para-exportar-gnl/",
+        "curated": "argentina-lng-directorio-ypf-aprueba-fid-firma-30-noviembre-eni-xrg"
       }
     ],
     "excluded": 0,
-    "grouped": [],
+    "grouped": [
+      {
+        "main": "xxvii-reunion-de-ministras-y-altas-autoridades-de-la-mujer-del-mercosur-rmaam",
+        "merged": [
+          "participacion-en-la-xxvii-reunion-de-ministras-y-altas-autoridades-de-la-mujer-d"
+        ]
+      },
+      {
+        "main": "advierten-sobre-posible-impacto-de-alzas-en-pasajes-y-fletes-de-carga",
+        "merged": [
+          "alzas-de-hasta-15-en-fletes-elevan-costos-de-produccion"
+        ]
+      },
+      {
+        "main": "el-puerto-de-malaga-y-el-gobierno-andaluz-sondearan-a-las-navieras-para-abrir-un",
+        "merged": [
+          "un-ferry-directo-a-ceuta-desde-malaga-la-junta-de-andalucia-busca-naviera-para-a",
+          "la-conexion-maritima-entre-malaga-y-ceuta-queda-pendiente-de-las-navieras"
+        ]
+      },
+      {
+        "main": "las-exportaciones-argentinas-alcanzaron-un-record-historico-en-octubre-y-superar",
+        "merged": [
+          "bate-record-de-exportaciones-pero-la-industria-local-se-hunde-un-informe-revela",
+          "record-de-exportaciones-en-argentina-superaron-los-us-10-000-millones-y-el-super"
+        ]
+      },
+      {
+        "main": "impacto-de-la-devaluacion-del-real-en-el-turismo-y-exportaciones",
+        "merged": [
+          "la-devaluacion-del-real-complica-algunos-productos-argentinos-de-exportacion",
+          "la-devaluacion-del-real-amenaza-las-exportaciones-de-las-economias-regionales-ar"
+        ]
+      },
+      {
+        "main": "presidente-kast-destaca-acuerdo-comercial-con-filipinas-y-nuevas-oportunidades-d",
+        "merged": [
+          "chile-y-filipinas-firman-acuerdo-comercial-en-apec-2026"
+        ]
+      }
+    ],
     "googleNews": {
-      "pending": 21,
-      "resolved": 18,
-      "withSummary": 14,
+      "pending": 30,
+      "resolved": 21,
+      "withSummary": 18,
       "withPhoto": 0,
-      "failed": 3,
+      "failed": 9,
       "duplicates": 0
     },
-    "noRead": 1
+    "noRead": 0
   },
   "stories": [
     {
