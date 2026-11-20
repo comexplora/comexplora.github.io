@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-11-20T03:58:39Z",
+  "updatedAt": "2026-11-20T14:00:26Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -142,7 +142,7 @@
       "obsDate": "2026-11-19",
       "change": "+0,3% vs. día hábil anterior",
       "trend": "up",
-      "checkedAt": "2026-11-20T03:59:25Z",
+      "checkedAt": "2026-11-20T14:01:41Z",
       "history": [
         [
           "2026-10-05",
@@ -267,33 +267,29 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-20T03:59:25Z"
+      "lastAttempt": "2026-11-20T14:01:41Z"
     },
     {
       "id": "soja",
       "label": "Soja · precio pizarra Rosario",
       "value": "$ 550.000/t",
-      "period": "Rosario · 18 nov 2026 · US$ 354,72/t",
+      "period": "Rosario · 19 nov 2026 · US$ 353,47/t",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "group": "Mercados",
-      "obsDate": "2026-11-18",
+      "obsDate": "2026-11-19",
       "change": "0,0% vs. pizarra anterior",
       "trend": "flat",
       "_last": {
+        "date": "2026-11-19",
+        "ars": 550000.0
+      },
+      "checkedAt": "2026-11-20T14:01:42Z",
+      "_prev": {
         "date": "2026-11-18",
         "ars": 550000.0
       },
-      "checkedAt": "2026-11-20T03:59:25Z",
-      "_prev": {
-        "date": "2026-11-17",
-        "ars": 550000.0
-      },
       "history": [
-        [
-          "2026-10-02",
-          554000.0
-        ],
         [
           "2026-10-05",
           552500.0
@@ -409,11 +405,15 @@
         [
           "2026-11-18",
           550000.0
+        ],
+        [
+          "2026-11-19",
+          550000.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-20T03:59:25Z"
+      "lastAttempt": "2026-11-20T14:01:42Z"
     },
     {
       "id": "brent",
@@ -426,7 +426,7 @@
       "obsDate": "2026-11-17",
       "change": "0,0% vs. día anterior",
       "trend": "flat",
-      "checkedAt": "2026-11-20T03:59:28Z",
+      "checkedAt": "2026-11-20T14:01:44Z",
       "history": [
         [
           "2026-10-07",
@@ -551,33 +551,29 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-11-20T03:59:28Z"
+      "lastAttempt": "2026-11-20T14:01:44Z"
     },
     {
       "id": "maiz",
       "label": "Maíz · precio pizarra Rosario",
-      "value": "$ 271.000/t",
+      "value": "$ 272.000/t",
       "group": "Mercados",
-      "period": "Rosario · 18 nov 2026 · US$ 174,78/t",
-      "obsDate": "2026-11-18",
-      "change": "+0,9% vs. pizarra anterior",
+      "period": "Rosario · 19 nov 2026 · US$ 174,81/t",
+      "obsDate": "2026-11-19",
+      "change": "+0,4% vs. pizarra anterior",
       "trend": "up",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
+        "date": "2026-11-19",
+        "ars": 272000.0
+      },
+      "checkedAt": "2026-11-20T14:01:44Z",
+      "_prev": {
         "date": "2026-11-18",
         "ars": 271000.0
       },
-      "checkedAt": "2026-11-20T03:59:28Z",
-      "_prev": {
-        "date": "2026-11-17",
-        "ars": 268500.0
-      },
       "history": [
-        [
-          "2026-10-02",
-          287090.0
-        ],
         [
           "2026-10-05",
           287090.0
@@ -693,37 +689,37 @@
         [
           "2026-11-18",
           271000.0
+        ],
+        [
+          "2026-11-19",
+          272000.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-20T03:59:28Z"
+      "lastAttempt": "2026-11-20T14:01:44Z"
     },
     {
       "id": "trigo",
       "label": "Trigo · precio pizarra Rosario",
-      "value": "$ 286.850/t",
+      "value": "$ 294.084/t",
       "group": "Mercados",
-      "period": "Rosario · 18 nov 2026 · US$ 185,00/t",
-      "obsDate": "2026-11-18",
-      "change": "+0,5% vs. pizarra anterior",
+      "period": "Rosario · 19 nov 2026 · US$ 189,00/t",
+      "obsDate": "2026-11-19",
+      "change": "+2,5% vs. pizarra anterior",
       "trend": "up",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
+        "date": "2026-11-19",
+        "ars": 294084.0
+      },
+      "checkedAt": "2026-11-20T14:01:44Z",
+      "_prev": {
         "date": "2026-11-18",
         "ars": 286850.0
       },
-      "checkedAt": "2026-11-20T03:59:28Z",
-      "_prev": {
-        "date": "2026-11-17",
-        "ars": 285455.0
-      },
       "history": [
-        [
-          "2026-10-02",
-          339975.0
-        ],
         [
           "2026-10-05",
           339975.0
@@ -839,429 +835,952 @@
         [
           "2026-11-18",
           286850.0
+        ],
+        [
+          "2026-11-19",
+          294084.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-20T03:59:28Z"
+      "lastAttempt": "2026-11-20T14:01:44Z"
     }
   ],
   "items": [
     {
-      "id": "zona-franca-san-juan-jachal-resolucion-2000-2026-reglamento-mineria",
-      "date": "2026-11-19",
-      "datetime": "2026-11-19T11:08:27-03:00",
-      "title": "Economía aprobó el reglamento de la Zona Franca de San Juan en Jáchal, pensada para abastecer a la minería",
-      "summary": "La Resolución 2000/2026, publicada el 19 de noviembre en el Boletín Oficial, reemplaza la norma de 1996 y fija las reglas de funcionamiento del predio de 110 hectáreas en Campo Los Blanquitos, sobre la ruta nacional 150. El próximo paso es que la provincia licite un operador.",
-      "body": [
-        "El Ministerio de Economía de la Nación aprobó el nuevo Reglamento de Funcionamiento y Operación de la Zona Franca de San Juan mediante la Resolución 2000/2026, que se publicó el jueves 19 de noviembre en el Boletín Oficial, según informaron Aduana News y El Eco. La norma había sido firmada el martes 17, de acuerdo con Diario Huarpe y SanJuan8, y reemplaza el reglamento vigente desde 1996, la Resolución 79 del entonces Ministerio de Economía y Obras y Servicios Públicos, que la nueva norma deja sin efecto.",
-        "La zona franca funcionará en un predio de 110 hectáreas en Campo Los Blanquitos, al oeste de San José de Jáchal, junto a la ruta nacional 150, que es el eje del Corredor Bioceánico. Según los considerandos citados por la prensa, el reglamento se adaptó al perfil minero-industrial previsto para el norte sanjuanino y a la logística que demandan los proyectos de cobre y oro de la región.",
-        "## Cómo se llegó hasta acá",
-        "San Juan firmó su convenio de adhesión al régimen de zonas francas con la Nación en 1994, pero el área nunca llegó a operar: los medios locales hablan de casi tres décadas de espera. La ubicación original, en la vieja estación ferroviaria de Jáchal, se dejó de lado, y la provincia sancionó una ley de expropiación (la 2806-A, según Tiempo de San Juan) para asegurarse el nuevo terreno. En marzo de 2026, la Nación notificó a la Secretaría de Coordinación para el Desarrollo Económico provincial la autorización para relocalizar la zona franca en Campo Los Blanquitos.",
-        "En enero, Panorama Minero había detallado el plan provincial para ese campo: las 110 hectáreas salen de una propiedad de unas 3.400, y la idea era reservar entre 30 y 40 hectáreas para la zona franca propiamente dicha, entre 10 y 20 para un parque solar y el resto para un parque industrial provincial. Ese esquema era el proyecto presentado por la provincia a comienzos de año; la resolución nacional, según las crónicas publicadas, toma como referencia las 110 hectáreas del predio.",
-        "## Qué permite el reglamento",
-        "De acuerdo con los fragmentos del texto que reprodujo El Eco, el área podrá funcionar como plataforma de almacenamiento, consolidación, acondicionamiento y distribución de insumos, equipos, repuestos y servicios para la cadena minera. También habilita actividades de transformación con agregado de valor: acondicionamiento, clasificación, fraccionamiento, mezcla, industrialización, ensamblado y manufactura, entre otras.",
-        "Una novedad para la operatoria es un régimen de funcionamiento continuo, las 24 horas de los siete días de la semana, que podrán pedir las empresas con procesos productivos ininterrumpidos, pensado para el procesamiento de minerales y para abastecer proyectos con ventanas logísticas críticas.",
-        "## Quién controla y con qué reglas",
-        "La administración y el control interno quedan a cargo de un Comité de Vigilancia provincial, que deberá coordinar con la Dirección General de Aduanas de ARCA, con otros organismos nacionales, provinciales y municipales y con las fuerzas de seguridad. Según El Eco, la Aduana supervisará el tránsito internacional de mercaderías con tecnología de control no intrusivo y procedimientos simplificados.",
-        "Aduana News informó que las áreas técnicas del Ministerio verificaron que la propuesta cumple la Ley 24.331 de Zonas Francas y el convenio de adhesión de San Juan, aprobado por la ley provincial 6551, y que el texto enumera como principios la igualdad de trato entre usuarios, la libre competencia, la transparencia, la eficiencia operativa y la sustentabilidad ambiental. El mismo medio indicó que la resolución rige desde el día siguiente a su publicación. Ninguna de las crónicas consultadas detalla requisitos para los usuarios ni el plazo de la futura concesión, dos puntos que los operadores interesados tendrán que revisar en el texto completo y en los pliegos.",
-        "## Qué cambia para importadores y proveedores mineros",
-        "Las zonas francas son áreas fuera del territorio aduanero general: la mercadería que ingresa desde el exterior no paga derechos de importación mientras permanece allí y puede reexportarse o, si entra al mercado local, nacionalizarse con los tributos correspondientes. Para las mineras y sus contratistas, eso abre la posibilidad de tener stock de repuestos, equipos e insumos importados cerca de los proyectos, sin pagar tributos hasta el momento de usarlos en el país, y de consolidar cargas de exportación sobre la ruta 150.",
-        "Aduana News vinculó la norma con los proyectos sanjuaninos aprobados en el Régimen de Incentivo para Grandes Inversiones (RIGI): Vicuña (cobre, oro y plata), Los Azules (cobre), Carbonatos Profundos (oro y plata) y la ampliación de Veladero, fases 8 y 9 (oro y plata). Panorama Minero también menciona a Gualcamayo y Hualilán entre los emprendimientos de la zona de influencia.",
-        "## Qué sigue",
-        "Con el reglamento aprobado, la provincia tiene que preparar los pliegos y licitar la selección de un concesionario que construya la infraestructura y opere el complejo, según Diario Huarpe y SanJuan8. Después vendrán las obras y las habilitaciones. No hay fechas oficiales para esa licitación: en enero, la provincia hablaba de convocarla en el segundo semestre de 2026 y de iniciar las obras en 2027, según Panorama Minero.",
-        "El secretario de Coordinación para el Desarrollo Económico, Alfredo Aciar, sostuvo que la decisión puede cambiar el futuro del departamento, con trabajo para proveedores, transportistas y mano de obra local. La comisión provincial que elaboró la propuesta está presidida por el ministro de Producción, Trabajo e Innovación, Gustavo Fernández."
-      ],
-      "keyData": [
-        [
-          "Norma",
-          "Resolución 2000/2026 del Ministerio de Economía"
-        ],
-        [
-          "Publicación",
-          "Boletín Oficial, 19/11/2026"
-        ],
-        [
-          "Predio",
-          "110 hectáreas en Campo Los Blanquitos (Jáchal)"
-        ],
-        [
-          "Acceso",
-          "Ruta nacional 150, Corredor Bioceánico"
-        ],
-        [
-          "Reemplaza",
-          "Resolución 79/1996"
-        ],
-        [
-          "Novedad operativa",
-          "Régimen de funcionamiento continuo 24x7"
-        ],
-        [
-          "Próximo paso",
-          "Licitación provincial del concesionario operador"
-        ]
-      ],
+      "id": "cndc-y-sii-abordan-operacion-de-nueva-guia-de-despacho-y-controles-por-contraban",
+      "datetime": "2026-11-20T14:00:05Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "CNDC y SII abordan operación de nueva guía de despacho y controles por contrabando de productos",
+      "summary": "La Confederación Nacional de Dueños de Camiones (CNDC) y el Servicio de Impuestos Internos (SII) sostuvieron…",
+      "body": [],
+      "keyData": [],
       "topics": [
-        "Argentina",
-        "Aduanas",
-        "Regulaciones",
-        "Importaciones",
+        "Impuestos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "truck",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/cndc-y-sii-abordan-operacion-de-nueva-guia-de-despacho-y-controles-por-contrabando-de-productos/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
+      ]
+    },
+    {
+      "id": "confia-ue-concretar-acuerdo-comercial-con-mexico-este-ano",
+      "datetime": "2026-11-20T13:58:23Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "Confía UE concretar acuerdo comercial con México este año",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "Europa"
+      ],
+      "countries": [
+        "México",
+        "Unión Europea"
+      ],
+      "tags": [],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Reforma",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTzNBbVVrZ1dCUnQtenZVV3hTM1FhN2hvQllhcm5YZDFSbmhmSVZ2b01FeHRUMWRTVGVWTy1FWGZKa0ZDelVlbnIyS2Y0MzByQ0JUVV8yWWxkRTlOQnY0YVpMV3BBUjdodmpyWkl1NmstNE9Sc3JhTVlXX0RLWTBmaGxWNS1HRnVKOGd6QndHclNQZXBUMHdJdjVxWQ?oc=5",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-20T14:00:26Z"
+    },
+    {
+      "id": "el-indice-baltic-retrocede-lastrado-por-los-fletes-de-los-buques-capesize-y-supr",
+      "datetime": "2026-11-20T13:39:52Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "El índice Baltic retrocede lastrado por los fletes de los buques capesize y supramax",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "MarketScreener España",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://es.marketscreener.com/noticias/el-ndice-baltic-retrocede-lastrado-por-los-fletes-de-los-buques-capesize-y-supramax-ce785ed3db8df625",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-20T14:00:26Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPX0JtRG1ObGs5amx1S2hkTDFvWUE0ZW1FdzhYb2Fya0RlWXRNOEpjNUNhWUpOdkx4Y0dTelNBaU9OMFg3WkdFMUp1LVNFWUtRLXhUTUliUU5pRmotRnBGYl9BejBYZDZESC16WGdqaEw3N3c3bHZCZWpkUUFEc0JNSTRmbjQ2NDFxdGVSTm9uTk1fY2I0ZnJtbnpmRHhtQVVZY0loeS10N1VXM0FWemlJX1d2LUdhMGN3RFA5N2xhOTlpSms3aVhxVTVfMnlTMF95SUNoQk53?oc=5",
+      "digestSkip": {
+        "at": "2026-11-20T14:00:26Z",
+        "auto": "no-read",
+        "reason": "medio sin lectura automática (NO_READ_DOMAINS) y sin otro medio con la misma noticia"
+      }
+    },
+    {
+      "id": "chile-firma-historico-acuerdo-comercial-con-filipinas-que-beneficiara-a-las-expo",
+      "datetime": "2026-11-20T13:22:00Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "Chile firma histórico acuerdo comercial con Filipinas que beneficiará a las exportaciones frutícolas y agroalimentarias",
+      "summary": "El acuerdo suscrito en Shenzhen, China, permitirá otorgar acceso preferencial a cerca del 90% del valor de las actuales exportaciones chilenas a Filipinas, un mercado de más de 110 millones de habitantes y relevante importador de alimentos.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "Asia"
+      ],
+      "countries": [
+        "Chile",
+        "Filipinas"
+      ],
+      "tags": [
+        "Agro"
+      ],
+      "visual": "fruit",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "reporteagricola.cl",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.reporteagricola.cl/noticia/noticias/2026/11/chile-acuerdo-filipinas-exportaciones-fruticolas-agroalimentos",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "hortidaily.es",
+          "type": "También publicó esta noticia",
+          "url": "https://www.hortidaily.es/article/9894883/chile-y-filipinas-firman-un-acuerdo-comercial-con-preferencias-para-las-exportaciones-agroalimentarias/",
+          "alsoIn": true,
+          "title": "Chile y Filipinas firman un acuerdo comercial con preferencias para las exportaciones agroalimentarias"
+        }
+      ],
+      "gnTried": "2026-11-20T14:00:26Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRUREeGFKb0pteVVMTS1oWnpwYlRjbXJPRHB1VmUtUDU2cjZlMUhQbTRHNnM4M25JY2RUWkUzTUYyYmkwSWUwR1FtUG9xRVlwRlc4TlBnWlk3ZHRRSjM4T2J4R2UxS1JORGNiNlZUZTNpX09WNUpKT1p6bmNSdkFVclVha0YySmc2Tm9kRXp0ak5ZNnJLWGlLWWt0TnlvakpBZTBlaHFJWGdTUmdPQnJIblplZUFOdEF5anc?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxORk44YnBYc255ZVJrel91M1BkX1NqbV9ranNsbFFKVkU4WWVxanNFOUF0U3loTzUwY3dhSV8wS1ozbTl1MXc3Q2NVaFQwQ1pxMVI0MEZuUzloQ0RJX2RNNVZwREpBSWFVY2xROHdXVENiVnhhX2VWc1hLLWVrWFRSaTlKZFFqclkxUTlKaXM2eDJNVkVsS3N4aWVSXzRLVnBoNTIxNlc0Vzg5MmpIQlFfUm9IUzMtdnRwOV8yWm1KUldTbG1PMkhDNXJaT2trY2xiWThvQTVhVk9BTS1uVHc",
+        "https://www.hortidaily.es/article/9894883/chile-y-filipinas-firman-un-acuerdo-comercial-con-preferencias-para-las-exportaciones-agroalimentarias"
+      ],
+      "mergedIds": [
+        "chile-y-filipinas-firman-un-acuerdo-comercial-con-preferencias-para-las-exportac"
+      ]
+    },
+    {
+      "id": "purus-recibe-nuevo-buque-de-apoyo-logistico-para-infraestructuras-de-energias-re",
+      "datetime": "2026-11-20T13:00:33Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "Purus recibe nuevo buque de apoyo logístico para infraestructuras de energías renovables",
+      "summary": "Purus anunció la entrega de su nuevo buque de apoyo logístico (C/SOV), el Purus Vortex, a…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística",
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/purus-recibe-nuevo-buque-de-apoyo-logistico-para-infraestructuras-de-energias-renovables/",
+          "primary": true,
+          "author": "cmeza"
+        }
+      ]
+    },
+    {
+      "id": "flotas-en-expansion-y-demanda-mas-debil-el-doble-desafio-de-las-navieras-hacia-l",
+      "datetime": "2026-11-20T12:44:45Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "Flotas en expansión y demanda más débil: el doble desafío de las navieras hacia los próximos años",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "MasContainer",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaGFROEtsRENlYV9ySV91eDBBNVdRYXVOU2ZzbUJOZGJiOVZxT2tJUW83eGJyN1hCdTFwa0NldEdMM01DWU50Vk9nRC1hTGV4UU9JWkk5U3lNTkRZcE8xMWhycDFaeS0tb2RwVjNHN29aY1V6eTNtSWRXQ0l2bUZ4SE5XOVJ5NXR2X0E?oc=5",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-20T14:00:26Z"
+    },
+    {
+      "id": "comunidad-participara-en-estudio-que-evaluara-potencial-de-carga-aerea-en-nuble",
+      "datetime": "2026-11-20T12:27:40Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "Comunidad participará en estudio que evaluará potencial de carga aérea en Ñuble",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte aéreo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "plane",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Soy Chile",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaHh1NnFXOGdlYzR2aE5rSFVMWTdOdU5oNURlS01zUExCX09sazFpMEdDMVNhanFpY2pyQ0tvU04waGRFZzlZMjUzbDI2S1ZjUlJwV21YNldvWFFnbkJQNWRTZFR6dldLaVVTSm9rQm5QS2U3cnBEUG5iWkkzUHh5d3VfanpaRW5sSlJTTzhrY0VUNE4zbE1aa3VaSW01UTljeUtxeXQzOW0zTjNITGQ3TnF3dERoZkhLSEk2bQ?oc=5",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-20T14:00:26Z"
+    },
+    {
+      "id": "puerto-de-santos-refuerza-medidas-de-seguridad-por-ataque-cibernetico",
+      "datetime": "2026-11-20T12:00:31Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "Puerto de Santos refuerza medidas de seguridad por ataque cibernético",
+      "summary": "La Autoridad Portuaria de Santos (APS) reforzó las medidas de seguridad pública en el Puerto de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Brasil"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/puerto-de-santos-refuerza-medidas-de-seguridad-por-ataque-cibernetico/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "exportaciones-record-lojo-destaco-el-crecimiento-del-comercio-exterior-y-el-supe",
+      "datetime": "2026-11-20T11:54:30Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "Exportaciones récord: Lojo destacó el crecimiento del comercio exterior y el superávit energético",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Radio Nacional Rock",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.radionacional.com.ar/exportaciones-record-lojo-destaco-el-crecimiento-del-comercio-exterior-y-el-superavit-energetico/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-20T14:00:26Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZHBheVV5Ny1wUWNDMlE2RldWa1hhUUh5RHo3MVBlb1l4d21Tc0FRVnpJZGZneng5d1g0SmFGMS12UHQzQnlDWFcya041N1ptcjlsZTliMTgzNjhfckhKSjQtNHpKdmJ4VDBKZ19IM0hCM1BpQ2xqQllpVU0xUDFPaVpsbmdhQTdfdFpZX0lsLWVyWUdyeHNhak9yT2ZOX1FhVks4aWlIRVU5N05GSmc5S2x6MXNaVlRSVUdOWXdfbTVYckNKbnR0S3R3?oc=5"
+    },
+    {
+      "id": "el-superavit-comercial-se-cuadruplico-combustibles-y-energia-fueron-los-motores",
+      "datetime": "2026-11-20T11:49:41Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "El superávit comercial se cuadruplicó: combustibles y energía fueron los motores de las exportaciones",
+      "summary": "En octubre, Argentina tuvo un superávit comercial de USD 3.394 M, más de cuatro veces el de igual mes de 2025 (USD 813 M",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Economis",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://economis.com.ar/el-superavit-comercial-se-cuadruplico-combustibles-y-energia-fueron-los-motores-de-las-exportaciones/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-20T14:00:26Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQnFCa0RFWWpmaUZwcjM1Ykc3RDFxYUVqSl9NTlNNUHAtY1JCam5lbnltLTlWQVlwVzFERTNOSFRWTlQxd1BJR0ZyOWgwa1NQdlJKQS1VVW5MMlVjbFlhWkFQNXVwQ1U0dnpJSmVyUmFvS29oWS15SUpuV2sycXhDZUsxTmEwLUxRV3ZiQ1psTEZoSWh2NmdwN2VrR21hd20yQ04wb2p0Ul9wV2NJdi1LX3JlQjJKUS0xLU9iSF9Gb1BpWGc?oc=5"
+    },
+    {
+      "id": "continua-la-bajada-sostenida-de-los-fletes",
+      "datetime": "2026-11-20T11:28:18Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "Continua la bajada sostenida de los fletes",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Asociación de Cargadores de España",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQT2hNRUozcHhrZHRLR2I2OGFYSUJDQUYxYllyNW1QaWFwQ0JlS0t5cl9KUGdqWVdNZ3RDdW5uMFJqWXI4MlFkZ2R0MS1oUmFHXzhFc3M4d3h3ZmhDUnIyUThBY1NmeUttTW9NN0RLMXhqcWNIckdOQ0Z1UEtiQ1UyUWJhYm4tdGJJcGpyejBR?oc=5",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-20T14:00:26Z"
+    },
+    {
+      "id": "regalias-y-valor-en-aduana-quedo-firme-el-fallo-wabro",
+      "datetime": "2026-11-20T11:00:59Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "Regalías y valor en aduana: quedó firme el fallo “Wabro",
+      "summary": "La Corte Suprema de Justicia de la Nación rechazó la queja de la Dirección General de Aduanas, confirmando que las regalías por licencias de marca no deben…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aduanas"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "court",
+      "impact": 2,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Legal 500",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.legal500.com/intelligence/argentina/international-law/regal%C3%ADas-y-valor-en-aduana-qued%C3%B3-firme-el-fallo-wabro",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-20T14:00:26Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUkVvY0dVYkNuZC1HN3JiUFhrQnRDb05zOU5BSGxWZm1TWHU4RnZMREZsRlo2aF9sYy1HQUJzQW5temlvUzhIQVdRS05mOWt0c2NVS2JQem5hLXFQZ3JNWlZleHNyYlJWUlJHSmVIQmthSWFYdXFsaHFQbjJQeV80MDRnT1ZGWUdySWR0V0c0VXp1NEJ5enhhZjM1eHNYLUk0TVJuRk1IdkVyZXg2R0NuSDd2M3RZdWdXTDlJM2JNTGNoVTdfUFEybw?oc=5"
+    },
+    {
+      "id": "exportaciones-agropecuarias-temas",
+      "datetime": "2026-11-20T10:48:50Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "exportaciones agropecuarias - Temas",
+      "summary": "Noticias de Argentina y el mundo. Información actualizada las 24 horas. En Español. ¡Informate ya!",
+      "body": [],
+      "keyData": [],
+      "topics": [
         "Exportaciones"
       ],
       "countries": [
         "Argentina"
       ],
       "tags": [
-        "Zona franca",
-        "San Juan",
-        "Jáchal",
-        "Minería",
-        "Ley 24.331",
-        "Corredor Bioceánico",
-        "RIGI"
+        "Agro"
       ],
-      "visual": "mining",
-      "impact": 2,
+      "visual": "customs",
+      "impact": 1,
       "affectsArgentina": true,
-      "argentinaNote": "La Zona Franca de Jáchal queda en condiciones de licitarse: cuando opere, proveedores y contratistas mineros podrán tener insumos y equipos importados sin pagar tributos hasta nacionalizarlos y consolidar cargas de exportación sobre la ruta 150, eje del Corredor Bioceánico.",
-      "argentinaImpact": {
-        "change": "Un nuevo reglamento nacional reemplaza al de 1996, fija el predio de 110 hectáreas en Campo Los Blanquitos, habilita almacenamiento y transformación con agregado de valor y un régimen de operación continua 24x7.",
-        "who": "Mineras de San Juan y sus proveedores, importadores de equipos y repuestos, transportistas de la ruta 150, despachantes y futuros concesionarios.",
-        "sectors": [
-          "Minería",
-          "Logística",
-          "Proveedores industriales"
-        ],
-        "flows": {
-          "importaciones": true,
-          "exportaciones": true,
-          "logistica": true,
-          "aranceles": false
-        }
-      },
       "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Cadena 3 Argentina",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.cadena3.com/pagina/tag/exportaciones-agropecuarias",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-20T14:00:26Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ucFdyUVJLR3JBSTFLckZqeEtvX3FWNTlxYUxJNUt0Uk5xbkVkVVNEU2NoclljU1VYZERoWDUxNy1hb0Q0dWtBUWVKOEdLTnNYaDBEbzIxZ2l3UkkxNjNwSUItM2ZCLUdkNFJ4OGFrdw?oc=5"
+    },
+    {
+      "id": "industria-empeoran-expectativas-sobre-demanda-y-produccion-crece-preocupacion-po",
+      "datetime": "2026-11-20T10:00:00Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "Industria: empeoran expectativas sobre demanda y producción, crece preocupación por importaciones",
+      "summary": "Las expectativas de los empresarios industriales sobre la demanda interna y la producción empeoraron, mientras que la preocupación por la competencia de productos importados ganó relevancia. A pesar de una leve mejora mensual en la producción en septiembre, el panorama general para el sector manufacturero argentino no…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Rosario Finanzas",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://rosariofinanzas.ar/noticias/industria-empeoran-expectativas-sobre-demanda-y-produccion-crece-preocupacion-por-importaciones",
+          "primary": true,
+          "author": ""
+        },
+        {
+          "name": "Enterate Noticias",
+          "type": "También publicó esta noticia",
+          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPU0xpbTFveDk0Tnl2XzlSWWwxdWdNakFfZEFKOWJPb2dVR0t5a3hZUGJjb3NxTjZlS29uekdReUtuMnlidk1Vd3A3dFZjdUNIV3hUSUpCdWt2N2VYY1dmdUhvaHB1MXlzRVNNMW5RM1cteFdyc3V5V0lvOG5wRjFjNWhCY21IUTdGNHU3UzZhdzZJM3VtWUNTZ2VrUnBHT2ZBTTk1Rk15QWEyQVNtUFdkVE1FY3RrTzNrV1JHUlJRSUNaNjlqVms0Y0xxV2s2SlZod3ItbEtGbE9kMFRnY1E?oc=5",
+          "alsoIn": true,
+          "title": "Industria en alerta: caen expectativas y preocupan las importaciones"
+        }
+      ],
+      "gnTried": "2026-11-20T14:00:26Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQR29XTGdRc3JqdnU2UF9fVFhnYkRlRTNnUHpxMzVBVFg4cXV6b3R5cGtQb25ULVVMM0JEV1hMZFdZdndSanpIc2sxbjJvc3Q3cHVZNUs0bjZoT0hHYnl3a21DSWZCUmt4clg1MllLT0h0Mlk0eXhTQ05mZ1JHRkMtempnOEVvV2hQUi1mV3JFWndwTmMyTXp3NHJSZ2dxNGQ0UnNzLWkyM0FBTDVGUWtDck5mazBaazV3SGZabndHVVJlWjc3NUtjZnhiZw?oc=5",
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPU0xpbTFveDk0Tnl2XzlSWWwxdWdNakFfZEFKOWJPb2dVR0t5a3hZUGJjb3NxTjZlS29uekdReUtuMnlidk1Vd3A3dFZjdUNIV3hUSUpCdWt2N2VYY1dmdUhvaHB1MXlzRVNNMW5RM1cteFdyc3V5V0lvOG5wRjFjNWhCY21IUTdGNHU3UzZhdzZJM3VtWUNTZ2VrUnBHT2ZBTTk1Rk15QWEyQVNtUFdkVE1FY3RrTzNrV1JHUlJRSUNaNjlqVms0Y0xxV2s2SlZod3ItbEtGbE9kMFRnY1E"
+      ],
+      "mergedIds": [
+        "industria-en-alerta-caen-expectativas-y-preocupan-las-importaciones"
+      ]
+    },
+    {
+      "id": "las-oportunidades-en-mercosur-a-analisis-en-norte-renovables",
+      "datetime": "2026-11-20T09:39:49Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "Las oportunidades en Mercosur, a análisis en Norte Renovables",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Mercosur"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "La Nueva España",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOXk3WEt5Z1ZQRnFHTU0tRTB0QzhIRFBKZlhOS2FOQ2piaUMyNHExNl9hZUo1TkVvRWlNUU9EWVlZWXdXeVZzemFVTWk5MWRTcWx5R1ZicWJOVE9veWZPYWZCaDJXLThKLU5KSmF0VFdRR3pfaHN5UkJqTFBLQUJvblo2T3JZOUY1dEF4dEhiZy1OWS0yZnIwZUVkVE5Udm5zQlprYnF6S3VDU01HS19mcmtTZTlDY2liX1cxYkd30gHDAUFVX3lxTE1Ic0kzdnFLRGJkdUhVVlFnUzZhVGNzYXJjSXJ2UXZ5Uk42bDFDWDJYUXJuOEVJa3dVVUdQRGFYZXdkX1FjaW1vVWw1eDd2ZUtucW9JbkhybjBkbHNNRGZRWm4yYlg5bDZkZThoeEJfR3lIT3pWbnltZy0xVkRVQ1lCNWNJM043ZDhZTVRHWjFMbGpaZzB6b2JkcHZNTVhvM0kwWFVCZUllS2pUS0Z1WW9YeWNUNEdIQVVnZnVVc1p2TElmQQ?oc=5",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-20T14:00:26Z"
+    },
+    {
+      "id": "fesco-y-ferrocarriles-rusos-firman-acuerdo-integral-para-aumentar-velocidad-del",
+      "datetime": "2026-11-20T09:00:45Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "Fesco y Ferrocarriles Rusos firman acuerdo integral para aumentar velocidad del transporte de mercancías",
+      "summary": "El Grupo Fesco y Ferrocarriles Rusos firmaron un acuerdo integral destinado a reducir la rotación de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/fesco-y-ferrocarriles-rusos-firman-acuerdo-integral-para-aumentar-velocidad-del-transporte-de-mercancias/",
+          "primary": true,
+          "author": "cmeza"
+        }
+      ]
+    },
+    {
+      "id": "puerto-de-paranagua-concreta-pruebas-de-simulacion-de-capacidad-de-respuesta-ant",
+      "datetime": "2026-11-20T08:00:44Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "Puerto de Paranaguá concreta pruebas de simulación de capacidad de respuesta ante accidente ambiental",
+      "summary": "Portos do Paraná realizó un simulacro de emergencia ambiental en el muelle del Puerto de Paranaguá.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Brasil"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/puerto-de-paranagua-concreta-pruebas-de-simulacion-de-capacidad-de-respuesta-ante-accidente-ambiental/",
+          "primary": true,
+          "author": "cmeza"
+        }
+      ]
+    },
+    {
+      "id": "el-esquema-operativo-y-cambiario-del-comercio-exterior-y-la-distorsion-en-el-cum",
+      "datetime": "2026-11-20T08:00:00Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "El esquema operativo y cambiario del comercio exterior y la distorsión en el cumplimiento del MULC",
+      "summary": "Al momento de efectuarse el pago de servicio bajo código S30 de flete Internacional bajo condición FOB se advierte la presencia de una alteración administrativa en el cumplimiento de MULC. Esto se evidencia a partir de la errónea e innecesaria exigencia de documentos, producto de que las entidades financieras, al…",
+      "body": [
+        "Al momento de efectuarse el pago de servicio bajo código S30 de flete Internacional bajo condición FOB se advierte la presencia de una alteración administrativa en el cumplimiento de MULC. Esto se evidencia a partir de la errónea e innecesaria exigencia de documentos, producto de que las entidades financieras, al actuar como agentes de seguimiento…"
+      ],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Aduana News",
       "sources": [
         {
           "name": "Aduana News",
-          "type": "Medio especializado · Comercio exterior",
-          "url": "https://aduananews.com/san-juan-actualiza-la-zona-franca-de-jachal-para-impulsar-el-desarrollo-minero-industrial/",
-          "primary": true
-        },
-        {
-          "name": "El Eco",
-          "type": "Medio de comunicación",
-          "url": "https://www.eleco.com.ar/economia/el-gobierno-aprobo-el-nuevo-reglamento-para-la-zona-franca-de-san-juan-con-foco-en-la-mineria"
-        },
-        {
-          "name": "Diario Huarpe",
-          "type": "Medio de comunicación · San Juan",
-          "url": "https://www.diariohuarpe.com/nota/zona-franca-de-jachal-dio-otro-paso-y-ahora-deberan-buscar-un-operador-2026111819280"
-        },
-        {
-          "name": "SanJuan8",
-          "type": "Medio de comunicación · San Juan",
-          "url": "https://www.sanjuan8.com/san-juan/nacion-aprobo-el-nuevo-reglamento-zona-franca-jachal-n1617831"
-        },
-        {
-          "name": "Tiempo de San Juan",
-          "type": "Medio de comunicación · San Juan",
-          "url": "https://www.tiempodesanjuan.com/economia/nacion-dio-luz-verde-la-nueva-zona-franca-jachal-n425765"
-        },
-        {
-          "name": "Panorama Minero",
-          "type": "Medio especializado · Minería",
-          "url": "https://panorama-minero.com/en/news/san-juan-revives-the-jachal-free-trade-zone-mining-focus-relocation-and-solar-and-industrial-park-plan"
+          "type": "Medio especializado · Argentina",
+          "url": "https://aduananews.com/el-esquema-operativo-y-cambiario-del-comercio-exterior-y-la-distorsion-en-el-cumplimiento-del-mulc/?utm_source=rss&utm_medium=rss&utm_campaign=el-esquema-operativo-y-cambiario-del-comercio-exterior-y-la-distorsion-en-el-cumplimiento-del-mulc",
+          "primary": true,
+          "author": "Lic. Natalia Iglesias"
         }
       ],
-      "explainer": {
-        "what": "El Ministerio de Economía aprobó con la Resolución 2000/2026, publicada el 19 de noviembre, el reglamento de funcionamiento de la Zona Franca de San Juan, en un predio de 110 hectáreas en Jáchal.",
-        "why": "Destraba un régimen que San Juan tiene desde el convenio de 1994 y nunca funcionó, y lo orienta a abastecer a los proyectos mineros de cobre y oro del norte provincial con un régimen de operación continua.",
-        "who": "Mineras y proveedores mineros de San Juan, importadores de equipos y repuestos, transportistas del Corredor Bioceánico, despachantes y empresas interesadas en operar la zona franca.",
-        "products": [
-          "Equipos y repuestos mineros",
-          "Insumos industriales",
-          "Minerales para procesamiento"
-        ],
-        "next": "La provincia tiene que preparar los pliegos y licitar un concesionario que construya la infraestructura y opere el complejo.",
-        "nextSource": {
-          "name": "Diario Huarpe",
-          "url": "https://www.diariohuarpe.com/nota/zona-franca-de-jachal-dio-otro-paso-y-ahora-deberan-buscar-un-operador-2026111819280"
-        }
-      },
-      "story": "energia-mineria",
-      "absorbs": [
-        "san-juan-actualiza-el-reglamento-de-su-zona-franca-para-adecuarlo-al-desarrollo"
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMivwFBVV95cUxNX2dCc01OOUNZQU9pMFpZeVJjUmpSanFZcFByU2tHaXRuZW1hYWVvN2lhTVNvYUk3cFRkeUw4VTZiLWVQSVQ4cThoVGxkQmF3dXh4MURINEpyX0Q4Rkx0eTZhdFBqOS1sSmk0aFVqOHpjYzRZU0tRM19hM0lNTVlwQjRZa2dpSTVaR2ZLbTRWcHJCYWlvclJBdTRKcmk1NGIyelgtLTRSVnJOc1lpemszQl9jblQ0YlRhdWxtTzJBQQ"
       ]
     },
     {
-      "id": "timbues-segunda-etapa-desvio-camiones-ruta-91-50899-millones-caf-vial-agro",
-      "date": "2026-11-17",
-      "datetime": "2026-11-17T11:00:37-03:00",
-      "title": "Santa Fe inició la segunda etapa del desvío de camiones hacia los puertos de Timbúes, por $50.899 millones",
-      "summary": "Pullaro firmó el acta de inicio de las obras que pavimentan con hormigón el tramo entre la autopista Rosario–Santa Fe y el complejo portuario, con dos rotondas y un puente ferroviario sobre la ruta 11. La financia CAF y la ejecuta Vial Agro, la misma empresa de la primera etapa.",
-      "body": [
-        "El gobernador de Santa Fe, Maximiliano Pullaro, firmó el martes 17 de noviembre el acta de inicio de la segunda etapa del desvío del tránsito pesado de la ruta provincial 91 hacia las terminales portuarias de Timbúes, al norte de Rosario. El acto se hizo en el cruce de la autopista Rosario–Santa Fe con el desvío, a la altura del kilómetro 33, según El Ciudadano, LT10 y Pregón, que difundieron la información oficial del gobierno provincial.",
-        "La obra tiene un presupuesto de $50.899.943.224,69, está financiada por el Banco de Desarrollo de América Latina y el Caribe (CAF) y la ejecuta Vial Agro S.A., la empresa que también tiene a cargo la primera etapa. El objetivo es que los camiones que van a las terminales del complejo de Timbúes dejen de atravesar las zonas urbanas de la localidad y su entorno.",
-        "## Qué incluye la segunda etapa",
-        "Según las crónicas coincidentes, los trabajos comprenden la pavimentación con hormigón del tramo que une la autopista con el complejo portuario, dos rotondas, un puente ferroviario sobre la ruta nacional 11, el ensanche y la pavimentación de cuatro calles y la iluminación de uno de los principales cruces. Las fuentes consultadas no informan el plazo de ejecución ni la longitud total del tramo.",
-        "Cuando la provincia abrió los sobres de esta licitación, en mayo, el Ministerio de Economía santafesino describió un primer renglón con unos 11 kilómetros de repavimentación de accesos directos a Timbúes en losas de hormigón de alta resistencia y dos rotondas de gran diámetro, con un presupuesto oficial de $39.655.034.927,93. Para ese renglón, la UT Vial Agro–Rovial ofertó $50.899.943.224,69, el mismo monto que se informó ahora para el inicio de obra. Un segundo renglón, la circunvalación de Serodino con otras dos rotondas, tenía un presupuesto oficial de $25.887.519.786,12; las notas sobre el acto de esta semana no mencionan esa parte.",
-        "## Cómo se llegó hasta acá",
-        "La primera etapa, que el gobierno santafesino llama Desvío Giardino, incluye una nueva rotonda sobre la ruta 91, la elevación y pavimentación del acceso a la autopista, la conexión hacia Rosario, el terraplén hacia la ruta 11 y un puente de 140 metros sobre el río Carcarañá. A mediados de octubre, el ministro de Obras Públicas, Lisandro Enrico, informó un avance de 95% y una inversión de más de $41.000 millones; el administrador de Vialidad Provincial, Pablo Seghezzo, estimó entonces que al puente le quedaban unos 45 días de trabajo. En el acto de esta semana, la primera etapa se describió como en su tramo final.",
-        "Las dos etapas forman parte del Programa Integral de Logística Urbana y Metropolitana del Gran Rosario. En marzo de 2025, al anunciarlo, la provincia informó un financiamiento de US$150 millones de CAF a 18 años con cinco de gracia, más US$37,5 millones de aporte local, según Bichos de Campo. En aquel momento, la industria aceitera y exportadora agrupada en CIARA-CEC celebró el anuncio.",
-        "## Por qué importa para la logística de granos",
-        "Timbúes forma parte del nodo portuario agroexportador del Gran Rosario, y sus accesos terrestres son un punto crítico: en los picos de cosecha entran miles de camiones por día, según SL24, y el gobierno provincial remarcó que el problema no es solo estacional sino de todo el año. Bichos de Campo citó que por el corredor circulan unos 200.000 vehículos diarios y que los camiones que llegan a los puertos rondan los dos millones por año.",
-        "En el acto, Pullaro sostuvo que los puertos santafesinos ya superan en volumen exportado a los de Santos, en Brasil, y Nueva Orleans, en Estados Unidos, y defendió la obra pública como política contracíclica en un contexto de menor coparticipación. Enrico destacó el financiamiento de CAF y la competencia en las licitaciones para bajar costos, y el presidente comunal de Timbúes, Antonio Fiorenza, agradeció una obra que, dijo, otros habían prometido sin concretarla.",
-        "## Qué falta definir",
-        "La provincia no informó una fecha de finalización ni el cronograma de la circunvalación de Serodino. Tampoco hay un dato oficial nuevo sobre la habilitación completa de la primera etapa. En paralelo, el gobierno santafesino mencionó otras obras de la zona: la tercera trocha de la autopista Rosario–Santa Fe, cuya primera etapa ya se habilitó; la reconstrucción del Camino de la Cremería, y reparaciones a cargo de la provincia en la ruta nacional A012."
-      ],
-      "keyData": [
-        [
-          "Inversión",
-          "$50.899.943.224,69"
-        ],
-        [
-          "Financiamiento",
-          "CAF (Banco de Desarrollo de América Latina y el Caribe)"
-        ],
-        [
-          "Contratista",
-          "Vial Agro S.A."
-        ],
-        [
-          "Obras",
-          "Hormigón, 2 rotondas, puente ferroviario sobre la RN 11, 4 calles"
-        ],
-        [
-          "Primera etapa",
-          "95% de avance a mediados de octubre, más de $41.000 millones"
-        ],
-        [
-          "Firma del acta",
-          "17/11/2026, autopista Rosario–Santa Fe km 33"
-        ]
-      ],
+      "id": "la-merluza-negra-fueguina-tendra-nuevas-exigencias-para-su-exportacion",
+      "datetime": "2026-11-20T08:00:00Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "La merluza negra fueguina tendrá nuevas exigencias para su exportación",
+      "summary": "",
+      "body": [],
+      "keyData": [],
       "topics": [
-        "Argentina",
-        "Logística",
-        "Puertos",
         "Exportaciones"
       ],
       "countries": [
         "Argentina"
       ],
-      "tags": [
-        "Timbúes",
-        "Gran Rosario",
-        "Santa Fe",
-        "Ruta 91",
-        "Camiones",
-        "CAF",
-        "Agroexportación"
-      ],
-      "visual": "truck",
-      "impact": 2,
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
       "affectsArgentina": true,
-      "argentinaNote": "El desvío busca sacar a los camiones de granos de las calles de Timbúes y ordenar el acceso a las terminales del norte del Gran Rosario. Para cargadores y transportistas, la mejora llega en etapas: la primera está en su tramo final y la segunda recién empieza, sin plazo informado.",
-      "argentinaImpact": {
-        "change": "Comenzó la obra que pavimenta con hormigón el acceso entre la autopista Rosario–Santa Fe y el complejo portuario de Timbúes, con dos rotondas y un puente ferroviario sobre la ruta 11.",
-        "who": "Transportistas de granos, acopios y cooperativas, terminales portuarias de Timbúes, exportadores de granos, harinas y aceites, y vecinos de la zona.",
-        "sectors": [
-          "Agroexportación",
-          "Transporte por camión",
-          "Puertos"
-        ],
-        "flows": {
-          "importaciones": false,
-          "exportaciones": true,
-          "logistica": true,
-          "aranceles": false
-        }
-      },
       "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
       "sources": [
         {
-          "name": "El Ciudadano",
-          "type": "Medio de comunicación · Rosario",
-          "url": "https://elciudadanoweb.com/pullaro-puso-en-marcha-la-segunda-etapa-para-el-desvio-de-camiones-hacia-los-puertos-de-timbues/",
-          "primary": true
-        },
-        {
-          "name": "Pregón",
-          "type": "Medio de comunicación",
-          "url": "https://pregon.me/pullaro-firmo-el-inicio-de-la-segunda-etapa-del-desvio-de-camiones-hacia-los-puertos-de-timbues-con-una-inversion-de-50-899-millones/"
-        },
-        {
-          "name": "LT10",
-          "type": "Medio de comunicación · Santa Fe",
-          "url": "https://www.lt10.com.ar/noticia/514137--comienza-la-segunda-etapa-de-obras-para-el-desvio-de-camiones-a-timbues"
-        },
-        {
-          "name": "DataPortuaria",
-          "type": "Medio especializado · Puertos",
-          "url": "https://dataportuaria.com/es/argentina/logistica/santa-fe-inicia-obras-por-mas-de-50-899-millones-en-el-acceso-a-los-puertos-de-timbues"
-        },
-        {
-          "name": "Gobierno de Santa Fe (licitación, mayo de 2026)",
-          "type": "Organismo oficial",
-          "url": "https://www.santafe.gob.ar/noticias/noticia/286052/"
-        },
-        {
-          "name": "Gobierno de Santa Fe (avance de la primera etapa, octubre de 2026)",
-          "type": "Organismo oficial",
-          "url": "https://www.santafe.gob.ar/noticias/noticia/287568/"
-        },
-        {
-          "name": "Bichos de Campo",
-          "type": "Medio especializado · Agro",
-          "url": "https://bichosdecampo.com/manos-a-la-obra-santa-fe-realizara-una-obra-reclamada-hace-decadas-por-el-sector-agroindustrial-para-agilizar-la-gestion-logistica-del-gran-rosario"
-        },
-        {
-          "name": "SL24",
-          "type": "Medio de comunicación · San Lorenzo",
-          "url": "https://sl24.com.ar/avanza-el-desvio-en-timbues-pullaro-y-di-stefano-firmaron-el-inicio-de-la-segunda-etapa-de-la-obra/"
+          "name": "Minuto Fueguino",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ0NQeU1Yekh0Yl9EVlM2UDY4TGVTZWpEYVFtQWg4S1lrNmhTMGtRbDNjQXZwSVg2RGNnelAzcURJWXNzTUlDdVhmMXJrMjlxaFc1RjZwYk1mV0VBWFVEX1l0SHFETy1IOWpXMC1OQWRFUUl5bmkxeGFqUXZCLTR6UFdoWnN5S1Y2ejFzcmk0TmQyWl9BdDVRekx4ZjhObzhMeTJINHFSQUkydUNsT1NiTmVZLU5Nb1MwM004?oc=5",
+          "primary": true,
+          "author": ""
         }
       ],
-      "explainer": {
-        "what": "Santa Fe firmó el 17 de noviembre el inicio de la segunda etapa del desvío de camiones hacia los puertos de Timbúes, una obra de $50.899.943.224,69 financiada por CAF.",
-        "why": "Los accesos terrestres son un cuello de botella del nodo agroexportador del Gran Rosario: en los picos de cosecha entran miles de camiones por día y hoy atraviesan zonas urbanas.",
-        "who": "Transportistas de granos, acopios, terminales portuarias y exportadores que operan en Timbúes, además de los vecinos de la localidad.",
-        "products": [
-          "Granos",
-          "Harinas y aceites vegetales"
-        ]
-      },
-      "story": "logistica-regional",
-      "absorbs": [
-        "argentina-ponen-en-marcha-segunda-etapa-para-desvio-de-camiones-hacia-puertos-de"
+      "gnTried": "2026-11-20T14:00:26Z"
+    },
+    {
+      "id": "el-vicecanciller-pide-el-apoyo-de-uruguay-para-la-reanudacion-de-las-negociacion",
+      "datetime": "2026-11-20T07:30:58Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "El vicecanciller pide el apoyo de Uruguay para la reanudación de las negociaciones de un TLC Corea del Sur-Mercosur",
+      "summary": "Seúl, 20 de noviembre (Yonhap) -- El primer viceministro de Asuntos Exteriores surcoreano,...",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "Mercosur",
+        "Asia"
+      ],
+      "countries": [
+        "Uruguay",
+        "Corea del Sur"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Agencia de Noticias Yonhap",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://sp.yna.co.kr/view/ASP20261120002100883",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-20T14:00:26Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hWW9jbm9lX0dIb2ROYUV0Uko4MVU2LWJ2eGVRaHUtdkhpMW5peXA0QlFNb1ctc2g1emJ5N1h2UU5RdFlIWTB4ekEwckFLaXlmRXpsbGZzQ2pKUQ?oc=5"
+    },
+    {
+      "id": "proyecto-ferroviario-del-golfo-busca-conectar-seis-paises-y-reducir-dependencia",
+      "datetime": "2026-11-20T07:00:15Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "Proyecto Ferroviario del Golfo busca conectar seis países y reducir dependencia del estrecho de Ormuz",
+      "summary": "El Proyecto Ferroviario del Golfo cobró mayor urgencia debido a los riesgos de seguridad en…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "tanker",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/proyecto-ferroviario-del-golfo-busca-conectar-seis-paises-y-reducir-dependencia-del-estrecho-de-ormuz/",
+          "primary": true,
+          "author": "Luis Alonso"
+        }
       ]
     },
     {
-      "id": "ue-indonesia-consejo-autoriza-firma-cepa-aplicacion-provisional-sgp-2027",
-      "date": "2026-11-18",
-      "datetime": "2026-11-18T15:33:00-03:00",
-      "title": "La UE autorizó firmar y aplicar en forma provisional su acuerdo comercial con Indonesia",
-      "summary": "Los gobiernos europeos aprobaron el 18 de noviembre la firma del Acuerdo de Asociación Económica Integral y del de protección de inversiones con Indonesia. Yakarta informó que la firma está prevista para el 21 de noviembre en Bruselas; el país sale del SGP europeo el 1 de enero de 2027.",
-      "body": [
-        "El Consejo de la Unión Europea, que reúne a los gobiernos de los 27 Estados miembros, autorizó el miércoles 18 de noviembre la firma y la aplicación provisional de dos tratados con Indonesia: el Acuerdo de Asociación Económica Integral (CEPA, por su sigla en inglés) y el Acuerdo de Protección de Inversiones (IPA), según informaron Reuters y el portal Eunews. Es el último paso político del lado europeo antes de la firma formal.",
-        "El Ministerio de Comercio de Indonesia había anunciado el 16 de noviembre que la firma está programada para el sábado 21 de noviembre en Bruselas, según la Cámara de Comercio germano-indonesia (EKONID). Por Indonesia firmarían el ministro de Comercio, Budi Santoso, el CEPA, y el ministro de Inversión, Rosan Roeslani, el acuerdo de inversiones. Las fuentes europeas consultadas no dieron una fecha.",
-        "## Qué abre el acuerdo",
-        "La Comisión Europea, al enviar los textos al Consejo en junio, informó que Indonesia eliminará los derechos de importación sobre el 98,5% de sus posiciones arancelarias para los bienes europeos, incluidos los agroalimentarios, y que el acuerdo protege 221 indicaciones geográficas de la UE. Reuters, por su parte, señaló que ambas partes quitarán los aranceles a más del 90% de los productos, la mayoría desde la entrada en vigor, y que el arancel indonesio de 50% a los autos europeos desaparecerá en cinco años. Las dos cifras usan bases distintas (posiciones arancelarias y productos) y no deben sumarse ni compararse directamente.",
-        "Según Reuters, la ministra irlandesa de Asuntos Exteriores y Comercio, Helen McEntee, estimó que las empresas europeas ahorrarán unos 600 millones de euros por año en aranceles. La Comisión destacó además el acceso a materias primas críticas, con aranceles reducidos y exportaciones facilitadas, y el interés europeo por invertir en vehículos eléctricos, electrónica y farmacéutica en un mercado de 280 millones de habitantes. Según EKONID, el CEPA abarca además servicios, inversiones, procedimientos aduaneros, obstáculos técnicos al comercio, propiedad intelectual, compras públicas y desarrollo sostenible.",
-        "## Por qué hay apuro",
-        "Indonesia deja de ser beneficiaria del Sistema de Preferencias Generalizadas (SGP) de la UE el 1 de enero de 2027, lo que hace perder a sus exportaciones los aranceles preferenciales de ese esquema. Por eso, ambas partes se comprometieron a poner en marcha el acuerdo lo antes posible, según Eunews y Reuters. Del lado indonesio, el objetivo declarado es empezar a aplicarlo a comienzos de 2027.",
-        "Las negociaciones habían concluido en septiembre de 2025. El 29 de junio de 2026, la Comisión presentó al Consejo las propuestas de firma y celebración. Después de la firma, los textos pasan al Parlamento Europeo, cuya aprobación es necesaria para que el Consejo decida su celebración y su entrada en vigor plena; Indonesia, en paralelo, tiene que completar sus propios procedimientos de ratificación.",
-        "## Qué mirar desde el Mercosur",
-        "El acuerdo con Indonesia sigue un camino parecido al que recorrió el del Mercosur: la UE separó un tratado comercial que puede aplicarse en forma provisional de otro capítulo, en este caso el de inversiones, y dejó para después la ratificación completa. El acuerdo interino UE–Mercosur rige en forma provisional desde el 1 de mayo de 2026, mientras los Estados miembros avanzan con la ratificación del acuerdo de asociación completo: el Bundestag alemán aprobó su ley de ratificación el 13 de noviembre, como informó Comexplora.",
-        "Para los exportadores argentinos, la UE suma así otro socio con preferencias en un mercado donde compiten. Las fuentes consultadas no detallan cuotas agrícolas ni el tratamiento de productos como aceites vegetales o biodiésel, de modo que el impacto sobre los rubros que la Argentina vende a Europa no puede medirse todavía con estos datos. El texto completo del acuerdo y los cronogramas de desgravación por producto son los documentos a revisar cuando se publiquen tras la firma.",
-        "## Qué sigue",
-        "Tras la firma, el Parlamento Europeo deberá dar su consentimiento y el Consejo, adoptar la decisión de celebración. La aplicación provisional ya fue autorizada, pero las fuentes no informan desde qué fecha empezará a regir."
-      ],
-      "keyData": [
-        [
-          "Autorización del Consejo",
-          "18/11/2026: firma y aplicación provisional"
-        ],
-        [
-          "Firma prevista",
-          "21/11/2026 en Bruselas (según el Ministerio de Comercio de Indonesia)"
-        ],
-        [
-          "Posiciones liberadas por Indonesia",
-          "98,5% (Comisión Europea)"
-        ],
-        [
-          "Ahorro arancelario estimado",
-          "600 millones de euros por año (Irlanda, vía Reuters)"
-        ],
-        [
-          "Autos europeos",
-          "Arancel de 50% eliminado en 5 años"
-        ],
-        [
-          "Indicaciones geográficas",
-          "221 de la UE"
-        ],
-        [
-          "Salida del SGP",
-          "1/1/2027"
-        ]
-      ],
+      "id": "star-solutions-anuncia-alianza-para-ampliar-comunicaciones-para-contenedores-con",
+      "datetime": "2026-11-20T06:00:10Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "Star Solutions anuncia alianza para ampliar comunicaciones para contenedores con tecnología Viachain",
+      "summary": "Viachain, una empresa de Orbcomm, y Star Solutions anunciaron una alianza estratégica para ampliar las comunicaciones…",
+      "body": [],
+      "keyData": [],
       "topics": [
-        "Europa",
-        "Asia",
-        "Tratados y acuerdos",
-        "Aranceles",
-        "Economía internacional"
+        "Transporte marítimo"
       ],
       "countries": [
-        "Unión Europea",
-        "Indonesia"
+        "Global"
+      ],
+      "tags": [],
+      "visual": "container",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/star-solutions-anuncia-alianza-para-ampliar-comunicaciones-para-contenedores-con-tecnologia-viachain/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "china-y-corea-del-sur-concluyen-segunda-fase-de-negociacion-para-profundizar-tlc",
+      "datetime": "2026-11-20T05:00:57Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "China y Corea del Sur concluyen segunda fase de negociación para profundizar TLC",
+      "summary": "China y Corea del Sur han concluido la segunda fase de las negociaciones sobre el Acuerdo…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "China",
+        "Corea del Sur"
       ],
       "tags": [
-        "CEPA",
-        "UE–Indonesia",
-        "Acuerdo comercial",
-        "SGP",
-        "Aplicación provisional"
+        "China"
       ],
       "visual": "treaty",
       "impact": 1,
       "affectsArgentina": false,
       "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
       "sources": [
         {
-          "name": "Reuters (vía The Star)",
-          "type": "Agencia de noticias",
-          "url": "https://www.thestar.com.my/news/world/2026/11/19/eu-governments-authorise-signature-of-trade-deal-agreement-with-indonesia",
-          "primary": true
-        },
-        {
-          "name": "Eunews",
-          "type": "Medio especializado · Unión Europea",
-          "url": "https://www.eunews.it/en/2026/11/18/eu-council-gives-provisional-approval-to-economic-partnership-agreements-with-indonesia/"
-        },
-        {
-          "name": "EKONID – Business Indonesia",
-          "type": "Cámara de comercio",
-          "url": "https://business-indonesia.org/news/indonesia-and-eu-confirm-signing-of-trade-agreement-on-21-november-2026"
-        },
-        {
-          "name": "Comisión Europea – DG Comercio",
-          "type": "Organismo oficial",
-          "url": "https://policy.trade.ec.europa.eu/news/commission-presents-council-ambitious-indonesia-agreements-2026-06-29_en"
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/china-y-corea-del-sur-concluyen-segunda-fase-de-negociacion-para-profundizar-tlc/",
+          "primary": true,
+          "author": "cmeza"
         }
-      ],
-      "explainer": {
-        "what": "El Consejo de la UE autorizó el 18 de noviembre la firma y la aplicación provisional del acuerdo comercial (CEPA) y del acuerdo de inversiones con Indonesia.",
-        "why": "Indonesia liberará el 98,5% de sus posiciones arancelarias para bienes europeos y pierde el SGP el 1 de enero de 2027.",
-        "who": "Exportadores europeos de autos, alimentos e industriales, exportadores indonesios a la UE y competidores de terceros países en ambos mercados.",
-        "products": [
-          "Autos",
-          "Agroalimentos",
-          "Materias primas críticas"
-        ],
-        "next": "Según el Ministerio de Comercio de Indonesia, la firma está prevista para el 21 de noviembre en Bruselas; después el acuerdo necesita el consentimiento del Parlamento Europeo.",
-        "nextSource": {
-          "name": "EKONID – Business Indonesia",
-          "url": "https://business-indonesia.org/news/indonesia-and-eu-confirm-signing-of-trade-agreement-on-21-november-2026"
-        }
-      },
-      "deadlines": [
-        {
-          "date": "2026-11-21",
-          "label": "UE e Indonesia: firma prevista del acuerdo comercial (CEPA) y del de inversiones en Bruselas, según Yakarta",
-          "url": "https://business-indonesia.org/news/indonesia-and-eu-confirm-signing-of-trade-agreement-on-21-november-2026"
-        },
-        {
-          "date": "2027-01-01",
-          "label": "UE: Indonesia deja de ser beneficiaria del Sistema de Preferencias Generalizadas (SGP)",
-          "url": "https://www.eunews.it/en/2026/11/18/eu-council-gives-provisional-approval-to-economic-partnership-agreements-with-indonesia/"
-        }
-      ],
-      "absorbs": [
-        "gobiernos-de-union-europea-autorizan-firma-de-acuerdo-comercial-con-indonesia"
       ]
+    },
+    {
+      "id": "asaja-extremadura-pide-al-gobierno-que-vete-los-recortes-de-la-pac-y-rechace-mer",
+      "datetime": "2026-11-20T05:00:31Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "Asaja Extremadura pide al Gobierno que vete los recortes de la PAC y rechace Mercosur",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Mercosur"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "court",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "El Periódico Extremadura",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWGxBZVJUaldPalByS2RyMHNzN3Bqc19qUWV1V0NLNFRDVVBEem9vNlVjdGFUTHlNSHFIZkZ5X05kRGcyZHlhdEhiRU5KQXhuM0F6ZUdqb2RXV2ZCX3duWjZTX2xrSFA5Q2pPU2ticDljVzZ5aDBQNk5kVElMdUgxak9OVjd6a1JtMTU2Vkd0R3hTWjBTQzB6ZFFHb0VpRlJRVHotdDFwaUw3WHNOZVExemJESXNzdTNYOW1EWGJqMXZiU2NqZjJDSWRSMlk5UGtVNE5vTFZ4SWs3N0ZhM0hv0gHkAUFVX3lxTE5jRkJBZUVMcWhSdTVESmVRbURvaU5OaG9ZTy1CUUhNcmx1a2tmRDctRTc3TlRuTm1aQmhYVkRaTGtpbmtDZWhQUGd2cUlRSUpPQjUwRjRSWHQwRFdCWmZOZFhfNzFBY3V0ZnpyTFNrNWhMMkZ6N1NGaTRPb19sRFFiUkFvZnBXejlSVUZoem0wVzgyNThBSTJRWmxIOEF1SHV4NHNBTi1hLXFrZTQ1ZzJFeWNiWGt3VjBBY0RHaWsxc1dWeTFhQjBoTlRSZVF4TW1GZUR5cTNPaEVHS3hidm5tRzBwOA?oc=5",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-20T14:00:26Z"
+    },
+    {
+      "id": "trabajadores-y-empresarios-del-calzado-marcharon-contra-las-importaciones-y-la-c",
+      "datetime": "2026-11-20T04:29:57Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "Trabajadores y empresarios del calzado marcharon contra las importaciones y la caída del consumo: Schmid acompañó el reclamo",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Enfoque Sindical |",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNM2VJZkQ5blc5NVpxclBZcFNmQ3IwRkEyWnc2N2RpSFpQaDVGZWplVHNSZ2MydkpDZTNHZDJiSjdtaE1DTVJKOWl1eXh0TjBvc3c2bUNsZnExbHc4U1ZMTTR0eGtYNGhwVTc0VUt0QkVnemVIdzMwTzA3ckI5Y19uZWItdGhTS1o0bHB5MGFHX0w5NlV5NHoyS3Vtb1NWZHdudFhJaEI4MVAtTVQ3TmVieUZETkJTbHhDZXBvUjhQUmpQZw?oc=5",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-20T14:00:26Z"
+    },
+    {
+      "id": "la-mendoza-exportadora-entre-las-amenazas-y-la-oportunidad",
+      "datetime": "2026-11-20T03:30:00Z",
+      "date": "2026-11-20",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "La Mendoza exportadora: entre las amenazas y la oportunidad",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Los Andes",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUEc1dnJsaG9iUUctQjBadTlyQk1vcDJ2UGd2elVBbDFNeTRONkhvelB5S05lbXpRcEpqRU9fMkdvSDlDZ0twdDloYlNwaW41ck1EWTJ5aWt1YUNvOEwxSk1uWHJIOUNxSE5ZbVVSNGEwNHZReDVKVFdjRTEtUzJ4X3RMQmE3XzZmUURDNlJKUk9iaXJpZjZGR0hVUFhxZw?oc=5",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-20T14:00:26Z"
     },
     {
       "id": "canada-busca-acuerdo-con-estados-unidos-para-frenar-nuevos-aranceles-en-enero",
@@ -1274,6 +1793,7 @@
       "keyData": [],
       "topics": [
         "Aranceles",
+        "Impuestos",
         "Tratados y acuerdos",
         "Estados Unidos"
       ],
@@ -1282,6 +1802,9 @@
         "Canadá"
       ],
       "tags": [
+        "Acero",
+        "Aluminio",
+        "Carne",
         "Aranceles",
         "Estados Unidos"
       ],
@@ -1362,6 +1885,7 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Logística",
         "Transporte aéreo",
         "China",
         "Asia"
@@ -1370,6 +1894,7 @@
         "China"
       ],
       "tags": [
+        "Fletes",
         "China"
       ],
       "visual": "plane",
@@ -1444,13 +1969,15 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Aranceles"
+        "Aranceles",
+        "Estados Unidos"
       ],
       "countries": [
-        "Global"
+        "Estados Unidos"
       ],
       "tags": [
-        "Aranceles"
+        "Aranceles",
+        "Estados Unidos"
       ],
       "visual": "customs",
       "impact": 1,
@@ -1486,7 +2013,8 @@
       "body": [],
       "keyData": [],
       "topics": [
-        "Aranceles"
+        "Aranceles",
+        "Geopolítica y comercio"
       ],
       "countries": [
         "Global"
@@ -1902,16 +2430,15 @@
       }
     },
     {
-      "id": "las-exportaciones-argentinas-superaron-los-us-10-000-millones-por-segundo-mes-co",
-      "datetime": "2026-11-19T23:42:30Z",
+      "id": "las-exportaciones-alcanzaron-un-nuevo-record-en-octubre-y-en-10-meses-superaron",
+      "datetime": "2026-11-19T22:40:57Z",
       "date": "2026-11-19",
-      "firstSeen": "2026-11-20T03:58:39Z",
-      "title": "Las exportaciones argentinas superaron los US$10.000 millones por segundo mes consecutivo",
-      "summary": "Las ventas externas alcanzaron US$10.061 millones en octubre, mientras el volumen importado cayó 17,3% interanual y el superávit llegó a US$3.394 millones.",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "Las exportaciones alcanzaron un nuevo récord en octubre y en 10 meses superaron los movimientos de 2025",
+      "summary": "",
       "body": [],
       "keyData": [],
       "topics": [
-        "Argentina",
         "Exportaciones"
       ],
       "countries": [
@@ -1926,99 +2453,14 @@
       "feed": "Google Noticias · Exportaciones Argentina",
       "sources": [
         {
-          "name": "El Intransigente",
+          "name": "tn24.com.ar",
           "type": "Medio · vía Google Noticias",
-          "url": "https://elintransigente.com/2026/11/19/exportaciones-argentinas-superaron-us10-000-millones-segundo-mes-consecutivo/",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNUV9UbldlS0pqRmc4bFIxcURKZDdRZHVLV1U0ZnlsQnRQd2s2YmpXTlpVMDNJMjV4TW9BNlFZNC1DWDdBY3IyUTV2WXpjU0d4MFRDSjJ1cHZidGgtVlYyWWQzM1dCZnpJXy03LUtqVWNEN1l1T0VGRVFBdEk5REFGd0JwSUVWYjZ6VFJMaWwxakE1MzF1ZGRDeklxVTdNQ0lRZGlkR1A0UE9PTjlXTEs2azJZTTF5b2N0WnBvLWlfNXlwWGMzTmYwZVJ0dmZia2phNFE?oc=5",
           "primary": true,
           "author": ""
         }
       ],
-      "gnTried": "2026-11-20T03:58:39Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcU5BanRBWWViQmNFcXp2aVZab2lNdTdyRDJuV2NuQ0ljbUNkZUdKRFNCQVV0SHAzWG5LcTFyVG5jU25RcTRua1RmRWFDQ003SEE1ZDFTNC1za3M1REZKNzhiYTFhb2dCT3BDT3o1WWcwYzJ3WW5Lay1CbUxTSHVSNlRCWEhwWkU2QkhhVTlXY3JzdjVNVGFlYzlmRE94cnBFODctWXNKZ1puUUtnWTU5ZUFwWjZGWmc?oc=5",
-      "digestSkip": {
-        "at": "2026-11-20T03:44:07-03:00",
-        "reason": "repite una nota de la redacción (intercambio comercial de octubre del INDEC)"
-      }
-    },
-    {
-      "id": "se-amplia-la-balanza-comercial-crecen-las-exportaciones-pero-se-acelera-la-impor",
-      "datetime": "2026-11-19T23:27:06Z",
-      "date": "2026-11-19",
-      "firstSeen": "2026-11-20T03:58:39Z",
-      "title": "Se amplía la balanza comercial: crecen las exportaciones pero se acelera la importación en la economía argentina",
-      "summary": "Las exportaciones argentinas alcanzaron un récord histórico en octubre impulsadas principalmente por el petróleo y el maíz, según informó el INDEC, lo que permitió consolidar un superávit comercial superior a los 3.300 millones de dólares. Sin embargo, este desempeño convive con una profundización en la caída de las…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Importaciones",
-        "Exportaciones",
-        "Economía internacional"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Mirador Provincial",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.miradorprovincial.com/2026/11/19/se-amplia-la-balanza-comercial-crecen-las-exportaciones-pero-se-acelera-la-importacion-en-la-economia-argentina/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-20T03:58:39Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQX3dWTExOUkVqejM4UklqalJIbmxacHZGZmM4TEdXQVdxcHhsYUlFSnFwVF9lbGp2Si01Um0yd1RVOGZSMkhmNGZZSHNKZ2VDd0p3aFJ5cGJ4dkRHY0tmUVNSSk9DcEZFNVl5aVYxeURwd1FLVmNyeFBmLWR2RkhGUHZQTThUa3hKWmZPall4YTU2NHVzS3ZXMlplN1VZczlDSFMxTU1Kd3Y0TGpBRGJPdll4U3VzYzJRZDZIN1NRM0xpT2VnZm42elhNZkdBem5TTHJNYjFJT0d5VEQ1NFZQZXg0V2pTWG55UXdfSEZR?oc=5",
-      "digestSkip": {
-        "at": "2026-11-20T03:44:07-03:00",
-        "reason": "repite una nota de la redacción (intercambio comercial de octubre del INDEC)"
-      }
-    },
-    {
-      "id": "las-exportaciones-argentinas-marcaron-un-nuevo-record-en-octubre",
-      "datetime": "2026-11-19T23:05:41Z",
-      "date": "2026-11-19",
-      "firstSeen": "2026-11-20T03:58:39Z",
-      "title": "Las exportaciones argentinas marcaron un nuevo récord en octubre",
-      "summary": "Sumaron US$10.061 millones, US$25 millones más que en septiembre y un 26,4 % más que en octubre de 2025.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Los Primeros TV",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.losprimeros.tv/economia/las-exportaciones-argentinas-marcaron-un-nuevo-record-en-octubre_a6aff7f2ecd25aee2884451ec",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-20T03:58:39Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMW15eUh4eV9OWmdYQnp6V2F1S2NVeFRxWmtUREZzRHdIRmNjanVEUmhySThuYVBSS0JNMjFPcXdIUElxRjNQUjNhV1RDcjhpUnFaRGwtSXhoY0JobmRrMEQtTGRaYnphYVEtdmhJVk1oZmNuSkZyYnZ4SGZNTG5KRlF0LTJGM1JTZ1lXQ1hqOURVUmV5Rm5FUUY3NzBISmRhTEx1T1hTZGtBSk1uaXN3bVAwN2lnN01VUUkxMFUwbkFLMmJE?oc=5",
-      "digestSkip": {
-        "at": "2026-11-20T03:44:07-03:00",
-        "reason": "repite una nota de la redacción (intercambio comercial de octubre del INDEC)"
-      }
+      "gnTried": "2026-11-20T14:00:26Z"
     },
     {
       "id": "arabia-saudita-supera-a-emiratos-arabes-unidos-como-segundo-proveedor-petrolero",
@@ -2380,44 +2822,6 @@
       "digestSkip": {
         "at": "2026-11-19T21:47:52-03:00",
         "reason": "fuera de tema (aviso de reunión de comisión legislativa)"
-      }
-    },
-    {
-      "id": "las-exportaciones-marcaron-otro-record-y-el-superavit-comercial-se-cuadruplico-1",
-      "datetime": "2026-11-19T21:20:00Z",
-      "date": "2026-11-19",
-      "firstSeen": "2026-11-20T03:58:39Z",
-      "title": "Las exportaciones marcaron otro récord y el superávit comercial se cuadruplicó | 19 de noviembre de 2026",
-      "summary": "Las ventas externas superaron los US$ 10.000 millones en octubre, con un crecimiento interanual del 26,4%. En diez meses, ya superaron todo el registro de 2025, mientras las importaciones volvieron a caer.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "Hoy Día Córdoba",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://hoydia.com.ar/economia/exportaciones-record-superavit-comercial/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-20T03:58:39Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE93SUwxM21FN2hSNmF0MmFadnBGQm5EcXJiREdjNVkyZ2YyUm15UDZIelY2b0RpY3NjMm4zNThhNG9QNlVPTjU4dUhxdTJtU3JNV2RCX1NfNlVuRjAxSkp6T2dXVUxlY1JQQ1pjbXRVWS1VZGdfeVJxd3FadW4?oc=5",
-      "digestSkip": {
-        "at": "2026-11-20T03:44:07-03:00",
-        "reason": "repite una nota de la redacción (intercambio comercial de octubre del INDEC)"
       }
     },
     {
@@ -3147,53 +3551,151 @@
       }
     },
     {
-      "id": "san-juan-actualiza-el-reglamento-de-su-zona-franca-para-adecuarlo-al-desarrollo",
-      "datetime": "2026-11-19T14:08:27Z",
+      "id": "zona-franca-san-juan-jachal-resolucion-2000-2026-reglamento-mineria",
       "date": "2026-11-19",
-      "firstSeen": "2026-11-19T14:26:31Z",
-      "title": "San Juan actualiza el reglamento de su Zona Franca para adecuarlo al desarrollo minero-industrial",
-      "summary": "El Ministerio de Economía aprobó un nuevo Reglamento de Funcionamiento y Operación de la Zona Franca de San Juan mediante la Resolución 2000/2026, publicada este jueves (19.11.2026). Ubicada en Campo Los Blanquitos, al oeste de San José de Jáchal, la Zona Franca comprende un predio de 110 hectáreas, con acceso directo…",
+      "datetime": "2026-11-19T11:08:27-03:00",
+      "title": "Economía aprobó el reglamento de la Zona Franca de San Juan en Jáchal, pensada para abastecer a la minería",
+      "summary": "La Resolución 2000/2026, publicada el 19 de noviembre en el Boletín Oficial, reemplaza la norma de 1996 y fija las reglas de funcionamiento del predio de 110 hectáreas en Campo Los Blanquitos, sobre la ruta nacional 150. El próximo paso es que la provincia licite un operador.",
       "body": [
-        "El Ministerio de Economía aprobó un nuevo Reglamento de Funcionamiento y Operación de la Zona Franca de San Juan mediante la Resolución 2000/2026, publicada este jueves (19.11.2026). Ubicada en Campo Los Blanquitos, al oeste de San José de Jáchal, la Zona Franca comprende un predio de 110 hectáreas, con acceso directo a la Ruta Nacional…"
+        "El Ministerio de Economía de la Nación aprobó el nuevo Reglamento de Funcionamiento y Operación de la Zona Franca de San Juan mediante la Resolución 2000/2026, que se publicó el jueves 19 de noviembre en el Boletín Oficial, según informaron Aduana News y El Eco. La norma había sido firmada el martes 17, de acuerdo con Diario Huarpe y SanJuan8, y reemplaza el reglamento vigente desde 1996, la Resolución 79 del entonces Ministerio de Economía y Obras y Servicios Públicos, que la nueva norma deja sin efecto.",
+        "La zona franca funcionará en un predio de 110 hectáreas en Campo Los Blanquitos, al oeste de San José de Jáchal, junto a la ruta nacional 150, que es el eje del Corredor Bioceánico. Según los considerandos citados por la prensa, el reglamento se adaptó al perfil minero-industrial previsto para el norte sanjuanino y a la logística que demandan los proyectos de cobre y oro de la región.",
+        "## Cómo se llegó hasta acá",
+        "San Juan firmó su convenio de adhesión al régimen de zonas francas con la Nación en 1994, pero el área nunca llegó a operar: los medios locales hablan de casi tres décadas de espera. La ubicación original, en la vieja estación ferroviaria de Jáchal, se dejó de lado, y la provincia sancionó una ley de expropiación (la 2806-A, según Tiempo de San Juan) para asegurarse el nuevo terreno. En marzo de 2026, la Nación notificó a la Secretaría de Coordinación para el Desarrollo Económico provincial la autorización para relocalizar la zona franca en Campo Los Blanquitos.",
+        "En enero, Panorama Minero había detallado el plan provincial para ese campo: las 110 hectáreas salen de una propiedad de unas 3.400, y la idea era reservar entre 30 y 40 hectáreas para la zona franca propiamente dicha, entre 10 y 20 para un parque solar y el resto para un parque industrial provincial. Ese esquema era el proyecto presentado por la provincia a comienzos de año; la resolución nacional, según las crónicas publicadas, toma como referencia las 110 hectáreas del predio.",
+        "## Qué permite el reglamento",
+        "De acuerdo con los fragmentos del texto que reprodujo El Eco, el área podrá funcionar como plataforma de almacenamiento, consolidación, acondicionamiento y distribución de insumos, equipos, repuestos y servicios para la cadena minera. También habilita actividades de transformación con agregado de valor: acondicionamiento, clasificación, fraccionamiento, mezcla, industrialización, ensamblado y manufactura, entre otras.",
+        "Una novedad para la operatoria es un régimen de funcionamiento continuo, las 24 horas de los siete días de la semana, que podrán pedir las empresas con procesos productivos ininterrumpidos, pensado para el procesamiento de minerales y para abastecer proyectos con ventanas logísticas críticas.",
+        "## Quién controla y con qué reglas",
+        "La administración y el control interno quedan a cargo de un Comité de Vigilancia provincial, que deberá coordinar con la Dirección General de Aduanas de ARCA, con otros organismos nacionales, provinciales y municipales y con las fuerzas de seguridad. Según El Eco, la Aduana supervisará el tránsito internacional de mercaderías con tecnología de control no intrusivo y procedimientos simplificados.",
+        "Aduana News informó que las áreas técnicas del Ministerio verificaron que la propuesta cumple la Ley 24.331 de Zonas Francas y el convenio de adhesión de San Juan, aprobado por la ley provincial 6551, y que el texto enumera como principios la igualdad de trato entre usuarios, la libre competencia, la transparencia, la eficiencia operativa y la sustentabilidad ambiental. El mismo medio indicó que la resolución rige desde el día siguiente a su publicación. Ninguna de las crónicas consultadas detalla requisitos para los usuarios ni el plazo de la futura concesión, dos puntos que los operadores interesados tendrán que revisar en el texto completo y en los pliegos.",
+        "## Qué cambia para importadores y proveedores mineros",
+        "Las zonas francas son áreas fuera del territorio aduanero general: la mercadería que ingresa desde el exterior no paga derechos de importación mientras permanece allí y puede reexportarse o, si entra al mercado local, nacionalizarse con los tributos correspondientes. Para las mineras y sus contratistas, eso abre la posibilidad de tener stock de repuestos, equipos e insumos importados cerca de los proyectos, sin pagar tributos hasta el momento de usarlos en el país, y de consolidar cargas de exportación sobre la ruta 150.",
+        "Aduana News vinculó la norma con los proyectos sanjuaninos aprobados en el Régimen de Incentivo para Grandes Inversiones (RIGI): Vicuña (cobre, oro y plata), Los Azules (cobre), Carbonatos Profundos (oro y plata) y la ampliación de Veladero, fases 8 y 9 (oro y plata). Panorama Minero también menciona a Gualcamayo y Hualilán entre los emprendimientos de la zona de influencia.",
+        "## Qué sigue",
+        "Con el reglamento aprobado, la provincia tiene que preparar los pliegos y licitar la selección de un concesionario que construya la infraestructura y opere el complejo, según Diario Huarpe y SanJuan8. Después vendrán las obras y las habilitaciones. No hay fechas oficiales para esa licitación: en enero, la provincia hablaba de convocarla en el segundo semestre de 2026 y de iniciar las obras en 2027, según Panorama Minero.",
+        "El secretario de Coordinación para el Desarrollo Económico, Alfredo Aciar, sostuvo que la decisión puede cambiar el futuro del departamento, con trabajo para proveedores, transportistas y mano de obra local. La comisión provincial que elaboró la propuesta está presidida por el ministro de Producción, Trabajo e Innovación, Gustavo Fernández."
       ],
-      "keyData": [],
+      "keyData": [
+        [
+          "Norma",
+          "Resolución 2000/2026 del Ministerio de Economía"
+        ],
+        [
+          "Publicación",
+          "Boletín Oficial, 19/11/2026"
+        ],
+        [
+          "Predio",
+          "110 hectáreas en Campo Los Blanquitos (Jáchal)"
+        ],
+        [
+          "Acceso",
+          "Ruta nacional 150, Corredor Bioceánico"
+        ],
+        [
+          "Reemplaza",
+          "Resolución 79/1996"
+        ],
+        [
+          "Novedad operativa",
+          "Régimen de funcionamiento continuo 24x7"
+        ],
+        [
+          "Próximo paso",
+          "Licitación provincial del concesionario operador"
+        ]
+      ],
       "topics": [
-        "Regulaciones"
+        "Argentina",
+        "Aduanas",
+        "Regulaciones",
+        "Importaciones",
+        "Exportaciones"
       ],
       "countries": [
         "Argentina"
       ],
       "tags": [
-        "Minería"
+        "Zona franca",
+        "San Juan",
+        "Jáchal",
+        "Minería",
+        "Ley 24.331",
+        "Corredor Bioceánico",
+        "RIGI"
       ],
       "visual": "mining",
       "impact": 2,
       "affectsArgentina": true,
+      "argentinaNote": "La Zona Franca de Jáchal queda en condiciones de licitarse: cuando opere, proveedores y contratistas mineros podrán tener insumos y equipos importados sin pagar tributos hasta nacionalizarlos y consolidar cargas de exportación sobre la ruta 150, eje del Corredor Bioceánico.",
+      "argentinaImpact": {
+        "change": "Un nuevo reglamento nacional reemplaza al de 1996, fija el predio de 110 hectáreas en Campo Los Blanquitos, habilita almacenamiento y transformación con agregado de valor y un régimen de operación continua 24x7.",
+        "who": "Mineras de San Juan y sus proveedores, importadores de equipos y repuestos, transportistas de la ruta 150, despachantes y futuros concesionarios.",
+        "sectors": [
+          "Minería",
+          "Logística",
+          "Proveedores industriales"
+        ],
+        "flows": {
+          "importaciones": true,
+          "exportaciones": true,
+          "logistica": true,
+          "aranceles": false
+        }
+      },
       "kind": "noticia",
-      "label": "Automática",
-      "feed": "Aduana News",
       "sources": [
         {
           "name": "Aduana News",
-          "type": "Medio especializado · Argentina",
-          "url": "https://aduananews.com/san-juan-actualiza-la-zona-franca-de-jachal-para-impulsar-el-desarrollo-minero-industrial/?utm_source=rss&utm_medium=rss&utm_campaign=san-juan-actualiza-la-zona-franca-de-jachal-para-impulsar-el-desarrollo-minero-industrial",
-          "primary": true,
-          "author": "Aduana News"
+          "type": "Medio especializado · Comercio exterior",
+          "url": "https://aduananews.com/san-juan-actualiza-la-zona-franca-de-jachal-para-impulsar-el-desarrollo-minero-industrial/",
+          "primary": true
+        },
+        {
+          "name": "El Eco",
+          "type": "Medio de comunicación",
+          "url": "https://www.eleco.com.ar/economia/el-gobierno-aprobo-el-nuevo-reglamento-para-la-zona-franca-de-san-juan-con-foco-en-la-mineria"
+        },
+        {
+          "name": "Diario Huarpe",
+          "type": "Medio de comunicación · San Juan",
+          "url": "https://www.diariohuarpe.com/nota/zona-franca-de-jachal-dio-otro-paso-y-ahora-deberan-buscar-un-operador-2026111819280"
+        },
+        {
+          "name": "SanJuan8",
+          "type": "Medio de comunicación · San Juan",
+          "url": "https://www.sanjuan8.com/san-juan/nacion-aprobo-el-nuevo-reglamento-zona-franca-jachal-n1617831"
+        },
+        {
+          "name": "Tiempo de San Juan",
+          "type": "Medio de comunicación · San Juan",
+          "url": "https://www.tiempodesanjuan.com/economia/nacion-dio-luz-verde-la-nueva-zona-franca-jachal-n425765"
+        },
+        {
+          "name": "Panorama Minero",
+          "type": "Medio especializado · Minería",
+          "url": "https://panorama-minero.com/en/news/san-juan-revives-the-jachal-free-trade-zone-mining-focus-relocation-and-solar-and-industrial-park-plan"
         }
       ],
-      "digest": {
-        "lead": "El Ministerio de Economía aprobó un nuevo Reglamento de Funcionamiento y Operación para la Zona Franca de San Juan mediante la Resolución 2000/2026, publicada el 19 de noviembre en el Boletín Oficial, informó Aduana News.",
-        "body": [
-          "La norma reemplaza al reglamento de 1996 (Resolución 79), que rigió durante unos 30 años, y entra en vigencia el 20 de noviembre de 2026. El predio está en Campo Los Blanquitos, al oeste de San José de Jáchal: ocupa 110 hectáreas, tiene acceso a la Ruta Nacional 150 y conexión con el Corredor Bioceánico. El objetivo es atraer actividades industriales, logísticas, comerciales y de servicios, con eje en la cadena de valor minera y el comercio internacional.",
-          "La administración y el control interno quedan a cargo del Comité de Vigilancia provincial, que deberá coordinar con ARCA, a través de la Dirección General de Aduanas, y con otros organismos y fuerzas de seguridad. El servicio aduanero conserva el control del tráfico internacional de mercaderías, apoyado en gestión de riesgos y tecnologías no intrusivas.",
-          "Como contexto, el medio recuerda que San Juan suma cuatro proyectos aprobados en el RIGI: Vicuña, Los Azules, Carbonatos Profundos y la ampliación de las fases 8 y 9 de Veladero."
+      "explainer": {
+        "what": "El Ministerio de Economía aprobó con la Resolución 2000/2026, publicada el 19 de noviembre, el reglamento de funcionamiento de la Zona Franca de San Juan, en un predio de 110 hectáreas en Jáchal.",
+        "why": "Destraba un régimen que San Juan tiene desde el convenio de 1994 y nunca funcionó, y lo orienta a abastecer a los proyectos mineros de cobre y oro del norte provincial con un régimen de operación continua.",
+        "who": "Mineras y proveedores mineros de San Juan, importadores de equipos y repuestos, transportistas del Corredor Bioceánico, despachantes y empresas interesadas en operar la zona franca.",
+        "products": [
+          "Equipos y repuestos mineros",
+          "Insumos industriales",
+          "Minerales para procesamiento"
         ],
-        "at": "2026-11-19T12:49:07-03:00",
-        "basedOn": "https://aduananews.com/san-juan-actualiza-la-zona-franca-de-jachal-para-impulsar-el-desarrollo-minero-industrial/",
-        "words": 199,
-        "flag": "descartada",
-        "flagNote": "norma provincial sin material verificable para nota larga; el resumen alcanza"
-      }
+        "next": "La provincia tiene que preparar los pliegos y licitar un concesionario que construya la infraestructura y opere el complejo.",
+        "nextSource": {
+          "name": "Diario Huarpe",
+          "url": "https://www.diariohuarpe.com/nota/zona-franca-de-jachal-dio-otro-paso-y-ahora-deberan-buscar-un-operador-2026111819280"
+        }
+      },
+      "story": "energia-mineria",
+      "absorbs": [
+        "san-juan-actualiza-el-reglamento-de-su-zona-franca-para-adecuarlo-al-desarrollo"
+      ]
     },
     {
       "id": "emap-implementa-sistema-de-seleccion-aleatoria-para-inspecciones-de-vehiculos",
@@ -3329,6 +3831,13 @@
           "url": "https://sociedad-noticias.com/2026/11/19/sheinbaum-reporta-avances-comerciales-con-trump-y-buscara-acuerdo-sobre-aranceles-en-diciembre/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Revista Punto de Vista",
+          "type": "También publicó esta noticia",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOanZ1U09ULUFrOEdXR3BXamdabDBFOEwzbzRyWnJXR3ZZdWl3d0drcGVHUDVPR1Nub0FjR19CMXZQbFM1RGh3cEhIYnVMLUVGLTdRaGtvSEQ2TkVOLXVySWtldTNzbGpXVVVjTVFpM2NqTXFFdEExX3NDZmJaczJ2ZV9wX0JTWVpIeE9rbFpVbTFKN0tCQU11UmhaQWh0Uk80VGliaklCMFlCQ3B2SlJoZUEwMTA?oc=5",
+          "alsoIn": true,
+          "title": "Sheinbaum busca acuerdo con Trump para reducir aranceles"
         }
       ],
       "gnTried": "2026-11-19T14:26:31Z",
@@ -3342,7 +3851,13 @@
         "at": "2026-11-19T12:49:07-03:00",
         "basedOn": "https://sociedad-noticias.com/2026/11/19/sheinbaum-reporta-avances-comerciales-con-trump-y-buscara-acuerdo-sobre-aranceles-en-diciembre/",
         "words": 192
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxOanZ1U09ULUFrOEdXR3BXamdabDBFOEwzbzRyWnJXR3ZZdWl3d0drcGVHUDVPR1Nub0FjR19CMXZQbFM1RGh3cEhIYnVMLUVGLTdRaGtvSEQ2TkVOLXVySWtldTNzbGpXVVVjTVFpM2NqTXFFdEExX3NDZmJaczJ2ZV9wX0JTWVpIeE9rbFpVbTFKN0tCQU11UmhaQWh0Uk80VGliaklCMFlCQ3B2SlJoZUEwMTA"
+      ],
+      "mergedIds": [
+        "sheinbaum-busca-acuerdo-con-trump-para-reducir-aranceles"
+      ]
     },
     {
       "id": "estancia-gin-participo-en-argentina-exporta-y-avanza-en-su-estrategia-de-interna",
@@ -4227,7 +4742,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-11-19T14:26:31Z",
+      "gnTried": "2026-11-20T14:00:26Z",
       "digest": {
         "lead": "Javier Milei asistirá el 4 de diciembre, en Montevideo, a la 69° Cumbre de Jefes de Estado del Mercosur, según fuentes de Casa Rosada citadas por DataClave, en una cita que no contará con el paraguayo Santiago Peña.",
         "body": [
@@ -4334,51 +4849,6 @@
         "reason": "no se encontró una versión legible",
         "retry": true,
         "tries": 3
-      }
-    },
-    {
-      "id": "gobiernos-de-union-europea-autorizan-firma-de-acuerdo-comercial-con-indonesia",
-      "datetime": "2026-11-19T08:00:16Z",
-      "date": "2026-11-19",
-      "firstSeen": "2026-11-19T14:26:31Z",
-      "title": "Gobiernos de Unión Europea autorizan firma de acuerdo comercial con Indonesia",
-      "summary": "Los gobiernos de la Unión Europea (UE) autorizaron el miércoles la firma y…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Tratados y acuerdos",
-        "Asia",
-        "Europa"
-      ],
-      "countries": [
-        "Indonesia",
-        "Unión Europea"
-      ],
-      "tags": [],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/gobiernos-de-union-europea-autorizan-firma-de-acuerdo-comercial-con-indonesia/",
-          "primary": true,
-          "author": "Periodista 4"
-        }
-      ],
-      "digest": {
-        "lead": "Los gobiernos de la Unión Europea autorizaron la firma y la aplicación provisional del acuerdo comercial con Indonesia, cerrado en septiembre de 2025 para ampliar los negocios bilaterales y amortiguar los aranceles de Donald Trump, informó PortalPortuario con datos de Reuters.",
-        "body": [
-          "El pacto prevé que ambas partes supriman los aranceles de importación sobre más del 90 % de los productos, en su mayoría desde la entrada en vigor, e Indonesia eliminará en cinco años el gravamen del 50 % que pesa sobre los autos europeos. La ministra irlandesa de Asuntos Exteriores y Comercio, Helen McEntee, calculó un ahorro de unos 600 millones de euros anuales en derechos aduaneros para las empresas.",
-          "Bruselas y Yakarta quieren aplicarlo cuanto antes, ya que Indonesia saldrá del régimen generalizado de preferencias de la UE el 1 de enero de 2027. Tras la firma, los acuerdos pasarán al Parlamento Europeo para otra instancia de aprobación."
-        ],
-        "at": "2026-11-19T12:49:07-03:00",
-        "basedOn": "https://portalportuario.cl/gobiernos-de-union-europea-autorizan-firma-de-acuerdo-comercial-con-indonesia",
-        "words": 150
       }
     },
     {
@@ -5487,6 +5957,44 @@
       }
     },
     {
+      "id": "panama-solicita-adherirse-al-acuerdo-sobre-tecnologia-de-la-informacion-ampliado",
+      "datetime": "2026-11-19T00:00:00Z",
+      "date": "2026-11-18",
+      "firstSeen": "2026-11-20T14:00:26Z",
+      "title": "Panamá solicita adherirse al Acuerdo sobre Tecnología de la Información ampliado",
+      "summary": "Panamá ha solicitado adherirse al Acuerdo sobre Tecnología de la Información ampliado (ATI II) de 2015, según comunicó a los miembros el Presidente del Comité de Participantes sobre la Expansión del Comercio de Productos de Tecnología de la Información, Sr. Shih-Chun Weng (Taipei Chino), en una reunión celebrada el 19…",
+      "body": [
+        "Panamá ha solicitado adherirse al Acuerdo sobre Tecnología de la Información ampliado (ATI II) de 2015, según comunicó a los miembros el Presidente del Comité de Participantes sobre la Expansión del Comercio de Productos de Tecnología de la Información, Sr. Shih-Chun Weng (Taipei Chino), en una reunión celebrada el 19 de noviembre. Panamá declaró que la adhesión al ATI II lo ayudará a avanzar en su objetivo de convertirse en una economía más basada en el conocimiento, impulsada por la innovación y tecnológicamente avanzada."
+      ],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Latinoamérica",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "Panamá",
+        "China"
+      ],
+      "tags": [],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "OMC · Organización Mundial del Comercio",
+      "sources": [
+        {
+          "name": "OMC · Organización Mundial del Comercio",
+          "type": "Organismo internacional",
+          "url": "https://www.wto.org/spanish/news_s/news26_s/ita_19nov26_560_s.htm",
+          "primary": true,
+          "author": ""
+        }
+      ]
+    },
+    {
       "id": "uruguay-destaco-el-papel-de-una-aduana-moderna-en-la-competitividad-y-el-desarro",
       "datetime": "2026-11-18T23:59:38Z",
       "date": "2026-11-18",
@@ -5534,52 +6042,6 @@
           "url": "https://aduananews.com/uruguay-destaco-el-papel-de-una-aduana-moderna-en-la-competitividad-y-el-desarrollo-economico-del-pais/",
           "title": "Uruguay destacó el papel de una Aduana moderna en la competitividad y el desarrollo económico del país"
         }
-      }
-    },
-    {
-      "id": "argentina-ponen-en-marcha-segunda-etapa-para-desvio-de-camiones-hacia-puertos-de",
-      "datetime": "2026-11-18T23:30:39Z",
-      "date": "2026-11-18",
-      "firstSeen": "2026-11-19T04:12:28Z",
-      "title": "Argentina: Ponen en marcha segunda etapa para desvío de camiones hacia puertos de Timbúes",
-      "summary": "El gobernador de la provincia argentina de Santa Fe, Maximiliano Pullaro, firmó el acta de inicio…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Puertos"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Puertos"
-      ],
-      "visual": "truck",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/argentina-ponen-en-marcha-segunda-etapa-para-desvio-de-camiones-hacia-puertos-de-timbues/",
-          "primary": true,
-          "author": "Periodista 4"
-        }
-      ],
-      "digest": {
-        "lead": "El gobernador de Santa Fe, Maximiliano Pullaro, firmó el acta de inicio de la segunda etapa del desvío de tránsito pesado de la ruta provincial 91 hacia los puertos de Timbúes, una obra de USD 32,7 millones financiada por CAF, informó PortalPortuario.",
-        "body": [
-          "Los trabajos incluyen pavimentar con hormigón el tramo que une la autopista con el complejo portuario, construir dos rotondas y un puente ferroviario sobre la ruta nacional 11, pavimentar y ensanchar cuatro calles e iluminar uno de los cruces principales. La ejecución quedó a cargo de Vial Agro S.A., la misma empresa de la primera etapa, el «Desvío Giardino», que está en su tramo final con un puente sobre el río Carcarañá en construcción.",
-          "Pullaro afirmó que los puertos santafesinos superan en volumen exportado a Santos y Nueva Orleans, pero que muchos camiones todavía llegaban por caminos de tierra. El presidente comunal de Timbúes, Antonio Fiorenza, señaló que el acceso aliviará el tránsito de camiones.",
-          "La obra se suma al tercer carril de la autopista Rosario-Santa Fe, la reconstrucción del Camino de la Cremería y reparaciones en la ruta nacional A-012, con las que la provincia busca completar el recorrido de los camiones hasta las terminales."
-        ],
-        "at": "2026-11-19T03:46:19-03:00",
-        "basedOn": "https://portalportuario.cl/argentina-ponen-en-marcha-segunda-etapa-para-desvio-de-camiones-hacia-puertos-de-timbues",
-        "words": 198
       }
     },
     {
@@ -6387,6 +6849,13 @@
           "url": "https://novedadeseconomicas.ieral.org/argentina-al-frente-del-mercosur/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Agrositio",
+          "type": "También publicó esta noticia",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWUwwY28xRzkxQ0prWG5fQVdsT196emNISXZYVmotS1RCN1JEVm9HdnBXTmp3VXhmZEJhazNHMmMzd1ljSVo5SnVVUkk5a1ZzaE1mZUViSGJfbmZkeVAxMDRrVFV4OWRzbGF6Z21sZnh2bkdXYVU4dHN5cTZ1bmFjRThCMWlXeS1UNmktbDdkM2RQbGZ5aHo0LUF2Sm1fbUZNNXY3RlFGRkxUR0IzZTItZGhIcXVPdDg3TFh1SkVwdTJkZUNiaVQ5dllUS0MtcFFhWkdj?oc=5",
+          "alsoIn": true,
+          "title": "Argentina al frente del Mercosur: más acuerdos y oportunidades, pero también más tensiones"
         }
       ],
       "gnTried": "2026-11-18T22:36:16Z",
@@ -6400,7 +6869,13 @@
         "at": "2026-11-18T23:40:00-03:00",
         "basedOn": "https://novedadeseconomicas.ieral.org/argentina-al-frente-del-mercosur/",
         "words": 198
-      }
+      },
+      "aliasUrls": [
+        "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWUwwY28xRzkxQ0prWG5fQVdsT196emNISXZYVmotS1RCN1JEVm9HdnBXTmp3VXhmZEJhazNHMmMzd1ljSVo5SnVVUkk5a1ZzaE1mZUViSGJfbmZkeVAxMDRrVFV4OWRzbGF6Z21sZnh2bkdXYVU4dHN5cTZ1bmFjRThCMWlXeS1UNmktbDdkM2RQbGZ5aHo0LUF2Sm1fbUZNNXY3RlFGRkxUR0IzZTItZGhIcXVPdDg3TFh1SkVwdTJkZUNiaVQ5dllUS0MtcFFhWkdj"
+      ],
+      "mergedIds": [
+        "argentina-al-frente-del-mercosur-mas-acuerdos-y-oportunidades-pero-tambien-m-2"
+      ]
     },
     {
       "id": "la-dga-elimino-la-exigencia-de-presentar-la-constancia-de-inscripcion-ante-la-dg",
@@ -6485,6 +6960,133 @@
         "at": "2026-11-19T03:46:19-03:00",
         "reason": "fuera de tema (agenda de viajes presidenciales)"
       }
+    },
+    {
+      "id": "ue-indonesia-consejo-autoriza-firma-cepa-aplicacion-provisional-sgp-2027",
+      "date": "2026-11-18",
+      "datetime": "2026-11-18T15:33:00-03:00",
+      "title": "La UE autorizó firmar y aplicar en forma provisional su acuerdo comercial con Indonesia",
+      "summary": "Los gobiernos europeos aprobaron el 18 de noviembre la firma del Acuerdo de Asociación Económica Integral y del de protección de inversiones con Indonesia. Yakarta informó que la firma está prevista para el 21 de noviembre en Bruselas; el país sale del SGP europeo el 1 de enero de 2027.",
+      "body": [
+        "El Consejo de la Unión Europea, que reúne a los gobiernos de los 27 Estados miembros, autorizó el miércoles 18 de noviembre la firma y la aplicación provisional de dos tratados con Indonesia: el Acuerdo de Asociación Económica Integral (CEPA, por su sigla en inglés) y el Acuerdo de Protección de Inversiones (IPA), según informaron Reuters y el portal Eunews. Es el último paso político del lado europeo antes de la firma formal.",
+        "El Ministerio de Comercio de Indonesia había anunciado el 16 de noviembre que la firma está programada para el sábado 21 de noviembre en Bruselas, según la Cámara de Comercio germano-indonesia (EKONID). Por Indonesia firmarían el ministro de Comercio, Budi Santoso, el CEPA, y el ministro de Inversión, Rosan Roeslani, el acuerdo de inversiones. Las fuentes europeas consultadas no dieron una fecha.",
+        "## Qué abre el acuerdo",
+        "La Comisión Europea, al enviar los textos al Consejo en junio, informó que Indonesia eliminará los derechos de importación sobre el 98,5% de sus posiciones arancelarias para los bienes europeos, incluidos los agroalimentarios, y que el acuerdo protege 221 indicaciones geográficas de la UE. Reuters, por su parte, señaló que ambas partes quitarán los aranceles a más del 90% de los productos, la mayoría desde la entrada en vigor, y que el arancel indonesio de 50% a los autos europeos desaparecerá en cinco años. Las dos cifras usan bases distintas (posiciones arancelarias y productos) y no deben sumarse ni compararse directamente.",
+        "Según Reuters, la ministra irlandesa de Asuntos Exteriores y Comercio, Helen McEntee, estimó que las empresas europeas ahorrarán unos 600 millones de euros por año en aranceles. La Comisión destacó además el acceso a materias primas críticas, con aranceles reducidos y exportaciones facilitadas, y el interés europeo por invertir en vehículos eléctricos, electrónica y farmacéutica en un mercado de 280 millones de habitantes. Según EKONID, el CEPA abarca además servicios, inversiones, procedimientos aduaneros, obstáculos técnicos al comercio, propiedad intelectual, compras públicas y desarrollo sostenible.",
+        "## Por qué hay apuro",
+        "Indonesia deja de ser beneficiaria del Sistema de Preferencias Generalizadas (SGP) de la UE el 1 de enero de 2027, lo que hace perder a sus exportaciones los aranceles preferenciales de ese esquema. Por eso, ambas partes se comprometieron a poner en marcha el acuerdo lo antes posible, según Eunews y Reuters. Del lado indonesio, el objetivo declarado es empezar a aplicarlo a comienzos de 2027.",
+        "Las negociaciones habían concluido en septiembre de 2025. El 29 de junio de 2026, la Comisión presentó al Consejo las propuestas de firma y celebración. Después de la firma, los textos pasan al Parlamento Europeo, cuya aprobación es necesaria para que el Consejo decida su celebración y su entrada en vigor plena; Indonesia, en paralelo, tiene que completar sus propios procedimientos de ratificación.",
+        "## Qué mirar desde el Mercosur",
+        "El acuerdo con Indonesia sigue un camino parecido al que recorrió el del Mercosur: la UE separó un tratado comercial que puede aplicarse en forma provisional de otro capítulo, en este caso el de inversiones, y dejó para después la ratificación completa. El acuerdo interino UE–Mercosur rige en forma provisional desde el 1 de mayo de 2026, mientras los Estados miembros avanzan con la ratificación del acuerdo de asociación completo: el Bundestag alemán aprobó su ley de ratificación el 13 de noviembre, como informó Comexplora.",
+        "Para los exportadores argentinos, la UE suma así otro socio con preferencias en un mercado donde compiten. Las fuentes consultadas no detallan cuotas agrícolas ni el tratamiento de productos como aceites vegetales o biodiésel, de modo que el impacto sobre los rubros que la Argentina vende a Europa no puede medirse todavía con estos datos. El texto completo del acuerdo y los cronogramas de desgravación por producto son los documentos a revisar cuando se publiquen tras la firma.",
+        "## Qué sigue",
+        "Tras la firma, el Parlamento Europeo deberá dar su consentimiento y el Consejo, adoptar la decisión de celebración. La aplicación provisional ya fue autorizada, pero las fuentes no informan desde qué fecha empezará a regir."
+      ],
+      "keyData": [
+        [
+          "Autorización del Consejo",
+          "18/11/2026: firma y aplicación provisional"
+        ],
+        [
+          "Firma prevista",
+          "21/11/2026 en Bruselas (según el Ministerio de Comercio de Indonesia)"
+        ],
+        [
+          "Posiciones liberadas por Indonesia",
+          "98,5% (Comisión Europea)"
+        ],
+        [
+          "Ahorro arancelario estimado",
+          "600 millones de euros por año (Irlanda, vía Reuters)"
+        ],
+        [
+          "Autos europeos",
+          "Arancel de 50% eliminado en 5 años"
+        ],
+        [
+          "Indicaciones geográficas",
+          "221 de la UE"
+        ],
+        [
+          "Salida del SGP",
+          "1/1/2027"
+        ]
+      ],
+      "topics": [
+        "Europa",
+        "Asia",
+        "Tratados y acuerdos",
+        "Aranceles",
+        "Economía internacional"
+      ],
+      "countries": [
+        "Unión Europea",
+        "Indonesia"
+      ],
+      "tags": [
+        "CEPA",
+        "UE–Indonesia",
+        "Acuerdo comercial",
+        "SGP",
+        "Aplicación provisional"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "sources": [
+        {
+          "name": "Reuters (vía The Star)",
+          "type": "Agencia de noticias",
+          "url": "https://www.thestar.com.my/news/world/2026/11/19/eu-governments-authorise-signature-of-trade-deal-agreement-with-indonesia",
+          "primary": true
+        },
+        {
+          "name": "Eunews",
+          "type": "Medio especializado · Unión Europea",
+          "url": "https://www.eunews.it/en/2026/11/18/eu-council-gives-provisional-approval-to-economic-partnership-agreements-with-indonesia/"
+        },
+        {
+          "name": "EKONID – Business Indonesia",
+          "type": "Cámara de comercio",
+          "url": "https://business-indonesia.org/news/indonesia-and-eu-confirm-signing-of-trade-agreement-on-21-november-2026"
+        },
+        {
+          "name": "Comisión Europea – DG Comercio",
+          "type": "Organismo oficial",
+          "url": "https://policy.trade.ec.europa.eu/news/commission-presents-council-ambitious-indonesia-agreements-2026-06-29_en"
+        }
+      ],
+      "explainer": {
+        "what": "El Consejo de la UE autorizó el 18 de noviembre la firma y la aplicación provisional del acuerdo comercial (CEPA) y del acuerdo de inversiones con Indonesia.",
+        "why": "Indonesia liberará el 98,5% de sus posiciones arancelarias para bienes europeos y pierde el SGP el 1 de enero de 2027.",
+        "who": "Exportadores europeos de autos, alimentos e industriales, exportadores indonesios a la UE y competidores de terceros países en ambos mercados.",
+        "products": [
+          "Autos",
+          "Agroalimentos",
+          "Materias primas críticas"
+        ],
+        "next": "Según el Ministerio de Comercio de Indonesia, la firma está prevista para el 21 de noviembre en Bruselas; después el acuerdo necesita el consentimiento del Parlamento Europeo.",
+        "nextSource": {
+          "name": "EKONID – Business Indonesia",
+          "url": "https://business-indonesia.org/news/indonesia-and-eu-confirm-signing-of-trade-agreement-on-21-november-2026"
+        }
+      },
+      "deadlines": [
+        {
+          "date": "2026-11-21",
+          "label": "UE e Indonesia: firma prevista del acuerdo comercial (CEPA) y del de inversiones en Bruselas, según Yakarta",
+          "url": "https://business-indonesia.org/news/indonesia-and-eu-confirm-signing-of-trade-agreement-on-21-november-2026"
+        },
+        {
+          "date": "2027-01-01",
+          "label": "UE: Indonesia deja de ser beneficiaria del Sistema de Preferencias Generalizadas (SGP)",
+          "url": "https://www.eunews.it/en/2026/11/18/eu-council-gives-provisional-approval-to-economic-partnership-agreements-with-indonesia/"
+        }
+      ],
+      "absorbs": [
+        "gobiernos-de-union-europea-autorizan-firma-de-acuerdo-comercial-con-indonesia"
+      ]
     },
     {
       "id": "presidenta-del-peru-destaca-rol-de-puerto-de-chancay-para-fortalecer-vinculo-con",
@@ -7256,7 +7858,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-11-19T14:26:31Z",
+      "gnTried": "2026-11-20T14:00:26Z",
       "digest": {
         "lead": "Tetra Pak completó en La Rioja una inversión de 30,2 millones de euros, unos USD 31,8 millones, para modernizar la planta que cumple 40 años y convertirla en plataforma exportadora para América Latina, informó Forbes Argentina.",
         "body": [
@@ -7309,7 +7911,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-11-19T14:26:31Z",
+      "gnTried": "2026-11-20T14:00:26Z",
       "digestSkip": {
         "at": "2026-11-19T06:45:00-03:00",
         "reason": "no se encontró una versión legible",
@@ -7602,9 +8204,11 @@
         "Asia"
       ],
       "countries": [
+        "Canadá",
         "China"
       ],
       "tags": [
+        "Carne",
         "Aranceles",
         "China"
       ],
@@ -8082,16 +8686,26 @@
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUzVHcXpaZFNTRTMyeTA5WW9EWktmR3NDcTF4N01kUGdJV0hmaFlGanEtYXc0SXVJRV96V3hDZVIyQk1IbGxHYWZaU0dHZW1mQTBfSlpWa2pGWmdwMUwzU09nNEVkRjJjT0tHWDRjWVl0Y2duVlRCMDNCemxyYTRIdUhuQi13Q0hSNnZiVVVqWlpiWEpvUDhRWVdETERaX3loN1FIUC1MSWRVcUlOSk9pb2Rpc3gxZkVabE1Udm1iWGF5cWNlTE8wYm9nWG9ielZBVEZYVTNKYnRad9IB_gFBVV95cUxPVXFfMTBfTEhRSUlJMzlWZTNlNTQyZjBaRF9BOGRfTFFPQXNaQk9KdWhBcjFoQXhVOGVkcmJFV3VRVWRqZ3BpdjhhelZtajFjVVhia2hBUGp0TF91d2owYU9pT2VrZUhGU3RlVTRtanRIUHJmUDh1OThzT1FUYTVIcDY2Rm9xSlZWRDVobjkzNkVQejByTno0MmJHbnlkc0xKeDV2SEtuLVh5Mlk1b01QLU9HNGk0Z0c2aUJPOXNkSHhJa3JBNkpuNUdqY2VUNm9pUUhlU0hwY280RmFERlAwR1hNR3VBNFRqQVBzNVp4SEZmdjJXOVJzUFozSGhEZw?oc=5",
           "alsoIn": true,
           "title": "Acuerdo UE-Mercosur: el 51% de las empresas uruguayas ya explora negocios en Europa"
+        },
+        {
+          "name": "Crónicas Económicas",
+          "type": "También publicó esta noticia",
+          "url": "https://www.cronicas.com.uy/news-70205-empresas-uruguayas-ven-oportunidades-en-el-acuerdo-ue-mercosur-aunque-los-costos-afectan-su-competitividad",
+          "alsoIn": true,
+          "title": "Empresas uruguayas ven oportunidades en el acuerdo UE-Mercosur, aunque los costos afectan su competitividad"
         }
       ],
       "gnTried": "2026-11-18T04:20:27Z",
       "gnUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcWxyajRndzVEM3AxWklCRzhDU1lnbEZxT2RsX2NrdnVmZjNxNWh4MllqNnc5QnFuUVl3MlZya29yV1JKRm9FQmtLSUhJTFdMWlozeTJjWXpPQnI4amxaM25jdE5HM0xYZEM4SzlTQ0pVZWxJVW5yZUZnUjlhODBYZXFGX2lQZHQzR1U3c0loMGlBdVYwZFhOeW1PMUhWRDR0S28telctVzYwaDZFMzRVdDZnVdIBuAFBVV95cUxONlJOT3hFdzkteU9OTUczaWNKVjlsUlNuUUoxemNrWWZJRlBRelptWWJacmRmRlhFOGZjVk8zRVhJQnpfLWctWHhDR0NicjZZbkJUOGY5alFyZnIyZTJtUWNGVjA5dU1DUkdCLXJnT2N0OWh4Z2lOY195NGE3VHpjdWluSWlzVi1YUU1DLXZPRTgtR1F3ZDFIV1FTNGttc0FyazFWYVBQMnNzNkU3Z005dWhpazdpaXQ4?oc=5",
       "aliasUrls": [
         "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUzVHcXpaZFNTRTMyeTA5WW9EWktmR3NDcTF4N01kUGdJV0hmaFlGanEtYXc0SXVJRV96V3hDZVIyQk1IbGxHYWZaU0dHZW1mQTBfSlpWa2pGWmdwMUwzU09nNEVkRjJjT0tHWDRjWVl0Y2duVlRCMDNCemxyYTRIdUhuQi13Q0hSNnZiVVVqWlpiWEpvUDhRWVdETERaX3loN1FIUC1MSWRVcUlOSk9pb2Rpc3gxZkVabE1Udm1iWGF5cWNlTE8wYm9nWG9ielZBVEZYVTNKYnRad9IB_gFBVV95cUxPVXFfMTBfTEhRSUlJMzlWZTNlNTQyZjBaRF9BOGRfTFFPQXNaQk9KdWhBcjFoQXhVOGVkcmJFV3VRVWRqZ3BpdjhhelZtajFjVVhia2hBUGp0TF91d2owYU9pT2VrZUhGU3RlVTRtanRIUHJmUDh1OThzT1FUYTVIcDY2Rm9xSlZWRDVobjkzNkVQejByTno0MmJHbnlkc0xKeDV2SEtuLVh5Mlk1b01QLU9HNGk0Z0c2aUJPOXNkSHhJa3JBNkpuNUdqY2VUNm9pUUhlU0hwY280RmFERlAwR1hNR3VBNFRqQVBzNVp4SEZmdjJXOVJzUFozSGhEZw",
-        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONlJOT3hFdzkteU9OTUczaWNKVjlsUlNuUUoxemNrWWZJRlBRelptWWJacmRmRlhFOGZjVk8zRVhJQnpfLWctWHhDR0NicjZZbkJUOGY5alFyZnIyZTJtUWNGVjA5dU1DUkdCLXJnT2N0OWh4Z2lOY195NGE3VHpjdWluSWlzVi1YUU1DLXZPRTgtR1F3ZDFIV1FTNGttc0FyazFWYVBQMnNzNkU3Z005dWhpazdpaXQ40gG4AUFVX3lxTE42Uk5PeEV3OS15T05NRzNpY0pWOWxSU25RSjF6Y2tZZklGUFF6Wm1ZYlpyZGZGWEU4ZmNWTzNFWElCel8tZy1YeENHQ2JyNlluQlQ4ZjlqUXJmcjJlMm1RY0ZWMDl1TUNSR0ItcmdPY3Q5aHhnaU5jX3k0YTdUemN1aW5JaXNWLVhRTUMtdk9FOC1HUXdkMUhXUVM0a21zQXJrMVZhUFAyc3M2RTdnTTl1aGlrN2lpdDg"
+        "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOSFIwLWQzdGhCN0w4VHQ5QjZuNEJQT1BDWndfWXI4YWZ1ZE1XWTNNd2lnbGhxWjZ3NWF5NjNWVGFfLXd6MHl5TENmVjlGeXRXRzlwQV9fMlNaeGcxd082RWktZTl1NGNRQkNOREJ6ZjAxSEE0X3p2bjBVTjRZQ25mXzFaSXJFOVN3RzFraVppRXZsUHIyblRfY2Uya3VtdnJDTUdtYUoxYXdPYWdnTmp0WEpRVV9VT1k0ZWQ2WE1nakxOa3NZRFhRZU5lcjl4WWZrck0yNFhsYUkxcUt0YVE",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONlJOT3hFdzkteU9OTUczaWNKVjlsUlNuUUoxemNrWWZJRlBRelptWWJacmRmRlhFOGZjVk8zRVhJQnpfLWctWHhDR0NicjZZbkJUOGY5alFyZnIyZTJtUWNGVjA5dU1DUkdCLXJnT2N0OWh4Z2lOY195NGE3VHpjdWluSWlzVi1YUU1DLXZPRTgtR1F3ZDFIV1FTNGttc0FyazFWYVBQMnNzNkU3Z005dWhpazdpaXQ40gG4AUFVX3lxTE42Uk5PeEV3OS15T05NRzNpY0pWOWxSU25RSjF6Y2tZZklGUFF6Wm1ZYlpyZGZGWEU4ZmNWTzNFWElCel8tZy1YeENHQ2JyNlluQlQ4ZjlqUXJmcjJlMm1RY0ZWMDl1TUNSR0ItcmdPY3Q5aHhnaU5jX3k0YTdUemN1aW5JaXNWLVhRTUMtdk9FOC1HUXdkMUhXUVM0a21zQXJrMVZhUFAyc3M2RTdnTTl1aGlrN2lpdDg",
+        "https://www.cronicas.com.uy/news-70205-empresas-uruguayas-ven-oportunidades-en-el-acuerdo-ue-mercosur-aunque-los-costos-afectan-su-competitividad"
       ],
       "mergedIds": [
-        "acuerdo-ue-mercosur-el-51-de-las-empresas-uruguayas-ya-explora-negocios-en-europ"
+        "acuerdo-ue-mercosur-el-51-de-las-empresas-uruguayas-ya-explora-negocios-en-europ",
+        "empresas-uruguayas-ven-oportunidades-en-el-acuerdo-ue-mercosur-aunque-los-costos"
       ],
       "digest": {
         "lead": "El 51% de las empresas uruguayas consultadas empezó a investigar oportunidades en mercados europeos a partir del acuerdo Mercosur-UE y el 28% exportó por primera vez al bloque, según el Santander Trade Barometer 2026 citado por Ámbito.",
@@ -9504,6 +10118,148 @@
           "title": "Aalborg Container Terminal has joined the Portchain Connect Network"
         }
       }
+    },
+    {
+      "id": "timbues-segunda-etapa-desvio-camiones-ruta-91-50899-millones-caf-vial-agro",
+      "date": "2026-11-17",
+      "datetime": "2026-11-17T11:00:37-03:00",
+      "title": "Santa Fe inició la segunda etapa del desvío de camiones hacia los puertos de Timbúes, por $50.899 millones",
+      "summary": "Pullaro firmó el acta de inicio de las obras que pavimentan con hormigón el tramo entre la autopista Rosario–Santa Fe y el complejo portuario, con dos rotondas y un puente ferroviario sobre la ruta 11. La financia CAF y la ejecuta Vial Agro, la misma empresa de la primera etapa.",
+      "body": [
+        "El gobernador de Santa Fe, Maximiliano Pullaro, firmó el martes 17 de noviembre el acta de inicio de la segunda etapa del desvío del tránsito pesado de la ruta provincial 91 hacia las terminales portuarias de Timbúes, al norte de Rosario. El acto se hizo en el cruce de la autopista Rosario–Santa Fe con el desvío, a la altura del kilómetro 33, según El Ciudadano, LT10 y Pregón, que difundieron la información oficial del gobierno provincial.",
+        "La obra tiene un presupuesto de $50.899.943.224,69, está financiada por el Banco de Desarrollo de América Latina y el Caribe (CAF) y la ejecuta Vial Agro S.A., la empresa que también tiene a cargo la primera etapa. El objetivo es que los camiones que van a las terminales del complejo de Timbúes dejen de atravesar las zonas urbanas de la localidad y su entorno.",
+        "## Qué incluye la segunda etapa",
+        "Según las crónicas coincidentes, los trabajos comprenden la pavimentación con hormigón del tramo que une la autopista con el complejo portuario, dos rotondas, un puente ferroviario sobre la ruta nacional 11, el ensanche y la pavimentación de cuatro calles y la iluminación de uno de los principales cruces. Las fuentes consultadas no informan el plazo de ejecución ni la longitud total del tramo.",
+        "Cuando la provincia abrió los sobres de esta licitación, en mayo, el Ministerio de Economía santafesino describió un primer renglón con unos 11 kilómetros de repavimentación de accesos directos a Timbúes en losas de hormigón de alta resistencia y dos rotondas de gran diámetro, con un presupuesto oficial de $39.655.034.927,93. Para ese renglón, la UT Vial Agro–Rovial ofertó $50.899.943.224,69, el mismo monto que se informó ahora para el inicio de obra. Un segundo renglón, la circunvalación de Serodino con otras dos rotondas, tenía un presupuesto oficial de $25.887.519.786,12; las notas sobre el acto de esta semana no mencionan esa parte.",
+        "## Cómo se llegó hasta acá",
+        "La primera etapa, que el gobierno santafesino llama Desvío Giardino, incluye una nueva rotonda sobre la ruta 91, la elevación y pavimentación del acceso a la autopista, la conexión hacia Rosario, el terraplén hacia la ruta 11 y un puente de 140 metros sobre el río Carcarañá. A mediados de octubre, el ministro de Obras Públicas, Lisandro Enrico, informó un avance de 95% y una inversión de más de $41.000 millones; el administrador de Vialidad Provincial, Pablo Seghezzo, estimó entonces que al puente le quedaban unos 45 días de trabajo. En el acto de esta semana, la primera etapa se describió como en su tramo final.",
+        "Las dos etapas forman parte del Programa Integral de Logística Urbana y Metropolitana del Gran Rosario. En marzo de 2025, al anunciarlo, la provincia informó un financiamiento de US$150 millones de CAF a 18 años con cinco de gracia, más US$37,5 millones de aporte local, según Bichos de Campo. En aquel momento, la industria aceitera y exportadora agrupada en CIARA-CEC celebró el anuncio.",
+        "## Por qué importa para la logística de granos",
+        "Timbúes forma parte del nodo portuario agroexportador del Gran Rosario, y sus accesos terrestres son un punto crítico: en los picos de cosecha entran miles de camiones por día, según SL24, y el gobierno provincial remarcó que el problema no es solo estacional sino de todo el año. Bichos de Campo citó que por el corredor circulan unos 200.000 vehículos diarios y que los camiones que llegan a los puertos rondan los dos millones por año.",
+        "En el acto, Pullaro sostuvo que los puertos santafesinos ya superan en volumen exportado a los de Santos, en Brasil, y Nueva Orleans, en Estados Unidos, y defendió la obra pública como política contracíclica en un contexto de menor coparticipación. Enrico destacó el financiamiento de CAF y la competencia en las licitaciones para bajar costos, y el presidente comunal de Timbúes, Antonio Fiorenza, agradeció una obra que, dijo, otros habían prometido sin concretarla.",
+        "## Qué falta definir",
+        "La provincia no informó una fecha de finalización ni el cronograma de la circunvalación de Serodino. Tampoco hay un dato oficial nuevo sobre la habilitación completa de la primera etapa. En paralelo, el gobierno santafesino mencionó otras obras de la zona: la tercera trocha de la autopista Rosario–Santa Fe, cuya primera etapa ya se habilitó; la reconstrucción del Camino de la Cremería, y reparaciones a cargo de la provincia en la ruta nacional A012."
+      ],
+      "keyData": [
+        [
+          "Inversión",
+          "$50.899.943.224,69"
+        ],
+        [
+          "Financiamiento",
+          "CAF (Banco de Desarrollo de América Latina y el Caribe)"
+        ],
+        [
+          "Contratista",
+          "Vial Agro S.A."
+        ],
+        [
+          "Obras",
+          "Hormigón, 2 rotondas, puente ferroviario sobre la RN 11, 4 calles"
+        ],
+        [
+          "Primera etapa",
+          "95% de avance a mediados de octubre, más de $41.000 millones"
+        ],
+        [
+          "Firma del acta",
+          "17/11/2026, autopista Rosario–Santa Fe km 33"
+        ]
+      ],
+      "topics": [
+        "Argentina",
+        "Logística",
+        "Puertos",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Timbúes",
+        "Gran Rosario",
+        "Santa Fe",
+        "Ruta 91",
+        "Camiones",
+        "CAF",
+        "Agroexportación"
+      ],
+      "visual": "truck",
+      "impact": 2,
+      "affectsArgentina": true,
+      "argentinaNote": "El desvío busca sacar a los camiones de granos de las calles de Timbúes y ordenar el acceso a las terminales del norte del Gran Rosario. Para cargadores y transportistas, la mejora llega en etapas: la primera está en su tramo final y la segunda recién empieza, sin plazo informado.",
+      "argentinaImpact": {
+        "change": "Comenzó la obra que pavimenta con hormigón el acceso entre la autopista Rosario–Santa Fe y el complejo portuario de Timbúes, con dos rotondas y un puente ferroviario sobre la ruta 11.",
+        "who": "Transportistas de granos, acopios y cooperativas, terminales portuarias de Timbúes, exportadores de granos, harinas y aceites, y vecinos de la zona.",
+        "sectors": [
+          "Agroexportación",
+          "Transporte por camión",
+          "Puertos"
+        ],
+        "flows": {
+          "importaciones": false,
+          "exportaciones": true,
+          "logistica": true,
+          "aranceles": false
+        }
+      },
+      "kind": "noticia",
+      "sources": [
+        {
+          "name": "El Ciudadano",
+          "type": "Medio de comunicación · Rosario",
+          "url": "https://elciudadanoweb.com/pullaro-puso-en-marcha-la-segunda-etapa-para-el-desvio-de-camiones-hacia-los-puertos-de-timbues/",
+          "primary": true
+        },
+        {
+          "name": "Pregón",
+          "type": "Medio de comunicación",
+          "url": "https://pregon.me/pullaro-firmo-el-inicio-de-la-segunda-etapa-del-desvio-de-camiones-hacia-los-puertos-de-timbues-con-una-inversion-de-50-899-millones/"
+        },
+        {
+          "name": "LT10",
+          "type": "Medio de comunicación · Santa Fe",
+          "url": "https://www.lt10.com.ar/noticia/514137--comienza-la-segunda-etapa-de-obras-para-el-desvio-de-camiones-a-timbues"
+        },
+        {
+          "name": "DataPortuaria",
+          "type": "Medio especializado · Puertos",
+          "url": "https://dataportuaria.com/es/argentina/logistica/santa-fe-inicia-obras-por-mas-de-50-899-millones-en-el-acceso-a-los-puertos-de-timbues"
+        },
+        {
+          "name": "Gobierno de Santa Fe (licitación, mayo de 2026)",
+          "type": "Organismo oficial",
+          "url": "https://www.santafe.gob.ar/noticias/noticia/286052/"
+        },
+        {
+          "name": "Gobierno de Santa Fe (avance de la primera etapa, octubre de 2026)",
+          "type": "Organismo oficial",
+          "url": "https://www.santafe.gob.ar/noticias/noticia/287568/"
+        },
+        {
+          "name": "Bichos de Campo",
+          "type": "Medio especializado · Agro",
+          "url": "https://bichosdecampo.com/manos-a-la-obra-santa-fe-realizara-una-obra-reclamada-hace-decadas-por-el-sector-agroindustrial-para-agilizar-la-gestion-logistica-del-gran-rosario"
+        },
+        {
+          "name": "SL24",
+          "type": "Medio de comunicación · San Lorenzo",
+          "url": "https://sl24.com.ar/avanza-el-desvio-en-timbues-pullaro-y-di-stefano-firmaron-el-inicio-de-la-segunda-etapa-de-la-obra/"
+        }
+      ],
+      "explainer": {
+        "what": "Santa Fe firmó el 17 de noviembre el inicio de la segunda etapa del desvío de camiones hacia los puertos de Timbúes, una obra de $50.899.943.224,69 financiada por CAF.",
+        "why": "Los accesos terrestres son un cuello de botella del nodo agroexportador del Gran Rosario: en los picos de cosecha entran miles de camiones por día y hoy atraviesan zonas urbanas.",
+        "who": "Transportistas de granos, acopios, terminales portuarias y exportadores que operan en Timbúes, además de los vecinos de la localidad.",
+        "products": [
+          "Granos",
+          "Harinas y aceites vegetales"
+        ]
+      },
+      "story": "logistica-regional",
+      "absorbs": [
+        "argentina-ponen-en-marcha-segunda-etapa-para-desvio-de-camiones-hacia-puertos-de"
+      ]
     },
     {
       "id": "trump-pacta-con-tailandia-eliminar-todos-los-aranceles-a-los-bienes-de-ee-uu",
@@ -161170,79 +161926,6 @@
       ]
     },
     {
-      "id": "los-miembros-de-la-omc-examinan-la-historia-de-las-negociaciones-sobre-la-agricu",
-      "datetime": "2026-09-23T00:00:00Z",
-      "date": "2026-09-22",
-      "firstSeen": "2026-10-04T00:14:26Z",
-      "title": "Los Miembros de la OMC examinan la historia de las negociaciones sobre la agricultura y examinan formas de avanzar",
-      "summary": "El 23 de septiembre los Miembros de la OMC expresaron sus puntos de vista acerca de la situación actual de las negociaciones sobre la agricultura y la mejor manera de avanzar tras los resultados inconclusos de las conversaciones sobre esta esfera mantenidas en la Decimocuarta Conferencia Ministerial de la OMC…",
-      "body": [
-        "El 23 de septiembre los Miembros de la OMC expresaron sus puntos de vista acerca de la situación actual de las negociaciones sobre la agricultura y la mejor manera de avanzar tras los resultados inconclusos de las conversaciones sobre esta esfera mantenidas en la Decimocuarta Conferencia Ministerial de la OMC, celebrada en Yaundé a comienzos de este año."
-      ],
-      "keyData": [],
-      "topics": [
-        "Tratados y acuerdos",
-        "Economía internacional"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [
-        "OMC"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "OMC · Organización Mundial del Comercio",
-      "sources": [
-        {
-          "name": "OMC · Organización Mundial del Comercio",
-          "type": "Organismo internacional",
-          "url": "https://www.wto.org/spanish/news_s/news26_s/agng_23sep26_495_s.htm",
-          "primary": true,
-          "author": ""
-        }
-      ]
-    },
-    {
-      "id": "un-momento-decisivo-para-el-sistema-mundial-del-comercio-lo-que-nos-dicen-los-da",
-      "datetime": "2026-09-23T00:00:00Z",
-      "date": "2026-09-22",
-      "firstSeen": "2026-10-04T00:14:26Z",
-      "title": "Un momento decisivo para el sistema mundial del comercio: lo que nos dicen los datos",
-      "summary": "El sistema multilateral de comercio ha contribuido a que el volumen del comercio mundial de mercancías se multiplicara casi por 50 y ha sustentado uno de los períodos más notables de crecimiento económico y desarrollo en la historia moderna, pero la política comercial mundial y la OMC están experimentando las…",
-      "body": [
-        "El sistema multilateral de comercio ha contribuido a que el volumen del comercio mundial de mercancías se multiplicara casi por 50 y ha sustentado uno de los períodos más notables de crecimiento económico y desarrollo en la historia moderna, pero la política comercial mundial y la OMC están experimentando las perturbaciones más graves y duraderas desde que se creó el sistema hace 80 años."
-      ],
-      "keyData": [],
-      "topics": [
-        "Economía internacional"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [
-        "OMC"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "OMC · Organización Mundial del Comercio",
-      "sources": [
-        {
-          "name": "OMC · Organización Mundial del Comercio",
-          "type": "Organismo internacional",
-          "url": "https://www.wto.org/spanish/news_s/news26_s/blog_23sep26_492_s.htm",
-          "primary": true,
-          "author": ""
-        }
-      ]
-    },
-    {
       "id": "ormuz-cae-paso-de-buques",
       "date": "2026-09-21",
       "title": "Cae el paso de buques por el estrecho de Ormuz mientras persiste el punto muerto entre EE.UU. e Irán",
@@ -162258,14 +162941,14 @@
     }
   ],
   "ingestion": {
-    "ranAt": "2026-11-20T03:58:39Z",
+    "ranAt": "2026-11-20T14:00:26Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
         "url": "https://www.wto.org/library/rss/latest_news_s.xml",
         "ok": true,
-        "items": 7,
-        "added": 0,
+        "items": 8,
+        "added": 1,
         "updated": 0,
         "skipped": 1
       },
@@ -162276,14 +162959,14 @@
         "items": 12,
         "added": 1,
         "updated": 0,
-        "skipped": 1
+        "skipped": 0
       },
       {
         "source": "PortalPortuario",
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 7,
+        "added": 8,
         "updated": 0,
         "skipped": 7
       },
@@ -162291,19 +162974,19 @@
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 28,
+        "items": 29,
         "added": 4,
         "updated": 0,
-        "skipped": 16
+        "skipped": 17
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 25,
-        "added": 0,
+        "items": 45,
+        "added": 4,
         "updated": 0,
-        "skipped": 17
+        "skipped": 37
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
@@ -162312,14 +162995,14 @@
         "items": 89,
         "added": 4,
         "updated": 0,
-        "skipped": 60
+        "skipped": 64
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
         "items": 28,
-        "added": 2,
+        "added": 4,
         "updated": 0,
         "skipped": 9
       },
@@ -162327,19 +163010,19 @@
         "source": "Google Noticias · Aranceles y comercio internacional",
         "url": "https://news.google.com/rss/search?q=(aranceles+OR+%22guerra+comercial%22+OR+%22acuerdo+comercial%22)+when:1d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 100,
+        "items": 94,
         "added": 4,
         "updated": 0,
-        "skipped": 88
+        "skipped": 81
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 87,
+        "items": 71,
         "added": 4,
         "updated": 0,
-        "skipped": 68
+        "skipped": 50
       }
     ],
     "curatedDuplicates": [
@@ -162349,13 +163032,13 @@
         "curated": "omc-vigilancia-comercio-2026-restricciones-importacion-5-4-billones-21-3-por-ciento"
       },
       {
-        "title": "Las ventas argentinas a Brasil crecieron un 1,8% interanual en octubre",
-        "url": "https://aduananews.com/las-ventas-argentinas-a-brasil-crecieron-un-18-interanual-en-octubre/?utm_source=rss&utm_medium=rss&utm_campaign=las-ventas-argentinas-a-brasil-crecieron-un-18-interanual-en-octubre",
-        "curated": "argentina-brasil-octubre-2026-exportaciones-1260-deficit-270-acumulado-1956-abeceb-cac"
+        "title": "Las exportaciones argentinas alcanzaron un récord histórico en octubre y superaron los US$ 10.000 millones",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRExmaXJza2p5SWVlTE0zVDVQQWFMU3I0cU5ULWVpUjhwekx6UHliaXZhbDlwdGdhQ0RlVV9xc2VlSEZNM1RqeFJMS3dJQ2p0NHFSVkZTSUF6SElIU3ZuNXVYQ3pyajZvRDJjbzBNQkhtRGRxMVIxLUc5bmMySWlvd21uLUZmM3BHMFBONS1FQk83S0lQZjZaT3RiTzBaWEhQZDQ4czlOX0Jta0tvRzZyMlctOTJXWGFhVnFpTDk5VV84THBGMlRwNUNRUXJvQ1U2Y1BpcNIB2gFBVV95cUxQSnlYMWpCN0RjYmhJVEt4aFQ1dldMb1pwTHVoYTllQktFeExOQ0tTVVRraHl1amxaVFhoZzYtdndaVWptT01yNFViZzdqb2dxQmRzVFFCUFVuZmZjRXZiLWdGZjBDZGl6R1BYZ09SbDJlYWlEczBzejVhdExzWjBWUEc1ZnZ6NTlmcGtiLWtRTmJURkpwLUVzSWF6blNHcnNtakprMVBrRGs1OVFrdmZBVmxDNndTYXhpLVQ2Y3ZfX09NajFqOVhxbXdNcGJiNm1GMEFOVjItYUxqdw?oc=5",
+        "curated": "indec-ica-octubre-2026-exportaciones-record-10061-superavit-3394"
       },
       {
-        "title": "Las exportaciones argentinas alcanzaron un récord histórico en octubre y superaron los US$ 10.000 millones",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSnlYMWpCN0RjYmhJVEt4aFQ1dldMb1pwTHVoYTllQktFeExOQ0tTVVRraHl1amxaVFhoZzYtdndaVWptT01yNFViZzdqb2dxQmRzVFFCUFVuZmZjRXZiLWdGZjBDZGl6R1BYZ09SbDJlYWlEczBzejVhdExzWjBWUEc1ZnZ6NTlmcGtiLWtRTmJURkpwLUVzSWF6blNHcnNtakprMVBrRGs1OVFrdmZBVmxDNndTYXhpLVQ2Y3ZfX09NajFqOVhxbXdNcGJiNm1GMEFOVjItYUxqd9IB2gFBVV95cUxQSnlYMWpCN0RjYmhJVEt4aFQ1dldMb1pwTHVoYTllQktFeExOQ0tTVVRraHl1amxaVFhoZzYtdndaVWptT01yNFViZzdqb2dxQmRzVFFCUFVuZmZjRXZiLWdGZjBDZGl6R1BYZ09SbDJlYWlEczBzejVhdExzWjBWUEc1ZnZ6NTlmcGtiLWtRTmJURkpwLUVzSWF6blNHcnNtakprMVBrRGs1OVFrdmZBVmxDNndTYXhpLVQ2Y3ZfX09NajFqOVhxbXdNcGJiNm1GMEFOVjItYUxqdw?oc=5",
+        "title": "Las exportaciones marcaron otro récord y el superávit comercial se cuadruplicó | 19 de noviembre de 2026",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE93SUwxM21FN2hSNmF0MmFadnBGQm5EcXJiREdjNVkyZ2YyUm15UDZIelY2b0RpY3NjMm4zNThhNG9QNlVPTjU4dUhxdTJtU3JNV2RCX1NfNlVuRjAxSkp6T2dXVUxlY1JQQ1pjbXRVWS1VZGdfeVJxd3FadW7SAYIBQVVfeXFMTVkxQ1FoZTlidU9hSmo4cjNVMlV4Rk9vX2lZUEVuYUx1RXJpSU1SRzZ3aEhSQWZNWnMxLXYwY1IxNnJyTUlxazNxWnJjVGFfV2hzX0QtQXJ2bjVYMlo1VHRndEwyWUNyZVdGa0hBYWdwVnBQRU5XMnp6TkFZRTkxLUV6QQ?oc=5",
         "curated": "indec-ica-octubre-2026-exportaciones-record-10061-superavit-3394"
       },
       {
@@ -162369,23 +163052,8 @@
         "curated": "indec-ica-octubre-2026-exportaciones-record-10061-superavit-3394"
       },
       {
-        "title": "Energía y menores importaciones: las claves del superávit comercial récord de octubre",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNU3pfNUpHOEdOelRUMC0yR3JwcnYzcjRrZmx6b2xmZmQxYURRVlp4b2FLLVctSE40Y0JoaDRVXzFldlZ3dGEtc1pqRzJIM0lxR2hyaElHcGxGX2NhSHVQSG1CSXowRzFoOC1CZ01KOTc2RE82OHc4TXQwYng4RUJKdVlXeEMzYjdxemxfbWFyUnl5bDFoaTV1cEl6WDRqSTB6bVBBZnFjQnI5V3E5YTIzX0UzYnh3TUQxWEVsbkl0RHYtN1N0Uk1iTVhoUjRZTUNFTWdQcEI0czRKU0IwVkV4aGl30gHiAUFVX3lxTE1Tel81Skc4R056VFQwLTJHcnBydjNyNGtmbHpvbGZmZDFhRFFWWnhvYUstVy1ITjRjQmhoNFVfMWV2Vnd0YS1zWmpHMkgzSXFHaHJoSUdwbEZfY2FIdVBIbUJJejBHMWg4LUJnTUo5NzZETzY4dzhNdDBieDhFQkp1WVd4QzNiN3F6bF9tYXJSeXlsMWhpNXVwSXpYNGpJMHptUEFmcWNCcjlXcTlhMjNfRTNieHdNRDFYRWxuSXREdi03U3RSTWJNWGhSNFlNQ0VNZ1BwQjRzNEpTQjBWRXhoaXc?oc=5",
-        "curated": "indec-ica-octubre-2026-exportaciones-record-10061-superavit-3394"
-      },
-      {
-        "title": "Las exportaciones argentinas alcanzaron un récord histórico en octubre y superaron los US$ 10.000 millones",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSnlYMWpCN0RjYmhJVEt4aFQ1dldMb1pwTHVoYTllQktFeExOQ0tTVVRraHl1amxaVFhoZzYtdndaVWptT01yNFViZzdqb2dxQmRzVFFCUFVuZmZjRXZiLWdGZjBDZGl6R1BYZ09SbDJlYWlEczBzejVhdExzWjBWUEc1ZnZ6NTlmcGtiLWtRTmJURkpwLUVzSWF6blNHcnNtakprMVBrRGs1OVFrdmZBVmxDNndTYXhpLVQ2Y3ZfX09NajFqOVhxbXdNcGJiNm1GMEFOVjItYUxqd9IB2gFBVV95cUxQSnlYMWpCN0RjYmhJVEt4aFQ1dldMb1pwTHVoYTllQktFeExOQ0tTVVRraHl1amxaVFhoZzYtdndaVWptT01yNFViZzdqb2dxQmRzVFFCUFVuZmZjRXZiLWdGZjBDZGl6R1BYZ09SbDJlYWlEczBzejVhdExzWjBWUEc1ZnZ6NTlmcGtiLWtRTmJURkpwLUVzSWF6blNHcnNtakprMVBrRGs1OVFrdmZBVmxDNndTYXhpLVQ2Y3ZfX09NajFqOVhxbXdNcGJiNm1GMEFOVjItYUxqdw?oc=5",
-        "curated": "indec-ica-octubre-2026-exportaciones-record-10061-superavit-3394"
-      },
-      {
-        "title": "Récord de exportaciones y caída de las importaciones: el superávit comercial superó los US$ 3.300 millones",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNzRSR2FuYUJQY0d6T3NENWg3eVFMcHpfZDVRSDNzX2FVLVBIaUo5MXAxVDdOS1M4ZDdqZVlVSF9Yd1RwZkRYWGk2ZHZHLWFmTlRRbzlOam1yNUVaZEdTZ0EteC01Wmp4QUd4SGp1U0ZuRXVxWlNzNmlwTVRwYXRPWW5FbVNESk5TR3hSa0tmWm43V2ZJN2FlUDB1Q3k5Q2cwWWxhZ1ktaWVIeGx6TEhmQVdHeVA1ZjhoVEVZMjY1cU9BYkJq?oc=5",
-        "curated": "bcr-saldo-energetico-enero-septiembre-2026-9427-millones-record-44-5-superavit-crudo-harina-soja"
-      },
-      {
-        "title": "Energía y menores importaciones: las claves del superávit comercial récord de octubre",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTjA2YUxFY002RjdjVmVMX3p4VjlxWS02eUVFSGRLVXNmaEhfQ0FtXzdOTklDLXNQQkRRbWgwaVRXU01XbFY4VGJ0el9CSDVLOWlRZ1A1b1pJOVpXM2FHb3BrTEQtTFRrVzRObjBjcjBHUzBhS183b3JIZnB2ME9wSjNxS2doeE1QVmhoNHp4MWI3TXcyUEswNkYwUk4wcHdMNXUtMlRLQ0N4Q3hWVmFmSFRCS1RtTDhKTVI3YnB5bF9wQnVDZjlV0gHiAUFVX3lxTE1Tel81Skc4R056VFQwLTJHcnBydjNyNGtmbHpvbGZmZDFhRFFWWnhvYUstVy1ITjRjQmhoNFVfMWV2Vnd0YS1zWmpHMkgzSXFHaHJoSUdwbEZfY2FIdVBIbUJJejBHMWg4LUJnTUo5NzZETzY4dzhNdDBieDhFQkp1WVd4QzNiN3F6bF9tYXJSeXlsMWhpNXVwSXpYNGpJMHptUEFmcWNCcjlXcTlhMjNfRTNieHdNRDFYRWxuSXREdi03U3RSTWJNWGhSNFlNQ0VNZ1BwQjRzNEpTQjBWRXhoaXc?oc=5",
+        "title": "El superávit comercial llegó a USD 3.394 millones y las exportaciones marcaron un nuevo récord",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZExGZDBpVk10WDkyVU1Ra2RJVkhCS015WHpxTU1BX1lvN0hja1BMSnQtZ2R2c2szNFd5MjlXdlJtUGlWTGpYaWhYcGNSckdYck03REVxZTlfYnRNMlJ6dldiSEFFSjFsZm9ENmd3QTZwRWNtS0tVYVotLTRuR25ENWpPYk1weUlJSEhGVE5LRmRRRHVDMkMzcE5VY0FHbVJEdWgzdXdPQVZfaENEY0FsOXhsbGpacThwRTFkc01BdHhvSGFNa0JZRFY3UjI?oc=5",
         "curated": "indec-ica-octubre-2026-exportaciones-record-10061-superavit-3394"
       },
       {
@@ -162399,78 +163067,78 @@
         "curated": "indec-ica-octubre-2026-exportaciones-record-10061-superavit-3394"
       },
       {
-        "title": "Las exportaciones alcanzaron el récord de US$10.000 millones en octubre y las importaciones retrocedieron",
-        "url": "https://www.losandes.com.ar/economia/las-exportaciones-alcanzaron-el-record-us10000-millones-octubre-y-las-importaciones-retrocedieron-n6014955",
+        "title": "Las exportaciones argentinas superaron los US$10.000 millones por segundo mes consecutivo",
+        "url": "https://elintransigente.com/2026/11/19/exportaciones-argentinas-superaron-us10-000-millones-segundo-mes-consecutivo/",
         "curated": "indec-ica-octubre-2026-exportaciones-record-10061-superavit-3394"
       },
       {
-        "title": "Las exportaciones argentinas alcanzaron un récord histórico en octubre y superaron los US$ 10.000 millones",
-        "url": "https://www.forbesargentina.com/money/las-exportaciones-argentinas-alcanzaron-record-historico-octubre-superaron-us-10000-millones-n102956",
+        "title": "Se amplía la balanza comercial: crecen las exportaciones pero se acelera la importación en la economía argentina",
+        "url": "https://www.miradorprovincial.com/2026/11/19/se-amplia-la-balanza-comercial-crecen-las-exportaciones-pero-se-acelera-la-importacion-en-la-economia-argentina/",
         "curated": "indec-ica-octubre-2026-exportaciones-record-10061-superavit-3394"
       },
       {
-        "title": "Otro récord de exportaciones: USD 10.000 millones en octubre",
-        "url": "https://bardeo.news/economia/otro-record-de-exportaciones--usd-10-000-millones-en-octubre_a6aff649ecd25aee28841a2c2",
+        "title": "Las exportaciones argentinas marcaron un nuevo récord en octubre",
+        "url": "https://www.losprimeros.tv/economia/las-exportaciones-argentinas-marcaron-un-nuevo-record-en-octubre_a6aff7f2ecd25aee2884451ec",
         "curated": "indec-ica-octubre-2026-exportaciones-record-10061-superavit-3394"
       },
       {
-        "title": "Efecto Milei: Las exportaciones alcanzaron un nuevo récord histórico en octubre",
-        "url": "https://qpaso.ar/noticias/derechadiario/politica/efecto-milei-exportaciones-alcanzaron-nuevo-record-historico-en-octubre",
+        "title": "Las exportaciones marcaron otro récord y el superávit comercial se cuadruplicó | 19 de noviembre de 2026",
+        "url": "https://hoydia.com.ar/economia/exportaciones-record-superavit-comercial/",
         "curated": "indec-ica-octubre-2026-exportaciones-record-10061-superavit-3394"
       },
       {
-        "title": "Superávit comercial de Argentina en octubre de 2026: exportaciones suben 26,4 % e importaciones caen 6,7 % - Noticias y…",
-        "url": "https://www.indexbox.io/es/blog/argentina-posts-usd-3394-million-october-trade-surplus-as-exports-rise-264/",
-        "curated": "indec-ica-octubre-2026-exportaciones-record-10061-superavit-3394"
+        "title": "Gobiernos de Unión Europea autorizan firma de acuerdo comercial con Indonesia",
+        "url": "https://portalportuario.cl/gobiernos-de-union-europea-autorizan-firma-de-acuerdo-comercial-con-indonesia/",
+        "curated": "ue-indonesia-consejo-autoriza-firma-cepa-aplicacion-provisional-sgp-2027"
       },
       {
-        "title": "Octubre dejó más dólares por exportaciones, pero señales de una recesión profunda",
-        "url": "https://www.newsdigitales.com/nota/350491/octubre-dejo-mas-dolares-por-exportaciones-pero-senales-de-una-recesion-profunda/",
-        "curated": "indec-ica-octubre-2026-exportaciones-record-10061-superavit-3394"
+        "title": "Argentina: Ponen en marcha segunda etapa para desvío de camiones hacia puertos de Timbúes",
+        "url": "https://portalportuario.cl/argentina-ponen-en-marcha-segunda-etapa-para-desvio-de-camiones-hacia-puertos-de-timbues/",
+        "curated": "timbues-segunda-etapa-desvio-camiones-ruta-91-50899-millones-caf-vial-agro"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "ee-uu-puerto-de-savannah-observa-incremento-de-25-en-volumen-de-contenedores-man",
+        "main": "el-51-de-las-empresas-uruguayas-explora-oportunidades-en-europa-ante-el-acuerdo",
         "merged": [
-          "ee-uu-nwsa-aumenta-el-volumen-de-contenedores-manejados-en-octubre"
+          "empresas-uruguayas-ven-oportunidades-en-el-acuerdo-ue-mercosur-aunque-los-costos"
         ]
       },
       {
-        "main": "del-mapa-de-acuerdos-a-la-gondola-donde-pueden-vender-y-exportar-las-empresas-co",
+        "main": "argentina-al-frente-del-mercosur-mas-acuerdos-y-oportunidades-pero-tambien-mas-t",
         "merged": [
-          "el-nuevo-mapa-del-comercio-mundial-que-oportunidades-tiene-cordoba-para-ampliar"
+          "argentina-al-frente-del-mercosur-mas-acuerdos-y-oportunidades-pero-tambien-m-2"
         ]
       },
       {
-        "main": "mercosur-firmara-un-acuerdo-para-crear-un-pasaporte-de-habilidades-que-acredite",
+        "main": "sheinbaum-reporta-avances-comerciales-con-trump-y-buscara-acuerdo-sobre-arancele",
         "merged": [
-          "mercosur-acordo-crear-pasaporte-de-habilidades-para-revalidar-saberes-y-que-los"
+          "sheinbaum-busca-acuerdo-con-trump-para-reducir-aranceles"
         ]
       },
       {
-        "main": "impacto-de-la-devaluacion-del-real-en-el-turismo-y-exportaciones",
+        "main": "industria-empeoran-expectativas-sobre-demanda-y-produccion-crece-preocupacion-po",
         "merged": [
-          "el-real-se-deprecia-y-brasil-tienta-al-turismo-con-precios-bajos-pero-impacta-en"
+          "industria-en-alerta-caen-expectativas-y-preocupan-las-importaciones"
         ]
       },
       {
-        "main": "weretilneck-participo-de-argentina-alimenta-y-destaco-el-potencial-exportador-de",
+        "main": "chile-firma-historico-acuerdo-comercial-con-filipinas-que-beneficiara-a-las-expo",
         "merged": [
-          "nadia-ricci-destaco-la-participacion-de-santa-cruz-en-argentina-alimenta-y-la-pr"
+          "chile-y-filipinas-firman-un-acuerdo-comercial-con-preferencias-para-las-exportac"
         ]
       }
     ],
     "googleNews": {
-      "pending": 22,
-      "resolved": 18,
-      "withSummary": 16,
+      "pending": 27,
+      "resolved": 11,
+      "withSummary": 8,
       "withPhoto": 0,
-      "failed": 4,
-      "duplicates": 0
+      "failed": 16,
+      "duplicates": 1
     },
-    "noRead": 0
+    "noRead": 1
   },
   "stories": [
     {
