@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.1",
   "feedId": "comexplora",
-  "updatedAt": "2026-11-27T03:38:49Z",
+  "updatedAt": "2026-11-27T15:04:46Z",
   "timezone": "America/Argentina/Buenos_Aires",
   "editorialNote": "Noticias relevadas y verificadas manualmente contra la fuente original. Los resúmenes y textos son redacción propia del sitio; los datos provienen de las fuentes enlazadas.",
   "indicators": [
@@ -142,7 +142,7 @@
       "obsDate": "2026-11-26",
       "change": "-0,5% vs. día hábil anterior",
       "trend": "down",
-      "checkedAt": "2026-11-27T03:40:40Z",
+      "checkedAt": "2026-11-27T15:05:46Z",
       "history": [
         [
           "2026-10-09",
@@ -267,33 +267,29 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-27T03:40:40Z"
+      "lastAttempt": "2026-11-27T15:05:46Z"
     },
     {
       "id": "soja",
       "label": "Soja · precio pizarra Rosario",
-      "value": "$ 574.700/t",
-      "period": "Rosario · 25 nov 2026 · US$ 360,31/t",
+      "value": "$ 570.000/t",
+      "period": "Rosario · 26 nov 2026 · US$ 357,93/t",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "group": "Mercados",
-      "obsDate": "2026-11-25",
-      "change": "+0,8% vs. pizarra anterior",
-      "trend": "up",
+      "obsDate": "2026-11-26",
+      "change": "-0,8% vs. pizarra anterior",
+      "trend": "down",
       "_last": {
+        "date": "2026-11-26",
+        "ars": 570000.0
+      },
+      "checkedAt": "2026-11-27T15:05:47Z",
+      "_prev": {
         "date": "2026-11-25",
         "ars": 574700.0
       },
-      "checkedAt": "2026-11-27T03:40:41Z",
-      "_prev": {
-        "date": "2026-11-24",
-        "ars": 570000.0
-      },
       "history": [
-        [
-          "2026-10-08",
-          560000.0
-        ],
         [
           "2026-10-09",
           560000.0
@@ -409,11 +405,15 @@
         [
           "2026-11-25",
           574700.0
+        ],
+        [
+          "2026-11-26",
+          570000.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-27T03:40:41Z"
+      "lastAttempt": "2026-11-27T15:05:47Z"
     },
     {
       "id": "brent",
@@ -426,7 +426,7 @@
       "obsDate": "2026-11-24",
       "change": "+0,7% vs. día anterior",
       "trend": "up",
-      "checkedAt": "2026-11-27T03:40:44Z",
+      "checkedAt": "2026-11-27T15:05:50Z",
       "history": [
         [
           "2026-10-14",
@@ -551,33 +551,29 @@
       ],
       "frequency": "diaria",
       "maxAgeDays": 14,
-      "lastAttempt": "2026-11-27T03:40:44Z"
+      "lastAttempt": "2026-11-27T15:05:50Z"
     },
     {
       "id": "maiz",
       "label": "Maíz · precio pizarra Rosario",
-      "value": "$ 271.000/t",
+      "value": "$ 270.725/t",
       "group": "Mercados",
-      "period": "Rosario · 25 nov 2026 · US$ 169,91/t",
-      "obsDate": "2026-11-25",
-      "change": "-0,5% vs. pizarra anterior",
+      "period": "Rosario · 26 nov 2026 · US$ 170,00/t",
+      "obsDate": "2026-11-26",
+      "change": "-0,1% vs. pizarra anterior",
       "trend": "down",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
+        "date": "2026-11-26",
+        "ars": 270725.0
+      },
+      "checkedAt": "2026-11-27T15:05:50Z",
+      "_prev": {
         "date": "2026-11-25",
         "ars": 271000.0
       },
-      "checkedAt": "2026-11-27T03:40:44Z",
-      "_prev": {
-        "date": "2026-11-24",
-        "ars": 272448.0
-      },
       "history": [
-        [
-          "2026-10-08",
-          293500.0
-        ],
         [
           "2026-10-09",
           292500.0
@@ -693,37 +689,37 @@
         [
           "2026-11-25",
           271000.0
+        ],
+        [
+          "2026-11-26",
+          270725.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-27T03:40:44Z"
+      "lastAttempt": "2026-11-27T15:05:50Z"
     },
     {
       "id": "trigo",
       "label": "Trigo · precio pizarra Rosario",
-      "value": "$ 303.000/t",
+      "value": "$ 297.000/t",
       "group": "Mercados",
-      "period": "Rosario · 25 nov 2026 · US$ 189,97/t",
-      "obsDate": "2026-11-25",
-      "change": "+3,4% vs. pizarra anterior",
-      "trend": "up",
+      "period": "Rosario · 26 nov 2026 · US$ 186,50/t",
+      "obsDate": "2026-11-26",
+      "change": "-2,0% vs. pizarra anterior",
+      "trend": "down",
       "source": "Bolsa de Comercio de Rosario",
       "url": "https://www.cac.bcr.com.ar/es/precios-de-pizarra",
       "_last": {
+        "date": "2026-11-26",
+        "ars": 297000.0
+      },
+      "checkedAt": "2026-11-27T15:05:50Z",
+      "_prev": {
         "date": "2026-11-25",
         "ars": 303000.0
       },
-      "checkedAt": "2026-11-27T03:40:44Z",
-      "_prev": {
-        "date": "2026-11-24",
-        "ars": 293040.0
-      },
       "history": [
-        [
-          "2026-10-08",
-          342700.0
-        ],
         [
           "2026-10-09",
           342000.0
@@ -839,26 +835,108 @@
         [
           "2026-11-25",
           303000.0
+        ],
+        [
+          "2026-11-26",
+          297000.0
         ]
       ],
       "frequency": "diaria",
       "maxAgeDays": 6,
-      "lastAttempt": "2026-11-27T03:40:44Z"
+      "lastAttempt": "2026-11-27T15:05:50Z"
     }
   ],
   "items": [
     {
-      "id": "balanza-comercial-record-octubre-cerro-con-un-saldo-positivo-de-usd-3-394-millon",
-      "datetime": "2026-11-27T03:06:48Z",
+      "id": "camath-presenta-en-valencia-su-nueva-gama-de-semirremolques-portacontenedores",
+      "datetime": "2026-11-27T14:35:18Z",
       "date": "2026-11-27",
-      "firstSeen": "2026-11-27T03:38:49Z",
-      "title": "Balanza comercial récord: octubre cerró con un saldo positivo de USD 3.394 millones por el empuje energético y menos importaciones",
-      "summary": "",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Camath presenta en Valencia su nueva gama de semirremolques portacontenedores",
+      "summary": "La nueva marca española, que cuenta con homologación europea, aspira a hacerse un hueco en el transporte portuario con vehículos extensibles, chasis fijos y sistemas Dolly.",
       "body": [],
       "keyData": [],
       "topics": [
-        "Importaciones",
-        "Economía internacional"
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Contenedores"
+      ],
+      "visual": "container",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "Ruta del Transporte",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.rutadeltransporte.com/semirremolques-y-carrocerias/camath-presenta-en-valencia-su-nueva-gama-de-semirremolques-portacontenedores.html",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-27T15:04:46Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMnR0MDBYOUJSSzBBcF9fdVUtQ3Q5UWJFZ05wLW5Da29kcjdmcnZLa0dKNTdOY2tlNy00M0hCcXpIczNhNDNWZFliamZNZGNXTUJIcTBPcEYzNk5MRjdiNTB3NG1OQVNYMDhPUnZSWl9vVXJ0Z0p0MnE1N3lRdm5BNkRXR2kxNHZuRlhvTDBzSU9HekJYaThIZ0NYZlhILVlfMjJjeko2VVk0YUV4N19sSXMzSk9FdEFwZHl5RWkzSUxkdlE3R3BJWTFGTjI4WUNqeXpfMVVUeW1QOFRNQmc?oc=5"
+    },
+    {
+      "id": "los-aranceles-de-ee-uu-acercan-a-ue-e-indonesia-en-su-acuerdo-comercial-dice-el",
+      "datetime": "2026-11-27T14:30:19Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Los aranceles de EE.UU. acercan a UE e Indonesia en su acuerdo comercial, dice el ministro",
+      "summary": "Los aranceles de EEUU acercaron a la UE e Indonesia, dijo a Euronews el ministro coordinador de Economía Airlangga Hartarto. Tras diez años de negociaciones, firmaron un acuerdo que podría aumentar el comercio un 50% en tres años.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Tratados y acuerdos",
+        "Estados Unidos",
+        "Asia",
+        "Europa"
+      ],
+      "countries": [
+        "Estados Unidos",
+        "Indonesia",
+        "Unión Europea"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Euronews",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://es.euronews.com/2026/11/27/los-aranceles-de-eeuu-acercan-a-ue-e-indonesia-en-su-acuerdo-comercial-dice-el-ministro",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-27T15:04:46Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOM0stUlJneUpCRGdlSWMzV2NlMXpWZE94djl5UGpkV2s4QVdXemVrdnNwRURySVUzSEVVQUJlQVYtWXBDRm9tSEJDS3l1bkc3MWdnaHk3RUNoVXd0Ym94bURWcXUwTjdneE1NblFTQVZkOXhMRkY5bEJYSHNFdHg1Y3RpNHljbGpoOXZNMXlqczdSaVdEYk5xaVRUdkRGR193cXpuWVl3X0EtLV9abjY0UW9EVlhwNzFtX1NmRmQ1MA?oc=5"
+    },
+    {
+      "id": "puma-cierra-una-de-sus-dos-fabricas-en-la-argentina-y-reemplaza-produccion-local",
+      "datetime": "2026-11-27T14:28:00Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Puma cierra una de sus dos fábricas en la Argentina y reemplaza producción local por importaciones",
+      "summary": "La multinacional alemana desvinculó a 50 trabajadores de su planta de Chamical, en La Rioja, que recibirán el 120% de la indemnización legal. La medida llega tras dos años de despidos y retiros voluntarios.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Importaciones"
       ],
       "countries": [
         "Argentina"
@@ -872,19 +950,988 @@
       "feed": "Google Noticias · Aduana e importaciones Argentina",
       "sources": [
         {
-          "name": "Punto a Punto",
+          "name": "Ambito",
           "type": "Medio · vía Google Noticias",
-          "url": "https://puntoapunto.com.ar/balanza-comercial-record-octubre-cerro-con-un-saldo-positivo-de-usd-3-394-millones-por-el-empuje-energetico-y-menos-importaciones/",
+          "url": "https://www.ambito.com/negocios/puma-cierra-una-sus-dos-fabricas-la-argentina-y-reemplaza-produccion-local-importaciones-n6350014",
           "primary": true,
           "author": ""
         }
       ],
-      "gnTried": "2026-11-27T03:38:49Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOZklkelZOSHMweV9rcFpzWGpzTm5NbHdCam5Bd1BLNzJIZE93bFFZZ3d0cDIxbGI0WXhheVZlbVh4Z0toWlJGMlEtZWtlak93MWdzUS1MWnJrRFc2OEpnU21QRHFsdjY0Q1oza01ick51aFBMM21tTXhMZVZ3bmtKZEwwYlhuZlV3MlpGMlJLVzktYzlEWHhvaG5nN2d3anNFM1BtNWNxTTVYYVY1WjY5VG44YUpjR3FCWnpMNEdBRFR2aDdTdnpFSl8yTWtKNkVQdFVyejJNZUsxa0FvWkVScWtBd1NEdEJXOUdua1d3?oc=5",
-      "digestSkip": {
-        "at": "2026-11-27T00:50:00-03:00",
-        "reason": "repite una nota de la redacción (balanza comercial de octubre del INDEC)"
-      }
+      "gnTried": "2026-11-27T15:04:46Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQmZod19LeVlBbzJhLUFRbzc5VTZnT0NjQl80VS1LeFcwd1JWdi0tRGV6QWp0X2NibVJTaTNGS092TllPc3Y5RUFadm50RWI3X2QwQm9WUk9IbHJnbFU3M2xJVDlEY3B6NWktWURhSUJIdFEzUm1mQmY4cFVSajZ5UzJDdzZrTTUybTdqeWJad0lKcG9fb1dSN0pSNGNnUVZsMUliMWhObVlnbFJxblk3Z0xyUzNlRzZfbDJfay1hYXQ4UVNqMVBsetIBzgFBVV95cUxPYWNvS3ZyMXU4MHRHSzJRRFY5cE81dl8ydlpJc05JU21iX0d4TkprWGt4cDV1V3RWZVZMSkNScUd0bjRvcnBacWw3bUxtLUhZZHBWSTUydVJYRFRaaTJrZTVPZm43NTdsNGt2VnJYOE45Q1M2X0drclVYZk05cmg4MlZ2YmJvTXh5OS04ZjNUVkZETnl4dzdncGxSOVdJNVZ4ajBoc3NkZXZKai1YaWZtWmliRktFYnVWRmFCSHZRYk9ETUx3T3ZPZVBaYjYzZw?oc=5"
+    },
+    {
+      "id": "los-republicanos-reconsideran-los-aranceles-de-trump-tras-derrotas-electorales-e",
+      "datetime": "2026-11-27T14:24:21Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Los republicanos reconsideran los aranceles de Trump tras derrotas electorales en EE.UU.",
+      "summary": "Tras las elecciones en EE.UU., algunos republicanos se muestran abiertos a revisar los aranceles impuestos por Trump, en un contexto de costos crecientes que impactan a los votantes.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "countries": [
+        "Estados Unidos"
+      ],
+      "tags": [
+        "Aranceles",
+        "Estados Unidos"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Cadena 3 Argentina",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.cadena3.com/noticia/mundo/los-republicanos-reconsideran-los-aranceles-de-trump-tras-derrotas-electorales-en-eeuu_617191",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-27T15:04:46Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOY09ZVTk5YjhDcTlkWXhvRjEyOGFCSWE5cjRCWkhpTU1XRnR4ZXN4UG9wazh5RUh4ZGtOS1hMRTdPTHAwaGk5MWRjYzBtQ0J1ekEzcGJZZzVmQTBiX0lzTmlaWXVFUmNUQXdQTUh2dm41TmgyUDdlekpPdEdOR2R3blFfYnlYRjZ4bnZOVFVGUDBVRmRZQVpfZFczZXBpSWNyMGl3bFZvdjNQU3A3ZDVlOXJtckdSV3I1V2Rzazk2VWNPNmlNd2RtblFaY9IB0AFBVV95cUxOSTNRa0R6cG1kRExndnc1THUzalYtelhJLTdzdWZWSjV6cXVVdllVWUphQmxnMDNSd084SHk0ZDBvNDVySzRHaHRhQkNIMlgzWHhuSktuR0RBQ1BETElpbmN0ZC1jWUZ6eVZLNjRGcnFXdTk0dGdKanZPTDhvNE9CZ0FXb2ZGeHoxMklxWGxJNXpJcGpkWXpjT05uWEZCdWdIUkQxM3RuYUhSY3kyaExGUUpqQzRIVzQ2WjNYUlNGUEFJeEcwcm1ZM1l6YmRLQXVE?oc=5"
+    },
+    {
+      "id": "rusia-elevara-al-35-los-aranceles-a-la-importacion-de-mariscos-de-paises-inamist",
+      "datetime": "2026-11-27T14:20:13Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Rusia elevará al 35% los aranceles a la importación de mariscos de países ‘inamistosos’",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones",
+        "Aranceles",
+        "Europa"
+      ],
+      "countries": [
+        "Rusia"
+      ],
+      "tags": [
+        "Aranceles"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "El Sol de México",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://oem.com.mx/elsoldemexico/finanzas/rusia-elevara-al-35-los-aranceles-a-la-importacion-de-mariscos-de-paises-inamistosos-33334940",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-27T15:04:46Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVjIxN0RUaGM0V0FvQm1UTWlPWVF3ODRWWHVuVjMzRVQ0M21odzNSRGxBS2lHVWlReldXQXF6RFJvc3FoRWF1dmtKWW50Tmh0ZnRic211WUJkX2pIcEg0RkxSd1hvYzBFeURuM0NQcGhSZHQ1NXE3emkyblRGb3ZJdW1VQk5GMVFUYXJMWWJEM2t6cENNTTVWSzBvVnlfQndxZk5DeGhnX1h4SG9xbldOSk5vTVExSzFFMDRPSXZWOFYzdzhOaWhVNU1FdDZVa0xE?oc=5"
+    },
+    {
+      "id": "aranceles-no-frenan-envio-de-contenedores-de-china-a-mexico-unctad",
+      "datetime": "2026-11-27T14:18:59Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Aranceles no frenan envío de contenedores de China a México: UNCTAD",
+      "summary": "China envió a México en el 2025 un millón 308 mil contenedores de 20 pies",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aranceles",
+        "Transporte marítimo",
+        "Latinoamérica",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "México",
+        "China"
+      ],
+      "tags": [
+        "Aranceles",
+        "China"
+      ],
+      "visual": "container",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "sources": [
+        {
+          "name": "Vanguardia MX",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://vanguardia.com.mx/noticias/mexico/aranceles-no-frenan-envio-de-contenedores-de-china-a-mexico-unctad-ME25126857",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-27T15:04:46Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxObWVkOFpKZ1Fwblg3ai1jLTVlWWF2SGFWaXhFQWdBeEhTX295WXZkN3hQMjZzeVdrbjEtOXlzV2xrSU1xVW9ud0NjNTFoQlJEY0tyNDE3TlRXMUhyVXRRaENIZGNEVUoyMElQdi1rQm4xMGwzTmNGRExsR0pNd3h6MGxwMXdTc3lhYWVNcnlES1BadGRkUjU2TzZyTDJacmt5eWFjclpXV1VNb0kyTHQ0QWxRQ2Rkdm12MGVz?oc=5"
+    },
+    {
+      "id": "us-1513-millones-la-joya-productiva-del-norte-marco-un-nuevo-record-de-exportaci",
+      "datetime": "2026-11-27T14:12:00Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "US$1513 millones: la “joya productiva” del norte marcó un nuevo récord de exportaciones",
+      "summary": "Santiago del Estero encabezó el ranking de ventas al exterior de las provincias del NOA, con un fuerte peso de los productos del agro",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "La Nación",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.lanacion.com.ar/economia/campo/us1513-millones-la-joya-productiva-del-norte-marco-un-nuevo-record-de-exportaciones-nid27112026/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-27T15:04:46Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNWUhSel9YLUtQSlNDbkFtQUlVanU5ZWY5LVVnZ1NzNF9iQi15cU4yMklnRHVTSTFOQW1vOVREbzN2MDN5cklsVVhHNXRHVmlIZHJGNVBUTktZNTVCQ1pjUXUwRDMwWWotNWdKb083d19zdEJRb2dvdUtSMnVpNnJWQTFKZXp6RVFvaUo4ZjNFZzR1T2l5d0ctRjFHbmc0X0stOWh3R3BNSUpZa0d0M20xX0tocDRzUVZZN2hQejJJX29VUnl0YV9rVmY3dWotWlJWVXFnMmpR?oc=5"
+    },
+    {
+      "id": "las-exportaciones-de-la-pampa-crecen-a-un-ritmo-interanual-de-mas-del-26-en-octu",
+      "datetime": "2026-11-27T14:10:39Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Las exportaciones de La Pampa crecen a un ritmo interanual de más del 26% en octubre",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "Data Portuaria",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://dataportuaria.com/es/argentina/comercio-exterior/las-exportaciones-de-la-pampa-crecen-a-un-ritmo-interanual-de-mas-del-26-en-octubre",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-27T15:04:46Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZHlsZ0hwYzhramI3bjJuNk84c3VIOHpkVzZBV2Z4aWJ3Mk1jVVJvT2o1WnV0N2JSYzF1a0VZRDBnMWFNOXo4UTJOb2NESERPZDhEZjBzTU5pM1d5aGQxbzhGeGdLZ0V6MkNQOWlWVHlnWTJkbFQ1c0d0ZmV6LWFEMGNjTUNqZ0FFRjdMVjdNSzA0OUVZR3Vxc2o0RGNOQzNtaGtOb3NTa0tyazdQMm9mbV9JZGt3b3Zqa3pTUVJnckM4bWVDaGtBQzJwTjc5NUxoSk9YVGo0dw?oc=5"
+    },
+    {
+      "id": "habilitaron-una-nueva-terminal-portuaria-para-la-exportacion-de-productos-vegeta",
+      "datetime": "2026-11-27T14:01:47Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Habilitaron una nueva terminal portuaria para la exportación de productos vegetales en Santa Elena",
+      "summary": "SENASA habilitó una nueva terminal portuaria de cargas en Santa Elena para exportar productos vegetales y fortalecer la logística de Entre Ríos.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Puertos"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "elonce.com",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.elonce.com/economia/senasa-habilito-una-nueva-terminal-portuaria-en-entre-rios-para-la-exportacion-de-productos-vegetales.htm",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-27T15:04:46Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPazVrWWtpT25ubjJSTGhFdUs0Qk90UWk1LXk2dkI1NHkwMG5WUngwUmdleWRhTFFDZUdhUHpIRXpaQ3VrN190Z2ZDb3ZFSFNobEFHQjhyamZDdldOVy1vRzRfSGFXMk91MEpid3Q3NGVOWHBCdmZLYWowTi0zbTN5Z2VyZWVNZE5EZVpkODc4cVBqb1FZdERuUW9fZU9PRGYzN0JQQTg4NXZPR0tuYmNKV0ZodnAyanlwazJOQ3prdXJrOFItNXN5VWJmOVIweFN1T2pR0gHMAUFVX3lxTE1EUm52emxLS1RWNm4yWDhzX0pxYWhGZWpJZkI0d0tBSDV3d3d4NVY2aDJnTVk0ZTNvdE9IUWhYTzZjb29YR2d5X0xlR2Mzb01CektyOVB0YVQ4eVlPREU5Q3Z6NlJ3TmpYTjZKOXA0U0h4NkxmbFJhelg3LWF2WlhxeHZBREhhU3JRWDkyalBOOEk3c1V0WTJ5WURhZGpubDlaaWhjN3BjMFdyejZVMDh1TVFxa054cDJQYTVQa0FqZnd1cGNHQVZtVk0wag?oc=5"
+    },
+    {
+      "id": "polonia-zmpc-entrega-dos-reach-stackers-electricas-a-gdynia-container-terminal",
+      "datetime": "2026-11-27T14:00:12Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Polonia: ZMPC entrega dos reach stackers eléctricas a Gdynia Container Terminal",
+      "summary": "ZPMC entregó dos reach stackers eléctricas de alcance de 45 toneladas y dos manipuladoras eléctricas de…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos",
+        "Europa"
+      ],
+      "countries": [
+        "Polonia"
+      ],
+      "tags": [],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/polonia-zmpc-entrega-dos-reach-stackers-electricas-a-gdynia-container-terminal/",
+          "primary": true,
+          "author": "cmeza"
+        }
+      ]
+    },
+    {
+      "id": "jornada-sobre-transporte-maritimo-refrigerado-valenciaport-y-msc-en-madrid",
+      "datetime": "2026-11-27T13:49:07Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Jornada sobre transporte marítimo refrigerado: Valenciaport y MSC en Madrid",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Europa"
+      ],
+      "countries": [
+        "España"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "empresa Exterior",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://empresaexterior.com/del-puerto-al-mundo-sin-romper-la-cadena-de-frio/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-27T15:04:46Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQemRpOWdtblhDU2RZVWh1SGJJQmYyVkNMZ29jZ2p5OUR1Uzd6c3ctNXpWZmFaWUFRS20xeUpkZ1VxQ0dDc0t1MV9hMDhNbHNZd25aTktMaURLU0RsbVpWZndqakMzNlNJNTRGYnhtaWEzYnowZmNEMm5xNnRlaHR1cEV3QQ?oc=5"
+    },
+    {
+      "id": "apm-terminals-participara-en-empresa-conjunta-en-nueva-terminal-en-china",
+      "datetime": "2026-11-27T13:30:44Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "APM Terminals participará en empresa conjunta en nueva terminal en China",
+      "summary": "Guangzhou Port Group y A. P. Moller-Maersk Group alcanzaron un acuerdo de empresa conjunta, acuerdo en…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Puertos",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "China"
+      ],
+      "tags": [
+        "China"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/apm-terminals-participara-en-empresa-conjunta-en-nueva-terminal-en-china/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "audio-santiago-es-campo-el-record-exportador-de-usd-1-513-millones-que-ubico-a-l",
+      "datetime": "2026-11-27T13:15:51Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "[Audio] \"Santiago es campo\": el récord exportador de USD 1.513 millones que ubicó a la provincia al frente del Norte argentino",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Exclusiva | Plataforma de noticias",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://exclusiva.com.ar/blog/2026/11/27/audio-santiago-es-campo-el-record-exportador-de-usd-1-513-millones-que-ubico-a-la-provincia-al-frente-del-norte-argentino/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-27T15:04:46Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNcmVsTTdNUi13Z0lyaFdzdWxSN1ZtbnJISWhQaGdXbDFDc1g3eERvODdjek1rbnhVSXp2UmtmcG1XNm1aSmlOeG5oc1V3d3hQc0JEbFBPaDhSQi1VdFQzalFyVzNWcVBmSTc5LW1lUkNWQXlYMTBEUkdfdFhNcVRsdUlRMHl0Zy1IalZtQnJOR2I2Qmx1OUt5bmxpNDFPb21JeVlWLU1aM0E5dEthREFndHcydTkyeGs1T19FcmpqUFJlV0ZjckwwYlI1OFl0eVQxQjQ3a0JpMmJQNThmcEZHR3RqQW1jdlZBOWpGR2pDZ0dOMmt1Nnc?oc=5"
+    },
+    {
+      "id": "cabotaje-y-fletes-mas-baratos-el-pedido-de-misiones-en-el-debate-por-el-presupue",
+      "datetime": "2026-11-27T13:12:59Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Cabotaje y fletes más baratos, el pedido de Misiones en el debate por el Presupuesto",
+      "summary": "Diego Hartfield le pidió a Javier Milei que incluya en extraordinarias el proyecto que ya tiene media sanción del Senado. El diputado sostuvo que facilitar el",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Logística"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Fletes"
+      ],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "noticiasdel6.com",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://noticiasdel6.com/cabotaje-y-fletes-mas-baratos-el-pedido-de-misiones-en-el-debate-por-el-presupuesto/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-27T15:04:46Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVXhidXpHX3hLcVdNWURzNzJnLTNvQVowQ2ZpZGg4SzJxSExFeGItcUNWdElYQUVVVU1idGloYWtwQjRlVk9meHJMVUJIQ1NUM3U2NTlIM21mSWxuVWNZeW5zQ3FyaF82WTFSbzBrRXRpQkRIcEdKRW5EcnFyWW9SM3hpTjZOdzdwd1RETzJRekt3Z3FrZnN6dTBFTjByck1Wd05SUzkzbzBrZlVvTUE?oc=5"
+    },
+    {
+      "id": "canal-de-suez-duplica-sus-ingresos-y-recupera-trafico-navieras-comienzan-a-aband",
+      "datetime": "2026-11-27T13:10:55Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Canal de Suez duplica sus ingresos y recupera tráfico: navieras comienzan a abandonar la ruta por África",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Egipto"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Logística y fletes",
+      "sources": [
+        {
+          "name": "MasContainer",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://mascontainer.com/canal-de-suez-duplica-sus-ingresos-y-recupera-trafico-navieras-comienzan-a-abandonar-la-ruta-por-africa/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-27T15:04:46Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQ0JJZ2R0NjNZSENIZXRsd0xTREp6T1Q3cDJBX0oyNklVVFNEdmV3U1JRYXZZei1NT2NjUEdjSHBPZHBaYXpGNFBoX3ZUaGEyazhJNVY0SURZTDdmNHE5cmJZYUtxXzRNM1VzNWJSWGZtUUhuaThFcnRqX0lMZlRadzF1eFRYN1RnT2pzei1PekhhZFMtVVJNM2FDdEQtRlpVc09hczRsQ08yRjhBX1JtaHlxNFdfSWlhczBiR1BISDlKbVdvVWY1dg?oc=5"
+    },
+    {
+      "id": "llegaron-a-la-argentina-pero-no-pueden-salir-de-la-aduana-que-pasa-con-los-miles",
+      "datetime": "2026-11-27T12:54:00Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Llegaron a la Argentina, pero no pueden salir de la Aduana: qué pasa con los miles de autos varados",
+      "summary": "Una negociación comercial que parecía resuelta volvió a quedar paralizada y encendió las alarmas entre los fabricantes. El sector busca una salida de emergencia para evitar el impacto económico y liberar los vehículos antes de fin de año.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Aduanas"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Autos"
+      ],
+      "visual": "auto",
+      "impact": 2,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Ambito",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.ambito.com/autos/llegaron-la-argentina-pero-no-pueden-salir-la-aduana-que-pasa-los-miles-varados-n6349961",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-27T15:04:46Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaTh4SmNtelVJVlV1SEJ2VXRTN0FOckZuTkRxT2RwQnlXNUtMUnRiSVNtd3RsUmQtZVVhT0llX1BqdUdpR3h5YnV5cmw5UWlSNnB3aUZSNV8xbERNUFVtYmMtbG5yZnBzZERZdVZobFk5R2VVajhVeDNYVFNkWmg0bmdrX2lCUDRsaUViaThDVHk1QklUZVJyQUlmY004RE5RSTg5ZFJ1S1BFUnQtSU12YVpuLWZLT0xu0gG-AUFVX3lxTE0zX2JzcE9DOVdKS190Q2ZNN1UyQk5nQUpXMHAwNy1taFVQdWpiWE43VjR4NUVTY2tFVVJBY09IOGlfdmdKN1NPUUtVT2wwa1kwYzFyRFNfbUxBWG5pbE5vV3RHblVuUVp0VlVFc1FSWHpDRjB0Tm9vTTBnMmx4MWZuQnRyR0RFOXZ2WWNON3MwY1FESWtCeW9qU0RReHFtZmpOYWttTkZhV3U0T1ozdkgxc2YwOXJhcHBpVDdBd2c?oc=5"
+    },
+    {
+      "id": "nueva-aduana-brasilena-entre-foz-do-iguacu-y-puerto-iguazu-comienza-a-operar-el",
+      "datetime": "2026-11-27T12:48:56Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Nueva aduana brasileña entre Foz do Iguaçu y Puerto Iguazú comienza a operar el lunes",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Aduanas",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Brasil"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Aduana e importaciones Argentina",
+      "sources": [
+        {
+          "name": "Radio Cataratas",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://radiocataratas.com/2026/11/27/nueva-aduana-brasilena-entre-foz-do-iguacu-y-puerto-iguazu-comienza-a-operar-el-lunes/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-27T15:04:46Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeEZsMDAtWWZLQndkYzl5NDR4Mk9MZVZCTDRNdGRmSTd1ZmNFM0NUTF9GWU5YRWhIb3NYNDdsZzVLbWhoRDlmWG9XazZRanlPUlV2YzlOTHh3SmZCQ29DV0FkUHJ2dzV1OUtHYzZBZmFXMENKeFFyV2t5RlVnRnpQNlg2dUNXR01rd2d4V1RxZEhOa0tSc2NsQjBnSXNNUW5ZWkNIeG5xeTYxdUhwbW0tY2ZzZzdmZ1lIN1dNY3c0dnk5dw?oc=5"
+    },
+    {
+      "id": "espana-puerto-de-tenerife-registra-actividades-de-reparacion-naval-movimiento-de",
+      "datetime": "2026-11-27T12:30:52Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "España: Puerto de Tenerife registra actividades de reparación naval, movimiento de carga y suministro de combustible",
+      "summary": "La Dársena del Este del Puerto de Santa Cruz de Tenerife concentró una serie de actividades…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Europa"
+      ],
+      "countries": [
+        "España"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/espana-puerto-de-tenerife-registra-actividades-de-reparacion-naval-movimiento-de-mercancias-y-suministro-de-combustible/",
+          "primary": true,
+          "author": "cmeza"
+        }
+      ]
+    },
+    {
+      "id": "que-revela-la-operacion-demeter-xii-de-la-oma-sobre-el-trafico-ilicito-de-residu",
+      "datetime": "2026-11-27T12:20:29Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "¿Qué revela la Operación DEMETER XII de la OMA sobre el tráfico ilícito de residuos en 2026?",
+      "summary": "La información obtenida por las administraciones aduaneras a través de controles e investigaciones permite identificar las modalidades del tráfico ilícito, reconocer sus rutas y detectar nuevas amenazas para el comercio internacional y el medio ambiente. Según la última actualización de la Organización Mundial de…",
+      "body": [
+        "La información obtenida por las administraciones aduaneras a través de controles e investigaciones permite identificar las modalidades del tráfico ilícito, reconocer sus rutas y detectar nuevas amenazas para el comercio internacional y el medio ambiente. Según la última actualización de la Organización Mundial de Aduanas (OMA), la Operación DEMETER XII, realizada en 2026, registró un…"
+      ],
+      "keyData": [],
+      "topics": [
+        "Aduanas"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 2,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Aduana News",
+      "sources": [
+        {
+          "name": "Aduana News",
+          "type": "Medio especializado · Argentina",
+          "url": "https://aduananews.com/que-revelo-la-operacion-aduanera-demeter-de-la-oma-en-2026-sobre-el-trafico-ilicito-de-residuos/?utm_source=rss&utm_medium=rss&utm_campaign=que-revelo-la-operacion-aduanera-demeter-de-la-oma-en-2026-sobre-el-trafico-ilicito-de-residuos",
+          "primary": true,
+          "author": "Aduana News"
+        }
+      ]
+    },
+    {
+      "id": "cinco-provincias-concentraron-casi-el-98-de-las-exportaciones-mineras-de-argenti",
+      "datetime": "2026-11-27T12:07:39Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Cinco provincias concentraron casi el 98% de las exportaciones mineras de Argentina en 2026",
+      "summary": "Entre enero y octubre de 2026, las ventas mineras al exterior crecieron un 52,5% interanual. Santa Cruz, Jujuy, Salta, San Juan y Catamarca explicaron el 97,9% del total.",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Minería"
+      ],
+      "visual": "mining",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Neuquen Post",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://neuquenpost.com/cinco-provincias-concentraron-casi-el-98-de-las-exportaciones-mineras-de-argentina-en-2026/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-27T15:04:46Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQT0E5Q25pX0lmZzBsb1lMbGhheE4tNC1Ec2JUOHVzOThrTUdCSjdXMFVBS2tnd0NDX3BDNGZuZzhyWllhd1FHSTg0UThjVGdmRGZoLVZrSnpPdzg2NjluNGpSMVBrYjhIXzBlZy1KTjZiRjluNHJZMjdFcUZmMDI3cm1yYmE0eEZlLVlQREZwclc4Y1VHLVJYUjMtSXRkSS1Jbjc5UWtHRm5KaDg0YVJUaW5rWGprUQ?oc=5"
+    },
+    {
+      "id": "doble-efecto-la-devaluacion-del-real-encarece-las-exportaciones-y-abarata-el-tur",
+      "datetime": "2026-11-27T11:49:00Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Doble efecto: la devaluación del real encarece las exportaciones y abarata el turismo en Brasil",
+      "summary": "real, dólar, Brasil, exportaciones, turismo, reservas, BCRA, economía argentina, devaluación",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Exportaciones",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Brasil"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "El Economista - Últimas noticias económicas y financieras",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://eleconomista.com.ar/economia/doble-efecto-devaluacion-real-encarece-exportaciones-abarata-turismo-brasil-n99969",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-27T15:04:46Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOXREaFIyUkZNc3duMW95eUVRSXdwRkpsOHhHZTZIemJIa2xZd1BoYVdienVWaVBLeWZOa3RlTS1sTDJqaXRNdzdUbWotTVVRTml5UTB4cE45UzNGdnlDUVlwSUVtdEtiLWRaM0c0c1V1ZFVlbXBjVmFRdlNlRUM0b1VhSjY1OGlVZS1NV0NQdE1zUXIxS1hOUUhQMWRYajhobW1fMG9wRE5oRGVaSTlhcGVSMzZoTDQ1c3Vr0gHAAUFVX3lxTE1tVFV5SW5lSklWYzNiNTRVcjZNYUFET1ZhajVNbUNRTGJfMGctNTZydGJzaERsWDlOTm8zbmd2Tkc3M2N4a0JEQXRRTWlINEZLblYwajR6cno0LWlDVWdrVTM0allsRzVuOHVod3FpWFlUOVFBR0w4Q2RBSHk2WGFIZExoVFk1UjFKcVpqd1FhTVdMMjRWZW8zMmdzd0JZb0NhMnUybU1lcFctQWp6NWxjdEhkMjUxbVdDOVRyM013Mg?oc=5"
+    },
+    {
+      "id": "datos-importantes-a-tener-en-cuenta-respecto-al-uso-de-medios-de-pago-en-importa",
+      "datetime": "2026-11-27T11:13:48Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Datos importantes a tener en cuenta respecto al uso de medios de pago en importación en el Perú",
+      "summary": "Para todo importador en Argentina, el cumplimiento en el uso de los medios de pago en el comercio internacional son un terreno más que familiar. Pero esta exigencia ya no es exclusiva del mercado local, a nivel regional, distintas aduanas están intensificando sus auditorías sobre la ruta financiera de las operaciones…",
+      "body": [
+        "Para todo importador en Argentina, el cumplimiento en el uso de los medios de pago en el comercio internacional son un terreno más que familiar. Pero esta exigencia ya no es exclusiva del mercado local, a nivel regional, distintas aduanas están intensificando sus auditorías sobre la ruta financiera de las operaciones. Revisar el modelo actual…"
+      ],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Importaciones",
+        "Aduanas",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Argentina",
+        "Perú"
+      ],
+      "tags": [],
+      "visual": "customs",
+      "impact": 2,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Aduana News",
+      "sources": [
+        {
+          "name": "Aduana News",
+          "type": "Medio especializado · Argentina",
+          "url": "https://aduananews.com/datos-importantes-a-tener-en-cuenta-respecto-al-uso-de-medios-de-pago-en-importacion-en-el-peru/?utm_source=rss&utm_medium=rss&utm_campaign=datos-importantes-a-tener-en-cuenta-respecto-al-uso-de-medios-de-pago-en-importacion-en-el-peru",
+          "primary": true,
+          "author": "Dr. Mauricio Ruiz Rosado"
+        }
+      ]
+    },
+    {
+      "id": "venezuela-puerto-de-maracaibo-moviliza-mas-de-9-mil-toneladas-de-carga-importada",
+      "datetime": "2026-11-27T11:00:26Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Venezuela: Puerto de Maracaibo moviliza más de 9 mil toneladas de carga importada en una semana",
+      "summary": "El Puerto de Maracaibo movilizó 9.022,17 toneladas de carga variada en la última semana completa -16…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones",
+        "Puertos",
+        "Latinoamérica"
+      ],
+      "countries": [
+        "Venezuela"
+      ],
+      "tags": [
+        "Puertos"
+      ],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/venezuela-puerto-de-maracaibo-moviliza-mas-de-9-mil-toneladas-de-carga-importada-en-una-semana/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
+    },
+    {
+      "id": "adornos-navidenos-importados-de-china-cuanto-crecieron-y-cuanto-cuestan",
+      "datetime": "2026-11-27T10:34:00Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Adornos navideños importados de China, cuánto crecieron y cuánto cuestan",
+      "summary": "En Carrefour y Easy casi no hay adornos argentinos. Cuánto crecieron las importaciones desde China y cuánto cuestan bolas, luces y árboles",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Importaciones",
+        "China",
+        "Asia"
+      ],
+      "countries": [
+        "China"
+      ],
+      "tags": [
+        "China"
+      ],
+      "visual": "customs",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Comercio exterior Argentina",
+      "sources": [
+        {
+          "name": "iProfesional",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.iprofesional.com/actualidad/470154-adornos-navidenos-importados-de-china-cuanto-crecieron-y-cuanto-cuestan",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-27T15:04:46Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQS1hPbTd2b3ppZkZ0Uzh3VkJfMThVVHY3eHZrZUExUkZDZGZ6TVJncUhtWlpReGM2Q0c1SG11MDhWc004aWNNbG9UeVpzU3RobTI1U2tnZnJ4M19Ld2JmOFV4TlJYbFBNZnVyUmM4Y2RSX1ZVbmF0aDFQazBrdTdOcTdmWTBTVEVGbGVIZ0c2eWxkM3VwUjZBbFA4UzFDUUFvdkJBTjc3VUVMUVY2X0lpSl8xS2I2a3BhcXfSAb8BQVVfeXFMT3piYTVMaGZtUUpkcmRlYUxnVDE1S0VjbjRzZTFSOEZ2d3EzdlNRamdnVnlfTld5elh0ZzdQZFJNeTZBajRGS2dxRXNZZF9xcTNJYXREdnZ2VUE2Q2MwYWtuWi1PZER2UVVOYkNFNTlpX3lCX0E1ZWNLTkZwMXViU2hlTlBiY2NwNmtKR0N4Z1JFTUxRQkNHd3ZDUHpZUDQtZTZtNkY2Qnl6ZUdLOF9aSDdnTzFGU1BBZ29CX29maFk?oc=5"
+    },
+    {
+      "id": "filipinas-mindanao-container-terminal-aumenta-capacidad-con-ampliacion-de-muelle",
+      "datetime": "2026-11-27T10:00:01Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Filipinas: Mindanao Container Terminal aumenta capacidad con ampliación de muelles e instalación de nuevas grúas",
+      "summary": "Mindanao Container Terminal (MCT), la operación de International Container Terminal Services, Inc. (Ictsi) que da soporte…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo",
+        "Puertos",
+        "Asia"
+      ],
+      "countries": [
+        "Filipinas"
+      ],
+      "tags": [],
+      "visual": "port",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/filipinas-mindanao-container-terminal-aumenta-capacidad-con-ampliacion-de-muelles-e-instalacion-de-nuevas-gruas/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "puerto-de-krishnapatnam-incorpora-288-vehiculos-electricos-a-su-flota-operativa",
+      "datetime": "2026-11-27T09:00:00Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Puerto de Krishnapatnam incorpora 288 vehículos eléctricos a su flota operativa en India",
+      "summary": "Adani Krishnapatnam Port Limited (AKPL), filial de Adani Ports and Special Economic Zone Limited (Apsez) ubicada…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Puertos",
+        "Asia"
+      ],
+      "countries": [
+        "India"
+      ],
+      "tags": [
+        "Autos",
+        "Puertos"
+      ],
+      "visual": "auto",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/puerto-de-krishnapatnam-incorpora-288-vehiculos-electricos-a-su-flota-operativa-en-india/",
+          "primary": true,
+          "author": "Diego Hermosilla"
+        }
+      ]
+    },
+    {
+      "id": "diputados-aprobo-el-acuerdo-de-libre-comercio-entre-el-mercosur-y-efta-y-una-enm",
+      "datetime": "2026-11-27T08:44:22Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Diputados aprobó el acuerdo de libre comercio entre el Mercosur y EFTA y una enmienda sobre servicios",
+      "summary": "La Cámara baja convirtió en ley dos iniciativas vinculadas a la integración regional y la apertura comercial. Se trata del acuerdo de libre comercio entre el Mercosur y los países de la Asociación Europea de Libre Comercio, y de una actualización de los compromisos específicos sobre comercio de servicios dentro del…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Tratados y acuerdos",
+        "Mercosur"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Parlamentario",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://www.parlamentario.com/2026/11/27/diputados-aprobo-el-acuerdo-de-libre-comercio-entre-el-mercosur-y-efta-y-una-enmienda-sobre-servicios/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-27T15:04:46Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPM1dRcGh5RWtzSlFKT1NDZjJFRHA1WklkaTlRT01YZzBSQnZWMEZhcjhfNXpQZjNkbkZkc2NXdElVNjFQNTdqNFg5ZnM3U1cwMXpSV1p4blUwNGo0SmVvM2pXLTd2WUxrSnZZS3ZTbGxYSDhBcmkwWnF2Tzd2azlwVS1YTWU1R3hrVE9uX2dVLUp3WFZJMVotM2xnVWFJdDlCTF83QjRPU3hwdGRKXzQ2OGdYd2ZvZ2JIUWFDVFhDeXNqSWhTbkZvazZyZ09aWm5ROTFiWGhaNUFVS1U?oc=5"
+    },
+    {
+      "id": "la-argentina-batio-un-record-de-exportaciones-mineras-y-el-litio-crecio-162",
+      "datetime": "2026-11-27T08:08:00Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "La Argentina batió un récord de exportaciones mineras y el litio creció 162%",
+      "summary": "Las exportaciones mineras argentinas alcanzaron un récord histórico de US$7.455 millones durante los primeros diez meses de 2026, un 52,5%",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Exportaciones"
+      ],
+      "countries": [
+        "Argentina"
+      ],
+      "tags": [
+        "Minería"
+      ],
+      "visual": "mining",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Exportaciones Argentina",
+      "sources": [
+        {
+          "name": "Comercio y Justicia",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://comercioyjusticia.info/negocios/la-argentina-batio-un-record-de-exportaciones-mineras-y-el-litio-crecio-162/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-27T15:04:46Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNV1pGd19QYVAwa0FhQzd6UnJZTW1ES0NTZzlqbkJyRG1xa19TOW96ejNuS1JkTFNMWUJDOGRHakkxZWRZNWVuVDA5UXc5cGZYa1ZaUTFtMUhycDBlVkdBajFaX2ZZNjQ0bEZJaWRtd1Y5Z29qMGhlWWREUlhCb0J1dko1OGVtQXJQXy1JQ1E3aDg3VUlqR3FvYnZsQkRPSDJ5RF9laHJDaXc3Z2xoNlR5WGo4VWJXXzQ?oc=5"
+    },
+    {
+      "id": "discapacidad-privacidad-y-cud-en-el-mercosur",
+      "datetime": "2026-11-27T07:01:00Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Discapacidad: privacidad y CUD en el Mercosur",
+      "summary": "Por Claudia Iglesias (*), exclusivo para Comercio y Justicia El pasado 19 de noviembre de 2026, el Senado Argentino aprobó",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Mercosur"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [
+        "Mercosur"
+      ],
+      "visual": "treaty",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "Comercio y Justicia",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://comercioyjusticia.info/opinion/discapacidad-privacidad-y-cud-en-el-mercosur/",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-27T15:04:46Z",
+      "gnUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR3Y0Sl9LVGF1c052X0tod0t5bFB6ZUxkbXIzX1dEOWtOazVGWXktQkJQQWN5aGttQ3R3SHVDS2VyVGtLT2FPSHc0RDhaRUxPcktlbE1TUWx0aU5odVpRMzNWWG1hSmhKX1JzbFNsSG01c1RidDBJVmtZT3F0SWRDc3M0VUlhbGJDRGlqUw?oc=5"
+    },
+    {
+      "id": "msc-implementa-recargo-por-temporada-alta-en-envios-maritimos-europeos",
+      "datetime": "2026-11-27T04:00:40Z",
+      "date": "2026-11-27",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "MSC implementa recargo por temporada alta en envíos marítimos europeos",
+      "summary": "Mediterranean Shipping Company (MSC) anunció a sus clientes que implementó un recargo de temporada alta para…",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Transporte marítimo"
+      ],
+      "countries": [
+        "Global"
+      ],
+      "tags": [],
+      "visual": "ship",
+      "impact": 1,
+      "affectsArgentina": false,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "PortalPortuario",
+      "sources": [
+        {
+          "name": "PortalPortuario",
+          "type": "Medio especializado · Chile",
+          "url": "https://portalportuario.cl/msc-implementa-recargo-por-temporada-alta-en-envios-maritimos-europeos/",
+          "primary": true,
+          "author": "Periodista 4"
+        }
+      ]
     },
     {
       "id": "portcastello-participa-en-proyecto-europeo-para-monitorizacion-de-emisiones-mari",
@@ -972,90 +2019,480 @@
       }
     },
     {
-      "id": "ee-uu-propone-elevar-aranceles-a-las-importaciones-de-azucar-y-aeronaves-procede",
-      "datetime": "2026-11-27T02:48:45Z",
-      "date": "2026-11-26",
-      "firstSeen": "2026-11-27T03:38:49Z",
-      "title": "EE.UU. propone elevar aranceles a las importaciones de azúcar y aeronaves procedentes de Brasil",
-      "summary": "La iniciativa contempla nuevas tarifas para el azúcar fuera de cuota y un arancel del 10% para aeronaves terminadas",
-      "body": [],
-      "keyData": [],
+      "id": "mercosur-cumbre-4-diciembre-montevideo-cuotas-ue-sin-reparto-consejo-comercio-3-diciembre",
+      "date": "2026-11-27",
+      "kind": "noticia",
+      "title": "El Mercosur llega a la cumbre del 4 de diciembre sin repartir las cuotas de la UE: Lubetkin admite pocos avances y seguirá el «primero llegado»",
+      "summary": "A una semana de la 69.ª cumbre en Montevideo, el canciller uruguayo dijo que las negociaciones técnicas sobre el reparto de los cupos del acuerdo con la Unión Europea avanzaron poco. Sin acuerdo, los volúmenes se seguirán asignando por orden de llegada. La semana incluye un foro empresarial el 2 de diciembre y el primer Consejo de Comercio con la UE el 3.",
+      "body": [
+        "El canciller de Uruguay, Mario Lubetkin, reconoció el jueves 26 de noviembre que los socios del Mercosur todavía no se pusieron de acuerdo sobre cómo repartir entre ellos las cuotas de exportación que abrió el acuerdo con la Unión Europea, y que no está seguro de que el tema se resuelva en la cumbre de presidentes del viernes 4 de diciembre en Montevideo. Según Ámbito, Lubetkin admitió que en el plano técnico se avanzó poco y que un grupo de países está más cerca de una solución, sin decir cuáles.",
+        "Mientras no haya reparto, seguirá funcionando la asignación por orden de llegada: cada operación usa el cupo a medida que se presenta y se certifica, hasta agotarlo. Lubetkin anticipó que ese mecanismo continuará si el bloque entra en un segundo año sin acuerdo. Ámbito agrega que la discusión alcanza también a los cupos del entendimiento con la Asociación Europea de Libre Comercio (EFTA) y que Paraguay es el socio que más distancia mantiene.",
+        "## Una semana con tres citas",
+        "La cumbre será la 69.ª de jefes de Estado del Mercosur y la organiza Uruguay, que ejerce la presidencia pro tempore del bloque. Lubetkin confirmó que asistirán todos los presidentes del bloque, algo que no ocurrió en las dos reuniones anteriores, según Subrayado y Radio Montecarlo. El canciller habló de más de 30 asistentes entre presidentes, vicepresidentes, ministros y viceministros, de más de 20 países. Caras y Caretas informó que estarán la vicepresidenta de Vietnam, los ministros de Comercio de Corea del Sur y de Emiratos Árabes Unidos, y el viceministro de Relaciones Exteriores de Noruega en representación de la EFTA.",
+        "Antes habrá dos encuentros con la UE. El miércoles 2 de diciembre se hará en el Centro de Convenciones de Punta del Este el primer Foro Empresarial Mercosur–Unión Europea desde la firma del acuerdo, con más de 500 empresarios, funcionarios y representantes de organismos financieros, según La Nación de Paraguay. Están anunciados el comisario europeo de Comercio, Maroš Šefčovič, los ministros brasileños Mauro Vieira y Márcio Elias Rosa y el presidente uruguayo Yamandú Orsi, que cerraría el foro. El jueves 3, en Montevideo, se reunirá por primera vez el Consejo de Comercio del acuerdo interino, a nivel ministerial.",
+        "## Cómo funciona el acuerdo hasta ahora",
+        "El Acuerdo de Asociación y el Acuerdo Interino de Comercio se firmaron en Asunción el 17 de enero de 2026, y el interino se aplica en forma provisional desde el 1 de mayo. Su Comité de Comercio, copresidido por Uruguay y la UE, tuvo su primera reunión el 9 y el 10 de noviembre en Montevideo, donde se hizo una evaluación preliminar de los primeros seis meses y se revisó el trabajo de los subcomités, según informó el Mercosur y reprodujo IndexBox. Ese comité se reunirá una vez por año, alternando entre Bruselas y un país del Mercosur.",
+        "En paralelo avanza la ratificación del acuerdo de asociación completo en Europa: el 13 de noviembre lo aprobó la Cámara Baja de Alemania, como informó Comexplora. Y en el uso de las preferencias, el canciller argentino había difundido en octubre que la Argentina es el socio del bloque que más aprovecha el régimen, con casi el 60% de sus ventas a ese mercado bajo preferencias, frente a algo más de 39% en promedio para los otros tres socios.",
+        "## Qué se discute en el reparto",
+        "La cuota más disputada es la de carne vacuna: 99.000 toneladas en peso carcasa con un arancel intracuota de 7,5%, que se habilita en forma progresiva hasta completarse en 2031. Como Comexplora detalló en septiembre a partir de La Nación, Brasil propone repartir según las exportaciones totales de cada país, la Argentina y Uruguay prefieren tomar como base lo que cada uno vende a la UE, y Paraguay pide partes iguales, de 25% para cada socio. En aquel momento, los cancilleres se habían dado 60 días para volver a tratar el tema en el plano político, y el tema sigue sin resolverse.",
+        "Lubetkin, por su parte, destacó que a los exportadores uruguayos les fue bien en este primer año sin reparto con el arroz, la carne y la miel. En el caso de la miel, el cupo sin arancel se desbordó en los primeros meses con fuerte participación argentina, según datos de organizaciones agrarias españolas que publicó Comexplora en octubre.",
+        "## Qué está en juego para los exportadores argentinos",
+        "Con el sistema de orden de llegada, cada frigorífico o exportador compite por el mismo volumen con los de los otros tres países, y no sabe de antemano cuánto podrá colocar con preferencia. Las entidades del sector cárnico de la región habían pedido en septiembre que los certificados de exportación de cada país se compartan con transparencia. Uruguay, por su lado, sumará a la agenda de la cumbre su intención de ingresar al Acuerdo Transpacífico (CPTPP), según Ámbito y Subrayado, y Lubetkin aseguró que no darán ningún paso sin un diálogo fluido con los socios."
+      ],
+      "keyData": [
+        [
+          "Cumbre de presidentes del Mercosur",
+          "4 de diciembre, Montevideo"
+        ],
+        [
+          "Consejo de Comercio Mercosur–UE (primera reunión)",
+          "3 de diciembre, Montevideo"
+        ],
+        [
+          "Foro Empresarial Mercosur–UE",
+          "2 de diciembre, Punta del Este (más de 500 participantes)"
+        ],
+        [
+          "Cuota de carne vacuna del acuerdo",
+          "99.000 t peso carcasa, arancel 7,5%"
+        ],
+        [
+          "Pedido de Paraguay",
+          "25% para cada socio"
+        ],
+        [
+          "Aplicación provisional del acuerdo interino",
+          "Desde el 1 de mayo de 2026"
+        ]
+      ],
       "topics": [
-        "Importaciones",
-        "Aranceles",
-        "Latinoamérica",
-        "Estados Unidos"
+        "Mercosur",
+        "Tratados y acuerdos",
+        "Exportaciones",
+        "Europa",
+        "Argentina",
+        "Latinoamérica"
       ],
       "countries": [
+        "Uruguay",
+        "Argentina",
         "Brasil",
-        "Estados Unidos"
+        "Paraguay",
+        "Unión Europea"
       ],
       "tags": [
-        "Aranceles"
+        "UE–Mercosur",
+        "Cuotas",
+        "Carne vacuna",
+        "Miel",
+        "Arroz",
+        "Cumbre del Mercosur",
+        "EFTA",
+        "Lubetkin"
       ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "visual": "treaty",
+      "impact": 3,
+      "affectsArgentina": true,
+      "argentinaNote": "Sin reparto, los exportadores argentinos siguen compitiendo con los de Brasil, Paraguay y Uruguay por los mismos cupos de la UE con el sistema de orden de llegada, también en carne vacuna y miel.",
+      "argentinaImpact": {
+        "change": "Las cuotas de exportación a la UE siguen sin repartirse entre los socios del Mercosur y se asignan por orden de llegada; el tema llega abierto a la cumbre del 4 de diciembre.",
+        "who": "Frigoríficos, exportadores de miel, arroz y otros productos con cupo en la UE, y cámaras sectoriales.",
+        "sectors": [
+          "Carne vacuna",
+          "Miel",
+          "Arroz",
+          "Agroindustria"
+        ],
+        "flows": {
+          "importaciones": false,
+          "exportaciones": true,
+          "logistica": false,
+          "aranceles": true
+        }
+      },
+      "explainer": {
+        "what": "A una semana de la cumbre del Mercosur del 4 de diciembre en Montevideo, Uruguay reconoció que los socios no acordaron cómo repartir las cuotas de exportación del acuerdo con la UE.",
+        "why": "Mientras no haya reparto, los cupos —como el de 99.000 toneladas de carne vacuna— se asignan por orden de llegada, y cada exportador compite por el mismo volumen sin saber cuánto le corresponde a su país.",
+        "who": "Exportadores de carne, miel, arroz y otros productos con cuota en la UE de la Argentina, Brasil, Paraguay y Uruguay.",
+        "products": [
+          "Carne vacuna",
+          "Miel",
+          "Arroz"
+        ],
+        "next": "El reparto se tratará en la cumbre de presidentes del 4 de diciembre en Montevideo, aunque Uruguay no asegura que se resuelva; si no hay acuerdo, seguirá la asignación por orden de llegada.",
+        "nextSource": {
+          "name": "Ámbito",
+          "url": "https://www.ambito.com/uruguay/la-distribucion-las-cuotas-la-ue-sigue-resolverse-y-desafia-al-mercosur-la-antesala-la-cumbre-n6349706"
+        }
+      },
       "sources": [
         {
-          "name": "Mundo Marítimo",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.mundomaritimo.cl/noticias/eeuu-propone-elevar-aranceles-a-las-importaciones-de-azucar-y-aeronaves-procedentes-de-brasil",
-          "primary": true,
-          "author": ""
+          "name": "Ámbito",
+          "type": "Medio de comunicación",
+          "url": "https://www.ambito.com/uruguay/la-distribucion-las-cuotas-la-ue-sigue-resolverse-y-desafia-al-mercosur-la-antesala-la-cumbre-n6349706",
+          "primary": true
+        },
+        {
+          "name": "Subrayado",
+          "type": "Medio de comunicación",
+          "url": "https://www.subrayado.com.uy/lubetkin-confirmo-presencia-todos-los-presidentes-del-mercosur-la-cumbre-montevideo-n1024442"
+        },
+        {
+          "name": "Radio Montecarlo",
+          "type": "Medio de comunicación",
+          "url": "https://www.radiomontecarlo.com.uy/es/2026/11/25/nacionales/mario-lubetkin-confirmo-que-todos-los-presidentes-estaran-en-la-cumbre-del-mercosur/"
+        },
+        {
+          "name": "Caras y Caretas",
+          "type": "Medio de comunicación",
+          "url": "https://www.carasycaretas.com.uy/politica/todos-los-presidentes-del-mercosur-llegaran-montevideo-que-otros-paises-participaran-n101408"
+        },
+        {
+          "name": "La Nación (Paraguay)",
+          "type": "Medio de comunicación",
+          "url": "https://www.lanacion.com.py/negocios/2026/11/25/mercosur-y-union-europea-reuniran-a-mas-de-500-empresarios-en-foro-de-negocios-en-uruguay/"
+        },
+        {
+          "name": "IndexBox – Comité de Comercio del Acuerdo Interino",
+          "type": "Medio especializado",
+          "url": "https://www.indexbox.io/es/blog/mercosur-and-eu-hold-first-trade-committee-meeting-under-interim-agreement/"
+        },
+        {
+          "name": "La Nación – reparto de la cuota de carne (septiembre)",
+          "type": "Medio de comunicación",
+          "url": "https://www.lanacion.com.ar/economia/campo/las-posiciones-siguen-alejadas-sigue-la-grieta-en-el-mercosur-por-una-cuota-clave-para-la-carne-nid18092026/"
         }
       ],
-      "gnTried": "2026-11-27T03:38:49Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUEI4NWl3eEJfWHR2NldldUhGMU5uLUstVnB0T20xeWVFZlhFVnBDckFCY3RaTjNuR0VhTzNENThELXZ4NXNGbkNUdTJESG9mckJnYnoyUzcycXR0dkt2VHVhXzJudlZ6Zk14aEdoXzBablM1ckpBSFFPbllxOXRpSWV6bG42LTF2N2hrelJyLUZvTTZjRnNRZzNMR0NLel8zalYzcS00Tllxa3p3Wlk0TzF2M3ZTR2ZOYWtBSTg5ekNodVlvNkdVSE9mNA?oc=5",
-      "digestSkip": {
-        "at": "2026-11-27T00:50:00-03:00",
-        "reason": "repite una nota de la redacción (aranceles de EE.UU. a aviones y azúcar de Brasil)"
-      }
+      "story": "ue-mercosur",
+      "deadlines": [
+        {
+          "date": "2026-12-02",
+          "label": "Mercosur–UE: primer Foro Empresarial desde la firma del acuerdo, en Punta del Este",
+          "url": "https://www.lanacion.com.py/negocios/2026/11/25/mercosur-y-union-europea-reuniran-a-mas-de-500-empresarios-en-foro-de-negocios-en-uruguay/"
+        },
+        {
+          "date": "2026-12-03",
+          "label": "Mercosur–UE: primera reunión ministerial del Consejo de Comercio del acuerdo interino, en Montevideo",
+          "url": "https://www.indexbox.io/es/blog/mercosur-and-eu-hold-first-trade-committee-meeting-under-interim-agreement/"
+        },
+        {
+          "date": "2026-12-04",
+          "label": "Mercosur: 69.ª cumbre de presidentes en Montevideo",
+          "url": "https://www.subrayado.com.uy/lubetkin-confirmo-presencia-todos-los-presidentes-del-mercosur-la-cumbre-montevideo-n1024442"
+        }
+      ],
+      "absorbs": [
+        "la-distribucion-de-las-cuotas-a-la-ue-sigue-sin-resolverse-y-desafia-al-mercosur",
+        "todos-los-presidentes-del-mercosur-llegaran-a-montevideo-que-otros-paises-partic",
+        "todos-los-presidentes-del-mercosur-vendran-a-la-cumbre-destaco-lubetkin",
+        "el-primer-foro-empresarial-mercosur-union-europea-tras-la-firma-del-acuerdo--2"
+      ]
     },
     {
-      "id": "trump-aranceles-s02e27",
-      "datetime": "2026-11-27T02:46:55Z",
-      "date": "2026-11-26",
-      "firstSeen": "2026-11-27T03:38:49Z",
-      "title": "Trump.Aranceles.S02E27",
-      "summary": "Trotamundos Político Por Fabrizio Lorusso / @FabrizioLorusso Como en una larga secuencia de episodios de una serie que ya llegó a la fase culminante de la segunda temporada, el gobierno de Donald Trump en esta segunda temporada-mandato, ha propuesto nuevos aranceles para el episodio 20-27: entre",
-      "body": [],
-      "keyData": [],
+      "id": "drewry-wci-baja-3-26-noviembre-4032-quinta-semana-transpacifico",
+      "date": "2026-11-27",
+      "kind": "datos",
+      "title": "El índice mundial de fletes de contenedores cae 3% a USD 4.032 por FEU, quinta baja seguida, mientras Asia–Europa se encarece antes de diciembre",
+      "summary": "El World Container Index de Drewry bajó por quinta semana: Shanghái–Los Ángeles cedió 8% y Shanghái–Nueva York 7%, mientras Shanghái–Génova subió 8%. La consultora espera más bajas en el transpacífico y subas en Asia–Europa, donde las navieras anuncian recargos de USD 1.000 a 1.500 por FEU desde el 1 de diciembre.",
+      "body": [
+        "El World Container Index (WCI) de Drewry bajó 3% en la medición del jueves 26 de noviembre y quedó en USD 4.032 por contenedor de 40 pies (FEU), según la reproducción del informe semanal de la consultora que publicaron The Daily Cargo News y Texadviser (sobre un texto de Fibre2Fashion). La variación exacta fue de −3,44%: una semana antes, el índice estaba en USD 4.176, como informó Comexplora.",
+        "Es la quinta baja semanal consecutiva. El índice había marcado USD 4.585 el 22 de octubre y desde entonces retrocedió todas las semanas, con el transpacífico como principal motivo: allí las tarifas cayeron por octava semana seguida por la demanda débil.",
+        "## Las rutas, una por una",
+        "Shanghái–Los Ángeles fue la ruta que más bajó: 8%, hasta USD 6.437 por FEU. Shanghái–Nueva York cedió 7% y quedó en USD 7.615. Una semana antes, esos tramos estaban en USD 7.026 y USD 8.194.",
+        "En Asia–Europa el movimiento fue el opuesto. Shanghái–Génova subió 8%, a USD 4.802, y acumula dos semanas de aumentos. Shanghái–Róterdam quedó sin cambios por segunda semana, en USD 3.485 según el informe (la edición anterior la había publicado en USD 3.496, también sin variación). Las fuentes consultadas no detallan esta semana los tramos de regreso ni los del Atlántico.",
+        "## Menos barcos y recargos para diciembre",
+        "Las navieras siguen recortando salidas. En el transpacífico hay siete cancelaciones (blank sailings) anunciadas para la semana próxima, frente a cinco en esta. En Asia–Europa y el Mediterráneo también son siete las previstas (tres hacia el norte de Europa y cuatro hacia el Mediterráneo), contra cuatro de esta semana, de acuerdo con el relevamiento de capacidad de Drewry.",
+        "Para el 1 de diciembre, varias líneas anunciaron en Asia–Europa recargos de temporada alta (PSS) de USD 1.000 a 1.500 por FEU, y tarifas FAK de USD 4.500 a 4.600 hacia el norte de Europa y de USD 6.400 a 6.800 hacia el Mediterráneo. Esos valores publicados están por encima de las tarifas spot que mide hoy el índice en las dos rutas. Drewry atribuye la firmeza esperada a la demanda de diciembre, antes del nuevo ciclo de contratos anuales y de los embarques previos al Año Nuevo Lunar.",
+        "## Suez, Ormuz y los puertos",
+        "El regreso de servicios al mar Rojo continúa: la consultora contó 60 buques en tránsito por el canal de Suez la semana pasada, frente a 57 en el informe anterior. En sentido contrario, Drewry menciona como factores de riesgo la congestión en los puertos europeos y la incertidumbre geopolítica en el estrecho de Ormuz. Uno de los riesgos que había señalado la semana pasada se moderó: el posible conflicto de los serenos en los puertos de Los Ángeles y Long Beach perdió fuerza después de un acuerdo tentativo.",
+        "## Qué espera Drewry y qué mirar desde la Argentina",
+        "Para el transpacífico, la consultora prevé nuevas bajas la semana próxima; para Asia–Europa y el Mediterráneo, subas en las próximas semanas. El WCI no mide rutas hacia Sudamérica, pero marca el clima del mercado en el que se negocian los fletes desde Asia. Para la costa este de Sudamérica, Hapag-Lloyd y CMA CGM anunciaron un aumento general de USD 1.000 por contenedor desde el 1 de diciembre, que Comexplora detalló el 23 de noviembre: lo que pague cada importador dependerá de su contrato, de la ruta y del momento en que reserve."
+      ],
+      "keyData": [
+        [
+          "WCI compuesto",
+          "USD 4.032 / FEU (−3,44%)"
+        ],
+        [
+          "Shanghái → Los Ángeles",
+          "USD 6.437 (−8%)"
+        ],
+        [
+          "Shanghái → Nueva York",
+          "USD 7.615 (−7%)"
+        ],
+        [
+          "Shanghái → Génova",
+          "USD 4.802 (+8%)"
+        ],
+        [
+          "Shanghái → Róterdam",
+          "USD 3.485 (sin cambios)"
+        ],
+        [
+          "Recargos Asia–Europa desde el 1/12",
+          "USD 1.000–1.500 por FEU"
+        ],
+        [
+          "Tránsitos por Suez (semana previa)",
+          "60 buques"
+        ]
+      ],
       "topics": [
-        "Aranceles",
-        "Estados Unidos"
+        "Transporte marítimo",
+        "Logística",
+        "Asia",
+        "China",
+        "Estados Unidos",
+        "Europa"
       ],
       "countries": [
-        "Estados Unidos"
+        "China",
+        "Estados Unidos",
+        "Países Bajos",
+        "Italia",
+        "Global"
       ],
       "tags": [
-        "Aranceles",
-        "Estados Unidos"
+        "Fletes",
+        "Contenedores",
+        "WCI",
+        "Drewry",
+        "Blank sailings",
+        "Suez",
+        "Recargos"
       ],
-      "visual": "customs",
-      "impact": 1,
+      "visual": "container",
+      "impact": 2,
       "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
+      "explainer": {
+        "what": "El World Container Index de Drewry bajó 3% en la medición del 26 de noviembre y quedó en USD 4.032 por contenedor de 40 pies, su quinta baja semanal seguida.",
+        "why": "Es una referencia habitual de los fletes spot: el transpacífico sigue cayendo (Shanghái–Los Ángeles, USD 6.437, −8%), mientras Asia–Europa se encarece con recargos de USD 1.000 a 1.500 por FEU anunciados para el 1 de diciembre.",
+        "who": "Importadores y exportadores que contratan flete marítimo en contenedor, forwarders y navieras.",
+        "products": [
+          "Carga en contenedores"
+        ],
+        "next": "Drewry espera que las tarifas del transpacífico vuelvan a bajar la semana próxima y que las de Asia–Europa y el Mediterráneo suban en las próximas semanas.",
+        "nextSource": {
+          "name": "The Daily Cargo News – World Container Index",
+          "url": "https://www.thedcn.com.au/news/world-container-index-26-november-2026"
+        }
+      },
       "sources": [
         {
-          "name": "Zona Docs",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.zonadocs.mx/2026/11/26/trump-aranceles-s02e27/",
-          "primary": true,
-          "author": ""
+          "name": "Drewry – World Container Index",
+          "type": "Consultora",
+          "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
+        },
+        {
+          "name": "The Daily Cargo News – World Container Index, 26 de noviembre de 2026",
+          "type": "Medio especializado",
+          "url": "https://www.thedcn.com.au/news/world-container-index-26-november-2026",
+          "primary": true
+        },
+        {
+          "name": "Texadviser (Fibre2Fashion)",
+          "type": "Medio especializado",
+          "url": "https://www.texadviser.com/drewry-wci-declines-3-4-but-freight-rates-set-to-rebound/"
+        },
+        {
+          "name": "MundoMarítimo – GRI Asia–América Latina",
+          "type": "Medio especializado",
+          "url": "https://www.mundomaritimo.cl/noticias/hapag-lloyd-y-cma-cgm-buscan-elevar-tarifas-en-us1000-por-contenedor-desde-asia-a-america-latina"
         }
       ],
-      "gnTried": "2026-11-27T03:38:49Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xSXRYbGVBY0dkLTBubHFsUW5BYjVfaDBRWHlTcHNFclBMRTRqV1A4S1RhSjlLY3MyRFBRNU0tU0dpV3l3YWNoR290TDRLTzBTNHRlYU1UMEtXYngzdVdBbGFkZmY2cEYyeFE?oc=5",
-      "digestSkip": {
-        "at": "2026-11-27T00:50:00-03:00",
-        "reason": "repite una nota de la redacción (aranceles propuestos por la Sección 301)"
-      }
+      "story": "fletes-contenedores",
+      "deadlines": [
+        {
+          "date": "2026-12-01",
+          "label": "Navieras: Hapag-Lloyd y CMA CGM aplican un aumento de USD 1.000 por contenedor en los fletes de Asia a América Latina",
+          "url": "https://www.mundomaritimo.cl/noticias/hapag-lloyd-y-cma-cgm-buscan-elevar-tarifas-en-us1000-por-contenedor-desde-asia-a-america-latina"
+        }
+      ]
+    },
+    {
+      "id": "ue-china-brasil-rechazan-aranceles-seccion-301-sobrecapacidad-techo-15-por-ciento-no-cedera",
+      "date": "2026-11-27",
+      "kind": "noticia",
+      "title": "La UE, China y Brasil rechazan los nuevos aranceles propuestos por EE.UU. bajo la Sección 301: Bruselas invoca el techo de 15% y Pekín se reserva medidas",
+      "summary": "La Comisión Europea negó ser fuente de sobrecapacidad y exigió que cualquier recargo respete el tope de 15% acordado en 2025. China calificó la investigación de unilateral y contraria a la OMC, y Brasil dijo que no cederá ante la propuesta de gravar sus aviones y su azúcar. Las medidas no rigen: siguen las consultas públicas.",
+      "body": [
+        "Las propuestas arancelarias que la Oficina del Representante Comercial de Estados Unidos (USTR) anunció el miércoles 25 de noviembre recibieron en menos de 48 horas el rechazo de tres de los principales destinatarios. La Comisión Europea objetó que se presente a Europa como fuente de sobrecapacidad industrial; el Ministerio de Comercio de China las calificó de acto unilateral contrario a las reglas de la Organización Mundial del Comercio (OMC), y el Gobierno de Brasil expresó su indignación por la propuesta de gravar sus aviones y su azúcar.",
+        "Ninguno de los recargos está vigente. Como informó Comexplora, la USTR cerró 14 de las 16 investigaciones sobre sobrecapacidad abiertas en marzo y propuso aranceles adicionales de 15% a 35% según el país, y en un expediente separado planteó terminar la exención de los aviones terminados brasileños, con un arancel de 10%, y subir los derechos al azúcar fuera de cuota. Ambas propuestas pasan ahora por períodos de comentarios y audiencias.",
+        "## La UE invoca el techo de 15%",
+        "El vocero de Comercio de la Comisión Europea, Olof Gill, dijo que Bruselas estudiará las conclusiones preliminares, pero que rechaza con firmeza la premisa de que Europa genere sobrecapacidad estructural; por el contrario, sostuvo que está entre las regiones más expuestas a ese problema, que atribuyó sobre todo a la intervención estatal en terceros países, según el comunicado reproducido por la Cámara de Comercio Europeo-Americana de Nueva York y por la radiotelevisión irlandesa RTÉ.",
+        "El punto central es el acuerdo marco de 2025 entre Ursula von der Leyen y Donald Trump, que fija un tope de 15%, con todos los cargos incluidos, para la mayoría de los productos europeos. Gill dijo que la UE espera que cualquier medida que surja de esta investigación lo respete por completo, también cuando se sume a los derechos que ya existen. La ministra de Relaciones Exteriores y Comercio de Irlanda, Helen McEntee, subrayó ante RTÉ que la decisión no crea por ahora aranceles nuevos y que sigue el 10% vigente para los bienes europeos, salvo exenciones, y anticipó que conversará el tema con Šefčovič en el Consejo de Asuntos Exteriores en formato Comercio del lunes 30 de noviembre.",
+        "Las fuentes no coinciden en la tasa propuesta para la UE: los estudios Baker McKenzie y Husch Blackwell la ubican en hasta 15%, descontados el arancel de nación más favorecida y los recargos existentes, mientras que el comunicado reproducido en Nueva York cita, con base en Reuters, un rango de 20% a 40% para China, la UE y otros doce países.",
+        "## China se reserva el derecho a responder",
+        "El vocero del Ministerio de Comercio chino, He Yadong, dijo en su conferencia del jueves 26 que su país se opone con firmeza a los recargos, que la investigación es un caso típico de unilateralismo que viola las normas de la OMC y que el argumento de la sobrecapacidad encubre proteccionismo, según la agencia Xinhua. Agregó que China se reserva el derecho de tomar las medidas necesarias.",
+        "Pekín también pidió a Washington que acelere sus procedimientos internos para aplicar el arreglo de reducción recíproca de aranceles por unos USD 30.000 millones acordado en septiembre, cuyos productos quedaron exentos de la propuesta. Según la agencia surcoreana SBS, a China se le propuso una tasa de hasta 20%, que podría llegar a 40% si no se extiende la tregua comercial con EE.UU., que vence el 10 de enero de 2027.",
+        "## Brasil: «no cederá»",
+        "En una nota difundida el 25 de noviembre por la Secretaría de Comunicación de la Presidencia, el Gobierno brasileño calificó la decisión de la USTR de inaceptable en medio de una negociación bilateral en curso y afirmó que el país no cederá ante ese tipo de amenaza. Recordó que negocia de buena fe desde hace más de un año sobre la Sección 301: tras la llamada entre Lula y Trump del 21 de agosto, los ministros Mauro Vieira (Relaciones Exteriores) y Márcio Elias Rosa (Desarrollo, Industria y Comercio) se reunieron con el representante comercial Jamieson Greer en forma virtual el 31 de agosto y en persona el 30 de septiembre, y según la nota los términos de referencia prometidos por Greer nunca llegaron.",
+        "Brasil dijo que seguirá buscando una salida negociada, sin perjuicio de acciones en la OMC, y no descartó medidas de reciprocidad. En la OMC, Washington había bloqueado el 24 de noviembre el primer pedido brasileño de un panel contra esos aranceles, según Exame.",
+        "## Qué sigue",
+        "Para el expediente de Brasil, la USTR fijó el 7 de diciembre como plazo para pedir la palabra en la audiencia, el 30 de diciembre para los comentarios escritos y el 14 de enero de 2027 para la audiencia pública. Para los recargos por sobrecapacidad, los comentarios vencen el 5 de enero y las audiencias empiezan el 25 de enero. Según un funcionario estadounidense citado por RTÉ, la aplicación sería en enero como pronto. La Argentina no figura entre las economías alcanzadas por ninguna de las dos propuestas."
+      ],
+      "keyData": [
+        [
+          "Techo arancelario UE–EE.UU. (acuerdo de 2025)",
+          "15%, todo incluido"
+        ],
+        [
+          "Arancel vigente para bienes de la UE, según Irlanda",
+          "10%"
+        ],
+        [
+          "Tasa propuesta para China",
+          "Hasta 20% (40% si no se extiende la tregua)"
+        ],
+        [
+          "Arreglo arancelario EE.UU.–China exento",
+          "USD 30.000 millones"
+        ],
+        [
+          "Arancel propuesto a aviones brasileños",
+          "10%"
+        ],
+        [
+          "Consejo de Asuntos Exteriores (Comercio) de la UE",
+          "30 de noviembre"
+        ],
+        [
+          "Audiencia de la USTR por Brasil",
+          "14 de enero de 2027"
+        ]
+      ],
+      "topics": [
+        "Aranceles",
+        "Estados Unidos",
+        "Europa",
+        "China",
+        "Geopolítica y comercio",
+        "Latinoamérica",
+        "Regulaciones"
+      ],
+      "countries": [
+        "Estados Unidos",
+        "Unión Europea",
+        "China",
+        "Brasil",
+        "Irlanda"
+      ],
+      "tags": [
+        "Sección 301",
+        "USTR",
+        "Sobrecapacidad",
+        "Embraer",
+        "Azúcar",
+        "OMC",
+        "Represalias"
+      ],
+      "visual": "court",
+      "impact": 2,
+      "affectsArgentina": false,
+      "explainer": {
+        "what": "La UE, China y Brasil rechazaron los aranceles adicionales que EE.UU. propuso el 25 de noviembre bajo la Sección 301, por sobrecapacidad y, en el caso de Brasil, sobre aviones y azúcar.",
+        "why": "Abre una nueva ronda de tensión comercial: Bruselas exige respetar el techo de 15% acordado en 2025, Pekín se reserva medidas y Brasil no descarta la reciprocidad ni acciones en la OMC.",
+        "who": "Exportadores de la UE, China y Brasil a EE.UU., importadores estadounidenses y cadenas que dependen de esos flujos.",
+        "products": [
+          "Manufacturas",
+          "Aviones",
+          "Azúcar"
+        ],
+        "next": "Irlanda llevará el tema al Consejo de Asuntos Exteriores (Comercio) de la UE del 30 de noviembre; en el expediente de Brasil, los comentarios vencen el 30 de diciembre y la audiencia pública es el 14 de enero de 2027.",
+        "nextSource": {
+          "name": "RTÉ",
+          "url": "https://www.rte.ie/news/us/2026/1125/1600630-us-tariffs/"
+        }
+      },
+      "sources": [
+        {
+          "name": "RTÉ",
+          "type": "Medio de comunicación",
+          "url": "https://www.rte.ie/news/us/2026/1125/1600630-us-tariffs/",
+          "primary": true
+        },
+        {
+          "name": "Comisión Europea (vía EACCNY)",
+          "type": "Comunicado oficial",
+          "url": "https://eaccny.com/news/chapternews/european-commission-responds-to-us-tariff-threats/"
+        },
+        {
+          "name": "Xinhua – Ministerio de Comercio de China",
+          "type": "Agencia de noticias",
+          "url": "https://english.news.cn/20261126/9d9be8e730414538ba58af52d044e80e/c.html"
+        },
+        {
+          "name": "SBS",
+          "type": "Medio de comunicación",
+          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008865600"
+        },
+        {
+          "name": "Gobierno de Brasil – Nota a la prensa (Secom, vía Agência Gov)",
+          "type": "Comunicado oficial",
+          "url": "https://agenciagov.ebc.com.br/noticias/202611/nota-a-imprensa-sobre-as-tarifas-dos-estados-unidos-para-aeronaves-e-acucar-brasileiro"
+        },
+        {
+          "name": "MDIC – Nota sobre las tarifas de EE.UU.",
+          "type": "Organismo oficial",
+          "url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2026/novembro/nota-sobre-as-tarifas-dos-estados-unidos-para-aeronaves-e-acucar-brasileiro"
+        },
+        {
+          "name": "USTR – Consulta pública sobre la Sección 301 contra Brasil",
+          "type": "Organismo oficial",
+          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-invites-public-comment-proposed-modifications-section-301-action-regarding-brazils-unreasonable"
+        },
+        {
+          "name": "Baker McKenzie",
+          "type": "Estudio jurídico",
+          "url": "https://globalimportblog.bakermckenzie.com/2026/11/25/us-ustr-proposes-section-301-tariffs-on-14-economies-over-structural-excess-capacity/"
+        },
+        {
+          "name": "Exame",
+          "type": "Medio de comunicación",
+          "url": "https://exame.com/mundo/eua-bloqueiam-na-omc-pedido-do-brasil-contra-tarifas-de-ate-375/"
+        }
+      ],
+      "story": "aranceles-eeuu",
+      "deadlines": [
+        {
+          "date": "2026-11-30",
+          "label": "UE: Consejo de Asuntos Exteriores en formato Comercio, donde Irlanda planteará los aranceles propuestos por EE.UU. bajo la Sección 301",
+          "url": "https://www.rte.ie/news/us/2026/1125/1600630-us-tariffs/"
+        },
+        {
+          "date": "2026-12-07",
+          "label": "EE.UU.: vence el plazo para pedir exponer en la audiencia sobre los cambios a la Sección 301 contra Brasil (aviones y azúcar)",
+          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-invites-public-comment-proposed-modifications-section-301-action-regarding-brazils-unreasonable"
+        },
+        {
+          "date": "2026-12-30",
+          "label": "EE.UU.: vence el plazo de comentarios sobre los cambios a la Sección 301 contra Brasil (aviones y azúcar)",
+          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-invites-public-comment-proposed-modifications-section-301-action-regarding-brazils-unreasonable"
+        },
+        {
+          "date": "2027-01-14",
+          "label": "EE.UU.: audiencia pública de la USTR sobre los cambios a la Sección 301 contra Brasil (aviones y azúcar)",
+          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-invites-public-comment-proposed-modifications-section-301-action-regarding-brazils-unreasonable"
+        },
+        {
+          "date": "2027-01-05",
+          "label": "EE.UU.: vence el plazo de comentarios sobre los aranceles propuestos por sobrecapacidad (Sección 301) a 14 economías",
+          "url": "https://globalimportblog.bakermckenzie.com/2026/11/25/us-ustr-proposes-section-301-tariffs-on-14-economies-over-structural-excess-capacity/"
+        },
+        {
+          "date": "2027-01-25",
+          "label": "EE.UU.: empieza en la USITC la audiencia pública sobre los aranceles por sobrecapacidad (Sección 301) a 14 economías",
+          "url": "https://globalimportblog.bakermckenzie.com/2026/11/25/us-ustr-proposes-section-301-tariffs-on-14-economies-over-structural-excess-capacity/"
+        }
+      ],
+      "absorbs": [
+        "china-se-reserva-el-derecho-a-tomar-medidas-tras-los-nuevos-aranceles-de-eeuu",
+        "china-rechaza-nuevos-aranceles-de-estados-unidos-y-alerta-riesgos-globales",
+        "brasil-rechaza-nuevos-aranceles-de-ee-uu-y-expresa-indignacion",
+        "brasil-y-la-union-europea-rechazaron-los-nuevos-aranceles-de-trump-y-exigieron-r",
+        "socios-comerciales-rechazan-la-amenaza-de-aranceles-de-trump-china-advierte-que"
+      ]
     },
     {
       "id": "hutchison-ports-thailand-celebra-finalizacion-de-terminal-d-en-puerto-de-laem-ch",
@@ -1477,10 +2914,14 @@
       "body": [],
       "keyData": [],
       "topics": [
+        "Argentina",
+        "Exportaciones",
+        "Latinoamérica",
         "Mercosur"
       ],
       "countries": [
-        "Global"
+        "Argentina",
+        "Brasil"
       ],
       "tags": [
         "Mercosur"
@@ -1679,47 +3120,6 @@
       }
     },
     {
-      "id": "exportaciones-de-litio-en-argentina-registran-crecimiento-del-162",
-      "datetime": "2026-11-26T22:19:04Z",
-      "date": "2026-11-26",
-      "firstSeen": "2026-11-27T03:38:49Z",
-      "title": "Exportaciones de litio en Argentina registran crecimiento del 162%",
-      "summary": "El crecimiento del litio contribuyó a que las exportaciones mineras argentinas sumaran $us 7.455 millones en los primeros 10 meses del año",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Exportaciones"
-      ],
-      "countries": [
-        "Argentina"
-      ],
-      "tags": [
-        "Minería"
-      ],
-      "visual": "mining",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Exportaciones Argentina",
-      "sources": [
-        {
-          "name": "La Razón Digital Bolivia",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://larazon.bo/economia-y-empresa/2026/11/26/exportaciones-de-litio-en-argentina-registran-crecimiento-del-162/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-27T03:38:49Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONFQ5VGZaNnRaYkFUS0g4X0Q0akZMT2NHYmMzaENENjlrSzBEXzlHeWpJSVhxS3gwVjNMeGhybTJEQ2NUbkdJRy1ZeFBXaUJqMS1wMUZJTUNOc0NUUWdDNWhsOC1BeUZmbjdvTXVveG51UENhNzVyd0dYX2RhaUNxWGxra3JIdFBjNXMxYkFWODI0Q1RYU2hLNTFwOXljY2FlMHhzSUVtRjdvTXpSelpDSkREZkVndw?oc=5",
-      "digestSkip": {
-        "at": "2026-11-27T00:50:00-03:00",
-        "reason": "repite una nota de la redacción (exportaciones mineras enero-octubre)"
-      }
-    },
-    {
       "id": "puerto-de-santander-recibe-primera-recalada-de-pctc-de-clase-aurora-de-hoegh-aut",
       "datetime": "2026-11-26T22:00:33Z",
       "date": "2026-11-26",
@@ -1757,61 +3157,6 @@
         "reason": "no se encontró una versión legible",
         "retry": true,
         "tries": 2
-      }
-    },
-    {
-      "id": "paraguay-insistira-en-cuotas-equitativas-de-exportacion-a-la-ue-en-cumbre-del-me",
-      "datetime": "2026-11-26T21:45:00Z",
-      "date": "2026-11-26",
-      "firstSeen": "2026-11-27T03:38:49Z",
-      "title": "Paraguay insistirá en cuotas equitativas de exportación a la UE en cumbre del Mercosur",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones",
-        "Tratados y acuerdos",
-        "Latinoamérica",
-        "Mercosur",
-        "Europa"
-      ],
-      "countries": [
-        "Paraguay",
-        "Unión Europea"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Infobae",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYkkyYjVNNU1zS1IwaW55S2s5N05BWHVFWkNQWDF6Z0VJakJUZTA5cjdycDdyREdpLWxOdmZLQ19oWEJtSDljNG1OYi1sV3pDMS1pWGtOT3MzY0o3R0pfYzFPdWhLQ2VKXzNaZHJMZmNZdFRqTllwQVRLWkhkUzEyYzNwa3FzRGg3MWZHYkR0Q1pvZzh6cVRkdUZsbzQ1Wm1ldlJGc0tocXMyekxtTGVTbFE1eUhjT2FrZ3JJcGVqN2pSS1p1Ykx6NTdqdEhDaXZRT1JXNEln0gHwAUFVX3lxTE41LWF4MFRBWm52NUUzTXdCeGgxUXdvU28wTk1QbDZTdF9oUU5tem5CT2FkbzRHVnpmLWJFWWhvU3dwZWMwbnRER04yZnpPLUFVUDctTzNwbk9fMDlZblVjNEtEZVJfdnRmTlp1VXFKQ3lkenpwQVM3X0kydVRxTlo3UUJEam9FcEdYM2p5ZWdCUXdaOXBWVWVCeUNPS1IwRW9tWF9PQXFqNVdaaGlQNWlHbDBtYzZySjVWY29QNmJwR01ObDVGUnpVMm1hVXdHNTJoekpyMVpCVWRuV2FXeWxSdVgtWmFMTXl2ajY0Z2taSg?oc=5",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-27T03:38:49Z",
-      "digest": {
-        "lead": "El gobierno de Paraguay anunció que reclamará a sus socios del Mercosur un reparto equitativo de las cuotas de exportación a la Unión Europea en la cumbre del 4 de diciembre en Uruguay, informó Infobae con un cable de EFE.",
-        "body": [
-          "El ministro de Industria y Comercio, Marco Riquelme, dijo que la asignación no puede basarse en los volúmenes que ya comercian la Argentina, Brasil y Uruguay, y vinculó el freno al desarrollo industrial paraguayo con la Guerra de la Triple Alianza (1864-1870). Paraguay pide el 25% de las cuotas, algo que Riquelme considera necesario para seguir atrayendo inversiones, y aclaró que la discusión abarca la carne y también otros productos.",
-          "El cable recuerda que el bloque firmó en enero de 2026 el acuerdo con la UE, que abre un mercado de más de 700 millones de consumidores. En junio, el canciller Rubén Ramírez mencionó una propuesta que daba a Paraguay entre 300 y 600 toneladas de carne fresca sobre un cupo total de más de 6.000 toneladas, y a fines de septiembre calificó de «vergüenza» la falta de acuerdo. En esa cumbre, Uruguay entregará la presidencia pro tempore a la Argentina."
-        ],
-        "at": "2026-11-27T00:50:00-03:00",
-        "basedOn": "https://www.infobae.com/america/agencias/2026/11/26/paraguay-insistira-en-cuotas-equitativas-de-exportacion-a-la-ue-en-cumbre-del-mercosur/",
-        "basedOnSource": {
-          "name": "Infobae",
-          "url": "https://www.infobae.com/america/agencias/2026/11/26/paraguay-insistira-en-cuotas-equitativas-de-exportacion-a-la-ue-en-cumbre-del-mercosur/",
-          "title": "Paraguay insistirá en cuotas equitativas de exportación a la UE en cumbre del Mercosur"
-        },
-        "words": 191
       }
     },
     {
@@ -1858,6 +3203,45 @@
         "basedOn": "https://portalportuario.cl/port-de-barcelona-lanzara-concurso-publico-para-construir-y-explotar-red-de-suministro-electrico-a-buques",
         "words": 194
       }
+    },
+    {
+      "id": "milei-y-alliana-acordaron-profundizar-la-relacion-entre-argentina-y-paraguay-vac",
+      "datetime": "2026-11-26T21:18:00Z",
+      "date": "2026-11-26",
+      "firstSeen": "2026-11-27T15:04:46Z",
+      "title": "Milei y Alliana acordaron profundizar la relación entre Argentina y Paraguay: Vaca Muerta, Mercosur y Malvinas en la agenda",
+      "summary": "",
+      "body": [],
+      "keyData": [],
+      "topics": [
+        "Argentina",
+        "Latinoamérica",
+        "Mercosur"
+      ],
+      "countries": [
+        "Argentina",
+        "Paraguay"
+      ],
+      "tags": [
+        "Mercosur",
+        "Energía"
+      ],
+      "visual": "energy",
+      "impact": 1,
+      "affectsArgentina": true,
+      "kind": "noticia",
+      "label": "Automática",
+      "feed": "Google Noticias · Mercosur",
+      "sources": [
+        {
+          "name": "El Liberal",
+          "type": "Medio · vía Google Noticias",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPbFJiRmZYODNxYnY1MzBaYUIyNGhoa2ZMU2Z1NUgyTWRPZDEwZ0s3czN3bnU1T2JZVXQxN0FJaWRSbV9JVElyb29BY1BrTTJIM2VCb3BiTkZMWUNWalBVemhmLXpFdzRwd0JzcTBRV3pmbFJmSVpKX3VwaW9KOHQ5Yld3YWpyNWgzVDlxc2w0MjJrRmhKNTVRNUlMTzh1b3ZybWxPZEVrNEFZYjRueWJTWW4ydnQyUzV1NGlNM2pUSHV0ZEhSdGxieW9sazdueG5lRk9zb1gwT2xRX3NqVElEQ0dSUDczQktGbFdNekZId3pOWXlxcGhNUksyRmluMDDSAYgCQVVfeXFMTkJNTF9DcjdlU0NfSXoxQjEzV1VDcDg2dFViN3NkYWRZU1kwU3dUdVRIeEdFSlY2R0x4MHlNTGpIVnlXcHlZZ3FDd0ZiQlR1eXpWaUhOOUJSTG1LN2ZYX3MwWEg5aThLN1hWaFlMUm5PeW4xTFNjaHNfREhqWWJQVC0zWGJQWEdVamRZQ0I1ZUk0d3FfT1pLS2dhTm1waGQ1YU5zaEtHTDNxODAwQlZSeU1YY3ZPXzZod1N6bkw1NlZ4N2tNMVdDSk9yekZMMjNQRVlYOGppX2xuQTdaVC1zTWNJWHdRQ0lkWWlfQUMwb1g0UGlHRXpodnJteUNsZ0hMZEdfX1YxLTR1?oc=5",
+          "primary": true,
+          "author": ""
+        }
+      ],
+      "gnTried": "2026-11-27T15:04:46Z"
     },
     {
       "id": "aduanas-de-chile-conoce-experiencia-brasilena-en-gestion-de-mercancias-ilicitas",
@@ -1940,62 +3324,6 @@
       "digestSkip": {
         "at": "2026-11-27T00:50:00-03:00",
         "reason": "fuera de tema (nota de servicio sin hecho noticioso)"
-      }
-    },
-    {
-      "id": "el-primer-foro-empresarial-mercosur-union-europea-tras-la-firma-del-acuerdo--2",
-      "datetime": "2026-11-26T20:14:59Z",
-      "date": "2026-11-26",
-      "firstSeen": "2026-11-27T03:38:49Z",
-      "title": "El primer foro empresarial MERCOSUR–Unión Europea tras la firma del acuerdo entre ambos bloques marca un nuevo hito en sus relaciones",
-      "summary": "Más de 500 empresarios, autoridades y representantes de organismos financieros internacionales se reunirán el 2 de diciembre en Punta del Este para explorar oportunidades de negocios, comercio e inversión. El encuentro incluirá un acto oficial… | Noticias del MERCOSUR: política, economía y actualidad regional del…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Tratados y acuerdos",
-        "Mercosur",
-        "Europa"
-      ],
-      "countries": [
-        "Unión Europea"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Prensa Mercosur",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://prensamercosur.org/2026/11/26/el-primer-foro-empresarial-mercosur-union-europea-tras-la-firma-del-acuerdo-entre-ambos-bloques-marca-un-nuevo-hito-en-sus-relaciones/",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "Mercosur",
-          "type": "También publicó esta noticia",
-          "url": "https://www.mercosur.int/el-primer-foro-empresarial-mercosur-union-europea-tras-la-firma-del-acuerdo-entre-ambos-bloques-marca-un-nuevo-hito-en-sus-relaciones",
-          "alsoIn": true,
-          "title": "El primer foro empresarial MERCOSUR–Unión Europea tras la firma del acuerdo entre ambos bloques marca un nuevo hito en sus relaciones"
-        }
-      ],
-      "gnTried": "2026-11-27T03:38:49Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNbHhDZW03RDdLQXc2TDlBZGtodzBTdmxrSXNVeW9lcnRHbWpVQjZyYjFxUUVSbFBBTlpEM0VsZW5OaTY3bGIxNUI1VnZHZzlKUExDcl9qWFVlWlhsajYyOXc2LXRFZFJaVTBwZnFpd09mUGRPNENJbDlJdDZISWxtd0pXMGZHaUJtMzlERzZYdkJCZ2tWcjBQcHNyV2U1eGNWcmJrX0lSTXdhaENNb1NCeFFhaVEtSVZ5NXVnVG1hMlRXR01uWGdORFEzY0tTU2wtaTNzMGdZc0M0S0RDNEpHUng5Rm9sYmZsSWNtbUpvZmRSX0NqeGU5X3JwaFczdFZ4Unc?oc=5",
-      "aliasUrls": [
-        "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOSTUzY1EyMTdDeHJpYnZ3WVBQbUdFcTRUZGRKUkpTMzdCcmtTQ3hsc2lPbmRKZER5QjRuY3E3aWRXbE1XYUdJS3VNYWNEcktCWFNBNEJ0UEhTOXFQRlptYV9uTFVMelhHMmkzUDdoS1dQVWNWTEJobi1ybzZhdHRBZkI5WmtXLWVBcjhGZFYxM2ZNalZfWXB5OHJhMEFDYXJ3OUJBQVFKMzJ1X1haTzlmVHh5RDdyazI3VHhOQlJGUVZwQjJIbEoxdVBsbkhoNWVXc0ttb2sweXMtRkdBaUVTUEJrMWYtbXB5MngxT3dhTQ",
-        "https://www.mercosur.int/el-primer-foro-empresarial-mercosur-union-europea-tras-la-firma-del-acuerdo-entre-ambos-bloques-marca-un-nuevo-hito-en-sus-relaciones"
-      ],
-      "mergedIds": [
-        "el-primer-foro-empresarial-mercosur-union-europea-tras-la-firma-del-acuerdo-entr"
-      ],
-      "digestSkip": {
-        "at": "2026-11-27T00:50:00-03:00",
-        "reason": "fuera de tema (aviso de evento: foro empresarial)"
       }
     },
     {
@@ -2223,59 +3551,6 @@
       }
     },
     {
-      "id": "china-rechaza-nuevos-aranceles-de-estados-unidos-y-alerta-riesgos-globales",
-      "datetime": "2026-11-26T18:55:27Z",
-      "date": "2026-11-26",
-      "firstSeen": "2026-11-26T20:10:51Z",
-      "title": "China rechaza nuevos aranceles de Estados Unidos y alerta riesgos globales",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Aranceles",
-        "Estados Unidos",
-        "China",
-        "Asia"
-      ],
-      "countries": [
-        "Estados Unidos",
-        "China"
-      ],
-      "tags": [
-        "Aranceles",
-        "Estados Unidos",
-        "China"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
-      "sources": [
-        {
-          "name": "teleSUR",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.telesurtv.net/china-rechazo-aranceles-eeuu-riesgos-globales/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-26T20:10:51Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SMTZEdFlOV3ZoZnpCQkpNcnNHOFVNdGI4RkRmaE5XcGowS3NRZk9Jczlma0FpWE55clpFQzNkRnUyYmQzV08zS1Zoc3hpRzJJU3BacGtBUEtFVmlSYTByOC1ycEtCQVo0WUxJMkhyUWJ4YS1GcGs1SkV0RGM?oc=5",
-      "digest": {
-        "lead": "China rechazó este jueves la propuesta de Estados Unidos de aplicar aranceles de hasta 20% a 14 economías por supuesta sobrecapacidad industrial y advirtió que elevaría la inflación mundial, informó teleSUR con datos de agencias.",
-        "body": [
-          "El vocero del Ministerio de Comercio, He Yadong, calificó la investigación bajo la Sección 301 como un caso de unilateralismo que politiza la competencia de mercado y viola reglas de la OMC. Según el medio, la medida llevaría algunos aranceles a productos chinos del 12,5% al 20%, y hasta 40% si fracasan las negociaciones. La investigación alcanza también a la UE, Japón, Corea del Sur, India, Vietnam y Taiwán, entre otros, en semiconductores, baterías, acero, automotriz y energías renovables.",
-          "El portavoz de la Cancillería, Guo Jiakun, pidió resolver las diferencias con consultas y respetar el consenso de Xi Jinping y Donald Trump en Shenzhen. Comercio indicó que ambos equipos evalúan extender la tregua vigente hasta el 10 de enero y que los nuevos aranceles excluyen los bienes del acuerdo de rebajas recíprocas, de unos USD 30.000 millones por lado.",
-          "Pekín se reservó el derecho de tomar medidas. Un encuentro entre Xi y Trump está previsto en diciembre, en la cumbre del G20 en Miami."
-        ],
-        "at": "2026-11-26T19:20:00-03:00",
-        "basedOn": "https://www.telesurtv.net/china-rechazo-aranceles-eeuu-riesgos-globales/",
-        "words": 199
-      }
-    },
-    {
       "id": "cobre-rebota-a-us-11-900-con-aranceles-y-fed-en-el-foco",
       "datetime": "2026-11-26T18:52:00Z",
       "date": "2026-11-26",
@@ -2316,53 +3591,6 @@
         "reason": "no se encontró una versión legible",
         "retry": true,
         "tries": 2
-      }
-    },
-    {
-      "id": "socios-comerciales-rechazan-la-amenaza-de-aranceles-de-trump-china-advierte-que",
-      "datetime": "2026-11-26T18:51:23Z",
-      "date": "2026-11-26",
-      "firstSeen": "2026-11-26T20:10:51Z",
-      "title": "Socios comerciales rechazan la amenaza de aranceles de Trump; China advierte que podría responder",
-      "summary": "La Administración estadounidense del presidente Donald Trump, amenaza con nuevos aranceles a 14 de sus socios comerciales. Una de las afectadas es la economía japonesa, acusada de subsidiar a sus indu...",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Aranceles",
-        "Estados Unidos",
-        "China",
-        "Asia"
-      ],
-      "countries": [
-        "Estados Unidos",
-        "China",
-        "Japón"
-      ],
-      "tags": [
-        "Aranceles",
-        "Estados Unidos",
-        "China"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
-      "sources": [
-        {
-          "name": "Yahoo",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://es-us.noticias.yahoo.com/socios-comerciales-rechazan-amenaza-aranceles-185123425.html",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-26T20:10:51Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTW1ON2ZkUnUyZjlPWGM4Si1WaEs4b3ZOUllfTndPTmdSajBodVNYdmp0RmhUS2FQelBldTBsaEFvYXRid0FBaXB1eHh5MTdxa3RsUlhpekdwY01WVXZSSW92dS1tTmFLVFpBOURGYVdvMkNackNPdHdNQ0thX282dzZwUkNLR1JuUVZqZmZQUXhhSWNQUi1xag?oc=5",
-      "digestSkip": {
-        "at": "2026-11-26T19:20:00-03:00",
-        "reason": "repite el mismo hecho que la nota de teleSUR (el artículo es un video con un breve texto)"
       }
     },
     {
@@ -2590,101 +3818,6 @@
         "at": "2026-11-26T19:20:00-03:00",
         "basedOn": "https://portalportuario.cl/brasil-ministerio-de-transportes-preve-reduccion-de-costos-logisticos-mediante-aumento-de-inversiones",
         "words": 162
-      }
-    },
-    {
-      "id": "brasil-rechaza-nuevos-aranceles-de-ee-uu-y-expresa-indignacion",
-      "datetime": "2026-11-26T18:00:00Z",
-      "date": "2026-11-26",
-      "firstSeen": "2026-11-26T20:10:51Z",
-      "title": "Brasil rechaza nuevos aranceles de EE. UU. y expresa indignación",
-      "summary": "La Oficina del Representante Comercial de Estados Unidos (USTR) propuso aranceles adicionales a productos de Brasil, por la supuesta falta de medidas de Brasilia para abordar las preocupaciones comerciales de Washington.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Aranceles",
-        "Latinoamérica",
-        "Estados Unidos"
-      ],
-      "countries": [
-        "Brasil",
-        "Estados Unidos"
-      ],
-      "tags": [
-        "Aranceles",
-        "Estados Unidos"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Logística y fletes",
-      "sources": [
-        {
-          "name": "El Nacional - El diario de los lectores influyentes",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://elnacional.com.py/mundo/brasil-rechaza-nuevos-aranceles-ee-uu-expresa-indignacion-n115850",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-26T20:10:51Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcWxUOVB4LVhSUTBQTVk4dVZJalpoazZmUGJxNHFlaGl2QXJyOEI1WFRCZEoxTnlFSmRpT1VWMl92YXhGZTBfUG8tV1o1X3VvckxvREV5SGlHaEJUYlpfOUFVNnR4Slg1WERVQS1QSEVraEhfNkVvZC1pUzRMdk1VcmpEUWh6WGgwMm91ZkxOZDA1Wjhld29EaFJUcnJxUdIBowFBVV95cUxNQXJ3M3hLNDZGOTJIdzBybXFIVVpUN3JQeDE1dDltZG9IT2VzN1VGakVxdUJIX3pKNkUwNW53RHFNcC0xbnlLb011aFVIdDRHcXVqZ2VubnhJR0hnTXVfQlQxbUFjZ0pCb1JzR2Nyd202TmEyR1A3VklXRkJua0p3YXBicnJHSlNndnQtYnUwY05WMEdEOTRoQ0JhVkNzNWhPT1kw?oc=5",
-      "digest": {
-        "lead": "El gobierno de Lula da Silva expresó su indignación por la propuesta de Estados Unidos de aplicar nuevos aranceles a los aviones y al azúcar brasileños, y advirtió que Brasil no cederá ante la amenaza, informó El Nacional con datos de AFP.",
-        "body": [
-          "En un comunicado, la presidencia calificó la decisión unilateral de la Oficina del Representante Comercial (USTR) como inaceptable en plena negociación bilateral. Según Brasilia, la medida busca presionar para que cambie sus reglas sobre el sistema de pagos instantáneos PIX y el comercio digital, entre otros puntos. La USTR argumenta que Brasil no hizo lo suficiente para atender las preocupaciones comerciales de Washington.",
-          "El gobierno sostuvo que negocia de buena fe desde hace más de un año y que Lula y Trump acordaron crear un grupo de trabajo, pero que los términos de un posible acuerdo que Washington se había comprometido a enviar nunca llegaron. Brasil seguirá buscando una salida negociada, aunque no descarta acudir a la OMC ni aplicar medidas de reciprocidad."
-        ],
-        "at": "2026-11-26T19:20:00-03:00",
-        "basedOn": "https://elnacional.com.py/mundo/brasil-rechaza-nuevos-aranceles-ee-uu-expresa-indignacion-n115850",
-        "words": 165
-      }
-    },
-    {
-      "id": "la-distribucion-de-las-cuotas-a-la-ue-sigue-sin-resolverse-y-desafia-al-mercosur",
-      "datetime": "2026-11-26T17:34:22Z",
-      "date": "2026-11-26",
-      "firstSeen": "2026-11-26T20:10:51Z",
-      "title": "La distribución de las cuotas a la UE sigue sin resolverse y desafía al Mercosur en la antesala de la cumbre",
-      "summary": "Mario Lubetkin admitió que las negociaciones técnicas registraron escasos avances, aunque destacó el desempeño de los exportadores uruguayos en ese escenario.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Exportaciones",
-        "Tratados y acuerdos",
-        "Latinoamérica",
-        "Mercosur",
-        "Europa"
-      ],
-      "countries": [
-        "Uruguay",
-        "Unión Europea"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Ambito",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.ambito.com/uruguay/la-distribucion-las-cuotas-la-ue-sigue-resolverse-y-desafia-al-mercosur-la-antesala-la-cumbre-n6349706",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-26T20:10:51Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONnhjRmVtdVpiMHUxR1RJNVRiaXhYcGlRcUl4ZXBzUnBUMFoxTGZHRlpnVngzc1FNcndpbVNtcW15LWM2NEVRLXk1QzAtRHZNQTQyQk8zY3RxZFJqTTRZZzV6eTI5QTRvV2RDdmk3T3VMSWh0QktCa2thZWpXTnc2OHFVbEFnSmdFMW9XbEFlSE9hbGxVWmsyWmI4WTQwbnlQS2NHSWdORXVhWWtPdVZqcWcwY19TVFpVTVlNQmdjcWs5UlpPa0pRaUV1U1hfd9IB0wFBVV95cUxQR2NFcWtqTEItY2JVQ2hkUjZ2S3FYdVduLWNDTjg2czY0MmxlcXltaUpHYkI4SUhFSTlsY1YzV1NyZmxuRFlVNDR4b080aDlRRUxGZ3FYb0RKMHQ1N0Jtc1VoSnFiVXhneHEzcUtoVHRxbFJrYWhydU96dXh2MDV0dDlFenNKZVFWdldfcEdCbVNaUkZTaXQxSVVoSHVIT0lQWWZrc19BeGpvOVU3SWZBLTQzR2pzd0ExaG9ia0JQS3JSUU1ESVlGdGkybUo3MVd0dE1Z?oc=5",
-      "digestSkip": {
-        "at": "2026-11-26T19:20:00-03:00",
-        "reason": "artículo de pago (exclusivo para suscriptores)"
       }
     },
     {
@@ -3212,6 +4345,13 @@
           "url": "http://www.cda.org.ar/detalle_noticia.php?id=42885",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "Centro Despachantes de Aduana (CDA)",
+          "type": "También publicó esta noticia",
+          "url": "http://www.cda.org.ar/detalle_noticia.php?id=42888",
+          "alsoIn": true,
+          "title": "Centro Despachantes de Aduana de la Republica Argentina - El CDA realizó su Asamblea General Ordinaria"
         }
       ],
       "gnTried": "2026-11-26T20:10:51Z",
@@ -3219,7 +4359,14 @@
       "digestSkip": {
         "at": "2026-11-26T19:20:00-03:00",
         "reason": "fuera de tema (muestra de arte)"
-      }
+      },
+      "aliasUrls": [
+        "http://www.cda.org.ar/detalle_noticia.php?id=42888",
+        "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9NY3ZRQ2F6Z1hmN29sc2d3N2tHZWlqcV9iMVAzU2JwQ19BbENSWW1kc2h4c2JjcjliZzM1dVh6WWVTbW16V1FKWmtmeU9GaHozZ19WcXQwdElzS1diTGdR"
+      ],
+      "mergedIds": [
+        "centro-despachantes-de-aduana-de-la-republica-argentina-el-cda-realizo-su-asambl"
+      ]
     },
     {
       "id": "dia-mundial-del-olivo-argentina-lidera-la-produccion-regional-y-exporta-el-80-de",
@@ -3308,59 +4455,6 @@
         "at": "2026-11-26T19:20:00-03:00",
         "basedOn": "https://www.mejorinformado.com/energia/vaca-muerta-impulso-salto-103-exportaciones-neuquen-consolido-liderazgo-energetico_1795698301",
         "words": 158
-      }
-    },
-    {
-      "id": "todos-los-presidentes-del-mercosur-llegaran-a-montevideo-que-otros-paises-partic",
-      "datetime": "2026-11-26T13:14:00Z",
-      "date": "2026-11-26",
-      "firstSeen": "2026-11-26T20:10:51Z",
-      "title": "Todos los presidentes del Mercosur llegarán a Montevideo: qué otros países participarán",
-      "summary": "Todos los presidentes del Mercosur llegarán a Montevideo para la cumbre, que contará con invitados de Vietnam, Corea del Sur, Emiratos Árabes y Noruega.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Latinoamérica",
-        "Mercosur",
-        "Asia",
-        "Europa"
-      ],
-      "countries": [
-        "Uruguay",
-        "Corea del Sur",
-        "Vietnam",
-        "Noruega",
-        "Emiratos Árabes Unidos"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Caras y Caretas",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.carasycaretas.com.uy/politica/todos-los-presidentes-del-mercosur-llegaran-montevideo-que-otros-paises-participaran-n101408",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-26T20:10:51Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcEtHNHY5MWotb09ySmI3elBiNkVvZWR6R2QwTEtiZU5lNkpKM3pwcTM1M3laNW9aOG9GYWtFNEdDWTYyeldlclowQjV4U0tyYzZqdmlucXg2LXd4blVjZUE2WmFseWY1YTZMNVNjN0ZsSEZlb0hUakh0Uzk2ak5OWW9CdGpnVWUtNFBjMG9wQjhBbWpvMVJGZGhaNS1tLTV6TDNUN2ZOLTZMNk02SFFFNWdxUjhFTG40THZTMnNXX0FPRWhjTkpxMnN5RWhoOXJCR3VMONIB1AFBVV95cUxPcEtHNHY5MWotb09ySmI3elBiNkVvZWR6R2QwTEtiZU5lNkpKM3pwcTM1M3laNW9aOG9GYWtFNEdDWTYyeldlclowQjV4U0tyYzZqdmlucXg2LXd4blVjZUE2WmFseWY1YTZMNVNjN0ZsSEZlb0hUakh0Uzk2ak5OWW9CdGpnVWUtNFBjMG9wQjhBbWpvMVJGZGhaNS1tLTV6TDNUN2ZOLTZMNk02SFFFNWdxUjhFTG40THZTMnNXX0FPRWhjTkpxMnN5RWhoOXJCR3VMOA?oc=5",
-      "digest": {
-        "lead": "Todos los presidentes del Mercosur asistirán a la cumbre del bloque en Montevideo la semana próxima, que incluirá la primera reunión del Consejo Mercosur-Unión Europea, confirmó el canciller uruguayo Mario Lubetkin, según Caras y Caretas.",
-        "body": [
-          "Lubetkin dijo que los mandatarios se lo confirmaron y recordó que en las dos reuniones anteriores hubo ausencias de algunos jefes de Estado. Uruguay recibirá además a representantes de países con los que el bloque tiene vínculos y negociaciones comerciales: el vicepresidente de Vietnam, los ministros de Comercio de Corea del Sur y de Emiratos Árabes Unidos, y el viceministro de Relaciones Exteriores de Noruega, en nombre de la EFTA.",
-          "El canciller subrayó la relevancia del Consejo con la UE, un órgano previsto en el acuerdo negociado durante 25 años, y adelantó que su primera sesión, a la que calificó de histórica, se hará en Montevideo."
-        ],
-        "at": "2026-11-26T19:20:00-03:00",
-        "basedOn": "https://www.carasycaretas.com.uy/politica/todos-los-presidentes-del-mercosur-llegaran-montevideo-que-otros-paises-participaran-n101408",
-        "words": 141
       }
     },
     {
@@ -3527,6 +4621,13 @@
           "url": "https://agroinformacion.com/denuncian-que-la-ue-importa-este-ano-mas-de-821-000-toneladas-de-arroz-de-mercosur-myanmar-y-camboya-un-22-inferiores-a-los-de-2025/",
           "primary": true,
           "author": ""
+        },
+        {
+          "name": "eComercio Agrario",
+          "type": "También publicó esta noticia",
+          "url": "https://ecomercioagrario.com/la-unio-alerta-de-que-el-arroz-importado-de-mercosur-myanmar-y-camboya-llega-a-la-ue-un-22-mas-barato/",
+          "alsoIn": true,
+          "title": "LA UNIÓ alerta de que el arroz importado de Mercosur, Myanmar y Camboya llega a la UE un 22% más barato"
         }
       ],
       "gnTried": "2026-11-26T20:10:51Z",
@@ -3541,7 +4642,14 @@
         "at": "2026-11-26T19:20:00-03:00",
         "basedOn": "https://agroinformacion.com/denuncian-que-la-ue-importa-este-ano-mas-de-821-000-toneladas-de-arroz-de-mercosur-myanmar-y-camboya-un-22-inferiores-a-los-de-2025/",
         "words": 194
-      }
+      },
+      "aliasUrls": [
+        "https://ecomercioagrario.com/la-unio-alerta-de-que-el-arroz-importado-de-mercosur-myanmar-y-camboya-llega-a-la-ue-un-22-mas-barato",
+        "https://news.google.com/rss/articles/CBMiywFBVV95cUxObFJ6NzQzdzBfMzBkUHE4VzdZTExOMXJjeUFnTHN5aUt3YWFmV1F1TzgxakFoc3VmRU1NdHp2NU9SUnpRSDBfSmFPdGJRR3lPU3k4LTRCUkNZdWVZT0RJNjd2dDRCMDZzaG9OUVNwWVR6N1F4QjBYa2VRUElCa2lwYTlLOFlpTldlWU1MZUR0YnMxT0tQUEl0cmhHdXhPWDJfZU1uOHNqTng0bkVPSUlkVWRjZVNQWFFwb2VYSExvMmJkYkdPeW1zTkFhOA"
+      ],
+      "mergedIds": [
+        "la-unio-alerta-de-que-el-arroz-importado-de-mercosur-myanmar-y-camboya-llega-a-l"
+      ]
     },
     {
       "id": "uranio-en-argentina-los-7-proyectos-que-podrian-terminar-con-30-anos-de-importac",
@@ -3624,7 +4732,7 @@
           "author": ""
         }
       ],
-      "gnTried": "2026-11-26T09:31:32Z",
+      "gnTried": "2026-11-27T15:04:46Z",
       "digest": {
         "lead": "Varias economías asiáticas, entre ellas China, Japón, Corea del Sur y Singapur, pidieron el jueves 26 de noviembre a Estados Unidos que reconsidere los nuevos aranceles propuestos contra 14 mercados, según un despacho de EFE publicado por Infobae.",
         "body": [
@@ -3640,54 +4748,6 @@
           "title": "Las economías asiáticas piden a Estados Unidos que reconsidere los nuevos aranceles"
         },
         "words": 197
-      }
-    },
-    {
-      "id": "china-se-reserva-el-derecho-a-tomar-medidas-tras-los-nuevos-aranceles-de-eeuu",
-      "datetime": "2026-11-26T08:30:12Z",
-      "date": "2026-11-26",
-      "firstSeen": "2026-11-26T09:31:32Z",
-      "title": "China se reserva el derecho a tomar \"medidas\" tras los nuevos aranceles de EEUU",
-      "summary": "China advirtió que responderá a los nuevos aranceles de EE.UU., poniendo en riesgo una tregua comercial entre las dos mayores economías.El portavoz chino criticó los aranceles como proteccionismo, instando a resolver el conflicto mediante diálogo y consulta.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Aranceles",
-        "Geopolítica y comercio",
-        "Estados Unidos",
-        "China",
-        "Asia"
-      ],
-      "countries": [
-        "Estados Unidos",
-        "China"
-      ],
-      "tags": [
-        "Aranceles",
-        "Estados Unidos",
-        "China"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
-      "sources": [
-        {
-          "name": "Clarín",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.clarin.com/estados-unidos/china-se-reserva-el-derecho-a-tomar-medidas-tras-los-nuevos-aranceles-de-eeuu_0_KPjtyWUvva.html",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-26T09:31:32Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRWF4OTdVU3NSYThjd1JvQUNRT3JFeDA0Qm5GR2NsQ1ZENDBtYXR6SEc0cjBHRmg2R3A1Zjk2dWRfMUdleXdxSnNZWGppMWhYVWdRWVV6OTJJMlBHSG1OOXYyUXZLTmJlclBXMGxWeXFUbE9Sb2x3Tm9ONlFLWGhxTWlicjIxUEVSUGQ3b013MUFzOVVJb2hnNUNsbEdHS2dhb1Ffa0xLOEdSUy1BdzhYSWhaT3pNWDNMY1dQSGtrTlJrREZ4ajJlTWlIM09FQQ?oc=5",
-      "digestSkip": {
-        "at": "2026-11-26T09:31:32Z",
-        "auto": "no-read",
-        "reason": "medio sin lectura automática (NO_READ_DOMAINS) y sin otro medio con la misma noticia"
       }
     },
     {
@@ -4375,77 +5435,6 @@
       }
     },
     {
-      "id": "brasil-y-la-union-europea-rechazaron-los-nuevos-aranceles-de-trump-y-exigieron-r",
-      "datetime": "2026-11-26T00:41:00Z",
-      "date": "2026-11-25",
-      "firstSeen": "2026-11-26T00:59:46Z",
-      "title": "Brasil y la Unión Europea rechazaron los nuevos aranceles de Trump y exigieron respetar los acuerdos comerciales",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Aranceles",
-        "Tratados y acuerdos",
-        "Latinoamérica",
-        "Estados Unidos",
-        "Europa"
-      ],
-      "countries": [
-        "Brasil",
-        "Estados Unidos",
-        "Unión Europea"
-      ],
-      "tags": [
-        "Aranceles",
-        "Estados Unidos"
-      ],
-      "visual": "customs",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
-      "sources": [
-        {
-          "name": "Infobae",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOLXgtZEp0b1ZkMDBCckVpeWdiSFNzeE9vOVpkOEFxX2hDamhhRWdoc0JXVnVGNzlNcXd0R3hDanhMNFptc0s5WnFMcHoxMXlsN2xxbHhEOWI2TUNRM3BqYm5zdGE2aFAtTHFzS0liV0ttclhXNFhPR3VWV01DdjVRYmNLUmYwYmJyZTlYUWtscnQxZkRJVzZSVmlCbU1wYmRBRW9vdThkUjNncGxLNV9ZSkZOZmt0LXprdEo2MWtiRlc2bV9MUl9GTDJwcDhJOEpaenJhU0pqdXVDdjdPdmhZd29WX2U4eUFuVWEyY09lODZ1Ymo50gGPAkFVX3lxTE5ibWFZaFhPZWYwZFhjaUpTZzFJMVA5SkRYU2RTaXI5UWVfUGV5M0dNZjVuVVBaRGZSemtETzhIRy1GR09hYTBRWDhLUlBVZFE0UjBPajhVcU93WUZyNHF6Ykx3RGZVSk5JZVVEd0Z6LUppOG9VZWsyQktEQ1RwZGhLa2R1VnR5VGV6cUJCWXRrR2FWTVhnbUdDNDV3bUFOeVVGcklVeXFhLXJmY3Fja2dHbXJWNXZfQ1hraTdJX3pfejQwb1Ntc0VBa0NxV0t4a0tXV1U3VjJGeWpmc2p2SWg4Mm02N2xZY1c2QjgzbG9SY1pKQWZzQmRTUHEzS2ZYN21fZnRrT2xIMVZYYTl0dGs?oc=5",
-          "primary": true,
-          "author": ""
-        },
-        {
-          "name": "Sistema Mexiquense",
-          "type": "También publicó esta noticia",
-          "url": "https://mexiquensedigital.com/noticias/china-japon-y-la-union-europea-rechazan-nuevos-aranceles-de-trump/21_20261127005328_99238",
-          "alsoIn": true,
-          "title": "China, Japón y la Unión Europea rechazan nuevos aranceles de Trump"
-        }
-      ],
-      "gnTried": "2026-11-27T03:38:49Z",
-      "digest": {
-        "lead": "Brasil y la Unión Europea cuestionaron el miércoles 25 de noviembre las nuevas propuestas arancelarias de Estados Unidos: Brasilia calificó de inaceptable la decisión y Bruselas exigió que se respete el techo de 15% pactado en 2025, informó Infobae.",
-        "body": [
-          "El gobierno de Lula expresó su indignación por la recomendación de la Oficina del Representante Comercial (USTR) de sumar un recargo de 10% a los aviones terminados brasileños, que golpearía en especial a Embraer, y de cambiar las condiciones para el azúcar. En un comunicado sostuvo que la medida contradice más de un año de diálogo bilateral, que Washington había prometido presentar una propuesta en el marco de la investigación por la Sección 301 y que busca forzar cambios en el sistema Pix y el comercio digital. «Brasil no cederá ante este tipo de amenazas», afirmó.",
-          "La UE, una de las 14 economías alcanzadas por la investigación sobre sobrecapacidad industrial, rechazó esa caracterización por boca del vocero comercial de la Comisión Europea, Olof Gill, quien recordó que Europa sufre la sobreproducción de terceros países, sobre todo de China, y reclamó que cualquier medida respete el acuerdo de 2025. Las propuestas estadounidenses todavía deben pasar por una consulta pública antes de aplicarse."
-        ],
-        "at": "2026-11-26T00:50:00-03:00",
-        "basedOn": "https://www.infobae.com/america/mundo/2026/11/26/brasil-y-la-union-europea-rechazaron-los-nuevos-aranceles-de-trump-y-exigieron-respetar-los-acuerdos-comerciales/",
-        "words": 200,
-        "basedOnSource": {
-          "name": "Infobae",
-          "url": "https://www.infobae.com/america/mundo/2026/11/26/brasil-y-la-union-europea-rechazaron-los-nuevos-aranceles-de-trump-y-exigieron-respetar-los-acuerdos-comerciales/",
-          "title": "Brasil y la Unión Europea rechazaron los nuevos aranceles de Trump y exigieron respetar los acuerdos comerciales"
-        }
-      },
-      "aliasUrls": [
-        "https://mexiquensedigital.com/noticias/china-japon-y-la-union-europea-rechazan-nuevos-aranceles-de-trump/21_20261127005328_99238",
-        "https://news.google.com/rss/articles/CBMixwFBVV95cUxOREZZTVd2bDg4dTh1R2lvS2hTZGZVNlZZQjVENGV4cVVBZGxrLVc1enByWTNRTDZ5a0ZnT25aeXVZUVF1U3V4OGZSWDZZbEZrVDZpWTRiSEpLbEh6dmxKeXhDSTAtMDA1ZDlmQmp2eXE0OFlvQ1dzLUFpME9hN3o5WlV3WlVPUE9NclhMSDI1ekpyRFB4a0J5R1lsY3N1SHBISFFPT3IyTUtNczNxSUVyYUt4ajFENDJBb2lDSEYzVWd0UXVOR2dr"
-      ],
-      "mergedIds": [
-        "china-japon-y-la-union-europea-rechazan-nuevos-aranceles-de-trump"
-      ]
-    },
-    {
       "id": "venta-de-buques-y-tarifas-de-flete-a-niveles-record-impulsan-ganancias-de-cmb-te",
       "datetime": "2026-11-26T00:00:55Z",
       "date": "2026-11-25",
@@ -5117,46 +6106,6 @@
         "at": "2026-11-26T00:50:00-03:00",
         "basedOn": "https://portalportuario.cl/psa-vietnam-y-lhf-inician-obras-de-nueva-terminal-de-contenedores-en-hai-phong/",
         "words": 168
-      }
-    },
-    {
-      "id": "todos-los-presidentes-del-mercosur-vendran-a-la-cumbre-destaco-lubetkin",
-      "datetime": "2026-11-25T19:50:31Z",
-      "date": "2026-11-25",
-      "firstSeen": "2026-11-26T00:59:46Z",
-      "title": "Todos los presidentes del Mercosur vendrán a la Cumbre, destacó Lubetkin",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Mercosur"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [
-        "Mercosur"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Mercosur",
-      "sources": [
-        {
-          "name": "Medios Públicos",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://mediospublicos.uy/todos-los-presidentes-del-mercosur-vendran-a-la-cumbre-destaco-lubetkin/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-11-26T00:59:46Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZUxIT3d6eGFYRUw3cE1iYjk3bW1ob0k2bUpoZnNrczNaUGEzNTh3R3UzQk1GWUdMVUtzY1RLU0c0cTI2NkJUeXZyQ1EtVW1fenppSDZfeW1rOU5TdGYwcHF5TGk4Vlo1aDBlR0xVRzZFQV9DellxSXJndWR0b2dMUmlrS3B3WnJ4c043WmVOVmhiZU5fVDFVenZVLXJGazQ?oc=5",
-      "digestSkip": {
-        "at": "2026-11-26T19:20:00-03:00",
-        "reason": "repite el mismo hecho que la nota de Caras y Caretas"
       }
     },
     {
@@ -163169,186 +164118,6 @@
       "gnUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQaHk2azU4V1l1UG95TjhwZWtiQTEwTHpUS1pLaVQ2Q1J3dDZJdXdpakEtSWRSakZheXU2ZzVMVS0zY0hCU3JSNzdGdUkwTW4zVEYzQzI3ZFF2MFZlTGRvOWNMZExHMUE3RkNHVGM3U2ZQYVNsZHh3NDBNQ0VTQ3llOFVteVFKN2V6U0hTcUVPSkczLXlVazV6UjZXTzhmZXBvbV9ZczZmeTZVVXNDQ1phMnY4MVNETy1uM3NUWHhWZ0F3amZRMnZXSjhwbk15a0QwSFJ1Vl9QOWdrS3pyVzVyZk5MdktxWVhCa2RWQ0lUOA?oc=5"
     },
     {
-      "id": "industria-energetica-considera-rutas-alternativas-que-eviten-el-golfo-persico-y",
-      "datetime": "2026-10-07T08:00:57Z",
-      "date": "2026-10-07",
-      "firstSeen": "2026-10-07T09:43:45Z",
-      "title": "Industria energética considera rutas alternativas que eviten el golfo Pérsico y mar Rojo",
-      "summary": "La interrupción causada por la guerra en Irán está obligando a la industria energética a…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Puertos"
-      ],
-      "countries": [
-        "Irán"
-      ],
-      "tags": [],
-      "visual": "globe",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/industria-energetica-considera-rutas-alternativas-que-eviten-el-golfo-persico-y-mar-rojo/",
-          "primary": true,
-          "author": "Luis Alonso"
-        }
-      ]
-    },
-    {
-      "id": "bruselas-negocia-con-china-aranceles-a-los-coches-hibridos-que-pasara-con-el-pre",
-      "datetime": "2026-10-07T07:58:13Z",
-      "date": "2026-10-07",
-      "firstSeen": "2026-10-07T09:43:45Z",
-      "title": "Bruselas negocia con China aranceles a los coches híbridos: qué pasará con el precio de tu próximo coche",
-      "summary": "La UE y China negocian durante dos días aranceles a los coches híbridos chinos. El resultado puede mover el precio de tu próximo coche.",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Aranceles",
-        "China",
-        "Asia",
-        "Europa"
-      ],
-      "countries": [
-        "China",
-        "Unión Europea"
-      ],
-      "tags": [
-        "Aranceles",
-        "China"
-      ],
-      "visual": "auto",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
-      "sources": [
-        {
-          "name": "Qué.es",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.que.es/2026/10/07/aranceles-coches-hibridos-china/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-07T09:43:45Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9xdWJDY19hSGs0VEVzc2JCXzZnaXFuTHo2R3FTYmhiVk5BVjdGSGlfSENGTk9rZDlERWdDMWFKdzY4Smx3VlZEM2ZrNU9JSEdpZ1BtRFBLRzFDQ19VQnhCcjh0QUhuNDJYbnA0blZtcw?oc=5"
-    },
-    {
-      "id": "angola-dp-world-extiende-concesion-de-terminal-multiproposito-del-puerto-de-luan",
-      "datetime": "2026-10-07T07:00:16Z",
-      "date": "2026-10-07",
-      "firstSeen": "2026-10-07T09:43:45Z",
-      "title": "Angola: DP World extiende concesión de terminal multipropósito del Puerto de Luanda",
-      "summary": "DP World obtuvo una prórroga de 10 años en su concesión para operar la terminal multipropósito…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Puertos"
-      ],
-      "countries": [
-        "Angola"
-      ],
-      "tags": [
-        "Puertos"
-      ],
-      "visual": "port",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/angola-dp-world-extiende-concesion-de-terminal-multiproposito-del-puerto-de-luanda/",
-          "primary": true,
-          "author": "cmeza"
-        }
-      ]
-    },
-    {
-      "id": "armadoras-automotrices-permaneceran-en-mexico-a-pesar-del-25-en-aranceles-y-mas",
-      "datetime": "2026-10-07T05:21:43Z",
-      "date": "2026-10-07",
-      "firstSeen": "2026-10-07T09:43:45Z",
-      "title": "Armadoras automotrices permanecerán en México, a pesar del 25 % en aranceles y más en LJA.MX, edición 7/10/2026",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Aranceles",
-        "Latinoamérica"
-      ],
-      "countries": [
-        "México"
-      ],
-      "tags": [
-        "Autos",
-        "Aranceles"
-      ],
-      "visual": "auto",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aranceles y comercio internacional",
-      "sources": [
-        {
-          "name": "lja.mx",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.lja.mx/2026/10/edicion-7-10-2026/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-07T09:43:45Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ySndNQ1c5d1dQRzRhOURZaDk2Vk1Sa1NtdS1XZ19vR043ckNCZkhmdzdvQWg4TVFrY1BrS0Z6a1djaHE0UWY4UVdNNFRSdE5aYmVwSGtMMFg?oc=5"
-    },
-    {
-      "id": "la-city-recorta-a-1-5-el-crecimiento-del-pbi-y-se-redujo-el-deficit-de-la-balanz",
-      "datetime": "2026-10-07T03:00:08Z",
-      "date": "2026-10-07",
-      "firstSeen": "2026-10-07T09:43:45Z",
-      "title": "La city recorta a 1,5% el crecimiento del PBI y se redujo el déficit de la balanza comercial con Brasil: los",
-      "summary": "",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Economía internacional",
-        "Latinoamérica"
-      ],
-      "countries": [
-        "Brasil"
-      ],
-      "tags": [],
-      "visual": "chart",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "Google Noticias · Aduana e importaciones Argentina",
-      "sources": [
-        {
-          "name": "BAE Negocios",
-          "type": "Medio · vía Google Noticias",
-          "url": "https://www.baenegocios.com/tapasbae/la-city-recorta-a-1-5-el-crecimiento-del-pbi-y-se-redujo-el-deficit-de-la-balanza-comercial-con-brasil-los-temas-del-dia-en-bae-negocios/",
-          "primary": true,
-          "author": ""
-        }
-      ],
-      "gnTried": "2026-10-07T09:43:45Z",
-      "gnUrl": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPa3RkZEk4ZVBQNlF3R0JmLUM0ck54ZExXQVl3UzlvaEFDODRScDdZcHVnV0hrQmVRcHhwdDV4MTluOGd4V2xUNWtoTFZGNEswVm9XZkJHenFYWWEtWC1pYVE2ZHFkQmlldUpEWVliZlo3LS1JeGhUZUxSR0lJSk9DcWE4MG45MDlCeG9GS1FoVFNYNFJxMk45blloVXc1eFJXZGN1NGZMTDlJak5IOUZPNWhsWWZ5Q0VXZURVU3FMTGVYYmt4R1Y4Mjh3QlpNcFQ2OEtnTWh0M1BmWmt2bWVuUTZQTDNtc0xCaDBEVXc1N1FVTE5CejNEQXoyVUx0d9IB_gFBVV95cUxPa3RkZEk4ZVBQNlF3R0JmLUM0ck54ZExXQVl3UzlvaEFDODRScDdZcHVnV0hrQmVRcHhwdDV4MTluOGd4V2xUNWtoTFZGNEswVm9XZkJHenFYWWEtWC1pYVE2ZHFkQmlldUpEWVliZlo3LS1JeGhUZUxSR0lJSk9DcWE4MG45MDlCeG9GS1FoVFNYNFJxMk45blloVXc1eFJXZGN1NGZMTDlJak5IOUZPNWhsWWZ5Q0VXZURVU3FMTGVYYmt4R1Y4Mjh3QlpNcFQ2OEtnTWh0M1BmWmt2bWVuUTZQTDNtc0xCaDBEVXc1N1FVTE5CejNEQXoyVUx0dw?oc=5"
-    },
-    {
       "id": "irlanda-ifa-pide-restringir-carne-vacuna-argentina-antimicrobianos",
       "date": "2026-10-07",
       "kind": "noticia",
@@ -163605,424 +164374,6 @@
       ],
       "updated": "2026-10-16T09:59:10-03:00",
       "story": "balanza-argentina"
-    },
-    {
-      "id": "espana-tribunal-autonomico-absuelve-a-11-activistas-acusados-de-bloquear-ingreso",
-      "datetime": "2026-10-07T01:30:47Z",
-      "date": "2026-10-06",
-      "firstSeen": "2026-10-07T01:42:33Z",
-      "title": "España: Tribunal autonómico absuelve a 11 activistas acusados de bloquear ingreso de un buque al Puerto de Sagunto",
-      "summary": "El Tribunal Superior de Justicia de la Comunitat Valenciana (Tsjcv) decidió absolver a…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Transporte marítimo",
-        "Puertos",
-        "Europa"
-      ],
-      "countries": [
-        "España"
-      ],
-      "tags": [
-        "Puertos"
-      ],
-      "visual": "court",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/espana-tribunal-autonomico-absuelve-a-11-activistas-acusados-de-bloquear-ingreso-de-un-buque-al-puerto-de-sagunto/",
-          "primary": true,
-          "author": "Gabriel"
-        }
-      ]
-    },
-    {
-      "id": "hs-schiffahrt-recibe-buques-seaboard-legend-y-seaboard-liberty",
-      "datetime": "2026-10-07T00:00:20Z",
-      "date": "2026-10-06",
-      "firstSeen": "2026-10-07T01:42:33Z",
-      "title": "HS Schiffahrt recibe buques Seaboard Legend y Seaboard Liberty",
-      "summary": "HS Schiffahrt recibió sus dos primeros nuevos buques contenedores, el Seaboard Legend (ex Johanna Schepers) y…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Transporte marítimo"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [],
-      "visual": "ship",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/hs-schiffahrt-recibe-buques-seaboard-legend-y-seaboard-liberty/",
-          "primary": true,
-          "author": "Diego Hermosilla"
-        }
-      ]
-    },
-    {
-      "id": "los-organos-encargados-de-los-servicios-ponen-el-foco-en-el-foro-publico-los-cos",
-      "datetime": "2026-10-07T00:00:00Z",
-      "date": "2026-10-06",
-      "firstSeen": "2026-10-14T09:59:32Z",
-      "title": "Los órganos encargados de los servicios ponen el foco en el Foro Público, los costos de las remesas y las cuestiones de desarrollo",
-      "summary": "En las reuniones que celebraron del 7 al 9 de octubre, el Consejo del Comercio de Servicios y el Comité del Comercio de Servicios Financieros de la OMC encomiaron los fructíferos debates sobre el comercio de servicios mantenidos en el Foro Público de 2026, prosiguieron los debates sobre la transparencia de las medidas…",
-      "body": [
-        "En las reuniones que celebraron del 7 al 9 de octubre, el Consejo del Comercio de Servicios y el Comité del Comercio de Servicios Financieros de la OMC encomiaron los fructíferos debates sobre el comercio de servicios mantenidos en el Foro Público de 2026, prosiguieron los debates sobre la transparencia de las medidas relativas al reconocimiento de los títulos de aptitud de los proveedores extranjeros de servicios, e intercambiaron opiniones sobre la manera de revitalizar la labor del Consejo. Los Miembros examinaron también la forma de facilitar los pagos digitales, reducir el costo de las remesas y ayudar a los países menos adelantados (PMA) a reforzar su participación en el comercio de servicios, así como diversas preocupaciones comerciales."
-      ],
-      "keyData": [],
-      "topics": [
-        "Economía internacional"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [
-        "OMC"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "OMC · Organización Mundial del Comercio",
-      "sources": [
-        {
-          "name": "OMC · Organización Mundial del Comercio",
-          "type": "Organismo internacional",
-          "url": "https://www.wto.org/spanish/news_s/news26_s/serv_07oct26_512_s.htm",
-          "primary": true,
-          "author": ""
-        }
-      ]
-    },
-    {
-      "id": "el-comite-de-normas-de-origen-examina-las-preferencias-concedidas-a-los-pma-y-co",
-      "datetime": "2026-10-07T00:00:00Z",
-      "date": "2026-10-06",
-      "firstSeen": "2026-10-14T14:00:44Z",
-      "title": "El Comité de Normas de Origen examina las preferencias concedidas a los PMA y comparte las mejores prácticas",
-      "summary": "El Comité de Normas de Origen (CNO) de la OMC se reunió los días 7 y 8 de octubre para examinar la evolución de las normas de origen preferenciales concedidas a los países menos adelantados (PMA), recopilar información actualizada de los Miembros otorgantes de preferencias y compartir experiencias sobre la…",
-      "body": [
-        "El Comité de Normas de Origen (CNO) de la OMC se reunió los días 7 y 8 de octubre para examinar la evolución de las normas de origen preferenciales concedidas a los países menos adelantados (PMA), recopilar información actualizada de los Miembros otorgantes de preferencias y compartir experiencias sobre la administración de las normas de origen y la facilitación del comercio. Los Miembros también examinaron las notificaciones relativas a las normas de origen no preferenciales, las herramientas digitales que pueden mejorar la transparencia y el cumplimiento de las prescripciones en materia de origen y los proyectos de informes anuales sobre la labor del Comité."
-      ],
-      "keyData": [],
-      "topics": [
-        "Economía internacional"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [
-        "OMC"
-      ],
-      "visual": "treaty",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "OMC · Organización Mundial del Comercio",
-      "sources": [
-        {
-          "name": "OMC · Organización Mundial del Comercio",
-          "type": "Organismo internacional",
-          "url": "https://www.wto.org/spanish/news_s/news26_s/roi_07oct26_514_s.htm",
-          "primary": true,
-          "author": ""
-        }
-      ]
-    },
-    {
-      "id": "filipinas-ictsi-consigue-prorroga-de-25-anos-en-concesion-de-terminales-en-subic",
-      "datetime": "2026-10-06T23:30:28Z",
-      "date": "2026-10-06",
-      "firstSeen": "2026-10-07T01:42:33Z",
-      "title": "Filipinas: Ictsi consigue prórroga de 25 años en concesión de terminales en Subic",
-      "summary": "Subic Bay International Terminals Corp. (SBICT) e Ictsi Subic Inc. (ISI), subsidiarias de International Container Terminal…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Transporte marítimo",
-        "Puertos",
-        "Asia"
-      ],
-      "countries": [
-        "Filipinas"
-      ],
-      "tags": [],
-      "visual": "port",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/filipinas-ictsi-consigue-prorroga-de-25-anos-en-concesion-de-terminales-en-subic/",
-          "primary": true,
-          "author": "Diego Hermosilla"
-        }
-      ]
-    },
-    {
-      "id": "oferta-ferroviaria-en-bio-bio-podria-ver-impulso-con-nuevo-contrato-para-portead",
-      "datetime": "2026-10-06T23:23:52Z",
-      "date": "2026-10-06",
-      "firstSeen": "2026-10-07T01:42:33Z",
-      "title": "Oferta ferroviaria en Bio Bio podría ver impulso con nuevo contrato para porteadores de carga",
-      "summary": "El nuevo contrato que comenzará a regir, a partir de 2028, para los porteadores ferroviarios de…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Latinoamérica"
-      ],
-      "countries": [
-        "Chile"
-      ],
-      "tags": [],
-      "visual": "globe",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/oferta-ferroviaria-en-bio-bio-podria-ver-impulso-con-nuevo-contrato-para-porteadores-de-carga/",
-          "primary": true,
-          "author": "Periodista 4"
-        }
-      ]
-    },
-    {
-      "id": "gerente-general-de-svti-asegura-que-puertos-de-bio-bio-estan-listos-para-recibir",
-      "datetime": "2026-10-06T23:12:29Z",
-      "date": "2026-10-06",
-      "firstSeen": "2026-10-07T01:42:33Z",
-      "title": "Gerente general de SVTI asegura que puertos de Bio Bio están listos para recibir nuevas cargas desde Chile y el exterior",
-      "summary": "El gerente general de San Vicente Terminal Internacional (SVTI), Juan Pablo Santibáñez, aseguró que los puertos…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Puertos",
-        "Latinoamérica"
-      ],
-      "countries": [
-        "Chile"
-      ],
-      "tags": [
-        "Puertos"
-      ],
-      "visual": "port",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/gerente-general-de-svti-asegura-que-puertos-de-bio-bio-estan-listos-para-recibir-nuevas-cargas-desde-chile-y-el-exterior/",
-          "primary": true,
-          "author": "Periodista 4"
-        }
-      ]
-    },
-    {
-      "id": "autoridad-paraguaya-plantea-idea-de-establecer-estrategia-comun-con-brasil-y-arg",
-      "datetime": "2026-10-06T23:00:13Z",
-      "date": "2026-10-06",
-      "firstSeen": "2026-10-07T01:42:33Z",
-      "title": "Autoridad paraguaya plantea idea de establecer estrategia común con Brasil y Argentina para administrar Hidrovía",
-      "summary": "La ministra de Obras Públicas y Comunicaciones de Paraguay (Mopc), Claudia Centurión, impulsó la idea de…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Argentina",
-        "Transporte marítimo",
-        "Latinoamérica"
-      ],
-      "countries": [
-        "Argentina",
-        "Brasil",
-        "Paraguay"
-      ],
-      "tags": [],
-      "visual": "globe",
-      "impact": 1,
-      "affectsArgentina": true,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/autoridad-paraguaya-plantea-idea-de-establecer-estrategia-comun-con-brasil-y-argentina-para-administrar-hidrovia/",
-          "primary": true,
-          "author": "Gabriel"
-        }
-      ]
-    },
-    {
-      "id": "patricio-roman-en-puerto-coronel-hemos-invertido-mucho-para-tener-estandares-de",
-      "datetime": "2026-10-06T22:57:47Z",
-      "date": "2026-10-06",
-      "firstSeen": "2026-10-07T01:42:33Z",
-      "title": "Patricio Román: “En Puerto Coronel hemos invertido mucho para tener estándares de primer nivel”",
-      "summary": "Puerto Coronel es, actualmente, el complejo portuario más eficiente de Chile. Así quedó plasmado en el…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Puertos",
-        "Latinoamérica"
-      ],
-      "countries": [
-        "Chile"
-      ],
-      "tags": [
-        "Puertos"
-      ],
-      "visual": "port",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/patricio-roman-en-puerto-coronel-hemos-invertido-mucho-para-tener-estandares-de-primer-nivel/",
-          "primary": true,
-          "author": "admin"
-        }
-      ]
-    },
-    {
-      "id": "encuentro-bio-bio-hub-logistico-congrega-a-mas-de-1-300-personas-en-gran-concepc",
-      "datetime": "2026-10-06T22:56:45Z",
-      "date": "2026-10-06",
-      "firstSeen": "2026-10-07T01:42:33Z",
-      "title": "Encuentro Bio Bio Hub Logístico congrega a más de 1.300 personas en Gran Concepción",
-      "summary": "El Encuentro Bio Bio Hub Logístico, organizado por la Mesa Comex Bio Bio y el Gobierno…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Logística",
-        "Latinoamérica"
-      ],
-      "countries": [
-        "Chile"
-      ],
-      "tags": [],
-      "visual": "globe",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/encuentro-bio-bio-hub-logistico-congrega-a-mas-de-1-300-personas-en-gran-concepcion/",
-          "primary": true,
-          "author": "Periodista 4"
-        }
-      ]
-    },
-    {
-      "id": "ceo-de-vitol-afirma-que-12-millones-de-barriles-diarios-de-petroleo-crudo-salen",
-      "datetime": "2026-10-06T22:14:29Z",
-      "date": "2026-10-06",
-      "firstSeen": "2026-10-07T01:42:33Z",
-      "title": "CEO de Vitol afirma que 12 millones de barriles diarios de petróleo crudo salen de Medio Oriente",
-      "summary": "Alrededor de 12 millones de barriles diarios de petróleo crudo y 2 millones de bpd…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Puertos"
-      ],
-      "countries": [
-        "Global"
-      ],
-      "tags": [
-        "Energía"
-      ],
-      "visual": "energy",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/ceo-de-vitol-afirma-que-12-millones-de-barriles-diarios-de-petroleo-crudo-salen-de-medio-oriente/",
-          "primary": true,
-          "author": "Luis Alonso"
-        }
-      ]
-    },
-    {
-      "id": "rusia-importa-176-mil-toneladas-de-productos-petroliferos-desde-puertos-surcorea",
-      "datetime": "2026-10-06T21:59:05Z",
-      "date": "2026-10-06",
-      "firstSeen": "2026-10-07T01:42:33Z",
-      "title": "Rusia importa 176 mil toneladas de productos petrolíferos desde puertos surcoreanos",
-      "summary": "Rusia importó más de 176.000 toneladas de productos petrolíferos desde puertos surcoreanos en julio y…",
-      "body": [],
-      "keyData": [],
-      "topics": [
-        "Importaciones",
-        "Puertos",
-        "Asia",
-        "Europa"
-      ],
-      "countries": [
-        "Corea del Sur",
-        "Rusia"
-      ],
-      "tags": [
-        "Energía",
-        "Puertos"
-      ],
-      "visual": "energy",
-      "impact": 1,
-      "affectsArgentina": false,
-      "kind": "noticia",
-      "label": "Automática",
-      "feed": "PortalPortuario",
-      "sources": [
-        {
-          "name": "PortalPortuario",
-          "type": "Medio especializado · Chile",
-          "url": "https://portalportuario.cl/rusia-importa-176-mil-toneladas-de-productos-petroliferos-desde-puertos-surcoreanos/",
-          "primary": true,
-          "author": "Luis Alonso"
-        }
-      ]
     },
     {
       "id": "biodiesel-exportaciones-ue-220000-toneladas-2026",
@@ -168637,486 +168988,10 @@
         }
       },
       "updated": "2026-10-21T12:00:00-03:00"
-    },
-    {
-      "id": "drewry-wci-baja-3-26-noviembre-4032-quinta-semana-transpacifico",
-      "date": "2026-11-27",
-      "kind": "datos",
-      "title": "El índice mundial de fletes de contenedores cae 3% a USD 4.032 por FEU, quinta baja seguida, mientras Asia–Europa se encarece antes de diciembre",
-      "summary": "El World Container Index de Drewry bajó por quinta semana: Shanghái–Los Ángeles cedió 8% y Shanghái–Nueva York 7%, mientras Shanghái–Génova subió 8%. La consultora espera más bajas en el transpacífico y subas en Asia–Europa, donde las navieras anuncian recargos de USD 1.000 a 1.500 por FEU desde el 1 de diciembre.",
-      "body": [
-        "El World Container Index (WCI) de Drewry bajó 3% en la medición del jueves 26 de noviembre y quedó en USD 4.032 por contenedor de 40 pies (FEU), según la reproducción del informe semanal de la consultora que publicaron The Daily Cargo News y Texadviser (sobre un texto de Fibre2Fashion). La variación exacta fue de −3,44%: una semana antes, el índice estaba en USD 4.176, como informó Comexplora.",
-        "Es la quinta baja semanal consecutiva. El índice había marcado USD 4.585 el 22 de octubre y desde entonces retrocedió todas las semanas, con el transpacífico como principal motivo: allí las tarifas cayeron por octava semana seguida por la demanda débil.",
-        "## Las rutas, una por una",
-        "Shanghái–Los Ángeles fue la ruta que más bajó: 8%, hasta USD 6.437 por FEU. Shanghái–Nueva York cedió 7% y quedó en USD 7.615. Una semana antes, esos tramos estaban en USD 7.026 y USD 8.194.",
-        "En Asia–Europa el movimiento fue el opuesto. Shanghái–Génova subió 8%, a USD 4.802, y acumula dos semanas de aumentos. Shanghái–Róterdam quedó sin cambios por segunda semana, en USD 3.485 según el informe (la edición anterior la había publicado en USD 3.496, también sin variación). Las fuentes consultadas no detallan esta semana los tramos de regreso ni los del Atlántico.",
-        "## Menos barcos y recargos para diciembre",
-        "Las navieras siguen recortando salidas. En el transpacífico hay siete cancelaciones (blank sailings) anunciadas para la semana próxima, frente a cinco en esta. En Asia–Europa y el Mediterráneo también son siete las previstas (tres hacia el norte de Europa y cuatro hacia el Mediterráneo), contra cuatro de esta semana, de acuerdo con el relevamiento de capacidad de Drewry.",
-        "Para el 1 de diciembre, varias líneas anunciaron en Asia–Europa recargos de temporada alta (PSS) de USD 1.000 a 1.500 por FEU, y tarifas FAK de USD 4.500 a 4.600 hacia el norte de Europa y de USD 6.400 a 6.800 hacia el Mediterráneo. Esos valores publicados están por encima de las tarifas spot que mide hoy el índice en las dos rutas. Drewry atribuye la firmeza esperada a la demanda de diciembre, antes del nuevo ciclo de contratos anuales y de los embarques previos al Año Nuevo Lunar.",
-        "## Suez, Ormuz y los puertos",
-        "El regreso de servicios al mar Rojo continúa: la consultora contó 60 buques en tránsito por el canal de Suez la semana pasada, frente a 57 en el informe anterior. En sentido contrario, Drewry menciona como factores de riesgo la congestión en los puertos europeos y la incertidumbre geopolítica en el estrecho de Ormuz. Uno de los riesgos que había señalado la semana pasada se moderó: el posible conflicto de los serenos en los puertos de Los Ángeles y Long Beach perdió fuerza después de un acuerdo tentativo.",
-        "## Qué espera Drewry y qué mirar desde la Argentina",
-        "Para el transpacífico, la consultora prevé nuevas bajas la semana próxima; para Asia–Europa y el Mediterráneo, subas en las próximas semanas. El WCI no mide rutas hacia Sudamérica, pero marca el clima del mercado en el que se negocian los fletes desde Asia. Para la costa este de Sudamérica, Hapag-Lloyd y CMA CGM anunciaron un aumento general de USD 1.000 por contenedor desde el 1 de diciembre, que Comexplora detalló el 23 de noviembre: lo que pague cada importador dependerá de su contrato, de la ruta y del momento en que reserve."
-      ],
-      "keyData": [
-        [
-          "WCI compuesto",
-          "USD 4.032 / FEU (−3,44%)"
-        ],
-        [
-          "Shanghái → Los Ángeles",
-          "USD 6.437 (−8%)"
-        ],
-        [
-          "Shanghái → Nueva York",
-          "USD 7.615 (−7%)"
-        ],
-        [
-          "Shanghái → Génova",
-          "USD 4.802 (+8%)"
-        ],
-        [
-          "Shanghái → Róterdam",
-          "USD 3.485 (sin cambios)"
-        ],
-        [
-          "Recargos Asia–Europa desde el 1/12",
-          "USD 1.000–1.500 por FEU"
-        ],
-        [
-          "Tránsitos por Suez (semana previa)",
-          "60 buques"
-        ]
-      ],
-      "topics": [
-        "Transporte marítimo",
-        "Logística",
-        "Asia",
-        "China",
-        "Estados Unidos",
-        "Europa"
-      ],
-      "countries": [
-        "China",
-        "Estados Unidos",
-        "Países Bajos",
-        "Italia",
-        "Global"
-      ],
-      "tags": [
-        "Fletes",
-        "Contenedores",
-        "WCI",
-        "Drewry",
-        "Blank sailings",
-        "Suez",
-        "Recargos"
-      ],
-      "visual": "container",
-      "impact": 2,
-      "affectsArgentina": false,
-      "explainer": {
-        "what": "El World Container Index de Drewry bajó 3% en la medición del 26 de noviembre y quedó en USD 4.032 por contenedor de 40 pies, su quinta baja semanal seguida.",
-        "why": "Es una referencia habitual de los fletes spot: el transpacífico sigue cayendo (Shanghái–Los Ángeles, USD 6.437, −8%), mientras Asia–Europa se encarece con recargos de USD 1.000 a 1.500 por FEU anunciados para el 1 de diciembre.",
-        "who": "Importadores y exportadores que contratan flete marítimo en contenedor, forwarders y navieras.",
-        "products": [
-          "Carga en contenedores"
-        ],
-        "next": "Drewry espera que las tarifas del transpacífico vuelvan a bajar la semana próxima y que las de Asia–Europa y el Mediterráneo suban en las próximas semanas.",
-        "nextSource": {
-          "name": "The Daily Cargo News – World Container Index",
-          "url": "https://www.thedcn.com.au/news/world-container-index-26-november-2026"
-        }
-      },
-      "sources": [
-        {
-          "name": "Drewry – World Container Index",
-          "type": "Consultora",
-          "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry"
-        },
-        {
-          "name": "The Daily Cargo News – World Container Index, 26 de noviembre de 2026",
-          "type": "Medio especializado",
-          "url": "https://www.thedcn.com.au/news/world-container-index-26-november-2026",
-          "primary": true
-        },
-        {
-          "name": "Texadviser (Fibre2Fashion)",
-          "type": "Medio especializado",
-          "url": "https://www.texadviser.com/drewry-wci-declines-3-4-but-freight-rates-set-to-rebound/"
-        },
-        {
-          "name": "MundoMarítimo – GRI Asia–América Latina",
-          "type": "Medio especializado",
-          "url": "https://www.mundomaritimo.cl/noticias/hapag-lloyd-y-cma-cgm-buscan-elevar-tarifas-en-us1000-por-contenedor-desde-asia-a-america-latina"
-        }
-      ],
-      "story": "fletes-contenedores",
-      "deadlines": [
-        {
-          "date": "2026-12-01",
-          "label": "Navieras: Hapag-Lloyd y CMA CGM aplican un aumento de USD 1.000 por contenedor en los fletes de Asia a América Latina",
-          "url": "https://www.mundomaritimo.cl/noticias/hapag-lloyd-y-cma-cgm-buscan-elevar-tarifas-en-us1000-por-contenedor-desde-asia-a-america-latina"
-        }
-      ]
-    },
-    {
-      "id": "mercosur-cumbre-4-diciembre-montevideo-cuotas-ue-sin-reparto-consejo-comercio-3-diciembre",
-      "date": "2026-11-27",
-      "kind": "noticia",
-      "title": "El Mercosur llega a la cumbre del 4 de diciembre sin repartir las cuotas de la UE: Lubetkin admite pocos avances y seguirá el «primero llegado»",
-      "summary": "A una semana de la 69.ª cumbre en Montevideo, el canciller uruguayo dijo que las negociaciones técnicas sobre el reparto de los cupos del acuerdo con la Unión Europea avanzaron poco. Sin acuerdo, los volúmenes se seguirán asignando por orden de llegada. La semana incluye un foro empresarial el 2 de diciembre y el primer Consejo de Comercio con la UE el 3.",
-      "body": [
-        "El canciller de Uruguay, Mario Lubetkin, reconoció el jueves 26 de noviembre que los socios del Mercosur todavía no se pusieron de acuerdo sobre cómo repartir entre ellos las cuotas de exportación que abrió el acuerdo con la Unión Europea, y que no está seguro de que el tema se resuelva en la cumbre de presidentes del viernes 4 de diciembre en Montevideo. Según Ámbito, Lubetkin admitió que en el plano técnico se avanzó poco y que un grupo de países está más cerca de una solución, sin decir cuáles.",
-        "Mientras no haya reparto, seguirá funcionando la asignación por orden de llegada: cada operación usa el cupo a medida que se presenta y se certifica, hasta agotarlo. Lubetkin anticipó que ese mecanismo continuará si el bloque entra en un segundo año sin acuerdo. Ámbito agrega que la discusión alcanza también a los cupos del entendimiento con la Asociación Europea de Libre Comercio (EFTA) y que Paraguay es el socio que más distancia mantiene.",
-        "## Una semana con tres citas",
-        "La cumbre será la 69.ª de jefes de Estado del Mercosur y la organiza Uruguay, que ejerce la presidencia pro tempore del bloque. Lubetkin confirmó que asistirán todos los presidentes del bloque, algo que no ocurrió en las dos reuniones anteriores, según Subrayado y Radio Montecarlo. El canciller habló de más de 30 asistentes entre presidentes, vicepresidentes, ministros y viceministros, de más de 20 países. Caras y Caretas informó que estarán la vicepresidenta de Vietnam, los ministros de Comercio de Corea del Sur y de Emiratos Árabes Unidos, y el viceministro de Relaciones Exteriores de Noruega en representación de la EFTA.",
-        "Antes habrá dos encuentros con la UE. El miércoles 2 de diciembre se hará en el Centro de Convenciones de Punta del Este el primer Foro Empresarial Mercosur–Unión Europea desde la firma del acuerdo, con más de 500 empresarios, funcionarios y representantes de organismos financieros, según La Nación de Paraguay. Están anunciados el comisario europeo de Comercio, Maroš Šefčovič, los ministros brasileños Mauro Vieira y Márcio Elias Rosa y el presidente uruguayo Yamandú Orsi, que cerraría el foro. El jueves 3, en Montevideo, se reunirá por primera vez el Consejo de Comercio del acuerdo interino, a nivel ministerial.",
-        "## Cómo funciona el acuerdo hasta ahora",
-        "El Acuerdo de Asociación y el Acuerdo Interino de Comercio se firmaron en Asunción el 17 de enero de 2026, y el interino se aplica en forma provisional desde el 1 de mayo. Su Comité de Comercio, copresidido por Uruguay y la UE, tuvo su primera reunión el 9 y el 10 de noviembre en Montevideo, donde se hizo una evaluación preliminar de los primeros seis meses y se revisó el trabajo de los subcomités, según informó el Mercosur y reprodujo IndexBox. Ese comité se reunirá una vez por año, alternando entre Bruselas y un país del Mercosur.",
-        "En paralelo avanza la ratificación del acuerdo de asociación completo en Europa: el 13 de noviembre lo aprobó la Cámara Baja de Alemania, como informó Comexplora. Y en el uso de las preferencias, el canciller argentino había difundido en octubre que la Argentina es el socio del bloque que más aprovecha el régimen, con casi el 60% de sus ventas a ese mercado bajo preferencias, frente a algo más de 39% en promedio para los otros tres socios.",
-        "## Qué se discute en el reparto",
-        "La cuota más disputada es la de carne vacuna: 99.000 toneladas en peso carcasa con un arancel intracuota de 7,5%, que se habilita en forma progresiva hasta completarse en 2031. Como Comexplora detalló en septiembre a partir de La Nación, Brasil propone repartir según las exportaciones totales de cada país, la Argentina y Uruguay prefieren tomar como base lo que cada uno vende a la UE, y Paraguay pide partes iguales, de 25% para cada socio. En aquel momento, los cancilleres se habían dado 60 días para volver a tratar el tema en el plano político, y el tema sigue sin resolverse.",
-        "Lubetkin, por su parte, destacó que a los exportadores uruguayos les fue bien en este primer año sin reparto con el arroz, la carne y la miel. En el caso de la miel, el cupo sin arancel se desbordó en los primeros meses con fuerte participación argentina, según datos de organizaciones agrarias españolas que publicó Comexplora en octubre.",
-        "## Qué está en juego para los exportadores argentinos",
-        "Con el sistema de orden de llegada, cada frigorífico o exportador compite por el mismo volumen con los de los otros tres países, y no sabe de antemano cuánto podrá colocar con preferencia. Las entidades del sector cárnico de la región habían pedido en septiembre que los certificados de exportación de cada país se compartan con transparencia. Uruguay, por su lado, sumará a la agenda de la cumbre su intención de ingresar al Acuerdo Transpacífico (CPTPP), según Ámbito y Subrayado, y Lubetkin aseguró que no darán ningún paso sin un diálogo fluido con los socios."
-      ],
-      "keyData": [
-        [
-          "Cumbre de presidentes del Mercosur",
-          "4 de diciembre, Montevideo"
-        ],
-        [
-          "Consejo de Comercio Mercosur–UE (primera reunión)",
-          "3 de diciembre, Montevideo"
-        ],
-        [
-          "Foro Empresarial Mercosur–UE",
-          "2 de diciembre, Punta del Este (más de 500 participantes)"
-        ],
-        [
-          "Cuota de carne vacuna del acuerdo",
-          "99.000 t peso carcasa, arancel 7,5%"
-        ],
-        [
-          "Pedido de Paraguay",
-          "25% para cada socio"
-        ],
-        [
-          "Aplicación provisional del acuerdo interino",
-          "Desde el 1 de mayo de 2026"
-        ]
-      ],
-      "topics": [
-        "Mercosur",
-        "Tratados y acuerdos",
-        "Exportaciones",
-        "Europa",
-        "Argentina",
-        "Latinoamérica"
-      ],
-      "countries": [
-        "Uruguay",
-        "Argentina",
-        "Brasil",
-        "Paraguay",
-        "Unión Europea"
-      ],
-      "tags": [
-        "UE–Mercosur",
-        "Cuotas",
-        "Carne vacuna",
-        "Miel",
-        "Arroz",
-        "Cumbre del Mercosur",
-        "EFTA",
-        "Lubetkin"
-      ],
-      "visual": "treaty",
-      "impact": 3,
-      "affectsArgentina": true,
-      "argentinaNote": "Sin reparto, los exportadores argentinos siguen compitiendo con los de Brasil, Paraguay y Uruguay por los mismos cupos de la UE con el sistema de orden de llegada, también en carne vacuna y miel.",
-      "argentinaImpact": {
-        "change": "Las cuotas de exportación a la UE siguen sin repartirse entre los socios del Mercosur y se asignan por orden de llegada; el tema llega abierto a la cumbre del 4 de diciembre.",
-        "who": "Frigoríficos, exportadores de miel, arroz y otros productos con cupo en la UE, y cámaras sectoriales.",
-        "sectors": [
-          "Carne vacuna",
-          "Miel",
-          "Arroz",
-          "Agroindustria"
-        ],
-        "flows": {
-          "importaciones": false,
-          "exportaciones": true,
-          "logistica": false,
-          "aranceles": true
-        }
-      },
-      "explainer": {
-        "what": "A una semana de la cumbre del Mercosur del 4 de diciembre en Montevideo, Uruguay reconoció que los socios no acordaron cómo repartir las cuotas de exportación del acuerdo con la UE.",
-        "why": "Mientras no haya reparto, los cupos —como el de 99.000 toneladas de carne vacuna— se asignan por orden de llegada, y cada exportador compite por el mismo volumen sin saber cuánto le corresponde a su país.",
-        "who": "Exportadores de carne, miel, arroz y otros productos con cuota en la UE de la Argentina, Brasil, Paraguay y Uruguay.",
-        "products": [
-          "Carne vacuna",
-          "Miel",
-          "Arroz"
-        ],
-        "next": "El reparto se tratará en la cumbre de presidentes del 4 de diciembre en Montevideo, aunque Uruguay no asegura que se resuelva; si no hay acuerdo, seguirá la asignación por orden de llegada.",
-        "nextSource": {
-          "name": "Ámbito",
-          "url": "https://www.ambito.com/uruguay/la-distribucion-las-cuotas-la-ue-sigue-resolverse-y-desafia-al-mercosur-la-antesala-la-cumbre-n6349706"
-        }
-      },
-      "sources": [
-        {
-          "name": "Ámbito",
-          "type": "Medio de comunicación",
-          "url": "https://www.ambito.com/uruguay/la-distribucion-las-cuotas-la-ue-sigue-resolverse-y-desafia-al-mercosur-la-antesala-la-cumbre-n6349706",
-          "primary": true
-        },
-        {
-          "name": "Subrayado",
-          "type": "Medio de comunicación",
-          "url": "https://www.subrayado.com.uy/lubetkin-confirmo-presencia-todos-los-presidentes-del-mercosur-la-cumbre-montevideo-n1024442"
-        },
-        {
-          "name": "Radio Montecarlo",
-          "type": "Medio de comunicación",
-          "url": "https://www.radiomontecarlo.com.uy/es/2026/11/25/nacionales/mario-lubetkin-confirmo-que-todos-los-presidentes-estaran-en-la-cumbre-del-mercosur/"
-        },
-        {
-          "name": "Caras y Caretas",
-          "type": "Medio de comunicación",
-          "url": "https://www.carasycaretas.com.uy/politica/todos-los-presidentes-del-mercosur-llegaran-montevideo-que-otros-paises-participaran-n101408"
-        },
-        {
-          "name": "La Nación (Paraguay)",
-          "type": "Medio de comunicación",
-          "url": "https://www.lanacion.com.py/negocios/2026/11/25/mercosur-y-union-europea-reuniran-a-mas-de-500-empresarios-en-foro-de-negocios-en-uruguay/"
-        },
-        {
-          "name": "IndexBox – Comité de Comercio del Acuerdo Interino",
-          "type": "Medio especializado",
-          "url": "https://www.indexbox.io/es/blog/mercosur-and-eu-hold-first-trade-committee-meeting-under-interim-agreement/"
-        },
-        {
-          "name": "La Nación – reparto de la cuota de carne (septiembre)",
-          "type": "Medio de comunicación",
-          "url": "https://www.lanacion.com.ar/economia/campo/las-posiciones-siguen-alejadas-sigue-la-grieta-en-el-mercosur-por-una-cuota-clave-para-la-carne-nid18092026/"
-        }
-      ],
-      "story": "ue-mercosur",
-      "deadlines": [
-        {
-          "date": "2026-12-02",
-          "label": "Mercosur–UE: primer Foro Empresarial desde la firma del acuerdo, en Punta del Este",
-          "url": "https://www.lanacion.com.py/negocios/2026/11/25/mercosur-y-union-europea-reuniran-a-mas-de-500-empresarios-en-foro-de-negocios-en-uruguay/"
-        },
-        {
-          "date": "2026-12-03",
-          "label": "Mercosur–UE: primera reunión ministerial del Consejo de Comercio del acuerdo interino, en Montevideo",
-          "url": "https://www.indexbox.io/es/blog/mercosur-and-eu-hold-first-trade-committee-meeting-under-interim-agreement/"
-        },
-        {
-          "date": "2026-12-04",
-          "label": "Mercosur: 69.ª cumbre de presidentes en Montevideo",
-          "url": "https://www.subrayado.com.uy/lubetkin-confirmo-presencia-todos-los-presidentes-del-mercosur-la-cumbre-montevideo-n1024442"
-        }
-      ],
-      "absorbs": [
-        "la-distribucion-de-las-cuotas-a-la-ue-sigue-sin-resolverse-y-desafia-al-mercosur",
-        "todos-los-presidentes-del-mercosur-llegaran-a-montevideo-que-otros-paises-partic",
-        "todos-los-presidentes-del-mercosur-vendran-a-la-cumbre-destaco-lubetkin",
-        "el-primer-foro-empresarial-mercosur-union-europea-tras-la-firma-del-acuerdo--2"
-      ]
-    },
-    {
-      "id": "ue-china-brasil-rechazan-aranceles-seccion-301-sobrecapacidad-techo-15-por-ciento-no-cedera",
-      "date": "2026-11-27",
-      "kind": "noticia",
-      "title": "La UE, China y Brasil rechazan los nuevos aranceles propuestos por EE.UU. bajo la Sección 301: Bruselas invoca el techo de 15% y Pekín se reserva medidas",
-      "summary": "La Comisión Europea negó ser fuente de sobrecapacidad y exigió que cualquier recargo respete el tope de 15% acordado en 2025. China calificó la investigación de unilateral y contraria a la OMC, y Brasil dijo que no cederá ante la propuesta de gravar sus aviones y su azúcar. Las medidas no rigen: siguen las consultas públicas.",
-      "body": [
-        "Las propuestas arancelarias que la Oficina del Representante Comercial de Estados Unidos (USTR) anunció el miércoles 25 de noviembre recibieron en menos de 48 horas el rechazo de tres de los principales destinatarios. La Comisión Europea objetó que se presente a Europa como fuente de sobrecapacidad industrial; el Ministerio de Comercio de China las calificó de acto unilateral contrario a las reglas de la Organización Mundial del Comercio (OMC), y el Gobierno de Brasil expresó su indignación por la propuesta de gravar sus aviones y su azúcar.",
-        "Ninguno de los recargos está vigente. Como informó Comexplora, la USTR cerró 14 de las 16 investigaciones sobre sobrecapacidad abiertas en marzo y propuso aranceles adicionales de 15% a 35% según el país, y en un expediente separado planteó terminar la exención de los aviones terminados brasileños, con un arancel de 10%, y subir los derechos al azúcar fuera de cuota. Ambas propuestas pasan ahora por períodos de comentarios y audiencias.",
-        "## La UE invoca el techo de 15%",
-        "El vocero de Comercio de la Comisión Europea, Olof Gill, dijo que Bruselas estudiará las conclusiones preliminares, pero que rechaza con firmeza la premisa de que Europa genere sobrecapacidad estructural; por el contrario, sostuvo que está entre las regiones más expuestas a ese problema, que atribuyó sobre todo a la intervención estatal en terceros países, según el comunicado reproducido por la Cámara de Comercio Europeo-Americana de Nueva York y por la radiotelevisión irlandesa RTÉ.",
-        "El punto central es el acuerdo marco de 2025 entre Ursula von der Leyen y Donald Trump, que fija un tope de 15%, con todos los cargos incluidos, para la mayoría de los productos europeos. Gill dijo que la UE espera que cualquier medida que surja de esta investigación lo respete por completo, también cuando se sume a los derechos que ya existen. La ministra de Relaciones Exteriores y Comercio de Irlanda, Helen McEntee, subrayó ante RTÉ que la decisión no crea por ahora aranceles nuevos y que sigue el 10% vigente para los bienes europeos, salvo exenciones, y anticipó que conversará el tema con Šefčovič en el Consejo de Asuntos Exteriores en formato Comercio del lunes 30 de noviembre.",
-        "Las fuentes no coinciden en la tasa propuesta para la UE: los estudios Baker McKenzie y Husch Blackwell la ubican en hasta 15%, descontados el arancel de nación más favorecida y los recargos existentes, mientras que el comunicado reproducido en Nueva York cita, con base en Reuters, un rango de 20% a 40% para China, la UE y otros doce países.",
-        "## China se reserva el derecho a responder",
-        "El vocero del Ministerio de Comercio chino, He Yadong, dijo en su conferencia del jueves 26 que su país se opone con firmeza a los recargos, que la investigación es un caso típico de unilateralismo que viola las normas de la OMC y que el argumento de la sobrecapacidad encubre proteccionismo, según la agencia Xinhua. Agregó que China se reserva el derecho de tomar las medidas necesarias.",
-        "Pekín también pidió a Washington que acelere sus procedimientos internos para aplicar el arreglo de reducción recíproca de aranceles por unos USD 30.000 millones acordado en septiembre, cuyos productos quedaron exentos de la propuesta. Según la agencia surcoreana SBS, a China se le propuso una tasa de hasta 20%, que podría llegar a 40% si no se extiende la tregua comercial con EE.UU., que vence el 10 de enero de 2027.",
-        "## Brasil: «no cederá»",
-        "En una nota difundida el 25 de noviembre por la Secretaría de Comunicación de la Presidencia, el Gobierno brasileño calificó la decisión de la USTR de inaceptable en medio de una negociación bilateral en curso y afirmó que el país no cederá ante ese tipo de amenaza. Recordó que negocia de buena fe desde hace más de un año sobre la Sección 301: tras la llamada entre Lula y Trump del 21 de agosto, los ministros Mauro Vieira (Relaciones Exteriores) y Márcio Elias Rosa (Desarrollo, Industria y Comercio) se reunieron con el representante comercial Jamieson Greer en forma virtual el 31 de agosto y en persona el 30 de septiembre, y según la nota los términos de referencia prometidos por Greer nunca llegaron.",
-        "Brasil dijo que seguirá buscando una salida negociada, sin perjuicio de acciones en la OMC, y no descartó medidas de reciprocidad. En la OMC, Washington había bloqueado el 24 de noviembre el primer pedido brasileño de un panel contra esos aranceles, según Exame.",
-        "## Qué sigue",
-        "Para el expediente de Brasil, la USTR fijó el 7 de diciembre como plazo para pedir la palabra en la audiencia, el 30 de diciembre para los comentarios escritos y el 14 de enero de 2027 para la audiencia pública. Para los recargos por sobrecapacidad, los comentarios vencen el 5 de enero y las audiencias empiezan el 25 de enero. Según un funcionario estadounidense citado por RTÉ, la aplicación sería en enero como pronto. La Argentina no figura entre las economías alcanzadas por ninguna de las dos propuestas."
-      ],
-      "keyData": [
-        [
-          "Techo arancelario UE–EE.UU. (acuerdo de 2025)",
-          "15%, todo incluido"
-        ],
-        [
-          "Arancel vigente para bienes de la UE, según Irlanda",
-          "10%"
-        ],
-        [
-          "Tasa propuesta para China",
-          "Hasta 20% (40% si no se extiende la tregua)"
-        ],
-        [
-          "Arreglo arancelario EE.UU.–China exento",
-          "USD 30.000 millones"
-        ],
-        [
-          "Arancel propuesto a aviones brasileños",
-          "10%"
-        ],
-        [
-          "Consejo de Asuntos Exteriores (Comercio) de la UE",
-          "30 de noviembre"
-        ],
-        [
-          "Audiencia de la USTR por Brasil",
-          "14 de enero de 2027"
-        ]
-      ],
-      "topics": [
-        "Aranceles",
-        "Estados Unidos",
-        "Europa",
-        "China",
-        "Geopolítica y comercio",
-        "Latinoamérica",
-        "Regulaciones"
-      ],
-      "countries": [
-        "Estados Unidos",
-        "Unión Europea",
-        "China",
-        "Brasil",
-        "Irlanda"
-      ],
-      "tags": [
-        "Sección 301",
-        "USTR",
-        "Sobrecapacidad",
-        "Embraer",
-        "Azúcar",
-        "OMC",
-        "Represalias"
-      ],
-      "visual": "court",
-      "impact": 2,
-      "affectsArgentina": false,
-      "explainer": {
-        "what": "La UE, China y Brasil rechazaron los aranceles adicionales que EE.UU. propuso el 25 de noviembre bajo la Sección 301, por sobrecapacidad y, en el caso de Brasil, sobre aviones y azúcar.",
-        "why": "Abre una nueva ronda de tensión comercial: Bruselas exige respetar el techo de 15% acordado en 2025, Pekín se reserva medidas y Brasil no descarta la reciprocidad ni acciones en la OMC.",
-        "who": "Exportadores de la UE, China y Brasil a EE.UU., importadores estadounidenses y cadenas que dependen de esos flujos.",
-        "products": [
-          "Manufacturas",
-          "Aviones",
-          "Azúcar"
-        ],
-        "next": "Irlanda llevará el tema al Consejo de Asuntos Exteriores (Comercio) de la UE del 30 de noviembre; en el expediente de Brasil, los comentarios vencen el 30 de diciembre y la audiencia pública es el 14 de enero de 2027.",
-        "nextSource": {
-          "name": "RTÉ",
-          "url": "https://www.rte.ie/news/us/2026/1125/1600630-us-tariffs/"
-        }
-      },
-      "sources": [
-        {
-          "name": "RTÉ",
-          "type": "Medio de comunicación",
-          "url": "https://www.rte.ie/news/us/2026/1125/1600630-us-tariffs/",
-          "primary": true
-        },
-        {
-          "name": "Comisión Europea (vía EACCNY)",
-          "type": "Comunicado oficial",
-          "url": "https://eaccny.com/news/chapternews/european-commission-responds-to-us-tariff-threats/"
-        },
-        {
-          "name": "Xinhua – Ministerio de Comercio de China",
-          "type": "Agencia de noticias",
-          "url": "https://english.news.cn/20261126/9d9be8e730414538ba58af52d044e80e/c.html"
-        },
-        {
-          "name": "SBS",
-          "type": "Medio de comunicación",
-          "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008865600"
-        },
-        {
-          "name": "Gobierno de Brasil – Nota a la prensa (Secom, vía Agência Gov)",
-          "type": "Comunicado oficial",
-          "url": "https://agenciagov.ebc.com.br/noticias/202611/nota-a-imprensa-sobre-as-tarifas-dos-estados-unidos-para-aeronaves-e-acucar-brasileiro"
-        },
-        {
-          "name": "MDIC – Nota sobre las tarifas de EE.UU.",
-          "type": "Organismo oficial",
-          "url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2026/novembro/nota-sobre-as-tarifas-dos-estados-unidos-para-aeronaves-e-acucar-brasileiro"
-        },
-        {
-          "name": "USTR – Consulta pública sobre la Sección 301 contra Brasil",
-          "type": "Organismo oficial",
-          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-invites-public-comment-proposed-modifications-section-301-action-regarding-brazils-unreasonable"
-        },
-        {
-          "name": "Baker McKenzie",
-          "type": "Estudio jurídico",
-          "url": "https://globalimportblog.bakermckenzie.com/2026/11/25/us-ustr-proposes-section-301-tariffs-on-14-economies-over-structural-excess-capacity/"
-        },
-        {
-          "name": "Exame",
-          "type": "Medio de comunicación",
-          "url": "https://exame.com/mundo/eua-bloqueiam-na-omc-pedido-do-brasil-contra-tarifas-de-ate-375/"
-        }
-      ],
-      "story": "aranceles-eeuu",
-      "deadlines": [
-        {
-          "date": "2026-11-30",
-          "label": "UE: Consejo de Asuntos Exteriores en formato Comercio, donde Irlanda planteará los aranceles propuestos por EE.UU. bajo la Sección 301",
-          "url": "https://www.rte.ie/news/us/2026/1125/1600630-us-tariffs/"
-        },
-        {
-          "date": "2026-12-07",
-          "label": "EE.UU.: vence el plazo para pedir exponer en la audiencia sobre los cambios a la Sección 301 contra Brasil (aviones y azúcar)",
-          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-invites-public-comment-proposed-modifications-section-301-action-regarding-brazils-unreasonable"
-        },
-        {
-          "date": "2026-12-30",
-          "label": "EE.UU.: vence el plazo de comentarios sobre los cambios a la Sección 301 contra Brasil (aviones y azúcar)",
-          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-invites-public-comment-proposed-modifications-section-301-action-regarding-brazils-unreasonable"
-        },
-        {
-          "date": "2027-01-14",
-          "label": "EE.UU.: audiencia pública de la USTR sobre los cambios a la Sección 301 contra Brasil (aviones y azúcar)",
-          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-invites-public-comment-proposed-modifications-section-301-action-regarding-brazils-unreasonable"
-        },
-        {
-          "date": "2027-01-05",
-          "label": "EE.UU.: vence el plazo de comentarios sobre los aranceles propuestos por sobrecapacidad (Sección 301) a 14 economías",
-          "url": "https://globalimportblog.bakermckenzie.com/2026/11/25/us-ustr-proposes-section-301-tariffs-on-14-economies-over-structural-excess-capacity/"
-        },
-        {
-          "date": "2027-01-25",
-          "label": "EE.UU.: empieza en la USITC la audiencia pública sobre los aranceles por sobrecapacidad (Sección 301) a 14 economías",
-          "url": "https://globalimportblog.bakermckenzie.com/2026/11/25/us-ustr-proposes-section-301-tariffs-on-14-economies-over-structural-excess-capacity/"
-        }
-      ],
-      "absorbs": [
-        "china-se-reserva-el-derecho-a-tomar-medidas-tras-los-nuevos-aranceles-de-eeuu",
-        "china-rechaza-nuevos-aranceles-de-estados-unidos-y-alerta-riesgos-globales",
-        "brasil-rechaza-nuevos-aranceles-de-ee-uu-y-expresa-indignacion",
-        "brasil-y-la-union-europea-rechazaron-los-nuevos-aranceles-de-trump-y-exigieron-r",
-        "socios-comerciales-rechazan-la-amenaza-de-aranceles-de-trump-china-advierte-que"
-      ]
     }
   ],
   "ingestion": {
-    "ranAt": "2026-11-27T03:38:49Z",
+    "ranAt": "2026-11-27T15:04:46Z",
     "sources": [
       {
         "source": "OMC · Organización Mundial del Comercio",
@@ -169132,7 +169007,7 @@
         "url": "https://www.aduananews.com/feed/",
         "ok": true,
         "items": 12,
-        "added": 0,
+        "added": 2,
         "updated": 0,
         "skipped": 3
       },
@@ -169141,45 +169016,45 @@
         "url": "https://portalportuario.cl/feed/",
         "ok": true,
         "items": 15,
-        "added": 11,
+        "added": 7,
         "updated": 0,
-        "skipped": 4
+        "skipped": 8
       },
       {
         "source": "Google Noticias · Comercio exterior Argentina",
         "url": "https://news.google.com/rss/search?q=%22comercio+exterior%22+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 51,
+        "items": 55,
         "added": 4,
         "updated": 0,
-        "skipped": 35
+        "skipped": 41
       },
       {
         "source": "Google Noticias · Aduana e importaciones Argentina",
         "url": "https://news.google.com/rss/search?q=(aduana+OR+importaciones+OR+ARCA)+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 51,
+        "items": 27,
         "added": 4,
         "updated": 0,
-        "skipped": 38
+        "skipped": 15
       },
       {
         "source": "Google Noticias · Exportaciones Argentina",
         "url": "https://news.google.com/rss/search?q=exportaciones+Argentina+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 75,
+        "items": 60,
         "added": 4,
         "updated": 0,
-        "skipped": 59
+        "skipped": 46
       },
       {
         "source": "Google Noticias · Mercosur",
         "url": "https://news.google.com/rss/search?q=Mercosur+(acuerdo+OR+comercio+OR+arancel)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 28,
+        "items": 30,
         "added": 4,
         "updated": 0,
-        "skipped": 16
+        "skipped": 19
       },
       {
         "source": "Google Noticias · Aranceles y comercio internacional",
@@ -169188,16 +169063,16 @@
         "items": 100,
         "added": 4,
         "updated": 0,
-        "skipped": 90
+        "skipped": 88
       },
       {
         "source": "Google Noticias · Logística y fletes",
         "url": "https://news.google.com/rss/search?q=(fletes+OR+navieras+OR+%22transporte+mar%C3%ADtimo%22+OR+%22carga+a%C3%A9rea%22+OR+portacontenedores)+when:2d&hl=es-419&gl=AR&ceid=AR:es-419",
         "ok": true,
-        "items": 97,
+        "items": 95,
         "added": 4,
         "updated": 0,
-        "skipped": 79
+        "skipped": 78
       }
     ],
     "curatedDuplicates": [
@@ -169215,49 +169090,94 @@
         "title": "La balanza comercial amplió su superávit en octubre, hasta los USD 3.394 millones",
         "url": "https://aduananews.com/la-balanza-comercial-amplio-su-superavit-en-octubre-hasta-los-usd-3-394-millones/?utm_source=rss&utm_medium=rss&utm_campaign=la-balanza-comercial-amplio-su-superavit-en-octubre-hasta-los-usd-3-394-millones",
         "curated": "indec-ica-octubre-2026-exportaciones-record-10061-superavit-3394"
+      },
+      {
+        "title": "Balanza comercial récord: octubre cerró con un saldo positivo de USD 3.394 millones por el empuje energético y menos…",
+        "url": "https://puntoapunto.com.ar/balanza-comercial-record-octubre-cerro-con-un-saldo-positivo-de-usd-3-394-millones-por-el-empuje-energetico-y-menos-importaciones/",
+        "curated": "indec-ica-octubre-2026-exportaciones-record-10061-superavit-3394"
+      },
+      {
+        "title": "EE.UU. propone elevar aranceles a las importaciones de azúcar y aeronaves procedentes de Brasil",
+        "url": "https://www.mundomaritimo.cl/noticias/eeuu-propone-elevar-aranceles-a-las-importaciones-de-azucar-y-aeronaves-procedentes-de-brasil",
+        "curated": "ustr-brasil-seccion-301-arancel-10-aviones-embraer-azucar-fuera-de-cuota-omc-panel-bloqueado"
+      },
+      {
+        "title": "Trump.Aranceles.S02E27",
+        "url": "https://www.zonadocs.mx/2026/11/26/trump-aranceles-s02e27/",
+        "curated": "ustr-seccion-301-sobrecapacidad-14-economias-aranceles-propuestos-vietnam-35-china-20-ue-15"
+      },
+      {
+        "title": "Exportaciones de litio en Argentina registran crecimiento del 162%",
+        "url": "https://larazon.bo/economia-y-empresa/2026/11/26/exportaciones-de-litio-en-argentina-registran-crecimiento-del-162/",
+        "curated": "exportaciones-mineras-enero-octubre-2026-7455-millones-litio-china-supera-eeuu"
+      },
+      {
+        "title": "Paraguay insistirá en cuotas equitativas de exportación a la UE en cumbre del Mercosur",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYkkyYjVNNU1zS1IwaW55S2s5N05BWHVFWkNQWDF6Z0VJakJUZTA5cjdycDdyREdpLWxOdmZLQ19oWEJtSDljNG1OYi1sV3pDMS1pWGtOT3MzY0o3R0pfYzFPdWhLQ2VKXzNaZHJMZmNZdFRqTllwQVRLWkhkUzEyYzNwa3FzRGg3MWZHYkR0Q1pvZzh6cVRkdUZsbzQ1Wm1ldlJGc0tocXMyekxtTGVTbFE1eUhjT2FrZ3JJcGVqN2pSS1p1Ykx6NTdqdEhDaXZRT1JXNEln0gHwAUFVX3lxTE41LWF4MFRBWm52NUUzTXdCeGgxUXdvU28wTk1QbDZTdF9oUU5tem5CT2FkbzRHVnpmLWJFWWhvU3dwZWMwbnRER04yZnpPLUFVUDctTzNwbk9fMDlZblVjNEtEZVJfdnRmTlp1VXFKQ3lkenpwQVM3X0kydVRxTlo3UUJEam9FcEdYM2p5ZWdCUXdaOXBWVWVCeUNPS1IwRW9tWF9PQXFqNVdaaGlQNWlHbDBtYzZySjVWY29QNmJwR01ObDVGUnpVMm1hVXdHNTJoekpyMVpCVWRuV2FXeWxSdVgtWmFMTXl2ajY0Z2taSg?oc=5",
+        "curated": "mercosur-cumbre-4-diciembre-montevideo-cuotas-ue-sin-reparto-consejo-comercio-3-diciembre"
+      },
+      {
+        "title": "El primer foro empresarial MERCOSUR–Unión Europea tras la firma del acuerdo entre ambos bloques marca un nuevo hito en…",
+        "url": "https://prensamercosur.org/2026/11/26/el-primer-foro-empresarial-mercosur-union-europea-tras-la-firma-del-acuerdo-entre-ambos-bloques-marca-un-nuevo-hito-en-sus-relaciones/",
+        "curated": "mercosur-cumbre-4-diciembre-montevideo-cuotas-ue-sin-reparto-consejo-comercio-3-diciembre"
+      },
+      {
+        "title": "China rechaza nuevos aranceles de Estados Unidos y alerta riesgos globales",
+        "url": "https://www.telesurtv.net/china-rechazo-aranceles-eeuu-riesgos-globales/",
+        "curated": "ue-china-brasil-rechazan-aranceles-seccion-301-sobrecapacidad-techo-15-por-ciento-no-cedera"
+      },
+      {
+        "title": "Socios comerciales rechazan la amenaza de aranceles de Trump; China advierte que podría responder",
+        "url": "https://es-us.noticias.yahoo.com/socios-comerciales-rechazan-amenaza-aranceles-185123425.html",
+        "curated": "ue-china-brasil-rechazan-aranceles-seccion-301-sobrecapacidad-techo-15-por-ciento-no-cedera"
+      },
+      {
+        "title": "Brasil rechaza nuevos aranceles de EE. UU. y expresa indignación",
+        "url": "https://elnacional.com.py/mundo/brasil-rechaza-nuevos-aranceles-ee-uu-expresa-indignacion-n115850",
+        "curated": "ue-china-brasil-rechazan-aranceles-seccion-301-sobrecapacidad-techo-15-por-ciento-no-cedera"
+      },
+      {
+        "title": "Todos los presidentes del Mercosur llegarán a Montevideo: qué otros países participarán",
+        "url": "https://www.carasycaretas.com.uy/politica/todos-los-presidentes-del-mercosur-llegaran-montevideo-que-otros-paises-participaran-n101408",
+        "curated": "mercosur-cumbre-4-diciembre-montevideo-cuotas-ue-sin-reparto-consejo-comercio-3-diciembre"
+      },
+      {
+        "title": "China se reserva el derecho a tomar \"medidas\" tras los nuevos aranceles de EEUU",
+        "url": "https://www.clarin.com/estados-unidos/china-se-reserva-el-derecho-a-tomar-medidas-tras-los-nuevos-aranceles-de-eeuu_0_KPjtyWUvva.html",
+        "curated": "ue-china-brasil-rechazan-aranceles-seccion-301-sobrecapacidad-techo-15-por-ciento-no-cedera"
+      },
+      {
+        "title": "Brasil y la Unión Europea rechazaron los nuevos aranceles de Trump y exigieron respetar los acuerdos comerciales",
+        "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOLXgtZEp0b1ZkMDBCckVpeWdiSFNzeE9vOVpkOEFxX2hDamhhRWdoc0JXVnVGNzlNcXd0R3hDanhMNFptc0s5WnFMcHoxMXlsN2xxbHhEOWI2TUNRM3BqYm5zdGE2aFAtTHFzS0liV0ttclhXNFhPR3VWV01DdjVRYmNLUmYwYmJyZTlYUWtscnQxZkRJVzZSVmlCbU1wYmRBRW9vdThkUjNncGxLNV9ZSkZOZmt0LXprdEo2MWtiRlc2bV9MUl9GTDJwcDhJOEpaenJhU0pqdXVDdjdPdmhZd29WX2U4eUFuVWEyY09lODZ1Ymo50gGPAkFVX3lxTE5ibWFZaFhPZWYwZFhjaUpTZzFJMVA5SkRYU2RTaXI5UWVfUGV5M0dNZjVuVVBaRGZSemtETzhIRy1GR09hYTBRWDhLUlBVZFE0UjBPajhVcU93WUZyNHF6Ykx3RGZVSk5JZVVEd0Z6LUppOG9VZWsyQktEQ1RwZGhLa2R1VnR5VGV6cUJCWXRrR2FWTVhnbUdDNDV3bUFOeVVGcklVeXFhLXJmY3Fja2dHbXJWNXZfQ1hraTdJX3pfejQwb1Ntc0VBa0NxV0t4a0tXV1U3VjJGeWpmc2p2SWg4Mm02N2xZY1c2QjgzbG9SY1pKQWZzQmRTUHEzS2ZYN21fZnRrT2xIMVZYYTl0dGs?oc=5",
+        "curated": "ue-china-brasil-rechazan-aranceles-seccion-301-sobrecapacidad-techo-15-por-ciento-no-cedera"
+      },
+      {
+        "title": "Todos los presidentes del Mercosur vendrán a la Cumbre, destacó Lubetkin",
+        "url": "https://mediospublicos.uy/todos-los-presidentes-del-mercosur-vendran-a-la-cumbre-destaco-lubetkin/",
+        "curated": "mercosur-cumbre-4-diciembre-montevideo-cuotas-ue-sin-reparto-consejo-comercio-3-diciembre"
       }
     ],
     "excluded": 0,
     "grouped": [
       {
-        "main": "el-primer-foro-empresarial-mercosur-union-europea-tras-la-firma-del-acuerdo--2",
+        "main": "denuncian-que-la-ue-importa-este-ano-mas-de-821-000-toneladas-de-arroz-de-mercos",
         "merged": [
-          "el-primer-foro-empresarial-mercosur-union-europea-tras-la-firma-del-acuerdo-entr"
+          "la-unio-alerta-de-que-el-arroz-importado-de-mercosur-myanmar-y-camboya-llega-a-l"
         ]
       },
       {
-        "main": "argentina-supero-a-brasil-en-exportaciones-de-maiz-24-de-noviembre-de-2026",
+        "main": "centro-despachantes-de-aduana-de-la-republica-argentina-se-inauguro-la-muestra-d",
         "merged": [
-          "exportaciones-de-maiz-argentina-crecio-41-y-supero-el-desempeno-de-brasil"
-        ]
-      },
-      {
-        "main": "la-industria-profundizo-su-caida-por-el-freno-del-consumo-y-el-avance-de-las-imp",
-        "merged": [
-          "industria-nacional-en-crisis-por-caida-de-consumo-e-importaciones"
-        ]
-      },
-      {
-        "main": "brasil-y-la-union-europea-rechazaron-los-nuevos-aranceles-de-trump-y-exigieron-r",
-        "merged": [
-          "china-japon-y-la-union-europea-rechazan-nuevos-aranceles-de-trump"
-        ]
-      },
-      {
-        "main": "santiago-del-estero-lidera-las-exportaciones-del-noa-con-un-record-de-u-s-1-513",
-        "merged": [
-          "santiago-del-estero-y-el-campo-record-exportador-y-liderazgo-en-el-norte-argenti",
-          "santiago-del-estero-alcanzo-un-record-de-exportaciones-en-2025-con-u-s1-513-mill",
-          "con-us-1-513-millones-santiago-del-estero-encabezo-las-exportaciones-del-norte-a"
+          "centro-despachantes-de-aduana-de-la-republica-argentina-el-cda-realizo-su-asambl"
         ]
       }
     ],
     "googleNews": {
-      "pending": 38,
-      "resolved": 22,
-      "withSummary": 14,
+      "pending": 25,
+      "resolved": 23,
+      "withSummary": 15,
       "withPhoto": 0,
-      "failed": 16,
+      "failed": 2,
       "duplicates": 0
     },
     "noRead": 0
